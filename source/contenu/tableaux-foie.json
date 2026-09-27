@@ -30,7 +30,8 @@
     "eructations",
     "erection",
     "libido",
-    "douleur-testicules"
+    "douleur-testicules",
+    "cycles-irreguliers"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges.",
@@ -87,7 +88,8 @@
    ],
    "groupes": [
     "femme",
-    "homme"
+    "homme",
+    "menopause"
    ],
    "simple": "Le stress bloque tout : tensions, gorge serrée, humeur en dents de scie, digestion qui suit les émotions.",
    "reperes": [
@@ -317,6 +319,9 @@
     "Vertiges",
     "Acouphènes",
     "Ménopause"
+   ],
+   "groupes": [
+    "menopause"
    ]
   },
   {

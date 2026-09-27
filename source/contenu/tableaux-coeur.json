@@ -272,6 +272,9 @@
     "Sueurs nocturnes",
     "Ménopause",
     "Surmenage"
+   ],
+   "groupes": [
+    "menopause"
    ]
   },
   {
@@ -452,7 +455,8 @@
    ],
    "etiquette": "Cœur · Rate",
    "groupes": [
-    "homme"
+    "homme",
+    "menopause"
    ],
    "simple": "Trop de soucis et de fatigue : on pense sans arrêt, on dort mal, on digère mal.",
    "reperes": [
@@ -495,7 +499,8 @@
     "pollutions-nocturnes",
     "pertes-seminales",
     "libido-excessive",
-    "ejaculation-precoce"
+    "ejaculation-precoce",
+    "chaleur-corps"
    ],
    "contre": [
     "langue-pale",
@@ -556,7 +561,8 @@
    ],
    "etiquette": "Cœur · Rein",
    "groupes": [
-    "homme"
+    "homme",
+    "menopause"
    ],
    "simple": "Le corps est épuisé et l'esprit trop actif : nuits blanches, cœur qui s'emballe, bouffées de chaleur.",
    "reperes": [

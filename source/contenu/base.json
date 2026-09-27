@@ -1,5 +1,5 @@
 {
- "version": "0.8.1",
+ "version": "0.9.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -107,6 +107,12 @@
    "id": "femme",
    "nom": "Cycle féminin",
    "zh": "妇科"
+  },
+  {
+   "id": "menopause",
+   "nom": "Ménopause",
+   "zh": "绝经",
+   "sous": "Avant, pendant et après l'arrêt des règles"
   },
   {
    "id": "homme",

@@ -39,7 +39,8 @@
     "douleurs-froid",
     "mictions-frequentes",
     "fertilite",
-    "humidite-intime"
+    "humidite-intime",
+    "cycles-irreguliers"
    ],
    "contre": [
     "chaleur-corps",
@@ -114,10 +115,12 @@
     "Garde les reins et les pieds au chaud."
    ],
    "groupes": [
-    "homme"
+    "homme",
+    "menopause"
    ],
    "simple": "Le feu de fond du corps faiblit : froid du bas du dos, urines abondantes, grande fatigue.",
    "reperes": [
+    "Ménopause",
     "Fatigue profonde",
     "Frilosité",
     "Baisse de libido",
@@ -163,7 +166,8 @@
     "langue-fissuree",
     "douleur-genou",
     "secheresse-intime",
-    "fertilite"
+    "fertilite",
+    "cycles-irreguliers"
    ],
    "contre": [
     "frilosite",
@@ -226,7 +230,8 @@
     "Le Yin se refait la nuit : couche-toi avant 23 h."
    ],
    "groupes": [
-    "homme"
+    "homme",
+    "menopause"
    ],
    "simple": "Les réserves s'épuisent : sueurs la nuit, bouffées de chaleur, acouphènes, bas du dos faible.",
    "reperes": [
@@ -471,7 +476,8 @@
     "erection",
     "douleur-genou",
     "teint-sombre",
-    "cephalee-sourde"
+    "cephalee-sourde",
+    "cycles-irreguliers"
    ],
    "contre": [],
    "langue": "Variable, souvent pâle ou rouge sans enduit.",

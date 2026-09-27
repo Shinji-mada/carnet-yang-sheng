@@ -302,6 +302,112 @@
     "Stress",
     "Trac"
    ]
+  },
+  {
+   "id": "rn-yin-yang",
+   "organe": "rein",
+   "groupes": [
+    "menopause"
+   ],
+   "nom": "Vide de Yin et de Yang du Rein",
+   "zh": "肾阴阳两虚",
+   "py": "Shèn yīn yáng liǎng xū",
+   "simple": "Les réserves de chaud et de frais s'épuisent en même temps : bouffées de chaleur puis frissons, sueurs, pieds froids, fatigue.",
+   "reperes": [
+    "Ménopause",
+    "Bouffées de chaleur",
+    "Sueurs nocturnes",
+    "Pieds froids",
+    "Fatigue"
+   ],
+   "resume": "Le Rein s'épuise des deux côtés à la fois : on a chaud puis froid, des sueurs la nuit mais les pieds glacés, le bas du dos faible. Le tableau le plus typique de la ménopause.",
+   "causes": [
+    "Âge et baisse naturelle des réserves du Rein",
+    "Surmenage, grossesses rapprochées",
+    "Longue maladie"
+   ],
+   "mecanisme": "Le Rein garde à la fois le Yin, qui rafraîchit, et le Yang, qui réchauffe. Autour de la ménopause, les deux baissent ensemble : le Yin ne tempère plus la chaleur (bouffées, sueurs), le Yang ne réchauffe plus le bas du corps (pieds froids, urines la nuit). D'où ces signes qui semblent contradictoires.",
+   "cle": [
+    "chaud-froid",
+    "genoux-faibles",
+    "cycles-irreguliers"
+   ],
+   "autres": [
+    "chaleur-corps",
+    "sueurs-nuit",
+    "frilosite",
+    "mictions-nuit",
+    "fatigue",
+    "acouphenes-faibles",
+    "memoire",
+    "secheresse-intime",
+    "libido",
+    "oedeme",
+    "irritabilite",
+    "reveils"
+   ],
+   "contre": [
+    "enduit-jaune",
+    "soif"
+   ],
+   "langue": "Pâle ou légèrement rouge, peu d'enduit.",
+   "pouls": "Profond, fin et faible, surtout aux positions du Rein.",
+   "principe": {
+    "zh": "调补阴阳",
+    "py": "Tiáo bǔ yīn yáng",
+    "fr": "Équilibrer et tonifier le Yin et le Yang du Rein"
+   },
+   "moxa": "Moxa doux possible sur RM 4 quand les pieds sont froids, jamais pendant une bouffée de chaleur.",
+   "consulter": "Des saignements après la ménopause, des bouffées très gênantes, une tristesse qui s'installe ou des douleurs osseuses doivent être discutés avec un médecin.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Point Yuan du Rein : soutient à la fois le Yin et le Yang."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin, calme la chaleur et aide au sommeil."
+      },
+      {
+       "p": "Rn 7",
+       "s": 90,
+       "pourquoi": "Régule la transpiration."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Carrefour des trois Yin : nourrit le Sang et le Yin."
+      },
+      {
+       "p": "RM 4",
+       "s": 120,
+       "pourquoi": "Ancre et tonifie le Rein."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-haricots-noirs",
+    "soupe-canard-igname",
+    "creme-sesame-noix",
+    "congee-goji-sesame"
+   ],
+   "privilegier": "Haricots noirs, sésame noir, noix, igname de Chine, goji, canard, poisson, soupes mijotées, repas réguliers.",
+   "eviter": "Café, alcool, épices fortes, repas tardifs et copieux, écrans tard le soir.",
+   "conseils": [
+    "Garde les pieds au chaud mais la tête au frais : chaussettes et chambre aérée.",
+    "Une marche quotidienne et un coucher régulier atténuent souvent les bouffées."
+   ]
   }
  ]
 }

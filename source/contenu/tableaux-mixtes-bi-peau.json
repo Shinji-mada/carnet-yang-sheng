@@ -133,7 +133,9 @@
     "audition",
     "mouches-volantes",
     "douleur-genou",
-    "tremblements"
+    "tremblements",
+    "cycles-irreguliers",
+    "chaleur-corps"
    ],
    "contre": [
     "frilosite",
@@ -201,6 +203,9 @@
     "Sécheresse oculaire",
     "Vieillissement",
     "Hypertension"
+   ],
+   "groupes": [
+    "menopause"
    ]
   },
   {

@@ -55,7 +55,7 @@
    "cat": "general",
    "nom": "Sueurs nocturnes",
    "alerte": "Consulte un médecin si les sueurs nocturnes sont abondantes et durent, surtout avec fièvre, toux ou perte de poids.",
-   "syn": "transpiration nocturne sueur nuit"
+   "syn": "transpiration nocturne sueur nuit ménopause"
   },
   {
    "id": "chaleur-5-coeurs",
@@ -141,6 +141,12 @@
    "cat": "general",
    "nom": "Teint sombre, cernes foncés",
    "syn": "cernes"
+  },
+  {
+   "id": "chaud-froid",
+   "cat": "general",
+   "nom": "Bouffées de chaleur suivies de frissons",
+   "syn": "ménopause alternance chaud froid"
   },
   {
    "id": "cephalee-front",
@@ -611,7 +617,7 @@
    "id": "irritabilite",
    "cat": "sommeil",
    "nom": "Irritabilité, colère facile",
-   "syn": "stress énervement colère nervosité"
+   "syn": "stress énervement colère nervosité ménopause"
   },
   {
    "id": "tristesse",
@@ -643,7 +649,7 @@
    "id": "humeur-variable",
    "cat": "sommeil",
    "nom": "Humeur qui change avec le stress",
-   "syn": "stress humeur"
+   "syn": "stress humeur ménopause"
   },
   {
    "id": "decouragement",
@@ -883,6 +889,13 @@
    "syn": "mycose infection pertes"
   },
   {
+   "id": "cycles-irreguliers",
+   "cat": "cycle",
+   "nom": "Cycles irréguliers qui s'espacent, règles qui s'arrêtent",
+   "syn": "ménopause préménopause périménopause aménorrhée arrêt des règles",
+   "alerte": "Des saignements qui reviennent après un an sans règles doivent être vus par un médecin."
+  },
+  {
    "id": "libido",
    "cat": "intimite",
    "nom": "Baisse de libido",
@@ -948,7 +961,7 @@
    "id": "secheresse-intime",
    "cat": "intimite",
    "nom": "Sécheresse intime, rapports douloureux",
-   "syn": "sécheresse vaginale douleur rapport"
+   "syn": "sécheresse vaginale douleur rapport ménopause"
   },
   {
    "id": "fertilite",
