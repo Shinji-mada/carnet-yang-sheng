@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Construit l'appli Carnet Yang Sheng à la racine du dépôt à partir de source/.
 Usage : python3 source/build.py [dossier_pour_zip_et_apercu]
-Contenu à modifier : source/data.json (fiches, symptômes, ingrédients)."""
+Contenu à modifier : source/contenu/*.json (symptômes, points, tableaux, recettes, protocoles)."""
 import base64, hashlib, io, json, os, re, shutil, zipfile
 from fontTools import subset
 from fontTools.ttLib import TTFont
@@ -24,8 +24,72 @@ for name, path in [("AtkinsonHyperlegible-Regular.ttf", "atkinsonhyperlegible/At
     if not os.path.exists(f"{FSRC}/{name}"):
         urllib.request.urlretrieve(GF + path, f"{FSRC}/{name}")
 
-data = json.load(open(f"{SRC}/data.json", encoding="utf-8"))
+# ---------- Contenu : fusion de source/contenu/*.json puis vérification ----------
+data = {}
+for fn in sorted(os.listdir(f"{SRC}/contenu")):
+    if not fn.endswith(".json"):
+        continue
+    part = json.load(open(f"{SRC}/contenu/{fn}", encoding="utf-8"))
+    for k, v in part.items():
+        if isinstance(v, list): data.setdefault(k, []).extend(v)
+        elif isinstance(v, dict): data.setdefault(k, {}).update(v)
+        else: data[k] = v
+
+def check(data):
+    errs = []
+    sym = {s["id"] for s in data.get("symptomes", [])}
+    cats = {c["id"] for c in data.get("categories_symptomes", [])}
+    pts = data.get("points", {})
+    org = {o["id"] for o in data.get("organes", [])}
+    axes = {a["id"] for a in data.get("axes", [])}
+    ing = {i["id"] for i in data.get("ingredients", [])}
+    fiches = {f["id"]: f for f in data.get("fiches", [])}
+    for coll in ("symptomes", "tableaux", "fiches", "ingredients"):
+        ids = [x["id"] for x in data.get(coll, [])]
+        dup = {i for i in ids if ids.count(i) > 1}
+        if dup: errs.append(f"{coll} : identifiants en double {sorted(dup)}")
+    for s in data.get("symptomes", []):
+        if s.get("cat") not in cats: errs.append(f"symptôme {s['id']} : catégorie inconnue {s.get('cat')}")
+    def items_of(x):
+        for ph in x.get("phases", []):
+            if ph.get("m") not in ("d", "t", "w"): errs.append(f"{x['id']} : phase inconnue {ph.get('m')}")
+            for it in ph.get("items", []): yield it
+    for t in data.get("tableaux", []):
+        if t.get("organe") not in org: errs.append(f"tableau {t['id']} : organe inconnu {t.get('organe')}")
+        for key in ("cle", "autres", "contre"):
+            for s in t.get(key, []):
+                if s not in sym: errs.append(f"tableau {t['id']} : symptôme inconnu {s} ({key})")
+        if not t.get("cle"): errs.append(f"tableau {t['id']} : aucun signe clé")
+        for it in items_of(t):
+            if it.get("p") and it["p"] not in pts: errs.append(f"tableau {t['id']} : point inconnu {it['p']}")
+        for r in t.get("recettes", []):
+            if r not in fiches: errs.append(f"tableau {t['id']} : recette inconnue {r}")
+        for f in t.get("fiches", []):
+            if f not in fiches: errs.append(f"tableau {t['id']} : fiche inconnue {f}")
+    for f in data.get("fiches", []):
+        for s in f.get("symptomes", []):
+            if s not in sym: errs.append(f"fiche {f['id']} : symptôme inconnu {s}")
+        for it in items_of(f):
+            if it.get("p") and it["p"] not in pts: errs.append(f"fiche {f['id']} : point inconnu {it['p']}")
+        if f.get("type") == "recette":
+            if f.get("axe") not in axes: errs.append(f"recette {f['id']} : axe inconnu {f.get('axe')}")
+            ids = {i["id"] for i in f.get("ingredients", [])}
+            for i in f.get("ingredients", []):
+                if i.get("cle") and i["cle"] not in ing: errs.append(f"recette {f['id']} : ingrédient inconnu {i['cle']}")
+            vs = f.get("variantes") or [{"etapes": f.get("etapes", [])}]
+            for v in vs:
+                for e in v.get("etapes", []):
+                    for ref in re.findall(r"\{([A-Za-z0-9_-]+)\}", e.get("texte", "")):
+                        if ref not in ids: errs.append(f"recette {f['id']} : {{{ref}}} absent des ingrédients")
+    return errs
+
+errors = check(data)
+if errors:
+    print("Contenu invalide :"); [print("  -", e) for e in errors]; sys.exit(1)
 VERSION = data.get("version", "0.0.0")
+print(f"contenu : {len(data.get('symptomes', []))} symptômes, {len(data.get('points', {}))} points, "
+      f"{len(data.get('tableaux', []))} tableaux, {sum(f['type']=='recette' for f in data.get('fiches', []))} recettes, "
+      f"{sum(f['type']=='protocole' for f in data.get('fiches', []))} protocoles")
 css = open(f"{SRC}/app.css", encoding="utf-8").read()
 js = open(f"{SRC}/app.js", encoding="utf-8").read()
 body = open(f"{SRC}/body.html", encoding="utf-8").read()

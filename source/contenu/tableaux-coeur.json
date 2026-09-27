@@ -1,0 +1,159 @@
+{
+ "tableaux": [
+  {
+   "id": "c-vide-qi", "organe": "coeur", "nom": "Vide de Qi du Cœur", "zh": "心气虚", "py": "Xīn qì xū",
+   "resume": "Le Cœur manque de force : palpitations à l'effort, essoufflement, fatigue, transpiration facile.",
+   "causes": ["Chagrin, choc émotionnel", "Longue maladie, épuisement", "Vide de Qi général"],
+   "mecanisme": "Le Qi du Cœur fait battre et circuler le Sang. S'il faiblit, le cœur s'emballe à l'effort et la moindre activité essouffle et fait transpirer.",
+   "cle": ["palpitations", "essoufflement", "sueurs-jour", "fatigue"],
+   "autres": ["teint-pale", "langue-pale", "voix-faible", "tristesse", "oppression"],
+   "contre": ["langue-rouge"],
+   "langue": "Pâle.",
+   "pouls": "Vide, parfois irrégulier.",
+   "principe": {"zh": "补益心气", "py": "Bǔ yì xīn qì", "fr": "Tonifier le Qi du Cœur"},
+   "consulter": "Des palpitations doivent être vérifiées par un médecin (électrocardiogramme), surtout si elles sont nouvelles ou fréquentes.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "C 5", "s": 90, "pourquoi": "Tonifie le Qi du Cœur."},
+     {"p": "MC 6", "s": 90, "pourquoi": "Ouvre la poitrine, régule le Cœur."},
+     {"p": "RM 17", "s": 90, "pourquoi": "Tonifie le Qi de la poitrine."},
+     {"p": "E 36", "s": 120, "pourquoi": "Tonifie le Qi de tout le corps."},
+     {"p": "V 15", "s": 90, "pourquoi": "Point Shu du dos du Cœur."}
+    ]}
+   ],
+   "recettes": ["congee-lotus-jujube", "soupe-poulet-huang-qi"],
+   "privilegier": "Céréales, dattes, longanes, graines de lotus, poulet, repas réguliers.",
+   "eviter": "Surmenage, café en excès, efforts violents.",
+   "conseils": ["Alterne activité et vraies pauses dans la journée."]
+  },
+  {
+   "id": "c-vide-sang", "organe": "coeur", "nom": "Vide de Sang du Cœur", "zh": "心血虚", "py": "Xīn xuè xū",
+   "resume": "Le Sang ne nourrit plus l'esprit : palpitations, difficulté à s'endormir, rêves nombreux, mémoire faible.",
+   "causes": ["Rate faible qui produit peu de Sang", "Pertes de sang", "Soucis et surmenage"],
+   "mecanisme": "L'esprit (Shen) loge dans le Sang du Cœur. Sans assez de Sang, il n'a plus d'ancrage : on a du mal à s'endormir, on rêve beaucoup, la mémoire flanche.",
+   "cle": ["palpitations", "endormissement", "memoire", "sommeil-agite"],
+   "autres": ["anxiete", "vertiges", "teint-pale", "langue-pale", "peurs", "regles-peu", "concentration"],
+   "contre": ["langue-rouge", "chaleur-corps"],
+   "langue": "Pâle, un peu sèche.",
+   "pouls": "Fin.",
+   "principe": {"zh": "养血安神", "py": "Yǎng xuè ān shén", "fr": "Nourrir le Sang, apaiser l'esprit"},
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "Yin Tang", "s": 60, "pourquoi": "Calme l'esprit.", "tech": ["●", "Pression douce et immobile, yeux fermés"]},
+     {"p": "C 7", "s": 90, "pourquoi": "Point Yuan du Cœur : calme l'esprit, aide au sommeil."},
+     {"p": "MC 6", "s": 90, "pourquoi": "Calme l'esprit."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Sang."},
+     {"p": "E 36", "s": 120, "pourquoi": "Renforce la Rate qui fabrique le Sang."}
+    ]}
+   ],
+   "recettes": ["congee-lotus-jujube", "infusion-longane-jujube", "congee-goji-sesame"],
+   "privilegier": "Dattes, longanes, goji, œufs, épinards, céréales, graines de lotus.",
+   "eviter": "Écrans le soir, dîner trop tard, café l'après-midi.",
+   "conseils": ["Garde les mêmes heures de coucher chaque soir.", "Infusion de longanes et dattes en fin d'après-midi."]
+  },
+  {
+   "id": "c-vide-yin", "organe": "coeur", "nom": "Vide de Yin du Cœur", "zh": "心阴虚", "py": "Xīn yīn xū",
+   "resume": "Le Yin ne retient plus le Cœur : palpitations, agitation, réveils la nuit, sueurs nocturnes, bouche sèche.",
+   "causes": ["Stress prolongé, surmenage", "Manque de sommeil chronique", "Vide de Yin du Rein"],
+   "mecanisme": "Le Yin calme et rafraîchit le Cœur. S'il manque, une chaleur de vide agite l'esprit la nuit : réveils, sueurs, cœur qui s'emballe.",
+   "cle": ["palpitations", "reveils", "sueurs-nuit", "anxiete"],
+   "autres": ["memoire", "bouche-seche", "chaleur-5-coeurs", "pointe-rouge", "langue-rouge-sans-enduit", "pommettes-rouges"],
+   "contre": ["langue-pale", "frilosite"],
+   "langue": "Rouge, pointe plus rouge, peu d'enduit.",
+   "pouls": "Fin et rapide.",
+   "principe": {"zh": "滋阴安神", "py": "Zī yīn ān shén", "fr": "Nourrir le Yin, apaiser l'esprit"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "C 7", "s": 90, "pourquoi": "Calme l'esprit."},
+     {"p": "C 6", "s": 90, "pourquoi": "Nourrit le Yin du Cœur, arrête les sueurs nocturnes."},
+     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit le Yin, aide au sommeil."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Yin."},
+     {"p": "An Mian", "s": 90, "pourquoi": "Aide à s'endormir."}
+    ]}
+   ],
+   "recettes": ["soupe-tremelle", "congee-lotus-jujube"],
+   "privilegier": "Trémelle, graines de lotus, poire, tofu, œufs, sésame, millet.",
+   "eviter": "Café, alcool, épices, sport intense le soir, écrans tard.",
+   "conseils": ["Chambre fraîche et sombre ; dîner léger."]
+  },
+  {
+   "id": "c-feu", "organe": "coeur", "nom": "Feu du Cœur", "zh": "心火亢盛", "py": "Xīn huǒ kàng shèng",
+   "resume": "La Chaleur agite le Cœur : agitation, insomnie, aphtes sur la langue, soif, urines foncées.",
+   "causes": ["Stress intense, émotions fortes", "Excès de café, alcool, épices"],
+   "mecanisme": "Le Feu monte au Cœur et à la langue, son « bourgeon » : pointe de la langue rouge, aphtes, esprit agité qui ne trouve pas le sommeil.",
+   "cle": ["aphtes", "pointe-rouge", "anxiete", "endormissement"],
+   "autres": ["soif", "visage-rouge", "urines-foncees", "palpitations", "sommeil-agite", "gout-amer"],
+   "contre": ["langue-pale", "frilosite"],
+   "langue": "Rouge, pointe plus rouge et gonflée, parfois ulcérée.",
+   "pouls": "Rapide et plein.",
+   "principe": {"zh": "清心泻火", "py": "Qīng xīn xiè huǒ", "fr": "Clarifier le Cœur, purger le Feu"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "C 8", "s": 60, "pourquoi": "Clarifie le Feu du Cœur."},
+     {"p": "MC 7", "s": 60, "pourquoi": "Clarifie la Chaleur du Cœur."},
+     {"p": "C 7", "s": 60, "pourquoi": "Calme l'esprit."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit l'Eau pour tempérer le Feu."}
+    ]}
+   ],
+   "recettes": ["soupe-mungo", "congee-lotus-jujube", "infusion-chrysantheme-goji"],
+   "privilegier": "Haricots mungo, graines de lotus avec leur germe, légumes verts, concombre cuit.",
+   "eviter": "Café, alcool, épices, écrans le soir, surmenage.",
+   "conseils": []
+  },
+  {
+   "id": "coeur-rate", "organe": "coeur", "nom": "Vide du Cœur et de la Rate", "zh": "心脾两虚", "py": "Xīn pí liǎng xū",
+   "resume": "Les soucis épuisent la Rate qui ne produit plus assez de Sang pour le Cœur : fatigue, ruminations, insomnie, palpitations.",
+   "causes": ["Soucis et ruminations prolongés", "Travail intellectuel intense", "Repas irréguliers"],
+   "mecanisme": "La réflexion excessive fatigue la Rate, qui fabrique moins de Sang. Le Cœur mal nourri laisse l'esprit agité : on rumine, on dort mal, on se fatigue vite.",
+   "cle": ["ruminations", "fatigue", "endormissement", "palpitations"],
+   "autres": ["appetit-faible", "selles-molles", "memoire", "concentration", "teint-pale", "bleus-faciles", "langue-pale", "ballonnements"],
+   "contre": ["langue-rouge"],
+   "langue": "Pâle, un peu gonflée.",
+   "pouls": "Fin et faible.",
+   "principe": {"zh": "补益心脾", "py": "Bǔ yì xīn pí", "fr": "Tonifier le Cœur et la Rate"},
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "C 7", "s": 90, "pourquoi": "Calme l'esprit."},
+     {"p": "MC 6", "s": 90, "pourquoi": "Calme l'esprit, harmonise l'Estomac."},
+     {"p": "RM 12", "s": 90, "pourquoi": "Renforce le centre."},
+     {"p": "E 36", "s": 120, "pourquoi": "Renforce la Rate."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Sang, calme l'esprit."}
+    ]}
+   ],
+   "recettes": ["congee-lotus-jujube", "infusion-longane-jujube", "congee-millet-patate-douce"],
+   "privilegier": "Graines de lotus, longanes, dattes, millet, riz, patate douce, poulet.",
+   "eviter": "Manger en travaillant, sauter des repas, sucre en excès.",
+   "conseils": ["Note tes soucis sur un papier avant de dormir pour les poser."]
+  },
+  {
+   "id": "coeur-rein", "organe": "coeur", "nom": "Le Cœur et le Rein ne communiquent plus", "zh": "心肾不交", "py": "Xīn shèn bù jiāo",
+   "resume": "Le Feu du Cœur n'est plus tempéré par l'Eau du Rein : insomnie, palpitations, sueurs nocturnes, lombaires faibles.",
+   "causes": ["Surmenage et manque de sommeil prolongés", "Vide de Yin du Rein", "Anxiété chronique"],
+   "mecanisme": "L'Eau du Rein doit monter rafraîchir le Cœur, et le Feu du Cœur descendre réchauffer le Rein. Quand l'échange se rompt, le haut chauffe (agitation, insomnie) et le bas s'affaiblit (lombaires, acouphènes).",
+   "cle": ["endormissement", "reveils", "genoux-faibles", "sueurs-nuit"],
+   "autres": ["palpitations", "anxiete", "memoire", "acouphenes-faibles", "chaleur-5-coeurs", "pointe-rouge", "langue-rouge-sans-enduit", "bouche-seche"],
+   "contre": ["langue-pale", "frilosite"],
+   "langue": "Rouge, pointe plus rouge, sans enduit.",
+   "pouls": "Fin et rapide.",
+   "principe": {"zh": "交通心肾", "py": "Jiāo tōng xīn shèn", "fr": "Rétablir l'échange entre le Cœur et le Rein"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "C 7", "s": 90, "pourquoi": "Calme l'esprit."},
+     {"p": "Rn 3", "s": 90, "pourquoi": "Tonifie le Rein."},
+     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit le Yin, aide au sommeil."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Yin."},
+     {"p": "Rn 1", "s": 120, "pourquoi": "Fait descendre ce qui monte, ancre avant le sommeil."}
+    ]}
+   ],
+   "recettes": ["congee-lotus-jujube", "soupe-tremelle", "congee-haricots-noirs"],
+   "privilegier": "Graines de lotus, haricots noirs, sésame noir, trémelle, millet.",
+   "eviter": "Café, alcool, épices, écrans et sport intense le soir.",
+   "conseils": ["Bain de pieds chaud puis massage de Rn 1 avant de dormir."]
+  }
+ ]
+}

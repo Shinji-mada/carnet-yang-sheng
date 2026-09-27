@@ -1,0 +1,194 @@
+{
+ "tableaux": [
+  {
+   "id": "f-stagnation-qi", "organe": "foie", "nom": "Stagnation du Qi du Foie", "zh": "肝气郁结", "py": "Gān qì yù jié",
+   "resume": "Le stress et les émotions retenues bloquent la libre circulation du Qi : tensions, soupirs, gorge serrée, humeur changeante.",
+   "causes": ["Stress, frustration, colère retenue", "Manque de mouvement", "Repas pris sous tension"],
+   "mecanisme": "Le Foie assure la libre circulation du Qi. Quand les émotions le bloquent, le Qi se coince : sous les côtes, dans la gorge, dans les seins avant les règles, et il perturbe l'humeur.",
+   "cle": ["irritabilite", "soupirs", "douleur-cotes", "humeur-variable"],
+   "autres": ["gorge-serree", "spm", "alternance", "ballonnements", "regles-douloureuses", "regles-retard", "oppression", "eructations"],
+   "contre": [],
+   "langue": "Normale ou bords légèrement rouges.",
+   "pouls": "Tendu (en corde).",
+   "principe": {"zh": "疏肝理气", "py": "Shū gān lǐ qì", "fr": "Libérer le Foie, faire circuler le Qi"},
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "GI 4", "s": 60, "pourquoi": "Avec F 3 : les 4 barrières, font circuler le Qi dans tout le corps."},
+     {"p": "F 3", "s": 60, "pourquoi": "Point Yuan du Foie : libère la stagnation."},
+     {"p": "MC 6", "s": 60, "pourquoi": "Ouvre la poitrine, calme l'esprit."},
+     {"p": "VB 34", "s": 60, "pourquoi": "Libère le Foie et la Vésicule biliaire."},
+     {"p": "F 14", "s": 60, "pourquoi": "Point Mu du Foie : soulage les côtes."}
+    ]}
+   ],
+   "recettes": ["infusion-rose-orange", "infusion-chen-pi"],
+   "privilegier": "Légumes verts, radis, zeste d'agrumes, cébette, menthe, repas pris au calme.",
+   "eviter": "Alcool, excès de café, gras, sédentarité.",
+   "conseils": ["Bouge tous les jours : marche rapide, danse, sport. Le mouvement libère le Qi du Foie.", "Étire tes flancs et soupire franchement : le Qi a besoin de sortir."],
+   "fiches": ["2026-09-26-seance-matin"]
+  },
+  {
+   "id": "f-vide-sang", "organe": "foie", "nom": "Vide de Sang du Foie", "zh": "肝血虚", "py": "Gān xuè xū",
+   "resume": "Le Sang ne nourrit plus assez les yeux, les tendons et les cheveux : vision floue, mouches volantes, crampes, règles peu abondantes.",
+   "causes": ["Rate faible qui produit peu de Sang", "Pertes de sang (règles abondantes, accouchement)", "Alimentation pauvre, régimes restrictifs", "Veiller, écrans tard"],
+   "mecanisme": "Le Foie stocke le Sang. Quand il manque, ce qui dépend de lui s'assèche : les yeux (vision floue, mouches), les tendons (crampes, fourmillements), les ongles et les cheveux.",
+   "cle": ["vision-floue", "mouches-volantes", "crampes", "regles-peu"],
+   "autres": ["yeux-secs", "engourdissements", "ongles-cassants", "chute-cheveux", "teint-pale", "vertiges", "langue-pale", "peau-seche", "endormissement"],
+   "contre": ["langue-rouge", "chaleur-corps", "enduit-jaune"],
+   "langue": "Pâle, surtout sur les bords, un peu sèche.",
+   "pouls": "Fin.",
+   "principe": {"zh": "养血柔肝", "py": "Yǎng xuè róu gān", "fr": "Nourrir le Sang, assouplir le Foie"},
+   "moxa": "Moxa doux possible sur E 36.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "F 8", "s": 90, "pourquoi": "Nourrit le Sang du Foie."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Sang."},
+     {"p": "E 36", "s": 120, "pourquoi": "Renforce la Rate, source du Sang."},
+     {"p": "RM 4", "s": 90, "pourquoi": "Nourrit le Sang."},
+     {"p": "V 18", "s": 90, "pourquoi": "Point Shu du dos du Foie."}
+    ]}
+   ],
+   "recettes": ["congee-goji-sesame", "soupe-epinards-oeuf", "veloute-betterave-lentilles"],
+   "privilegier": "Goji, dattes, sésame noir, épinards, betterave, lentilles, œufs, un peu de viande rouge, bouillons d'os.",
+   "eviter": "Écrans tard le soir, veiller, régimes restrictifs.",
+   "conseils": ["Repose tes yeux toutes les heures : le Sang du Foie nourrit la vue.", "Au lit avant 23 h : le Sang retourne au Foie la nuit.", "Une prise de sang (fer, ferritine, B12) permet d'écarter une anémie."]
+  },
+  {
+   "id": "f-yang", "organe": "foie", "nom": "Montée du Yang du Foie", "zh": "肝阳上亢", "py": "Gān yáng shàng kàng",
+   "resume": "Le Yang du Foie monte vers la tête faute d'être retenu par le Yin : maux de tête aux tempes, vertiges, acouphènes, irritabilité.",
+   "causes": ["Colère, frustration prolongées", "Vide de Yin du Foie et du Rein", "Surmenage, manque de sommeil"],
+   "mecanisme": "Le Yin retient le Yang. S'il faiblit, le Yang du Foie s'élève comme une flamme vers la tête : tempes serrées, vertiges, bourdonnements.",
+   "cle": ["cephalee-tempes", "vertiges", "irritabilite", "acouphenes-aigus"],
+   "autres": ["visage-rouge", "yeux-secs", "bouche-seche", "endormissement", "nuque-raide", "bords-rouges", "langue-rouge"],
+   "contre": ["langue-pale", "frilosite"],
+   "langue": "Rouge sur les bords.",
+   "pouls": "Tendu.",
+   "principe": {"zh": "平肝潜阳", "py": "Píng gān qián yáng", "fr": "Apaiser le Foie, ancrer le Yang"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "F 3", "s": 60, "pourquoi": "Apaise le Yang du Foie."},
+     {"p": "VB 20", "s": 60, "pourquoi": "Calme les maux de tête et les vertiges."},
+     {"p": "Tai Yang", "s": 60, "pourquoi": "Soulage les tempes."},
+     {"p": "VB 43", "s": 60, "pourquoi": "Fait descendre le Yang de la tête."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "Rn 3", "s": 90, "pourquoi": "Nourrit le Yin du Rein qui retient le Yang."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Yin."}
+    ]}
+   ],
+   "recettes": ["infusion-chrysantheme-goji", "saute-celeri-tofu"],
+   "privilegier": "Céleri, chrysanthème, épinards, tofu, légumes verts, champignons.",
+   "eviter": "Alcool, café, épices, colère ruminée, écrans tard.",
+   "conseils": ["Fais contrôler ta tension si ces maux de tête reviennent.", "Masse la plante de tes pieds (Rn 1) le soir pour faire descendre ce qui monte."]
+  },
+  {
+   "id": "f-feu", "organe": "foie", "nom": "Feu du Foie", "zh": "肝火上炎", "py": "Gān huǒ shàng yán",
+   "resume": "Une Chaleur intense du Foie flambe vers le haut : colère, yeux rouges, goût amer, maux de tête violents, sommeil agité.",
+   "causes": ["Colère intense ou prolongée", "Stagnation du Qi du Foie qui s'échauffe", "Alcool, épices, tabac"],
+   "mecanisme": "Le Qi du Foie bloqué longtemps s'échauffe jusqu'à devenir Feu, qui monte brutalement vers les yeux, la tête et la bouche.",
+   "cle": ["yeux-rouges", "gout-amer", "irritabilite", "visage-rouge"],
+   "autres": ["cephalee-tempes", "acouphenes-aigus", "soif", "constipation-seche", "urines-foncees", "endormissement", "sommeil-agite", "bords-rouges", "enduit-jaune"],
+   "contre": ["frilosite", "langue-pale"],
+   "langue": "Rouge, bords plus rouges, enduit jaune et sec.",
+   "pouls": "Tendu et rapide.",
+   "principe": {"zh": "清肝泻火", "py": "Qīng gān xiè huǒ", "fr": "Clarifier le Foie, purger le Feu"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "F 2", "s": 60, "pourquoi": "Clarifie le Feu du Foie."},
+     {"p": "VB 43", "s": 60, "pourquoi": "Fait descendre le Feu de la tête."},
+     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur."},
+     {"p": "VB 20", "s": 60, "pourquoi": "Soulage la tête et les yeux."},
+     {"p": "Tai Yang", "s": 60, "pourquoi": "Soulage les tempes et les yeux."}
+    ]}
+   ],
+   "recettes": ["infusion-chrysantheme-goji", "saute-celeri-tofu", "soupe-mungo"],
+   "privilegier": "Céleri, chrysanthème, concombre cuit, tofu, pousses de soja, haricots mungo.",
+   "eviter": "Alcool, épices, friture, agneau, tabac.",
+   "conseils": ["Sors la colère autrement : sport intense, écriture, parole."]
+  },
+  {
+   "id": "f-humidite-chaleur", "organe": "foie", "nom": "Humidité-Chaleur du Foie et de la Vésicule biliaire", "zh": "肝胆湿热", "py": "Gān dǎn shī rè",
+   "resume": "Humidité et Chaleur stagnent dans le Foie et la Vésicule : douleur sous les côtes, goût amer, nausée, pertes ou démangeaisons génitales.",
+   "causes": ["Alcool, gras, friture", "Humidité ancienne qui s'échauffe", "Stagnation du Foie qui perturbe la Rate"],
+   "mecanisme": "L'Humidité-Chaleur bloque la Vésicule biliaire (goût amer, digestion du gras difficile) et descend le long du méridien du Foie vers la sphère génitale.",
+   "cle": ["douleur-cotes", "gout-amer", "enduit-jaune"],
+   "autres": ["nausee", "digestion-lente", "urines-foncees", "pertes-jaunes", "eczema-suintant", "teint-jaune"],
+   "contre": ["frilosite", "langue-pale", "enduit-blanc-epais"],
+   "langue": "Rouge, enduit jaune et gras.",
+   "pouls": "Tendu et glissant.",
+   "principe": {"zh": "清利肝胆湿热", "py": "Qīng lì gān dǎn shī rè", "fr": "Clarifier et drainer l'Humidité-Chaleur du Foie et de la Vésicule biliaire"},
+   "consulter": "Une douleur sous les côtes avec fièvre ou jaunisse doit être vue rapidement par un médecin.",
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "F 14", "s": 60, "pourquoi": "Libère le Foie, soulage les côtes."},
+     {"p": "VB 34", "s": 60, "pourquoi": "Libère la Vésicule biliaire."},
+     {"p": "Rt 9", "s": 60, "pourquoi": "Draine l'Humidité."},
+     {"p": "F 5", "s": 60, "pourquoi": "Élimine l'Humidité-Chaleur de la sphère génitale."}
+    ]}
+   ],
+   "recettes": ["congee-orge-azuki", "soupe-mungo", "saute-celeri-tofu"],
+   "privilegier": "Céleri, radis, orge perlé, haricots mungo et azuki, légumes verts cuits.",
+   "eviter": "Alcool, gras, friture, sucre, épices.",
+   "conseils": []
+  },
+  {
+   "id": "foie-rate", "organe": "foie", "nom": "Le Foie agresse la Rate", "zh": "肝脾不和", "py": "Gān pí bù hé",
+   "resume": "Le stress bloque le Foie qui perturbe la digestion : ventre qui gonfle et selles qui changent avec les émotions.",
+   "causes": ["Stress chronique", "Rate déjà fragile", "Manger en étant tendu"],
+   "mecanisme": "Le Foie bloqué « attaque » la Rate : la digestion se dérègle au rythme des émotions, avec ballonnements et alternance de selles.",
+   "cle": ["alternance", "ballonnements", "irritabilite"],
+   "autres": ["douleur-cotes", "fatigue", "selles-molles", "appetit-faible", "soupirs", "spm"],
+   "contre": [],
+   "langue": "Normale ou pâle, bords parfois rouges.",
+   "pouls": "Tendu à gauche, faible à droite.",
+   "principe": {"zh": "疏肝健脾", "py": "Shū gān jiàn pí", "fr": "Libérer le Foie, renforcer la Rate"},
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "F 3", "s": 60, "pourquoi": "Libère le Qi du Foie."},
+     {"p": "F 13", "s": 60, "pourquoi": "Point Mu de la Rate : harmonise Foie et Rate."},
+     {"p": "VB 34", "s": 60, "pourquoi": "Libère le Foie."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "RM 12", "s": 90, "pourquoi": "Renforce le centre."},
+     {"p": "E 36", "s": 120, "pourquoi": "Renforce la Rate."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Renforce la Rate, calme l'esprit."}
+    ]}
+   ],
+   "recettes": ["congee-millet-patate-douce", "infusion-rose-orange", "congee-courge-carotte"],
+   "privilegier": "Repas chauds et réguliers, pris au calme ; zeste d'agrumes, radis, céréales cuites.",
+   "eviter": "Manger vite ou en travaillant, café à jeun, alcool.",
+   "conseils": ["Prends trois respirations lentes avant chaque repas."],
+   "fiches": ["2026-09-26-seance-matin"]
+  },
+  {
+   "id": "foie-estomac", "organe": "foie", "nom": "Le Foie agresse l'Estomac", "zh": "肝胃不和", "py": "Gān wèi bù hé",
+   "resume": "Le Foie bloqué fait remonter le Qi de l'Estomac : brûlures, renvois, nausée, liés au stress.",
+   "causes": ["Stress, contrariétés", "Repas pris dans la tension"],
+   "mecanisme": "Le Qi du Foie coincé remonte et entraîne avec lui celui de l'Estomac, qui devrait descendre : brûlures, renvois, nausée.",
+   "cle": ["reflux", "eructations", "irritabilite"],
+   "autres": ["douleur-cotes", "nausee", "hoquet", "soupirs", "douleur-estomac-brulure"],
+   "contre": [],
+   "langue": "Normale ou bords rouges.",
+   "pouls": "Tendu.",
+   "principe": {"zh": "疏肝和胃", "py": "Shū gān hé wèi", "fr": "Libérer le Foie, harmoniser l'Estomac"},
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "F 3", "s": 60, "pourquoi": "Libère le Qi du Foie."},
+     {"p": "F 14", "s": 60, "pourquoi": "Point Mu du Foie."},
+     {"p": "MC 6", "s": 60, "pourquoi": "Fait descendre le Qi de l'Estomac."},
+     {"p": "RM 12", "s": 60, "pourquoi": "Harmonise l'Estomac.", "tech": ["↺", "Pression moyenne, rotation anti-horaire"]},
+     {"p": "VB 34", "s": 60, "pourquoi": "Libère le Foie."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "E 36", "s": 120, "pourquoi": "Renforce l'Estomac."}
+    ]}
+   ],
+   "recettes": ["infusion-rose-orange", "congee-courge-carotte"],
+   "privilegier": "Petits repas chauds, congee, radis, gingembre frais en petite quantité.",
+   "eviter": "Café, alcool, épices, agrumes acides à jeun, repas tardifs.",
+   "conseils": []
+  }
+ ]
+}

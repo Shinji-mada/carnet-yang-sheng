@@ -1,0 +1,683 @@
+{
+ "fiches": [
+  {
+   "id": "congee-courge-carotte", "type": "recette", "date": "2026-09-26", "ordre": 3, "axe": "rate",
+   "titre": "Congee courge-carotte au gingembre",
+   "contexte": "Tiède et léger, pour soutenir la Rate et apaiser la nausée.",
+   "principe": {"zh": "健脾和胃", "py": "Jiàn pí hé wèi", "fr": "Renforcer la Rate, harmoniser l'Estomac"},
+   "portions": 4, "duree": "1 h 15",
+   "ingredients": [
+    {"id": "riz", "q": 150, "u": "g", "nom": "riz rond (ou riz jasmin)", "cle": "riz"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true, "note": "Au cuiseur, remplis plutôt jusqu'au repère Porridge de la cuve."},
+    {"id": "carotte", "q": 2, "nom": "carottes moyennes, en petits dés", "cle": "carotte"},
+    {"id": "courge", "q": 300, "u": "g", "nom": "courge (potiron, potimarron, butternut), en dés", "cle": "courge"},
+    {"id": "gingembre", "q": 5, "nom": "tranches fines de gingembre frais, avec la peau", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "oeuf", "q": 4, "nom": "œufs, 1 par bol", "cle": "oeuf"},
+    {"id": "cebette", "q": 2, "nom": "tiges d'oignon cébette, ciselées", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "sel", "q": 0.5, "u": "tsp", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Rincer le riz", "texte": "Rince le riz ({riz}) 2 à 3 fois, jusqu'à ce que l'eau soit presque claire."},
+     {"titre": "Lancer la cuisson", "texte": "Mets le riz, l'eau ({eau}) et le gingembre ({gingembre}) dans une grande casserole. Porte à ébullition, puis baisse à feu doux, couvercle entrouvert. Remue de temps en temps.", "s": 1800},
+     {"titre": "Ajouter les légumes", "texte": "Ajoute les carottes ({carotte}) et la courge ({courge}). Laisse frémir jusqu'à ce que le riz éclate et devienne crémeux. Rajoute un peu d'eau chaude si ça épaissit trop.", "s": 1800},
+     {"titre": "Ajouter l'œuf", "texte": "Sale ({sel}). Bats les œufs ({oeuf}) et verse-les en filet en remuant, jusqu'à ce qu'ils forment des rubans cuits.", "s": 120},
+     {"titre": "Servir", "texte": "Parsème de cébette ({cebette}) et mange tiède."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Rincer le riz", "texte": "Rince le riz ({riz}) dans une passoire, 2 à 3 fois."},
+     {"titre": "Remplir la cuve", "texte": "Mets le riz, les carottes ({carotte}), la courge ({courge}) et le gingembre ({gingembre}) dans la cuve. Ajoute l'eau jusqu'au repère Porridge ou Congee. Sans repère, compte environ 8 fois le volume du riz."},
+     {"titre": "Cuire", "texte": "Lance le programme Porridge, Congee ou Soupe. S'il n'existe pas, utilise Mijoter ou Slow cook. N'ouvre pas pendant la cuisson.", "s": 3600},
+     {"titre": "Ajouter l'œuf", "texte": "Sale ({sel}). Bats les œufs ({oeuf}) et verse-les en filet dans le congee bien chaud en remuant avec une spatule non métallique.", "s": 120},
+     {"titre": "Servir", "texte": "Parsème de cébette ({cebette}). Garde le reste au frigo plutôt qu'en maintien au chaud toute la nuit."}
+    ]}
+   ],
+   "notes": ["Les ustensiles en métal abîment les cuves à revêtement.", "Pour réchauffer une portion, ajoute un peu d'eau et l'œuf au dernier moment.", "Tu peux remplacer la courge par des marrons épluchés."],
+   "tags": ["congee", "petit-déjeuner", "nausée"]
+  },
+  {
+   "id": "congee-millet-patate-douce", "type": "recette", "date": "2026-09-27", "ordre": 1, "axe": "qi",
+   "titre": "Congee de millet, patate douce et dattes",
+   "contexte": "Le millet et la patate douce renforcent la Rate, les dattes tonifient le Qi et le Sang. Idéal au petit-déjeuner quand la fatigue domine.",
+   "principe": {"zh": "健脾益气", "py": "Jiàn pí yì qì", "fr": "Renforcer la Rate, tonifier le Qi"},
+   "portions": 3, "duree": "45 min",
+   "ingredients": [
+    {"id": "millet", "q": 120, "u": "g", "nom": "millet", "cle": "millet"},
+    {"id": "eau", "q": 1200, "u": "ml", "nom": "eau", "base": true},
+    {"id": "patate", "q": 250, "u": "g", "nom": "patate douce, en dés", "cle": "patate-douce"},
+    {"id": "dattes", "q": 6, "nom": "dattes rouges (jujubes), fendues", "cle": "dattes"},
+    {"id": "gingembre", "q": 2, "nom": "tranches de gingembre frais", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "sel", "q": 1, "u": "pinch", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Rincer le millet", "texte": "Rince le millet ({millet}) dans une passoire fine."},
+     {"titre": "Porter à ébullition", "texte": "Porte l'eau ({eau}) à ébullition avec les dattes ({dattes}) et le gingembre ({gingembre}). Verse le millet et baisse le feu.", "s": 600},
+     {"titre": "Ajouter la patate douce", "texte": "Ajoute la patate douce ({patate}). Laisse frémir en remuant souvent, jusqu'à ce que le millet soit fondant.", "s": 1500},
+     {"titre": "Servir", "texte": "Retire les noyaux des dattes, sale légèrement ({sel}) et sers tiède."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Remplir la cuve", "texte": "Rince le millet ({millet}), puis mets-le dans la cuve avec la patate douce ({patate}), les dattes ({dattes}) et le gingembre ({gingembre}). Ajoute l'eau jusqu'au repère Porridge."},
+     {"titre": "Cuire", "texte": "Programme Porridge, Congee ou Soupe (sinon Mijoter).", "s": 3600},
+     {"titre": "Servir", "texte": "Retire les noyaux des dattes, sale légèrement ({sel})."}
+    ]}
+   ],
+   "notes": ["Le millet se trouve en magasin bio et en épicerie asiatique.", "À défaut de dattes rouges chinoises, prends des dattes classiques, plus sucrées, en moindre quantité."],
+   "tags": ["congee", "petit-déjeuner", "fatigue"]
+  },
+  {
+   "id": "congee-shan-yao", "type": "recette", "date": "2026-09-27", "ordre": 2, "axe": "qi",
+   "titre": "Congee à l'igname de Chine",
+   "contexte": "L'igname de Chine (Shan Yao) tonifie en douceur la Rate, le Poumon et le Rein, sans chauffer.",
+   "principe": {"zh": "补脾肺肾", "py": "Bǔ pí fèi shèn", "fr": "Tonifier la Rate, le Poumon et le Rein"},
+   "portions": 3, "duree": "1 h",
+   "ingredients": [
+    {"id": "riz", "q": 120, "u": "g", "nom": "riz", "cle": "riz"},
+    {"id": "eau", "q": 1200, "u": "ml", "nom": "eau", "base": true},
+    {"id": "igname", "q": 200, "u": "g", "nom": "igname de Chine fraîche, pelée et coupée en dés", "cle": "shan-yao", "note": "Pèle-la avec des gants : sa sève gratte. Ou 30 g de Shan Yao séché, trempé 1 h."},
+    {"id": "dattes", "q": 4, "nom": "dattes rouges, fendues", "cle": "dattes"},
+    {"id": "goji", "q": 1, "u": "tbsp", "nom": "baies de goji", "cle": "goji"},
+    {"id": "sel", "q": 1, "u": "pinch", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Lancer le riz", "texte": "Rince le riz ({riz}), porte-le à ébullition dans l'eau ({eau}), puis laisse frémir à couvert entrouvert.", "s": 1800},
+     {"titre": "Ajouter l'igname", "texte": "Ajoute l'igname ({igname}) et les dattes ({dattes}). Poursuis la cuisson en remuant.", "s": 1200},
+     {"titre": "Finir", "texte": "Ajoute les baies de goji ({goji}) pour les dernières minutes, sale ({sel}) et sers.", "s": 300}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Remplir la cuve", "texte": "Mets le riz rincé ({riz}), l'igname ({igname}) et les dattes ({dattes}) dans la cuve. Eau jusqu'au repère Porridge."},
+     {"titre": "Cuire", "texte": "Programme Porridge, Congee ou Soupe.", "s": 3600},
+     {"titre": "Finir", "texte": "Ajoute les baies de goji ({goji}), laisse 5 minutes en maintien au chaud, sale ({sel}).", "s": 300}
+    ]}
+   ],
+   "notes": ["L'igname de Chine se trouve fraîche en épicerie asiatique (longue racine beige et poilue), ou séchée en rondelles blanches."],
+   "tags": ["congee", "Poumon", "Rate", "Rein"]
+  },
+  {
+   "id": "soupe-poulet-huang-qi", "type": "recette", "date": "2026-09-27", "ordre": 3, "axe": "qi",
+   "titre": "Bouillon de poulet à l'astragale et aux dattes",
+   "contexte": "L'astragale (Huang Qi) renforce le Qi et la barrière contre le froid ; idéal en prévention des rhumes quand on transpire au moindre effort.",
+   "principe": {"zh": "补气固表", "py": "Bǔ qì gù biǎo", "fr": "Tonifier le Qi, renforcer la surface"},
+   "precautions": "Pas pendant un rhume ou une fièvre : l'astragale « ferme » la surface et garderait le mal à l'intérieur.",
+   "portions": 4, "duree": "1 h 45",
+   "ingredients": [
+    {"id": "poulet", "q": 4, "nom": "hauts de cuisse de poulet (ou une carcasse)", "cle": "poulet"},
+    {"id": "huangqi", "q": 20, "u": "g", "nom": "astragale (Huang Qi) en lamelles", "cle": "huang-qi"},
+    {"id": "dattes", "q": 6, "nom": "dattes rouges, fendues", "cle": "dattes"},
+    {"id": "gingembre", "q": 4, "nom": "tranches de gingembre frais", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "carotte", "q": 2, "nom": "carottes, en tronçons", "cle": "carotte"},
+    {"id": "eau", "q": 2000, "u": "ml", "nom": "eau froide", "base": true},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Blanchir le poulet", "texte": "Plonge le poulet ({poulet}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Mijoter", "texte": "Mets le poulet, l'astragale ({huangqi}), les dattes ({dattes}) et le gingembre ({gingembre}) dans l'eau froide ({eau}). Porte à ébullition, écume, puis laisse frémir à couvert.", "s": 2700},
+     {"titre": "Ajouter les carottes", "texte": "Ajoute les carottes ({carotte}) et poursuis doucement.", "s": 2700},
+     {"titre": "Servir", "texte": "Retire les lamelles d'astragale, sale ({sel}) et sers le bouillon avec la viande."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Blanchir le poulet", "texte": "Plonge le poulet ({poulet}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Remplir la cuve", "texte": "Mets tous les ingrédients sauf le sel dans la cuve, eau ({eau}) sans dépasser le repère maximum."},
+     {"titre": "Cuire", "texte": "Programme Soupe ou Mijoter.", "s": 5400},
+     {"titre": "Servir", "texte": "Retire l'astragale, sale ({sel})."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Blanchir le poulet", "texte": "Plonge le poulet ({poulet}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Cuire sous pression", "texte": "Mets tous les ingrédients sauf le sel dans la cocotte, sans dépasser les deux tiers. Ferme et compte le temps à partir du sifflement.", "s": 1800},
+     {"titre": "Servir", "texte": "Laisse la pression retomber seule, retire l'astragale, sale ({sel})."}
+    ]}
+   ],
+   "notes": ["Les lamelles d'astragale ne se mangent pas.", "L'astragale se trouve en épicerie asiatique et en herboristerie chinoise."],
+   "tags": ["bouillon", "rhumes", "fatigue", "transpiration"]
+  },
+  {
+   "id": "congee-goji-sesame", "type": "recette", "date": "2026-09-27", "ordre": 4, "axe": "sang",
+   "titre": "Congee aux baies de goji, dattes et sésame noir",
+   "contexte": "Goji, dattes et sésame noir nourrissent le Sang et le Yin du Foie et du Rein : bon pour les yeux, les cheveux et la peau sèche.",
+   "principe": {"zh": "养血补肝肾", "py": "Yǎng xuè bǔ gān shèn", "fr": "Nourrir le Sang, le Foie et le Rein"},
+   "portions": 4, "duree": "1 h 10",
+   "ingredients": [
+    {"id": "riz", "q": 150, "u": "g", "nom": "riz", "cle": "riz"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true},
+    {"id": "dattes", "q": 6, "nom": "dattes rouges, fendues", "cle": "dattes"},
+    {"id": "goji", "q": 2, "u": "tbsp", "nom": "baies de goji", "cle": "goji"},
+    {"id": "sesame", "q": 2, "u": "tbsp", "nom": "graines de sésame noir, grillées et moulues", "cle": "sesame-noir"},
+    {"id": "miel", "q": 1, "u": "tsp", "nom": "miel par bol (facultatif)", "cle": "miel"}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Griller le sésame", "texte": "Fais griller le sésame ({sesame}) à sec 2 minutes dans une poêle, puis moule-le.", "s": 120},
+     {"titre": "Cuire le riz", "texte": "Rince le riz ({riz}), porte-le à ébullition dans l'eau ({eau}) avec les dattes ({dattes}). Laisse frémir à couvert entrouvert en remuant.", "s": 3000},
+     {"titre": "Finir", "texte": "Ajoute les baies de goji ({goji}) et le sésame, laisse encore quelques minutes.", "s": 480},
+     {"titre": "Servir", "texte": "Sucre au miel si tu veux ({miel}), une fois le bol un peu refroidi."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Griller le sésame", "texte": "Fais griller le sésame ({sesame}) à sec 2 minutes, puis moule-le.", "s": 120},
+     {"titre": "Cuire", "texte": "Mets le riz rincé ({riz}) et les dattes ({dattes}) dans la cuve, eau jusqu'au repère Porridge. Programme Porridge ou Congee.", "s": 3600},
+     {"titre": "Finir", "texte": "Ajoute le goji ({goji}) et le sésame, 5 minutes en maintien au chaud. Miel au moment de servir ({miel}).", "s": 300}
+    ]}
+   ],
+   "notes": ["Le miel ne se cuit pas : ajoute-le dans le bol tiède."],
+   "tags": ["congee", "yeux", "cheveux", "Sang"]
+  },
+  {
+   "id": "soupe-epinards-oeuf", "type": "recette", "date": "2026-09-27", "ordre": 5, "axe": "sang",
+   "titre": "Soupe d'épinards à l'œuf et au sésame",
+   "contexte": "L'épinard nourrit le Sang et humidifie les intestins, l'œuf nourrit le Sang et le Yin. Une soupe rapide du soir.",
+   "principe": {"zh": "养血润燥", "py": "Yǎng xuè rùn zào", "fr": "Nourrir le Sang, humidifier"},
+   "precautions": "L'épinard est rafraîchissant et relâche les intestins : limite-le si tes selles sont très molles.",
+   "portions": 2, "duree": "15 min",
+   "ingredients": [
+    {"id": "epinards", "q": 200, "u": "g", "nom": "épinards frais", "cle": "epinards"},
+    {"id": "oeuf", "q": 2, "nom": "œufs", "cle": "oeuf"},
+    {"id": "gingembre", "q": 2, "nom": "tranches de gingembre", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "bouillon", "q": 800, "u": "ml", "nom": "bouillon de légumes ou de volaille, ou eau", "base": true},
+    {"id": "sesame", "q": 1, "u": "tsp", "nom": "huile de sésame", "base": true},
+    {"id": "sel", "q": 0.5, "u": "tsp", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Chauffer le bouillon", "texte": "Porte le bouillon ({bouillon}) à frémissement avec le gingembre ({gingembre}).", "s": 300},
+     {"titre": "Ajouter les épinards", "texte": "Ajoute les épinards ({epinards}) et laisse-les tomber.", "s": 120},
+     {"titre": "Ajouter les œufs", "texte": "Bats les œufs ({oeuf}) et verse-les en filet en remuant.", "s": 60},
+     {"titre": "Servir", "texte": "Sale ({sel}), arrose d'huile de sésame ({sesame}) et sers aussitôt."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["soupe", "Sang", "rapide"]
+  },
+  {
+   "id": "veloute-betterave-lentilles", "type": "recette", "date": "2026-09-27", "ordre": 6, "axe": "sang",
+   "titre": "Velouté de betterave et lentilles corail",
+   "contexte": "La betterave nourrit et fait circuler le Sang, les lentilles corail soutiennent la Rate et apportent du fer.",
+   "principe": {"zh": "养血活血", "py": "Yǎng xuè huó xuè", "fr": "Nourrir et faire circuler le Sang"},
+   "portions": 4, "duree": "35 min",
+   "ingredients": [
+    {"id": "betterave", "q": 300, "u": "g", "nom": "betterave crue, pelée et coupée en dés", "cle": "betterave"},
+    {"id": "lentilles", "q": 120, "u": "g", "nom": "lentilles corail, rincées", "cle": "lentilles"},
+    {"id": "oignon", "q": 1, "nom": "oignon, émincé", "cle": "oignon"},
+    {"id": "carotte", "q": 1, "nom": "carotte, en rondelles", "cle": "carotte"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile d'olive", "base": true},
+    {"id": "eau", "q": 1000, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Faire revenir", "texte": "Fais revenir l'oignon ({oignon}) et le gingembre ({gingembre}) dans l'huile ({huile}).", "s": 300},
+     {"titre": "Cuire", "texte": "Ajoute la betterave ({betterave}), la carotte ({carotte}), les lentilles ({lentilles}) et l'eau ({eau}). Laisse frémir à couvert.", "s": 1500},
+     {"titre": "Mixer", "texte": "Retire le gingembre, mixe, sale ({sel}) et ajuste l'épaisseur avec un peu d'eau."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Faire revenir", "texte": "En mode Rissoler, fais revenir l'oignon ({oignon}) et le gingembre ({gingembre}) dans l'huile ({huile}). Sinon, mets-les directement.", "s": 300},
+     {"titre": "Cuire", "texte": "Ajoute la betterave ({betterave}), la carotte ({carotte}), les lentilles ({lentilles}) et l'eau ({eau}). Programme Soupe.", "s": 1800},
+     {"titre": "Mixer", "texte": "Retire le gingembre, mixe et sale ({sel})."}
+    ]}
+   ],
+   "notes": ["Les urines et les selles peuvent rosir après la betterave : c'est normal."],
+   "tags": ["soupe", "Sang", "fer"]
+  },
+  {
+   "id": "infusion-longane-jujube", "type": "recette", "date": "2026-09-27", "ordre": 7, "axe": "coeur",
+   "titre": "Infusion de longanes et de dattes",
+   "contexte": "La longane nourrit le Sang du Cœur et apaise l'esprit. À boire en fin d'après-midi quand le sommeil est léger et l'esprit inquiet.",
+   "principe": {"zh": "养心安神", "py": "Yǎng xīn ān shén", "fr": "Nourrir le Cœur, apaiser l'esprit"},
+   "precautions": "Évite-la si tu as beaucoup de ballonnements ou un enduit épais sur la langue : la longane est douce et un peu lourde.",
+   "portions": 2, "duree": "25 min",
+   "ingredients": [
+    {"id": "longane", "q": 15, "u": "g", "nom": "longanes séchées (Long Yan Rou)", "cle": "longane"},
+    {"id": "dattes", "q": 5, "nom": "dattes rouges, fendues", "cle": "dattes"},
+    {"id": "goji", "q": 1, "u": "tbsp", "nom": "baies de goji", "cle": "goji"},
+    {"id": "eau", "q": 600, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Faire frémir", "texte": "Mets les longanes ({longane}), les dattes ({dattes}) et l'eau ({eau}) dans une petite casserole. Porte à ébullition puis laisse frémir.", "s": 1200},
+     {"titre": "Finir", "texte": "Ajoute le goji ({goji}), laisse infuser hors du feu, puis bois tiède en mangeant les fruits.", "s": 300}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["infusion", "sommeil", "palpitations"]
+  },
+  {
+   "id": "congee-lotus-jujube", "type": "recette", "date": "2026-09-27", "ordre": 8, "axe": "coeur",
+   "titre": "Congee aux graines de lotus et aux dattes",
+   "contexte": "Les graines de lotus apaisent le Cœur et renforcent la Rate, les dattes nourrissent le Sang. Pour l'insomnie, l'inquiétude et la digestion fragile.",
+   "principe": {"zh": "养心健脾", "py": "Yǎng xīn jiàn pí", "fr": "Nourrir le Cœur, renforcer la Rate"},
+   "portions": 3, "duree": "1 h 15 (+ trempage)",
+   "ingredients": [
+    {"id": "lotus", "q": 40, "u": "g", "nom": "graines de lotus, trempées 2 h", "cle": "lotus", "note": "Garde le germe vert si la pointe de ta langue est rouge (il rafraîchit le Cœur) ; retire-le sinon, il est amer."},
+    {"id": "riz", "q": 120, "u": "g", "nom": "riz", "cle": "riz"},
+    {"id": "dattes", "q": 6, "nom": "dattes rouges, fendues", "cle": "dattes"},
+    {"id": "eau", "q": 1200, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire les graines de lotus", "texte": "Égoutte les graines de lotus ({lotus}), mets-les dans l'eau ({eau}) avec les dattes ({dattes}), porte à ébullition et laisse frémir.", "s": 1200},
+     {"titre": "Ajouter le riz", "texte": "Ajoute le riz rincé ({riz}) et poursuis à feu doux, couvercle entrouvert, en remuant.", "s": 2700},
+     {"titre": "Servir", "texte": "Retire les noyaux des dattes et sers tiède, nature ou avec un peu de miel."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Remplir la cuve", "texte": "Mets les graines de lotus égouttées ({lotus}), le riz rincé ({riz}) et les dattes ({dattes}) dans la cuve. Eau jusqu'au repère Porridge."},
+     {"titre": "Cuire", "texte": "Programme Porridge ou Congee.", "s": 4500}
+    ]}
+   ],
+   "notes": ["Pour un congee prêt au réveil, utilise le départ différé de ton cuiseur."],
+   "tags": ["congee", "sommeil", "anxiété"]
+  },
+  {
+   "id": "poire-vapeur-amandes", "type": "recette", "date": "2026-09-27", "ordre": 9, "axe": "yin",
+   "titre": "Poire à la vapeur aux amandes et au miel",
+   "contexte": "La poire humidifie le Poumon et calme la toux sèche, l'amande aide le Qi du Poumon à descendre. Un dessert remède.",
+   "principe": {"zh": "润肺止咳", "py": "Rùn fèi zhǐ ké", "fr": "Humidifier le Poumon, calmer la toux"},
+   "precautions": "Si tes glaires sont blanches et abondantes, choisis plutôt la soupe de radis : la poire est rafraîchissante.",
+   "portions": 2, "duree": "35 min",
+   "ingredients": [
+    {"id": "poire", "q": 2, "nom": "poires", "cle": "poire"},
+    {"id": "amandes", "q": 20, "u": "g", "nom": "amandes effilées ou concassées", "cle": "amandes"},
+    {"id": "miel", "q": 2, "u": "tsp", "nom": "miel", "cle": "miel"},
+    {"id": "goji", "q": 1, "u": "tsp", "nom": "baies de goji (facultatif)", "cle": "goji"}
+   ],
+   "variantes": [
+    {"id": "vapeur", "nom": "À la vapeur (casserole)", "etapes": [
+     {"titre": "Préparer les poires", "texte": "Coupe le chapeau des poires ({poire}) et creuse le cœur avec une petite cuillère. Garnis d'amandes ({amandes}), de goji ({goji}) et de miel ({miel}). Replace le chapeau."},
+     {"titre": "Cuire", "texte": "Pose-les dans un bol, au-dessus d'une casserole d'eau frémissante, couvercle fermé.", "s": 1800},
+     {"titre": "Servir", "texte": "Mange tiède et bois le jus au fond du bol."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur (panier vapeur)", "etapes": [
+     {"titre": "Préparer les poires", "texte": "Coupe le chapeau des poires ({poire}), creuse le cœur, garnis d'amandes ({amandes}), de goji ({goji}) et de miel ({miel})."},
+     {"titre": "Cuire", "texte": "Eau dans la cuve selon la notice, poires dans un bol posé dans le panier vapeur. Programme Vapeur.", "s": 1800}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["dessert", "toux sèche", "gorge"]
+  },
+  {
+   "id": "soupe-tremelle", "type": "recette", "date": "2026-09-27", "ordre": 10, "axe": "yin",
+   "titre": "Soupe de trémelle, graines de lotus et goji",
+   "contexte": "La trémelle (champignon blanc, Bai Mu Er) nourrit le Yin du Poumon et de l'Estomac. Douce, elle se boit comme un dessert chaud.",
+   "principe": {"zh": "滋阴润肺", "py": "Zī yīn rùn fèi", "fr": "Nourrir le Yin, humidifier le Poumon"},
+   "portions": 4, "duree": "1 h (+ trempage)",
+   "ingredients": [
+    {"id": "tremelle", "q": 15, "u": "g", "nom": "trémelle séchée (champignon blanc)", "cle": "tremelle"},
+    {"id": "lotus", "q": 20, "u": "g", "nom": "graines de lotus, trempées", "cle": "lotus"},
+    {"id": "dattes", "q": 4, "nom": "dattes rouges", "cle": "dattes"},
+    {"id": "goji", "q": 1, "u": "tbsp", "nom": "baies de goji", "cle": "goji"},
+    {"id": "sucre", "q": 1, "u": "tbsp", "nom": "sucre roux ou sucre candi", "base": true},
+    {"id": "eau", "q": 1200, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Réhydrater la trémelle", "texte": "Fais tremper la trémelle ({tremelle}) dans l'eau tiède jusqu'à ce qu'elle gonfle.", "s": 1800},
+     {"titre": "Préparer", "texte": "Coupe le pied dur et jaune, puis déchire la trémelle en petits morceaux."},
+     {"titre": "Mijoter", "texte": "Mets la trémelle, les graines de lotus ({lotus}), les dattes ({dattes}) et l'eau ({eau}) dans une casserole. Laisse frémir à couvert jusqu'à ce que la soupe devienne légèrement gélatineuse.", "s": 2700},
+     {"titre": "Finir", "texte": "Ajoute le goji ({goji}) et le sucre ({sucre}), laisse encore quelques minutes.", "s": 300}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Réhydrater la trémelle", "texte": "Fais tremper la trémelle ({tremelle}), coupe le pied dur, déchire-la.", "s": 1800},
+     {"titre": "Cuire", "texte": "Mets tout sauf le goji dans la cuve, programme Soupe, Porridge ou Mijoter.", "s": 3600},
+     {"titre": "Finir", "texte": "Ajoute le goji ({goji}), 5 minutes en maintien au chaud.", "s": 300}
+    ]}
+   ],
+   "notes": ["La trémelle se trouve séchée en épicerie asiatique (« white fungus »)."],
+   "tags": ["dessert", "toux sèche", "peau sèche", "Yin"]
+  },
+  {
+   "id": "congee-haricots-noirs", "type": "recette", "date": "2026-09-27", "ordre": 11, "axe": "yin",
+   "titre": "Congee de haricots noirs, noix et sésame noir",
+   "contexte": "Haricots noirs et sésame noir nourrissent le Rein et le Yin, les noix réchauffent doucement le Rein. Un plat de fond pour les lombaires faibles, les cheveux et la mémoire.",
+   "principe": {"zh": "补肾益精", "py": "Bǔ shèn yì jīng", "fr": "Tonifier le Rein, nourrir l'Essence"},
+   "portions": 4, "duree": "1 h 45 (+ trempage)",
+   "ingredients": [
+    {"id": "haricots", "q": 80, "u": "g", "nom": "haricots noirs, trempés une nuit", "cle": "haricots-noirs"},
+    {"id": "riz", "q": 100, "u": "g", "nom": "riz", "cle": "riz"},
+    {"id": "noix", "q": 30, "u": "g", "nom": "cerneaux de noix, concassés", "cle": "noix"},
+    {"id": "sesame", "q": 2, "u": "tbsp", "nom": "sésame noir grillé et moulu", "cle": "sesame-noir"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "pinch", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire les haricots", "texte": "Égoutte les haricots ({haricots}), couvre-les de l'eau ({eau}), porte à ébullition et laisse frémir.", "s": 2700},
+     {"titre": "Ajouter le riz", "texte": "Ajoute le riz rincé ({riz}) et poursuis à feu doux en remuant, jusqu'à texture crémeuse.", "s": 2700},
+     {"titre": "Finir", "texte": "Ajoute les noix ({noix}) et le sésame ({sesame}), sale ({sel})."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Remplir la cuve", "texte": "Mets les haricots égouttés ({haricots}) et le riz rincé ({riz}) dans la cuve, eau jusqu'au repère Porridge."},
+     {"titre": "Cuire", "texte": "Programme Porridge, Haricots ou Mijoter, au plus long.", "s": 5400},
+     {"titre": "Finir", "texte": "Ajoute les noix ({noix}) et le sésame ({sesame}), sale ({sel})."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Cuire sous pression", "texte": "Mets les haricots égouttés ({haricots}), le riz rincé ({riz}) et l'eau ({eau}) dans la cocotte. Compte le temps à partir du sifflement.", "s": 1800},
+     {"titre": "Finir", "texte": "Laisse la pression retomber seule, ajoute les noix ({noix}) et le sésame ({sesame}), sale ({sel})."}
+    ]}
+   ],
+   "notes": ["En dépannage, une poudre de soja noir et d'igname du commerce, délayée dans l'eau chaude, va dans le même sens. Vérifie le sucre ajouté."],
+   "tags": ["congee", "Rein", "cheveux", "lombaires"]
+  },
+  {
+   "id": "agneau-dang-gui", "type": "recette", "date": "2026-09-27", "ordre": 12, "axe": "yang",
+   "titre": "Agneau mijoté à l'angélique chinoise et au gingembre",
+   "contexte": "Recette classique de l'hiver : l'agneau et le gingembre réchauffent, l'angélique chinoise (Dang Gui) nourrit et fait circuler le Sang. Pour le froid, les règles douloureuses soulagées par la chaleur et la fatigue avec pâleur.",
+   "principe": {"zh": "温经养血", "py": "Wēn jīng yǎng xuè", "fr": "Réchauffer et nourrir le Sang"},
+   "precautions": "À éviter en cas de signes de chaleur (langue rouge, soif, sueurs nocturnes), de règles abondantes, et pendant la grossesse sans avis d'un praticien.",
+   "portions": 4, "duree": "2 h",
+   "ingredients": [
+    {"id": "agneau", "q": 500, "u": "g", "nom": "épaule ou gigot d'agneau, en cubes", "cle": "agneau"},
+    {"id": "danggui", "q": 15, "u": "g", "nom": "angélique chinoise (Dang Gui) en lamelles", "cle": "dang-gui"},
+    {"id": "gingembre", "q": 40, "u": "g", "nom": "gingembre frais, en tranches épaisses", "cle": "gingembre"},
+    {"id": "carotte", "q": 2, "nom": "carottes, en tronçons", "cle": "carotte"},
+    {"id": "oignon", "q": 1, "nom": "oignon, en quartiers", "cle": "oignon"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel et poivre", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la cocotte en fonte ou casserole", "etapes": [
+     {"titre": "Blanchir l'agneau", "texte": "Plonge l'agneau ({agneau}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Mijoter", "texte": "Mets l'agneau, l'angélique ({danggui}), le gingembre ({gingembre}), l'oignon ({oignon}) et l'eau ({eau}). Porte à ébullition, écume, puis laisse frémir à couvert.", "s": 3600},
+     {"titre": "Ajouter les carottes", "texte": "Ajoute les carottes ({carotte}) et poursuis jusqu'à ce que la viande soit fondante.", "s": 2400},
+     {"titre": "Servir", "texte": "Retire l'angélique, sale et poivre ({sel})."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Blanchir l'agneau", "texte": "Plonge l'agneau ({agneau}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Cuire", "texte": "Mets tous les ingrédients sauf le sel dans la cuve. Programme Mijoter ou Ragoût.", "s": 6000},
+     {"titre": "Servir", "texte": "Retire l'angélique, sale et poivre ({sel})."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Blanchir l'agneau", "texte": "Plonge l'agneau ({agneau}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Cuire sous pression", "texte": "Mets tous les ingrédients sauf le sel dans la cocotte. Compte le temps à partir du sifflement.", "s": 2400},
+     {"titre": "Servir", "texte": "Laisse la pression retomber seule, retire l'angélique, sale et poivre ({sel})."}
+    ]}
+   ],
+   "notes": ["L'angélique chinoise se trouve en épicerie asiatique ou en herboristerie chinoise.", "Sans angélique, le plat reste un bon mijoté réchauffant au gingembre."],
+   "tags": ["mijoté", "hiver", "règles douloureuses", "froid"]
+  },
+  {
+   "id": "crevettes-poireau-noix", "type": "recette", "date": "2026-09-27", "ordre": 13, "axe": "yang",
+   "titre": "Crevettes sautées aux poireaux et aux noix",
+   "contexte": "Crevettes, poireau et noix réchauffent le Yang du Rein. Un plat rapide pour la fatigue avec frilosité et lombaires froides.",
+   "principe": {"zh": "温补肾阳", "py": "Wēn bǔ shèn yáng", "fr": "Réchauffer le Yang du Rein"},
+   "precautions": "Évite-le en cas d'allergie aux crustacés, d'eczéma ou d'urticaire qui réagissent aux fruits de mer, ou de signes de chaleur.",
+   "portions": 2, "duree": "20 min",
+   "ingredients": [
+    {"id": "crevettes", "q": 250, "u": "g", "nom": "crevettes décortiquées", "cle": "crevettes"},
+    {"id": "poireau", "q": 1, "nom": "poireau, en fines rondelles", "cle": "poireau"},
+    {"id": "noix", "q": 40, "u": "g", "nom": "cerneaux de noix", "cle": "noix"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre, en fins bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle ou au wok", "etapes": [
+     {"titre": "Griller les noix", "texte": "Fais griller les noix ({noix}) à sec dans la poêle, puis réserve-les.", "s": 180},
+     {"titre": "Faire revenir", "texte": "Chauffe l'huile ({huile}), fais revenir le gingembre ({gingembre}) quelques secondes, puis le poireau ({poireau}) jusqu'à ce qu'il fonde.", "s": 240},
+     {"titre": "Cuire les crevettes", "texte": "Ajoute les crevettes ({crevettes}) et saisis-les jusqu'à ce qu'elles soient roses.", "s": 180},
+     {"titre": "Servir", "texte": "Ajoute la sauce soja ({soja}) et les noix, mélange et sers avec du riz."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["sauté", "Rein", "froid", "rapide"]
+  },
+  {
+   "id": "infusion-gingembre-cannelle", "type": "recette", "date": "2026-09-27", "ordre": 14, "axe": "yang",
+   "titre": "Infusion gingembre-cannelle",
+   "contexte": "Pour réchauffer le centre quand le froid domine : ventre froid, mains glacées, règles soulagées par la chaleur.",
+   "principe": {"zh": "温中散寒", "py": "Wēn zhōng sàn hán", "fr": "Réchauffer le centre, disperser le Froid"},
+   "precautions": "Pas en cas de chaleur (langue rouge, soif, sueurs nocturnes, aphtes), ni tous les jours sur une longue période.",
+   "portions": 2, "duree": "12 min",
+   "ingredients": [
+    {"id": "gingembre", "q": 6, "nom": "tranches de gingembre frais", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "cannelle", "q": 1, "nom": "bâton de cannelle", "cle": "cannelle"},
+    {"id": "sucre", "q": 1, "u": "tsp", "nom": "sucre roux (facultatif)", "base": true},
+    {"id": "eau", "q": 600, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Faire frémir", "texte": "Mets le gingembre ({gingembre}), la cannelle ({cannelle}) et l'eau ({eau}) dans une casserole, porte à ébullition puis laisse frémir.", "s": 600},
+     {"titre": "Servir", "texte": "Sucre si tu veux ({sucre}) et bois chaud."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["infusion", "froid", "digestion"]
+  },
+  {
+   "id": "congee-orge-azuki", "type": "recette", "date": "2026-09-27", "ordre": 15, "axe": "humidite",
+   "titre": "Congee d'orge perlé et de haricots azuki",
+   "contexte": "L'orge perlé chinois (Yi Yi Ren) et les haricots azuki drainent l'Humidité par les urines : pour la lourdeur, les œdèmes, la peau grasse ou suintante.",
+   "principe": {"zh": "健脾利湿", "py": "Jiàn pí lì shī", "fr": "Renforcer la Rate, drainer l'Humidité"},
+   "precautions": "L'orge perlé chinois (Yi Yi Ren) est déconseillé pendant la grossesse.",
+   "portions": 4, "duree": "1 h 30 (+ trempage)",
+   "ingredients": [
+    {"id": "orge", "q": 80, "u": "g", "nom": "orge perlé chinois (larmes-de-Job, Yi Yi Ren)", "cle": "orge-perle", "note": "En épicerie asiatique sous le nom « Job's tears ». L'orge perlé classique convient aussi."},
+    {"id": "azuki", "q": 60, "u": "g", "nom": "haricots azuki, trempés une nuit", "cle": "azuki"},
+    {"id": "riz", "q": 60, "u": "g", "nom": "riz", "cle": "riz"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "pinch", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire orge et haricots", "texte": "Mets l'orge rincé ({orge}) et les azuki égouttés ({azuki}) dans l'eau ({eau}). Porte à ébullition et laisse frémir.", "s": 2700},
+     {"titre": "Ajouter le riz", "texte": "Ajoute le riz rincé ({riz}) et poursuis à feu doux en remuant.", "s": 2400},
+     {"titre": "Servir", "texte": "Sale légèrement ({sel}), ou garde nature pour un petit-déjeuner."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Remplir la cuve", "texte": "Mets l'orge ({orge}), les azuki égouttés ({azuki}) et le riz ({riz}) dans la cuve, eau jusqu'au repère Porridge."},
+     {"titre": "Cuire", "texte": "Programme Porridge, Haricots ou Mijoter, au plus long.", "s": 5400}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Cuire sous pression", "texte": "Mets tout dans la cocotte avec l'eau ({eau}). Compte le temps à partir du sifflement.", "s": 1500},
+     {"titre": "Servir", "texte": "Laisse la pression retomber seule, sale légèrement ({sel})."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["congee", "Humidité", "œdèmes", "peau"]
+  },
+  {
+   "id": "soupe-radis-gingembre", "type": "recette", "date": "2026-09-27", "ordre": 16, "axe": "humidite",
+   "titre": "Soupe de radis blanc au gingembre et à la mandarine",
+   "contexte": "Le radis blanc (daikon) fait descendre le Qi, transforme les glaires et débloque la digestion ; l'écorce de mandarine assèche l'Humidité.",
+   "principe": {"zh": "化痰消食", "py": "Huà tán xiāo shí", "fr": "Transformer les glaires, aider la digestion"},
+   "portions": 3, "duree": "30 min",
+   "ingredients": [
+    {"id": "radis", "q": 400, "u": "g", "nom": "radis blanc (daikon), en demi-rondelles", "cle": "radis-blanc"},
+    {"id": "carotte", "q": 1, "nom": "carotte, en rondelles", "cle": "carotte"},
+    {"id": "gingembre", "q": 4, "nom": "tranches de gingembre", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "mandarine", "q": 5, "u": "g", "nom": "écorce de mandarine séchée (ou zeste d'une mandarine bio)", "cle": "mandarine"},
+    {"id": "cebette", "q": 1, "nom": "tige de cébette, ciselée", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "eau", "q": 1000, "u": "ml", "nom": "eau ou bouillon", "base": true},
+    {"id": "sel", "q": 0.5, "u": "tsp", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Mijoter", "texte": "Mets le radis ({radis}), la carotte ({carotte}), le gingembre ({gingembre}), l'écorce de mandarine ({mandarine}) et l'eau ({eau}) dans une casserole. Porte à ébullition puis laisse frémir, jusqu'à ce que le radis soit translucide.", "s": 1200},
+     {"titre": "Servir", "texte": "Sale ({sel}), parsème de cébette ({cebette})."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Cuire", "texte": "Mets tout sauf le sel et la cébette dans la cuve. Programme Soupe.", "s": 1800},
+     {"titre": "Servir", "texte": "Sale ({sel}), parsème de cébette ({cebette})."}
+    ]}
+   ],
+   "notes": ["Le radis blanc se trouve en épicerie asiatique et souvent au rayon légumes des supermarchés."],
+   "tags": ["soupe", "glaires", "digestion"]
+  },
+  {
+   "id": "infusion-chen-pi", "type": "recette", "date": "2026-09-27", "ordre": 17, "axe": "humidite",
+   "titre": "Infusion d'écorce de mandarine et de gingembre",
+   "contexte": "L'écorce de mandarine (Chen Pi) fait circuler le Qi de la Rate et assèche l'Humidité : pour la digestion lourde, les ballonnements et les glaires blanches.",
+   "principe": {"zh": "理气健脾燥湿", "py": "Lǐ qì jiàn pí zào shī", "fr": "Faire circuler le Qi, renforcer la Rate, assécher l'Humidité"},
+   "portions": 2, "duree": "12 min",
+   "ingredients": [
+    {"id": "mandarine", "q": 5, "u": "g", "nom": "écorce de mandarine séchée (ou zeste d'une mandarine bio)", "cle": "mandarine"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "eau", "q": 500, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Faire frémir", "texte": "Mets l'écorce ({mandarine}), le gingembre ({gingembre}) et l'eau ({eau}) dans une casserole, porte à ébullition puis laisse frémir.", "s": 600},
+     {"titre": "Servir", "texte": "Bois tiède, de préférence après le repas."}
+    ]}
+   ],
+   "notes": ["Fais sécher toi-même les écorces de mandarines bio à l'air libre quelques jours : plus elles vieillissent, meilleures elles sont."],
+   "tags": ["infusion", "digestion", "ballonnements"]
+  },
+  {
+   "id": "soupe-mungo", "type": "recette", "date": "2026-09-27", "ordre": 18, "axe": "chaleur",
+   "titre": "Soupe de haricots mungo",
+   "contexte": "Le haricot mungo clarifie la Chaleur et élimine les toxines : pour l'été, la soif, la peau qui chauffe ou les boutons rouges.",
+   "principe": {"zh": "清热解毒", "py": "Qīng rè jiě dú", "fr": "Clarifier la Chaleur, éliminer les toxines"},
+   "precautions": "Rafraîchissant : à éviter si tu es frileux, avec selles molles et ventre froid.",
+   "portions": 4, "duree": "50 min",
+   "ingredients": [
+    {"id": "mungo", "q": 150, "u": "g", "nom": "haricots mungo verts (pas le soja germé)", "cle": "mungo"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sucre", "q": 1, "u": "tbsp", "nom": "sucre roux (facultatif)", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Premier bouillon", "texte": "Rince les haricots ({mungo}), porte-les à ébullition dans l'eau ({eau}), puis laisse frémir. Pour clarifier la Chaleur, bois déjà ce bouillon vert en partie.", "s": 900},
+     {"titre": "Poursuivre", "texte": "Pour une soupe plus nourrissante, continue jusqu'à ce que les haricots éclatent.", "s": 1800},
+     {"titre": "Servir", "texte": "Sucre légèrement si tu veux ({sucre}). Se boit tiède ou à température ambiante en été."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Cuire", "texte": "Mets les haricots rincés ({mungo}) et l'eau ({eau}) dans la cuve. Programme Soupe ou Porridge.", "s": 3600},
+     {"titre": "Servir", "texte": "Sucre légèrement si tu veux ({sucre})."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["soupe", "été", "peau", "Chaleur"]
+  },
+  {
+   "id": "infusion-chrysantheme-goji", "type": "recette", "date": "2026-09-27", "ordre": 19, "axe": "chaleur",
+   "titre": "Infusion chrysanthème et goji",
+   "contexte": "Le chrysanthème clarifie le Foie et soulage les yeux rouges ou fatigués, le goji nourrit le Yin du Foie. Idéale après une journée d'écran.",
+   "principe": {"zh": "清肝明目", "py": "Qīng gān míng mù", "fr": "Clarifier le Foie, éclaircir les yeux"},
+   "precautions": "Un peu fraîche : limite-la si tu as le ventre froid et les selles molles.",
+   "portions": 1, "duree": "10 min",
+   "ingredients": [
+    {"id": "chrysantheme", "q": 5, "nom": "fleurs de chrysanthème séchées (Ju Hua)", "cle": "chrysantheme"},
+    {"id": "goji", "q": 1, "u": "tbsp", "nom": "baies de goji", "cle": "goji"},
+    {"id": "eau", "q": 400, "u": "ml", "nom": "eau chaude (pas bouillante)", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "En théière ou dans un bol", "etapes": [
+     {"titre": "Infuser", "texte": "Verse l'eau ({eau}) sur les fleurs ({chrysantheme}) et le goji ({goji}), couvre et laisse infuser.", "s": 480},
+     {"titre": "Servir", "texte": "Bois tiède ; tu peux rajouter de l'eau chaude une ou deux fois sur les mêmes fleurs."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["infusion", "yeux", "Foie", "écrans"]
+  },
+  {
+   "id": "saute-celeri-tofu", "type": "recette", "date": "2026-09-27", "ordre": 20, "axe": "chaleur",
+   "titre": "Sauté de céleri et tofu au gingembre",
+   "contexte": "Le céleri branche calme le Yang du Foie et clarifie la Chaleur, le tofu nourrit le Yin. Un plat simple pour les maux de tête aux tempes et l'irritabilité.",
+   "principe": {"zh": "平肝清热", "py": "Píng gān qīng rè", "fr": "Apaiser le Foie, clarifier la Chaleur"},
+   "portions": 2, "duree": "20 min",
+   "ingredients": [
+    {"id": "celeri", "q": 3, "nom": "branches de céleri, en biais", "cle": "celeri", "suffixe": "branches"},
+    {"id": "tofu", "q": 200, "u": "g", "nom": "tofu ferme, en dés", "cle": "tofu"},
+    {"id": "gingembre", "q": 2, "nom": "tranches de gingembre, en bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "cebette", "q": 1, "nom": "tige de cébette", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle ou au wok", "etapes": [
+     {"titre": "Dorer le tofu", "texte": "Fais dorer le tofu ({tofu}) dans l'huile ({huile}) sur toutes ses faces, puis réserve.", "s": 360},
+     {"titre": "Sauter le céleri", "texte": "Fais revenir le gingembre ({gingembre}) quelques secondes, puis le céleri ({celeri}) : il doit rester un peu croquant.", "s": 240},
+     {"titre": "Servir", "texte": "Remets le tofu, ajoute la sauce soja ({soja}) et la cébette ({cebette}). Sers avec du riz."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["sauté", "Foie", "maux de tête", "végétarien"]
+  },
+  {
+   "id": "infusion-rose-orange", "type": "recette", "date": "2026-09-27", "ordre": 21, "axe": "circuler",
+   "titre": "Infusion de boutons de rose et zeste d'orange",
+   "contexte": "Le bouton de rose fait circuler le Qi du Foie et le Sang, le zeste d'orange détend le ventre : pour le stress, les soupirs et les tensions avant les règles.",
+   "principe": {"zh": "疏肝解郁", "py": "Shū gān jiě yù", "fr": "Libérer le Foie, dénouer les tensions"},
+   "precautions": "Pendant la grossesse ou en cas de règles très abondantes, demande conseil : la rose fait circuler le Sang.",
+   "portions": 1, "duree": "8 min",
+   "ingredients": [
+    {"id": "rose", "q": 6, "nom": "boutons de rose séchés alimentaires (Mei Gui Hua)", "cle": "rose"},
+    {"id": "orange", "q": 1, "nom": "zeste d'orange bio (quelques bandes)", "cle": "orange"},
+    {"id": "eau", "q": 400, "u": "ml", "nom": "eau chaude", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "En théière ou dans un bol", "etapes": [
+     {"titre": "Infuser", "texte": "Verse l'eau ({eau}) sur les boutons de rose ({rose}) et le zeste ({orange}), couvre et laisse infuser.", "s": 360},
+     {"titre": "Servir", "texte": "Bois tiède, dans un moment calme."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["infusion", "stress", "règles", "Foie"]
+  },
+  {
+   "id": "infusion-cong-bai", "type": "recette", "date": "2026-09-27", "ordre": 22, "axe": "exterieur",
+   "titre": "Infusion de cébette et gingembre",
+   "contexte": "Remède traditionnel des premières heures d'un rhume par le froid : le blanc de cébette et le gingembre font légèrement transpirer et chassent le froid.",
+   "principe": {"zh": "发散风寒", "py": "Fā sàn fēng hán", "fr": "Disperser le Vent-Froid"},
+   "precautions": "Seulement au tout début, avec frissons et nez qui coule clair. Pas en cas de mal de gorge, de forte fièvre ou de glaires jaunes.",
+   "portions": 1, "duree": "8 min",
+   "ingredients": [
+    {"id": "cebette", "q": 5, "nom": "blancs de cébette avec leurs racines, lavés", "cle": "cebette", "suffixe": "blancs"},
+    {"id": "gingembre", "q": 5, "nom": "tranches de gingembre frais", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "sucre", "q": 1, "u": "tbsp", "nom": "sucre roux", "base": true},
+    {"id": "eau", "q": 500, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Faire frémir brièvement", "texte": "Porte l'eau ({eau}) à ébullition avec la cébette ({cebette}) et le gingembre ({gingembre}), puis laisse frémir très peu : les principes actifs sont volatils.", "s": 300},
+     {"titre": "Boire et se couvrir", "texte": "Ajoute le sucre ({sucre}), bois bien chaud et couvre-toi pour transpirer légèrement."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["infusion", "rhume", "froid"]
+  },
+  {
+   "id": "infusion-menthe-chrysantheme", "type": "recette", "date": "2026-09-27", "ordre": 23, "axe": "exterieur",
+   "titre": "Infusion menthe et chrysanthème",
+   "contexte": "Pour le début d'un rhume par la chaleur : gorge qui gratte, un peu de fièvre, yeux qui piquent.",
+   "principe": {"zh": "疏风清热", "py": "Shū fēng qīng rè", "fr": "Chasser le Vent, clarifier la Chaleur"},
+   "portions": 1, "duree": "8 min",
+   "ingredients": [
+    {"id": "menthe", "q": 10, "nom": "feuilles de menthe fraîche", "cle": "menthe", "suffixe": "feuilles"},
+    {"id": "chrysantheme", "q": 5, "nom": "fleurs de chrysanthème séchées", "cle": "chrysantheme"},
+    {"id": "miel", "q": 1, "u": "tsp", "nom": "miel (facultatif)", "cle": "miel"},
+    {"id": "eau", "q": 400, "u": "ml", "nom": "eau chaude", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "En théière ou dans un bol", "etapes": [
+     {"titre": "Infuser", "texte": "Verse l'eau ({eau}) sur la menthe ({menthe}) et le chrysanthème ({chrysantheme}), couvre et laisse infuser.", "s": 300},
+     {"titre": "Servir", "texte": "Ajoute le miel une fois tiède ({miel}) et bois par petites gorgées."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["infusion", "gorge", "rhume"]
+  },
+  {
+   "id": "compote-pomme-poire", "type": "recette", "date": "2026-09-27", "ordre": 24, "axe": "yin",
+   "titre": "Compote tiède pomme-poire aux pruneaux",
+   "contexte": "Pomme et poire cuites humidifient les intestins sans refroidir, les pruneaux facilitent le transit. Pour la constipation par sécheresse.",
+   "principe": {"zh": "润肠通便", "py": "Rùn cháng tōng biàn", "fr": "Humidifier les intestins, faciliter les selles"},
+   "portions": 3, "duree": "25 min",
+   "ingredients": [
+    {"id": "pomme", "q": 2, "nom": "pommes, en morceaux", "cle": "pomme"},
+    {"id": "poire", "q": 2, "nom": "poires, en morceaux", "cle": "poire"},
+    {"id": "pruneaux", "q": 8, "nom": "pruneaux dénoyautés", "cle": "pruneaux"},
+    {"id": "cannelle", "q": 0.25, "u": "tsp", "nom": "cannelle en poudre", "cle": "cannelle"},
+    {"id": "eau", "q": 100, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire", "texte": "Mets les pommes ({pomme}), les poires ({poire}), les pruneaux ({pruneaux}), la cannelle ({cannelle}) et l'eau ({eau}) dans une casserole. Couvre et laisse compoter à feu doux.", "s": 1200},
+     {"titre": "Servir", "texte": "Écrase grossièrement et mange tiède, le matin de préférence."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["dessert", "constipation", "petit-déjeuner"]
+  }
+ ]
+}

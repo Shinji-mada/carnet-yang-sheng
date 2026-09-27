@@ -1,0 +1,246 @@
+{
+ "tableaux": [
+  {
+   "id": "rn-vide-yang", "organe": "rein", "nom": "Vide de Yang du Rein", "zh": "肾阳虚", "py": "Shèn yáng xū",
+   "resume": "Le feu de fond du corps faiblit : froid dans le bas du dos et les jambes, urines abondantes et claires, fatigue profonde.",
+   "causes": ["Surmenage physique prolongé", "Froid et humidité répétés", "Âge, maladie chronique", "Constitution"],
+   "mecanisme": "Le Yang du Rein réchauffe tout le corps et fait fonctionner les liquides. Quand il baisse, le bas du corps refroidit, les urines coulent claires et abondantes, et l'énergie de fond manque.",
+   "cle": ["frilosite", "genoux-faibles", "urines-claires", "mictions-nuit"],
+   "autres": ["fatigue", "lombalgie-sourde", "diarrhee-matin", "oedeme", "libido", "teint-pale", "decouragement", "langue-pale", "langue-gonflee"],
+   "contre": ["chaleur-corps", "sueurs-nuit", "langue-rouge"],
+   "langue": "Pâle, gonflée, humide.",
+   "pouls": "Profond et faible, surtout aux positions du Rein.",
+   "principe": {"zh": "温补肾阳", "py": "Wēn bǔ shèn yáng", "fr": "Réchauffer et tonifier le Yang du Rein"},
+   "moxa": "Moxa conseillé.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "Rn 3", "s": 90, "pourquoi": "Point Yuan du Rein."},
+     {"p": "Rn 7", "s": 90, "pourquoi": "Tonifie le Rein."},
+     {"p": "V 23", "s": 90, "pourquoi": "Point Shu du dos du Rein."},
+     {"p": "E 36", "s": 120, "pourquoi": "Tonifie le Qi de tout le corps."}
+    ]},
+    {"m": "w", "items": [
+     {"p": "RM 4", "s": 300, "pourquoi": "Réchauffe le Rein et le bas-ventre."},
+     {"p": "VG 4", "s": 300, "pourquoi": "« Porte de la Vie » : réchauffe le Yang du Rein."}
+    ]}
+   ],
+   "recettes": ["agneau-dang-gui", "crevettes-poireau-noix", "infusion-gingembre-cannelle"],
+   "privilegier": "Noix, agneau, crevettes, poireau, cannelle, gingembre, haricots noirs, châtaignes, plats mijotés.",
+   "eviter": "Froid et cru, boissons glacées, surmenage, veiller, s'asseoir sur un sol froid.",
+   "conseils": ["Frotte le bas de ton dos avec les paumes chaque soir jusqu'à ce qu'il chauffe.", "Garde les reins et les pieds au chaud."]
+  },
+  {
+   "id": "rn-vide-yin", "organe": "rein", "nom": "Vide de Yin du Rein", "zh": "肾阴虚", "py": "Shèn yīn xū",
+   "resume": "Les liquides profonds s'épuisent : sueurs nocturnes, bouffées de chaleur, acouphènes, lombaires faibles, bouche sèche la nuit.",
+   "causes": ["Surmenage, manque de sommeil sur des années", "Maladie chronique, fièvres longues", "Âge, ménopause"],
+   "mecanisme": "Le Yin du Rein est la base de tous les Yin du corps. Quand il s'épuise, une chaleur de vide apparaît le soir et la nuit, et le bas du corps s'affaiblit.",
+   "cle": ["sueurs-nuit", "chaleur-5-coeurs", "genoux-faibles", "acouphenes-faibles"],
+   "autres": ["bouche-seche", "vertiges", "memoire", "reveils", "constipation-seche", "urines-foncees", "pommettes-rouges", "langue-rouge-sans-enduit", "chaleur-corps", "cheveux-blancs"],
+   "contre": ["frilosite", "urines-claires", "langue-pale", "enduit-blanc-epais"],
+   "langue": "Rouge, sans enduit, parfois fissurée.",
+   "pouls": "Fin et rapide.",
+   "principe": {"zh": "滋补肾阴", "py": "Zī bǔ shèn yīn", "fr": "Nourrir le Yin du Rein"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "Rn 3", "s": 90, "pourquoi": "Tonifie le Rein."},
+     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit le Yin."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Yin."},
+     {"p": "RM 4", "s": 90, "pourquoi": "Nourrit le Rein."},
+     {"p": "V 23", "s": 90, "pourquoi": "Point Shu du dos du Rein."}
+    ]}
+   ],
+   "recettes": ["congee-haricots-noirs", "soupe-tremelle", "congee-goji-sesame"],
+   "privilegier": "Haricots noirs, sésame noir, goji, trémelle, igname, œufs, tofu, poire.",
+   "eviter": "Épices, alcool, café, sauna, sport intense le soir, veiller.",
+   "conseils": ["Le Yin se refait la nuit : couche-toi avant 23 h."]
+  },
+  {
+   "id": "rn-qi-non-ferme", "organe": "rein", "nom": "Le Qi du Rein ne retient plus", "zh": "肾气不固", "py": "Shèn qì bù gù",
+   "resume": "Le Rein ne « ferme » plus : envies fréquentes d'uriner, fuites, urines qui gouttent, pertes blanches.",
+   "causes": ["Âge", "Accouchements", "Surmenage, maladie chronique"],
+   "mecanisme": "Le Qi du Rein garde les portes du bas du corps fermées. Quand il faiblit, les urines et les pertes s'échappent.",
+   "cle": ["fuites-urinaires", "mictions-nuit", "genoux-faibles"],
+   "autres": ["urines-claires", "lombalgie-sourde", "pertes-blanches", "fatigue", "langue-pale"],
+   "contre": ["brulures-urinaires", "langue-rouge"],
+   "langue": "Pâle.",
+   "pouls": "Profond et faible.",
+   "principe": {"zh": "固摄肾气", "py": "Gù shè shèn qì", "fr": "Consolider le Qi du Rein"},
+   "moxa": "Moxa possible sur RM 6.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "Rn 3", "s": 90, "pourquoi": "Tonifie le Rein."},
+     {"p": "V 23", "s": 90, "pourquoi": "Point Shu du dos du Rein."},
+     {"p": "V 28", "s": 90, "pourquoi": "Point Shu du dos de la Vessie."},
+     {"p": "RM 4", "s": 90, "pourquoi": "Tonifie le Rein."}
+    ]},
+    {"m": "w", "items": [
+     {"p": "RM 6", "s": 300, "pourquoi": "Tonifie et réchauffe le Qi."}
+    ]}
+   ],
+   "recettes": ["congee-shan-yao", "crevettes-poireau-noix", "congee-haricots-noirs"],
+   "privilegier": "Igname, noix, haricots noirs, graines de lotus, châtaignes.",
+   "eviter": "Boissons froides, porter lourd, boire beaucoup le soir.",
+   "conseils": ["La rééducation du périnée donne de très bons résultats : parles-en à ton médecin."]
+  },
+  {
+   "id": "rn-recevoir-qi", "organe": "rein", "nom": "Le Rein ne reçoit pas le Qi", "zh": "肾不纳气", "py": "Shèn bù nà qì",
+   "resume": "Le Rein ne tire plus le souffle vers le bas : essoufflement chronique, respiration courte, asthme qui traîne.",
+   "causes": ["Asthme ou toux chroniques", "Âge, surmenage", "Vide du Poumon ancien"],
+   "mecanisme": "Le Poumon inspire, le Rein « reçoit » et ancre le souffle en bas. Quand le Rein faiblit, l'inspiration reste courte et l'essoufflement s'installe.",
+   "cle": ["essoufflement", "sifflement", "genoux-faibles"],
+   "autres": ["sueurs-jour", "fatigue", "urines-claires", "frilosite", "voix-faible", "langue-pale"],
+   "contre": ["toux-glaires-jaunes", "fievre"],
+   "langue": "Pâle.",
+   "pouls": "Profond et faible.",
+   "principe": {"zh": "补肾纳气", "py": "Bǔ shèn nà qì", "fr": "Tonifier le Rein pour qu'il reçoive le souffle"},
+   "consulter": "Un essoufflement chronique doit être suivi par un médecin.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "Ding Chuan", "s": 60, "pourquoi": "Calme la respiration sifflante."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "Rn 3", "s": 90, "pourquoi": "Tonifie le Rein."},
+     {"p": "P 9", "s": 90, "pourquoi": "Tonifie le Poumon."},
+     {"p": "RM 17", "s": 90, "pourquoi": "Régule le souffle."},
+     {"p": "Rn 27", "s": 90, "pourquoi": "Fait descendre le Qi, calme l'essoufflement."},
+     {"p": "RM 4", "s": 90, "pourquoi": "Ancre le souffle en bas."}
+    ]}
+   ],
+   "recettes": ["congee-shan-yao", "congee-haricots-noirs", "soupe-poulet-huang-qi"],
+   "privilegier": "Noix, igname, haricots noirs, poulet, plats chauds.",
+   "eviter": "Tabac, froid, efforts brusques.",
+   "conseils": ["Respiration ventrale : inspire par le nez en gonflant le ventre, expire longuement par la bouche."]
+  },
+  {
+   "id": "rn-jing", "organe": "rein", "nom": "Vide de Jing du Rein", "zh": "肾精不足", "py": "Shèn jīng bù zú",
+   "resume": "L'essence de fond s'épuise : vieillissement précoce, cheveux blancs tôt, mémoire faible, audition qui baisse.",
+   "causes": ["Constitution fragile", "Surmenage sur des années", "Excès en tout genre, âge"],
+   "mecanisme": "Le Jing est notre réserve profonde, héritée et entretenue. Il nourrit les os, le cerveau, les oreilles et les cheveux : quand il baisse, tout vieillit plus vite.",
+   "cle": ["cheveux-blancs", "memoire", "genoux-faibles"],
+   "autres": ["chute-cheveux", "audition", "acouphenes-faibles", "libido", "fatigue", "vertiges"],
+   "contre": [],
+   "langue": "Variable, souvent pâle ou rouge sans enduit.",
+   "pouls": "Profond et faible.",
+   "principe": {"zh": "补肾填精", "py": "Bǔ shèn tián jīng", "fr": "Tonifier le Rein, nourrir l'Essence"},
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "Rn 3", "s": 90, "pourquoi": "Tonifie le Rein."},
+     {"p": "VB 39", "s": 90, "pourquoi": "Point de réunion des moelles."},
+     {"p": "RM 4", "s": 90, "pourquoi": "Nourrit le Rein et l'Essence."},
+     {"p": "V 23", "s": 90, "pourquoi": "Point Shu du dos du Rein."}
+    ]}
+   ],
+   "recettes": ["congee-haricots-noirs", "congee-goji-sesame"],
+   "privilegier": "Sésame noir, haricots noirs, noix, goji, œufs, bouillons d'os, algues.",
+   "eviter": "Surmenage, nuits courtes, excès de tout.",
+   "conseils": ["Le Jing se préserve plus qu'il ne se refait : sommeil régulier, repas nourrissants, pas d'excès."]
+  },
+  {
+   "id": "v-humidite-chaleur", "organe": "rein", "nom": "Humidité-Chaleur de la Vessie", "zh": "膀胱湿热", "py": "Páng guāng shī rè",
+   "resume": "Humidité et Chaleur descendent dans la Vessie : brûlures en urinant, envies fréquentes et pressantes, urines foncées.",
+   "causes": ["Alimentation grasse et épicée, alcool", "Froid et humidité qui s'échauffent", "Ne pas boire assez"],
+   "mecanisme": "L'Humidité-Chaleur bloque la Vessie : les urines deviennent rares, foncées, brûlantes et pressantes.",
+   "cle": ["brulures-urinaires", "urines-foncees"],
+   "autres": ["soif", "enduit-jaune", "fievre", "lombalgie-sourde"],
+   "contre": ["urines-claires", "frilosite"],
+   "langue": "Enduit jaune et gras à l'arrière.",
+   "pouls": "Glissant et rapide.",
+   "principe": {"zh": "清利膀胱湿热", "py": "Qīng lì páng guāng shī rè", "fr": "Clarifier et drainer l'Humidité-Chaleur de la Vessie"},
+   "consulter": "Des brûlures urinaires doivent être vues par un médecin : une infection urinaire se soigne vite. Va aux urgences en cas de fièvre, de frissons, de douleur dans le bas du dos, ou si tu es enceinte.",
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "RM 3", "s": 60, "pourquoi": "Point Mu de la Vessie."},
+     {"p": "V 28", "s": 60, "pourquoi": "Point Shu du dos de la Vessie."},
+     {"p": "Rt 9", "s": 60, "pourquoi": "Draine l'Humidité."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "Rt 6", "s": 90, "pourquoi": "Régule le bas du corps."}
+    ]}
+   ],
+   "recettes": ["soupe-mungo", "congee-orge-azuki"],
+   "privilegier": "Boire beaucoup d'eau, haricots mungo et azuki, orge perlé, céleri, concombre cuit.",
+   "eviter": "Alcool, épices, café, sucre, se retenir d'uriner.",
+   "conseils": []
+  },
+  {
+   "id": "gi-humidite-chaleur", "organe": "intestins", "nom": "Humidité-Chaleur des Intestins", "zh": "大肠湿热", "py": "Dà cháng shī rè",
+   "resume": "Humidité et Chaleur dans les intestins : diarrhée urgente, brûlante, malodorante, parfois glaireuse, avec douleurs du ventre.",
+   "causes": ["Aliments avariés, intoxication", "Alcool, gras, épices", "Chaleur humide de l'été"],
+   "mecanisme": "L'Humidité-Chaleur bloque le Gros Intestin : les selles deviennent urgentes, brûlantes et malodorantes.",
+   "cle": ["diarrhee-chaude", "enduit-jaune"],
+   "autres": ["ballonnements", "soif", "urines-foncees", "fievre", "hemorroides"],
+   "contre": ["diarrhee-matin", "frilosite", "langue-pale"],
+   "langue": "Rouge, enduit jaune et gras.",
+   "pouls": "Glissant et rapide.",
+   "principe": {"zh": "清热利湿", "py": "Qīng rè lì shī", "fr": "Clarifier la Chaleur, drainer l'Humidité"},
+   "consulter": "Du sang dans les selles, une forte fièvre, des signes de déshydratation ou une diarrhée qui dure plus de 3 jours imposent de consulter.",
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "E 25", "s": 60, "pourquoi": "Point Mu du Gros Intestin."},
+     {"p": "E 37", "s": 60, "pourquoi": "Point He inférieur du Gros Intestin."},
+     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur et l'Humidité."},
+     {"p": "Rt 9", "s": 60, "pourquoi": "Draine l'Humidité."}
+    ]}
+   ],
+   "recettes": ["soupe-mungo", "congee-orge-azuki"],
+   "privilegier": "Riz, bouillons, carotte cuite, orge perlé. Boire souvent par petites gorgées.",
+   "eviter": "Gras, laitages, alcool, épices, fruits crus pendant la crise.",
+   "conseils": []
+  },
+  {
+   "id": "gi-secheresse", "organe": "intestins", "nom": "Sécheresse du Gros Intestin", "zh": "大肠液亏", "py": "Dà cháng yè kuī",
+   "resume": "Les liquides manquent aux intestins : selles sèches et dures, difficiles à évacuer, bouche sèche.",
+   "causes": ["Vide de Sang ou de Yin", "Âge, suites d'accouchement", "Alimentation trop sèche, pas assez d'eau"],
+   "mecanisme": "Sans liquides, les selles se dessèchent et ne glissent plus : c'est une constipation « sèche », sans douleur vive.",
+   "cle": ["constipation-seche", "bouche-seche"],
+   "autres": ["peau-seche", "langue-seche", "teint-pale", "langue-rouge-sans-enduit", "amaigrissement"],
+   "contre": ["selles-molles", "diarrhee-chaude"],
+   "langue": "Sèche, pâle ou rouge sans enduit.",
+   "pouls": "Fin.",
+   "principe": {"zh": "润肠通便", "py": "Rùn cháng tōng biàn", "fr": "Humidifier les intestins, faciliter les selles"},
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "TR 6", "s": 60, "pourquoi": "Aide les selles à descendre."},
+     {"p": "E 25", "s": 60, "pourquoi": "Régule le Gros Intestin."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit le Yin et les liquides."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Sang et le Yin."}
+    ]}
+   ],
+   "recettes": ["compote-pomme-poire", "poire-vapeur-amandes", "congee-goji-sesame"],
+   "privilegier": "Pruneaux, poire, pomme cuite, sésame, amandes, noix, épinards, patate douce, assez d'eau.",
+   "eviter": "Épices, grillades, excès de café, se retenir d'aller aux toilettes.",
+   "conseils": ["Masse ton ventre dans le sens des aiguilles d'une montre, 5 minutes le matin.", "Pose tes pieds sur un petit tabouret aux toilettes."]
+  },
+  {
+   "id": "gi-constipation-vide", "organe": "intestins", "nom": "Constipation par vide de Qi", "zh": "气虚便秘", "py": "Qì xū biàn mì",
+   "resume": "Les intestins manquent de force : envie présente mais évacuation difficile, fatigue après l'effort, selles pas forcément dures.",
+   "causes": ["Vide de Qi de la Rate et du Poumon", "Âge, suites de maladie", "Sédentarité"],
+   "mecanisme": "Le Qi pousse les selles. Quand il manque, elles avancent mal même si elles ne sont pas sèches, et l'effort épuise.",
+   "cle": ["constipation-effort", "fatigue"],
+   "autres": ["essoufflement", "sueurs-jour", "voix-faible", "teint-pale", "langue-pale"],
+   "contre": ["constipation-seche", "enduit-jaune"],
+   "langue": "Pâle.",
+   "pouls": "Vide.",
+   "principe": {"zh": "益气润肠", "py": "Yì qì rùn cháng", "fr": "Tonifier le Qi, faciliter le transit"},
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "TR 6", "s": 60, "pourquoi": "Aide les selles à descendre."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "E 36", "s": 120, "pourquoi": "Tonifie le Qi."},
+     {"p": "E 25", "s": 90, "pourquoi": "Régule le Gros Intestin."},
+     {"p": "RM 6", "s": 90, "pourquoi": "Tonifie le Qi."}
+    ]}
+   ],
+   "recettes": ["congee-millet-patate-douce", "compote-pomme-poire", "soupe-poulet-huang-qi"],
+   "privilegier": "Patate douce, céréales cuites, pruneaux, compotes, légumes cuits.",
+   "eviter": "Cru et froid, sédentarité.",
+   "conseils": ["Va aux toilettes à heure fixe, idéalement le matin après une boisson chaude."]
+  }
+ ]
+}

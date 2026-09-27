@@ -1,0 +1,299 @@
+{
+ "tableaux": [
+  {
+   "id": "rt-vide-qi", "organe": "rate", "nom": "Vide de Qi de la Rate", "zh": "脾气虚", "py": "Pí qì xū",
+   "resume": "La Rate transforme mal les aliments : fatigue après les repas, ballonnements, selles molles, appétit faible.",
+   "causes": ["Repas irréguliers, pris sur le pouce ou devant un écran", "Excès de cru, de froid, de sucre", "Soucis et travail intellectuel prolongé", "Longue maladie"],
+   "mecanisme": "La Rate extrait le Qi des aliments et le distribue. Quand elle faiblit, la digestion ralentit, le Qi manque dans tout le corps et l'Humidité commence à s'accumuler.",
+   "cle": ["fatigue", "appetit-faible", "ballonnements", "selles-molles"],
+   "autres": ["somnolence", "teint-jaune", "langue-pale", "langue-gonflee", "envie-sucre", "ruminations", "voix-faible", "lourdeur"],
+   "contre": ["langue-rouge-sans-enduit", "soif", "diarrhee-chaude"],
+   "langue": "Pâle, gonflée, marques des dents sur les bords.",
+   "pouls": "Vide.",
+   "principe": {"zh": "健脾益气", "py": "Jiàn pí yì qì", "fr": "Renforcer la Rate, tonifier le Qi"},
+   "moxa": "Moxa possible sur E 36 et RM 12.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "RM 12", "s": 90, "pourquoi": "Point Mu de l'Estomac : tonifie le centre."},
+     {"p": "E 36", "s": 120, "pourquoi": "Tonifie le Qi de la Rate et de l'Estomac."},
+     {"p": "Rt 3", "s": 90, "pourquoi": "Point Yuan de la Rate."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Tonifie la Rate."},
+     {"p": "V 20", "s": 90, "pourquoi": "Point Shu du dos de la Rate."}
+    ]}
+   ],
+   "recettes": ["congee-millet-patate-douce", "congee-courge-carotte", "congee-shan-yao"],
+   "privilegier": "Repas chauds, cuits et réguliers : riz, millet, courge, patate douce, carotte, dattes, poulet.",
+   "eviter": "Cru, froid, sucre, laitages, grignotage, manger devant un écran.",
+   "conseils": ["Mâche longuement et pose tes couverts entre deux bouchées.", "Marche 10 minutes après le déjeuner."]
+  },
+  {
+   "id": "rt-vide-yang", "organe": "rate", "nom": "Vide de Yang de la Rate", "zh": "脾阳虚", "py": "Pí yáng xū",
+   "resume": "Le vide de Qi de la Rate s'accompagne de froid : ventre froid, frilosité, selles très molles, parfois œdèmes.",
+   "causes": ["Vide de Qi de la Rate prolongé", "Aliments et boissons froids au quotidien", "Exposition à l'humidité froide"],
+   "mecanisme": "Sans Yang, la Rate ne « cuit » plus les aliments : le ventre est froid, les selles contiennent des aliments non digérés et les liquides stagnent en œdèmes.",
+   "cle": ["frilosite", "selles-molles", "douleur-ventre-froid", "aliments-non-digeres"],
+   "autres": ["fatigue", "oedeme", "appetit-faible", "urines-claires", "peu-soif", "langue-pale", "langue-gonflee", "ballonnements"],
+   "contre": ["chaleur-corps", "langue-rouge", "soif", "diarrhee-chaude"],
+   "langue": "Pâle, gonflée, humide.",
+   "pouls": "Profond, lent et faible.",
+   "principe": {"zh": "温中健脾", "py": "Wēn zhōng jiàn pí", "fr": "Réchauffer le centre, renforcer la Rate"},
+   "moxa": "Moxa conseillé.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "RM 12", "s": 90, "pourquoi": "Tonifie le centre."},
+     {"p": "Rt 3", "s": 90, "pourquoi": "Point Yuan de la Rate."},
+     {"p": "V 20", "s": 90, "pourquoi": "Point Shu du dos de la Rate."}
+    ]},
+    {"m": "w", "items": [
+     {"p": "RM 6", "s": 300, "pourquoi": "Réchauffe le Yang."},
+     {"p": "E 36", "s": 240, "pourquoi": "Réchauffe et tonifie la Rate et l'Estomac."}
+    ]}
+   ],
+   "recettes": ["congee-courge-carotte", "infusion-gingembre-cannelle", "congee-millet-patate-douce"],
+   "privilegier": "Gingembre, cannelle, poireau, courge, riz, flocons d'avoine cuits, bouillons, agneau en hiver.",
+   "eviter": "Boissons froides, glaces, fruits crus, salades, marcher pieds nus sur le carrelage.",
+   "conseils": ["Bouillotte sur le ventre le soir.", "Commence la journée par une boisson chaude."]
+  },
+  {
+   "id": "rt-effondrement", "organe": "rate", "nom": "Effondrement du Qi de la Rate", "zh": "脾气下陷", "py": "Pí qì xià xiàn",
+   "resume": "La Rate n'a plus la force de maintenir les organes en place : pesanteur, descente d'organe, hémorroïdes, diarrhée chronique.",
+   "causes": ["Vide de Qi de la Rate installé", "Porter lourd, rester debout longtemps", "Accouchements, efforts de poussée répétés"],
+   "mecanisme": "Le Qi de la Rate a pour mouvement de monter et de maintenir. Quand il s'effondre, tout tend à descendre : organes, selles, veines.",
+   "cle": ["pesanteur", "fatigue", "selles-molles"],
+   "autres": ["hemorroides", "fuites-urinaires", "voix-faible", "appetit-faible", "langue-pale", "vertiges"],
+   "contre": ["langue-rouge", "chaleur-corps"],
+   "langue": "Pâle.",
+   "pouls": "Faible.",
+   "principe": {"zh": "补中益气", "py": "Bǔ zhōng yì qì", "fr": "Tonifier le centre et faire remonter le Qi"},
+   "moxa": "Moxa possible sur RM 6.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "VG 20", "s": 90, "pourquoi": "Fait remonter le Qi.", "tech": ["↻", "Pression douce, rotation horaire, sans appuyer fort"]},
+     {"p": "RM 6", "s": 90, "pourquoi": "Tonifie le Qi."},
+     {"p": "E 36", "s": 120, "pourquoi": "Tonifie la Rate et l'Estomac."},
+     {"p": "V 20", "s": 90, "pourquoi": "Point Shu du dos de la Rate."}
+    ]}
+   ],
+   "recettes": ["soupe-poulet-huang-qi", "congee-shan-yao"],
+   "privilegier": "Comme pour le vide de Qi de la Rate, avec l'astragale (Huang Qi) en bouillon.",
+   "eviter": "Porter lourd, rester debout longtemps, pousser fort aux toilettes.",
+   "conseils": ["Renforce ton périnée : demande à ton médecin ou à une sage-femme des exercices adaptés."]
+  },
+  {
+   "id": "rt-sang", "organe": "rate", "nom": "La Rate ne retient pas le Sang", "zh": "脾不统血", "py": "Pí bù tǒng xuè",
+   "resume": "La Rate faible ne maintient plus le Sang dans les vaisseaux : bleus faciles, petits saignements, règles abondantes.",
+   "causes": ["Vide de Qi de la Rate", "Surmenage, soucis"],
+   "mecanisme": "Le Qi de la Rate « tient » le Sang dans les vaisseaux. Quand il manque, le Sang s'échappe : bleus, saignements de nez ou de gencives, règles abondantes.",
+   "cle": ["bleus-faciles", "regles-abondantes", "fatigue"],
+   "autres": ["teint-pale", "appetit-faible", "selles-molles", "langue-pale", "hemorroides"],
+   "contre": ["langue-rouge", "chaleur-corps"],
+   "langue": "Pâle.",
+   "pouls": "Fin et faible.",
+   "principe": {"zh": "益气摄血", "py": "Yì qì shè xuè", "fr": "Tonifier le Qi pour retenir le Sang"},
+   "consulter": "Des saignements inhabituels ou des bleus sans raison justifient une prise de sang : consulte un médecin.",
+   "phases": [
+    {"m": "t", "items": [
+     {"p": "Rt 1", "s": 60, "pourquoi": "Aide la Rate à retenir le Sang."},
+     {"p": "Rt 10", "s": 90, "pourquoi": "Régule le Sang."},
+     {"p": "E 36", "s": 120, "pourquoi": "Tonifie le Qi."},
+     {"p": "V 20", "s": 90, "pourquoi": "Point Shu du dos de la Rate."}
+    ]}
+   ],
+   "recettes": ["soupe-poulet-huang-qi", "congee-millet-patate-douce", "congee-goji-sesame"],
+   "privilegier": "Céréales cuites, dattes, poulet, œufs, légumes cuits.",
+   "eviter": "Cru, froid, surmenage.",
+   "conseils": []
+  },
+  {
+   "id": "rt-froid-humidite", "organe": "rate", "nom": "Froid-Humidité envahissant la Rate", "zh": "寒湿困脾", "py": "Hán shī kùn pí",
+   "resume": "L'Humidité froide alourdit la digestion : corps lourd, ventre plein, bouche fade et pâteuse, peu de soif.",
+   "causes": ["Vivre ou travailler dans un lieu humide", "Excès d'aliments froids et crus", "Rate déjà faible"],
+   "mecanisme": "L'Humidité est lourde et collante : elle bloque la Rate, alourdit le corps et la tête, et encrasse la langue d'un enduit épais.",
+   "cle": ["lourdeur", "enduit-blanc-epais", "bouche-pateuse", "ballonnements"],
+   "autres": ["peu-soif", "nausee", "selles-molles", "cephalee-lourde", "pertes-blanches", "appetit-faible", "langue-gonflee"],
+   "contre": ["enduit-jaune", "soif", "langue-rouge"],
+   "langue": "Enduit blanc, épais et collant.",
+   "pouls": "Glissant et lent.",
+   "principe": {"zh": "温中化湿", "py": "Wēn zhōng huà shī", "fr": "Réchauffer le centre, transformer l'Humidité"},
+   "moxa": "Moxa possible sur E 36.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "Rt 9", "s": 60, "pourquoi": "Draine l'Humidité."},
+     {"p": "RM 9", "s": 60, "pourquoi": "Aide à éliminer l'eau."},
+     {"p": "RM 12", "s": 60, "pourquoi": "Transforme l'Humidité au centre.", "tech": ["↺", "Pression moyenne, rotation anti-horaire"]}
+    ]},
+    {"m": "t", "items": [
+     {"p": "Rt 3", "s": 90, "pourquoi": "Renforce la Rate."}
+    ]},
+    {"m": "w", "items": [
+     {"p": "E 36", "s": 240, "pourquoi": "Réchauffe la Rate et l'Estomac."}
+    ]}
+   ],
+   "recettes": ["congee-orge-azuki", "infusion-chen-pi", "congee-courge-carotte"],
+   "privilegier": "Orge perlé, haricots azuki, gingembre, zeste de mandarine, radis, riz.",
+   "eviter": "Laitages, sucre, gras, pain blanc en excès, boissons froides, lieux humides.",
+   "conseils": ["Aère et chauffe ta chambre si elle est humide."]
+  },
+  {
+   "id": "rt-humidite-chaleur", "organe": "rate", "nom": "Humidité-Chaleur de la Rate et de l'Estomac", "zh": "脾胃湿热", "py": "Pí wèi shī rè",
+   "resume": "L'Humidité s'échauffe : ventre plein, nausée, selles collantes et malodorantes, bouche pâteuse, parfois peau grasse.",
+   "causes": ["Alcool, friture, sucre, épices", "Chaleur humide de l'été", "Humidité ancienne qui s'échauffe"],
+   "mecanisme": "L'Humidité bloquée depuis longtemps produit de la Chaleur : tout devient collant, jaune et odorant.",
+   "cle": ["enduit-jaune", "diarrhee-chaude", "bouche-pateuse"],
+   "autres": ["ballonnements", "nausee", "urines-foncees", "lourdeur", "teint-jaune", "acne", "eczema-suintant", "haleine"],
+   "contre": ["enduit-blanc-epais", "frilosite", "langue-pale"],
+   "langue": "Rouge, enduit jaune et gras.",
+   "pouls": "Glissant et rapide.",
+   "principe": {"zh": "清热化湿", "py": "Qīng rè huà shī", "fr": "Clarifier la Chaleur, éliminer l'Humidité"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "Rt 9", "s": 60, "pourquoi": "Draine l'Humidité."},
+     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur et l'Humidité."},
+     {"p": "E 44", "s": 60, "pourquoi": "Clarifie la Chaleur de l'Estomac."},
+     {"p": "RM 12", "s": 60, "pourquoi": "Harmonise le centre.", "tech": ["↺", "Pression moyenne, rotation anti-horaire"]},
+     {"p": "E 40", "s": 60, "pourquoi": "Transforme l'Humidité."}
+    ]}
+   ],
+   "recettes": ["congee-orge-azuki", "soupe-mungo"],
+   "privilegier": "Orge perlé, haricots mungo et azuki, céleri, radis, concombre cuit, riz.",
+   "eviter": "Alcool, friture, sucre, viande grasse, épices fortes, laitages.",
+   "conseils": []
+  },
+  {
+   "id": "e-vide-yin", "organe": "rate", "nom": "Vide de Yin de l'Estomac", "zh": "胃阴虚", "py": "Wèi yīn xū",
+   "resume": "L'Estomac manque de liquides : faim sans envie de manger, bouche sèche, légère douleur brûlante, langue fissurée au centre.",
+   "causes": ["Repas pris tard le soir ou en vitesse", "Surmenage", "Épices, café, alcool", "Maladie avec fièvre"],
+   "mecanisme": "Le Yin de l'Estomac humidifie la digestion. Quand il manque, l'Estomac se dessèche : il brûle un peu, on a faim sans pouvoir manger beaucoup, et le centre de la langue perd son enduit.",
+   "cle": ["langue-rouge-sans-enduit", "bouche-seche", "langue-fissuree"],
+   "autres": ["douleur-estomac-brulure", "faim-excessive", "appetit-faible", "constipation-seche", "fievre-apres-midi", "hoquet"],
+   "contre": ["enduit-blanc-epais", "frilosite"],
+   "langue": "Rouge, sans enduit au centre, fissure médiane.",
+   "pouls": "Fin, un peu rapide.",
+   "principe": {"zh": "养阴益胃", "py": "Yǎng yīn yì wèi", "fr": "Nourrir le Yin, soutenir l'Estomac"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "MC 6", "s": 60, "pourquoi": "Calme l'Estomac, apaise le hoquet et la nausée."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "RM 12", "s": 90, "pourquoi": "Tonifie l'Estomac."},
+     {"p": "E 36", "s": 120, "pourquoi": "Tonifie l'Estomac."},
+     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Yin."},
+     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit le Yin."}
+    ]}
+   ],
+   "recettes": ["soupe-tremelle", "congee-shan-yao", "poire-vapeur-amandes"],
+   "privilegier": "Soupes, congee, igname, trémelle, poire, tofu, œufs, sésame. Mange à heures fixes.",
+   "eviter": "Épices, café, alcool, grillades, manger tard le soir ou en travaillant.",
+   "conseils": ["Dîne avant 20 h, léger et chaud."]
+  },
+  {
+   "id": "e-feu", "organe": "rate", "nom": "Feu de l'Estomac", "zh": "胃火", "py": "Wèi huǒ",
+   "resume": "La Chaleur brûle l'Estomac : faim excessive, soif de boissons froides, gencives douloureuses, mauvaise haleine.",
+   "causes": ["Épices, alcool, viandes grillées, friture", "Tabac", "Émotions qui chauffent (Feu du Foie)"],
+   "mecanisme": "La Chaleur de l'Estomac consume les aliments trop vite (faim permanente) et monte par le méridien vers les gencives et la bouche.",
+   "cle": ["faim-excessive", "soif", "gencives", "douleur-estomac-brulure"],
+   "autres": ["haleine", "reflux", "constipation-seche", "aphtes", "langue-rouge", "enduit-jaune", "urines-foncees"],
+   "contre": ["frilosite", "langue-pale", "peu-soif"],
+   "langue": "Rouge, enduit jaune et sec.",
+   "pouls": "Plein et rapide.",
+   "principe": {"zh": "清胃泻火", "py": "Qīng wèi xiè huǒ", "fr": "Clarifier l'Estomac, purger le Feu"},
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "E 44", "s": 60, "pourquoi": "Clarifie la Chaleur de l'Estomac, soulage les gencives."},
+     {"p": "E 21", "s": 60, "pourquoi": "Calme la douleur d'estomac."},
+     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur."},
+     {"p": "GI 4", "s": 60, "pourquoi": "Soulage les gencives et le visage."},
+     {"p": "E 25", "s": 60, "pourquoi": "Aide les selles à descendre."}
+    ]}
+   ],
+   "recettes": ["soupe-mungo", "saute-celeri-tofu"],
+   "privilegier": "Légumes verts, concombre, poire, tofu, haricots mungo, céréales complètes, eau à température ambiante.",
+   "eviter": "Épices, alcool, café, friture, grillades, agneau, excès de viande rouge.",
+   "conseils": []
+  },
+  {
+   "id": "e-froid", "organe": "rate", "nom": "Froid envahissant l'Estomac", "zh": "寒邪犯胃", "py": "Hán xié fàn wèi",
+   "resume": "Le Froid bloque l'Estomac, souvent après des boissons glacées : douleur vive soulagée par la chaleur, nausée, vomissements clairs.",
+   "causes": ["Boissons glacées, glaces, aliments crus", "Froid pris au ventre"],
+   "mecanisme": "Le Froid contracte et fige : l'Estomac se crispe, la douleur est vive et cède à la chaleur.",
+   "cle": ["douleur-estomac-froid", "nausee"],
+   "autres": ["vomissements", "peu-soif", "enduit-blanc-epais", "selles-molles", "douleur-ventre-froid"],
+   "contre": ["douleur-estomac-brulure", "soif", "enduit-jaune"],
+   "langue": "Enduit blanc épais.",
+   "pouls": "Profond et serré.",
+   "principe": {"zh": "温胃散寒", "py": "Wēn wèi sàn hán", "fr": "Réchauffer l'Estomac, disperser le Froid"},
+   "moxa": "Moxa conseillé.",
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "MC 6", "s": 60, "pourquoi": "Fait descendre le Qi de l'Estomac, calme la nausée."},
+     {"p": "Rt 4", "s": 60, "pourquoi": "Calme la douleur du ventre."},
+     {"p": "E 21", "s": 60, "pourquoi": "Calme la douleur d'estomac."}
+    ]},
+    {"m": "w", "items": [
+     {"p": "RM 12", "s": 300, "pourquoi": "Réchauffe l'Estomac."},
+     {"p": "E 36", "s": 240, "pourquoi": "Réchauffe et tonifie."}
+    ]}
+   ],
+   "recettes": ["infusion-gingembre-cannelle", "congee-courge-carotte"],
+   "privilegier": "Gingembre frais, bouillons chauds, riz, poireau.",
+   "eviter": "Boissons glacées, glaces, cru, fruits froids.",
+   "conseils": ["Une bouillotte sur l'estomac soulage vite."]
+  },
+  {
+   "id": "e-stagnation-alimentaire", "organe": "rate", "nom": "Stagnation alimentaire", "zh": "食滞胃脘", "py": "Shí zhì wèi wǎn",
+   "resume": "Trop mangé ou trop vite : estomac plein et douloureux, renvois acides, mauvaise haleine, sommeil agité.",
+   "causes": ["Repas trop copieux ou trop rapides", "Manger tard le soir", "Rate et Estomac faibles"],
+   "mecanisme": "Les aliments restent bloqués dans l'Estomac : le Qi ne descend plus, il remonte en renvois et perturbe même le sommeil.",
+   "cle": ["digestion-lente", "eructations", "haleine"],
+   "autres": ["reflux", "nausee", "vomissements", "ballonnements", "enduit-blanc-epais", "sommeil-agite", "appetit-faible"],
+   "contre": ["langue-rouge-sans-enduit"],
+   "langue": "Enduit épais.",
+   "pouls": "Plein et glissant.",
+   "principe": {"zh": "消食导滞", "py": "Xiāo shí dǎo zhì", "fr": "Faire digérer et descendre"},
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "RM 12", "s": 60, "pourquoi": "Libère l'Estomac.", "tech": ["↺", "Pression moyenne, rotation anti-horaire"]},
+     {"p": "E 21", "s": 60, "pourquoi": "Aide à digérer."},
+     {"p": "Rt 4", "s": 60, "pourquoi": "Harmonise l'Estomac."},
+     {"p": "MC 6", "s": 60, "pourquoi": "Fait descendre le Qi de l'Estomac."},
+     {"p": "E 44", "s": 60, "pourquoi": "Dégage l'Estomac."}
+    ]}
+   ],
+   "recettes": ["soupe-radis-gingembre", "infusion-chen-pi"],
+   "privilegier": "Sauter un repas ou manger léger (bouillon, congee), radis, zeste de mandarine.",
+   "eviter": "Se coucher juste après manger, dîner copieux.",
+   "conseils": ["Masse ton ventre dans le sens des aiguilles d'une montre après le repas."]
+  },
+  {
+   "id": "e-rebellion", "organe": "rate", "nom": "Rébellion du Qi de l'Estomac", "zh": "胃气上逆", "py": "Wèi qì shàng nì",
+   "resume": "Le Qi de l'Estomac remonte au lieu de descendre : nausée, hoquet, renvois, vomissements.",
+   "causes": ["Estomac faible", "Stress qui bloque le Foie", "Repas pris dans la tension"],
+   "mecanisme": "Le Qi de l'Estomac doit descendre. S'il est bloqué ou affaibli, il remonte : c'est la nausée, le hoquet et les renvois.",
+   "cle": ["nausee", "hoquet", "eructations"],
+   "autres": ["vomissements", "reflux", "digestion-lente", "appetit-faible"],
+   "contre": [],
+   "langue": "Variable selon la cause.",
+   "pouls": "Variable selon la cause.",
+   "principe": {"zh": "和胃降逆", "py": "Hé wèi jiàng nì", "fr": "Harmoniser l'Estomac, faire descendre le Qi"},
+   "phases": [
+    {"m": "d", "items": [
+     {"p": "MC 6", "s": 90, "pourquoi": "Point majeur contre la nausée."},
+     {"p": "RM 12", "s": 60, "pourquoi": "Harmonise l'Estomac.", "tech": ["↺", "Pression moyenne, rotation anti-horaire"]},
+     {"p": "Rt 4", "s": 60, "pourquoi": "Harmonise la Rate et l'Estomac."},
+     {"p": "RM 17", "s": 60, "pourquoi": "Fait descendre le Qi, calme le hoquet."}
+    ]},
+    {"m": "t", "items": [
+     {"p": "E 36", "s": 120, "pourquoi": "Renforce l'Estomac."}
+    ]}
+   ],
+   "recettes": ["congee-courge-carotte", "infusion-chen-pi"],
+   "privilegier": "Gingembre frais, congee, petits repas chauds.",
+   "eviter": "Gras, repas copieux, s'allonger juste après manger.",
+   "conseils": ["En cas de nausée, MC 6 seul, à tout moment, apporte souvent un soulagement rapide."],
+   "fiches": ["2026-09-26-seance-matin"]
+  }
+ ]
+}
