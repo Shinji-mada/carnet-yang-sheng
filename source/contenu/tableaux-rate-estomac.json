@@ -38,7 +38,16 @@
     "langue-fissuree",
     "fatigue-matin",
     "fatigue-traitement",
-    "nausee-traitement"
+    "nausee-traitement",
+    "jambes-faibles",
+    "amaigrissement",
+    "douleur-estomac-faim",
+    "aliments-non-digeres",
+    "alternance",
+    "concentration",
+    "regles-abondantes",
+    "regles-avance",
+    "spm"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -138,7 +147,10 @@
     "ballonnements",
     "poids-facile",
     "envie-sucre",
-    "somnolence"
+    "somnolence",
+    "douleur-estomac-froid",
+    "douleur-estomac-faim",
+    "diarrhee-matin"
    ],
    "contre": [
     "chaleur-corps",
@@ -420,7 +432,10 @@
     "somnolence",
     "envie-sucre",
     "fatigue-matin",
-    "gynecomastie"
+    "gynecomastie",
+    "raideur-matinale",
+    "desequilibre",
+    "concentration"
    ],
    "contre": [
     "enduit-jaune",
@@ -534,7 +549,13 @@
     "boutons-pus",
     "articulations-chaudes",
     "ecoulement",
-    "verrues-genitales"
+    "verrues-genitales",
+    "mains-gonflees",
+    "jambes-faibles",
+    "sensible-chaleur",
+    "aphtes",
+    "toux-glaires-jaunes",
+    "plaie-genitale"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -630,7 +651,11 @@
     "fievre-apres-midi",
     "hoquet",
     "gencives",
-    "mucite"
+    "mucite",
+    "amaigrissement",
+    "nez-sec",
+    "gorge-seche",
+    "aphtes"
    ],
    "contre": [
     "enduit-blanc-epais",

@@ -34,7 +34,13 @@
     "cycles-irreguliers",
     "douleur-omoplates",
     "omoplate-hypocondre",
-    "gynecomastie"
+    "gynecomastie",
+    "chaud-froid",
+    "cephalee-tempes",
+    "acouphenes-aigus",
+    "caillots",
+    "bords-rouges",
+    "langue-violacee"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges.",
@@ -141,7 +147,14 @@
     "peau-terne",
     "cephalee-sourde",
     "fertilite",
-    "neuropathie"
+    "neuropathie",
+    "spasticite",
+    "lhermitte",
+    "vision-double",
+    "cheveux-blancs",
+    "douleurs-migrantes",
+    "regles-retard",
+    "spm"
    ],
    "contre": [
     "langue-rouge",
@@ -247,7 +260,10 @@
     "cephalee-sommet",
     "tremblements",
     "cephalee-nuque",
-    "audition"
+    "audition",
+    "spasticite",
+    "desequilibre",
+    "yeux-rouges"
    ],
    "contre": [
     "langue-pale",
@@ -359,7 +375,9 @@
     "enduit-jaune",
     "libido-excessive",
     "crachats-sang",
-    "regles-rouge-vif"
+    "regles-rouge-vif",
+    "vision-double",
+    "faim-excessive"
    ],
    "contre": [
     "frilosite",
@@ -450,7 +468,12 @@
     "eczema-suintant",
     "teint-jaune",
     "douleur-omoplates",
-    "omoplate-hypocondre"
+    "omoplate-hypocondre",
+    "cephalee-tempes",
+    "acouphenes-aigus",
+    "yeux-rouges",
+    "nez-jaune",
+    "bords-rouges"
    ],
    "contre": [
     "frilosite",
@@ -536,7 +559,8 @@
     "selles-molles",
     "appetit-faible",
     "soupirs",
-    "spm"
+    "spm",
+    "humeur-variable"
    ],
    "contre": [],
    "langue": "Normale ou pâle, bords parfois rouges.",
@@ -634,7 +658,8 @@
     "soupirs",
     "douleur-estomac-brulure",
     "omoplate-hypocondre",
-    "nausee-traitement"
+    "nausee-traitement",
+    "gorge-serree"
    ],
    "contre": [],
    "langue": "Normale ou bords rouges.",

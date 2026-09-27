@@ -72,6 +72,12 @@
    "syn": "transpiration nocturne sueur nuit ménopause"
   },
   {
+   "id": "sensible-chaleur",
+   "cat": "general",
+   "nom": "Symptômes qui s'aggravent avec la chaleur (bain chaud, été, effort)",
+   "syn": "chaleur aggrave supporte mal la chaleur bain chaud été uhthoff sclérose en plaques"
+  },
+  {
    "id": "chaleur-5-coeurs",
    "cat": "general",
    "nom": "Chaleur des paumes, des plantes de pieds et de la poitrine",
@@ -208,6 +214,13 @@
    "syn": "tête qui tourne étourdissement"
   },
   {
+   "id": "desequilibre",
+   "cat": "tete",
+   "nom": "Pertes d'équilibre, démarche instable",
+   "alerte": "Des pertes d'équilibre brutales, surtout avec une faiblesse, des troubles de la parole ou de la vue, sont une urgence : appelle le 15.",
+   "syn": "équilibre instable démarche titubante chutes tomber ataxie sclérose en plaques"
+  },
+  {
    "id": "acouphenes-aigus",
    "cat": "tete",
    "nom": "Acouphènes forts, en sifflement",
@@ -239,6 +252,13 @@
    "nom": "Vision floue, vue qui fatigue vite",
    "alerte": "Une baisse de vision brutale est une urgence : consulte immédiatement.",
    "syn": "vue yeux"
+  },
+  {
+   "id": "vision-double",
+   "cat": "tete",
+   "nom": "Vision double, ou baisse de la vue d'un œil qui fait mal quand il bouge",
+   "alerte": "Une vision double ou une baisse de la vue qui apparaît en quelques heures ou quelques jours est une urgence : appelle le 15 ou va aux urgences ophtalmologiques.",
+   "syn": "vision double diplopie névrite optique baisse de la vue œil douloureux sclérose en plaques"
   },
   {
    "id": "mouches-volantes",
@@ -767,6 +787,13 @@
    "syn": "lombaires genoux faiblesse"
   },
   {
+   "id": "jambes-faibles",
+   "cat": "douleurs",
+   "nom": "Jambes faibles ou qui lâchent, marche difficile",
+   "alerte": "Une faiblesse d'une jambe ou d'un bras qui apparaît en quelques heures ou quelques jours doit être vue en urgence. Si c'est brutal, appelle le 15.",
+   "syn": "faiblesse jambes jambes qui lâchent marche difficile fatigue à la marche sclérose en plaques"
+  },
+  {
    "id": "lombalgie-sourde",
    "cat": "douleurs",
    "nom": "Douleur sourde du bas du dos, pire avec la fatigue",
@@ -827,10 +854,43 @@
    "syn": "rhumatisme articulations raideur"
   },
   {
+   "id": "raideur-matinale",
+   "cat": "douleurs",
+   "nom": "Raideur des articulations le matin, plus de 30 minutes",
+   "alerte": "Une raideur du matin de plus de 30 minutes avec des articulations gonflées, surtout aux mains, doit être vue rapidement par un médecin : traitée tôt, une polyarthrite abîme beaucoup moins les articulations.",
+   "syn": "raideur matinale dérouillage mains raides le matin polyarthrite rhumatisme inflammatoire"
+  },
+  {
+   "id": "mains-gonflees",
+   "cat": "douleurs",
+   "nom": "Doigts ou poignets gonflés et douloureux, des deux côtés",
+   "alerte": "Des articulations des doigts ou des poignets qui gonflent des deux côtés doivent être vues par un médecin (prise de sang, avis d'un rhumatologue).",
+   "syn": "doigts gonflés poignets gonflés mains gonflées synovite polyarthrite articulations des doigts"
+  },
+  {
+   "id": "deformations",
+   "cat": "douleurs",
+   "nom": "Doigts déformés ou déviés, petites boules sous la peau",
+   "syn": "déformation déformations doigts déviés nodules polyarthrite coup de vent"
+  },
+  {
    "id": "crampes",
    "cat": "douleurs",
    "nom": "Crampes musculaires",
    "syn": "crampe"
+  },
+  {
+   "id": "spasticite",
+   "cat": "douleurs",
+   "nom": "Jambes raides ou qui se contractent toutes seules (spasmes)",
+   "syn": "spasticité raideur des jambes spasmes contractures sclérose en plaques"
+  },
+  {
+   "id": "lhermitte",
+   "cat": "douleurs",
+   "nom": "Décharge électrique dans le dos quand tu penches la tête en avant",
+   "alerte": "Parles-en à ton médecin ou à ton neurologue : ce signe se voit surtout quand la moelle épinière est touchée.",
+   "syn": "signe de lhermitte décharge électrique nuque colonne sclérose en plaques"
   },
   {
    "id": "engourdissements",

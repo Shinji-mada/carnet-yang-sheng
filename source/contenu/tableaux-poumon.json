@@ -31,7 +31,8 @@
     "aversion-froid",
     "eternuements",
     "constipation-effort",
-    "sueurs-spontanees"
+    "sueurs-spontanees",
+    "nez-clair"
    ],
    "contre": [
     "langue-rouge",
@@ -258,7 +259,8 @@
     "nez-sec",
     "langue-fissuree",
     "mucite",
-    "peau-radiotherapie"
+    "peau-radiotherapie",
+    "gorge-mal"
    ],
    "contre": [
     "toux-glaires-blanches",
@@ -635,7 +637,8 @@
     "poids-facile",
     "cephalee-lourde",
     "nez-bouche",
-    "somnolence"
+    "somnolence",
+    "gorge-serree"
    ],
    "contre": [
     "toux-seche",
@@ -739,7 +742,8 @@
     "essoufflement",
     "langue-rouge",
     "nez-jaune",
-    "crachats-sang"
+    "crachats-sang",
+    "gorge-mal"
    ],
    "contre": [
     "toux-glaires-blanches",

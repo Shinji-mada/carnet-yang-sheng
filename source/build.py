@@ -97,8 +97,12 @@ def check(data):
                         if ref not in ids: errs.append(f"recette {f['id']} : {{{ref}}} absent des ingrédients")
     # Couverture : chaque symptôme mène à un tableau, chaque tableau à des recettes, chaque recette à un tableau
     tabs = data.get("tableaux", [])
-    used = {s for t in tabs for s in t.get("cle", []) + t.get("autres", [])} | {s["id"] for s in data.get("symptomes", []) if s.get("tab")}
-    for s in sorted(sym - used): errs.append(f"symptôme {s} : relié à aucun tableau")
+    nlien = {s: 0 for s in sym}
+    for t in tabs:
+        for s in set(t.get("cle", []) + t.get("autres", [])): nlien[s] = nlien.get(s, 0) + 1
+    for s in data.get("symptomes", []): nlien[s["id"]] += len(set(s.get("tab", [])))
+    for s in sorted(sym):
+        if nlien[s] < 3: errs.append(f"symptôme {s} : relié à {nlien[s]} tableau(x), il en faut au moins 3")
     for t in tabs:
         if len(t.get("recettes", [])) < 2: errs.append(f"tableau {t['id']} : moins de 2 recettes")
     linked = {r for t in tabs for r in t.get("recettes", [])}

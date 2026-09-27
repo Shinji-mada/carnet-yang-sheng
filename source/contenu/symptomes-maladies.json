@@ -150,7 +150,8 @@
    "mtc": "Toxine d'Humidité-Chaleur qui passe dans le Sang.",
    "tab": [
     "f-humidite-bas",
-    "peau-humidite-chaleur"
+    "peau-humidite-chaleur",
+    "rt-humidite-chaleur"
    ]
   },
   {
@@ -244,7 +245,9 @@
    "mtc": "Humidité-Chaleur du Foie et de la Rate (la jaunisse « Yang », jaune vif).",
    "tab": [
     "f-humidite-chaleur",
-    "rt-humidite-chaleur"
+    "rt-humidite-chaleur",
+    "foie-rate",
+    "rt-vide-qi"
    ]
   },
   {
@@ -271,7 +274,8 @@
    "mtc": "Humidité-Chaleur qui descend dans le bas du corps.",
    "tab": [
     "f-humidite-bas",
-    "v-humidite-chaleur"
+    "v-humidite-chaleur",
+    "rt-humidite-chaleur"
    ]
   },
   {
@@ -298,7 +302,8 @@
    "mtc": "Toxine de Chaleur et d'Humidité dans le méridien du Foie.",
    "tab": [
     "f-humidite-bas",
-    "peau-humidite-chaleur"
+    "peau-humidite-chaleur",
+    "rt-humidite-chaleur"
    ]
   },
   {
@@ -311,7 +316,8 @@
    "mtc": "Les démangeaisons correspondent à du Vent-Chaleur dans la peau ; ces tableaux aident à les calmer, en plus de la lotion.",
    "tab": [
     "peau-vent-chaleur",
-    "peau-humidite-chaleur"
+    "peau-humidite-chaleur",
+    "f-humidite-bas"
    ]
   },
   {
@@ -324,7 +330,8 @@
    "mtc": "Humidité-Chaleur et Vent dans la peau.",
    "tab": [
     "peau-humidite-chaleur",
-    "peau-vent-chaleur"
+    "peau-vent-chaleur",
+    "peau-vide-sang"
    ]
   },
   {
@@ -622,7 +629,46 @@
    "mtc": "Vide d'Essence du Rein (qui gouverne les os), vide de Qi et de Sang.",
    "tab": [
     "rn-jing",
+    "qi-sang",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "polyarthrite",
+   "cat": "polyarthrite",
+   "nom": "Polyarthrite rhumatoïde (diagnostiquée)",
+   "syn": "polyarthrite rhumatoïde PR rhumatisme inflammatoire arthrite rhumatologue méthotrexate",
+   "alerte": "En poussée, préviens vite ton médecin. Sous méthotrexate ou biothérapie, une fièvre doit faire consulter (risque d'infection). Une articulation très chaude et très douloureuse avec fièvre : consulte le jour même.",
+   "rappel": "Polyarthrite : pas de chaleur ni de moxa sur une articulation rouge, chaude et gonflée ; pression douce autour, jamais sur l'articulation enflammée. Sous méthotrexate ou biothérapie, aucune plante ni aucun complément sans l'avis de ton rhumatologue.",
+   "info": "Rhumatisme inflammatoire où le système immunitaire attaque la membrane qui tapisse les articulations. Les petites articulations des mains, des poignets et des pieds gonflent et font mal des deux côtés, avec une raideur le matin de plus de 30 minutes et une grande fatigue. Sans traitement, les articulations se déforment ; un traitement de fond commencé tôt (méthotrexate, biothérapies) change beaucoup l'évolution.",
+   "mtc": "Un « Bi » 痹证 qui s'installe : en poussée, Chaleur et Humidité dans les articulations ; au froid et à l'humidité, Bi Froid ou Bi Humidité ; avec le temps, stase de Sang et Mucosités qui déforment, sur un vide du Foie et du Rein qui nourrit mal les tendons et les os (« Wang Bi » 尪痹).",
+   "tab": [
+    "bi-chaleur",
+    "bi-humidite",
+    "bi-froid",
+    "bi-vent",
+    "stase-sang",
+    "foie-rein-yin",
     "qi-sang"
+   ]
+  },
+  {
+   "id": "sep",
+   "cat": "sep",
+   "nom": "Sclérose en plaques (diagnostiquée)",
+   "syn": "sclérose en plaques SEP neurologue poussée myéline",
+   "alerte": "Un nouveau trouble (vue, force, sensibilité, équilibre) qui dure plus de 24 heures peut être une poussée : préviens ton neurologue. Faiblesse brutale d'un côté, trouble de la parole ou perte de la vue : appelle le 15.",
+   "rappel": "Sclérose en plaques : évite la chaleur prolongée (bain très chaud, moxa long, bouillotte) si elle aggrave tes symptômes, et jamais de chaleur sur une zone moins sensible. Aucune plante ni aucun complément sans l'avis de ton neurologue.",
+   "info": "Maladie où le système immunitaire abîme la gaine des nerfs du cerveau et de la moelle épinière. Elle évolue souvent par poussées : fourmillements, baisse de la vue d'un œil, vision double, faiblesse d'une jambe, pertes d'équilibre, qui régressent en quelques semaines. La fatigue, les troubles urinaires, la raideur des jambes, la mémoire et le moral sont souvent touchés. Les traitements de fond réduisent beaucoup les poussées ; la kinésithérapie et une activité physique adaptée aident à garder la marche.",
+   "mtc": "Rattachée au « syndrome Wei » 痿证 (faiblesse des membres) : Rate qui nourrit mal les muscles, vide de Yin du Foie et du Rein, Essence qui nourrit mal la moelle ; souvent de l'Humidité-Chaleur au début, et un Vent interne (tremblements, spasmes) sur un vide de Sang.",
+   "tab": [
+    "rt-vide-qi",
+    "foie-rein-yin",
+    "rn-jing",
+    "qi-sang",
+    "rt-humidite-chaleur",
+    "rate-rein-yang",
+    "f-vide-sang"
    ]
   }
  ]

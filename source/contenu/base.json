@@ -1,5 +1,5 @@
 {
- "version": "0.11.0",
+ "version": "0.12.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -149,6 +149,103 @@
     "basedow",
     "hormonal",
     "parasitose"
+   ]
+  },
+  {
+   "id": "polyarthrite",
+   "nom": "Polyarthrite rhumatoïde",
+   "court": "Polyarthrite",
+   "note": "La polyarthrite se soigne avec un rhumatologue, le plus tôt possible. Les tableaux accompagnent les douleurs, la raideur et la fatigue, en plus du traitement.",
+   "guide": "La polyarthrite : repères et tableaux",
+   "intro": [
+    "La polyarthrite rhumatoïde est le plus fréquent des rhumatismes inflammatoires. Elle touche surtout les femmes, souvent entre 40 et 60 ans.",
+    "Plus le traitement de fond commence tôt, mieux les articulations sont protégées. La kinésithérapie, l'ergothérapie et une activité physique douce aident beaucoup.",
+    "En médecine chinoise, on distingue les moments : en poussée (chaleur, gonflement), on rafraîchit et on draine ; au calme, on réchauffe, on fait circuler et on nourrit le Foie et le Rein. Choisis aussi tes signes du moment pour trouver le bon tableau.",
+    "Association de patients : AFPric (Association française des polyarthritiques et des rhumatismes inflammatoires chroniques)."
+   ],
+   "precautions": [
+    "Poussée (articulations rouges, chaudes, gonflées) : pas de chaleur ni de moxa sur l'articulation, pression douce autour seulement.",
+    "Sous méthotrexate ou biothérapie : fièvre, toux ou infection, consulte vite ; aucune plante ni aucun complément sans l'avis de ton rhumatologue.",
+    "Une articulation très chaude et très douloureuse avec fièvre : consulte le jour même."
+   ],
+   "sous": [
+    {
+     "nom": "Le diagnostic",
+     "liste": [
+      "polyarthrite"
+     ]
+    },
+    {
+     "nom": "Signes fréquents",
+     "liste": [
+      "raideur-matinale",
+      "mains-gonflees",
+      "articulations-chaudes",
+      "articulations-lourdes",
+      "douleurs-froid",
+      "douleurs-migrantes",
+      "raideur-articulaire",
+      "deformations",
+      "fatigue",
+      "fievre-apres-midi",
+      "yeux-secs",
+      "bouche-seche",
+      "appetit-faible",
+      "amaigrissement",
+      "tristesse"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sep",
+   "nom": "Sclérose en plaques",
+   "court": "SEP",
+   "note": "La sclérose en plaques se soigne avec un neurologue. Les tableaux montrent le terrain souvent rencontré, pour accompagner la fatigue, la marche, le sommeil et le moral, en plus du traitement.",
+   "guide": "La SEP : repères et tableaux",
+   "intro": [
+    "La sclérose en plaques (SEP) est une maladie du système nerveux central : le système immunitaire abîme la gaine qui entoure les nerfs du cerveau et de la moelle épinière. Elle commence souvent entre 20 et 40 ans, plus souvent chez les femmes.",
+    "Les traitements de fond, la kinésithérapie et une activité physique adaptée sont la base. Les routines de cette appli peuvent accompagner la fatigue, le sommeil, la digestion et le moral.",
+    "Association de patients : Ligue française contre la sclérose en plaques."
+   ],
+   "precautions": [
+    "Nouveau trouble (vue, force, sensibilité, équilibre) qui dure plus de 24 heures : préviens ton neurologue, c'est peut-être une poussée.",
+    "Faiblesse brutale d'un côté, trouble de la parole, perte de la vue : appelle le 15.",
+    "Pas de chaleur prolongée si elle aggrave tes symptômes ; jamais de bouillotte ni de moxa sur une zone moins sensible.",
+    "Aucune plante ni aucun complément sans l'avis de ton neurologue."
+   ],
+   "sous": [
+    {
+     "nom": "Le diagnostic",
+     "liste": [
+      "sep"
+     ]
+    },
+    {
+     "nom": "Signes fréquents",
+     "liste": [
+      "fatigue",
+      "engourdissements",
+      "vision-double",
+      "vision-floue",
+      "jambes-faibles",
+      "desequilibre",
+      "vertiges",
+      "spasticite",
+      "crampes",
+      "tremblements",
+      "lhermitte",
+      "sensible-chaleur",
+      "mictions-frequentes",
+      "fuites-urinaires",
+      "constipation-effort",
+      "memoire",
+      "concentration",
+      "tristesse",
+      "erection",
+      "libido"
+     ]
+    }
    ]
   },
   {

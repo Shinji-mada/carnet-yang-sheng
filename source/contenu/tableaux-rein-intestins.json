@@ -43,7 +43,10 @@
     "cycles-irreguliers",
     "fatigue-matin",
     "sueurs-spontanees",
-    "gynecomastie"
+    "gynecomastie",
+    "raideur-articulaire",
+    "regles-retard",
+    "langue-violacee"
    ],
    "contre": [
     "chaleur-corps",
@@ -174,7 +177,12 @@
     "gynecomastie",
     "vesicules-genitales",
     "mucite",
-    "bouffees-hormono"
+    "bouffees-hormono",
+    "sensible-chaleur",
+    "fievre-apres-midi",
+    "chaud-froid",
+    "gorge-seche",
+    "regles-avance"
    ],
    "contre": [
     "frilosite",
@@ -276,7 +284,8 @@
     "pertes-seminales",
     "ejaculation-precoce",
     "mictions-frequentes",
-    "sperme-clair"
+    "sperme-clair",
+    "pesanteur"
    ],
    "contre": [
     "brulures-urinaires",
@@ -485,7 +494,13 @@
     "teint-sombre",
     "cephalee-sourde",
     "cycles-irreguliers",
-    "fatigue-traitement"
+    "fatigue-traitement",
+    "deformations",
+    "jambes-faibles",
+    "lhermitte",
+    "vision-double",
+    "desequilibre",
+    "concentration"
    ],
    "contre": [],
    "langue": "Variable, souvent pâle ou rouge sans enduit.",

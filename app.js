@@ -336,31 +336,78 @@ function figKeys(it){
   const ks=raw.map(k=>PT_ALIAS[k]||k).filter(k=>PTS[k]&&PTS[k].vue&&FIGS[PTS[k].vue]);
   return ks.length&&ks.every(k=>PTS[k].vue===PTS[ks[0]].vue)?ks:ks.slice(0,1);
 }
+/* Planche anatomique : os gris, point rouge, autres points du même méridien en gris, repères légendés, règles en cun */
+const CHAN=/^(P|GI|E|Rt|C|IG|V|Rn|MC|TR|VB|F|VG|RM) \d+$/;
+function chanOf(k){const m=CHAN.exec(k);return m?m[1]:'';}
+function figLines(t,x,y,a,cls,lh){return `<text class="${cls}" text-anchor="${a}">`+String(t).split('|').map((l,i)=>`<tspan x="${x}" y="${y+i*(lh||11)}">${esc(l)}</tspan>`).join('')+'</text>';}
+function fracSVG(t,x,y){const m=/^(\d+)\/(\d+)$/.exec(t);if(!m)return `<text class="fr-t" x="${x}" y="${y+3}" text-anchor="middle">${esc(t)}</text>`;
+  return `<text class="fr-t" x="${x}" y="${y-2}" text-anchor="middle">${m[1]}</text><path class="fr-b" d="M${x-4},${y+0.5}H${x+4}"/><text class="fr-t" x="${x}" y="${y+9}" text-anchor="middle">${m[2]}</text>`;}
+function rulerSVG(R,pts){
+  const [ax,ay]=R.a,[bx,by]=R.b,L=Math.hypot(bx-ax,by-ay)||1,ux=(bx-ax)/L,uy=(by-ay)/L,s=R.cote||1,nx=-uy*s,ny=ux*s;
+  const at=t=>[ax+ux*t,ay+uy*t];let h=`<path class="rg" d="M${ax},${ay}L${bx},${by}"/>`;
+  arr(R.guides).forEach(([gx,gy])=>{const t=(gx-ax)*ux+(gy-ay)*uy,[qx,qy]=at(t);h+=`<path class="rg-c" d="M${gx},${gy}L${qx},${qy}"/>`;});
+  if(R.parts){
+    const vals=R.parts.map(p=>{const m=/^(\d+)\/(\d+)$/.exec(p);return m?m[1]/m[2]:+p||1;}),tot=vals.reduce((x,y)=>x+y,0);let t=0;
+    const tick=t=>{const [x,y]=at(t);return `<path class="rg" d="M${x-nx*5},${y-ny*5}L${x+nx*5},${y+ny*5}"/>`;};
+    h+=tick(0);
+    R.parts.forEach((p,i)=>{const len=vals[i]/tot*L,[mx,my]=at(t+len/2);
+      [[t,1],[t+len,-1]].forEach(([tt,dir])=>{const [x,y]=at(tt+dir*0.5);h+=`<path class="rg-a" d="M${x},${y}L${x+ux*dir*6+nx*2.4},${y+uy*dir*6+ny*2.4}L${x+ux*dir*6-nx*2.4},${y+uy*dir*6-ny*2.4}Z"/>`;});
+      t+=len;h+=tick(t)+fracSVG(p,mx+nx*12,my+ny*12);});
+  }else{
+    const n=+R.n||1,pas=+R.pas||1,lab=arr(R.lab).slice();
+    for(let v=0;v<=n+1e-6;v+=pas){const [x,y]=at(v/n*L),big=lab.includes(v)||v===0||Math.abs(v-n)<1e-6,k=big?6:3.5;h+=`<path class="rg" d="M${x},${y}L${x+nx*k},${y+ny*k}"/>`;}
+    const shown=new Set(lab.concat(R.zero===false?[n]:[0,n]));
+    pts.forEach(([px,py])=>{const t=Math.max(0,Math.min(L,(px-ax)*ux+(py-ay)*uy)),[qx,qy]=at(t);if(R.lien!==false)h+=`<path class="rg-c" d="M${px},${py}L${qx},${qy}"/>`;
+      const v=Math.round(t/L*n*2)/2;if(!shown.has(v)){shown.add(v);lab.push(v);}});
+    [...shown].forEach(v=>{const [x,y]=at(v/n*L),tx=x+nx*13,ty=y+ny*13;const anc=Math.abs(nx)>0.5?(nx>0?'start':'end'):'middle';
+      h+=`<text class="rg-t" x="${tx+(anc==='middle'?0:nx>0?-4:4)}" y="${ty+3.5}" text-anchor="${anc}">${String(v).replace('.',',')}</text>`;});
+  }
+  return h;
+}
+/* Élargit le cadre si un libellé dépasse (les polices varient d'un téléphone à l'autre) */
+function fitFig(svg){
+  try{const vb=svg.viewBox.baseVal;let x0=vb.x,y0=vb.y,x1=vb.x+vb.width,y1=vb.y+vb.height;
+    svg.querySelectorAll('text').forEach(t=>{const b=t.getBBox();if(!b||!b.width)return;x0=Math.min(x0,b.x-4);y0=Math.min(y0,b.y-4);x1=Math.max(x1,b.x+b.width+4);y1=Math.max(y1,b.y+b.height+4);});
+    if(x0<vb.x||y0<vb.y||x1>vb.x+vb.width||y1>vb.y+vb.height)svg.setAttribute('viewBox',`${x0} ${y0} ${x1-x0} ${y1-y0}`);
+  }catch(e){}
+}
 function figSheet(keys){
   keys=String(keys).split('|').filter(k=>PTS[k]);if(!keys.length)return;
   const p0=PTS[keys[0]],f=FIGS[p0.vue];if(!f)return;
   const vb=String(f.vb).split(' ').map(Number),x1=vb[0]+vb[2],ax=+f.axe||vb[0]+vb[2]/2;
-  let marks=Object.keys(PTS).filter(k=>PTS[k].vue===p0.vue&&!keys.includes(k)).map(k=>`<circle class="fig-o" cx="${+PTS[k].x}" cy="${+PTS[k].y}" r="2.6"></circle>`).join('');
+  const chans=new Set(keys.map(chanOf).filter(Boolean)),seen=new Set(keys);let grey='';
+  const dot=(k,x,y)=>{if(seen.has(k))return;seen.add(k);grey+=`<circle class="fc" cx="${+x}" cy="${+y}" r="3.1"></circle>`;};
+  Object.keys(PTS).forEach(k=>{if(PTS[k].vue===p0.vue&&chans.has(chanOf(k)))dot(k,PTS[k].x,PTS[k].y);});
+  Object.entries(f.canal||{}).forEach(([k,xy])=>{if(chans.has(chanOf(k)))dot(k,xy[0],xy[1]);});
+  const rs=[];keys.forEach(k=>arr(PTS[k].regle).forEach(r=>{const R=typeof r==='string'?(f.regles||{})[r]:r;if(R&&!rs.includes(R))rs.push(R);}));
+  let marks=rs.map(R=>rulerSVG(R,keys.filter(k=>arr(PTS[k].regle).some(r=>(typeof r==='string'?(f.regles||{})[r]:r)===R)).map(k=>[+PTS[k].x,+PTS[k].y]))).join('');
+  const reps=[];keys.forEach(k=>arr(PTS[k].rep).forEach(r=>{if(!reps.includes(r))reps.push(r);}));if(!reps.length)arr(f.defaut).forEach(r=>reps.push(r));
+  marks+=reps.map(r=>{const L=(f.reps||{})[r];if(!L)return'';const a=L.a||'start',dx=a==='end'?-3:a==='middle'?0:3;
+    return `<path class="ldr" d="M${L.x},${L.y}L${L.tx},${L.ty}"/>`+figLines(L.t,L.tx+dx,L.ty+(a==='middle'?(L.ty>L.y?11:-4-13*(String(L.t).split('|').length-1)):4),a,'lbl',13);}).join('');
+  keys.forEach(k=>arr(PTS[k].voisins).forEach(v=>{const q=PTS[v]&&PTS[v].vue===p0.vue?[PTS[v].x,PTS[v].y]:(f.canal||{})[v];if(!q)return;seen.add(v);
+    marks+=`<circle class="fv" cx="${+q[0]}" cy="${+q[1]}" r="3.3"></circle><text class="fv-t" x="${+q[0]+6}" y="${+q[1]-5}">${esc(v)}</text>`;}));
+  marks+=grey;
   keys.forEach(ab=>{
     const p=PTS[ab],x=+p.x,y=+p.y,xs=[x];if(f.sym&&p.b&&Math.abs(x-ax)>2)xs.push(2*ax-x);
-    const right=x<x1-50,lx=right?x+10:x-10,ly=y<vb[1]+16?y+18:y-8;
-    marks+=xs.map((cx,i)=>`<circle class="fig-halo" cx="${cx}" cy="${y}" r="11"></circle><circle class="fig-dot${i?' alt':''}" cx="${cx}" cy="${y}" r="4.6"></circle>`).join('')+
-      `<text class="fig-lab" x="${lx}" y="${ly}" text-anchor="${right?'start':'end'}">${esc(ab)}</text>`;
+    const side=p.lab||(x<x1-60?'r':'l'),lx=side==='r'?x+8:side==='l'?x-8:x,ly=side==='t'?y-10:side==='b'?y+18:y-6;
+    marks+=xs.map((cx,i)=>`<circle class="fig-halo" cx="${cx}" cy="${y}" r="10"></circle><circle class="fig-dot${i?' alt':''}" cx="${cx}" cy="${y}" r="4.2"></circle>`).join('')+
+      `<text class="fig-lab" x="${lx}" y="${ly}" text-anchor="${side==='r'?'start':side==='l'?'end':'middle'}">${esc(ab)}</text>`;
   });
   const both=keys.some(ab=>PTS[ab].b),mirrored=f.sym&&both;
   openSheet(keys.length>1?keys.join(' et '):keys[0]+' · '+(p0.py||''),f.nom,`<div class="fig"><svg class="fig-svg" viewBox="${esc(f.vb)}" role="img" aria-label="Emplacement : ${esc(keys.join(', '))}, ${esc(f.nom)}">${f.svg}${marks}</svg></div>
 ${keys.map(ab=>{const p=PTS[ab];return `${p.zh?`<p class="fig-zh" lang="zh-Hans">${esc(p.zh)} <span>${esc(p.py||'')}</span></p>`:''}<p class="fig-loc"><b>${esc(ab)} :</b> ${esc(p.loc||'')}</p>`;}).join('')}
 ${both?`<p class="fine">Point présent des deux côtés du corps${mirrored?' (les deux sont marqués)':''} : masse-le à gauche puis à droite.</p>`:'<p class="fine">Point unique, sur la ligne du milieu du corps.</p>'}
-<p class="fine">Repère : 1 cun correspond à la largeur de ton pouce. Le bon endroit est souvent un petit creux, un peu plus sensible au toucher. Schéma indicatif.</p>`);
+<p class="fine">En gris, les autres points du même méridien. 1 cun correspond à la largeur de ton pouce ; les règles donnent la distance en cun. Schéma indicatif.</p>`,sh=>{const g=sh.querySelector('.fig-svg');if(g)fitFig(g);});
 }
 /* Guide d'une rubrique (IST, cancer, maladies) : une fiche par diagnostic, avec ses tableaux */
 function gsymLabel(id){return symSel.has(id)?'✓ Dans mes symptômes':'+ Ajouter à mes symptômes';}
 function guideSheet(cid,openId){
   const c=SYMCATS.find(x=>x.id===cid);if(!c)return;
   const items=catList(c).filter(s=>s.info);
+  if(!openId&&items.length===1)openId=items[0].id;
   let h=arr(c.intro).map(p=>`<p class="gd-p">${esc(p)}</p>`).join('');
   if(arr(c.precautions).length)h+=`<div class="alert" role="note"><h2>Précautions</h2><ul>${c.precautions.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`;
-  h+=`<h3 class="gd-t">${plural(items.length,'fiche','fiches')}</h3><div class="accwrap gd-acc">`+items.map(s=>{
+  h+=`${items.length>1?`<h3 class="gd-t">${plural(items.length,'fiche','fiches')}</h3>`:'<div class="gd-sp"></div>'}<div class="accwrap gd-acc">`+items.map(s=>{
     const ts=arr(s.tab).map(tableau).filter(Boolean);
     return `<details class="cat" data-cat="gd-${esc(s.id)}"${s.id===openId?' open':''}><summary><span>${esc(s.nom)}</span></summary><div class="gd">
 <p class="gd-p">${esc(s.info)}</p>${s.alerte||s.rappel?`<p class="gd-p gd-warn"><b>Important :</b> ${esc([s.alerte,s.rappel].filter(Boolean).join(' '))}</p>`:''}${s.mtc?`<p class="gd-p"><b>En médecine chinoise :</b> ${esc(s.mtc)}</p>`:''}
@@ -368,7 +415,7 @@ ${ts.length?`<p class="gd-h">Tableaux pour accompagner</p><div class="gd-tabs">$
 <button type="button" class="ghost gd-add" data-gsym="${esc(s.id)}" aria-pressed="${symSel.has(s.id)}">${gsymLabel(s.id)}</button></div></details>`;}).join('')+'</div>';
   h+='<p class="fine">Repères d\'accompagnement selon la médecine traditionnelle chinoise : ni diagnostic, ni traitement. Ils ne remplacent jamais l\'avis de ton médecin.</p>';
   openSheet(c.guide||c.nom,'',h,sh=>{const w=sh.querySelector('.gd-acc'),sc=sh.querySelector('.sheet');if(w)accordion(w,()=>{},sc);
-    if(openId){const d=sh.querySelector(`[data-cat="gd-${cssq(openId)}"]`);if(d&&sc)sc.scrollTop+=d.getBoundingClientRect().top-sc.getBoundingClientRect().top-12;}});
+    if(openId&&items.length>1){const d=sh.querySelector(`[data-cat="gd-${cssq(openId)}"]`);if(d&&sc)sc.scrollTop+=d.getBoundingClientRect().top-sc.getBoundingClientRect().top-12;}});
 }
 async function shareApp(){
   const url=location.origin+location.pathname;

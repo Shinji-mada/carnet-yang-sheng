@@ -551,26 +551,6 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 /* ---------- v0.10 : image de l'emplacement des points ---------- */
 .voir{display:inline-flex;align-items:center;gap:6px;margin:6px 0 0;padding:6px 12px 6px 8px;min-height:36px;border:1px solid var(--ac);border-radius:999px;background:var(--acbg);color:var(--ac);font-size:13.5px;font-weight:700;cursor:pointer;justify-self:start;text-align:left}
 .voir svg{width:18px;height:18px;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}
-.fig{margin:4px 0 0;padding:8px;border-radius:14px;background:var(--bg);border:1px solid var(--line);display:flex;justify-content:center}
-.fig-svg{width:100%;max-width:380px;max-height:60vh;height:auto}
-.fig-svg{--bone:#E2E7E4;--bone-s:#AEB8B3;--bone-l:#C3CCC7}
-:root[data-theme="dark"] .fig-svg{--bone:#2A3531;--bone-s:#4A5752;--bone-l:#3A4642}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .fig-svg{--bone:#2A3531;--bone-s:#4A5752;--bone-l:#3A4642}}
-.fig-svg .sk{fill:var(--surface);stroke:var(--ink);stroke-width:1.2;stroke-linejoin:round}
-.fig-svg .os{fill:var(--bone);stroke:var(--bone-s);stroke-width:.8;stroke-linejoin:round}
-.fig-svg .osl{fill:none;stroke:var(--bone-l);stroke-width:1}
-.fig-svg .os2{fill:none;stroke:var(--bone-s);stroke-width:1.4}
-.fig-svg .l{fill:none;stroke:var(--line);stroke-width:1.1;stroke-linecap:round}
-.fig-svg .l.b2{stroke:var(--muted)}
-.fig-svg .d{stroke-dasharray:3 4}
-.fig-svg .ld{fill:none;stroke:var(--muted);stroke-width:.6}
-.fig-svg .ldp{fill:var(--muted)}
-.fig-svg .t{font:600 8px var(--sans);fill:var(--muted)}
-.fig-o{fill:var(--muted);opacity:.55}
-.fig-dot{fill:var(--cin);stroke:var(--surface);stroke-width:2}
-.fig-dot.alt{opacity:.6}
-.fig-halo{fill:var(--cin);opacity:.22;transform-box:fill-box;transform-origin:center;animation:fig-pulse 1.6s ease-out infinite}
-.fig-lab{font:700 12px var(--sans);fill:var(--cin);paint-order:stroke;stroke:var(--surface);stroke-width:3px}
 .fig-zh{margin:10px 4px 0;font-family:var(--serif);font-size:22px;color:var(--cin)}
 .fig-loc{margin:8px 4px 0;font-size:15.5px;line-height:1.5}
 @keyframes fig-pulse{0%{transform:scale(.6);opacity:.35}100%{transform:scale(1.5);opacity:0}}
@@ -600,3 +580,32 @@ details.cat.rich>.chips{margin:0;padding:0 14px 14px}
 .chips.lies{margin-top:8px}
 .gd-warn{background:var(--warn-bg);border-radius:10px;padding:10px 12px;font-size:14.5px}
 .gd-warn b{color:var(--warn)}
+.gd-sp{height:14px}
+
+/* v0.12 : planches anatomiques (toujours sur fond blanc, comme une planche imprimée) */
+.fig{margin:4px 0 0;padding:6px 4px;border-radius:14px;background:#fff;border:1px solid var(--line);display:flex;justify-content:center}
+.fig-svg{width:100%;max-width:400px;max-height:66vh;height:auto;font-family:Roboto,"Helvetica Neue",Arial,sans-serif}
+.fig-svg .sk{fill:none;stroke:#231F20;stroke-width:1.25;stroke-linejoin:round;stroke-linecap:round}
+.fig-svg .skl{fill:none;stroke:#231F20;stroke-width:.8;stroke-linecap:round;stroke-linejoin:round}
+.fig-svg .os{fill:#DCDCDC;stroke:#A9A9A9;stroke-width:.85;stroke-linejoin:round}
+.fig-svg .osc{fill:#CFCFCF;stroke:#A9A9A9;stroke-width:.7}
+.fig-svg .osl{fill:none;stroke:#A9A9A9;stroke-width:.75;stroke-linecap:round;stroke-linejoin:round}
+.fig-svg .ost{font-size:7.5px;font-weight:700;fill:#A3A3A3}
+.fig-svg .td{fill:#F7C6D4;stroke:#E4507F;stroke-width:.8;fill-opacity:.85}
+.fig-svg .tdl{fill:none;stroke:#E4507F;stroke-width:.8}
+.fig-svg .mu{fill:#F9DCE4;stroke:#E88AA6;stroke-width:.6}
+.fig-svg .pli{fill:none;stroke:#2FA37F;stroke-width:1}
+.fig-svg .ldr{fill:none;stroke:#231F20;stroke-width:.6}
+.fig-svg .lbl{font-size:12px;fill:#231F20}
+.fig-svg .rg{fill:none;stroke:#231F20;stroke-width:.75}
+.fig-svg .rg-a{fill:#231F20}
+.fig-svg .rg-c{fill:none;stroke:#231F20;stroke-width:.55}
+.fig-svg .rg-t,.fig-svg .fr-t{font-size:10.5px;fill:#231F20}
+.fig-svg .fr-b{stroke:#231F20;stroke-width:.7}
+.fig-svg .fc{fill:#8E8E8E}
+.fig-svg .fv{fill:#231F20}
+.fig-svg .fv-t{font-size:12px;font-weight:700;fill:#231F20}
+.fig-dot{fill:#E2231A;stroke:#fff;stroke-width:1.2}
+.fig-dot.alt{opacity:.75}
+.fig-halo{fill:#E2231A;opacity:.2;transform-box:fill-box;transform-origin:center;animation:fig-pulse 1.6s ease-out infinite}
+.fig-lab{font-size:13.5px;font-weight:700;fill:#E2231A;paint-order:stroke;stroke:#fff;stroke-width:3px}.fig-svg .osf{fill:#E9E9E9;stroke:#BDBDBD;stroke-width:.8}

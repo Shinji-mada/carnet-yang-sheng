@@ -35,7 +35,16 @@
     "fatigue-matin",
     "sueurs-spontanees",
     "fatigue-traitement",
-    "neuropathie"
+    "neuropathie",
+    "deformations",
+    "jambes-faibles",
+    "desequilibre",
+    "sensible-chaleur",
+    "amaigrissement",
+    "pesanteur",
+    "cheveux-blancs",
+    "ongles-cassants",
+    "crampes"
    ],
    "contre": [
     "langue-rouge",
@@ -140,7 +149,19 @@
     "tremblements",
     "cycles-irreguliers",
     "chaleur-corps",
-    "bouffees-hormono"
+    "bouffees-hormono",
+    "deformations",
+    "jambes-faibles",
+    "spasticite",
+    "lhermitte",
+    "vision-double",
+    "desequilibre",
+    "sensible-chaleur",
+    "fievre-apres-midi",
+    "cheveux-blancs",
+    "ongles-cassants",
+    "articulations-chaudes",
+    "crampes"
    ],
    "contre": [
     "frilosite",
@@ -244,7 +265,8 @@
     "froid-genital",
     "mictions-frequentes",
     "poids-facile",
-    "fatigue-matin"
+    "fatigue-matin",
+    "jambes-faibles"
    ],
    "contre": [
     "chaleur-corps",
@@ -353,7 +375,8 @@
     "langue-gonflee",
     "toux-faible",
     "sueurs-spontanees",
-    "fatigue-traitement"
+    "fatigue-traitement",
+    "nez-clair"
    ],
    "contre": [
     "langue-rouge",
@@ -454,7 +477,13 @@
     "omoplate-hypocondre",
     "gynecomastie",
     "verrues-genitales",
-    "neuropathie"
+    "neuropathie",
+    "raideur-matinale",
+    "mains-gonflees",
+    "deformations",
+    "spasticite",
+    "lhermitte",
+    "regles-abondantes"
    ],
    "contre": [],
    "langue": "Violacée ou avec des taches sombres, veines sous la langue gonflées.",
@@ -637,7 +666,8 @@
     "aversion-froid",
     "douleur-genou",
     "cephalee-nuque",
-    "douleur-omoplates"
+    "douleur-omoplates",
+    "raideur-matinale"
    ],
    "contre": [
     "articulations-chaudes"
@@ -715,7 +745,8 @@
     "lombalgie-sourde",
     "langue-pale",
     "douleur-fixe",
-    "douleur-omoplates"
+    "douleur-omoplates",
+    "raideur-matinale"
    ],
    "contre": [
     "articulations-chaudes"
@@ -809,7 +840,11 @@
     "langue-gonflee",
     "douleurs-froid",
     "douleur-fixe",
-    "neuropathie"
+    "neuropathie",
+    "raideur-matinale",
+    "mains-gonflees",
+    "douleurs-migrantes",
+    "raideur-articulaire"
    ],
    "contre": [
     "articulations-chaudes"
@@ -896,7 +931,8 @@
     "enduit-jaune",
     "douleur-genou",
     "douleurs-migrantes",
-    "articulations-lourdes"
+    "articulations-lourdes",
+    "mains-gonflees"
    ],
    "contre": [
     "douleurs-froid",
@@ -1052,7 +1088,8 @@
     "bouche-pateuse",
     "boutons-pus",
     "vesicules-genitales",
-    "plaie-genitale"
+    "plaie-genitale",
+    "plaques-rouges"
    ],
    "contre": [
     "peau-seche"

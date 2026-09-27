@@ -25,7 +25,8 @@
     "voix-faible",
     "tristesse",
     "oppression",
-    "sueurs-spontanees"
+    "sueurs-spontanees",
+    "indecision"
    ],
    "contre": [
     "langue-rouge"
@@ -114,7 +115,8 @@
     "langue-pale",
     "peurs",
     "regles-peu",
-    "concentration"
+    "concentration",
+    "humeur-variable"
    ],
    "contre": [
     "langue-rouge",
@@ -210,7 +212,8 @@
     "pointe-rouge",
     "langue-rouge-sans-enduit",
     "pommettes-rouges",
-    "bouffees-hormono"
+    "bouffees-hormono",
+    "sensible-chaleur"
    ],
    "contre": [
     "langue-pale",

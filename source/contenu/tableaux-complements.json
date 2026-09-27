@@ -110,7 +110,8 @@
     "envie-sucre",
     "somnolence",
     "fatigue-matin",
-    "nausee-traitement"
+    "nausee-traitement",
+    "aliments-non-digeres"
    ],
    "contre": [
     "faim-excessive",
@@ -467,7 +468,8 @@
     "frilosite",
     "enduit-blanc-epais",
     "peu-soif",
-    "ballonnements"
+    "ballonnements",
+    "douleur-estomac-froid"
    ],
    "contre": [
     "diarrhee-chaude",
@@ -560,7 +562,9 @@
     "langue-rouge-sans-enduit",
     "bouche-seche",
     "tremblements",
-    "mouches-volantes"
+    "mouches-volantes",
+    "spasticite",
+    "vision-double"
    ],
    "contre": [
     "langue-pale",
