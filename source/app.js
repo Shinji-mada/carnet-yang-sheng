@@ -1420,17 +1420,27 @@ lastSnap=J(dataOnly());
 (function initRoute(){
   const p=parseHash();
   if(p.route)route=p.route;
-  else if(p.tab)tab=p.tab;
-  else tab='infos';
+  else{tab='infos';try{history.replaceState(null,'','#infos');}catch(e){}}
 })();
-(function intro(){
-  const el=$('#intro');if(!el)return;
-  let seen=false;try{seen=!!sessionStorage.getItem('ys.intro');sessionStorage.setItem('ys.intro','1');}catch(e){}
-  if(seen){el.remove();return;}
-  const done=()=>{if(!el.isConnected||el.classList.contains('out'))return;el.classList.add('out');setTimeout(()=>el.remove(),600);};
-  el.addEventListener('click',done);
-  setTimeout(done,reduce?1300:3600);
-})();
+const INTRO_HTML=$('#intro')?$('#intro').outerHTML:'';
+function playIntro(){
+  if(!INTRO_HTML)return;
+  let el=$('#intro');
+  if(!el){document.body.insertAdjacentHTML('afterbegin',INTRO_HTML);el=$('#intro');}
+  clearTimeout(playIntro.t);
+  playIntro.t=setTimeout(()=>{el.classList.add('out');setTimeout(()=>el.remove(),600);},reduce?1600:3600);
+}
+playIntro();
+/* Retour dans l'appli après 5 minutes ou plus : on la rouvre comme un nouveau lancement,
+   sauf si un minuteur tourne ou si une feuille est ouverte */
+let hiddenAt=0;
+document.addEventListener('visibilitychange',()=>{
+  if(document.visibilityState==='hidden'){hiddenAt=Date.now();return;}
+  const away=hiddenAt?Date.now()-hiddenAt:0;hiddenAt=0;
+  if(away<5*60*1000||act||pendingNext||sheetOpen||lp)return;
+  playIntro();
+  if(DATA&&(route||tab!=='infos'))goTab('infos');
+});
 render();
 loadData().then(d=>{
   DATA=d||{};

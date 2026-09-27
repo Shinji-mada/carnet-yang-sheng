@@ -1,6 +1,6 @@
 /* Carnet Yang Sheng : fonctionnement hors ligne */
-const VERSION='ys-0.6.0-8433687e';
-const CORE=["./", "index.html", "app.css?v=265149f7", "app.js?v=60302a56", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "fonts/notoserifsc-500.woff2", "fonts/notoserifsc-700.woff2", "fonts/atkinson-400.woff2", "fonts/atkinson-700.woff2"];
+const VERSION='ys-0.6.1-bf563a95';
+const CORE=["./", "index.html", "app.css?v=2dce5755", "app.js?v=2bad32ff", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "fonts/notoserifsc-500.woff2", "fonts/notoserifsc-700.woff2", "fonts/atkinson-400.woff2", "fonts/atkinson-700.woff2"];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(VERSION).then(c=>c.addAll(CORE)).then(()=>self.skipWaiting()));
 });

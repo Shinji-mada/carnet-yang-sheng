@@ -470,8 +470,7 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 @media (prefers-reduced-motion:reduce){.timer::before,.entry,.tab .pill,details.cat>summary::after{transition:none}.entry:active{transform:none}}
 
 /* ---------- Page d'ouverture ---------- */
-.intro{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;background:radial-gradient(circle at 50% 42%,var(--surface) 0%,var(--bg) 58%,var(--sunk) 100%);transition:opacity .55s ease,visibility .55s;cursor:pointer}
-.nointro .intro{display:none}
+.intro{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;background:radial-gradient(circle at 50% 42%,var(--surface) 0%,var(--bg) 58%,var(--sunk) 100%);transition:opacity .55s ease,visibility .55s;-webkit-user-select:none;user-select:none;touch-action:none}
 .intro.out{opacity:0;visibility:hidden}
 .intro.out .intro-in{transform:scale(1.04)}
 .intro-in{display:flex;flex-direction:column;align-items:center;text-align:center;transition:transform .55s ease}
@@ -490,7 +489,6 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 .intro-zh{margin:26px 0 0;font-family:var(--serif);font-weight:700;font-size:34px;letter-spacing:.3em;text-indent:.3em;color:var(--seal);animation:intro-up .7s ease-out 1.55s both}
 .intro-t{margin:6px 0 0;font-family:var(--serif);font-weight:700;font-size:28px;line-height:1.2;color:var(--ink);animation:intro-up .7s ease-out 1.75s both}
 .intro-s{margin:8px 0 0;font-size:15px;color:var(--muted);animation:intro-up .7s ease-out 1.95s both}
-.intro-skip{position:absolute;right:16px;bottom:calc(env(safe-area-inset-bottom,0px) + 20px);min-height:44px;padding:0 16px;border:0;border-radius:999px;background:none;color:var(--muted);font-size:14px;font-weight:700;cursor:pointer;animation:intro-up .5s ease-out .6s both}
 @keyframes taiji-yang{0%{transform:translate(140px,-70px) rotate(-150deg) scale(.7);opacity:0}35%{opacity:1}100%{transform:none;opacity:1}}
 @keyframes taiji-yin{0%{transform:translate(-140px,70px) rotate(-150deg) scale(.7);opacity:0}35%{opacity:1}100%{transform:none;opacity:1}}
 @keyframes taiji-dot{0%{transform:scale(0)}100%{transform:scale(1)}}
@@ -498,5 +496,5 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 @keyframes taiji-ring{0%{opacity:1;stroke-dashoffset:100}100%{opacity:1;stroke-dashoffset:0}}
 @keyframes taiji-halo{0%{opacity:.6;transform:scale(.96)}100%{opacity:0;transform:scale(1.25)}}
 @keyframes intro-up{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.taiji-yang,.taiji-yin,.taiji-dot,.taiji-spin,.taiji-halo,.intro-zh,.intro-t,.intro-s,.intro-skip{animation:none}.taiji-ring{animation:none;stroke-dashoffset:0;opacity:1}.intro,.intro-in{transition-duration:.3s}}
+@media (prefers-reduced-motion:reduce){.taiji-yang,.taiji-yin,.taiji-dot,.taiji-spin,.taiji-halo,.intro-zh,.intro-t,.intro-s{animation:none}.taiji-ring{animation:none;stroke-dashoffset:0;opacity:1}.intro,.intro-in{transition-duration:.3s}}
 .acc-card{border-color:var(--jade);box-shadow:0 0 0 1px var(--jade-bg)}
