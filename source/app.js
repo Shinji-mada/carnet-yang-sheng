@@ -925,12 +925,12 @@ function renderInfos(){
   else inst='<p>Dans Chrome, ouvre le menu ⋮ en haut à droite, puis choisis « Installer l\'application » ou « Ajouter à l\'écran d\'accueil ».</p>';
   const acc=(list,g)=>`<div class="accwrap" data-acc="${g}">`+list.map(([t,p],i)=>`<details class="cat" data-cat="${g}${i}"><summary><span>${esc(t)}</span></summary><p class="prose">${esc(p)}</p></details>`).join('')+'</div>';
   view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">Version ${esc(DATA.version||'')}</p></div></header>
+${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:''}
 <section class="card"><h2>À lire avant d'utiliser</h2><p>Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.</p><p>Ce n'est ni un diagnostic ni un traitement. Si un symptôme dure, s'aggrave ou t'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.</p></section>
 <h2 class="sec">Bien masser</h2>${acc(GUIDE,'g')}
 <h2 class="sec">Petit lexique</h2>${acc(LEXIQUE,'l')}
 <section class="card"><h2>Astuces</h2><p>Reste appuyé sur une fiche ou un tableau pour l'ajouter aux favoris ou à un carnet, le partager ou le retirer. Sans lâcher, fais-la glisser vers le haut de l'écran pour la déposer dans un carnet.</p><p>Dans le carnet : fais glisser une fiche pour changer l'ordre, reste appuyé sur un onglet pour le déplacer, et touche « Sélectionner » pour cocher plusieurs fiches à la fois (tout cocher, favoris, ajouter, déplacer, retirer).</p><p>« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.</p></section>
 <section class="card"><h2>Installer sur ton téléphone</h2>${inst}</section>
-${FB?`<section class="card" id="acccard">${accCardInner()}</section>`:''}
 <section class="card"><h2>Tes données</h2>${FB?'<p>Sans compte, rien ne quitte ce téléphone. Le compte est facultatif : si tu en crées un, ton e-mail, ton nom, ta photo, tes carnets, favoris, récents et ton classement sont gardés sur un serveur sécurisé (Google Firebase) pour les retrouver sur un autre appareil. Tu peux supprimer ton compte à tout moment depuis « Ton compte ».</p><p>Tes symptômes et tes ingrédients restent toujours sur ce téléphone.</p>':'<p>L\'appli ne demande aucun compte et ne collecte aucune donnée personnelle. Tes symptômes, tes ingrédients, tes favoris et tes carnets restent sur ce téléphone.</p>'}</section>
 <section class="card"><h2>Contenu</h2><dl class="kv"><dt>Symptômes</dt><dd>${Object.keys(SYM).length}</dd><dt>Tableaux</dt><dd>${tableaux.length}</dd><dt>Points</dt><dd>${Object.keys(PTS).length}</dd><dt>Recettes</dt><dd>${nR}</dd><dt>Protocoles</dt><dd>${nP}</dd></dl></section>
 <p class="fine">Polices Atkinson Hyperlegible et Noto Serif SC, sous licence SIL Open Font License.</p>`;
@@ -1421,6 +1421,15 @@ lastSnap=J(dataOnly());
   const p=parseHash();
   if(p.route)route=p.route;
   else if(p.tab)tab=p.tab;
+  else tab='infos';
+})();
+(function intro(){
+  const el=$('#intro');if(!el)return;
+  let seen=false;try{seen=!!sessionStorage.getItem('ys.intro');sessionStorage.setItem('ys.intro','1');}catch(e){}
+  if(seen){el.remove();return;}
+  const done=()=>{if(!el.isConnected||el.classList.contains('out'))return;el.classList.add('out');setTimeout(()=>el.remove(),600);};
+  el.addEventListener('click',done);
+  setTimeout(done,reduce?1300:3600);
 })();
 render();
 loadData().then(d=>{
