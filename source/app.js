@@ -671,13 +671,14 @@ function pickSuggestion(id){
   renderAC();updateCatCounts();renderCTA();
   toast(was?'Déjà choisi : '+symName(id):'Ajouté : '+symName(id),was?null:()=>{symSel.delete(id);saveSet('ys.symptomes',symSel);document.querySelectorAll(`[data-sym="${cssq(id)}"]`).forEach(c=>c.setAttribute('aria-pressed','false'));updateCatCounts();renderCTA();});
 }
-function catCount(cat){return Object.values(SYM).filter(s=>s.cat===cat&&symSel.has(s.id)).length;}
+function catList(c){return arr(c.liste).length?c.liste.map(id=>SYM[id]).filter(Boolean):Object.values(SYM).filter(s=>s.cat===c.id);}
+function catCount(cat){const c=SYMCATS.find(x=>x.id===cat);return c?catList(c).filter(s=>symSel.has(s.id)).length:0;}
 function renderSymList(){
   const box=$('#symlist');if(!box)return;
   box.innerHTML=SYMCATS.map(c=>{
-    const list=Object.values(SYM).filter(s=>s.cat===c.id);if(!list.length)return'';
+    const list=catList(c);if(!list.length)return'';
     const k=catCount(c.id);
-    return `<details class="cat" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary><div class="chips">${list.map(s=>symChip(s.id)).join('')}</div></details>`;
+    return `<details class="cat${arr(c.liste).length?' theme':''}" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary><div class="chips">${list.map(s=>symChip(s.id)).join('')}</div></details>`;
   }).join('');
   accordion(box,v=>{openCat=v;});
 }

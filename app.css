@@ -547,3 +547,5 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 @media (prefers-reduced-motion:reduce){.ring-fg{animation:none}}
 .compat{margin-top:14px}
 .compat+.sub{margin-top:12px}
+details.cat.theme{border-color:var(--cin);border-left-width:4px}
+details.cat.theme>summary>span:first-child{color:var(--cin)}

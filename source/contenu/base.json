@@ -1,5 +1,5 @@
 {
- "version": "0.9.0",
+ "version": "0.9.1",
  "categories_symptomes": [
   {
    "id": "general",
@@ -36,6 +36,39 @@
   {
    "id": "cycle",
    "nom": "Cycle féminin, pertes"
+  },
+  {
+   "id": "menopause",
+   "nom": "Ménopause : les signes fréquents",
+   "liste": [
+    "chaleur-corps",
+    "chaud-froid",
+    "sueurs-nuit",
+    "cycles-irreguliers",
+    "secheresse-intime",
+    "libido",
+    "endormissement",
+    "reveils",
+    "irritabilite",
+    "humeur-variable",
+    "anxiete",
+    "tristesse",
+    "palpitations",
+    "memoire",
+    "concentration",
+    "fatigue",
+    "poids-facile",
+    "peau-seche",
+    "chute-cheveux",
+    "yeux-secs",
+    "bouche-seche",
+    "vertiges",
+    "acouphenes-faibles",
+    "genoux-faibles",
+    "raideur-articulaire",
+    "mictions-nuit",
+    "fuites-urinaires"
+   ]
   },
   {
    "id": "intimite",

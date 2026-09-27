@@ -50,6 +50,9 @@ def check(data):
         if dup: errs.append(f"{coll} : identifiants en double {sorted(dup)}")
     for s in data.get("symptomes", []):
         if s.get("cat") not in cats: errs.append(f"symptôme {s['id']} : catégorie inconnue {s.get('cat')}")
+    for c in data.get("categories_symptomes", []):
+        for x in c.get("liste", []):
+            if x not in sym: errs.append(f"rubrique {c['id']} : symptôme inconnu {x}")
     def items_of(x):
         for ph in x.get("phases", []):
             if ph.get("m") not in ("d", "t", "w"): errs.append(f"{x['id']} : phase inconnue {ph.get('m')}")
