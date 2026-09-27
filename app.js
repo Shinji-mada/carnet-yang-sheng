@@ -774,9 +774,9 @@ function renderTableauDetail(t){
   const n=[...t._cle,...t._autres].filter(s=>symSel.has(s)).length;
   let h=`<div class="fiche tableau">${barHTML('t',t.id,t._label)}
 <header class="dhead"><p class="eyebrow">${esc(t._label)}</p><h1 class="dtitle">${esc(t.nom)}</h1>
+${t.simple?`<p class="dsimple">${esc(t.simple)}</p>`:''}${t._rep.length?`<p class="dreps"><b>Souvent :</b>${t._rep.map(r=>`<span>${esc(r)}</span>`).join('')}</p><p class="dnote">Repères pour s'orienter : un tableau de médecine chinoise n'est pas un diagnostic médical.</p>`:''}
 <p class="sub"><span lang="zh-Hans">${esc(t.zh||'')}</span>${t.py?` · ${esc(t.py)}`:''}</p>
 ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
-  if(t.simple||t._rep.length)h+=`<section class="enclair"><h2>En clair</h2>${t.simple?`<p>${esc(t.simple)}</p>`:''}${t._rep.length?`<p class="enclair-l">On le rencontre souvent dans :</p><ul class="rep-list">${t._rep.map(r=>`<li>${esc(r)}</li>`).join('')}</ul>`:''}<p class="enclair-f">Repères pour s'orienter : un tableau de médecine chinoise n'est pas un diagnostic médical.</p></section>`;
   if(t.consulter)h+=`<div class="alert" role="note"><h2>Avis médical</h2><p>${esc(t.consulter)}</p></div>`;
   if(arr(t.causes).length)h+=`<h2 class="sec">Causes fréquentes</h2><ul class="bullets">${t.causes.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
   if(t.mecanisme)h+=`<h2 class="sec">Ce qui se passe</h2><p class="prose">${esc(t.mecanisme)}</p>`;
@@ -1453,7 +1453,17 @@ document.addEventListener('visibilitychange',()=>{
   if(away<5*60*1000||act||pendingNext||sheetOpen||lp)return;
   playIntro();
   if(DATA&&(route||tab!=='infos'))goTab('infos');
+  checkUpdate();
 });
+async function checkUpdate(){
+  try{
+    const cur=document.querySelector('script[src*="app.js?v="]'),cv=cur&&/v=([a-f0-9]+)/.exec(cur.getAttribute('src'));
+    if(!cv||location.protocol!=='https:')return;
+    const r=await fetch(location.pathname+'?maj='+Date.now(),{cache:'no-store'});if(!r.ok)return;
+    const m=/app\.js\?v=([a-f0-9]+)/.exec(await r.text());
+    if(m&&m[1]!==cv[1])location.reload();
+  }catch(e){}
+}
 render();
 loadData().then(d=>{
   DATA=d||{};
@@ -1474,6 +1484,8 @@ loadData().then(d=>{
   if(symSel.size&&tab==='symptomes'&&!route)symMode='resultats';
   if(route&&!item(route.kind,route.id))route=null;
   if(FB&&(store('ys.sync.uid')||store('ys.compte.attente')))loadCompte().catch(()=>{});
+  const prevV=store('ys.version'),curV=String(DATA.version||'');
+  if(curV){store('ys.version',curV);if(prevV&&prevV!==curV)setTimeout(()=>toast('Appli mise à jour : version '+curV),$('#intro')?3900:300);}
   if(route)pushRecent(route.kind,route.id);
   render();
 }).catch(()=>{loadError=true;render();});
