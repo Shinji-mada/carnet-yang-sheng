@@ -1,0 +1,70 @@
+{
+ "figures": {
+  "bras-int": {
+   "nom": "Avant-bras et paume (côté intérieur)",
+   "vb": "0 0 200 300",
+   "sym": false,
+   "svg": "<path class=\"b\" d=\"M62,0 L138,0 L138,36 C136,100 131,160 128,190 C132,205 135,225 134,250 L66,250 C66,232 68,212 72,190 C69,160 64,100 62,36 Z\"/><path class=\"b\" d=\"M71,202 C58,212 48,232 42,255 C40,265 50,269 55,261 C61,246 67,236 74,229 Z\"/><rect class=\"b\" x=\"66\" y=\"244\" width=\"17\" height=\"46\" rx=\"8\"/><rect class=\"b\" x=\"84\" y=\"244\" width=\"17\" height=\"54\" rx=\"8\"/><rect class=\"b\" x=\"102\" y=\"244\" width=\"16\" height=\"49\" rx=\"8\"/><rect class=\"b\" x=\"119\" y=\"242\" width=\"15\" height=\"40\" rx=\"7\"/><path class=\"l\" d=\"M62,40 C85,45 115,45 138,40\"/><path class=\"l\" d=\"M72,190 C90,195 110,195 128,190\"/><path class=\"l\" d=\"M73,197 C90,201 110,201 129,197\"/><path class=\"l\" d=\"M74,208 C82,222 85,236 86,248\"/><path class=\"l\" d=\"M72,236 C95,229 115,227 134,225\"/><path class=\"l d\" d=\"M100,150 L100,188\"/><text class=\"t\" x=\"4\" y=\"128\">côté</text><text class=\"t\" x=\"4\" y=\"139\">pouce</text><text class=\"t\" x=\"144\" y=\"128\">côté petit</text><text class=\"t\" x=\"144\" y=\"139\">doigt</text><text class=\"t\" x=\"68\" y=\"30\">pli du coude</text><text class=\"t\" x=\"140\" y=\"194\">poignet</text>"
+  },
+  "bras-ext": {
+   "nom": "Avant-bras et dos de la main",
+   "vb": "0 0 200 300",
+   "sym": false,
+   "svg": "<g transform=\"translate(200,0) scale(-1,1)\"><path class=\"b\" d=\"M62,0 L138,0 L138,36 C136,100 131,160 128,190 C132,205 135,225 134,250 L66,250 C66,232 68,212 72,190 C69,160 64,100 62,36 Z\"/><path class=\"b\" d=\"M71,202 C58,212 48,232 42,255 C40,265 50,269 55,261 C61,246 67,236 74,229 Z\"/><rect class=\"b\" x=\"66\" y=\"244\" width=\"17\" height=\"46\" rx=\"8\"/><rect class=\"b\" x=\"84\" y=\"244\" width=\"17\" height=\"54\" rx=\"8\"/><rect class=\"b\" x=\"102\" y=\"244\" width=\"16\" height=\"49\" rx=\"8\"/><rect class=\"b\" x=\"119\" y=\"242\" width=\"15\" height=\"40\" rx=\"7\"/><path class=\"l\" d=\"M72,190 C90,195 110,195 128,190\"/><circle class=\"l\" cx=\"75\" cy=\"246\" r=\"3\"/><circle class=\"l\" cx=\"92\" cy=\"246\" r=\"3\"/><circle class=\"l\" cx=\"110\" cy=\"246\" r=\"3\"/><circle class=\"l\" cx=\"126\" cy=\"244\" r=\"3\"/><path class=\"l d\" d=\"M76,200 L76,240 M92,200 L92,240 M110,200 L110,240\"/><path class=\"l\" d=\"M60,36 C70,30 80,30 88,34\"/></g><text class=\"t\" x=\"150\" y=\"128\">côté</text><text class=\"t\" x=\"150\" y=\"139\">pouce</text><text class=\"t\" x=\"4\" y=\"128\">côté petit</text><text class=\"t\" x=\"4\" y=\"139\">doigt</text><text class=\"t\" x=\"96\" y=\"28\">coude</text><text class=\"t\" x=\"4\" y=\"194\">poignet</text>"
+  },
+  "tete-face": {
+   "nom": "Visage",
+   "vb": "0 0 200 240",
+   "sym": true,
+   "svg": "<path class=\"b\" d=\"M100,20 C150,20 168,60 166,110 C164,160 140,205 100,212 C60,205 36,160 34,110 C32,60 50,20 100,20 Z\"/><path class=\"b\" d=\"M35,100 C24,98 22,120 30,134 C33,138 38,136 38,130 Z\"/><path class=\"b\" d=\"M165,100 C176,98 178,120 170,134 C167,138 162,136 162,130 Z\"/><path class=\"l\" d=\"M78,208 L76,240 M122,208 L124,240\"/><path class=\"l\" d=\"M50,56 C70,38 130,38 150,56\"/><path class=\"l\" d=\"M62,88 C72,82 84,82 92,88 M108,88 C116,82 128,82 138,88\"/><ellipse class=\"l\" cx=\"77\" cy=\"103\" rx=\"11\" ry=\"5\"/><ellipse class=\"l\" cx=\"123\" cy=\"103\" rx=\"11\" ry=\"5\"/><path class=\"l\" d=\"M100,98 L97,138 C92,144 89,147 88,149 C94,154 106,154 112,149 C111,147 108,144 103,138\"/><path class=\"l\" d=\"M84,172 C94,178 106,178 116,172\"/>"
+  },
+  "tete-profil": {
+   "nom": "Tête de profil",
+   "vb": "0 0 220 240",
+   "sym": false,
+   "svg": "<path class=\"b\" d=\"M95,24 C140,20 172,42 176,78 C177,86 182,94 190,110 C184,114 180,116 180,120 C184,126 181,132 176,134 C180,140 178,150 170,158 C165,165 150,168 140,176 C136,190 132,210 130,236 L72,236 C73,210 72,196 70,186 C48,176 34,150 33,112 C32,62 56,28 95,24 Z\"/><path class=\"b\" d=\"M103,100 C116,98 120,112 117,124 C115,132 110,140 104,142 C97,143 94,134 96,126 C92,116 94,102 103,100 Z\"/><path class=\"l\" d=\"M103,108 C109,110 110,120 106,128\"/><path class=\"l\" d=\"M112,152 C122,168 134,172 150,170\"/><path class=\"l\" d=\"M44,142 C55,151 66,153 78,151\"/><path class=\"l\" d=\"M150,86 C158,82 166,82 172,86\"/><ellipse class=\"l\" cx=\"163\" cy=\"97\" rx=\"6\" ry=\"3.5\"/><path class=\"l\" d=\"M60,52 C80,40 110,36 140,44\"/><text class=\"t\" x=\"4\" y=\"120\">arrière</text><text class=\"t\" x=\"186\" y=\"72\">front</text>"
+  },
+  "dos": {
+   "nom": "Dos",
+   "vb": "0 0 200 320",
+   "sym": true,
+   "svg": "<circle class=\"b\" cx=\"100\" cy=\"28\" r=\"23\"/><path class=\"b\" d=\"M88,48 L86,64 L114,64 L112,48 Z\"/><path class=\"b\" d=\"M86,62 C68,66 44,70 34,82 C30,100 34,130 42,160 C48,190 54,215 56,232 C50,255 50,280 58,305 L142,305 C150,280 150,255 144,232 C146,215 152,190 158,160 C166,130 170,100 166,82 C156,70 132,66 114,62 Z\"/><path class=\"l d\" d=\"M100,64 L100,300\"/><path class=\"l\" d=\"M72,86 C66,100 66,125 74,142 C80,130 86,110 86,92 Z M128,86 C134,100 134,125 126,142 C120,130 114,110 114,92 Z\"/><path class=\"l\" d=\"M58,236 C75,226 125,226 142,236\"/><path class=\"l\" d=\"M88,250 L112,250 L100,290 Z\"/><circle class=\"l\" cx=\"100\" cy=\"64\" r=\"2.5\"/><text class=\"t\" x=\"106\" y=\"62\">C7</text><text class=\"t\" x=\"146\" y=\"232\">crête</text><text class=\"t\" x=\"146\" y=\"242\">iliaque</text><text class=\"t\" x=\"138\" y=\"150\">omoplate</text>"
+  },
+  "tronc": {
+   "nom": "Poitrine et ventre",
+   "vb": "0 0 200 320",
+   "sym": true,
+   "svg": "<path class=\"b\" d=\"M86,0 L86,30 C70,34 48,36 32,44 C24,60 26,80 30,100 C34,140 44,170 50,200 C46,230 44,260 50,300 L150,300 C156,260 154,230 150,200 C156,170 166,140 170,100 C174,80 176,60 168,44 C152,36 130,34 114,30 L114,0 Z\"/><path class=\"l\" d=\"M98,38 C80,36 60,38 40,45 M102,38 C120,36 140,38 160,45\"/><circle class=\"l\" cx=\"72\" cy=\"105\" r=\"3\"/><circle class=\"l\" cx=\"128\" cy=\"105\" r=\"3\"/><path class=\"l d\" d=\"M100,40 L100,262\"/><path class=\"l\" d=\"M100,135 C88,150 70,165 54,180 M100,135 C112,150 130,165 146,180\"/><circle class=\"l\" cx=\"100\" cy=\"200\" r=\"3.5\"/><path class=\"l\" d=\"M76,262 C90,268 110,268 124,262\"/><text class=\"t\" x=\"106\" y=\"206\">nombril</text><text class=\"t\" x=\"132\" y=\"100\">mamelon</text>"
+  },
+  "jambe-ext": {
+   "nom": "Genou, jambe et dessus du pied (face avant)",
+   "vb": "0 0 200 320",
+   "sym": false,
+   "svg": "<path class=\"b\" d=\"M64,0 L136,0 C138,24 134,44 126,62 C134,84 134,110 126,140 C120,180 116,215 116,245 C122,256 128,272 128,300 L126,318 L62,318 C60,300 62,280 70,262 C80,250 84,240 84,230 C82,200 76,170 72,140 C66,110 66,86 74,62 C66,46 62,26 64,0 Z\"/><ellipse class=\"l\" cx=\"98\" cy=\"46\" rx=\"15\" ry=\"18\"/><path class=\"l d\" d=\"M98,82 C97,140 96,200 97,245\"/><circle class=\"l\" cx=\"126\" cy=\"98\" r=\"5\"/><path class=\"l\" d=\"M114,248 C120,246 124,250 124,256 M84,248 C80,244 76,248 77,254\"/><path class=\"l\" d=\"M82,300 L82,318 M95,302 L95,318 M107,302 L107,318 M118,300 L118,318\"/><path class=\"l d\" d=\"M84,262 L82,298 M96,264 L95,300 M108,264 L107,300 M118,264 L118,298\"/><text class=\"t\" x=\"140\" y=\"50\">rotule</text><text class=\"t\" x=\"140\" y=\"100\">tête du</text><text class=\"t\" x=\"140\" y=\"110\">péroné</text><text class=\"t\" x=\"132\" y=\"256\">malléole</text><text class=\"t\" x=\"132\" y=\"266\">externe</text><text class=\"t\" x=\"10\" y=\"200\">tibia</text>"
+  },
+  "jambe-int": {
+   "nom": "Genou, jambe et pied (côté intérieur)",
+   "vb": "0 0 200 320",
+   "sym": false,
+   "svg": "<path class=\"b\" d=\"M72,0 L150,0 C152,30 150,50 146,64 C150,90 150,120 142,160 C136,200 132,230 134,250 C140,262 150,272 152,284 C152,292 146,296 138,296 L20,296 C8,296 4,288 8,280 C20,270 50,266 72,258 C80,252 84,240 84,226 C82,190 80,150 76,110 C72,90 68,70 70,50 C70,30 70,14 72,0 Z\"/><ellipse class=\"l\" cx=\"75\" cy=\"44\" rx=\"7\" ry=\"16\"/><circle class=\"l\" cx=\"106\" cy=\"250\" r=\"9\"/><path class=\"l d\" d=\"M88,90 C94,150 99,200 100,238\"/><path class=\"l\" d=\"M136,200 C134,230 136,250 140,270\"/><path class=\"l\" d=\"M120,64 L146,64\"/><path class=\"l\" d=\"M40,296 C60,286 90,284 112,290\"/><text class=\"t\" x=\"4\" y=\"40\">rotule</text><text class=\"t\" x=\"150\" y=\"238\">tendon</text><text class=\"t\" x=\"150\" y=\"248\">d'Achille</text><text class=\"t\" x=\"104\" y=\"238\">malléole</text><text class=\"t\" x=\"14\" y=\"312\">gros orteil</text><text class=\"t\" x=\"150\" y=\"312\">talon</text>"
+  },
+  "pied-ext": {
+   "nom": "Cheville et pied (côté extérieur)",
+   "vb": "0 0 200 240",
+   "sym": false,
+   "svg": "<path class=\"b\" d=\"M72,0 L128,0 C126,60 122,120 122,160 C130,180 150,196 175,204 C190,208 196,216 192,224 C188,230 180,230 170,230 L60,230 C48,230 42,222 44,210 C46,196 56,184 64,170 C68,120 70,60 72,0 Z\"/><circle class=\"l\" cx=\"96\" cy=\"178\" r=\"10\"/><path class=\"l\" d=\"M70,110 C66,150 62,175 56,200\"/><circle class=\"l\" cx=\"132\" cy=\"222\" r=\"3\"/><text class=\"t\" x=\"4\" y=\"170\">tendon</text><text class=\"t\" x=\"4\" y=\"180\">d'Achille</text><text class=\"t\" x=\"104\" y=\"170\">malléole</text><text class=\"t\" x=\"170\" y=\"198\">orteils</text>"
+  },
+  "genou-arr": {
+   "nom": "Arrière du genou",
+   "vb": "0 0 200 200",
+   "sym": false,
+   "svg": "<path class=\"b\" d=\"M60,0 L140,0 C142,50 140,80 138,100 C146,130 144,170 136,200 L64,200 C56,170 54,130 62,100 C60,80 58,50 60,0 Z\"/><path class=\"l\" d=\"M64,100 C85,106 115,106 136,100\"/><path class=\"l d\" d=\"M80,60 L84,98 M120,60 L116,98\"/><text class=\"t\" x=\"146\" y=\"104\">pli du genou</text>"
+  },
+  "plante": {
+   "nom": "Plante du pied",
+   "vb": "0 0 200 260",
+   "sym": false,
+   "svg": "<path class=\"b\" d=\"M70,250 C52,250 46,230 48,205 C50,170 56,140 52,110 C48,80 50,60 62,50 L140,50 C150,62 152,84 148,110 C144,140 148,170 150,205 C152,232 146,250 128,250 Z\"/><circle class=\"b\" cx=\"74\" cy=\"34\" r=\"13\"/><circle class=\"b\" cx=\"98\" cy=\"30\" r=\"9\"/><circle class=\"b\" cx=\"116\" cy=\"32\" r=\"8\"/><circle class=\"b\" cx=\"131\" cy=\"37\" r=\"7\"/><circle class=\"b\" cx=\"143\" cy=\"46\" r=\"6\"/><text class=\"t\" x=\"156\" y=\"240\">talon</text><text class=\"t\" x=\"150\" y=\"26\">orteils</text>"
+  }
+ }
+}

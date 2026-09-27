@@ -68,6 +68,7 @@ def check(data):
         if not t.get("simple") or not t.get("reperes"): errs.append(f"tableau {t['id']} : explication « en clair » ou repères manquants")
         for it in items_of(t):
             if it.get("p") and it["p"] not in pts: errs.append(f"tableau {t['id']} : point inconnu {it['p']}")
+            elif it.get("p") and it["p"] != "Ah Shi" and pts[it["p"]].get("vue") not in data.get("figures", {}): errs.append(f"point {it['p']} : image d'emplacement manquante")
         for r in t.get("recettes", []):
             if r not in fiches: errs.append(f"tableau {t['id']} : recette inconnue {r}")
         for f in t.get("fiches", []):

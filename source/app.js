@@ -27,7 +27,7 @@ const J=JSON.stringify;
 
 /* ---------- État ---------- */
 const view=$('#view');
-let DATA=null,SYMFREQ={},loadError=false,fiches=[],tableaux=[],SYM={},SYMCATS=[],ORG={},ORGS=[],AXES=[],INGC={},INGCATS=[],PTS={};
+let DATA=null,FIGS={},SYMFREQ={},loadError=false,fiches=[],tableaux=[],SYM={},SYMCATS=[],ORG={},ORGS=[],AXES=[],INGC={},INGCATS=[],PTS={};
 let tab=TABS.includes(store('ys.onglet'))?store('ys.onglet'):'symptomes';
 let route=null;
 const scrollMem={};
@@ -197,7 +197,7 @@ function openSheet(title,sub,bodyHTML,onReady){
   s.querySelector('.sheet-t').textContent=title||'';
   const st=s.querySelector('.sheet-s');st.textContent=sub||'';st.hidden=!sub;
   s.querySelector('.sheet-body').innerHTML=bodyHTML;
-  if(!sheetOpen){sheetReturn=document.activeElement;try{history.pushState(Object.assign({},history.state||{},{sheet:1}),'');}catch(e){}}
+  if(!sheetOpen){const sh=s.querySelector('.sheet');if(sh)sh.scrollTop=0;sheetReturn=document.activeElement;try{history.pushState(Object.assign({},history.state||{},{sheet:1}),'');}catch(e){}}
   s.hidden=false;sheetOpen=true;document.body.classList.add('noscroll');
   const f=s.querySelector('input,.sheet-body button');if(f)f.focus({preventScroll:true});
   if(onReady)onReady(s);
@@ -328,6 +328,28 @@ function renameSheet(cid){
 function newCarnetSheet(){
   sheetCtx={};
   openSheet('Nouveau carnet','Rassemble les fiches de ton choix : recettes du moment, protocole d\'un patient, cure d\'hiver…',`<form class="sheet-new" data-newfor="plain"><label for="newc">Nom</label><div><input id="newc" type="text" maxlength="40" placeholder="Ex. : Recettes du moment" autocomplete="off"><button type="submit" class="primary">Créer</button></div></form>`);
+}
+const PT_ALIAS={'EX-LE 2':'He Ding','EX-LE 4':'Nei Xi Yan','EX-HN 3':'Yin Tang','EX-HN 5':'Tai Yang'};
+function figKeys(it){
+  const raw=it.p?[it.p]:String(it.ab||'').split('+').map(x=>x.trim());
+  const ks=raw.map(k=>PT_ALIAS[k]||k).filter(k=>PTS[k]&&PTS[k].vue&&FIGS[PTS[k].vue]);
+  return ks.length&&ks.every(k=>PTS[k].vue===PTS[ks[0]].vue)?ks:ks.slice(0,1);
+}
+function figSheet(keys){
+  keys=String(keys).split('|').filter(k=>PTS[k]);if(!keys.length)return;
+  const p0=PTS[keys[0]],f=FIGS[p0.vue];if(!f)return;
+  const W=+String(f.vb).split(' ')[2]||200;let marks='';
+  keys.forEach(ab=>{
+    const p=PTS[ab],x=+p.x,y=+p.y,xs=[x];if(f.sym&&p.b&&Math.abs(x-W/2)>2)xs.push(W-x);
+    const right=x<W-56,lx=right?x+10:x-10,ly=y<16?y+18:y-8;
+    marks+=xs.map((cx,i)=>`<circle class="fig-halo" cx="${cx}" cy="${y}" r="11"></circle><circle class="fig-dot${i?' alt':''}" cx="${cx}" cy="${y}" r="4.6"></circle>`).join('')+
+      `<text class="fig-lab" x="${lx}" y="${ly}" text-anchor="${right?'start':'end'}">${esc(ab)}</text>`;
+  });
+  const both=keys.some(ab=>PTS[ab].b),mirrored=f.sym&&both;
+  openSheet(keys.length>1?keys.join(' et '):keys[0]+' · '+(p0.py||''),f.nom,`<div class="fig"><svg class="fig-svg" viewBox="${esc(f.vb)}" role="img" aria-label="Emplacement : ${esc(keys.join(', '))}, ${esc(f.nom)}">${f.svg}${marks}</svg></div>
+${keys.map(ab=>{const p=PTS[ab];return `${p.zh?`<p class="fig-zh" lang="zh-Hans">${esc(p.zh)} <span>${esc(p.py||'')}</span></p>`:''}<p class="fig-loc"><b>${esc(ab)} :</b> ${esc(p.loc||'')}</p>`;}).join('')}
+${both?`<p class="fine">Point présent des deux côtés du corps${mirrored?' (les deux sont marqués)':''} : masse-le à gauche puis à droite.</p>`:'<p class="fine">Point unique, sur la ligne du milieu du corps.</p>'}
+<p class="fine">Repère : 1 cun correspond à la largeur de ton pouce. Le bon endroit est souvent un petit creux, un peu plus sensible au toucher. Schéma indicatif.</p>`);
 }
 async function shareApp(){
   const url=location.origin+location.pathname;
@@ -993,6 +1015,7 @@ function protoHTML(e){
 ${it.zh?`<div class="pt-zh" lang="zh-Hans" aria-hidden="true">${esc(it.zh)}</div>`:''}
 <h4 class="pt-py">${esc(it.py)}</h4>
 ${it.loc?`<p class="loc"><span class="k">Où</span>${esc(it.loc)}</p>`:''}
+${figKeys(it).length?`<button type="button" class="voir" data-fig="${esc(figKeys(it).join('|'))}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Voir l'image pour l'emplacement du point</button>`:''}
 ${it.act?`<p class="act"><span class="k">Effet</span>${esc(it.act)}</p>`:''}
 ${it.dos?'<p class="flag soft">Dans le dos : avec une balle contre un mur, ou par un proche.</p>':''}
 ${it.grossesse?'<p class="flag">À éviter pendant la grossesse.</p>':''}
@@ -1416,6 +1439,7 @@ document.addEventListener('click',ev=>{
   if(d.ing){toggleIng(d.ing,b);return;}
   if(d.clear==='ing'){have.clear();saveSet('ys.cuisine',have);refresh();return;}
   if(d.clear==='sym'){const old=[...symSel];symSel.clear();saveSet('ys.symptomes',symSel);symMode='choisir';refresh();toast('Symptômes effacés',()=>{old.forEach(s=>symSel.add(s));saveSet('ys.symptomes',symSel);refresh();});return;}
+  if(d.fig){figSheet(d.fig);return;}
   if(d.shareapp){shareApp();return;}
   if(d.install&&installEvt){installEvt.prompt();installEvt.userChoice.finally(()=>{installEvt=null;if(tab==='infos'&&!route)renderInfos();});return;}
   if(d.serv&&route&&route.kind==='f'){
@@ -1490,6 +1514,7 @@ render();
 loadData().then(d=>{
   DATA=d||{};
   PTS=DATA.points&&typeof DATA.points==='object'?DATA.points:{};
+  FIGS=DATA.figures&&typeof DATA.figures==='object'?DATA.figures:{};
   SYM={};arr(DATA.symptomes).forEach(s=>{if(s&&s.id)SYM[s.id]=s;});
   SYMCATS=arr(DATA.categories_symptomes);
   ORGS=arr(DATA.organes);ORG={};ORGS.forEach(o=>{ORG[o.id]=o;});
