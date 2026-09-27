@@ -184,12 +184,12 @@ function symChip(id){return `<button type="button" class="chip" data-sym="${esc(
 /* ---------- Toast et feuille d'actions ---------- */
 let toastT=null,toastAt=0;
 function hideStaleToast(){const t=$('#toast');if(t&&!t.hidden&&Date.now()-toastAt>900){t.hidden=true;clearTimeout(toastT);}}
-function toast(msg,undo){
+function toast(msg,undo,label,ms){
   const t=$('#toast');if(!t)return;toastAt=Date.now();
   t.querySelector('.toast-m').textContent=msg;
-  const b=t.querySelector('.toast-b');b.hidden=!undo;
+  const b=t.querySelector('.toast-b');b.hidden=!undo;b.textContent=label||'Annuler';
   b.onclick=()=>{t.hidden=true;clearTimeout(toastT);undo&&undo();};
-  t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>{t.hidden=true;},undo?5000:2600);
+  t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>{t.hidden=true;},ms||(undo?5000:2600));
 }
 let sheetOpen=false,ignorePop=false,sheetReturn=null,ghostUntil=0;
 function openSheet(title,sub,bodyHTML,onReady){
@@ -1463,20 +1463,28 @@ let hiddenAt=0;
 document.addEventListener('visibilitychange',()=>{
   if(document.visibilityState==='hidden'){hiddenAt=Date.now();return;}
   const away=hiddenAt?Date.now()-hiddenAt:0;hiddenAt=0;
-  if(away<5*60*1000||act||pendingNext||sheetOpen||lp)return;
+  if(away<5*60*1000||act||pendingNext||sheetOpen||lp){checkUpdate(false);return;}
   playIntro();
   if(DATA&&(route||tab!=='infos'))goTab('infos');
-  checkUpdate();
+  checkUpdate(true);
 });
-async function checkUpdate(){
+/* Nouvelle version en ligne ? Au retour après 5 min : rechargement pendant l'animation.
+   Sinon : bandeau « Mettre à jour » (vérifié au retour dans l'appli et toutes les 10 minutes). */
+let lastCheck=0,updOffered=false;
+async function checkUpdate(silent){
+  if(!silent&&Date.now()-lastCheck<60000)return;lastCheck=Date.now();
   try{
     const cur=document.querySelector('script[src*="app.js?v="]'),cv=cur&&/v=([a-f0-9]+)/.exec(cur.getAttribute('src'));
-    if(!cv||location.protocol!=='https:')return;
+    if(!cv||!/^https?:$/.test(location.protocol))return;
     const r=await fetch(location.pathname+'?maj='+Date.now(),{cache:'no-store'});if(!r.ok)return;
     const m=/app\.js\?v=([a-f0-9]+)/.exec(await r.text());
-    if(m&&m[1]!==cv[1])location.reload();
+    if(!m||m[1]===cv[1])return;
+    if(silent||!DATA){location.reload();return;}
+    if(act||pendingNext||lp||sheetOpen)return;
+    if(!updOffered){updOffered=true;toast('Une nouvelle version de l\'appli est disponible',()=>location.reload(),'Mettre à jour',15000);setTimeout(()=>{updOffered=false;},15000);}
   }catch(e){}
 }
+setInterval(()=>{if(document.visibilityState==='visible')checkUpdate(false);},10*60*1000);
 render();
 loadData().then(d=>{
   DATA=d||{};

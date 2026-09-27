@@ -12,6 +12,7 @@ self.addEventListener('fetch',e=>{
   if(req.method!=='GET')return;
   const url=new URL(req.url);
   if(url.origin!==self.location.origin)return;
+  if(url.searchParams.has('maj'))return;
   const fresh=req.mode==='navigate'||url.pathname.endsWith('data.json');
   if(fresh){
     e.respondWith(fetch(req).then(r=>{
