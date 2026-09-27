@@ -47,7 +47,9 @@
     "concentration",
     "regles-abondantes",
     "regles-avance",
-    "spm"
+    "spm",
+    "orgelet",
+    "paupieres-gonflees"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -435,7 +437,8 @@
     "gynecomastie",
     "raideur-matinale",
     "desequilibre",
-    "concentration"
+    "concentration",
+    "paupieres-gonflees"
    ],
    "contre": [
     "enduit-jaune",
@@ -555,7 +558,8 @@
     "sensible-chaleur",
     "aphtes",
     "toux-glaires-jaunes",
-    "plaie-genitale"
+    "plaie-genitale",
+    "orgelet"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -755,7 +759,8 @@
     "urines-foncees",
     "cephalee-front",
     "boutons-pus",
-    "mucite"
+    "mucite",
+    "orgelet"
    ],
    "contre": [
     "frilosite",

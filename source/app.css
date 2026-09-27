@@ -480,7 +480,7 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 .taiji-yin path{fill:var(--ink)}
 .taiji-dot.d-yin{fill:var(--ink)}
 .taiji-dot.d-yang{fill:var(--surface)}
-.taiji-ring{fill:none;stroke:var(--ink);stroke-width:2.5;stroke-dasharray:100;stroke-dashoffset:100;opacity:0;transform:rotate(-90deg);transform-box:fill-box;transform-origin:center;animation:taiji-ring 1.1s cubic-bezier(.6,0,.3,1) .95s forwards}
+.taiji-ring{fill:none;stroke:var(--ink);stroke-width:2.5;stroke-linecap:round;stroke-dasharray:103 103;stroke-dashoffset:103;opacity:0;transform:rotate(-90deg);transform-box:fill-box;transform-origin:center;animation:taiji-ring 1.1s cubic-bezier(.6,0,.3,1) .95s forwards}
 .taiji-halo{fill:none;stroke:var(--seal);stroke-width:1.5;opacity:0;transform-box:fill-box;transform-origin:center;animation:taiji-halo 1.6s ease-out 1.5s forwards}
 .taiji-yang,.taiji-yin,.taiji-spin,.taiji-dot{transform-box:fill-box;transform-origin:center}
 .taiji-yang{animation:taiji-yang 1.25s cubic-bezier(.22,.9,.25,1) .1s both}
@@ -494,10 +494,10 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 @keyframes taiji-yin{0%{transform:translate(-140px,70px) rotate(-150deg) scale(.7);opacity:0}35%{opacity:1}100%{transform:none;opacity:1}}
 @keyframes taiji-dot{0%{transform:scale(0)}100%{transform:scale(1)}}
 @keyframes taiji-spin{0%{transform:rotate(0)}100%{transform:rotate(180deg)}}
-@keyframes taiji-ring{0%{opacity:1;stroke-dashoffset:100}100%{opacity:1;stroke-dashoffset:0}}
+@keyframes taiji-ring{0%{opacity:1;stroke-dashoffset:103}98%{opacity:1;stroke-dashoffset:0;stroke-dasharray:103 103}100%{opacity:1;stroke-dashoffset:0;stroke-dasharray:none}}
 @keyframes taiji-halo{0%{opacity:.6;transform:scale(.96)}100%{opacity:0;transform:scale(1.25)}}
 @keyframes intro-up{0%{opacity:0;transform:translateY(10px)}100%{opacity:1;transform:none}}
-@media (prefers-reduced-motion:reduce){.taiji-yang,.taiji-yin,.taiji-dot,.taiji-spin,.taiji-halo,.intro-zh,.intro-t,.intro-s{animation:none}.taiji-ring{animation:none;stroke-dashoffset:0;opacity:1}.intro,.intro-in{transition-duration:.3s}}
+@media (prefers-reduced-motion:reduce){.taiji-yang,.taiji-yin,.taiji-dot,.taiji-spin,.taiji-halo,.intro-zh,.intro-t,.intro-s{animation:none}.taiji-ring{animation:none;stroke-dasharray:none;stroke-dashoffset:0;opacity:1}.intro,.intro-in{transition-duration:.3s}}
 .acc-card{border-color:var(--jade);box-shadow:0 0 0 1px var(--jade-bg)}
 
 /* ---------- v0.7 : repères pour les novices ---------- */

@@ -266,7 +266,8 @@
     "mictions-frequentes",
     "poids-facile",
     "fatigue-matin",
-    "jambes-faibles"
+    "jambes-faibles",
+    "paupieres-gonflees"
    ],
    "contre": [
     "chaleur-corps",
@@ -1007,7 +1008,8 @@
     "gorge-mal",
     "soif",
     "langue-rouge",
-    "pointe-rouge"
+    "pointe-rouge",
+    "paupieres-gonflees"
    ],
    "contre": [
     "peau-seche",
@@ -1268,7 +1270,8 @@
     "irritabilite",
     "plaques-rouges",
     "regles-rouge-vif",
-    "peau-radiotherapie"
+    "peau-radiotherapie",
+    "orgelet"
    ],
    "contre": [
     "langue-pale",

@@ -275,6 +275,20 @@
    "syn": "conjonctivite yeux"
   },
   {
+   "id": "orgelet",
+   "cat": "tete",
+   "nom": "Orgelet : bouton rouge et douloureux au bord de la paupière",
+   "alerte": "Ne presse jamais un orgelet ; des compresses tièdes 10 minutes, plusieurs fois par jour, l'aident à mûrir. Consulte si toute la paupière gonfle et rougit, si la vue baisse, en cas de fièvre, ou s'il ne guérit pas en une à deux semaines ou revient souvent.",
+   "syn": "orgelet compère-loriot chalazion bouton paupière paupière gonflée rouge douloureuse œil"
+  },
+  {
+   "id": "paupieres-gonflees",
+   "cat": "tete",
+   "nom": "Paupières gonflées, yeux bouffis (surtout au réveil)",
+   "alerte": "Paupières très gonflées avec gêne pour respirer, lèvres ou langue qui gonflent : appelle le 15 (allergie grave). Consulte aussi si le gonflement dure, s'étend aux jambes, ou si les urines deviennent mousseuses ou foncées.",
+   "syn": "paupières gonflées yeux gonflés yeux bouffis poches sous les yeux œdème paupière"
+  },
+  {
    "id": "nez-bouche",
    "cat": "tete",
    "nom": "Nez bouché",
