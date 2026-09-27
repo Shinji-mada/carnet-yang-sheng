@@ -27,7 +27,11 @@
     "chute-cheveux",
     "engourdissements",
     "sueurs-jour",
-    "memoire"
+    "memoire",
+    "cephalee-sourde",
+    "mouches-volantes",
+    "constipation-effort",
+    "peau-terne"
    ],
    "contre": [
     "langue-rouge",
@@ -80,7 +84,8 @@
     "boeuf-carottes-dattes",
     "saumon-patate-douce",
     "poulpe-pommes-de-terre",
-    "boeuf-brocoli"
+    "boeuf-brocoli",
+    "foies-volaille-epinards"
    ],
    "privilegier": "Bouillons, dattes, goji, œufs, viande en petite quantité, céréales, légumineuses.",
    "eviter": "Régimes restrictifs, surmenage, sauter des repas.",
@@ -115,7 +120,12 @@
     "reveils",
     "regles-peu",
     "cephalee-sourde",
-    "langue-rouge-sans-enduit"
+    "langue-rouge-sans-enduit",
+    "secheresse-intime",
+    "audition",
+    "mouches-volantes",
+    "douleur-genou",
+    "tremblements"
    ],
    "contre": [
     "frilosite",
@@ -167,7 +177,10 @@
     "congee-haricots-noirs",
     "infusion-chrysantheme-goji",
     "calamars-celeri",
-    "soupe-huitres-tofu"
+    "soupe-huitres-tofu",
+    "soupe-canard-igname",
+    "bouillon-os-boeuf",
+    "creme-sesame-noix"
    ],
    "privilegier": "Goji, sésame noir, haricots noirs, trémelle, œufs, poire, chrysanthème.",
    "eviter": "Écrans tard, épices, alcool, veiller.",
@@ -199,7 +212,12 @@
     "lombalgie-sourde",
     "douleur-ventre-froid",
     "langue-pale",
-    "langue-gonflee"
+    "langue-gonflee",
+    "douleur-genou",
+    "froid-dos",
+    "froid-genital",
+    "mictions-frequentes",
+    "poids-facile"
    ],
    "contre": [
     "chaleur-corps",
@@ -261,7 +279,9 @@
     "crevettes-poireau-noix",
     "congee-courge-carotte",
     "infusion-gingembre-cannelle",
-    "soupe-mouton-radis"
+    "soupe-mouton-radis",
+    "crevettes-ciboule-oeufs",
+    "poulet-chataignes"
    ],
    "privilegier": "Plats mijotés, gingembre, cannelle, poireau, noix, agneau, riz, courge.",
    "eviter": "Tout ce qui est froid ou cru, glaces, sodas.",
@@ -295,7 +315,8 @@
     "sueurs-jour",
     "essoufflement",
     "langue-pale",
-    "langue-gonflee"
+    "langue-gonflee",
+    "toux-faible"
    ],
    "contre": [
     "langue-rouge",
@@ -380,7 +401,10 @@
     "regles-douloureuses",
     "teint-sombre",
     "bleus-faciles",
-    "engourdissements"
+    "engourdissements",
+    "fertilite",
+    "douleur-genou",
+    "peau-terne"
    ],
    "contre": [],
    "langue": "Violacée ou avec des taches sombres, veines sous la langue gonflées.",
@@ -425,7 +449,8 @@
    "recettes": [
     "agneau-dang-gui",
     "infusion-rose-orange",
-    "veloute-betterave-lentilles"
+    "veloute-betterave-lentilles",
+    "champignons-noirs"
    ],
    "privilegier": "Mouvement quotidien, betterave, oignon, ciboulette, rose, curcuma, un peu de vinaigre de riz.",
    "eviter": "Froid, sédentarité, rester assis des heures.",
@@ -459,7 +484,10 @@
     "frilosite",
     "pertes-blanches",
     "langue-pale",
-    "langue-violacee"
+    "langue-violacee",
+    "libido",
+    "fertilite",
+    "douleur-fixe"
    ],
    "contre": [
     "pertes-jaunes",
@@ -513,7 +541,8 @@
    ],
    "recettes": [
     "agneau-dang-gui",
-    "infusion-gingembre-cannelle"
+    "infusion-gingembre-cannelle",
+    "agneau-fenouil"
    ],
    "privilegier": "Gingembre, cannelle, agneau, plats mijotés, boissons chaudes.",
    "eviter": "Boissons froides, glaces, baignade en eau froide pendant les règles.",
@@ -540,7 +569,9 @@
    "autres": [
     "nuque-raide",
     "raideur-articulaire",
-    "aversion-froid"
+    "aversion-froid",
+    "douleur-genou",
+    "cephalee-nuque"
    ],
    "contre": [
     "articulations-chaudes"
@@ -582,7 +613,8 @@
    ],
    "recettes": [
     "congee-goji-sesame",
-    "infusion-gingembre-cannelle"
+    "infusion-gingembre-cannelle",
+    "champignons-noirs"
    ],
    "privilegier": "Plats tièdes, aliments qui nourrissent le Sang.",
    "eviter": "Courants d'air, climatisation dirigée sur toi.",
@@ -608,7 +640,8 @@
     "frilosite",
     "douleur-genou",
     "lombalgie-sourde",
-    "langue-pale"
+    "langue-pale",
+    "douleur-fixe"
    ],
    "contre": [
     "articulations-chaudes"
@@ -658,7 +691,9 @@
    "recettes": [
     "agneau-dang-gui",
     "infusion-gingembre-cannelle",
-    "soupe-mouton-radis"
+    "soupe-mouton-radis",
+    "poulet-chataignes",
+    "bouillon-os-boeuf"
    ],
    "privilegier": "Gingembre, cannelle, plats mijotés, agneau, bains chauds.",
    "eviter": "Froid, humidité, boissons glacées.",
@@ -689,7 +724,9 @@
     "engourdissements",
     "douleur-genou",
     "enduit-blanc-epais",
-    "langue-gonflee"
+    "langue-gonflee",
+    "douleurs-froid",
+    "douleur-fixe"
    ],
    "contre": [
     "articulations-chaudes"
@@ -766,7 +803,10 @@
     "fievre",
     "soif",
     "langue-rouge",
-    "enduit-jaune"
+    "enduit-jaune",
+    "douleur-genou",
+    "douleurs-migrantes",
+    "articulations-lourdes"
    ],
    "contre": [
     "douleurs-froid",
@@ -905,7 +945,8 @@
     "lourdeur",
     "diarrhee-chaude",
     "urines-foncees",
-    "bouche-pateuse"
+    "bouche-pateuse",
+    "boutons-pus"
    ],
    "contre": [
     "peau-seche"
@@ -957,7 +998,8 @@
    ],
    "recettes": [
     "congee-orge-azuki",
-    "soupe-mungo"
+    "soupe-mungo",
+    "bouillon-concombre-wakame"
    ],
    "privilegier": "Orge perlé, haricots mungo et azuki, légumes verts cuits.",
    "eviter": "Sucre, laitages, alcool, friture, épices.",
@@ -1032,7 +1074,8 @@
     "congee-goji-sesame",
     "soupe-epinards-oeuf",
     "soupe-tremelle",
-    "saumon-patate-douce"
+    "saumon-patate-douce",
+    "foies-volaille-epinards"
    ],
    "privilegier": "Sésame, goji, dattes, œufs, épinards, bonnes huiles.",
    "eviter": "Douches chaudes et longues, savons décapants.",
@@ -1064,7 +1107,9 @@
     "langue-rouge",
     "urines-foncees",
     "regles-avance",
-    "irritabilite"
+    "irritabilite",
+    "plaques-rouges",
+    "regles-rouge-vif"
    ],
    "contre": [
     "langue-pale",

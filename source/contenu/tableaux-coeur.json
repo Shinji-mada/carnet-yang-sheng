@@ -158,7 +158,8 @@
    "recettes": [
     "congee-lotus-jujube",
     "infusion-longane-jujube",
-    "congee-goji-sesame"
+    "congee-goji-sesame",
+    "foies-volaille-epinards"
    ],
    "privilegier": "Dattes, longanes, goji, œufs, épinards, céréales, graines de lotus.",
    "eviter": "Écrans le soir, dîner trop tard, café l'après-midi.",
@@ -241,7 +242,8 @@
    "recettes": [
     "soupe-tremelle",
     "congee-lotus-jujube",
-    "soupe-huitres-tofu"
+    "soupe-huitres-tofu",
+    "soupe-canard-igname"
    ],
    "privilegier": "Trémelle, graines de lotus, poire, tofu, œufs, sésame, millet.",
    "eviter": "Café, alcool, épices, sport intense le soir, écrans tard.",
@@ -273,7 +275,9 @@
     "urines-foncees",
     "palpitations",
     "sommeil-agite",
-    "gout-amer"
+    "gout-amer",
+    "pollutions-nocturnes",
+    "brulures-urinaires"
    ],
    "contre": [
     "langue-pale",
@@ -355,7 +359,12 @@
     "teint-pale",
     "bleus-faciles",
     "langue-pale",
-    "ballonnements"
+    "ballonnements",
+    "erection",
+    "ejaculation-precoce",
+    "pertes-seminales",
+    "libido",
+    "envie-sucre"
    ],
    "contre": [
     "langue-rouge"
@@ -402,14 +411,18 @@
    "recettes": [
     "congee-lotus-jujube",
     "infusion-longane-jujube",
-    "congee-millet-patate-douce"
+    "congee-millet-patate-douce",
+    "congee-qian-shi"
    ],
    "privilegier": "Graines de lotus, longanes, dattes, millet, riz, patate douce, poulet.",
    "eviter": "Manger en travaillant, sauter des repas, sucre en excès.",
    "conseils": [
     "Note tes soucis sur un papier avant de dormir pour les poser."
    ],
-   "etiquette": "Cœur · Rate"
+   "etiquette": "Cœur · Rate",
+   "groupes": [
+    "homme"
+   ]
   },
   {
    "id": "coeur-rein",
@@ -438,7 +451,11 @@
     "chaleur-5-coeurs",
     "pointe-rouge",
     "langue-rouge-sans-enduit",
-    "bouche-seche"
+    "bouche-seche",
+    "pollutions-nocturnes",
+    "pertes-seminales",
+    "libido-excessive",
+    "ejaculation-precoce"
    ],
    "contre": [
     "langue-pale",
@@ -488,14 +505,19 @@
     "congee-lotus-jujube",
     "soupe-tremelle",
     "congee-haricots-noirs",
-    "soupe-huitres-tofu"
+    "soupe-huitres-tofu",
+    "congee-qian-shi",
+    "huitres-gingembre"
    ],
    "privilegier": "Graines de lotus, haricots noirs, sésame noir, trémelle, millet.",
    "eviter": "Café, alcool, épices, écrans et sport intense le soir.",
    "conseils": [
     "Bain de pieds chaud puis massage de Rn 1 avant de dormir."
    ],
-   "etiquette": "Cœur · Rein"
+   "etiquette": "Cœur · Rein",
+   "groupes": [
+    "homme"
+   ]
   }
  ]
 }

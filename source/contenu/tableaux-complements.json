@@ -98,7 +98,9 @@
     "voix-faible",
     "langue-pale",
     "selles-molles",
-    "douleur-estomac-faim"
+    "douleur-estomac-faim",
+    "envie-sucre",
+    "somnolence"
    ],
    "contre": [
     "faim-excessive",
@@ -238,7 +240,8 @@
     "congee-poulet",
     "infusion-gingembre-cannelle",
     "poisson-vapeur",
-    "soupe-mouton-radis"
+    "soupe-mouton-radis",
+    "agneau-fenouil"
    ],
    "privilegier": "Gingembre, riz, courge, poulet, mouton en hiver, boissons chaudes.",
    "eviter": "Glaces, boissons froides, fruits crus à jeun.",
@@ -394,7 +397,9 @@
    "recettes": [
     "moules-gingembre",
     "crevettes-poireau-noix",
-    "soupe-mouton-radis"
+    "soupe-mouton-radis",
+    "congee-qian-shi",
+    "crevettes-ciboule-oeufs"
    ],
    "privilegier": "Noix, poireau, crevettes, moules, mouton, plats chauds.",
    "eviter": "Boissons froides, boire beaucoup le soir, pieds froids.",
@@ -472,7 +477,8 @@
    ],
    "recettes": [
     "infusion-gingembre-cannelle",
-    "congee-courge-carotte"
+    "congee-courge-carotte",
+    "agneau-fenouil"
    ],
    "privilegier": "Bouillons chauds, riz, gingembre, courge.",
    "eviter": "Tout ce qui est froid ou cru.",
@@ -506,7 +512,9 @@
     "endormissement",
     "irritabilite",
     "langue-rouge-sans-enduit",
-    "bouche-seche"
+    "bouche-seche",
+    "tremblements",
+    "mouches-volantes"
    ],
    "contre": [
     "langue-pale",
@@ -551,7 +559,8 @@
    "recettes": [
     "congee-goji-sesame",
     "calamars-celeri",
-    "infusion-chrysantheme-goji"
+    "infusion-chrysantheme-goji",
+    "soupe-canard-igname"
    ],
    "privilegier": "Goji, chrysanthème, sésame noir, œufs, tofu, épinards, calamar.",
    "eviter": "Écrans tard, alcool, épices, veiller.",

@@ -41,6 +41,8 @@ let recents=arr(storedJSON('ys.recents',[]));
 let masques=arr(storedJSON('ys.masques',[]));
 let carnetSel=store('ys.carnet')||'tout';
 let auto=store('ys.auto')==='1';
+let collOrder=arr(storedJSON('ys.ordre-carnets',[]));
+let selMode=false;const selSet=new Set(),manageSel=new Set();
 let varPref=store('ys.variante')||'cuiseur';
 const recVar={},portions={},ingDone={};
 let installEvt=null;
@@ -115,7 +117,7 @@ async function loadData(){
 /* ---------- Carnets, favoris, récents ---------- */
 function persist(){
   store('ys.favoris',JSON.stringify(favs));store('ys.carnets',JSON.stringify(carnets));
-  store('ys.recents',JSON.stringify(recents));store('ys.masques',JSON.stringify(masques));store('ys.carnet',carnetSel);
+  store('ys.recents',JSON.stringify(recents));store('ys.masques',JSON.stringify(masques));store('ys.carnet',carnetSel);store('ys.ordre-carnets',JSON.stringify(collOrder));
 }
 function coll(cid){if(cid==='favoris')return favs;if(cid==='recents')return recents;const c=carnets.find(x=>x.id===cid);return c?c.items:null;}
 function collName(cid){if(cid==='tout')return'Toutes les fiches';if(cid==='favoris')return'Favoris';if(cid==='recents')return'Récents';const c=carnets.find(x=>x.id===cid);return c?c.nom:'';}
@@ -126,6 +128,14 @@ function restoreAt(cid,rec){const it=coll(cid);if(it&&rec){it.splice(Math.min(re
 function isFav(k,id){return inColl('favoris',k,id);}
 function isHidden(k,id){return masques.some(m=>m.k===k&&m.id===id);}
 function pushRecent(k,id){recents=recents.filter(r=>!(r.k===k&&r.id===id));recents.unshift({k,id,d:today()});recents=recents.slice(0,20);persist();}
+function splitKey(v){const i=String(v).indexOf(':');return [v.slice(0,i),v.slice(i+1)];}
+function isCustom(cid){return !!carnets.find(c=>c.id===cid);}
+function orderedColls(){
+  const all=[['tout','Tout'],['favoris','★ Favoris'],['recents','Récents'],...carnets.map(c=>[c.id,c.nom])];
+  const ids=all.map(x=>x[0]),ord=collOrder.filter(id=>ids.includes(id));
+  ids.forEach(id=>{if(!ord.includes(id))ord.push(id);});
+  return ord.map(id=>all.find(x=>x[0]===id));
+}
 function newCarnet(nom){const c={id:'c'+Date.now().toString(36)+Math.random().toString(36).slice(2,5),nom:nom.trim().slice(0,40),items:[]};carnets.push(c);persist();return c;}
 
 /* ---------- Éléments communs ---------- */
@@ -198,6 +208,7 @@ function itemMenu(k,id,cid){
   if(custom)list.push({act:'moveto',label:'Déplacer vers un autre carnet…'});
   if(cid&&!['tout','recents'].includes(cid))list.push({act:'top',label:'Mettre en tête du carnet'});
   list.push({act:'share',label:'Partager'});
+  if(cid&&tab==='carnet'&&!route)list.push({act:'select',label:'Sélectionner plusieurs fiches'});
   if(cid==='tout')list.push({act:'hide',label:'Masquer de « Toutes les fiches »',danger:true});
   else if(cid==='recents')list.push({act:'forget',label:'Retirer des récents',danger:true});
   else if(cid)list.push({act:'remove',label:cid==='favoris'?'Retirer des favoris':'Retirer de ce carnet',danger:true});
@@ -210,10 +221,84 @@ function addToMenu(move){
     (list.length?rows(list):'<p class="sheet-empty">Tu n\'as pas encore de carnet personnel.</p>')+
     `<form class="sheet-new" data-newfor="${move?'move':'add'}"><label for="newc">Nouveau carnet</label><div><input id="newc" type="text" maxlength="40" placeholder="Ex. : Recettes du moment" autocomplete="off"><button type="submit" class="primary">Créer</button></div></form>`);
 }
-function carnetMenu(cid){
-  const c=carnets.find(x=>x.id===cid);if(!c)return;
+const NEWFORM=(kind,label)=>`<form class="sheet-new" data-newfor="${kind}"><label for="newc">${label||'Nouveau carnet'}</label><div><input id="newc" type="text" maxlength="40" placeholder="Ex. : Recettes pour l'hiver" autocomplete="off"><button type="submit" class="primary">Créer</button></div></form>`;
+function collMenu(cid){
   sheetCtx={cid};
-  openSheet(c.nom,plural(c.items.length,'fiche','fiches'),rows([{act:'rename',label:'Renommer'},{act:'delcarnet',label:'Supprimer ce carnet',danger:true}]));
+  const custom=isCustom(cid);
+  const list=[];
+  if(custom)list.push({act:'rename',label:'Renommer'});
+  list.push({act:'selectin',label:'Sélectionner des fiches'});
+  list.push({act:'manage',label:'Gérer mes carnets…'});
+  if(custom)list.push({act:'delcarnet',label:'Supprimer ce carnet',danger:true});
+  openSheet(collName(cid),'Astuce : reste appuyé sur un onglet puis fais-le glisser pour changer sa place.',rows(list));
+}
+function manageSheet(){
+  sheetCtx={};
+  let h='';
+  if(carnets.length){
+    const all=carnets.every(c=>manageSel.has(c.id));
+    h+=rows([{act:'mkall',label:all?'Tout décocher':'Tout cocher'}]);
+    h+=rows(carnets.map(c=>({act:'mk:'+c.id,label:c.nom,on:manageSel.has(c.id),note:plural(c.items.length,'fiche','fiches')})));
+    h+=`<button type="button" class="sheet-row danger" data-act="mkdel"${manageSel.size?'':' disabled'}><span>Supprimer la sélection${manageSel.size?' ('+manageSel.size+')':''}</span></button>`;
+  }else h+='<p class="sheet-empty">Tu n\'as pas encore de carnet personnel.</p>';
+  openSheet('Mes carnets',carnets.length?'Coche les carnets à supprimer. Les fiches, elles, restent dans l\'appli.':'',h+NEWFORM('manage'));
+}
+function newCarnetFor(k,id,src){
+  sheetCtx={k,id,cid:src};
+  openSheet('Nouveau carnet',titleOf(item(k,id)),NEWFORM('add','Nom du carnet'));
+}
+function multiMenu(move){
+  sheetCtx={multi:true};
+  const list=carnets.filter(c=>c.id!==carnetSel).map(c=>({act:(move?'mm:':'ma:')+c.id,label:c.nom,note:plural(c.items.length,'fiche','fiches')}));
+  openSheet(move?'Déplacer vers…':'Ajouter à un carnet',plural(selSet.size,'fiche sélectionnée','fiches sélectionnées'),
+    (list.length?rows(list):'<p class="sheet-empty">Tu n\'as pas encore d\'autre carnet.</p>')+NEWFORM(move?'multimove':'multi'));
+}
+function selKeys(){return [...selSet].map(splitKey).filter(([k,id])=>item(k,id));}
+function endSel(){selMode=false;selSet.clear();}
+function multiInto(target,move){
+  const keys=selKeys(),src=carnetSel,tIt=coll(target);if(!tIt||!keys.length)return;
+  const tSnap=tIt.slice(),sIt=move?coll(src):null,sSnap=sIt?sIt.slice():null;
+  keys.slice().reverse().forEach(([k,id])=>addTo(target,k,id));
+  if(move)keys.forEach(([k,id])=>removeFrom(src,k,id));
+  endSel();closeSheet();refresh();
+  toast((move?plural(keys.length,'fiche déplacée','fiches déplacées')+' vers « ':plural(keys.length,'fiche ajoutée','fiches ajoutées')+' à « ')+collName(target)+' »',
+    ()=>{tIt.splice(0,tIt.length,...tSnap);if(sIt)sIt.splice(0,sIt.length,...sSnap);persist();refresh();});
+}
+function selAction(a){
+  const keys=selKeys();if(!keys.length)return;const cid=carnetSel;
+  if(a==='fav'){
+    const added=keys.filter(([k,id])=>addTo('favoris',k,id));endSel();refresh();
+    toast(added.length?plural(added.length,'fiche ajoutée','fiches ajoutées')+' aux favoris':'Déjà dans les favoris',added.length?()=>{added.forEach(([k,id])=>removeFrom('favoris',k,id));refresh();}:null);return;
+  }
+  if(a==='add'||a==='move'){multiMenu(a==='move');return;}
+  if(a==='rm'){
+    if(cid==='tout'){
+      const add=keys.filter(([k,id])=>!isHidden(k,id)).map(([k,id])=>({k,id}));masques.push(...add);persist();endSel();refresh();
+      toast(plural(add.length,'fiche masquée','fiches masquées'),()=>{masques=masques.filter(m=>!add.some(x=>x.k===m.k&&x.id===m.id));persist();refresh();});return;
+    }
+    const it=coll(cid);if(!it)return;const snap=it.slice();
+    keys.forEach(([k,id])=>removeFrom(cid,k,id));endSel();refresh();
+    toast(plural(keys.length,'fiche retirée','fiches retirées')+' de « '+collName(cid)+' »',()=>{it.splice(0,it.length,...snap);persist();refresh();});
+  }
+}
+function visKeys(){return [...document.querySelectorAll('#timeline [data-lp]')].map(c=>c.dataset.lp);}
+function selInfo(){
+  const bar=$('#selbar');if(!bar)return;const n=selSet.size;
+  bar.querySelector('.seln').textContent=n?plural(n,'fiche sélectionnée','fiches sélectionnées'):'Touche les fiches à cocher';
+  const vis=visKeys(),all=vis.length>0&&vis.every(v=>selSet.has(v));
+  const a=bar.querySelector('[data-selall]');a.textContent=all?'Tout décocher':'Tout cocher';
+  document.querySelectorAll('[data-selact]').forEach(b=>{b.disabled=!n;});
+}
+function toggleSel(c){const v=c.dataset.lp;selSet.has(v)?selSet.delete(v):selSet.add(v);c.setAttribute('aria-pressed',String(selSet.has(v)));selInfo();}
+function decorateSel(box){
+  box.classList.toggle('selecting',selMode);
+  if(!selMode)return;
+  box.querySelectorAll('[data-lp]').forEach(c=>c.setAttribute('aria-pressed',String(selSet.has(c.dataset.lp))));
+  const custom=isCustom(carnetSel);
+  const btn=(a,ic,l)=>`<button type="button" data-selact="${a}" disabled><span aria-hidden="true">${ic}</span>${l}</button>`;
+  box.insertAdjacentHTML('afterbegin',`<div class="selbar" id="selbar"><button type="button" class="linkbtn" data-selall="1">Tout cocher</button><span class="seln" aria-live="polite"></span><button type="button" class="primary sm" data-selend="1">Terminer</button></div>`);
+  box.insertAdjacentHTML('beforeend',`<div class="selact">${carnetSel!=='favoris'?btn('fav','★','Favoris'):''}${btn('add','+','Ajouter à…')}${custom?btn('move','⇄','Déplacer'):''}${btn('rm','✕',carnetSel==='tout'?'Masquer':'Retirer')}</div>`);
+  selInfo();
 }
 function renameSheet(cid){
   const c=carnets.find(x=>x.id===cid);if(!c)return;
@@ -232,6 +317,19 @@ async function share(k,id){
 }
 function onSheetAct(a){
   const ctx=sheetCtx||{};const {k,id,cid}=ctx;
+  if(a==='select'){closeSheet();selMode=true;selSet.clear();selSet.add(k+':'+id);refresh();return;}
+  if(a==='selectin'){closeSheet();carnetSel=cid;persist();selMode=true;selSet.clear();if(tab!=='carnet'||route)goTab('carnet');else refresh();return;}
+  if(a==='manage'){manageSel.clear();manageSheet();return;}
+  if(a==='mkall'){const all=carnets.every(c=>manageSel.has(c.id));carnets.forEach(c=>all?manageSel.delete(c.id):manageSel.add(c.id));manageSheet();return;}
+  if(a.startsWith('mk:')){const c=a.slice(3);manageSel.has(c)?manageSel.delete(c):manageSel.add(c);manageSheet();return;}
+  if(a==='mkdel'){
+    const removed=[];carnets.forEach((c,i)=>{if(manageSel.has(c.id))removed.push([i,c]);});if(!removed.length)return;
+    carnets=carnets.filter(c=>!manageSel.has(c.id));if(!coll(carnetSel)&&carnetSel!=='tout')carnetSel='tout';
+    manageSel.clear();persist();closeSheet();refresh();
+    toast(plural(removed.length,'carnet supprimé','carnets supprimés'),()=>{removed.forEach(([i,c])=>carnets.splice(i,0,c));persist();refresh();});return;
+  }
+  if(a.startsWith('ma:')){multiInto(a.slice(3),false);return;}
+  if(a.startsWith('mm:')){multiInto(a.slice(3),true);return;}
   if(a==='open'){closeSheet(false,()=>openItem(k,id));return;}
   if(a==='fav'){const on=!isFav(k,id);on?addTo('favoris',k,id):removeFrom('favoris',k,id);closeSheet();toast(on?'Ajouté aux favoris':'Retiré des favoris');refresh();return;}
   if(a==='addto'){addToMenu(false);return;}
@@ -252,9 +350,11 @@ function onSheetSubmit(f){
   const inp=f.querySelector('input');const nom=(inp.value||'').trim();
   if(!nom){inp.focus();inp.classList.add('err');return;}
   if(f.dataset.rename){const c=carnets.find(x=>x.id===f.dataset.rename);if(c){c.nom=nom.slice(0,40);persist();}closeSheet();refresh();toast('Carnet renommé');return;}
+  if(f.dataset.newfor==='manage'){newCarnet(nom);manageSheet();refresh();toast('Carnet créé');return;}
   const c=newCarnet(nom);
   const ctx=sheetCtx||{};
-  if(f.dataset.newfor==='add'){addTo(c.id,ctx.k,ctx.id);closeSheet();refresh();toast('Ajouté à « '+c.nom+' »');return;}
+  if(f.dataset.newfor==='multi'||f.dataset.newfor==='multimove'){multiInto(c.id,f.dataset.newfor==='multimove');return;}
+  if(f.dataset.newfor==='add'){const mv=ctx.cid&&isCustom(ctx.cid)&&ctx.cid!==c.id;const rec=mv?removeFrom(ctx.cid,ctx.k,ctx.id):null;addTo(c.id,ctx.k,ctx.id);closeSheet();refresh();toast((mv?'Déplacé vers « ':'Ajouté à « ')+c.nom+' »',()=>{removeFrom(c.id,ctx.k,ctx.id);if(rec)restoreAt(ctx.cid,rec);refresh();});return;}
   if(f.dataset.newfor==='move'){removeFrom(ctx.cid,ctx.k,ctx.id);addTo(c.id,ctx.k,ctx.id);closeSheet();refresh();toast('Déplacé vers « '+c.nom+' »');return;}
   carnetSel=c.id;persist();closeSheet(false,()=>{if(tab!=='carnet'||route)goTab('carnet');else refresh();});toast('Carnet créé. Reste appuyé sur une fiche pour l\'y ajouter.');
 }
@@ -268,8 +368,8 @@ function matchTableaux(){
     t._autres.forEach(s=>{tot+=1;if(symSel.has(s)){got+=1;m.push(s);}});
     const contra=t._contre.filter(s=>symSel.has(s));
     const score=got-1.5*contra.length,cov=tot?got/tot:0;
-    return {t,got,tot,cleGot,m,contra,score,cov,rank:score+4*cov};
-  }).filter(r=>r.m.length&&r.score>0&&(r.cleGot>=1||r.m.length>=2)).sort((a,b)=>b.rank-a.rank);
+    return {t,got,tot,cleGot,m,contra,score,cov,rank:score+4*cov+0.75*(m.length-1)};
+  }).filter(r=>r.m.length&&r.score>0).sort((a,b)=>b.rank-a.rank||b.cleGot-a.cleGot);
 }
 function force(r){
   if(r.cleGot>=2&&r.cov>=0.4)return['forte','Correspondance forte'];
@@ -370,7 +470,7 @@ function renderSymResults(){
   const sel=[...symSel].filter(s=>SYM[s]);
   const res=matchTableaux();
   let h=`<div class="bar"><button class="back" type="button" data-mode="choisir"><span aria-hidden="true">‹</span>Modifier</button><span class="kind">${plural(sel.length,'symptôme','symptômes')}</span></div>
-<h1 class="vh" style="margin-top:18px">Tes résultats</h1><p class="hint">Touche un symptôme pour le retirer.</p>
+<h1 class="vh" style="margin-top:18px">Tes résultats</h1><p class="hint">Touche un symptôme pour le retirer, ou <button type="button" class="linkbtn inline" data-clear="sym">efface tout</button>.</p>
 <div class="chips small">${sel.map(s=>`<button type="button" class="chip rm" data-sym="${esc(s)}" aria-pressed="true" aria-label="Retirer ${esc(symName(s))}">${esc(symName(s))} <span aria-hidden="true">×</span></button>`).join('')}</div>`;
   const alerts=sel.filter(s=>SYM[s].alerte);
   if(alerts.length)h+=`<div class="alert" role="note"><h2>Quand consulter</h2><ul>${alerts.map(s=>`<li><b>${esc(SYM[s].nom)}.</b> ${esc(SYM[s].alerte)}</li>`).join('')}</ul></div>`;
@@ -378,12 +478,15 @@ function renderSymResults(){
     h+='<p class="msg">Pas encore de tableau qui correspond. Ajoute d\'autres symptômes, ou regarde les tableaux par organe.</p>';
   }else{
     const shown=showAll?res:res.slice(0,5);
-    h+=`<h2 class="results-h">${plural(res.length,'tableau possible','tableaux possibles')}</h2><div class="entries">`;
+    h+=sel.length===1?`<h2 class="results-h">${plural(res.length,'tableau contient','tableaux contiennent')} ce signe</h2><p class="hint">Regarde les autres signes de chaque tableau (en gras, les signes clés) : celui où tu te reconnais le plus est le bon point de départ. Touche un signe pour l'ajouter.</p>`
+      :`<h2 class="results-h">${plural(res.length,'tableau possible','tableaux possibles')}</h2>`;
+    h+='<div class="entries">';
     shown.forEach(r=>{
       const [cls,lab]=force(r);
-      const miss=r.t._cle.filter(s=>!symSel.has(s)).slice(0,4);
+      const missK=r.t._cle.filter(s=>!symSel.has(s)),missO=r.t._autres.filter(s=>!symSel.has(s)&&!/^langue|^enduit|^pointe|^bords/.test(s));
+      const miss=[...missK.map(s=>[s,1]),...missO.map(s=>[s,0])].slice(0,Math.max(6,missK.length));
       const extra=`<span class="match"><span class="force ${cls}">${lab}</span><span class="emeta">${r.m.length} signe${r.m.length>1?'s':''} sur ${r.t._cle.length+r.t._autres.length}</span></span><span class="emiss">Tu as : ${esc(r.m.map(s=>symName(s).toLowerCase()).join(', '))}</span>${r.contra.length?`<span class="emiss">Mais : ${esc(r.contra.map(s=>symName(s).toLowerCase()).join(', '))}</span>`:''}`;
-      h+=`<div class="result">${cardT(r.t,extra,true)}${miss.length?`<div class="verify"><span>Signes clés à vérifier</span><div class="chips small">${miss.map(s=>`<button type="button" class="chip add" data-sym="${esc(s)}" aria-pressed="false">+ ${esc(symName(s))}</button>`).join('')}</div></div>`:''}</div>`;
+      h+=`<div class="result">${cardT(r.t,extra,true)}${miss.length?`<div class="verify"><span>As-tu aussi ces signes ?</span><div class="chips small">${miss.map(([s,k])=>`<button type="button" class="chip add${k?' key':''}" data-sym="${esc(s)}" aria-pressed="false">+ ${esc(symName(s))}</button>`).join('')}</div></div>`:''}</div>`;
     });
     h+='</div>';
     if(res.length>5&&!showAll)h+=`<button type="button" class="ghost wide" data-more="1">Voir les ${res.length-5} autres</button>`;
@@ -515,13 +618,11 @@ function collCount(cid){
 }
 function renderCarnet(){
   if(carnetSel!=='tout'&&!coll(carnetSel))carnetSel='tout';
-  const chips=[['tout','Tout'],['favoris','★ Favoris'],['recents','Récents'],...carnets.map(c=>[c.id,c.nom])];
-  const custom=!['tout','favoris','recents'].includes(carnetSel);
-  let h=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">Reste appuyé sur une fiche pour la ranger dans un carnet, la mettre en favori, la partager ou la retirer.</p></div></header>
-<nav class="colls" aria-label="Carnets">${chips.map(([id,n])=>`<button type="button" class="coll${id===carnetSel?' on':''}" data-coll-sel="${esc(id)}" aria-pressed="${id===carnetSel}">${esc(n)}<span class="n">${collCount(id)}</span></button>`).join('')}<button type="button" class="coll add" data-newcarnet="1">+ Nouveau carnet</button></nav>
-<div class="tools">`;
+  const custom=isCustom(carnetSel);
+  let h=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">Reste appuyé sur une fiche pour la ranger ou la glisser dans un carnet, et sur un onglet pour le déplacer.</p></div></header>
+<nav class="colls" aria-label="Carnets">${orderedColls().map(([id,n])=>`<button type="button" class="coll${id===carnetSel?' on':''}" data-coll-sel="${esc(id)}" data-lpc="${esc(id)}" aria-pressed="${id===carnetSel}">${esc(n)}<span class="n">${collCount(id)}</span></button>`).join('')}<button type="button" class="coll add" data-newcarnet="1">+ Nouveau carnet</button>${carnets.length?'<button type="button" class="coll add" data-manage="1">Gérer</button>':''}</nav>
+<div class="tools"><div class="coll-h"><h2>${esc(collName(carnetSel))}</h2><span class="coll-a">${selMode?'':'<button type="button" class="ghost" data-selstart="1">Sélectionner</button>'}${custom?`<button type="button" class="ghost" data-cmenu="${esc(carnetSel)}" aria-label="Options du carnet">Options</button>`:''}</span></div>`;
   if(carnetSel==='tout')h+=`<div class="seg" role="group" aria-label="Afficher"><button type="button" data-f="tout">Tout <span class="n"></span></button><button type="button" data-f="protocole">Protocoles <span class="n"></span></button><button type="button" data-f="recette">Recettes <span class="n"></span></button></div>`;
-  else h+=`<div class="coll-h"><h2>${esc(collName(carnetSel))}</h2>${custom?`<button type="button" class="ghost" data-cmenu="${esc(carnetSel)}" aria-label="Options du carnet">Options</button>`:''}</div>`;
   h+=`${searchBox('q',query,'Chercher un point, un plat, un symptôme','Chercher dans le carnet')}</div><div id="timeline" aria-live="polite"></div>`;
   view.innerHTML=h;
   const q=$('#q');q.addEventListener('input',()=>{query=q.value;renderTimeline();});
@@ -549,19 +650,20 @@ function renderTimeline(){
     }
     const nm=masques.filter(m=>item(m.k,m.id)).length;
     if(nm)h+=`<p class="masked">${plural(nm,'fiche masquée','fiches masquées')} <button type="button" class="linkbtn" data-unhide="1">Tout réafficher</button></p>`;
-    box.innerHTML=h;return;
+    box.innerHTML=h;decorateSel(box);return;
   }
   const it=(coll(carnetSel)||[]).map(x=>({x,e:item(x.k,x.id)})).filter(r=>r.e);
   if(!it.length){
     box.innerHTML=carnetSel==='favoris'?'<p class="msg">Pas encore de favori. Touche l\'étoile d\'une fiche, ou reste appuyé dessus et choisis « Ajouter aux favoris ».</p>':
       carnetSel==='recents'?'<p class="msg">Les fiches et tableaux que tu ouvres apparaîtront ici.</p>':
-      '<p class="msg">Ce carnet est vide. Reste appuyé sur une fiche ou un tableau, n\'importe où dans l\'appli, et choisis « Ajouter à un carnet ».</p>';
-    return;
+      '<p class="msg">Ce carnet est vide. Reste appuyé sur une fiche ou un tableau, n\'importe où dans l\'appli, puis fais-la glisser vers ce carnet en haut de l\'écran, ou choisis « Ajouter à un carnet ».</p>';
+    box.classList.remove('selecting');return;
   }
   const shown=it.filter(r=>matchQ(r.e._hay,query));
-  if(!shown.length){box.innerHTML=`<p class="msg">Aucune fiche ne correspond à « ${esc(query.trim())} ».</p>`;return;}
+  if(!shown.length){box.innerHTML=`<p class="msg">Aucune fiche ne correspond à « ${esc(query.trim())} ».</p>`;decorateSel(box);return;}
   const sortable=carnetSel!=='recents'&&!query.trim();
-  box.innerHTML=`${sortable&&shown.length>1?'<p class="hint">Reste appuyé puis fais glisser pour changer l\'ordre.</p>':''}<div class="entries${sortable?' sortable':''}" data-coll="${esc(carnetSel)}">${shown.map(r=>card(r.e)).join('')}</div>`;
+  box.innerHTML=`${sortable&&shown.length>1&&!selMode?'<p class="hint">Reste appuyé puis fais glisser pour changer l\'ordre, ou vers un autre carnet.</p>':''}<div class="entries${sortable?' sortable':''}" data-coll="${esc(carnetSel)}">${shown.map(r=>card(r.e)).join('')}</div>`;
+  decorateSel(box);
 }
 
 /* ---------- Infos ---------- */
@@ -595,7 +697,7 @@ function renderInfos(){
 <section class="card"><h2>À lire avant d'utiliser</h2><p>Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.</p><p>Ce n'est ni un diagnostic ni un traitement. Si un symptôme dure, s'aggrave ou t'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.</p></section>
 <h2 class="sec">Bien masser</h2>${acc(GUIDE,'g')}
 <h2 class="sec">Petit lexique</h2>${acc(LEXIQUE,'l')}
-<section class="card"><h2>Astuces</h2><p>Reste appuyé sur une fiche ou un tableau pour l'ajouter aux favoris ou à un carnet, le partager ou le retirer. Dans un carnet, reste appuyé puis fais glisser pour changer l'ordre.</p><p>« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.</p></section>
+<section class="card"><h2>Astuces</h2><p>Reste appuyé sur une fiche ou un tableau pour l'ajouter aux favoris ou à un carnet, le partager ou le retirer. Sans lâcher, fais-la glisser vers le haut de l'écran pour la déposer dans un carnet.</p><p>Dans le carnet : fais glisser une fiche pour changer l'ordre, reste appuyé sur un onglet pour le déplacer, et touche « Sélectionner » pour cocher plusieurs fiches à la fois (tout cocher, favoris, ajouter, déplacer, retirer).</p><p>« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.</p></section>
 <section class="card"><h2>Installer sur ton téléphone</h2>${inst}</section>
 <section class="card"><h2>Tes données</h2><p>L'appli ne demande aucun compte et ne collecte aucune donnée personnelle. Tes symptômes, tes ingrédients, tes favoris et tes carnets restent sur ce téléphone.</p></section>
 <section class="card"><h2>Contenu</h2><dl class="kv"><dt>Symptômes</dt><dd>${Object.keys(SYM).length}</dd><dt>Tableaux</dt><dd>${tableaux.length}</dd><dt>Points</dt><dd>${Object.keys(PTS).length}</dd><dt>Recettes</dt><dd>${nR}</dd><dt>Protocoles</dt><dd>${nP}</dd></dl></section>
@@ -733,6 +835,7 @@ function goTab(t){
   if(!TABS.includes(t))return;
   if(!route)scrollMem[tab]=window.scrollY;
   const same=t===tab&&!route;
+  if(t!=='carnet')endSel();
   tab=t;route=null;store('ys.onglet',t);hideStaleToast();
   try{history.replaceState(null,'','#'+t);}catch(e){}
   render();
@@ -885,43 +988,108 @@ function mini(){
 
 /* ---------- Appui long et glisser-déposer ---------- */
 let lp=null,suppressClick=false;
-function lpTarget(el){return el&&el.closest?el.closest('[data-lp]'):null;}
+function lpTarget(el){return el&&el.closest?el.closest('[data-lp],[data-lpc]'):null;}
 function lpCtx(card){const c=card.closest('[data-coll]');return c?c.dataset.coll:null;}
-function openLpMenu(card){const v=card.dataset.lp,i=v.indexOf(':');itemMenu(v.slice(0,i),v.slice(i+1),lpCtx(card));}
+function openLpMenu(card){const [k,id]=splitKey(card.dataset.lp);itemMenu(k,id,lpCtx(card));}
+function suppress(){suppressClick=true;setTimeout(()=>{suppressClick=false;},500);}
+function showDock(L){
+  const d=$('#dock');if(!d)return;
+  const [k,id]=splitKey(L.el.dataset.lp);
+  const targets=[['favoris','★ Favoris'],...carnets.map(c=>[c.id,c.nom])].filter(([cid])=>cid!==L.cid);
+  d.querySelector('.dock-in').innerHTML=targets.map(([cid,n])=>`<span class="dock-b${inColl(cid,k,id)?' has':''}" data-drop="${esc(cid)}">${esc(n)}</span>`).join('')+'<span class="dock-b new" data-drop="__new">+ Nouveau carnet</span>';
+  d.hidden=false;
+}
+function hideDock(){const d=$('#dock');if(d){d.hidden=true;d.querySelector('.dock-in').innerHTML='';}}
+function dockHit(x,y){
+  const d=$('#dock');if(!d||d.hidden)return null;let hit=null;
+  d.querySelectorAll('[data-drop]').forEach(b=>{const r=b.getBoundingClientRect();const on=!hit&&x>=r.left-6&&x<=r.right+6&&y>=r.top-10&&y<=r.bottom+10;b.classList.toggle('over',on);if(on)hit=b;});
+  return hit;
+}
+function place(x,y){
+  const r=lp.el.getBoundingClientRect();
+  lp.tx=x-lp.offX-(r.left-lp.tx);lp.ty=y-lp.offY-(r.top-lp.ty);
+  lp.el.style.transform=`translate(${lp.tx}px,${lp.ty}px) scale(1.03)`;
+}
+function dragChip(x,y){
+  for(const c of lp.list.querySelectorAll('[data-lpc]')){
+    if(c===lp.el)continue;const r=c.getBoundingClientRect();
+    if(x>=r.left&&x<=r.right&&y>=r.top-4&&y<=r.bottom+4){
+      const ref=x>r.left+r.width/2?c.nextElementSibling:c;
+      if(ref!==lp.el&&ref!==lp.el.nextElementSibling)lp.list.insertBefore(lp.el,ref);
+      break;
+    }
+  }
+  place(x,y);
+}
 view.addEventListener('pointerdown',ev=>{
-  const card=lpTarget(ev.target);if(!card||ev.pointerType==='mouse')return;
-  lp={card,x:ev.clientX,y:ev.clientY,pid:ev.pointerId,armed:false,drag:false};
-  lp.t=setTimeout(()=>{if(!lp)return;lp.armed=true;buzz(15);card.classList.add('lifted');},450);
+  if(ev.pointerType==='mouse')return;
+  const el=lpTarget(ev.target);if(!el)return;
+  const chip=el.dataset.lpc!==undefined;
+  if(!chip&&selMode&&tab==='carnet'&&!route)return;
+  lp={el,chip,x:ev.clientX,y:ev.clientY,pid:ev.pointerId,armed:false,drag:false,tx:0,ty:0,max:0,over:null};
+  lp.t=setTimeout(()=>{if(!lp)return;lp.armed=true;buzz(15);el.classList.add('lifted');},450);
 });
 window.addEventListener('pointermove',ev=>{
   if(!lp||ev.pointerId!==lp.pid)return;
-  const dist=Math.hypot(ev.clientX-lp.x,ev.clientY-lp.y);
+  const x=ev.clientX,y=ev.clientY,dist=Math.hypot(x-lp.x,y-lp.y);
   if(!lp.armed){if(dist>10){clearTimeout(lp.t);lp=null;}return;}
-  const list=lp.card.closest('.sortable');
-  if(!lp.drag){if(list&&dist>6){lp.drag=true;lp.list=list;lp.ty=0;lp.off=ev.clientY-lp.card.getBoundingClientRect().top;lp.card.classList.add('dragging');}else return;}
-  const y=ev.clientY;
-  let before=null;
-  for(const s of lp.list.children){if(s===lp.card)continue;const r=s.getBoundingClientRect();if(y<r.top+r.height/2){before=s;break;}}
-  if(before!==lp.card.nextElementSibling&&!(before===null&&lp.list.lastElementChild===lp.card))lp.list.insertBefore(lp.card,before);
-  const natural=lp.card.getBoundingClientRect().top-lp.ty;
-  lp.ty=y-lp.off-natural;lp.card.style.transform=`translateY(${lp.ty}px) scale(1.02)`;
-  if(y<90)window.scrollBy(0,-12);else if(y>window.innerHeight-150)window.scrollBy(0,12);
+  lp.max=Math.max(lp.max,dist);
+  if(!lp.drag){
+    if(dist<=6)return;
+    lp.drag=true;const r=lp.el.getBoundingClientRect();lp.offX=x-r.left;lp.offY=y-r.top;
+    lp.el.classList.add('dragging');
+    if(lp.chip){lp.list=lp.el.parentElement;lp.order0=[...lp.list.querySelectorAll('[data-lpc]')].map(c=>c.dataset.lpc).join('|');}
+    else{lp.list=lp.el.closest('.sortable');lp.cid=lpCtx(lp.el);if(lp.list)lp.order0=[...lp.list.children].map(c=>c.dataset.lp).join('|');showDock(lp);}
+  }
+  if(lp.chip){dragChip(x,y);return;}
+  const over=dockHit(x,y);lp.over=over;
+  if(lp.list&&!over){
+    let before=null;
+    for(const s of lp.list.children){if(s===lp.el)continue;const r=s.getBoundingClientRect();if(y<r.top+r.height/2){before=s;break;}}
+    if(before!==lp.el.nextElementSibling&&!(before===null&&lp.list.lastElementChild===lp.el))lp.list.insertBefore(lp.el,before);
+  }
+  place(x,y);
+  if(lp.list&&!over){const dk=$('#dock'),top=dk&&!dk.hidden?dk.getBoundingClientRect().bottom:0;if(y<top+50)window.scrollBy(0,-12);else if(y>window.innerHeight-150)window.scrollBy(0,12);}
 },{passive:true});
 function lpEnd(cancel){
   if(!lp)return;clearTimeout(lp.t);
-  const {card,armed,drag,list}=lp;lp=null;
-  card.classList.remove('lifted','dragging');card.style.transform='';
+  const L=lp;lp=null;
+  L.el.classList.remove('lifted','dragging');L.el.style.transform='';
+  hideDock();
   if(cancel)return;
-  if(drag){
-    const cid=list.dataset.coll,it=coll(cid);
-    if(it){const order=[...list.children].map(c=>c.dataset.lp);it.sort((a,b)=>order.indexOf(a.k+':'+a.id)-order.indexOf(b.k+':'+b.id));persist();toast('Nouvel ordre enregistré');}
-    suppressClick=true;setTimeout(()=>{suppressClick=false;},500);
-  }else if(armed){suppressClick=true;setTimeout(()=>{suppressClick=false;},500);ghostUntil=Date.now()+350;openLpMenu(card);}
+  if(L.armed&&(!L.drag||L.max<=24))suppress();
+  if(L.chip){
+    if(L.drag){const ids=[...L.list.querySelectorAll('[data-lpc]')].map(c=>c.dataset.lpc);if(ids.join('|')!==L.order0){collOrder=ids;persist();toast('Nouvelle place enregistrée');}}
+    else if(L.armed){ghostUntil=Date.now()+350;collMenu(L.el.dataset.lpc);}
+    return;
+  }
+  const [k,id]=splitKey(L.el.dataset.lp);
+  if(L.drag&&L.over){dropInto(L.over.dataset.drop,k,id,L.cid);return;}
+  if(L.drag&&L.list){
+    const order=[...L.list.children].map(c=>c.dataset.lp);const it=coll(L.list.dataset.coll);
+    if(it&&order.join('|')!==L.order0){it.sort((a,b)=>order.indexOf(a.k+':'+a.id)-order.indexOf(b.k+':'+b.id));persist();toast('Nouvel ordre enregistré');}
+    return;
+  }
+  if(L.drag&&L.max>24)return;
+  if(L.armed){ghostUntil=Date.now()+350;openLpMenu(L.el);}
+}
+function dropInto(target,k,id,src){
+  if(target==='__new'){ghostUntil=Date.now()+350;newCarnetFor(k,id,src);return;}
+  const move=!!(src&&isCustom(src)&&isCustom(target));
+  const had=inColl(target,k,id);
+  if(had&&!move){toast('Déjà dans « '+collName(target)+' »');return;}
+  const rec=move?removeFrom(src,k,id):null;
+  if(!had)addTo(target,k,id);
+  refresh();
+  toast((move?'Déplacé vers « ':'Ajouté à « ')+collName(target)+' »',()=>{if(!had)removeFrom(target,k,id);if(rec)restoreAt(src,rec);refresh();});
 }
 window.addEventListener('pointerup',()=>lpEnd(false));
 window.addEventListener('pointercancel',()=>{if(lp&&lp.armed&&!lp.drag){lpEnd(false);}else lpEnd(true);});
 document.addEventListener('touchmove',ev=>{if(lp&&lp.armed)ev.preventDefault();},{passive:false});
-view.addEventListener('contextmenu',ev=>{const card=lpTarget(ev.target);if(!card)return;ev.preventDefault();if(!lp)openLpMenu(card);});
+view.addEventListener('contextmenu',ev=>{
+  const el=lpTarget(ev.target);if(!el)return;ev.preventDefault();if(lp)return;
+  if(el.dataset.lpc!==undefined)collMenu(el.dataset.lpc);else openLpMenu(el);
+});
 
 /* ---------- Interactions ---------- */
 document.addEventListener('click',ev=>{
@@ -931,6 +1099,12 @@ document.addEventListener('click',ev=>{
   const b=ev.target.closest('button');if(!b)return;
   const d=b.dataset;
   if(b.closest('#sheet')){if(d.act)onSheetAct(d.act);else if(b.classList.contains('sheet-cancel'))closeSheet();return;}
+  if(selMode&&tab==='carnet'&&!route){const c=b.closest('[data-lp]');if(c&&c.closest('#timeline')){toggleSel(c);return;}}
+  if(d.selstart){selMode=true;selSet.clear();refresh();return;}
+  if(d.selend){endSel();refresh();return;}
+  if(d.selall){const vis=visKeys(),all=vis.every(v=>selSet.has(v));vis.forEach(v=>all?selSet.delete(v):selSet.add(v));document.querySelectorAll('#timeline [data-lp]').forEach(c=>c.setAttribute('aria-pressed',String(selSet.has(c.dataset.lp))));selInfo();return;}
+  if(d.selact){selAction(d.selact);return;}
+  if(d.manage){manageSel.clear();manageSheet();return;}
   if(d.tab){goTab(d.tab);return;}
   if(d.open){openItem('f',d.open);return;}
   if(d.opent){openItem('t',d.opent);return;}
@@ -938,9 +1112,9 @@ document.addEventListener('click',ev=>{
   if(d.mode){symMode=d.mode;showAll=false;render();window.scrollTo(0,0);return;}
   if(d.more){showAll=true;rerenderKeep('[data-more]');return;}
   if(d.f){filter=d.f;store('ys.filtre',filter);renderTimeline();return;}
-  if(d.collSel){carnetSel=d.collSel;query='';persist();render();return;}
+  if(d.collSel){if(selMode&&d.collSel!==carnetSel)endSel();carnetSel=d.collSel;query='';persist();render();return;}
   if(d.newcarnet){newCarnetSheet();return;}
-  if(d.cmenu){carnetMenu(d.cmenu);return;}
+  if(d.cmenu){collMenu(d.cmenu);return;}
   if(d.unhide){const old=masques;masques=[];persist();refresh();toast('Fiches réaffichées',()=>{masques=old;persist();refresh();});return;}
   if(d.menu){const i=d.menu.indexOf(':');itemMenu(d.menu.slice(0,i),d.menu.slice(i+1),null);return;}
   if(d.jump){const s=$('#grp-'+cssq(d.jump));if(s)s.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});return;}

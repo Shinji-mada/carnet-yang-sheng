@@ -28,7 +28,14 @@
     "envie-sucre",
     "ruminations",
     "voix-faible",
-    "lourdeur"
+    "lourdeur",
+    "poids-facile",
+    "cephalee-sourde",
+    "cephalee-lourde",
+    "constipation-effort",
+    "pesanteur",
+    "peau-terne",
+    "langue-fissuree"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -117,7 +124,10 @@
     "peu-soif",
     "langue-pale",
     "langue-gonflee",
-    "ballonnements"
+    "ballonnements",
+    "poids-facile",
+    "envie-sucre",
+    "somnolence"
    ],
    "contre": [
     "chaleur-corps",
@@ -256,7 +266,8 @@
     "soupe-poulet-huang-qi",
     "congee-shan-yao",
     "congee-poulet",
-    "boeuf-carottes-dattes"
+    "boeuf-carottes-dattes",
+    "congee-qian-shi"
    ],
    "privilegier": "Comme pour le vide de Qi de la Rate, avec l'astragale (Huang Qi) en bouillon.",
    "eviter": "Porter lourd, rester debout longtemps, pousser fort aux toilettes.",
@@ -286,7 +297,8 @@
     "appetit-faible",
     "selles-molles",
     "langue-pale",
-    "hemorroides"
+    "hemorroides",
+    "gencives"
    ],
    "contre": [
     "langue-rouge",
@@ -331,7 +343,8 @@
     "soupe-poulet-huang-qi",
     "congee-millet-patate-douce",
     "congee-goji-sesame",
-    "boeuf-carottes-dattes"
+    "boeuf-carottes-dattes",
+    "foies-volaille-epinards"
    ],
    "privilegier": "Céréales cuites, dattes, poulet, œufs, légumes cuits.",
    "eviter": "Cru, froid, surmenage.",
@@ -366,7 +379,11 @@
     "cephalee-lourde",
     "pertes-blanches",
     "appetit-faible",
-    "langue-gonflee"
+    "langue-gonflee",
+    "articulations-lourdes",
+    "poids-facile",
+    "somnolence",
+    "envie-sucre"
    ],
    "contre": [
     "enduit-jaune",
@@ -465,7 +482,12 @@
     "teint-jaune",
     "acne",
     "eczema-suintant",
-    "haleine"
+    "haleine",
+    "humidite-intime",
+    "pertes-jaunes",
+    "cephalee-lourde",
+    "boutons-pus",
+    "articulations-chaudes"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -518,7 +540,8 @@
    ],
    "recettes": [
     "congee-orge-azuki",
-    "soupe-mungo"
+    "soupe-mungo",
+    "bouillon-concombre-wakame"
    ],
    "privilegier": "Orge perlé, haricots mungo et azuki, céleri, radis, concombre cuit, riz.",
    "eviter": "Alcool, friture, sucre, viande grasse, épices fortes, laitages.",
@@ -550,7 +573,8 @@
     "appetit-faible",
     "constipation-seche",
     "fievre-apres-midi",
-    "hoquet"
+    "hoquet",
+    "gencives"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -604,7 +628,8 @@
    "recettes": [
     "soupe-tremelle",
     "congee-shan-yao",
-    "poire-vapeur-amandes"
+    "poire-vapeur-amandes",
+    "soupe-canard-igname"
    ],
    "privilegier": "Soupes, congee, igname, trémelle, poire, tofu, œufs, sésame. Mange à heures fixes.",
    "eviter": "Épices, café, alcool, grillades, manger tard le soir ou en travaillant.",
@@ -638,7 +663,9 @@
     "aphtes",
     "langue-rouge",
     "enduit-jaune",
-    "urines-foncees"
+    "urines-foncees",
+    "cephalee-front",
+    "boutons-pus"
    ],
    "contre": [
     "frilosite",
@@ -801,7 +828,8 @@
     "ballonnements",
     "enduit-blanc-epais",
     "sommeil-agite",
-    "appetit-faible"
+    "appetit-faible",
+    "cephalee-front"
    ],
    "contre": [
     "langue-rouge-sans-enduit"

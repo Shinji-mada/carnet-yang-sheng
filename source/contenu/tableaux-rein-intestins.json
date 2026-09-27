@@ -29,7 +29,17 @@
     "teint-pale",
     "decouragement",
     "langue-pale",
-    "langue-gonflee"
+    "langue-gonflee",
+    "erection",
+    "sperme-clair",
+    "froid-genital",
+    "froid-dos",
+    "teint-sombre",
+    "douleur-genou",
+    "douleurs-froid",
+    "mictions-frequentes",
+    "fertilite",
+    "humidite-intime"
    ],
    "contre": [
     "chaleur-corps",
@@ -91,13 +101,20 @@
     "crevettes-poireau-noix",
     "infusion-gingembre-cannelle",
     "soupe-mouton-radis",
-    "moules-gingembre"
+    "moules-gingembre",
+    "crevettes-ciboule-oeufs",
+    "poulet-chataignes",
+    "bouillon-os-boeuf",
+    "agneau-fenouil"
    ],
    "privilegier": "Noix, agneau, crevettes, poireau, cannelle, gingembre, haricots noirs, châtaignes, plats mijotés.",
    "eviter": "Froid et cru, boissons glacées, surmenage, veiller, s'asseoir sur un sol froid.",
    "conseils": [
     "Frotte le bas de ton dos avec les paumes chaque soir jusqu'à ce qu'il chauffe.",
     "Garde les reins et les pieds au chaud."
+   ],
+   "groupes": [
+    "homme"
    ]
   },
   {
@@ -129,7 +146,15 @@
     "pommettes-rouges",
     "langue-rouge-sans-enduit",
     "chaleur-corps",
-    "cheveux-blancs"
+    "cheveux-blancs",
+    "pollutions-nocturnes",
+    "ejaculation-precoce",
+    "libido-excessive",
+    "audition",
+    "langue-fissuree",
+    "douleur-genou",
+    "secheresse-intime",
+    "fertilite"
    ],
    "contre": [
     "frilosite",
@@ -181,12 +206,18 @@
     "congee-haricots-noirs",
     "soupe-tremelle",
     "congee-goji-sesame",
-    "soupe-huitres-tofu"
+    "soupe-huitres-tofu",
+    "soupe-canard-igname",
+    "huitres-gingembre",
+    "creme-sesame-noix"
    ],
    "privilegier": "Haricots noirs, sésame noir, goji, trémelle, igname, œufs, tofu, poire.",
    "eviter": "Épices, alcool, café, sauna, sport intense le soir, veiller.",
    "conseils": [
     "Le Yin se refait la nuit : couche-toi avant 23 h."
+   ],
+   "groupes": [
+    "homme"
    ]
   },
   {
@@ -212,7 +243,11 @@
     "lombalgie-sourde",
     "pertes-blanches",
     "fatigue",
-    "langue-pale"
+    "langue-pale",
+    "pertes-seminales",
+    "ejaculation-precoce",
+    "mictions-frequentes",
+    "sperme-clair"
    ],
    "contre": [
     "brulures-urinaires",
@@ -267,12 +302,19 @@
     "congee-shan-yao",
     "crevettes-poireau-noix",
     "congee-haricots-noirs",
-    "moules-gingembre"
+    "moules-gingembre",
+    "congee-qian-shi",
+    "poulet-chataignes",
+    "huitres-gingembre",
+    "crevettes-ciboule-oeufs"
    ],
    "privilegier": "Igname, noix, haricots noirs, graines de lotus, châtaignes.",
    "eviter": "Boissons froides, porter lourd, boire beaucoup le soir.",
    "conseils": [
     "La rééducation du périnée donne de très bons résultats : parles-en à ton médecin."
+   ],
+   "groupes": [
+    "homme"
    ]
   },
   {
@@ -299,7 +341,8 @@
     "urines-claires",
     "frilosite",
     "voix-faible",
-    "langue-pale"
+    "langue-pale",
+    "toux-faible"
    ],
    "contre": [
     "toux-glaires-jaunes",
@@ -390,7 +433,13 @@
     "acouphenes-faibles",
     "libido",
     "fatigue",
-    "vertiges"
+    "vertiges",
+    "sperme-clair",
+    "fertilite",
+    "erection",
+    "douleur-genou",
+    "teint-sombre",
+    "cephalee-sourde"
    ],
    "contre": [],
    "langue": "Variable, souvent pâle ou rouge sans enduit.",
@@ -430,12 +479,20 @@
    "recettes": [
     "congee-haricots-noirs",
     "congee-goji-sesame",
-    "moules-gingembre"
+    "moules-gingembre",
+    "crevettes-ciboule-oeufs",
+    "poulet-chataignes",
+    "bouillon-os-boeuf",
+    "huitres-gingembre",
+    "creme-sesame-noix"
    ],
    "privilegier": "Sésame noir, haricots noirs, noix, goji, œufs, bouillons d'os, algues.",
    "eviter": "Surmenage, nuits courtes, excès de tout.",
    "conseils": [
     "Le Jing se préserve plus qu'il ne se refait : sommeil régulier, repas nourrissants, pas d'excès."
+   ],
+   "groupes": [
+    "homme"
    ]
   },
   {
@@ -459,7 +516,8 @@
     "soif",
     "enduit-jaune",
     "fievre",
-    "lombalgie-sourde"
+    "lombalgie-sourde",
+    "mictions-frequentes"
    ],
    "contre": [
     "urines-claires",
@@ -508,7 +566,8 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "congee-orge-azuki"
+    "congee-orge-azuki",
+    "bouillon-concombre-wakame"
    ],
    "privilegier": "Boire beaucoup d'eau, haricots mungo et azuki, orge perlé, céleri, concombre cuit.",
    "eviter": "Alcool, épices, café, sucre, se retenir d'uriner.",
@@ -581,7 +640,8 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "congee-orge-azuki"
+    "congee-orge-azuki",
+    "bouillon-concombre-wakame"
    ],
    "privilegier": "Riz, bouillons, carotte cuite, orge perlé. Boire souvent par petites gorgées.",
    "eviter": "Gras, laitages, alcool, épices, fruits crus pendant la crise.",
@@ -609,7 +669,8 @@
     "langue-seche",
     "teint-pale",
     "langue-rouge-sans-enduit",
-    "amaigrissement"
+    "amaigrissement",
+    "langue-fissuree"
    ],
    "contre": [
     "selles-molles",
@@ -657,7 +718,8 @@
    "recettes": [
     "compote-pomme-poire",
     "poire-vapeur-amandes",
-    "congee-goji-sesame"
+    "congee-goji-sesame",
+    "creme-sesame-noix"
    ],
    "privilegier": "Pruneaux, poire, pomme cuite, sésame, amandes, noix, épinards, patate douce, assez d'eau.",
    "eviter": "Épices, grillades, excès de café, se retenir d'aller aux toilettes.",

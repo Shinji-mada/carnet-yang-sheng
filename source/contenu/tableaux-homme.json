@@ -1,0 +1,284 @@
+{
+ "tableaux": [
+  {
+   "id": "f-froid-meridien",
+   "organe": "foie",
+   "groupes": [
+    "homme"
+   ],
+   "nom": "Froid qui stagne dans le méridien du Foie",
+   "zh": "寒滞肝脉",
+   "py": "Hán zhì gān mài",
+   "resume": "Le Froid bloque le méridien du Foie, qui entoure les organes génitaux : bas-ventre et testicules froids, douleur qui tire vers l'aine, soulagée par la chaleur.",
+   "causes": [
+    "Froid subi par le bas du corps : sol froid, baignades froides, vêtements trop légers ou mouillés",
+    "Boissons glacées",
+    "Yang de fond déjà faible"
+   ],
+   "mecanisme": "Le méridien du Foie passe par l'aine, entoure les organes génitaux puis remonte jusqu'au sommet du crâne. Le Froid contracte et bloque : le scrotum se rétracte, la douleur tire vers le bas-ventre, parfois une douleur au sommet de la tête, et la chaleur soulage. Chez la femme, il donne des douleurs froides du bas-ventre et des règles douloureuses.",
+   "cle": [
+    "douleur-testicules",
+    "froid-genital",
+    "douleur-ventre-froid"
+   ],
+   "autres": [
+    "cephalee-sommet",
+    "frilosite",
+    "libido",
+    "erection",
+    "regles-douloureuses",
+    "douleur-fixe",
+    "peu-soif",
+    "langue-pale"
+   ],
+   "contre": [
+    "soif",
+    "langue-rouge",
+    "enduit-jaune",
+    "urines-foncees"
+   ],
+   "langue": "Pâle, enduit blanc et humide.",
+   "pouls": "Profond, tendu comme une corde, lent.",
+   "principe": {
+    "zh": "暖肝散寒",
+    "py": "Nuǎn gān sàn hán",
+    "fr": "Réchauffer le Foie, disperser le Froid"
+   },
+   "moxa": "Moxa conseillé sur RM 4 et F 1, ou bouillotte sur le bas-ventre.",
+   "consulter": "Une douleur brutale et intense d'un testicule est une urgence : appelle le 15. Une boule ou un gonflement doit être vu par un médecin.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Libère le Qi du Foie et calme la douleur qui tire."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Carrefour des trois Yin de la jambe (Foie, Rate, Rein), qui passent tous par le bas-ventre."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Soutient le Yang du Rein, source de la chaleur."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "F 1",
+       "s": 180,
+       "pourquoi": "Réchauffe le méridien du Foie à sa source."
+      },
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Réchauffe le bas-ventre et le Rein."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "agneau-fenouil",
+    "agneau-dang-gui",
+    "crevettes-ciboule-oeufs",
+    "infusion-gingembre-cannelle"
+   ],
+   "privilegier": "Agneau, graines de fenouil, gingembre, cannelle, poireau, ciboule chinoise, plats mijotés chauds.",
+   "eviter": "Boissons glacées, s'asseoir sur un sol froid, baignades froides, rester en vêtements mouillés.",
+   "conseils": [
+    "Garde le bas-ventre et les reins couverts, surtout en hiver.",
+    "Une bouillotte posée sur le bas-ventre le soir soulage souvent."
+   ]
+  },
+  {
+   "id": "f-humidite-bas",
+   "organe": "foie",
+   "groupes": [
+    "homme",
+    "femme"
+   ],
+   "nom": "Humidité-Chaleur qui descend par le méridien du Foie",
+   "zh": "肝经湿热下注",
+   "py": "Gān jīng shī rè xià zhù",
+   "resume": "Une Humidité chaude s'accumule dans la sphère génitale : parties intimes humides et qui démangent, pertes jaunes, urines foncées, érection ou éjaculation perturbées.",
+   "causes": [
+    "Alimentation grasse, épicée, sucrée, alcool",
+    "Chaleur et humidité locales : vêtements serrés ou synthétiques",
+    "Colère et frustration qui échauffent le Foie"
+   ],
+   "mecanisme": "Le méridien du Foie entoure les organes génitaux. Quand l'Humidité-Chaleur y descend, elle alourdit, irrite et échauffe : humidité et odeur, démangeaisons, pertes jaunes, brûlures en urinant. Elle peut aussi gêner l'érection ou rendre l'éjaculation trop rapide, sans qu'il y ait de faiblesse de fond.",
+   "cle": [
+    "humidite-intime",
+    "urines-foncees",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "pertes-jaunes",
+    "brulures-urinaires",
+    "erection",
+    "ejaculation-precoce",
+    "douleur-testicules",
+    "pertes-seminales",
+    "gout-amer",
+    "irritabilite",
+    "lourdeur",
+    "langue-rouge"
+   ],
+   "contre": [
+    "frilosite",
+    "urines-claires",
+    "langue-pale"
+   ],
+   "langue": "Rouge, enduit jaune et gras, surtout à l'arrière.",
+   "pouls": "Glissant, tendu comme une corde, rapide.",
+   "principe": {
+    "zh": "清利肝经湿热",
+    "py": "Qīng lì gān jīng shī rè",
+    "fr": "Clarifier et drainer l'Humidité-Chaleur du méridien du Foie"
+   },
+   "consulter": "Des brûlures urinaires avec fièvre, un écoulement inhabituel ou des lésions sur les organes génitaux doivent être vus par un médecin.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 5",
+       "s": 60,
+       "pourquoi": "Point Luo du Foie : élimine l'Humidité-Chaleur de la sphère génitale."
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur du Foie."
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité du bas du corps."
+      },
+      {
+       "p": "RM 3",
+       "s": 60,
+       "pourquoi": "Point Mu de la Vessie : élimine l'Humidité-Chaleur du bas-ventre."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "bouillon-concombre-wakame",
+    "soupe-mungo",
+    "congee-orge-azuki"
+   ],
+   "privilegier": "Orge perlé, haricots mungo et azuki, concombre, céleri, algues, radis, eau tiède en quantité.",
+   "eviter": "Alcool, fritures, épices fortes, sucre, charcuterie, sous-vêtements serrés ou synthétiques.",
+   "conseils": [
+    "Porte du coton ample et change-toi vite après le sport.",
+    "Toilette à l'eau tiède, sans savon parfumé."
+   ]
+  },
+  {
+   "id": "rn-peur",
+   "organe": "rein",
+   "groupes": [
+    "homme"
+   ],
+   "nom": "La peur affaiblit le Rein",
+   "zh": "惊恐伤肾",
+   "py": "Jīng kǒng shāng shèn",
+   "resume": "Peur, pression de « réussir » ou choc émotionnel : le désir est là mais l'érection lâche au mauvais moment, le cœur s'emballe, le sommeil devient agité.",
+   "causes": [
+    "Peur, choc ou frayeur",
+    "Anxiété de performance, peur de décevoir",
+    "Stress et surmenage prolongés"
+   ],
+   "mecanisme": "En médecine chinoise, la peur fait « descendre » le Qi et touche le Rein, qui gouverne la sphère sexuelle. Le Cœur, siège de l'esprit, s'agite en même temps. L'érection devient fragile alors que le désir est présent, souvent sans autre signe de faiblesse physique.",
+   "cle": [
+    "erection",
+    "peurs",
+    "anxiete"
+   ],
+   "autres": [
+    "palpitations",
+    "sommeil-agite",
+    "ejaculation-precoce",
+    "indecision",
+    "decouragement",
+    "mictions-frequentes",
+    "genoux-faibles",
+    "libido"
+   ],
+   "contre": [
+    "humidite-intime",
+    "enduit-jaune"
+   ],
+   "langue": "Souvent normale, parfois pâle.",
+   "pouls": "Faible aux positions du Rein, parfois rapide et irrégulier sous l'émotion.",
+   "principe": {
+    "zh": "益肾宁神",
+    "py": "Yì shèn níng shén",
+    "fr": "Soutenir le Rein, apaiser l'esprit"
+   },
+   "consulter": "Si les troubles de l'érection s'installent, parles-en à un médecin : ils peuvent aussi venir de la circulation, du diabète ou d'un médicament.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "pourquoi": "Apaise l'esprit, relâche la tension."
+      },
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Point Yuan du Cœur : calme la peur et l'agitation."
+      },
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Ouvre la poitrine, apaise l'anxiété."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Point Yuan du Rein : le renforce."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Ancre le Qi dans le bas-ventre."
+      },
+      {
+       "p": "V 52",
+       "s": 90,
+       "pourquoi": "« Demeure de la volonté » : renforce le Rein et la confiance."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-qian-shi",
+    "congee-lotus-jujube",
+    "infusion-longane-jujube",
+    "huitres-gingembre"
+   ],
+   "privilegier": "Graines de lotus, dattes, longanes, huîtres, noix, sésame noir, repas réguliers.",
+   "eviter": "Café et excitants, écrans tard le soir, pression et comparaisons.",
+   "conseils": [
+    "Respiration lente : inspire 4 secondes, expire 6 secondes, pendant 5 minutes avant de dormir.",
+    "La peur de l'échec entretient le blocage : en parler à ta ou ton partenaire enlève souvent une grande partie de la pression."
+   ]
+  }
+ ]
+}

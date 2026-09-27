@@ -27,7 +27,10 @@
     "regles-douloureuses",
     "regles-retard",
     "oppression",
-    "eructations"
+    "eructations",
+    "erection",
+    "libido",
+    "douleur-testicules"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges.",
@@ -83,7 +86,8 @@
     "2026-09-26-seance-matin"
    ],
    "groupes": [
-    "femme"
+    "femme",
+    "homme"
    ]
   },
   {
@@ -115,7 +119,14 @@
     "vertiges",
     "langue-pale",
     "peau-seche",
-    "endormissement"
+    "endormissement",
+    "secheresse-intime",
+    "cephalee-sommet",
+    "tremblements",
+    "douleur-genou",
+    "peau-terne",
+    "cephalee-sourde",
+    "fertilite"
    ],
    "contre": [
     "langue-rouge",
@@ -167,7 +178,9 @@
     "soupe-epinards-oeuf",
     "veloute-betterave-lentilles",
     "saumon-patate-douce",
-    "poulpe-pommes-de-terre"
+    "poulpe-pommes-de-terre",
+    "foies-volaille-epinards",
+    "bouillon-os-boeuf"
    ],
    "privilegier": "Goji, dattes, sésame noir, épinards, betterave, lentilles, œufs, un peu de viande rouge, bouillons d'os.",
    "eviter": "Écrans tard le soir, veiller, régimes restrictifs.",
@@ -206,7 +219,11 @@
     "endormissement",
     "nuque-raide",
     "bords-rouges",
-    "langue-rouge"
+    "langue-rouge",
+    "cephalee-sommet",
+    "tremblements",
+    "cephalee-nuque",
+    "audition"
    ],
    "contre": [
     "langue-pale",
@@ -266,7 +283,8 @@
     "infusion-chrysantheme-goji",
     "saute-celeri-tofu",
     "soupe-huitres-tofu",
-    "calamars-celeri"
+    "calamars-celeri",
+    "champignons-noirs"
    ],
    "privilegier": "Céleri, chrysanthème, épinards, tofu, légumes verts, champignons.",
    "eviter": "Alcool, café, épices, colère ruminée, écrans tard.",
@@ -303,7 +321,10 @@
     "endormissement",
     "sommeil-agite",
     "bords-rouges",
-    "enduit-jaune"
+    "enduit-jaune",
+    "libido-excessive",
+    "crachats-sang",
+    "regles-rouge-vif"
    ],
    "contre": [
     "frilosite",
@@ -430,7 +451,8 @@
    "recettes": [
     "congee-orge-azuki",
     "soupe-mungo",
-    "saute-celeri-tofu"
+    "saute-celeri-tofu",
+    "bouillon-concombre-wakame"
    ],
    "privilegier": "Céleri, radis, orge perlé, haricots mungo et azuki, légumes verts cuits.",
    "eviter": "Alcool, gras, friture, sucre, épices.",

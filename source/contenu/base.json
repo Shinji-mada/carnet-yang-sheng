@@ -1,5 +1,5 @@
 {
- "version": "0.3.0",
+ "version": "0.4.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -35,7 +35,11 @@
   },
   {
    "id": "cycle",
-   "nom": "Cycle féminin, intimité"
+   "nom": "Cycle féminin, pertes"
+  },
+  {
+   "id": "intimite",
+   "nom": "Sexualité, fertilité"
   },
   {
    "id": "langue",
@@ -105,6 +109,11 @@
    "zh": "妇科"
   },
   {
+   "id": "homme",
+   "nom": "Santé masculine",
+   "zh": "男科"
+  },
+  {
    "id": "bi",
    "nom": "Articulations (syndromes Bi)",
    "zh": "痹证"
@@ -140,6 +149,10 @@
    "id": "yang",
    "nom": "Réchauffer le Yang",
    "zh": "温阳"
+  },
+  {
+   "id": "essence",
+   "nom": "Nourrir le Rein et l'Essence"
   },
   {
    "id": "coeur",
@@ -485,6 +498,61 @@
   {
    "id": "anis-etoile",
    "nom": "Anis étoilé (badiane)",
+   "cat": "aromates"
+  },
+  {
+   "id": "ciboule-chinoise",
+   "nom": "Ciboule chinoise (jiu cai)",
+   "cat": "legumes"
+  },
+  {
+   "id": "fenouil",
+   "nom": "Fenouil",
+   "cat": "legumes"
+  },
+  {
+   "id": "concombre",
+   "nom": "Concombre",
+   "cat": "legumes"
+  },
+  {
+   "id": "chataignes",
+   "nom": "Châtaignes",
+   "cat": "fruits"
+  },
+  {
+   "id": "canard",
+   "nom": "Canard",
+   "cat": "viandes"
+  },
+  {
+   "id": "foies-volaille",
+   "nom": "Foies de volaille",
+   "cat": "viandes"
+  },
+  {
+   "id": "os-boeuf",
+   "nom": "Os à moelle de bœuf",
+   "cat": "viandes"
+  },
+  {
+   "id": "qian-shi",
+   "nom": "Euryale (qian shi)",
+   "cat": "asie"
+  },
+  {
+   "id": "wakame",
+   "nom": "Algue wakame",
+   "cat": "asie"
+  },
+  {
+   "id": "champignons-noirs",
+   "nom": "Champignons noirs (mu er)",
+   "cat": "asie"
+  },
+  {
+   "id": "graines-fenouil",
+   "nom": "Graines de fenouil",
    "cat": "aromates"
   }
  ]

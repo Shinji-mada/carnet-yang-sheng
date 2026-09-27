@@ -1,0 +1,389 @@
+{
+ "fiches": [
+  {
+   "id": "crevettes-ciboule-oeufs", "type": "recette", "date": "2026-09-27", "ordre": 50, "axe": "yang",
+   "titre": "Œufs brouillés aux crevettes et à la ciboule chinoise",
+   "contexte": "La ciboule chinoise est surnommée « l'herbe qui relève le Yang » ; avec les crevettes, elle réchauffe le Rein. Un plat rapide pour le bas du dos froid, la fatigue froide et la libido en berne.",
+   "principe": {"zh": "温肾壮阳", "py": "Wēn shèn zhuàng yáng", "fr": "Réchauffer le Rein, fortifier le Yang"},
+   "portions": 2, "duree": "15 min",
+   "ingredients": [
+    {"id": "crevettes", "q": 200, "u": "g", "nom": "crevettes décortiquées", "cle": "crevettes"},
+    {"id": "ciboule", "q": 150, "u": "g", "nom": "ciboule chinoise (jiu cai), en tronçons de 3 cm", "cle": "ciboule-chinoise"},
+    {"id": "oeufs", "q": 3, "nom": "œufs", "cle": "oeuf"},
+    {"id": "gingembre", "q": 10, "u": "g", "nom": "gingembre frais, en fines lamelles", "cle": "gingembre"},
+    {"id": "huile", "q": 2, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "sel", "q": 0.5, "u": "tsp", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle ou au wok", "etapes": [
+     {"titre": "Battre les œufs", "texte": "Bats les œufs ({oeufs}) avec la moitié du sel ({sel})."},
+     {"titre": "Cuire les œufs", "texte": "Dans la moitié de l'huile ({huile}) bien chaude, verse les œufs et remue doucement jusqu'à ce qu'ils prennent encore baveux. Réserve.", "s": 60},
+     {"titre": "Saisir les crevettes", "texte": "Ajoute le reste de l'huile, le gingembre ({gingembre}) puis les crevettes ({crevettes}). Fais-les sauter jusqu'à ce qu'elles deviennent roses.", "s": 120},
+     {"titre": "Ajouter la ciboule", "texte": "Ajoute la ciboule chinoise ({ciboule}) et le reste du sel, fais sauter à feu vif juste le temps qu'elle fonde.", "s": 45},
+     {"titre": "Réunir", "texte": "Remets les œufs, mélange une dernière fois et sers aussitôt avec du riz."}
+    ]}
+   ],
+   "precautions": "Plat réchauffant : évite-le en cas de signes de Chaleur (langue rouge, soif, boutons, fièvre) et en cas d'allergie aux fruits de mer.",
+   "notes": ["La ciboule chinoise se trouve en botte en épicerie asiatique : feuilles plates, goût entre l'ail et la ciboulette. À défaut, prends du poireau très fin ou de la ciboulette."],
+   "tags": ["crevettes", "rapide", "Rein", "libido", "fruits de mer"]
+  },
+  {
+   "id": "congee-qian-shi", "type": "recette", "date": "2026-09-27", "ordre": 51, "axe": "essence",
+   "titre": "Congee à l'euryale, aux graines de lotus et à l'igname",
+   "contexte": "L'euryale et les graines de lotus « resserrent » : elles aident le Rein à retenir ce qui s'échappe (pertes séminales, fuites urinaires, selles molles). L'igname soutient la Rate et le Rein. Un bol doux et nourrissant, aussi pour apaiser l'esprit.",
+   "principe": {"zh": "补肾固精", "py": "Bǔ shèn gù jīng", "fr": "Tonifier le Rein, retenir l'Essence"},
+   "portions": 4, "duree": "1 h 30 (+ 2 h de trempage)",
+   "ingredients": [
+    {"id": "riz", "q": 150, "u": "g", "nom": "riz rond", "cle": "riz"},
+    {"id": "qianshi", "q": 40, "u": "g", "nom": "euryale (qian shi) séchée", "cle": "qian-shi"},
+    {"id": "lotus", "q": 40, "u": "g", "nom": "graines de lotus séchées, sans germe", "cle": "lotus"},
+    {"id": "shanyao", "q": 150, "u": "g", "nom": "igname de Chine fraîche, en dés (ou 30 g séchée)", "cle": "shan-yao"},
+    {"id": "dattes", "q": 6, "nom": "dattes rouges", "cle": "dattes"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Faire tremper", "texte": "Fais tremper l'euryale ({qianshi}) et les graines de lotus ({lotus}) dans de l'eau froide, puis égoutte.", "s": 7200},
+     {"titre": "Démarrer la cuisson", "texte": "Porte l'eau ({eau}) à ébullition avec l'euryale et les graines de lotus, puis laisse frémir à couvert.", "s": 1800},
+     {"titre": "Ajouter le riz", "texte": "Ajoute le riz rincé ({riz}), l'igname ({shanyao}) et les dattes ({dattes}). Laisse frémir à peine couvert en remuant de temps en temps, jusqu'à obtenir une crème épaisse.", "s": 3600},
+     {"titre": "Servir", "texte": "Sers chaud. Rallonge d'un peu d'eau chaude si le congee a trop épaissi."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Faire tremper", "texte": "Fais tremper l'euryale ({qianshi}) et les graines de lotus ({lotus}) dans de l'eau froide, puis égoutte.", "s": 7200},
+     {"titre": "Tout mettre dans la cuve", "texte": "Mets le riz rincé ({riz}), l'euryale, les graines de lotus, l'igname ({shanyao}), les dattes ({dattes}) et l'eau ({eau}) dans la cuve."},
+     {"titre": "Cuire", "texte": "Lance le mode Porridge ou Congee.", "s": 5400},
+     {"titre": "Servir", "texte": "Remue et sers chaud."}
+    ]}
+   ],
+   "precautions": "Plat qui « resserre » : évite-le en cas de constipation sèche ou de ventre gonflé et douloureux.",
+   "notes": ["L'euryale (petites billes blanches et rouges) et les graines de lotus se trouvent séchées en épicerie asiatique.", "Tu peux en préparer une grande quantité : il se garde 3 jours au frais."],
+   "tags": ["congee", "Rein", "pertes séminales", "fuites urinaires", "sommeil"]
+  },
+  {
+   "id": "poulet-chataignes", "type": "recette", "date": "2026-09-27", "ordre": 52, "axe": "yang",
+   "titre": "Poulet mijoté aux châtaignes et aux shiitakés",
+   "contexte": "La châtaigne est surnommée le « fruit du Rein » : elle renforce les lombaires et les genoux. Avec le poulet et le gingembre, un plat d'automne qui réchauffe la Rate et le Rein.",
+   "principe": {"zh": "补肾健脾", "py": "Bǔ shèn jiàn pí", "fr": "Tonifier le Rein, renforcer la Rate"},
+   "portions": 4, "duree": "1 h",
+   "ingredients": [
+    {"id": "poulet", "q": 800, "u": "g", "nom": "hauts de cuisse de poulet, en morceaux", "cle": "poulet"},
+    {"id": "chataignes", "q": 300, "u": "g", "nom": "châtaignes cuites et épluchées (sous vide ou en bocal)", "cle": "chataignes"},
+    {"id": "shiitake", "q": 6, "nom": "shiitakés séchés, réhydratés 30 min", "cle": "shiitake"},
+    {"id": "gingembre", "q": 20, "u": "g", "nom": "gingembre frais, en tranches", "cle": "gingembre"},
+    {"id": "cebette", "q": 2, "nom": "cébettes, en tronçons", "cle": "cebette"},
+    {"id": "soja", "q": 2, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "eau", "q": 400, "u": "ml", "nom": "eau (dont celle de trempage des shiitakés, filtrée)", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la cocotte en fonte ou casserole", "etapes": [
+     {"titre": "Dorer le poulet", "texte": "Fais dorer le poulet ({poulet}) dans l'huile ({huile}) avec le gingembre ({gingembre}) et le blanc des cébettes ({cebette}).", "s": 420},
+     {"titre": "Mijoter", "texte": "Ajoute les shiitakés ({shiitake}) coupés en deux, la sauce soja ({soja}) et l'eau ({eau}). Couvre et laisse mijoter doucement.", "s": 1500},
+     {"titre": "Ajouter les châtaignes", "texte": "Ajoute les châtaignes ({chataignes}) et poursuis à découvert pour réduire la sauce.", "s": 900},
+     {"titre": "Servir", "texte": "Parsème du vert des cébettes et sers avec du riz."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Dorer le poulet", "texte": "En mode Rissoler si ton appareil l'a, fais dorer le poulet ({poulet}) dans l'huile ({huile}) avec le gingembre ({gingembre}) et le blanc des cébettes ({cebette}).", "s": 480},
+     {"titre": "Cuire", "texte": "Ajoute les shiitakés ({shiitake}), les châtaignes ({chataignes}), la sauce soja ({soja}) et l'eau ({eau}). Programme Mijoter ou Ragoût.", "s": 2700},
+     {"titre": "Servir", "texte": "Parsème du vert des cébettes et sers avec du riz."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Dorer le poulet", "texte": "Fais dorer le poulet ({poulet}) dans l'huile ({huile}) avec le gingembre ({gingembre}) et le blanc des cébettes ({cebette}).", "s": 420},
+     {"titre": "Cuire sous pression", "texte": "Ajoute les shiitakés ({shiitake}), la sauce soja ({soja}) et l'eau ({eau}). Ferme et compte à partir du sifflement.", "s": 600},
+     {"titre": "Ajouter les châtaignes", "texte": "Laisse la pression retomber, ajoute les châtaignes ({chataignes}) et laisse réduire à découvert.", "s": 480},
+     {"titre": "Servir", "texte": "Parsème du vert des cébettes et sers avec du riz."}
+    ]}
+   ],
+   "notes": ["Avec des châtaignes fraîches : fais une entaille, cuis-les 15 minutes à l'eau bouillante et épluche-les encore chaudes."],
+   "tags": ["poulet", "viande", "mijoté", "genoux", "lombaires", "automne"]
+  },
+  {
+   "id": "agneau-fenouil", "type": "recette", "date": "2026-09-27", "ordre": 53, "axe": "yang",
+   "titre": "Agneau mijoté au fenouil et aux graines de fenouil",
+   "contexte": "Les graines de fenouil réchauffent le méridien du Foie et le bas-ventre ; l'agneau et le gingembre réchauffent le Rein et la Rate. Pour les douleurs froides du bas-ventre, les règles froides et les mains et pieds glacés.",
+   "principe": {"zh": "暖肝温肾", "py": "Nuǎn gān wēn shèn", "fr": "Réchauffer le Foie et le Rein"},
+   "portions": 4, "duree": "2 h",
+   "ingredients": [
+    {"id": "agneau", "q": 800, "u": "g", "nom": "épaule ou collier d'agneau, en morceaux", "cle": "agneau"},
+    {"id": "fenouil", "q": 2, "nom": "bulbes de fenouil, en quartiers", "cle": "fenouil"},
+    {"id": "graines", "q": 1, "u": "tbsp", "nom": "graines de fenouil", "cle": "graines-fenouil"},
+    {"id": "carotte", "q": 2, "nom": "carottes, en tronçons", "cle": "carotte"},
+    {"id": "gingembre", "q": 30, "u": "g", "nom": "gingembre frais, en tranches", "cle": "gingembre"},
+    {"id": "ail", "q": 3, "nom": "gousses d'ail, écrasées", "cle": "ail"},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile d'olive", "base": true},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel", "base": true},
+    {"id": "eau", "q": 600, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la cocotte en fonte", "etapes": [
+     {"titre": "Dorer l'agneau", "texte": "Fais dorer l'agneau ({agneau}) dans l'huile ({huile}) sur toutes ses faces.", "s": 480},
+     {"titre": "Aromates", "texte": "Ajoute le gingembre ({gingembre}), l'ail ({ail}) et les graines de fenouil ({graines}), remue jusqu'à ce qu'ils sentent bon.", "s": 90},
+     {"titre": "Mijoter", "texte": "Verse l'eau ({eau}), sale ({sel}), couvre et laisse frémir très doucement.", "s": 3600},
+     {"titre": "Ajouter les légumes", "texte": "Ajoute le fenouil ({fenouil}) et les carottes ({carotte}), poursuis jusqu'à ce que tout soit fondant.", "s": 2400},
+     {"titre": "Servir", "texte": "Sers chaud, avec du riz ou du millet."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Dorer l'agneau", "texte": "En mode Rissoler si ton appareil l'a, fais dorer l'agneau ({agneau}) dans l'huile ({huile}) avec le gingembre ({gingembre}), l'ail ({ail}) et les graines de fenouil ({graines}).", "s": 540},
+     {"titre": "Cuire", "texte": "Ajoute le fenouil ({fenouil}), les carottes ({carotte}), l'eau ({eau}) et le sel ({sel}). Programme Mijoter ou Ragoût.", "s": 5400},
+     {"titre": "Servir", "texte": "Sers chaud, avec du riz ou du millet."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Dorer l'agneau", "texte": "Fais dorer l'agneau ({agneau}) dans l'huile ({huile}) avec le gingembre ({gingembre}), l'ail ({ail}) et les graines de fenouil ({graines}).", "s": 540},
+     {"titre": "Cuire sous pression", "texte": "Ajoute le fenouil ({fenouil}), les carottes ({carotte}), l'eau ({eau}) et le sel ({sel}). Ferme et compte à partir du sifflement.", "s": 1800},
+     {"titre": "Servir", "texte": "Laisse la pression retomber seule et sers."}
+    ]}
+   ],
+   "precautions": "Plat très réchauffant : pas en cas de fièvre, de langue rouge, de soif intense ou de bouffées de chaleur.",
+   "notes": ["Le mouton convient aussi, avec une demi-heure de cuisson en plus."],
+   "tags": ["agneau", "viande", "mijoté", "froid", "bas-ventre", "règles douloureuses"]
+  },
+  {
+   "id": "soupe-canard-igname", "type": "recette", "date": "2026-09-27", "ordre": 54, "axe": "yin",
+   "titre": "Soupe de canard à l'igname de Chine et aux baies de goji",
+   "contexte": "Le canard nourrit le Yin sans alourdir ; l'igname soutient la Rate, le Poumon et le Rein, et le goji nourrit le Foie et le Rein. Pour la bouche sèche, les sueurs nocturnes, la chaleur en fin de journée.",
+   "principe": {"zh": "滋阴补虚", "py": "Zī yīn bǔ xū", "fr": "Nourrir le Yin, combler le vide"},
+   "portions": 4, "duree": "2 h",
+   "ingredients": [
+    {"id": "canard", "q": 800, "u": "g", "nom": "cuisses de canard, peau retirée en partie", "cle": "canard"},
+    {"id": "shanyao", "q": 200, "u": "g", "nom": "igname de Chine fraîche, en tronçons (ou 40 g séchée)", "cle": "shan-yao"},
+    {"id": "goji", "q": 15, "u": "g", "nom": "baies de goji", "cle": "goji"},
+    {"id": "gingembre", "q": 15, "u": "g", "nom": "gingembre frais, en tranches", "cle": "gingembre"},
+    {"id": "cebette", "q": 2, "nom": "cébettes", "cle": "cebette"},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel", "base": true},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Blanchir le canard", "texte": "Plonge le canard ({canard}) dans l'eau bouillante, puis égoutte et rince : le bouillon sera plus clair et moins gras.", "s": 180},
+     {"titre": "Mijoter", "texte": "Remets le canard dans l'eau froide ({eau}) avec le gingembre ({gingembre}) et le blanc des cébettes ({cebette}). Porte à frémissement et laisse cuire à couvert, en écumant au début.", "s": 4500},
+     {"titre": "Ajouter l'igname", "texte": "Ajoute l'igname ({shanyao}) et poursuis la cuisson.", "s": 1200},
+     {"titre": "Ajouter le goji", "texte": "Ajoute les baies de goji ({goji}) et le sel ({sel}).", "s": 300},
+     {"titre": "Servir", "texte": "Dégraisse la surface si besoin et sers avec le vert des cébettes."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Blanchir le canard", "texte": "Plonge le canard ({canard}) dans l'eau bouillante, puis égoutte et rince.", "s": 180},
+     {"titre": "Cuire", "texte": "Mets le canard, l'igname ({shanyao}), le gingembre ({gingembre}), le blanc des cébettes ({cebette}) et l'eau ({eau}) dans la cuve. Programme Soupe.", "s": 5400},
+     {"titre": "Finir", "texte": "Ajoute le goji ({goji}) et le sel ({sel}), laisse en maintien au chaud.", "s": 300},
+     {"titre": "Servir", "texte": "Dégraisse si besoin et sers."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Blanchir le canard", "texte": "Plonge le canard ({canard}) dans l'eau bouillante, puis égoutte et rince.", "s": 180},
+     {"titre": "Cuire sous pression", "texte": "Mets le canard, l'igname ({shanyao}), le gingembre ({gingembre}), le blanc des cébettes ({cebette}) et l'eau ({eau}). Ferme et compte à partir du sifflement.", "s": 1800},
+     {"titre": "Finir", "texte": "Laisse la pression retomber, ajoute le goji ({goji}) et le sel ({sel}) et laisse frémir.", "s": 300},
+     {"titre": "Servir", "texte": "Dégraisse si besoin et sers."}
+    ]}
+   ],
+   "precautions": "Le canard rafraîchit : si tu as souvent froid ou les selles molles, double le gingembre.",
+   "notes": ["Le bouillon refroidi se dégraisse facilement : la graisse fige en surface."],
+   "tags": ["canard", "viande", "soupe", "Yin", "sueurs nocturnes", "sécheresse"]
+  },
+  {
+   "id": "foies-volaille-epinards", "type": "recette", "date": "2026-09-27", "ordre": 55, "axe": "sang",
+   "titre": "Foies de volaille poêlés aux épinards et au goji",
+   "contexte": "En diététique chinoise, le foie nourrit le Foie : les foies de volaille, les épinards et le goji nourrissent le Sang. Pour la vue qui fatigue, les mouches volantes, les crampes et les ongles cassants.",
+   "principe": {"zh": "养肝补血", "py": "Yǎng gān bǔ xuè", "fr": "Nourrir le Foie, tonifier le Sang"},
+   "portions": 2, "duree": "20 min",
+   "ingredients": [
+    {"id": "foies", "q": 250, "u": "g", "nom": "foies de volaille, nettoyés", "cle": "foies-volaille"},
+    {"id": "epinards", "q": 300, "u": "g", "nom": "épinards frais", "cle": "epinards"},
+    {"id": "goji", "q": 10, "u": "g", "nom": "baies de goji", "cle": "goji"},
+    {"id": "ail", "q": 2, "nom": "gousses d'ail, émincées", "cle": "ail"},
+    {"id": "gingembre", "q": 10, "u": "g", "nom": "gingembre frais, en lamelles", "cle": "gingembre"},
+    {"id": "huile", "q": 2, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle", "etapes": [
+     {"titre": "Saisir les foies", "texte": "Dans la moitié de l'huile ({huile}) bien chaude, saisis les foies ({foies}) avec le gingembre ({gingembre}) : ils doivent rester rosés à cœur. Réserve.", "s": 180},
+     {"titre": "Faire tomber les épinards", "texte": "Dans le reste de l'huile, fais revenir l'ail ({ail}) puis les épinards ({epinards}) jusqu'à ce qu'ils tombent.", "s": 150},
+     {"titre": "Réunir", "texte": "Remets les foies, ajoute le goji ({goji}) et la sauce soja ({soja}), mélange sur le feu.", "s": 60},
+     {"titre": "Servir", "texte": "Sers tout de suite, avec du riz."}
+    ]}
+   ],
+   "precautions": "Riche en vitamine A : enceinte, limite les abats à une petite portion de temps en temps et demande conseil à ta sage-femme ou ton médecin.",
+   "notes": ["Trop cuits, les foies deviennent secs et amers : retire-les dès qu'ils sont dorés."],
+   "tags": ["abats", "viande", "Sang", "yeux", "rapide"]
+  },
+  {
+   "id": "bouillon-concombre-wakame", "type": "recette", "date": "2026-09-27", "ordre": 56, "axe": "chaleur",
+   "titre": "Bouillon de concombre, tofu et algue wakame",
+   "contexte": "Concombre, tofu et algue rafraîchissent et drainent l'Humidité par les urines. Un bouillon léger pour les urines foncées, les démangeaisons intimes, la bouche amère et les périodes de chaleur.",
+   "principe": {"zh": "清热利湿", "py": "Qīng rè lì shī", "fr": "Clarifier la Chaleur, drainer l'Humidité"},
+   "portions": 2, "duree": "15 min",
+   "ingredients": [
+    {"id": "concombre", "q": 1, "nom": "concombre, en demi-rondelles", "cle": "concombre"},
+    {"id": "tofu", "q": 200, "u": "g", "nom": "tofu soyeux ou nature, en dés", "cle": "tofu"},
+    {"id": "wakame", "q": 5, "u": "g", "nom": "algue wakame séchée", "cle": "wakame"},
+    {"id": "cebette", "q": 1, "nom": "cébette, ciselée", "cle": "cebette"},
+    {"id": "gingembre", "q": 5, "u": "g", "nom": "gingembre frais, en lamelles", "cle": "gingembre"},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "eau", "q": 800, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Réhydrater l'algue", "texte": "Fais tremper la wakame ({wakame}) dans de l'eau froide, puis égoutte.", "s": 300},
+     {"titre": "Chauffer le bouillon", "texte": "Porte l'eau ({eau}) à frémissement avec le gingembre ({gingembre}) et la sauce soja ({soja}).", "s": 300},
+     {"titre": "Cuire", "texte": "Ajoute le tofu ({tofu}), le concombre ({concombre}) et la wakame, laisse frémir.", "s": 180},
+     {"titre": "Servir", "texte": "Parsème de cébette ({cebette}) et sers tiède."}
+    ]}
+   ],
+   "precautions": "Plat rafraîchissant : si tu as souvent froid ou les selles molles, garde-le pour les périodes chaudes et ajoute du gingembre.",
+   "notes": ["La wakame séchée se trouve en épicerie asiatique ou au rayon bio ; elle gonfle beaucoup."],
+   "tags": ["soupe", "légumes", "algue", "Chaleur", "Humidité", "léger"]
+  },
+  {
+   "id": "champignons-noirs", "type": "recette", "date": "2026-09-27", "ordre": 57, "axe": "circuler",
+   "titre": "Champignons noirs sautés au céleri, à l'ail et au gingembre",
+   "contexte": "Les champignons noirs (mu er) font circuler le Sang en douceur ; le céleri calme le Yang du Foie. Un accompagnement pour les douleurs fixes, les règles avec caillots, la tension et les tempes qui battent.",
+   "principe": {"zh": "活血通络", "py": "Huó xuè tōng luò", "fr": "Faire circuler le Sang, dégager les vaisseaux"},
+   "portions": 2, "duree": "30 min",
+   "ingredients": [
+    {"id": "muer", "q": 15, "u": "g", "nom": "champignons noirs séchés (mu er)", "cle": "champignons-noirs"},
+    {"id": "celeri", "q": 3, "nom": "branches de céleri, en biseau", "cle": "celeri"},
+    {"id": "carotte", "q": 1, "nom": "carotte, en fines lamelles", "cle": "carotte"},
+    {"id": "ail", "q": 2, "nom": "gousses d'ail, émincées", "cle": "ail"},
+    {"id": "gingembre", "q": 10, "u": "g", "nom": "gingembre frais, en julienne", "cle": "gingembre"},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle ou au wok", "etapes": [
+     {"titre": "Réhydrater", "texte": "Fais tremper les champignons noirs ({muer}) dans de l'eau tiède, puis rince-les et coupe les parties dures.", "s": 1200},
+     {"titre": "Sauter les aromates", "texte": "Dans l'huile ({huile}) chaude, fais revenir l'ail ({ail}) et le gingembre ({gingembre}).", "s": 30},
+     {"titre": "Sauter les légumes", "texte": "Ajoute la carotte ({carotte}), le céleri ({celeri}) et les champignons, fais sauter à feu vif.", "s": 180},
+     {"titre": "Assaisonner", "texte": "Ajoute la sauce soja ({soja}), mélange et sers aussitôt."}
+    ]}
+   ],
+   "precautions": "Les champignons noirs fluidifient le sang : si tu prends un anticoagulant, si tu es enceinte ou avant une opération, demande conseil.",
+   "notes": ["Ils se trouvent séchés en épicerie asiatique ; 15 g secs donnent un grand bol une fois gonflés."],
+   "tags": ["légumes", "champignons", "Sang", "douleurs", "circulation"]
+  },
+  {
+   "id": "congee-cebette", "type": "recette", "date": "2026-09-27", "ordre": 58, "axe": "exterieur",
+   "titre": "Congee au blanc de cébette et au gingembre",
+   "contexte": "Un remède de cuisine classique au tout début d'un rhume froid : frissons, nez qui coule clair, nuque raide. Le blanc de cébette et le gingembre font légèrement transpirer, le riz protège l'Estomac.",
+   "principe": {"zh": "发散风寒", "py": "Fā sàn fēng hán", "fr": "Disperser le Vent-Froid"},
+   "portions": 2, "duree": "40 min",
+   "ingredients": [
+    {"id": "riz", "q": 80, "u": "g", "nom": "riz rond", "cle": "riz"},
+    {"id": "cebette", "q": 4, "nom": "blancs de cébette, avec les racines lavées", "cle": "cebette"},
+    {"id": "gingembre", "q": 20, "u": "g", "nom": "gingembre frais, en fines tranches", "cle": "gingembre"},
+    {"id": "eau", "q": 1000, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "pinch", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire le riz", "texte": "Porte l'eau ({eau}) à ébullition avec le riz rincé ({riz}), puis laisse frémir à peine couvert.", "s": 1800},
+     {"titre": "Ajouter les aromates", "texte": "Ajoute le gingembre ({gingembre}) et les blancs de cébette ({cebette}) écrasés du plat du couteau. Laisse frémir encore un peu.", "s": 300},
+     {"titre": "Servir", "texte": "Sale ({sel}) et bois-le bien chaud, puis couvre-toi pour transpirer légèrement."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Cuire", "texte": "Mets le riz rincé ({riz}) et l'eau ({eau}) dans la cuve et lance le mode Porridge ou Congee.", "s": 3600},
+     {"titre": "Ajouter les aromates", "texte": "Ajoute le gingembre ({gingembre}) et les blancs de cébette ({cebette}) écrasés, referme en maintien au chaud.", "s": 300},
+     {"titre": "Servir", "texte": "Sale ({sel}) et bois-le bien chaud, puis couvre-toi."}
+    ]}
+   ],
+   "precautions": "Seulement au tout début d'un rhume froid. S'il y a mal de gorge, fièvre forte ou glaires jaunes, ce n'est plus le bon moment.",
+   "notes": ["Les aromates ne cuisent que quelques minutes : c'est ce qui garde leur effet."],
+   "tags": ["congee", "rhume", "froid", "début de rhume"]
+  },
+  {
+   "id": "bouillon-os-boeuf", "type": "recette", "date": "2026-09-27", "ordre": 59, "axe": "essence",
+   "titre": "Bouillon d'os de bœuf aux carottes et au gingembre",
+   "contexte": "Un bouillon longuement mijoté qui soutient le Rein, les os et les tendons. Pour les genoux et le bas du dos fatigués, la convalescence et les hivers longs.",
+   "principe": {"zh": "补肾强骨", "py": "Bǔ shèn qiáng gǔ", "fr": "Tonifier le Rein, fortifier les os"},
+   "portions": 6, "duree": "4 h",
+   "ingredients": [
+    {"id": "os", "q": 1500, "u": "g", "nom": "os à moelle et jarret de bœuf", "cle": "os-boeuf"},
+    {"id": "carotte", "q": 3, "nom": "carottes, en tronçons", "cle": "carotte"},
+    {"id": "oignon", "q": 1, "nom": "oignon, coupé en deux", "cle": "oignon"},
+    {"id": "gingembre", "q": 30, "u": "g", "nom": "gingembre frais, en tranches", "cle": "gingembre"},
+    {"id": "dattes", "q": 6, "nom": "dattes rouges", "cle": "dattes"},
+    {"id": "anis", "q": 1, "nom": "étoile d'anis (badiane)", "cle": "anis-etoile"},
+    {"id": "vinaigre", "q": 1, "u": "tbsp", "nom": "vinaigre de riz ou de cidre", "base": true},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel", "base": true},
+    {"id": "eau", "q": 3000, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "Au faitout", "etapes": [
+     {"titre": "Blanchir les os", "texte": "Couvre les os ({os}) d'eau froide, porte à ébullition, puis égoutte et rince : le bouillon sera plus clair.", "s": 300},
+     {"titre": "Mijoter", "texte": "Remets les os dans l'eau froide ({eau}) avec le vinaigre ({vinaigre}), le gingembre ({gingembre}), l'oignon ({oignon}) et l'anis ({anis}). Laisse frémir à peine, à couvert.", "s": 10800},
+     {"titre": "Ajouter les légumes", "texte": "Ajoute les carottes ({carotte}) et les dattes ({dattes}) et poursuis.", "s": 2700},
+     {"titre": "Servir", "texte": "Filtre, sale ({sel}) et sers un bol chaud. Récupère la moelle et la viande du jarret pour un autre repas."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Blanchir les os", "texte": "Couvre les os ({os}) d'eau froide, porte à ébullition, puis égoutte et rince.", "s": 300},
+     {"titre": "Cuire", "texte": "Mets les os, l'eau ({eau}) dans la limite de la cuve, le vinaigre ({vinaigre}), le gingembre ({gingembre}), l'oignon ({oignon}), l'anis ({anis}), les carottes ({carotte}) et les dattes ({dattes}). Programme Mijotage lent ou Soupe longue.", "s": 21600},
+     {"titre": "Servir", "texte": "Filtre, sale ({sel}) et sers."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Blanchir les os", "texte": "Couvre les os ({os}) d'eau froide, porte à ébullition, puis égoutte et rince.", "s": 300},
+     {"titre": "Cuire sous pression", "texte": "Remets les os avec l'eau ({eau}) jusqu'au niveau maximum, le vinaigre ({vinaigre}), le gingembre ({gingembre}), l'oignon ({oignon}) et l'anis ({anis}). Ferme et compte à partir du sifflement.", "s": 5400},
+     {"titre": "Ajouter les légumes", "texte": "Laisse la pression retomber, ajoute les carottes ({carotte}) et les dattes ({dattes}) et laisse frémir à découvert.", "s": 1200},
+     {"titre": "Servir", "texte": "Filtre, sale ({sel}) et sers."}
+    ]}
+   ],
+   "notes": ["Il se garde 4 jours au frais et se congèle très bien en portions.", "Refroidi, il prend en gelée : c'est bon signe."],
+   "tags": ["bouillon", "viande", "os", "genoux", "lombaires", "convalescence"]
+  },
+  {
+   "id": "huitres-gingembre", "type": "recette", "date": "2026-09-27", "ordre": 60, "axe": "essence",
+   "titre": "Huîtres tièdes au gingembre et à la cébette",
+   "contexte": "L'huître nourrit le Yin et l'Essence et apaise l'esprit ; sa coquille est un remède classique pour retenir l'Essence et calmer. À peine cuites, avec du gingembre qui tempère leur fraîcheur.",
+   "principe": {"zh": "益精安神", "py": "Yì jīng ān shén", "fr": "Nourrir l'Essence, apaiser l'esprit"},
+   "portions": 2, "duree": "15 min",
+   "ingredients": [
+    {"id": "huitres", "q": 12, "nom": "huîtres bien fermées", "cle": "huitres"},
+    {"id": "gingembre", "q": 15, "u": "g", "nom": "gingembre frais, en fine julienne", "cle": "gingembre"},
+    {"id": "cebette", "q": 2, "nom": "cébettes, ciselées", "cle": "cebette"},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "huile", "q": 1, "u": "tsp", "nom": "huile de sésame", "base": true}
+   ],
+   "variantes": [
+    {"id": "vapeur", "nom": "À la vapeur", "etapes": [
+     {"titre": "Cuire à la vapeur", "texte": "Pose les huîtres ({huitres}) côté creux en bas dans un panier vapeur au-dessus d'une eau bouillante et couvre : elles s'entrouvrent.", "s": 300},
+     {"titre": "Ouvrir", "texte": "Retire le couvercle plat de chaque huître avec un couteau, en gardant le jus."},
+     {"titre": "Assaisonner", "texte": "Dépose sur chacune un peu de gingembre ({gingembre}), de cébette ({cebette}), une goutte de sauce soja ({soja}) et d'huile de sésame ({huile}). Sers tiède."}
+    ]},
+    {"id": "four", "nom": "Au four", "etapes": [
+     {"titre": "Préchauffer", "texte": "Préchauffe le four en position gril à 220 °C.", "s": 600},
+     {"titre": "Cuire", "texte": "Pose les huîtres ({huitres}) côté creux en bas sur une plaque, calées avec du papier froissé, et enfourne : elles s'entrouvrent.", "s": 300},
+     {"titre": "Assaisonner", "texte": "Ouvre-les, puis dépose sur chacune un peu de gingembre ({gingembre}), de cébette ({cebette}), une goutte de sauce soja ({soja}) et d'huile de sésame ({huile})."}
+    ]}
+   ],
+   "precautions": "Jette celles qui restent fermées après cuisson. Pas en cas d'allergie aux fruits de mer.",
+   "notes": ["Hors saison, les huîtres surgelées décoquillées se font poêler 1 minute avec le gingembre."],
+   "tags": ["huîtres", "fruits de mer", "Essence", "Rein", "sommeil"]
+  },
+  {
+   "id": "creme-sesame-noix", "type": "recette", "date": "2026-09-27", "ordre": 61, "axe": "essence",
+   "titre": "Crème de sésame noir et noix",
+   "contexte": "Un grand classique pour le Rein et l'Essence : cheveux qui blanchissent ou tombent, mémoire qui flanche, constipation sèche, bas du dos fatigué. Se boit tiède au petit-déjeuner ou au goûter.",
+   "principe": {"zh": "补肾益精", "py": "Bǔ shèn yì jīng", "fr": "Tonifier le Rein, nourrir l'Essence"},
+   "portions": 4, "duree": "20 min",
+   "ingredients": [
+    {"id": "sesame", "q": 80, "u": "g", "nom": "graines de sésame noir", "cle": "sesame-noir"},
+    {"id": "noix", "q": 60, "u": "g", "nom": "cerneaux de noix", "cle": "noix"},
+    {"id": "riz", "q": 30, "u": "g", "nom": "riz (gluant de préférence)", "cle": "riz"},
+    {"id": "dattes", "q": 4, "nom": "dattes rouges, dénoyautées", "cle": "dattes"},
+    {"id": "eau", "q": 800, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole et au mixeur", "etapes": [
+     {"titre": "Torréfier", "texte": "Fais griller à sec le sésame ({sesame}), les noix ({noix}) et le riz ({riz}) dans une poêle, en remuant sans arrêt, jusqu'à ce que ça sente bon.", "s": 300},
+     {"titre": "Mixer", "texte": "Mixe finement le tout avec les dattes ({dattes}) et la moitié de l'eau ({eau})."},
+     {"titre": "Cuire", "texte": "Verse dans une casserole avec le reste de l'eau et fais épaissir à feu doux en remuant.", "s": 480},
+     {"titre": "Servir", "texte": "Sers tiède, nature : les dattes suffisent à l'adoucir."}
+    ]},
+    {"id": "blender", "nom": "Au blender chauffant", "etapes": [
+     {"titre": "Torréfier", "texte": "Fais griller à sec le sésame ({sesame}), les noix ({noix}) et le riz ({riz}) dans une poêle jusqu'à ce que ça sente bon.", "s": 300},
+     {"titre": "Cuire et mixer", "texte": "Mets le tout dans le blender avec les dattes ({dattes}) et l'eau ({eau}), lance le programme Soupe veloutée ou Lait végétal.", "s": 1200},
+     {"titre": "Servir", "texte": "Sers tiède."}
+    ]}
+   ],
+   "precautions": "Riche et gras : en cas de selles molles ou de diarrhée, attends que ça passe.",
+   "notes": ["Un surplus de sésame torréfié se garde 2 semaines dans un bocal fermé."],
+   "tags": ["dessert", "petit-déjeuner", "Rein", "cheveux", "mémoire", "sans sucre ajouté"]
+  }
+ ]
+}

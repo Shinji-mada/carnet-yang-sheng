@@ -884,9 +884,78 @@
   },
   {
    "id": "libido",
-   "cat": "cycle",
+   "cat": "intimite",
    "nom": "Baisse de libido",
-   "syn": "désir sexualité"
+   "syn": "désir sexualité envie baisse du désir frigidité"
+  },
+  {
+   "id": "erection",
+   "cat": "intimite",
+   "nom": "Troubles de l'érection",
+   "syn": "impuissance dysfonction érectile érection faible panne bander",
+   "alerte": "Des troubles de l'érection qui s'installent peuvent venir de la circulation, d'un diabète ou d'un médicament : parles-en à ton médecin."
+  },
+  {
+   "id": "ejaculation-precoce",
+   "cat": "intimite",
+   "nom": "Éjaculation précoce",
+   "syn": "éjaculation rapide trop vite"
+  },
+  {
+   "id": "pertes-seminales",
+   "cat": "intimite",
+   "nom": "Pertes de sperme en dehors des rapports",
+   "syn": "spermatorrhée fuite de sperme écoulement séminal"
+  },
+  {
+   "id": "pollutions-nocturnes",
+   "cat": "intimite",
+   "nom": "Éjaculations pendant le sommeil, avec rêves",
+   "syn": "pollutions nocturnes rêves érotiques"
+  },
+  {
+   "id": "libido-excessive",
+   "cat": "intimite",
+   "nom": "Désir sexuel excessif, érections trop fréquentes",
+   "syn": "hypersexualité excitation"
+  },
+  {
+   "id": "sperme-clair",
+   "cat": "intimite",
+   "nom": "Sperme clair, froid ou peu abondant",
+   "syn": "semence sperme qualité fertilité masculine"
+  },
+  {
+   "id": "froid-genital",
+   "cat": "intimite",
+   "nom": "Froid du bas-ventre et des organes génitaux",
+   "syn": "testicules froids bourses froides scrotum rétracté"
+  },
+  {
+   "id": "douleur-testicules",
+   "cat": "intimite",
+   "nom": "Douleur des testicules qui tire vers l'aine",
+   "syn": "testicule bourses aine scrotum",
+   "alerte": "Une douleur brutale et intense d'un testicule est une urgence : appelle le 15. Une boule ou un gonflement doit être vu par un médecin."
+  },
+  {
+   "id": "humidite-intime",
+   "cat": "intimite",
+   "nom": "Humidité, odeur ou démangeaisons des parties intimes",
+   "syn": "démangeaisons génitales scrotum humide mycose transpiration"
+  },
+  {
+   "id": "secheresse-intime",
+   "cat": "intimite",
+   "nom": "Sécheresse intime, rapports douloureux",
+   "syn": "sécheresse vaginale douleur rapport"
+  },
+  {
+   "id": "fertilite",
+   "cat": "intimite",
+   "nom": "Difficulté à avoir un enfant",
+   "syn": "fertilité infertilité stérilité grossesse bébé concevoir",
+   "alerte": "Après un an d'essais sans grossesse (six mois si la femme a plus de 35 ans), consultez un médecin à deux : les deux partenaires sont concernés."
   },
   {
    "id": "langue-pale",

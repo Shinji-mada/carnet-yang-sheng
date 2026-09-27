@@ -28,7 +28,9 @@
     "teint-pale",
     "langue-pale",
     "tristesse",
-    "aversion-froid"
+    "aversion-froid",
+    "eternuements",
+    "constipation-effort"
    ],
    "contre": [
     "langue-rouge",
@@ -130,7 +132,9 @@
     "peu-soif",
     "urines-claires",
     "langue-pale",
-    "langue-gonflee"
+    "langue-gonflee",
+    "eternuements",
+    "toux-faible"
    ],
    "contre": [
     "chaleur-corps",
@@ -196,7 +200,8 @@
    "recettes": [
     "soupe-poulet-huang-qi",
     "infusion-gingembre-cannelle",
-    "agneau-dang-gui"
+    "agneau-dang-gui",
+    "congee-cebette"
    ],
    "privilegier": "Plats mijotés et tièdes, gingembre, cannelle, poireau, oignon, noix.",
    "eviter": "Boissons glacées, cru, fruits exotiques en hiver, sortir les cheveux mouillés.",
@@ -232,7 +237,10 @@
     "chaleur-5-coeurs",
     "voix-faible",
     "langue-seche",
-    "amaigrissement"
+    "amaigrissement",
+    "crachats-sang",
+    "nez-sec",
+    "langue-fissuree"
    ],
    "contre": [
     "toux-glaires-blanches",
@@ -297,7 +305,8 @@
    "recettes": [
     "poire-vapeur-amandes",
     "soupe-tremelle",
-    "congee-shan-yao"
+    "congee-shan-yao",
+    "soupe-canard-igname"
    ],
    "privilegier": "Poire, trémelle, amande, miel, sésame, tofu, igname, soupes et compotes.",
    "eviter": "Épices fortes, grillades, alcool, tabac, café, air trop sec.",
@@ -456,7 +465,8 @@
     }
    ],
    "recettes": [
-    "infusion-cong-bai"
+    "infusion-cong-bai",
+    "congee-cebette"
    ],
    "privilegier": "Boissons chaudes, gingembre, cébette, bouillons, se couvrir pour transpirer légèrement.",
    "eviter": "Froid, cru, douche froide, sortir sans écharpe.",
@@ -487,7 +497,8 @@
     "toux-glaires-jaunes",
     "cephalee-front",
     "pointe-rouge",
-    "yeux-rouges"
+    "yeux-rouges",
+    "nez-bouche"
    ],
    "contre": [
     "nez-clair",
@@ -572,7 +583,11 @@
     "appetit-faible",
     "langue-gonflee",
     "nausee",
-    "bouche-pateuse"
+    "bouche-pateuse",
+    "poids-facile",
+    "cephalee-lourde",
+    "nez-bouche",
+    "somnolence"
    ],
    "contre": [
     "toux-seche",
@@ -667,7 +682,8 @@
     "sifflement",
     "essoufflement",
     "langue-rouge",
-    "nez-jaune"
+    "nez-jaune",
+    "crachats-sang"
    ],
    "contre": [
     "toux-glaires-blanches",
