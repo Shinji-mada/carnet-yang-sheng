@@ -47,7 +47,7 @@ let selMode=false;const selSet=new Set(),manageSel=new Set();
 let toutTri=store('ys.tri-tout')==='perso'?'perso':'date';
 let toutOrdre=arr(storedJSON('ys.ordre-tout',[]));
 let profil=storedJSON('ys.profil',{})||{};
-const FB=null,COMPTE_URL='./compte.js?v=0b95afcf';
+const FB={"apiKey": "AIzaSyCxFfO_CXvab_EwGaO2nfgr8koZtkYaYL4", "authDomain": "carnet-yang-sheng-fa.firebaseapp.com", "projectId": "carnet-yang-sheng-fa", "storageBucket": "carnet-yang-sheng-fa.firebasestorage.app", "messagingSenderId": "15040819906", "appId": "1:15040819906:web:36abba069eed2b5f0ac15b"},COMPTE_URL='./compte.js?v=0b95afcf';
 let user=null,compte=null,compteP=null,syncState='',syncErr='',syncing=false,syncAgain=false,pushT=null,lastSnap='';
 let varPref=store('ys.variante')||'cuiseur';
 const recVar={},portions={},ingDone={};
