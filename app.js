@@ -338,10 +338,11 @@ function figKeys(it){
 function figSheet(keys){
   keys=String(keys).split('|').filter(k=>PTS[k]);if(!keys.length)return;
   const p0=PTS[keys[0]],f=FIGS[p0.vue];if(!f)return;
-  const W=+String(f.vb).split(' ')[2]||200;let marks='';
+  const vb=String(f.vb).split(' ').map(Number),x1=vb[0]+vb[2],ax=+f.axe||vb[0]+vb[2]/2;
+  let marks=Object.keys(PTS).filter(k=>PTS[k].vue===p0.vue&&!keys.includes(k)).map(k=>`<circle class="fig-o" cx="${+PTS[k].x}" cy="${+PTS[k].y}" r="2.6"></circle>`).join('');
   keys.forEach(ab=>{
-    const p=PTS[ab],x=+p.x,y=+p.y,xs=[x];if(f.sym&&p.b&&Math.abs(x-W/2)>2)xs.push(W-x);
-    const right=x<W-56,lx=right?x+10:x-10,ly=y<16?y+18:y-8;
+    const p=PTS[ab],x=+p.x,y=+p.y,xs=[x];if(f.sym&&p.b&&Math.abs(x-ax)>2)xs.push(2*ax-x);
+    const right=x<x1-50,lx=right?x+10:x-10,ly=y<vb[1]+16?y+18:y-8;
     marks+=xs.map((cx,i)=>`<circle class="fig-halo" cx="${cx}" cy="${y}" r="11"></circle><circle class="fig-dot${i?' alt':''}" cx="${cx}" cy="${y}" r="4.6"></circle>`).join('')+
       `<text class="fig-lab" x="${lx}" y="${ly}" text-anchor="${right?'start':'end'}">${esc(ab)}</text>`;
   });
@@ -700,7 +701,7 @@ function renderSymList(){
   box.innerHTML=SYMCATS.map(c=>{
     const list=catList(c);if(!list.length)return'';
     const k=catCount(c.id);
-    return `<details class="cat${arr(c.liste).length?' theme':''}" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary><div class="chips">${list.map(s=>symChip(s.id)).join('')}</div></details>`;
+    return `<details class="cat" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary><div class="chips">${list.map(s=>symChip(s.id)).join('')}</div></details>`;
   }).join('');
   accordion(box,v=>{openCat=v;});
 }
