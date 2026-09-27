@@ -576,3 +576,27 @@ body.noscroll .toast{top:calc(env(safe-area-inset-top,0px) + 14px);bottom:auto}
 @keyframes fig-pulse{0%{transform:scale(.6);opacity:.35}100%{transform:scale(1.5);opacity:0}}
 @media (prefers-reduced-motion:reduce){.fig-halo{animation:none}}
 .fig-zh span{font-family:var(--sans);font-size:15px;font-weight:700;color:var(--ink);margin-left:6px}
+/* v0.11 : rubriques avec note et guide (IST, maladies, cancer) */
+details.cat.rich>.chips{margin:0;padding:0 14px 14px}
+.cat-note{margin:0;padding:0 16px 10px;font-size:14px;line-height:1.45;color:var(--muted)}
+.cat-sub{margin:4px 16px 8px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.guide-b{display:flex;align-items:center;justify-content:space-between;gap:10px;width:calc(100% - 28px);margin:0 14px 14px;padding:10px 14px;min-height:46px;border:1px solid var(--jade);background:var(--jade-bg);color:var(--jade);border-radius:12px;font:inherit;font-size:15px;font-weight:700;text-align:left;cursor:pointer}
+.guide-b>span:last-child{font-size:22px;line-height:1}
+.guides{display:grid;gap:10px;margin-top:10px}
+.guides .guide-b{width:100%;margin:0;background:var(--surface);border-color:var(--line);color:var(--ink);padding:12px 16px}
+.guides .guide-b b{display:block;color:var(--jade)}
+.guides .guide-b span:first-child{font-weight:400;font-size:14px;color:var(--muted)}
+.gd-p{margin:10px 0 0;font-size:15px;line-height:1.5}
+.gd-t{margin:22px 0 0;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.gd-acc details.cat>summary{font-size:15px}
+.gd{padding:0 16px 16px}
+.gd>.gd-p:first-child{margin-top:0}
+.gd-h{margin:14px 0 6px;font-size:13px;font-weight:700;color:var(--muted)}
+.gd-tabs{display:flex;flex-wrap:wrap;gap:6px}
+.gd-tabs .tag{text-align:left;min-height:38px}
+.gd-add{margin-top:14px}
+.gd-add[aria-pressed="true"]{border-color:var(--jade);color:var(--jade);background:var(--jade-bg);font-weight:700}
+.lies-h{margin-top:16px}
+.chips.lies{margin-top:8px}
+.gd-warn{background:var(--warn-bg);border-radius:10px;padding:10px 12px;font-size:14.5px}
+.gd-warn b{color:var(--warn)}

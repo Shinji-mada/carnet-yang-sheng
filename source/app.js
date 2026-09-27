@@ -97,12 +97,13 @@ function normTableau(d){
   const t=Object.assign({},d,{kind:'t'});
   phasesOf(t);
   t._cle=arr(t.cle).filter(s=>SYM[s]);t._autres=arr(t.autres).filter(s=>SYM[s]);t._contre=arr(t.contre).filter(s=>SYM[s]);
+  t._lies=Object.keys(SYM).filter(s=>arr(SYM[s].tab).includes(t.id));
   t._org=ORG[t.organe]||{nom:'',zh:''};
   t._label=t.etiquette||t._org.nom;
   t._groups=[t.organe,...arr(t.groupes)];
   t._rep=arr(t.reperes);
   t._hay=hayOf([t.nom,t.zh,t.py,t.resume,t.simple,t._rep.join(' '),t._label,t.principe&&[t.principe.zh,t.principe.py,t.principe.fr].join(' '),
-    [...t._cle,...t._autres].map(s=>SYM[s].nom).join(' '),t._items.map(it=>[it.ab,it.py].join(' ')).join(' ')]);
+    [...t._cle,...t._autres,...t._lies].map(s=>SYM[s].nom).join(' '),t._items.map(it=>[it.ab,it.py].join(' ')).join(' ')]);
   return t;
 }
 function fiche(id){return fiches.find(e=>e.id===id);}
@@ -351,6 +352,23 @@ function figSheet(keys){
 ${keys.map(ab=>{const p=PTS[ab];return `${p.zh?`<p class="fig-zh" lang="zh-Hans">${esc(p.zh)} <span>${esc(p.py||'')}</span></p>`:''}<p class="fig-loc"><b>${esc(ab)} :</b> ${esc(p.loc||'')}</p>`;}).join('')}
 ${both?`<p class="fine">Point présent des deux côtés du corps${mirrored?' (les deux sont marqués)':''} : masse-le à gauche puis à droite.</p>`:'<p class="fine">Point unique, sur la ligne du milieu du corps.</p>'}
 <p class="fine">Repère : 1 cun correspond à la largeur de ton pouce. Le bon endroit est souvent un petit creux, un peu plus sensible au toucher. Schéma indicatif.</p>`);
+}
+/* Guide d'une rubrique (IST, cancer, maladies) : une fiche par diagnostic, avec ses tableaux */
+function gsymLabel(id){return symSel.has(id)?'✓ Dans mes symptômes':'+ Ajouter à mes symptômes';}
+function guideSheet(cid,openId){
+  const c=SYMCATS.find(x=>x.id===cid);if(!c)return;
+  const items=catList(c).filter(s=>s.info);
+  let h=arr(c.intro).map(p=>`<p class="gd-p">${esc(p)}</p>`).join('');
+  if(arr(c.precautions).length)h+=`<div class="alert" role="note"><h2>Précautions</h2><ul>${c.precautions.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`;
+  h+=`<h3 class="gd-t">${plural(items.length,'fiche','fiches')}</h3><div class="accwrap gd-acc">`+items.map(s=>{
+    const ts=arr(s.tab).map(tableau).filter(Boolean);
+    return `<details class="cat" data-cat="gd-${esc(s.id)}"${s.id===openId?' open':''}><summary><span>${esc(s.nom)}</span></summary><div class="gd">
+<p class="gd-p">${esc(s.info)}</p>${s.alerte||s.rappel?`<p class="gd-p gd-warn"><b>Important :</b> ${esc([s.alerte,s.rappel].filter(Boolean).join(' '))}</p>`:''}${s.mtc?`<p class="gd-p"><b>En médecine chinoise :</b> ${esc(s.mtc)}</p>`:''}
+${ts.length?`<p class="gd-h">Tableaux pour accompagner</p><div class="gd-tabs">${ts.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
+<button type="button" class="ghost gd-add" data-gsym="${esc(s.id)}" aria-pressed="${symSel.has(s.id)}">${gsymLabel(s.id)}</button></div></details>`;}).join('')+'</div>';
+  h+='<p class="fine">Repères d\'accompagnement selon la médecine traditionnelle chinoise : ni diagnostic, ni traitement. Ils ne remplacent jamais l\'avis de ton médecin.</p>';
+  openSheet(c.guide||c.nom,'',h,sh=>{const w=sh.querySelector('.gd-acc'),sc=sh.querySelector('.sheet');if(w)accordion(w,()=>{},sc);
+    if(openId){const d=sh.querySelector(`[data-cat="gd-${cssq(openId)}"]`);if(d&&sc)sc.scrollTop+=d.getBoundingClientRect().top-sc.getBoundingClientRect().top-12;}});
 }
 async function shareApp(){
   const url=location.origin+location.pathname;
@@ -615,6 +633,7 @@ function matchTableaux(){
     let got=0,tot=0,cleGot=0;const m=[];
     t._cle.forEach(s=>{tot+=2;if(symSel.has(s)){got+=2;cleGot++;m.push(s);}});
     t._autres.forEach(s=>{tot+=1;if(symSel.has(s)){got+=1;m.push(s);}});
+    t._lies.forEach(s=>{if(symSel.has(s)){tot+=1;got+=1;m.push(s);}});
     const contra=t._contre.filter(s=>symSel.has(s));
     const score=got-1.5*contra.length,cov=tot?got/tot:0;
     const r={t,got,tot,cleGot,m,contra,score,cov,rank:score+4*cov+0.75*(m.length-1)};
@@ -674,7 +693,7 @@ function hl(nom,q){
   if(i<0||n.length!==nom.length)return esc(nom);
   return esc(nom.slice(0,i))+'<mark>'+esc(nom.slice(i,i+f.length))+'</mark>'+esc(nom.slice(i+f.length));
 }
-function catName(id){const c=SYMCATS.find(x=>x.id===id);return c?c.nom:'';}
+function catName(id){const c=SYMCATS.find(x=>x.id===id);return c?(c.court||c.nom):'';}
 function renderAC(){
   const box=$('#ac');if(!box)return;
   if(!symQuery.trim()){box.hidden=true;box.innerHTML='';return;}
@@ -694,25 +713,42 @@ function pickSuggestion(id){
   renderAC();updateCatCounts();renderCTA();
   toast(was?'Déjà choisi : '+symName(id):'Ajouté : '+symName(id),was?null:()=>{symSel.delete(id);saveSet('ys.symptomes',symSel);document.querySelectorAll(`[data-sym="${cssq(id)}"]`).forEach(c=>c.setAttribute('aria-pressed','false'));updateCatCounts();renderCTA();});
 }
-function catList(c){return arr(c.liste).length?c.liste.map(id=>SYM[id]).filter(Boolean):Object.values(SYM).filter(s=>s.cat===c.id);}
+/* Précautions liées aux diagnostics choisis (cancer, thyroïde, VIH, foie…) : rappelées sur les résultats, les tableaux et les fiches */
+function rappels(){
+  const out=[];
+  [...symSel].forEach(id=>{const s=SYM[id];if(!s)return;const c=SYMCATS.find(x=>x.id===s.cat);
+    [...(c?arr(c.rappel):[]),...(s.rappel?[String(s.rappel)]:[])].forEach(r=>{if(!out.includes(r))out.push(r);});});
+  return out;
+}
+function rappelHTML(){const r=rappels();return r.length?`<div class="alert rappel" role="note"><h2>Précautions pour toi</h2><ul>${r.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:'';}
+function catIds(c){return arr(c.sous).length?[].concat(...c.sous.map(g=>arr(g.liste))):arr(c.liste);}
+function catList(c){const ids=catIds(c);return ids.length?ids.map(id=>SYM[id]).filter(Boolean):Object.values(SYM).filter(s=>s.cat===c.id);}
+function catBody(c){
+  const chips=list=>`<div class="chips">${list.map(s=>symChip(s.id)).join('')}</div>`;
+  let h=c.note?`<p class="cat-note">${esc(c.note)}</p>`:'';
+  if(c.guide)h+=`<button type="button" class="guide-b" data-guide="${esc(c.id)}"><span>${esc(c.guide)}</span><span aria-hidden="true">›</span></button>`;
+  if(arr(c.sous).length)h+=c.sous.map(g=>{const l=arr(g.liste).map(id=>SYM[id]).filter(Boolean);return l.length?`<p class="cat-sub">${esc(g.nom||'')}</p>${chips(l)}`:'';}).join('');
+  else h+=chips(catList(c));
+  return h;
+}
 function catCount(cat){const c=SYMCATS.find(x=>x.id===cat);return c?catList(c).filter(s=>symSel.has(s.id)).length:0;}
 function renderSymList(){
   const box=$('#symlist');if(!box)return;
   box.innerHTML=SYMCATS.map(c=>{
     const list=catList(c);if(!list.length)return'';
     const k=catCount(c.id);
-    return `<details class="cat" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary><div class="chips">${list.map(s=>symChip(s.id)).join('')}</div></details>`;
+    return `<details class="cat${c.note||c.sous?' rich':''}" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary>${catBody(c)}</details>`;
   }).join('');
   accordion(box,v=>{openCat=v;});
 }
-function accordion(box,setOpen){
+function accordion(box,setOpen,scroller){
   let anchorTop=null;
   box.querySelectorAll('details.cat>summary').forEach(s=>s.addEventListener('click',()=>{anchorTop=s.getBoundingClientRect().top;}));
   box.querySelectorAll('details.cat').forEach(d=>d.addEventListener('toggle',()=>{
     if(d.open){
       setOpen(d.dataset.cat);
       box.querySelectorAll('details.cat[open]').forEach(o=>{if(o!==d)o.open=false;});
-      if(anchorTop!==null){const s=d.querySelector('summary');window.scrollBy(0,s.getBoundingClientRect().top-anchorTop);}
+      if(anchorTop!==null){const s=d.querySelector('summary'),dy=s.getBoundingClientRect().top-anchorTop;if(scroller)scroller.scrollTop+=dy;else window.scrollBy(0,dy);}
     }else if(![...box.querySelectorAll('details.cat')].some(o=>o.open)){setOpen(null);}
     anchorTop=null;
   }));
@@ -739,11 +775,14 @@ function renderSymResults(){
 <div class="chips small">${sel.map(s=>`<button type="button" class="chip rm" data-sym="${esc(s)}" aria-pressed="true" aria-label="Retirer ${esc(symName(s))}">${esc(symName(s))} <span aria-hidden="true">×</span></button>`).join('')}</div>`;
   const alerts=sel.filter(s=>SYM[s].alerte);
   if(alerts.length)h+=`<div class="alert" role="note"><h2>Quand consulter</h2><ul>${alerts.map(s=>`<li><b>${esc(SYM[s].nom)}.</b> ${esc(SYM[s].alerte)}</li>`).join('')}</ul></div>`;
+  h+=rappelHTML();
   if(!res.length){
     h+='<p class="msg">Pas encore de tableau qui correspond. Ajoute d\'autres symptômes, ou regarde les tableaux par organe.</p>';
   }else{
     const shown=showAll?res:res.slice(0,5);
-    h+=sel.length===1?`<h2 class="results-h">${plural(res.length,'tableau contient','tableaux contiennent')} ce signe</h2><p class="hint">Regarde les autres signes de chaque tableau (en gras, les signes clés) : celui où tu te reconnais le plus est le bon point de départ. Touche un signe pour l'ajouter.</p>`
+    const diag=sel.length===1&&arr(SYM[sel[0]].tab).length;
+    h+=diag?`<h2 class="results-h">${plural(res.length,'tableau souvent rencontré','tableaux souvent rencontrés')} avec ce diagnostic</h2><p class="hint">Ajoute tes autres symptômes pour savoir lequel te ressemble le plus. Touche un signe pour l'ajouter.</p>`
+      :sel.length===1?`<h2 class="results-h">${plural(res.length,'tableau contient','tableaux contiennent')} ce signe</h2><p class="hint">Regarde les autres signes de chaque tableau (en gras, les signes clés) : celui où tu te reconnais le plus est le bon point de départ. Touche un signe pour l'ajouter.</p>`
       :`<h2 class="results-h">${plural(res.length,'tableau possible','tableaux possibles')}</h2>`;
     h+='<div class="entries">';
     shown.forEach(r=>{
@@ -806,7 +845,7 @@ function signChips(list,key){
   return list.map(s=>`<button type="button" class="chip sign${key?' key':''}" data-sym="${esc(s)}" aria-pressed="${symSel.has(s)}">${esc(symName(s))}</button>`).join('');
 }
 function renderTableauDetail(t){
-  const n=[...t._cle,...t._autres].filter(s=>symSel.has(s)).length;
+  const n=[...t._cle,...t._autres,...t._lies].filter(s=>symSel.has(s)).length;
   const me=n?matchTableaux().find(x=>x.t===t):null;let compatH='';
   if(me){const [cls,lab]=force(me);compatH=`<div class="compat">${ringHTML(me.pct,cls,true)}<div><b>Compatible à ${me.pct} % avec tes symptômes</b><span>${esc(lab.charAt(0).toUpperCase()+lab.slice(1))} · ${symSel.size===1?'ton signe s\'y retrouve':me.m.length+' de tes '+symSel.size+' signes s\'y retrouve'+(me.m.length>1?'nt':'')}</span></div></div>`;}
   let h=`<div class="fiche tableau">${barHTML('t',t.id,t._label)}
@@ -815,9 +854,11 @@ ${t.simple?`<p class="dsimple">${esc(t.simple)}</p>`:''}${t._rep.length?`<p clas
 ${compatH}<p class="sub"><span lang="zh-Hans">${esc(t.zh||'')}</span>${t.py?` · ${esc(t.py)}`:''}</p>
 ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
   if(t.consulter)h+=`<div class="alert" role="note"><h2>Avis médical</h2><p>${esc(t.consulter)}</p></div>`;
+  h+=rappelHTML();
   if(arr(t.causes).length)h+=`<h2 class="sec">Causes fréquentes</h2><ul class="bullets">${t.causes.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
   if(t.mecanisme)h+=`<h2 class="sec">Ce qui se passe</h2><p class="prose">${esc(t.mecanisme)}</p>`;
   h+=`<h2 class="sec">Signes${n?` <span class="sec-n">${n} chez toi</span>`:''}</h2><p class="hint">Les signes clés sont en gras. Touche un signe pour l'ajouter à tes symptômes.</p><div class="chips">${signChips(t._cle,true)}${signChips(t._autres,false)}</div>`;
+  if(t._lies.length)h+=`<p class="hint lies-h">Tableau souvent rencontré avec ces diagnostics médicaux, en plus de leur traitement :</p><div class="chips lies">${signChips(t._lies,false)}</div>`;
   h+=`<dl class="kv tongue">${t.langue?`<dt>Langue</dt><dd>${esc(t.langue)}</dd>`:''}${t.pouls?`<dt>Pouls</dt><dd>${esc(t.pouls)}</dd>`:''}</dl>`;
   h+=prinHTML(t);
   if(t._items.length){
@@ -977,6 +1018,7 @@ ${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:'
 <section class="card"><h2>À lire avant d'utiliser</h2><p>Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.</p><p>Ce n'est ni un diagnostic ni un traitement. Si un symptôme dure, s'aggrave ou t'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.</p></section>
 <h2 class="sec">Bien masser</h2>${acc(GUIDE,'g')}
 <h2 class="sec">Petit lexique</h2>${acc(LEXIQUE,'l')}
+${SYMCATS.some(c=>c.guide)?`<h2 class="sec">Guides santé</h2><div class="guides">${SYMCATS.filter(c=>c.guide).map(c=>`<button type="button" class="guide-b" data-guide="${esc(c.id)}"><span><b>${esc(c.court||c.nom)}</b>${esc(c.guide)}</span><span aria-hidden="true">›</span></button>`).join('')}</div>`:''}
 <section class="card"><h2>Astuces</h2><p>Reste appuyé sur une fiche ou un tableau pour l'ajouter aux favoris ou à un carnet, le partager ou le retirer. Sans lâcher, fais-la glisser vers le haut de l'écran pour la déposer dans un carnet.</p><p>Dans le carnet : fais glisser une fiche pour changer l'ordre, reste appuyé sur un onglet pour le déplacer, et touche « Sélectionner » pour cocher plusieurs fiches à la fois (tout cocher, favoris, ajouter, déplacer, retirer).</p><p>« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.</p></section>
 <section class="card"><h2>Installer sur ton téléphone</h2>${inst}</section>
 <section class="card"><h2>Faire découvrir l'appli</h2><p>Envoie le lien à tes proches : ils l'ouvrent dans Chrome et l'installent comme toi.</p><button type="button" class="primary" data-shareapp="1">Partager l'appli</button></section>
@@ -1087,7 +1129,7 @@ function renderFicheDetail(e){
 <header class="dhead"><p class="eyebrow">${esc(e.type==='recette'?((AXES.find(a=>a.id===e.axe)||{}).nom||'Recette'):longDate(e._d))}</p><h1 class="dtitle">${esc(e.titre)}</h1>${e.contexte?`<p class="ctx">${esc(e.contexte)}</p>`:''}
 ${tabs.length?`<div class="for"><span class="for-l">Conseillé pour</span>${tabs.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
 ${e._sym.length?`<div class="for">${e._sym.map(s=>`<span class="tag static">${esc(symName(s))}</span>`).join('')}</div>`:''}${prinHTML(e)}</header>
-${e.type==='protocole'?protoHTML(e):recipeHTML(e)}</div>`;
+${rappelHTML()}${e.type==='protocole'?protoHTML(e):recipeHTML(e)}</div>`;
   afterDetail(e);
 }
 function afterDetail(e){
@@ -1403,6 +1445,8 @@ document.addEventListener('click',ev=>{
   const b=ev.target.closest('button');if(!b)return;
   const d=b.dataset;
   if(b.closest('#sheet')){
+    if(d.opent){const id=d.opent;closeSheet(false,()=>openItem('t',id));return;}
+    if(d.gsym){toggleSym(d.gsym,null);const on=symSel.has(d.gsym);b.setAttribute('aria-pressed',String(on));b.textContent=gsymLabel(d.gsym);toast(on?'Ajouté : '+symName(d.gsym):'Retiré : '+symName(d.gsym));return;}
     if(d.pwtoggle){const i=b.parentNode.querySelector('input'),show=i.type==='password';i.type=show?'text':'password';b.textContent=show?'Masquer':'Afficher';b.setAttribute('aria-label',show?'Masquer le mot de passe':'Afficher le mot de passe');return;}
     if(d.act)onSheetAct(d.act);else if(b.classList.contains('sheet-cancel'))closeSheet();return;
   }
@@ -1441,6 +1485,7 @@ document.addEventListener('click',ev=>{
   if(d.clear==='ing'){have.clear();saveSet('ys.cuisine',have);refresh();return;}
   if(d.clear==='sym'){const old=[...symSel];symSel.clear();saveSet('ys.symptomes',symSel);symMode='choisir';refresh();toast('Symptômes effacés',()=>{old.forEach(s=>symSel.add(s));saveSet('ys.symptomes',symSel);refresh();});return;}
   if(d.fig){figSheet(d.fig);return;}
+  if(d.guide){guideSheet(d.guide);return;}
   if(d.shareapp){shareApp();return;}
   if(d.install&&installEvt){installEvt.prompt();installEvt.userChoice.finally(()=>{installEvt=null;if(tab==='infos'&&!route)renderInfos();});return;}
   if(d.serv&&route&&route.kind==='f'){
@@ -1525,7 +1570,7 @@ loadData().then(d=>{
   fiches=arr(DATA.fiches).map(normFiche).filter(Boolean)
     .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||(+a.ordre||0)-(+b.ordre||0)||String(a.titre).localeCompare(String(b.titre),'fr'));
   tableaux=arr(DATA.tableaux).map(normTableau).filter(Boolean);
-  SYMFREQ={};tableaux.forEach(t=>{t._cle.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+2;});t._autres.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+1;});});
+  SYMFREQ={};tableaux.forEach(t=>{t._cle.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+2;});t._autres.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+1;});t._lies.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+1;});});
   tableaux.forEach(t=>arr(t.recettes).forEach(id=>{const e=fiche(id);if(e&&!e._tab.includes(t.id))e._tab.push(t.id);}));
   [...symSel].forEach(s=>{if(!SYM[s])symSel.delete(s);});
   [...have].forEach(s=>{if(!INGC[s])have.delete(s);});

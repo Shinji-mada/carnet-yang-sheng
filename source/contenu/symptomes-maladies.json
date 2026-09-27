@@ -1,0 +1,629 @@
+{
+ "symptomes": [
+  {
+   "id": "fatigue-traitement",
+   "cat": "cancer",
+   "nom": "Fatigue pendant ou après un traitement du cancer",
+   "syn": "fatigue chimiothérapie chimio radiothérapie immunothérapie cancer asthénie épuisement",
+   "alerte": "Parle de cette fatigue à ton équipe de soins : une anémie ou un autre effet du traitement peut se corriger."
+  },
+  {
+   "id": "nausee-traitement",
+   "cat": "cancer",
+   "nom": "Nausées pendant une chimiothérapie",
+   "syn": "nausée nausées chimio chimiothérapie vomissements mal au cœur écœurement",
+   "alerte": "Si tu vomis plusieurs fois par jour ou si tu ne peux plus boire, préviens ton équipe de soins sans attendre."
+  },
+  {
+   "id": "mucite",
+   "cat": "cancer",
+   "nom": "Bouche sèche ou petites plaies dans la bouche après un traitement",
+   "syn": "mucite aphtes bouche sèche salive chimio radiothérapie goût perdu",
+   "alerte": "Si la douleur t'empêche de manger ou de boire, préviens ton équipe de soins."
+  },
+  {
+   "id": "neuropathie",
+   "cat": "cancer",
+   "nom": "Fourmillements ou engourdissement des mains et des pieds après une chimiothérapie",
+   "syn": "neuropathie fourmis fourmillements picotements engourdissement mains pieds chimio oxaliplatine taxol",
+   "alerte": "Signale ces fourmillements à ton oncologue : il peut adapter le traitement. Pas de bouillotte ni de moxa sur une zone moins sensible : risque de brûlure."
+  },
+  {
+   "id": "bouffees-hormono",
+   "cat": "cancer",
+   "nom": "Bouffées de chaleur dues à une hormonothérapie",
+   "syn": "hormonothérapie tamoxifène anti-aromatase bouffées de chaleur cancer du sein prostate",
+   "alerte": "N'arrête pas ton hormonothérapie sans en parler à ton oncologue : des solutions existent. Pas de compléments de soja, de trèfle rouge, de houblon ni d'angélique chinoise (dang gui)."
+  },
+  {
+   "id": "peau-radiotherapie",
+   "cat": "cancer",
+   "nom": "Peau rouge, sèche ou qui brûle sur la zone de radiothérapie",
+   "syn": "radiodermite brûlure radiothérapie rayons peau rouge peau sèche",
+   "alerte": "Ne mets rien sur la zone irradiée sans l'accord de ton équipe de radiothérapie, ne la masse pas et évite le soleil."
+  },
+  {
+   "id": "hashimoto",
+   "cat": "maladies",
+   "nom": "Hashimoto, hypothyroïdie",
+   "syn": "thyroïde hypothyroïdie hashimoto thyroïdite lévothyrox lévothyroxine TSH haute",
+   "alerte": "Continue ton traitement et tes prises de sang : ces routines l'accompagnent, elles ne le remplacent pas.",
+   "rappel": "Thyroïde : pas de compléments d'iode ni d'algues sans avis médical, et saute le wakame des recettes.",
+   "info": "Maladie auto-immune où la thyroïde ralentit : fatigue, frilosité, prise de poids, peau sèche, constipation, moral en baisse, cheveux qui tombent. Quand la thyroïde ne produit plus assez d'hormone, le traitement par hormone thyroïdienne se prend en général à vie, avec un contrôle régulier de la TSH.",
+   "mtc": "Surtout un Yang de la Rate et du Rein qui faiblit (froid, lenteur, gonflement), souvent avec de l'Humidité ; au début, une stagnation du Qi du Foie est fréquente.",
+   "tab": [
+    "rn-vide-yang",
+    "rate-rein-yang",
+    "rt-vide-yang",
+    "qi-sang",
+    "rt-froid-humidite",
+    "f-stagnation-qi"
+   ]
+  },
+  {
+   "id": "basedow",
+   "cat": "maladies",
+   "nom": "Basedow, hyperthyroïdie",
+   "syn": "thyroïde hyperthyroïdie basedow graves goitre yeux saillants exophtalmie TSH basse",
+   "alerte": "Une hyperthyroïdie se soigne avec un médecin. Sous traitement antithyroïdien, une fièvre ou un mal de gorge impose une prise de sang le jour même. Appelle le 15 en cas de fièvre avec cœur très rapide, grande agitation ou confusion.",
+   "rappel": "Thyroïde : pas de compléments d'iode ni d'algues sans avis médical, et saute le wakame des recettes.",
+   "info": "La thyroïde s'emballe : palpitations, amaigrissement malgré l'appétit, chaleur, transpiration, tremblements, nervosité, sommeil agité, parfois yeux qui ressortent. Elle se soigne par médicaments, iode radioactif ou chirurgie.",
+   "mtc": "Au début, Feu du Foie ou du Cœur ; avec le temps, un vide de Yin qui laisse la chaleur monter (sueurs, amaigrissement, palpitations).",
+   "tab": [
+    "f-feu",
+    "c-feu",
+    "c-vide-yin",
+    "rn-vide-yin",
+    "foie-rein-yin",
+    "f-yang",
+    "e-feu"
+   ]
+  },
+  {
+   "id": "hormonal",
+   "cat": "maladies",
+   "nom": "Problème hormonal (SOPK, andropause, prolactine…)",
+   "syn": "hormones hormonal déséquilibre hormonal sopk ovaires polykystiques progestérone œstrogènes prolactine testostérone basse andropause",
+   "alerte": "Garde ton suivi avec ton médecin, ton gynécologue ou ton endocrinologue, et signale-lui toute plante ou tout complément.",
+   "info": "Ovaires polykystiques (SOPK) : cycles longs ou absents, acné, poils, prise de poids. Baisse des hormones (ménopause, andropause) : bouffées de chaleur, fatigue, libido en berne. Syndrome prémenstruel marqué : seins tendus, irritabilité. Prolactine haute : règles perturbées, parfois écoulement des seins.",
+   "mtc": "SOPK : Humidité sur une Rate faible, avec stagnation du Foie ou Yang du Rein faible. Baisse d'hormones : vide de Yin et/ou de Yang du Rein. Syndrome prémenstruel : stagnation du Qi du Foie.",
+   "tab": [
+    "f-stagnation-qi",
+    "rt-froid-humidite",
+    "rn-vide-yin",
+    "rn-vide-yang",
+    "rn-yin-yang",
+    "rn-jing",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "parasitose",
+   "cat": "maladies",
+   "nom": "Parasites intestinaux (oxyures, giardia, ténia…)",
+   "syn": "parasite parasites parasitose vers oxyures ténia giardia amibes démangeaisons anus",
+   "alerte": "Une parasitose se confirme par une analyse de selles (ou un scotch-test pour les oxyures) et se traite avec un médicament : consulte ton médecin ou demande conseil à ton pharmacien, et traite toute la famille si besoin.",
+   "info": "Démangeaisons de l'anus la nuit (oxyures, fréquents chez l'enfant), ventre douloureux, selles molles, ballonnements, fatigue, parfois amaigrissement, surtout après un voyage. Lave-toi souvent les mains et garde les ongles courts pour éviter de te recontaminer.",
+   "mtc": "Les parasites s'installent sur un terrain d'Humidité-Chaleur des Intestins ou de Rate affaiblie : on corrige ce terrain (éliminer l'Humidité-Chaleur, renforcer la Rate), en plus du médicament.",
+   "tab": [
+    "gi-humidite-chaleur",
+    "rt-humidite-chaleur",
+    "rt-vide-qi",
+    "e-stagnation-alimentaire"
+   ]
+  },
+  {
+   "id": "chlamydia",
+   "cat": "ist",
+   "nom": "Chlamydia",
+   "syn": "chlamydiae chlamydia trachomatis salpingite IST MST",
+   "alerte": "Dépistage et traitement chez un médecin, une sage-femme ou dans un CeGIDD (gratuit). Évite les rapports sans préservatif jusqu'à la fin du traitement et préviens tes partenaires.",
+   "info": "L'IST bactérienne la plus fréquente, surtout avant 25 ans. Souvent aucun signe ; parfois brûlures en urinant, écoulement, saignements entre les règles, douleur du bas-ventre ou pendant les rapports. Non soignée, elle peut rendre stérile. Elle se soigne avec un antibiotique.",
+   "mtc": "Humidité-Chaleur qui descend dans le bas du corps. Les récidives viennent surtout d'une nouvelle contamination : préservatif, traitement des partenaires et nouveau test 3 à 6 mois après.",
+   "tab": [
+    "f-humidite-bas",
+    "v-humidite-chaleur",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "gonorrhee",
+   "cat": "ist",
+   "nom": "Gonorrhée (« chaude-pisse »)",
+   "syn": "gonorrhée gonocoque chaude-pisse chaude pisse blennorragie écoulement IST MST",
+   "alerte": "Dépistage et traitement chez un médecin, une sage-femme ou dans un CeGIDD (gratuit). Évite les rapports sans préservatif jusqu'à la fin du traitement et préviens tes partenaires.",
+   "info": "Écoulement jaune ou verdâtre par le pénis, brûlures fortes en urinant ; chez la femme, souvent discrète (pertes, saignements). Elle peut aussi toucher la gorge ou l'anus. Elle se soigne avec un antibiotique, souvent en une piqûre.",
+   "mtc": "Humidité-Chaleur de la Vessie et du méridien du Foie (le « syndrome Lin » 淋证 : urines difficiles et brûlantes).",
+   "tab": [
+    "v-humidite-chaleur",
+    "f-humidite-bas",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "syphilis",
+   "cat": "ist",
+   "nom": "Syphilis",
+   "syn": "syphilis chancre tréponème vérole IST MST",
+   "alerte": "Dépistage et traitement chez un médecin, une sage-femme ou dans un CeGIDD (gratuit). Évite les rapports sans préservatif jusqu'à la fin du traitement et préviens tes partenaires.",
+   "info": "Commence par une petite plaie indolore (chancre) sur le sexe, l'anus ou la bouche, qui disparaît seule en quelques semaines alors que l'infection continue ; ensuite, parfois, des taches sur la peau, les paumes et les plantes des pieds, avec fièvre et ganglions. Sans traitement, elle peut toucher les yeux, les oreilles et les nerfs parfois dès les premiers mois, et le cœur des années plus tard. Elle se soigne par piqûre d'antibiotique.",
+   "mtc": "Toxine d'Humidité-Chaleur qui passe dans le Sang.",
+   "tab": [
+    "f-humidite-bas",
+    "peau-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "herpes-genital",
+   "cat": "ist",
+   "nom": "Herpès génital",
+   "syn": "herpès génital HSV cloques vésicules boutons récidive IST MST",
+   "alerte": "Consulte dès la première poussée (médecin, sage-femme ou CeGIDD) : un traitement antiviral existe. Pas de rapports pendant une poussée (le préservatif ne protège qu'en partie). Enceinte, préviens ta sage-femme.",
+   "info": "Petites cloques douloureuses qui deviennent des plaies, souvent annoncées par des picotements. Le virus reste dans le corps et revient surtout avec la fatigue, le stress, les règles ou le soleil. Un traitement antiviral raccourcit les poussées ; parles-en à ton médecin, et à ta sage-femme en cas de grossesse.",
+   "mtc": "Pendant la poussée : Humidité-Chaleur du méridien du Foie. Entre les poussées : vide de Qi ou de Yin qui laisse la chaleur ressortir ; les routines peuvent alors accompagner le bien-être (sommeil, stress, fatigue), en plus du traitement antiviral si ton médecin le propose.",
+   "tab": [
+    "f-humidite-bas",
+    "peau-humidite-chaleur",
+    "rn-vide-yin",
+    "rt-vide-qi",
+    "poumon-rate-qi"
+   ]
+  },
+  {
+   "id": "hpv",
+   "cat": "ist",
+   "nom": "Papillomavirus (HPV), condylomes",
+   "syn": "papillomavirus hpv condylome condylomes crête de coq verrues génitales frottis col de l'utérus IST MST",
+   "alerte": "Les verrues génitales se traitent chez le médecin ou en CeGIDD. Fais ton dépistage du col de 25 à 65 ans. Le préservatif ne protège qu'en partie ; le vaccin protège mieux.",
+   "info": "Très fréquent, souvent sans aucun signe, et il disparaît seul la plupart du temps. Certains types donnent des verrues génitales (condylomes) ; d'autres, s'ils persistent, peuvent causer un cancer du col de l'utérus, de l'anus ou de la gorge. Le vaccin protège (conseillé de 11 à 14 ans, avec un rattrapage possible jusqu'à 26 ans, filles et garçons). Le dépistage du col se fait de 25 à 65 ans.",
+   "mtc": "Humidité-Chaleur et stagnation dans le bas du corps, sur une Rate affaiblie qui laisse revenir les verrues.",
+   "tab": [
+    "f-humidite-bas",
+    "rt-humidite-chaleur",
+    "stase-sang",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "vih",
+   "cat": "ist",
+   "nom": "VIH (sida)",
+   "syn": "vih sida hiv séropositif séropositivité prep tpe IST MST",
+   "alerte": "Après une prise de risque, va aux urgences pour un traitement d'urgence (TPE), au mieux dans les 4 heures et au plus tard dans les 48 heures. Sida Info Service : 0 800 840 800 (gratuit et anonyme, 7 j/7 de 8 h à 23 h).",
+   "rappel": "Traitement du VIH : aucune plante ni aucun complément sans l'avis de ton médecin (le millepertuis, par exemple, rend le traitement inefficace).",
+   "info": "Souvent aucun signe ; parfois, 2 à 6 semaines après la contamination, fièvre, gorge qui brûle, ganglions, boutons, comme une grippe. Un traitement pris chaque jour permet aujourd'hui de vivre normalement, et une personne traitée dont le virus est indétectable ne le transmet pas lors des rapports sexuels. La PrEP, un comprimé qui protège avant l'exposition, peut être prescrite par tout médecin. Signale à ton médecin toute plante ou complément : certains, comme le millepertuis, gênent le traitement.",
+   "mtc": "Vide profond de Qi, de Sang et d'Essence : les routines peuvent accompagner l'énergie, l'appétit, la digestion et le sommeil, en plus du traitement.",
+   "tab": [
+    "qi-sang",
+    "poumon-rate-qi",
+    "rt-vide-qi",
+    "rn-vide-yin",
+    "rn-jing"
+   ]
+  },
+  {
+   "id": "hepatite-b",
+   "cat": "ist",
+   "nom": "Hépatite B",
+   "syn": "hépatite b vhb foie jaunisse vaccin IST MST",
+   "alerte": "Dépistage gratuit en CeGIDD ou chez ton médecin. Une hépatite B chronique se suit chez un spécialiste du foie. Fais vacciner tes partenaires et tes proches, et utilise le préservatif en attendant.",
+   "rappel": "Foie : pas d'alcool, et aucune plante ni aucun complément sans l'avis de ton médecin.",
+   "info": "Virus du foie transmis par le sang et les rapports sexuels. Souvent sans signe ; parfois fatigue, nausées, jaunisse (peau et yeux jaunes), urines foncées. Elle peut devenir chronique et abîmer le foie : un suivi et parfois un traitement sont alors proposés. Un vaccin efficace existe.",
+   "mtc": "Au début, Humidité-Chaleur du Foie et de la Vésicule biliaire ; ensuite, le Foie qui agresse la Rate, puis un vide de Yin du Foie et du Rein.",
+   "tab": [
+    "f-humidite-chaleur",
+    "foie-rate",
+    "rt-vide-qi",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "hepatite-c",
+   "cat": "ist",
+   "nom": "Hépatite C",
+   "syn": "hépatite c vhc foie IST MST",
+   "alerte": "Dépistage gratuit en CeGIDD ou chez ton médecin, qui peut prescrire le traitement. Ne partage ni matériel de drogue, ni paille, ni rasoir, ni brosse à dents.",
+   "rappel": "Foie : pas d'alcool, et aucune plante ni aucun complément sans l'avis de ton médecin.",
+   "info": "Transmise surtout par le sang (matériel de drogue partagé, tatouage ou piercing non stérile), plus rarement par les rapports sexuels, surtout s'ils font saigner. Souvent silencieuse pendant des années. Elle se guérit aujourd'hui avec 8 à 12 semaines de comprimés.",
+   "mtc": "Humidité-Chaleur et stagnation dans le Foie, avec une Rate qui s'épuise.",
+   "tab": [
+    "f-humidite-chaleur",
+    "foie-rate",
+    "f-stagnation-qi",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "hepatite-a",
+   "cat": "ist",
+   "nom": "Hépatite A",
+   "syn": "hépatite a vha jaunisse IST MST",
+   "alerte": "Jaunisse ou urines foncées : consulte vite. Pas de traitement spécifique : repos, pas d'alcool, aucun médicament ni plante sans avis médical. Lave-toi bien les mains ; tes proches peuvent se faire vacciner.",
+   "rappel": "Foie : pas d'alcool, et aucune plante ni aucun complément sans l'avis de ton médecin.",
+   "info": "Transmise par l'eau ou les aliments souillés, et lors de rapports bouche-anus. Fièvre, fatigue, nausées, jaunisse ; elle guérit seule en quelques semaines et ne devient jamais chronique. Un vaccin existe.",
+   "mtc": "Humidité-Chaleur du Foie et de la Rate (la jaunisse « Yang », jaune vif).",
+   "tab": [
+    "f-humidite-chaleur",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "trichomonase",
+   "cat": "ist",
+   "nom": "Trichomonase",
+   "syn": "trichomonas trichomonase vaginite pertes verdâtres mousseuses IST MST",
+   "alerte": "Dépistage et traitement chez un médecin, une sage-femme ou dans un CeGIDD (gratuit). Évite les rapports sans préservatif jusqu'à la fin du traitement et préviens tes partenaires.",
+   "info": "Un parasite : pertes verdâtres, mousseuses et malodorantes, démangeaisons et brûlures chez la femme ; souvent aucun signe chez l'homme. Elle se soigne avec un médicament, à prendre aussi par le ou la partenaire.",
+   "mtc": "Humidité-Chaleur qui descend, avec des démangeaisons de type « Vent ».",
+   "tab": [
+    "f-humidite-bas",
+    "rt-humidite-chaleur",
+    "v-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "mycoplasma",
+   "cat": "ist",
+   "nom": "Mycoplasma genitalium",
+   "syn": "mycoplasme mycoplasma genitalium urétrite IST MST",
+   "alerte": "Dépistage et traitement chez un médecin, une sage-femme ou dans un CeGIDD (gratuit). Évite les rapports sans préservatif jusqu'à la fin du traitement et préviens tes partenaires.",
+   "info": "Bactérie proche de la chlamydia : brûlures, écoulement, douleur du bas-ventre, ou aucun signe. On la recherche surtout quand les signes persistent malgré un premier traitement.",
+   "mtc": "Humidité-Chaleur qui descend dans le bas du corps.",
+   "tab": [
+    "f-humidite-bas",
+    "v-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "lgv",
+   "cat": "ist",
+   "nom": "Lymphogranulomatose vénérienne (LGV)",
+   "syn": "lgv lymphogranulomatose vénérienne rectite anus ganglions aine chlamydia IST MST",
+   "alerte": "Dépistage et traitement chez un médecin, une sage-femme ou dans un CeGIDD (gratuit). Évite les rapports sans préservatif jusqu'à la fin du traitement et préviens tes partenaires.",
+   "info": "Forme particulière de chlamydia, surtout chez les hommes ayant des rapports avec des hommes : douleur de l'anus, saignements, écoulement, ganglions gonflés dans l'aine. Elle se soigne avec 3 semaines d'antibiotique.",
+   "mtc": "Humidité-Chaleur des Intestins et du bas du corps, avec stase de Sang dans les ganglions.",
+   "tab": [
+    "gi-humidite-chaleur",
+    "f-humidite-bas",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "chancre-mou",
+   "cat": "ist",
+   "nom": "Chancre mou et donovanose (rares)",
+   "syn": "chancre mou donovanose ulcère génital IST MST voyage",
+   "alerte": "Dépistage et traitement chez un médecin, une sage-femme ou dans un CeGIDD (gratuit). Évite les rapports sans préservatif jusqu'à la fin du traitement et préviens tes partenaires.",
+   "info": "Rares en France, plus fréquents après un voyage en Afrique, en Asie ou en Amérique du Sud : plaie génitale douloureuse (chancre mou) ou plaie qui s'étend sans douleur (donovanose), parfois avec de gros ganglions. Elles se soignent avec un antibiotique.",
+   "mtc": "Toxine de Chaleur et d'Humidité dans le méridien du Foie.",
+   "tab": [
+    "f-humidite-bas",
+    "peau-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "morpions",
+   "cat": "ist",
+   "nom": "Morpions (poux du pubis)",
+   "syn": "morpions poux du pubis phtiriase démangeaisons pubis IST MST",
+   "alerte": "Lotion en pharmacie, à appliquer en même temps par le ou la partenaire. Le préservatif ne protège pas : évite les contacts intimes jusqu'à la fin du traitement et fais un dépistage des autres IST.",
+   "info": "Petits poux accrochés aux poils du pubis : démangeaisons surtout la nuit, petites taches bleutées. Ils se traitent avec une lotion vendue en pharmacie ; lave draps et vêtements à 60 °C et traite aussi le ou la partenaire.",
+   "mtc": "Les démangeaisons correspondent à du Vent-Chaleur dans la peau ; ces tableaux aident à les calmer, en plus de la lotion.",
+   "tab": [
+    "peau-vent-chaleur",
+    "peau-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "gale",
+   "cat": "ist",
+   "nom": "Gale",
+   "syn": "gale sarcopte démangeaisons nocturnes sillons IST MST",
+   "alerte": "Consulte ton médecin : toute la maison et les partenaires se traitent le même jour. Le préservatif ne protège pas : évite les contacts peau à peau jusqu'au traitement.",
+   "info": "Un petit acarien sous la peau : démangeaisons intenses la nuit, entre les doigts, aux poignets, sur les parties génitales. Elle se transmet par un contact peau à peau prolongé (rapports, vie de famille). Le médecin prescrit un traitement pour toute la maison en même temps, avec lavage du linge à 60 °C.",
+   "mtc": "Humidité-Chaleur et Vent dans la peau.",
+   "tab": [
+    "peau-humidite-chaleur",
+    "peau-vent-chaleur"
+   ]
+  },
+  {
+   "id": "molluscum",
+   "cat": "ist",
+   "nom": "Molluscum contagiosum",
+   "syn": "molluscum contagiosum petites boules nacrées IST MST",
+   "alerte": "Montre-les à un médecin. Ne les gratte pas et ne rase pas la zone : cela les étend.",
+   "info": "Petites boules nacrées avec un creux au centre, sur le pubis, les cuisses ou le bas du ventre. Bénignes, elles disparaissent souvent seules en quelques mois ; le médecin peut les retirer.",
+   "mtc": "Vent-Chaleur et Humidité dans la peau, sur une Rate un peu faible.",
+   "tab": [
+    "peau-humidite-chaleur",
+    "peau-vent-chaleur",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "mpox",
+   "cat": "ist",
+   "nom": "Mpox (variole du singe)",
+   "syn": "mpox monkeypox variole du singe cloques IST MST",
+   "alerte": "Isole-toi, couvre les boutons et appelle ton médecin ou un CeGIDD. Un vaccin est proposé aux personnes les plus exposées.",
+   "info": "Fièvre, fatigue, ganglions, puis boutons qui deviennent des cloques puis des croûtes, souvent sur le sexe, l'anus ou la bouche. Elle se transmet par contact étroit, surtout lors des rapports sexuels. Elle guérit en général en 2 à 4 semaines.",
+   "mtc": "Au début, Vent-Chaleur (fièvre) puis Humidité-Chaleur dans la peau (cloques) ; ensuite, soutenir le Qi et le Sang pour récupérer.",
+   "tab": [
+    "p-vent-chaleur",
+    "peau-humidite-chaleur",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-sein",
+   "cat": "cancer",
+   "nom": "Cancer du sein",
+   "syn": "cancer du sein tumeur sein mastectomie tumorectomie",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "rappel": "Si ton cancer est hormonodépendant (sensible aux hormones), évite les compléments de soja, de trèfle rouge et de houblon, et l'angélique chinoise (dang gui), y compris dans les recettes.",
+   "info": "Traitements : chirurgie, radiothérapie, chimiothérapie, et souvent hormonothérapie pendant 5 ans ou plus. Effets fréquents : fatigue, bouffées de chaleur et douleurs des articulations sous hormonothérapie, bras gonflé (lymphœdème), moral en baisse, peur de la récidive.",
+   "mtc": "Stagnation du Qi du Foie (émotions, seins), vide de Qi et de Sang après la chimiothérapie, vide de Yin du Rein sous hormonothérapie.",
+   "tab": [
+    "f-stagnation-qi",
+    "qi-sang",
+    "rn-vide-yin",
+    "rn-yin-yang",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "cancer-prostate",
+   "cat": "cancer",
+   "nom": "Cancer de la prostate",
+   "syn": "cancer de la prostate tumeur prostate PSA prostatectomie",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "rappel": "Si ton cancer est hormonodépendant (sensible aux hormones), évite les compléments de soja, de trèfle rouge et de houblon, et l'angélique chinoise (dang gui), y compris dans les recettes.",
+   "info": "Traitements : surveillance, chirurgie, radiothérapie, hormonothérapie. Effets fréquents : fuites urinaires, troubles de l'érection, bouffées de chaleur et fatigue sous hormonothérapie, envies pressantes après la radiothérapie.",
+   "mtc": "Le Qi du Rein ne retient plus (fuites), vide de Yin ou de Yang du Rein (bouffées de chaleur, érection), Humidité-Chaleur de la Vessie après la radiothérapie.",
+   "tab": [
+    "rn-qi-non-ferme",
+    "rn-vide-yin",
+    "rn-vide-yang",
+    "rn-yin-yang",
+    "v-humidite-chaleur",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-poumon",
+   "cat": "cancer",
+   "nom": "Cancer du poumon",
+   "syn": "cancer du poumon tumeur poumon bronches",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : essoufflement, toux, grande fatigue, perte d'appétit et de poids, gorge et bouche sèches après la radiothérapie.",
+   "mtc": "Vide de Qi et de Yin du Poumon, avec une Rate épuisée qui nourrit mal.",
+   "tab": [
+    "p-vide-qi",
+    "p-vide-yin",
+    "poumon-rate-qi",
+    "qi-sang",
+    "rn-recevoir-qi"
+   ]
+  },
+  {
+   "id": "cancer-colon",
+   "cat": "cancer",
+   "nom": "Cancer du côlon, du rectum ou de l'anus",
+   "syn": "cancer colorectal côlon colon rectum anus intestin stomie",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : diarrhée ou constipation, ballonnements, fatigue, fourmillements des mains et des pieds après certaines chimiothérapies, stomie, gêne après la radiothérapie du bassin.",
+   "mtc": "Vide de Qi de la Rate, Humidité-Chaleur des Intestins, vide de Sang pour les fourmillements.",
+   "tab": [
+    "rt-vide-qi",
+    "gi-humidite-chaleur",
+    "gi-constipation-vide",
+    "f-vide-sang",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-estomac",
+   "cat": "cancer",
+   "nom": "Cancer de l'estomac ou de l'œsophage",
+   "syn": "cancer de l'estomac œsophage oesophage gastrectomie",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : repas difficiles, vite rassasié, nausées, reflux, amaigrissement, fatigue. Après une chirurgie, de petits repas fréquents passent mieux.",
+   "mtc": "Rébellion du Qi de l'Estomac, vide de Qi et de Yin de l'Estomac.",
+   "tab": [
+    "e-rebellion",
+    "e-vide-qi",
+    "e-vide-yin",
+    "rt-vide-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-pancreas",
+   "cat": "cancer",
+   "nom": "Cancer du pancréas",
+   "syn": "cancer du pancréas pancreas tumeur",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : grande fatigue, perte d'appétit et de poids, graisses mal digérées (selles grasses), douleur du haut du ventre ou du dos, parfois diabète. Des enzymes pancréatiques prescrites aident la digestion.",
+   "mtc": "Vide de Qi de la Rate avec Humidité, stagnation du Qi du Foie.",
+   "tab": [
+    "rt-vide-qi",
+    "rt-froid-humidite",
+    "foie-rate",
+    "f-stagnation-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-foie",
+   "cat": "cancer",
+   "nom": "Cancer du foie ou des voies biliaires",
+   "syn": "cancer du foie hépatocarcinome voies biliaires vésicule cholangiocarcinome",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "rappel": "Foie : pas d'alcool, et aucune plante ni aucun complément sans l'avis de ton médecin.",
+   "info": "Effets fréquents : fatigue, ventre gonflé, perte d'appétit, jaunisse, démangeaisons. Le foie malade supporte mal les plantes et les compléments : rien sans l'accord de ton médecin.",
+   "mtc": "Humidité-Chaleur du Foie et de la Vésicule biliaire, Foie qui agresse la Rate, Rate épuisée.",
+   "tab": [
+    "f-humidite-chaleur",
+    "foie-rate",
+    "rt-vide-qi",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "cancer-uterus",
+   "cat": "cancer",
+   "nom": "Cancer de l'utérus ou du col de l'utérus",
+   "syn": "cancer de l'utérus endomètre col de l'utérus ablation de l'utérus curiethérapie",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "rappel": "Si ton cancer est hormonodépendant (sensible aux hormones), évite les compléments de soja, de trèfle rouge et de houblon, et l'angélique chinoise (dang gui), y compris dans les recettes.",
+   "info": "Effets fréquents : fatigue, ménopause brutale si les ovaires sont retirés ou irradiés (bouffées de chaleur, sécheresse intime), troubles urinaires ou digestifs après la radiothérapie du bassin, jambes gonflées.",
+   "mtc": "Vide de Qi et de Sang, vide de Yin et de Yang du Rein (ménopause provoquée), Humidité-Chaleur dans le bas du corps après la radiothérapie.",
+   "tab": [
+    "qi-sang",
+    "rn-yin-yang",
+    "rn-vide-yin",
+    "rt-vide-qi",
+    "gi-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "cancer-ovaire",
+   "cat": "cancer",
+   "nom": "Cancer de l'ovaire",
+   "syn": "cancer de l'ovaire ovaires tumeur",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "rappel": "Si ton cancer est hormonodépendant (sensible aux hormones), évite les compléments de soja, de trèfle rouge et de houblon, et l'angélique chinoise (dang gui), y compris dans les recettes.",
+   "info": "Effets fréquents : fatigue, ventre gonflé, digestion difficile, ménopause brutale, fourmillements après la chimiothérapie.",
+   "mtc": "Vide de Qi et de Sang, Rate faible, vide de Yin et de Yang du Rein, stagnation du Qi du Foie.",
+   "tab": [
+    "qi-sang",
+    "rt-vide-qi",
+    "rn-yin-yang",
+    "f-stagnation-qi",
+    "f-vide-sang"
+   ]
+  },
+  {
+   "id": "cancer-vessie",
+   "cat": "cancer",
+   "nom": "Cancer de la vessie ou du rein",
+   "syn": "cancer de la vessie cancer du rein tumeur vessie rein BCG",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : envies pressantes, brûlures ou sang dans les urines après un traitement dans la vessie, fatigue, parfois une stomie urinaire.",
+   "mtc": "Humidité-Chaleur de la Vessie, Qi du Rein qui ne retient plus, vide de Yin du Rein.",
+   "tab": [
+    "v-humidite-chaleur",
+    "rn-qi-non-ferme",
+    "rn-vide-yin",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-orl",
+   "cat": "cancer",
+   "nom": "Cancer de la bouche, de la gorge ou du larynx",
+   "syn": "cancer ORL gorge larynx pharynx bouche langue amygdale",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : bouche très sèche, plaies dans la bouche, difficulté à avaler, goût perdu, cou raide et peau abîmée après la radiothérapie.",
+   "mtc": "Vide de Yin de l'Estomac, du Poumon et du Rein : la chaleur des rayons a brûlé les liquides.",
+   "tab": [
+    "e-vide-yin",
+    "p-vide-yin",
+    "rn-vide-yin",
+    "p-secheresse",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-thyroide",
+   "cat": "cancer",
+   "nom": "Cancer de la thyroïde",
+   "syn": "cancer de la thyroïde thyroïdectomie iode radioactif",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : fatigue, voix changée après la chirurgie, prise de poids ou nervosité selon la dose d'hormone thyroïdienne, bouche sèche après l'iode radioactif.",
+   "mtc": "Vide de Yang ou de Yin selon le dosage de l'hormone, et stagnation du Qi du Foie.",
+   "tab": [
+    "rn-vide-yang",
+    "c-vide-yin",
+    "f-stagnation-qi",
+    "qi-sang",
+    "p-vide-yin"
+   ]
+  },
+  {
+   "id": "cancer-peau",
+   "cat": "cancer",
+   "nom": "Cancer de la peau, mélanome",
+   "syn": "cancer de la peau mélanome carcinome grain de beauté",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : cicatrices, fatigue, réactions de la peau sous immunothérapie (démangeaisons, plaques). Protège ta peau du soleil et montre au médecin tout grain de beauté qui change.",
+   "mtc": "Vent-Chaleur ou vide de Sang dans la peau, vide de Qi et de Sang.",
+   "tab": [
+    "qi-sang",
+    "peau-vent-chaleur",
+    "peau-vide-sang",
+    "peau-chaleur-sang"
+   ]
+  },
+  {
+   "id": "cancer-sang",
+   "cat": "cancer",
+   "nom": "Leucémie, lymphome, myélome (cancers du sang)",
+   "syn": "leucémie lymphome myélome hodgkin cancer du sang moelle greffe",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : grande fatigue, infections, bleus faciles, sueurs la nuit, douleurs des os (myélome), longue récupération après une greffe. Plaquettes basses : pression très douce et pas de moxa. Globules blancs bas : suis les consignes de ton service (souvent ni viande, poisson, coquillages ou œufs crus, ni lait ou fromage au lait cru).",
+   "mtc": "Vide profond de Qi, de Sang et d'Essence, vide de Yin avec sueurs nocturnes, Rate qui ne retient plus le Sang.",
+   "tab": [
+    "qi-sang",
+    "rn-jing",
+    "rn-vide-yin",
+    "rt-sang",
+    "p-vide-qi"
+   ]
+  },
+  {
+   "id": "cancer-cerveau",
+   "cat": "cancer",
+   "nom": "Tumeur du cerveau",
+   "syn": "cancer du cerveau tumeur cérébrale gliome glioblastome",
+   "alerte": "Maux de tête nouveaux avec vomissements, crise d'épilepsie, faiblesse d'un côté ou confusion : appelle le 15. Ces routines accompagnent ton traitement, jamais à sa place.",
+   "info": "Effets fréquents : fatigue, maux de tête, mémoire et concentration plus difficiles, humeur changeante, parfois crises d'épilepsie.",
+   "mtc": "Vide d'Essence du Rein qui nourrit mal le cerveau (la « mer des moelles »), vide de Sang du Cœur, Yang du Foie qui monte.",
+   "tab": [
+    "rn-jing",
+    "c-vide-sang",
+    "coeur-rate",
+    "f-yang"
+   ]
+  },
+  {
+   "id": "cancer-testicule",
+   "cat": "cancer",
+   "nom": "Cancer du testicule",
+   "syn": "cancer du testicule testicules tumeur",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Il touche surtout les hommes jeunes et guérit dans la grande majorité des cas. Effets fréquents : fatigue, nausées et fourmillements après la chimiothérapie, questions de fertilité (une conservation du sperme est proposée avant le traitement), moral.",
+   "mtc": "Vide de Qi et de Sang, vide d'Essence et de Yang du Rein.",
+   "tab": [
+    "qi-sang",
+    "rn-jing",
+    "rn-vide-yang",
+    "e-rebellion"
+   ]
+  },
+  {
+   "id": "cancer-os",
+   "cat": "cancer",
+   "nom": "Cancer des os, sarcome",
+   "syn": "cancer des os sarcome ostéosarcome métastases osseuses",
+   "alerte": "Ces routines accompagnent ton traitement, jamais à sa place. Parle à ton équipe de soins de toute plante ou complément, et appelle-la sans attendre en cas de fièvre pendant une chimiothérapie.",
+   "info": "Effets fréquents : douleurs, fatigue, mobilité réduite après la chirurgie, longue rééducation. Ne masse jamais une zone osseuse atteinte.",
+   "mtc": "Vide d'Essence du Rein (qui gouverne les os), vide de Qi et de Sang.",
+   "tab": [
+    "rn-jing",
+    "qi-sang"
+   ]
+  }
+ ]
+}

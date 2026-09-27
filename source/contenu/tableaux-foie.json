@@ -31,7 +31,10 @@
     "erection",
     "libido",
     "douleur-testicules",
-    "cycles-irreguliers"
+    "cycles-irreguliers",
+    "douleur-omoplates",
+    "omoplate-hypocondre",
+    "gynecomastie"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges.",
@@ -137,7 +140,8 @@
     "douleur-genou",
     "peau-terne",
     "cephalee-sourde",
-    "fertilite"
+    "fertilite",
+    "neuropathie"
    ],
    "contre": [
     "langue-rouge",
@@ -444,7 +448,9 @@
     "urines-foncees",
     "pertes-jaunes",
     "eczema-suintant",
-    "teint-jaune"
+    "teint-jaune",
+    "douleur-omoplates",
+    "omoplate-hypocondre"
    ],
    "contre": [
     "frilosite",
@@ -626,7 +632,9 @@
     "nausee",
     "hoquet",
     "soupirs",
-    "douleur-estomac-brulure"
+    "douleur-estomac-brulure",
+    "omoplate-hypocondre",
+    "nausee-traitement"
    ],
    "contre": [],
    "langue": "Normale ou bords rouges.",

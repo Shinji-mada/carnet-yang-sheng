@@ -24,7 +24,8 @@
     "langue-pale",
     "voix-faible",
     "tristesse",
-    "oppression"
+    "oppression",
+    "sueurs-spontanees"
    ],
    "contre": [
     "langue-rouge"
@@ -208,7 +209,8 @@
     "chaleur-5-coeurs",
     "pointe-rouge",
     "langue-rouge-sans-enduit",
-    "pommettes-rouges"
+    "pommettes-rouges",
+    "bouffees-hormono"
    ],
    "contre": [
     "langue-pale",
@@ -303,7 +305,8 @@
     "sommeil-agite",
     "gout-amer",
     "pollutions-nocturnes",
-    "brulures-urinaires"
+    "brulures-urinaires",
+    "mucite"
    ],
    "contre": [
     "langue-pale",
@@ -398,7 +401,8 @@
     "ejaculation-precoce",
     "pertes-seminales",
     "libido",
-    "envie-sucre"
+    "envie-sucre",
+    "fatigue-traitement"
    ],
    "contre": [
     "langue-rouge"
@@ -500,7 +504,8 @@
     "pertes-seminales",
     "libido-excessive",
     "ejaculation-precoce",
-    "chaleur-corps"
+    "chaleur-corps",
+    "bouffees-hormono"
    ],
    "contre": [
     "langue-pale",

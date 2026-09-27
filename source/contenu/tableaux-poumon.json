@@ -30,7 +30,8 @@
     "tristesse",
     "aversion-froid",
     "eternuements",
-    "constipation-effort"
+    "constipation-effort",
+    "sueurs-spontanees"
    ],
    "contre": [
     "langue-rouge",
@@ -141,7 +142,8 @@
     "langue-pale",
     "langue-gonflee",
     "eternuements",
-    "toux-faible"
+    "toux-faible",
+    "sueurs-spontanees"
    ],
    "contre": [
     "chaleur-corps",
@@ -254,7 +256,9 @@
     "amaigrissement",
     "crachats-sang",
     "nez-sec",
-    "langue-fissuree"
+    "langue-fissuree",
+    "mucite",
+    "peau-radiotherapie"
    ],
    "contre": [
     "toux-glaires-blanches",

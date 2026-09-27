@@ -50,9 +50,16 @@ def check(data):
         if dup: errs.append(f"{coll} : identifiants en double {sorted(dup)}")
     for s in data.get("symptomes", []):
         if s.get("cat") not in cats: errs.append(f"symptôme {s['id']} : catégorie inconnue {s.get('cat')}")
+    tids = {t["id"] for t in data.get("tableaux", [])}
     for c in data.get("categories_symptomes", []):
-        for x in c.get("liste", []):
+        for x in c.get("liste", []) + [x for g in c.get("sous", []) for x in g.get("liste", [])]:
             if x not in sym: errs.append(f"rubrique {c['id']} : symptôme inconnu {x}")
+        if c.get("guide") and not any(s.get("info") and s["id"] in c.get("liste", []) + [x for g in c.get("sous", []) for x in g.get("liste", [])] for s in data.get("symptomes", [])):
+            errs.append(f"rubrique {c['id']} : guide sans aucune fiche « info »")
+    for s in data.get("symptomes", []):
+        for t in s.get("tab", []):
+            if t not in tids: errs.append(f"diagnostic {s['id']} : tableau inconnu {t}")
+        if s.get("tab") and not s.get("info"): errs.append(f"diagnostic {s['id']} : texte « info » manquant")
     def items_of(x):
         for ph in x.get("phases", []):
             if ph.get("m") not in ("d", "t", "w"): errs.append(f"{x['id']} : phase inconnue {ph.get('m')}")
@@ -90,7 +97,7 @@ def check(data):
                         if ref not in ids: errs.append(f"recette {f['id']} : {{{ref}}} absent des ingrédients")
     # Couverture : chaque symptôme mène à un tableau, chaque tableau à des recettes, chaque recette à un tableau
     tabs = data.get("tableaux", [])
-    used = {s for t in tabs for s in t.get("cle", []) + t.get("autres", [])}
+    used = {s for t in tabs for s in t.get("cle", []) + t.get("autres", [])} | {s["id"] for s in data.get("symptomes", []) if s.get("tab")}
     for s in sorted(sym - used): errs.append(f"symptôme {s} : relié à aucun tableau")
     for t in tabs:
         if len(t.get("recettes", [])) < 2: errs.append(f"tableau {t['id']} : moins de 2 recettes")

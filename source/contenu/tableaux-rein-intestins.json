@@ -40,7 +40,10 @@
     "mictions-frequentes",
     "fertilite",
     "humidite-intime",
-    "cycles-irreguliers"
+    "cycles-irreguliers",
+    "fatigue-matin",
+    "sueurs-spontanees",
+    "gynecomastie"
    ],
    "contre": [
     "chaleur-corps",
@@ -167,7 +170,11 @@
     "douleur-genou",
     "secheresse-intime",
     "fertilite",
-    "cycles-irreguliers"
+    "cycles-irreguliers",
+    "gynecomastie",
+    "vesicules-genitales",
+    "mucite",
+    "bouffees-hormono"
    ],
    "contre": [
     "frilosite",
@@ -477,7 +484,8 @@
     "douleur-genou",
     "teint-sombre",
     "cephalee-sourde",
-    "cycles-irreguliers"
+    "cycles-irreguliers",
+    "fatigue-traitement"
    ],
    "contre": [],
    "langue": "Variable, souvent pâle ou rouge sans enduit.",
@@ -564,7 +572,8 @@
     "enduit-jaune",
     "fievre",
     "lombalgie-sourde",
-    "mictions-frequentes"
+    "mictions-frequentes",
+    "ecoulement"
    ],
    "contre": [
     "urines-claires",

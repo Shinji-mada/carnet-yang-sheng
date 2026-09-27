@@ -1,5 +1,5 @@
 {
- "version": "0.10.1",
+ "version": "0.11.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -73,6 +73,153 @@
   {
    "id": "intimite",
    "nom": "Sexualité, fertilité"
+  },
+  {
+   "id": "ist",
+   "nom": "IST (MST) : infections sexuellement transmissibles",
+   "court": "IST",
+   "note": "Une IST se soigne avec un médecin, et beaucoup ne donnent aucun signe : le dépistage est gratuit en CeGIDD. Les tableaux soutiennent ton confort et ton terrain, en plus du traitement.",
+   "guide": "Chaque IST : signes, dépistage et tableaux",
+   "intro": [
+    "Les IST se transmettent lors des rapports sexuels (vaginaux, anaux ou bouche-sexe), et parfois par le sang ou de la mère à l'enfant. Beaucoup ne donnent aucun signe : seul un test permet de savoir.",
+    "Où se faire dépister : dans un CeGIDD (gratuit, anonyme si tu le veux), chez ton médecin, une sage-femme ou dans un centre de santé sexuelle. En laboratoire, sans ordonnance : le test du VIH est gratuit pour tous, et celui de la chlamydia, du gonocoque, de la syphilis et de l'hépatite B l'est aussi avant 26 ans (« Mon test IST »).",
+    "Le préservatif protège de la plupart des IST. Des vaccins existent contre l'hépatite B, l'hépatite A, le papillomavirus (HPV) et la mpox.",
+    "La médecine chinoise ne soigne pas une IST. Les tableaux indiqués soutiennent le terrain et le confort (démangeaisons, brûlures, fatigue), toujours en plus du traitement médical.",
+    "Sida Info Service : 0 800 840 800 (gratuit et anonyme, 7 j/7 de 8 h à 23 h) pour toutes les questions sur les IST."
+   ],
+   "precautions": [
+    "Rapport sans préservatif ou préservatif qui a craqué : va vite aux urgences (ou dans un CeGIDD en journée) pour évaluer le risque de VIH ; le traitement d'urgence (TPE) se prend au mieux dans les 4 heures, au plus tard dans les 48 heures. S'il y a un risque de grossesse, la contraception d'urgence est gratuite et sans ordonnance en pharmacie. Fais ensuite un dépistage des IST.",
+    "Pendant une infection, évite les rapports jusqu'à la fin du traitement et préviens tes partenaires pour qu'ils se fassent dépister.",
+    "Ne masse pas une zone avec plaie, cloques ou verrues, et lave-toi les mains après y avoir touché."
+   ],
+   "sous": [
+    {
+     "nom": "Les infections",
+     "liste": [
+      "chlamydia",
+      "gonorrhee",
+      "syphilis",
+      "herpes-genital",
+      "hpv",
+      "vih",
+      "hepatite-b",
+      "hepatite-c",
+      "hepatite-a",
+      "trichomonase",
+      "mycoplasma",
+      "lgv",
+      "chancre-mou",
+      "morpions",
+      "gale",
+      "molluscum",
+      "mpox"
+     ]
+    },
+    {
+     "nom": "Signes à surveiller",
+     "liste": [
+      "ecoulement",
+      "brulures-urinaires",
+      "plaie-genitale",
+      "vesicules-genitales",
+      "verrues-genitales",
+      "pertes-jaunes",
+      "humidite-intime",
+      "douleur-testicules"
+     ]
+    }
+   ],
+   "rappel": [
+    "Ne masse pas une zone avec plaie, cloques ou verrues, et lave-toi les mains après y avoir touché."
+   ]
+  },
+  {
+   "id": "maladies",
+   "nom": "Maladies diagnostiquées par un médecin",
+   "court": "Maladies",
+   "note": "Ton traitement médical reste la base. Les tableaux montrent le terrain souvent rencontré avec ces diagnostics, pour l'accompagner.",
+   "guide": "Chaque maladie : repères et tableaux",
+   "intro": [
+    "Ces maladies sont diagnostiquées par un médecin, avec une prise de sang ou une analyse. Garde ton traitement et ton suivi : les routines de cette appli les accompagnent, elles ne les remplacent jamais.",
+    "En médecine chinoise, une même maladie peut correspondre à plusieurs tableaux selon la personne : choisis aussi tes autres symptômes pour trouver celui qui te ressemble le plus.",
+    "Hashimoto ou Basedow : pas de compléments d'iode ni d'algues (kelp, fucus) sans avis médical."
+   ],
+   "liste": [
+    "hashimoto",
+    "basedow",
+    "hormonal",
+    "parasitose"
+   ]
+  },
+  {
+   "id": "cancer",
+   "nom": "Cancer : accompagner les traitements",
+   "court": "Cancer",
+   "note": "La médecine chinoise ne soigne pas un cancer. Elle peut aider à mieux vivre les traitements (fatigue, nausées, sommeil, digestion, moral), toujours avec l'accord de ton équipe de soins.",
+   "guide": "Chaque cancer : effets des traitements et tableaux",
+   "intro": [
+    "Un cancer se soigne par la chirurgie, la chimiothérapie, la radiothérapie, l'hormonothérapie, l'immunothérapie ou les thérapies ciblées. Rien ici ne remplace ni ne retarde ces traitements.",
+    "En médecine chinoise, il n'y a pas un « tableau du cancer » : on regarde le terrain de la personne et les effets des traitements. Ce sont eux que montrent les correspondances ci-dessous.",
+    "Ce qui aide souvent, pour ton confort et en plus des médicaments prescrits : l'auto-massage doux de MC 6 (au poignet) en cas de nausées et de E 36 (sous le genou) en cas de fatigue, des repas chauds et cuits, faciles à digérer, du repos et une activité douce comme la marche ou le qi gong.",
+    "Des soins de support existent, souvent gratuits : psychologue, diététicien, activité physique adaptée, socio-esthétique. Demande à ton équipe. Cancer info : 0 805 123 124 (service et appel gratuits)."
+   ],
+   "precautions": [
+    "Dis à ton oncologue toute plante, tisane, complément ou champignon que tu prends : certains changent l'effet des traitements (millepertuis, pamplemousse, angélique chinoise ou dang gui, astragale, fortes doses de curcuma ou de ginseng…).",
+    "Pendant et après les traitements, utilise seulement la pression douce (tonification), jamais la pression forte. Saute tout point situé sur la tumeur, une zone opérée ou irradiée, une stomie, près d'une chambre implantable, sur le ventre après une radiothérapie du bassin, ou sur un bras ou une jambe gonflés (lymphœdème).",
+    "Pas de moxa ni de bouillotte sur une zone irradiée ou moins sensible, ni de moxa (flamme, fumée) si tu es essoufflé ou si tu as de l'oxygène à la maison.",
+    "Globules blancs bas : évite le cru (huîtres et coquillages, poisson cru, œufs peu cuits, lait cru). Plaquettes basses : pression très douce ; arrête en cas de bleus.",
+    "Fièvre à 38 °C ou plus pendant une chimiothérapie : appelle tout de suite ton équipe de soins ou le 15."
+   ],
+   "sous": [
+    {
+     "nom": "Selon le cancer",
+     "liste": [
+      "cancer-sein",
+      "cancer-prostate",
+      "cancer-poumon",
+      "cancer-colon",
+      "cancer-estomac",
+      "cancer-pancreas",
+      "cancer-foie",
+      "cancer-uterus",
+      "cancer-ovaire",
+      "cancer-vessie",
+      "cancer-orl",
+      "cancer-thyroide",
+      "cancer-peau",
+      "cancer-sang",
+      "cancer-cerveau",
+      "cancer-testicule",
+      "cancer-os"
+     ]
+    },
+    {
+     "nom": "Effets des traitements",
+     "liste": [
+      "fatigue-traitement",
+      "nausee-traitement",
+      "mucite",
+      "neuropathie",
+      "bouffees-hormono",
+      "peau-radiotherapie",
+      "appetit-faible",
+      "amaigrissement",
+      "selles-molles",
+      "constipation-seche",
+      "chute-cheveux",
+      "endormissement",
+      "anxiete",
+      "tristesse",
+      "memoire"
+     ]
+    }
+   ],
+   "rappel": [
+    "Pression douce seulement, jamais forte. Saute les points sur une zone opérée ou irradiée, une stomie, le ventre après une radiothérapie du bassin, ou un bras ou une jambe gonflés.",
+    "Pas de moxa sur une zone irradiée ou moins sensible, ni si tu es essoufflé ou sous oxygène.",
+    "Recettes : demande l'avis de ton équipe avant l'angélique chinoise (dang gui), l'astragale, le ginseng ou le curcuma en grande quantité. Globules blancs bas : rien de cru (huîtres, coquillages, poisson cru, œufs peu cuits).",
+    "Fièvre à 38 °C ou plus pendant une chimiothérapie : appelle ton équipe de soins ou le 15."
+   ]
   },
   {
    "id": "langue",

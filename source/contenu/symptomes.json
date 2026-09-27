@@ -8,6 +8,13 @@
    "syn": "épuisement asthénie manque d'énergie crevé coup de pompe burn-out"
   },
   {
+   "id": "fatigue-matin",
+   "cat": "general",
+   "nom": "Fatigue le matin au réveil, même après une nuit complète",
+   "alerte": "Si tu te réveilles épuisé malgré de bonnes nuits pendant plusieurs semaines, parles-en à ton médecin : une anémie, la thyroïde ou des apnées du sommeil peuvent en être la cause.",
+   "syn": "fatigué au réveil réveil difficile matin sommeil non réparateur mal à se lever pas reposé fatigue matinale"
+  },
+  {
    "id": "frilosite",
    "cat": "general",
    "nom": "Frilosité, mains et pieds froids",
@@ -48,7 +55,14 @@
    "id": "sueurs-jour",
    "cat": "general",
    "nom": "Transpiration au moindre effort",
-   "syn": "transpiration sueur transpire"
+   "syn": "transpiration sueur transpire transpiration à l'effort"
+  },
+  {
+   "id": "sueurs-spontanees",
+   "cat": "general",
+   "nom": "Transpiration spontanée, sans effort, même au repos",
+   "alerte": "Avec palpitations, amaigrissement, fièvre ou sueurs nocturnes qui trempent les draps : consulte un médecin.",
+   "syn": "transpiration spontanée sueurs spontanées transpire sans raison au repos transpiration excessive suer"
   },
   {
    "id": "sueurs-nuit",
@@ -469,7 +483,7 @@
    "cat": "digestion",
    "nom": "Douleur ou tension sous les côtes",
    "alerte": "Consulte rapidement si cette douleur s'accompagne de fièvre, de jaunisse (peau ou yeux jaunes) ou si elle est très intense.",
-   "syn": "côtes flanc foie"
+   "syn": "côtes flanc foie hypocondre hypochondre"
   },
   {
    "id": "douleur-ventre-froid",
@@ -725,13 +739,13 @@
    "cat": "peau",
    "nom": "Chute de cheveux",
    "alerte": "Consulte si la chute est brutale et massive, ou en plaques.",
-   "syn": "alopécie cheveux"
+   "syn": "alopécie cheveux perte de cheveux cheveux qui tombent perdre ses cheveux calvitie"
   },
   {
    "id": "cheveux-blancs",
    "cat": "peau",
    "nom": "Cheveux blancs précoces",
-   "syn": "cheveux gris"
+   "syn": "cheveux gris cheveux blanc blanchissent grisonnant canitie"
   },
   {
    "id": "ongles-cassants",
@@ -765,6 +779,20 @@
    "nom": "Nuque raide",
    "alerte": "Une nuque raide avec fièvre et mal de tête impose d'appeler le 15.",
    "syn": "torticolis cervicales cou"
+  },
+  {
+   "id": "douleur-omoplates",
+   "cat": "douleurs",
+   "nom": "Douleur sur ou entre les omoplates",
+   "alerte": "Une douleur brutale et très intense entre les omoplates, comme un déchirement, ou avec oppression dans la poitrine, essoufflement ou sueurs froides : appelle le 15.",
+   "syn": "omoplate omoplates entre les épaules haut du dos dos haut trapèze scapula"
+  },
+  {
+   "id": "omoplate-hypocondre",
+   "cat": "douleurs",
+   "nom": "Douleur sous les côtes à droite qui remonte vers l'omoplate",
+   "alerte": "Cette douleur, surtout après un repas gras, peut venir de la vésicule biliaire : consulte. Appelle le 15 si elle est intense, avec fièvre, vomissements ou jaunisse (peau ou yeux jaunes).",
+   "syn": "hypocondre hypocondre droit omoplate droite vésicule biliaire colique hépatique calcul biliaire côtes droite épaule droite"
   },
   {
    "id": "douleurs-migrantes",
@@ -892,8 +920,8 @@
    "id": "cycles-irreguliers",
    "cat": "cycle",
    "nom": "Cycles irréguliers qui s'espacent, règles qui s'arrêtent",
-   "syn": "ménopause préménopause périménopause aménorrhée arrêt des règles",
-   "alerte": "Des saignements qui reviennent après un an sans règles doivent être vus par un médecin."
+   "alerte": "Des saignements qui reviennent après un an sans règles doivent être vus par un médecin.",
+   "syn": "ménopause préménopause périménopause aménorrhée arrêt des règles"
   },
   {
    "id": "libido",
@@ -905,8 +933,8 @@
    "id": "erection",
    "cat": "intimite",
    "nom": "Troubles de l'érection",
-   "syn": "impuissance dysfonction érectile érection faible panne bander",
-   "alerte": "Des troubles de l'érection qui s'installent peuvent venir de la circulation, d'un diabète ou d'un médicament : parles-en à ton médecin."
+   "alerte": "Des troubles de l'érection qui s'installent peuvent venir de la circulation, d'un diabète ou d'un médicament : parles-en à ton médecin.",
+   "syn": "impuissance dysfonction érectile érection faible panne bander"
   },
   {
    "id": "ejaculation-precoce",
@@ -948,8 +976,15 @@
    "id": "douleur-testicules",
    "cat": "intimite",
    "nom": "Douleur des testicules qui tire vers l'aine",
-   "syn": "testicule bourses aine scrotum",
-   "alerte": "Une douleur brutale et intense d'un testicule est une urgence : appelle le 15. Une boule ou un gonflement doit être vu par un médecin."
+   "alerte": "Une douleur brutale et intense d'un testicule est une urgence : appelle le 15. Une boule ou un gonflement doit être vu par un médecin.",
+   "syn": "testicule bourses aine scrotum"
+  },
+  {
+   "id": "gynecomastie",
+   "cat": "intimite",
+   "nom": "Tétons douloureux ou seins gonflés chez l'homme (gynécomastie)",
+   "alerte": "Consulte un médecin : un sein qui gonfle chez l'homme a des causes à rechercher (médicaments, hormones, foie, thyroïde, testicules). Une boule dure, un écoulement ou un mamelon qui se rétracte doivent être vus rapidement.",
+   "syn": "gynécomastie téton tétons douloureux mamelon sein homme poitrine gonflée glande mammaire"
   },
   {
    "id": "humidite-intime",
@@ -964,11 +999,39 @@
    "syn": "sécheresse vaginale douleur rapport ménopause"
   },
   {
+   "id": "ecoulement",
+   "cat": "intimite",
+   "nom": "Écoulement inhabituel par le pénis ou le vagin",
+   "alerte": "Un écoulement inhabituel doit être vu par un médecin ou dans un CeGIDD (dépistage gratuit) : c'est souvent une IST qui se soigne avec un antibiotique. Évite les rapports en attendant l'avis médical.",
+   "syn": "écoulement urètre pus goutte matinale urétrite chaude-pisse IST MST"
+  },
+  {
+   "id": "plaie-genitale",
+   "cat": "intimite",
+   "nom": "Petite plaie sur le sexe, l'anus ou la bouche",
+   "alerte": "Toute plaie des parties intimes, même indolore, doit être vue par un médecin ou dans un CeGIDD : elle peut venir d'une syphilis ou d'un herpès.",
+   "syn": "plaie génitale ulcération chancre ulcère sexe anus IST MST"
+  },
+  {
+   "id": "vesicules-genitales",
+   "cat": "intimite",
+   "nom": "Petites cloques douloureuses sur les parties intimes",
+   "alerte": "Des cloques sur les parties intimes doivent être vues par un médecin, surtout en cas de grossesse. Évite les rapports jusqu'à la guérison.",
+   "syn": "herpès cloques vésicules boutons génitaux brûlure intime IST MST"
+  },
+  {
+   "id": "verrues-genitales",
+   "cat": "intimite",
+   "nom": "Petites verrues ou excroissances sur les parties intimes",
+   "alerte": "Les verrues génitales se traitent chez le médecin. Ne les masse pas et ne les gratte pas.",
+   "syn": "condylome condylomes crête de coq verrue génitale papillomavirus HPV IST MST"
+  },
+  {
    "id": "fertilite",
    "cat": "intimite",
    "nom": "Difficulté à avoir un enfant",
-   "syn": "fertilité infertilité stérilité grossesse bébé concevoir",
-   "alerte": "Après un an d'essais sans grossesse (six mois si la femme a plus de 35 ans), consultez un médecin à deux : les deux partenaires sont concernés."
+   "alerte": "Après un an d'essais sans grossesse (six mois si la femme a plus de 35 ans), consultez un médecin à deux : les deux partenaires sont concernés.",
+   "syn": "fertilité infertilité stérilité grossesse bébé concevoir"
   },
   {
    "id": "langue-pale",

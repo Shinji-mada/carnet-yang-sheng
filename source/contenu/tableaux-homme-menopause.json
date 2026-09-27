@@ -140,7 +140,11 @@
     "gout-amer",
     "irritabilite",
     "lourdeur",
-    "langue-rouge"
+    "langue-rouge",
+    "ecoulement",
+    "plaie-genitale",
+    "vesicules-genitales",
+    "verrues-genitales"
    ],
    "contre": [
     "frilosite",
@@ -344,7 +348,8 @@
     "libido",
     "oedeme",
     "irritabilite",
-    "reveils"
+    "reveils",
+    "bouffees-hormono"
    ],
    "contre": [
     "enduit-jaune",

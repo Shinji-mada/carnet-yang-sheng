@@ -35,7 +35,10 @@
     "constipation-effort",
     "pesanteur",
     "peau-terne",
-    "langue-fissuree"
+    "langue-fissuree",
+    "fatigue-matin",
+    "fatigue-traitement",
+    "nausee-traitement"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -415,7 +418,9 @@
     "articulations-lourdes",
     "poids-facile",
     "somnolence",
-    "envie-sucre"
+    "envie-sucre",
+    "fatigue-matin",
+    "gynecomastie"
    ],
    "contre": [
     "enduit-jaune",
@@ -527,7 +532,9 @@
     "pertes-jaunes",
     "cephalee-lourde",
     "boutons-pus",
-    "articulations-chaudes"
+    "articulations-chaudes",
+    "ecoulement",
+    "verrues-genitales"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -622,7 +629,8 @@
     "constipation-seche",
     "fievre-apres-midi",
     "hoquet",
-    "gencives"
+    "gencives",
+    "mucite"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -721,7 +729,8 @@
     "enduit-jaune",
     "urines-foncees",
     "cephalee-front",
-    "boutons-pus"
+    "boutons-pus",
+    "mucite"
    ],
    "contre": [
     "frilosite",
@@ -988,7 +997,8 @@
     "vomissements",
     "reflux",
     "digestion-lente",
-    "appetit-faible"
+    "appetit-faible",
+    "nausee-traitement"
    ],
    "contre": [],
    "langue": "Variable selon la cause.",

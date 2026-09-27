@@ -108,7 +108,9 @@
     "selles-molles",
     "douleur-estomac-faim",
     "envie-sucre",
-    "somnolence"
+    "somnolence",
+    "fatigue-matin",
+    "nausee-traitement"
    ],
    "contre": [
     "faim-excessive",

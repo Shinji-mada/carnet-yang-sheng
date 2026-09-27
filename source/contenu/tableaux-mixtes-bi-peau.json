@@ -31,7 +31,11 @@
     "cephalee-sourde",
     "mouches-volantes",
     "constipation-effort",
-    "peau-terne"
+    "peau-terne",
+    "fatigue-matin",
+    "sueurs-spontanees",
+    "fatigue-traitement",
+    "neuropathie"
    ],
    "contre": [
     "langue-rouge",
@@ -135,7 +139,8 @@
     "douleur-genou",
     "tremblements",
     "cycles-irreguliers",
-    "chaleur-corps"
+    "chaleur-corps",
+    "bouffees-hormono"
    ],
    "contre": [
     "frilosite",
@@ -238,7 +243,8 @@
     "froid-dos",
     "froid-genital",
     "mictions-frequentes",
-    "poids-facile"
+    "poids-facile",
+    "fatigue-matin"
    ],
    "contre": [
     "chaleur-corps",
@@ -345,7 +351,9 @@
     "essoufflement",
     "langue-pale",
     "langue-gonflee",
-    "toux-faible"
+    "toux-faible",
+    "sueurs-spontanees",
+    "fatigue-traitement"
    ],
    "contre": [
     "langue-rouge",
@@ -441,7 +449,12 @@
     "engourdissements",
     "fertilite",
     "douleur-genou",
-    "peau-terne"
+    "peau-terne",
+    "douleur-omoplates",
+    "omoplate-hypocondre",
+    "gynecomastie",
+    "verrues-genitales",
+    "neuropathie"
    ],
    "contre": [],
    "langue": "Violacée ou avec des taches sombres, veines sous la langue gonflées.",
@@ -623,7 +636,8 @@
     "raideur-articulaire",
     "aversion-froid",
     "douleur-genou",
-    "cephalee-nuque"
+    "cephalee-nuque",
+    "douleur-omoplates"
    ],
    "contre": [
     "articulations-chaudes"
@@ -700,7 +714,8 @@
     "douleur-genou",
     "lombalgie-sourde",
     "langue-pale",
-    "douleur-fixe"
+    "douleur-fixe",
+    "douleur-omoplates"
    ],
    "contre": [
     "articulations-chaudes"
@@ -793,7 +808,8 @@
     "enduit-blanc-epais",
     "langue-gonflee",
     "douleurs-froid",
-    "douleur-fixe"
+    "douleur-fixe",
+    "neuropathie"
    ],
    "contre": [
     "articulations-chaudes"
@@ -1034,7 +1050,9 @@
     "diarrhee-chaude",
     "urines-foncees",
     "bouche-pateuse",
-    "boutons-pus"
+    "boutons-pus",
+    "vesicules-genitales",
+    "plaie-genitale"
    ],
    "contre": [
     "peau-seche"
@@ -1125,7 +1143,8 @@
     "chute-cheveux",
     "langue-pale",
     "vertiges",
-    "peau-terne"
+    "peau-terne",
+    "peau-radiotherapie"
    ],
    "contre": [
     "eczema-suintant",
@@ -1211,7 +1230,8 @@
     "regles-avance",
     "irritabilite",
     "plaques-rouges",
-    "regles-rouge-vif"
+    "regles-rouge-vif",
+    "peau-radiotherapie"
    ],
    "contre": [
     "langue-pale",
