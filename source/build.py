@@ -170,6 +170,9 @@ shutil.copy(f"{FSRC}/OFL-notoserifsc.txt", f"{DIST}/fonts/OFL-Noto-Serif-SC.txt"
 open(f"{DIST}/app.css", "w", encoding="utf-8").write(font_css(False) + css)
 open(f"{DIST}/app.js", "w", encoding="utf-8").write(js)
 json.dump(data, open(f"{DIST}/data.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+# Empreintes pour forcer le rechargement des fichiers modifiés après une mise à jour
+def fp(rel): return hashlib.sha1(open(f"{DIST}/{rel}", "rb").read()).hexdigest()[:8]
+CSS_URL, JS_URL = f"app.css?v={fp('app.css')}", f"app.js?v={fp('app.js')}"
 manifest = {
     "id": "./", "name": "Carnet Yang Sheng", "short_name": "Yang Sheng",
     "description": "Protocoles d'auto-massage et recettes de bien-être inspirés de la médecine traditionnelle chinoise.",
@@ -196,21 +199,21 @@ index = f"""<!doctype html>
 <link rel="icon" type="image/png" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preload" href="fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="app.css">
+<link rel="stylesheet" href="{CSS_URL}">
 </head>
 <body>
 {body}
-<script src="app.js"></script>
+<script src="{JS_URL}"></script>
 </body>
 </html>
 """
 open(f"{DIST}/index.html", "w", encoding="utf-8").write(index)
 
-core = ["./", "index.html", "app.css", "app.js", "data.json", "manifest.webmanifest",
+core = ["./", "index.html", CSS_URL, JS_URL, "data.json", "manifest.webmanifest",
         "icons/icon-192.png", "icons/icon-512.png"] + ["fonts/" + os.path.basename(p) for p in fonts.values()]
 h = hashlib.sha1()
 for rel in core[1:]:
-    h.update(open(f"{DIST}/{rel}", "rb").read())
+    h.update(open(f"{DIST}/{rel.split('?')[0]}", "rb").read())
 sw = open(f"{SRC}/sw.js", encoding="utf-8").read().replace("__VERSION__", f"ys-{VERSION}-{h.hexdigest()[:8]}").replace("__CORE__", json.dumps(core))
 open(f"{DIST}/sw.js", "w", encoding="utf-8").write(sw)
 
