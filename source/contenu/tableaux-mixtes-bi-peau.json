@@ -1,372 +1,1120 @@
 {
  "tableaux": [
   {
-   "id": "qi-sang", "organe": "mixtes", "nom": "Vide de Qi et de Sang", "zh": "气血两虚", "py": "Qì xuè liǎng xū",
+   "id": "qi-sang",
+   "organe": "qi-sang",
+   "nom": "Vide de Qi et de Sang",
+   "zh": "气血两虚",
+   "py": "Qì xuè liǎng xū",
    "resume": "Énergie et Sang manquent ensemble : grande fatigue, pâleur, vertiges, essoufflement, palpitations.",
-   "causes": ["Longue maladie, convalescence", "Pertes de sang, accouchement", "Alimentation insuffisante, surmenage"],
+   "causes": [
+    "Longue maladie, convalescence",
+    "Pertes de sang, accouchement",
+    "Alimentation insuffisante, surmenage"
+   ],
    "mecanisme": "Le Qi fabrique et pousse le Sang, le Sang nourrit le Qi. Quand l'un manque, l'autre suit : on s'épuise, on pâlit, la tête tourne.",
-   "cle": ["fatigue", "teint-pale", "vertiges", "langue-pale"],
-   "autres": ["palpitations", "essoufflement", "voix-faible", "regles-peu", "chute-cheveux", "engourdissements", "sueurs-jour", "memoire"],
-   "contre": ["langue-rouge", "chaleur-corps"],
+   "cle": [
+    "fatigue",
+    "teint-pale",
+    "vertiges",
+    "langue-pale"
+   ],
+   "autres": [
+    "palpitations",
+    "essoufflement",
+    "voix-faible",
+    "regles-peu",
+    "chute-cheveux",
+    "engourdissements",
+    "sueurs-jour",
+    "memoire"
+   ],
+   "contre": [
+    "langue-rouge",
+    "chaleur-corps"
+   ],
    "langue": "Pâle, fine.",
    "pouls": "Fin et faible.",
-   "principe": {"zh": "气血双补", "py": "Qì xuè shuāng bǔ", "fr": "Tonifier ensemble le Qi et le Sang"},
+   "principe": {
+    "zh": "气血双补",
+    "py": "Qì xuè shuāng bǔ",
+    "fr": "Tonifier ensemble le Qi et le Sang"
+   },
    "moxa": "Moxa doux possible sur E 36 et RM 6.",
    "phases": [
-    {"m": "t", "items": [
-     {"p": "E 36", "s": 120, "pourquoi": "Tonifie le Qi et le Sang."},
-     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Sang."},
-     {"p": "RM 6", "s": 90, "pourquoi": "Tonifie le Qi."},
-     {"p": "RM 4", "s": 90, "pourquoi": "Nourrit le Sang."},
-     {"p": "V 20", "s": 90, "pourquoi": "Renforce la Rate, source du Qi et du Sang."}
-    ]}
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifie le Qi et le Sang."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifie le Qi."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Renforce la Rate, source du Qi et du Sang."
+      }
+     ]
+    }
    ],
-   "recettes": ["soupe-poulet-huang-qi", "congee-goji-sesame", "agneau-dang-gui"],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "congee-goji-sesame",
+    "agneau-dang-gui",
+    "boeuf-carottes-dattes",
+    "saumon-patate-douce",
+    "poulpe-pommes-de-terre",
+    "boeuf-brocoli"
+   ],
    "privilegier": "Bouillons, dattes, goji, œufs, viande en petite quantité, céréales, légumineuses.",
    "eviter": "Régimes restrictifs, surmenage, sauter des repas.",
-   "conseils": ["Une prise de sang (fer, ferritine, B12) permet d'écarter une anémie."]
+   "conseils": [
+    "Une prise de sang (fer, ferritine, B12) permet d'écarter une anémie."
+   ]
   },
   {
-   "id": "foie-rein-yin", "organe": "mixtes", "nom": "Vide de Yin du Foie et du Rein", "zh": "肝肾阴虚", "py": "Gān shèn yīn xū",
+   "id": "foie-rein-yin",
+   "organe": "combines",
+   "nom": "Vide de Yin du Foie et du Rein",
+   "zh": "肝肾阴虚",
+   "py": "Gān shèn yīn xū",
    "resume": "Foie et Rein manquent de Yin : yeux secs, vertiges, acouphènes, lombaires faibles, chaleur le soir.",
-   "causes": ["Surmenage, manque de sommeil", "Âge, ménopause", "Maladie chronique"],
+   "causes": [
+    "Surmenage, manque de sommeil",
+    "Âge, ménopause",
+    "Maladie chronique"
+   ],
    "mecanisme": "Le Foie et le Rein partagent la même source. Quand leur Yin baisse, les yeux et la tête se dessèchent et chauffent, et le bas du corps faiblit.",
-   "cle": ["yeux-secs", "vertiges", "genoux-faibles", "sueurs-nuit"],
-   "autres": ["acouphenes-faibles", "vision-floue", "chaleur-5-coeurs", "bouche-seche", "reveils", "regles-peu", "cephalee-sourde", "langue-rouge-sans-enduit"],
-   "contre": ["frilosite", "langue-pale", "enduit-blanc-epais"],
+   "cle": [
+    "yeux-secs",
+    "vertiges",
+    "genoux-faibles",
+    "sueurs-nuit"
+   ],
+   "autres": [
+    "acouphenes-faibles",
+    "vision-floue",
+    "chaleur-5-coeurs",
+    "bouche-seche",
+    "reveils",
+    "regles-peu",
+    "cephalee-sourde",
+    "langue-rouge-sans-enduit"
+   ],
+   "contre": [
+    "frilosite",
+    "langue-pale",
+    "enduit-blanc-epais"
+   ],
    "langue": "Rouge, sans enduit.",
    "pouls": "Fin et rapide.",
-   "principe": {"zh": "滋补肝肾", "py": "Zī bǔ gān shèn", "fr": "Nourrir le Foie et le Rein"},
+   "principe": {
+    "zh": "滋补肝肾",
+    "py": "Zī bǔ gān shèn",
+    "fr": "Nourrir le Foie et le Rein"
+   },
    "moxa": "Pas de moxa.",
    "phases": [
-    {"m": "t", "items": [
-     {"p": "Rn 3", "s": 90, "pourquoi": "Tonifie le Rein."},
-     {"p": "F 8", "s": 90, "pourquoi": "Nourrit le Foie."},
-     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Yin."},
-     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit le Yin, humidifie les yeux."},
-     {"p": "RM 4", "s": 90, "pourquoi": "Nourrit le Rein."}
-    ]}
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Tonifie le Rein."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourrit le Foie."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin, humidifie les yeux."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourrit le Rein."
+      }
+     ]
+    }
    ],
-   "recettes": ["congee-goji-sesame", "congee-haricots-noirs", "infusion-chrysantheme-goji"],
+   "recettes": [
+    "congee-goji-sesame",
+    "congee-haricots-noirs",
+    "infusion-chrysantheme-goji",
+    "calamars-celeri",
+    "soupe-huitres-tofu"
+   ],
    "privilegier": "Goji, sésame noir, haricots noirs, trémelle, œufs, poire, chrysanthème.",
    "eviter": "Écrans tard, épices, alcool, veiller.",
-   "conseils": []
+   "conseils": [],
+   "etiquette": "Foie · Rein"
   },
   {
-   "id": "rate-rein-yang", "organe": "mixtes", "nom": "Vide de Yang de la Rate et du Rein", "zh": "脾肾阳虚", "py": "Pí shèn yáng xū",
+   "id": "rate-rein-yang",
+   "organe": "combines",
+   "nom": "Vide de Yang de la Rate et du Rein",
+   "zh": "脾肾阳虚",
+   "py": "Pí shèn yáng xū",
    "resume": "Le froid touche la digestion et le fond du corps : diarrhée au petit matin, ventre et reins froids, œdèmes.",
-   "causes": ["Vide de Yang de la Rate installé", "Âge, froid chronique"],
+   "causes": [
+    "Vide de Yang de la Rate installé",
+    "Âge, froid chronique"
+   ],
    "mecanisme": "Le Yang du Rein allume le feu qui permet à la Rate de digérer. Quand les deux faiblissent, tout le bas du corps refroidit et l'eau stagne.",
-   "cle": ["diarrhee-matin", "frilosite", "aliments-non-digeres", "genoux-faibles"],
-   "autres": ["oedeme", "urines-claires", "fatigue", "lombalgie-sourde", "douleur-ventre-froid", "langue-pale", "langue-gonflee"],
-   "contre": ["chaleur-corps", "langue-rouge", "diarrhee-chaude"],
+   "cle": [
+    "diarrhee-matin",
+    "frilosite",
+    "aliments-non-digeres",
+    "genoux-faibles"
+   ],
+   "autres": [
+    "oedeme",
+    "urines-claires",
+    "fatigue",
+    "lombalgie-sourde",
+    "douleur-ventre-froid",
+    "langue-pale",
+    "langue-gonflee"
+   ],
+   "contre": [
+    "chaleur-corps",
+    "langue-rouge",
+    "diarrhee-chaude"
+   ],
    "langue": "Pâle, gonflée, humide.",
    "pouls": "Profond, lent et faible.",
-   "principe": {"zh": "温补脾肾", "py": "Wēn bǔ pí shèn", "fr": "Réchauffer la Rate et le Rein"},
+   "principe": {
+    "zh": "温补脾肾",
+    "py": "Wēn bǔ pí shèn",
+    "fr": "Réchauffer la Rate et le Rein"
+   },
    "moxa": "Moxa conseillé.",
    "phases": [
-    {"m": "t", "items": [
-     {"p": "Rt 3", "s": 90, "pourquoi": "Point Yuan de la Rate."},
-     {"p": "Rn 3", "s": 90, "pourquoi": "Point Yuan du Rein."},
-     {"p": "V 20", "s": 90, "pourquoi": "Point Shu du dos de la Rate."},
-     {"p": "V 23", "s": 90, "pourquoi": "Point Shu du dos du Rein."}
-    ]},
-    {"m": "w", "items": [
-     {"p": "RM 4", "s": 300, "pourquoi": "Réchauffe le Rein."},
-     {"p": "E 36", "s": 240, "pourquoi": "Réchauffe la Rate."}
-    ]}
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Point Yuan de la Rate."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Point Yuan du Rein."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Rate."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Réchauffe le Rein."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Réchauffe la Rate."
+      }
+     ]
+    }
    ],
-   "recettes": ["agneau-dang-gui", "crevettes-poireau-noix", "congee-courge-carotte", "infusion-gingembre-cannelle"],
+   "recettes": [
+    "agneau-dang-gui",
+    "crevettes-poireau-noix",
+    "congee-courge-carotte",
+    "infusion-gingembre-cannelle",
+    "soupe-mouton-radis"
+   ],
    "privilegier": "Plats mijotés, gingembre, cannelle, poireau, noix, agneau, riz, courge.",
    "eviter": "Tout ce qui est froid ou cru, glaces, sodas.",
-   "conseils": ["Bouillotte sur le ventre et le bas du dos le soir."]
+   "conseils": [
+    "Bouillotte sur le ventre et le bas du dos le soir."
+   ],
+   "etiquette": "Rate · Rein"
   },
   {
-   "id": "poumon-rate-qi", "organe": "mixtes", "nom": "Vide de Qi du Poumon et de la Rate", "zh": "肺脾气虚", "py": "Fèi pí qì xū",
+   "id": "poumon-rate-qi",
+   "organe": "combines",
+   "nom": "Vide de Qi du Poumon et de la Rate",
+   "zh": "肺脾气虚",
+   "py": "Fèi pí qì xū",
    "resume": "Rate et Poumon faibles ensemble : fatigue, glaires claires, appétit faible, rhumes à répétition.",
-   "causes": ["Rate faible qui ne nourrit plus le Poumon", "Toux chroniques", "Alimentation froide et crue"],
+   "causes": [
+    "Rate faible qui ne nourrit plus le Poumon",
+    "Toux chroniques",
+    "Alimentation froide et crue"
+   ],
    "mecanisme": "La Rate (Terre) nourrit le Poumon (Métal). Quand elle faiblit, le Poumon suit : on digère mal et on s'enrhume facilement.",
-   "cle": ["fatigue", "rhumes-frequents", "appetit-faible", "toux-glaires-blanches"],
-   "autres": ["selles-molles", "voix-faible", "sueurs-jour", "essoufflement", "langue-pale", "langue-gonflee"],
-   "contre": ["langue-rouge", "toux-glaires-jaunes"],
+   "cle": [
+    "fatigue",
+    "rhumes-frequents",
+    "appetit-faible",
+    "toux-glaires-blanches"
+   ],
+   "autres": [
+    "selles-molles",
+    "voix-faible",
+    "sueurs-jour",
+    "essoufflement",
+    "langue-pale",
+    "langue-gonflee"
+   ],
+   "contre": [
+    "langue-rouge",
+    "toux-glaires-jaunes"
+   ],
    "langue": "Pâle, gonflée.",
    "pouls": "Vide.",
-   "principe": {"zh": "补肺健脾", "py": "Bǔ fèi jiàn pí", "fr": "Tonifier le Poumon, renforcer la Rate"},
+   "principe": {
+    "zh": "补肺健脾",
+    "py": "Bǔ fèi jiàn pí",
+    "fr": "Tonifier le Poumon, renforcer la Rate"
+   },
    "moxa": "Moxa possible sur E 36.",
    "phases": [
-    {"m": "t", "items": [
-     {"p": "P 9", "s": 90, "pourquoi": "Tonifie le Poumon."},
-     {"p": "Rt 3", "s": 90, "pourquoi": "Tonifie la Rate."},
-     {"p": "E 36", "s": 120, "pourquoi": "La Terre nourrit le Métal."},
-     {"p": "RM 12", "s": 90, "pourquoi": "Renforce le centre."},
-     {"p": "V 13", "s": 90, "pourquoi": "Point Shu du dos du Poumon."},
-     {"p": "V 20", "s": 90, "pourquoi": "Point Shu du dos de la Rate."}
-    ]}
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifie le Poumon."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Tonifie la Rate."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "La Terre nourrit le Métal."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Renforce le centre."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Poumon."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Rate."
+      }
+     ]
+    }
    ],
-   "recettes": ["congee-shan-yao", "soupe-poulet-huang-qi", "congee-millet-patate-douce"],
+   "recettes": [
+    "congee-shan-yao",
+    "soupe-poulet-huang-qi",
+    "congee-millet-patate-douce",
+    "poulet-shiitake",
+    "congee-poulet"
+   ],
    "privilegier": "Igname, riz, millet, poulet, champignons, légumes cuits.",
    "eviter": "Laitages, sucre, cru, froid.",
-   "conseils": []
+   "conseils": [],
+   "etiquette": "Poumon · Rate"
   },
   {
-   "id": "stase-sang", "organe": "femme", "nom": "Stase de Sang", "zh": "血瘀", "py": "Xuè yū",
+   "id": "stase-sang",
+   "organe": "qi-sang",
+   "nom": "Stase de Sang",
+   "zh": "血瘀",
+   "py": "Xuè yū",
    "resume": "Le Sang circule mal et se fige : douleur fixe et piquante, règles douloureuses avec caillots, teint sombre, langue violacée.",
-   "causes": ["Stagnation du Qi ancienne", "Froid qui fige le Sang", "Traumatisme, chirurgie"],
+   "causes": [
+    "Stagnation du Qi ancienne",
+    "Froid qui fige le Sang",
+    "Traumatisme, chirurgie"
+   ],
    "mecanisme": "« Là où le Qi va, le Sang suit. » Si le Qi stagne ou si le froid fige, le Sang ralentit et s'immobilise : la douleur devient fixe et piquante, les règles se chargent de caillots.",
-   "cle": ["douleur-fixe", "langue-violacee", "caillots"],
-   "autres": ["regles-douloureuses", "teint-sombre", "bleus-faciles", "engourdissements"],
+   "cle": [
+    "douleur-fixe",
+    "langue-violacee",
+    "caillots"
+   ],
+   "autres": [
+    "regles-douloureuses",
+    "teint-sombre",
+    "bleus-faciles",
+    "engourdissements"
+   ],
    "contre": [],
    "langue": "Violacée ou avec des taches sombres, veines sous la langue gonflées.",
    "pouls": "Rugueux ou tendu.",
-   "principe": {"zh": "活血化瘀", "py": "Huó xuè huà yū", "fr": "Activer le Sang, dissoudre la stase"},
+   "principe": {
+    "zh": "活血化瘀",
+    "py": "Huó xuè huà yū",
+    "fr": "Activer le Sang, dissoudre la stase"
+   },
    "phases": [
-    {"m": "d", "items": [
-     {"p": "Rt 10", "s": 60, "pourquoi": "Fait circuler le Sang."},
-     {"p": "Rt 6", "s": 60, "pourquoi": "Fait circuler le Sang du bas-ventre."},
-     {"p": "GI 4", "s": 60, "pourquoi": "Avec F 3, fait circuler Qi et Sang."},
-     {"p": "F 3", "s": 60, "pourquoi": "Libère le Qi, qui entraîne le Sang."},
-     {"p": "V 17", "s": 60, "pourquoi": "Point de réunion du Sang."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Fait circuler le Sang."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Fait circuler le Sang du bas-ventre."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Avec F 3, fait circuler Qi et Sang."
+      },
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Libère le Qi, qui entraîne le Sang."
+      },
+      {
+       "p": "V 17",
+       "s": 60,
+       "pourquoi": "Point de réunion du Sang."
+      }
+     ]
+    }
    ],
-   "recettes": ["agneau-dang-gui", "infusion-rose-orange", "veloute-betterave-lentilles"],
+   "recettes": [
+    "agneau-dang-gui",
+    "infusion-rose-orange",
+    "veloute-betterave-lentilles"
+   ],
    "privilegier": "Mouvement quotidien, betterave, oignon, ciboulette, rose, curcuma, un peu de vinaigre de riz.",
    "eviter": "Froid, sédentarité, rester assis des heures.",
-   "conseils": ["Bouge tous les jours : la stase se dissout avec le mouvement."]
+   "conseils": [
+    "Bouge tous les jours : la stase se dissout avec le mouvement."
+   ],
+   "groupes": [
+    "femme"
+   ]
   },
   {
-   "id": "froid-uterus", "organe": "femme", "nom": "Froid dans l'Utérus", "zh": "寒凝胞宫", "py": "Hán níng bāo gōng",
+   "id": "froid-uterus",
+   "organe": "femme",
+   "nom": "Froid dans l'Utérus",
+   "zh": "寒凝胞宫",
+   "py": "Hán níng bāo gōng",
    "resume": "Le Froid fige le Sang dans le bas-ventre : règles très douloureuses soulagées par la chaleur, caillots, cycles longs.",
-   "causes": ["Froid pris au ventre pendant les règles", "Boissons glacées", "Yang du Rein faible"],
+   "causes": [
+    "Froid pris au ventre pendant les règles",
+    "Boissons glacées",
+    "Yang du Rein faible"
+   ],
    "mecanisme": "Le Froid contracte et fige le Sang de l'Utérus : les règles deviennent douloureuses, en retard, avec des caillots, et la chaleur soulage nettement.",
-   "cle": ["regles-douloureuses", "douleur-ventre-froid", "caillots"],
-   "autres": ["regles-retard", "frilosite", "pertes-blanches", "langue-pale", "langue-violacee"],
-   "contre": ["pertes-jaunes", "langue-rouge", "regles-avance"],
+   "cle": [
+    "regles-douloureuses",
+    "douleur-ventre-froid",
+    "caillots"
+   ],
+   "autres": [
+    "regles-retard",
+    "frilosite",
+    "pertes-blanches",
+    "langue-pale",
+    "langue-violacee"
+   ],
+   "contre": [
+    "pertes-jaunes",
+    "langue-rouge",
+    "regles-avance"
+   ],
    "langue": "Pâle ou violacée, enduit blanc.",
    "pouls": "Profond et serré.",
-   "principe": {"zh": "温经散寒", "py": "Wēn jīng sàn hán", "fr": "Réchauffer les méridiens, disperser le Froid"},
+   "principe": {
+    "zh": "温经散寒",
+    "py": "Wēn jīng sàn hán",
+    "fr": "Réchauffer les méridiens, disperser le Froid"
+   },
    "moxa": "Moxa ou bouillotte conseillés, sauf en cas de règles abondantes.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "Rt 8", "s": 60, "pourquoi": "Calme les règles douloureuses."},
-     {"p": "Rt 6", "s": 60, "pourquoi": "Fait circuler le Sang du bas-ventre."},
-     {"p": "Zi Gong", "s": 60, "pourquoi": "Régule l'utérus."}
-    ]},
-    {"m": "w", "items": [
-     {"p": "RM 4", "s": 300, "pourquoi": "Réchauffe l'Utérus."},
-     {"p": "RM 6", "s": 240, "pourquoi": "Réchauffe et fait circuler le Qi."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 8",
+       "s": 60,
+       "pourquoi": "Calme les règles douloureuses."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Fait circuler le Sang du bas-ventre."
+      },
+      {
+       "p": "Zi Gong",
+       "s": 60,
+       "pourquoi": "Régule l'utérus."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Réchauffe l'Utérus."
+      },
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Réchauffe et fait circuler le Qi."
+      }
+     ]
+    }
    ],
-   "recettes": ["agneau-dang-gui", "infusion-gingembre-cannelle"],
+   "recettes": [
+    "agneau-dang-gui",
+    "infusion-gingembre-cannelle"
+   ],
    "privilegier": "Gingembre, cannelle, agneau, plats mijotés, boissons chaudes.",
    "eviter": "Boissons froides, glaces, baignade en eau froide pendant les règles.",
-   "conseils": ["Bouillotte sur le bas-ventre pendant les règles.", "Commence les points quelques jours avant les règles."]
+   "conseils": [
+    "Bouillotte sur le bas-ventre pendant les règles.",
+    "Commence les points quelques jours avant les règles."
+   ]
   },
   {
-   "id": "bi-vent", "organe": "bi", "nom": "Bi Vent : douleurs qui se déplacent", "zh": "行痹", "py": "Xíng bì",
+   "id": "bi-vent",
+   "organe": "bi",
+   "nom": "Bi Vent : douleurs qui se déplacent",
+   "zh": "行痹",
+   "py": "Xíng bì",
    "resume": "Le Vent domine : les douleurs articulaires changent de place d'un jour à l'autre.",
-   "causes": ["Exposition au vent et aux courants d'air", "Sang insuffisant pour nourrir les articulations"],
+   "causes": [
+    "Exposition au vent et aux courants d'air",
+    "Sang insuffisant pour nourrir les articulations"
+   ],
    "mecanisme": "Le Vent est mobile : il fait voyager la douleur d'une articulation à l'autre.",
-   "cle": ["douleurs-migrantes"],
-   "autres": ["nuque-raide", "raideur-articulaire", "aversion-froid"],
-   "contre": ["articulations-chaudes"],
+   "cle": [
+    "douleurs-migrantes"
+   ],
+   "autres": [
+    "nuque-raide",
+    "raideur-articulaire",
+    "aversion-froid"
+   ],
+   "contre": [
+    "articulations-chaudes"
+   ],
    "langue": "Enduit fin et blanc.",
    "pouls": "Superficiel.",
-   "principe": {"zh": "祛风通络", "py": "Qū fēng tōng luò", "fr": "Chasser le Vent, désobstruer les collatéraux"},
+   "principe": {
+    "zh": "祛风通络",
+    "py": "Qū fēng tōng luò",
+    "fr": "Chasser le Vent, désobstruer les collatéraux"
+   },
    "phases": [
-    {"m": "d", "items": [
-     {"p": "Ah Shi", "s": 90, "b": 0, "pourquoi": "Débloque la zone douloureuse du jour."},
-     {"p": "VB 20", "s": 60, "pourquoi": "Chasse le Vent."},
-     {"p": "Rt 10", "s": 60, "pourquoi": "« Pour traiter le Vent, traite d'abord le Sang. »"},
-     {"p": "V 17", "s": 60, "pourquoi": "Nourrit et fait circuler le Sang."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 90,
+       "b": 0,
+       "pourquoi": "Débloque la zone douloureuse du jour."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Chasse le Vent."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "« Pour traiter le Vent, traite d'abord le Sang. »"
+      },
+      {
+       "p": "V 17",
+       "s": 60,
+       "pourquoi": "Nourrit et fait circuler le Sang."
+      }
+     ]
+    }
    ],
-   "recettes": ["congee-goji-sesame", "infusion-gingembre-cannelle"],
+   "recettes": [
+    "congee-goji-sesame",
+    "infusion-gingembre-cannelle"
+   ],
    "privilegier": "Plats tièdes, aliments qui nourrissent le Sang.",
    "eviter": "Courants d'air, climatisation dirigée sur toi.",
    "conseils": []
   },
   {
-   "id": "bi-froid", "organe": "bi", "nom": "Bi Froid : douleurs vives soulagées par la chaleur", "zh": "痛痹", "py": "Tòng bì",
+   "id": "bi-froid",
+   "organe": "bi",
+   "nom": "Bi Froid : douleurs vives soulagées par la chaleur",
+   "zh": "痛痹",
+   "py": "Tòng bì",
    "resume": "Le Froid bloque une articulation : douleur vive, fixe, nettement soulagée par la chaleur, pire par temps froid.",
-   "causes": ["Froid et humidité répétés", "Yang faible"],
+   "causes": [
+    "Froid et humidité répétés",
+    "Yang faible"
+   ],
    "mecanisme": "Le Froid contracte et bloque : la douleur est intense, localisée, et fond à la chaleur.",
-   "cle": ["douleurs-froid", "raideur-articulaire"],
-   "autres": ["frilosite", "douleur-genou", "lombalgie-sourde", "langue-pale"],
-   "contre": ["articulations-chaudes"],
+   "cle": [
+    "douleurs-froid",
+    "raideur-articulaire"
+   ],
+   "autres": [
+    "frilosite",
+    "douleur-genou",
+    "lombalgie-sourde",
+    "langue-pale"
+   ],
+   "contre": [
+    "articulations-chaudes"
+   ],
    "langue": "Pâle, enduit blanc.",
    "pouls": "Tendu et serré.",
-   "principe": {"zh": "温经散寒", "py": "Wēn jīng sàn hán", "fr": "Réchauffer les méridiens, disperser le Froid"},
+   "principe": {
+    "zh": "温经散寒",
+    "py": "Wēn jīng sàn hán",
+    "fr": "Réchauffer les méridiens, disperser le Froid"
+   },
    "moxa": "Moxa conseillé sur la zone douloureuse.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "Ah Shi", "s": 90, "b": 0, "pourquoi": "Débloque la zone douloureuse."},
-     {"p": "VB 34", "s": 60, "pourquoi": "Détend les tendons."}
-    ]},
-    {"m": "w", "items": [
-     {"p": "Ah Shi", "s": 300, "b": 0, "pourquoi": "La chaleur dissout le Froid local."},
-     {"p": "E 36", "s": 180, "pourquoi": "Renforce le Yang et le Qi."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 90,
+       "b": 0,
+       "pourquoi": "Débloque la zone douloureuse."
+      },
+      {
+       "p": "VB 34",
+       "s": 60,
+       "pourquoi": "Détend les tendons."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 300,
+       "b": 0,
+       "pourquoi": "La chaleur dissout le Froid local."
+      },
+      {
+       "p": "E 36",
+       "s": 180,
+       "pourquoi": "Renforce le Yang et le Qi."
+      }
+     ]
+    }
    ],
-   "recettes": ["agneau-dang-gui", "infusion-gingembre-cannelle"],
+   "recettes": [
+    "agneau-dang-gui",
+    "infusion-gingembre-cannelle",
+    "soupe-mouton-radis"
+   ],
    "privilegier": "Gingembre, cannelle, plats mijotés, agneau, bains chauds.",
    "eviter": "Froid, humidité, boissons glacées.",
-   "conseils": ["Alterne bain froid bref et bain chaud prolongé si ça te soulage, et termine toujours par le chaud."],
-   "fiches": ["2026-09-26-seance-genoux"]
+   "conseils": [
+    "Alterne bain froid bref et bain chaud prolongé si ça te soulage, et termine toujours par le chaud."
+   ],
+   "fiches": [
+    "2026-09-26-seance-genoux"
+   ]
   },
   {
-   "id": "bi-humidite", "organe": "bi", "nom": "Bi Humidité : articulations lourdes et gonflées", "zh": "着痹", "py": "Zhuó bì",
+   "id": "bi-humidite",
+   "organe": "bi",
+   "nom": "Bi Humidité : articulations lourdes et gonflées",
+   "zh": "着痹",
+   "py": "Zhuó bì",
    "resume": "L'Humidité alourdit les articulations : gonflement, lourdeur, engourdissement, pire par temps humide.",
-   "causes": ["Lieux humides", "Rate faible qui produit de l'Humidité"],
+   "causes": [
+    "Lieux humides",
+    "Rate faible qui produit de l'Humidité"
+   ],
    "mecanisme": "L'Humidité est lourde et collante : elle s'accumule dans l'articulation, qui gonfle et devient pesante.",
-   "cle": ["articulations-lourdes", "lourdeur"],
-   "autres": ["engourdissements", "douleur-genou", "enduit-blanc-epais", "langue-gonflee"],
-   "contre": ["articulations-chaudes"],
+   "cle": [
+    "articulations-lourdes",
+    "lourdeur"
+   ],
+   "autres": [
+    "engourdissements",
+    "douleur-genou",
+    "enduit-blanc-epais",
+    "langue-gonflee"
+   ],
+   "contre": [
+    "articulations-chaudes"
+   ],
    "langue": "Enduit blanc et gras.",
    "pouls": "Glissant.",
-   "principe": {"zh": "除湿通络", "py": "Chú shī tōng luò", "fr": "Éliminer l'Humidité, désobstruer les collatéraux"},
+   "principe": {
+    "zh": "除湿通络",
+    "py": "Chú shī tōng luò",
+    "fr": "Éliminer l'Humidité, désobstruer les collatéraux"
+   },
    "moxa": "Moxa possible.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "Ah Shi", "s": 90, "b": 0, "pourquoi": "Débloque la zone douloureuse."},
-     {"p": "Rt 9", "s": 60, "pourquoi": "Draine l'Humidité."}
-    ]},
-    {"m": "t", "items": [
-     {"p": "E 36", "s": 120, "pourquoi": "Renforce la Rate qui transforme l'Humidité."},
-     {"p": "Rt 3", "s": 90, "pourquoi": "Renforce la Rate."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 90,
+       "b": 0,
+       "pourquoi": "Débloque la zone douloureuse."
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Renforce la Rate qui transforme l'Humidité."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Renforce la Rate."
+      }
+     ]
+    }
    ],
-   "recettes": ["congee-orge-azuki", "infusion-chen-pi"],
+   "recettes": [
+    "congee-orge-azuki",
+    "infusion-chen-pi",
+    "soupe-poisson-azuki"
+   ],
    "privilegier": "Orge perlé, haricots azuki, gingembre, céréales cuites.",
    "eviter": "Laitages, sucre, gras, lieux humides.",
    "conseils": [],
-   "fiches": ["2026-09-26-seance-genoux"]
+   "fiches": [
+    "2026-09-26-seance-genoux"
+   ]
   },
   {
-   "id": "bi-chaleur", "organe": "bi", "nom": "Bi Chaleur : articulations chaudes", "zh": "热痹", "py": "Rè bì",
+   "id": "bi-chaleur",
+   "organe": "bi",
+   "nom": "Bi Chaleur : articulations chaudes",
+   "zh": "热痹",
+   "py": "Rè bì",
    "resume": "L'articulation est rouge, chaude, gonflée et très douloureuse, parfois avec fièvre.",
-   "causes": ["Chaleur externe", "Bi ancien qui s'échauffe"],
+   "causes": [
+    "Chaleur externe",
+    "Bi ancien qui s'échauffe"
+   ],
    "mecanisme": "La Chaleur enflamme l'articulation : rougeur, chaleur, gonflement et douleur vive.",
-   "cle": ["articulations-chaudes"],
-   "autres": ["fievre", "soif", "langue-rouge", "enduit-jaune"],
-   "contre": ["douleurs-froid", "frilosite"],
+   "cle": [
+    "articulations-chaudes"
+   ],
+   "autres": [
+    "fievre",
+    "soif",
+    "langue-rouge",
+    "enduit-jaune"
+   ],
+   "contre": [
+    "douleurs-froid",
+    "frilosite"
+   ],
    "langue": "Rouge, enduit jaune.",
    "pouls": "Rapide.",
-   "principe": {"zh": "清热通络", "py": "Qīng rè tōng luò", "fr": "Clarifier la Chaleur, désobstruer les collatéraux"},
+   "principe": {
+    "zh": "清热通络",
+    "py": "Qīng rè tōng luò",
+    "fr": "Clarifier la Chaleur, désobstruer les collatéraux"
+   },
    "consulter": "Une articulation rouge, chaude et gonflée doit être vue rapidement par un médecin, surtout avec de la fièvre.",
    "moxa": "Ni moxa ni chaleur.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur."},
-     {"p": "GI 4", "s": 60, "pourquoi": "Calme la douleur."},
-     {"p": "VG 14", "s": 60, "pourquoi": "Fait baisser la chaleur."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Calme la douleur."
+      },
+      {
+       "p": "VG 14",
+       "s": 60,
+       "pourquoi": "Fait baisser la chaleur."
+      }
+     ]
+    }
    ],
-   "recettes": ["soupe-mungo", "congee-orge-azuki"],
+   "recettes": [
+    "soupe-mungo",
+    "congee-orge-azuki"
+   ],
    "privilegier": "Haricots mungo, céleri, légumes verts, orge perlé.",
    "eviter": "Alcool, épices, viande rouge, chaleur locale.",
-   "conseils": ["Ne masse pas directement l'articulation enflammée."]
+   "conseils": [
+    "Ne masse pas directement l'articulation enflammée."
+   ]
   },
   {
-   "id": "peau-vent-chaleur", "organe": "peau", "nom": "Vent-Chaleur dans la peau", "zh": "风热郁肤", "py": "Fēng rè yù fū",
+   "id": "peau-vent-chaleur",
+   "organe": "peau",
+   "nom": "Vent-Chaleur dans la peau",
+   "zh": "风热郁肤",
+   "py": "Fēng rè yù fū",
    "resume": "Le Vent et la Chaleur agitent la peau : plaques rouges qui apparaissent et disparaissent vite, fortes démangeaisons.",
-   "causes": ["Chaleur et Vent externes", "Aliments qui échauffent", "Terrain de Chaleur du Sang"],
+   "causes": [
+    "Chaleur et Vent externes",
+    "Aliments qui échauffent",
+    "Terrain de Chaleur du Sang"
+   ],
    "mecanisme": "Le Vent rend les plaques mobiles et soudaines, la Chaleur les rougit et les fait démanger.",
-   "cle": ["plaques-rouges", "demangeaisons"],
-   "autres": ["gorge-mal", "soif", "langue-rouge", "pointe-rouge"],
-   "contre": ["peau-seche", "langue-pale"],
+   "cle": [
+    "plaques-rouges",
+    "demangeaisons"
+   ],
+   "autres": [
+    "gorge-mal",
+    "soif",
+    "langue-rouge",
+    "pointe-rouge"
+   ],
+   "contre": [
+    "peau-seche",
+    "langue-pale"
+   ],
    "langue": "Pointe rouge, enduit fin.",
    "pouls": "Superficiel et rapide.",
-   "principe": {"zh": "疏风清热止痒", "py": "Shū fēng qīng rè zhǐ yǎng", "fr": "Chasser le Vent, clarifier la Chaleur, calmer les démangeaisons"},
+   "principe": {
+    "zh": "疏风清热止痒",
+    "py": "Shū fēng qīng rè zhǐ yǎng",
+    "fr": "Chasser le Vent, clarifier la Chaleur, calmer les démangeaisons"
+   },
    "moxa": "Pas de moxa.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur, calme les démangeaisons."},
-     {"p": "Rt 10", "s": 60, "pourquoi": "Rafraîchit le Sang."},
-     {"p": "Bai Chong Wo", "s": 60, "pourquoi": "Calme les démangeaisons."},
-     {"p": "GI 4", "s": 60, "pourquoi": "Chasse le Vent."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur, calme les démangeaisons."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Rafraîchit le Sang."
+      },
+      {
+       "p": "Bai Chong Wo",
+       "s": 60,
+       "pourquoi": "Calme les démangeaisons."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Chasse le Vent."
+      }
+     ]
+    }
    ],
-   "recettes": ["soupe-mungo", "infusion-menthe-chrysantheme"],
+   "recettes": [
+    "soupe-mungo",
+    "infusion-menthe-chrysantheme"
+   ],
    "privilegier": "Haricots mungo, concombre cuit, légumes verts, eau.",
    "eviter": "Fruits de mer, alcool, épices, aliments qui t'ont déjà fait réagir.",
    "conseils": []
   },
   {
-   "id": "peau-humidite-chaleur", "organe": "peau", "nom": "Humidité-Chaleur dans la peau", "zh": "湿热浸淫", "py": "Shī rè jìn yín",
+   "id": "peau-humidite-chaleur",
+   "organe": "peau",
+   "nom": "Humidité-Chaleur dans la peau",
+   "zh": "湿热浸淫",
+   "py": "Shī rè jìn yín",
    "resume": "Humidité et Chaleur remontent à la peau : eczéma qui suinte, rougeurs, démangeaisons, parfois petites vésicules.",
-   "causes": ["Alimentation grasse, sucrée, alcool", "Rate faible", "Chaleur humide"],
+   "causes": [
+    "Alimentation grasse, sucrée, alcool",
+    "Rate faible",
+    "Chaleur humide"
+   ],
    "mecanisme": "L'Humidité fait suinter, la Chaleur rougit et fait démanger : la peau devient humide et inflammée.",
-   "cle": ["eczema-suintant", "demangeaisons", "enduit-jaune"],
-   "autres": ["lourdeur", "diarrhee-chaude", "urines-foncees", "bouche-pateuse"],
-   "contre": ["peau-seche"],
+   "cle": [
+    "eczema-suintant",
+    "demangeaisons",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "lourdeur",
+    "diarrhee-chaude",
+    "urines-foncees",
+    "bouche-pateuse"
+   ],
+   "contre": [
+    "peau-seche"
+   ],
    "langue": "Enduit jaune et gras.",
    "pouls": "Glissant et rapide.",
-   "principe": {"zh": "清热利湿", "py": "Qīng rè lì shī", "fr": "Clarifier la Chaleur, drainer l'Humidité"},
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clarifier la Chaleur, drainer l'Humidité"
+   },
    "moxa": "Pas de moxa.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "Rt 9", "s": 60, "pourquoi": "Draine l'Humidité."},
-     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur."},
-     {"p": "Rt 10", "s": 60, "pourquoi": "Rafraîchit le Sang."},
-     {"p": "Bai Chong Wo", "s": 60, "pourquoi": "Calme les démangeaisons."}
-    ]},
-    {"m": "t", "items": [
-     {"p": "Rt 6", "s": 90, "pourquoi": "Renforce la Rate."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Rafraîchit le Sang."
+      },
+      {
+       "p": "Bai Chong Wo",
+       "s": 60,
+       "pourquoi": "Calme les démangeaisons."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Renforce la Rate."
+      }
+     ]
+    }
    ],
-   "recettes": ["congee-orge-azuki", "soupe-mungo"],
+   "recettes": [
+    "congee-orge-azuki",
+    "soupe-mungo"
+   ],
    "privilegier": "Orge perlé, haricots mungo et azuki, légumes verts cuits.",
    "eviter": "Sucre, laitages, alcool, friture, épices.",
-   "conseils": ["Ne gratte pas : tapote ou applique du froid doux."]
+   "conseils": [
+    "Ne gratte pas : tapote ou applique du froid doux."
+   ]
   },
   {
-   "id": "peau-vide-sang", "organe": "peau", "nom": "Peau sèche par vide de Sang", "zh": "血虚风燥", "py": "Xuè xū fēng zào",
+   "id": "peau-vide-sang",
+   "organe": "peau",
+   "nom": "Peau sèche par vide de Sang",
+   "zh": "血虚风燥",
+   "py": "Xuè xū fēng zào",
    "resume": "Le Sang ne nourrit plus la peau : peau sèche, qui gratte surtout le soir, sans grosses rougeurs.",
-   "causes": ["Vide de Sang", "Âge", "Douches chaudes et savons agressifs"],
+   "causes": [
+    "Vide de Sang",
+    "Âge",
+    "Douches chaudes et savons agressifs"
+   ],
    "mecanisme": "Le Sang humidifie la peau. Quand il manque, elle se dessèche et un « Vent interne » fait démanger.",
-   "cle": ["peau-seche", "demangeaisons"],
-   "autres": ["teint-pale", "ongles-cassants", "chute-cheveux", "langue-pale", "vertiges", "peau-terne"],
-   "contre": ["eczema-suintant", "enduit-jaune"],
+   "cle": [
+    "peau-seche",
+    "demangeaisons"
+   ],
+   "autres": [
+    "teint-pale",
+    "ongles-cassants",
+    "chute-cheveux",
+    "langue-pale",
+    "vertiges",
+    "peau-terne"
+   ],
+   "contre": [
+    "eczema-suintant",
+    "enduit-jaune"
+   ],
    "langue": "Pâle, sèche.",
    "pouls": "Fin.",
-   "principe": {"zh": "养血润燥祛风", "py": "Yǎng xuè rùn zào qū fēng", "fr": "Nourrir le Sang, humidifier, calmer le Vent"},
+   "principe": {
+    "zh": "养血润燥祛风",
+    "py": "Yǎng xuè rùn zào qū fēng",
+    "fr": "Nourrir le Sang, humidifier, calmer le Vent"
+   },
    "phases": [
-    {"m": "t", "items": [
-     {"p": "Rt 10", "s": 90, "pourquoi": "Nourrit et régule le Sang."},
-     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Sang."},
-     {"p": "E 36", "s": 120, "pourquoi": "Renforce la source du Sang."},
-     {"p": "F 8", "s": 90, "pourquoi": "Nourrit le Sang du Foie."}
-    ]}
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 10",
+       "s": 90,
+       "pourquoi": "Nourrit et régule le Sang."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Renforce la source du Sang."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang du Foie."
+      }
+     ]
+    }
    ],
-   "recettes": ["congee-goji-sesame", "soupe-epinards-oeuf", "soupe-tremelle"],
+   "recettes": [
+    "congee-goji-sesame",
+    "soupe-epinards-oeuf",
+    "soupe-tremelle",
+    "saumon-patate-douce"
+   ],
    "privilegier": "Sésame, goji, dattes, œufs, épinards, bonnes huiles.",
    "eviter": "Douches chaudes et longues, savons décapants.",
-   "conseils": ["Douche tiède et courte, hydrate la peau juste après."]
+   "conseils": [
+    "Douche tiède et courte, hydrate la peau juste après."
+   ]
   },
   {
-   "id": "peau-chaleur-sang", "organe": "peau", "nom": "Chaleur du Sang : acné et boutons rouges", "zh": "血热", "py": "Xuè rè",
+   "id": "peau-chaleur-sang",
+   "organe": "peau",
+   "nom": "Chaleur du Sang : acné et boutons rouges",
+   "zh": "血热",
+   "py": "Xuè rè",
    "resume": "La Chaleur dans le Sang ressort à la peau : boutons rouges, parfois purulents, peau qui chauffe.",
-   "causes": ["Alimentation grasse, sucrée, épicée", "Stress (Feu du Foie)", "Terrain hormonal"],
+   "causes": [
+    "Alimentation grasse, sucrée, épicée",
+    "Stress (Feu du Foie)",
+    "Terrain hormonal"
+   ],
    "mecanisme": "La Chaleur emportée par le Sang remonte vers le visage et le haut du dos et éclate en boutons rouges.",
-   "cle": ["acne", "boutons-pus"],
-   "autres": ["visage-rouge", "soif", "constipation-seche", "langue-rouge", "urines-foncees", "regles-avance", "irritabilite"],
-   "contre": ["langue-pale", "frilosite"],
+   "cle": [
+    "acne",
+    "boutons-pus"
+   ],
+   "autres": [
+    "visage-rouge",
+    "soif",
+    "constipation-seche",
+    "langue-rouge",
+    "urines-foncees",
+    "regles-avance",
+    "irritabilite"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
    "langue": "Rouge.",
    "pouls": "Rapide.",
-   "principe": {"zh": "清热凉血", "py": "Qīng rè liáng xuè", "fr": "Clarifier la Chaleur, rafraîchir le Sang"},
+   "principe": {
+    "zh": "清热凉血",
+    "py": "Qīng rè liáng xuè",
+    "fr": "Clarifier la Chaleur, rafraîchir le Sang"
+   },
    "moxa": "Pas de moxa.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur."},
-     {"p": "GI 4", "s": 60, "pourquoi": "Soulage le visage."},
-     {"p": "Rt 10", "s": 60, "pourquoi": "Rafraîchit le Sang."},
-     {"p": "V 40", "s": 60, "pourquoi": "Rafraîchit le Sang."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Soulage le visage."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Rafraîchit le Sang."
+      },
+      {
+       "p": "V 40",
+       "s": 60,
+       "pourquoi": "Rafraîchit le Sang."
+      }
+     ]
+    }
    ],
-   "recettes": ["soupe-mungo", "infusion-chrysantheme-goji", "saute-celeri-tofu"],
+   "recettes": [
+    "soupe-mungo",
+    "infusion-chrysantheme-goji",
+    "saute-celeri-tofu"
+   ],
    "privilegier": "Légumes verts, haricots mungo, céleri, concombre cuit, eau.",
    "eviter": "Sucre, friture, chocolat, épices, alcool, laitages.",
-   "conseils": ["Ne perce pas les boutons."]
+   "conseils": [
+    "Ne perce pas les boutons."
+   ]
   }
  ]
 }

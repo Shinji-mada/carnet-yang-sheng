@@ -1,0 +1,366 @@
+{
+ "fiches": [
+  {
+   "id": "boeuf-carottes-dattes", "type": "recette", "date": "2026-09-27", "ordre": 30, "axe": "qi",
+   "titre": "Bœuf mijoté aux carottes, dattes et gingembre",
+   "contexte": "Le bœuf tonifie le Qi et le Sang et renforce la Rate, les tendons et les os ; les dattes et la carotte le complètent. Un plat de fond pour la fatigue et la convalescence.",
+   "principe": {"zh": "补气养血", "py": "Bǔ qì yǎng xuè", "fr": "Tonifier le Qi, nourrir le Sang"},
+   "portions": 4, "duree": "2 h 30",
+   "ingredients": [
+    {"id": "boeuf", "q": 600, "u": "g", "nom": "bœuf à mijoter (paleron, joue, macreuse), en cubes", "cle": "boeuf"},
+    {"id": "carotte", "q": 4, "nom": "carottes, en tronçons", "cle": "carotte"},
+    {"id": "oignon", "q": 1, "nom": "oignon, émincé", "cle": "oignon"},
+    {"id": "gingembre", "q": 30, "u": "g", "nom": "gingembre frais, en tranches", "cle": "gingembre"},
+    {"id": "dattes", "q": 8, "nom": "dattes rouges", "cle": "dattes"},
+    {"id": "anis", "q": 1, "nom": "étoile d'anis (badiane)", "cle": "anis-etoile"},
+    {"id": "soja", "q": 2, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "eau", "q": 1000, "u": "ml", "nom": "eau", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la cocotte en fonte ou casserole", "etapes": [
+     {"titre": "Saisir la viande", "texte": "Fais dorer le bœuf ({boeuf}) dans l'huile ({huile}) sur toutes ses faces.", "s": 300},
+     {"titre": "Ajouter les aromates", "texte": "Ajoute l'oignon ({oignon}) et le gingembre ({gingembre}), remue jusqu'à ce qu'ils sentent bon.", "s": 180},
+     {"titre": "Mijoter", "texte": "Verse l'eau ({eau}) et la sauce soja ({soja}), ajoute l'anis ({anis}) et les dattes ({dattes}). Couvre et laisse frémir très doucement.", "s": 5400},
+     {"titre": "Ajouter les carottes", "texte": "Ajoute les carottes ({carotte}) et poursuis jusqu'à ce que la viande soit fondante.", "s": 2700},
+     {"titre": "Servir", "texte": "Retire l'anis, goûte et sers avec du riz."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Saisir la viande", "texte": "En mode Rissoler si ton appareil l'a, fais dorer le bœuf ({boeuf}) dans l'huile ({huile}), puis l'oignon ({oignon}) et le gingembre ({gingembre}).", "s": 480},
+     {"titre": "Cuire", "texte": "Ajoute l'eau ({eau}), la sauce soja ({soja}), l'anis ({anis}), les dattes ({dattes}) et les carottes ({carotte}). Programme Mijoter ou Ragoût.", "s": 7200},
+     {"titre": "Servir", "texte": "Retire l'anis et sers avec du riz."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Saisir la viande", "texte": "Fais dorer le bœuf ({boeuf}) dans l'huile ({huile}) directement dans la cocotte, puis l'oignon ({oignon}) et le gingembre ({gingembre}).", "s": 480},
+     {"titre": "Cuire sous pression", "texte": "Ajoute l'eau ({eau}), la sauce soja ({soja}), l'anis ({anis}), les dattes ({dattes}) et les carottes ({carotte}). Ferme et compte le temps à partir du sifflement.", "s": 2700},
+     {"titre": "Servir", "texte": "Laisse la pression retomber seule, retire l'anis et sers."}
+    ]}
+   ],
+   "notes": ["Un morceau gélatineux (joue, paleron) donne une sauce plus nourrissante."],
+   "tags": ["viande", "mijoté", "fatigue", "convalescence"]
+  },
+  {
+   "id": "boeuf-brocoli", "type": "recette", "date": "2026-09-27", "ordre": 31, "axe": "qi",
+   "titre": "Bœuf sauté au brocoli et au gingembre",
+   "contexte": "Rapide et nourrissant : le bœuf tonifie le Qi et le Sang, le brocoli bien cuit reste digeste.",
+   "principe": {"zh": "健脾益气", "py": "Jiàn pí yì qì", "fr": "Renforcer la Rate, tonifier le Qi"},
+   "portions": 2, "duree": "20 min",
+   "ingredients": [
+    {"id": "boeuf", "q": 250, "u": "g", "nom": "bœuf à griller (rumsteck, bavette), en fines lamelles", "cle": "boeuf"},
+    {"id": "brocoli", "q": 300, "u": "g", "nom": "brocoli, en petits bouquets", "cle": "brocoli"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre, en bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "ail", "q": 1, "nom": "gousse d'ail, émincée", "cle": "ail"},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "fecule", "q": 1, "u": "tsp", "nom": "fécule de maïs, délayée dans 3 cuillerées d'eau", "base": true},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle ou au wok", "etapes": [
+     {"titre": "Blanchir le brocoli", "texte": "Plonge le brocoli ({brocoli}) dans l'eau bouillante, puis égoutte-le.", "s": 120},
+     {"titre": "Saisir le bœuf", "texte": "Chauffe l'huile ({huile}) très fort et saisis le bœuf ({boeuf}) juste le temps qu'il change de couleur. Réserve-le.", "s": 90},
+     {"titre": "Faire sauter", "texte": "Fais revenir l'ail ({ail}) et le gingembre ({gingembre}) quelques secondes, ajoute le brocoli et fais sauter.", "s": 120},
+     {"titre": "Lier et servir", "texte": "Remets le bœuf, ajoute la sauce soja ({soja}) et la fécule délayée ({fecule}), remue jusqu'à ce que ça nappe. Sers avec du riz."}
+    ]}
+   ],
+   "notes": ["Coupe le bœuf à moitié congelé : les lamelles sont plus fines."],
+   "tags": ["viande", "sauté", "rapide"]
+  },
+  {
+   "id": "soupe-mouton-radis", "type": "recette", "date": "2026-09-27", "ordre": 32, "axe": "yang",
+   "titre": "Soupe de mouton au radis blanc",
+   "contexte": "Classique de l'hiver en Chine : le mouton réchauffe le Yang de la Rate et du Rein, le radis blanc allège le plat et aide à digérer la viande.",
+   "principe": {"zh": "温中补虚", "py": "Wēn zhōng bǔ xū", "fr": "Réchauffer le centre, tonifier le vide"},
+   "precautions": "À éviter en cas de signes de chaleur : langue rouge, soif, sueurs nocturnes, boutons rouges.",
+   "portions": 4, "duree": "2 h",
+   "ingredients": [
+    {"id": "mouton", "q": 600, "u": "g", "nom": "mouton ou agneau (épaule, collier), en morceaux", "cle": "mouton"},
+    {"id": "radis", "q": 500, "u": "g", "nom": "radis blanc (daikon), en gros tronçons", "cle": "radis-blanc"},
+    {"id": "gingembre", "q": 30, "u": "g", "nom": "gingembre frais, en tranches", "cle": "gingembre"},
+    {"id": "carotte", "q": 1, "nom": "carotte, en rondelles", "cle": "carotte"},
+    {"id": "cebette", "q": 2, "nom": "tiges de cébette, ciselées", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "eau", "q": 2000, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel et poivre blanc", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Blanchir la viande", "texte": "Plonge le mouton ({mouton}) dans l'eau bouillante, puis rince-le : le bouillon sera plus clair et moins fort.", "s": 180},
+     {"titre": "Mijoter", "texte": "Mets la viande, le gingembre ({gingembre}) et l'eau ({eau}) dans une grande casserole. Porte à ébullition, écume et laisse frémir à couvert.", "s": 4500},
+     {"titre": "Ajouter les légumes", "texte": "Ajoute le radis ({radis}) et la carotte ({carotte}). Poursuis jusqu'à ce que le radis soit translucide.", "s": 1800},
+     {"titre": "Servir", "texte": "Sale et poivre ({sel}), parsème de cébette ({cebette})."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Blanchir la viande", "texte": "Plonge le mouton ({mouton}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Cuire", "texte": "Mets la viande, le gingembre ({gingembre}), le radis ({radis}), la carotte ({carotte}) et l'eau ({eau}) dans la cuve. Programme Soupe ou Mijoter.", "s": 6000},
+     {"titre": "Servir", "texte": "Sale et poivre ({sel}), parsème de cébette ({cebette})."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Blanchir la viande", "texte": "Plonge le mouton ({mouton}) dans l'eau bouillante, puis rince-le.", "s": 180},
+     {"titre": "Cuire sous pression", "texte": "Mets la viande, le gingembre ({gingembre}) et l'eau ({eau}) dans la cocotte. Compte le temps à partir du sifflement.", "s": 1500},
+     {"titre": "Ajouter les légumes", "texte": "Ouvre une fois la pression retombée, ajoute le radis ({radis}) et la carotte ({carotte}), laisse frémir sans couvercle.", "s": 1200},
+     {"titre": "Servir", "texte": "Sale et poivre ({sel}), parsème de cébette ({cebette})."}
+    ]}
+   ],
+   "notes": ["Sers le bouillon bien chaud en premier, puis la viande et le radis."],
+   "tags": ["viande", "soupe", "hiver", "froid"]
+  },
+  {
+   "id": "congee-poulet", "type": "recette", "date": "2026-09-27", "ordre": 33, "axe": "qi",
+   "titre": "Congee au poulet et au gingembre",
+   "contexte": "Le congee de la convalescence : le poulet tonifie le Qi et réchauffe doucement le centre, le gingembre aide à digérer.",
+   "principe": {"zh": "补气健脾", "py": "Bǔ qì jiàn pí", "fr": "Tonifier le Qi, renforcer la Rate"},
+   "portions": 4, "duree": "1 h 10",
+   "ingredients": [
+    {"id": "riz", "q": 150, "u": "g", "nom": "riz", "cle": "riz"},
+    {"id": "poulet", "q": 250, "u": "g", "nom": "blanc ou haut de cuisse de poulet sans os, en fines lamelles", "cle": "poulet"},
+    {"id": "gingembre", "q": 6, "nom": "tranches de gingembre, en fins bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "cebette", "q": 2, "nom": "tiges de cébette, ciselées", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau ou bouillon de volaille", "base": true},
+    {"id": "sel", "q": 0.5, "u": "tsp", "nom": "sel", "base": true},
+    {"id": "sesame", "q": 1, "u": "tsp", "nom": "huile de sésame", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire le riz", "texte": "Rince le riz ({riz}), porte-le à ébullition dans l'eau ({eau}) avec la moitié du gingembre ({gingembre}). Laisse frémir à couvert entrouvert en remuant.", "s": 2700},
+     {"titre": "Ajouter le poulet", "texte": "Ajoute le poulet ({poulet}) et le reste du gingembre, remue et laisse cuire doucement.", "s": 900},
+     {"titre": "Servir", "texte": "Sale ({sel}), parsème de cébette ({cebette}) et de quelques gouttes d'huile de sésame ({sesame})."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur à riz ou multicuiseur", "etapes": [
+     {"titre": "Cuire le congee", "texte": "Mets le riz rincé ({riz}) et la moitié du gingembre ({gingembre}) dans la cuve, eau jusqu'au repère Porridge. Programme Porridge ou Congee.", "s": 3600},
+     {"titre": "Ajouter le poulet", "texte": "Ajoute le poulet ({poulet}) et le reste du gingembre, remue, laisse en maintien au chaud ou relance un court cycle, jusqu'à ce que le poulet soit bien cuit.", "s": 900},
+     {"titre": "Servir", "texte": "Sale ({sel}), parsème de cébette ({cebette}), un filet d'huile de sésame ({sesame})."}
+    ]}
+   ],
+   "notes": ["Vérifie que le poulet est cuit à cœur, sans rose au centre."],
+   "tags": ["congee", "viande", "convalescence"]
+  },
+  {
+   "id": "poulet-shiitake", "type": "recette", "date": "2026-09-27", "ordre": 34, "axe": "rate",
+   "titre": "Poulet sauté aux shiitakés et au gingembre",
+   "contexte": "Le shiitaké renforce le Qi de la Rate et les défenses, le poulet tonifie le Qi : un plat du quotidien pour la fatigue et la digestion lente.",
+   "principe": {"zh": "健脾益气", "py": "Jiàn pí yì qì", "fr": "Renforcer la Rate, tonifier le Qi"},
+   "portions": 2, "duree": "25 min",
+   "ingredients": [
+    {"id": "poulet", "q": 300, "u": "g", "nom": "blanc ou haut de cuisse de poulet, en lamelles", "cle": "poulet"},
+    {"id": "shiitake", "q": 150, "u": "g", "nom": "shiitakés frais, émincés (ou 8 séchés, réhydratés 30 min)", "cle": "shiitake"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre, en bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "ail", "q": 1, "nom": "gousse d'ail", "cle": "ail"},
+    {"id": "cebette", "q": 1, "nom": "tige de cébette", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle ou au wok", "etapes": [
+     {"titre": "Dorer le poulet", "texte": "Fais dorer le poulet ({poulet}) dans l'huile ({huile}), jusqu'à ce qu'il soit cuit.", "s": 300},
+     {"titre": "Ajouter les champignons", "texte": "Ajoute l'ail ({ail}), le gingembre ({gingembre}) et les shiitakés ({shiitake}), fais sauter jusqu'à ce qu'ils soient tendres.", "s": 240},
+     {"titre": "Servir", "texte": "Ajoute la sauce soja ({soja}) et la cébette ({cebette}), mélange et sers avec du riz."}
+    ]}
+   ],
+   "notes": ["Garde l'eau de trempage des shiitakés séchés pour une soupe."],
+   "tags": ["viande", "sauté", "champignons"]
+  },
+  {
+   "id": "soupe-huitres-tofu", "type": "recette", "date": "2026-09-27", "ordre": 35, "axe": "yin",
+   "titre": "Soupe d'huîtres au tofu et au gingembre",
+   "contexte": "La chair d'huître nourrit le Yin et le Sang et calme l'esprit ; le tofu rafraîchit doucement. Pour le sommeil agité, les sueurs nocturnes et la fatigue avec sécheresse.",
+   "principe": {"zh": "滋阴养血", "py": "Zī yīn yǎng xuè", "fr": "Nourrir le Yin et le Sang"},
+   "precautions": "Cuis bien les huîtres. Évite-les en cas d'allergie aux fruits de mer, et ne les mange pas crues pendant la grossesse.",
+   "portions": 2, "duree": "20 min",
+   "ingredients": [
+    {"id": "huitres", "q": 12, "nom": "huîtres, ouvertes, avec leur eau filtrée", "cle": "huitres"},
+    {"id": "tofu", "q": 200, "u": "g", "nom": "tofu soyeux, en dés", "cle": "tofu"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre, en fins bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "cebette", "q": 1, "nom": "tige de cébette, ciselée", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "eau", "q": 700, "u": "ml", "nom": "eau ou bouillon léger", "base": true},
+    {"id": "poivre", "q": 1, "u": "pinch", "nom": "poivre blanc", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Parfumer le bouillon", "texte": "Porte l'eau ({eau}) à frémissement avec le gingembre ({gingembre}).", "s": 300},
+     {"titre": "Ajouter le tofu", "texte": "Ajoute le tofu ({tofu}) délicatement.", "s": 180},
+     {"titre": "Pocher les huîtres", "texte": "Ajoute les huîtres ({huitres}) et leur eau filtrée. Retire du feu dès que leurs bords se recroquevillent.", "s": 120},
+     {"titre": "Servir", "texte": "Poivre ({poivre}), parsème de cébette ({cebette}). Goûte avant de saler : l'eau des huîtres l'est déjà."}
+    ]}
+   ],
+   "notes": ["Les huîtres surgelées décortiquées de l'épicerie asiatique conviennent aussi."],
+   "tags": ["fruits de mer", "soupe", "sommeil", "Yin"]
+  },
+  {
+   "id": "poulpe-pommes-de-terre", "type": "recette", "date": "2026-09-27", "ordre": 36, "axe": "sang",
+   "titre": "Poulpe mijoté aux pommes de terre et à l'ail",
+   "contexte": "Le poulpe nourrit le Qi et le Sang ; cuit longtemps, il devient tendre et digeste. Les pommes de terre soutiennent la Rate.",
+   "principe": {"zh": "补气养血", "py": "Bǔ qì yǎng xuè", "fr": "Tonifier le Qi, nourrir le Sang"},
+   "precautions": "Évite-le en cas d'allergie aux fruits de mer.",
+   "portions": 4, "duree": "1 h 30",
+   "ingredients": [
+    {"id": "poulpe", "q": 1000, "u": "g", "nom": "poulpe nettoyé (surgelé puis décongelé, il est plus tendre)", "cle": "poulpe"},
+    {"id": "pdt", "q": 500, "u": "g", "nom": "pommes de terre, en morceaux", "cle": "pomme-de-terre"},
+    {"id": "oignon", "q": 1, "nom": "oignon, émincé", "cle": "oignon"},
+    {"id": "ail", "q": 3, "nom": "gousses d'ail, émincées", "cle": "ail", "suffixe": "gousses"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "laurier", "q": 1, "nom": "feuille de laurier", "base": true},
+    {"id": "huile", "q": 2, "u": "tbsp", "nom": "huile d'olive", "base": true},
+    {"id": "eau", "q": 500, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "tsp", "nom": "sel et poivre", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire le poulpe", "texte": "Plonge le poulpe ({poulpe}) dans une grande casserole d'eau bouillante avec le laurier ({laurier}) et le gingembre ({gingembre}). Laisse frémir à couvert jusqu'à ce qu'une pointe de couteau entre facilement.", "s": 2700},
+     {"titre": "Couper", "texte": "Égoutte le poulpe et coupe-le en morceaux."},
+     {"titre": "Faire revenir", "texte": "Fais revenir l'oignon ({oignon}) et l'ail ({ail}) dans l'huile ({huile}).", "s": 300},
+     {"titre": "Mijoter", "texte": "Ajoute les pommes de terre ({pdt}), le poulpe et l'eau ({eau}). Laisse mijoter à couvert jusqu'à ce que les pommes de terre soient tendres.", "s": 1500},
+     {"titre": "Servir", "texte": "Sale et poivre ({sel})."}
+    ]},
+    {"id": "cocotte", "nom": "À la cocotte-minute", "etapes": [
+     {"titre": "Cuire le poulpe", "texte": "Mets le poulpe ({poulpe}), le laurier ({laurier}) et le gingembre ({gingembre}) dans la cocotte, couvre d'eau à mi-hauteur. Compte le temps à partir du sifflement.", "s": 900},
+     {"titre": "Couper", "texte": "Laisse la pression retomber, égoutte le poulpe et coupe-le en morceaux."},
+     {"titre": "Faire revenir", "texte": "Dans la cocotte vidée, fais revenir l'oignon ({oignon}) et l'ail ({ail}) dans l'huile ({huile}).", "s": 300},
+     {"titre": "Cuire sous pression", "texte": "Ajoute les pommes de terre ({pdt}), le poulpe et l'eau ({eau}), referme.", "s": 480},
+     {"titre": "Servir", "texte": "Sale et poivre ({sel})."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["fruits de mer", "mijoté", "Sang"]
+  },
+  {
+   "id": "calamars-celeri", "type": "recette", "date": "2026-09-27", "ordre": 37, "axe": "yin",
+   "titre": "Calamars sautés au céleri et au gingembre",
+   "contexte": "Le calamar nourrit le Yin et le Sang, le céleri rafraîchit le Foie : un plat léger quand la chaleur monte à la tête et que les yeux sont secs.",
+   "principe": {"zh": "滋阴养血", "py": "Zī yīn yǎng xuè", "fr": "Nourrir le Yin et le Sang"},
+   "precautions": "Évite-le en cas d'allergie aux fruits de mer.",
+   "portions": 2, "duree": "20 min",
+   "ingredients": [
+    {"id": "calamar", "q": 400, "u": "g", "nom": "calamars nettoyés, en anneaux", "cle": "calamar"},
+    {"id": "celeri", "q": 3, "nom": "branches de céleri, en biais", "cle": "celeri", "suffixe": "branches"},
+    {"id": "gingembre", "q": 3, "nom": "tranches de gingembre, en bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "ail", "q": 1, "nom": "gousse d'ail", "cle": "ail"},
+    {"id": "cebette", "q": 1, "nom": "tige de cébette", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true}
+   ],
+   "variantes": [
+    {"id": "poele", "nom": "À la poêle ou au wok", "etapes": [
+     {"titre": "Saisir les calamars", "texte": "Poêle très chaude, saisis les calamars ({calamar}) dans l'huile ({huile}) juste le temps qu'ils deviennent blancs, puis réserve. Trop cuits, ils durcissent.", "s": 90},
+     {"titre": "Sauter le céleri", "texte": "Fais revenir l'ail ({ail}) et le gingembre ({gingembre}), puis le céleri ({celeri}) : il doit rester croquant.", "s": 180},
+     {"titre": "Servir", "texte": "Remets les calamars 30 secondes avec la sauce soja ({soja}) et la cébette ({cebette}). Sers avec du riz."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["fruits de mer", "sauté", "yeux", "Foie"]
+  },
+  {
+   "id": "poisson-vapeur", "type": "recette", "date": "2026-09-27", "ordre": 38, "axe": "rate",
+   "titre": "Poisson blanc à la vapeur, gingembre et cébette",
+   "contexte": "La cuisson vapeur garde le poisson léger et facile à digérer ; gingembre et cébette réchauffent l'Estomac. Idéal pour une digestion fragile ou une nausée.",
+   "principe": {"zh": "健脾和胃", "py": "Jiàn pí hé wèi", "fr": "Renforcer la Rate, harmoniser l'Estomac"},
+   "portions": 2, "duree": "20 min",
+   "ingredients": [
+    {"id": "poisson", "q": 2, "nom": "filets de poisson blanc (cabillaud, bar, dorade…)", "cle": "poisson-blanc"},
+    {"id": "gingembre", "q": 6, "nom": "tranches de gingembre, en fins bâtonnets", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "cebette", "q": 2, "nom": "tiges de cébette, en fins bâtonnets", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile neutre", "base": true}
+   ],
+   "variantes": [
+    {"id": "vapeur", "nom": "À la vapeur (casserole)", "etapes": [
+     {"titre": "Préparer", "texte": "Pose les filets ({poisson}) dans une assiette creuse, parsème de la moitié du gingembre ({gingembre})."},
+     {"titre": "Cuire à la vapeur", "texte": "Pose l'assiette au-dessus d'une casserole d'eau frémissante, couvercle fermé, jusqu'à ce que la chair soit nacrée.", "s": 540},
+     {"titre": "Assaisonner", "texte": "Verse la sauce soja ({soja}), ajoute le reste du gingembre et la cébette ({cebette}). Arrose d'huile ({huile}) bien chaude pour saisir les aromates."}
+    ]},
+    {"id": "cuiseur", "nom": "Au cuiseur (panier vapeur)", "etapes": [
+     {"titre": "Préparer", "texte": "Pose les filets ({poisson}) dans une assiette qui tient dans le panier, avec la moitié du gingembre ({gingembre})."},
+     {"titre": "Cuire à la vapeur", "texte": "Eau dans la cuve selon la notice, programme Vapeur. Tu peux cuire le riz dessous en même temps.", "s": 720},
+     {"titre": "Assaisonner", "texte": "Sauce soja ({soja}), reste du gingembre, cébette ({cebette}), puis l'huile ({huile}) bien chaude."}
+    ]}
+   ],
+   "notes": ["Un poisson entier (bar, dorade) se prépare de la même façon : compte quelques minutes de plus."],
+   "tags": ["poisson", "vapeur", "digestion", "léger"]
+  },
+  {
+   "id": "soupe-poisson-azuki", "type": "recette", "date": "2026-09-27", "ordre": 39, "axe": "humidite",
+   "titre": "Soupe de poisson aux haricots azuki",
+   "contexte": "Recette classique contre les gonflements : le poisson soutient la Rate, les haricots azuki drainent l'eau par les urines. En Chine, on la fait avec de la carpe.",
+   "principe": {"zh": "利水消肿", "py": "Lì shuǐ xiāo zhǒng", "fr": "Drainer l'eau, réduire les œdèmes"},
+   "precautions": "Des œdèmes doivent aussi être vus par un médecin.",
+   "portions": 4, "duree": "1 h 30 (+ trempage)",
+   "ingredients": [
+    {"id": "azuki", "q": 100, "u": "g", "nom": "haricots azuki, trempés une nuit", "cle": "azuki"},
+    {"id": "poisson", "q": 500, "u": "g", "nom": "carpe en tronçons ou poisson blanc ferme", "cle": "poisson-blanc", "note": "La carpe se trouve en épicerie asiatique ou chez le poissonnier."},
+    {"id": "gingembre", "q": 5, "nom": "tranches de gingembre", "cle": "gingembre", "suffixe": "tranches"},
+    {"id": "mandarine", "q": 3, "u": "g", "nom": "écorce de mandarine séchée (ou zeste d'une mandarine bio)", "cle": "mandarine"},
+    {"id": "eau", "q": 1500, "u": "ml", "nom": "eau", "base": true},
+    {"id": "sel", "q": 1, "u": "pinch", "nom": "sel, très peu", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole", "etapes": [
+     {"titre": "Cuire les azuki", "texte": "Égoutte les azuki ({azuki}), mets-les dans l'eau ({eau}) avec l'écorce ({mandarine}), porte à ébullition et laisse frémir.", "s": 3000},
+     {"titre": "Ajouter le poisson", "texte": "Ajoute le poisson ({poisson}) et le gingembre ({gingembre}), laisse frémir doucement sans remuer.", "s": 1200},
+     {"titre": "Servir", "texte": "Sale très peu ({sel}) : le sel retient l'eau. Bois le bouillon et mange les haricots."}
+    ]},
+    {"id": "cuiseur", "nom": "Au multicuiseur", "etapes": [
+     {"titre": "Cuire les azuki", "texte": "Mets les azuki égouttés ({azuki}), l'écorce ({mandarine}) et l'eau ({eau}) dans la cuve. Programme Soupe ou Mijoter.", "s": 3600},
+     {"titre": "Ajouter le poisson", "texte": "Ajoute le poisson ({poisson}) et le gingembre ({gingembre}), relance un cycle court.", "s": 1200},
+     {"titre": "Servir", "texte": "Sale très peu ({sel})."}
+    ]}
+   ],
+   "notes": ["Attention aux arêtes de la carpe : sers-la en gros morceaux faciles à trier."],
+   "tags": ["poisson", "soupe", "œdèmes", "Humidité"]
+  },
+  {
+   "id": "saumon-patate-douce", "type": "recette", "date": "2026-09-27", "ordre": 40, "axe": "sang",
+   "titre": "Saumon au four, patate douce et gingembre",
+   "contexte": "Le saumon tonifie le Qi et nourrit le Sang, la patate douce renforce la Rate. Un plat complet et simple, au four ou à la vapeur.",
+   "principe": {"zh": "补气养血", "py": "Bǔ qì yǎng xuè", "fr": "Tonifier le Qi, nourrir le Sang"},
+   "portions": 2, "duree": "35 min",
+   "ingredients": [
+    {"id": "saumon", "q": 2, "nom": "pavés de saumon", "cle": "saumon"},
+    {"id": "patate", "q": 400, "u": "g", "nom": "patate douce, en cubes", "cle": "patate-douce"},
+    {"id": "gingembre", "q": 10, "u": "g", "nom": "gingembre frais, râpé", "cle": "gingembre"},
+    {"id": "cebette", "q": 1, "nom": "tige de cébette, ciselée", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "soja", "q": 1, "u": "tbsp", "nom": "sauce soja", "base": true},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile d'olive", "base": true},
+    {"id": "sel", "q": 1, "u": "pinch", "nom": "sel", "base": true}
+   ],
+   "variantes": [
+    {"id": "four", "nom": "Au four", "etapes": [
+     {"titre": "Rôtir la patate douce", "texte": "Préchauffe le four à 200 °C. Mélange la patate douce ({patate}) avec l'huile ({huile}) et le sel ({sel}), étale-la sur une plaque et enfourne.", "s": 900},
+     {"titre": "Préparer le saumon", "texte": "Mélange le gingembre ({gingembre}) et la sauce soja ({soja}), badigeonne les pavés ({saumon})."},
+     {"titre": "Cuire le saumon", "texte": "Pose le saumon sur la plaque à côté de la patate douce et enfourne jusqu'à ce qu'il soit juste cuit.", "s": 720},
+     {"titre": "Servir", "texte": "Parsème de cébette ({cebette})."}
+    ]},
+    {"id": "vapeur", "nom": "À la vapeur", "etapes": [
+     {"titre": "Cuire la patate douce", "texte": "Cuis la patate douce ({patate}) à la vapeur jusqu'à ce qu'elle soit tendre.", "s": 900},
+     {"titre": "Cuire le saumon", "texte": "Badigeonne les pavés ({saumon}) de gingembre ({gingembre}) et de sauce soja ({soja}), ajoute-les au panier vapeur.", "s": 600},
+     {"titre": "Servir", "texte": "Arrose d'un filet d'huile ({huile}), parsème de cébette ({cebette})."}
+    ]}
+   ],
+   "notes": [],
+   "tags": ["poisson", "four", "Sang", "complet"]
+  },
+  {
+   "id": "moules-gingembre", "type": "recette", "date": "2026-09-27", "ordre": 41, "axe": "yang",
+   "titre": "Moules au gingembre et à la cébette",
+   "contexte": "La moule, tiède, nourrit le Foie et le Rein, l'Essence et le Sang : pour les lombaires faibles, les vertiges et la fatigue de fond.",
+   "principe": {"zh": "补肝肾益精血", "py": "Bǔ gān shèn yì jīng xuè", "fr": "Tonifier le Foie et le Rein, nourrir l'Essence et le Sang"},
+   "precautions": "Évite-les en cas d'allergie aux fruits de mer. Jette les moules ouvertes avant cuisson et celles restées fermées après.",
+   "portions": 2, "duree": "25 min",
+   "ingredients": [
+    {"id": "moules", "q": 1000, "u": "g", "nom": "moules, grattées et lavées", "cle": "moules"},
+    {"id": "gingembre", "q": 20, "u": "g", "nom": "gingembre frais, en fins bâtonnets", "cle": "gingembre"},
+    {"id": "ail", "q": 2, "nom": "gousses d'ail, émincées", "cle": "ail", "suffixe": "gousses"},
+    {"id": "cebette", "q": 3, "nom": "tiges de cébette, en tronçons", "cle": "cebette", "suffixe": "tiges"},
+    {"id": "huile", "q": 1, "u": "tbsp", "nom": "huile", "base": true},
+    {"id": "eau", "q": 100, "u": "ml", "nom": "eau", "base": true},
+    {"id": "poivre", "q": 1, "u": "pinch", "nom": "poivre", "base": true}
+   ],
+   "variantes": [
+    {"id": "casserole", "nom": "À la casserole (faitout)", "etapes": [
+     {"titre": "Faire revenir", "texte": "Dans un grand faitout, fais revenir l'ail ({ail}) et le gingembre ({gingembre}) dans l'huile ({huile}).", "s": 60},
+     {"titre": "Cuire les moules", "texte": "Ajoute les moules ({moules}) et l'eau ({eau}), couvre et secoue le faitout de temps en temps jusqu'à ce qu'elles s'ouvrent.", "s": 300},
+     {"titre": "Servir", "texte": "Ajoute la cébette ({cebette}) et le poivre ({poivre}), mélange et sers avec le jus."}
+    ]}
+   ],
+   "notes": ["Sers avec du riz pour profiter du jus."],
+   "tags": ["fruits de mer", "Rein", "rapide"]
+  }
+ ]
+}

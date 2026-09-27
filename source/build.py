@@ -56,6 +56,8 @@ def check(data):
             for it in ph.get("items", []): yield it
     for t in data.get("tableaux", []):
         if t.get("organe") not in org: errs.append(f"tableau {t['id']} : organe inconnu {t.get('organe')}")
+        for g in t.get("groupes", []):
+            if g not in org: errs.append(f"tableau {t['id']} : groupe inconnu {g}")
         for key in ("cle", "autres", "contre"):
             for s in t.get(key, []):
                 if s not in sym: errs.append(f"tableau {t['id']} : symptôme inconnu {s} ({key})")

@@ -11,7 +11,7 @@
 <link rel="icon" type="image/png" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <link rel="preload" href="fonts/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="app.css?v=a9a6fdac">
+<link rel="stylesheet" href="app.css?v=a8fb25e5">
 </head>
 <body>
 <main id="view"></main>
@@ -21,6 +21,17 @@
     <div class="mini-t"><b id="mini-title"></b><span>Minuteur en cours</span></div>
     <span class="mini-time" id="mini-time"></span>
     <button type="button" id="mini-open">Voir</button>
+  </div>
+</div>
+
+<div id="toast" class="toast" role="status" aria-live="polite" hidden><span class="toast-m"></span><button type="button" class="toast-b">Annuler</button></div>
+
+<div id="sheet" class="sheet-back" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-t">
+    <h2 class="sheet-t" id="sheet-t"></h2>
+    <p class="sheet-s"></p>
+    <div class="sheet-body"></div>
+    <button type="button" class="sheet-cancel">Fermer</button>
   </div>
 </div>
 
@@ -34,6 +45,6 @@
   </div>
 </nav>
 
-<script src="app.js?v=a4682292"></script>
+<script src="app.js?v=3a3263b3"></script>
 </body>
 </html>

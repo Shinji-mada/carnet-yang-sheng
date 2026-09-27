@@ -11,6 +11,7 @@ Ouvrir le site dans Chrome, puis menu ⋮ et « Installer l'application ». L'ap
 ## Organisation du dépôt
 
 - À la racine : l'appli publiée par GitHub Pages (`index.html`, `app.js`, `app.css`, `data.json`, `manifest.webmanifest`, `sw.js`, `icons/`, `fonts/`).
-- `source/` : les fichiers de travail. Le contenu (fiches, symptômes, ingrédients) se modifie dans `source/data.json`, puis `python3 source/build.py` régénère l'appli à la racine.
+- `source/` : les fichiers de travail. Le contenu se modifie dans `source/contenu/` (organes et ingrédients dans `base.json`, puis symptômes, points, tableaux, recettes et protocoles). `python3 source/build.py` vérifie les références croisées et régénère l'appli à la racine.
+- Les carnets personnels, favoris et récents restent dans le téléphone (stockage local du navigateur).
 
 Polices Atkinson Hyperlegible et Noto Serif SC sous licence SIL Open Font License (voir `fonts/`).

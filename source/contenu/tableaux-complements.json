@@ -1,0 +1,650 @@
+{
+ "tableaux": [
+  {
+   "id": "p-secheresse",
+   "organe": "poumon",
+   "nom": "Sécheresse du Poumon",
+   "zh": "肺燥",
+   "py": "Fèi zào",
+   "resume": "L'air sec de l'automne ou du chauffage dessèche le Poumon : toux sèche, gorge et nez secs, peau sèche, sans vraie chaleur.",
+   "causes": [
+    "Automne, climat ou chauffage secs",
+    "Ne pas boire assez",
+    "Début de vide de Yin"
+   ],
+   "mecanisme": "Le Poumon aime l'humidité. L'air sec lui prend ses liquides : la toux devient sèche, la gorge, le nez et la peau se dessèchent. C'est l'étape qui précède le vide de Yin, sans chaleur marquée.",
+   "cle": [
+    "toux-seche",
+    "gorge-seche",
+    "nez-sec"
+   ],
+   "autres": [
+    "bouche-seche",
+    "peau-seche",
+    "langue-seche",
+    "constipation-seche"
+   ],
+   "contre": [
+    "toux-glaires-blanches",
+    "enduit-blanc-epais",
+    "sueurs-nuit"
+   ],
+   "langue": "Sèche, enduit fin.",
+   "pouls": "Fin.",
+   "principe": {
+    "zh": "润肺生津",
+    "py": "Rùn fèi shēng jīn",
+    "fr": "Humidifier le Poumon, produire des liquides"
+   },
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifie le Poumon."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "Avec Rn 6 : humidifie la gorge."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin et les liquides."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit les liquides."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "poire-vapeur-amandes",
+    "soupe-tremelle",
+    "compote-pomme-poire"
+   ],
+   "privilegier": "Poire, pomme cuite, trémelle, amande, miel, sésame, bouillons, assez d'eau.",
+   "eviter": "Chauffage trop fort, épices, grillades, tabac.",
+   "conseils": [
+    "Mets un humidificateur ou un bol d'eau près du radiateur de ta chambre."
+   ]
+  },
+  {
+   "id": "e-vide-qi",
+   "organe": "estomac",
+   "nom": "Vide de Qi de l'Estomac",
+   "zh": "胃气虚",
+   "py": "Wèi qì xū",
+   "resume": "L'Estomac manque de force : peu d'appétit, peu de goût, gêne au creux de l'estomac, fatigue surtout le matin.",
+   "causes": [
+    "Repas irréguliers ou trop légers",
+    "Longue maladie",
+    "Surmenage"
+   ],
+   "mecanisme": "L'Estomac reçoit et « mûrit » les aliments. Sans assez de Qi, il accepte mal la nourriture : l'appétit et le goût baissent, et une gêne sourde s'installe après les repas.",
+   "cle": [
+    "appetit-faible",
+    "digestion-lente",
+    "fatigue"
+   ],
+   "autres": [
+    "bouche-pateuse",
+    "voix-faible",
+    "langue-pale",
+    "selles-molles",
+    "douleur-estomac-faim"
+   ],
+   "contre": [
+    "faim-excessive",
+    "enduit-jaune",
+    "langue-rouge-sans-enduit"
+   ],
+   "langue": "Pâle.",
+   "pouls": "Vide, surtout à la position de l'Estomac (barrière droite).",
+   "principe": {
+    "zh": "补益胃气",
+    "py": "Bǔ yì wèi qì",
+    "fr": "Tonifier le Qi de l'Estomac"
+   },
+   "moxa": "Moxa possible sur RM 12 et E 36.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Point Mu de l'Estomac : le tonifie directement."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifie le Qi de l'Estomac."
+      },
+      {
+       "p": "V 21",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de l'Estomac."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Soutient la Rate, partenaire de l'Estomac."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-poulet",
+    "poisson-vapeur",
+    "congee-millet-patate-douce"
+   ],
+   "privilegier": "Petits repas chauds et réguliers, congee, bouillons, riz, poisson vapeur.",
+   "eviter": "Sauter le petit-déjeuner, froid et cru, repas pris debout.",
+   "conseils": [
+    "Mange à heures fixes, même peu."
+   ]
+  },
+  {
+   "id": "e-vide-froid",
+   "organe": "estomac",
+   "nom": "Vide-Froid de l'Estomac",
+   "zh": "胃虚寒",
+   "py": "Wèi xū hán",
+   "resume": "L'Estomac vide est aussi froid : douleur sourde soulagée par la chaleur et en mangeant, mains froides, renvois de liquide clair.",
+   "causes": [
+    "Vide de Qi de l'Estomac qui dure",
+    "Aliments froids au quotidien",
+    "Yang de la Rate faible"
+   ],
+   "mecanisme": "Sans Yang, l'Estomac ne réchauffe plus son contenu : une douleur sourde apparaît à jeun, calmée par la chaleur et la nourriture, et des liquides clairs remontent.",
+   "cle": [
+    "douleur-estomac-faim",
+    "douleur-estomac-froid",
+    "frilosite"
+   ],
+   "autres": [
+    "appetit-faible",
+    "nausee",
+    "vomissements",
+    "peu-soif",
+    "fatigue",
+    "selles-molles",
+    "langue-pale",
+    "langue-gonflee"
+   ],
+   "contre": [
+    "douleur-estomac-brulure",
+    "soif",
+    "langue-rouge"
+   ],
+   "langue": "Pâle et humide.",
+   "pouls": "Profond, faible et lent.",
+   "principe": {
+    "zh": "温中和胃",
+    "py": "Wēn zhōng hé wèi",
+    "fr": "Réchauffer le centre, harmoniser l'Estomac"
+   },
+   "moxa": "Moxa conseillé.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Calme la nausée et les renvois."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Tonifie l'Estomac."
+      },
+      {
+       "p": "V 21",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de l'Estomac."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Réchauffe et tonifie l'Estomac."
+      },
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Réchauffe le Yang."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-poulet",
+    "infusion-gingembre-cannelle",
+    "poisson-vapeur",
+    "soupe-mouton-radis"
+   ],
+   "privilegier": "Gingembre, riz, courge, poulet, mouton en hiver, boissons chaudes.",
+   "eviter": "Glaces, boissons froides, fruits crus à jeun.",
+   "conseils": [
+    "Commence la journée par une boisson chaude, avant de manger."
+   ]
+  },
+  {
+   "id": "vb-vide",
+   "organe": "vesicule",
+   "nom": "Vide de la Vésicule biliaire",
+   "zh": "胆气虚",
+   "py": "Dǎn qì xū",
+   "resume": "La Vésicule biliaire donne le courage de décider. Quand elle faiblit : indécision, timidité, sursauts, sommeil léger.",
+   "causes": [
+    "Constitution",
+    "Vide de Sang du Foie",
+    "Chocs émotionnels"
+   ],
+   "mecanisme": "En médecine chinoise, la Vésicule biliaire gouverne la décision et l'audace. Quand son Qi manque, on hésite, on se fait peur facilement et le sommeil devient léger, surtout si le Sang du Foie est insuffisant.",
+   "cle": [
+    "indecision",
+    "peurs"
+   ],
+   "autres": [
+    "reveils",
+    "sommeil-agite",
+    "soupirs",
+    "vertiges",
+    "vision-floue",
+    "decouragement",
+    "langue-pale"
+   ],
+   "contre": [
+    "irritabilite",
+    "gout-amer",
+    "enduit-jaune"
+   ],
+   "langue": "Pâle ou normale.",
+   "pouls": "Faible.",
+   "principe": {
+    "zh": "益气壮胆",
+    "py": "Yì qì zhuàng dǎn",
+    "fr": "Tonifier le Qi, fortifier la Vésicule biliaire"
+   },
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "VB 40",
+       "s": 90,
+       "pourquoi": "Point Yuan de la Vésicule biliaire."
+      },
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Calme l'esprit, apaise les peurs."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang du Foie, soutien de la Vésicule."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifie le Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-lotus-jujube",
+    "congee-goji-sesame",
+    "infusion-longane-jujube"
+   ],
+   "privilegier": "Aliments qui nourrissent le Qi et le Sang : dattes, goji, céréales, œufs, poulet.",
+   "eviter": "Écrans tard, café, excitants.",
+   "conseils": [
+    "Prends chaque jour une petite décision sans revenir dessus : l'audace se muscle."
+   ]
+  },
+  {
+   "id": "v-vide-froid",
+   "organe": "vessie",
+   "nom": "Vide-Froid de la Vessie",
+   "zh": "膀胱虚寒",
+   "py": "Páng guāng xū hán",
+   "resume": "La Vessie manque de chaleur pour retenir : envies fréquentes, urines claires et abondantes, fuites, bas-ventre froid.",
+   "causes": [
+    "Yang du Rein faible",
+    "Froid au bas du corps",
+    "Âge"
+   ],
+   "mecanisme": "La Vessie stocke et libère les urines grâce au Qi et au Yang du Rein. Quand ils faiblissent, elle retient mal et les urines deviennent claires et fréquentes.",
+   "cle": [
+    "mictions-frequentes",
+    "urines-claires"
+   ],
+   "autres": [
+    "mictions-nuit",
+    "fuites-urinaires",
+    "frilosite",
+    "douleur-ventre-froid",
+    "genoux-faibles",
+    "langue-pale"
+   ],
+   "contre": [
+    "brulures-urinaires",
+    "urines-foncees"
+   ],
+   "langue": "Pâle et humide.",
+   "pouls": "Profond et faible.",
+   "principe": {
+    "zh": "温肾固脬",
+    "py": "Wēn shèn gù pāo",
+    "fr": "Réchauffer le Rein, consolider la Vessie"
+   },
+   "moxa": "Moxa conseillé sur RM 4.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "V 28",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Vessie."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Point Yuan du Rein."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Réchauffe le Rein et le bas-ventre."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "moules-gingembre",
+    "crevettes-poireau-noix",
+    "soupe-mouton-radis"
+   ],
+   "privilegier": "Noix, poireau, crevettes, moules, mouton, plats chauds.",
+   "eviter": "Boissons froides, boire beaucoup le soir, pieds froids.",
+   "conseils": [
+    "Garde le bas du dos et les pieds au chaud."
+   ]
+  },
+  {
+   "id": "gi-froid",
+   "organe": "gros-intestin",
+   "nom": "Froid envahissant le Gros Intestin",
+   "zh": "寒邪客肠",
+   "py": "Hán xié kè cháng",
+   "resume": "Un Froid aigu bloque les intestins : douleur vive du ventre soulagée par la chaleur, selles molles, frissons.",
+   "causes": [
+    "Froid pris au ventre",
+    "Boissons glacées",
+    "Repas très froids"
+   ],
+   "mecanisme": "Le Froid contracte les intestins : la douleur est vive, en crampe, et la chaleur la soulage nettement.",
+   "cle": [
+    "douleur-ventre-froid",
+    "selles-molles"
+   ],
+   "autres": [
+    "frilosite",
+    "enduit-blanc-epais",
+    "peu-soif",
+    "ballonnements"
+   ],
+   "contre": [
+    "diarrhee-chaude",
+    "enduit-jaune",
+    "soif"
+   ],
+   "langue": "Enduit blanc épais.",
+   "pouls": "Profond et serré.",
+   "principe": {
+    "zh": "温中散寒",
+    "py": "Wēn zhōng sàn hán",
+    "fr": "Réchauffer le centre, disperser le Froid"
+   },
+   "moxa": "Moxa ou bouillotte conseillés.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "E 25",
+       "s": 60,
+       "pourquoi": "Point Mu du Gros Intestin."
+      },
+      {
+       "p": "E 37",
+       "s": 60,
+       "pourquoi": "Régule le Gros Intestin."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Réchauffe le ventre."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Réchauffe et tonifie."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-gingembre-cannelle",
+    "congee-courge-carotte"
+   ],
+   "privilegier": "Bouillons chauds, riz, gingembre, courge.",
+   "eviter": "Tout ce qui est froid ou cru.",
+   "conseils": [
+    "Bouillotte sur le ventre et bouillon chaud."
+   ]
+  },
+  {
+   "id": "f-vide-yin",
+   "organe": "foie",
+   "nom": "Vide de Yin du Foie",
+   "zh": "肝阴虚",
+   "py": "Gān yīn xū",
+   "resume": "Le Foie manque de Yin : yeux secs et fatigués, vision floue, vertiges, engourdissements, petite chaleur le soir.",
+   "causes": [
+    "Vide de Sang du Foie ancien",
+    "Surmenage, écrans, manque de sommeil",
+    "Vide de Yin du Rein"
+   ],
+   "mecanisme": "Le Yin du Foie humidifie les yeux et les tendons et retient le Yang. S'il manque, les yeux se dessèchent, les tendons s'engourdissent et une chaleur de vide apparaît.",
+   "cle": [
+    "yeux-secs",
+    "vision-floue",
+    "vertiges"
+   ],
+   "autres": [
+    "engourdissements",
+    "crampes",
+    "chaleur-5-coeurs",
+    "sueurs-nuit",
+    "endormissement",
+    "irritabilite",
+    "langue-rouge-sans-enduit",
+    "bouche-seche"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite",
+    "enduit-blanc-epais"
+   ],
+   "langue": "Rouge, surtout sur les bords, peu d'enduit.",
+   "pouls": "Fin, un peu rapide.",
+   "principe": {
+    "zh": "滋养肝阴",
+    "py": "Zī yǎng gān yīn",
+    "fr": "Nourrir le Yin du Foie"
+   },
+   "moxa": "Pas de moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin et le Sang du Foie."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "L'Eau du Rein nourrit le Bois du Foie."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin, humidifie les yeux."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-goji-sesame",
+    "calamars-celeri",
+    "infusion-chrysantheme-goji"
+   ],
+   "privilegier": "Goji, chrysanthème, sésame noir, œufs, tofu, épinards, calamar.",
+   "eviter": "Écrans tard, alcool, épices, veiller.",
+   "conseils": [
+    "Toutes les 20 minutes d'écran, regarde au loin pendant 20 secondes."
+   ]
+  },
+  {
+   "id": "femme-chaleur-sang",
+   "organe": "femme",
+   "nom": "Chaleur du Sang : règles en avance et abondantes",
+   "zh": "血热先期",
+   "py": "Xuè rè xiān qī",
+   "resume": "La Chaleur agite le Sang : cycles courts, règles abondantes et rouge vif, agitation, soif.",
+   "causes": [
+    "Épices, alcool, aliments qui chauffent",
+    "Stress qui échauffe le Foie",
+    "Vide de Yin (chaleur de vide)"
+   ],
+   "mecanisme": "La Chaleur pousse le Sang hors des vaisseaux et accélère le cycle : les règles arrivent tôt, abondantes et rouge vif.",
+   "cle": [
+    "regles-avance",
+    "regles-rouge-vif",
+    "regles-abondantes"
+   ],
+   "autres": [
+    "soif",
+    "irritabilite",
+    "chaleur-corps",
+    "visage-rouge",
+    "langue-rouge",
+    "urines-foncees",
+    "acne"
+   ],
+   "contre": [
+    "regles-retard",
+    "regles-peu",
+    "frilosite",
+    "langue-pale"
+   ],
+   "langue": "Rouge.",
+   "pouls": "Rapide.",
+   "principe": {
+    "zh": "清热凉血",
+    "py": "Qīng rè liáng xuè",
+    "fr": "Clarifier la Chaleur, rafraîchir le Sang"
+   },
+   "consulter": "Des règles très abondantes peuvent entraîner une anémie : parles-en à un médecin.",
+   "moxa": "Ni moxa ni chaleur.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Rafraîchit le Sang."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur du Foie."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 1",
+       "s": 60,
+       "pourquoi": "Aide à retenir le Sang."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Régule les règles."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "infusion-chrysantheme-goji"
+   ],
+   "privilegier": "Légumes verts, céleri, concombre cuit, haricots mungo, tofu.",
+   "eviter": "Épices, alcool, café, agneau, friture.",
+   "conseils": []
+  }
+ ]
+}

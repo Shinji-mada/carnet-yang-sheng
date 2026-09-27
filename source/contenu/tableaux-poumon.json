@@ -1,221 +1,728 @@
 {
  "tableaux": [
   {
-   "id": "p-vide-qi", "organe": "poumon", "nom": "Vide de Qi du Poumon", "zh": "肺气虚", "py": "Fèi qì xū",
+   "id": "p-vide-qi",
+   "organe": "poumon",
+   "nom": "Vide de Qi du Poumon",
+   "zh": "肺气虚",
+   "py": "Fèi qì xū",
    "resume": "Le Poumon manque de force pour respirer, parler et protéger du froid : souffle court, voix faible, rhumes à répétition.",
-   "causes": ["Rate faible qui ne nourrit plus le Poumon", "Toux chroniques ou fin d'une longue maladie", "Rhumes mal soignés qui laissent le Froid s'installer", "Longues heures penché sur un bureau, souffle comprimé", "Beaucoup parler, tristesse prolongée"],
+   "causes": [
+    "Rate faible qui ne nourrit plus le Poumon",
+    "Toux chroniques ou fin d'une longue maladie",
+    "Rhumes mal soignés qui laissent le Froid s'installer",
+    "Longues heures penché sur un bureau, souffle comprimé",
+    "Beaucoup parler, tristesse prolongée"
+   ],
    "mecanisme": "Le Poumon gouverne le souffle et le Qi protecteur. Quand son Qi manque, la respiration devient courte à l'effort, la voix faiblit et la surface du corps laisse passer le vent et le froid : on transpire facilement et on attrape tout.",
-   "cle": ["essoufflement", "voix-faible", "sueurs-jour", "rhumes-frequents"],
-   "autres": ["fatigue", "toux-faible", "toux-glaires-blanches", "teint-pale", "langue-pale", "tristesse", "aversion-froid"],
-   "contre": ["langue-rouge", "toux-glaires-jaunes", "fievre", "soif"],
+   "cle": [
+    "essoufflement",
+    "voix-faible",
+    "sueurs-jour",
+    "rhumes-frequents"
+   ],
+   "autres": [
+    "fatigue",
+    "toux-faible",
+    "toux-glaires-blanches",
+    "teint-pale",
+    "langue-pale",
+    "tristesse",
+    "aversion-froid"
+   ],
+   "contre": [
+    "langue-rouge",
+    "toux-glaires-jaunes",
+    "fievre",
+    "soif"
+   ],
    "langue": "Pâle ou normale, enduit fin et blanc.",
    "pouls": "Vide et faible, surtout à la position du Poumon (pouce droit).",
-   "principe": {"zh": "补益肺气", "py": "Bǔ yì fèi qì", "fr": "Tonifier le Qi du Poumon"},
+   "principe": {
+    "zh": "补益肺气",
+    "py": "Bǔ yì fèi qì",
+    "fr": "Tonifier le Qi du Poumon"
+   },
    "moxa": "Moxa possible (bouillotte ou moxa sur RM 6 et E 36).",
    "phases": [
-    {"m": "t", "items": [
-     {"p": "P 9", "s": 90, "pourquoi": "Point Yuan du Poumon : tonifie directement son Qi."},
-     {"p": "P 7", "s": 90, "pourquoi": "Tonifie le Qi du Poumon et relance sa descente, utile si une toux traîne après un rhume."},
-     {"p": "E 36", "s": 120, "pourquoi": "Tonifie la Rate et l'Estomac : « la Terre nourrit le Métal »."},
-     {"p": "RM 6", "s": 90, "pourquoi": "Mer du Qi : tonifie le Qi de tout le corps."},
-     {"p": "V 13", "s": 90, "pourquoi": "Point Shu du dos du Poumon : tonifie son Qi."},
-     {"p": "V 20", "s": 90, "pourquoi": "Point Shu du dos de la Rate : renforce la source du Qi."}
-    ]},
-    {"m": "w", "items": [
-     {"p": "RM 6", "s": 240, "pourquoi": "Chaleur douce pour renforcer le Qi."}
-    ]}
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Point Yuan du Poumon : tonifie directement son Qi."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "Tonifie le Qi du Poumon et relance sa descente, utile si une toux traîne après un rhume."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifie la Rate et l'Estomac : « la Terre nourrit le Métal »."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Mer du Qi : tonifie le Qi de tout le corps."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Poumon : tonifie son Qi."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Rate : renforce la source du Qi."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Chaleur douce pour renforcer le Qi."
+      }
+     ]
+    }
    ],
-   "recettes": ["soupe-poulet-huang-qi", "congee-shan-yao", "congee-millet-patate-douce"],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "congee-shan-yao",
+    "congee-millet-patate-douce",
+    "congee-poulet"
+   ],
    "privilegier": "Plats tièdes et cuits, céréales, igname, poulet, champignons, un peu de gingembre et d'oignon.",
    "eviter": "Froid et cru, laitages en excès, tabac, rester voûté longtemps.",
-   "conseils": ["Respire lentement et profondément 5 minutes par jour, épaules relâchées.", "Couvre ta nuque et ta poitrine dès qu'il fait frais."]
+   "conseils": [
+    "Respire lentement et profondément 5 minutes par jour, épaules relâchées.",
+    "Couvre ta nuque et ta poitrine dès qu'il fait frais."
+   ]
   },
   {
-   "id": "p-vide-yang", "organe": "poumon", "nom": "Vide de Yang du Poumon", "zh": "肺阳虚", "py": "Fèi yáng xū",
+   "id": "p-vide-yang",
+   "organe": "poumon",
+   "nom": "Vide de Yang du Poumon",
+   "zh": "肺阳虚",
+   "py": "Fèi yáng xū",
    "resume": "Le vide de Qi du Poumon s'accompagne de froid : frilosité, froid dans le haut du dos, glaires claires, rhumes au moindre courant d'air.",
-   "causes": ["Les mêmes que le vide de Qi du Poumon, plus longtemps", "Froid répété (vêtements légers, boissons froides)"],
+   "causes": [
+    "Les mêmes que le vide de Qi du Poumon, plus longtemps",
+    "Froid répété (vêtements légers, boissons froides)"
+   ],
    "mecanisme": "Le froid naît du manque de Yang : le Poumon ne réchauffe plus la poitrine ni le haut du dos, et les liquides stagnent en glaires claires.",
-   "cle": ["frilosite", "froid-dos", "rhumes-frequents", "toux-glaires-blanches"],
-   "autres": ["essoufflement", "voix-faible", "sueurs-jour", "nez-clair", "peu-soif", "urines-claires", "langue-pale", "langue-gonflee"],
-   "contre": ["chaleur-corps", "langue-rouge", "toux-glaires-jaunes", "soif"],
+   "cle": [
+    "frilosite",
+    "froid-dos",
+    "rhumes-frequents",
+    "toux-glaires-blanches"
+   ],
+   "autres": [
+    "essoufflement",
+    "voix-faible",
+    "sueurs-jour",
+    "nez-clair",
+    "peu-soif",
+    "urines-claires",
+    "langue-pale",
+    "langue-gonflee"
+   ],
+   "contre": [
+    "chaleur-corps",
+    "langue-rouge",
+    "toux-glaires-jaunes",
+    "soif"
+   ],
    "langue": "Pâle et un peu humide.",
    "pouls": "Faible, surtout à la position du pouce droit.",
-   "principe": {"zh": "温补肺阳", "py": "Wēn bǔ fèi yáng", "fr": "Réchauffer et tonifier le Yang du Poumon"},
+   "principe": {
+    "zh": "温补肺阳",
+    "py": "Wēn bǔ fèi yáng",
+    "fr": "Réchauffer et tonifier le Yang du Poumon"
+   },
    "moxa": "Moxa conseillé.",
    "phases": [
-    {"m": "t", "items": [
-     {"p": "P 9", "s": 90, "pourquoi": "Point Yuan du Poumon : tonifie son Qi."},
-     {"p": "P 7", "s": 90, "pourquoi": "Tonifie le Poumon et aide le Qi à descendre."},
-     {"p": "RM 12", "s": 90, "pourquoi": "Régule le Qi du centre et diffuse le Yang."},
-     {"p": "V 13", "s": 90, "pourquoi": "Point Shu du dos du Poumon."},
-     {"p": "VG 12", "s": 90, "pourquoi": "Chasse le Vent-Froid et tonifie le Qi du Poumon."}
-    ]},
-    {"m": "w", "items": [
-     {"p": "RM 6", "s": 300, "pourquoi": "Élève le Yang et tonifie le Qi."},
-     {"p": "E 36", "s": 240, "pourquoi": "Renforce la Terre pour nourrir le Métal."}
-    ]}
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Point Yuan du Poumon : tonifie son Qi."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "Tonifie le Poumon et aide le Qi à descendre."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Régule le Qi du centre et diffuse le Yang."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Poumon."
+      },
+      {
+       "p": "VG 12",
+       "s": 90,
+       "pourquoi": "Chasse le Vent-Froid et tonifie le Qi du Poumon."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 300,
+       "pourquoi": "Élève le Yang et tonifie le Qi."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Renforce la Terre pour nourrir le Métal."
+      }
+     ]
+    }
    ],
-   "recettes": ["soupe-poulet-huang-qi", "infusion-gingembre-cannelle", "agneau-dang-gui"],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "infusion-gingembre-cannelle",
+    "agneau-dang-gui"
+   ],
    "privilegier": "Plats mijotés et tièdes, gingembre, cannelle, poireau, oignon, noix.",
    "eviter": "Boissons glacées, cru, fruits exotiques en hiver, sortir les cheveux mouillés.",
-   "conseils": ["Garde le haut du dos couvert : une écharpe suffit souvent.", "Frotte le haut de ton dos contre un mur tiède ou avec une serviette chaude le matin."]
+   "conseils": [
+    "Garde le haut du dos couvert : une écharpe suffit souvent.",
+    "Frotte le haut de ton dos contre un mur tiède ou avec une serviette chaude le matin."
+   ]
   },
   {
-   "id": "p-vide-yin", "organe": "poumon", "nom": "Vide de Yin du Poumon", "zh": "肺阴虚", "py": "Fèi yīn xū",
+   "id": "p-vide-yin",
+   "organe": "poumon",
+   "nom": "Vide de Yin du Poumon",
+   "zh": "肺阴虚",
+   "py": "Fèi yīn xū",
    "resume": "Le Poumon manque de liquides : toux sèche, gorge sèche, voix enrouée, petite chaleur en fin de journée.",
-   "causes": ["Toux ou maladie qui a duré", "Tabac, air sec, chauffage", "Surmenage, manque de sommeil", "Épuisement du Yin avec l'âge"],
+   "causes": [
+    "Toux ou maladie qui a duré",
+    "Tabac, air sec, chauffage",
+    "Surmenage, manque de sommeil",
+    "Épuisement du Yin avec l'âge"
+   ],
    "mecanisme": "Le Yin humidifie et rafraîchit. Quand il manque au Poumon, les voies respiratoires se dessèchent et une petite chaleur de vide apparaît le soir et la nuit.",
-   "cle": ["toux-seche", "gorge-seche", "langue-rouge-sans-enduit", "sueurs-nuit"],
-   "autres": ["bouche-seche", "fievre-apres-midi", "pommettes-rouges", "chaleur-5-coeurs", "voix-faible", "langue-seche", "amaigrissement"],
-   "contre": ["toux-glaires-blanches", "frilosite", "enduit-blanc-epais", "langue-pale"],
+   "cle": [
+    "toux-seche",
+    "gorge-seche",
+    "langue-rouge-sans-enduit",
+    "sueurs-nuit"
+   ],
+   "autres": [
+    "bouche-seche",
+    "fievre-apres-midi",
+    "pommettes-rouges",
+    "chaleur-5-coeurs",
+    "voix-faible",
+    "langue-seche",
+    "amaigrissement"
+   ],
+   "contre": [
+    "toux-glaires-blanches",
+    "frilosite",
+    "enduit-blanc-epais",
+    "langue-pale"
+   ],
    "langue": "Rouge, sèche, peu ou pas d'enduit, parfois fissurée à l'avant.",
    "pouls": "Fin et rapide.",
-   "principe": {"zh": "滋阴润肺", "py": "Zī yīn rùn fèi", "fr": "Nourrir le Yin, humidifier le Poumon"},
+   "principe": {
+    "zh": "滋阴润肺",
+    "py": "Zī yīn rùn fèi",
+    "fr": "Nourrir le Yin, humidifier le Poumon"
+   },
    "moxa": "Pas de moxa : la chaleur assécherait encore.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "P 10", "s": 60, "pourquoi": "Calme la chaleur de la gorge.", "tech": ["↺", "Pression moyenne, rotation anti-horaire"]}
-    ]},
-    {"m": "t", "items": [
-     {"p": "P 9", "s": 90, "pourquoi": "Tonifie le Yin du Poumon."},
-     {"p": "P 7", "s": 90, "pourquoi": "Avec Rn 6 : ouvre le Ren Mai, humidifie la gorge."},
-     {"p": "Rn 6", "s": 90, "pourquoi": "Nourrit le Yin, humidifie la gorge."},
-     {"p": "Rt 6", "s": 90, "pourquoi": "Nourrit le Yin."},
-     {"p": "V 43", "s": 90, "pourquoi": "Tonifie le Yin du Poumon dans les états chroniques."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 10",
+       "s": 60,
+       "pourquoi": "Calme la chaleur de la gorge.",
+       "tech": [
+        "↺",
+        "Pression moyenne, rotation anti-horaire"
+       ]
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifie le Yin du Poumon."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "Avec Rn 6 : ouvre le Ren Mai, humidifie la gorge."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin, humidifie la gorge."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin."
+      },
+      {
+       "p": "V 43",
+       "s": 90,
+       "pourquoi": "Tonifie le Yin du Poumon dans les états chroniques."
+      }
+     ]
+    }
    ],
-   "recettes": ["poire-vapeur-amandes", "soupe-tremelle", "congee-shan-yao"],
+   "recettes": [
+    "poire-vapeur-amandes",
+    "soupe-tremelle",
+    "congee-shan-yao"
+   ],
    "privilegier": "Poire, trémelle, amande, miel, sésame, tofu, igname, soupes et compotes.",
    "eviter": "Épices fortes, grillades, alcool, tabac, café, air trop sec.",
-   "conseils": ["Humidifie l'air de ta chambre.", "Couche-toi avant 23 h : le Yin se reconstitue la nuit."]
+   "conseils": [
+    "Humidifie l'air de ta chambre.",
+    "Couche-toi avant 23 h : le Yin se reconstitue la nuit."
+   ]
   },
   {
-   "id": "p-stagnation-qi", "organe": "poumon", "nom": "Stagnation du Qi du Poumon", "zh": "肺气郁", "py": "Fèi qì yù",
+   "id": "p-stagnation-qi",
+   "organe": "poumon",
+   "nom": "Stagnation du Qi du Poumon",
+   "zh": "肺气郁",
+   "py": "Fèi qì yù",
    "resume": "Tristesse et inquiétude bloquent le Qi dans la poitrine et la gorge : gorge serrée, soupirs, poitrine oppressée.",
-   "causes": ["Tristesse, chagrin ou inquiétude retenus", "Rester longtemps voûté, souffle bloqué"],
+   "causes": [
+    "Tristesse, chagrin ou inquiétude retenus",
+    "Rester longtemps voûté, souffle bloqué"
+   ],
    "mecanisme": "Les émotions nouent le Qi du Poumon qui ne circule plus librement : il se bloque dans la gorge (sensation de boule) et dans la poitrine.",
-   "cle": ["gorge-serree", "soupirs", "oppression", "tristesse"],
-   "autres": ["ruminations", "toux-seche", "humeur-variable", "appetit-faible", "essoufflement"],
-   "contre": ["fievre", "toux-glaires-jaunes"],
+   "cle": [
+    "gorge-serree",
+    "soupirs",
+    "oppression",
+    "tristesse"
+   ],
+   "autres": [
+    "ruminations",
+    "toux-seche",
+    "humeur-variable",
+    "appetit-faible",
+    "essoufflement"
+   ],
+   "contre": [
+    "fievre",
+    "toux-glaires-jaunes"
+   ],
    "langue": "Normale ou légèrement rouge sur les côtés de l'avant.",
    "pouls": "Légèrement tendu à la position du Poumon.",
-   "principe": {"zh": "宣肺理气", "py": "Xuān fèi lǐ qì", "fr": "Libérer le Poumon, faire circuler le Qi"},
+   "principe": {
+    "zh": "宣肺理气",
+    "py": "Xuān fèi lǐ qì",
+    "fr": "Libérer le Poumon, faire circuler le Qi"
+   },
    "phases": [
-    {"m": "d", "items": [
-     {"p": "P 7", "s": 60, "pourquoi": "Libère le Qi du Poumon, relâche les émotions retenues."},
-     {"p": "MC 6", "s": 60, "pourquoi": "Ouvre la poitrine."},
-     {"p": "RM 17", "s": 60, "pourquoi": "Point de réunion du Qi de la poitrine."},
-     {"p": "RM 22", "s": 60, "pourquoi": "Dénoue la gorge.", "tech": ["↓", "Pression douce vers le bas, sans rotation"]},
-     {"p": "E 40", "s": 60, "pourquoi": "Transforme les mucosités qui encombrent la gorge."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Libère le Qi du Poumon, relâche les émotions retenues."
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Ouvre la poitrine."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Point de réunion du Qi de la poitrine."
+      },
+      {
+       "p": "RM 22",
+       "s": 60,
+       "pourquoi": "Dénoue la gorge.",
+       "tech": [
+        "↓",
+        "Pression douce vers le bas, sans rotation"
+       ]
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforme les mucosités qui encombrent la gorge."
+      }
+     ]
+    }
    ],
-   "recettes": ["infusion-rose-orange", "infusion-chen-pi"],
+   "recettes": [
+    "infusion-rose-orange",
+    "infusion-chen-pi"
+   ],
    "privilegier": "Repas réguliers, zeste d'agrumes, radis, cébette, infusion de rose.",
    "eviter": "Manger en ruminant, rester assis voûté des heures.",
-   "conseils": ["Marche, chante, respire fort : le souffle fait circuler le Qi du Poumon.", "Parle de ce qui pèse : la tristesse retenue serre la gorge."]
+   "conseils": [
+    "Marche, chante, respire fort : le souffle fait circuler le Qi du Poumon.",
+    "Parle de ce qui pèse : la tristesse retenue serre la gorge."
+   ]
   },
   {
-   "id": "p-vent-froid", "organe": "poumon", "nom": "Vent-Froid attaquant le Poumon", "zh": "风寒束肺", "py": "Fēng hán shù fèi",
+   "id": "p-vent-froid",
+   "organe": "poumon",
+   "nom": "Vent-Froid attaquant le Poumon",
+   "zh": "风寒束肺",
+   "py": "Fēng hán shù fèi",
    "resume": "Le début d'un rhume par le froid : frissons, nez qui coule clair, éternuements, nuque raide, pas de transpiration.",
-   "causes": ["Exposition au vent et au froid", "Défenses affaiblies par la fatigue"],
+   "causes": [
+    "Exposition au vent et au froid",
+    "Défenses affaiblies par la fatigue"
+   ],
    "mecanisme": "Le Vent-Froid bloque la surface du corps : les pores se ferment, on frissonne sans transpirer, et le Poumon ne diffuse plus, d'où le nez qui coule et la toux.",
-   "cle": ["aversion-froid", "nez-clair", "eternuements", "cephalee-nuque"],
-   "autres": ["nez-bouche", "toux-glaires-blanches", "nuque-raide", "fievre", "peu-soif"],
-   "contre": ["gorge-mal", "nez-jaune", "toux-glaires-jaunes", "soif", "langue-rouge"],
+   "cle": [
+    "aversion-froid",
+    "nez-clair",
+    "eternuements",
+    "cephalee-nuque"
+   ],
+   "autres": [
+    "nez-bouche",
+    "toux-glaires-blanches",
+    "nuque-raide",
+    "fievre",
+    "peu-soif"
+   ],
+   "contre": [
+    "gorge-mal",
+    "nez-jaune",
+    "toux-glaires-jaunes",
+    "soif",
+    "langue-rouge"
+   ],
    "langue": "Enduit fin et blanc.",
    "pouls": "Superficiel et serré.",
-   "principe": {"zh": "疏风散寒", "py": "Shū fēng sàn hán", "fr": "Chasser le Vent, disperser le Froid"},
+   "principe": {
+    "zh": "疏风散寒",
+    "py": "Shū fēng sàn hán",
+    "fr": "Chasser le Vent, disperser le Froid"
+   },
    "phases": [
-    {"m": "d", "items": [
-     {"p": "P 7", "s": 60, "pourquoi": "Relance la diffusion du Poumon, chasse le Vent."},
-     {"p": "GI 4", "s": 60, "pourquoi": "Libère la surface et la tête."},
-     {"p": "VB 20", "s": 60, "pourquoi": "Chasse le Vent, détend la nuque."},
-     {"p": "V 12", "s": 60, "pourquoi": "« Porte du Vent » : fait sortir le Vent-Froid."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Relance la diffusion du Poumon, chasse le Vent."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Libère la surface et la tête."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Chasse le Vent, détend la nuque."
+      },
+      {
+       "p": "V 12",
+       "s": 60,
+       "pourquoi": "« Porte du Vent » : fait sortir le Vent-Froid."
+      }
+     ]
+    }
    ],
-   "recettes": ["infusion-cong-bai"],
+   "recettes": [
+    "infusion-cong-bai"
+   ],
    "privilegier": "Boissons chaudes, gingembre, cébette, bouillons, se couvrir pour transpirer légèrement.",
    "eviter": "Froid, cru, douche froide, sortir sans écharpe.",
-   "conseils": ["Agis dans les premières heures : infusion chaude, écharpe, repos."]
+   "conseils": [
+    "Agis dans les premières heures : infusion chaude, écharpe, repos."
+   ]
   },
   {
-   "id": "p-vent-chaleur", "organe": "poumon", "nom": "Vent-Chaleur attaquant le Poumon", "zh": "风热犯肺", "py": "Fēng rè fàn fèi",
+   "id": "p-vent-chaleur",
+   "organe": "poumon",
+   "nom": "Vent-Chaleur attaquant le Poumon",
+   "zh": "风热犯肺",
+   "py": "Fēng rè fàn fèi",
    "resume": "Le début d'une infection par la chaleur : mal de gorge, fièvre, soif, nez jaune.",
-   "causes": ["Contagion en période d'épidémie", "Chaleur extérieure, défenses affaiblies"],
+   "causes": [
+    "Contagion en période d'épidémie",
+    "Chaleur extérieure, défenses affaiblies"
+   ],
    "mecanisme": "Le Vent-Chaleur entre par la gorge et le nez : la gorge rougit, la fièvre monte et la chaleur épaissit les sécrétions.",
-   "cle": ["gorge-mal", "fievre", "nez-jaune", "soif"],
-   "autres": ["aversion-froid", "toux-glaires-jaunes", "cephalee-front", "pointe-rouge", "yeux-rouges"],
-   "contre": ["nez-clair", "frilosite", "langue-pale"],
+   "cle": [
+    "gorge-mal",
+    "fievre",
+    "nez-jaune",
+    "soif"
+   ],
+   "autres": [
+    "aversion-froid",
+    "toux-glaires-jaunes",
+    "cephalee-front",
+    "pointe-rouge",
+    "yeux-rouges"
+   ],
+   "contre": [
+    "nez-clair",
+    "frilosite",
+    "langue-pale"
+   ],
    "langue": "Pointe et bords rouges, enduit fin, blanc ou jaune.",
    "pouls": "Superficiel et rapide.",
-   "principe": {"zh": "疏风清热", "py": "Shū fēng qīng rè", "fr": "Chasser le Vent, clarifier la Chaleur"},
+   "principe": {
+    "zh": "疏风清热",
+    "py": "Shū fēng qīng rè",
+    "fr": "Chasser le Vent, clarifier la Chaleur"
+   },
    "phases": [
-    {"m": "d", "items": [
-     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur."},
-     {"p": "GI 4", "s": 60, "pourquoi": "Libère la surface, soulage la gorge et la tête."},
-     {"p": "TR 5", "s": 60, "pourquoi": "Chasse le Vent-Chaleur."},
-     {"p": "P 11", "s": 30, "pourquoi": "Soulage la gorge douloureuse.", "tech": ["↺", "Pression forte avec l'ongle, par petites pressions répétées"]},
-     {"p": "VG 14", "s": 60, "pourquoi": "Fait baisser la chaleur."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Libère la surface, soulage la gorge et la tête."
+      },
+      {
+       "p": "TR 5",
+       "s": 60,
+       "pourquoi": "Chasse le Vent-Chaleur."
+      },
+      {
+       "p": "P 11",
+       "s": 30,
+       "pourquoi": "Soulage la gorge douloureuse.",
+       "tech": [
+        "↺",
+        "Pression forte avec l'ongle, par petites pressions répétées"
+       ]
+      },
+      {
+       "p": "VG 14",
+       "s": 60,
+       "pourquoi": "Fait baisser la chaleur."
+      }
+     ]
+    }
    ],
-   "recettes": ["infusion-menthe-chrysantheme", "poire-vapeur-amandes"],
+   "recettes": [
+    "infusion-menthe-chrysantheme",
+    "poire-vapeur-amandes"
+   ],
    "privilegier": "Boissons tièdes, poire, menthe, chrysanthème, bouillons légers.",
    "eviter": "Épices, friture, alcool, sucre.",
-   "conseils": ["Repose-toi : un rhume soigné dès le début évite qu'il ne s'installe."]
+   "conseils": [
+    "Repose-toi : un rhume soigné dès le début évite qu'il ne s'installe."
+   ]
   },
   {
-   "id": "p-mucosites-humidite", "organe": "poumon", "nom": "Mucosités-Humidité obstruant le Poumon", "zh": "痰湿阻肺", "py": "Tán shī zǔ fèi",
+   "id": "p-mucosites-humidite",
+   "organe": "poumon",
+   "nom": "Mucosités-Humidité obstruant le Poumon",
+   "zh": "痰湿阻肺",
+   "py": "Tán shī zǔ fèi",
    "resume": "Des glaires blanches et abondantes encombrent le Poumon, souvent à cause d'une Rate faible : toux grasse, poitrine encombrée.",
-   "causes": ["Rate faible qui produit de l'Humidité", "Alimentation riche : laitages, sucre, gras", "Rhumes répétés"],
+   "causes": [
+    "Rate faible qui produit de l'Humidité",
+    "Alimentation riche : laitages, sucre, gras",
+    "Rhumes répétés"
+   ],
    "mecanisme": "« La Rate produit les Mucosités, le Poumon les stocke. » L'Humidité non transformée monte et s'accumule dans le Poumon.",
-   "cle": ["toux-glaires-blanches", "oppression", "enduit-blanc-epais"],
-   "autres": ["essoufflement", "sifflement", "lourdeur", "appetit-faible", "langue-gonflee", "nausee", "bouche-pateuse"],
-   "contre": ["toux-seche", "toux-glaires-jaunes", "langue-rouge-sans-enduit"],
+   "cle": [
+    "toux-glaires-blanches",
+    "oppression",
+    "enduit-blanc-epais"
+   ],
+   "autres": [
+    "essoufflement",
+    "sifflement",
+    "lourdeur",
+    "appetit-faible",
+    "langue-gonflee",
+    "nausee",
+    "bouche-pateuse"
+   ],
+   "contre": [
+    "toux-seche",
+    "toux-glaires-jaunes",
+    "langue-rouge-sans-enduit"
+   ],
    "langue": "Gonflée, enduit blanc, épais et gras.",
    "pouls": "Glissant.",
-   "principe": {"zh": "燥湿化痰", "py": "Zào shī huà tán", "fr": "Assécher l'Humidité, transformer les Mucosités"},
+   "principe": {
+    "zh": "燥湿化痰",
+    "py": "Zào shī huà tán",
+    "fr": "Assécher l'Humidité, transformer les Mucosités"
+   },
    "phases": [
-    {"m": "d", "items": [
-     {"p": "P 5", "s": 60, "pourquoi": "Fait descendre le Qi du Poumon, transforme les glaires."},
-     {"p": "E 40", "s": 60, "pourquoi": "Point majeur pour transformer les Mucosités."},
-     {"p": "RM 17", "s": 60, "pourquoi": "Libère la poitrine."},
-     {"p": "RM 12", "s": 60, "pourquoi": "Aide la Rate à transformer l'Humidité.", "tech": ["↺", "Pression moyenne, rotation anti-horaire"]}
-    ]},
-    {"m": "t", "items": [
-     {"p": "E 36", "s": 120, "pourquoi": "Renforce la Rate pour qu'elle cesse de produire des Mucosités."},
-     {"p": "Rt 3", "s": 90, "pourquoi": "Point Yuan de la Rate."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 5",
+       "s": 60,
+       "pourquoi": "Fait descendre le Qi du Poumon, transforme les glaires."
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Point majeur pour transformer les Mucosités."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Libère la poitrine."
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Aide la Rate à transformer l'Humidité.",
+       "tech": [
+        "↺",
+        "Pression moyenne, rotation anti-horaire"
+       ]
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Renforce la Rate pour qu'elle cesse de produire des Mucosités."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Point Yuan de la Rate."
+      }
+     ]
+    }
    ],
-   "recettes": ["soupe-radis-gingembre", "infusion-chen-pi", "congee-orge-azuki"],
+   "recettes": [
+    "soupe-radis-gingembre",
+    "infusion-chen-pi",
+    "congee-orge-azuki"
+   ],
    "privilegier": "Radis blanc, zeste de mandarine, gingembre, orge perlé, céréales cuites.",
    "eviter": "Laitages, sucre, friture, banane, boissons froides.",
-   "conseils": ["Supprime les laitages 2 à 3 semaines et observe la différence."]
+   "conseils": [
+    "Supprime les laitages 2 à 3 semaines et observe la différence."
+   ]
   },
   {
-   "id": "p-mucosites-chaleur", "organe": "poumon", "nom": "Mucosités-Chaleur dans le Poumon", "zh": "痰热壅肺", "py": "Tán rè yōng fèi",
+   "id": "p-mucosites-chaleur",
+   "organe": "poumon",
+   "nom": "Mucosités-Chaleur dans le Poumon",
+   "zh": "痰热壅肺",
+   "py": "Tán rè yōng fèi",
    "resume": "Des glaires jaunes, épaisses et collantes, souvent après un rhume mal soigné ou chez les fumeurs.",
-   "causes": ["Rhume par la chaleur non résolu", "Tabac", "Alimentation grasse et épicée"],
+   "causes": [
+    "Rhume par la chaleur non résolu",
+    "Tabac",
+    "Alimentation grasse et épicée"
+   ],
    "mecanisme": "La Chaleur cuit les liquides du Poumon et les transforme en glaires jaunes et épaisses qui gênent la respiration.",
-   "cle": ["toux-glaires-jaunes", "oppression", "enduit-jaune"],
-   "autres": ["fievre", "soif", "sifflement", "essoufflement", "langue-rouge", "nez-jaune"],
-   "contre": ["toux-glaires-blanches", "frilosite", "langue-pale"],
+   "cle": [
+    "toux-glaires-jaunes",
+    "oppression",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "fievre",
+    "soif",
+    "sifflement",
+    "essoufflement",
+    "langue-rouge",
+    "nez-jaune"
+   ],
+   "contre": [
+    "toux-glaires-blanches",
+    "frilosite",
+    "langue-pale"
+   ],
    "langue": "Rouge, enduit jaune et gras.",
    "pouls": "Glissant et rapide.",
-   "principe": {"zh": "清热化痰", "py": "Qīng rè huà tán", "fr": "Clarifier la Chaleur, transformer les Mucosités"},
+   "principe": {
+    "zh": "清热化痰",
+    "py": "Qīng rè huà tán",
+    "fr": "Clarifier la Chaleur, transformer les Mucosités"
+   },
    "consulter": "Si la fièvre monte, si respirer devient difficile ou si tu craches du sang, consulte un médecin sans attendre.",
    "phases": [
-    {"m": "d", "items": [
-     {"p": "P 5", "s": 60, "pourquoi": "Clarifie la Chaleur du Poumon, transforme les glaires."},
-     {"p": "P 1", "s": 60, "pourquoi": "Point Mu du Poumon : libère la poitrine."},
-     {"p": "E 40", "s": 60, "pourquoi": "Transforme les Mucosités."},
-     {"p": "GI 11", "s": 60, "pourquoi": "Clarifie la Chaleur."},
-     {"p": "RM 17", "s": 60, "pourquoi": "Libère la poitrine."}
-    ]}
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 5",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur du Poumon, transforme les glaires."
+      },
+      {
+       "p": "P 1",
+       "s": 60,
+       "pourquoi": "Point Mu du Poumon : libère la poitrine."
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforme les Mucosités."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Libère la poitrine."
+      }
+     ]
+    }
    ],
-   "recettes": ["poire-vapeur-amandes", "soupe-radis-gingembre"],
+   "recettes": [
+    "poire-vapeur-amandes",
+    "soupe-radis-gingembre"
+   ],
    "privilegier": "Poire, radis blanc, cresson, champignons, bouillons légers.",
    "eviter": "Tabac, friture, épices, laitages, sucre, alcool.",
-   "conseils": ["C'est le bon moment pour arrêter de fumer : le Poumon le montre."]
+   "conseils": [
+    "C'est le bon moment pour arrêter de fumer : le Poumon le montre."
+   ]
   }
  ]
 }
