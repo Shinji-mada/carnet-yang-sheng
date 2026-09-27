@@ -594,14 +594,25 @@ function matchTableaux(){
     t._autres.forEach(s=>{tot+=1;if(symSel.has(s)){got+=1;m.push(s);}});
     const contra=t._contre.filter(s=>symSel.has(s));
     const score=got-1.5*contra.length,cov=tot?got/tot:0;
-    return {t,got,tot,cleGot,m,contra,score,cov,rank:score+4*cov+0.75*(m.length-1)};
-  }).filter(r=>r.m.length&&r.score>0).sort((a,b)=>b.rank-a.rank||b.cleGot-a.cleGot);
+    const r={t,got,tot,cleGot,m,contra,score,cov,rank:score+4*cov+0.75*(m.length-1)};
+    r.pct=compat(r,symSel.size);return r;
+  }).filter(r=>r.m.length&&r.score>0&&r.pct>0).sort((a,b)=>b.pct-a.pct||b.rank-a.rank||b.cleGot-a.cleGot);
+}
+/* Compatibilité en % : part de tes symptômes présents dans le tableau (55 %), part de ses signes clés
+   que tu as (30 %), part de tous ses signes (15 %) ; prudence tant qu'il y a moins de 3 symptômes ;
+   chaque signe contraire retire un quart. */
+function compat(r,n){
+  if(!n)return 0;
+  const E=r.m.length/n,K=r.t._cle.length?r.cleGot/r.t._cle.length:0;
+  const p=(0.55*E+0.3*K+0.15*r.cov)*Math.min(1,(n+1)/4)*Math.max(0,1-0.25*r.contra.length);
+  return Math.max(1,Math.min(100,Math.round(p*100)));
 }
 function force(r){
-  if(r.cleGot>=2&&r.cov>=0.4)return['forte','Correspondance forte'];
-  if(r.score>=3)return['moyenne','Correspondance moyenne'];
-  return['faible','Piste possible'];
+  if(r.pct>=70)return['forte','compatibilité forte'];
+  if(r.pct>=45)return['moyenne','compatibilité moyenne'];
+  return['faible','piste possible'];
 }
+function ringHTML(p,cls,big){return `<span class="ring ${cls}${big?' big':''}" role="img" aria-label="Compatible à ${p} %"><svg viewBox="0 0 36 36" aria-hidden="true"><circle class="ring-bg" cx="18" cy="18" r="15.5"></circle><circle class="ring-fg" cx="18" cy="18" r="15.5" pathLength="100" style="--p:${p}"></circle></svg><b aria-hidden="true">${p}<small>%</small></b></span>`;}
 function renderSym(){
   if(symMode==='resultats'&&symSel.size)return renderSymResults();
   view.innerHTML=`<h1 class="vh">Symptômes</h1><p class="lede">Coche ce que tu ressens, même un peu. L'appli cherche les tableaux de la médecine chinoise qui te ressemblent.</p>
@@ -693,7 +704,7 @@ function renderCTA(){
   const n=symSel.size;
   if(!n){box.hidden=true;box.innerHTML='';return;}
   const res=matchTableaux(),best=res[0];
-  box.innerHTML=`<div class="cta-bar"><div class="cta-t"><b>${plural(n,'symptôme','symptômes')}</b><span>${best?'Le plus proche : '+esc(best.t.nom):'Ajoute d\'autres signes pour affiner'}</span></div><button type="button" class="cta-x" data-clear="sym" aria-label="Effacer tous les symptômes">Effacer</button><button type="button" class="cta" data-mode="resultats">Voir${res.length?' ('+res.length+')':''} <span aria-hidden="true">→</span></button></div>`;
+  box.innerHTML=`<div class="cta-bar"><div class="cta-t"><b>${plural(n,'symptôme','symptômes')}</b><span>${best?'Le plus proche : '+esc(best.t.nom)+' ('+best.pct+' %)':'Ajoute d\'autres signes pour affiner'}</span></div><button type="button" class="cta-x" data-clear="sym" aria-label="Effacer tous les symptômes">Effacer</button><button type="button" class="cta" data-mode="resultats">Voir${res.length?' ('+res.length+')':''} <span aria-hidden="true">→</span></button></div>`;
   box.hidden=false;
 }
 function renderSymResults(){
@@ -715,7 +726,7 @@ function renderSymResults(){
       const [cls,lab]=force(r);
       const missK=r.t._cle.filter(s=>!symSel.has(s)),missO=r.t._autres.filter(s=>!symSel.has(s)&&!/^langue|^enduit|^pointe|^bords/.test(s));
       const miss=[...missK.map(s=>[s,1]),...missO.map(s=>[s,0])].slice(0,Math.max(6,missK.length));
-      const extra=`<span class="match"><span class="force ${cls}">${lab}</span><span class="emeta">${r.m.length} signe${r.m.length>1?'s':''} sur ${r.t._cle.length+r.t._autres.length}</span></span><span class="emiss">Tu as : ${esc(r.m.map(s=>symName(s).toLowerCase()).join(', '))}</span>${r.contra.length?`<span class="emiss">Mais : ${esc(r.contra.map(s=>symName(s).toLowerCase()).join(', '))}</span>`:''}`;
+      const extra=`<span class="match">${ringHTML(r.pct,cls)}<span class="match-t"><b>${r.pct} % compatible</b><span>avec tes symptômes · ${lab}</span></span></span><span class="emiss">Tu as : ${esc(r.m.map(s=>symName(s).toLowerCase()).join(', '))}</span>${r.contra.length?`<span class="emiss">Mais : ${esc(r.contra.map(s=>symName(s).toLowerCase()).join(', '))}</span>`:''}`;
       h+=`<div class="result">${cardT(r.t,extra,true)}${miss.length?`<div class="verify"><span>As-tu aussi ces signes ?</span><div class="chips small">${miss.map(([s,k])=>`<button type="button" class="chip add${k?' key':''}" data-sym="${esc(s)}" aria-pressed="false">+ ${esc(symName(s))}</button>`).join('')}</div></div>`:''}</div>`;
     });
     h+='</div>';
@@ -772,10 +783,12 @@ function signChips(list,key){
 }
 function renderTableauDetail(t){
   const n=[...t._cle,...t._autres].filter(s=>symSel.has(s)).length;
+  const me=n?matchTableaux().find(x=>x.t===t):null;let compatH='';
+  if(me){const [cls,lab]=force(me);compatH=`<div class="compat">${ringHTML(me.pct,cls,true)}<div><b>Compatible à ${me.pct} % avec tes symptômes</b><span>${esc(lab.charAt(0).toUpperCase()+lab.slice(1))} · ${symSel.size===1?'ton signe s\'y retrouve':me.m.length+' de tes '+symSel.size+' signes s\'y retrouve'+(me.m.length>1?'nt':'')}</span></div></div>`;}
   let h=`<div class="fiche tableau">${barHTML('t',t.id,t._label)}
 <header class="dhead"><p class="eyebrow">${esc(t._label)}</p><h1 class="dtitle">${esc(t.nom)}</h1>
 ${t.simple?`<p class="dsimple">${esc(t.simple)}</p>`:''}${t._rep.length?`<p class="dreps"><b>Souvent :</b>${t._rep.map(r=>`<span>${esc(r)}</span>`).join('')}</p><p class="dnote">Repères pour s'orienter : un tableau de médecine chinoise n'est pas un diagnostic médical.</p>`:''}
-<p class="sub"><span lang="zh-Hans">${esc(t.zh||'')}</span>${t.py?` · ${esc(t.py)}`:''}</p>
+${compatH}<p class="sub"><span lang="zh-Hans">${esc(t.zh||'')}</span>${t.py?` · ${esc(t.py)}`:''}</p>
 ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
   if(t.consulter)h+=`<div class="alert" role="note"><h2>Avis médical</h2><p>${esc(t.consulter)}</p></div>`;
   if(arr(t.causes).length)h+=`<h2 class="sec">Causes fréquentes</h2><ul class="bullets">${t.causes.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
