@@ -91,6 +91,14 @@
    "eviter": "Régimes restrictifs, surmenage, sauter des repas.",
    "conseils": [
     "Une prise de sang (fer, ferritine, B12) permet d'écarter une anémie."
+   ],
+   "simple": "Le corps manque à la fois d'énergie et de sang : grande fatigue, pâleur, vertiges.",
+   "reperes": [
+    "Anémie",
+    "Fatigue chronique",
+    "Convalescence",
+    "Après un accouchement",
+    "Chute de cheveux"
    ]
   },
   {
@@ -185,7 +193,15 @@
    "privilegier": "Goji, sésame noir, haricots noirs, trémelle, œufs, poire, chrysanthème.",
    "eviter": "Écrans tard, épices, alcool, veiller.",
    "conseils": [],
-   "etiquette": "Foie · Rein"
+   "etiquette": "Foie · Rein",
+   "simple": "Épuisement de fond : yeux secs, vertiges, acouphènes, bas du dos faible, chaleur le soir.",
+   "reperes": [
+    "Ménopause",
+    "Acouphènes",
+    "Sécheresse oculaire",
+    "Vieillissement",
+    "Hypertension"
+   ]
   },
   {
    "id": "rate-rein-yang",
@@ -288,7 +304,15 @@
    "conseils": [
     "Bouillotte sur le ventre et le bas du dos le soir."
    ],
-   "etiquette": "Rate · Rein"
+   "etiquette": "Rate · Rein",
+   "simple": "Le corps manque de chaleur : diarrhée au réveil, ventre et reins froids, jambes gonflées.",
+   "reperes": [
+    "Diarrhée chronique",
+    "Frilosité",
+    "Œdèmes",
+    "Hypothyroïdie",
+    "Fatigue profonde"
+   ]
   },
   {
    "id": "poumon-rate-qi",
@@ -377,7 +401,15 @@
    "privilegier": "Igname, riz, millet, poulet, champignons, légumes cuits.",
    "eviter": "Laitages, sucre, cru, froid.",
    "conseils": [],
-   "etiquette": "Poumon · Rate"
+   "etiquette": "Poumon · Rate",
+   "simple": "Défenses et digestion faibles ensemble : on attrape tout, on s'essouffle, on digère mal.",
+   "reperes": [
+    "Rhumes à répétition",
+    "Défenses immunitaires basses",
+    "Bronchite chronique",
+    "Allergies",
+    "Fatigue"
+   ]
   },
   {
    "id": "stase-sang",
@@ -459,6 +491,14 @@
    ],
    "groupes": [
     "femme"
+   ],
+   "simple": "Le sang circule mal : douleurs fixes et piquantes, règles avec caillots, teint terne.",
+   "reperes": [
+    "Endométriose",
+    "Règles douloureuses",
+    "Douleurs chroniques",
+    "Varices",
+    "Suites de chute ou de choc"
    ]
   },
   {
@@ -549,6 +589,13 @@
    "conseils": [
     "Bouillotte sur le bas-ventre pendant les règles.",
     "Commence les points quelques jours avant les règles."
+   ],
+   "simple": "Le froid s'est installé dans le ventre : règles très douloureuses, calmées par la bouillotte.",
+   "reperes": [
+    "Règles douloureuses",
+    "Dysménorrhée",
+    "Difficulté à concevoir",
+    "Cycles longs"
    ]
   },
   {
@@ -618,7 +665,14 @@
    ],
    "privilegier": "Plats tièdes, aliments qui nourrissent le Sang.",
    "eviter": "Courants d'air, climatisation dirigée sur toi.",
-   "conseils": []
+   "conseils": [],
+   "simple": "Des douleurs articulaires qui changent de place d'un jour à l'autre.",
+   "reperes": [
+    "Rhumatismes",
+    "Douleurs articulaires diffuses",
+    "Torticolis",
+    "Courbatures"
+   ]
   },
   {
    "id": "bi-froid",
@@ -702,6 +756,14 @@
    ],
    "fiches": [
     "2026-09-26-seance-genoux"
+   ],
+   "simple": "Une articulation bloquée par le froid : douleur vive, soulagée par la chaleur.",
+   "reperes": [
+    "Arthrose",
+    "Rhumatismes",
+    "Lumbago",
+    "Épaule gelée",
+    "Douleurs au froid"
    ]
   },
   {
@@ -782,6 +844,13 @@
    "conseils": [],
    "fiches": [
     "2026-09-26-seance-genoux"
+   ],
+   "simple": "Des articulations lourdes et gonflées, pires par temps humide.",
+   "reperes": [
+    "Arthrose",
+    "Genou gonflé",
+    "Rhumatismes",
+    "Raideur au réveil"
    ]
   },
   {
@@ -851,6 +920,13 @@
    "eviter": "Alcool, épices, viande rouge, chaleur locale.",
    "conseils": [
     "Ne masse pas directement l'articulation enflammée."
+   ],
+   "simple": "Une articulation rouge, chaude et gonflée, très douloureuse.",
+   "reperes": [
+    "Crise de goutte",
+    "Arthrite",
+    "Poussée inflammatoire",
+    "Tendinite aiguë"
    ]
   },
   {
@@ -921,7 +997,14 @@
    ],
    "privilegier": "Haricots mungo, concombre cuit, légumes verts, eau.",
    "eviter": "Fruits de mer, alcool, épices, aliments qui t'ont déjà fait réagir.",
-   "conseils": []
+   "conseils": [],
+   "simple": "Des plaques rouges qui grattent et vont et viennent vite.",
+   "reperes": [
+    "Urticaire",
+    "Allergie cutanée",
+    "Démangeaisons",
+    "Réaction à une piqûre"
+   ]
   },
   {
    "id": "peau-humidite-chaleur",
@@ -1005,6 +1088,13 @@
    "eviter": "Sucre, laitages, alcool, friture, épices.",
    "conseils": [
     "Ne gratte pas : tapote ou applique du froid doux."
+   ],
+   "simple": "La peau suinte, rougit et gratte.",
+   "reperes": [
+    "Eczéma suintant",
+    "Dermatite",
+    "Mycose de la peau",
+    "Intertrigo"
    ]
   },
   {
@@ -1081,6 +1171,13 @@
    "eviter": "Douches chaudes et longues, savons décapants.",
    "conseils": [
     "Douche tiède et courte, hydrate la peau juste après."
+   ],
+   "simple": "La peau est sèche et gratte, surtout le soir, sans grosses rougeurs.",
+   "reperes": [
+    "Peau sèche",
+    "Eczéma sec",
+    "Démangeaisons des seniors",
+    "Psoriasis"
    ]
   },
   {
@@ -1159,6 +1256,13 @@
    "eviter": "Sucre, friture, chocolat, épices, alcool, laitages.",
    "conseils": [
     "Ne perce pas les boutons."
+   ],
+   "simple": "La chaleur du sang ressort sur la peau : boutons rouges, parfois avec du pus.",
+   "reperes": [
+    "Acné",
+    "Furoncles",
+    "Rosacée",
+    "Psoriasis en poussée"
    ]
   }
  ]

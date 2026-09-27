@@ -115,6 +115,15 @@
    ],
    "groupes": [
     "homme"
+   ],
+   "simple": "Le feu de fond du corps faiblit : froid du bas du dos, urines abondantes, grande fatigue.",
+   "reperes": [
+    "Fatigue profonde",
+    "Frilosité",
+    "Baisse de libido",
+    "Troubles de l'érection",
+    "Lombalgie chronique",
+    "Hypothyroïdie"
    ]
   },
   {
@@ -218,6 +227,14 @@
    ],
    "groupes": [
     "homme"
+   ],
+   "simple": "Les réserves s'épuisent : sueurs la nuit, bouffées de chaleur, acouphènes, bas du dos faible.",
+   "reperes": [
+    "Ménopause",
+    "Sueurs nocturnes",
+    "Acouphènes",
+    "Surmenage",
+    "Éjaculation précoce"
    ]
   },
   {
@@ -315,6 +332,14 @@
    ],
    "groupes": [
     "homme"
+   ],
+   "simple": "Le corps ne retient plus bien : fuites urinaires, envies la nuit, pertes.",
+   "reperes": [
+    "Incontinence",
+    "Pipi la nuit",
+    "Pertes séminales",
+    "Prostate",
+    "Descente d'organe"
    ]
   },
   {
@@ -407,6 +432,13 @@
    "eviter": "Tabac, froid, efforts brusques.",
    "conseils": [
     "Respiration ventrale : inspire par le nez en gonflant le ventre, expire longuement par la bouche."
+   ],
+   "simple": "Le souffle ne descend plus : essoufflement chronique, asthme qui traîne.",
+   "reperes": [
+    "Asthme chronique",
+    "Essoufflement",
+    "BPCO",
+    "Souffle court à l'effort"
    ]
   },
   {
@@ -493,6 +525,15 @@
    ],
    "groupes": [
     "homme"
+   ],
+   "simple": "Les réserves profondes s'épuisent : vieillissement précoce, cheveux blancs, mémoire et audition qui baissent.",
+   "reperes": [
+    "Vieillissement précoce",
+    "Cheveux blancs",
+    "Troubles de la mémoire",
+    "Baisse de l'audition",
+    "Infertilité",
+    "Ostéoporose"
    ]
   },
   {
@@ -571,7 +612,14 @@
    ],
    "privilegier": "Boire beaucoup d'eau, haricots mungo et azuki, orge perlé, céleri, concombre cuit.",
    "eviter": "Alcool, épices, café, sucre, se retenir d'uriner.",
-   "conseils": []
+   "conseils": [],
+   "simple": "Chaleur et humidité dans la vessie : brûlures en urinant, envies pressantes.",
+   "reperes": [
+    "Cystite",
+    "Infection urinaire",
+    "Prostatite",
+    "Urétrite"
+   ]
   },
   {
    "id": "gi-humidite-chaleur",
@@ -645,7 +693,14 @@
    ],
    "privilegier": "Riz, bouillons, carotte cuite, orge perlé. Boire souvent par petites gorgées.",
    "eviter": "Gras, laitages, alcool, épices, fruits crus pendant la crise.",
-   "conseils": []
+   "conseils": [],
+   "simple": "Chaleur humide dans l'intestin : diarrhée urgente, brûlante, malodorante.",
+   "reperes": [
+    "Gastro-entérite",
+    "Intoxication alimentaire",
+    "Colite",
+    "Hémorroïdes enflammées"
+   ]
   },
   {
    "id": "gi-secheresse",
@@ -726,6 +781,13 @@
    "conseils": [
     "Masse ton ventre dans le sens des aiguilles d'une montre, 5 minutes le matin.",
     "Pose tes pieds sur un petit tabouret aux toilettes."
+   ],
+   "simple": "L'intestin manque d'hydratation : selles sèches et dures.",
+   "reperes": [
+    "Constipation",
+    "Constipation des seniors",
+    "Après un accouchement",
+    "Hémorroïdes"
    ]
   },
   {
@@ -805,6 +867,13 @@
    "eviter": "Cru et froid, sédentarité.",
    "conseils": [
     "Va aux toilettes à heure fixe, idéalement le matin après une boisson chaude."
+   ],
+   "simple": "L'intestin manque de force : l'envie est là mais l'évacuation est difficile.",
+   "reperes": [
+    "Constipation",
+    "Intestin paresseux",
+    "Fatigue",
+    "Convalescence"
    ]
   }
  ]

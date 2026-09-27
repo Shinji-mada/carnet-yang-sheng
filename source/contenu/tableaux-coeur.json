@@ -78,6 +78,13 @@
    "eviter": "Surmenage, café en excès, efforts violents.",
    "conseils": [
     "Alterne activité et vraies pauses dans la journée."
+   ],
+   "simple": "Le cœur manque d'énergie : il s'emballe au moindre effort et on s'essouffle vite.",
+   "reperes": [
+    "Fatigue à l'effort",
+    "Palpitations",
+    "Essoufflement",
+    "Convalescence"
    ]
   },
   {
@@ -166,6 +173,14 @@
    "conseils": [
     "Garde les mêmes heures de coucher chaque soir.",
     "Infusion de longanes et dattes en fin d'après-midi."
+   ],
+   "simple": "L'esprit n'est plus bien nourri : sommeil léger, cœur qui bat vite, mémoire qui flanche, anxiété diffuse.",
+   "reperes": [
+    "Insomnie",
+    "Anxiété",
+    "Dépression légère",
+    "Anémie",
+    "Troubles de la mémoire"
    ]
   },
   {
@@ -249,6 +264,14 @@
    "eviter": "Café, alcool, épices, sport intense le soir, écrans tard.",
    "conseils": [
     "Chambre fraîche et sombre ; dîner léger."
+   ],
+   "simple": "Le cœur s'échauffe par épuisement : nuits agitées, réveils en sueur, nervosité.",
+   "reperes": [
+    "Insomnie",
+    "Anxiété",
+    "Sueurs nocturnes",
+    "Ménopause",
+    "Surmenage"
    ]
   },
   {
@@ -330,7 +353,15 @@
    ],
    "privilegier": "Haricots mungo, graines de lotus avec leur germe, légumes verts, concombre cuit.",
    "eviter": "Café, alcool, épices, écrans le soir, surmenage.",
-   "conseils": []
+   "conseils": [],
+   "simple": "Trop de chaleur agite le cœur et l'esprit : nervosité, nuits blanches, aphtes.",
+   "reperes": [
+    "Stress intense",
+    "Insomnie",
+    "Aphtes",
+    "Agitation",
+    "Brûlures urinaires"
+   ]
   },
   {
    "id": "coeur-rate",
@@ -422,6 +453,15 @@
    "etiquette": "Cœur · Rate",
    "groupes": [
     "homme"
+   ],
+   "simple": "Trop de soucis et de fatigue : on pense sans arrêt, on dort mal, on digère mal.",
+   "reperes": [
+    "Dépression",
+    "Burn-out",
+    "Insomnie",
+    "Fatigue chronique",
+    "Anxiété",
+    "Anémie"
    ]
   },
   {
@@ -517,6 +557,14 @@
    "etiquette": "Cœur · Rein",
    "groupes": [
     "homme"
+   ],
+   "simple": "Le corps est épuisé et l'esprit trop actif : nuits blanches, cœur qui s'emballe, bouffées de chaleur.",
+   "reperes": [
+    "Insomnie",
+    "Anxiété",
+    "Ménopause",
+    "Surmenage",
+    "Éjaculations nocturnes"
    ]
   }
  ]

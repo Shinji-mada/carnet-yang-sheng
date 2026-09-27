@@ -95,6 +95,14 @@
    "conseils": [
     "Mâche longuement et pose tes couverts entre deux bouchées.",
     "Marche 10 minutes après le déjeuner."
+   ],
+   "simple": "La digestion manque de force : on assimile mal ce qu'on mange, d'où fatigue et ventre gonflé.",
+   "reperes": [
+    "Troubles digestifs",
+    "Mauvaise assimilation",
+    "Ballonnements",
+    "Fatigue après les repas",
+    "Selles molles"
    ]
   },
   {
@@ -191,6 +199,14 @@
    "conseils": [
     "Bouillotte sur le ventre le soir.",
     "Commence la journée par une boisson chaude."
+   ],
+   "simple": "Digestion faible et froide : ventre froid, selles très molles, frilosité.",
+   "reperes": [
+    "Diarrhée chronique",
+    "Frilosité",
+    "Digestion lente",
+    "Rétention d'eau",
+    "Hypothyroïdie"
    ]
   },
   {
@@ -273,6 +289,14 @@
    "eviter": "Porter lourd, rester debout longtemps, pousser fort aux toilettes.",
    "conseils": [
     "Renforce ton périnée : demande à ton médecin ou à une sage-femme des exercices adaptés."
+   ],
+   "simple": "Le corps n'a plus la force de tenir : sensation que tout tombe, descente d'organe, hémorroïdes.",
+   "reperes": [
+    "Descente d'organe",
+    "Prolapsus",
+    "Hémorroïdes",
+    "Diarrhée chronique",
+    "Grande fatigue"
    ]
   },
   {
@@ -351,6 +375,14 @@
    "conseils": [],
    "groupes": [
     "femme"
+   ],
+   "simple": "Les vaisseaux fuient facilement : bleus au moindre choc, petits saignements, règles abondantes.",
+   "reperes": [
+    "Bleus faciles",
+    "Saignements de nez",
+    "Règles abondantes",
+    "Gencives qui saignent",
+    "Anémie"
    ]
   },
   {
@@ -454,6 +486,14 @@
    "eviter": "Laitages, sucre, gras, pain blanc en excès, boissons froides, lieux humides.",
    "conseils": [
     "Aère et chauffe ta chambre si elle est humide."
+   ],
+   "simple": "Digestion lourde et encombrée : ventre plein, bouche pâteuse, corps lourd.",
+   "reperes": [
+    "Ballonnements",
+    "Digestion lourde",
+    "Prise de poids",
+    "Rétention d'eau",
+    "Candidose"
    ]
   },
   {
@@ -546,7 +586,15 @@
    "privilegier": "Orge perlé, haricots mungo et azuki, céleri, radis, concombre cuit, riz.",
    "eviter": "Alcool, friture, sucre, viande grasse, épices fortes, laitages.",
    "conseils": [],
-   "etiquette": "Rate · Estomac"
+   "etiquette": "Rate · Estomac",
+   "simple": "Chaleur humide dans le ventre : nausée, selles collantes et malodorantes, peau grasse.",
+   "reperes": [
+    "Gastro-entérite",
+    "Intolérances alimentaires",
+    "Foie gras",
+    "Acné",
+    "Eczéma"
+   ]
   },
   {
    "id": "e-vide-yin",
@@ -635,6 +683,14 @@
    "eviter": "Épices, café, alcool, grillades, manger tard le soir ou en travaillant.",
    "conseils": [
     "Dîne avant 20 h, léger et chaud."
+   ],
+   "simple": "L'estomac est desséché : on a faim sans avoir envie de manger, bouche sèche, petite brûlure.",
+   "reperes": [
+    "Gastrite chronique",
+    "Reflux",
+    "Bouche sèche",
+    "Suite de fièvre",
+    "Perte d'appétit"
    ]
   },
   {
@@ -718,7 +774,16 @@
    ],
    "privilegier": "Légumes verts, concombre, poire, tofu, haricots mungo, céréales complètes, eau à température ambiante.",
    "eviter": "Épices, alcool, café, friture, grillades, agneau, excès de viande rouge.",
-   "conseils": []
+   "conseils": [],
+   "simple": "L'estomac est en feu : faim excessive, soif, gencives douloureuses, mauvaise haleine.",
+   "reperes": [
+    "Reflux",
+    "Brûlures d'estomac",
+    "Gingivite",
+    "Mauvaise haleine",
+    "Aphtes",
+    "Fringales"
+   ]
   },
   {
    "id": "e-froid",
@@ -801,6 +866,12 @@
    "eviter": "Boissons glacées, glaces, cru, fruits froids.",
    "conseils": [
     "Une bouillotte sur l'estomac soulage vite."
+   ],
+   "simple": "L'estomac est saisi par le froid : douleur vive après une boisson glacée.",
+   "reperes": [
+    "Crampes d'estomac",
+    "Indigestion",
+    "Gastrite aiguë"
    ]
   },
   {
@@ -885,6 +956,14 @@
    "eviter": "Se coucher juste après manger, dîner copieux.",
    "conseils": [
     "Masse ton ventre dans le sens des aiguilles d'une montre après le repas."
+   ],
+   "simple": "Trop mangé ou trop vite : estomac plein, renvois, digestion bloquée.",
+   "reperes": [
+    "Indigestion",
+    "Crise de foie",
+    "Lendemain de fête",
+    "Reflux",
+    "Ballonnements"
    ]
   },
   {
@@ -972,6 +1051,14 @@
    ],
    "fiches": [
     "2026-09-26-seance-matin"
+   ],
+   "simple": "L'estomac renvoie au lieu de digérer : nausées, hoquet, renvois, vomissements.",
+   "reperes": [
+    "Nausées",
+    "Mal des transports",
+    "Nausées de grossesse",
+    "Hoquet",
+    "Reflux"
    ]
   }
  ]

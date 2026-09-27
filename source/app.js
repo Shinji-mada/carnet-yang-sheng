@@ -100,7 +100,8 @@ function normTableau(d){
   t._org=ORG[t.organe]||{nom:'',zh:''};
   t._label=t.etiquette||t._org.nom;
   t._groups=[t.organe,...arr(t.groupes)];
-  t._hay=hayOf([t.nom,t.zh,t.py,t.resume,t._label,t.principe&&[t.principe.zh,t.principe.py,t.principe.fr].join(' '),
+  t._rep=arr(t.reperes);
+  t._hay=hayOf([t.nom,t.zh,t.py,t.resume,t.simple,t._rep.join(' '),t._label,t.principe&&[t.principe.zh,t.principe.py,t.principe.fr].join(' '),
     [...t._cle,...t._autres].map(s=>SYM[s].nom).join(' '),t._items.map(it=>[it.ab,it.py].join(' ')).join(' ')]);
   return t;
 }
@@ -170,7 +171,7 @@ ${e.principe&&e.principe.zh?`<span class="eprin" lang="zh-Hans" aria-hidden="tru
 }
 function cardT(t,extra,noResume){
   return `<button type="button" class="entry tableau" data-opent="${esc(t.id)}" data-lp="t:${esc(t.id)}" aria-label="${esc('Tableau, '+t.nom)}">
-<span class="txt"><span class="kind">${esc(t._label)}${liveOn(t)?'<span class="live">en cours</span>':''}${isFav('t',t.id)?'<span class="favdot" aria-label="favori">★</span>':''}</span><span class="etitle">${esc(t.nom)}</span>${noResume?'':`<span class="emeta clamp">${esc(t.resume||'')}</span>`}${extra||''}</span>
+<span class="txt"><span class="kind">${esc(t._label)}${liveOn(t)?'<span class="live">en cours</span>':''}${isFav('t',t.id)?'<span class="favdot" aria-label="favori">★</span>':''}</span><span class="etitle">${esc(t.nom)}</span><span class="emeta clamp">${esc(t.simple||(noResume?'':t.resume)||'')}</span>${t._rep.length?`<span class="reperes"><b>Souvent :</b> ${esc(t._rep.slice(0,4).join(' · '))}</span>`:''}${extra||''}</span>
 ${t.zh?`<span class="eprin" lang="zh-Hans" aria-hidden="true">${esc(t.zh)}</span>`:''}
 </button>`;
 }
@@ -327,6 +328,11 @@ function renameSheet(cid){
 function newCarnetSheet(){
   sheetCtx={};
   openSheet('Nouveau carnet','Rassemble les fiches de ton choix : recettes du moment, protocole d\'un patient, cure d\'hiver…',`<form class="sheet-new" data-newfor="plain"><label for="newc">Nom</label><div><input id="newc" type="text" maxlength="40" placeholder="Ex. : Recettes du moment" autocomplete="off"><button type="submit" class="primary">Créer</button></div></form>`);
+}
+async function shareApp(){
+  const url=location.origin+location.pathname;
+  try{if(navigator.share){await navigator.share({title:'Carnet Yang Sheng',text:'Carnet Yang Sheng : symptômes, tableaux, points d\'acupression et recettes de médecine chinoise.',url});return;}}catch(err){if(err&&err.name==='AbortError')return;}
+  try{await navigator.clipboard.writeText(url);toast('Lien copié');}catch(err){toast(url);}
 }
 async function share(k,id){
   const e=item(k,id);if(!e)return;
@@ -639,7 +645,11 @@ function renderAC(){
   const box=$('#ac');if(!box)return;
   if(!symQuery.trim()){box.hidden=true;box.innerHTML='';return;}
   const list=suggest(symQuery);
-  box.innerHTML=list.length?list.map(s=>`<button type="button" class="ac-item" role="option" data-acsym="${esc(s.id)}" aria-selected="${symSel.has(s.id)}"><span class="ac-n">${hl(s.nom,symQuery)}</span><span class="ac-c">${esc(catName(s.cat))}</span>${symSel.has(s.id)?'<span class="ac-ok" aria-hidden="true">✓</span>':''}</button>`).join(''):'<p class="ac-empty">Aucun symptôme ne correspond. Essaie un autre mot.</p>';
+  const f=fold(symQuery).trim();
+  const tabs=f.length<3?[]:tableaux.filter(t=>t._rep.some(r=>fold(r).split(/[\s,'’()\-]+/).some(w=>w.startsWith(f))||fold(r).startsWith(f))).slice(0,4);
+  let h=list.map(s=>`<button type="button" class="ac-item" role="option" data-acsym="${esc(s.id)}" aria-selected="${symSel.has(s.id)}"><span class="ac-n">${hl(s.nom,symQuery)}</span><span class="ac-c">${esc(catName(s.cat))}</span>${symSel.has(s.id)?'<span class="ac-ok" aria-hidden="true">✓</span>':''}</button>`).join('');
+  if(tabs.length)h+=`<p class="ac-h">Tableaux liés à « ${esc(symQuery.trim())} »</p>`+tabs.map(t=>`<button type="button" class="ac-item ac-tab" data-opent="${esc(t.id)}"><span class="ac-n">${esc(t.nom)}</span><span class="ac-c">${esc(t._rep.find(r=>fold(r).includes(f))||t._label)}</span></button>`).join('');
+  box.innerHTML=h||'<p class="ac-empty">Aucun symptôme ne correspond. Essaie un autre mot.</p>';
   box.hidden=false;
 }
 function pickSuggestion(id){
@@ -749,7 +759,7 @@ function renderTabList(){
   const box=$('#tablist');if(!box)return;
   let h='',n=0;
   groupsWith().forEach(({o,list})=>{
-    list=list.filter(t=>matchQ(t._hay,tabQuery));
+    list=list.filter(t=>matchQ(t._hay,tabQuery)&&(!tabQuery.trim()||t.organe===o.id));
     if(!list.length)return;n+=list.length;
     const also=tabQuery.trim()||o.id==='combines'?[]:tableaux.filter(t=>t.organe==='combines'&&String(t.etiquette||'').split(' · ').includes(o.nom));
     h+=`<section class="grp" id="grp-${esc(o.id)}"><h2 class="org"><span class="org-zh" lang="zh-Hans">${esc(o.zh||'')}</span><span>${esc(o.nom)}${o.sous?`<small>${esc(o.sous)}</small>`:''}</span><span class="org-n">${list.length}</span></h2><div class="entries">${list.map(t=>cardT(t)).join('')}</div>${also.length?`<div class="also"><span>Avec un autre organe</span>${also.map(t=>`<button type="button" class="also-b" data-opent="${esc(t.id)}"><b>${esc(t.etiquette)}</b> ${esc(t.nom)}</button>`).join('')}</div>`:''}</section>`;
@@ -766,6 +776,7 @@ function renderTableauDetail(t){
 <header class="dhead"><p class="eyebrow">${esc(t._label)}</p><h1 class="dtitle">${esc(t.nom)}</h1>
 <p class="sub"><span lang="zh-Hans">${esc(t.zh||'')}</span>${t.py?` · ${esc(t.py)}`:''}</p>
 ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
+  if(t.simple||t._rep.length)h+=`<section class="enclair"><h2>En clair</h2>${t.simple?`<p>${esc(t.simple)}</p>`:''}${t._rep.length?`<p class="enclair-l">On le rencontre souvent dans :</p><ul class="rep-list">${t._rep.map(r=>`<li>${esc(r)}</li>`).join('')}</ul>`:''}<p class="enclair-f">Repères pour s'orienter : un tableau de médecine chinoise n'est pas un diagnostic médical.</p></section>`;
   if(t.consulter)h+=`<div class="alert" role="note"><h2>Avis médical</h2><p>${esc(t.consulter)}</p></div>`;
   if(arr(t.causes).length)h+=`<h2 class="sec">Causes fréquentes</h2><ul class="bullets">${t.causes.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
   if(t.mecanisme)h+=`<h2 class="sec">Ce qui se passe</h2><p class="prose">${esc(t.mecanisme)}</p>`;
@@ -931,6 +942,7 @@ ${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:'
 <h2 class="sec">Petit lexique</h2>${acc(LEXIQUE,'l')}
 <section class="card"><h2>Astuces</h2><p>Reste appuyé sur une fiche ou un tableau pour l'ajouter aux favoris ou à un carnet, le partager ou le retirer. Sans lâcher, fais-la glisser vers le haut de l'écran pour la déposer dans un carnet.</p><p>Dans le carnet : fais glisser une fiche pour changer l'ordre, reste appuyé sur un onglet pour le déplacer, et touche « Sélectionner » pour cocher plusieurs fiches à la fois (tout cocher, favoris, ajouter, déplacer, retirer).</p><p>« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.</p></section>
 <section class="card"><h2>Installer sur ton téléphone</h2>${inst}</section>
+<section class="card"><h2>Faire découvrir l'appli</h2><p>Envoie le lien à tes proches : ils l'ouvrent dans Chrome et l'installent comme toi.</p><button type="button" class="primary" data-shareapp="1">Partager l'appli</button></section>
 <section class="card"><h2>Tes données</h2>${FB?'<p>Sans compte, rien ne quitte ce téléphone. Le compte est facultatif : si tu en crées un, ton e-mail, ton nom, ta photo, tes carnets, favoris, récents et ton classement sont gardés sur un serveur sécurisé (Google Firebase) pour les retrouver sur un autre appareil. Tu peux supprimer ton compte à tout moment depuis « Ton compte ».</p><p>Tes symptômes et tes ingrédients restent toujours sur ce téléphone.</p>':'<p>L\'appli ne demande aucun compte et ne collecte aucune donnée personnelle. Tes symptômes, tes ingrédients, tes favoris et tes carnets restent sur ce téléphone.</p>'}</section>
 <section class="card"><h2>Contenu</h2><dl class="kv"><dt>Symptômes</dt><dd>${Object.keys(SYM).length}</dd><dt>Tableaux</dt><dd>${tableaux.length}</dd><dt>Points</dt><dd>${Object.keys(PTS).length}</dd><dt>Recettes</dt><dd>${nR}</dd><dt>Protocoles</dt><dd>${nP}</dd></dl></section>
 <p class="fine">Polices Atkinson Hyperlegible et Noto Serif SC, sous licence SIL Open Font License.</p>`;
@@ -1390,6 +1402,7 @@ document.addEventListener('click',ev=>{
   if(d.ing){toggleIng(d.ing,b);return;}
   if(d.clear==='ing'){have.clear();saveSet('ys.cuisine',have);refresh();return;}
   if(d.clear==='sym'){const old=[...symSel];symSel.clear();saveSet('ys.symptomes',symSel);symMode='choisir';refresh();toast('Symptômes effacés',()=>{old.forEach(s=>symSel.add(s));saveSet('ys.symptomes',symSel);refresh();});return;}
+  if(d.shareapp){shareApp();return;}
   if(d.install&&installEvt){installEvt.prompt();installEvt.userChoice.finally(()=>{installEvt=null;if(tab==='infos'&&!route)renderInfos();});return;}
   if(d.serv&&route&&route.kind==='f'){
     const e=fiche(route.id);if(!e)return;

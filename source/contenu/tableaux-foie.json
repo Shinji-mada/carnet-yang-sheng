@@ -88,6 +88,15 @@
    "groupes": [
     "femme",
     "homme"
+   ],
+   "simple": "Le stress bloque tout : tensions, gorge serrée, humeur en dents de scie, digestion qui suit les émotions.",
+   "reperes": [
+    "Stress",
+    "Dépression",
+    "Syndrome prémenstruel",
+    "Boule dans la gorge",
+    "Côlon irritable",
+    "Irritabilité"
    ]
   },
   {
@@ -191,6 +200,15 @@
    ],
    "groupes": [
     "femme"
+   ],
+   "simple": "Le sang manque pour nourrir les yeux, les muscles et les cheveux : vue floue, crampes, chute de cheveux.",
+   "reperes": [
+    "Anémie",
+    "Carence en fer",
+    "Mouches volantes",
+    "Crampes",
+    "Chute de cheveux",
+    "Règles peu abondantes"
    ]
   },
   {
@@ -291,6 +309,14 @@
    "conseils": [
     "Fais contrôler ta tension si ces maux de tête reviennent.",
     "Masse la plante de tes pieds (Rn 1) le soir pour faire descendre ce qui monte."
+   ],
+   "simple": "La pression monte à la tête : maux de tête aux tempes, vertiges, irritabilité.",
+   "reperes": [
+    "Migraine",
+    "Hypertension",
+    "Vertiges",
+    "Acouphènes",
+    "Ménopause"
    ]
   },
   {
@@ -379,6 +405,14 @@
    "eviter": "Alcool, épices, friture, agneau, tabac.",
    "conseils": [
     "Sors la colère autrement : sport intense, écriture, parole."
+   ],
+   "simple": "Une chaleur intense monte à la tête : colère, yeux rouges, maux de tête violents.",
+   "reperes": [
+    "Colère",
+    "Migraine",
+    "Hypertension",
+    "Yeux rouges",
+    "Insomnie"
    ]
   },
   {
@@ -457,7 +491,15 @@
    "privilegier": "Céleri, radis, orge perlé, haricots mungo et azuki, légumes verts cuits.",
    "eviter": "Alcool, gras, friture, sucre, épices.",
    "conseils": [],
-   "etiquette": "Foie · Vésicule biliaire"
+   "etiquette": "Foie · Vésicule biliaire",
+   "simple": "Humidité et chaleur encombrent le foie et la vésicule : bouche amère, nausée, douleur sous les côtes.",
+   "reperes": [
+    "Vésicule biliaire",
+    "Digestion des graisses difficile",
+    "Nausées",
+    "Pertes vaginales",
+    "Mycoses"
+   ]
   },
   {
    "id": "foie-rate",
@@ -548,7 +590,14 @@
    "fiches": [
     "2026-09-26-seance-matin"
    ],
-   "etiquette": "Foie · Rate"
+   "etiquette": "Foie · Rate",
+   "simple": "Le stress dérègle la digestion : ventre qui gonfle, transit qui change avec les émotions.",
+   "reperes": [
+    "Côlon irritable",
+    "Ballonnements",
+    "Stress",
+    "Alternance diarrhée-constipation"
+   ]
   },
   {
    "id": "foie-estomac",
@@ -635,7 +684,15 @@
    "privilegier": "Petits repas chauds, congee, radis, gingembre frais en petite quantité.",
    "eviter": "Café, alcool, épices, agrumes acides à jeun, repas tardifs.",
    "conseils": [],
-   "etiquette": "Foie · Estomac"
+   "etiquette": "Foie · Estomac",
+   "simple": "Le stress remonte dans l'estomac : brûlures, renvois, nausée.",
+   "reperes": [
+    "Reflux gastro-œsophagien",
+    "Brûlures d'estomac",
+    "Gastrite de stress",
+    "Nausées",
+    "Hoquet"
+   ]
   }
  ]
 }

@@ -73,6 +73,14 @@
    "eviter": "Chauffage trop fort, épices, grillades, tabac.",
    "conseils": [
     "Mets un humidificateur ou un bol d'eau près du radiateur de ta chambre."
+   ],
+   "simple": "L'air sec irrite les voies respiratoires : toux sèche, gorge et nez qui piquent.",
+   "reperes": [
+    "Toux sèche",
+    "Nez sec",
+    "Pharyngite",
+    "Chauffage, air sec",
+    "Peau sèche"
    ]
   },
   {
@@ -151,6 +159,13 @@
    "eviter": "Sauter le petit-déjeuner, froid et cru, repas pris debout.",
    "conseils": [
     "Mange à heures fixes, même peu."
+   ],
+   "simple": "L'estomac manque de force : peu d'appétit, digestion lente, fatigue le matin.",
+   "reperes": [
+    "Digestion lente",
+    "Manque d'appétit",
+    "Dyspepsie",
+    "Fatigue"
    ]
   },
   {
@@ -247,6 +262,13 @@
    "eviter": "Glaces, boissons froides, fruits crus à jeun.",
    "conseils": [
     "Commence la journée par une boisson chaude, avant de manger."
+   ],
+   "simple": "L'estomac est faible et froid : douleurs sourdes, calmées par un repas chaud.",
+   "reperes": [
+    "Gastrite",
+    "Douleur d'estomac à jeun",
+    "Crampes d'estomac",
+    "Digestion difficile"
    ]
   },
   {
@@ -323,6 +345,14 @@
    "eviter": "Écrans tard, café, excitants.",
    "conseils": [
     "Prends chaque jour une petite décision sans revenir dessus : l'audace se muscle."
+   ],
+   "simple": "On manque d'assurance : difficile de décider, on sursaute facilement, sommeil léger.",
+   "reperes": [
+    "Timidité",
+    "Manque de confiance",
+    "Indécision",
+    "Anxiété",
+    "Sommeil léger"
    ]
   },
   {
@@ -405,6 +435,13 @@
    "eviter": "Boissons froides, boire beaucoup le soir, pieds froids.",
    "conseils": [
     "Garde le bas du dos et les pieds au chaud."
+   ],
+   "simple": "La vessie manque de tonus et de chaleur : on urine souvent, parfois avec des fuites.",
+   "reperes": [
+    "Envies fréquentes d'uriner",
+    "Fuites urinaires",
+    "Pipi la nuit",
+    "Vessie hyperactive"
    ]
   },
   {
@@ -484,6 +521,13 @@
    "eviter": "Tout ce qui est froid ou cru.",
    "conseils": [
     "Bouillotte sur le ventre et bouillon chaud."
+   ],
+   "simple": "Le froid saisit le ventre : crampes intestinales et selles molles après un coup de froid.",
+   "reperes": [
+    "Coliques",
+    "Crampes intestinales",
+    "Gastro par le froid",
+    "Diarrhée"
    ]
   },
   {
@@ -566,6 +610,14 @@
    "eviter": "Écrans tard, alcool, épices, veiller.",
    "conseils": [
     "Toutes les 20 minutes d'écran, regarde au loin pendant 20 secondes."
+   ],
+   "simple": "Le foie manque de ressources : yeux secs, vue qui baisse, vertiges, chaleur le soir.",
+   "reperes": [
+    "Yeux secs",
+    "Fatigue visuelle",
+    "Vertiges",
+    "Ménopause",
+    "Crampes"
    ]
   },
   {
@@ -653,7 +705,14 @@
    ],
    "privilegier": "Légumes verts, céleri, concombre cuit, haricots mungo, tofu.",
    "eviter": "Épices, alcool, café, agneau, friture.",
-   "conseils": []
+   "conseils": [],
+   "simple": "Trop de chaleur dans le sang : règles en avance, abondantes et rouge vif.",
+   "reperes": [
+    "Règles abondantes",
+    "Cycles courts",
+    "Acné hormonale",
+    "Bouffées de chaleur"
+   ]
   }
  ]
 }

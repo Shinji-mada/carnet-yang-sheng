@@ -104,6 +104,13 @@
    "conseils": [
     "Respire lentement et profondément 5 minutes par jour, épaules relâchées.",
     "Couvre ta nuque et ta poitrine dès qu'il fait frais."
+   ],
+   "simple": "Souffle et défenses faibles : voix faible, essoufflement, rhumes à répétition.",
+   "reperes": [
+    "Rhumes à répétition",
+    "Défenses immunitaires basses",
+    "Bronchite chronique",
+    "Fatigue respiratoire"
    ]
   },
   {
@@ -208,6 +215,13 @@
    "conseils": [
     "Garde le haut du dos couvert : une écharpe suffit souvent.",
     "Frotte le haut de ton dos contre un mur tiède ou avec une serviette chaude le matin."
+   ],
+   "simple": "Poumon faible et froid : frilosité, nez qui coule clair, rhumes en série.",
+   "reperes": [
+    "Rhinite allergique",
+    "Rhumes à répétition",
+    "Frilosité",
+    "Bronchite chronique"
    ]
   },
   {
@@ -313,6 +327,14 @@
    "conseils": [
     "Humidifie l'air de ta chambre.",
     "Couche-toi avant 23 h : le Yin se reconstitue la nuit."
+   ],
+   "simple": "Les voies respiratoires manquent d'hydratation : toux sèche qui traîne, voix enrouée, chaleur le soir.",
+   "reperes": [
+    "Toux sèche chronique",
+    "Laryngite",
+    "Extinction de voix",
+    "Suite de bronchite",
+    "Fumeurs"
    ]
   },
   {
@@ -396,6 +418,14 @@
    "conseils": [
     "Marche, chante, respire fort : le souffle fait circuler le Qi du Poumon.",
     "Parle de ce qui pèse : la tristesse retenue serre la gorge."
+   ],
+   "simple": "La tristesse serre la poitrine et la gorge : boule dans la gorge, soupirs, poitrine oppressée.",
+   "reperes": [
+    "Tristesse",
+    "Deuil",
+    "Dépression",
+    "Boule dans la gorge",
+    "Angoisse"
    ]
   },
   {
@@ -472,6 +502,13 @@
    "eviter": "Froid, cru, douche froide, sortir sans écharpe.",
    "conseils": [
     "Agis dans les premières heures : infusion chaude, écharpe, repos."
+   ],
+   "simple": "Début de rhume par le froid : frissons, nez qui coule clair, éternuements.",
+   "reperes": [
+    "Rhume",
+    "Début de grippe",
+    "Coup de froid",
+    "Rhinite"
    ]
   },
   {
@@ -556,6 +593,13 @@
    "eviter": "Épices, friture, alcool, sucre.",
    "conseils": [
     "Repose-toi : un rhume soigné dès le début évite qu'il ne s'installe."
+   ],
+   "simple": "Début d'infection par la chaleur : mal de gorge, fièvre, nez jaune.",
+   "reperes": [
+    "Angine",
+    "Pharyngite",
+    "Grippe",
+    "Rhume avec fièvre"
    ]
   },
   {
@@ -656,6 +700,14 @@
    "eviter": "Laitages, sucre, friture, banane, boissons froides.",
    "conseils": [
     "Supprime les laitages 2 à 3 semaines et observe la différence."
+   ],
+   "simple": "Beaucoup de glaires blanches encombrent les bronches.",
+   "reperes": [
+    "Bronchite chronique",
+    "Toux grasse",
+    "Asthme",
+    "Sinusite",
+    "Fumeurs"
    ]
   },
   {
@@ -738,6 +790,13 @@
    "eviter": "Tabac, friture, épices, laitages, sucre, alcool.",
    "conseils": [
     "C'est le bon moment pour arrêter de fumer : le Poumon le montre."
+   ],
+   "simple": "Des glaires jaunes et épaisses encombrent les bronches.",
+   "reperes": [
+    "Bronchite",
+    "Sinusite",
+    "Toux grasse",
+    "Fumeurs"
    ]
   }
  ]

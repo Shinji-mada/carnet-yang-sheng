@@ -5,7 +5,7 @@
    "cat": "general",
    "nom": "Fatigue",
    "alerte": "Consulte un médecin si la fatigue dure plus de quelques semaines, ou si elle s'accompagne de fièvre, d'essoufflement ou d'une perte de poids inexpliquée.",
-   "syn": "épuisement asthénie manque d'énergie crevé coup de pompe"
+   "syn": "épuisement asthénie manque d'énergie crevé coup de pompe burn-out"
   },
   {
    "id": "frilosite",
@@ -618,13 +618,13 @@
    "cat": "sommeil",
    "nom": "Tristesse, envie de pleurer",
    "alerte": "Si la tristesse dure plus de deux semaines ou si tu as des idées noires, parles-en à un médecin ou appelle le 3114 (gratuit, 24 h/24).",
-   "syn": "déprime dépression pleurer"
+   "syn": "déprime dépression pleurer cafard moral"
   },
   {
    "id": "ruminations",
    "cat": "sommeil",
    "nom": "Inquiétudes, ruminations",
-   "syn": "soucis inquiétude pensées"
+   "syn": "soucis inquiétude pensées stress"
   },
   {
    "id": "memoire",
@@ -649,7 +649,7 @@
    "id": "decouragement",
    "cat": "sommeil",
    "nom": "Manque de volonté, découragement",
-   "syn": "motivation déprime"
+   "syn": "motivation déprime dépression burn-out épuisement moral"
   },
   {
    "id": "peurs",

@@ -62,6 +62,7 @@ def check(data):
             for s in t.get(key, []):
                 if s not in sym: errs.append(f"tableau {t['id']} : symptôme inconnu {s} ({key})")
         if not t.get("cle"): errs.append(f"tableau {t['id']} : aucun signe clé")
+        if not t.get("simple") or not t.get("reperes"): errs.append(f"tableau {t['id']} : explication « en clair » ou repères manquants")
         for it in items_of(t):
             if it.get("p") and it["p"] not in pts: errs.append(f"tableau {t['id']} : point inconnu {it['p']}")
         for r in t.get("recettes", []):
