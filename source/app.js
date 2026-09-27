@@ -23,6 +23,7 @@ function storedSet(k){const a=storedJSON(k,[]);return new Set(Array.isArray(a)?a
 function saveSet(k,s){store(k,JSON.stringify([...s]));}
 function today(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function arr(v){return Array.isArray(v)?v:[];}
+const J=JSON.stringify;
 
 /* ---------- État ---------- */
 const view=$('#view');
@@ -43,6 +44,11 @@ let carnetSel=store('ys.carnet')||'tout';
 let auto=store('ys.auto')==='1';
 let collOrder=arr(storedJSON('ys.ordre-carnets',[]));
 let selMode=false;const selSet=new Set(),manageSel=new Set();
+let toutTri=store('ys.tri-tout')==='perso'?'perso':'date';
+let toutOrdre=arr(storedJSON('ys.ordre-tout',[]));
+let profil=storedJSON('ys.profil',{})||{};
+const FB=__FIREBASE__,COMPTE_URL='__COMPTE_URL__';
+let user=null,compte=null,compteP=null,syncState='',syncErr='',syncing=false,syncAgain=false,pushT=null,lastSnap='';
 let varPref=store('ys.variante')||'cuiseur';
 const recVar={},portions={},ingDone={};
 let installEvt=null;
@@ -117,7 +123,8 @@ async function loadData(){
 /* ---------- Carnets, favoris, récents ---------- */
 function persist(){
   store('ys.favoris',JSON.stringify(favs));store('ys.carnets',JSON.stringify(carnets));
-  store('ys.recents',JSON.stringify(recents));store('ys.masques',JSON.stringify(masques));store('ys.carnet',carnetSel);store('ys.ordre-carnets',JSON.stringify(collOrder));
+  store('ys.recents',JSON.stringify(recents));store('ys.masques',JSON.stringify(masques));store('ys.carnet',carnetSel);store('ys.ordre-carnets',JSON.stringify(collOrder));store('ys.tri-tout',toutTri);store('ys.ordre-tout',JSON.stringify(toutOrdre));store('ys.profil',JSON.stringify(profil));
+  const snap=J(dataOnly());if(snap!==lastSnap){lastSnap=snap;schedulePush();}
 }
 function coll(cid){if(cid==='favoris')return favs;if(cid==='recents')return recents;const c=carnets.find(x=>x.id===cid);return c?c.items:null;}
 function collName(cid){if(cid==='tout')return'Toutes les fiches';if(cid==='favoris')return'Favoris';if(cid==='recents')return'Récents';const c=carnets.find(x=>x.id===cid);return c?c.nom:'';}
@@ -129,6 +136,18 @@ function isFav(k,id){return inColl('favoris',k,id);}
 function isHidden(k,id){return masques.some(m=>m.k===k&&m.id===id);}
 function pushRecent(k,id){recents=recents.filter(r=>!(r.k===k&&r.id===id));recents.unshift({k,id,d:today()});recents=recents.slice(0,20);persist();}
 function splitKey(v){const i=String(v).indexOf(':');return [v.slice(0,i),v.slice(i+1)];}
+function keyOf(x){return x.k+':'+x.id;}
+function toutKeys(){
+  const all=fiches.map(e=>'f:'+e.id);
+  if(toutTri!=='perso')return all;
+  const set=new Set(all),known=toutOrdre.filter(k=>set.has(k)),ks=new Set(known);
+  return [...all.filter(k=>!ks.has(k)),...known];
+}
+function mergeOrder(full,vis){
+  const set=new Set(vis),pos=[];full.forEach((k,i)=>{if(set.has(k))pos.push(i);});
+  if(pos.length!==vis.length)return full;
+  const out=full.slice();pos.forEach((p,j)=>{out[p]=vis[j];});return out;
+}
 function isCustom(cid){return !!carnets.find(c=>c.id===cid);}
 function orderedColls(){
   const all=[['tout','Tout'],['favoris','★ Favoris'],['recents','Récents'],...carnets.map(c=>[c.id,c.nom])];
@@ -345,10 +364,19 @@ function onSheetAct(a){
   if(a==='delcarnet'){const c=carnets.find(x=>x.id===cid);openSheet('Supprimer « '+(c?c.nom:'')+' » ?','Les fiches restent dans l\'appli : seul ce carnet disparaît.',rows([{act:'delok',label:'Supprimer le carnet',danger:true},{act:'close',label:'Garder'}]));return;}
   if(a==='delok'){const i=carnets.findIndex(x=>x.id===cid);if(i>-1){const [c]=carnets.splice(i,1);if(carnetSel===cid)carnetSel='tout';persist();closeSheet();refresh();toast('Carnet supprimé',()=>{carnets.splice(i,0,c);carnetSel=c.id;persist();refresh();});}return;}
   if(a==='close'){closeSheet();return;}
+  if(a.startsWith('prov:')){provSignIn(a.slice(5));return;}
+  if(a==='acc:signup'||a==='acc:login'){accSheet(a.slice(4));return;}
+  if(a==='acc:reset'){resetPw();return;}
+  if(a==='acc:sync'){syncNow();return;}
+  if(a==='acc:nophoto'){profil.photo='';persist();accSheet();refresh();return;}
+  if(a==='acc:logout'){logout();return;}
+  if(a==='acc:delete'){openSheet('Supprimer ton compte ?','Ton compte et la copie en ligne de tes carnets seront effacés définitivement. Ce qui est enregistré sur ce téléphone reste.',rows([{act:'acc:delok',label:'Supprimer définitivement',danger:true},{act:'close',label:'Garder mon compte'}]));sheetCtx={acc:true,mode:'delete'};return;}
+  if(a==='acc:delok'){deleteAccount();return;}
 }
 function onSheetSubmit(f){
   const inp=f.querySelector('input');const nom=(inp.value||'').trim();
   if(!nom){inp.focus();inp.classList.add('err');return;}
+  if(f.dataset.newfor==='nom'){profil.nom=nom.slice(0,40);persist();if(compte&&user)compte.renommer(profil.nom).catch(()=>{});accSheet();refresh();toast('Nom enregistré');return;}
   if(f.dataset.rename){const c=carnets.find(x=>x.id===f.dataset.rename);if(c){c.nom=nom.slice(0,40);persist();}closeSheet();refresh();toast('Carnet renommé');return;}
   if(f.dataset.newfor==='manage'){newCarnet(nom);manageSheet();refresh();toast('Carnet créé');return;}
   const c=newCarnet(nom);
@@ -359,6 +387,198 @@ function onSheetSubmit(f){
   carnetSel=c.id;persist();closeSheet(false,()=>{if(tab!=='carnet'||route)goTab('carnet');else refresh();});toast('Carnet créé. Reste appuyé sur une fiche pour l\'y ajouter.');
 }
 function refresh(){const y=window.scrollY;render();window.scrollTo(0,y);}
+
+/* ---------- Compte et synchronisation ---------- */
+function normItem(x){return x&&x.k&&x.id?{k:String(x.k),id:String(x.id),d:String(x.d||'')}:null;}
+function normList(a){return arr(a).map(normItem).filter(Boolean);}
+function norm(r){
+  r=r||{};const p=r.profil||{};
+  return {favoris:normList(r.favoris),
+    carnets:arr(r.carnets).filter(c=>c&&c.id).map(c=>({id:String(c.id),nom:String(c.nom||'Carnet').slice(0,40),items:normList(c.items)})),
+    recents:normList(r.recents).slice(0,20),masques:normList(r.masques),ordre:arr(r.ordre).map(String),
+    triTout:r.triTout==='perso'?'perso':'date',ordreTout:arr(r.ordreTout).map(String),
+    profil:{nom:String(p.nom||'').slice(0,40),photo:typeof p.photo==='string'&&/^data:image\/(jpeg|png|webp);base64,/.test(p.photo)?p.photo:''}};
+}
+function dataOnly(){return norm({favoris:favs,carnets,recents,masques,ordre:collOrder,triTout:toutTri,ordreTout:toutOrdre,profil});}
+function adopt(d){
+  d=norm(d);
+  favs=d.favoris;carnets=d.carnets;recents=d.recents;masques=d.masques;collOrder=d.ordre;toutTri=d.triTout;toutOrdre=d.ordreTout;profil=d.profil;
+  if(carnetSel!=='tout'&&!coll(carnetSel))carnetSel='tout';
+  lastSnap=J(dataOnly());persist();
+}
+/* Première connexion sur cet appareil : on additionne ce qui est ici et ce qui est en ligne */
+function mergeUnion(l,r){
+  const uniq=list=>{const seen=new Set();return list.filter(x=>{const k=keyOf(x);if(seen.has(k))return false;seen.add(k);return true;});};
+  const cs=r.carnets.map(c=>({id:c.id,nom:c.nom,items:c.items.slice()}));
+  l.carnets.forEach(c=>{const m=cs.find(x=>x.id===c.id);if(m)m.items=uniq([...m.items,...c.items]);else cs.push({id:c.id,nom:c.nom,items:c.items.slice()});});
+  return norm({favoris:uniq([...r.favoris,...l.favoris]),carnets:cs,recents:uniq([...r.recents,...l.recents]),masques:uniq([...r.masques,...l.masques]),
+    ordre:r.ordre.length?r.ordre:l.ordre,triTout:r.triTout==='perso'||l.triTout!=='perso'?r.triTout:l.triTout,ordreTout:r.ordreTout.length?r.ordreTout:l.ordreTout,
+    profil:{nom:r.profil.nom||l.profil.nom,photo:r.profil.photo||l.profil.photo}});
+}
+/* Ensuite : fusion à trois voies à partir du dernier état synchronisé */
+function m3list(b,l,r,kf){
+  b=arr(b);l=arr(l);r=arr(r);
+  if(J(l)===J(b))return r;if(J(r)===J(b))return l;
+  const K=x=>kf?kf(x):x,bk=new Set(b.map(K)),lk=new Set(l.map(K)),rk=new Set(r.map(K));
+  return [...r.filter(x=>!bk.has(K(x))&&!lk.has(K(x))),...l.filter(x=>!(bk.has(K(x))&&!rk.has(K(x))))];
+}
+function m3val(b,l,r){return J(l)!==J(b)?l:r;}
+function merge3(b,l,r){
+  const bc=b.carnets,lc=l.carnets,rc=r.carnets,find=(list,id)=>list.find(c=>c.id===id);
+  const ids=m3list(bc.map(c=>c.id),lc.map(c=>c.id),rc.map(c=>c.id));
+  return norm({favoris:m3list(b.favoris,l.favoris,r.favoris,keyOf),recents:m3list(b.recents,l.recents,r.recents,keyOf),masques:m3list(b.masques,l.masques,r.masques,keyOf),
+    carnets:ids.map(id=>{const B=find(bc,id)||{nom:'',items:[]},L=find(lc,id),R=find(rc,id);if(!L)return R;if(!R)return L;return {id,nom:m3val(B.nom,L.nom,R.nom),items:m3list(B.items,L.items,R.items,keyOf)};}).filter(Boolean),
+    ordre:m3val(b.ordre,l.ordre,r.ordre),triTout:m3val(b.triTout,l.triTout,r.triTout),ordreTout:m3val(b.ordreTout,l.ordreTout,r.ordreTout),
+    profil:{nom:m3val(b.profil.nom,l.profil.nom,r.profil.nom),photo:m3val(b.profil.photo,l.profil.photo,r.profil.photo)}});
+}
+function loadCompte(){
+  if(!FB)return Promise.reject(new Error('off'));
+  if(!compteP)compteP=import(COMPTE_URL).then(m=>{compte=m;return m.init(FB,onUser).then(()=>m,e=>{accErr(errMsg(e));return m;});}).catch(e=>{compteP=null;throw e;});
+  return compteP;
+}
+function onUser(u){
+  const was=user&&user.uid;user=u;store('ys.compte.attente','');
+  if(!u){syncState='';if(was){store('ys.sync.uid','');store('ys.sync.base','');}accRefresh();return;}
+  accRefresh();syncNow();
+}
+async function syncNow(){
+  if(!user||!compte)return;
+  if(syncing){syncAgain=true;return;}
+  clearTimeout(pushT);pushT=null;
+  if(navigator.onLine===false){syncState='horsligne';accRefresh();return;}
+  syncing=true;syncState='encours';accRefresh();
+  try{
+    const raw=await compte.lire(),local=dataOnly(),bound=store('ys.sync.uid')===user.uid;
+    const base=bound?storedJSON('ys.sync.base',null):null;
+    let merged=local;
+    if(raw){const remote=norm(raw);merged=base?merge3(norm(base),local,remote):mergeUnion(local,remote);}
+    if(J(merged)!==J(local)){adopt(merged);if(!lp)refresh();}
+    if(!raw||J(merged)!==J(norm(raw)))await compte.ecrire(Object.assign({v:1},merged,{maj:Date.now()}));
+    store('ys.sync.base',J(merged));store('ys.sync.uid',user.uid);store('ys.sync.at',String(Date.now()));
+    if(!bound&&raw)toast('Tes carnets sont synchronisés avec ton compte');
+    syncState='ok';syncErr='';
+  }catch(e){syncState=navigator.onLine===false||/unavailable|network/i.test((e&&(e.code||e.message))||'')?'horsligne':'erreur';syncErr=errMsg(e);}
+  syncing=false;accRefresh();
+  if(syncAgain){syncAgain=false;syncNow();}
+}
+function schedulePush(){if(!user||!compte)return;clearTimeout(pushT);pushT=setTimeout(syncNow,1500);}
+function errMsg(e){
+  if(e)try{console.warn('[compte]',e);}catch(_){}
+  const c=(e&&e.code)||'';
+  const M={'auth/invalid-email':'Cette adresse e-mail n\'est pas valide.','auth/missing-email':'Écris ton adresse e-mail.','auth/missing-password':'Écris ton mot de passe.',
+    'auth/weak-password':'Mot de passe trop court : 6 caractères minimum.','auth/email-already-in-use':'Un compte existe déjà avec cette adresse : connecte-toi plutôt.',
+    'auth/invalid-credential':'E-mail ou mot de passe incorrect.','auth/wrong-password':'E-mail ou mot de passe incorrect.','auth/user-not-found':'E-mail ou mot de passe incorrect.',
+    'auth/invalid-login-credentials':'E-mail ou mot de passe incorrect.','auth/user-disabled':'Ce compte a été désactivé.',
+    'auth/too-many-requests':'Trop d\'essais. Réessaie dans quelques minutes.','auth/network-request-failed':'Pas de connexion internet.',
+    'auth/unauthorized-domain':'Ce site n\'est pas encore autorisé pour la connexion (réglage Firebase).','auth/operation-not-allowed':'Cette façon de se connecter n\'est pas encore activée.',
+    'auth/account-exists-with-different-credential':'Un compte existe déjà avec cet e-mail, créé d\'une autre façon (Google ou e-mail).',
+    'auth/requires-recent-login':'Par sécurité, reconnecte-toi puis recommence.','auth/popup-blocked':'La fenêtre de connexion a été bloquée.',
+    'permission-denied':'Accès refusé par le serveur (règles de sécurité).','unavailable':'Serveur injoignable pour le moment.'};
+  if(M[c])return M[c];
+  if(e&&e.message==='off')return 'La connexion n\'est pas encore disponible.';
+  if(navigator.onLine===false)return 'Pas de connexion internet.';
+  return 'Une erreur est survenue'+(c?' ('+c+')':'')+'. Réessaie.';
+}
+function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<1)return 'à l\'instant';if(m<60)return 'il y a '+m+' min';const h=Math.round(m/60);if(h<24)return 'il y a '+h+' h';return 'le '+new Date(t).toLocaleDateString('fr-FR');}
+function syncLabel(){
+  if(syncState==='encours')return 'Synchronisation en cours…';
+  if(syncState==='horsligne')return 'Hors ligne : tes changements seront envoyés dès le retour du réseau.';
+  if(syncState==='erreur')return 'La synchronisation a échoué. '+(syncErr||'');
+  const at=+store('ys.sync.at')||0;return at?'Carnets synchronisés '+ago(at)+'.':'';
+}
+function shownName(){return profil.nom||(user&&user.nom)||'';}
+function avatarHTML(cls){
+  const ph=profil.photo||(user&&user.photo)||'',nm=shownName()||(user&&user.email)||'?';
+  return ph?`<img class="avatar ${cls||''}" src="${esc(ph)}" alt="" referrerpolicy="no-referrer">`:`<span class="avatar ${cls||''}" aria-hidden="true">${esc(nm.trim().charAt(0).toUpperCase()||'?')}</span>`;
+}
+function accBtnInner(){return user?avatarHTML('sm')+`<span class="acc-n">${esc(shownName()||'Mon compte')}</span>`:'<span class="acc-n">Se connecter</span>';}
+function accCardInner(){
+  return user?`<h2>Ton compte</h2><div class="acc-id">${avatarHTML()}<div><b>${esc(shownName()||'Sans nom')}</b><span>${esc(user.email||'')}</span></div></div><p class="acc-sync ${syncState}">${esc(syncLabel())}</p><button type="button" class="primary" data-account="1">Gérer mon compte</button>`
+    :`<h2>Ton compte</h2><p>Connecte-toi pour retrouver tes carnets, favoris et récents sur un autre téléphone. C'est facultatif.</p><button type="button" class="primary" data-account="1">Se connecter ou créer un compte</button>`;
+}
+function accRefresh(){
+  if(sheetOpen&&sheetCtx&&sheetCtx.acc&&sheetCtx.mode!=='delete'){
+    const f=$('#sheet .acc-form');const typing=f&&!user&&[...f.elements].some(x=>x.value);
+    if(!typing)accSheet(sheetCtx.mode);else{const s=$('#sheet .acc-sync');if(s)s.textContent=syncLabel();}
+  }
+  const hb=$('#accbtn');if(hb){hb.innerHTML=accBtnInner();hb.setAttribute('aria-label',user?'Ton compte':'Se connecter');}
+  const ic=$('#acccard');if(ic)ic.innerHTML=accCardInner();
+}
+function accSheet(mode){
+  sheetCtx={acc:true,mode:mode||'login'};
+  if(user){
+    openSheet('Ton compte','',`<div class="acc-id">${avatarHTML('big')}<div><b>${esc(shownName()||'Sans nom')}</b><span>${esc(user.email||'')}</span></div></div>
+<p class="acc-sync ${syncState}" role="status">${esc(syncLabel())}</p>`+
+      rows([{act:'acc:sync',label:'Synchroniser maintenant'}])+
+      `<label class="sheet-row" for="acc-photo"><span>${profil.photo?'Changer ma photo':'Ajouter une photo de profil'}</span><input id="acc-photo" type="file" accept="image/*" hidden></label>`+
+      (profil.photo?rows([{act:'acc:nophoto',label:'Retirer ma photo'}]):'')+
+      `<form class="sheet-new" data-newfor="nom"><label for="newc">Nom affiché</label><div><input id="newc" type="text" maxlength="40" value="${esc(shownName())}" autocomplete="nickname"><button type="submit" class="primary">Enregistrer</button></div></form>`+
+      rows([{act:'acc:logout',label:'Se déconnecter'},{act:'acc:delete',label:'Supprimer mon compte',danger:true}]));
+    return;
+  }
+  const su=sheetCtx.mode==='signup';
+  openSheet(su?'Créer un compte':'Se connecter','',`<p class="acc-intro">Retrouve tes carnets, favoris et récents sur un autre téléphone. Le compte est facultatif : sans compte, tout reste sur cet appareil.</p>
+<button type="button" class="prov" data-act="prov:google">Continuer avec Google</button>${FB&&FB.facebook?'<button type="button" class="prov" data-act="prov:facebook">Continuer avec Facebook</button>':''}
+<p class="or"><span>ou avec ton e-mail</span></p>
+<form class="acc-form" data-mode="${su?'signup':'login'}" novalidate>
+${su?'<label>Prénom ou pseudo<input name="nom" type="text" maxlength="40" autocomplete="nickname"></label>':''}
+<label>E-mail<input name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"></label>
+<label>Mot de passe${su?' (6 caractères minimum)':''}<span class="pw"><input name="mdp" type="password" autocomplete="${su?'new-password':'current-password'}"><button type="button" data-pwtoggle="1" aria-label="Afficher le mot de passe">Afficher</button></span></label>
+<p class="acc-err" role="alert" hidden></p>
+<button type="submit" class="primary wide">${su?'Créer mon compte':'Se connecter'}</button>
+</form>
+<p class="acc-switch">${su?'Déjà un compte ? <button type="button" class="linkbtn inline" data-act="acc:login">Se connecter</button>':'Pas encore de compte ? <button type="button" class="linkbtn inline" data-act="acc:signup">Créer un compte</button></p><p class="acc-switch"><button type="button" class="linkbtn inline" data-act="acc:reset">Mot de passe oublié ?</button>'}</p>
+<p class="fine">Avec un compte sont enregistrés en ligne : ton e-mail, ton nom, ta photo si tu en mets une, tes carnets, favoris, récents et ton classement. Tes symptômes et tes ingrédients restent sur ce téléphone.</p>`);
+}
+function accErr(msg){const p=$('#sheet .acc-err');if(p){p.textContent=msg||'';p.hidden=!msg;}else if(msg)toast(msg);}
+function accBusy(on){document.querySelectorAll('#sheet .prov,#sheet .acc-form [type="submit"]').forEach(b=>{b.disabled=on;});const f=$('#sheet .acc-form');if(f)f.setAttribute('aria-busy',String(on));}
+async function provSignIn(p){
+  accErr('');accBusy(true);
+  try{const m=await loadCompte();store('ys.compte.attente','1');await m.fournisseur(p);}
+  catch(e){store('ys.compte.attente','');if(!e||!/popup-closed|cancelled-popup/.test(e.code||''))accErr(errMsg(e));}
+  accBusy(false);
+}
+async function accSubmit(f){
+  const v=n=>{const x=f.elements.namedItem(n);return x?x.value:'';};
+  const mode=f.dataset.mode,email=v('email').trim(),mdp=v('mdp'),nom=v('nom').trim();
+  if(!/^\S+@\S+\.\S+$/.test(email)){accErr('Écris une adresse e-mail valide.');f.elements.namedItem('email').focus();return;}
+  if(mdp.length<6){accErr('Le mot de passe doit faire au moins 6 caractères.');f.elements.namedItem('mdp').focus();return;}
+  accErr('');accBusy(true);
+  try{const m=await loadCompte();if(mode==='signup'){if(nom){profil.nom=nom.slice(0,40);persist();}await m.inscription(email,mdp,nom);}else await m.connexion(email,mdp);}
+  catch(e){accErr(errMsg(e));}
+  accBusy(false);
+}
+async function resetPw(){
+  const f=$('#sheet .acc-form'),email=f?f.elements.namedItem('email').value.trim():'';
+  if(!/^\S+@\S+\.\S+$/.test(email)){accErr('Écris d\'abord ton adresse e-mail ci-dessus, puis touche « Mot de passe oublié ? ».');return;}
+  try{const m=await loadCompte();await m.oubli(email);accErr('');toast('E-mail envoyé : suis le lien reçu pour choisir un nouveau mot de passe.');}
+  catch(e){accErr(errMsg(e));}
+}
+async function logout(){
+  try{if(compte)await compte.deconnexion();}catch(e){}
+  user=null;store('ys.sync.uid','');store('ys.sync.base','');syncState='';
+  closeSheet();refresh();toast('Tu es déconnecté. Tes carnets restent sur ce téléphone.');
+}
+async function deleteAccount(){
+  try{
+    await compte.supprimer();user=null;store('ys.sync.uid','');store('ys.sync.base','');syncState='';
+    closeSheet();refresh();toast('Compte supprimé. Tes carnets restent sur ce téléphone.');
+  }catch(e){
+    if(e&&e.code==='auth/requires-recent-login'){try{await compte.deconnexion();}catch(_){}user=null;store('ys.sync.uid','');store('ys.sync.base','');accSheet('login');accErr('Par sécurité, reconnecte-toi, puis recommence : Ton compte, puis « Supprimer mon compte ».');}
+    else accErr(errMsg(e));
+  }
+}
+function handlePhoto(file){
+  if(!file)return;
+  const img=new Image(),url=URL.createObjectURL(file);
+  img.onload=()=>{
+    const S=256,c=document.createElement('canvas');c.width=c.height=S;const g=c.getContext('2d');const m=Math.min(img.naturalWidth,img.naturalHeight);
+    g.drawImage(img,(img.naturalWidth-m)/2,(img.naturalHeight-m)/2,m,m,0,0,S,S);URL.revokeObjectURL(url);
+    profil.photo=c.toDataURL('image/jpeg',0.82);persist();accSheet();refresh();toast('Photo enregistrée');
+  };
+  img.onerror=()=>{URL.revokeObjectURL(url);toast('Cette image ne peut pas être lue.');};
+  img.src=url;
+}
 
 /* ---------- Symptômes ---------- */
 function matchTableaux(){
@@ -619,10 +839,11 @@ function collCount(cid){
 function renderCarnet(){
   if(carnetSel!=='tout'&&!coll(carnetSel))carnetSel='tout';
   const custom=isCustom(carnetSel);
-  let h=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">Reste appuyé sur une fiche pour la ranger ou la glisser dans un carnet, et sur un onglet pour le déplacer.</p></div></header>
+  let h=`${FB?`<div class="accrow"><button type="button" class="accbtn" id="accbtn" data-account="1" aria-label="${user?'Ton compte':'Se connecter'}">${accBtnInner()}</button></div>`:''}<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">Reste appuyé sur une fiche pour la ranger ou la glisser dans un carnet, et sur un onglet pour le déplacer.</p></div></header>
 <nav class="colls" aria-label="Carnets">${orderedColls().map(([id,n])=>`<button type="button" class="coll${id===carnetSel?' on':''}" data-coll-sel="${esc(id)}" data-lpc="${esc(id)}" aria-pressed="${id===carnetSel}">${esc(n)}<span class="n">${collCount(id)}</span></button>`).join('')}<button type="button" class="coll add" data-newcarnet="1">+ Nouveau carnet</button>${carnets.length?'<button type="button" class="coll add" data-manage="1">Gérer</button>':''}</nav>
 <div class="tools"><div class="coll-h"><h2>${esc(collName(carnetSel))}</h2><span class="coll-a">${selMode?'':'<button type="button" class="ghost" data-selstart="1">Sélectionner</button>'}${custom?`<button type="button" class="ghost" data-cmenu="${esc(carnetSel)}" aria-label="Options du carnet">Options</button>`:''}</span></div>`;
-  if(carnetSel==='tout')h+=`<div class="seg" role="group" aria-label="Afficher"><button type="button" data-f="tout">Tout <span class="n"></span></button><button type="button" data-f="protocole">Protocoles <span class="n"></span></button><button type="button" data-f="recette">Recettes <span class="n"></span></button></div>`;
+  if(carnetSel==='tout')h+=`<div class="seg segf" role="group" aria-label="Afficher"><button type="button" data-f="tout">Tout <span class="n"></span></button><button type="button" data-f="protocole">Protocoles <span class="n"></span></button><button type="button" data-f="recette">Recettes <span class="n"></span></button></div>
+<div class="trirow"><span id="tri-l">Classement</span><div class="seg segt" role="group" aria-labelledby="tri-l"><button type="button" data-tri="date">Par date</button><button type="button" data-tri="perso">Mon ordre</button></div></div>`;
   h+=`${searchBox('q',query,'Chercher un point, un plat, un symptôme','Chercher dans le carnet')}</div><div id="timeline" aria-live="polite"></div>`;
   view.innerHTML=h;
   const q=$('#q');q.addEventListener('input',()=>{query=q.value;renderTimeline();});
@@ -631,26 +852,35 @@ function renderCarnet(){
 }
 function renderTimeline(){
   const box=$('#timeline');if(!box)return;
+  delete box.dataset.sort;
   if(carnetSel==='tout'){
     const vis=fiches.filter(e=>!isHidden('f',e.id));
     const counts={tout:vis.length,protocole:0,recette:0};vis.forEach(e=>counts[e.type]++);
-    view.querySelectorAll('.seg button').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.f===filter));b.querySelector('.n').textContent=counts[b.dataset.f];});
-    const rowsList=vis.filter(e=>(filter==='tout'||e.type===filter)&&matchQ(e._hay,query));
+    view.querySelectorAll('.segf button').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.f===filter));b.querySelector('.n').textContent=counts[b.dataset.f];});
+    view.querySelectorAll('.segt button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.tri===toutTri)));
+    const byKey={};fiches.forEach(e=>{byKey['f:'+e.id]=e;});
+    const rowsList=toutKeys().map(k=>byKey[k]).filter(e=>e&&!isHidden('f',e.id)&&(filter==='tout'||e.type===filter)&&matchQ(e._hay,query));
     let h='';
     if(!rowsList.length)h=`<p class="msg">Aucune fiche ne correspond${query.trim()?` à « ${esc(query.trim())} »`:''}.</p>`;
     else{
-      let month='',day=null;const close=()=>{if(day!==null)h+='</div></section>';};
-      rowsList.forEach(e=>{
-        const d=e._d,mk=d?d.getFullYear()+'-'+d.getMonth():'?',dk=e.date||'?';
-        if(mk!==month){close();day=null;month=mk;h+=`<h2 class="month">${d?MOIS[d.getMonth()]+' '+d.getFullYear():'Sans date'}</h2>`;}
-        if(dk!==day){close();day=dk;h+=`<section class="day" aria-label="${esc(longDate(d))}"><div class="date" aria-hidden="true"><span class="d">${d?d.getDate():'–'}</span><span class="w">${d?JOURS_C[d.getDay()]:''}</span></div><div class="entries" data-coll="tout">`;}
-        h+=cardF(e);
-      });
-      close();
+      if(rowsList.length>1&&!selMode)h+=`<p class="hint">${toutTri==='perso'?'Dans ton ordre. Reste appuyé puis fais glisser une fiche pour la déplacer.':'Classées par date. Reste appuyé puis fais glisser une fiche pour la placer où tu veux.'}</p>`;
+      if(toutTri==='perso')h+=`<div class="entries" data-coll="tout" data-sort="tout">${rowsList.map(e=>cardF(e)).join('')}</div>`;
+      else{
+        let month='',day=null;const close=()=>{if(day!==null)h+='</div></section>';};
+        rowsList.forEach(e=>{
+          const d=e._d,mk=d?d.getFullYear()+'-'+d.getMonth():'?',dk=e.date||'?';
+          if(mk!==month){close();day=null;month=mk;h+=`<h2 class="month">${d?MOIS[d.getMonth()]+' '+d.getFullYear():'Sans date'}</h2>`;}
+          if(dk!==day){close();day=dk;h+=`<section class="day" aria-label="${esc(longDate(d))}"><div class="date" aria-hidden="true"><span class="d">${d?d.getDate():'–'}</span><span class="w">${d?JOURS_C[d.getDay()]:''}</span></div><div class="entries" data-coll="tout">`;}
+          h+=cardF(e);
+        });
+        close();
+      }
     }
     const nm=masques.filter(m=>item(m.k,m.id)).length;
     if(nm)h+=`<p class="masked">${plural(nm,'fiche masquée','fiches masquées')} <button type="button" class="linkbtn" data-unhide="1">Tout réafficher</button></p>`;
-    box.innerHTML=h;decorateSel(box);return;
+    box.innerHTML=h;
+    if(toutTri==='date'&&rowsList.length>1)box.dataset.sort='tout';
+    decorateSel(box);return;
   }
   const it=(coll(carnetSel)||[]).map(x=>({x,e:item(x.k,x.id)})).filter(r=>r.e);
   if(!it.length){
@@ -661,8 +891,9 @@ function renderTimeline(){
   }
   const shown=it.filter(r=>matchQ(r.e._hay,query));
   if(!shown.length){box.innerHTML=`<p class="msg">Aucune fiche ne correspond à « ${esc(query.trim())} ».</p>`;decorateSel(box);return;}
-  const sortable=carnetSel!=='recents'&&!query.trim();
-  box.innerHTML=`${sortable&&shown.length>1&&!selMode?'<p class="hint">Reste appuyé puis fais glisser pour changer l\'ordre, ou vers un autre carnet.</p>':''}<div class="entries${sortable?' sortable':''}" data-coll="${esc(carnetSel)}">${shown.map(r=>card(r.e)).join('')}</div>`;
+  const sortable=carnetSel!=='recents';
+  const hint=selMode||shown.length<2?'':sortable?'Reste appuyé puis fais glisser une fiche pour la placer où tu veux, ou vers un autre carnet.':'Les récents se classent tout seuls. Fais glisser une fiche vers le haut pour la ranger dans un carnet.';
+  box.innerHTML=`${hint?`<p class="hint">${hint}</p>`:''}<div class="entries${sortable?' sortable':''}" data-coll="${esc(carnetSel)}"${sortable?` data-sort="${esc(carnetSel)}"`:''}>${shown.map(r=>card(r.e)).join('')}</div>`;
   decorateSel(box);
 }
 
@@ -699,7 +930,8 @@ function renderInfos(){
 <h2 class="sec">Petit lexique</h2>${acc(LEXIQUE,'l')}
 <section class="card"><h2>Astuces</h2><p>Reste appuyé sur une fiche ou un tableau pour l'ajouter aux favoris ou à un carnet, le partager ou le retirer. Sans lâcher, fais-la glisser vers le haut de l'écran pour la déposer dans un carnet.</p><p>Dans le carnet : fais glisser une fiche pour changer l'ordre, reste appuyé sur un onglet pour le déplacer, et touche « Sélectionner » pour cocher plusieurs fiches à la fois (tout cocher, favoris, ajouter, déplacer, retirer).</p><p>« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.</p></section>
 <section class="card"><h2>Installer sur ton téléphone</h2>${inst}</section>
-<section class="card"><h2>Tes données</h2><p>L'appli ne demande aucun compte et ne collecte aucune donnée personnelle. Tes symptômes, tes ingrédients, tes favoris et tes carnets restent sur ce téléphone.</p></section>
+${FB?`<section class="card" id="acccard">${accCardInner()}</section>`:''}
+<section class="card"><h2>Tes données</h2>${FB?'<p>Sans compte, rien ne quitte ce téléphone. Le compte est facultatif : si tu en crées un, ton e-mail, ton nom, ta photo, tes carnets, favoris, récents et ton classement sont gardés sur un serveur sécurisé (Google Firebase) pour les retrouver sur un autre appareil. Tu peux supprimer ton compte à tout moment depuis « Ton compte ».</p><p>Tes symptômes et tes ingrédients restent toujours sur ce téléphone.</p>':'<p>L\'appli ne demande aucun compte et ne collecte aucune donnée personnelle. Tes symptômes, tes ingrédients, tes favoris et tes carnets restent sur ce téléphone.</p>'}</section>
 <section class="card"><h2>Contenu</h2><dl class="kv"><dt>Symptômes</dt><dd>${Object.keys(SYM).length}</dd><dt>Tableaux</dt><dd>${tableaux.length}</dd><dt>Points</dt><dd>${Object.keys(PTS).length}</dd><dt>Recettes</dt><dd>${nR}</dd><dt>Protocoles</dt><dd>${nP}</dd></dl></section>
 <p class="fine">Polices Atkinson Hyperlegible et Noto Serif SC, sous licence SIL Open Font License.</p>`;
   view.querySelectorAll('.accwrap').forEach(w=>accordion(w,()=>{}));
@@ -1039,21 +1271,33 @@ window.addEventListener('pointermove',ev=>{
     lp.drag=true;const r=lp.el.getBoundingClientRect();lp.offX=x-r.left;lp.offY=y-r.top;
     lp.el.classList.add('dragging');
     if(lp.chip){lp.list=lp.el.parentElement;lp.order0=[...lp.list.querySelectorAll('[data-lpc]')].map(c=>c.dataset.lpc).join('|');}
-    else{lp.list=lp.el.closest('.sortable');lp.cid=lpCtx(lp.el);if(lp.list)lp.order0=[...lp.list.children].map(c=>c.dataset.lp).join('|');showDock(lp);}
+    else{lp.list=lp.el.closest('[data-sort]');lp.cid=lpCtx(lp.el);if(lp.list){lp.order0=sortKeys(lp.list).join('|');lp.raf=requestAnimationFrame(autoScroll);}showDock(lp);}
   }
+  lp.lastX=x;lp.lastY=y;
   if(lp.chip){dragChip(x,y);return;}
   const over=dockHit(x,y);lp.over=over;
-  if(lp.list&&!over){
-    let before=null;
-    for(const s of lp.list.children){if(s===lp.el)continue;const r=s.getBoundingClientRect();if(y<r.top+r.height/2){before=s;break;}}
-    if(before!==lp.el.nextElementSibling&&!(before===null&&lp.list.lastElementChild===lp.el))lp.list.insertBefore(lp.el,before);
-  }
+  if(lp.list&&!over)reorder(y);
   place(x,y);
-  if(lp.list&&!over){const dk=$('#dock'),top=dk&&!dk.hidden?dk.getBoundingClientRect().bottom:0;if(y<top+50)window.scrollBy(0,-12);else if(y>window.innerHeight-150)window.scrollBy(0,12);}
 },{passive:true});
+function sortKeys(list){return [...list.querySelectorAll('[data-lp]')].map(c=>c.dataset.lp);}
+function reorder(y){
+  const cards=[...lp.list.querySelectorAll('[data-lp]')].filter(c=>c!==lp.el);if(!cards.length)return;
+  let before=null;
+  for(const c of cards){const r=c.getBoundingClientRect();if(y<r.top+r.height/2){before=c;break;}}
+  if(before){if(before!==lp.el.nextElementSibling)before.parentNode.insertBefore(lp.el,before);}
+  else{const last=cards[cards.length-1];if(last.nextElementSibling!==lp.el)last.parentNode.insertBefore(lp.el,last.nextElementSibling);}
+}
+function autoScroll(){
+  if(!lp||!lp.drag||!lp.list)return;
+  const y=lp.lastY,h=window.innerHeight,dk=$('#dock'),top=dk&&!dk.hidden?dk.getBoundingClientRect().bottom:0;
+  let v=0;
+  if(!lp.over){if(y>h-150)v=Math.min(24,4+(y-(h-150))/4);else if(y<top+70)v=-Math.min(24,4+(top+70-y)/4);}
+  if(v){const y0=window.scrollY;window.scrollBy(0,v);if(window.scrollY!==y0){reorder(lp.lastY);place(lp.lastX,lp.lastY);}}
+  lp.raf=requestAnimationFrame(autoScroll);
+}
 function lpEnd(cancel){
   if(!lp)return;clearTimeout(lp.t);
-  const L=lp;lp=null;
+  const L=lp;lp=null;if(L.raf)cancelAnimationFrame(L.raf);
   L.el.classList.remove('lifted','dragging');L.el.style.transform='';
   hideDock();
   if(cancel)return;
@@ -1065,13 +1309,23 @@ function lpEnd(cancel){
   }
   const [k,id]=splitKey(L.el.dataset.lp);
   if(L.drag&&L.over){dropInto(L.over.dataset.drop,k,id,L.cid);return;}
-  if(L.drag&&L.list){
-    const order=[...L.list.children].map(c=>c.dataset.lp);const it=coll(L.list.dataset.coll);
-    if(it&&order.join('|')!==L.order0){it.sort((a,b)=>order.indexOf(a.k+':'+a.id)-order.indexOf(b.k+':'+b.id));persist();toast('Nouvel ordre enregistré');}
-    return;
-  }
+  if(L.drag&&L.list){const vis=sortKeys(L.list);if(vis.join('|')!==L.order0)saveOrder(L.list.dataset.sort,vis,L.el);return;}
   if(L.drag&&L.max>24)return;
   if(L.armed){ghostUntil=Date.now()+350;openLpMenu(L.el);}
+}
+function saveOrder(cid,vis,el){
+  const key=el.dataset.lp,top=el.getBoundingClientRect().top;
+  const keep=()=>{const c=document.querySelector(`#timeline [data-lp="${cssq(key)}"]`);if(c)window.scrollBy(0,c.getBoundingClientRect().top-top);};
+  if(cid==='tout'){
+    const oldTri=toutTri,oldOrd=toutOrdre.slice();
+    toutOrdre=mergeOrder(toutKeys(),vis);toutTri='perso';persist();renderTimeline();keep();
+    toast(oldTri==='perso'?'Nouvel ordre enregistré':'Fiche déplacée : classement « Mon ordre »',()=>{toutTri=oldTri;toutOrdre=oldOrd;persist();renderTimeline();});
+    return;
+  }
+  const it=coll(cid);if(!it)return;const snap=it.slice();
+  const merged=mergeOrder(it.map(keyOf),vis);it.sort((a,b)=>merged.indexOf(keyOf(a))-merged.indexOf(keyOf(b)));persist();
+  if(query.trim()){renderTimeline();keep();}
+  toast('Nouvel ordre enregistré',()=>{it.splice(0,it.length,...snap);persist();renderTimeline();});
 }
 function dropInto(target,k,id,src){
   if(target==='__new'){ghostUntil=Date.now()+350;newCarnetFor(k,id,src);return;}
@@ -1098,7 +1352,11 @@ document.addEventListener('click',ev=>{
   if(ev.target.id==='sheet'){closeSheet();return;}
   const b=ev.target.closest('button');if(!b)return;
   const d=b.dataset;
-  if(b.closest('#sheet')){if(d.act)onSheetAct(d.act);else if(b.classList.contains('sheet-cancel'))closeSheet();return;}
+  if(b.closest('#sheet')){
+    if(d.pwtoggle){const i=b.parentNode.querySelector('input'),show=i.type==='password';i.type=show?'text':'password';b.textContent=show?'Masquer':'Afficher';b.setAttribute('aria-label',show?'Masquer le mot de passe':'Afficher le mot de passe');return;}
+    if(d.act)onSheetAct(d.act);else if(b.classList.contains('sheet-cancel'))closeSheet();return;
+  }
+  if(d.account){if(!FB)return;accSheet(user?'':'login');if(!compte&&navigator.onLine!==false)loadCompte().catch(()=>{});return;}
   if(selMode&&tab==='carnet'&&!route){const c=b.closest('[data-lp]');if(c&&c.closest('#timeline')){toggleSel(c);return;}}
   if(d.selstart){selMode=true;selSet.clear();refresh();return;}
   if(d.selend){endSel();refresh();return;}
@@ -1112,6 +1370,7 @@ document.addEventListener('click',ev=>{
   if(d.mode){symMode=d.mode;showAll=false;render();window.scrollTo(0,0);return;}
   if(d.more){showAll=true;rerenderKeep('[data-more]');return;}
   if(d.f){filter=d.f;store('ys.filtre',filter);renderTimeline();return;}
+  if(d.tri){if(toutTri!==d.tri){toutTri=d.tri;persist();renderTimeline();toast(toutTri==='perso'?'Classement dans ton ordre':'Classement par date');}return;}
   if(d.collSel){if(selMode&&d.collSel!==carnetSel)endSel();carnetSel=d.collSel;query='';persist();render();return;}
   if(d.newcarnet){newCarnetSheet();return;}
   if(d.cmenu){collMenu(d.cmenu);return;}
@@ -1146,11 +1405,18 @@ document.addEventListener('click',ev=>{
     const el=q('data-tk',key);if(el)el.closest('[data-card]').scrollIntoView({block:'center'});
   }
 },true);
-document.addEventListener('submit',ev=>{const f=ev.target.closest('.sheet-new');if(!f)return;ev.preventDefault();onSheetSubmit(f);});
+document.addEventListener('submit',ev=>{
+  const a=ev.target.closest('.acc-form');if(a){ev.preventDefault();accSubmit(a);return;}
+  const f=ev.target.closest('.sheet-new');if(!f)return;ev.preventDefault();onSheetSubmit(f);
+});
+document.addEventListener('change',ev=>{if(ev.target&&ev.target.id==='acc-photo'){handlePhoto(ev.target.files&&ev.target.files[0]);ev.target.value='';}});
+window.addEventListener('online',()=>{if(user)syncNow();});
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&user&&Date.now()-(+store('ys.sync.at')||0)>20000)syncNow();});
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&sheetOpen)closeSheet();});
 window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=e;if(tab==='infos'&&!route&&DATA)renderInfos();});
 
 /* ---------- Démarrage ---------- */
+lastSnap=J(dataOnly());
 (function initRoute(){
   const p=parseHash();
   if(p.route)route=p.route;
@@ -1175,6 +1441,7 @@ loadData().then(d=>{
   [...have].forEach(s=>{if(!INGC[s])have.delete(s);});
   if(symSel.size&&tab==='symptomes'&&!route)symMode='resultats';
   if(route&&!item(route.kind,route.id))route=null;
+  if(FB&&(store('ys.sync.uid')||store('ys.compte.attente')))loadCompte().catch(()=>{});
   if(route)pushRecent(route.kind,route.id);
   render();
 }).catch(()=>{loadError=true;render();});

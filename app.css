@@ -343,6 +343,10 @@ details.pick>.linkbtn,details.pick>.fine{margin:0 16px 12px;display:block}
 .coll.lifted{transform:scale(1.06);box-shadow:0 8px 20px var(--shadow);transition:transform .15s,box-shadow .15s}
 .coll.dragging{position:relative;z-index:6;box-shadow:0 12px 28px var(--shadow);transition:none}
 .coll-a{display:flex;gap:8px;flex:none}
+.trirow{display:flex;align-items:center;gap:12px}
+.trirow>span{flex:none;font-size:14px;font-weight:700;color:var(--muted)}
+.segt{flex:1;grid-template-columns:repeat(2,minmax(0,1fr))}
+.segt button{min-height:38px;font-size:14px}
 
 /* Dépôt dans un carnet pendant un glisser */
 .dock{position:fixed;left:0;right:0;top:0;z-index:30;display:flex;flex-direction:column;align-items:center;padding:calc(env(safe-area-inset-top,0px) + 10px) 12px 12px;background:var(--ink);color:var(--bg);box-shadow:0 8px 24px var(--shadow);animation:ys-down .15s ease-out}
@@ -370,6 +374,41 @@ details.pick>.linkbtn,details.pick>.fine{margin:0 16px 12px;display:block}
 .selact [data-selact="rm"]{color:var(--cin-bg)}
 body:has(.selact) .toast{bottom:calc(var(--tabs-h) + env(safe-area-inset-bottom,0px) + 90px)}
 .sheet-row:disabled{opacity:.45;cursor:default}
+
+/* Compte */
+.accrow{display:flex;justify-content:flex-end;margin:-6px 0 8px}
+.accbtn{display:inline-flex;align-items:center;gap:8px;max-width:70%;min-height:40px;padding:4px 14px 4px 4px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:14px;font-weight:700;cursor:pointer}
+.accbtn .acc-n{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.accbtn:not(:has(.avatar)){padding-left:14px;color:var(--jade);border-color:var(--jade)}
+.avatar{flex:none;width:44px;height:44px;border-radius:50%;object-fit:cover;display:inline-grid;place-items:center;background:var(--jade-bg);color:var(--jade);font-weight:700;font-size:18px}
+.avatar.sm{width:32px;height:32px;font-size:14px}
+.avatar.big{width:64px;height:64px;font-size:26px}
+.acc-id{display:flex;align-items:center;gap:14px;margin:4px 4px 8px}
+.acc-id>div{display:flex;flex-direction:column;min-width:0;line-height:1.35}
+.acc-id b{font-size:17px}
+.acc-id span{font-size:14px;color:var(--muted);overflow-wrap:anywhere}
+.acc-sync{margin:0 4px 8px;font-size:13.5px;color:var(--muted)}
+.acc-sync.ok{color:var(--jade)}
+.acc-sync.erreur{color:var(--cin)}
+.card .acc-id{margin:8px 0}
+.acc-intro{margin:0 4px 14px;font-size:15px;color:var(--muted)}
+.prov{display:block;width:100%;min-height:50px;margin-bottom:8px;border:1.5px solid var(--line);border-radius:12px;background:var(--surface);font-size:16px;font-weight:700;cursor:pointer}
+.prov:disabled,.acc-form [type="submit"]:disabled{opacity:.55;cursor:default}
+.or{display:flex;align-items:center;gap:10px;margin:10px 4px;font-size:13px;color:var(--muted)}
+.or::before,.or::after{content:"";flex:1;height:1px;background:var(--line)}
+.acc-form{display:grid;gap:10px;padding:12px;border-radius:14px;background:var(--sunk)}
+.acc-form label{display:grid;gap:6px;font-size:13px;font-weight:700;color:var(--muted)}
+.acc-form input{width:100%;min-height:46px;padding:10px 12px;font:inherit;font-size:16px;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:12px;-webkit-appearance:none;appearance:none}
+.acc-form input:focus{outline:2px solid var(--jade);outline-offset:0;border-color:var(--jade)}
+.pw{position:relative;display:block}
+.pw input{padding-right:92px}
+.pw button{position:absolute;right:4px;top:50%;transform:translateY(-50%);min-height:38px;padding:0 12px;border:0;border-radius:9px;background:none;color:var(--jade);font-size:14px;font-weight:700;cursor:pointer}
+.acc-err{margin:0;padding:8px 12px;border-radius:10px;background:var(--cin-bg);color:var(--cin);font-size:14px;font-weight:700}
+.primary.wide{width:100%;margin-top:2px}
+.acc-switch{margin:10px 4px 0;font-size:14px;color:var(--muted);text-align:center}
+.acc-switch .linkbtn{color:var(--jade);font-weight:700}
+.sheet-body>.fine{margin:12px 4px 0}
+label.sheet-row{cursor:pointer}
 
 /* Feuille d'actions */
 body.noscroll{overflow:hidden}

@@ -179,6 +179,13 @@ shutil.copy(f"{FSRC}/OFL-atkinson.txt", f"{DIST}/fonts/OFL-Atkinson-Hyperlegible
 shutil.copy(f"{FSRC}/OFL-notoserifsc.txt", f"{DIST}/fonts/OFL-Noto-Serif-SC.txt")
 
 open(f"{DIST}/app.css", "w", encoding="utf-8").write(font_css(False) + css)
+# Module de compte (Firebase), chargé seulement quand on se connecte
+def sha(path): return hashlib.sha1(open(path, "rb").read()).hexdigest()[:8]
+shutil.copy(f"{SRC}/vendor/compte.js", f"{DIST}/compte.js")
+COMPTE_URL = f"./compte.js?v={sha(f'{DIST}/compte.js')}"
+fb_path = f"{SRC}/firebase.json"
+FB = json.load(open(fb_path, encoding="utf-8")) if os.path.exists(fb_path) else None
+js = js.replace("__FIREBASE__", json.dumps(FB, ensure_ascii=False) if FB else "null").replace("__COMPTE_URL__", COMPTE_URL)
 open(f"{DIST}/app.js", "w", encoding="utf-8").write(js)
 json.dump(data, open(f"{DIST}/data.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
 # Empreintes pour forcer le rechargement des fichiers modifiés après une mise à jour
@@ -229,7 +236,7 @@ sw = open(f"{SRC}/sw.js", encoding="utf-8").read().replace("__VERSION__", f"ys-{
 open(f"{DIST}/sw.js", "w", encoding="utf-8").write(sw)
 
 # ---------- site servi : fichiers publiés ----------
-SITE = ["index.html", "app.css", "app.js", "data.json", "manifest.webmanifest", "sw.js", ".nojekyll"]
+SITE = ["index.html", "app.css", "app.js", "compte.js", "data.json", "manifest.webmanifest", "sw.js", ".nojekyll"]
 open(f"{DIST}/.nojekyll", "w").close()
 published = SITE + [f"{d}/{f}" for d in ("icons", "fonts") for f in sorted(os.listdir(f"{DIST}/{d}"))]
 
@@ -246,5 +253,5 @@ if OUT:
     open(f"{OUT}/apercu.html", "w", encoding="utf-8").write(preview)
     print("zip", os.path.getsize(zpath), "| aperçu", os.path.getsize(f"{OUT}/apercu.html"))
 
-print("version", VERSION, "| hanzi", "".join(cjk))
+print("version", VERSION, "| comptes", "activés" if FB else "non configurés (source/firebase.json absent)", "| hanzi", "".join(cjk))
 for rel in published: print(f"  {rel:42s} {os.path.getsize(f'{DIST}/{rel}'):>8,d}")
