@@ -1,0 +1,1166 @@
+{
+ "symptomes": [
+  {
+   "id": "fatigue",
+   "cat": "general",
+   "nom": "Fatigue",
+   "alerte": "See a doctor if the fatigue lasts more than a few weeks, or if it comes with fever, shortness of breath or unexplained weight loss.",
+   "syn": "tired tiredness exhausted exhaustion asthenia no energy low energy worn out drained energy slump burnout weary"
+  },
+  {
+   "id": "fatigue-matin",
+   "cat": "general",
+   "nom": "Tired in the morning when you wake up, even after a full night's sleep",
+   "alerte": "If you wake up exhausted despite good nights for several weeks, talk to your doctor: anemia, your thyroid or sleep apnea may be the cause.",
+   "syn": "tired on waking waking up tired hard to wake up morning unrefreshing sleep non-restorative sleep hard to get up not rested morning fatigue groggy"
+  },
+  {
+   "id": "frilosite",
+   "cat": "general",
+   "nom": "Feeling the cold easily, cold hands and feet",
+   "syn": "cold cold hands cold feet always cold chilly sensitive to cold poor circulation"
+  },
+  {
+   "id": "froid-dos",
+   "cat": "general",
+   "nom": "Feeling of cold in the back",
+   "syn": "cold back chilly back"
+  },
+  {
+   "id": "chaleur-corps",
+   "cat": "general",
+   "nom": "Feeling hot, hot flashes",
+   "syn": "hot flashes hot flushes menopause feeling hot overheated"
+  },
+  {
+   "id": "aversion-froid",
+   "cat": "general",
+   "nom": "Chills, need to bundle up (start of a cold)",
+   "syn": "chills shivers shivering cold flu catching a cold"
+  },
+  {
+   "id": "fievre",
+   "cat": "general",
+   "nom": "Fever",
+   "alerte": "See a doctor if the fever goes above 39 °C (102 °F), lasts more than 3 days, or comes with a stiff neck, spots on the skin or difficulty breathing. For a baby or a frail person, see a doctor from the start.",
+   "syn": "temperature high temperature feverish febrile flu pyrexia"
+  },
+  {
+   "id": "fievre-apres-midi",
+   "cat": "general",
+   "nom": "Low-grade fever or feeling hot late in the day",
+   "syn": "low-grade fever slight fever temperature evening fever afternoon fever"
+  },
+  {
+   "id": "sueurs-jour",
+   "cat": "general",
+   "nom": "Sweating at the slightest effort",
+   "syn": "sweating sweat sweaty perspiration sweating on exertion sweat easily"
+  },
+  {
+   "id": "sueurs-spontanees",
+   "cat": "general",
+   "nom": "Spontaneous sweating, without effort, even at rest",
+   "alerte": "With palpitations, weight loss, fever or night sweats that soak the sheets: see a doctor.",
+   "syn": "spontaneous sweating sweating for no reason sweating at rest excessive sweating hyperhidrosis sweat perspiration"
+  },
+  {
+   "id": "sueurs-nuit",
+   "cat": "general",
+   "nom": "Night sweats",
+   "alerte": "See a doctor if the night sweats are heavy and keep going, especially with fever, cough or weight loss.",
+   "syn": "night sweats sweating at night nocturnal sweating menopause"
+  },
+  {
+   "id": "sensible-chaleur",
+   "cat": "general",
+   "nom": "Symptoms that get worse with heat (hot bath, summer, exercise)",
+   "syn": "heat makes it worse heat intolerance can't stand the heat hot bath summer uhthoff multiple sclerosis MS"
+  },
+  {
+   "id": "chaleur-5-coeurs",
+   "cat": "general",
+   "nom": "Hot palms, soles of the feet and chest",
+   "syn": "hot hands hot feet hot palms hot soles burning feet five-palm heat"
+  },
+  {
+   "id": "soif",
+   "cat": "general",
+   "nom": "Strong thirst, craving cold drinks",
+   "syn": "thirsty thirst drinking a lot cold drinks"
+  },
+  {
+   "id": "peu-soif",
+   "cat": "general",
+   "nom": "Not very thirsty",
+   "syn": "not thirsty rarely thirsty drinking little"
+  },
+  {
+   "id": "bouche-seche",
+   "cat": "general",
+   "nom": "Dry mouth and throat, especially at night",
+   "syn": "dry mouth dry throat dryness xerostomia"
+  },
+  {
+   "id": "lourdeur",
+   "cat": "general",
+   "nom": "Heavy body, heavy limbs",
+   "syn": "heavy legs heaviness heavy body sluggish"
+  },
+  {
+   "id": "oedeme",
+   "cat": "general",
+   "nom": "Swelling, edema",
+   "alerte": "See a doctor if the swelling comes on suddenly, affects the face or only one leg (especially if it is warm and painful), or comes with shortness of breath.",
+   "syn": "water retention fluid retention swelling swollen legs swollen ankles puffy edema"
+  },
+  {
+   "id": "poids-facile",
+   "cat": "general",
+   "nom": "Gaining weight easily",
+   "syn": "overweight weight gain putting on weight gaining pounds"
+  },
+  {
+   "id": "amaigrissement",
+   "cat": "general",
+   "nom": "Weight loss",
+   "alerte": "Weight loss with no clear reason should be checked by a doctor.",
+   "syn": "losing weight weight loss getting thin unintentional weight loss"
+  },
+  {
+   "id": "voix-faible",
+   "cat": "general",
+   "nom": "Weak voice, talking tires you out",
+   "syn": "voice weak voice soft voice quiet voice"
+  },
+  {
+   "id": "teint-pale",
+   "cat": "general",
+   "nom": "Pale or white complexion",
+   "syn": "pale pallor white face pasty"
+  },
+  {
+   "id": "teint-jaune",
+   "cat": "general",
+   "nom": "Yellowish, dull complexion",
+   "alerte": "If the whites of your eyes turn yellow, see a doctor quickly.",
+   "syn": "yellowish sallow yellow skin"
+  },
+  {
+   "id": "visage-rouge",
+   "cat": "general",
+   "nom": "Red face"
+  },
+  {
+   "id": "pommettes-rouges",
+   "cat": "general",
+   "nom": "Red cheekbones late in the day"
+  },
+  {
+   "id": "teint-sombre",
+   "cat": "general",
+   "nom": "Dark complexion, dark circles under the eyes",
+   "syn": "dark circles dark under-eye circles dark complexion"
+  },
+  {
+   "id": "chaud-froid",
+   "cat": "general",
+   "nom": "Hot flashes followed by chills",
+   "syn": "menopause alternating hot and cold hot and cold chills hot flashes"
+  },
+  {
+   "id": "cephalee-front",
+   "cat": "tete",
+   "nom": "Headache in the forehead",
+   "alerte": "Call emergency services (15 or 112 in France) for a sudden, violent headache, or one that comes with fever and a stiff neck, trouble speaking, vision problems or weakness on one side of the body.",
+   "syn": "migraine headache headaches forehead frontal headache"
+  },
+  {
+   "id": "cephalee-tempes",
+   "cat": "tete",
+   "nom": "Headache on the sides, at the temples",
+   "alerte": "Call emergency services (15 or 112 in France) for a sudden, violent headache, or one that comes with trouble speaking, vision problems or weakness on one side of the body. Have your blood pressure checked if these headaches keep coming back.",
+   "syn": "migraine headache headaches temples temporal headache"
+  },
+  {
+   "id": "cephalee-sommet",
+   "cat": "tete",
+   "nom": "Headache at the top of the head",
+   "syn": "migraine headache headaches top of the head vertex"
+  },
+  {
+   "id": "cephalee-nuque",
+   "cat": "tete",
+   "nom": "Headache at the back of the neck",
+   "syn": "migraine headache headaches neck back of the head occipital"
+  },
+  {
+   "id": "cephalee-sourde",
+   "cat": "tete",
+   "nom": "Dull headache that gets worse when you're tired",
+   "syn": "headache headaches dull headache"
+  },
+  {
+   "id": "cephalee-lourde",
+   "cat": "tete",
+   "nom": "Heavy head, as if squeezed by a tight band",
+   "syn": "headache headaches heavy head brain fog foggy head"
+  },
+  {
+   "id": "vertiges",
+   "cat": "tete",
+   "nom": "Dizziness, lightheadedness",
+   "alerte": "Call emergency services (15 or 112 in France) if the dizziness comes with trouble speaking, vision problems, weakness on one side of the body or fainting. See a doctor if it keeps coming back.",
+   "syn": "dizzy vertigo head spinning room spinning lightheaded lightheadedness"
+  },
+  {
+   "id": "desequilibre",
+   "cat": "tete",
+   "nom": "Loss of balance, unsteady walk",
+   "alerte": "Sudden loss of balance, especially with weakness, trouble speaking or vision problems, is an emergency: call emergency services (15 or 112 in France).",
+   "syn": "balance unsteady wobbly staggering gait falls falling ataxia multiple sclerosis MS"
+  },
+  {
+   "id": "acouphenes-aigus",
+   "cat": "tete",
+   "nom": "Loud, whistling ringing in the ears",
+   "alerte": "If ringing in the ears starts suddenly with hearing loss, see an ENT doctor urgently (within 48 hours).",
+   "syn": "tinnitus ringing in the ears whistling ear buzzing"
+  },
+  {
+   "id": "acouphenes-faibles",
+   "cat": "tete",
+   "nom": "Faint ringing in the ears, like a buzzing or humming",
+   "syn": "tinnitus ear buzzing humming ringing in the ears"
+  },
+  {
+   "id": "audition",
+   "cat": "tete",
+   "nom": "Hearing loss",
+   "alerte": "Sudden hearing loss is an ENT emergency: see a doctor within 48 hours.",
+   "syn": "deafness deaf hard of hearing hearing ear can't hear"
+  },
+  {
+   "id": "yeux-secs",
+   "cat": "tete",
+   "nom": "Dry, stinging eyes",
+   "syn": "dry eyes dry eye gritty eyes stinging eyes"
+  },
+  {
+   "id": "vision-floue",
+   "cat": "tete",
+   "nom": "Blurred vision, eyes that tire quickly",
+   "alerte": "Sudden loss of vision is an emergency: see a doctor immediately.",
+   "syn": "blurry vision blurred vision eyesight eyes eye strain"
+  },
+  {
+   "id": "vision-double",
+   "cat": "tete",
+   "nom": "Double vision, or reduced vision in one eye that hurts when it moves",
+   "alerte": "Double vision or loss of vision that appears over a few hours or a few days is an emergency: call emergency services (15 or 112 in France) or go to an eye emergency department.",
+   "syn": "double vision diplopia optic neuritis loss of vision painful eye multiple sclerosis MS"
+  },
+  {
+   "id": "mouches-volantes",
+   "cat": "tete",
+   "nom": "Eye floaters",
+   "alerte": "If a lot of floaters suddenly appear, with flashes of light or a curtain over your vision, see an eye doctor urgently.",
+   "syn": "floaters spots in vision eyes vision"
+  },
+  {
+   "id": "yeux-rouges",
+   "cat": "tete",
+   "nom": "Red, swollen or painful eyes",
+   "alerte": "A red, painful eye with loss of vision needs urgent medical attention.",
+   "syn": "conjunctivitis pink eye red eyes bloodshot eyes"
+  },
+  {
+   "id": "orgelet",
+   "cat": "tete",
+   "nom": "Stye: a red, painful bump on the edge of the eyelid",
+   "alerte": "Never squeeze a stye; warm compresses for 10 minutes, several times a day, help it come to a head. See a doctor if the whole eyelid swells and turns red, if your vision gets worse, if you have a fever, or if it doesn't heal within one to two weeks or keeps coming back.",
+   "syn": "stye sty chalazion eyelid bump swollen eyelid red painful eye"
+  },
+  {
+   "id": "paupieres-gonflees",
+   "cat": "tete",
+   "nom": "Swollen eyelids, puffy eyes (especially when you wake up)",
+   "alerte": "Very swollen eyelids with difficulty breathing, or lips or tongue that swell: call emergency services (15 or 112 in France), as this may be a severe allergy. Also see a doctor if the swelling lasts or spreads to the legs, or if your urine becomes foamy or dark.",
+   "syn": "swollen eyelids swollen eyes puffy eyes bags under the eyes eyelid edema"
+  },
+  {
+   "id": "nez-bouche",
+   "cat": "tete",
+   "nom": "Stuffy nose",
+   "syn": "cold congestion nasal congestion blocked nose stuffed up sinus nose"
+  },
+  {
+   "id": "nez-clair",
+   "cat": "tete",
+   "nom": "Clear runny nose",
+   "syn": "cold runny nose rhinitis"
+  },
+  {
+   "id": "nez-jaune",
+   "cat": "tete",
+   "nom": "Yellow or thick nasal discharge",
+   "syn": "sinusitis sinus infection cold nose snot mucus"
+  },
+  {
+   "id": "nez-sec",
+   "cat": "tete",
+   "nom": "Dry nose, crusts in the nose"
+  },
+  {
+   "id": "eternuements",
+   "cat": "tete",
+   "nom": "Sneezing",
+   "syn": "allergy hay fever sneeze"
+  },
+  {
+   "id": "gorge-mal",
+   "cat": "tete",
+   "nom": "Sore throat",
+   "alerte": "See a doctor quickly if you have trouble swallowing your saliva or breathing, or if you have a high fever.",
+   "syn": "sore throat tonsillitis strep throat pharyngitis throat"
+  },
+  {
+   "id": "gorge-seche",
+   "cat": "tete",
+   "nom": "Dry throat, hoarse voice",
+   "syn": "hoarseness hoarse throat voice"
+  },
+  {
+   "id": "gorge-serree",
+   "cat": "tete",
+   "nom": "Tight throat, feeling of a lump",
+   "alerte": "See an ENT doctor if the discomfort becomes constant, if you have trouble swallowing, if your voice changes for a long time or if you feel a lump in your neck.",
+   "syn": "lump in the throat globus tight throat knot in the throat"
+  },
+  {
+   "id": "aphtes",
+   "cat": "tete",
+   "nom": "Canker sores, small sores in the mouth",
+   "alerte": "A sore in the mouth that doesn't heal within 2 to 3 weeks should be shown to a doctor or a dentist.",
+   "syn": "mouth ulcer mouth ulcers canker sore aphthous ulcer mouth"
+  },
+  {
+   "id": "gencives",
+   "cat": "tete",
+   "nom": "Sore or bleeding gums",
+   "syn": "teeth gingivitis gums bleeding gums"
+  },
+  {
+   "id": "gout-amer",
+   "cat": "tete",
+   "nom": "Bitter taste in the mouth",
+   "syn": "bitterness bitter taste mouth"
+  },
+  {
+   "id": "haleine",
+   "cat": "tete",
+   "nom": "Bad breath",
+   "syn": "halitosis mouth"
+  },
+  {
+   "id": "bouche-pateuse",
+   "cat": "tete",
+   "nom": "Sticky, coated mouth, bland taste",
+   "syn": "mouth taste coated mouth pasty mouth"
+  },
+  {
+   "id": "toux-glaires-blanches",
+   "cat": "respiration",
+   "nom": "Cough with white, clear or watery phlegm",
+   "syn": "wet cough productive cough chesty cough sputum phlegm mucus"
+  },
+  {
+   "id": "toux-glaires-jaunes",
+   "cat": "respiration",
+   "nom": "Cough with yellow or thick phlegm",
+   "syn": "wet cough productive cough chesty cough sputum phlegm mucus bronchitis"
+  },
+  {
+   "id": "toux-seche",
+   "cat": "respiration",
+   "nom": "Dry cough, little phlegm",
+   "syn": "tickly cough irritating cough hacking cough"
+  },
+  {
+   "id": "toux-faible",
+   "cat": "respiration",
+   "nom": "Weak, lingering cough",
+   "alerte": "A cough that lasts more than 3 weeks should be seen by a doctor, especially if you smoke.",
+   "syn": "chronic cough lingering cough"
+  },
+  {
+   "id": "essoufflement",
+   "cat": "respiration",
+   "nom": "Shortness of breath, out of breath on exertion",
+   "alerte": "Call emergency services (15 or 112 in France) if you are short of breath at rest, your lips turn bluish or you have chest pain. See a doctor if the shortness of breath gets worse.",
+   "syn": "dyspnea short of breath breathless out of breath winded"
+  },
+  {
+   "id": "sifflement",
+   "cat": "respiration",
+   "nom": "Wheezing, asthma",
+   "alerte": "If an asthma attack doesn't ease with your usual treatment, or if talking becomes difficult, call emergency services (15 or 112 in France).",
+   "syn": "asthma bronchitis wheezy wheeze"
+  },
+  {
+   "id": "oppression",
+   "cat": "respiration",
+   "nom": "Tightness in the chest",
+   "alerte": "Pain or tightness in the chest that spreads to the arm, jaw or back, especially with sweating or feeling faint, means you must call emergency services (15 or 112 in France).",
+   "syn": "tight chest chest tightness chest pressure thorax"
+  },
+  {
+   "id": "soupirs",
+   "cat": "respiration",
+   "nom": "Frequent sighing",
+   "syn": "sigh sighing"
+  },
+  {
+   "id": "rhumes-frequents",
+   "cat": "respiration",
+   "nom": "Frequent colds, sensitive to wind and cold",
+   "syn": "cold colds immunity immune system defenses catching colds"
+  },
+  {
+   "id": "crachats-sang",
+   "cat": "respiration",
+   "nom": "Blood in your phlegm",
+   "alerte": "Blood in your phlegm should be seen quickly by a doctor.",
+   "syn": "hemoptysis coughing up blood blood"
+  },
+  {
+   "id": "appetit-faible",
+   "cat": "digestion",
+   "nom": "Poor appetite",
+   "syn": "loss of appetite no appetite not hungry anorexia hunger"
+  },
+  {
+   "id": "faim-excessive",
+   "cat": "digestion",
+   "nom": "Excessive hunger, always hungry",
+   "syn": "cravings snacking always hungry big appetite"
+  },
+  {
+   "id": "envie-sucre",
+   "cat": "digestion",
+   "nom": "Sugar cravings",
+   "syn": "sugar sweet tooth craving sweets snacking"
+  },
+  {
+   "id": "ballonnements",
+   "cat": "digestion",
+   "nom": "Bloating after meals",
+   "syn": "gas bloated bloating swollen belly flatulence wind"
+  },
+  {
+   "id": "nausee",
+   "cat": "digestion",
+   "nom": "Nausea",
+   "alerte": "See a doctor if you vomit again and again, if you can no longer drink, or if you have fever, severe stomach pain or blood.",
+   "syn": "queasy nauseous feeling sick want to throw up upset stomach"
+  },
+  {
+   "id": "vomissements",
+   "cat": "digestion",
+   "nom": "Vomiting",
+   "alerte": "See a doctor quickly if there is blood or blackish vomit, if you vomit repeatedly, if you have severe stomach pain, or if you can't keep anything down, not even water.",
+   "syn": "vomit throwing up throw up being sick"
+  },
+  {
+   "id": "reflux",
+   "cat": "digestion",
+   "nom": "Acid reflux, heartburn",
+   "alerte": "See a doctor if you have trouble swallowing, lose weight, have black stools, or if the heartburn continues despite changes to your diet.",
+   "syn": "heartburn acidity GERD acid reflux regurgitation indigestion"
+  },
+  {
+   "id": "eructations",
+   "cat": "digestion",
+   "nom": "Belching, burping",
+   "syn": "burp burps belch belching"
+  },
+  {
+   "id": "douleur-estomac-froid",
+   "cat": "digestion",
+   "nom": "Pain in the pit of the stomach, relieved by warmth",
+   "syn": "stomach stomachache stomach ache cramp"
+  },
+  {
+   "id": "douleur-estomac-brulure",
+   "cat": "digestion",
+   "nom": "Burning stomach pain",
+   "syn": "stomach burning gastritis"
+  },
+  {
+   "id": "douleur-estomac-faim",
+   "cat": "digestion",
+   "nom": "Dull stomach pain, relieved by eating"
+  },
+  {
+   "id": "digestion-lente",
+   "cat": "digestion",
+   "nom": "Slow digestion, stomach feels full after meals",
+   "syn": "poor digestion indigestion heaviness stomach sluggish digestion dyspepsia"
+  },
+  {
+   "id": "hoquet",
+   "cat": "digestion",
+   "nom": "Hiccups"
+  },
+  {
+   "id": "douleur-cotes",
+   "cat": "digestion",
+   "nom": "Pain or tension under the ribs",
+   "alerte": "See a doctor quickly if this pain comes with fever or jaundice (yellow skin or eyes), or if it is very intense.",
+   "syn": "ribs side flank liver hypochondrium rib pain"
+  },
+  {
+   "id": "douleur-ventre-froid",
+   "cat": "digestion",
+   "nom": "Belly pain relieved by warmth",
+   "syn": "stomachache bellyache abdominal pain cramps"
+  },
+  {
+   "id": "selles-molles",
+   "cat": "selles",
+   "nom": "Loose stools",
+   "alerte": "See a doctor if there is blood or black stools, fever or signs of dehydration, or if it lasts more than a few days.",
+   "syn": "diarrhea loose stool bowel movements stools"
+  },
+  {
+   "id": "diarrhee-matin",
+   "cat": "selles",
+   "nom": "Diarrhea early in the morning",
+   "syn": "diarrhea early morning diarrhea bowel movements"
+  },
+  {
+   "id": "diarrhee-chaude",
+   "cat": "selles",
+   "nom": "Urgent, burning or foul-smelling diarrhea",
+   "alerte": "See a doctor quickly if there is blood in your stools, a high fever, signs of dehydration (very dry mouth, little urine) or if it lasts more than 3 days.",
+   "syn": "diarrhea stomach bug stomach flu gastroenteritis bowel movements"
+  },
+  {
+   "id": "aliments-non-digeres",
+   "cat": "selles",
+   "nom": "Undigested food in the stools",
+   "syn": "stools poop undigested food"
+  },
+  {
+   "id": "constipation-seche",
+   "cat": "selles",
+   "nom": "Constipation, dry and hard stools",
+   "alerte": "See a doctor if there is blood in your stools, if the constipation is recent and unusual (especially after 50) or if you are losing weight.",
+   "syn": "constipation constipated hard stools bowel movements"
+  },
+  {
+   "id": "constipation-effort",
+   "cat": "selles",
+   "nom": "Constipation from lack of strength, stools not hard",
+   "syn": "constipation constipated bowel movements"
+  },
+  {
+   "id": "alternance",
+   "cat": "selles",
+   "nom": "Alternating constipation and loose stools, depending on stress",
+   "syn": "irritable bowel IBS bowel movements stress"
+  },
+  {
+   "id": "hemorroides",
+   "cat": "selles",
+   "nom": "Hemorrhoids",
+   "alerte": "Bleeding from the anus should always be checked by a doctor, even if you have hemorrhoids.",
+   "syn": "piles vein anus"
+  },
+  {
+   "id": "urines-claires",
+   "cat": "selles",
+   "nom": "Clear, abundant urine",
+   "syn": "urine pee peeing a lot"
+  },
+  {
+   "id": "urines-foncees",
+   "cat": "selles",
+   "nom": "Dark, scanty urine",
+   "syn": "urine pee dark urine"
+  },
+  {
+   "id": "mictions-frequentes",
+   "cat": "selles",
+   "nom": "Needing to urinate often",
+   "syn": "urinate pee peeing often frequent urination"
+  },
+  {
+   "id": "mictions-nuit",
+   "cat": "selles",
+   "nom": "Needing to urinate at night",
+   "syn": "urinate night pee getting up at night to pee nocturia"
+  },
+  {
+   "id": "brulures-urinaires",
+   "cat": "selles",
+   "nom": "Burning when urinating, urgent need to go",
+   "alerte": "See a doctor: a urinary tract infection needs treatment. Go to the emergency room quickly if you have fever, chills or pain in your lower back, or if you are pregnant.",
+   "syn": "cystitis urinary tract infection UTI bladder infection pee"
+  },
+  {
+   "id": "fuites-urinaires",
+   "cat": "selles",
+   "nom": "Urine leaks",
+   "alerte": "Talk to your doctor: pelvic floor rehabilitation gives very good results.",
+   "syn": "incontinence leaking urine bladder leaks pee"
+  },
+  {
+   "id": "pesanteur",
+   "cat": "selles",
+   "nom": "Heaviness in the lower belly, feeling that an organ is dropping",
+   "alerte": "A prolapse can be diagnosed and treated: see a doctor or a midwife.",
+   "syn": "prolapse organ prolapse pelvic heaviness dropped bladder"
+  },
+  {
+   "id": "endormissement",
+   "cat": "sommeil",
+   "nom": "Trouble falling asleep",
+   "syn": "insomnia sleep sleeping can't sleep"
+  },
+  {
+   "id": "reveils",
+   "cat": "sommeil",
+   "nom": "Waking up in the middle of the night",
+   "syn": "insomnia sleep sleeping waking up night waking"
+  },
+  {
+   "id": "sommeil-agite",
+   "cat": "sommeil",
+   "nom": "Restless sleep, lots of dreams",
+   "alerte": "Talk to a doctor if you snore with pauses in your breathing, if you fall asleep during the day or if the insomnia lasts several weeks.",
+   "syn": "insomnia nightmares dreams vivid dreams restless sleep"
+  },
+  {
+   "id": "somnolence",
+   "cat": "sommeil",
+   "nom": "Drowsiness after meals",
+   "syn": "sleepy drowsy afternoon slump energy crash nap food coma sleep"
+  },
+  {
+   "id": "palpitations",
+   "cat": "sommeil",
+   "nom": "Palpitations, racing heart",
+   "alerte": "Call emergency services (15 or 112 in France) if the palpitations come with chest pain, feeling faint, shortness of breath or loss of consciousness. See a doctor if they keep coming back.",
+   "syn": "tachycardia heart racing heart pounding heart"
+  },
+  {
+   "id": "anxiete",
+   "cat": "sommeil",
+   "nom": "Anxiety, inner restlessness",
+   "alerte": "If you have dark thoughts or thoughts of suicide, call a suicide prevention line (3114 in France, free, 24/7). If anxiety stops you from living normally, talk to your doctor.",
+   "syn": "stress anxious anxiety worry nervous nervousness panic"
+  },
+  {
+   "id": "irritabilite",
+   "cat": "sommeil",
+   "nom": "Irritability, quick to anger",
+   "syn": "stress irritable anger angry short-tempered nervousness menopause"
+  },
+  {
+   "id": "tristesse",
+   "cat": "sommeil",
+   "nom": "Sadness, feeling like crying",
+   "alerte": "If the sadness lasts more than two weeks or if you have dark thoughts, talk to a doctor or call a suicide prevention line (3114 in France, free, 24/7).",
+   "syn": "feeling down depression crying low mood blues sad"
+  },
+  {
+   "id": "ruminations",
+   "cat": "sommeil",
+   "nom": "Worrying, going over and over things",
+   "syn": "worries worry overthinking thoughts stress rumination"
+  },
+  {
+   "id": "memoire",
+   "cat": "sommeil",
+   "nom": "Memory lapses",
+   "syn": "forgetful forgetting memory"
+  },
+  {
+   "id": "concentration",
+   "cat": "sommeil",
+   "nom": "Difficulty concentrating",
+   "alerte": "Call emergency services (15 or 112 in France) if you suddenly have trouble speaking or seeing, or weakness on one side of the body. See a doctor if the difficulties get worse or last.",
+   "syn": "brain fog attention focus concentration"
+  },
+  {
+   "id": "humeur-variable",
+   "cat": "sommeil",
+   "nom": "Mood that changes with stress",
+   "syn": "stress mood mood swings menopause"
+  },
+  {
+   "id": "decouragement",
+   "cat": "sommeil",
+   "nom": "Lack of willpower, discouragement",
+   "syn": "motivation feeling down depression burnout exhaustion low morale"
+  },
+  {
+   "id": "peurs",
+   "cat": "sommeil",
+   "nom": "Fears, easily startled",
+   "syn": "fear startle jumpy shyness"
+  },
+  {
+   "id": "indecision",
+   "cat": "sommeil",
+   "nom": "Indecision, lack of boldness",
+   "syn": "shyness hesitation hesitant decision indecisive"
+  },
+  {
+   "id": "peau-seche",
+   "cat": "peau",
+   "nom": "Dry skin",
+   "syn": "dryness skin"
+  },
+  {
+   "id": "demangeaisons",
+   "cat": "peau",
+   "nom": "Itching",
+   "syn": "pruritus itchy itch scratching"
+  },
+  {
+   "id": "eczema-suintant",
+   "cat": "peau",
+   "nom": "Eczema that weeps or crusts",
+   "syn": "dermatitis eczema"
+  },
+  {
+   "id": "plaques-rouges",
+   "cat": "peau",
+   "nom": "Itchy red patches, hives",
+   "alerte": "Call emergency services (15 or 112 in France) if your face, lips or tongue swell, or if you have trouble breathing or swallowing.",
+   "syn": "hives urticaria allergy redness rash"
+  },
+  {
+   "id": "acne",
+   "cat": "peau",
+   "nom": "Acne, red pimples",
+   "syn": "pimples spots zits breakouts"
+  },
+  {
+   "id": "boutons-pus",
+   "cat": "peau",
+   "nom": "Pimples with pus, boils",
+   "alerte": "See a doctor for a boil on the face, redness that spreads, or fever.",
+   "syn": "boil furuncle abscess pimples"
+  },
+  {
+   "id": "peau-terne",
+   "cat": "peau",
+   "nom": "Dull skin",
+   "syn": "complexion dull complexion"
+  },
+  {
+   "id": "bleus-faciles",
+   "cat": "peau",
+   "nom": "Bruising easily, bleeding easily",
+   "alerte": "Bruises for no reason or unusual bleeding (nose, gums) call for a blood test: see a doctor.",
+   "syn": "bruises bruising hematoma bleeding nosebleeds"
+  },
+  {
+   "id": "chute-cheveux",
+   "cat": "peau",
+   "nom": "Hair loss",
+   "alerte": "See a doctor if the hair loss is sudden and heavy, or in patches.",
+   "syn": "alopecia hair losing hair hair falling out thinning hair baldness"
+  },
+  {
+   "id": "cheveux-blancs",
+   "cat": "peau",
+   "nom": "Premature gray hair",
+   "syn": "gray hair grey hair white hair going gray graying"
+  },
+  {
+   "id": "ongles-cassants",
+   "cat": "peau",
+   "nom": "Brittle or ridged nails",
+   "syn": "nails"
+  },
+  {
+   "id": "douleur-genou",
+   "cat": "douleurs",
+   "nom": "Knee pain",
+   "alerte": "See a doctor if the knee is warm, red and swollen, if you have a fever, if it locks, if you can't put weight on your foot, or after a fall or a blow.",
+   "syn": "knee osteoarthritis arthritis"
+  },
+  {
+   "id": "genoux-faibles",
+   "cat": "douleurs",
+   "nom": "Weak lower back and knees",
+   "syn": "lower back knees weakness weak knees"
+  },
+  {
+   "id": "jambes-faibles",
+   "cat": "douleurs",
+   "nom": "Weak legs or legs that give way, difficulty walking",
+   "alerte": "Weakness in a leg or an arm that appears over a few hours or a few days must be seen urgently. If it is sudden, call emergency services (15 or 112 in France).",
+   "syn": "leg weakness weak legs legs giving way difficulty walking tired when walking multiple sclerosis MS"
+  },
+  {
+   "id": "lombalgie-sourde",
+   "cat": "douleurs",
+   "nom": "Dull lower back pain, worse when you're tired",
+   "alerte": "See a doctor quickly if you have a fever, pain running down your leg with weakness or numbness, or trouble urinating.",
+   "syn": "back pain lower back lumbar lumbago"
+  },
+  {
+   "id": "nuque-raide",
+   "cat": "douleurs",
+   "nom": "Stiff neck",
+   "alerte": "A stiff neck with fever and headache means you must call emergency services (15 or 112 in France).",
+   "syn": "torticollis wry neck cervical neck"
+  },
+  {
+   "id": "douleur-omoplates",
+   "cat": "douleurs",
+   "nom": "Pain on or between the shoulder blades",
+   "alerte": "Sudden, very intense pain between the shoulder blades, like something tearing, or with chest tightness, shortness of breath or cold sweats: call emergency services (15 or 112 in France).",
+   "syn": "shoulder blade shoulder blades between the shoulders upper back trapezius scapula"
+  },
+  {
+   "id": "omoplate-hypocondre",
+   "cat": "douleurs",
+   "nom": "Pain under the right ribs that spreads up to the shoulder blade",
+   "alerte": "This pain, especially after a fatty meal, may come from the gallbladder: see a doctor. Call emergency services (15 or 112 in France) if it is intense, with fever, vomiting or jaundice (yellow skin or eyes).",
+   "syn": "hypochondrium right upper quadrant right shoulder blade gallbladder biliary colic gallstone gallstones right ribs right shoulder"
+  },
+  {
+   "id": "douleurs-migrantes",
+   "cat": "douleurs",
+   "nom": "Joint pain that moves around",
+   "syn": "rheumatism joints wandering pain"
+  },
+  {
+   "id": "douleurs-froid",
+   "cat": "douleurs",
+   "nom": "Sharp joint pain, worse in the cold",
+   "syn": "rheumatism joints osteoarthritis arthritis"
+  },
+  {
+   "id": "articulations-lourdes",
+   "cat": "douleurs",
+   "nom": "Heavy, swollen joints, worse in damp weather",
+   "syn": "rheumatism joints osteoarthritis arthritis"
+  },
+  {
+   "id": "articulations-chaudes",
+   "cat": "douleurs",
+   "nom": "Red, hot, swollen joints",
+   "alerte": "A red, hot, swollen joint should be seen quickly by a doctor, especially with fever.",
+   "syn": "arthritis gout inflammation"
+  },
+  {
+   "id": "raideur-articulaire",
+   "cat": "douleurs",
+   "nom": "Joint stiffness in the cold",
+   "alerte": "See a doctor if the stiffness lasts more than an hour in the morning or if several joints are swollen.",
+   "syn": "rheumatism joints stiffness stiff joints"
+  },
+  {
+   "id": "raideur-matinale",
+   "cat": "douleurs",
+   "nom": "Joint stiffness in the morning, lasting more than 30 minutes",
+   "alerte": "Morning stiffness lasting more than 30 minutes with swollen joints, especially in the hands, should be seen quickly by a doctor: treated early, rheumatoid arthritis does much less damage to the joints.",
+   "syn": "morning stiffness stiff hands in the morning rheumatoid arthritis RA polyarthritis inflammatory arthritis"
+  },
+  {
+   "id": "mains-gonflees",
+   "cat": "douleurs",
+   "nom": "Swollen, painful fingers or wrists, on both sides",
+   "alerte": "Finger or wrist joints that swell on both sides should be seen by a doctor (blood test, opinion from a rheumatologist).",
+   "syn": "swollen fingers swollen wrists swollen hands synovitis rheumatoid arthritis finger joints"
+  },
+  {
+   "id": "deformations",
+   "cat": "douleurs",
+   "nom": "Deformed or bent fingers, small lumps under the skin",
+   "syn": "deformity deformities crooked fingers nodules rheumatoid nodules rheumatoid arthritis ulnar deviation"
+  },
+  {
+   "id": "crampes",
+   "cat": "douleurs",
+   "nom": "Muscle cramps",
+   "syn": "cramp charley horse"
+  },
+  {
+   "id": "spasticite",
+   "cat": "douleurs",
+   "nom": "Stiff legs, or legs that tighten on their own (spasms)",
+   "syn": "spasticity stiff legs spasms muscle contractions multiple sclerosis MS"
+  },
+  {
+   "id": "lhermitte",
+   "cat": "douleurs",
+   "nom": "Electric shock down your back when you bend your head forward",
+   "alerte": "Talk to your doctor or your neurologist: this sign is seen mainly when the spinal cord is affected.",
+   "syn": "lhermitte's sign lhermitte electric shock neck spine multiple sclerosis MS"
+  },
+  {
+   "id": "engourdissements",
+   "cat": "douleurs",
+   "nom": "Numbness, tingling",
+   "alerte": "Call emergency services (15 or 112 in France) if the numbness suddenly appears on one side of the body or face.",
+   "syn": "pins and needles tingling prickling numb"
+  },
+  {
+   "id": "tremblements",
+   "cat": "douleurs",
+   "nom": "Tremors, shaking",
+   "alerte": "Tremors that persist or get worse should be seen by a doctor.",
+   "syn": "tremble trembling shaking shaky"
+  },
+  {
+   "id": "douleur-fixe",
+   "cat": "douleurs",
+   "nom": "Fixed, stabbing pain, always in the same place",
+   "alerte": "Pain that persists or gets worse should be seen by a doctor.",
+   "syn": "pain stabbing pain sharp pain"
+  },
+  {
+   "id": "regles-douloureuses",
+   "cat": "cycle",
+   "nom": "Painful periods",
+   "alerte": "Very painful periods that stop you from living normally should be investigated by a gynecologist (especially for endometriosis).",
+   "syn": "dysmenorrhea period pain menstrual cramps painful periods"
+  },
+  {
+   "id": "regles-peu",
+   "cat": "cycle",
+   "nom": "Light, pale periods",
+   "syn": "periods light periods scanty menstruation"
+  },
+  {
+   "id": "regles-abondantes",
+   "cat": "cycle",
+   "nom": "Heavy periods",
+   "alerte": "Very heavy periods or periods that last more than 7 days can lead to anemia: see a doctor.",
+   "syn": "menorrhagia heavy periods heavy menstrual bleeding periods"
+  },
+  {
+   "id": "regles-retard",
+   "cat": "cycle",
+   "nom": "Long cycles, late periods",
+   "syn": "periods cycle late period"
+  },
+  {
+   "id": "regles-avance",
+   "cat": "cycle",
+   "nom": "Short cycles, early periods",
+   "syn": "periods cycle early period"
+  },
+  {
+   "id": "caillots",
+   "cat": "cycle",
+   "nom": "Dark clots in your period",
+   "syn": "periods clots"
+  },
+  {
+   "id": "regles-rouge-vif",
+   "cat": "cycle",
+   "nom": "Bright red periods",
+   "syn": "periods"
+  },
+  {
+   "id": "spm",
+   "cat": "cycle",
+   "nom": "Tender breasts, irritability before your period",
+   "syn": "premenstrual syndrome PMS breasts sore breasts"
+  },
+  {
+   "id": "pertes-blanches",
+   "cat": "cycle",
+   "nom": "Heavy white discharge, with no odor",
+   "syn": "leukorrhea discharge vaginal discharge"
+  },
+  {
+   "id": "pertes-jaunes",
+   "cat": "cycle",
+   "nom": "Yellow discharge, smelly or irritating",
+   "alerte": "Yellow, smelly or irritating discharge should be seen by a doctor or a midwife.",
+   "syn": "yeast infection thrush infection discharge vaginal discharge"
+  },
+  {
+   "id": "cycles-irreguliers",
+   "cat": "cycle",
+   "nom": "Irregular cycles that get further apart, periods that stop",
+   "alerte": "Bleeding that comes back after a year without periods should be seen by a doctor.",
+   "syn": "menopause premenopause perimenopause amenorrhea periods stopping missed periods"
+  },
+  {
+   "id": "libido",
+   "cat": "intimite",
+   "nom": "Low libido",
+   "syn": "desire sexuality sex drive low sex drive loss of desire"
+  },
+  {
+   "id": "erection",
+   "cat": "intimite",
+   "nom": "Erection problems",
+   "alerte": "Erection problems that set in can come from circulation, diabetes or a medication: talk to your doctor.",
+   "syn": "impotence erectile dysfunction ED weak erection can't get hard"
+  },
+  {
+   "id": "ejaculation-precoce",
+   "cat": "intimite",
+   "nom": "Premature ejaculation",
+   "syn": "early ejaculation coming too fast finishing too quickly"
+  },
+  {
+   "id": "pertes-seminales",
+   "cat": "intimite",
+   "nom": "Loss of semen outside of sex",
+   "syn": "spermatorrhea semen leakage seminal discharge"
+  },
+  {
+   "id": "pollutions-nocturnes",
+   "cat": "intimite",
+   "nom": "Ejaculation during sleep, with dreams",
+   "syn": "wet dreams nocturnal emissions erotic dreams"
+  },
+  {
+   "id": "libido-excessive",
+   "cat": "intimite",
+   "nom": "Excessive sexual desire, erections too often",
+   "syn": "hypersexuality arousal high libido"
+  },
+  {
+   "id": "sperme-clair",
+   "cat": "intimite",
+   "nom": "Watery, cold or scanty semen",
+   "syn": "semen sperm quality male fertility"
+  },
+  {
+   "id": "froid-genital",
+   "cat": "intimite",
+   "nom": "Cold lower belly and genitals",
+   "syn": "cold testicles cold scrotum retracted scrotum"
+  },
+  {
+   "id": "douleur-testicules",
+   "cat": "intimite",
+   "nom": "Testicle pain that pulls toward the groin",
+   "alerte": "Sudden, intense pain in one testicle is an emergency: call emergency services (15 or 112 in France). A lump or swelling should be seen by a doctor.",
+   "syn": "testicle testicles balls groin scrotum"
+  },
+  {
+   "id": "gynecomastie",
+   "cat": "intimite",
+   "nom": "Sore nipples or swollen breasts in men (gynecomastia)",
+   "alerte": "See a doctor: breast swelling in a man has causes that need to be looked for (medications, hormones, liver, thyroid, testicles). A hard lump, discharge or a nipple that pulls inward should be seen quickly.",
+   "syn": "gynecomastia nipple sore nipples male breast breast swelling man boobs mammary gland"
+  },
+  {
+   "id": "humidite-intime",
+   "cat": "intimite",
+   "nom": "Dampness, odor or itching in the intimate area",
+   "syn": "genital itching damp scrotum yeast infection jock itch sweating"
+  },
+  {
+   "id": "secheresse-intime",
+   "cat": "intimite",
+   "nom": "Intimate dryness, painful sex",
+   "syn": "vaginal dryness painful sex painful intercourse dyspareunia menopause"
+  },
+  {
+   "id": "ecoulement",
+   "cat": "intimite",
+   "nom": "Unusual discharge from the penis or vagina",
+   "alerte": "Unusual discharge should be seen by a doctor or at a sexual health clinic (free CeGIDD centers in France): it is often an STI that can be treated with an antibiotic. Avoid sex until you have medical advice.",
+   "syn": "discharge urethra pus morning drip urethritis the clap gonorrhea STI STD"
+  },
+  {
+   "id": "plaie-genitale",
+   "cat": "intimite",
+   "nom": "Small sore on the genitals, anus or mouth",
+   "alerte": "Any sore on the genitals, even a painless one, should be seen by a doctor or at a sexual health clinic (free CeGIDD centers in France): it may come from syphilis or herpes.",
+   "syn": "genital sore ulceration chancre ulcer genitals anus STI STD"
+  },
+  {
+   "id": "vesicules-genitales",
+   "cat": "intimite",
+   "nom": "Small painful blisters on the genitals",
+   "alerte": "Blisters on the genitals should be seen by a doctor, especially if you are pregnant. Avoid sex until they have healed.",
+   "syn": "herpes blisters vesicles genital bumps genital burning STI STD"
+  },
+  {
+   "id": "verrues-genitales",
+   "cat": "intimite",
+   "nom": "Small warts or growths on the genitals",
+   "alerte": "Genital warts are treated by a doctor. Don't massage or scratch them.",
+   "syn": "condyloma condylomas genital warts papillomavirus HPV STI STD"
+  },
+  {
+   "id": "fertilite",
+   "cat": "intimite",
+   "nom": "Difficulty having a baby",
+   "alerte": "After a year of trying without a pregnancy (six months if the woman is over 35), see a doctor together: it concerns both partners.",
+   "syn": "fertility infertility sterility pregnancy baby conceive trying to conceive TTC"
+  },
+  {
+   "id": "langue-pale",
+   "cat": "langue",
+   "nom": "Pale tongue"
+  },
+  {
+   "id": "langue-rouge",
+   "cat": "langue",
+   "nom": "Red tongue"
+  },
+  {
+   "id": "langue-rouge-sans-enduit",
+   "cat": "langue",
+   "nom": "Red tongue, little or no coating"
+  },
+  {
+   "id": "pointe-rouge",
+   "cat": "langue",
+   "nom": "Red tongue tip"
+  },
+  {
+   "id": "bords-rouges",
+   "cat": "langue",
+   "nom": "Red tongue edges"
+  },
+  {
+   "id": "langue-gonflee",
+   "cat": "langue",
+   "nom": "Swollen tongue, tooth marks on the edges"
+  },
+  {
+   "id": "langue-violacee",
+   "cat": "langue",
+   "nom": "Purplish tongue or tongue with dark spots"
+  },
+  {
+   "id": "enduit-blanc-epais",
+   "cat": "langue",
+   "nom": "Thick white coating"
+  },
+  {
+   "id": "enduit-jaune",
+   "cat": "langue",
+   "nom": "Yellow or greasy coating"
+  },
+  {
+   "id": "langue-fissuree",
+   "cat": "langue",
+   "nom": "Cracked tongue"
+  },
+  {
+   "id": "langue-seche",
+   "cat": "langue",
+   "nom": "Dry tongue"
+  }
+ ]
+}

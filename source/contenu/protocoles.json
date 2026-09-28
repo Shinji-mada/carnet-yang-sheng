@@ -209,7 +209,8 @@
      "items": [
       {
        "ab": "E 35 + EX-LE 4",
-       "py": "Yeux du genou",
+       "py": "Xi Yan",
+       "nom": "Yeux du genou",
        "zh": "膝眼",
        "s": 300,
        "b": 1,
@@ -245,7 +246,8 @@
      "items": [
       {
        "ab": "Soin",
-       "py": "Massage au liniment",
+       "py": "Tui Na",
+       "nom": "Massage au liniment",
        "zh": "推拿",
        "s": 90,
        "b": 1,

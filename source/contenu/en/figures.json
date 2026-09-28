@@ -1,0 +1,378 @@
+{
+ "figures": {
+  "jambe-int": {
+   "nom": "Knee, leg and foot (inner side)",
+   "reps": {
+    "condyle": {
+     "t": "medial condyle|of the tibia"
+    },
+    "rotule": {
+     "t": "kneecap"
+    },
+    "bord-rotule": {
+     "t": "top edge|of the kneecap"
+    },
+    "pointe-rotule": {
+     "t": "lower tip|of the kneecap"
+    },
+    "tibia": {
+     "t": "shinbone (tibia)"
+    },
+    "bord-tibia": {
+     "t": "back edge|of the tibia"
+    },
+    "malleole": {
+     "t": "inner|ankle bone"
+    },
+    "achille": {
+     "t": "Achilles|tendon"
+    },
+    "naviculaire": {
+     "t": "bump of the|navicular bone"
+    },
+    "metatarsien": {
+     "t": "1st metatarsal"
+    },
+    "orteil": {
+     "t": "nail of|the big toe"
+    },
+    "pli-genou": {
+     "t": "knee crease|(inner end)"
+    },
+    "condyle-femur": {
+     "t": "medial condyle|of the femur"
+    }
+   }
+  },
+  "jambe-ext": {
+   "nom": "Knee and leg (front view)",
+   "reps": {
+    "rotule": {
+     "t": "kneecap"
+    },
+    "bord-rotule": {
+     "t": "top edge|of the kneecap"
+    },
+    "oeil-ext": {
+     "t": "outer hollow|of the knee"
+    },
+    "oeil-int": {
+     "t": "inner hollow|of the knee"
+    },
+    "tete-perone": {
+     "t": "head of the fibula"
+    },
+    "crete-tibia": {
+     "t": "crest of the tibia"
+    },
+    "perone": {
+     "t": "fibula"
+    },
+    "tibia": {
+     "t": "tibia"
+    },
+    "malleole-ext": {
+     "t": "outer ankle bone"
+    }
+   }
+  },
+  "pied-ext": {
+   "nom": "Ankle and foot (outer side)",
+   "reps": {
+    "malleole-ext": {
+     "t": "outer ankle bone"
+    },
+    "pointe-malleole": {
+     "t": "tip of the|outer ankle bone"
+    },
+    "achille": {
+     "t": "Achilles tendon"
+    },
+    "perone": {
+     "t": "fibula"
+    },
+    "calcaneum": {
+     "t": "heel bone"
+    },
+    "mt5": {
+     "t": "bump of the|5th metatarsal"
+    }
+   }
+  },
+  "genou-arr": {
+   "nom": "Back of the knee and calf",
+   "reps": {
+    "pli-genou": {
+     "t": "knee crease"
+    },
+    "semi": {
+     "t": "inner hamstring|tendons"
+    },
+    "biceps": {
+     "t": "outer hamstring|tendon (biceps)"
+    },
+    "mollet": {
+     "t": "calf muscle|(its two heads)"
+    }
+   }
+  },
+  "plante": {
+   "nom": "Sole of the foot",
+   "reps": {
+    "palmure23": {
+     "t": "base between the 2nd|and 3rd toes"
+    },
+    "talon": {
+     "t": "back of the heel"
+    },
+    "creux": {
+     "t": "hollow formed when|you curl your toes"
+    }
+   }
+  },
+  "bras-int": {
+   "nom": "Forearm and palm (inner side)",
+   "reps": {
+    "pli-poignet": {
+     "t": "wrist crease|(palm side)"
+    },
+    "pli-coude": {
+     "t": "elbow crease"
+    },
+    "fcr": {
+     "t": "flexor carpi radialis|tendon"
+    },
+    "pl": {
+     "t": "palmaris longus|tendon"
+    },
+    "fcu": {
+     "t": "flexor carpi ulnaris|tendon"
+    },
+    "pisiforme": {
+     "t": "pisiform bone"
+    },
+    "styloide": {
+     "t": "styloid process|of the radius"
+    },
+    "artere": {
+     "t": "radial pulse"
+    },
+    "thenar": {
+     "t": "ball of the thumb|(1st metacarpal)"
+    },
+    "mc23": {
+     "t": "between 2nd and|3rd metacarpals"
+    },
+    "mc45": {
+     "t": "between 4th and|5th metacarpals"
+    },
+    "ongle-pouce": {
+     "t": "corner of|the thumbnail"
+    },
+    "biceps": {
+     "t": "biceps|tendon"
+    },
+    "radius": {
+     "t": "radius"
+    },
+    "cubitus": {
+     "t": "ulna"
+    }
+   }
+  },
+  "bras-ext": {
+   "nom": "Forearm and back of the hand",
+   "reps": {
+    "pli-coude-ext": {
+     "t": "outer end of elbow|crease (arm bent)"
+    },
+    "epicondyle": {
+     "t": "lateral epicondyle|(outer bump)"
+    },
+    "radius": {
+     "t": "radius"
+    },
+    "entre-os": {
+     "t": "between radius|and ulna"
+    },
+    "pli-poignet": {
+     "t": "wrist crease|(back of hand)"
+    },
+    "olecrane": {
+     "t": "olecranon|(tip of the elbow)"
+    },
+    "tendons": {
+     "t": "extensor|tendons"
+    }
+   }
+  },
+  "tete-face": {
+   "nom": "Face",
+   "reps": {
+    "entre-sourcils": {
+     "t": "between the eyebrows"
+    },
+    "sourcil-int": {
+     "t": "start of the eyebrow"
+    },
+    "tempe": {
+     "t": "temple (hollow behind|the corner of the eye)"
+    },
+    "aile-nez": {
+     "t": "groove next to|the nostril"
+    },
+    "orbite": {
+     "t": "rim of the eye socket"
+    }
+   }
+  },
+  "tete-profil": {
+   "nom": "Head in profile",
+   "reps": {
+    "sommet": {
+     "t": "top of the head"
+    },
+    "occiput": {
+     "t": "occipital bone"
+    },
+    "creux-nuque": {
+     "t": "hollow under the|base of the skull"
+    },
+    "mastoide": {
+     "t": "mastoid bone"
+    },
+    "tragus": {
+     "t": "in front of|the tragus"
+    },
+    "lobe": {
+     "t": "earlobe"
+    },
+    "machoire": {
+     "t": "angle of|the jaw"
+    }
+   }
+  },
+  "dos": {
+   "nom": "Back",
+   "reps": {
+    "c7": {
+     "t": "C7: bump at the|base of the neck"
+    },
+    "colonne": {
+     "t": "bony bumps|of the spine"
+    },
+    "epine-omoplate": {
+     "t": "spine of the shoulder|blade (level of T3)"
+    },
+    "bord-omoplate": {
+     "t": "inner edge of|the shoulder blade"
+    },
+    "pointe-omoplate": {
+     "t": "tip of the shoulder|blade (level of T7)"
+    },
+    "cote12": {
+     "t": "12th rib"
+    },
+    "crete": {
+     "t": "top of the hip bone|(level of L4)"
+    },
+    "sacrum": {
+     "t": "sacrum"
+    },
+    "acromion": {
+     "t": "acromion"
+    }
+   }
+  },
+  "tronc": {
+   "nom": "Chest and belly",
+   "reps": {
+    "suprasternal": {
+     "t": "hollow above|the breastbone"
+    },
+    "clavicule": {
+     "t": "collarbone"
+    },
+    "espace1": {
+     "t": "1st space|between the ribs"
+    },
+    "mamelon": {
+     "t": "nipple (4th space|between the ribs)"
+    },
+    "sternum": {
+     "t": "breastbone"
+    },
+    "espace6": {
+     "t": "6th space|between the ribs"
+    },
+    "xiphoide": {
+     "t": "tip of the breastbone"
+    },
+    "cote11": {
+     "t": "free end of|the 11th rib"
+    },
+    "nombril": {
+     "t": "navel"
+    },
+    "pubis": {
+     "t": "top edge of|the pubic bone"
+    }
+   }
+  },
+  "main-dos": {
+   "nom": "Back of the hand",
+   "reps": {
+    "mc2": {
+     "t": "2nd metacarpal"
+    },
+    "mc1": {
+     "t": "1st metacarpal|(thumb)"
+    },
+    "tabatiere": {
+     "t": "anatomical|snuffbox"
+    },
+    "ongle-index": {
+     "t": "corner of the|index fingernail"
+    },
+    "art-index": {
+     "t": "joint at the base|of the index finger"
+    }
+   }
+  },
+  "pied-dessus": {
+   "nom": "Top of the foot",
+   "reps": {
+    "mt12": {
+     "t": "between the 1st and|2nd metatarsals"
+    },
+    "palmure12": {
+     "t": "web between the 1st|and 2nd toes"
+    },
+    "ongle-gros": {
+     "t": "outer corner of|the big toenail"
+    },
+    "tendon-ehl": {
+     "t": "long extensor tendon|of the big toe"
+    },
+    "malleole-int": {
+     "t": "inner ankle bone"
+    },
+    "malleole-ext": {
+     "t": "outer ankle bone"
+    },
+    "mt23": {
+     "t": "between the 2nd and|3rd metatarsals"
+    },
+    "palmure23": {
+     "t": "web between the|2nd and 3rd toes"
+    },
+    "mt45": {
+     "t": "between the 4th and|5th metatarsals"
+    },
+    "palmure45": {
+     "t": "web between the|4th and 5th toes"
+    }
+   }
+  }
+ }
+}

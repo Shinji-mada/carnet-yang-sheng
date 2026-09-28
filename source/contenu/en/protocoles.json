@@ -1,0 +1,297 @@
+{
+ "fiches": [
+  {
+   "id": "2026-09-26-seance-matin",
+   "type": "protocole",
+   "date": "2026-09-26",
+   "ordre": 1,
+   "titre": "Morning session",
+   "contexte": "Spleen Qi Deficiency with Dampness, Liver Qi Stagnation, discomfort in the throat (Mei He Qi, “plum-pit throat”), nausea and fatigue.",
+   "principe": {
+    "zh": "疏肝健脾",
+    "py": "Shū gān jiàn pí",
+    "fr": "Free the Liver, strengthen the Spleen"
+   },
+   "tags": [
+    "Spleen",
+    "Liver",
+    "throat",
+    "nausea",
+    "fatigue",
+    "Dampness",
+    "Mei He Qi"
+   ],
+   "unite": "points",
+   "consigne": "Dry, without oil, for a better grip. One session a day, ideally in the morning. On paired points, the timer restarts for the other side.",
+   "note": "For nausea, PC 6 on its own, at any time.",
+   "phases": [
+    {
+     "m": "d",
+     "titre": "Disperse and move",
+     "items": [
+      {
+       "ab": "GI 4",
+       "py": "He Gu",
+       "zh": "合谷",
+       "s": 60,
+       "b": 1,
+       "loc": "Back of the hand, between the 1st and 2nd metacarpals, at the midpoint of the 2nd metacarpal on the thumb side.",
+       "act": "With LR 3 (the Four Gates): moves Qi and Blood, frees the throat, calms the mind."
+      },
+      {
+       "ab": "F 3",
+       "py": "Tai Chong",
+       "zh": "太冲",
+       "s": 60,
+       "b": 1,
+       "loc": "Top of the foot, in the hollow between the 1st and 2nd metatarsals, in front of where their bases meet.",
+       "act": "Relieves Liver Qi Stagnation, settles Liver Yang, calms the Shen (spirit)."
+      },
+      {
+       "ab": "RM 22",
+       "py": "Tian Tu",
+       "zh": "天突",
+       "s": 60,
+       "b": 0,
+       "tech": [
+        "↓",
+        "Gentle downward pressure, no rotation"
+       ],
+       "loc": "Center of the hollow above the breastbone, 0.5 cun above the top edge of the manubrium (the top of the breastbone).",
+       "act": "Makes Qi descend, loosens the throat (Mei He Qi)."
+      },
+      {
+       "ab": "MC 6",
+       "py": "Nei Guan",
+       "zh": "内关",
+       "s": 60,
+       "b": 1,
+       "loc": "Front of the forearm, 2 cun above the wrist crease, between the two tendons.",
+       "act": "Makes Stomach Qi descend (nausea), opens the chest, calms the Shen (spirit)."
+      },
+      {
+       "ab": "RM 12",
+       "py": "Zhong Wan",
+       "zh": "中脘",
+       "s": 90,
+       "b": 0,
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ],
+       "loc": "Midline, 4 cun above the navel, halfway between the navel and the base of the breastbone.",
+       "act": "Front-Mu point of the Stomach: harmonizes the Middle Burner (digestion), transforms Dampness."
+      },
+      {
+       "ab": "E 25",
+       "py": "Tian Shu",
+       "zh": "天枢",
+       "s": 60,
+       "b": 1,
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ],
+       "loc": "Level with the navel, 2 cun on each side.",
+       "act": "Front-Mu point of the Large Intestine: regulates the belly and bowel movements, drains Dampness."
+      },
+      {
+       "ab": "E 40",
+       "py": "Feng Long",
+       "zh": "丰隆",
+       "s": 60,
+       "b": 1,
+       "loc": "On the leg, halfway between the knee and the outer ankle bone, 2 finger-widths outside the crest of the shinbone.",
+       "act": "Transforms Phlegm and Dampness, soothes the throat, calms the mind."
+      },
+      {
+       "ab": "Rt 9",
+       "py": "Yin Ling Quan",
+       "zh": "阴陵泉",
+       "s": 60,
+       "b": 1,
+       "loc": "Inner side of the leg, in the hollow below the medial condyle of the tibia (the inner bump below the knee).",
+       "act": "Drains Dampness from the Lower Burner, soothes the knee."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "titre": "Tonify and ground",
+     "items": [
+      {
+       "ab": "E 36",
+       "py": "Zu San Li",
+       "zh": "足三里",
+       "s": 120,
+       "b": 1,
+       "loc": "3 cun below ST 35 (outer “eye” of the knee), 1 finger-width outside the crest of the shinbone.",
+       "act": "Tonifies the Qi and Blood of the Spleen and Stomach, fights fatigue, strengthens the knee."
+      },
+      {
+       "ab": "Rt 6",
+       "py": "San Yin Jiao",
+       "zh": "三阴交",
+       "s": 120,
+       "b": 1,
+       "loc": "3 cun above the inner ankle bone, just behind the edge of the shinbone.",
+       "act": "Nourishes Blood and Yin, tonifies the Spleen, calms the Shen (spirit) for better sleep."
+      }
+     ]
+    }
+   ],
+   "symptomes": [
+    "fatigue",
+    "nausee",
+    "gorge-serree",
+    "selles-molles",
+    "sommeil-agite",
+    "concentration"
+   ]
+  },
+  {
+   "id": "2026-09-26-seance-genoux",
+   "type": "protocole",
+   "date": "2026-09-26",
+   "ordre": 2,
+   "titre": "Knee session",
+   "contexte": "Long-standing knee pain, relieved by warmth: Cold-Damp Bi (painful obstruction).",
+   "principe": {
+    "zh": "温经通络",
+    "py": "Wēn jīng tōng luò",
+    "fr": "Warm the meridians, unblock the collaterals"
+   },
+   "tags": [
+    "knee",
+    "moxa",
+    "Bi",
+    "Cold",
+    "Dampness",
+    "tiger balm",
+    "wintergreen",
+    "liniment"
+   ],
+   "unite": "étapes",
+   "consigne": "During the day or after exercise, not right before bed. Clean, dry skin: no product before the moxa.",
+   "note": "If the tip of your tongue turns red or your sleep gets worse, shorten the moxa on ST 36.",
+   "phases": [
+    {
+     "m": "d",
+     "titre": "1. Disperse",
+     "items": [
+      {
+       "ab": "EX-LE 2",
+       "py": "He Ding",
+       "zh": "鹤顶",
+       "s": 60,
+       "b": 1,
+       "sl": [
+        "Left knee",
+        "Right knee"
+       ],
+       "loc": "Above the kneecap, in the hollow at the middle of its upper edge.",
+       "act": "Moves Qi and Blood in the knee, eases pain and stiffness."
+      },
+      {
+       "ab": "VB 34",
+       "py": "Yang Ling Quan",
+       "zh": "阳陵泉",
+       "s": 60,
+       "b": 1,
+       "loc": "Outer side of the leg, in the hollow in front of and below the head of the fibula.",
+       "act": "Hui-Meeting point of the tendons: relaxes the tendons, soothes the knee, moves Liver Qi."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "titre": "2. Warm with moxa",
+     "items": [
+      {
+       "ab": "E 35 + EX-LE 4",
+       "py": "Xi Yan",
+       "nom": "Eyes of the knee",
+       "zh": "膝眼",
+       "s": 300,
+       "b": 1,
+       "sl": [
+        "Left knee",
+        "Right knee"
+       ],
+       "tech": [
+        "♨︎",
+        "Moxa 2–3 cm (about an inch) from the skin, slow circles above both hollows. Pull it away as soon as it stings."
+       ],
+       "loc": "Knee bent, the two hollows on either side of the kneecap tendon: Du Bi on the outside, Nei Xi Yan on the inside.",
+       "act": "Expels Cold-Damp from the knee, gets things moving, calms pain."
+      },
+      {
+       "ab": "E 36",
+       "py": "Zu San Li",
+       "zh": "足三里",
+       "s": 180,
+       "b": 1,
+       "tech": [
+        "♨︎",
+        "Pecking moxa (bring it close, then away, again and again), until you feel a pleasant warmth and slight redness."
+       ],
+       "loc": "3 cun below ST 35, 1 finger-width outside the crest of the shinbone.",
+       "act": "Warms and tonifies the Spleen and Stomach, transforms Dampness at its source, strengthens the knee."
+      }
+     ]
+    },
+    {
+     "m": "d",
+     "titre": "3. Massage",
+     "items": [
+      {
+       "ab": "Soin",
+       "py": "Tui Na",
+       "nom": "Liniment massage",
+       "zh": "推拿",
+       "s": 90,
+       "b": 1,
+       "sl": [
+        "Left knee",
+        "Right knee"
+       ],
+       "tech": [
+        "◎",
+        "Circular rubbing around the kneecap, until absorbed."
+       ],
+       "loc": "Wait 2 to 3 minutes after the moxa. All around the knee, focusing on the “eyes” of the knee and the hollow behind the knee.",
+       "act": "Moves Qi and Blood, calms pain. On days without moxa, use red tiger balm instead."
+      }
+     ]
+    }
+   ],
+   "produits": [
+    {
+     "nom": "Moxa stick",
+     "texte": "First choice when warmth relieves the knee. Air out the room, keep a bowl for the ash, and put the stick out by smothering it."
+    },
+    {
+     "nom": "Zheng Gu Shui–type liniment",
+     "texte": "At the end of the session, for massage. Moves Qi and Blood, calms pain."
+    },
+    {
+     "nom": "Red tiger balm",
+     "texte": "On days without moxa, rubbed into the knee. Warming."
+    },
+    {
+     "nom": "Massage oil or olive oil",
+     "texte": "A neutral base for massaging longer, or for diluting an essential oil."
+    },
+    {
+     "nom": "Wintergreen",
+     "texte": "Only as an extra, always diluted: 2 to 3 drops in a teaspoon of oil. Never with moxa. Avoid if you take blood thinners or are allergic to aspirin."
+    }
+   ],
+   "regle": "Never put heat on a product you have just applied: moxa first, product after.",
+   "symptomes": [
+    "douleur-genou",
+    "raideur-articulaire"
+   ]
+  }
+ ]
+}

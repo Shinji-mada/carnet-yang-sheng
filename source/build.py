@@ -25,15 +25,55 @@ for name, path in [("AtkinsonHyperlegible-Regular.ttf", "atkinsonhyperlegible/At
         urllib.request.urlretrieve(GF + path, f"{FSRC}/{name}")
 
 # ---------- Contenu : fusion de source/contenu/*.json puis vérification ----------
-data = {}
+# La version anglaise superpose source/contenu/en/<même fichier>.json : même structure, textes traduits.
+# Tout ce qui manque en anglais reste en français. Les identifiants et codes ne sont jamais pris dans l'anglais.
+PROTEGE = {"id", "cat", "cle", "k", "zh", "py", "ab", "p", "m", "u", "axe", "date", "organe", "groupes", "recettes", "fiches",
+           "autres", "contre", "tab", "liste", "type", "vue", "svg", "vb", "x", "y", "rep", "regle", "lab", "voisins", "canal",
+           "defaut", "regles", "s", "b", "q", "base", "ordre", "portions", "a", "tx", "ty", "sym", "axe", "symptomes", "version", "unite"}
+def overlay(fr, en, key=None):
+    if en is None: return fr
+    if key in PROTEGE and not (isinstance(fr, list) and fr and all(isinstance(x, dict) for x in fr)) and not (key == "regle" and isinstance(fr, str)): return fr
+    if isinstance(fr, dict) and isinstance(en, dict):
+        return {k: overlay(v, en.get(k), k) for k, v in fr.items()}
+    if isinstance(fr, list) and isinstance(en, list):
+        if fr and all(isinstance(x, dict) and "id" in x for x in fr):
+            m = {x["id"]: x for x in en if isinstance(x, dict) and "id" in x}
+            return [overlay(x, m.get(x["id"])) for x in fr]
+        if len(fr) == len(en): return [overlay(a, b, key) for a, b in zip(fr, en)]
+        if all(isinstance(x, str) for x in fr + en): return en
+        return fr
+    if isinstance(fr, str) and isinstance(en, str) and en.strip(): return en
+    return fr
+def count_items(part):
+    n = 0
+    for v in part.values():
+        if isinstance(v, list): n += sum(1 for x in v if isinstance(x, dict) and "id" in x)
+        elif isinstance(v, dict): n += len(v)
+    return n
+data, data_en, en_manque = {}, {}, []
 for fn in sorted(os.listdir(f"{SRC}/contenu")):
     if not fn.endswith(".json"):
         continue
     part = json.load(open(f"{SRC}/contenu/{fn}", encoding="utf-8"))
-    for k, v in part.items():
-        if isinstance(v, list): data.setdefault(k, []).extend(v)
-        elif isinstance(v, dict): data.setdefault(k, {}).update(v)
-        else: data[k] = v
+    enp = f"{SRC}/contenu/en/{fn}"
+    en = json.load(open(enp, encoding="utf-8")) if os.path.exists(enp) else None
+    part_en = overlay(part, en) if en else part
+    if en is None: en_manque.append(fn)
+    else:
+        for k, v in part.items():
+            if isinstance(v, list) and v and all(isinstance(x, dict) and "id" in x for x in v):
+                have = {x.get("id") for x in (en.get(k) or []) if isinstance(x, dict)}
+                miss = [x["id"] for x in v if x["id"] not in have]
+                if miss: en_manque.append(f"{fn}:{k} ({len(miss)} : {', '.join(miss[:5])}{'…' if len(miss) > 5 else ''})")
+    for d, pp in ((data, part), (data_en, part_en)):
+        for k, v in pp.items():
+            if isinstance(v, list): d.setdefault(k, []).extend(v)
+            elif isinstance(v, dict): d.setdefault(k, {}).update(v)
+            else: d[k] = v
+data_en["lang"] = "en"
+# Textes de l'interface en anglais (clé = texte français tel qu'écrit dans app.js)
+ui_path = f"{SRC}/i18n/en.json"
+data_en["ui"] = json.load(open(ui_path, encoding="utf-8")) if os.path.exists(ui_path) else {}
 
 def check(data):
     errs = []
@@ -118,6 +158,12 @@ print(f"contenu : {len(data.get('symptomes', []))} symptômes, {len(data.get('po
       f"{len(data.get('tableaux', []))} tableaux, {sum(f['type']=='recette' for f in data.get('fiches', []))} recettes, "
       f"{sum(f['type']=='protocole' for f in data.get('fiches', []))} protocoles")
 css = open(f"{SRC}/app.css", encoding="utf-8").read()
+# Taille du texte réglable : chaque font-size en px est multiplié par --fs (sauf planches, sceau et animation d'ouverture)
+def scale_fonts(block):
+    sel, decl = block.group(1), block.group(2)
+    if re.search(r"\.fig-svg|\.fig-lab|\.seal|\.intro|@font-face", sel): return block.group(0)
+    return sel + "{" + re.sub(r"font-size:(\d+(?:\.\d+)?)px", r"font-size:calc(\1px*var(--fs,1))", decl) + "}"
+css = re.sub(r"([^{}]*)\{([^{}]*)\}", scale_fonts, css)
 js = open(f"{SRC}/app.js", encoding="utf-8").read()
 body = open(f"{SRC}/body.html", encoding="utf-8").read()
 
@@ -128,7 +174,7 @@ def walk(o):
         for v in o.values(): yield from walk(v)
     elif isinstance(o, list):
         for v in o: yield from walk(v)
-all_text = "".join(walk(data)) + js + body + "养生"
+all_text = "".join(walk(data)) + "".join(walk(data_en)) + js + body + "养生"
 cjk = sorted({c for c in all_text if 0x2E80 <= ord(c) <= 0x9FFF or 0xF900 <= ord(c) <= 0xFAFF})
 latin = list(range(0x20, 0x7F)) + list(range(0xA0, 0x180)) + [0x2013, 0x2014, 0x2019, 0x201C, 0x201D, 0x2026, 0x2032, 0x2212]
 os.makedirs(f"{ROOT}/build", exist_ok=True)
@@ -204,6 +250,8 @@ FB = json.load(open(fb_path, encoding="utf-8")) if os.path.exists(fb_path) else 
 js = js.replace("__FIREBASE__", json.dumps(FB, ensure_ascii=False) if FB else "null").replace("__COMPTE_URL__", COMPTE_URL)
 open(f"{DIST}/app.js", "w", encoding="utf-8").write(js)
 json.dump(data, open(f"{DIST}/data.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+json.dump(data_en, open(f"{DIST}/data-en.json", "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+if en_manque: print("anglais manquant (reste en français) :", "; ".join(en_manque))
 # Empreintes pour forcer le rechargement des fichiers modifiés après une mise à jour
 def fp(rel): return hashlib.sha1(open(f"{DIST}/{rel}", "rb").read()).hexdigest()[:8]
 CSS_URL, JS_URL = f"app.css?v={fp('app.css')}", f"app.js?v={fp('app.js')}"
@@ -224,6 +272,7 @@ index = f"""<!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
+<script>try{{var p=JSON.parse(localStorage.getItem('ys.reglages')||'{{}}')||{{}},r=document.documentElement;if(p.theme==='dark'||p.theme==='light')r.dataset.theme=p.theme;if(p.fs==='l'||p.fs==='xl')r.dataset.fs=p.fs;if(p.intro===false)r.classList.add('no-intro');if(localStorage.getItem('ys.langue')==='en')r.lang='en';}}catch(e){{}}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Carnet Yang Sheng</title>
 <meta name="description" content="{manifest['description']}">
@@ -252,7 +301,7 @@ sw = open(f"{SRC}/sw.js", encoding="utf-8").read().replace("__VERSION__", f"ys-{
 open(f"{DIST}/sw.js", "w", encoding="utf-8").write(sw)
 
 # ---------- site servi : fichiers publiés ----------
-SITE = ["index.html", "app.css", "app.js", "compte.js", "data.json", "manifest.webmanifest", "sw.js", ".nojekyll"]
+SITE = ["index.html", "app.css", "app.js", "compte.js", "data.json", "data-en.json", "manifest.webmanifest", "sw.js", ".nojekyll"]
 open(f"{DIST}/.nojekyll", "w").close()
 published = SITE + [f"{d}/{f}" for d in ("icons", "fonts") for f in sorted(os.listdir(f"{DIST}/{d}"))]
 

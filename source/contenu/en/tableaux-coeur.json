@@ -1,0 +1,585 @@
+{
+ "tableaux": [
+  {
+   "id": "c-vide-qi",
+   "organe": "coeur",
+   "nom": "Heart Qi Deficiency",
+   "zh": "心气虚",
+   "py": "Xīn qì xū",
+   "resume": "The Heart lacks strength: palpitations on exertion, shortness of breath, tiredness, sweating easily.",
+   "causes": [
+    "Grief, emotional shock",
+    "Long illness, exhaustion",
+    "General Qi Deficiency"
+   ],
+   "mecanisme": "Heart Qi makes the heart beat and moves the Blood. When it weakens, your heart races on exertion and the slightest activity leaves you out of breath and sweating.",
+   "cle": [
+    "palpitations",
+    "essoufflement",
+    "sueurs-jour",
+    "fatigue"
+   ],
+   "autres": [
+    "teint-pale",
+    "langue-pale",
+    "voix-faible",
+    "tristesse",
+    "oppression",
+    "sueurs-spontanees",
+    "indecision"
+   ],
+   "contre": [
+    "langue-rouge"
+   ],
+   "langue": "Pale.",
+   "pouls": "Empty, sometimes irregular.",
+   "principe": {
+    "zh": "补益心气",
+    "py": "Bǔ yì xīn qì",
+    "fr": "Tonify Heart Qi"
+   },
+   "consulter": "Palpitations should be checked by a doctor (electrocardiogram), especially if they are new or frequent.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "C 5",
+       "s": 90,
+       "pourquoi": "Tonifies Heart Qi."
+      },
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Opens the chest, regulates the Heart."
+      },
+      {
+       "p": "RM 17",
+       "s": 90,
+       "pourquoi": "Tonifies the Qi of the chest."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies the Qi of the whole body."
+      },
+      {
+       "p": "V 15",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Heart."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-lotus-jujube",
+    "soupe-poulet-huang-qi",
+    "congee-poulet"
+   ],
+   "privilegier": "Grains, jujubes, longans, lotus seeds, chicken, regular meals.",
+   "eviter": "Overwork, too much coffee, strenuous exertion.",
+   "conseils": [
+    "Alternate activity with real breaks during the day."
+   ],
+   "simple": "Your heart lacks energy: it races at the slightest effort and you get out of breath quickly.",
+   "reperes": [
+    "Fatigue on exertion",
+    "Palpitations",
+    "Shortness of breath",
+    "Convalescence"
+   ]
+  },
+  {
+   "id": "c-vide-sang",
+   "organe": "coeur",
+   "nom": "Heart Blood Deficiency",
+   "zh": "心血虚",
+   "py": "Xīn xuè xū",
+   "resume": "Blood no longer nourishes the mind: palpitations, trouble falling asleep, lots of dreams, poor memory.",
+   "causes": [
+    "A weak Spleen that makes little Blood",
+    "Blood loss",
+    "Worry and overwork"
+   ],
+   "mecanisme": "The mind (Shen) resides in the Heart Blood. Without enough Blood, it loses its anchor: you struggle to fall asleep, dream a lot, and your memory lets you down.",
+   "cle": [
+    "palpitations",
+    "endormissement",
+    "memoire",
+    "sommeil-agite"
+   ],
+   "autres": [
+    "anxiete",
+    "vertiges",
+    "teint-pale",
+    "langue-pale",
+    "peurs",
+    "regles-peu",
+    "concentration",
+    "humeur-variable"
+   ],
+   "contre": [
+    "langue-rouge",
+    "chaleur-corps"
+   ],
+   "langue": "Pale, a little dry.",
+   "pouls": "Thready.",
+   "principe": {
+    "zh": "养血安神",
+    "py": "Yǎng xuè ān shén",
+    "fr": "Nourish Blood, calm the mind"
+   },
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "pourquoi": "Calms the mind.",
+       "tech": [
+        "●",
+        "Gentle, still pressure, eyes closed"
+       ]
+      },
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Heart: calms the mind, helps sleep."
+      },
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Calms the mind."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen, which makes Blood."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-lotus-jujube",
+    "infusion-longane-jujube",
+    "congee-goji-sesame",
+    "foies-volaille-epinards"
+   ],
+   "privilegier": "Jujubes, longans, goji berries, eggs, spinach, grains, lotus seeds.",
+   "eviter": "Screens in the evening, eating dinner too late, coffee in the afternoon.",
+   "conseils": [
+    "Go to bed at the same time every night.",
+    "Longan and jujube tea in the late afternoon."
+   ],
+   "simple": "Your mind is no longer well nourished: light sleep, a racing heart, a failing memory, vague anxiety.",
+   "reperes": [
+    "Insomnia",
+    "Anxiety",
+    "Mild depression",
+    "Anemia",
+    "Memory problems"
+   ]
+  },
+  {
+   "id": "c-vide-yin",
+   "organe": "coeur",
+   "nom": "Heart Yin Deficiency",
+   "zh": "心阴虚",
+   "py": "Xīn yīn xū",
+   "resume": "Yin no longer holds the Heart steady: palpitations, restlessness, waking at night, night sweats, dry mouth.",
+   "causes": [
+    "Prolonged stress, overwork",
+    "Chronic lack of sleep",
+    "Kidney Yin Deficiency"
+   ],
+   "mecanisme": "Yin calms and cools the Heart. When it runs low, Deficiency Heat stirs the mind at night: waking up, sweating, a racing heart.",
+   "cle": [
+    "palpitations",
+    "reveils",
+    "sueurs-nuit",
+    "anxiete"
+   ],
+   "autres": [
+    "memoire",
+    "bouche-seche",
+    "chaleur-5-coeurs",
+    "pointe-rouge",
+    "langue-rouge-sans-enduit",
+    "pommettes-rouges",
+    "bouffees-hormono",
+    "sensible-chaleur"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
+   "langue": "Red, redder tip, little coating.",
+   "pouls": "Thready and rapid.",
+   "principe": {
+    "zh": "滋阴安神",
+    "py": "Zī yīn ān shén",
+    "fr": "Nourish Yin, calm the mind"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Calms the mind."
+      },
+      {
+       "p": "C 6",
+       "s": 90,
+       "pourquoi": "Nourishes Heart Yin, stops night sweats."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, helps sleep."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "An Mian",
+       "s": 90,
+       "pourquoi": "Helps you fall asleep."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-tremelle",
+    "congee-lotus-jujube",
+    "soupe-huitres-tofu",
+    "soupe-canard-igname"
+   ],
+   "privilegier": "Snow fungus (white wood ear), lotus seeds, pear, tofu, eggs, sesame, millet.",
+   "eviter": "Coffee, alcohol, spices, intense exercise in the evening, late-night screens.",
+   "conseils": [
+    "Cool, dark bedroom; light dinner."
+   ],
+   "simple": "Your heart overheats from exhaustion: restless nights, waking up sweaty, nervousness.",
+   "reperes": [
+    "Insomnia",
+    "Anxiety",
+    "Night sweats",
+    "Menopause",
+    "Overwork"
+   ],
+   "groupes": [
+    "menopause"
+   ]
+  },
+  {
+   "id": "c-feu",
+   "organe": "coeur",
+   "nom": "Heart Fire",
+   "zh": "心火亢盛",
+   "py": "Xīn huǒ kàng shèng",
+   "resume": "Heat agitates the Heart: restlessness, insomnia, ulcers on the tongue, thirst, dark urine.",
+   "causes": [
+    "Intense stress, strong emotions",
+    "Too much coffee, alcohol, spicy food"
+   ],
+   "mecanisme": "Fire rises to the Heart and to the tongue, its “sprout”: red tongue tip, mouth ulcers, a restless mind that can't find sleep.",
+   "cle": [
+    "aphtes",
+    "pointe-rouge",
+    "anxiete",
+    "endormissement"
+   ],
+   "autres": [
+    "soif",
+    "visage-rouge",
+    "urines-foncees",
+    "palpitations",
+    "sommeil-agite",
+    "gout-amer",
+    "pollutions-nocturnes",
+    "brulures-urinaires",
+    "mucite"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
+   "langue": "Red, redder and swollen tip, sometimes ulcerated.",
+   "pouls": "Rapid and full.",
+   "principe": {
+    "zh": "清心泻火",
+    "py": "Qīng xīn xiè huǒ",
+    "fr": "Clear the Heart, drain Fire"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "C 8",
+       "s": 60,
+       "pourquoi": "Clears Heart Fire."
+      },
+      {
+       "p": "MC 7",
+       "s": 60,
+       "pourquoi": "Clears Heat from the Heart."
+      },
+      {
+       "p": "C 7",
+       "s": 60,
+       "pourquoi": "Calms the mind."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Water to temper Fire."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "congee-lotus-jujube",
+    "infusion-chrysantheme-goji"
+   ],
+   "privilegier": "Mung beans, lotus seeds with their green germ, green vegetables, cooked cucumber.",
+   "eviter": "Coffee, alcohol, spices, screens in the evening, overwork.",
+   "conseils": [],
+   "simple": "Too much heat agitates the heart and mind: nervousness, sleepless nights, mouth ulcers.",
+   "reperes": [
+    "Intense stress",
+    "Insomnia",
+    "Mouth ulcers",
+    "Restlessness",
+    "Burning urination"
+   ]
+  },
+  {
+   "id": "coeur-rate",
+   "organe": "combines",
+   "nom": "Heart and Spleen Deficiency",
+   "zh": "心脾两虚",
+   "py": "Xīn pí liǎng xū",
+   "resume": "Worry wears out the Spleen, which no longer makes enough Blood for the Heart: tiredness, rumination, insomnia, palpitations.",
+   "causes": [
+    "Prolonged worry and rumination",
+    "Intense mental work",
+    "Irregular meals"
+   ],
+   "mecanisme": "Overthinking tires the Spleen, which makes less Blood. A poorly nourished Heart leaves the mind restless: you ruminate, sleep badly and tire quickly.",
+   "cle": [
+    "ruminations",
+    "fatigue",
+    "endormissement",
+    "palpitations"
+   ],
+   "autres": [
+    "appetit-faible",
+    "selles-molles",
+    "memoire",
+    "concentration",
+    "teint-pale",
+    "bleus-faciles",
+    "langue-pale",
+    "ballonnements",
+    "erection",
+    "ejaculation-precoce",
+    "pertes-seminales",
+    "libido",
+    "envie-sucre",
+    "fatigue-traitement"
+   ],
+   "contre": [
+    "langue-rouge"
+   ],
+   "langue": "Pale, slightly swollen.",
+   "pouls": "Thready and weak.",
+   "principe": {
+    "zh": "补益心脾",
+    "py": "Bǔ yì xīn pí",
+    "fr": "Tonify the Heart and Spleen"
+   },
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Calms the mind."
+      },
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Calms the mind, harmonizes the Stomach."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Strengthens the center."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood, calms the mind."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-lotus-jujube",
+    "infusion-longane-jujube",
+    "congee-millet-patate-douce",
+    "congee-qian-shi"
+   ],
+   "privilegier": "Lotus seeds, longans, jujubes, millet, rice, sweet potato, chicken.",
+   "eviter": "Eating while working, skipping meals, too much sugar.",
+   "conseils": [
+    "Write your worries down on paper before bed to set them aside."
+   ],
+   "etiquette": "Heart · Spleen",
+   "groupes": [
+    "homme",
+    "menopause"
+   ],
+   "simple": "Too much worry and fatigue: your mind never stops, you sleep badly, you digest badly.",
+   "reperes": [
+    "Depression",
+    "Burnout",
+    "Insomnia",
+    "Chronic fatigue",
+    "Anxiety",
+    "Anemia"
+   ]
+  },
+  {
+   "id": "coeur-rein",
+   "organe": "combines",
+   "nom": "Heart and Kidney Not Communicating",
+   "zh": "心肾不交",
+   "py": "Xīn shèn bù jiāo",
+   "resume": "Heart Fire is no longer tempered by Kidney Water: insomnia, palpitations, night sweats, weak lower back.",
+   "causes": [
+    "Prolonged overwork and lack of sleep",
+    "Kidney Yin Deficiency",
+    "Chronic anxiety"
+   ],
+   "mecanisme": "Kidney Water should rise to cool the Heart, and Heart Fire should descend to warm the Kidney. When this exchange breaks down, the top overheats (restlessness, insomnia) and the bottom weakens (lower back, tinnitus).",
+   "cle": [
+    "endormissement",
+    "reveils",
+    "genoux-faibles",
+    "sueurs-nuit"
+   ],
+   "autres": [
+    "palpitations",
+    "anxiete",
+    "memoire",
+    "acouphenes-faibles",
+    "chaleur-5-coeurs",
+    "pointe-rouge",
+    "langue-rouge-sans-enduit",
+    "bouche-seche",
+    "pollutions-nocturnes",
+    "pertes-seminales",
+    "libido-excessive",
+    "ejaculation-precoce",
+    "chaleur-corps",
+    "bouffees-hormono"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
+   "langue": "Red, redder tip, no coating.",
+   "pouls": "Thready and rapid.",
+   "principe": {
+    "zh": "交通心肾",
+    "py": "Jiāo tōng xīn shèn",
+    "fr": "Restore the exchange between the Heart and Kidney"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Calms the mind."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, helps sleep."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "Rn 1",
+       "s": 120,
+       "pourquoi": "Brings down what rises, grounds you before sleep."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-lotus-jujube",
+    "soupe-tremelle",
+    "congee-haricots-noirs",
+    "soupe-huitres-tofu",
+    "congee-qian-shi",
+    "huitres-gingembre"
+   ],
+   "privilegier": "Lotus seeds, black beans, black sesame, snow fungus (tremella), millet.",
+   "eviter": "Coffee, alcohol, spices, screens and intense exercise in the evening.",
+   "conseils": [
+    "Hot foot bath, then massage KI 1 before bed."
+   ],
+   "etiquette": "Heart · Kidney",
+   "groupes": [
+    "homme",
+    "menopause"
+   ],
+   "simple": "Your body is exhausted and your mind too active: sleepless nights, a racing heart, hot flashes.",
+   "reperes": [
+    "Insomnia",
+    "Anxiety",
+    "Menopause",
+    "Overwork",
+    "Nocturnal emissions"
+   ]
+  }
+ ]
+}

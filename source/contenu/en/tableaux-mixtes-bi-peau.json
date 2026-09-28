@@ -1,0 +1,1334 @@
+{
+ "tableaux": [
+  {
+   "id": "qi-sang",
+   "organe": "qi-sang",
+   "nom": "Qi and Blood Deficiency",
+   "zh": "气血两虚",
+   "py": "Qì xuè liǎng xū",
+   "resume": "Energy and Blood are both lacking: deep tiredness, paleness, dizziness, shortness of breath, palpitations.",
+   "causes": [
+    "Long illness, convalescence",
+    "Blood loss, childbirth",
+    "Inadequate diet, overwork"
+   ],
+   "mecanisme": "Qi makes Blood and moves it along, and Blood nourishes Qi. When one runs low, the other follows: you wear out, turn pale, your head spins.",
+   "cle": [
+    "fatigue",
+    "teint-pale",
+    "vertiges",
+    "langue-pale"
+   ],
+   "autres": [
+    "palpitations",
+    "essoufflement",
+    "voix-faible",
+    "regles-peu",
+    "chute-cheveux",
+    "engourdissements",
+    "sueurs-jour",
+    "memoire",
+    "cephalee-sourde",
+    "mouches-volantes",
+    "constipation-effort",
+    "peau-terne",
+    "fatigue-matin",
+    "sueurs-spontanees",
+    "fatigue-traitement",
+    "neuropathie",
+    "deformations",
+    "jambes-faibles",
+    "desequilibre",
+    "sensible-chaleur",
+    "amaigrissement",
+    "pesanteur",
+    "cheveux-blancs",
+    "ongles-cassants",
+    "crampes"
+   ],
+   "contre": [
+    "langue-rouge",
+    "chaleur-corps"
+   ],
+   "langue": "Pale, thin.",
+   "pouls": "Thready and weak.",
+   "principe": {
+    "zh": "气血双补",
+    "py": "Qì xuè shuāng bǔ",
+    "fr": "Tonify Qi and Blood together"
+   },
+   "moxa": "Gentle moxa is fine on ST 36 and CV 6.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Qi and Blood."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifies Qi."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes Blood."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen, the source of Qi and Blood."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "congee-goji-sesame",
+    "agneau-dang-gui",
+    "boeuf-carottes-dattes",
+    "saumon-patate-douce",
+    "poulpe-pommes-de-terre",
+    "boeuf-brocoli",
+    "foies-volaille-epinards"
+   ],
+   "privilegier": "Broths, jujubes, goji berries, eggs, meat in small amounts, grains, legumes.",
+   "eviter": "Restrictive diets, overwork, skipping meals.",
+   "conseils": [
+    "A blood test (iron, ferritin, B12) can rule out anemia."
+   ],
+   "simple": "Your body lacks both energy and blood: deep tiredness, paleness, dizziness.",
+   "reperes": [
+    "Anemia",
+    "Chronic fatigue",
+    "Convalescence",
+    "After childbirth",
+    "Hair loss"
+   ]
+  },
+  {
+   "id": "foie-rein-yin",
+   "organe": "combines",
+   "nom": "Liver and Kidney Yin Deficiency",
+   "zh": "肝肾阴虚",
+   "py": "Gān shèn yīn xū",
+   "resume": "The Liver and Kidney lack Yin: dry eyes, dizziness, tinnitus, weak lower back, feeling warm in the evening.",
+   "causes": [
+    "Overwork, lack of sleep",
+    "Age, menopause",
+    "Chronic illness"
+   ],
+   "mecanisme": "The Liver and Kidney share the same source. When their Yin drops, the eyes and head dry out and heat up, and the lower body weakens.",
+   "cle": [
+    "yeux-secs",
+    "vertiges",
+    "genoux-faibles",
+    "sueurs-nuit"
+   ],
+   "autres": [
+    "acouphenes-faibles",
+    "vision-floue",
+    "chaleur-5-coeurs",
+    "bouche-seche",
+    "reveils",
+    "regles-peu",
+    "cephalee-sourde",
+    "langue-rouge-sans-enduit",
+    "secheresse-intime",
+    "audition",
+    "mouches-volantes",
+    "douleur-genou",
+    "tremblements",
+    "cycles-irreguliers",
+    "chaleur-corps",
+    "bouffees-hormono",
+    "deformations",
+    "jambes-faibles",
+    "spasticite",
+    "lhermitte",
+    "vision-double",
+    "desequilibre",
+    "sensible-chaleur",
+    "fievre-apres-midi",
+    "cheveux-blancs",
+    "ongles-cassants",
+    "articulations-chaudes",
+    "crampes"
+   ],
+   "contre": [
+    "frilosite",
+    "langue-pale",
+    "enduit-blanc-epais"
+   ],
+   "langue": "Red, no coating.",
+   "pouls": "Thready and rapid.",
+   "principe": {
+    "zh": "滋补肝肾",
+    "py": "Zī bǔ gān shèn",
+    "fr": "Nourish the Liver and Kidney"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourishes the Liver."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, moistens the eyes."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes the Kidney."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-goji-sesame",
+    "congee-haricots-noirs",
+    "infusion-chrysantheme-goji",
+    "calamars-celeri",
+    "soupe-huitres-tofu",
+    "soupe-canard-igname",
+    "bouillon-os-boeuf",
+    "creme-sesame-noix"
+   ],
+   "privilegier": "Goji berries, black sesame, black beans, snow fungus (tremella), eggs, pear, chrysanthemum.",
+   "eviter": "Late-night screens, spicy food, alcohol, staying up late.",
+   "conseils": [],
+   "etiquette": "Liver · Kidney",
+   "simple": "Deep exhaustion: dry eyes, dizziness, tinnitus, weak lower back, feeling warm in the evening.",
+   "reperes": [
+    "Menopause",
+    "Tinnitus",
+    "Dry eyes",
+    "Aging",
+    "High blood pressure"
+   ],
+   "groupes": [
+    "menopause"
+   ]
+  },
+  {
+   "id": "rate-rein-yang",
+   "organe": "combines",
+   "nom": "Spleen and Kidney Yang Deficiency",
+   "zh": "脾肾阳虚",
+   "py": "Pí shèn yáng xū",
+   "resume": "Cold reaches your digestion and the depths of your body: diarrhea at dawn, cold belly and lower back, swelling (edema).",
+   "causes": [
+    "Established Spleen Yang Deficiency",
+    "Age, chronic cold"
+   ],
+   "mecanisme": "Kidney Yang lights the fire that lets the Spleen digest. When both weaken, the whole lower body cools down and water stagnates.",
+   "cle": [
+    "diarrhee-matin",
+    "frilosite",
+    "aliments-non-digeres",
+    "genoux-faibles"
+   ],
+   "autres": [
+    "oedeme",
+    "urines-claires",
+    "fatigue",
+    "lombalgie-sourde",
+    "douleur-ventre-froid",
+    "langue-pale",
+    "langue-gonflee",
+    "douleur-genou",
+    "froid-dos",
+    "froid-genital",
+    "mictions-frequentes",
+    "poids-facile",
+    "fatigue-matin",
+    "jambes-faibles",
+    "paupieres-gonflees"
+   ],
+   "contre": [
+    "chaleur-corps",
+    "langue-rouge",
+    "diarrhee-chaude"
+   ],
+   "langue": "Pale, swollen, moist.",
+   "pouls": "Deep, slow and weak.",
+   "principe": {
+    "zh": "温补脾肾",
+    "py": "Wēn bǔ pí shèn",
+    "fr": "Warm the Spleen and Kidney"
+   },
+   "moxa": "Moxa recommended.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Spleen."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Kidney."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Warms the Kidney."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Warms the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "agneau-dang-gui",
+    "crevettes-poireau-noix",
+    "congee-courge-carotte",
+    "infusion-gingembre-cannelle",
+    "soupe-mouton-radis",
+    "crevettes-ciboule-oeufs",
+    "poulet-chataignes"
+   ],
+   "privilegier": "Slow-cooked dishes, ginger, cinnamon, leek, walnuts, lamb, rice, squash.",
+   "eviter": "Anything cold or raw, ice cream, sodas.",
+   "conseils": [
+    "Hot-water bottle on your belly and lower back in the evening."
+   ],
+   "etiquette": "Spleen · Kidney",
+   "simple": "Your body lacks warmth: diarrhea on waking, cold belly and lower back, swollen legs.",
+   "reperes": [
+    "Chronic diarrhea",
+    "Sensitivity to cold",
+    "Edema",
+    "Hypothyroidism",
+    "Deep fatigue"
+   ]
+  },
+  {
+   "id": "poumon-rate-qi",
+   "organe": "combines",
+   "nom": "Lung and Spleen Qi Deficiency",
+   "zh": "肺脾气虚",
+   "py": "Fèi pí qì xū",
+   "resume": "Spleen and Lung weak together: tiredness, clear phlegm, poor appetite, one cold after another.",
+   "causes": [
+    "A weak Spleen that no longer nourishes the Lung",
+    "Chronic coughs",
+    "Cold and raw diet"
+   ],
+   "mecanisme": "The Spleen (Earth) nourishes the Lung (Metal). When the Spleen weakens, the Lung follows: you digest poorly and catch colds easily.",
+   "cle": [
+    "fatigue",
+    "rhumes-frequents",
+    "appetit-faible",
+    "toux-glaires-blanches"
+   ],
+   "autres": [
+    "selles-molles",
+    "voix-faible",
+    "sueurs-jour",
+    "essoufflement",
+    "langue-pale",
+    "langue-gonflee",
+    "toux-faible",
+    "sueurs-spontanees",
+    "fatigue-traitement",
+    "nez-clair"
+   ],
+   "contre": [
+    "langue-rouge",
+    "toux-glaires-jaunes"
+   ],
+   "langue": "Pale, swollen.",
+   "pouls": "Empty.",
+   "principe": {
+    "zh": "补肺健脾",
+    "py": "Bǔ fèi jiàn pí",
+    "fr": "Tonify the Lung, strengthen the Spleen"
+   },
+   "moxa": "Moxa is fine on ST 36.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifies the Lung."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Tonifies the Spleen."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Earth nourishes Metal."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Strengthens the center."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Lung."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-shan-yao",
+    "soupe-poulet-huang-qi",
+    "congee-millet-patate-douce",
+    "poulet-shiitake",
+    "congee-poulet"
+   ],
+   "privilegier": "Chinese yam, rice, millet, chicken, mushrooms, cooked vegetables.",
+   "eviter": "Dairy, sugar, raw food, cold food.",
+   "conseils": [],
+   "etiquette": "Lung · Spleen",
+   "simple": "Weak defenses and weak digestion together: you catch everything, get out of breath, digest poorly.",
+   "reperes": [
+    "Recurrent colds",
+    "Low immune defenses",
+    "Chronic bronchitis",
+    "Allergies",
+    "Fatigue"
+   ]
+  },
+  {
+   "id": "stase-sang",
+   "organe": "qi-sang",
+   "nom": "Blood Stasis",
+   "zh": "血瘀",
+   "py": "Xuè yū",
+   "resume": "Blood circulates poorly and congeals: fixed, stabbing pain, painful periods with clots, dark complexion, purplish tongue.",
+   "causes": [
+    "Long-standing Qi Stagnation",
+    "Cold that congeals Blood",
+    "Injury, surgery"
+   ],
+   "mecanisme": "“Where Qi goes, Blood follows.” If Qi stagnates or cold congeals it, Blood slows down and comes to a standstill: the pain becomes fixed and stabbing, and periods fill with clots.",
+   "cle": [
+    "douleur-fixe",
+    "langue-violacee",
+    "caillots"
+   ],
+   "autres": [
+    "regles-douloureuses",
+    "teint-sombre",
+    "bleus-faciles",
+    "engourdissements",
+    "fertilite",
+    "douleur-genou",
+    "peau-terne",
+    "douleur-omoplates",
+    "omoplate-hypocondre",
+    "gynecomastie",
+    "verrues-genitales",
+    "neuropathie",
+    "raideur-matinale",
+    "mains-gonflees",
+    "deformations",
+    "spasticite",
+    "lhermitte",
+    "regles-abondantes"
+   ],
+   "contre": [],
+   "langue": "Purplish or with dark spots, swollen veins under the tongue.",
+   "pouls": "Choppy or wiry.",
+   "principe": {
+    "zh": "活血化瘀",
+    "py": "Huó xuè huà yū",
+    "fr": "Invigorate Blood, dissolve stasis"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Gets Blood moving."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Gets Blood moving in the lower belly."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "With LR 3, gets Qi and Blood moving."
+      },
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Frees Qi, which carries Blood along."
+      },
+      {
+       "p": "V 17",
+       "s": 60,
+       "pourquoi": "Influential (Meeting) point of Blood."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "agneau-dang-gui",
+    "infusion-rose-orange",
+    "veloute-betterave-lentilles",
+    "champignons-noirs"
+   ],
+   "privilegier": "Daily movement, beets, onion, chives, rosebuds, turmeric, a little rice vinegar.",
+   "eviter": "Cold, a sedentary lifestyle, sitting for hours.",
+   "conseils": [
+    "Move every day: stasis dissolves with movement."
+   ],
+   "groupes": [
+    "femme"
+   ],
+   "simple": "Your blood circulates poorly: fixed, stabbing pain, periods with clots, dull complexion.",
+   "reperes": [
+    "Endometriosis",
+    "Painful periods",
+    "Chronic pain",
+    "Varicose veins",
+    "Aftermath of a fall or blow"
+   ]
+  },
+  {
+   "id": "froid-uterus",
+   "organe": "femme",
+   "nom": "Cold in the Uterus",
+   "zh": "寒凝胞宫",
+   "py": "Hán níng bāo gōng",
+   "resume": "Cold congeals Blood in the lower belly: very painful periods relieved by warmth, clots, long cycles.",
+   "causes": [
+    "A chill caught in the belly during a period",
+    "Iced drinks",
+    "Weak Kidney Yang"
+   ],
+   "mecanisme": "Cold contracts and congeals the Blood of the Uterus: periods become painful, late, with clots, and warmth clearly brings relief.",
+   "cle": [
+    "regles-douloureuses",
+    "douleur-ventre-froid",
+    "caillots"
+   ],
+   "autres": [
+    "regles-retard",
+    "frilosite",
+    "pertes-blanches",
+    "langue-pale",
+    "langue-violacee",
+    "libido",
+    "fertilite",
+    "douleur-fixe"
+   ],
+   "contre": [
+    "pertes-jaunes",
+    "langue-rouge",
+    "regles-avance"
+   ],
+   "langue": "Pale or purplish, white coating.",
+   "pouls": "Deep and tight.",
+   "principe": {
+    "zh": "温经散寒",
+    "py": "Wēn jīng sàn hán",
+    "fr": "Warm the meridians, disperse Cold"
+   },
+   "moxa": "Moxa or a hot-water bottle recommended, except when periods are heavy.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 8",
+       "s": 60,
+       "pourquoi": "Relieves painful periods."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Gets Blood moving in the lower belly."
+      },
+      {
+       "p": "Zi Gong",
+       "s": 60,
+       "pourquoi": "Regulates the uterus."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Warms the Uterus."
+      },
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Warms and gets Qi moving."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "agneau-dang-gui",
+    "infusion-gingembre-cannelle",
+    "agneau-fenouil"
+   ],
+   "privilegier": "Ginger, cinnamon, lamb, slow-cooked dishes, hot drinks.",
+   "eviter": "Cold drinks, ice cream, swimming in cold water during your period.",
+   "conseils": [
+    "Hot-water bottle on your lower belly during your period.",
+    "Start the points a few days before your period."
+   ],
+   "simple": "Cold has settled in your belly: very painful periods, eased by a hot-water bottle.",
+   "reperes": [
+    "Painful periods",
+    "Dysmenorrhea",
+    "Difficulty conceiving",
+    "Long cycles"
+   ]
+  },
+  {
+   "id": "bi-vent",
+   "organe": "bi",
+   "nom": "Wind Bi: pain that moves around",
+   "zh": "行痹",
+   "py": "Xíng bì",
+   "resume": "Wind dominates: joint pain moves from one place to another from day to day.",
+   "causes": [
+    "Exposure to wind and drafts",
+    "Not enough Blood to nourish the joints"
+   ],
+   "mecanisme": "Wind is mobile: it makes the pain travel from one joint to another.",
+   "cle": [
+    "douleurs-migrantes"
+   ],
+   "autres": [
+    "nuque-raide",
+    "raideur-articulaire",
+    "aversion-froid",
+    "douleur-genou",
+    "cephalee-nuque",
+    "douleur-omoplates",
+    "raideur-matinale"
+   ],
+   "contre": [
+    "articulations-chaudes"
+   ],
+   "langue": "Thin white coating.",
+   "pouls": "Floating.",
+   "principe": {
+    "zh": "祛风通络",
+    "py": "Qū fēng tōng luò",
+    "fr": "Expel Wind, unblock the collaterals"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 90,
+       "b": 0,
+       "pourquoi": "Unblocks the area that hurts today."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Expels Wind."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "“To treat Wind, first treat the Blood.”"
+      },
+      {
+       "p": "V 17",
+       "s": 60,
+       "pourquoi": "Nourishes Blood and gets it moving."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-goji-sesame",
+    "infusion-gingembre-cannelle",
+    "champignons-noirs"
+   ],
+   "privilegier": "Warm dishes, foods that nourish Blood.",
+   "eviter": "Drafts, air conditioning blowing on you.",
+   "conseils": [],
+   "simple": "Joint pain that moves around from one day to the next.",
+   "reperes": [
+    "Rheumatism",
+    "Widespread joint pain",
+    "Stiff neck",
+    "Muscle aches"
+   ]
+  },
+  {
+   "id": "bi-froid",
+   "organe": "bi",
+   "nom": "Cold Bi: sharp pain relieved by warmth",
+   "zh": "痛痹",
+   "py": "Tòng bì",
+   "resume": "Cold blocks a joint: sharp, fixed pain, clearly relieved by warmth, worse in cold weather.",
+   "causes": [
+    "Repeated cold and damp",
+    "Weak Yang"
+   ],
+   "mecanisme": "Cold contracts and blocks: the pain is intense, localized, and melts away with warmth.",
+   "cle": [
+    "douleurs-froid",
+    "raideur-articulaire"
+   ],
+   "autres": [
+    "frilosite",
+    "douleur-genou",
+    "lombalgie-sourde",
+    "langue-pale",
+    "douleur-fixe",
+    "douleur-omoplates",
+    "raideur-matinale"
+   ],
+   "contre": [
+    "articulations-chaudes"
+   ],
+   "langue": "Pale, white coating.",
+   "pouls": "Wiry and tight.",
+   "principe": {
+    "zh": "温经散寒",
+    "py": "Wēn jīng sàn hán",
+    "fr": "Warm the meridians, disperse Cold"
+   },
+   "moxa": "Moxa recommended on the painful area.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 90,
+       "b": 0,
+       "pourquoi": "Unblocks the painful area."
+      },
+      {
+       "p": "VB 34",
+       "s": 60,
+       "pourquoi": "Relaxes the tendons."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 300,
+       "b": 0,
+       "pourquoi": "Warmth dissolves local Cold."
+      },
+      {
+       "p": "E 36",
+       "s": 180,
+       "pourquoi": "Strengthens Yang and Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "agneau-dang-gui",
+    "infusion-gingembre-cannelle",
+    "soupe-mouton-radis",
+    "poulet-chataignes",
+    "bouillon-os-boeuf"
+   ],
+   "privilegier": "Ginger, cinnamon, slow-cooked dishes, lamb, hot baths.",
+   "eviter": "Cold, damp, iced drinks.",
+   "conseils": [
+    "Alternate a brief cold bath with a long hot bath if it brings you relief, and always finish with hot."
+   ],
+   "fiches": [
+    "2026-09-26-seance-genoux"
+   ],
+   "simple": "A joint blocked by cold: sharp pain, relieved by warmth.",
+   "reperes": [
+    "Osteoarthritis",
+    "Rheumatism",
+    "Lumbago",
+    "Frozen shoulder",
+    "Pain in the cold"
+   ]
+  },
+  {
+   "id": "bi-humidite",
+   "organe": "bi",
+   "nom": "Damp Bi: heavy, swollen joints",
+   "zh": "着痹",
+   "py": "Zhuó bì",
+   "resume": "Dampness weighs down the joints: swelling, heaviness, numbness, worse in damp weather.",
+   "causes": [
+    "Damp places",
+    "A weak Spleen that produces Dampness"
+   ],
+   "mecanisme": "Dampness is heavy and sticky: it builds up in the joint, which swells and feels heavy.",
+   "cle": [
+    "articulations-lourdes",
+    "lourdeur"
+   ],
+   "autres": [
+    "engourdissements",
+    "douleur-genou",
+    "enduit-blanc-epais",
+    "langue-gonflee",
+    "douleurs-froid",
+    "douleur-fixe",
+    "neuropathie",
+    "raideur-matinale",
+    "mains-gonflees",
+    "douleurs-migrantes",
+    "raideur-articulaire"
+   ],
+   "contre": [
+    "articulations-chaudes"
+   ],
+   "langue": "Greasy white coating.",
+   "pouls": "Slippery.",
+   "principe": {
+    "zh": "除湿通络",
+    "py": "Chú shī tōng luò",
+    "fr": "Eliminate Dampness, unblock the collaterals"
+   },
+   "moxa": "Moxa is fine.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 90,
+       "b": 0,
+       "pourquoi": "Unblocks the painful area."
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen, which transforms Dampness."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-orge-azuki",
+    "infusion-chen-pi",
+    "soupe-poisson-azuki"
+   ],
+   "privilegier": "Pearl barley, adzuki beans, ginger, cooked grains.",
+   "eviter": "Dairy, sugar, fatty food, damp places.",
+   "conseils": [],
+   "fiches": [
+    "2026-09-26-seance-genoux"
+   ],
+   "simple": "Heavy, swollen joints, worse in damp weather.",
+   "reperes": [
+    "Osteoarthritis",
+    "Swollen knee",
+    "Rheumatism",
+    "Morning stiffness"
+   ]
+  },
+  {
+   "id": "bi-chaleur",
+   "organe": "bi",
+   "nom": "Heat Bi: hot joints",
+   "zh": "热痹",
+   "py": "Rè bì",
+   "resume": "The joint is red, hot, swollen and very painful, sometimes with fever.",
+   "causes": [
+    "External Heat",
+    "Long-standing Bi that heats up"
+   ],
+   "mecanisme": "Heat inflames the joint: redness, heat, swelling and sharp pain.",
+   "cle": [
+    "articulations-chaudes"
+   ],
+   "autres": [
+    "fievre",
+    "soif",
+    "langue-rouge",
+    "enduit-jaune",
+    "douleur-genou",
+    "douleurs-migrantes",
+    "articulations-lourdes",
+    "mains-gonflees"
+   ],
+   "contre": [
+    "douleurs-froid",
+    "frilosite"
+   ],
+   "langue": "Red, yellow coating.",
+   "pouls": "Rapid.",
+   "principe": {
+    "zh": "清热通络",
+    "py": "Qīng rè tōng luò",
+    "fr": "Clear Heat, unblock the collaterals"
+   },
+   "consulter": "A red, hot, swollen joint must be seen by a doctor quickly, especially with fever.",
+   "moxa": "No moxa and no heat.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Calms pain."
+      },
+      {
+       "p": "VG 14",
+       "s": 60,
+       "pourquoi": "Brings heat down."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "congee-orge-azuki"
+   ],
+   "privilegier": "Mung beans, celery, green vegetables, pearl barley.",
+   "eviter": "Alcohol, spicy food, red meat, local heat.",
+   "conseils": [
+    "Don't massage the inflamed joint directly."
+   ],
+   "simple": "A red, hot, swollen joint that is very painful.",
+   "reperes": [
+    "Gout attack",
+    "Arthritis",
+    "Inflammatory flare-up",
+    "Acute tendinitis"
+   ]
+  },
+  {
+   "id": "peau-vent-chaleur",
+   "organe": "peau",
+   "nom": "Wind-Heat in the Skin",
+   "zh": "风热郁肤",
+   "py": "Fēng rè yù fū",
+   "resume": "Wind and Heat agitate the skin: red patches that appear and disappear quickly, intense itching.",
+   "causes": [
+    "External Heat and Wind",
+    "Heating foods",
+    "Underlying Blood Heat"
+   ],
+   "mecanisme": "Wind makes the patches mobile and sudden; Heat makes them red and itchy.",
+   "cle": [
+    "plaques-rouges",
+    "demangeaisons"
+   ],
+   "autres": [
+    "gorge-mal",
+    "soif",
+    "langue-rouge",
+    "pointe-rouge",
+    "paupieres-gonflees"
+   ],
+   "contre": [
+    "peau-seche",
+    "langue-pale"
+   ],
+   "langue": "Red tip, thin coating.",
+   "pouls": "Floating and rapid.",
+   "principe": {
+    "zh": "疏风清热止痒",
+    "py": "Shū fēng qīng rè zhǐ yǎng",
+    "fr": "Expel Wind, clear Heat, calm itching"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat, calms itching."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Cools the Blood."
+      },
+      {
+       "p": "Bai Chong Wo",
+       "s": 60,
+       "pourquoi": "Calms itching."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Expels Wind."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "infusion-menthe-chrysantheme"
+   ],
+   "privilegier": "Mung beans, cooked cucumber, green vegetables, water.",
+   "eviter": "Seafood, alcohol, spicy food, foods that have already triggered a reaction in you.",
+   "conseils": [],
+   "simple": "Itchy red patches that come and go quickly.",
+   "reperes": [
+    "Hives",
+    "Skin allergy",
+    "Itching",
+    "Reaction to an insect bite"
+   ]
+  },
+  {
+   "id": "peau-humidite-chaleur",
+   "organe": "peau",
+   "nom": "Damp-Heat in the Skin",
+   "zh": "湿热浸淫",
+   "py": "Shī rè jìn yín",
+   "resume": "Dampness and Heat rise to the skin: weeping eczema, redness, itching, sometimes small blisters.",
+   "causes": [
+    "Fatty, sugary food, alcohol",
+    "Weak Spleen",
+    "Hot, humid weather"
+   ],
+   "mecanisme": "Dampness makes the skin weep; Heat makes it red and itchy: the skin becomes moist and inflamed.",
+   "cle": [
+    "eczema-suintant",
+    "demangeaisons",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "lourdeur",
+    "diarrhee-chaude",
+    "urines-foncees",
+    "bouche-pateuse",
+    "boutons-pus",
+    "vesicules-genitales",
+    "plaie-genitale",
+    "plaques-rouges"
+   ],
+   "contre": [
+    "peau-seche"
+   ],
+   "langue": "Greasy yellow coating.",
+   "pouls": "Slippery and rapid.",
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clear Heat, drain Dampness"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Cools the Blood."
+      },
+      {
+       "p": "Bai Chong Wo",
+       "s": 60,
+       "pourquoi": "Calms itching."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-orge-azuki",
+    "soupe-mungo",
+    "bouillon-concombre-wakame"
+   ],
+   "privilegier": "Pearl barley, mung and adzuki beans, cooked green vegetables.",
+   "eviter": "Sugar, dairy, alcohol, fried food, spicy food.",
+   "conseils": [
+    "Don't scratch: pat the skin or apply gentle cold."
+   ],
+   "simple": "The skin weeps, turns red and itches.",
+   "reperes": [
+    "Weeping eczema",
+    "Dermatitis",
+    "Fungal skin infection",
+    "Intertrigo"
+   ]
+  },
+  {
+   "id": "peau-vide-sang",
+   "organe": "peau",
+   "nom": "Dry Skin from Blood Deficiency",
+   "zh": "血虚风燥",
+   "py": "Xuè xū fēng zào",
+   "resume": "Blood no longer nourishes the skin: dry skin that itches, especially in the evening, without much redness.",
+   "causes": [
+    "Blood Deficiency",
+    "Age",
+    "Hot showers and harsh soaps"
+   ],
+   "mecanisme": "Blood moistens the skin. When it runs low, the skin dries out and an “internal Wind” makes it itch.",
+   "cle": [
+    "peau-seche",
+    "demangeaisons"
+   ],
+   "autres": [
+    "teint-pale",
+    "ongles-cassants",
+    "chute-cheveux",
+    "langue-pale",
+    "vertiges",
+    "peau-terne",
+    "peau-radiotherapie"
+   ],
+   "contre": [
+    "eczema-suintant",
+    "enduit-jaune"
+   ],
+   "langue": "Pale, dry.",
+   "pouls": "Thready.",
+   "principe": {
+    "zh": "养血润燥祛风",
+    "py": "Yǎng xuè rùn zào qū fēng",
+    "fr": "Nourish Blood, moisten, calm Wind"
+   },
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 10",
+       "s": 90,
+       "pourquoi": "Nourishes and regulates Blood."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the source of Blood."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourishes Liver Blood."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-goji-sesame",
+    "soupe-epinards-oeuf",
+    "soupe-tremelle",
+    "saumon-patate-douce",
+    "foies-volaille-epinards"
+   ],
+   "privilegier": "Sesame, goji berries, jujubes, eggs, spinach, good oils.",
+   "eviter": "Long, hot showers, harsh soaps.",
+   "conseils": [
+    "Take short, lukewarm showers and moisturize your skin right after."
+   ],
+   "simple": "Your skin is dry and itchy, especially in the evening, without much redness.",
+   "reperes": [
+    "Dry skin",
+    "Dry eczema",
+    "Itching in older people",
+    "Psoriasis"
+   ]
+  },
+  {
+   "id": "peau-chaleur-sang",
+   "organe": "peau",
+   "nom": "Blood Heat: acne and red spots",
+   "zh": "血热",
+   "py": "Xuè rè",
+   "resume": "Heat in the Blood comes out through the skin: red spots, sometimes with pus, skin that feels hot.",
+   "causes": [
+    "Fatty, sugary, spicy food",
+    "Stress (Liver Fire)",
+    "Hormonal tendency"
+   ],
+   "mecanisme": "Heat carried by the Blood rises to the face and upper back and breaks out as red spots.",
+   "cle": [
+    "acne",
+    "boutons-pus"
+   ],
+   "autres": [
+    "visage-rouge",
+    "soif",
+    "constipation-seche",
+    "langue-rouge",
+    "urines-foncees",
+    "regles-avance",
+    "irritabilite",
+    "plaques-rouges",
+    "regles-rouge-vif",
+    "peau-radiotherapie",
+    "orgelet"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
+   "langue": "Red.",
+   "pouls": "Rapid.",
+   "principe": {
+    "zh": "清热凉血",
+    "py": "Qīng rè liáng xuè",
+    "fr": "Clear Heat, cool the Blood"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Soothes the face."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Cools the Blood."
+      },
+      {
+       "p": "V 40",
+       "s": 60,
+       "pourquoi": "Cools the Blood."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "infusion-chrysantheme-goji",
+    "saute-celeri-tofu"
+   ],
+   "privilegier": "Green vegetables, mung beans, celery, cooked cucumber, water.",
+   "eviter": "Sugar, fried food, chocolate, spicy food, alcohol, dairy.",
+   "conseils": [
+    "Don't squeeze your spots."
+   ],
+   "simple": "Heat in the blood comes out on the skin: red spots, sometimes with pus.",
+   "reperes": [
+    "Acne",
+    "Boils",
+    "Rosacea",
+    "Psoriasis flare-up"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,736 @@
+{
+ "tableaux": [
+  {
+   "id": "f-stagnation-qi",
+   "organe": "foie",
+   "nom": "Liver Qi Stagnation",
+   "zh": "肝气郁结",
+   "py": "Gān qì yù jié",
+   "resume": "Stress and held-in emotions block the free flow of Qi: tension, sighing, a tight throat, changeable mood.",
+   "causes": [
+    "Stress, frustration, held-in anger",
+    "Lack of movement",
+    "Meals eaten under tension"
+   ],
+   "mecanisme": "The Liver keeps Qi flowing freely. When emotions block it, Qi gets stuck: under the ribs, in the throat, in the breasts before a period, and it upsets your mood.",
+   "cle": [
+    "irritabilite",
+    "soupirs",
+    "douleur-cotes",
+    "humeur-variable"
+   ],
+   "autres": [
+    "gorge-serree",
+    "spm",
+    "alternance",
+    "ballonnements",
+    "regles-douloureuses",
+    "regles-retard",
+    "oppression",
+    "eructations",
+    "erection",
+    "libido",
+    "douleur-testicules",
+    "cycles-irreguliers",
+    "douleur-omoplates",
+    "omoplate-hypocondre",
+    "gynecomastie",
+    "chaud-froid",
+    "cephalee-tempes",
+    "acouphenes-aigus",
+    "caillots",
+    "bords-rouges",
+    "langue-violacee"
+   ],
+   "contre": [],
+   "langue": "Normal, or slightly red edges.",
+   "pouls": "Wiry (taut like a string).",
+   "principe": {
+    "zh": "疏肝理气",
+    "py": "Shū gān lǐ qì",
+    "fr": "Free the Liver, get Qi moving"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "With LR 3: the Four Gates, get Qi moving through the whole body."
+      },
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Yuan-Source point of the Liver: releases stagnation."
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Opens the chest, calms the mind."
+      },
+      {
+       "p": "VB 34",
+       "s": 60,
+       "pourquoi": "Frees the Liver and Gallbladder."
+      },
+      {
+       "p": "F 14",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Liver: relieves the ribs."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-rose-orange",
+    "infusion-chen-pi"
+   ],
+   "privilegier": "Green vegetables, radish, citrus peel, spring onion, mint, meals eaten in peace.",
+   "eviter": "Alcohol, too much coffee, fatty food, a sedentary lifestyle.",
+   "conseils": [
+    "Move every day: brisk walking, dancing, sport. Movement frees Liver Qi.",
+    "Stretch your sides and let out a real sigh: Qi needs to get out."
+   ],
+   "fiches": [
+    "2026-09-26-seance-matin"
+   ],
+   "groupes": [
+    "femme",
+    "homme",
+    "menopause"
+   ],
+   "simple": "Stress blocks everything: tension, a tight throat, mood swings, digestion that follows your emotions.",
+   "reperes": [
+    "Stress",
+    "Depression",
+    "Premenstrual syndrome",
+    "Lump in the throat",
+    "Irritable bowel",
+    "Irritability"
+   ]
+  },
+  {
+   "id": "f-vide-sang",
+   "organe": "foie",
+   "nom": "Liver Blood Deficiency",
+   "zh": "肝血虚",
+   "py": "Gān xuè xū",
+   "resume": "Blood no longer nourishes the eyes, tendons and hair enough: blurred vision, floaters, cramps, scanty periods.",
+   "causes": [
+    "A weak Spleen that makes little Blood",
+    "Blood loss (heavy periods, childbirth)",
+    "Poor diet, restrictive diets",
+    "Staying up late, late-night screens"
+   ],
+   "mecanisme": "The Liver stores Blood. When Blood runs low, everything that depends on it dries out: the eyes (blurred vision, floaters), the tendons (cramps, pins and needles), the nails and the hair.",
+   "cle": [
+    "vision-floue",
+    "mouches-volantes",
+    "crampes",
+    "regles-peu"
+   ],
+   "autres": [
+    "yeux-secs",
+    "engourdissements",
+    "ongles-cassants",
+    "chute-cheveux",
+    "teint-pale",
+    "vertiges",
+    "langue-pale",
+    "peau-seche",
+    "endormissement",
+    "secheresse-intime",
+    "cephalee-sommet",
+    "tremblements",
+    "douleur-genou",
+    "peau-terne",
+    "cephalee-sourde",
+    "fertilite",
+    "neuropathie",
+    "spasticite",
+    "lhermitte",
+    "vision-double",
+    "cheveux-blancs",
+    "douleurs-migrantes",
+    "regles-retard",
+    "spm"
+   ],
+   "contre": [
+    "langue-rouge",
+    "chaleur-corps",
+    "enduit-jaune"
+   ],
+   "langue": "Pale, especially on the edges, a little dry.",
+   "pouls": "Thready.",
+   "principe": {
+    "zh": "养血柔肝",
+    "py": "Yǎng xuè róu gān",
+    "fr": "Nourish Blood, soften the Liver"
+   },
+   "moxa": "Gentle moxa is fine on ST 36.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourishes Liver Blood."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen, the source of Blood."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes Blood."
+      },
+      {
+       "p": "V 18",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Liver."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-goji-sesame",
+    "soupe-epinards-oeuf",
+    "veloute-betterave-lentilles",
+    "saumon-patate-douce",
+    "poulpe-pommes-de-terre",
+    "foies-volaille-epinards",
+    "bouillon-os-boeuf"
+   ],
+   "privilegier": "Goji berries, jujubes, black sesame, spinach, beets, lentils, eggs, a little red meat, bone broths.",
+   "eviter": "Screens late in the evening, staying up late, restrictive diets.",
+   "conseils": [
+    "Rest your eyes every hour: Liver Blood nourishes your eyesight.",
+    "In bed before 11 pm: Blood returns to the Liver at night.",
+    "A blood test (iron, ferritin, B12) can rule out anemia."
+   ],
+   "groupes": [
+    "femme"
+   ],
+   "simple": "There isn't enough blood to nourish your eyes, muscles and hair: blurred vision, cramps, hair loss.",
+   "reperes": [
+    "Anemia",
+    "Iron deficiency",
+    "Floaters",
+    "Cramps",
+    "Hair loss",
+    "Scanty periods"
+   ]
+  },
+  {
+   "id": "f-yang",
+   "organe": "foie",
+   "nom": "Liver Yang Rising",
+   "zh": "肝阳上亢",
+   "py": "Gān yáng shàng kàng",
+   "resume": "Liver Yang rises to the head because Yin no longer holds it back: headaches at the temples, dizziness, tinnitus, irritability.",
+   "causes": [
+    "Prolonged anger or frustration",
+    "Liver and Kidney Yin Deficiency",
+    "Overwork, lack of sleep"
+   ],
+   "mecanisme": "Yin holds Yang in check. When Yin weakens, Liver Yang rises like a flame to the head: tight temples, dizziness, ringing in the ears.",
+   "cle": [
+    "cephalee-tempes",
+    "vertiges",
+    "irritabilite",
+    "acouphenes-aigus"
+   ],
+   "autres": [
+    "visage-rouge",
+    "yeux-secs",
+    "bouche-seche",
+    "endormissement",
+    "nuque-raide",
+    "bords-rouges",
+    "langue-rouge",
+    "cephalee-sommet",
+    "tremblements",
+    "cephalee-nuque",
+    "audition",
+    "spasticite",
+    "desequilibre",
+    "yeux-rouges"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
+   "langue": "Red on the edges.",
+   "pouls": "Wiry.",
+   "principe": {
+    "zh": "平肝潜阳",
+    "py": "Píng gān qián yáng",
+    "fr": "Calm the Liver, anchor Yang"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Calms Liver Yang."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Calms headaches and dizziness."
+      },
+      {
+       "p": "Tai Yang",
+       "s": 60,
+       "pourquoi": "Relieves the temples."
+      },
+      {
+       "p": "VB 43",
+       "s": 60,
+       "pourquoi": "Brings Yang down from the head."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Nourishes Kidney Yin, which holds Yang back."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-chrysantheme-goji",
+    "saute-celeri-tofu",
+    "soupe-huitres-tofu",
+    "calamars-celeri",
+    "champignons-noirs"
+   ],
+   "privilegier": "Celery, chrysanthemum, spinach, tofu, green vegetables, mushrooms.",
+   "eviter": "Alcohol, coffee, spicy food, brooding over anger, late-night screens.",
+   "conseils": [
+    "Have your blood pressure checked if these headaches keep coming back.",
+    "Massage the soles of your feet (KI 1) in the evening to bring down what rises."
+   ],
+   "simple": "Pressure rises to your head: headaches at the temples, dizziness, irritability.",
+   "reperes": [
+    "Migraine",
+    "High blood pressure",
+    "Dizziness",
+    "Tinnitus",
+    "Menopause"
+   ],
+   "groupes": [
+    "menopause"
+   ]
+  },
+  {
+   "id": "f-feu",
+   "organe": "foie",
+   "nom": "Liver Fire",
+   "zh": "肝火上炎",
+   "py": "Gān huǒ shàng yán",
+   "resume": "Intense Liver Heat flares upward: anger, red eyes, bitter taste, violent headaches, restless sleep.",
+   "causes": [
+    "Intense or prolonged anger",
+    "Liver Qi Stagnation that heats up",
+    "Alcohol, spicy food, tobacco"
+   ],
+   "mecanisme": "Liver Qi that stays blocked for a long time heats up until it becomes Fire, which rushes up to the eyes, the head and the mouth.",
+   "cle": [
+    "yeux-rouges",
+    "gout-amer",
+    "irritabilite",
+    "visage-rouge"
+   ],
+   "autres": [
+    "cephalee-tempes",
+    "acouphenes-aigus",
+    "soif",
+    "constipation-seche",
+    "urines-foncees",
+    "endormissement",
+    "sommeil-agite",
+    "bords-rouges",
+    "enduit-jaune",
+    "libido-excessive",
+    "crachats-sang",
+    "regles-rouge-vif",
+    "vision-double",
+    "faim-excessive"
+   ],
+   "contre": [
+    "frilosite",
+    "langue-pale"
+   ],
+   "langue": "Red, redder edges, dry yellow coating.",
+   "pouls": "Wiry and rapid.",
+   "principe": {
+    "zh": "清肝泻火",
+    "py": "Qīng gān xiè huǒ",
+    "fr": "Clear the Liver, drain Fire"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Clears Liver Fire."
+      },
+      {
+       "p": "VB 43",
+       "s": 60,
+       "pourquoi": "Brings Fire down from the head."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Relieves the head and eyes."
+      },
+      {
+       "p": "Tai Yang",
+       "s": 60,
+       "pourquoi": "Relieves the temples and eyes."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-chrysantheme-goji",
+    "saute-celeri-tofu",
+    "soupe-mungo"
+   ],
+   "privilegier": "Celery, chrysanthemum, cooked cucumber, tofu, bean sprouts, mung beans.",
+   "eviter": "Alcohol, spicy food, fried food, lamb, tobacco.",
+   "conseils": [
+    "Let your anger out in other ways: intense exercise, writing, talking."
+   ],
+   "simple": "Intense heat rises to your head: anger, red eyes, violent headaches.",
+   "reperes": [
+    "Anger",
+    "Migraine",
+    "High blood pressure",
+    "Red eyes",
+    "Insomnia"
+   ]
+  },
+  {
+   "id": "f-humidite-chaleur",
+   "organe": "combines",
+   "nom": "Damp-Heat in the Liver and Gallbladder",
+   "zh": "肝胆湿热",
+   "py": "Gān dǎn shī rè",
+   "resume": "Dampness and Heat stagnate in the Liver and Gallbladder: pain under the ribs, bitter taste, nausea, genital discharge or itching.",
+   "causes": [
+    "Alcohol, fatty and fried food",
+    "Long-standing Dampness that heats up",
+    "Liver stagnation upsetting the Spleen"
+   ],
+   "mecanisme": "Damp-Heat blocks the Gallbladder (bitter taste, trouble digesting fat) and flows down along the Liver meridian to the genital area.",
+   "cle": [
+    "douleur-cotes",
+    "gout-amer",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "nausee",
+    "digestion-lente",
+    "urines-foncees",
+    "pertes-jaunes",
+    "eczema-suintant",
+    "teint-jaune",
+    "douleur-omoplates",
+    "omoplate-hypocondre",
+    "cephalee-tempes",
+    "acouphenes-aigus",
+    "yeux-rouges",
+    "nez-jaune",
+    "bords-rouges"
+   ],
+   "contre": [
+    "frilosite",
+    "langue-pale",
+    "enduit-blanc-epais"
+   ],
+   "langue": "Red, greasy yellow coating.",
+   "pouls": "Wiry and slippery.",
+   "principe": {
+    "zh": "清利肝胆湿热",
+    "py": "Qīng lì gān dǎn shī rè",
+    "fr": "Clear and drain Damp-Heat from the Liver and Gallbladder"
+   },
+   "consulter": "Pain under the ribs with fever or jaundice must be seen by a doctor quickly.",
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 14",
+       "s": 60,
+       "pourquoi": "Frees the Liver, relieves the ribs."
+      },
+      {
+       "p": "VB 34",
+       "s": 60,
+       "pourquoi": "Frees the Gallbladder."
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      },
+      {
+       "p": "F 5",
+       "s": 60,
+       "pourquoi": "Clears Damp-Heat from the genital area."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-orge-azuki",
+    "soupe-mungo",
+    "saute-celeri-tofu",
+    "bouillon-concombre-wakame"
+   ],
+   "privilegier": "Celery, radish, pearl barley, mung and adzuki beans, cooked green vegetables.",
+   "eviter": "Alcohol, fatty food, fried food, sugar, spicy food.",
+   "conseils": [],
+   "etiquette": "Liver · Gallbladder",
+   "simple": "Dampness and heat clog your liver and gallbladder: bitter mouth, nausea, pain under the ribs.",
+   "reperes": [
+    "Gallbladder problems",
+    "Trouble digesting fats",
+    "Nausea",
+    "Vaginal discharge",
+    "Yeast infections"
+   ]
+  },
+  {
+   "id": "foie-rate",
+   "organe": "combines",
+   "nom": "Liver Overacting on the Spleen",
+   "zh": "肝脾不和",
+   "py": "Gān pí bù hé",
+   "resume": "Stress blocks the Liver, which upsets digestion: a belly that bloats and stools that change with your emotions.",
+   "causes": [
+    "Chronic stress",
+    "An already fragile Spleen",
+    "Eating while tense"
+   ],
+   "mecanisme": "The blocked Liver “attacks” the Spleen: digestion goes off track in step with your emotions, with bloating and alternating stools.",
+   "cle": [
+    "alternance",
+    "ballonnements",
+    "irritabilite"
+   ],
+   "autres": [
+    "douleur-cotes",
+    "fatigue",
+    "selles-molles",
+    "appetit-faible",
+    "soupirs",
+    "spm",
+    "humeur-variable"
+   ],
+   "contre": [],
+   "langue": "Normal or pale, edges sometimes red.",
+   "pouls": "Wiry on the left, weak on the right.",
+   "principe": {
+    "zh": "疏肝健脾",
+    "py": "Shū gān jiàn pí",
+    "fr": "Free the Liver, strengthen the Spleen"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Frees Liver Qi."
+      },
+      {
+       "p": "F 13",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Spleen: harmonizes the Liver and Spleen."
+      },
+      {
+       "p": "VB 34",
+       "s": 60,
+       "pourquoi": "Frees the Liver."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Strengthens the center."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen, calms the mind."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-millet-patate-douce",
+    "infusion-rose-orange",
+    "congee-courge-carotte"
+   ],
+   "privilegier": "Warm, regular meals, eaten in peace; citrus peel, radish, cooked grains.",
+   "eviter": "Eating fast or while working, coffee on an empty stomach, alcohol.",
+   "conseils": [
+    "Take three slow breaths before each meal."
+   ],
+   "fiches": [
+    "2026-09-26-seance-matin"
+   ],
+   "etiquette": "Liver · Spleen",
+   "simple": "Stress throws your digestion off: a belly that bloats, bowel habits that change with your emotions.",
+   "reperes": [
+    "Irritable bowel",
+    "Bloating",
+    "Stress",
+    "Alternating diarrhea and constipation"
+   ]
+  },
+  {
+   "id": "foie-estomac",
+   "organe": "combines",
+   "nom": "Liver Overacting on the Stomach",
+   "zh": "肝胃不和",
+   "py": "Gān wèi bù hé",
+   "resume": "The blocked Liver sends Stomach Qi back up: heartburn, belching, nausea, linked to stress.",
+   "causes": [
+    "Stress, upsets",
+    "Meals eaten under tension"
+   ],
+   "mecanisme": "Stuck Liver Qi rises and drags Stomach Qi up with it, when it should go down: heartburn, belching, nausea.",
+   "cle": [
+    "reflux",
+    "eructations",
+    "irritabilite"
+   ],
+   "autres": [
+    "douleur-cotes",
+    "nausee",
+    "hoquet",
+    "soupirs",
+    "douleur-estomac-brulure",
+    "omoplate-hypocondre",
+    "nausee-traitement",
+    "gorge-serree"
+   ],
+   "contre": [],
+   "langue": "Normal or red edges.",
+   "pouls": "Wiry.",
+   "principe": {
+    "zh": "疏肝和胃",
+    "py": "Shū gān hé wèi",
+    "fr": "Free the Liver, harmonize the Stomach"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Frees Liver Qi."
+      },
+      {
+       "p": "F 14",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Liver."
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Brings Stomach Qi down."
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Harmonizes the Stomach.",
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ]
+      },
+      {
+       "p": "VB 34",
+       "s": 60,
+       "pourquoi": "Frees the Liver."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Stomach."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-rose-orange",
+    "congee-courge-carotte"
+   ],
+   "privilegier": "Small warm meals, congee, radish, a little fresh ginger.",
+   "eviter": "Coffee, alcohol, spicy food, sour citrus fruit on an empty stomach, late meals.",
+   "conseils": [],
+   "etiquette": "Liver · Stomach",
+   "simple": "Stress rises into your stomach: heartburn, belching, nausea.",
+   "reperes": [
+    "Gastroesophageal reflux",
+    "Heartburn",
+    "Stress gastritis",
+    "Nausea",
+    "Hiccups"
+   ]
+  }
+ ]
+}

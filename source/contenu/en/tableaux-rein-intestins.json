@@ -1,0 +1,911 @@
+{
+ "tableaux": [
+  {
+   "id": "rn-vide-yang",
+   "organe": "rein",
+   "nom": "Kidney Yang Deficiency",
+   "zh": "肾阳虚",
+   "py": "Shèn yáng xū",
+   "resume": "The body's underlying fire is weakening: cold in the lower back and legs, abundant clear urine, deep fatigue.",
+   "causes": [
+    "Prolonged physical overwork",
+    "Repeated cold and damp",
+    "Age, chronic illness",
+    "Constitution"
+   ],
+   "mecanisme": "Kidney Yang warms the whole body and keeps fluids working. When it drops, the lower body cools down, urine flows clear and abundant, and your underlying energy runs short.",
+   "cle": [
+    "frilosite",
+    "genoux-faibles",
+    "urines-claires",
+    "mictions-nuit"
+   ],
+   "autres": [
+    "fatigue",
+    "lombalgie-sourde",
+    "diarrhee-matin",
+    "oedeme",
+    "libido",
+    "teint-pale",
+    "decouragement",
+    "langue-pale",
+    "langue-gonflee",
+    "erection",
+    "sperme-clair",
+    "froid-genital",
+    "froid-dos",
+    "teint-sombre",
+    "douleur-genou",
+    "douleurs-froid",
+    "mictions-frequentes",
+    "fertilite",
+    "humidite-intime",
+    "cycles-irreguliers",
+    "fatigue-matin",
+    "sueurs-spontanees",
+    "gynecomastie",
+    "raideur-articulaire",
+    "regles-retard",
+    "langue-violacee",
+    "paupieres-gonflees"
+   ],
+   "contre": [
+    "chaleur-corps",
+    "sueurs-nuit",
+    "langue-rouge"
+   ],
+   "langue": "Pale, swollen, moist.",
+   "pouls": "Deep and weak, especially at the Kidney positions.",
+   "principe": {
+    "zh": "温补肾阳",
+    "py": "Wēn bǔ shèn yáng",
+    "fr": "Warm and tonify Kidney Yang"
+   },
+   "moxa": "Moxa recommended.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Kidney."
+      },
+      {
+       "p": "Rn 7",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies the Qi of the whole body."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Warms the Kidney and the lower belly."
+      },
+      {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "“Gate of Life”: warms Kidney Yang."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "agneau-dang-gui",
+    "crevettes-poireau-noix",
+    "infusion-gingembre-cannelle",
+    "soupe-mouton-radis",
+    "moules-gingembre",
+    "crevettes-ciboule-oeufs",
+    "poulet-chataignes",
+    "bouillon-os-boeuf",
+    "agneau-fenouil"
+   ],
+   "privilegier": "Walnuts, lamb, shrimp, leek, cinnamon, ginger, black beans, chestnuts, slow-cooked dishes.",
+   "eviter": "Cold and raw food, iced drinks, overwork, staying up late, sitting on cold floors.",
+   "conseils": [
+    "Rub your lower back with your palms every evening until it feels warm.",
+    "Keep your lower back and feet warm."
+   ],
+   "groupes": [
+    "homme",
+    "menopause"
+   ],
+   "simple": "The body's underlying fire is weakening: cold lower back, abundant urine, deep tiredness.",
+   "reperes": [
+    "Menopause",
+    "Deep fatigue",
+    "Sensitivity to cold",
+    "Low libido",
+    "Erectile dysfunction",
+    "Chronic low back pain",
+    "Hypothyroidism"
+   ]
+  },
+  {
+   "id": "rn-vide-yin",
+   "organe": "rein",
+   "nom": "Kidney Yin Deficiency",
+   "zh": "肾阴虚",
+   "py": "Shèn yīn xū",
+   "resume": "The body's deep fluids are running out: night sweats, hot flashes, tinnitus, weak lower back, dry mouth at night.",
+   "causes": [
+    "Overwork and lack of sleep over many years",
+    "Chronic illness, long fevers",
+    "Age, menopause"
+   ],
+   "mecanisme": "Kidney Yin is the basis of all the Yin in the body. When it runs out, Deficiency Heat appears in the evening and at night, and the lower body weakens.",
+   "cle": [
+    "sueurs-nuit",
+    "chaleur-5-coeurs",
+    "genoux-faibles",
+    "acouphenes-faibles"
+   ],
+   "autres": [
+    "bouche-seche",
+    "vertiges",
+    "memoire",
+    "reveils",
+    "constipation-seche",
+    "urines-foncees",
+    "pommettes-rouges",
+    "langue-rouge-sans-enduit",
+    "chaleur-corps",
+    "cheveux-blancs",
+    "pollutions-nocturnes",
+    "ejaculation-precoce",
+    "libido-excessive",
+    "audition",
+    "langue-fissuree",
+    "douleur-genou",
+    "secheresse-intime",
+    "fertilite",
+    "cycles-irreguliers",
+    "gynecomastie",
+    "vesicules-genitales",
+    "mucite",
+    "bouffees-hormono",
+    "sensible-chaleur",
+    "fievre-apres-midi",
+    "chaud-froid",
+    "gorge-seche",
+    "regles-avance"
+   ],
+   "contre": [
+    "frilosite",
+    "urines-claires",
+    "langue-pale",
+    "enduit-blanc-epais"
+   ],
+   "langue": "Red, no coating, sometimes cracked.",
+   "pouls": "Thready and rapid.",
+   "principe": {
+    "zh": "滋补肾阴",
+    "py": "Zī bǔ shèn yīn",
+    "fr": "Nourish Kidney Yin"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes the Kidney."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-haricots-noirs",
+    "soupe-tremelle",
+    "congee-goji-sesame",
+    "soupe-huitres-tofu",
+    "soupe-canard-igname",
+    "huitres-gingembre",
+    "creme-sesame-noix"
+   ],
+   "privilegier": "Black beans, black sesame, goji berries, snow fungus (tremella), Chinese yam, eggs, tofu, pear.",
+   "eviter": "Spicy food, alcohol, coffee, sauna, intense exercise in the evening, staying up late.",
+   "conseils": [
+    "Yin rebuilds itself at night: go to bed before 11 pm."
+   ],
+   "groupes": [
+    "homme",
+    "menopause"
+   ],
+   "simple": "Your reserves are running out: night sweats, hot flashes, tinnitus, weak lower back.",
+   "reperes": [
+    "Menopause",
+    "Night sweats",
+    "Tinnitus",
+    "Overwork",
+    "Premature ejaculation"
+   ]
+  },
+  {
+   "id": "rn-qi-non-ferme",
+   "organe": "rein",
+   "nom": "Kidney Qi Not Firm",
+   "zh": "肾气不固",
+   "py": "Shèn qì bù gù",
+   "resume": "The Kidney no longer “closes”: frequent urges to urinate, leaks, dribbling urine, white discharge.",
+   "causes": [
+    "Age",
+    "Childbirth",
+    "Overwork, chronic illness"
+   ],
+   "mecanisme": "Kidney Qi keeps the lower gates of the body closed. When it weakens, urine and discharges escape.",
+   "cle": [
+    "fuites-urinaires",
+    "mictions-nuit",
+    "genoux-faibles"
+   ],
+   "autres": [
+    "urines-claires",
+    "lombalgie-sourde",
+    "pertes-blanches",
+    "fatigue",
+    "langue-pale",
+    "pertes-seminales",
+    "ejaculation-precoce",
+    "mictions-frequentes",
+    "sperme-clair",
+    "pesanteur"
+   ],
+   "contre": [
+    "brulures-urinaires",
+    "langue-rouge"
+   ],
+   "langue": "Pale.",
+   "pouls": "Deep and weak.",
+   "principe": {
+    "zh": "固摄肾气",
+    "py": "Gù shè shèn qì",
+    "fr": "Consolidate Kidney Qi"
+   },
+   "moxa": "Moxa is fine on CV 6.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
+      },
+      {
+       "p": "V 28",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Bladder."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 300,
+       "pourquoi": "Tonifies and warms Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-shan-yao",
+    "crevettes-poireau-noix",
+    "congee-haricots-noirs",
+    "moules-gingembre",
+    "congee-qian-shi",
+    "poulet-chataignes",
+    "huitres-gingembre",
+    "crevettes-ciboule-oeufs"
+   ],
+   "privilegier": "Chinese yam, walnuts, black beans, lotus seeds, chestnuts.",
+   "eviter": "Cold drinks, carrying heavy loads, drinking a lot in the evening.",
+   "conseils": [
+    "Pelvic floor rehabilitation (physical therapy) gives very good results: talk to your doctor about it."
+   ],
+   "groupes": [
+    "homme"
+   ],
+   "simple": "Your body doesn't hold things in well anymore: urinary leaks, getting up at night, discharge.",
+   "reperes": [
+    "Incontinence",
+    "Getting up at night to urinate",
+    "Seminal leakage",
+    "Prostate problems",
+    "Organ prolapse"
+   ]
+  },
+  {
+   "id": "rn-recevoir-qi",
+   "organe": "rein",
+   "nom": "Kidney Failing to Receive Qi",
+   "zh": "肾不纳气",
+   "py": "Shèn bù nà qì",
+   "resume": "The Kidney no longer draws the breath downward: chronic shortness of breath, short breathing, asthma that lingers.",
+   "causes": [
+    "Chronic asthma or cough",
+    "Age, overwork",
+    "Long-standing Lung Deficiency"
+   ],
+   "mecanisme": "The Lung breathes in, and the Kidney “receives” the breath and anchors it low down. When the Kidney weakens, the in-breath stays short and breathlessness sets in.",
+   "cle": [
+    "essoufflement",
+    "sifflement",
+    "genoux-faibles"
+   ],
+   "autres": [
+    "sueurs-jour",
+    "fatigue",
+    "urines-claires",
+    "frilosite",
+    "voix-faible",
+    "langue-pale",
+    "toux-faible"
+   ],
+   "contre": [
+    "toux-glaires-jaunes",
+    "fievre"
+   ],
+   "langue": "Pale.",
+   "pouls": "Deep and weak.",
+   "principe": {
+    "zh": "补肾纳气",
+    "py": "Bǔ shèn nà qì",
+    "fr": "Tonify the Kidney so it can receive the breath"
+   },
+   "consulter": "Chronic shortness of breath must be followed up by a doctor.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Ding Chuan",
+       "s": 60,
+       "pourquoi": "Calms wheezing."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      },
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifies the Lung."
+      },
+      {
+       "p": "RM 17",
+       "s": 90,
+       "pourquoi": "Regulates the breath."
+      },
+      {
+       "p": "Rn 27",
+       "s": 90,
+       "pourquoi": "Brings Qi down, calms breathlessness."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Anchors the breath low down."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-shan-yao",
+    "congee-haricots-noirs",
+    "soupe-poulet-huang-qi"
+   ],
+   "privilegier": "Walnuts, Chinese yam, black beans, chicken, hot dishes.",
+   "eviter": "Tobacco, cold, sudden exertion.",
+   "conseils": [
+    "Belly breathing: breathe in through your nose, letting your belly swell, then breathe out slowly through your mouth."
+   ],
+   "simple": "Your breath no longer goes all the way down: chronic shortness of breath, asthma that lingers.",
+   "reperes": [
+    "Chronic asthma",
+    "Shortness of breath",
+    "COPD",
+    "Short of breath on exertion"
+   ]
+  },
+  {
+   "id": "rn-jing",
+   "organe": "rein",
+   "nom": "Kidney Essence (Jing) Deficiency",
+   "zh": "肾精不足",
+   "py": "Shèn jīng bù zú",
+   "resume": "Your deep essence is running out: premature aging, early gray hair, poor memory, declining hearing.",
+   "causes": [
+    "Fragile constitution",
+    "Overwork over many years",
+    "Excesses of all kinds, age"
+   ],
+   "mecanisme": "Jing is our deep reserve, inherited and then maintained. It nourishes the bones, brain, ears and hair: when it declines, everything ages faster.",
+   "cle": [
+    "cheveux-blancs",
+    "memoire",
+    "genoux-faibles"
+   ],
+   "autres": [
+    "chute-cheveux",
+    "audition",
+    "acouphenes-faibles",
+    "libido",
+    "fatigue",
+    "vertiges",
+    "sperme-clair",
+    "fertilite",
+    "erection",
+    "douleur-genou",
+    "teint-sombre",
+    "cephalee-sourde",
+    "cycles-irreguliers",
+    "fatigue-traitement",
+    "deformations",
+    "jambes-faibles",
+    "lhermitte",
+    "vision-double",
+    "desequilibre",
+    "concentration"
+   ],
+   "contre": [],
+   "langue": "Variable, often pale, or red with no coating.",
+   "pouls": "Deep and weak.",
+   "principe": {
+    "zh": "补肾填精",
+    "py": "Bǔ shèn tián jīng",
+    "fr": "Tonify the Kidney, nourish Essence"
+   },
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney."
+      },
+      {
+       "p": "VB 39",
+       "s": 90,
+       "pourquoi": "Influential (Meeting) point of Marrow."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes the Kidney and Essence."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-haricots-noirs",
+    "congee-goji-sesame",
+    "moules-gingembre",
+    "crevettes-ciboule-oeufs",
+    "poulet-chataignes",
+    "bouillon-os-boeuf",
+    "huitres-gingembre",
+    "creme-sesame-noix"
+   ],
+   "privilegier": "Black sesame, black beans, walnuts, goji berries, eggs, bone broths, seaweed.",
+   "eviter": "Overwork, short nights, excess of any kind.",
+   "conseils": [
+    "Jing is easier to preserve than to rebuild: regular sleep, nourishing meals, no excess."
+   ],
+   "groupes": [
+    "homme"
+   ],
+   "simple": "Your deep reserves are running out: premature aging, gray hair, declining memory and hearing.",
+   "reperes": [
+    "Premature aging",
+    "Gray hair",
+    "Memory problems",
+    "Hearing loss",
+    "Infertility",
+    "Osteoporosis"
+   ]
+  },
+  {
+   "id": "v-humidite-chaleur",
+   "organe": "vessie",
+   "nom": "Damp-Heat in the Bladder",
+   "zh": "膀胱湿热",
+   "py": "Páng guāng shī rè",
+   "resume": "Dampness and Heat move down into the Bladder: burning when urinating, frequent and urgent urges, dark urine.",
+   "causes": [
+    "Fatty and spicy food, alcohol",
+    "Cold and damp that heat up",
+    "Not drinking enough"
+   ],
+   "mecanisme": "Damp-Heat blocks the Bladder: urine becomes scanty, dark, burning and urgent.",
+   "cle": [
+    "brulures-urinaires",
+    "urines-foncees"
+   ],
+   "autres": [
+    "soif",
+    "enduit-jaune",
+    "fievre",
+    "lombalgie-sourde",
+    "mictions-frequentes",
+    "ecoulement"
+   ],
+   "contre": [
+    "urines-claires",
+    "frilosite"
+   ],
+   "langue": "Greasy yellow coating at the back.",
+   "pouls": "Slippery and rapid.",
+   "principe": {
+    "zh": "清利膀胱湿热",
+    "py": "Qīng lì páng guāng shī rè",
+    "fr": "Clear and drain Damp-Heat from the Bladder"
+   },
+   "consulter": "Burning urination must be seen by a doctor: a urinary tract infection is quick to treat. Go to the emergency room if you have fever, chills, pain in your lower back, or if you are pregnant.",
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "RM 3",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Bladder."
+      },
+      {
+       "p": "V 28",
+       "s": 60,
+       "pourquoi": "Back-Shu point of the Bladder."
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Regulates the lower body."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "congee-orge-azuki",
+    "bouillon-concombre-wakame"
+   ],
+   "privilegier": "Drinking plenty of water, mung and adzuki beans, pearl barley, celery, cooked cucumber.",
+   "eviter": "Alcohol, spicy food, coffee, sugar, holding in your urine.",
+   "conseils": [],
+   "simple": "Heat and dampness in the bladder: burning when urinating, urgent urges.",
+   "reperes": [
+    "Cystitis",
+    "Urinary tract infection",
+    "Prostatitis",
+    "Urethritis"
+   ]
+  },
+  {
+   "id": "gi-humidite-chaleur",
+   "organe": "gros-intestin",
+   "nom": "Damp-Heat in the Intestines",
+   "zh": "大肠湿热",
+   "py": "Dà cháng shī rè",
+   "resume": "Dampness and Heat in the intestines: urgent, burning, foul-smelling diarrhea, sometimes with mucus, with belly pain.",
+   "causes": [
+    "Spoiled food, food poisoning",
+    "Alcohol, fatty food, spicy food",
+    "Humid summer heat"
+   ],
+   "mecanisme": "Damp-Heat blocks the Large Intestine: stools become urgent, burning and foul-smelling.",
+   "cle": [
+    "diarrhee-chaude",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "ballonnements",
+    "soif",
+    "urines-foncees",
+    "fievre",
+    "hemorroides"
+   ],
+   "contre": [
+    "diarrhee-matin",
+    "frilosite",
+    "langue-pale"
+   ],
+   "langue": "Red, greasy yellow coating.",
+   "pouls": "Slippery and rapid.",
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clear Heat, drain Dampness"
+   },
+   "consulter": "Blood in the stools, a high fever, signs of dehydration or diarrhea lasting more than 3 days mean you must see a doctor.",
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "E 25",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Large Intestine."
+      },
+      {
+       "p": "E 37",
+       "s": 60,
+       "pourquoi": "Lower He-Sea point of the Large Intestine."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat and Dampness."
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "congee-orge-azuki",
+    "bouillon-concombre-wakame"
+   ],
+   "privilegier": "Rice, broths, cooked carrot, pearl barley. Drink often, in small sips.",
+   "eviter": "Fatty food, dairy, alcohol, spicy food, raw fruit during the attack.",
+   "conseils": [],
+   "simple": "Damp heat in the intestine: urgent, burning, foul-smelling diarrhea.",
+   "reperes": [
+    "Gastroenteritis",
+    "Food poisoning",
+    "Colitis",
+    "Inflamed hemorrhoids"
+   ]
+  },
+  {
+   "id": "gi-secheresse",
+   "organe": "gros-intestin",
+   "nom": "Large Intestine Dryness",
+   "zh": "大肠液亏",
+   "py": "Dà cháng yè kuī",
+   "resume": "The intestines lack fluids: dry, hard stools that are difficult to pass, dry mouth.",
+   "causes": [
+    "Blood or Yin Deficiency",
+    "Age, after childbirth",
+    "Diet that is too dry, not enough water"
+   ],
+   "mecanisme": "Without fluids, stools dry out and no longer slide along: this is a “dry” constipation, without sharp pain.",
+   "cle": [
+    "constipation-seche",
+    "bouche-seche"
+   ],
+   "autres": [
+    "peau-seche",
+    "langue-seche",
+    "teint-pale",
+    "langue-rouge-sans-enduit",
+    "amaigrissement",
+    "langue-fissuree"
+   ],
+   "contre": [
+    "selles-molles",
+    "diarrhee-chaude"
+   ],
+   "langue": "Dry, pale, or red with no coating.",
+   "pouls": "Thready.",
+   "principe": {
+    "zh": "润肠通便",
+    "py": "Rùn cháng tōng biàn",
+    "fr": "Moisten the intestines, ease bowel movements"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "TR 6",
+       "s": 60,
+       "pourquoi": "Helps stools move down."
+      },
+      {
+       "p": "E 25",
+       "s": 60,
+       "pourquoi": "Regulates the Large Intestine."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin and fluids."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood and Yin."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "compote-pomme-poire",
+    "poire-vapeur-amandes",
+    "congee-goji-sesame",
+    "creme-sesame-noix"
+   ],
+   "privilegier": "Prunes, pear, stewed apple, sesame, almonds, walnuts, spinach, sweet potato, enough water.",
+   "eviter": "Spicy food, grilled food, too much coffee, holding it in when you need to go.",
+   "conseils": [
+    "Massage your belly clockwise for 5 minutes in the morning.",
+    "Rest your feet on a small stool when you're on the toilet."
+   ],
+   "simple": "Your intestine lacks moisture: dry, hard stools.",
+   "reperes": [
+    "Constipation",
+    "Constipation in older people",
+    "After childbirth",
+    "Hemorrhoids"
+   ]
+  },
+  {
+   "id": "gi-constipation-vide",
+   "organe": "gros-intestin",
+   "nom": "Constipation from Qi Deficiency",
+   "zh": "气虚便秘",
+   "py": "Qì xū biàn mì",
+   "resume": "The intestines lack strength: you feel the urge but struggle to pass stools, you're tired after straining, stools aren't necessarily hard.",
+   "causes": [
+    "Spleen and Lung Qi Deficiency",
+    "Age, the aftermath of an illness",
+    "Sedentary lifestyle"
+   ],
+   "mecanisme": "Qi pushes the stools along. When it runs low, they move poorly even if they aren't dry, and straining wears you out.",
+   "cle": [
+    "constipation-effort",
+    "fatigue"
+   ],
+   "autres": [
+    "essoufflement",
+    "sueurs-jour",
+    "voix-faible",
+    "teint-pale",
+    "langue-pale"
+   ],
+   "contre": [
+    "constipation-seche",
+    "enduit-jaune"
+   ],
+   "langue": "Pale.",
+   "pouls": "Empty.",
+   "principe": {
+    "zh": "益气润肠",
+    "py": "Yì qì rùn cháng",
+    "fr": "Tonify Qi, ease bowel transit"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "TR 6",
+       "s": 60,
+       "pourquoi": "Helps stools move down."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Qi."
+      },
+      {
+       "p": "E 25",
+       "s": 90,
+       "pourquoi": "Regulates the Large Intestine."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifies Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-millet-patate-douce",
+    "compote-pomme-poire",
+    "soupe-poulet-huang-qi",
+    "boeuf-carottes-dattes"
+   ],
+   "privilegier": "Sweet potato, cooked grains, prunes, stewed fruit, cooked vegetables.",
+   "eviter": "Raw and cold food, a sedentary lifestyle.",
+   "conseils": [
+    "Go to the toilet at a set time, ideally in the morning after a hot drink."
+   ],
+   "simple": "Your intestine lacks strength: the urge is there but passing stools is hard.",
+   "reperes": [
+    "Constipation",
+    "Sluggish bowel",
+    "Fatigue",
+    "Convalescence"
+   ]
+  }
+ ]
+}

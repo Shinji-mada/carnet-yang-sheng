@@ -1,0 +1,675 @@
+{
+ "symptomes": [
+  {
+   "id": "fatigue-traitement",
+   "cat": "cancer",
+   "nom": "Fatigue during or after cancer treatment",
+   "syn": "fatigue tiredness exhaustion asthenia cancer-related fatigue chemotherapy chemo radiotherapy radiation immunotherapy cancer",
+   "alerte": "Tell your care team about this fatigue: anemia or another side effect of the treatment can be corrected."
+  },
+  {
+   "id": "nausee-traitement",
+   "cat": "cancer",
+   "nom": "Nausea during chemotherapy",
+   "syn": "nausea chemo chemotherapy vomiting throwing up queasy feeling sick",
+   "alerte": "If you vomit several times a day or can no longer drink, contact your care team right away."
+  },
+  {
+   "id": "mucite",
+   "cat": "cancer",
+   "nom": "Dry mouth or small sores in the mouth after treatment",
+   "syn": "mucositis mouth sores mouth ulcers dry mouth saliva chemo radiotherapy radiation loss of taste",
+   "alerte": "If the pain stops you from eating or drinking, tell your care team."
+  },
+  {
+   "id": "neuropathie",
+   "cat": "cancer",
+   "nom": "Tingling or numbness in the hands and feet after chemotherapy",
+   "syn": "neuropathy peripheral neuropathy pins and needles tingling prickling numbness hands feet chemo oxaliplatin taxol paclitaxel",
+   "alerte": "Tell your oncologist about this tingling: the treatment can be adjusted. No hot-water bottle or moxa on an area with reduced feeling: risk of burns."
+  },
+  {
+   "id": "bouffees-hormono",
+   "cat": "cancer",
+   "nom": "Hot flashes caused by hormone therapy",
+   "syn": "hormone therapy endocrine therapy tamoxifen aromatase inhibitor hot flashes hot flushes breast cancer prostate cancer",
+   "alerte": "Don't stop your hormone therapy without talking to your oncologist: there are solutions. No soy, red clover, hops or Chinese angelica (dang gui) supplements."
+  },
+  {
+   "id": "peau-radiotherapie",
+   "cat": "cancer",
+   "nom": "Red, dry or burning skin in the radiotherapy area",
+   "syn": "radiation dermatitis radiodermatitis radiation burn radiotherapy radiation red skin dry skin",
+   "alerte": "Don't put anything on the treated area without your radiotherapy team's approval, don't massage it, and keep it out of the sun."
+  },
+  {
+   "id": "hashimoto",
+   "cat": "maladies",
+   "nom": "Hashimoto's thyroiditis, hypothyroidism",
+   "syn": "thyroid hypothyroidism underactive thyroid hashimoto hashimoto's thyroiditis levothyroxine synthroid high TSH",
+   "alerte": "Keep taking your treatment and having your blood tests: these routines go alongside it, they don't replace it.",
+   "rappel": "Thyroid: no iodine or seaweed supplements without medical advice, and skip the wakame in the recipes.",
+   "info": "An autoimmune disease in which the thyroid slows down: fatigue, feeling the cold, weight gain, dry skin, constipation, low mood, hair loss. When the thyroid no longer makes enough hormone, treatment with thyroid hormone is usually taken for life, with regular TSH checks.",
+   "mtc": "Mainly a weakening of Spleen and Kidney Yang (cold, slowness, swelling), often with Dampness; in the early stages, Liver Qi Stagnation is common.",
+   "tab": [
+    "rn-vide-yang",
+    "rate-rein-yang",
+    "rt-vide-yang",
+    "qi-sang",
+    "rt-froid-humidite",
+    "f-stagnation-qi"
+   ]
+  },
+  {
+   "id": "basedow",
+   "cat": "maladies",
+   "nom": "Graves' disease, hyperthyroidism",
+   "syn": "thyroid hyperthyroidism overactive thyroid graves graves' disease basedow goiter bulging eyes exophthalmos low TSH",
+   "alerte": "Hyperthyroidism must be treated by a doctor. If you are on antithyroid treatment, a fever or a sore throat means you need a blood test the same day. Call emergency services (15 or 112 in France) if you have a fever with a very fast heartbeat, severe agitation or confusion.",
+   "rappel": "Thyroid: no iodine or seaweed supplements without medical advice, and skip the wakame in the recipes.",
+   "info": "The thyroid goes into overdrive: palpitations, weight loss despite a good appetite, feeling hot, sweating, tremors, nervousness, restless sleep, sometimes bulging eyes. It is treated with medication, radioactive iodine or surgery.",
+   "mtc": "At first, Liver or Heart Fire; over time, a Yin Deficiency that lets heat rise (sweating, weight loss, palpitations).",
+   "tab": [
+    "f-feu",
+    "c-feu",
+    "c-vide-yin",
+    "rn-vide-yin",
+    "foie-rein-yin",
+    "f-yang",
+    "e-feu"
+   ]
+  },
+  {
+   "id": "hormonal",
+   "cat": "maladies",
+   "nom": "Hormonal problem (PCOS, andropause, prolactin…)",
+   "syn": "hormones hormonal hormonal imbalance PCOS polycystic ovary syndrome polycystic ovaries progesterone estrogen prolactin low testosterone andropause male menopause",
+   "alerte": "Keep up your follow-up with your doctor, gynecologist or endocrinologist, and tell them about any herbal remedy or supplement.",
+   "info": "Polycystic ovary syndrome (PCOS): long or absent cycles, acne, excess hair, weight gain. Falling hormone levels (menopause, andropause): hot flashes, fatigue, low libido. Marked premenstrual syndrome: tender breasts, irritability. High prolactin: disrupted periods, sometimes discharge from the breasts.",
+   "mtc": "PCOS: Dampness on a weak Spleen, with Liver Stagnation or weak Kidney Yang. Falling hormones: Kidney Yin and/or Yang Deficiency. Premenstrual syndrome: Liver Qi Stagnation.",
+   "tab": [
+    "f-stagnation-qi",
+    "rt-froid-humidite",
+    "rn-vide-yin",
+    "rn-vide-yang",
+    "rn-yin-yang",
+    "rn-jing",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "parasitose",
+   "cat": "maladies",
+   "nom": "Intestinal parasites (pinworms, giardia, tapeworm…)",
+   "syn": "parasite parasites worms pinworms threadworms tapeworm giardia amoebas anal itching itchy bottom",
+   "alerte": "A parasite infection is confirmed by a stool test (or a tape test for pinworms) and treated with medication: see your doctor or ask your pharmacist for advice, and treat the whole family if needed.",
+   "info": "Anal itching at night (pinworms, common in children), stomach pain, loose stools, bloating, fatigue, sometimes weight loss, especially after traveling. Wash your hands often and keep your nails short so you don't reinfect yourself.",
+   "mtc": "Parasites take hold on a background of Damp-Heat in the Intestines or a weakened Spleen: the routines work on this background (clearing Damp-Heat, strengthening the Spleen), in addition to the medication.",
+   "tab": [
+    "gi-humidite-chaleur",
+    "rt-humidite-chaleur",
+    "rt-vide-qi",
+    "e-stagnation-alimentaire"
+   ]
+  },
+  {
+   "id": "chlamydia",
+   "cat": "ist",
+   "nom": "Chlamydia",
+   "syn": "chlamydia chlamydia trachomatis salpingitis pelvic inflammatory disease PID STI STD",
+   "alerte": "Get tested and treated by a doctor, a midwife or at a sexual health clinic (free CeGIDD centers in France). Avoid sex without a condom until the treatment is finished, and tell your partners.",
+   "info": "The most common bacterial STI, especially under 25. Often no symptoms; sometimes burning when urinating, discharge, bleeding between periods, pain in the lower belly or during sex. Left untreated, it can cause infertility. It is treated with an antibiotic.",
+   "mtc": "Damp-Heat sinking into the lower body. Recurrences come mainly from being infected again: condoms, treating partners and a new test 3 to 6 months later.",
+   "tab": [
+    "f-humidite-bas",
+    "v-humidite-chaleur",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "gonorrhee",
+   "cat": "ist",
+   "nom": "Gonorrhea (“the clap”)",
+   "syn": "gonorrhea gonorrhoea gonococcus the clap clap drip discharge STI STD",
+   "alerte": "Get tested and treated by a doctor, a midwife or at a sexual health clinic (free CeGIDD centers in France). Avoid sex without a condom until the treatment is finished, and tell your partners.",
+   "info": "Yellow or greenish discharge from the penis, strong burning when urinating; in women, often mild (discharge, bleeding). It can also affect the throat or anus. It is treated with an antibiotic, often a single injection.",
+   "mtc": "Damp-Heat in the Bladder and the Liver meridian (“Lin syndrome” 淋证: difficult, burning urination).",
+   "tab": [
+    "v-humidite-chaleur",
+    "f-humidite-bas",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "syphilis",
+   "cat": "ist",
+   "nom": "Syphilis",
+   "syn": "syphilis chancre treponema the pox STI STD",
+   "alerte": "Get tested and treated by a doctor, a midwife or at a sexual health clinic (free CeGIDD centers in France). Avoid sex without a condom until the treatment is finished, and tell your partners.",
+   "info": "It starts with a small painless sore (chancre) on the genitals, anus or mouth, which goes away on its own within a few weeks while the infection carries on; later, sometimes, spots on the skin, the palms and the soles of the feet, with fever and swollen glands. Without treatment, it can affect the eyes, ears and nerves, sometimes within the first few months, and the heart years later. It is treated with an antibiotic injection.",
+   "mtc": "Damp-Heat Toxin passing into the Blood.",
+   "tab": [
+    "f-humidite-bas",
+    "peau-humidite-chaleur",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "herpes-genital",
+   "cat": "ist",
+   "nom": "Genital herpes",
+   "syn": "genital herpes herpes HSV blisters vesicles sores outbreak recurrence STI STD",
+   "alerte": "From the very first outbreak, see a doctor, a midwife or a sexual health clinic (free CeGIDD centers in France): antiviral treatment is available. No sex during an outbreak (condoms only partly protect). If you are pregnant, tell your midwife.",
+   "info": "Small painful blisters that turn into sores, often announced by tingling. The virus stays in the body and comes back mainly with fatigue, stress, periods or sun. Antiviral treatment shortens outbreaks; talk to your doctor about it, and to your midwife if you are pregnant.",
+   "mtc": "During an outbreak: Damp-Heat in the Liver meridian. Between outbreaks: Qi or Yin Deficiency that lets the heat come back out; the routines can then support well-being (sleep, stress, fatigue), alongside antiviral treatment if your doctor suggests it.",
+   "tab": [
+    "f-humidite-bas",
+    "peau-humidite-chaleur",
+    "rn-vide-yin",
+    "rt-vide-qi",
+    "poumon-rate-qi"
+   ]
+  },
+  {
+   "id": "hpv",
+   "cat": "ist",
+   "nom": "Human papillomavirus (HPV), genital warts",
+   "syn": "papillomavirus HPV human papillomavirus condyloma genital warts pap smear pap test cervical screening cervix STI STD",
+   "alerte": "Genital warts are treated by a doctor or at a sexual health clinic (CeGIDD in France). Get regular cervical screening (from 25 to 65 in France). Condoms only partly protect; the vaccine protects better.",
+   "info": "Very common, often with no symptoms at all, and it usually goes away on its own. Some types cause genital warts; others, if they persist, can cause cancer of the cervix, anus or throat. The vaccine protects (in France, recommended from 11 to 14, with catch-up possible up to 26, for girls and boys). In France, cervical screening is done from 25 to 65.",
+   "mtc": "Damp-Heat and stagnation in the lower body, on a weakened Spleen that lets the warts come back.",
+   "tab": [
+    "f-humidite-bas",
+    "rt-humidite-chaleur",
+    "stase-sang",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "vih",
+   "cat": "ist",
+   "nom": "HIV (AIDS)",
+   "syn": "HIV AIDS HIV positive seropositive PrEP PEP post-exposure prophylaxis STI STD",
+   "alerte": "After a risky exposure, go to the emergency room for emergency treatment (PEP, post-exposure prophylaxis), ideally within 4 hours and no later than 48 hours. (In France: Sida Info Service, 0 800 840 800, free and anonymous, 7 days a week, 8 am to 11 pm.)",
+   "rappel": "HIV treatment: no herbal remedies or supplements without your doctor's advice (St. John's wort, for example, makes the treatment ineffective).",
+   "info": "Often no symptoms; sometimes, 2 to 6 weeks after infection, fever, a burning throat, swollen glands and a rash, like the flu. A treatment taken every day now lets you live a normal life, and a treated person whose virus is undetectable does not pass it on through sex. PrEP, a pill that protects before exposure, can be prescribed by any doctor. Tell your doctor about any herbal remedy or supplement: some, like St. John's wort, interfere with the treatment.",
+   "mtc": "Deep Deficiency of Qi, Blood and Essence: the routines can support energy, appetite, digestion and sleep, alongside the treatment.",
+   "tab": [
+    "qi-sang",
+    "poumon-rate-qi",
+    "rt-vide-qi",
+    "rn-vide-yin",
+    "rn-jing"
+   ]
+  },
+  {
+   "id": "hepatite-b",
+   "cat": "ist",
+   "nom": "Hepatitis B",
+   "syn": "hepatitis b HBV liver jaundice vaccine STI STD",
+   "alerte": "Get tested at a sexual health clinic (free at CeGIDD centers in France) or with your doctor. Chronic hepatitis B is followed by a liver specialist. Get your partners and the people close to you vaccinated, and use condoms in the meantime.",
+   "rappel": "Liver: no alcohol, and no herbal remedies or supplements without your doctor's advice.",
+   "info": "A liver virus passed on through blood and sex. Often no symptoms; sometimes fatigue, nausea, jaundice (yellow skin and eyes), dark urine. It can become chronic and damage the liver: follow-up, and sometimes treatment, is then offered. An effective vaccine exists.",
+   "mtc": "At first, Damp-Heat in the Liver and Gallbladder; then Liver Overacting on the Spleen, then Liver and Kidney Yin Deficiency.",
+   "tab": [
+    "f-humidite-chaleur",
+    "foie-rate",
+    "rt-vide-qi",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "hepatite-c",
+   "cat": "ist",
+   "nom": "Hepatitis C",
+   "syn": "hepatitis c HCV liver STI STD",
+   "alerte": "Get tested at a sexual health clinic (free at CeGIDD centers in France) or with your doctor, who can prescribe the treatment. Don't share drug equipment, straws, razors or toothbrushes.",
+   "rappel": "Liver: no alcohol, and no herbal remedies or supplements without your doctor's advice.",
+   "info": "Passed on mainly through blood (shared drug equipment, non-sterile tattooing or piercing), more rarely through sex, especially if it causes bleeding. Often silent for years. Today it can be cured with 8 to 12 weeks of pills.",
+   "mtc": "Damp-Heat and stagnation in the Liver, with a Spleen that is wearing out.",
+   "tab": [
+    "f-humidite-chaleur",
+    "foie-rate",
+    "f-stagnation-qi",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "hepatite-a",
+   "cat": "ist",
+   "nom": "Hepatitis A",
+   "syn": "hepatitis a HAV jaundice STI STD",
+   "alerte": "Jaundice or dark urine: see a doctor quickly. No specific treatment: rest, no alcohol, no medication or herbal remedies without medical advice. Wash your hands well; the people close to you can get vaccinated.",
+   "rappel": "Liver: no alcohol, and no herbal remedies or supplements without your doctor's advice.",
+   "info": "Passed on through contaminated water or food, and through mouth-to-anus sex. Fever, fatigue, nausea, jaundice; it heals on its own within a few weeks and never becomes chronic. A vaccine exists.",
+   "mtc": "Damp-Heat in the Liver and Spleen (“Yang” jaundice, bright yellow).",
+   "tab": [
+    "f-humidite-chaleur",
+    "rt-humidite-chaleur",
+    "foie-rate",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "trichomonase",
+   "cat": "ist",
+   "nom": "Trichomoniasis",
+   "syn": "trichomonas trichomoniasis trich vaginitis green discharge frothy discharge STI STD",
+   "alerte": "Get tested and treated by a doctor, a midwife or at a sexual health clinic (free CeGIDD centers in France). Avoid sex without a condom until the treatment is finished, and tell your partners.",
+   "info": "A parasite: greenish, frothy, foul-smelling discharge, itching and burning in women; often no symptoms in men. It is treated with a medication that your partner must take too.",
+   "mtc": "Sinking Damp-Heat, with “Wind”-type itching.",
+   "tab": [
+    "f-humidite-bas",
+    "rt-humidite-chaleur",
+    "v-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "mycoplasma",
+   "cat": "ist",
+   "nom": "Mycoplasma genitalium",
+   "syn": "mycoplasma mycoplasma genitalium MG urethritis STI STD",
+   "alerte": "Get tested and treated by a doctor, a midwife or at a sexual health clinic (free CeGIDD centers in France). Avoid sex without a condom until the treatment is finished, and tell your partners.",
+   "info": "A bacterium similar to chlamydia: burning, discharge, pain in the lower belly, or no symptoms. It is mainly tested for when symptoms persist despite a first treatment.",
+   "mtc": "Damp-Heat sinking into the lower body.",
+   "tab": [
+    "f-humidite-bas",
+    "v-humidite-chaleur",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "lgv",
+   "cat": "ist",
+   "nom": "Lymphogranuloma venereum (LGV)",
+   "syn": "LGV lymphogranuloma venereum proctitis anus swollen glands groin chlamydia STI STD",
+   "alerte": "Get tested and treated by a doctor, a midwife or at a sexual health clinic (free CeGIDD centers in France). Avoid sex without a condom until the treatment is finished, and tell your partners.",
+   "info": "A particular form of chlamydia, mainly in men who have sex with men: anal pain, bleeding, discharge, swollen glands in the groin. It is treated with 3 weeks of antibiotics.",
+   "mtc": "Damp-Heat in the Intestines and the lower body, with Blood Stasis in the lymph nodes.",
+   "tab": [
+    "gi-humidite-chaleur",
+    "f-humidite-bas",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "chancre-mou",
+   "cat": "ist",
+   "nom": "Chancroid and donovanosis (rare)",
+   "syn": "chancroid soft chancre donovanosis granuloma inguinale genital ulcer STI STD travel",
+   "alerte": "Get tested and treated by a doctor, a midwife or at a sexual health clinic (free CeGIDD centers in France). Avoid sex without a condom until the treatment is finished, and tell your partners.",
+   "info": "Rare in France, more common after travel to Africa, Asia or South America: a painful genital sore (chancroid) or a sore that spreads without pain (donovanosis), sometimes with large swollen glands. They are treated with an antibiotic.",
+   "mtc": "Heat and Damp Toxin in the Liver meridian.",
+   "tab": [
+    "f-humidite-bas",
+    "peau-humidite-chaleur",
+    "rt-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "morpions",
+   "cat": "ist",
+   "nom": "Crabs (pubic lice)",
+   "syn": "crabs pubic lice phthiriasis lice itching pubic itching pubes STI STD",
+   "alerte": "Use a lotion from the pharmacy, applied at the same time by your partner. Condoms don't protect: avoid intimate contact until the treatment is finished, and get tested for other STIs.",
+   "info": "Tiny lice clinging to pubic hair: itching, mainly at night, and small bluish spots. They are treated with a lotion sold in pharmacies; wash sheets and clothes at 60 °C (140 °F) and treat your partner too.",
+   "mtc": "The itching corresponds to Wind-Heat in the skin; these patterns help calm it, alongside the lotion.",
+   "tab": [
+    "peau-vent-chaleur",
+    "peau-humidite-chaleur",
+    "f-humidite-bas"
+   ]
+  },
+  {
+   "id": "gale",
+   "cat": "ist",
+   "nom": "Scabies",
+   "syn": "scabies sarcoptes mites itching at night burrows STI STD",
+   "alerte": "See your doctor: the whole household and your partners are treated on the same day. Condoms don't protect: avoid skin-to-skin contact until the treatment.",
+   "info": "A tiny mite under the skin: intense itching at night, between the fingers, on the wrists, on the genitals. It spreads through prolonged skin-to-skin contact (sex, family life). The doctor prescribes treatment for the whole household at the same time, with laundry washed at 60 °C (140 °F).",
+   "mtc": "Damp-Heat and Wind in the skin.",
+   "tab": [
+    "peau-humidite-chaleur",
+    "peau-vent-chaleur",
+    "peau-vide-sang"
+   ]
+  },
+  {
+   "id": "molluscum",
+   "cat": "ist",
+   "nom": "Molluscum contagiosum",
+   "syn": "molluscum contagiosum small pearly bumps water warts STI STD",
+   "alerte": "Show them to a doctor. Don't scratch them and don't shave the area: that spreads them.",
+   "info": "Small pearly bumps with a dip in the center, on the pubic area, the thighs or the lower belly. They are harmless and often go away on their own within a few months; a doctor can remove them.",
+   "mtc": "Wind-Heat and Dampness in the skin, on a slightly weak Spleen.",
+   "tab": [
+    "peau-humidite-chaleur",
+    "peau-vent-chaleur",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "mpox",
+   "cat": "ist",
+   "nom": "Mpox (monkeypox)",
+   "syn": "mpox monkeypox blisters rash STI STD",
+   "alerte": "Isolate yourself, cover the spots and call your doctor or a sexual health clinic (CeGIDD in France). A vaccine is offered to the people most at risk.",
+   "info": "Fever, fatigue, swollen glands, then spots that turn into blisters and then scabs, often on the genitals, anus or mouth. It spreads through close contact, especially during sex. It usually heals within 2 to 4 weeks.",
+   "mtc": "At first, Wind-Heat (fever), then Damp-Heat in the skin (blisters); afterwards, support Qi and Blood to recover.",
+   "tab": [
+    "p-vent-chaleur",
+    "peau-humidite-chaleur",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-sein",
+   "cat": "cancer",
+   "nom": "Breast cancer",
+   "syn": "breast cancer breast tumor mastectomy lumpectomy",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "rappel": "If your cancer is hormone-dependent (sensitive to hormones), avoid soy, red clover and hops supplements, and Chinese angelica (dang gui), including in the recipes.",
+   "info": "Treatments: surgery, radiotherapy, chemotherapy, and often hormone therapy for 5 years or more. Common effects: fatigue, hot flashes and joint pain on hormone therapy, swollen arm (lymphedema), low mood, fear of recurrence.",
+   "mtc": "Liver Qi Stagnation (emotions, breasts), Qi and Blood Deficiency after chemotherapy, Kidney Yin Deficiency on hormone therapy.",
+   "tab": [
+    "f-stagnation-qi",
+    "qi-sang",
+    "rn-vide-yin",
+    "rn-yin-yang",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "cancer-prostate",
+   "cat": "cancer",
+   "nom": "Prostate cancer",
+   "syn": "prostate cancer prostate tumor PSA prostatectomy",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "rappel": "If your cancer is hormone-dependent (sensitive to hormones), avoid soy, red clover and hops supplements, and Chinese angelica (dang gui), including in the recipes.",
+   "info": "Treatments: active surveillance, surgery, radiotherapy, hormone therapy. Common effects: urine leaks, erection problems, hot flashes and fatigue on hormone therapy, urgent need to urinate after radiotherapy.",
+   "mtc": "Kidney Qi Not Firm (leaks), Kidney Yin or Yang Deficiency (hot flashes, erection), Damp-Heat in the Bladder after radiotherapy.",
+   "tab": [
+    "rn-qi-non-ferme",
+    "rn-vide-yin",
+    "rn-vide-yang",
+    "rn-yin-yang",
+    "v-humidite-chaleur",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-poumon",
+   "cat": "cancer",
+   "nom": "Lung cancer",
+   "syn": "lung cancer lung tumor bronchi bronchial",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: shortness of breath, cough, severe fatigue, loss of appetite and weight, dry throat and mouth after radiotherapy.",
+   "mtc": "Lung Qi and Yin Deficiency, with an exhausted Spleen that no longer nourishes well.",
+   "tab": [
+    "p-vide-qi",
+    "p-vide-yin",
+    "poumon-rate-qi",
+    "qi-sang",
+    "rn-recevoir-qi"
+   ]
+  },
+  {
+   "id": "cancer-colon",
+   "cat": "cancer",
+   "nom": "Colon, rectal or anal cancer",
+   "syn": "colorectal cancer colon cancer bowel cancer rectum anus intestine stoma ostomy colostomy",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: diarrhea or constipation, bloating, fatigue, tingling in the hands and feet after some chemotherapies, stoma, discomfort after radiotherapy to the pelvis.",
+   "mtc": "Spleen Qi Deficiency, Damp-Heat in the Intestines, Blood Deficiency for the tingling.",
+   "tab": [
+    "rt-vide-qi",
+    "gi-humidite-chaleur",
+    "gi-constipation-vide",
+    "f-vide-sang",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-estomac",
+   "cat": "cancer",
+   "nom": "Stomach or esophageal cancer",
+   "syn": "stomach cancer gastric cancer esophagus oesophagus esophageal cancer gastrectomy",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: difficult meals, feeling full quickly, nausea, reflux, weight loss, fatigue. After surgery, small, frequent meals go down better.",
+   "mtc": "Rebellious Stomach Qi, Stomach Qi and Yin Deficiency.",
+   "tab": [
+    "e-rebellion",
+    "e-vide-qi",
+    "e-vide-yin",
+    "rt-vide-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-pancreas",
+   "cat": "cancer",
+   "nom": "Pancreatic cancer",
+   "syn": "pancreatic cancer pancreas tumor",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: severe fatigue, loss of appetite and weight, poorly digested fats (fatty stools), pain in the upper belly or the back, sometimes diabetes. Prescribed pancreatic enzymes help digestion.",
+   "mtc": "Spleen Qi Deficiency with Dampness, Liver Qi Stagnation.",
+   "tab": [
+    "rt-vide-qi",
+    "rt-froid-humidite",
+    "foie-rate",
+    "f-stagnation-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-foie",
+   "cat": "cancer",
+   "nom": "Liver or bile duct cancer",
+   "syn": "liver cancer hepatocellular carcinoma HCC bile ducts gallbladder cholangiocarcinoma",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "rappel": "Liver: no alcohol, and no herbal remedies or supplements without your doctor's advice.",
+   "info": "Common effects: fatigue, swollen belly, loss of appetite, jaundice, itching. A diseased liver handles herbal remedies and supplements poorly: nothing without your doctor's approval.",
+   "mtc": "Damp-Heat in the Liver and Gallbladder, Liver Overacting on the Spleen, exhausted Spleen.",
+   "tab": [
+    "f-humidite-chaleur",
+    "foie-rate",
+    "rt-vide-qi",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "cancer-uterus",
+   "cat": "cancer",
+   "nom": "Uterine or cervical cancer",
+   "syn": "uterine cancer endometrial cancer endometrium cervical cancer cervix hysterectomy brachytherapy",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "rappel": "If your cancer is hormone-dependent (sensitive to hormones), avoid soy, red clover and hops supplements, and Chinese angelica (dang gui), including in the recipes.",
+   "info": "Common effects: fatigue, sudden menopause if the ovaries are removed or irradiated (hot flashes, vaginal dryness), urinary or digestive problems after radiotherapy to the pelvis, swollen legs.",
+   "mtc": "Qi and Blood Deficiency, Kidney Yin and Yang Deficiency (induced menopause), Damp-Heat in the lower body after radiotherapy.",
+   "tab": [
+    "qi-sang",
+    "rn-yin-yang",
+    "rn-vide-yin",
+    "rt-vide-qi",
+    "gi-humidite-chaleur"
+   ]
+  },
+  {
+   "id": "cancer-ovaire",
+   "cat": "cancer",
+   "nom": "Ovarian cancer",
+   "syn": "ovarian cancer ovary ovaries tumor",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "rappel": "If your cancer is hormone-dependent (sensitive to hormones), avoid soy, red clover and hops supplements, and Chinese angelica (dang gui), including in the recipes.",
+   "info": "Common effects: fatigue, swollen belly, difficult digestion, sudden menopause, tingling after chemotherapy.",
+   "mtc": "Qi and Blood Deficiency, weak Spleen, Kidney Yin and Yang Deficiency, Liver Qi Stagnation.",
+   "tab": [
+    "qi-sang",
+    "rt-vide-qi",
+    "rn-yin-yang",
+    "f-stagnation-qi",
+    "f-vide-sang"
+   ]
+  },
+  {
+   "id": "cancer-vessie",
+   "cat": "cancer",
+   "nom": "Bladder or kidney cancer",
+   "syn": "bladder cancer kidney cancer renal cancer bladder tumor kidney BCG",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: urgent need to urinate, burning or blood in the urine after a treatment inside the bladder, fatigue, sometimes a urinary stoma.",
+   "mtc": "Damp-Heat in the Bladder, Kidney Qi Not Firm, Kidney Yin Deficiency.",
+   "tab": [
+    "v-humidite-chaleur",
+    "rn-qi-non-ferme",
+    "rn-vide-yin",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-orl",
+   "cat": "cancer",
+   "nom": "Mouth, throat or larynx cancer",
+   "syn": "head and neck cancer ENT cancer throat larynx pharynx mouth oral cancer tongue tonsil",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: very dry mouth, sores in the mouth, difficulty swallowing, loss of taste, stiff neck and damaged skin after radiotherapy.",
+   "mtc": "Stomach, Lung and Kidney Yin Deficiency: the heat of the radiation has burned up the fluids.",
+   "tab": [
+    "e-vide-yin",
+    "p-vide-yin",
+    "rn-vide-yin",
+    "p-secheresse",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cancer-thyroide",
+   "cat": "cancer",
+   "nom": "Thyroid cancer",
+   "syn": "thyroid cancer thyroidectomy radioactive iodine",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: fatigue, changed voice after surgery, weight gain or nervousness depending on the dose of thyroid hormone, dry mouth after radioactive iodine.",
+   "mtc": "Yang or Yin Deficiency depending on the hormone dose, and Liver Qi Stagnation.",
+   "tab": [
+    "rn-vide-yang",
+    "c-vide-yin",
+    "f-stagnation-qi",
+    "qi-sang",
+    "p-vide-yin"
+   ]
+  },
+  {
+   "id": "cancer-peau",
+   "cat": "cancer",
+   "nom": "Skin cancer, melanoma",
+   "syn": "skin cancer melanoma carcinoma basal cell carcinoma squamous cell carcinoma mole",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: scars, fatigue, skin reactions on immunotherapy (itching, patches). Protect your skin from the sun and show your doctor any mole that changes.",
+   "mtc": "Wind-Heat or Blood Deficiency in the skin, Qi and Blood Deficiency.",
+   "tab": [
+    "qi-sang",
+    "peau-vent-chaleur",
+    "peau-vide-sang",
+    "peau-chaleur-sang"
+   ]
+  },
+  {
+   "id": "cancer-sang",
+   "cat": "cancer",
+   "nom": "Leukemia, lymphoma, myeloma (blood cancers)",
+   "syn": "leukemia lymphoma myeloma hodgkin blood cancer bone marrow transplant stem cell transplant",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: severe fatigue, infections, bruising easily, night sweats, bone pain (myeloma), long recovery after a transplant. Low platelets: very gentle pressure and no moxa. Low white blood cells: follow your unit's instructions (often no raw meat, fish, shellfish or eggs, and no unpasteurized milk or cheese).",
+   "mtc": "Deep Deficiency of Qi, Blood and Essence, Yin Deficiency with night sweats, Spleen Not Controlling Blood.",
+   "tab": [
+    "qi-sang",
+    "rn-jing",
+    "rn-vide-yin",
+    "rt-sang",
+    "p-vide-qi"
+   ]
+  },
+  {
+   "id": "cancer-cerveau",
+   "cat": "cancer",
+   "nom": "Brain tumor",
+   "syn": "brain cancer brain tumor glioma glioblastoma",
+   "alerte": "New headaches with vomiting, a seizure, weakness on one side or confusion: call emergency services (15 or 112 in France). These routines go alongside your treatment, never in its place.",
+   "info": "Common effects: fatigue, headaches, harder time with memory and concentration, mood changes, sometimes seizures.",
+   "mtc": "Kidney Essence Deficiency that no longer nourishes the brain well (the “sea of marrow”), Heart Blood Deficiency, Liver Yang Rising.",
+   "tab": [
+    "rn-jing",
+    "c-vide-sang",
+    "coeur-rate",
+    "f-yang"
+   ]
+  },
+  {
+   "id": "cancer-testicule",
+   "cat": "cancer",
+   "nom": "Testicular cancer",
+   "syn": "testicular cancer testicle testicles tumor",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "It mainly affects young men and is cured in the vast majority of cases. Common effects: fatigue, nausea and tingling after chemotherapy, fertility questions (sperm banking is offered before treatment), mood.",
+   "mtc": "Qi and Blood Deficiency, Kidney Essence and Yang Deficiency.",
+   "tab": [
+    "qi-sang",
+    "rn-jing",
+    "rn-vide-yang",
+    "e-rebellion"
+   ]
+  },
+  {
+   "id": "cancer-os",
+   "cat": "cancer",
+   "nom": "Bone cancer, sarcoma",
+   "syn": "bone cancer sarcoma osteosarcoma bone metastases",
+   "alerte": "These routines go alongside your treatment, never in its place. Tell your care team about any herbal remedy or supplement, and call them right away if you get a fever during chemotherapy.",
+   "info": "Common effects: pain, fatigue, reduced mobility after surgery, long rehabilitation. Never massage an affected bone area.",
+   "mtc": "Kidney Essence Deficiency (the Kidney governs the bones), Qi and Blood Deficiency.",
+   "tab": [
+    "rn-jing",
+    "qi-sang",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "polyarthrite",
+   "cat": "polyarthrite",
+   "nom": "Rheumatoid arthritis (diagnosed)",
+   "syn": "rheumatoid arthritis RA inflammatory arthritis polyarthritis rheumatism arthritis rheumatologist methotrexate biologics",
+   "alerte": "During a flare, tell your doctor quickly. If you are on methotrexate or a biologic, a fever means you should see a doctor (risk of infection). A very hot, very painful joint with fever: see a doctor the same day.",
+   "rappel": "Rheumatoid arthritis: no heat or moxa on a red, hot, swollen joint; gentle pressure around it, never on the inflamed joint itself. If you are on methotrexate or a biologic, no herbal remedies or supplements without your rheumatologist's advice.",
+   "info": "An inflammatory rheumatic disease in which the immune system attacks the lining of the joints. The small joints of the hands, wrists and feet swell and hurt on both sides, with morning stiffness lasting more than 30 minutes and severe fatigue. Without treatment, the joints become deformed; a disease-modifying treatment started early (methotrexate, biologics) greatly changes how the disease develops.",
+   "mtc": "A “Bi” 痹证 (painful obstruction) that settles in: during a flare, Heat and Dampness in the joints; with cold and damp, Cold Bi or Damp Bi; over time, Blood Stasis and Phlegm that deform the joints, on a Liver and Kidney Deficiency that no longer nourishes the tendons and bones well (“Wang Bi” 尪痹).",
+   "tab": [
+    "bi-chaleur",
+    "bi-humidite",
+    "bi-froid",
+    "bi-vent",
+    "stase-sang",
+    "foie-rein-yin",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "sep",
+   "cat": "sep",
+   "nom": "Multiple sclerosis (diagnosed)",
+   "syn": "multiple sclerosis MS neurologist relapse flare myelin demyelination",
+   "alerte": "A new problem (vision, strength, sensation, balance) that lasts more than 24 hours may be a relapse: tell your neurologist. Sudden weakness on one side, trouble speaking or loss of vision: call emergency services (15 or 112 in France).",
+   "rappel": "Multiple sclerosis: avoid prolonged heat (very hot bath, long moxa, hot-water bottle) if it makes your symptoms worse, and never apply heat to an area with reduced feeling. No herbal remedies or supplements without your neurologist's advice.",
+   "info": "A disease in which the immune system damages the sheath around the nerves of the brain and spinal cord. It often progresses in relapses: tingling, reduced vision in one eye, double vision, weakness in one leg, loss of balance, which fade within a few weeks. Fatigue, bladder problems, stiff legs, memory and mood are often affected. Disease-modifying treatments greatly reduce relapses; physical therapy and adapted physical activity help you keep walking.",
+   "mtc": "Linked to the “Wei syndrome” 痿证 (weakness of the limbs): a Spleen that no longer nourishes the muscles well, Liver and Kidney Yin Deficiency, Essence that no longer nourishes the marrow well; often Damp-Heat in the early stages, and internal Wind (tremors, spasms) on a Blood Deficiency.",
+   "tab": [
+    "rt-vide-qi",
+    "foie-rein-yin",
+    "rn-jing",
+    "qi-sang",
+    "rt-humidite-chaleur",
+    "rate-rein-yang",
+    "f-vide-sang"
+   ]
+  }
+ ]
+}

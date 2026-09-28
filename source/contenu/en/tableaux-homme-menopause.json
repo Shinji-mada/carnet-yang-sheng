@@ -1,0 +1,418 @@
+{
+ "tableaux": [
+  {
+   "id": "f-froid-meridien",
+   "organe": "foie",
+   "groupes": [
+    "homme"
+   ],
+   "nom": "Cold Stagnating in the Liver Meridian",
+   "zh": "寒滞肝脉",
+   "py": "Hán zhì gān mài",
+   "resume": "Cold blocks the Liver meridian, which circles the genitals: cold lower belly and testicles, a pulling pain toward the groin, relieved by warmth.",
+   "causes": [
+    "Cold reaching the lower body: cold floors, cold-water swimming, clothes that are too light or wet",
+    "Iced drinks",
+    "Underlying Yang that is already weak"
+   ],
+   "mecanisme": "The Liver meridian runs through the groin, circles the genitals, then rises all the way to the top of the head. Cold contracts and blocks: the scrotum tightens, the pain pulls toward the lower belly, sometimes with pain at the top of the head, and warmth brings relief. In women, it causes cold pain in the lower belly and painful periods.",
+   "cle": [
+    "douleur-testicules",
+    "froid-genital",
+    "douleur-ventre-froid"
+   ],
+   "autres": [
+    "cephalee-sommet",
+    "frilosite",
+    "libido",
+    "erection",
+    "regles-douloureuses",
+    "douleur-fixe",
+    "peu-soif",
+    "langue-pale"
+   ],
+   "contre": [
+    "soif",
+    "langue-rouge",
+    "enduit-jaune",
+    "urines-foncees"
+   ],
+   "langue": "Pale, moist white coating.",
+   "pouls": "Deep, wiry, slow.",
+   "principe": {
+    "zh": "暖肝散寒",
+    "py": "Nuǎn gān sàn hán",
+    "fr": "Warm the Liver, disperse Cold"
+   },
+   "moxa": "Moxa recommended on CV 4 and LR 1, or a hot-water bottle on the lower belly.",
+   "consulter": "Sudden, intense pain in a testicle is an emergency: call emergency services (15 or 112 in France). A lump or swelling must be seen by a doctor.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Frees Liver Qi and calms the pulling pain."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Crossing point of the three Yin meridians of the leg (Liver, Spleen, Kidney), which all run through the lower belly."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Supports Kidney Yang, the source of warmth."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "F 1",
+       "s": 180,
+       "pourquoi": "Warms the Liver meridian at its source."
+      },
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Warms the lower belly and the Kidney."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "agneau-fenouil",
+    "agneau-dang-gui",
+    "crevettes-ciboule-oeufs",
+    "infusion-gingembre-cannelle"
+   ],
+   "privilegier": "Lamb, fennel seeds, ginger, cinnamon, leek, garlic chives, hot slow-cooked dishes.",
+   "eviter": "Iced drinks, sitting on cold floors, cold-water swimming, staying in wet clothes.",
+   "conseils": [
+    "Keep your lower belly and lower back covered, especially in winter.",
+    "A hot-water bottle on your lower belly in the evening often brings relief."
+   ],
+   "simple": "Cold settles in your lower belly: pain pulling toward the groin, cold genitals.",
+   "reperes": [
+    "Testicular pain",
+    "Lower belly pain in the cold",
+    "Low libido",
+    "Painful periods"
+   ]
+  },
+  {
+   "id": "f-humidite-bas",
+   "organe": "foie",
+   "groupes": [
+    "homme",
+    "femme"
+   ],
+   "nom": "Damp-Heat Pouring Down the Liver Meridian",
+   "zh": "肝经湿热下注",
+   "py": "Gān jīng shī rè xià zhù",
+   "resume": "Hot Dampness builds up in the genital area: damp, itchy private parts, yellow discharge, dark urine, erection or ejaculation problems.",
+   "causes": [
+    "Fatty, spicy, sugary food, alcohol",
+    "Local heat and moisture: tight or synthetic clothing",
+    "Anger and frustration that overheat the Liver"
+   ],
+   "mecanisme": "The Liver meridian circles the genitals. When Damp-Heat flows down into this area, it weighs it down, irritates and overheats it: dampness and odor, itching, yellow discharge, burning when urinating. It can also get in the way of erections or make ejaculation too quick, without any underlying weakness.",
+   "cle": [
+    "humidite-intime",
+    "urines-foncees",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "pertes-jaunes",
+    "brulures-urinaires",
+    "erection",
+    "ejaculation-precoce",
+    "douleur-testicules",
+    "pertes-seminales",
+    "gout-amer",
+    "irritabilite",
+    "lourdeur",
+    "langue-rouge",
+    "ecoulement",
+    "plaie-genitale",
+    "vesicules-genitales",
+    "verrues-genitales"
+   ],
+   "contre": [
+    "frilosite",
+    "urines-claires",
+    "langue-pale"
+   ],
+   "langue": "Red, greasy yellow coating, especially at the back.",
+   "pouls": "Slippery, wiry, rapid.",
+   "principe": {
+    "zh": "清利肝经湿热",
+    "py": "Qīng lì gān jīng shī rè",
+    "fr": "Clear and drain Damp-Heat from the Liver meridian"
+   },
+   "consulter": "Burning urination with fever, unusual discharge or sores on the genitals must be seen by a doctor.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 5",
+       "s": 60,
+       "pourquoi": "Luo-Connecting point of the Liver: clears Damp-Heat from the genital area."
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Clears Liver Heat."
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness from the lower body."
+      },
+      {
+       "p": "RM 3",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Bladder: clears Damp-Heat from the lower belly."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "bouillon-concombre-wakame",
+    "soupe-mungo",
+    "congee-orge-azuki"
+   ],
+   "privilegier": "Pearl barley, mung and adzuki beans, cucumber, celery, seaweed, radish, plenty of lukewarm water.",
+   "eviter": "Alcohol, fried food, very spicy food, sugar, cured and processed meats, tight or synthetic underwear.",
+   "conseils": [
+    "Wear loose cotton and change quickly after exercise.",
+    "Wash with lukewarm water, without scented soap."
+   ],
+   "simple": "Damp heat in your private parts: itching, odor, yellow discharge, burning.",
+   "reperes": [
+    "Yeast infection",
+    "Vaginitis",
+    "Prostatitis",
+    "Genital itching",
+    "Cystitis"
+   ]
+  },
+  {
+   "id": "rn-peur",
+   "organe": "rein",
+   "groupes": [
+    "homme"
+   ],
+   "nom": "Fear Weakening the Kidney",
+   "zh": "惊恐伤肾",
+   "py": "Jīng kǒng shāng shèn",
+   "resume": "Fear, pressure to “perform” or emotional shock: the desire is there but the erection fades at the wrong moment, your heart races, your sleep becomes restless.",
+   "causes": [
+    "Fear, shock or fright",
+    "Performance anxiety, fear of disappointing",
+    "Prolonged stress and overwork"
+   ],
+   "mecanisme": "In Chinese medicine, fear makes Qi “descend” and affects the Kidney, which governs the sexual sphere. At the same time, the Heart, seat of the mind, becomes agitated. Erections become fragile even though desire is present, often with no other sign of physical weakness.",
+   "cle": [
+    "erection",
+    "peurs",
+    "anxiete"
+   ],
+   "autres": [
+    "palpitations",
+    "sommeil-agite",
+    "ejaculation-precoce",
+    "indecision",
+    "decouragement",
+    "mictions-frequentes",
+    "genoux-faibles",
+    "libido"
+   ],
+   "contre": [
+    "humidite-intime",
+    "enduit-jaune"
+   ],
+   "langue": "Often normal, sometimes pale.",
+   "pouls": "Weak at the Kidney positions, sometimes rapid and irregular under emotion.",
+   "principe": {
+    "zh": "益肾宁神",
+    "py": "Yì shèn níng shén",
+    "fr": "Support the Kidney, calm the mind"
+   },
+   "consulter": "If erection problems persist, talk to a doctor: they can also come from circulation, diabetes or a medication.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "pourquoi": "Calms the mind, releases tension."
+      },
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Heart: calms fear and agitation."
+      },
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Opens the chest, soothes anxiety."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Kidney: strengthens it."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Anchors Qi in the lower belly."
+      },
+      {
+       "p": "V 52",
+       "s": 90,
+       "pourquoi": "“Residence of the Will”: strengthens the Kidney and confidence."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-qian-shi",
+    "congee-lotus-jujube",
+    "infusion-longane-jujube",
+    "huitres-gingembre"
+   ],
+   "privilegier": "Lotus seeds, jujubes, longans, oysters, walnuts, black sesame, regular meals.",
+   "eviter": "Coffee and stimulants, late-night screens, pressure and comparisons.",
+   "conseils": [
+    "Slow breathing: breathe in for 4 seconds, out for 6 seconds, for 5 minutes before sleep.",
+    "Fear of failure keeps the block going: talking about it with your partner often takes away much of the pressure."
+   ],
+   "simple": "Stress and fear leave you powerless: the erection fades even though the desire is there.",
+   "reperes": [
+    "Performance anxiety",
+    "Erectile dysfunction",
+    "Premature ejaculation",
+    "Stress",
+    "Stage fright"
+   ]
+  },
+  {
+   "id": "rn-yin-yang",
+   "organe": "rein",
+   "groupes": [
+    "menopause"
+   ],
+   "nom": "Kidney Yin and Yang Deficiency",
+   "zh": "肾阴阳两虚",
+   "py": "Shèn yīn yáng liǎng xū",
+   "simple": "Your reserves of warmth and coolness run out at the same time: hot flashes then chills, sweating, cold feet, fatigue.",
+   "reperes": [
+    "Menopause",
+    "Hot flashes",
+    "Night sweats",
+    "Cold feet",
+    "Fatigue"
+   ],
+   "resume": "The Kidney runs down on both sides at once: you feel hot then cold, sweat at night yet have icy feet, your lower back is weak. The most typical pattern of menopause.",
+   "causes": [
+    "Age and the natural decline of the Kidney's reserves",
+    "Overwork, pregnancies close together",
+    "Long illness"
+   ],
+   "mecanisme": "The Kidney holds both Yin, which cools, and Yang, which warms. Around menopause, both decline together: Yin no longer tempers heat (hot flashes, sweating), and Yang no longer warms the lower body (cold feet, urinating at night). Hence these signs that seem contradictory.",
+   "cle": [
+    "chaud-froid",
+    "genoux-faibles",
+    "cycles-irreguliers"
+   ],
+   "autres": [
+    "chaleur-corps",
+    "sueurs-nuit",
+    "frilosite",
+    "mictions-nuit",
+    "fatigue",
+    "acouphenes-faibles",
+    "memoire",
+    "secheresse-intime",
+    "libido",
+    "oedeme",
+    "irritabilite",
+    "reveils",
+    "bouffees-hormono"
+   ],
+   "contre": [
+    "enduit-jaune",
+    "soif"
+   ],
+   "langue": "Pale or slightly red, little coating.",
+   "pouls": "Deep, thready and weak, especially at the Kidney positions.",
+   "principe": {
+    "zh": "调补阴阳",
+    "py": "Tiáo bǔ yīn yáng",
+    "fr": "Balance and tonify Kidney Yin and Yang"
+   },
+   "moxa": "Gentle moxa is fine on CV 4 when your feet are cold, never during a hot flash.",
+   "consulter": "Bleeding after menopause, very troublesome hot flashes, persistent sadness or bone pain should be discussed with a doctor.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Kidney: supports both Yin and Yang."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, calms heat and helps sleep."
+      },
+      {
+       "p": "Rn 7",
+       "s": 90,
+       "pourquoi": "Regulates sweating."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Crossing point of the three Yin meridians: nourishes Blood and Yin."
+      },
+      {
+       "p": "RM 4",
+       "s": 120,
+       "pourquoi": "Anchors and tonifies the Kidney."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-haricots-noirs",
+    "soupe-canard-igname",
+    "creme-sesame-noix",
+    "congee-goji-sesame"
+   ],
+   "privilegier": "Black beans, black sesame, walnuts, Chinese yam, goji berries, duck, fish, slow-cooked soups, regular meals.",
+   "eviter": "Coffee, alcohol, very spicy food, late and heavy meals, late-night screens.",
+   "conseils": [
+    "Keep your feet warm but your head cool: socks and a well-aired bedroom.",
+    "A daily walk and a regular bedtime often ease hot flashes."
+   ]
+  }
+ ]
+}

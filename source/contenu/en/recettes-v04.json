@@ -1,0 +1,1492 @@
+{
+ "fiches": [
+  {
+   "id": "crevettes-ciboule-oeufs",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 50,
+   "axe": "yang",
+   "titre": "Scrambled eggs with shrimp and Chinese chives",
+   "contexte": "Chinese chives are nicknamed “the herb that lifts Yang”; together with shrimp, they warm the Kidney. A quick dish for a cold lower back, fatigue with a sense of cold, and low libido.",
+   "principe": {
+    "zh": "温肾壮阳",
+    "py": "Wēn shèn zhuàng yáng",
+    "fr": "Warm the Kidney, strengthen Yang"
+   },
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "crevettes",
+     "q": 200,
+     "u": "g",
+     "nom": "peeled shrimp",
+     "cle": "crevettes"
+    },
+    {
+     "id": "ciboule",
+     "q": 150,
+     "u": "g",
+     "nom": "Chinese chives (jiu cai), cut into 3 cm (1 in) lengths",
+     "cle": "ciboule-chinoise"
+    },
+    {
+     "id": "oeufs",
+     "q": 3,
+     "nom": "eggs",
+     "cle": "oeuf"
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "fresh ginger, thinly sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Beat the eggs",
+       "texte": "Beat the eggs ({oeufs}) with half the salt ({sel})."
+      },
+      {
+       "titre": "Cook the eggs",
+       "texte": "Heat half the oil ({huile}) until very hot, pour in the eggs and stir gently until they set but are still soft. Set aside.",
+       "s": 60
+      },
+      {
+       "titre": "Sear the shrimp",
+       "texte": "Add the rest of the oil, the ginger ({gingembre}), then the shrimp ({crevettes}). Stir-fry them until they turn pink.",
+       "s": 120
+      },
+      {
+       "titre": "Add the chives",
+       "texte": "Add the Chinese chives ({ciboule}) and the rest of the salt, and stir-fry over high heat just until they wilt.",
+       "s": 45
+      },
+      {
+       "titre": "Combine",
+       "texte": "Return the eggs to the pan, give it one last stir and serve right away with rice."
+      }
+     ]
+    }
+   ],
+   "precautions": "A warming dish: avoid it if you have signs of Heat (red tongue, thirst, pimples, fever) or a seafood allergy.",
+   "notes": [
+    "You'll find Chinese chives in bunches in Asian grocery stores: flat leaves, with a taste somewhere between garlic and chives. If you can't find them, use very thinly sliced leek or regular chives."
+   ],
+   "tags": [
+    "shrimp",
+    "quick",
+    "Kidney",
+    "libido",
+    "seafood"
+   ]
+  },
+  {
+   "id": "congee-qian-shi",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 51,
+   "axe": "essence",
+   "titre": "Fox nut, lotus seed and Chinese yam congee",
+   "contexte": "Fox nuts and lotus seeds “tighten”: they help the Kidney hold in what is leaking out (seminal emissions, urine leaks, soft stools). Chinese yam supports the Spleen and Kidney. A mild, nourishing bowl that also calms the mind.",
+   "principe": {
+    "zh": "补肾固精",
+    "py": "Bǔ shèn gù jīng",
+    "fr": "Tonify the Kidney, secure Essence (Jing)"
+   },
+   "portions": 4,
+   "duree": "1 h 30 min (+ 2 h soaking)",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 150,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "qianshi",
+     "q": 40,
+     "u": "g",
+     "nom": "dried fox nuts (euryale seeds, qian shi)",
+     "cle": "qian-shi"
+    },
+    {
+     "id": "lotus",
+     "q": 40,
+     "u": "g",
+     "nom": "dried lotus seeds, germ removed",
+     "cle": "lotus"
+    },
+    {
+     "id": "shanyao",
+     "q": 150,
+     "u": "g",
+     "nom": "fresh Chinese yam (shan yao), diced (or 30 g dried)",
+     "cle": "shan-yao"
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates)",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Soak the fox nuts ({qianshi}) and lotus seeds ({lotus}) in cold water, then drain.",
+       "s": 7200
+      },
+      {
+       "titre": "Start cooking",
+       "texte": "Bring the water ({eau}) to a boil with the fox nuts and lotus seeds, then let it simmer, covered.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the rice",
+       "texte": "Add the rinsed rice ({riz}), yam ({shanyao}) and jujubes ({dattes}). Let it simmer with the lid slightly ajar, stirring from time to time, until it turns thick and creamy.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve hot. Thin it with a little hot water if the congee has gotten too thick."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Soak the fox nuts ({qianshi}) and lotus seeds ({lotus}) in cold water, then drain.",
+       "s": 7200
+      },
+      {
+       "titre": "Put everything in the inner pot",
+       "texte": "Put the rinsed rice ({riz}), fox nuts, lotus seeds, yam ({shanyao}), jujubes ({dattes}) and water ({eau}) in the inner pot."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Congee program.",
+       "s": 5400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Stir and serve hot."
+      }
+     ]
+    }
+   ],
+   "precautions": "A dish that “tightens”: avoid it if you have dry constipation or a swollen, painful belly.",
+   "notes": [
+    "Fox nuts (small white and red balls) and lotus seeds are sold dried in Asian grocery stores.",
+    "You can make a big batch: it keeps for 3 days in the fridge."
+   ],
+   "tags": [
+    "congee",
+    "Kidney",
+    "seminal emissions",
+    "urine leaks",
+    "sleep"
+   ]
+  },
+  {
+   "id": "poulet-chataignes",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 52,
+   "axe": "yang",
+   "titre": "Braised chicken with chestnuts and shiitake mushrooms",
+   "contexte": "Chestnut is nicknamed the “Kidney fruit”: it strengthens the lower back and knees. With chicken and ginger, it makes a fall dish that warms the Spleen and Kidney.",
+   "principe": {
+    "zh": "补肾健脾",
+    "py": "Bǔ shèn jiàn pí",
+    "fr": "Tonify the Kidney, strengthen the Spleen"
+   },
+   "portions": 4,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "poulet",
+     "q": 800,
+     "u": "g",
+     "nom": "chicken thighs, cut into pieces",
+     "cle": "poulet"
+    },
+    {
+     "id": "chataignes",
+     "q": 300,
+     "u": "g",
+     "nom": "cooked, peeled chestnuts (vacuum-packed or jarred)",
+     "cle": "chataignes"
+    },
+    {
+     "id": "shiitake",
+     "q": 6,
+     "nom": "dried shiitake mushrooms, soaked for 30 min",
+     "cle": "shiitake"
+    },
+    {
+     "id": "gingembre",
+     "q": 20,
+     "u": "g",
+     "nom": "fresh ginger, sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions, cut into lengths",
+     "cle": "cebette"
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "water (including the strained shiitake soaking water)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a cast-iron casserole pot or saucepan",
+     "etapes": [
+      {
+       "titre": "Brown the chicken",
+       "texte": "Brown the chicken ({poulet}) in the oil ({huile}) with the ginger ({gingembre}) and the white parts of the spring onions ({cebette}).",
+       "s": 420
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Add the shiitakes ({shiitake}) cut in half, the soy sauce ({soja}) and the water ({eau}). Cover and let it simmer gently.",
+       "s": 1500
+      },
+      {
+       "titre": "Add the chestnuts",
+       "texte": "Add the chestnuts ({chataignes}) and keep cooking uncovered to reduce the sauce.",
+       "s": 900
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sprinkle with the green parts of the spring onions and serve with rice."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Brown the chicken",
+       "texte": "On the Sauté setting, if your cooker has one, brown the chicken ({poulet}) in the oil ({huile}) with the ginger ({gingembre}) and the white parts of the spring onions ({cebette}).",
+       "s": 480
+      },
+      {
+       "titre": "Cook",
+       "texte": "Add the shiitakes ({shiitake}), chestnuts ({chataignes}), soy sauce ({soja}) and water ({eau}). Simmer or Stew program.",
+       "s": 2700
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sprinkle with the green parts of the spring onions and serve with rice."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Brown the chicken",
+       "texte": "Brown the chicken ({poulet}) in the oil ({huile}) with the ginger ({gingembre}) and the white parts of the spring onions ({cebette}).",
+       "s": 420
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Add the shiitakes ({shiitake}), soy sauce ({soja}) and water ({eau}). Close the lid and start timing once it starts to hiss.",
+       "s": 600
+      },
+      {
+       "titre": "Add the chestnuts",
+       "texte": "Let the pressure drop, add the chestnuts ({chataignes}) and let the sauce reduce uncovered.",
+       "s": 480
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sprinkle with the green parts of the spring onions and serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "With fresh chestnuts: cut a slit in each one, boil them for 15 minutes and peel them while they're still hot."
+   ],
+   "tags": [
+    "chicken",
+    "meat",
+    "stew",
+    "knees",
+    "lower back",
+    "fall"
+   ]
+  },
+  {
+   "id": "agneau-fenouil",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 53,
+   "axe": "yang",
+   "titre": "Braised lamb with fennel and fennel seeds",
+   "contexte": "Fennel seeds warm the Liver meridian and the lower belly; lamb and ginger warm the Kidney and Spleen. For cold-type pain in the lower belly, periods that come with a feeling of cold, and icy hands and feet.",
+   "principe": {
+    "zh": "暖肝温肾",
+    "py": "Nuǎn gān wēn shèn",
+    "fr": "Warm the Liver and Kidney"
+   },
+   "portions": 4,
+   "duree": "2 h",
+   "ingredients": [
+    {
+     "id": "agneau",
+     "q": 800,
+     "u": "g",
+     "nom": "lamb shoulder or neck, cut into pieces",
+     "cle": "agneau"
+    },
+    {
+     "id": "fenouil",
+     "q": 2,
+     "nom": "fennel bulbs, quartered",
+     "cle": "fenouil"
+    },
+    {
+     "id": "graines",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "fennel seeds",
+     "cle": "graines-fenouil"
+    },
+    {
+     "id": "carotte",
+     "q": 2,
+     "nom": "carrots, cut into chunks",
+     "cle": "carotte"
+    },
+    {
+     "id": "gingembre",
+     "q": 30,
+     "u": "g",
+     "nom": "fresh ginger, sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "ail",
+     "q": 3,
+     "nom": "garlic cloves, crushed",
+     "cle": "ail"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "olive oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a cast-iron casserole pot",
+     "etapes": [
+      {
+       "titre": "Brown the lamb",
+       "texte": "Brown the lamb ({agneau}) in the oil ({huile}) on all sides.",
+       "s": 480
+      },
+      {
+       "titre": "Aromatics",
+       "texte": "Add the ginger ({gingembre}), garlic ({ail}) and fennel seeds ({graines}), and stir until fragrant.",
+       "s": 90
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Pour in the water ({eau}), add salt ({sel}), cover and let it simmer very gently.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the vegetables",
+       "texte": "Add the fennel ({fenouil}) and carrots ({carotte}), and keep cooking until everything is meltingly tender.",
+       "s": 2400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve hot, with rice or millet."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Brown the lamb",
+       "texte": "On the Sauté setting, if your cooker has one, brown the lamb ({agneau}) in the oil ({huile}) with the ginger ({gingembre}), garlic ({ail}) and fennel seeds ({graines}).",
+       "s": 540
+      },
+      {
+       "titre": "Cook",
+       "texte": "Add the fennel ({fenouil}), carrots ({carotte}), water ({eau}) and salt ({sel}). Simmer or Stew program.",
+       "s": 5400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve hot, with rice or millet."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Brown the lamb",
+       "texte": "Brown the lamb ({agneau}) in the oil ({huile}) with the ginger ({gingembre}), garlic ({ail}) and fennel seeds ({graines}).",
+       "s": 540
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Add the fennel ({fenouil}), carrots ({carotte}), water ({eau}) and salt ({sel}). Close the lid and start timing once it starts to hiss.",
+       "s": 1800
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let the pressure drop on its own and serve."
+      }
+     ]
+    }
+   ],
+   "precautions": "A very warming dish: not if you have a fever, a red tongue, intense thirst or hot flashes.",
+   "notes": [
+    "Mutton works too; cook it half an hour longer."
+   ],
+   "tags": [
+    "lamb",
+    "meat",
+    "stew",
+    "feeling cold",
+    "lower belly",
+    "painful periods"
+   ]
+  },
+  {
+   "id": "soupe-canard-igname",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 54,
+   "axe": "yin",
+   "titre": "Duck soup with Chinese yam and goji berries",
+   "contexte": "Duck nourishes Yin without weighing you down; Chinese yam supports the Spleen, Lung and Kidney, and goji nourishes the Liver and Kidney. For a dry mouth, night sweats, and feeling hot late in the day.",
+   "principe": {
+    "zh": "滋阴补虚",
+    "py": "Zī yīn bǔ xū",
+    "fr": "Nourish Yin, tonify Deficiency"
+   },
+   "portions": 4,
+   "duree": "2 h",
+   "ingredients": [
+    {
+     "id": "canard",
+     "q": 800,
+     "u": "g",
+     "nom": "duck legs, skin partly removed",
+     "cle": "canard"
+    },
+    {
+     "id": "shanyao",
+     "q": 200,
+     "u": "g",
+     "nom": "fresh Chinese yam (shan yao), cut into chunks (or 40 g dried)",
+     "cle": "shan-yao"
+    },
+    {
+     "id": "goji",
+     "q": 15,
+     "u": "g",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "fresh ginger, sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions",
+     "cle": "cebette"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Blanch the duck",
+       "texte": "Drop the duck ({canard}) into boiling water, then drain and rinse: the broth will be clearer and less fatty.",
+       "s": 180
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put the duck back in the cold water ({eau}) with the ginger ({gingembre}) and the white parts of the spring onions ({cebette}). Bring to a simmer and cook covered, skimming off the foam at the start.",
+       "s": 4500
+      },
+      {
+       "titre": "Add the yam",
+       "texte": "Add the yam ({shanyao}) and keep cooking.",
+       "s": 1200
+      },
+      {
+       "titre": "Add the goji",
+       "texte": "Add the goji berries ({goji}) and salt ({sel}).",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Skim off the fat if needed and serve with the green parts of the spring onions."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Blanch the duck",
+       "texte": "Drop the duck ({canard}) into boiling water, then drain and rinse.",
+       "s": 180
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put the duck, yam ({shanyao}), ginger ({gingembre}), spring onion whites ({cebette}) and water ({eau}) in the inner pot. Soup program.",
+       "s": 5400
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji ({goji}) and salt ({sel}), and leave it on Keep Warm.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Skim off the fat if needed and serve."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Blanch the duck",
+       "texte": "Drop the duck ({canard}) into boiling water, then drain and rinse.",
+       "s": 180
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put in the duck, yam ({shanyao}), ginger ({gingembre}), spring onion whites ({cebette}) and water ({eau}). Close the lid and start timing once it starts to hiss.",
+       "s": 1800
+      },
+      {
+       "titre": "Finish",
+       "texte": "Let the pressure drop, add the goji ({goji}) and salt ({sel}) and let it simmer.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Skim off the fat if needed and serve."
+      }
+     ]
+    }
+   ],
+   "precautions": "Duck is cooling: if you often feel cold or have soft stools, double the ginger.",
+   "notes": [
+    "Once the broth has cooled, it's easy to skim: the fat sets on the surface."
+   ],
+   "tags": [
+    "duck",
+    "meat",
+    "soup",
+    "Yin",
+    "night sweats",
+    "dryness"
+   ]
+  },
+  {
+   "id": "foies-volaille-epinards",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 55,
+   "axe": "sang",
+   "titre": "Pan-fried chicken livers with spinach and goji",
+   "contexte": "In Chinese dietary therapy, liver nourishes the Liver: chicken livers, spinach and goji nourish the Blood. For tired eyes, floaters, cramps and brittle nails.",
+   "principe": {
+    "zh": "养肝补血",
+    "py": "Yǎng gān bǔ xuè",
+    "fr": "Nourish the Liver, tonify the Blood"
+   },
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "foies",
+     "q": 250,
+     "u": "g",
+     "nom": "chicken livers, trimmed",
+     "cle": "foies-volaille"
+    },
+    {
+     "id": "epinards",
+     "q": 300,
+     "u": "g",
+     "nom": "fresh spinach",
+     "cle": "epinards"
+    },
+    {
+     "id": "goji",
+     "q": 10,
+     "u": "g",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "ail",
+     "q": 2,
+     "nom": "garlic cloves, thinly sliced",
+     "cle": "ail"
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "fresh ginger, thinly sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan",
+     "etapes": [
+      {
+       "titre": "Sear the livers",
+       "texte": "Heat half the oil ({huile}) until very hot and sear the livers ({foies}) with the ginger ({gingembre}): they should stay pink in the middle. Set aside.",
+       "s": 180
+      },
+      {
+       "titre": "Wilt the spinach",
+       "texte": "In the rest of the oil, fry the garlic ({ail}), then the spinach ({epinards}) until it wilts.",
+       "s": 150
+      },
+      {
+       "titre": "Combine",
+       "texte": "Return the livers to the pan, add the goji ({goji}) and soy sauce ({soja}), and stir over the heat.",
+       "s": 60
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve right away, with rice."
+      }
+     ]
+    }
+   ],
+   "precautions": "Rich in vitamin A: if you're pregnant, limit organ meats to a small portion now and then, and ask your midwife or doctor for advice.",
+   "notes": [
+    "Overcooked livers turn dry and bitter: take them off the heat as soon as they're browned."
+   ],
+   "tags": [
+    "offal",
+    "meat",
+    "Blood",
+    "eyes",
+    "quick"
+   ]
+  },
+  {
+   "id": "bouillon-concombre-wakame",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 56,
+   "axe": "chaleur",
+   "titre": "Cucumber, tofu and wakame broth",
+   "contexte": "Cucumber, tofu and seaweed are cooling and drain Dampness through the urine. A light broth for dark urine, intimate itching, a bitter taste in the mouth, and hot weather.",
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clear Heat, drain Dampness"
+   },
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "concombre",
+     "q": 1,
+     "nom": "cucumber, cut into half-moons",
+     "cle": "concombre"
+    },
+    {
+     "id": "tofu",
+     "q": 200,
+     "u": "g",
+     "nom": "silken or plain tofu, diced",
+     "cle": "tofu"
+    },
+    {
+     "id": "wakame",
+     "q": 5,
+     "u": "g",
+     "nom": "dried wakame seaweed",
+     "cle": "wakame"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "spring onion, finely sliced",
+     "cle": "cebette"
+    },
+    {
+     "id": "gingembre",
+     "q": 5,
+     "u": "g",
+     "nom": "fresh ginger, thinly sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan",
+     "etapes": [
+      {
+       "titre": "Rehydrate the seaweed",
+       "texte": "Soak the wakame ({wakame}) in cold water, then drain.",
+       "s": 300
+      },
+      {
+       "titre": "Heat the broth",
+       "texte": "Bring the water ({eau}) to a simmer with the ginger ({gingembre}) and soy sauce ({soja}).",
+       "s": 300
+      },
+      {
+       "titre": "Cook",
+       "texte": "Add the tofu ({tofu}), cucumber ({concombre}) and wakame, and let it simmer.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sprinkle with spring onion ({cebette}) and serve warm."
+      }
+     ]
+    }
+   ],
+   "precautions": "A cooling dish: if you often feel cold or have soft stools, save it for hot weather and add ginger.",
+   "notes": [
+    "You'll find dried wakame in Asian grocery stores or the organic aisle; it swells a lot."
+   ],
+   "tags": [
+    "soup",
+    "vegetables",
+    "seaweed",
+    "Heat",
+    "Dampness",
+    "light"
+   ]
+  },
+  {
+   "id": "champignons-noirs",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 57,
+   "axe": "circuler",
+   "titre": "Stir-fried wood ear mushrooms with celery, garlic and ginger",
+   "contexte": "Wood ear mushrooms (mu er) gently get the Blood moving; celery calms Liver Yang. A side dish for fixed pain, periods with clots, high blood pressure and throbbing temples.",
+   "principe": {
+    "zh": "活血通络",
+    "py": "Huó xuè tōng luò",
+    "fr": "Get the Blood moving, clear the vessels"
+   },
+   "portions": 2,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "muer",
+     "q": 15,
+     "u": "g",
+     "nom": "dried wood ear mushrooms (mu er)",
+     "cle": "champignons-noirs"
+    },
+    {
+     "id": "celeri",
+     "q": 3,
+     "nom": "celery stalks, sliced on the diagonal",
+     "cle": "celeri"
+    },
+    {
+     "id": "carotte",
+     "q": 1,
+     "nom": "carrot, thinly sliced",
+     "cle": "carotte"
+    },
+    {
+     "id": "ail",
+     "q": 2,
+     "nom": "garlic cloves, thinly sliced",
+     "cle": "ail"
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "fresh ginger, cut into julienne",
+     "cle": "gingembre"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Rehydrate",
+       "texte": "Soak the wood ear mushrooms ({muer}) in lukewarm water, then rinse them and cut off the hard parts.",
+       "s": 1200
+      },
+      {
+       "titre": "Stir-fry the aromatics",
+       "texte": "Fry the garlic ({ail}) and ginger ({gingembre}) in the hot oil ({huile}).",
+       "s": 30
+      },
+      {
+       "titre": "Stir-fry the vegetables",
+       "texte": "Add the carrot ({carotte}), celery ({celeri}) and mushrooms, and stir-fry over high heat.",
+       "s": 180
+      },
+      {
+       "titre": "Season",
+       "texte": "Add the soy sauce ({soja}), stir and serve right away."
+      }
+     ]
+    }
+   ],
+   "precautions": "Wood ear mushrooms thin the blood: if you take a blood thinner, are pregnant, or have surgery coming up, ask for advice.",
+   "notes": [
+    "You'll find them dried in Asian grocery stores; 15 g dried makes a big bowlful once they've swollen."
+   ],
+   "tags": [
+    "vegetables",
+    "mushrooms",
+    "Blood",
+    "pain",
+    "circulation"
+   ]
+  },
+  {
+   "id": "congee-cebette",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 58,
+   "axe": "exterieur",
+   "titre": "Spring onion and ginger congee",
+   "contexte": "A classic kitchen remedy at the very start of a chill-type cold: chills, clear runny nose, stiff neck. Spring onion whites and ginger make you sweat a little, and the rice protects the Stomach.",
+   "principe": {
+    "zh": "发散风寒",
+    "py": "Fā sàn fēng hán",
+    "fr": "Disperse Wind-Cold"
+   },
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "cebette",
+     "q": 4,
+     "nom": "spring onion whites, with their roots, washed",
+     "cle": "cebette"
+    },
+    {
+     "id": "gingembre",
+     "q": 20,
+     "u": "g",
+     "nom": "fresh ginger, thinly sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Bring the water ({eau}) to a boil with the rinsed rice ({riz}), then let it simmer with the lid slightly ajar.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the aromatics",
+       "texte": "Add the ginger ({gingembre}) and the spring onion whites ({cebette}), crushed with the flat of a knife. Let it simmer a little longer.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}) and have it piping hot, then bundle up so you sweat a little."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Cook",
+       "texte": "Put the rinsed rice ({riz}) and water ({eau}) in the inner pot and start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the aromatics",
+       "texte": "Add the ginger ({gingembre}) and the crushed spring onion whites ({cebette}), close the lid and leave on Keep Warm.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}) and have it piping hot, then bundle up."
+      }
+     ]
+    }
+   ],
+   "precautions": "Only at the very start of a chill-type cold. If there's a sore throat, a high fever or yellow phlegm, it's no longer the right time.",
+   "notes": [
+    "The aromatics only cook for a few minutes: that's what keeps them effective."
+   ],
+   "tags": [
+    "congee",
+    "common cold",
+    "feeling cold",
+    "first signs of a cold"
+   ]
+  },
+  {
+   "id": "bouillon-os-boeuf",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 59,
+   "axe": "essence",
+   "titre": "Beef bone broth with carrots and ginger",
+   "contexte": "A long-simmered broth that supports the Kidney, bones and tendons. For tired knees and lower back, recovery after illness, and long winters.",
+   "principe": {
+    "zh": "补肾强骨",
+    "py": "Bǔ shèn qiáng gǔ",
+    "fr": "Tonify the Kidney, strengthen the bones"
+   },
+   "portions": 6,
+   "duree": "4 h",
+   "ingredients": [
+    {
+     "id": "os",
+     "q": 1500,
+     "u": "g",
+     "nom": "beef marrow bones and shank",
+     "cle": "os-boeuf"
+    },
+    {
+     "id": "carotte",
+     "q": 3,
+     "nom": "carrots, cut into chunks",
+     "cle": "carotte"
+    },
+    {
+     "id": "oignon",
+     "q": 1,
+     "nom": "onion, halved",
+     "cle": "oignon"
+    },
+    {
+     "id": "gingembre",
+     "q": 30,
+     "u": "g",
+     "nom": "fresh ginger, sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates)",
+     "cle": "dattes"
+    },
+    {
+     "id": "anis",
+     "q": 1,
+     "nom": "star anise",
+     "cle": "anis-etoile"
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "rice vinegar or cider vinegar",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 3000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a stockpot",
+     "etapes": [
+      {
+       "titre": "Blanch the bones",
+       "texte": "Cover the bones ({os}) with cold water, bring to a boil, then drain and rinse: the broth will be clearer.",
+       "s": 300
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put the bones back in the cold water ({eau}) with the vinegar ({vinaigre}), ginger ({gingembre}), onion ({oignon}) and star anise ({anis}). Let it barely simmer, covered.",
+       "s": 10800
+      },
+      {
+       "titre": "Add the vegetables",
+       "texte": "Add the carrots ({carotte}) and jujubes ({dattes}) and keep cooking.",
+       "s": 2700
+      },
+      {
+       "titre": "Serve",
+       "texte": "Strain, add salt ({sel}) and serve a hot bowlful. Save the marrow and the shank meat for another meal."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Blanch the bones",
+       "texte": "Cover the bones ({os}) with cold water, bring to a boil, then drain and rinse.",
+       "s": 300
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put in the bones, the water ({eau}) up to the inner pot's limit, the vinegar ({vinaigre}), ginger ({gingembre}), onion ({oignon}), star anise ({anis}), carrots ({carotte}) and jujubes ({dattes}). Slow Cook or Long Soup program.",
+       "s": 21600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Strain, add salt ({sel}) and serve."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Blanch the bones",
+       "texte": "Cover the bones ({os}) with cold water, bring to a boil, then drain and rinse.",
+       "s": 300
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put the bones back in with the water ({eau}) up to the max line, the vinegar ({vinaigre}), ginger ({gingembre}), onion ({oignon}) and star anise ({anis}). Close the lid and start timing once it starts to hiss.",
+       "s": 5400
+      },
+      {
+       "titre": "Add the vegetables",
+       "texte": "Let the pressure drop, add the carrots ({carotte}) and jujubes ({dattes}) and let it simmer uncovered.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Strain, add salt ({sel}) and serve."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "It keeps for 4 days in the fridge and freezes very well in portions.",
+    "Once cooled, it sets into a jelly: that's a good sign."
+   ],
+   "tags": [
+    "broth",
+    "meat",
+    "bones",
+    "knees",
+    "lower back",
+    "recovery"
+   ]
+  },
+  {
+   "id": "huitres-gingembre",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 60,
+   "axe": "essence",
+   "titre": "Warm oysters with ginger and spring onion",
+   "contexte": "Oyster nourishes Yin and Essence and calms the mind; its shell is a classic remedy for holding in Essence and calming. Barely cooked, with ginger to balance their cooling nature.",
+   "principe": {
+    "zh": "益精安神",
+    "py": "Yì jīng ān shén",
+    "fr": "Nourish Essence, calm the mind"
+   },
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "huitres",
+     "q": 12,
+     "nom": "oysters, tightly closed",
+     "cle": "huitres"
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "fresh ginger, cut into fine julienne",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions, finely sliced",
+     "cle": "cebette"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Steam",
+       "texte": "Set the oysters ({huitres}) cupped side down in a steamer basket over boiling water and cover: they'll open slightly.",
+       "s": 300
+      },
+      {
+       "titre": "Open",
+       "texte": "Remove the flat top shell of each oyster with a knife, keeping the juice."
+      },
+      {
+       "titre": "Season",
+       "texte": "Top each one with a little ginger ({gingembre}), spring onion ({cebette}), a drop of soy sauce ({soja}) and sesame oil ({huile}). Serve warm."
+      }
+     ]
+    },
+    {
+     "id": "four",
+     "nom": "In the oven",
+     "etapes": [
+      {
+       "titre": "Preheat",
+       "texte": "Preheat the oven on the broil setting to 220 °C (425 °F).",
+       "s": 600
+      },
+      {
+       "titre": "Cook",
+       "texte": "Set the oysters ({huitres}) cupped side down on a baking sheet, propped up with crumpled foil, and put them in the oven: they'll open slightly.",
+       "s": 300
+      },
+      {
+       "titre": "Season",
+       "texte": "Open them, then top each one with a little ginger ({gingembre}), spring onion ({cebette}), a drop of soy sauce ({soja}) and sesame oil ({huile})."
+      }
+     ]
+    }
+   ],
+   "precautions": "Throw away any that stay closed after cooking. Not if you have a seafood allergy.",
+   "notes": [
+    "Out of season, frozen shucked oysters can be pan-fried for 1 minute with the ginger."
+   ],
+   "tags": [
+    "oysters",
+    "seafood",
+    "Essence",
+    "Kidney",
+    "sleep"
+   ]
+  },
+  {
+   "id": "creme-sesame-noix",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 61,
+   "axe": "essence",
+   "titre": "Black sesame and walnut cream",
+   "contexte": "A great classic for the Kidney and Essence: graying or thinning hair, failing memory, dry constipation, tired lower back. Drink it warm at breakfast or as an afternoon snack.",
+   "principe": {
+    "zh": "补肾益精",
+    "py": "Bǔ shèn yì jīng",
+    "fr": "Tonify the Kidney, nourish Essence (Jing)"
+   },
+   "portions": 4,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "sesame",
+     "q": 80,
+     "u": "g",
+     "nom": "black sesame seeds",
+     "cle": "sesame-noir"
+    },
+    {
+     "id": "noix",
+     "q": 60,
+     "u": "g",
+     "nom": "walnut halves",
+     "cle": "noix"
+    },
+    {
+     "id": "riz",
+     "q": 30,
+     "u": "g",
+     "nom": "rice (glutinous if possible)",
+     "cle": "riz"
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "jujubes (Chinese red dates), pitted",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan, with a blender",
+     "etapes": [
+      {
+       "titre": "Toast",
+       "texte": "Dry-toast the sesame ({sesame}), walnuts ({noix}) and rice ({riz}) in a frying pan, stirring constantly, until fragrant.",
+       "s": 300
+      },
+      {
+       "titre": "Blend",
+       "texte": "Blend everything until smooth with the jujubes ({dattes}) and half the water ({eau})."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Pour into a saucepan with the rest of the water and let it thicken over low heat, stirring.",
+       "s": 480
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve warm and plain: the jujubes are enough to sweeten it."
+      }
+     ]
+    },
+    {
+     "id": "blender",
+     "nom": "In a heated blender",
+     "etapes": [
+      {
+       "titre": "Toast",
+       "texte": "Dry-toast the sesame ({sesame}), walnuts ({noix}) and rice ({riz}) in a frying pan until fragrant.",
+       "s": 300
+      },
+      {
+       "titre": "Cook and blend",
+       "texte": "Put everything in the blender with the jujubes ({dattes}) and water ({eau}), and start the Smooth Soup or Plant Milk program.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve warm."
+      }
+     ]
+    }
+   ],
+   "precautions": "Rich and fatty: if you have soft stools or diarrhea, wait until it passes.",
+   "notes": [
+    "Extra toasted sesame keeps for 2 weeks in a closed jar."
+   ],
+   "tags": [
+    "dessert",
+    "breakfast",
+    "Kidney",
+    "hair",
+    "memory",
+    "no added sugar"
+   ]
+  }
+ ]
+}

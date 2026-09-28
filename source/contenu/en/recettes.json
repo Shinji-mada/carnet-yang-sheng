@@ -1,0 +1,2437 @@
+{
+ "fiches": [
+  {
+   "id": "congee-courge-carotte",
+   "type": "recette",
+   "date": "2026-09-26",
+   "ordre": 3,
+   "axe": "rate",
+   "titre": "Squash and carrot congee with ginger",
+   "contexte": "Warm and light, to support the Spleen and settle nausea.",
+   "principe": {
+    "zh": "健脾和胃",
+    "py": "Jiàn pí hé wèi",
+    "fr": "Strengthen the Spleen, harmonize the Stomach"
+   },
+   "portions": 4,
+   "duree": "1 h 15 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 150,
+     "u": "g",
+     "nom": "short-grain rice (or jasmine rice)",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true,
+     "note": "In a rice cooker, fill up to the Porridge line of the inner pot instead."
+    },
+    {
+     "id": "carotte",
+     "q": 2,
+     "nom": "medium carrots, finely diced",
+     "cle": "carotte"
+    },
+    {
+     "id": "courge",
+     "q": 300,
+     "u": "g",
+     "nom": "squash (pumpkin, red kuri, butternut), diced",
+     "cle": "courge"
+    },
+    {
+     "id": "gingembre",
+     "q": 5,
+     "nom": "thin slices of fresh ginger, skin on",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "oeuf",
+     "q": 4,
+     "nom": "eggs, 1 per bowl",
+     "cle": "oeuf"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "stalks of spring onion, finely sliced",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Rinse the rice",
+       "texte": "Rinse the rice ({riz}) 2 or 3 times, until the water runs almost clear."
+      },
+      {
+       "titre": "Start cooking",
+       "texte": "Put the rice, water ({eau}) and ginger ({gingembre}) in a large pot. Bring to a boil, then turn the heat down low and leave the lid ajar. Stir from time to time.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the vegetables",
+       "texte": "Add the carrots ({carotte}) and squash ({courge}). Let it simmer until the rice grains burst and turn creamy. Add a little hot water if it gets too thick.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the egg",
+       "texte": "Add salt ({sel}). Beat the eggs ({oeuf}) and pour them in a thin stream while stirring, until they set into cooked ribbons.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sprinkle with spring onion ({cebette}) and eat warm."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Rinse the rice",
+       "texte": "Rinse the rice ({riz}) in a strainer, 2 or 3 times."
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the rice, carrots ({carotte}), squash ({courge}) and ginger ({gingembre}) in the inner pot. Add water up to the Porridge or Congee line. If there's no line, use about 8 times the volume of the rice."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge, Congee or Soup program. If there isn't one, use Simmer or Slow Cook. Don't open the lid while it cooks.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the egg",
+       "texte": "Add salt ({sel}). Beat the eggs ({oeuf}) and pour them in a thin stream into the piping-hot congee, stirring with a non-metal spatula.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sprinkle with spring onion ({cebette}). Keep leftovers in the fridge rather than on Keep Warm all night."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Metal utensils damage nonstick inner pots.",
+    "To reheat a portion, add a little water, and add the egg at the last minute.",
+    "You can swap the squash for peeled chestnuts."
+   ],
+   "tags": [
+    "congee",
+    "breakfast",
+    "nausea"
+   ]
+  },
+  {
+   "id": "congee-millet-patate-douce",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 1,
+   "axe": "qi",
+   "titre": "Millet, sweet potato and jujube congee",
+   "contexte": "Millet and sweet potato strengthen the Spleen, and jujubes tonify Qi and Blood. Ideal for breakfast when tiredness takes over.",
+   "principe": {
+    "zh": "健脾益气",
+    "py": "Jiàn pí yì qì",
+    "fr": "Strengthen the Spleen, tonify Qi"
+   },
+   "portions": 3,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "millet",
+     "q": 120,
+     "u": "g",
+     "nom": "millet",
+     "cle": "millet"
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "patate",
+     "q": 250,
+     "u": "g",
+     "nom": "sweet potato, diced",
+     "cle": "patate-douce"
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Rinse the millet",
+       "texte": "Rinse the millet ({millet}) in a fine strainer."
+      },
+      {
+       "titre": "Bring to a boil",
+       "texte": "Bring the water ({eau}) to a boil with the jujubes ({dattes}) and ginger ({gingembre}). Pour in the millet and turn the heat down.",
+       "s": 600
+      },
+      {
+       "titre": "Add the sweet potato",
+       "texte": "Add the sweet potato ({patate}). Let it simmer, stirring often, until the millet is very soft.",
+       "s": 1500
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the jujube pits, add a little salt ({sel}) and serve warm."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Rinse the millet ({millet}), then put it in the inner pot with the sweet potato ({patate}), jujubes ({dattes}) and ginger ({gingembre}). Add water up to the Porridge line."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Porridge, Congee or Soup program (otherwise Simmer).",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the jujube pits and add a little salt ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You'll find millet in organic food stores and Asian grocery stores.",
+    "If you can't find jujubes (Chinese red dates), use regular dates: they're sweeter, so use fewer."
+   ],
+   "tags": [
+    "congee",
+    "breakfast",
+    "fatigue"
+   ]
+  },
+  {
+   "id": "congee-shan-yao",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 2,
+   "axe": "qi",
+   "titre": "Chinese yam congee",
+   "contexte": "Chinese yam (shan yao) gently tonifies the Spleen, Lung and Kidney without being heating.",
+   "principe": {
+    "zh": "补脾肺肾",
+    "py": "Bǔ pí fèi shèn",
+    "fr": "Tonify the Spleen, Lung and Kidney"
+   },
+   "portions": 3,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 120,
+     "u": "g",
+     "nom": "rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "igname",
+     "q": 200,
+     "u": "g",
+     "nom": "fresh Chinese yam (shan yao), peeled and diced",
+     "cle": "shan-yao",
+     "note": "Peel it wearing gloves: its sap makes your skin itch. Or use 30 g of dried shan yao, soaked for 1 h."
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Start the rice",
+       "texte": "Rinse the rice ({riz}), bring it to a boil in the water ({eau}), then let it simmer with the lid ajar.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the yam",
+       "texte": "Add the yam ({igname}) and jujubes ({dattes}). Keep cooking, stirring now and then.",
+       "s": 1200
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji berries ({goji}) for the last few minutes, add salt ({sel}) and serve.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the rinsed rice ({riz}), yam ({igname}) and jujubes ({dattes}) in the inner pot. Add water up to the Porridge line."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Porridge, Congee or Soup program.",
+       "s": 3600
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji berries ({goji}), leave for 5 minutes on Keep Warm, then add salt ({sel}).",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You'll find fresh Chinese yam in Asian grocery stores (a long, beige, hairy root), or dried as white slices."
+   ],
+   "tags": [
+    "congee",
+    "Lung",
+    "Spleen",
+    "Kidney"
+   ]
+  },
+  {
+   "id": "soupe-poulet-huang-qi",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 3,
+   "axe": "qi",
+   "titre": "Chicken broth with astragalus and jujubes",
+   "contexte": "Astragalus (Huang Qi) strengthens Qi and your body's barrier against cold. Ideal for preventing colds when you sweat at the slightest effort.",
+   "principe": {
+    "zh": "补气固表",
+    "py": "Bǔ qì gù biǎo",
+    "fr": "Tonify Qi, strengthen the body's surface"
+   },
+   "precautions": "Not during a cold or a fever: astragalus “closes” the surface and would keep the illness trapped inside.",
+   "portions": 4,
+   "duree": "1 h 45 min",
+   "ingredients": [
+    {
+     "id": "poulet",
+     "q": 4,
+     "nom": "chicken thighs (or a chicken carcass)",
+     "cle": "poulet"
+    },
+    {
+     "id": "huangqi",
+     "q": 20,
+     "u": "g",
+     "nom": "sliced astragalus (Huang Qi)",
+     "cle": "huang-qi"
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "gingembre",
+     "q": 4,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "carotte",
+     "q": 2,
+     "nom": "carrots, cut into chunks",
+     "cle": "carotte"
+    },
+    {
+     "id": "eau",
+     "q": 2000,
+     "u": "ml",
+     "nom": "cold water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Blanch the chicken",
+       "texte": "Drop the chicken ({poulet}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put the chicken, astragalus ({huangqi}), jujubes ({dattes}) and ginger ({gingembre}) in the cold water ({eau}). Bring to a boil, skim off the foam, then let it simmer, covered.",
+       "s": 2700
+      },
+      {
+       "titre": "Add the carrots",
+       "texte": "Add the carrots ({carotte}) and keep cooking gently.",
+       "s": 2700
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the astragalus slices, add salt ({sel}) and serve the broth with the meat."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Blanch the chicken",
+       "texte": "Drop the chicken ({poulet}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put all the ingredients except the salt in the inner pot, with the water ({eau}), without going over the max line."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Soup or Simmer program.",
+       "s": 5400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the astragalus and add salt ({sel})."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Blanch the chicken",
+       "texte": "Drop the chicken ({poulet}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put all the ingredients except the salt in the pressure cooker, filling it no more than two-thirds full. Close the lid and start timing once it starts to hiss.",
+       "s": 1800
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let the pressure drop on its own, remove the astragalus and add salt ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The astragalus slices aren't meant to be eaten.",
+    "You'll find astragalus in Asian grocery stores and Chinese herbal shops."
+   ],
+   "tags": [
+    "broth",
+    "colds",
+    "fatigue",
+    "sweating"
+   ]
+  },
+  {
+   "id": "congee-goji-sesame",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 4,
+   "axe": "sang",
+   "titre": "Congee with goji berries, jujubes and black sesame",
+   "contexte": "Goji, jujubes and black sesame nourish the Blood and the Yin of the Liver and Kidney: good for your eyes, your hair and dry skin.",
+   "principe": {
+    "zh": "养血补肝肾",
+    "py": "Yǎng xuè bǔ gān shèn",
+    "fr": "Nourish the Blood, the Liver and the Kidney"
+   },
+   "portions": 4,
+   "duree": "1 h 10 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 150,
+     "u": "g",
+     "nom": "rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "goji",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "sesame",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "black sesame seeds, toasted and ground",
+     "cle": "sesame-noir"
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "honey per bowl (optional)",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Toast the sesame",
+       "texte": "Dry-toast the sesame seeds ({sesame}) in a frying pan for 2 minutes, then grind them.",
+       "s": 120
+      },
+      {
+       "titre": "Cook the rice",
+       "texte": "Rinse the rice ({riz}) and bring it to a boil in the water ({eau}) with the jujubes ({dattes}). Let it simmer with the lid ajar, stirring.",
+       "s": 3000
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji berries ({goji}) and the sesame, and cook a few minutes more.",
+       "s": 480
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sweeten with honey if you like ({miel}), once the bowl has cooled a little."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Toast the sesame",
+       "texte": "Dry-toast the sesame seeds ({sesame}) for 2 minutes, then grind them.",
+       "s": 120
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put the rinsed rice ({riz}) and jujubes ({dattes}) in the inner pot, with water up to the Porridge line. Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji ({goji}) and the sesame, then leave 5 minutes on Keep Warm. Add the honey when serving ({miel}).",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Honey shouldn't be cooked: stir it into the bowl once it's warm, not hot."
+   ],
+   "tags": [
+    "congee",
+    "eyes",
+    "hair",
+    "Blood"
+   ]
+  },
+  {
+   "id": "soupe-epinards-oeuf",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 5,
+   "axe": "sang",
+   "titre": "Spinach and egg soup with sesame",
+   "contexte": "Spinach nourishes the Blood and moistens the intestines, and egg nourishes the Blood and Yin. A quick evening soup.",
+   "principe": {
+    "zh": "养血润燥",
+    "py": "Yǎng xuè rùn zào",
+    "fr": "Nourish the Blood, moisten"
+   },
+   "precautions": "Spinach is cooling and loosens the bowels: go easy on it if your stools are very soft.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "epinards",
+     "q": 200,
+     "u": "g",
+     "nom": "fresh spinach",
+     "cle": "epinards"
+    },
+    {
+     "id": "oeuf",
+     "q": 2,
+     "nom": "eggs",
+     "cle": "oeuf"
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "slices of ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "bouillon",
+     "q": 800,
+     "u": "ml",
+     "nom": "vegetable or chicken broth, or water",
+     "base": true
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Heat the broth",
+       "texte": "Bring the broth ({bouillon}) to a simmer with the ginger ({gingembre}).",
+       "s": 300
+      },
+      {
+       "titre": "Add the spinach",
+       "texte": "Add the spinach ({epinards}) and let it wilt.",
+       "s": 120
+      },
+      {
+       "titre": "Add the eggs",
+       "texte": "Beat the eggs ({oeuf}) and pour them in a thin stream while stirring.",
+       "s": 60
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}), drizzle with sesame oil ({sesame}) and serve right away."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "soup",
+    "Blood",
+    "quick"
+   ]
+  },
+  {
+   "id": "veloute-betterave-lentilles",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 6,
+   "axe": "sang",
+   "titre": "Creamy beet and red lentil soup",
+   "contexte": "Beet nourishes the Blood and gets it moving, and red lentils support the Spleen and provide iron.",
+   "principe": {
+    "zh": "养血活血",
+    "py": "Yǎng xuè huó xuè",
+    "fr": "Nourish the Blood and get it moving"
+   },
+   "portions": 4,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "betterave",
+     "q": 300,
+     "u": "g",
+     "nom": "raw beet, peeled and diced",
+     "cle": "betterave"
+    },
+    {
+     "id": "lentilles",
+     "q": 120,
+     "u": "g",
+     "nom": "red lentils, rinsed",
+     "cle": "lentilles"
+    },
+    {
+     "id": "oignon",
+     "q": 1,
+     "nom": "onion, thinly sliced",
+     "cle": "oignon"
+    },
+    {
+     "id": "carotte",
+     "q": 1,
+     "nom": "carrot, sliced into rounds",
+     "cle": "carotte"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "olive oil",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Sauté",
+       "texte": "Gently fry the onion ({oignon}) and ginger ({gingembre}) in the oil ({huile}).",
+       "s": 300
+      },
+      {
+       "titre": "Cook",
+       "texte": "Add the beet ({betterave}), carrot ({carotte}), lentils ({lentilles}) and water ({eau}). Let it simmer, covered.",
+       "s": 1500
+      },
+      {
+       "titre": "Blend",
+       "texte": "Remove the ginger, blend, add salt ({sel}) and adjust the thickness with a little water."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Sauté",
+       "texte": "On the Sauté setting, gently fry the onion ({oignon}) and ginger ({gingembre}) in the oil ({huile}). If you don't have one, just add them in.",
+       "s": 300
+      },
+      {
+       "titre": "Cook",
+       "texte": "Add the beet ({betterave}), carrot ({carotte}), lentils ({lentilles}) and water ({eau}). Soup program.",
+       "s": 1800
+      },
+      {
+       "titre": "Blend",
+       "texte": "Remove the ginger, blend and add salt ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Your urine and stools may turn pinkish after eating beet: that's normal."
+   ],
+   "tags": [
+    "soup",
+    "Blood",
+    "iron"
+   ]
+  },
+  {
+   "id": "infusion-longane-jujube",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 7,
+   "axe": "coeur",
+   "titre": "Longan and jujube tea",
+   "contexte": "Longan nourishes Heart Blood and calms the mind. Drink it in the late afternoon when your sleep is light and your mind is restless.",
+   "principe": {
+    "zh": "养心安神",
+    "py": "Yǎng xīn ān shén",
+    "fr": "Nourish the Heart, calm the mind"
+   },
+   "precautions": "Avoid it if you have a lot of bloating or a thick coating on your tongue: longan is sweet and a little heavy.",
+   "portions": 2,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "longane",
+     "q": 15,
+     "u": "g",
+     "nom": "dried longans (Long Yan Rou)",
+     "cle": "longane"
+    },
+    {
+     "id": "dattes",
+     "q": 5,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan",
+     "etapes": [
+      {
+       "titre": "Simmer",
+       "texte": "Put the longans ({longane}), jujubes ({dattes}) and water ({eau}) in a small saucepan. Bring to a boil, then let it simmer.",
+       "s": 1200
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji ({goji}), let it steep off the heat, then drink it warm and eat the fruit.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "herbal tea",
+    "sleep",
+    "palpitations"
+   ]
+  },
+  {
+   "id": "congee-lotus-jujube",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 8,
+   "axe": "coeur",
+   "titre": "Lotus seed and jujube congee",
+   "contexte": "Lotus seeds calm the Heart and strengthen the Spleen, and jujubes nourish the Blood. For insomnia, worry and a delicate digestion.",
+   "principe": {
+    "zh": "养心健脾",
+    "py": "Yǎng xīn jiàn pí",
+    "fr": "Nourish the Heart, strengthen the Spleen"
+   },
+   "portions": 3,
+   "duree": "1 h 15 min (+ soaking)",
+   "ingredients": [
+    {
+     "id": "lotus",
+     "q": 40,
+     "u": "g",
+     "nom": "lotus seeds, soaked for 2 h",
+     "cle": "lotus",
+     "note": "Keep the green germ if the tip of your tongue is red (it cools the Heart); otherwise remove it, as it's bitter."
+    },
+    {
+     "id": "riz",
+     "q": 120,
+     "u": "g",
+     "nom": "rice",
+     "cle": "riz"
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the lotus seeds",
+       "texte": "Drain the lotus seeds ({lotus}), put them in the water ({eau}) with the jujubes ({dattes}), bring to a boil and let it simmer.",
+       "s": 1200
+      },
+      {
+       "titre": "Add the rice",
+       "texte": "Add the rinsed rice ({riz}) and keep cooking over low heat, lid ajar, stirring.",
+       "s": 2700
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the jujube pits and serve warm, plain or with a little honey."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the drained lotus seeds ({lotus}), rinsed rice ({riz}) and jujubes ({dattes}) in the inner pot. Add water up to the Porridge line."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Porridge or Congee program.",
+       "s": 4500
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "For congee that's ready when you wake up, use your cooker's delay timer."
+   ],
+   "tags": [
+    "congee",
+    "sleep",
+    "anxiety"
+   ]
+  },
+  {
+   "id": "poire-vapeur-amandes",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 9,
+   "axe": "yin",
+   "titre": "Steamed pears with almonds and honey",
+   "contexte": "Pear moistens the Lung and soothes a dry cough, and almond helps Lung Qi descend. A dessert that works as a remedy.",
+   "principe": {
+    "zh": "润肺止咳",
+    "py": "Rùn fèi zhǐ ké",
+    "fr": "Moisten the Lung, calm the cough"
+   },
+   "precautions": "If your phlegm is white and abundant, choose the daikon soup instead: pear is cooling.",
+   "portions": 2,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "poire",
+     "q": 2,
+     "nom": "pears",
+     "cle": "poire"
+    },
+    {
+     "id": "amandes",
+     "q": 20,
+     "u": "g",
+     "nom": "sliced or chopped almonds",
+     "cle": "amandes"
+    },
+    {
+     "id": "miel",
+     "q": 2,
+     "u": "tsp",
+     "nom": "honey",
+     "cle": "miel"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tsp",
+     "nom": "goji berries (optional)",
+     "cle": "goji"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed (on the stove)",
+     "etapes": [
+      {
+       "titre": "Prepare the pears",
+       "texte": "Cut the tops off the pears ({poire}) and scoop out the core with a teaspoon. Fill with almonds ({amandes}), goji ({goji}) and honey ({miel}). Put the tops back on."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Set them in a bowl over a pot of simmering water, with the lid on.",
+       "s": 1800
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat warm and drink the juice at the bottom of the bowl."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker (steamer basket)",
+     "etapes": [
+      {
+       "titre": "Prepare the pears",
+       "texte": "Cut the tops off the pears ({poire}), scoop out the core and fill with almonds ({amandes}), goji ({goji}) and honey ({miel})."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put water in the inner pot as the manual says, and the pears in a bowl set in the steamer basket. Steam program.",
+       "s": 1800
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "dessert",
+    "dry cough",
+    "throat"
+   ]
+  },
+  {
+   "id": "soupe-tremelle",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 10,
+   "axe": "yin",
+   "titre": "Snow fungus, lotus seed and goji soup",
+   "contexte": "Snow fungus (white fungus, Bai Mu Er) nourishes the Yin of the Lung and Stomach. Lightly sweet, it's enjoyed like a warm dessert.",
+   "principe": {
+    "zh": "滋阴润肺",
+    "py": "Zī yīn rùn fèi",
+    "fr": "Nourish Yin, moisten the Lung"
+   },
+   "portions": 4,
+   "duree": "1 h (+ soaking)",
+   "ingredients": [
+    {
+     "id": "tremelle",
+     "q": 15,
+     "u": "g",
+     "nom": "dried snow fungus (white fungus)",
+     "cle": "tremelle"
+    },
+    {
+     "id": "lotus",
+     "q": 20,
+     "u": "g",
+     "nom": "lotus seeds, soaked",
+     "cle": "lotus"
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "jujubes (Chinese red dates)",
+     "cle": "dattes"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "brown sugar or rock sugar",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Rehydrate the snow fungus",
+       "texte": "Soak the snow fungus ({tremelle}) in lukewarm water until it swells up.",
+       "s": 1800
+      },
+      {
+       "titre": "Prepare",
+       "texte": "Cut off the hard yellow base, then tear the fungus into small pieces."
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put the snow fungus, lotus seeds ({lotus}), jujubes ({dattes}) and water ({eau}) in a pot. Let it simmer, covered, until the soup turns slightly jelly-like.",
+       "s": 2700
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji ({goji}) and sugar ({sucre}), and cook a few minutes more.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Rehydrate the snow fungus",
+       "texte": "Soak the snow fungus ({tremelle}), cut off the hard base and tear it into pieces.",
+       "s": 1800
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put everything except the goji in the inner pot. Soup, Porridge or Simmer program.",
+       "s": 3600
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the goji ({goji}), then leave 5 minutes on Keep Warm.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You'll find dried snow fungus in Asian grocery stores (also labeled “white fungus” or “silver ear”)."
+   ],
+   "tags": [
+    "dessert",
+    "dry cough",
+    "dry skin",
+    "Yin"
+   ]
+  },
+  {
+   "id": "congee-haricots-noirs",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 11,
+   "axe": "yin",
+   "titre": "Black bean, walnut and black sesame congee",
+   "contexte": "Black beans and black sesame nourish the Kidney and Yin, and walnuts gently warm the Kidney. A deeply nourishing dish to eat regularly for a weak lower back, your hair and your memory.",
+   "principe": {
+    "zh": "补肾益精",
+    "py": "Bǔ shèn yì jīng",
+    "fr": "Tonify the Kidney, nourish Essence (Jing)"
+   },
+   "portions": 4,
+   "duree": "1 h 45 min (+ soaking)",
+   "ingredients": [
+    {
+     "id": "haricots",
+     "q": 80,
+     "u": "g",
+     "nom": "black beans, soaked overnight",
+     "cle": "haricots-noirs"
+    },
+    {
+     "id": "riz",
+     "q": 100,
+     "u": "g",
+     "nom": "rice",
+     "cle": "riz"
+    },
+    {
+     "id": "noix",
+     "q": 30,
+     "u": "g",
+     "nom": "walnut halves, roughly chopped",
+     "cle": "noix"
+    },
+    {
+     "id": "sesame",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "black sesame seeds, toasted and ground",
+     "cle": "sesame-noir"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the beans",
+       "texte": "Drain the beans ({haricots}), cover them with the water ({eau}), bring to a boil and let them simmer.",
+       "s": 2700
+      },
+      {
+       "titre": "Add the rice",
+       "texte": "Add the rinsed rice ({riz}) and keep cooking over low heat, stirring, until creamy.",
+       "s": 2700
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the walnuts ({noix}) and sesame ({sesame}), then add salt ({sel})."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the drained beans ({haricots}) and rinsed rice ({riz}) in the inner pot, with water up to the Porridge line."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Porridge, Beans or Simmer program, on the longest setting.",
+       "s": 5400
+      },
+      {
+       "titre": "Finish",
+       "texte": "Add the walnuts ({noix}) and sesame ({sesame}), then add salt ({sel})."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put the drained beans ({haricots}), rinsed rice ({riz}) and water ({eau}) in the pressure cooker. Start timing once it starts to hiss.",
+       "s": 1800
+      },
+      {
+       "titre": "Finish",
+       "texte": "Let the pressure drop on its own, add the walnuts ({noix}) and sesame ({sesame}), then add salt ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "In a pinch, a store-bought black soybean and Chinese yam powder stirred into hot water works along the same lines. Check for added sugar."
+   ],
+   "tags": [
+    "congee",
+    "Kidney",
+    "hair",
+    "lower back"
+   ]
+  },
+  {
+   "id": "agneau-dang-gui",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 12,
+   "axe": "yang",
+   "titre": "Braised lamb with Chinese angelica and ginger",
+   "contexte": "A classic winter recipe: lamb and ginger warm you up, and Chinese angelica (Dang Gui) nourishes the Blood and gets it moving. For feeling cold, painful periods eased by warmth, and fatigue with a pale complexion.",
+   "principe": {
+    "zh": "温经养血",
+    "py": "Wēn jīng yǎng xuè",
+    "fr": "Warm and nourish the Blood"
+   },
+   "precautions": "Avoid it if you have signs of heat (red tongue, thirst, night sweats) or heavy periods, and during pregnancy unless a practitioner says it's OK.",
+   "portions": 4,
+   "duree": "2 h",
+   "ingredients": [
+    {
+     "id": "agneau",
+     "q": 500,
+     "u": "g",
+     "nom": "lamb shoulder or leg, cubed",
+     "cle": "agneau"
+    },
+    {
+     "id": "danggui",
+     "q": 15,
+     "u": "g",
+     "nom": "sliced Chinese angelica (Dang Gui)",
+     "cle": "dang-gui"
+    },
+    {
+     "id": "gingembre",
+     "q": 40,
+     "u": "g",
+     "nom": "fresh ginger, thickly sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "carotte",
+     "q": 2,
+     "nom": "carrots, cut into chunks",
+     "cle": "carotte"
+    },
+    {
+     "id": "oignon",
+     "q": 1,
+     "nom": "onion, quartered",
+     "cle": "oignon"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt and pepper",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a cast-iron casserole pot or saucepan",
+     "etapes": [
+      {
+       "titre": "Blanch the lamb",
+       "texte": "Drop the lamb ({agneau}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put in the lamb, angelica ({danggui}), ginger ({gingembre}), onion ({oignon}) and water ({eau}). Bring to a boil, skim off the foam, then let it simmer, covered.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the carrots",
+       "texte": "Add the carrots ({carotte}) and keep cooking until the meat is meltingly tender.",
+       "s": 2400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the angelica, then season with salt and pepper ({sel})."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Blanch the lamb",
+       "texte": "Drop the lamb ({agneau}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put all the ingredients except the salt in the inner pot. Simmer or Stew program.",
+       "s": 6000
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the angelica, then season with salt and pepper ({sel})."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Blanch the lamb",
+       "texte": "Drop the lamb ({agneau}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put all the ingredients except the salt in the pressure cooker. Start timing once it starts to hiss.",
+       "s": 2400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let the pressure drop on its own, remove the angelica, then season with salt and pepper ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You'll find Chinese angelica in Asian grocery stores or Chinese herbal shops.",
+    "Without angelica, it's still a good warming ginger stew."
+   ],
+   "tags": [
+    "stew",
+    "winter",
+    "painful periods",
+    "feeling cold"
+   ]
+  },
+  {
+   "id": "crevettes-poireau-noix",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 13,
+   "axe": "yang",
+   "titre": "Stir-fried shrimp with leeks and walnuts",
+   "contexte": "Shrimp, leek and walnuts warm Kidney Yang. A quick dish for fatigue when you feel the cold easily and your lower back feels cold.",
+   "principe": {
+    "zh": "温补肾阳",
+    "py": "Wēn bǔ shèn yáng",
+    "fr": "Warm Kidney Yang"
+   },
+   "precautions": "Avoid it if you're allergic to shellfish, if you have eczema or hives that react to seafood, or if you have signs of heat.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "crevettes",
+     "q": 250,
+     "u": "g",
+     "nom": "peeled shrimp",
+     "cle": "crevettes"
+    },
+    {
+     "id": "poireau",
+     "q": 1,
+     "nom": "leek, thinly sliced",
+     "cle": "poireau"
+    },
+    {
+     "id": "noix",
+     "q": 40,
+     "u": "g",
+     "nom": "walnut halves",
+     "cle": "noix"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger, cut into thin matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Toast the walnuts",
+       "texte": "Dry-toast the walnuts ({noix}) in the pan, then set them aside.",
+       "s": 180
+      },
+      {
+       "titre": "Sauté",
+       "texte": "Heat the oil ({huile}), fry the ginger ({gingembre}) for a few seconds, then the leek ({poireau}) until it softens.",
+       "s": 240
+      },
+      {
+       "titre": "Cook the shrimp",
+       "texte": "Add the shrimp ({crevettes}) and sear them until they turn pink.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add the soy sauce ({soja}) and the walnuts, stir and serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "stir-fry",
+    "Kidney",
+    "feeling cold",
+    "quick"
+   ]
+  },
+  {
+   "id": "infusion-gingembre-cannelle",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 14,
+   "axe": "yang",
+   "titre": "Ginger and cinnamon tea",
+   "contexte": "To warm the center when cold takes over: cold belly, icy hands, periods eased by warmth.",
+   "principe": {
+    "zh": "温中散寒",
+    "py": "Wēn zhōng sàn hán",
+    "fr": "Warm the center, disperse Cold"
+   },
+   "precautions": "Not if you have signs of heat (red tongue, thirst, night sweats, mouth ulcers), and not every day over a long period.",
+   "portions": 2,
+   "duree": "12 min",
+   "ingredients": [
+    {
+     "id": "gingembre",
+     "q": 6,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "cannelle",
+     "q": 1,
+     "nom": "cinnamon stick",
+     "cle": "cannelle"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "brown sugar (optional)",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan",
+     "etapes": [
+      {
+       "titre": "Simmer",
+       "texte": "Put the ginger ({gingembre}), cinnamon ({cannelle}) and water ({eau}) in a saucepan, bring to a boil, then let it simmer.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sweeten if you like ({sucre}) and drink hot."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "herbal tea",
+    "feeling cold",
+    "digestion"
+   ]
+  },
+  {
+   "id": "congee-orge-azuki",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 15,
+   "axe": "humidite",
+   "titre": "Pearl barley and adzuki bean congee",
+   "contexte": "Chinese pearl barley (Yi Yi Ren) and adzuki beans drain Dampness through the urine: for heaviness, swelling (edema), and oily or weeping skin.",
+   "principe": {
+    "zh": "健脾利湿",
+    "py": "Jiàn pí lì shī",
+    "fr": "Strengthen the Spleen, drain Dampness"
+   },
+   "precautions": "Chinese pearl barley (Yi Yi Ren) is not recommended during pregnancy.",
+   "portions": 4,
+   "duree": "1 h 30 min (+ soaking)",
+   "ingredients": [
+    {
+     "id": "orge",
+     "q": 80,
+     "u": "g",
+     "nom": "Chinese pearl barley (Job's tears, Yi Yi Ren)",
+     "cle": "orge-perle",
+     "note": "In Asian grocery stores, it's sold as “Job's tears”. Regular pearl barley works too."
+    },
+    {
+     "id": "azuki",
+     "q": 60,
+     "u": "g",
+     "nom": "adzuki beans, soaked overnight",
+     "cle": "azuki"
+    },
+    {
+     "id": "riz",
+     "q": 60,
+     "u": "g",
+     "nom": "rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the barley and beans",
+       "texte": "Put the rinsed barley ({orge}) and the drained adzuki beans ({azuki}) in the water ({eau}). Bring to a boil and let it simmer.",
+       "s": 2700
+      },
+      {
+       "titre": "Add the rice",
+       "texte": "Add the rinsed rice ({riz}) and keep cooking over low heat, stirring.",
+       "s": 2400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add a little salt ({sel}), or leave it plain for breakfast."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the barley ({orge}), drained adzuki beans ({azuki}) and rice ({riz}) in the inner pot, with water up to the Porridge line."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Porridge, Beans or Simmer program, on the longest setting.",
+       "s": 5400
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put everything in the pressure cooker with the water ({eau}). Start timing once it starts to hiss.",
+       "s": 1500
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let the pressure drop on its own and add a little salt ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "congee",
+    "Dampness",
+    "swelling",
+    "skin"
+   ]
+  },
+  {
+   "id": "soupe-radis-gingembre",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 16,
+   "axe": "humidite",
+   "titre": "Daikon soup with ginger and tangerine peel",
+   "contexte": "Daikon (white radish) makes Qi descend, transforms phlegm and gets digestion moving; tangerine peel dries Dampness.",
+   "principe": {
+    "zh": "化痰消食",
+    "py": "Huà tán xiāo shí",
+    "fr": "Transform phlegm, aid digestion"
+   },
+   "portions": 3,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "radis",
+     "q": 400,
+     "u": "g",
+     "nom": "daikon (white radish), cut into half-moons",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "carotte",
+     "q": 1,
+     "nom": "carrot, sliced into rounds",
+     "cle": "carotte"
+    },
+    {
+     "id": "gingembre",
+     "q": 4,
+     "nom": "slices of ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "mandarine",
+     "q": 5,
+     "u": "g",
+     "nom": "dried tangerine peel (or the zest of an organic tangerine)",
+     "cle": "mandarine"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "stalk of spring onion, finely sliced",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water or broth",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Simmer",
+       "texte": "Put the daikon ({radis}), carrot ({carotte}), ginger ({gingembre}), tangerine peel ({mandarine}) and water ({eau}) in a pot. Bring to a boil, then let it simmer until the daikon turns translucent.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}) and sprinkle with spring onion ({cebette})."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Cook",
+       "texte": "Put everything except the salt and spring onion in the inner pot. Soup program.",
+       "s": 1800
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}) and sprinkle with spring onion ({cebette})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You'll find daikon in Asian grocery stores, and often in the produce section of supermarkets."
+   ],
+   "tags": [
+    "soup",
+    "phlegm",
+    "digestion"
+   ]
+  },
+  {
+   "id": "infusion-chen-pi",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 17,
+   "axe": "humidite",
+   "titre": "Tangerine peel and ginger tea",
+   "contexte": "Tangerine peel (Chen Pi) gets Spleen Qi moving and dries Dampness: for sluggish digestion, bloating and white phlegm.",
+   "principe": {
+    "zh": "理气健脾燥湿",
+    "py": "Lǐ qì jiàn pí zào shī",
+    "fr": "Move Qi, strengthen the Spleen, dry Dampness"
+   },
+   "portions": 2,
+   "duree": "12 min",
+   "ingredients": [
+    {
+     "id": "mandarine",
+     "q": 5,
+     "u": "g",
+     "nom": "dried tangerine peel (or the zest of an organic tangerine)",
+     "cle": "mandarine"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan",
+     "etapes": [
+      {
+       "titre": "Simmer",
+       "texte": "Put the peel ({mandarine}), ginger ({gingembre}) and water ({eau}) in a saucepan, bring to a boil, then let it simmer.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Drink warm, ideally after a meal."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Dry organic tangerine peels yourself in the open air for a few days: the older they get, the better they are."
+   ],
+   "tags": [
+    "herbal tea",
+    "digestion",
+    "bloating"
+   ]
+  },
+  {
+   "id": "soupe-mungo",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 18,
+   "axe": "chaleur",
+   "titre": "Mung bean soup",
+   "contexte": "Mung beans clear Heat and flush out toxins: for summer, thirst, skin that feels hot or red pimples.",
+   "principe": {
+    "zh": "清热解毒",
+    "py": "Qīng rè jiě dú",
+    "fr": "Clear Heat, eliminate toxins"
+   },
+   "precautions": "Cooling: avoid it if you feel the cold easily and have soft stools and a cold belly.",
+   "portions": 4,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "mungo",
+     "q": 150,
+     "u": "g",
+     "nom": "whole green mung beans (not bean sprouts)",
+     "cle": "mungo"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "brown sugar (optional)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "First broth",
+       "texte": "Rinse the beans ({mungo}), bring them to a boil in the water ({eau}), then let it simmer. To clear Heat, drink some of this green broth right away.",
+       "s": 900
+      },
+      {
+       "titre": "Keep cooking",
+       "texte": "For a more nourishing soup, keep going until the beans burst.",
+       "s": 1800
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sweeten lightly if you like ({sucre}). Drink it warm, or at room temperature in summer."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Cook",
+       "texte": "Put the rinsed beans ({mungo}) and water ({eau}) in the inner pot. Soup or Porridge program.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sweeten lightly if you like ({sucre})."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "soup",
+    "summer",
+    "skin",
+    "Heat"
+   ]
+  },
+  {
+   "id": "infusion-chrysantheme-goji",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 19,
+   "axe": "chaleur",
+   "titre": "Chrysanthemum and goji tea",
+   "contexte": "Chrysanthemum clears the Liver and soothes red or tired eyes, and goji nourishes Liver Yin. Ideal after a day in front of screens.",
+   "principe": {
+    "zh": "清肝明目",
+    "py": "Qīng gān míng mù",
+    "fr": "Clear the Liver, brighten the eyes"
+   },
+   "precautions": "A little cooling: go easy on it if you have a cold belly and soft stools.",
+   "portions": 1,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "chrysantheme",
+     "q": 5,
+     "nom": "dried chrysanthemum flowers (Ju Hua)",
+     "cle": "chrysantheme"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "hot water (not boiling)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a teapot or a bowl",
+     "etapes": [
+      {
+       "titre": "Steep",
+       "texte": "Pour the water ({eau}) over the flowers ({chrysantheme}) and goji ({goji}), cover and let it steep.",
+       "s": 480
+      },
+      {
+       "titre": "Serve",
+       "texte": "Drink warm; you can top up the same flowers with hot water once or twice."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "herbal tea",
+    "eyes",
+    "Liver",
+    "screens"
+   ]
+  },
+  {
+   "id": "saute-celeri-tofu",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 20,
+   "axe": "chaleur",
+   "titre": "Stir-fried celery and tofu with ginger",
+   "contexte": "Celery calms Liver Yang and clears Heat, and tofu nourishes Yin. A simple dish for headaches at the temples and irritability.",
+   "principe": {
+    "zh": "平肝清热",
+    "py": "Píng gān qīng rè",
+    "fr": "Calm the Liver, clear Heat"
+   },
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "celeri",
+     "q": 3,
+     "nom": "celery stalks, sliced on the diagonal",
+     "cle": "celeri",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "tofu",
+     "q": 200,
+     "u": "g",
+     "nom": "firm tofu, diced",
+     "cle": "tofu"
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "slices of ginger, cut into matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "stalk of spring onion",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Brown the tofu",
+       "texte": "Brown the tofu ({tofu}) in the oil ({huile}) on all sides, then set it aside.",
+       "s": 360
+      },
+      {
+       "titre": "Stir-fry the celery",
+       "texte": "Fry the ginger ({gingembre}) for a few seconds, then the celery ({celeri}): it should stay a little crunchy.",
+       "s": 240
+      },
+      {
+       "titre": "Serve",
+       "texte": "Return the tofu to the pan and add the soy sauce ({soja}) and spring onion ({cebette}). Serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "stir-fry",
+    "Liver",
+    "headaches",
+    "vegetarian"
+   ]
+  },
+  {
+   "id": "infusion-rose-orange",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 21,
+   "axe": "circuler",
+   "titre": "Rosebud and orange zest tea",
+   "contexte": "Rosebud gets Liver Qi and Blood moving, and orange zest relaxes the belly: for stress, sighing and tension before your period.",
+   "principe": {
+    "zh": "疏肝解郁",
+    "py": "Shū gān jiě yù",
+    "fr": "Soothe the Liver, release tension"
+   },
+   "precautions": "During pregnancy or if your periods are very heavy, ask for advice first: rose gets the Blood moving.",
+   "portions": 1,
+   "duree": "8 min",
+   "ingredients": [
+    {
+     "id": "rose",
+     "q": 6,
+     "nom": "dried food-grade rosebuds (Mei Gui Hua)",
+     "cle": "rose"
+    },
+    {
+     "id": "orange",
+     "q": 1,
+     "nom": "organic orange zest (a few strips)",
+     "cle": "orange"
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "hot water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a teapot or a bowl",
+     "etapes": [
+      {
+       "titre": "Steep",
+       "texte": "Pour the water ({eau}) over the rosebuds ({rose}) and zest ({orange}), cover and let it steep.",
+       "s": 360
+      },
+      {
+       "titre": "Serve",
+       "texte": "Drink warm, in a quiet moment."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "herbal tea",
+    "stress",
+    "periods",
+    "Liver"
+   ]
+  },
+  {
+   "id": "infusion-cong-bai",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 22,
+   "axe": "exterieur",
+   "titre": "Spring onion and ginger tea",
+   "contexte": "A traditional remedy for the first hours of a chill-type cold: spring onion whites and ginger make you sweat a little and drive out the cold.",
+   "principe": {
+    "zh": "发散风寒",
+    "py": "Fā sàn fēng hán",
+    "fr": "Disperse Wind-Cold"
+   },
+   "precautions": "Only at the very start, with chills and a clear runny nose. Not if you have a sore throat, a high fever or yellow phlegm.",
+   "portions": 1,
+   "duree": "8 min",
+   "ingredients": [
+    {
+     "id": "cebette",
+     "q": 5,
+     "nom": "spring onion whites with their roots, washed",
+     "cle": "cebette",
+     "suffixe": "whites"
+    },
+    {
+     "id": "gingembre",
+     "q": 5,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "brown sugar",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan",
+     "etapes": [
+      {
+       "titre": "Simmer briefly",
+       "texte": "Bring the water ({eau}) to a boil with the spring onion ({cebette}) and ginger ({gingembre}), then simmer only very briefly: the active compounds are volatile.",
+       "s": 300
+      },
+      {
+       "titre": "Drink and bundle up",
+       "texte": "Add the sugar ({sucre}), drink it piping hot and bundle up so you sweat a little."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "herbal tea",
+    "common cold",
+    "feeling cold"
+   ]
+  },
+  {
+   "id": "infusion-menthe-chrysantheme",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 23,
+   "axe": "exterieur",
+   "titre": "Mint and chrysanthemum tea",
+   "contexte": "For the start of a heat-type cold: scratchy throat, a slight fever, stinging eyes.",
+   "principe": {
+    "zh": "疏风清热",
+    "py": "Shū fēng qīng rè",
+    "fr": "Expel Wind, clear Heat"
+   },
+   "portions": 1,
+   "duree": "8 min",
+   "ingredients": [
+    {
+     "id": "menthe",
+     "q": 10,
+     "nom": "fresh mint leaves",
+     "cle": "menthe",
+     "suffixe": "leaves"
+    },
+    {
+     "id": "chrysantheme",
+     "q": 5,
+     "nom": "dried chrysanthemum flowers",
+     "cle": "chrysantheme"
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "honey (optional)",
+     "cle": "miel"
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "hot water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a teapot or a bowl",
+     "etapes": [
+      {
+       "titre": "Steep",
+       "texte": "Pour the water ({eau}) over the mint ({menthe}) and chrysanthemum ({chrysantheme}), cover and let it steep.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add the honey once it's warm ({miel}) and drink in small sips."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "herbal tea",
+    "throat",
+    "common cold"
+   ]
+  },
+  {
+   "id": "compote-pomme-poire",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 24,
+   "axe": "yin",
+   "titre": "Warm apple and pear compote with prunes",
+   "contexte": "Cooked apple and pear moisten the intestines without chilling them, and prunes keep things moving. For constipation due to dryness.",
+   "principe": {
+    "zh": "润肠通便",
+    "py": "Rùn cháng tōng biàn",
+    "fr": "Moisten the intestines, ease bowel movements"
+   },
+   "portions": 3,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "pomme",
+     "q": 2,
+     "nom": "apples, cut into chunks",
+     "cle": "pomme"
+    },
+    {
+     "id": "poire",
+     "q": 2,
+     "nom": "pears, cut into chunks",
+     "cle": "poire"
+    },
+    {
+     "id": "pruneaux",
+     "q": 8,
+     "nom": "pitted prunes",
+     "cle": "pruneaux"
+    },
+    {
+     "id": "cannelle",
+     "q": 0.25,
+     "u": "tsp",
+     "nom": "ground cinnamon",
+     "cle": "cannelle"
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan",
+     "etapes": [
+      {
+       "titre": "Cook",
+       "texte": "Put the apples ({pomme}), pears ({poire}), prunes ({pruneaux}), cinnamon ({cannelle}) and water ({eau}) in a saucepan. Cover and let it cook down over low heat.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Mash roughly and eat warm, ideally in the morning."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "dessert",
+    "constipation",
+    "breakfast"
+   ]
+  }
+ ]
+}

@@ -5,8 +5,10 @@
   --seal:#B0392A;--seal-ink:#FFF7F3;--shadow:rgba(24,32,29,.10);--warn:#8C3B12;--warn-bg:#FBEBDD;
   --serif:"YS Serif","Noto Serif SC","Songti SC","STSong","Source Han Serif SC",Georgia,serif;
   --sans:"YS Sans","Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
-  --tabs-h:64px;
+  --tabs-h:64px;--fs:1;
 }
+:root[data-fs="l"]{--fs:1.12}
+:root[data-fs="xl"]{--fs:1.25}
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --bg:#0F1412;--surface:#18201D;--sunk:#0A0E0C;--ink:#E6ECE8;--muted:#9AA8A2;--line:#2B3632;
@@ -605,3 +607,14 @@ details.cat.rich>.chips{margin:0;padding:0 14px 14px}
 .fig-dot.alt{opacity:.75}
 .fig-halo{fill:#E2231A;opacity:.2;transform-box:fill-box;transform-origin:center;animation:fig-pulse 1.6s ease-out infinite}
 .fig-lab{font-size:13.5px;font-weight:700;fill:#E2231A;paint-order:stroke;stroke:#fff;stroke-width:3px}.fig-svg .osf{fill:#E9E9E9;stroke:#BDBDBD;stroke-width:.8}
+
+/* Paramètres */
+.set .set-h{margin:22px 0 2px;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.set .set-h:first-child{margin-top:0}
+.set-l{margin:18px 0 6px;font-size:15px;font-weight:700}
+.set-hint{margin:6px 2px 0;font-size:13px;color:var(--muted)}
+.set .switch{margin-top:10px}
+.data-acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.data-acts .ghost{text-align:left}
+.no-intro #intro{display:none}
+.pt-py2{margin:2px 0 0;font-size:14px;color:var(--muted);font-style:italic}

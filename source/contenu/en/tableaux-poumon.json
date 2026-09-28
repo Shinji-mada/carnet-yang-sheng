@@ -1,0 +1,813 @@
+{
+ "tableaux": [
+  {
+   "id": "p-vide-qi",
+   "organe": "poumon",
+   "nom": "Lung Qi Deficiency",
+   "zh": "肺气虚",
+   "py": "Fèi qì xū",
+   "resume": "The Lung lacks the strength to breathe, speak and protect you from the cold: short breath, weak voice, one cold after another.",
+   "causes": [
+    "A weak Spleen that no longer nourishes the Lung",
+    "Chronic coughs or the tail end of a long illness",
+    "Poorly treated colds that let Cold settle in",
+    "Long hours hunched over a desk, with cramped breathing",
+    "Talking a lot, long-lasting sadness"
+   ],
+   "mecanisme": "The Lung governs breathing and protective Qi. When its Qi runs low, you get short of breath on exertion, your voice weakens and the surface of the body lets wind and cold in: you sweat easily and catch everything going around.",
+   "cle": [
+    "essoufflement",
+    "voix-faible",
+    "sueurs-jour",
+    "rhumes-frequents"
+   ],
+   "autres": [
+    "fatigue",
+    "toux-faible",
+    "toux-glaires-blanches",
+    "teint-pale",
+    "langue-pale",
+    "tristesse",
+    "aversion-froid",
+    "eternuements",
+    "constipation-effort",
+    "sueurs-spontanees",
+    "nez-clair"
+   ],
+   "contre": [
+    "langue-rouge",
+    "toux-glaires-jaunes",
+    "fievre",
+    "soif"
+   ],
+   "langue": "Pale or normal, thin white coating.",
+   "pouls": "Empty and weak, especially at the Lung position (right wrist, thumb side).",
+   "principe": {
+    "zh": "补益肺气",
+    "py": "Bǔ yì fèi qì",
+    "fr": "Tonify Lung Qi"
+   },
+   "moxa": "Moxa is fine (hot-water bottle or moxa on CV 6 and ST 36).",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Lung: directly tonifies its Qi."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "Tonifies Lung Qi and restores its downward movement; useful when a cough lingers after a cold."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies the Spleen and Stomach: “Earth nourishes Metal.”"
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Sea of Qi: tonifies the Qi of the whole body."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Lung: tonifies its Qi."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen: strengthens the source of Qi."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Gentle warmth to build up Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "congee-shan-yao",
+    "congee-millet-patate-douce",
+    "congee-poulet"
+   ],
+   "privilegier": "Warm, cooked dishes, grains, Chinese yam, chicken, mushrooms, a little ginger and onion.",
+   "eviter": "Cold and raw food, too much dairy, tobacco, staying hunched over for long periods.",
+   "conseils": [
+    "Breathe slowly and deeply for 5 minutes a day, shoulders relaxed.",
+    "Cover your neck and chest as soon as it turns cool."
+   ],
+   "simple": "Weak breath and weak defenses: soft voice, shortness of breath, one cold after another.",
+   "reperes": [
+    "Recurrent colds",
+    "Low immune defenses",
+    "Chronic bronchitis",
+    "Respiratory fatigue"
+   ]
+  },
+  {
+   "id": "p-vide-yang",
+   "organe": "poumon",
+   "nom": "Lung Yang Deficiency",
+   "zh": "肺阳虚",
+   "py": "Fèi yáng xū",
+   "resume": "Lung Qi Deficiency with cold on top: you feel the cold easily, your upper back is cold, the phlegm is clear, and the slightest draft gives you a cold.",
+   "causes": [
+    "The same causes as Lung Qi Deficiency, over a longer time",
+    "Repeated exposure to cold (light clothing, cold drinks)"
+   ],
+   "mecanisme": "The cold comes from a lack of Yang: the Lung no longer warms the chest and upper back, and fluids stagnate as clear phlegm.",
+   "cle": [
+    "frilosite",
+    "froid-dos",
+    "rhumes-frequents",
+    "toux-glaires-blanches"
+   ],
+   "autres": [
+    "essoufflement",
+    "voix-faible",
+    "sueurs-jour",
+    "nez-clair",
+    "peu-soif",
+    "urines-claires",
+    "langue-pale",
+    "langue-gonflee",
+    "eternuements",
+    "toux-faible",
+    "sueurs-spontanees"
+   ],
+   "contre": [
+    "chaleur-corps",
+    "langue-rouge",
+    "toux-glaires-jaunes",
+    "soif"
+   ],
+   "langue": "Pale and slightly moist.",
+   "pouls": "Weak, especially at the right thumb position.",
+   "principe": {
+    "zh": "温补肺阳",
+    "py": "Wēn bǔ fèi yáng",
+    "fr": "Warm and tonify Lung Yang"
+   },
+   "moxa": "Moxa recommended.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Lung: tonifies its Qi."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "Tonifies the Lung and helps Qi descend."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Regulates the Qi of the center (digestion) and spreads Yang."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Lung."
+      },
+      {
+       "p": "VG 12",
+       "s": 90,
+       "pourquoi": "Expels Wind-Cold and tonifies Lung Qi."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 300,
+       "pourquoi": "Lifts Yang and tonifies Qi."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Strengthens Earth to nourish Metal."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "infusion-gingembre-cannelle",
+    "agneau-dang-gui",
+    "congee-cebette"
+   ],
+   "privilegier": "Warm, slow-cooked dishes, ginger, cinnamon, leek, onion, walnuts.",
+   "eviter": "Iced drinks, raw food, tropical fruit in winter, going out with wet hair.",
+   "conseils": [
+    "Keep your upper back covered: a scarf is often enough.",
+    "In the morning, rub your upper back against a warm wall or with a hot towel."
+   ],
+   "simple": "Weak, cold Lung: you feel the cold, clear runny nose, one cold after another.",
+   "reperes": [
+    "Allergic rhinitis",
+    "Recurrent colds",
+    "Sensitivity to cold",
+    "Chronic bronchitis"
+   ]
+  },
+  {
+   "id": "p-vide-yin",
+   "organe": "poumon",
+   "nom": "Lung Yin Deficiency",
+   "zh": "肺阴虚",
+   "py": "Fèi yīn xū",
+   "resume": "The Lung lacks fluids: dry cough, dry throat, hoarse voice, a little heat toward the end of the day.",
+   "causes": [
+    "A cough or illness that has dragged on",
+    "Tobacco, dry air, indoor heating",
+    "Overwork, lack of sleep",
+    "Yin wearing thin with age"
+   ],
+   "mecanisme": "Yin moistens and cools. When the Lung runs short of it, the airways dry out and a mild Deficiency Heat appears in the evening and at night.",
+   "cle": [
+    "toux-seche",
+    "gorge-seche",
+    "langue-rouge-sans-enduit",
+    "sueurs-nuit"
+   ],
+   "autres": [
+    "bouche-seche",
+    "fievre-apres-midi",
+    "pommettes-rouges",
+    "chaleur-5-coeurs",
+    "voix-faible",
+    "langue-seche",
+    "amaigrissement",
+    "crachats-sang",
+    "nez-sec",
+    "langue-fissuree",
+    "mucite",
+    "peau-radiotherapie",
+    "gorge-mal"
+   ],
+   "contre": [
+    "toux-glaires-blanches",
+    "frilosite",
+    "enduit-blanc-epais",
+    "langue-pale"
+   ],
+   "langue": "Red and dry, little or no coating, sometimes cracked at the front.",
+   "pouls": "Thready and rapid.",
+   "principe": {
+    "zh": "滋阴润肺",
+    "py": "Zī yīn rùn fèi",
+    "fr": "Nourish Yin, moisten the Lung"
+   },
+   "moxa": "No moxa: the heat would dry you out even more.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 10",
+       "s": 60,
+       "pourquoi": "Calms heat in the throat.",
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ]
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifies Lung Yin."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "With KI 6: opens the Ren Mai and moistens the throat."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, moistens the throat."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "V 43",
+       "s": 90,
+       "pourquoi": "Tonifies Lung Yin in chronic conditions."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "poire-vapeur-amandes",
+    "soupe-tremelle",
+    "congee-shan-yao",
+    "soupe-canard-igname"
+   ],
+   "privilegier": "Pear, snow fungus (tremella), almonds, honey, sesame, tofu, Chinese yam, soups and stewed fruit.",
+   "eviter": "Strong spices, grilled food, alcohol, tobacco, coffee, overly dry air.",
+   "conseils": [
+    "Humidify the air in your bedroom.",
+    "Go to bed before 11 pm: Yin rebuilds itself at night."
+   ],
+   "simple": "Your airways lack moisture: a dry cough that lingers, hoarse voice, feeling warm in the evening.",
+   "reperes": [
+    "Chronic dry cough",
+    "Laryngitis",
+    "Loss of voice",
+    "Aftermath of bronchitis",
+    "Smokers"
+   ]
+  },
+  {
+   "id": "p-stagnation-qi",
+   "organe": "poumon",
+   "nom": "Lung Qi Stagnation",
+   "zh": "肺气郁",
+   "py": "Fèi qì yù",
+   "resume": "Sadness and worry lock Qi in the chest and throat: tight throat, sighing, a feeling of pressure in the chest.",
+   "causes": [
+    "Sadness, grief or worry held inside",
+    "Staying hunched over for long periods, breath held back"
+   ],
+   "mecanisme": "Emotions knot Lung Qi so it no longer flows freely: it gets stuck in the throat (feeling of a lump) and in the chest.",
+   "cle": [
+    "gorge-serree",
+    "soupirs",
+    "oppression",
+    "tristesse"
+   ],
+   "autres": [
+    "ruminations",
+    "toux-seche",
+    "humeur-variable",
+    "appetit-faible",
+    "essoufflement"
+   ],
+   "contre": [
+    "fievre",
+    "toux-glaires-jaunes"
+   ],
+   "langue": "Normal or slightly red on the sides of the front part.",
+   "pouls": "Slightly wiry at the Lung position.",
+   "principe": {
+    "zh": "宣肺理气",
+    "py": "Xuān fèi lǐ qì",
+    "fr": "Free the Lung, move Qi"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Frees Lung Qi and releases emotions held inside."
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Opens the chest."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Gathering point of the Qi of the chest."
+      },
+      {
+       "p": "RM 22",
+       "s": 60,
+       "pourquoi": "Unknots the throat.",
+       "tech": [
+        "↓",
+        "Gentle downward pressure, no rotation"
+       ]
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforms the Phlegm clogging the throat."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-rose-orange",
+    "infusion-chen-pi"
+   ],
+   "privilegier": "Regular meals, citrus zest, radish, spring onion, rose tea.",
+   "eviter": "Eating while brooding, sitting hunched over for hours.",
+   "conseils": [
+    "Walk, sing, breathe deeply: breath gets Lung Qi moving.",
+    "Talk about what weighs on you: sadness held inside tightens the throat."
+   ],
+   "simple": "Sadness tightens the chest and throat: lump in the throat, sighing, heavy chest.",
+   "reperes": [
+    "Sadness",
+    "Grief",
+    "Depression",
+    "Lump in the throat",
+    "Anxiety"
+   ]
+  },
+  {
+   "id": "p-vent-froid",
+   "organe": "poumon",
+   "nom": "Wind-Cold Invading the Lung",
+   "zh": "风寒束肺",
+   "py": "Fēng hán shù fèi",
+   "resume": "The start of a cold caught from the cold: chills, clear runny nose, sneezing, stiff neck, no sweating.",
+   "causes": [
+    "Exposure to wind and cold",
+    "Defenses weakened by fatigue"
+   ],
+   "mecanisme": "Wind-Cold blocks the surface of the body: the pores close, you shiver without sweating, and the Lung can no longer spread Qi outward, hence the runny nose and the cough.",
+   "cle": [
+    "aversion-froid",
+    "nez-clair",
+    "eternuements",
+    "cephalee-nuque"
+   ],
+   "autres": [
+    "nez-bouche",
+    "toux-glaires-blanches",
+    "nuque-raide",
+    "fievre",
+    "peu-soif"
+   ],
+   "contre": [
+    "gorge-mal",
+    "nez-jaune",
+    "toux-glaires-jaunes",
+    "soif",
+    "langue-rouge"
+   ],
+   "langue": "Thin white coating.",
+   "pouls": "Floating and tight.",
+   "principe": {
+    "zh": "疏风散寒",
+    "py": "Shū fēng sàn hán",
+    "fr": "Expel Wind, scatter Cold"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Restores the Lung's spreading function and expels Wind."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Releases the surface and the head."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Expels Wind, relaxes the neck."
+      },
+      {
+       "p": "V 12",
+       "s": 60,
+       "pourquoi": "“Wind Gate”: drives out Wind-Cold."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-cong-bai",
+    "congee-cebette"
+   ],
+   "privilegier": "Hot drinks, ginger, spring onion, broths; bundle up so you sweat a little.",
+   "eviter": "Cold and raw food, cold showers, going out without a scarf.",
+   "conseils": [
+    "Act within the first few hours: hot herbal tea, scarf, rest."
+   ],
+   "simple": "A cold coming on from the cold: chills, clear runny nose, sneezing.",
+   "reperes": [
+    "Common cold",
+    "Onset of flu",
+    "Chill",
+    "Rhinitis"
+   ]
+  },
+  {
+   "id": "p-vent-chaleur",
+   "organe": "poumon",
+   "nom": "Wind-Heat Invading the Lung",
+   "zh": "风热犯肺",
+   "py": "Fēng rè fàn fèi",
+   "resume": "The start of an infection with heat: sore throat, fever, thirst, yellow nasal discharge.",
+   "causes": [
+    "Catching something during an epidemic",
+    "External heat, weakened defenses"
+   ],
+   "mecanisme": "Wind-Heat enters through the throat and nose: the throat turns red, fever rises and the heat thickens the secretions.",
+   "cle": [
+    "gorge-mal",
+    "fievre",
+    "nez-jaune",
+    "soif"
+   ],
+   "autres": [
+    "aversion-froid",
+    "toux-glaires-jaunes",
+    "cephalee-front",
+    "pointe-rouge",
+    "yeux-rouges",
+    "nez-bouche",
+    "orgelet",
+    "paupieres-gonflees"
+   ],
+   "contre": [
+    "nez-clair",
+    "frilosite",
+    "langue-pale"
+   ],
+   "langue": "Red tip and edges, thin white or yellow coating.",
+   "pouls": "Floating and rapid.",
+   "principe": {
+    "zh": "疏风清热",
+    "py": "Shū fēng qīng rè",
+    "fr": "Expel Wind, clear Heat"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Releases the surface, relieves the throat and head."
+      },
+      {
+       "p": "TR 5",
+       "s": 60,
+       "pourquoi": "Expels Wind-Heat."
+      },
+      {
+       "p": "P 11",
+       "s": 30,
+       "pourquoi": "Relieves a sore throat.",
+       "tech": [
+        "↺",
+        "Strong pressure with the fingernail, in short repeated presses"
+       ]
+      },
+      {
+       "p": "VG 14",
+       "s": 60,
+       "pourquoi": "Brings down fever."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-menthe-chrysantheme",
+    "poire-vapeur-amandes"
+   ],
+   "privilegier": "Lukewarm drinks, pear, mint, chrysanthemum, light broths.",
+   "eviter": "Spices, fried food, alcohol, sugar.",
+   "conseils": [
+    "Rest: a cold treated right from the start won't settle in."
+   ],
+   "simple": "An infection coming on with heat: sore throat, fever, yellow nasal discharge.",
+   "reperes": [
+    "Tonsillitis",
+    "Pharyngitis",
+    "Flu",
+    "Cold with fever"
+   ]
+  },
+  {
+   "id": "p-mucosites-humidite",
+   "organe": "poumon",
+   "nom": "Damp-Phlegm Obstructing the Lung",
+   "zh": "痰湿阻肺",
+   "py": "Tán shī zǔ fèi",
+   "resume": "Abundant white phlegm clogs the Lung, often because of a weak Spleen: wet cough, congested chest.",
+   "causes": [
+    "A weak Spleen that produces Dampness",
+    "Rich food: dairy, sugar, fat",
+    "Repeated colds"
+   ],
+   "mecanisme": "“The Spleen produces Phlegm, the Lung stores it.” Dampness that isn't transformed rises and builds up in the Lung.",
+   "cle": [
+    "toux-glaires-blanches",
+    "oppression",
+    "enduit-blanc-epais"
+   ],
+   "autres": [
+    "essoufflement",
+    "sifflement",
+    "lourdeur",
+    "appetit-faible",
+    "langue-gonflee",
+    "nausee",
+    "bouche-pateuse",
+    "poids-facile",
+    "cephalee-lourde",
+    "nez-bouche",
+    "somnolence",
+    "gorge-serree"
+   ],
+   "contre": [
+    "toux-seche",
+    "toux-glaires-jaunes",
+    "langue-rouge-sans-enduit"
+   ],
+   "langue": "Swollen, with a thick, greasy white coating.",
+   "pouls": "Slippery.",
+   "principe": {
+    "zh": "燥湿化痰",
+    "py": "Zào shī huà tán",
+    "fr": "Dry Dampness, transform Phlegm"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 5",
+       "s": 60,
+       "pourquoi": "Makes Lung Qi descend and transforms phlegm."
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Key point for transforming Phlegm."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Frees the chest."
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Helps the Spleen transform Dampness.",
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ]
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen so it stops producing Phlegm."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-radis-gingembre",
+    "infusion-chen-pi",
+    "congee-orge-azuki"
+   ],
+   "privilegier": "White radish (daikon), mandarin peel, ginger, pearl barley, cooked grains.",
+   "eviter": "Dairy, sugar, fried food, bananas, cold drinks.",
+   "conseils": [
+    "Cut out dairy for 2 to 3 weeks and notice the difference."
+   ],
+   "simple": "Lots of white phlegm clogs the airways.",
+   "reperes": [
+    "Chronic bronchitis",
+    "Wet cough",
+    "Asthma",
+    "Sinusitis",
+    "Smokers"
+   ]
+  },
+  {
+   "id": "p-mucosites-chaleur",
+   "organe": "poumon",
+   "nom": "Phlegm-Heat in the Lung",
+   "zh": "痰热壅肺",
+   "py": "Tán rè yōng fèi",
+   "resume": "Thick, sticky yellow phlegm, often after a poorly treated cold or in smokers.",
+   "causes": [
+    "A heat-type cold that never cleared up",
+    "Tobacco",
+    "Greasy, spicy food"
+   ],
+   "mecanisme": "Heat cooks the Lung's fluids and turns them into thick yellow phlegm that makes breathing harder.",
+   "cle": [
+    "toux-glaires-jaunes",
+    "oppression",
+    "enduit-jaune"
+   ],
+   "autres": [
+    "fievre",
+    "soif",
+    "sifflement",
+    "essoufflement",
+    "langue-rouge",
+    "nez-jaune",
+    "crachats-sang",
+    "gorge-mal"
+   ],
+   "contre": [
+    "toux-glaires-blanches",
+    "frilosite",
+    "langue-pale"
+   ],
+   "langue": "Red, with a greasy yellow coating.",
+   "pouls": "Slippery and rapid.",
+   "principe": {
+    "zh": "清热化痰",
+    "py": "Qīng rè huà tán",
+    "fr": "Clear Heat, transform Phlegm"
+   },
+   "consulter": "If the fever climbs, if breathing becomes difficult or if you cough up blood, see a doctor right away.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 5",
+       "s": 60,
+       "pourquoi": "Clears Lung Heat, transforms phlegm."
+      },
+      {
+       "p": "P 1",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Lung: frees the chest."
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforms Phlegm."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Frees the chest."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "poire-vapeur-amandes",
+    "soupe-radis-gingembre"
+   ],
+   "privilegier": "Pear, white radish, watercress, mushrooms, light broths.",
+   "eviter": "Tobacco, fried food, spices, dairy, sugar, alcohol.",
+   "conseils": [
+    "This is the right time to quit smoking: your Lung is telling you so."
+   ],
+   "simple": "Thick yellow phlegm clogs the airways.",
+   "reperes": [
+    "Bronchitis",
+    "Sinusitis",
+    "Wet cough",
+    "Smokers"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1393 @@
+{
+ "fiches": [
+  {
+   "id": "boeuf-carottes-dattes",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 30,
+   "axe": "qi",
+   "titre": "Braised beef with carrots, jujubes and ginger",
+   "contexte": "Beef tonifies Qi and Blood and strengthens the Spleen, tendons and bones; the jujubes and carrot round it out. A deeply nourishing dish for fatigue and recovery after illness.",
+   "principe": {
+    "zh": "补气养血",
+    "py": "Bǔ qì yǎng xuè",
+    "fr": "Tonify Qi, nourish the Blood"
+   },
+   "portions": 4,
+   "duree": "2 h 30 min",
+   "ingredients": [
+    {
+     "id": "boeuf",
+     "q": 600,
+     "u": "g",
+     "nom": "stewing beef (chuck, cheek or shoulder), cubed",
+     "cle": "boeuf"
+    },
+    {
+     "id": "carotte",
+     "q": 4,
+     "nom": "carrots, cut into chunks",
+     "cle": "carotte"
+    },
+    {
+     "id": "oignon",
+     "q": 1,
+     "nom": "onion, thinly sliced",
+     "cle": "oignon"
+    },
+    {
+     "id": "gingembre",
+     "q": 30,
+     "u": "g",
+     "nom": "fresh ginger, sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "dattes",
+     "q": 8,
+     "nom": "jujubes (Chinese red dates)",
+     "cle": "dattes"
+    },
+    {
+     "id": "anis",
+     "q": 1,
+     "nom": "star anise",
+     "cle": "anis-etoile"
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a cast-iron casserole pot or saucepan",
+     "etapes": [
+      {
+       "titre": "Sear the meat",
+       "texte": "Brown the beef ({boeuf}) in the oil ({huile}) on all sides.",
+       "s": 300
+      },
+      {
+       "titre": "Add the aromatics",
+       "texte": "Add the onion ({oignon}) and ginger ({gingembre}), and stir until fragrant.",
+       "s": 180
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Pour in the water ({eau}) and soy sauce ({soja}), then add the star anise ({anis}) and jujubes ({dattes}). Cover and let it simmer very gently.",
+       "s": 5400
+      },
+      {
+       "titre": "Add the carrots",
+       "texte": "Add the carrots ({carotte}) and keep cooking until the meat is meltingly tender.",
+       "s": 2700
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the star anise, taste and serve with rice."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Sear the meat",
+       "texte": "On the Sauté setting, if your cooker has one, brown the beef ({boeuf}) in the oil ({huile}), then the onion ({oignon}) and ginger ({gingembre}).",
+       "s": 480
+      },
+      {
+       "titre": "Cook",
+       "texte": "Add the water ({eau}), soy sauce ({soja}), star anise ({anis}), jujubes ({dattes}) and carrots ({carotte}). Simmer or Stew program.",
+       "s": 7200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the star anise and serve with rice."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Sear the meat",
+       "texte": "Brown the beef ({boeuf}) in the oil ({huile}) right in the pressure cooker, then the onion ({oignon}) and ginger ({gingembre}).",
+       "s": 480
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Add the water ({eau}), soy sauce ({soja}), star anise ({anis}), jujubes ({dattes}) and carrots ({carotte}). Close the lid and start timing once it starts to hiss.",
+       "s": 2700
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let the pressure drop on its own, remove the star anise and serve."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "A gelatinous cut (cheek, chuck) makes a more nourishing sauce."
+   ],
+   "tags": [
+    "meat",
+    "stew",
+    "fatigue",
+    "recovery"
+   ]
+  },
+  {
+   "id": "boeuf-brocoli",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 31,
+   "axe": "qi",
+   "titre": "Stir-fried beef with broccoli and ginger",
+   "contexte": "Quick and nourishing: beef tonifies Qi and Blood, and well-cooked broccoli stays easy to digest.",
+   "principe": {
+    "zh": "健脾益气",
+    "py": "Jiàn pí yì qì",
+    "fr": "Strengthen the Spleen, tonify Qi"
+   },
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "boeuf",
+     "q": 250,
+     "u": "g",
+     "nom": "quick-cooking beef (sirloin, flank steak), cut into thin strips",
+     "cle": "boeuf"
+    },
+    {
+     "id": "brocoli",
+     "q": 300,
+     "u": "g",
+     "nom": "broccoli, cut into small florets",
+     "cle": "brocoli"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger, cut into matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "ail",
+     "q": 1,
+     "nom": "garlic clove, thinly sliced",
+     "cle": "ail"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tsp",
+     "nom": "cornstarch, mixed with 3 spoonfuls of water",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Blanch the broccoli",
+       "texte": "Drop the broccoli ({brocoli}) into boiling water, then drain it.",
+       "s": 120
+      },
+      {
+       "titre": "Sear the beef",
+       "texte": "Heat the oil ({huile}) over very high heat and sear the beef ({boeuf}) just until it changes color. Set it aside.",
+       "s": 90
+      },
+      {
+       "titre": "Stir-fry",
+       "texte": "Fry the garlic ({ail}) and ginger ({gingembre}) for a few seconds, then add the broccoli and stir-fry.",
+       "s": 120
+      },
+      {
+       "titre": "Thicken and serve",
+       "texte": "Return the beef to the pan, add the soy sauce ({soja}) and the cornstarch mixture ({fecule}), and stir until the sauce coats everything. Serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Slice the beef while it's half-frozen: you'll get thinner strips."
+   ],
+   "tags": [
+    "meat",
+    "stir-fry",
+    "quick"
+   ]
+  },
+  {
+   "id": "soupe-mouton-radis",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 32,
+   "axe": "yang",
+   "titre": "Mutton and daikon soup",
+   "contexte": "A winter classic in China: mutton warms Spleen and Kidney Yang, and daikon lightens the dish and helps you digest the meat.",
+   "principe": {
+    "zh": "温中补虚",
+    "py": "Wēn zhōng bǔ xū",
+    "fr": "Warm the center, tonify Deficiency"
+   },
+   "precautions": "Avoid it if you have signs of heat: red tongue, thirst, night sweats, red pimples.",
+   "portions": 4,
+   "duree": "2 h",
+   "ingredients": [
+    {
+     "id": "mouton",
+     "q": 600,
+     "u": "g",
+     "nom": "mutton or lamb (shoulder, neck), cut into pieces",
+     "cle": "mouton"
+    },
+    {
+     "id": "radis",
+     "q": 500,
+     "u": "g",
+     "nom": "daikon (white radish), cut into large chunks",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "gingembre",
+     "q": 30,
+     "u": "g",
+     "nom": "fresh ginger, sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "carotte",
+     "q": 1,
+     "nom": "carrot, sliced into rounds",
+     "cle": "carotte"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "stalks of spring onion, finely sliced",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "eau",
+     "q": 2000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt and white pepper",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Blanch the meat",
+       "texte": "Drop the mutton ({mouton}) into boiling water, then rinse it: the broth will be clearer and less gamy.",
+       "s": 180
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put the meat, ginger ({gingembre}) and water ({eau}) in a large pot. Bring to a boil, skim off the foam and let it simmer, covered.",
+       "s": 4500
+      },
+      {
+       "titre": "Add the vegetables",
+       "texte": "Add the daikon ({radis}) and carrot ({carotte}). Keep cooking until the daikon turns translucent.",
+       "s": 1800
+      },
+      {
+       "titre": "Serve",
+       "texte": "Season with salt and pepper ({sel}) and sprinkle with spring onion ({cebette})."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Blanch the meat",
+       "texte": "Drop the mutton ({mouton}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put the meat, ginger ({gingembre}), daikon ({radis}), carrot ({carotte}) and water ({eau}) in the inner pot. Soup or Simmer program.",
+       "s": 6000
+      },
+      {
+       "titre": "Serve",
+       "texte": "Season with salt and pepper ({sel}) and sprinkle with spring onion ({cebette})."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Blanch the meat",
+       "texte": "Drop the mutton ({mouton}) into boiling water, then rinse it.",
+       "s": 180
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put the meat, ginger ({gingembre}) and water ({eau}) in the pressure cooker. Start timing once it starts to hiss.",
+       "s": 1500
+      },
+      {
+       "titre": "Add the vegetables",
+       "texte": "Open it once the pressure has dropped, add the daikon ({radis}) and carrot ({carotte}), and let it simmer with the lid off.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Season with salt and pepper ({sel}) and sprinkle with spring onion ({cebette})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Serve the broth piping hot first, then the meat and daikon."
+   ],
+   "tags": [
+    "meat",
+    "soup",
+    "winter",
+    "feeling cold"
+   ]
+  },
+  {
+   "id": "congee-poulet",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 33,
+   "axe": "qi",
+   "titre": "Chicken and ginger congee",
+   "contexte": "The recovery congee: chicken tonifies Qi and gently warms the center, and ginger aids digestion.",
+   "principe": {
+    "zh": "补气健脾",
+    "py": "Bǔ qì jiàn pí",
+    "fr": "Tonify Qi, strengthen the Spleen"
+   },
+   "portions": 4,
+   "duree": "1 h 10 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 150,
+     "u": "g",
+     "nom": "rice",
+     "cle": "riz"
+    },
+    {
+     "id": "poulet",
+     "q": 250,
+     "u": "g",
+     "nom": "boneless chicken breast or thigh, cut into thin strips",
+     "cle": "poulet"
+    },
+    {
+     "id": "gingembre",
+     "q": 6,
+     "nom": "slices of ginger, cut into thin matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "stalks of spring onion, finely sliced",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water or chicken broth",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Rinse the rice ({riz}) and bring it to a boil in the water ({eau}) with half the ginger ({gingembre}). Let it simmer with the lid ajar, stirring.",
+       "s": 2700
+      },
+      {
+       "titre": "Add the chicken",
+       "texte": "Add the chicken ({poulet}) and the rest of the ginger, stir and let it cook gently.",
+       "s": 900
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}), then sprinkle with spring onion ({cebette}) and a few drops of sesame oil ({sesame})."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Cook the congee",
+       "texte": "Put the rinsed rice ({riz}) and half the ginger ({gingembre}) in the inner pot, with water up to the Porridge line. Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the chicken",
+       "texte": "Add the chicken ({poulet}) and the rest of the ginger, stir, and leave on Keep Warm or run a short cycle, until the chicken is cooked through.",
+       "s": 900
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}), sprinkle with spring onion ({cebette}) and add a drizzle of sesame oil ({sesame})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Make sure the chicken is cooked through, with no pink in the middle."
+   ],
+   "tags": [
+    "congee",
+    "meat",
+    "recovery"
+   ]
+  },
+  {
+   "id": "poulet-shiitake",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 34,
+   "axe": "rate",
+   "titre": "Stir-fried chicken with shiitake mushrooms and ginger",
+   "contexte": "Shiitake strengthens Spleen Qi and your defenses, and chicken tonifies Qi: an everyday dish for fatigue and slow digestion.",
+   "principe": {
+    "zh": "健脾益气",
+    "py": "Jiàn pí yì qì",
+    "fr": "Strengthen the Spleen, tonify Qi"
+   },
+   "portions": 2,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "poulet",
+     "q": 300,
+     "u": "g",
+     "nom": "chicken breast or thigh, cut into strips",
+     "cle": "poulet"
+    },
+    {
+     "id": "shiitake",
+     "q": 150,
+     "u": "g",
+     "nom": "fresh shiitake mushrooms, sliced (or 8 dried, soaked for 30 min)",
+     "cle": "shiitake"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger, cut into matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "ail",
+     "q": 1,
+     "nom": "garlic clove",
+     "cle": "ail"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "stalk of spring onion",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Brown the chicken",
+       "texte": "Brown the chicken ({poulet}) in the oil ({huile}) until cooked through.",
+       "s": 300
+      },
+      {
+       "titre": "Add the mushrooms",
+       "texte": "Add the garlic ({ail}), ginger ({gingembre}) and shiitakes ({shiitake}), and stir-fry until tender.",
+       "s": 240
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add the soy sauce ({soja}) and spring onion ({cebette}), stir and serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Save the soaking water from dried shiitakes for a soup."
+   ],
+   "tags": [
+    "meat",
+    "stir-fry",
+    "mushrooms"
+   ]
+  },
+  {
+   "id": "soupe-huitres-tofu",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 35,
+   "axe": "yin",
+   "titre": "Oyster soup with tofu and ginger",
+   "contexte": "Oyster meat nourishes Yin and Blood and calms the mind; tofu is gently cooling. For restless sleep, night sweats, and fatigue with dryness.",
+   "principe": {
+    "zh": "滋阴养血",
+    "py": "Zī yīn yǎng xuè",
+    "fr": "Nourish Yin and Blood"
+   },
+   "precautions": "Cook the oysters thoroughly. Avoid them if you have a seafood allergy, and don't eat them raw during pregnancy.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "huitres",
+     "q": 12,
+     "nom": "oysters, shucked, with their liquid strained",
+     "cle": "huitres"
+    },
+    {
+     "id": "tofu",
+     "q": 200,
+     "u": "g",
+     "nom": "silken tofu, diced",
+     "cle": "tofu"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger, cut into thin matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "stalk of spring onion, finely sliced",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "eau",
+     "q": 700,
+     "u": "ml",
+     "nom": "water or light broth",
+     "base": true
+    },
+    {
+     "id": "poivre",
+     "q": 1,
+     "u": "pinch",
+     "nom": "white pepper",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a saucepan",
+     "etapes": [
+      {
+       "titre": "Flavor the broth",
+       "texte": "Bring the water ({eau}) to a simmer with the ginger ({gingembre}).",
+       "s": 300
+      },
+      {
+       "titre": "Add the tofu",
+       "texte": "Gently add the tofu ({tofu}).",
+       "s": 180
+      },
+      {
+       "titre": "Poach the oysters",
+       "texte": "Add the oysters ({huitres}) and their strained liquid. Take the pan off the heat as soon as their edges curl.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add pepper ({poivre}) and sprinkle with spring onion ({cebette}). Taste before adding salt: the oyster liquid is already salty."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Frozen shucked oysters from Asian grocery stores work too."
+   ],
+   "tags": [
+    "seafood",
+    "soup",
+    "sleep",
+    "Yin"
+   ]
+  },
+  {
+   "id": "poulpe-pommes-de-terre",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 36,
+   "axe": "sang",
+   "titre": "Braised octopus with potatoes and garlic",
+   "contexte": "Octopus nourishes Qi and Blood; cooked for a long time, it turns tender and easy to digest. Potatoes support the Spleen.",
+   "principe": {
+    "zh": "补气养血",
+    "py": "Bǔ qì yǎng xuè",
+    "fr": "Tonify Qi, nourish the Blood"
+   },
+   "precautions": "Avoid it if you have a seafood allergy.",
+   "portions": 4,
+   "duree": "1 h 30 min",
+   "ingredients": [
+    {
+     "id": "poulpe",
+     "q": 1000,
+     "u": "g",
+     "nom": "cleaned octopus (it's more tender if frozen, then thawed)",
+     "cle": "poulpe"
+    },
+    {
+     "id": "pdt",
+     "q": 500,
+     "u": "g",
+     "nom": "potatoes, cut into chunks",
+     "cle": "pomme-de-terre"
+    },
+    {
+     "id": "oignon",
+     "q": 1,
+     "nom": "onion, thinly sliced",
+     "cle": "oignon"
+    },
+    {
+     "id": "ail",
+     "q": 3,
+     "nom": "garlic cloves, thinly sliced",
+     "cle": "ail",
+     "suffixe": "cloves"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "laurier",
+     "q": 1,
+     "nom": "bay leaf",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "olive oil",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt and pepper",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the octopus",
+       "texte": "Drop the octopus ({poulpe}) into a large pot of boiling water with the bay leaf ({laurier}) and ginger ({gingembre}). Let it simmer, covered, until the tip of a knife goes in easily.",
+       "s": 2700
+      },
+      {
+       "titre": "Cut",
+       "texte": "Drain the octopus and cut it into pieces."
+      },
+      {
+       "titre": "Sauté",
+       "texte": "Gently fry the onion ({oignon}) and garlic ({ail}) in the oil ({huile}).",
+       "s": 300
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Add the potatoes ({pdt}), octopus and water ({eau}). Let it simmer, covered, until the potatoes are tender.",
+       "s": 1500
+      },
+      {
+       "titre": "Serve",
+       "texte": "Season with salt and pepper ({sel})."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Cook the octopus",
+       "texte": "Put the octopus ({poulpe}), bay leaf ({laurier}) and ginger ({gingembre}) in the pressure cooker and add water to come halfway up. Start timing once it starts to hiss.",
+       "s": 900
+      },
+      {
+       "titre": "Cut",
+       "texte": "Let the pressure drop, drain the octopus and cut it into pieces."
+      },
+      {
+       "titre": "Sauté",
+       "texte": "In the emptied pressure cooker, gently fry the onion ({oignon}) and garlic ({ail}) in the oil ({huile}).",
+       "s": 300
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Add the potatoes ({pdt}), octopus and water ({eau}), and close the lid again.",
+       "s": 480
+      },
+      {
+       "titre": "Serve",
+       "texte": "Season with salt and pepper ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "seafood",
+    "stew",
+    "Blood"
+   ]
+  },
+  {
+   "id": "calamars-celeri",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 37,
+   "axe": "yin",
+   "titre": "Stir-fried squid with celery and ginger",
+   "contexte": "Squid nourishes Yin and Blood, and celery cools the Liver: a light dish when heat rises to your head and your eyes are dry.",
+   "principe": {
+    "zh": "滋阴养血",
+    "py": "Zī yīn yǎng xuè",
+    "fr": "Nourish Yin and Blood"
+   },
+   "precautions": "Avoid it if you have a seafood allergy.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "calamar",
+     "q": 400,
+     "u": "g",
+     "nom": "cleaned squid, cut into rings",
+     "cle": "calamar"
+    },
+    {
+     "id": "celeri",
+     "q": 3,
+     "nom": "celery stalks, sliced on the diagonal",
+     "cle": "celeri",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger, cut into matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "ail",
+     "q": 1,
+     "nom": "garlic clove",
+     "cle": "ail"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "stalk of spring onion",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Sear the squid",
+       "texte": "In a very hot pan, sear the squid ({calamar}) in the oil ({huile}) just until it turns white, then set it aside. Overcooked squid gets tough.",
+       "s": 90
+      },
+      {
+       "titre": "Stir-fry the celery",
+       "texte": "Fry the garlic ({ail}) and ginger ({gingembre}), then the celery ({celeri}): it should stay crunchy.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Return the squid to the pan for 30 seconds with the soy sauce ({soja}) and spring onion ({cebette}). Serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "seafood",
+    "stir-fry",
+    "eyes",
+    "Liver"
+   ]
+  },
+  {
+   "id": "poisson-vapeur",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 38,
+   "axe": "rate",
+   "titre": "Steamed white fish with ginger and spring onion",
+   "contexte": "Steaming keeps fish light and easy to digest; ginger and spring onion warm the Stomach. Ideal for a delicate digestion or nausea.",
+   "principe": {
+    "zh": "健脾和胃",
+    "py": "Jiàn pí hé wèi",
+    "fr": "Strengthen the Spleen, harmonize the Stomach"
+   },
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "poisson",
+     "q": 2,
+     "nom": "white fish fillets (cod, sea bass, sea bream…)",
+     "cle": "poisson-blanc"
+    },
+    {
+     "id": "gingembre",
+     "q": 6,
+     "nom": "slices of ginger, cut into thin matchsticks",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "stalks of spring onion, cut into thin strips",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed (on the stove)",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Lay the fillets ({poisson}) on a deep plate and scatter half the ginger ({gingembre}) over them."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Set the plate over a pot of simmering water, with the lid on, until the flesh turns opaque.",
+       "s": 540
+      },
+      {
+       "titre": "Season",
+       "texte": "Pour over the soy sauce ({soja}), then add the rest of the ginger and the spring onion ({cebette}). Drizzle with sizzling-hot oil ({huile}) to bring out the aromas."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker (steamer basket)",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Lay the fillets ({poisson}) on a plate that fits in the basket, with half the ginger ({gingembre})."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Put water in the inner pot as the manual says, then use the Steam program. You can cook rice underneath at the same time.",
+       "s": 720
+      },
+      {
+       "titre": "Season",
+       "texte": "Add the soy sauce ({soja}), the rest of the ginger and the spring onion ({cebette}), then the sizzling-hot oil ({huile})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "A whole fish (sea bass, sea bream) is made the same way: allow a few more minutes."
+   ],
+   "tags": [
+    "fish",
+    "steamed",
+    "digestion",
+    "light"
+   ]
+  },
+  {
+   "id": "soupe-poisson-azuki",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 39,
+   "axe": "humidite",
+   "titre": "Fish soup with adzuki beans",
+   "contexte": "A classic recipe for swelling: fish supports the Spleen, and adzuki beans drain water through the urine. In China, it's made with carp.",
+   "principe": {
+    "zh": "利水消肿",
+    "py": "Lì shuǐ xiāo zhǒng",
+    "fr": "Drain water, reduce swelling (edema)"
+   },
+   "precautions": "Swelling (edema) should also be checked by a doctor.",
+   "portions": 4,
+   "duree": "1 h 30 min (+ soaking)",
+   "ingredients": [
+    {
+     "id": "azuki",
+     "q": 100,
+     "u": "g",
+     "nom": "adzuki beans, soaked overnight",
+     "cle": "azuki"
+    },
+    {
+     "id": "poisson",
+     "q": 500,
+     "u": "g",
+     "nom": "carp steaks or firm white fish",
+     "cle": "poisson-blanc",
+     "note": "You'll find carp in Asian grocery stores or at the fish counter."
+    },
+    {
+     "id": "gingembre",
+     "q": 5,
+     "nom": "slices of ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "mandarine",
+     "q": 3,
+     "u": "g",
+     "nom": "dried tangerine peel (or the zest of an organic tangerine)",
+     "cle": "mandarine"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt, just a little",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the adzuki beans",
+       "texte": "Drain the adzuki beans ({azuki}), put them in the water ({eau}) with the peel ({mandarine}), bring to a boil and let it simmer.",
+       "s": 3000
+      },
+      {
+       "titre": "Add the fish",
+       "texte": "Add the fish ({poisson}) and ginger ({gingembre}), and let it simmer gently without stirring.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add very little salt ({sel}): salt makes the body hold on to water. Drink the broth and eat the beans."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a multicooker",
+     "etapes": [
+      {
+       "titre": "Cook the adzuki beans",
+       "texte": "Put the drained adzuki beans ({azuki}), peel ({mandarine}) and water ({eau}) in the inner pot. Soup or Simmer program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the fish",
+       "texte": "Add the fish ({poisson}) and ginger ({gingembre}), and run a short cycle.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add very little salt ({sel})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Watch out for carp bones: serve it in large pieces that are easy to pick through."
+   ],
+   "tags": [
+    "fish",
+    "soup",
+    "swelling",
+    "Dampness"
+   ]
+  },
+  {
+   "id": "saumon-patate-douce",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 40,
+   "axe": "sang",
+   "titre": "Baked salmon with sweet potato and ginger",
+   "contexte": "Salmon tonifies Qi and nourishes the Blood, and sweet potato strengthens the Spleen. A simple, complete meal, baked or steamed.",
+   "principe": {
+    "zh": "补气养血",
+    "py": "Bǔ qì yǎng xuè",
+    "fr": "Tonify Qi, nourish the Blood"
+   },
+   "portions": 2,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "saumon",
+     "q": 2,
+     "nom": "salmon fillets",
+     "cle": "saumon"
+    },
+    {
+     "id": "patate",
+     "q": 400,
+     "u": "g",
+     "nom": "sweet potato, cubed",
+     "cle": "patate-douce"
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "fresh ginger, grated",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "stalk of spring onion, finely sliced",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "olive oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "four",
+     "nom": "In the oven",
+     "etapes": [
+      {
+       "titre": "Roast the sweet potato",
+       "texte": "Preheat the oven to 200 °C (400 °F). Toss the sweet potato ({patate}) with the oil ({huile}) and salt ({sel}), spread it on a baking sheet and put it in the oven.",
+       "s": 900
+      },
+      {
+       "titre": "Prepare the salmon",
+       "texte": "Mix the ginger ({gingembre}) and soy sauce ({soja}), and brush it over the fillets ({saumon})."
+      },
+      {
+       "titre": "Cook the salmon",
+       "texte": "Place the salmon on the baking sheet next to the sweet potato and bake until just cooked.",
+       "s": 720
+      },
+      {
+       "titre": "Serve",
+       "texte": "Sprinkle with spring onion ({cebette})."
+      }
+     ]
+    },
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Cook the sweet potato",
+       "texte": "Steam the sweet potato ({patate}) until tender.",
+       "s": 900
+      },
+      {
+       "titre": "Cook the salmon",
+       "texte": "Brush the fillets ({saumon}) with the ginger ({gingembre}) and soy sauce ({soja}), and add them to the steamer basket.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Drizzle with a little oil ({huile}) and sprinkle with spring onion ({cebette})."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "fish",
+    "oven",
+    "Blood",
+    "complete meal"
+   ]
+  },
+  {
+   "id": "moules-gingembre",
+   "type": "recette",
+   "date": "2026-09-27",
+   "ordre": 41,
+   "axe": "yang",
+   "titre": "Mussels with ginger and spring onion",
+   "contexte": "Mussels, slightly warming by nature, nourish the Liver and Kidney, Essence and Blood: for a weak lower back, dizziness and deep-seated fatigue.",
+   "principe": {
+    "zh": "补肝肾益精血",
+    "py": "Bǔ gān shèn yì jīng xuè",
+    "fr": "Tonify the Liver and Kidney, nourish Essence and Blood"
+   },
+   "precautions": "Avoid them if you have a seafood allergy. Throw away any mussels that are open before cooking and any that stay closed after.",
+   "portions": 2,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "moules",
+     "q": 1000,
+     "u": "g",
+     "nom": "mussels, scrubbed and rinsed",
+     "cle": "moules"
+    },
+    {
+     "id": "gingembre",
+     "q": 20,
+     "u": "g",
+     "nom": "fresh ginger, cut into thin matchsticks",
+     "cle": "gingembre"
+    },
+    {
+     "id": "ail",
+     "q": 2,
+     "nom": "garlic cloves, thinly sliced",
+     "cle": "ail",
+     "suffixe": "cloves"
+    },
+    {
+     "id": "cebette",
+     "q": 3,
+     "nom": "stalks of spring onion, cut into lengths",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "poivre",
+     "q": 1,
+     "u": "pinch",
+     "nom": "pepper",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a large pot",
+     "etapes": [
+      {
+       "titre": "Sauté",
+       "texte": "In a large pot, gently fry the garlic ({ail}) and ginger ({gingembre}) in the oil ({huile}).",
+       "s": 60
+      },
+      {
+       "titre": "Cook the mussels",
+       "texte": "Add the mussels ({moules}) and water ({eau}), cover and shake the pot from time to time until they open.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add the spring onion ({cebette}) and pepper ({poivre}), stir and serve with the juice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Serve with rice to make the most of the juice."
+   ],
+   "tags": [
+    "seafood",
+    "Kidney",
+    "quick"
+   ]
+  }
+ ]
+}

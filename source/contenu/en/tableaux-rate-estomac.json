@@ -1,0 +1,1105 @@
+{
+ "tableaux": [
+  {
+   "id": "rt-vide-qi",
+   "organe": "rate",
+   "nom": "Spleen Qi Deficiency",
+   "zh": "脾气虚",
+   "py": "Pí qì xū",
+   "resume": "The Spleen has trouble transforming food: tired after meals, bloating, loose stools, poor appetite.",
+   "causes": [
+    "Irregular meals, eaten on the go or in front of a screen",
+    "Too much raw food, cold food, sugar",
+    "Worry and long hours of mental work",
+    "A long illness"
+   ],
+   "mecanisme": "The Spleen extracts Qi from food and distributes it. When it weakens, digestion slows down, the whole body runs short of Qi and Dampness starts to build up.",
+   "cle": [
+    "fatigue",
+    "appetit-faible",
+    "ballonnements",
+    "selles-molles"
+   ],
+   "autres": [
+    "somnolence",
+    "teint-jaune",
+    "langue-pale",
+    "langue-gonflee",
+    "envie-sucre",
+    "ruminations",
+    "voix-faible",
+    "lourdeur",
+    "poids-facile",
+    "cephalee-sourde",
+    "cephalee-lourde",
+    "constipation-effort",
+    "pesanteur",
+    "peau-terne",
+    "langue-fissuree",
+    "fatigue-matin",
+    "fatigue-traitement",
+    "nausee-traitement",
+    "jambes-faibles",
+    "amaigrissement",
+    "douleur-estomac-faim",
+    "aliments-non-digeres",
+    "alternance",
+    "concentration",
+    "regles-abondantes",
+    "regles-avance",
+    "spm",
+    "orgelet",
+    "paupieres-gonflees"
+   ],
+   "contre": [
+    "langue-rouge-sans-enduit",
+    "soif",
+    "diarrhee-chaude"
+   ],
+   "langue": "Pale, swollen, with tooth marks on the edges.",
+   "pouls": "Empty.",
+   "principe": {
+    "zh": "健脾益气",
+    "py": "Jiàn pí yì qì",
+    "fr": "Strengthen the Spleen, tonify Qi"
+   },
+   "moxa": "Moxa is fine on ST 36 and CV 12.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Front-Mu point of the Stomach: tonifies the center (digestion)."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Spleen and Stomach Qi."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Spleen."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Tonifies the Spleen."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-millet-patate-douce",
+    "congee-courge-carotte",
+    "congee-shan-yao",
+    "poulet-shiitake",
+    "boeuf-brocoli",
+    "poisson-vapeur"
+   ],
+   "privilegier": "Warm, cooked, regular meals: rice, millet, squash, sweet potato, carrot, dates, chicken.",
+   "eviter": "Raw and cold food, sugar, dairy, snacking, eating in front of a screen.",
+   "conseils": [
+    "Chew thoroughly and put down your fork between bites.",
+    "Walk for 10 minutes after lunch."
+   ],
+   "simple": "Your digestion lacks strength: you don't absorb what you eat well, so you feel tired and bloated.",
+   "reperes": [
+    "Digestive problems",
+    "Poor absorption of nutrients",
+    "Bloating",
+    "Tiredness after meals",
+    "Loose stools"
+   ]
+  },
+  {
+   "id": "rt-vide-yang",
+   "organe": "rate",
+   "nom": "Spleen Yang Deficiency",
+   "zh": "脾阳虚",
+   "py": "Pí yáng xū",
+   "resume": "Spleen Qi Deficiency with cold on top: cold belly, you feel the cold easily, very loose stools, sometimes swelling (edema).",
+   "causes": [
+    "Long-standing Spleen Qi Deficiency",
+    "Cold food and drinks every day",
+    "Exposure to cold and damp"
+   ],
+   "mecanisme": "Without Yang, the Spleen can no longer “cook” food: the belly is cold, the stools contain undigested food and fluids stagnate as swelling (edema).",
+   "cle": [
+    "frilosite",
+    "selles-molles",
+    "douleur-ventre-froid",
+    "aliments-non-digeres"
+   ],
+   "autres": [
+    "fatigue",
+    "oedeme",
+    "appetit-faible",
+    "urines-claires",
+    "peu-soif",
+    "langue-pale",
+    "langue-gonflee",
+    "ballonnements",
+    "poids-facile",
+    "envie-sucre",
+    "somnolence",
+    "douleur-estomac-froid",
+    "douleur-estomac-faim",
+    "diarrhee-matin"
+   ],
+   "contre": [
+    "chaleur-corps",
+    "langue-rouge",
+    "soif",
+    "diarrhee-chaude"
+   ],
+   "langue": "Pale, swollen, moist.",
+   "pouls": "Deep, slow and weak.",
+   "principe": {
+    "zh": "温中健脾",
+    "py": "Wēn zhōng jiàn pí",
+    "fr": "Warm the center, strengthen the Spleen"
+   },
+   "moxa": "Moxa recommended.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Tonifies the center (digestion)."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Spleen."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 300,
+       "pourquoi": "Warms Yang."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Warms and tonifies the Spleen and Stomach."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-courge-carotte",
+    "infusion-gingembre-cannelle",
+    "congee-millet-patate-douce",
+    "soupe-mouton-radis"
+   ],
+   "privilegier": "Ginger, cinnamon, leek, squash, rice, cooked oatmeal, broths, lamb in winter.",
+   "eviter": "Cold drinks, ice cream, raw fruit, salads, walking barefoot on tiled floors.",
+   "conseils": [
+    "Put a hot-water bottle on your belly in the evening.",
+    "Start your day with a hot drink."
+   ],
+   "simple": "Weak, cold digestion: cold belly, very loose stools, you feel the cold easily.",
+   "reperes": [
+    "Chronic diarrhea",
+    "Sensitivity to cold",
+    "Slow digestion",
+    "Water retention",
+    "Hypothyroidism"
+   ]
+  },
+  {
+   "id": "rt-effondrement",
+   "organe": "rate",
+   "nom": "Sinking Spleen Qi",
+   "zh": "脾气下陷",
+   "py": "Pí qì xià xiàn",
+   "resume": "The Spleen no longer has the strength to hold the organs in place: heaviness, organ prolapse, hemorrhoids, chronic diarrhea.",
+   "causes": [
+    "Established Spleen Qi Deficiency",
+    "Carrying heavy loads, standing for long periods",
+    "Childbirth, repeated pushing and straining"
+   ],
+   "mecanisme": "Spleen Qi naturally moves upward and holds things in place. When it sinks, everything tends to drop: organs, stools, veins.",
+   "cle": [
+    "pesanteur",
+    "fatigue",
+    "selles-molles"
+   ],
+   "autres": [
+    "hemorroides",
+    "fuites-urinaires",
+    "voix-faible",
+    "appetit-faible",
+    "langue-pale",
+    "vertiges"
+   ],
+   "contre": [
+    "langue-rouge",
+    "chaleur-corps"
+   ],
+   "langue": "Pale.",
+   "pouls": "Weak.",
+   "principe": {
+    "zh": "补中益气",
+    "py": "Bǔ zhōng yì qì",
+    "fr": "Tonify the center and raise Qi"
+   },
+   "moxa": "Moxa is fine on CV 6.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "VG 20",
+       "s": 90,
+       "pourquoi": "Raises Qi.",
+       "tech": [
+        "↻",
+        "Gentle pressure, clockwise rotation, without pressing hard"
+       ]
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifies Qi."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies the Spleen and Stomach."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "congee-shan-yao",
+    "congee-poulet",
+    "boeuf-carottes-dattes",
+    "congee-qian-shi"
+   ],
+   "privilegier": "As for Spleen Qi Deficiency, plus astragalus (Huang Qi) cooked in broth.",
+   "eviter": "Carrying heavy loads, standing for long periods, straining hard on the toilet.",
+   "conseils": [
+    "Strengthen your pelvic floor: ask your doctor or a midwife for suitable exercises."
+   ],
+   "simple": "Your body no longer has the strength to hold things up: a feeling that everything is dropping, organ prolapse, hemorrhoids.",
+   "reperes": [
+    "Organ descent",
+    "Prolapse",
+    "Hemorrhoids",
+    "Chronic diarrhea",
+    "Extreme fatigue"
+   ]
+  },
+  {
+   "id": "rt-sang",
+   "organe": "rate",
+   "nom": "Spleen Not Controlling Blood",
+   "zh": "脾不统血",
+   "py": "Pí bù tǒng xuè",
+   "resume": "A weak Spleen no longer keeps Blood inside the vessels: easy bruising, minor bleeding, heavy periods.",
+   "causes": [
+    "Spleen Qi Deficiency",
+    "Overwork, worry"
+   ],
+   "mecanisme": "Spleen Qi “holds” Blood inside the vessels. When it runs low, Blood escapes: bruises, nosebleeds or bleeding gums, heavy periods.",
+   "cle": [
+    "bleus-faciles",
+    "regles-abondantes",
+    "fatigue"
+   ],
+   "autres": [
+    "teint-pale",
+    "appetit-faible",
+    "selles-molles",
+    "langue-pale",
+    "hemorroides",
+    "gencives"
+   ],
+   "contre": [
+    "langue-rouge",
+    "chaleur-corps"
+   ],
+   "langue": "Pale.",
+   "pouls": "Thready and weak.",
+   "principe": {
+    "zh": "益气摄血",
+    "py": "Yì qì shè xuè",
+    "fr": "Tonify Qi to hold Blood"
+   },
+   "consulter": "Unusual bleeding or bruises that appear for no reason call for a blood test: see a doctor.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 1",
+       "s": 60,
+       "pourquoi": "Helps the Spleen hold Blood."
+      },
+      {
+       "p": "Rt 10",
+       "s": 90,
+       "pourquoi": "Regulates Blood."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Qi."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-poulet-huang-qi",
+    "congee-millet-patate-douce",
+    "congee-goji-sesame",
+    "boeuf-carottes-dattes",
+    "foies-volaille-epinards"
+   ],
+   "privilegier": "Cooked grains, dates, chicken, eggs, cooked vegetables.",
+   "eviter": "Raw and cold food, overwork.",
+   "conseils": [],
+   "groupes": [
+    "femme"
+   ],
+   "simple": "Your vessels leak easily: bruises at the slightest bump, minor bleeding, heavy periods.",
+   "reperes": [
+    "Easy bruising",
+    "Nosebleeds",
+    "Heavy periods",
+    "Bleeding gums",
+    "Anemia"
+   ]
+  },
+  {
+   "id": "rt-froid-humidite",
+   "organe": "rate",
+   "nom": "Cold-Damp Invading the Spleen",
+   "zh": "寒湿困脾",
+   "py": "Hán shī kùn pí",
+   "resume": "Cold Dampness weighs down digestion: heavy body, full belly, bland, pasty taste in the mouth, little thirst.",
+   "causes": [
+    "Living or working in a damp place",
+    "Too much cold and raw food",
+    "An already weak Spleen"
+   ],
+   "mecanisme": "Dampness is heavy and sticky: it blocks the Spleen, weighs down the body and head, and clogs the tongue with a thick coating.",
+   "cle": [
+    "lourdeur",
+    "enduit-blanc-epais",
+    "bouche-pateuse",
+    "ballonnements"
+   ],
+   "autres": [
+    "peu-soif",
+    "nausee",
+    "selles-molles",
+    "cephalee-lourde",
+    "pertes-blanches",
+    "appetit-faible",
+    "langue-gonflee",
+    "articulations-lourdes",
+    "poids-facile",
+    "somnolence",
+    "envie-sucre",
+    "fatigue-matin",
+    "gynecomastie",
+    "raideur-matinale",
+    "desequilibre",
+    "concentration",
+    "paupieres-gonflees"
+   ],
+   "contre": [
+    "enduit-jaune",
+    "soif",
+    "langue-rouge"
+   ],
+   "langue": "Thick, sticky white coating.",
+   "pouls": "Slippery and slow.",
+   "principe": {
+    "zh": "温中化湿",
+    "py": "Wēn zhōng huà shī",
+    "fr": "Warm the center, transform Dampness"
+   },
+   "moxa": "Moxa is fine on ST 36.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      },
+      {
+       "p": "RM 9",
+       "s": 60,
+       "pourquoi": "Helps eliminate water."
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Transforms Dampness in the center.",
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ]
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Warms the Spleen and Stomach."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-orge-azuki",
+    "infusion-chen-pi",
+    "congee-courge-carotte",
+    "soupe-poisson-azuki"
+   ],
+   "privilegier": "Pearl barley, adzuki beans, ginger, mandarin peel, radish, rice.",
+   "eviter": "Dairy, sugar, fatty food, too much white bread, cold drinks, damp places.",
+   "conseils": [
+    "Air out and heat your bedroom if it is damp."
+   ],
+   "simple": "Heavy, clogged digestion: full belly, pasty mouth, heavy body.",
+   "reperes": [
+    "Bloating",
+    "Heavy digestion",
+    "Weight gain",
+    "Water retention",
+    "Candida overgrowth"
+   ]
+  },
+  {
+   "id": "rt-humidite-chaleur",
+   "organe": "combines",
+   "nom": "Damp-Heat in the Spleen and Stomach",
+   "zh": "脾胃湿热",
+   "py": "Pí wèi shī rè",
+   "resume": "Dampness heats up: full belly, nausea, sticky, foul-smelling stools, pasty mouth, sometimes oily skin.",
+   "causes": [
+    "Alcohol, fried food, sugar, spices",
+    "Humid summer heat",
+    "Old Dampness that heats up"
+   ],
+   "mecanisme": "Dampness that has been stuck for a long time produces Heat: everything becomes sticky, yellow and smelly.",
+   "cle": [
+    "enduit-jaune",
+    "diarrhee-chaude",
+    "bouche-pateuse"
+   ],
+   "autres": [
+    "ballonnements",
+    "nausee",
+    "urines-foncees",
+    "lourdeur",
+    "teint-jaune",
+    "acne",
+    "eczema-suintant",
+    "haleine",
+    "humidite-intime",
+    "pertes-jaunes",
+    "cephalee-lourde",
+    "boutons-pus",
+    "articulations-chaudes",
+    "ecoulement",
+    "verrues-genitales",
+    "mains-gonflees",
+    "jambes-faibles",
+    "sensible-chaleur",
+    "aphtes",
+    "toux-glaires-jaunes",
+    "plaie-genitale",
+    "orgelet"
+   ],
+   "contre": [
+    "enduit-blanc-epais",
+    "frilosite",
+    "langue-pale"
+   ],
+   "langue": "Red, with a greasy yellow coating.",
+   "pouls": "Slippery and rapid.",
+   "principe": {
+    "zh": "清热化湿",
+    "py": "Qīng rè huà shī",
+    "fr": "Clear Heat, eliminate Dampness"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat and Dampness."
+      },
+      {
+       "p": "E 44",
+       "s": 60,
+       "pourquoi": "Clears Stomach Heat."
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Harmonizes the center.",
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ]
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforms Dampness."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-orge-azuki",
+    "soupe-mungo",
+    "bouillon-concombre-wakame"
+   ],
+   "privilegier": "Pearl barley, mung and adzuki beans, celery, radish, cooked cucumber, rice.",
+   "eviter": "Alcohol, fried food, sugar, fatty meat, strong spices, dairy.",
+   "conseils": [],
+   "etiquette": "Spleen · Stomach",
+   "simple": "Damp heat in the belly: nausea, sticky, foul-smelling stools, oily skin.",
+   "reperes": [
+    "Gastroenteritis",
+    "Food intolerances",
+    "Fatty liver",
+    "Acne",
+    "Eczema"
+   ]
+  },
+  {
+   "id": "e-vide-yin",
+   "organe": "estomac",
+   "nom": "Stomach Yin Deficiency",
+   "zh": "胃阴虚",
+   "py": "Wèi yīn xū",
+   "resume": "The Stomach lacks fluids: hungry but no desire to eat, dry mouth, mild burning pain, tongue cracked in the center.",
+   "causes": [
+    "Meals eaten late at night or in a rush",
+    "Overwork",
+    "Spices, coffee, alcohol",
+    "An illness with fever"
+   ],
+   "mecanisme": "Stomach Yin keeps digestion moist. When it runs low, the Stomach dries out: it burns a little, you feel hungry but can't eat much, and the center of the tongue loses its coating.",
+   "cle": [
+    "langue-rouge-sans-enduit",
+    "bouche-seche",
+    "langue-fissuree"
+   ],
+   "autres": [
+    "douleur-estomac-brulure",
+    "faim-excessive",
+    "appetit-faible",
+    "constipation-seche",
+    "fievre-apres-midi",
+    "hoquet",
+    "gencives",
+    "mucite",
+    "amaigrissement",
+    "nez-sec",
+    "gorge-seche",
+    "aphtes"
+   ],
+   "contre": [
+    "enduit-blanc-epais",
+    "frilosite"
+   ],
+   "langue": "Red, no coating in the center, crack along the midline.",
+   "pouls": "Thready, slightly rapid.",
+   "principe": {
+    "zh": "养阴益胃",
+    "py": "Yǎng yīn yì wèi",
+    "fr": "Nourish Yin, support the Stomach"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Calms the Stomach, soothes hiccups and nausea."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Tonifies the Stomach."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies the Stomach."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-tremelle",
+    "congee-shan-yao",
+    "poire-vapeur-amandes",
+    "soupe-canard-igname"
+   ],
+   "privilegier": "Soups, congee, Chinese yam, snow fungus (tremella), pear, tofu, eggs, sesame. Eat at set times.",
+   "eviter": "Spices, coffee, alcohol, grilled food, eating late at night or while working.",
+   "conseils": [
+    "Have dinner before 8 pm, light and warm."
+   ],
+   "simple": "Your stomach is dried out: you feel hungry but don't want to eat, dry mouth, a slight burning.",
+   "reperes": [
+    "Chronic gastritis",
+    "Acid reflux",
+    "Dry mouth",
+    "Aftermath of a fever",
+    "Loss of appetite"
+   ]
+  },
+  {
+   "id": "e-feu",
+   "organe": "estomac",
+   "nom": "Stomach Fire",
+   "zh": "胃火",
+   "py": "Wèi huǒ",
+   "resume": "Heat burns the Stomach: excessive hunger, thirst for cold drinks, sore gums, bad breath.",
+   "causes": [
+    "Spices, alcohol, grilled meat, fried food",
+    "Tobacco",
+    "Emotions that generate heat (Liver Fire)"
+   ],
+   "mecanisme": "Stomach Heat burns through food too fast (constant hunger) and rises along the meridian to the gums and mouth.",
+   "cle": [
+    "faim-excessive",
+    "soif",
+    "gencives",
+    "douleur-estomac-brulure"
+   ],
+   "autres": [
+    "haleine",
+    "reflux",
+    "constipation-seche",
+    "aphtes",
+    "langue-rouge",
+    "enduit-jaune",
+    "urines-foncees",
+    "cephalee-front",
+    "boutons-pus",
+    "mucite",
+    "orgelet"
+   ],
+   "contre": [
+    "frilosite",
+    "langue-pale",
+    "peu-soif"
+   ],
+   "langue": "Red, with a dry yellow coating.",
+   "pouls": "Full and rapid.",
+   "principe": {
+    "zh": "清胃泻火",
+    "py": "Qīng wèi xiè huǒ",
+    "fr": "Clear the Stomach, drain Fire"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "E 44",
+       "s": 60,
+       "pourquoi": "Clears Stomach Heat, relieves the gums."
+      },
+      {
+       "p": "E 21",
+       "s": 60,
+       "pourquoi": "Calms stomach pain."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Relieves the gums and face."
+      },
+      {
+       "p": "E 25",
+       "s": 60,
+       "pourquoi": "Helps the stools move down."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "saute-celeri-tofu"
+   ],
+   "privilegier": "Green vegetables, cucumber, pear, tofu, mung beans, whole grains, room-temperature water.",
+   "eviter": "Spices, alcohol, coffee, fried food, grilled food, lamb, too much red meat.",
+   "conseils": [],
+   "simple": "Your stomach is on fire: excessive hunger, thirst, sore gums, bad breath.",
+   "reperes": [
+    "Acid reflux",
+    "Heartburn",
+    "Gingivitis",
+    "Bad breath",
+    "Mouth ulcers",
+    "Food cravings"
+   ]
+  },
+  {
+   "id": "e-froid",
+   "organe": "estomac",
+   "nom": "Cold Invading the Stomach",
+   "zh": "寒邪犯胃",
+   "py": "Hán xié fàn wèi",
+   "resume": "Cold blocks the Stomach, often after iced drinks: sharp pain relieved by warmth, nausea, vomiting of clear fluid.",
+   "causes": [
+    "Iced drinks, ice cream, raw food",
+    "Cold getting into the belly"
+   ],
+   "mecanisme": "Cold contracts and freezes things in place: the Stomach cramps up, the pain is sharp and eases with warmth.",
+   "cle": [
+    "douleur-estomac-froid",
+    "nausee"
+   ],
+   "autres": [
+    "vomissements",
+    "peu-soif",
+    "enduit-blanc-epais",
+    "selles-molles",
+    "douleur-ventre-froid"
+   ],
+   "contre": [
+    "douleur-estomac-brulure",
+    "soif",
+    "enduit-jaune"
+   ],
+   "langue": "Thick white coating.",
+   "pouls": "Deep and tight.",
+   "principe": {
+    "zh": "温胃散寒",
+    "py": "Wēn wèi sàn hán",
+    "fr": "Warm the Stomach, scatter Cold"
+   },
+   "moxa": "Moxa recommended.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Makes Stomach Qi descend, calms nausea."
+      },
+      {
+       "p": "Rt 4",
+       "s": 60,
+       "pourquoi": "Calms belly pain."
+      },
+      {
+       "p": "E 21",
+       "s": 60,
+       "pourquoi": "Calms stomach pain."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 300,
+       "pourquoi": "Warms the Stomach."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Warms and tonifies."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-gingembre-cannelle",
+    "congee-courge-carotte"
+   ],
+   "privilegier": "Fresh ginger, hot broths, rice, leek.",
+   "eviter": "Iced drinks, ice cream, raw food, cold fruit.",
+   "conseils": [
+    "A hot-water bottle on your stomach brings quick relief."
+   ],
+   "simple": "Your stomach is gripped by cold: sharp pain after an iced drink.",
+   "reperes": [
+    "Stomach cramps",
+    "Indigestion",
+    "Acute gastritis"
+   ]
+  },
+  {
+   "id": "e-stagnation-alimentaire",
+   "organe": "estomac",
+   "nom": "Food Stagnation",
+   "zh": "食滞胃脘",
+   "py": "Shí zhì wèi wǎn",
+   "resume": "Eating too much or too fast: full, painful stomach, sour belching, bad breath, restless sleep.",
+   "causes": [
+    "Meals that are too big or eaten too fast",
+    "Eating late at night",
+    "Weak Spleen and Stomach"
+   ],
+   "mecanisme": "Food stays stuck in the Stomach: Qi no longer descends, it rises as belching and even disturbs sleep.",
+   "cle": [
+    "digestion-lente",
+    "eructations",
+    "haleine"
+   ],
+   "autres": [
+    "reflux",
+    "nausee",
+    "vomissements",
+    "ballonnements",
+    "enduit-blanc-epais",
+    "sommeil-agite",
+    "appetit-faible",
+    "cephalee-front"
+   ],
+   "contre": [
+    "langue-rouge-sans-enduit"
+   ],
+   "langue": "Thick coating.",
+   "pouls": "Full and slippery.",
+   "principe": {
+    "zh": "消食导滞",
+    "py": "Xiāo shí dǎo zhì",
+    "fr": "Aid digestion and make things move down"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Frees the Stomach.",
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ]
+      },
+      {
+       "p": "E 21",
+       "s": 60,
+       "pourquoi": "Aids digestion."
+      },
+      {
+       "p": "Rt 4",
+       "s": 60,
+       "pourquoi": "Harmonizes the Stomach."
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Makes Stomach Qi descend."
+      },
+      {
+       "p": "E 44",
+       "s": 60,
+       "pourquoi": "Clears the Stomach."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-radis-gingembre",
+    "infusion-chen-pi"
+   ],
+   "privilegier": "Skip a meal or eat light (broth, congee), radish, mandarin peel.",
+   "eviter": "Lying down right after eating, heavy dinners.",
+   "conseils": [
+    "Massage your belly clockwise after meals."
+   ],
+   "simple": "Eating too much or too fast: full stomach, belching, digestion at a standstill.",
+   "reperes": [
+    "Indigestion",
+    "Upset stomach after a rich meal",
+    "Morning after overindulging",
+    "Acid reflux",
+    "Bloating"
+   ]
+  },
+  {
+   "id": "e-rebellion",
+   "organe": "estomac",
+   "nom": "Rebellious Stomach Qi",
+   "zh": "胃气上逆",
+   "py": "Wèi qì shàng nì",
+   "resume": "Stomach Qi rises instead of descending: nausea, hiccups, belching, vomiting.",
+   "causes": [
+    "A weak Stomach",
+    "Stress that blocks the Liver",
+    "Meals eaten under tension"
+   ],
+   "mecanisme": "Stomach Qi is supposed to descend. If it is blocked or weakened, it rises: that is the nausea, hiccups and belching.",
+   "cle": [
+    "nausee",
+    "hoquet",
+    "eructations"
+   ],
+   "autres": [
+    "vomissements",
+    "reflux",
+    "digestion-lente",
+    "appetit-faible",
+    "nausee-traitement"
+   ],
+   "contre": [],
+   "langue": "Varies with the cause.",
+   "pouls": "Varies with the cause.",
+   "principe": {
+    "zh": "和胃降逆",
+    "py": "Hé wèi jiàng nì",
+    "fr": "Harmonize the Stomach, make Qi descend"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Key point for nausea."
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Harmonizes the Stomach.",
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ]
+      },
+      {
+       "p": "Rt 4",
+       "s": 60,
+       "pourquoi": "Harmonizes the Spleen and Stomach."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Makes Qi descend, calms hiccups."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Stomach."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-courge-carotte",
+    "infusion-chen-pi",
+    "poisson-vapeur"
+   ],
+   "privilegier": "Fresh ginger, congee, small warm meals.",
+   "eviter": "Fatty food, big meals, lying down right after eating.",
+   "conseils": [
+    "If you feel nauseous, PC 6 on its own, at any time, often brings quick relief."
+   ],
+   "fiches": [
+    "2026-09-26-seance-matin"
+   ],
+   "simple": "Your stomach sends things back up instead of digesting: nausea, hiccups, belching, vomiting.",
+   "reperes": [
+    "Nausea",
+    "Motion sickness",
+    "Morning sickness in pregnancy",
+    "Hiccups",
+    "Acid reflux"
+   ]
+  }
+ ]
+}

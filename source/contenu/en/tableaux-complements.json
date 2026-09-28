@@ -1,0 +1,724 @@
+{
+ "tableaux": [
+  {
+   "id": "p-secheresse",
+   "organe": "poumon",
+   "nom": "Lung Dryness",
+   "zh": "肺燥",
+   "py": "Fèi zào",
+   "resume": "Dry autumn air or indoor heating dries out the Lung: dry cough, dry throat and nose, dry skin, with no real heat.",
+   "causes": [
+    "Autumn, a dry climate or dry indoor heating",
+    "Not drinking enough",
+    "Early Yin Deficiency"
+   ],
+   "mecanisme": "The Lung likes moisture. Dry air takes away its fluids: the cough turns dry, and the throat, nose and skin dry out. This is the stage before Yin Deficiency, without marked heat.",
+   "cle": [
+    "toux-seche",
+    "gorge-seche",
+    "nez-sec"
+   ],
+   "autres": [
+    "bouche-seche",
+    "peau-seche",
+    "langue-seche",
+    "constipation-seche"
+   ],
+   "contre": [
+    "toux-glaires-blanches",
+    "enduit-blanc-epais",
+    "sueurs-nuit"
+   ],
+   "langue": "Dry, thin coating.",
+   "pouls": "Thready.",
+   "principe": {
+    "zh": "润肺生津",
+    "py": "Rùn fèi shēng jīn",
+    "fr": "Moisten the Lung, generate fluids"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifies the Lung."
+      },
+      {
+       "p": "P 7",
+       "s": 90,
+       "pourquoi": "With KI 6: moistens the throat."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin and fluids."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes fluids."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "poire-vapeur-amandes",
+    "soupe-tremelle",
+    "compote-pomme-poire"
+   ],
+   "privilegier": "Pear, stewed apple, snow fungus (tremella), almonds, honey, sesame, broths, enough water.",
+   "eviter": "Heating turned up too high, spicy food, grilled food, tobacco.",
+   "conseils": [
+    "Put a humidifier, or a bowl of water near the radiator, in your bedroom."
+   ],
+   "simple": "Dry air irritates your airways: dry cough, itchy throat and nose.",
+   "reperes": [
+    "Dry cough",
+    "Dry nose",
+    "Pharyngitis",
+    "Indoor heating, dry air",
+    "Dry skin"
+   ]
+  },
+  {
+   "id": "e-vide-qi",
+   "organe": "estomac",
+   "nom": "Stomach Qi Deficiency",
+   "zh": "胃气虚",
+   "py": "Wèi qì xū",
+   "resume": "The Stomach lacks strength: little appetite, little sense of taste, discomfort in the pit of the stomach, tiredness especially in the morning.",
+   "causes": [
+    "Irregular or too-light meals",
+    "Long illness",
+    "Overwork"
+   ],
+   "mecanisme": "The Stomach receives food and “ripens” it. Without enough Qi, it doesn't take food in well: appetite and taste fade, and a dull discomfort sets in after meals.",
+   "cle": [
+    "appetit-faible",
+    "digestion-lente",
+    "fatigue"
+   ],
+   "autres": [
+    "bouche-pateuse",
+    "voix-faible",
+    "langue-pale",
+    "selles-molles",
+    "douleur-estomac-faim",
+    "envie-sucre",
+    "somnolence",
+    "fatigue-matin",
+    "nausee-traitement",
+    "aliments-non-digeres"
+   ],
+   "contre": [
+    "faim-excessive",
+    "enduit-jaune",
+    "langue-rouge-sans-enduit"
+   ],
+   "langue": "Pale.",
+   "pouls": "Empty, especially at the Stomach position (right wrist, middle position).",
+   "principe": {
+    "zh": "补益胃气",
+    "py": "Bǔ yì wèi qì",
+    "fr": "Tonify Stomach Qi"
+   },
+   "moxa": "Moxa is fine on CV 12 and ST 36.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Front-Mu point of the Stomach: tonifies it directly."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Stomach Qi."
+      },
+      {
+       "p": "V 21",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Stomach."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Supports the Spleen, the Stomach's partner."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-poulet",
+    "poisson-vapeur",
+    "congee-millet-patate-douce"
+   ],
+   "privilegier": "Small, warm, regular meals, congee, broths, rice, steamed fish.",
+   "eviter": "Skipping breakfast, cold and raw food, eating standing up.",
+   "conseils": [
+    "Eat at set times, even if only a little."
+   ],
+   "simple": "Your stomach lacks strength: little appetite, slow digestion, tired in the morning.",
+   "reperes": [
+    "Slow digestion",
+    "Loss of appetite",
+    "Dyspepsia",
+    "Fatigue"
+   ]
+  },
+  {
+   "id": "e-vide-froid",
+   "organe": "estomac",
+   "nom": "Stomach Deficiency-Cold",
+   "zh": "胃虚寒",
+   "py": "Wèi xū hán",
+   "resume": "The deficient Stomach is also cold: dull pain relieved by warmth and by eating, cold hands, regurgitation of clear fluid.",
+   "causes": [
+    "Long-lasting Stomach Qi Deficiency",
+    "Cold food every day",
+    "Weak Spleen Yang"
+   ],
+   "mecanisme": "Without Yang, the Stomach no longer warms its contents: a dull pain appears on an empty stomach, eased by warmth and food, and clear fluids come back up.",
+   "cle": [
+    "douleur-estomac-faim",
+    "douleur-estomac-froid",
+    "frilosite"
+   ],
+   "autres": [
+    "appetit-faible",
+    "nausee",
+    "vomissements",
+    "peu-soif",
+    "fatigue",
+    "selles-molles",
+    "langue-pale",
+    "langue-gonflee"
+   ],
+   "contre": [
+    "douleur-estomac-brulure",
+    "soif",
+    "langue-rouge"
+   ],
+   "langue": "Pale and moist.",
+   "pouls": "Deep, weak and slow.",
+   "principe": {
+    "zh": "温中和胃",
+    "py": "Wēn zhōng hé wèi",
+    "fr": "Warm the center, harmonize the Stomach"
+   },
+   "moxa": "Moxa recommended.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Calms nausea and regurgitation."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Tonifies the Stomach."
+      },
+      {
+       "p": "V 21",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Stomach."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Warms and tonifies the Stomach."
+      },
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Warms Yang."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-poulet",
+    "infusion-gingembre-cannelle",
+    "poisson-vapeur",
+    "soupe-mouton-radis",
+    "agneau-fenouil"
+   ],
+   "privilegier": "Ginger, rice, squash, chicken, lamb in winter, hot drinks.",
+   "eviter": "Ice cream, cold drinks, raw fruit on an empty stomach.",
+   "conseils": [
+    "Start the day with a hot drink, before you eat."
+   ],
+   "simple": "Your stomach is weak and cold: dull aches, eased by a hot meal.",
+   "reperes": [
+    "Gastritis",
+    "Stomach pain on an empty stomach",
+    "Stomach cramps",
+    "Difficult digestion"
+   ]
+  },
+  {
+   "id": "vb-vide",
+   "organe": "vesicule",
+   "nom": "Gallbladder Deficiency",
+   "zh": "胆气虚",
+   "py": "Dǎn qì xū",
+   "resume": "The Gallbladder gives you the courage to decide. When it weakens: indecision, shyness, being easily startled, light sleep.",
+   "causes": [
+    "Constitution",
+    "Liver Blood Deficiency",
+    "Emotional shocks"
+   ],
+   "mecanisme": "In Chinese medicine, the Gallbladder governs decision-making and boldness. When its Qi is lacking, you hesitate, get frightened easily and sleep lightly, especially if Liver Blood is insufficient.",
+   "cle": [
+    "indecision",
+    "peurs"
+   ],
+   "autres": [
+    "reveils",
+    "sommeil-agite",
+    "soupirs",
+    "vertiges",
+    "vision-floue",
+    "decouragement",
+    "langue-pale"
+   ],
+   "contre": [
+    "irritabilite",
+    "gout-amer",
+    "enduit-jaune"
+   ],
+   "langue": "Pale or normal.",
+   "pouls": "Weak.",
+   "principe": {
+    "zh": "益气壮胆",
+    "py": "Yì qì zhuàng dǎn",
+    "fr": "Tonify Qi, strengthen the Gallbladder"
+   },
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "VB 40",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Gallbladder."
+      },
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Calms the mind, soothes fears."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourishes Liver Blood, which supports the Gallbladder."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-lotus-jujube",
+    "congee-goji-sesame",
+    "infusion-longane-jujube"
+   ],
+   "privilegier": "Foods that nourish Qi and Blood: jujubes, goji berries, grains, eggs, chicken.",
+   "eviter": "Late-night screens, coffee, stimulants.",
+   "conseils": [
+    "Every day, make one small decision and don't go back on it: boldness is a muscle you can build."
+   ],
+   "simple": "You lack self-assurance: hard to make decisions, easily startled, light sleep.",
+   "reperes": [
+    "Shyness",
+    "Lack of confidence",
+    "Indecision",
+    "Anxiety",
+    "Light sleep"
+   ]
+  },
+  {
+   "id": "v-vide-froid",
+   "organe": "vessie",
+   "nom": "Bladder Deficiency-Cold",
+   "zh": "膀胱虚寒",
+   "py": "Páng guāng xū hán",
+   "resume": "The Bladder lacks the warmth to hold urine in: frequent urges, clear and abundant urine, leaks, cold lower belly.",
+   "causes": [
+    "Weak Kidney Yang",
+    "Cold in the lower body",
+    "Age"
+   ],
+   "mecanisme": "The Bladder stores and releases urine thanks to Kidney Qi and Yang. When these weaken, it doesn't hold well and urine becomes clear and frequent.",
+   "cle": [
+    "mictions-frequentes",
+    "urines-claires"
+   ],
+   "autres": [
+    "mictions-nuit",
+    "fuites-urinaires",
+    "frilosite",
+    "douleur-ventre-froid",
+    "genoux-faibles",
+    "langue-pale"
+   ],
+   "contre": [
+    "brulures-urinaires",
+    "urines-foncees"
+   ],
+   "langue": "Pale and moist.",
+   "pouls": "Deep and weak.",
+   "principe": {
+    "zh": "温肾固脬",
+    "py": "Wēn shèn gù pāo",
+    "fr": "Warm the Kidney, consolidate the Bladder"
+   },
+   "moxa": "Moxa recommended on CV 4.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "V 28",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Bladder."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Kidney."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Warms the Kidney and the lower belly."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "moules-gingembre",
+    "crevettes-poireau-noix",
+    "soupe-mouton-radis",
+    "congee-qian-shi",
+    "crevettes-ciboule-oeufs"
+   ],
+   "privilegier": "Walnuts, leek, shrimp, mussels, lamb, hot dishes.",
+   "eviter": "Cold drinks, drinking a lot in the evening, cold feet.",
+   "conseils": [
+    "Keep your lower back and feet warm."
+   ],
+   "simple": "Your bladder lacks tone and warmth: you urinate often, sometimes with leaks.",
+   "reperes": [
+    "Frequent urination",
+    "Urinary leakage",
+    "Getting up at night to urinate",
+    "Overactive bladder"
+   ]
+  },
+  {
+   "id": "gi-froid",
+   "organe": "gros-intestin",
+   "nom": "Cold Invading the Large Intestine",
+   "zh": "寒邪客肠",
+   "py": "Hán xié kè cháng",
+   "resume": "Acute Cold blocks the intestines: sharp belly pain relieved by warmth, loose stools, chills.",
+   "causes": [
+    "A chill caught in the belly",
+    "Iced drinks",
+    "Very cold meals"
+   ],
+   "mecanisme": "Cold makes the intestines contract: the pain is sharp and cramping, and warmth clearly relieves it.",
+   "cle": [
+    "douleur-ventre-froid",
+    "selles-molles"
+   ],
+   "autres": [
+    "frilosite",
+    "enduit-blanc-epais",
+    "peu-soif",
+    "ballonnements",
+    "douleur-estomac-froid"
+   ],
+   "contre": [
+    "diarrhee-chaude",
+    "enduit-jaune",
+    "soif"
+   ],
+   "langue": "Thick white coating.",
+   "pouls": "Deep and tight.",
+   "principe": {
+    "zh": "温中散寒",
+    "py": "Wēn zhōng sàn hán",
+    "fr": "Warm the center, disperse Cold"
+   },
+   "moxa": "Moxa or a hot-water bottle recommended.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "E 25",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Large Intestine."
+      },
+      {
+       "p": "E 37",
+       "s": 60,
+       "pourquoi": "Regulates the Large Intestine."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "RM 6",
+       "s": 240,
+       "pourquoi": "Warms the belly."
+      },
+      {
+       "p": "E 36",
+       "s": 240,
+       "pourquoi": "Warms and tonifies."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-gingembre-cannelle",
+    "congee-courge-carotte",
+    "agneau-fenouil"
+   ],
+   "privilegier": "Hot broths, rice, ginger, squash.",
+   "eviter": "Anything cold or raw.",
+   "conseils": [
+    "Hot-water bottle on your belly and a hot broth."
+   ],
+   "simple": "Cold grips your belly: intestinal cramps and loose stools after catching a chill.",
+   "reperes": [
+    "Colic",
+    "Intestinal cramps",
+    "Stomach upset after a chill",
+    "Diarrhea"
+   ]
+  },
+  {
+   "id": "f-vide-yin",
+   "organe": "foie",
+   "nom": "Liver Yin Deficiency",
+   "zh": "肝阴虚",
+   "py": "Gān yīn xū",
+   "resume": "The Liver lacks Yin: dry, tired eyes, blurred vision, dizziness, numbness, a slight feeling of heat in the evening.",
+   "causes": [
+    "Long-standing Liver Blood Deficiency",
+    "Overwork, screens, lack of sleep",
+    "Kidney Yin Deficiency"
+   ],
+   "mecanisme": "Liver Yin moistens the eyes and tendons and holds Yang in check. When it runs low, the eyes dry out, the tendons go numb and Deficiency Heat appears.",
+   "cle": [
+    "yeux-secs",
+    "vision-floue",
+    "vertiges"
+   ],
+   "autres": [
+    "engourdissements",
+    "crampes",
+    "chaleur-5-coeurs",
+    "sueurs-nuit",
+    "endormissement",
+    "irritabilite",
+    "langue-rouge-sans-enduit",
+    "bouche-seche",
+    "tremblements",
+    "mouches-volantes",
+    "spasticite",
+    "vision-double"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite",
+    "enduit-blanc-epais"
+   ],
+   "langue": "Red, especially on the edges, little coating.",
+   "pouls": "Thready, slightly rapid.",
+   "principe": {
+    "zh": "滋养肝阴",
+    "py": "Zī yǎng gān yīn",
+    "fr": "Nourish Liver Yin"
+   },
+   "moxa": "No moxa.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourishes Liver Yin and Blood."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Kidney Water nourishes Liver Wood."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, moistens the eyes."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "congee-goji-sesame",
+    "calamars-celeri",
+    "infusion-chrysantheme-goji",
+    "soupe-canard-igname"
+   ],
+   "privilegier": "Goji berries, chrysanthemum, black sesame, eggs, tofu, spinach, squid.",
+   "eviter": "Late-night screens, alcohol, spicy food, staying up late.",
+   "conseils": [
+    "Every 20 minutes of screen time, look into the distance for 20 seconds."
+   ],
+   "simple": "Your liver is running low on resources: dry eyes, failing eyesight, dizziness, feeling warm in the evening.",
+   "reperes": [
+    "Dry eyes",
+    "Eye strain",
+    "Dizziness",
+    "Menopause",
+    "Cramps"
+   ]
+  },
+  {
+   "id": "femme-chaleur-sang",
+   "organe": "femme",
+   "nom": "Blood Heat: early, heavy periods",
+   "zh": "血热先期",
+   "py": "Xuè rè xiān qī",
+   "resume": "Heat agitates the Blood: short cycles, heavy bright-red periods, restlessness, thirst.",
+   "causes": [
+    "Spicy food, alcohol, heating foods",
+    "Stress that overheats the Liver",
+    "Yin Deficiency (Deficiency Heat)"
+   ],
+   "mecanisme": "Heat pushes Blood out of the vessels and speeds up the cycle: periods come early, heavy and bright red.",
+   "cle": [
+    "regles-avance",
+    "regles-rouge-vif",
+    "regles-abondantes"
+   ],
+   "autres": [
+    "soif",
+    "irritabilite",
+    "chaleur-corps",
+    "visage-rouge",
+    "langue-rouge",
+    "urines-foncees",
+    "acne"
+   ],
+   "contre": [
+    "regles-retard",
+    "regles-peu",
+    "frilosite",
+    "langue-pale"
+   ],
+   "langue": "Red.",
+   "pouls": "Rapid.",
+   "principe": {
+    "zh": "清热凉血",
+    "py": "Qīng rè liáng xuè",
+    "fr": "Clear Heat, cool the Blood"
+   },
+   "consulter": "Very heavy periods can lead to anemia: talk to a doctor about it.",
+   "moxa": "No moxa and no heat.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Cools the Blood."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Clears Liver Heat."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 1",
+       "s": 60,
+       "pourquoi": "Helps hold the Blood in."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Regulates the periods."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-mungo",
+    "infusion-chrysantheme-goji"
+   ],
+   "privilegier": "Green vegetables, celery, cooked cucumber, mung beans, tofu.",
+   "eviter": "Spicy food, alcohol, coffee, lamb, fried food.",
+   "conseils": [],
+   "simple": "Too much heat in the blood: early, heavy, bright-red periods.",
+   "reperes": [
+    "Heavy periods",
+    "Short cycles",
+    "Hormonal acne",
+    "Hot flashes"
+   ]
+  }
+ ]
+}

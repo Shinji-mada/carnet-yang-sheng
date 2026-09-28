@@ -4,14 +4,23 @@
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const cssq=s=>String(s).replace(/["\\]/g,'\\$&');
-const MOIS=['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
-const JOURS=['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
-const JOURS_C=['dim.','lun.','mar.','mer.','jeu.','ven.','sam.'];
-const TYPES={protocole:'Protocole',recette:'Recette'};
-const TECH={d:['↺','Pression forte, rotation anti-horaire'],t:['↻','Pression douce, rotation horaire'],w:['♨︎','Moxa à 2-3 cm ou bouillotte, jusqu\'à chaleur agréable']};
-const PHASE={d:'Disperser',t:'Tonifier',w:'Réchauffer (moxa ou bouillotte)'};
-const SIDE=['Côté gauche','Côté droit'];
-const UNIT={g:'g',kg:'kg',ml:'ml',cl:'cl',l:'l',tsp:'c. à café',tbsp:'c. à soupe',pinch:'pincée',cup:'tasse'};
+/* Langue : français par défaut, anglais au choix (Paramètres). Le texte de l'interface passe par t('texte français'). */
+const LANG=(()=>{try{return localStorage.getItem('ys.langue')==='en'?'en':'fr';}catch(e){return'fr';}})();
+const EN=LANG==='en',LOC=EN?'en-US':'fr-FR';
+document.documentElement.lang=LANG;
+let UI=EN?{'Ouverture du carnet…':'Opening the notebook…',"Le contenu n'a pas pu se charger. Vérifie ta connexion et rouvre l'appli.":'The content could not load. Check your connection and reopen the app.'}:{};
+function $t(s,v){let r=EN&&UI[s]!=null?UI[s]:s;if(v)r=String(r).replace(/\{(\w+)\}/g,(m,k)=>v[k]!==undefined?v[k]:m);return r;}
+const MOIS=EN?['January','February','March','April','May','June','July','August','September','October','November','December']:['janvier','février','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','décembre'];
+const JOURS=EN?['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']:['dimanche','lundi','mardi','mercredi','jeudi','vendredi','samedi'];
+const JOURS_C=EN?['Sun','Mon','Tue','Wed','Thu','Fri','Sat']:['dim.','lun.','mar.','mer.','jeu.','ven.','sam.'];
+const TYPES=EN?{protocole:'Protocol',recette:'Recipe'}:{protocole:'Protocole',recette:'Recette'};
+const TECH=EN?{d:['↺','Strong pressure, anticlockwise circles'],t:['↻','Gentle pressure, clockwise circles'],w:['♨︎','Moxa 2–3 cm away or a hot-water bottle, until pleasantly warm']}:{d:['↺','Pression forte, rotation anti-horaire'],t:['↻','Pression douce, rotation horaire'],w:['♨︎','Moxa à 2-3 cm ou bouillotte, jusqu\'à chaleur agréable']};
+const PHASE=EN?{d:'Disperse',t:'Tonify',w:'Warm (moxa or hot-water bottle)'}:{d:'Disperser',t:'Tonifier',w:'Réchauffer (moxa ou bouillotte)'};
+const SIDE=EN?['Left side','Right side']:['Côté gauche','Côté droit'];
+const UNIT=EN?{g:'g',kg:'kg',ml:'ml',cl:'cl',l:'l',tsp:'tsp',tbsp:'tbsp',pinch:'pinch',cup:'cup'}:{g:'g',kg:'kg',ml:'ml',cl:'cl',l:'l',tsp:'c. à café',tbsp:'c. à soupe',pinch:'pincée',cup:'tasse'};
+/* Codes des points : français (Rt 6) en interne, OMS (SP 6) en anglais */
+const WHO={P:'LU',GI:'LI',E:'ST',Rt:'SP',C:'HT',IG:'SI',V:'BL',Rn:'KI',MC:'PC',TR:'TE',VB:'GB',F:'LR',VG:'GV',RM:'CV'};
+function pn(k){if(!EN||!k)return k;if(UI[k]!=null)return UI[k];return String(k).replace(/\b(P|GI|E|Rt|C|IG|V|Rn|MC|TR|VB|F|VG|RM) (\d+)\b/g,(m,a,n)=>WHO[a]+' '+n);}
 const TABS=['symptomes','tableaux','cuisine','carnet','infos'];
 const reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 const standalone=window.matchMedia&&(matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true);
@@ -24,6 +33,26 @@ function saveSet(k,s){store(k,JSON.stringify([...s]));}
 function today(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function arr(v){return Array.isArray(v)?v:[];}
 const J=JSON.stringify;
+/* Réglages (Infos › Paramètres) */
+const DEFPREF={theme:'auto',fs:'n',son:true,vib:true,ecran:true,intro:true,portions:0};
+const PREF=Object.assign({},DEFPREF,storedJSON('ys.reglages',{})||{});
+function setPref(k,v){PREF[k]=v;store('ys.reglages',J(PREF));}
+function applyLook(){
+  const r=document.documentElement;
+  if(PREF.theme==='dark'||PREF.theme==='light')r.dataset.theme=PREF.theme;else delete r.dataset.theme;
+  if(PREF.fs==='l'||PREF.fs==='xl')r.dataset.fs=PREF.fs;else delete r.dataset.fs;
+  document.querySelectorAll('meta[name="theme-color"]').forEach(m=>{if(!m.dataset.c)m.dataset.c=m.content;m.content=PREF.theme==='dark'?'#0F1412':PREF.theme==='light'?'#ECF0ED':m.dataset.c;});
+}
+applyLook();
+/* Textes fixes de la page (body.html) en anglais */
+(function localizeBody(){
+  if(!EN)return;
+  const set=(sel,txt,attr)=>{const el=$(sel);if(el){if(attr)el.setAttribute(attr,txt);else el.textContent=txt;}};
+  set('.intro-s','Nourishing life, day by day');set('.mini-t span','Timer running');set('#mini-open','See');
+  set('.dock-t','Drop the card into a notebook');set('.toast-b','Undo');set('.sheet-cancel','Close');set('.tabs','Sections','aria-label');
+  const L={symptomes:'Symptoms',tableaux:'Patterns',cuisine:'Kitchen',carnet:'Notebook',infos:'Info'};
+  document.querySelectorAll('.tab').forEach(b=>{const l=b.querySelector('.tab-l');if(l&&L[b.dataset.tab])l.textContent=L[b.dataset.tab];});
+})();
 
 /* ---------- État ---------- */
 const view=$('#view');
@@ -57,7 +86,7 @@ let act=null,iv=null,last=0,ac=null,wl=null,pendingNext=null;
 
 /* ---------- Données ---------- */
 function parseDate(s){const m=/^(\d{4})-(\d{2})-(\d{2})$/.exec(s||'');return m?new Date(+m[1],+m[2]-1,+m[3]):null;}
-function longDate(d){return d?`${JOURS[d.getDay()]} ${d.getDate()} ${MOIS[d.getMonth()]} ${d.getFullYear()}`:'';}
+function longDate(d){return d?(EN?`${JOURS[d.getDay()]}, ${MOIS[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`:`${JOURS[d.getDay()]} ${d.getDate()} ${MOIS[d.getMonth()]} ${d.getFullYear()}`):'';}
 function fold(s){return String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();}
 function hayOf(parts){const h=fold(parts.filter(Boolean).join(' '));return h+' '+h.replace(/\s+/g,'');}
 function matchQ(hay,q){q=fold(q).trim();if(!q)return true;return hay.includes(q)||hay.includes(q.replace(/\s+/g,''));}
@@ -89,7 +118,7 @@ function normFiche(d){
   e._var=arr(e.variantes).length?e.variantes:(Array.isArray(e.etapes)?[{id:'base',nom:'',etapes:e.etapes}]:[]);
   e._tab=[];
   e._hay=hayOf([e.titre,e.contexte,arr(e.tags).join(' '),e._sym.map(s=>SYM[s].nom).join(' '),e.principe&&[e.principe.zh,e.principe.py,e.principe.fr].join(' '),
-    e._items.map(it=>[it.ab,it.py,it.zh].join(' ')).join(' '),arr(e.ingredients).map(i=>i.nom).join(' '),arr(e.produits).map(x=>x.nom).join(' ')]);
+    e._items.map(it=>[it.ab,pn(it.ab),it.py,it.zh].join(' ')).join(' '),arr(e.ingredients).map(i=>i.nom).join(' '),arr(e.produits).map(x=>x.nom).join(' ')]);
   return e;
 }
 function normTableau(d){
@@ -103,7 +132,7 @@ function normTableau(d){
   t._groups=[t.organe,...arr(t.groupes)];
   t._rep=arr(t.reperes);
   t._hay=hayOf([t.nom,t.zh,t.py,t.resume,t.simple,t._rep.join(' '),t._label,t.principe&&[t.principe.zh,t.principe.py,t.principe.fr].join(' '),
-    [...t._cle,...t._autres,...t._lies].map(s=>SYM[s].nom).join(' '),t._items.map(it=>[it.ab,it.py].join(' ')).join(' ')]);
+    [...t._cle,...t._autres,...t._lies].map(s=>SYM[s].nom).join(' '),t._items.map(it=>[it.ab,pn(it.ab),it.py].join(' ')).join(' ')]);
   return t;
 }
 function fiche(id){return fiches.find(e=>e.id===id);}
@@ -112,12 +141,12 @@ function item(kind,id){return kind==='t'?tableau(id):fiche(id);}
 function titleOf(e){return e.kind==='t'?e.nom:e.titre;}
 function minutes(e){return Math.round(e._items.reduce((a,p)=>a+(+p.s||0)*(p.b?2:1),0)/60);}
 function meta(e){
-  if(e.type==='protocole')return `${e._items.length} ${e.unite||'points'} · ${minutes(e)} min`;
-  const m=[];if(e.portions)m.push(e.portions+' portions');if(e.duree)m.push(e.duree);return m.join(' · ');
+  if(e.type==='protocole')return `${e._items.length} ${$t(e.unite||'points')} · ${minutes(e)} min`;
+  const m=[];if(e.portions)m.push(e.portions+' '+$t('portions'));if(e.duree)m.push(e.duree);return m.join(' · ');
 }
 async function loadData(){
   if(window.YS_DATA)return window.YS_DATA;
-  const r=await fetch('data.json',{cache:'no-cache'});
+  const r=await fetch(EN?'data-en.json':'data.json',{cache:'no-cache'});
   if(!r.ok)throw new Error('HTTP '+r.status);
   return r.json();
 }
@@ -129,7 +158,7 @@ function persist(){
   const snap=J(dataOnly());if(snap!==lastSnap){lastSnap=snap;schedulePush();}
 }
 function coll(cid){if(cid==='favoris')return favs;if(cid==='recents')return recents;const c=carnets.find(x=>x.id===cid);return c?c.items:null;}
-function collName(cid){if(cid==='tout')return'Toutes les fiches';if(cid==='favoris')return'Favoris';if(cid==='recents')return'Récents';const c=carnets.find(x=>x.id===cid);return c?c.nom:'';}
+function collName(cid){if(cid==='tout')return $t('Toutes les fiches');if(cid==='favoris')return $t('Favoris');if(cid==='recents')return $t('Récents');const c=carnets.find(x=>x.id===cid);return c?c.nom:'';}
 function inColl(cid,k,id){const it=coll(cid);return !!(it&&it.some(x=>x.k===k&&x.id===id));}
 function addTo(cid,k,id){const it=coll(cid);if(it&&!inColl(cid,k,id)){it.unshift({k,id,d:today()});persist();return true;}return false;}
 function removeFrom(cid,k,id){const it=coll(cid);if(!it)return null;const i=it.findIndex(x=>x.k===k&&x.id===id);if(i<0)return null;const [x]=it.splice(i,1);persist();return {x,i};}
@@ -152,7 +181,7 @@ function mergeOrder(full,vis){
 }
 function isCustom(cid){return !!carnets.find(c=>c.id===cid);}
 function orderedColls(){
-  const all=[['tout','Tout'],['favoris','★ Favoris'],['recents','Récents'],...carnets.map(c=>[c.id,c.nom])];
+  const all=[['tout',$t('Tout')],['favoris','★ '+$t('Favoris')],['recents',$t('Récents')],...carnets.map(c=>[c.id,c.nom])];
   const ids=all.map(x=>x[0]),ord=collOrder.filter(id=>ids.includes(id));
   ids.forEach(id=>{if(!ord.includes(id))ord.push(id);});
   return ord.map(id=>all.find(x=>x[0]===id));
@@ -161,18 +190,18 @@ function newCarnet(nom){const c={id:'c'+Date.now().toString(36)+Math.random().to
 
 /* ---------- Éléments communs ---------- */
 const SEAL='<div class="seal" lang="zh-Hans" aria-hidden="true"><span>养</span><span>生</span></div>';
-function plural(n,s,p){return n+' '+(n>1?p:s);}
+function plural(n,s,p){return n+' '+(EN?(n===1?$t(s):$t(p)):(n>1?p:s));}
 function symName(id){return SYM[id]?SYM[id].nom:id;}
 function liveOn(e){const t=act&&T.get(act);return !!(t&&t.eid===e.id&&t.ekind===e.kind);}
 function cardF(e,extra){
   return `<button type="button" class="entry ${e.type}" data-open="${esc(e.id)}" data-lp="f:${esc(e.id)}" aria-label="${esc(TYPES[e.type]+', '+e.titre)}">
-<span class="txt"><span class="kind">${TYPES[e.type]}${liveOn(e)?'<span class="live">en cours</span>':''}${isFav('f',e.id)?'<span class="favdot" aria-label="favori">★</span>':''}</span><span class="etitle">${esc(e.titre)}</span><span class="emeta">${esc(meta(e))}</span>${extra||''}</span>
+<span class="txt"><span class="kind">${TYPES[e.type]}${liveOn(e)?`<span class="live">${$t('en cours')}</span>`:''}${isFav('f',e.id)?`<span class="favdot" aria-label="${$t('favori')}">★</span>`:''}</span><span class="etitle">${esc(e.titre)}</span><span class="emeta">${esc(meta(e))}</span>${extra||''}</span>
 ${e.principe&&e.principe.zh?`<span class="eprin" lang="zh-Hans" aria-hidden="true">${esc(e.principe.zh)}</span>`:''}
 </button>`;
 }
 function cardT(t,extra,noResume){
-  return `<button type="button" class="entry tableau" data-opent="${esc(t.id)}" data-lp="t:${esc(t.id)}" aria-label="${esc('Tableau, '+t.nom)}">
-<span class="txt"><span class="kind">${esc(t._label)}${liveOn(t)?'<span class="live">en cours</span>':''}${isFav('t',t.id)?'<span class="favdot" aria-label="favori">★</span>':''}</span><span class="etitle">${esc(t.nom)}</span><span class="emeta clamp">${esc(t.simple||(noResume?'':t.resume)||'')}</span>${t._rep.length?`<span class="reperes"><b>Souvent :</b> ${esc(t._rep.slice(0,4).join(' · '))}</span>`:''}${extra||''}</span>
+  return `<button type="button" class="entry tableau" data-opent="${esc(t.id)}" data-lp="t:${esc(t.id)}" aria-label="${esc($t('Tableau')+', '+t.nom)}">
+<span class="txt"><span class="kind">${esc(t._label)}${liveOn(t)?`<span class="live">${$t('en cours')}</span>`:''}${isFav('t',t.id)?`<span class="favdot" aria-label="${$t('favori')}">★</span>`:''}</span><span class="etitle">${esc(t.nom)}</span><span class="emeta clamp">${esc(t.simple||(noResume?'':t.resume)||'')}</span>${t._rep.length?`<span class="reperes"><b>${$t('Souvent :')}</b> ${esc(t._rep.slice(0,4).join(' · '))}</span>`:''}${extra||''}</span>
 ${t.zh?`<span class="eprin" lang="zh-Hans" aria-hidden="true">${esc(t.zh)}</span>`:''}
 </button>`;
 }
@@ -187,16 +216,16 @@ let toastT=null,toastAt=0;
 function hideStaleToast(){const t=$('#toast');if(t&&!t.hidden&&Date.now()-toastAt>900){t.hidden=true;clearTimeout(toastT);}}
 function toast(msg,undo,label,ms){
   const t=$('#toast');if(!t)return;toastAt=Date.now();
-  t.querySelector('.toast-m').textContent=msg;
-  const b=t.querySelector('.toast-b');b.hidden=!undo;b.textContent=label||'Annuler';
+  t.querySelector('.toast-m').textContent=$t(msg);
+  const b=t.querySelector('.toast-b');b.hidden=!undo;b.textContent=$t(label||'Annuler');
   b.onclick=()=>{t.hidden=true;clearTimeout(toastT);undo&&undo();};
   t.hidden=false;clearTimeout(toastT);toastT=setTimeout(()=>{t.hidden=true;},ms||(undo?5000:2600));
 }
 let sheetOpen=false,ignorePop=false,sheetReturn=null,ghostUntil=0;
 function openSheet(title,sub,bodyHTML,onReady){
   const s=$('#sheet');
-  s.querySelector('.sheet-t').textContent=title||'';
-  const st=s.querySelector('.sheet-s');st.textContent=sub||'';st.hidden=!sub;
+  s.querySelector('.sheet-t').textContent=$t(title||'');
+  const st=s.querySelector('.sheet-s');st.textContent=$t(sub||'');st.hidden=!sub;
   s.querySelector('.sheet-body').innerHTML=bodyHTML;
   if(!sheetOpen){const sh=s.querySelector('.sheet');if(sh)sh.scrollTop=0;sheetReturn=document.activeElement;try{history.pushState(Object.assign({},history.state||{},{sheet:1}),'');}catch(e){}}
   s.hidden=false;sheetOpen=true;document.body.classList.add('noscroll');
@@ -216,7 +245,7 @@ function closeSheet(fromPop,then){
   }
   if(then)then();
 }
-function rows(list){return list.map(r=>`<button type="button" class="sheet-row${r.danger?' danger':''}${r.on?' on':''}" data-act="${esc(r.act)}"${r.on!==undefined?` aria-pressed="${r.on}"`:''}><span>${esc(r.label)}</span>${r.note?`<small>${esc(r.note)}</small>`:''}</button>`).join('');}
+function rows(list){return list.map(r=>`<button type="button" class="sheet-row${r.danger?' danger':''}${r.on?' on':''}" data-act="${esc(r.act)}"${r.on!==undefined?` aria-pressed="${r.on}"`:''}><span>${esc($t(r.label))}</span>${r.note?`<small>${esc($t(r.note))}</small>`:''}</button>`).join('');}
 let sheetCtx=null;
 function itemMenu(k,id,cid){
   const e=item(k,id);if(!e)return;
@@ -234,16 +263,16 @@ function itemMenu(k,id,cid){
   if(cid==='tout')list.push({act:'hide',label:'Supprimer du carnet',danger:true});
   else if(cid==='recents')list.push({act:'forget',label:'Supprimer des récents',danger:true});
   else if(cid)list.push({act:'remove',label:cid==='favoris'?'Retirer des favoris':'Supprimer de ce carnet',danger:true});
-  openSheet(titleOf(e),e.kind==='t'?'Tableau · '+e._label:TYPES[e.type],rows(list));
+  openSheet(titleOf(e),e.kind==='t'?$t('Tableau')+' · '+e._label:TYPES[e.type],rows(list));
 }
 function addToMenu(move){
   const {k,id,cid}=sheetCtx;
   const list=carnets.filter(c=>!(move&&c.id===cid)).map(c=>({act:(move?'mv:':'tg:')+c.id,label:c.nom,on:move?undefined:inColl(c.id,k,id),note:plural(c.items.length,'fiche','fiches')}));
   openSheet(move?'Déplacer vers…':'Ajouter à un carnet',titleOf(item(k,id)),
-    (list.length?rows(list):'<p class="sheet-empty">Tu n\'as pas encore de carnet personnel.</p>')+
-    `<form class="sheet-new" data-newfor="${move?'move':'add'}"><label for="newc">Nouveau carnet</label><div><input id="newc" type="text" maxlength="40" placeholder="Ex. : Recettes du moment" autocomplete="off"><button type="submit" class="primary">Créer</button></div></form>`);
+    (list.length?rows(list):`<p class="sheet-empty">${$t('Tu n\'as pas encore de carnet personnel.')}</p>`)+
+    `<form class="sheet-new" data-newfor="${move?'move':'add'}"><label for="newc">${$t('Nouveau carnet')}</label><div><input id="newc" type="text" maxlength="40" placeholder="${$t('Ex. : Recettes du moment')}" autocomplete="off"><button type="submit" class="primary">${$t('Créer')}</button></div></form>`);
 }
-const NEWFORM=(kind,label)=>`<form class="sheet-new" data-newfor="${kind}"><label for="newc">${label||'Nouveau carnet'}</label><div><input id="newc" type="text" maxlength="40" placeholder="Ex. : Recettes pour l'hiver" autocomplete="off"><button type="submit" class="primary">Créer</button></div></form>`;
+const NEWFORM=(kind,label)=>`<form class="sheet-new" data-newfor="${kind}"><label for="newc">${$t(label||'Nouveau carnet')}</label><div><input id="newc" type="text" maxlength="40" placeholder="${$t('Ex. : Recettes pour l\'hiver')}" autocomplete="off"><button type="submit" class="primary">${$t('Créer')}</button></div></form>`;
 function collMenu(cid){
   sheetCtx={cid};
   const custom=isCustom(cid);
@@ -261,8 +290,8 @@ function manageSheet(){
     const all=carnets.every(c=>manageSel.has(c.id));
     h+=rows([{act:'mkall',label:all?'Tout décocher':'Tout cocher'}]);
     h+=rows(carnets.map(c=>({act:'mk:'+c.id,label:c.nom,on:manageSel.has(c.id),note:plural(c.items.length,'fiche','fiches')})));
-    h+=`<button type="button" class="sheet-row danger" data-act="mkdel"${manageSel.size?'':' disabled'}><span>Supprimer la sélection${manageSel.size?' ('+manageSel.size+')':''}</span></button>`;
-  }else h+='<p class="sheet-empty">Tu n\'as pas encore de carnet personnel.</p>';
+    h+=`<button type="button" class="sheet-row danger" data-act="mkdel"${manageSel.size?'':' disabled'}><span>${$t('Supprimer la sélection')}${manageSel.size?' ('+manageSel.size+')':''}</span></button>`;
+  }else h+=`<p class="sheet-empty">${$t('Tu n\'as pas encore de carnet personnel.')}</p>`;
   openSheet('Mes carnets',carnets.length?'Coche les carnets à supprimer. Les fiches, elles, restent dans l\'appli.':'',h+NEWFORM('manage'));
 }
 function newCarnetFor(k,id,src){
@@ -273,7 +302,7 @@ function multiMenu(move){
   sheetCtx={multi:true};
   const list=carnets.filter(c=>c.id!==carnetSel).map(c=>({act:(move?'mm:':'ma:')+c.id,label:c.nom,note:plural(c.items.length,'fiche','fiches')}));
   openSheet(move?'Déplacer vers…':'Ajouter à un carnet',plural(selSet.size,'fiche sélectionnée','fiches sélectionnées'),
-    (list.length?rows(list):'<p class="sheet-empty">Tu n\'as pas encore d\'autre carnet.</p>')+NEWFORM(move?'multimove':'multi'));
+    (list.length?rows(list):`<p class="sheet-empty">${$t('Tu n\'as pas encore d\'autre carnet.')}</p>`)+NEWFORM(move?'multimove':'multi'));
 }
 function selKeys(){return [...selSet].map(splitKey).filter(([k,id])=>item(k,id));}
 function endSel(){selMode=false;selSet.clear();}
@@ -283,32 +312,32 @@ function multiInto(target,move){
   keys.slice().reverse().forEach(([k,id])=>addTo(target,k,id));
   if(move)keys.forEach(([k,id])=>removeFrom(src,k,id));
   endSel();closeSheet();refresh();
-  toast((move?plural(keys.length,'fiche déplacée','fiches déplacées')+' vers « ':plural(keys.length,'fiche ajoutée','fiches ajoutées')+' à « ')+collName(target)+' »',
+  toast($t(move?'{n} vers « {c} »':'{n} à « {c} »',{n:move?plural(keys.length,'fiche déplacée','fiches déplacées'):plural(keys.length,'fiche ajoutée','fiches ajoutées'),c:collName(target)}),
     ()=>{tIt.splice(0,tIt.length,...tSnap);if(sIt)sIt.splice(0,sIt.length,...sSnap);persist();refresh();});
 }
 function selAction(a){
   const keys=selKeys();if(!keys.length)return;const cid=carnetSel;
   if(a==='fav'){
     const added=keys.filter(([k,id])=>addTo('favoris',k,id));endSel();refresh();
-    toast(added.length?plural(added.length,'fiche ajoutée','fiches ajoutées')+' aux favoris':'Déjà dans les favoris',added.length?()=>{added.forEach(([k,id])=>removeFrom('favoris',k,id));refresh();}:null);return;
+    toast(added.length?$t('{n} aux favoris',{n:plural(added.length,'fiche ajoutée','fiches ajoutées')}):'Déjà dans les favoris',added.length?()=>{added.forEach(([k,id])=>removeFrom('favoris',k,id));refresh();}:null);return;
   }
   if(a==='add'||a==='move'){multiMenu(a==='move');return;}
   if(a==='rm'){
     if(cid==='tout'){
       const add=keys.filter(([k,id])=>!isHidden(k,id)).map(([k,id])=>({k,id}));masques.push(...add);persist();endSel();refresh();
-      toast(plural(add.length,'fiche supprimée','fiches supprimées')+' du carnet',()=>{masques=masques.filter(m=>!add.some(x=>x.k===m.k&&x.id===m.id));persist();refresh();});return;
+      toast($t('{n} du carnet',{n:plural(add.length,'fiche supprimée','fiches supprimées')}),()=>{masques=masques.filter(m=>!add.some(x=>x.k===m.k&&x.id===m.id));persist();refresh();});return;
     }
     const it=coll(cid);if(!it)return;const snap=it.slice();
     keys.forEach(([k,id])=>removeFrom(cid,k,id));endSel();refresh();
-    toast(plural(keys.length,'fiche supprimée','fiches supprimées')+' de « '+collName(cid)+' »',()=>{it.splice(0,it.length,...snap);persist();refresh();});
+    toast($t('{n} de « {c} »',{n:plural(keys.length,'fiche supprimée','fiches supprimées'),c:collName(cid)}),()=>{it.splice(0,it.length,...snap);persist();refresh();});
   }
 }
 function visKeys(){return [...document.querySelectorAll('#timeline [data-lp]')].map(c=>c.dataset.lp);}
 function selInfo(){
   const bar=$('#selbar');if(!bar)return;const n=selSet.size;
-  bar.querySelector('.seln').textContent=n?plural(n,'fiche sélectionnée','fiches sélectionnées'):'Touche les fiches à cocher';
+  bar.querySelector('.seln').textContent=n?plural(n,'fiche sélectionnée','fiches sélectionnées'):$t('Touche les fiches à cocher');
   const vis=visKeys(),all=vis.length>0&&vis.every(v=>selSet.has(v));
-  const a=bar.querySelector('[data-selall]');a.textContent=all?'Tout décocher':'Tout cocher';
+  const a=bar.querySelector('[data-selall]');a.textContent=$t(all?'Tout décocher':'Tout cocher');
   document.querySelectorAll('[data-selact]').forEach(b=>{b.disabled=!n;});
 }
 function toggleSel(c){const v=c.dataset.lp;selSet.has(v)?selSet.delete(v):selSet.add(v);c.setAttribute('aria-pressed',String(selSet.has(v)));selInfo();}
@@ -317,19 +346,19 @@ function decorateSel(box){
   if(!selMode)return;
   box.querySelectorAll('[data-lp]').forEach(c=>c.setAttribute('aria-pressed',String(selSet.has(c.dataset.lp))));
   const custom=isCustom(carnetSel);
-  const btn=(a,ic,l)=>`<button type="button" data-selact="${a}" disabled><span aria-hidden="true">${ic}</span>${l}</button>`;
-  box.insertAdjacentHTML('afterbegin',`<div class="selbar" id="selbar"><button type="button" class="linkbtn" data-selall="1">Tout cocher</button><span class="seln" aria-live="polite"></span><button type="button" class="primary sm" data-selend="1">Terminer</button></div>`);
+  const btn=(a,ic,l)=>`<button type="button" data-selact="${a}" disabled><span aria-hidden="true">${ic}</span>${$t(l)}</button>`;
+  box.insertAdjacentHTML('afterbegin',`<div class="selbar" id="selbar"><button type="button" class="linkbtn" data-selall="1">${$t('Tout cocher')}</button><span class="seln" aria-live="polite"></span><button type="button" class="primary sm" data-selend="1">${$t('Terminer')}</button></div>`);
   box.insertAdjacentHTML('beforeend',`<div class="selact">${carnetSel!=='favoris'?btn('fav','★','Favoris'):''}${btn('add','+','Ajouter à…')}${custom?btn('move','⇄','Déplacer'):''}${btn('rm','✕','Supprimer')}</div>`);
   selInfo();
 }
 function renameSheet(cid){
   const c=carnets.find(x=>x.id===cid);if(!c)return;
   sheetCtx={cid};
-  openSheet('Renommer le carnet','',`<form class="sheet-new" data-rename="${esc(cid)}"><label for="newc">Nom</label><div><input id="newc" type="text" maxlength="40" value="${esc(c.nom)}" autocomplete="off"><button type="submit" class="primary">Enregistrer</button></div></form>`);
+  openSheet('Renommer le carnet','',`<form class="sheet-new" data-rename="${esc(cid)}"><label for="newc">${$t('Nom')}</label><div><input id="newc" type="text" maxlength="40" value="${esc(c.nom)}" autocomplete="off"><button type="submit" class="primary">${$t('Enregistrer')}</button></div></form>`);
 }
 function newCarnetSheet(){
   sheetCtx={};
-  openSheet('Nouveau carnet','Rassemble les fiches de ton choix : recettes du moment, protocole d\'un patient, cure d\'hiver…',`<form class="sheet-new" data-newfor="plain"><label for="newc">Nom</label><div><input id="newc" type="text" maxlength="40" placeholder="Ex. : Recettes du moment" autocomplete="off"><button type="submit" class="primary">Créer</button></div></form>`);
+  openSheet('Nouveau carnet','Rassemble les fiches de ton choix : recettes du moment, protocole d\'un patient, cure d\'hiver…',`<form class="sheet-new" data-newfor="plain"><label for="newc">${$t('Nom')}</label><div><input id="newc" type="text" maxlength="40" placeholder="${$t('Ex. : Recettes du moment')}" autocomplete="off"><button type="submit" class="primary">${$t('Créer')}</button></div></form>`);
 }
 const PT_ALIAS={'EX-LE 2':'He Ding','EX-LE 4':'Nei Xi Yan','EX-HN 3':'Yin Tang','EX-HN 5':'Tai Yang'};
 function figKeys(it){
@@ -361,7 +390,7 @@ function rulerSVG(R,pts){
     pts.forEach(([px,py])=>{const t=Math.max(0,Math.min(L,(px-ax)*ux+(py-ay)*uy)),[qx,qy]=at(t);if(R.lien!==false)h+=`<path class="rg-c" d="M${px},${py}L${qx},${qy}"/>`;
       const v=Math.round(t/L*n*2)/2;if(!shown.has(v)){shown.add(v);lab.push(v);}});
     [...shown].forEach(v=>{const [x,y]=at(v/n*L),tx=x+nx*13,ty=y+ny*13;const anc=Math.abs(nx)>0.5?(nx>0?'start':'end'):'middle';
-      h+=`<text class="rg-t" x="${tx+(anc==='middle'?0:nx>0?-4:4)}" y="${ty+3.5}" text-anchor="${anc}">${String(v).replace('.',',')}</text>`;});
+      h+=`<text class="rg-t" x="${tx+(anc==='middle'?0:nx>0?-4:4)}" y="${ty+3.5}" text-anchor="${anc}">${EN?String(v):String(v).replace('.',',')}</text>`;});
   }
   return h;
 }
@@ -386,41 +415,41 @@ function figSheet(keys){
   marks+=reps.map(r=>{const L=(f.reps||{})[r];if(!L)return'';const a=L.a||'start',dx=a==='end'?-3:a==='middle'?0:3;
     return `<path class="ldr" d="M${L.x},${L.y}L${L.tx},${L.ty}"/>`+figLines(L.t,L.tx+dx,L.ty+(a==='middle'?(L.ty>L.y?11:-4-13*(String(L.t).split('|').length-1)):4),a,'lbl',13);}).join('');
   keys.forEach(k=>arr(PTS[k].voisins).forEach(v=>{const q=PTS[v]&&PTS[v].vue===p0.vue?[PTS[v].x,PTS[v].y]:(f.canal||{})[v];if(!q)return;seen.add(v);
-    marks+=`<circle class="fv" cx="${+q[0]}" cy="${+q[1]}" r="3.3"></circle><text class="fv-t" x="${+q[0]+6}" y="${+q[1]-5}">${esc(v)}</text>`;}));
+    marks+=`<circle class="fv" cx="${+q[0]}" cy="${+q[1]}" r="3.3"></circle><text class="fv-t" x="${+q[0]+6}" y="${+q[1]-5}">${esc(pn(v))}</text>`;}));
   marks+=grey;
   keys.forEach(ab=>{
     const p=PTS[ab],x=+p.x,y=+p.y,xs=[x];if(f.sym&&p.b&&Math.abs(x-ax)>2)xs.push(2*ax-x);
     const side=p.lab||(x<x1-60?'r':'l'),lx=side==='r'?x+8:side==='l'?x-8:x,ly=side==='t'?y-10:side==='b'?y+18:y-6;
     marks+=xs.map((cx,i)=>`<circle class="fig-halo" cx="${cx}" cy="${y}" r="10"></circle><circle class="fig-dot${i?' alt':''}" cx="${cx}" cy="${y}" r="4.2"></circle>`).join('')+
-      `<text class="fig-lab" x="${lx}" y="${ly}" text-anchor="${side==='r'?'start':side==='l'?'end':'middle'}">${esc(ab)}</text>`;
+      `<text class="fig-lab" x="${lx}" y="${ly}" text-anchor="${side==='r'?'start':side==='l'?'end':'middle'}">${esc(pn(ab))}</text>`;
   });
   const both=keys.some(ab=>PTS[ab].b),mirrored=f.sym&&both;
-  openSheet(keys.length>1?keys.join(' et '):keys[0]+' · '+(p0.py||''),f.nom,`<div class="fig"><svg class="fig-svg" viewBox="${esc(f.vb)}" role="img" aria-label="Emplacement : ${esc(keys.join(', '))}, ${esc(f.nom)}">${f.svg}${marks}</svg></div>
-${keys.map(ab=>{const p=PTS[ab];return `${p.zh?`<p class="fig-zh" lang="zh-Hans">${esc(p.zh)} <span>${esc(p.py||'')}</span></p>`:''}<p class="fig-loc"><b>${esc(ab)} :</b> ${esc(p.loc||'')}</p>`;}).join('')}
-${both?`<p class="fine">Point présent des deux côtés du corps${mirrored?' (les deux sont marqués)':''} : masse-le à gauche puis à droite.</p>`:'<p class="fine">Point unique, sur la ligne du milieu du corps.</p>'}
-<p class="fine">En gris, les autres points du même méridien. 1 cun correspond à la largeur de ton pouce ; les règles donnent la distance en cun. Schéma indicatif.</p>`,sh=>{const g=sh.querySelector('.fig-svg');if(g)fitFig(g);});
+  openSheet(keys.length>1?keys.map(pn).join(' '+$t('et')+' '):pn(keys[0])+(p0.py&&p0.py!==keys[0]?' · '+p0.py:''),f.nom,`<div class="fig"><svg class="fig-svg" viewBox="${esc(f.vb)}" role="img" aria-label="${$t('Emplacement :')} ${esc(keys.map(pn).join(', '))}, ${esc(f.nom)}">${f.svg}${marks}</svg></div>
+${keys.map(ab=>{const p=PTS[ab];return `${p.zh?`<p class="fig-zh" lang="zh-Hans">${esc(p.zh)} <span>${esc(p.py||'')}</span></p>`:''}<p class="fig-loc"><b>${esc(pn(ab))}${EN?':':' :'}</b> ${esc(p.loc||'')}</p>`;}).join('')}
+<p class="fine">${$t(both?(mirrored?'Point présent des deux côtés du corps (les deux sont marqués) : masse-le à gauche puis à droite.':'Point présent des deux côtés du corps : masse-le à gauche puis à droite.'):'Point unique, sur la ligne du milieu du corps.')}</p>
+<p class="fine">${$t('En gris, les autres points du même méridien. 1 cun correspond à la largeur de ton pouce ; les règles donnent la distance en cun. Schéma indicatif.')}</p>`,sh=>{const g=sh.querySelector('.fig-svg');if(g)fitFig(g);});
 }
 /* Guide d'une rubrique (IST, cancer, maladies) : une fiche par diagnostic, avec ses tableaux */
-function gsymLabel(id){return symSel.has(id)?'✓ Dans mes symptômes':'+ Ajouter à mes symptômes';}
+function gsymLabel(id){return symSel.has(id)?'✓ '+$t('Dans mes symptômes'):'+ '+$t('Ajouter à mes symptômes');}
 function guideSheet(cid,openId){
   const c=SYMCATS.find(x=>x.id===cid);if(!c)return;
   const items=catList(c).filter(s=>s.info);
   if(!openId&&items.length===1)openId=items[0].id;
   let h=arr(c.intro).map(p=>`<p class="gd-p">${esc(p)}</p>`).join('');
-  if(arr(c.precautions).length)h+=`<div class="alert" role="note"><h2>Précautions</h2><ul>${c.precautions.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`;
+  if(arr(c.precautions).length)h+=`<div class="alert" role="note"><h2>${$t('Précautions')}</h2><ul>${c.precautions.map(p=>`<li>${esc(p)}</li>`).join('')}</ul></div>`;
   h+=`${items.length>1?`<h3 class="gd-t">${plural(items.length,'fiche','fiches')}</h3>`:'<div class="gd-sp"></div>'}<div class="accwrap gd-acc">`+items.map(s=>{
     const ts=arr(s.tab).map(tableau).filter(Boolean);
     return `<details class="cat" data-cat="gd-${esc(s.id)}"${s.id===openId?' open':''}><summary><span>${esc(s.nom)}</span></summary><div class="gd">
-<p class="gd-p">${esc(s.info)}</p>${s.alerte||s.rappel?`<p class="gd-p gd-warn"><b>Important :</b> ${esc([s.alerte,s.rappel].filter(Boolean).join(' '))}</p>`:''}${s.mtc?`<p class="gd-p"><b>En médecine chinoise :</b> ${esc(s.mtc)}</p>`:''}
-${ts.length?`<p class="gd-h">Tableaux pour accompagner</p><div class="gd-tabs">${ts.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
+<p class="gd-p">${esc(s.info)}</p>${s.alerte||s.rappel?`<p class="gd-p gd-warn"><b>${$t('Important :')}</b> ${esc([s.alerte,s.rappel].filter(Boolean).join(' '))}</p>`:''}${s.mtc?`<p class="gd-p"><b>${$t('En médecine chinoise :')}</b> ${esc(s.mtc)}</p>`:''}
+${ts.length?`<p class="gd-h">${$t('Tableaux pour accompagner')}</p><div class="gd-tabs">${ts.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
 <button type="button" class="ghost gd-add" data-gsym="${esc(s.id)}" aria-pressed="${symSel.has(s.id)}">${gsymLabel(s.id)}</button></div></details>`;}).join('')+'</div>';
-  h+='<p class="fine">Repères d\'accompagnement selon la médecine traditionnelle chinoise : ni diagnostic, ni traitement. Ils ne remplacent jamais l\'avis de ton médecin.</p>';
+  h+=`<p class="fine">${$t('Repères d\'accompagnement selon la médecine traditionnelle chinoise : ni diagnostic, ni traitement. Ils ne remplacent jamais l\'avis de ton médecin.')}</p>`;
   openSheet(c.guide||c.nom,'',h,sh=>{const w=sh.querySelector('.gd-acc'),sc=sh.querySelector('.sheet');if(w)accordion(w,()=>{},sc);
     if(openId&&items.length>1){const d=sh.querySelector(`[data-cat="gd-${cssq(openId)}"]`);if(d&&sc)sc.scrollTop+=d.getBoundingClientRect().top-sc.getBoundingClientRect().top-12;}});
 }
 async function shareApp(){
   const url=location.origin+location.pathname;
-  try{if(navigator.share){await navigator.share({title:'Carnet Yang Sheng',text:'Carnet Yang Sheng : symptômes, tableaux, points d\'acupression et recettes de médecine chinoise.',url});return;}}catch(err){if(err&&err.name==='AbortError')return;}
+  try{if(navigator.share){await navigator.share({title:'Carnet Yang Sheng',text:$t('Carnet Yang Sheng : symptômes, tableaux, points d\'acupression et recettes de médecine chinoise.'),url});return;}}catch(err){if(err&&err.name==='AbortError')return;}
   try{await navigator.clipboard.writeText(url);toast('Lien copié');}catch(err){toast(url);}
 }
 async function share(k,id){
@@ -453,11 +482,11 @@ function onSheetAct(a){
   if(a==='hide'){masques.push({k,id});persist();closeSheet();refresh();toast('Fiche supprimée du carnet',()=>{masques=masques.filter(m=>!(m.k===k&&m.id===id));persist();refresh();});return;}
   if(a==='unhideone'){masques=masques.filter(m=>!(m.k===k&&m.id===id));persist();closeSheet();refresh();toast('Fiche remise dans « Toutes les fiches »');return;}
   if(a==='forget'){const r=removeFrom('recents',k,id);closeSheet();refresh();toast('Supprimée des récents',()=>{restoreAt('recents',r);refresh();});return;}
-  if(a==='remove'){const r=removeFrom(cid,k,id);closeSheet();refresh();toast(cid==='favoris'?'Retirée des favoris':'Supprimée de « '+collName(cid)+' »',()=>{restoreAt(cid,r);refresh();});return;}
-  if(a.startsWith('tg:')){const c=a.slice(3);const on=!inColl(c,k,id);on?addTo(c,k,id):removeFrom(c,k,id);const b=$(`#sheet [data-act="${cssq(a)}"]`);if(b){b.setAttribute('aria-pressed',String(on));b.classList.toggle('on',on);const n=b.querySelector('small');if(n)n.textContent=plural(coll(c).length,'fiche','fiches');}toast(on?'Ajouté à « '+collName(c)+' »':'Retiré de « '+collName(c)+' »');refresh();return;}
-  if(a.startsWith('mv:')){const c=a.slice(3);removeFrom(cid,k,id);addTo(c,k,id);closeSheet();refresh();toast('Déplacé vers « '+collName(c)+' »');return;}
+  if(a==='remove'){const r=removeFrom(cid,k,id);closeSheet();refresh();toast(cid==='favoris'?'Retirée des favoris':$t('Supprimée de « {c} »',{c:collName(cid)}),()=>{restoreAt(cid,r);refresh();});return;}
+  if(a.startsWith('tg:')){const c=a.slice(3);const on=!inColl(c,k,id);on?addTo(c,k,id):removeFrom(c,k,id);const b=$(`#sheet [data-act="${cssq(a)}"]`);if(b){b.setAttribute('aria-pressed',String(on));b.classList.toggle('on',on);const n=b.querySelector('small');if(n)n.textContent=plural(coll(c).length,'fiche','fiches');}toast($t(on?'Ajouté à « {c} »':'Retiré de « {c} »',{c:collName(c)}));refresh();return;}
+  if(a.startsWith('mv:')){const c=a.slice(3);removeFrom(cid,k,id);addTo(c,k,id);closeSheet();refresh();toast($t('Déplacé vers « {c} »',{c:collName(c)}));return;}
   if(a==='rename'){renameSheet(cid);return;}
-  if(a==='delcarnet'){const c=carnets.find(x=>x.id===cid);openSheet('Supprimer « '+(c?c.nom:'')+' » ?','Les fiches restent dans l\'appli : seul ce carnet disparaît.',rows([{act:'delok',label:'Supprimer le carnet',danger:true},{act:'close',label:'Garder'}]));return;}
+  if(a==='delcarnet'){const c=carnets.find(x=>x.id===cid);openSheet($t('Supprimer « {c} » ?',{c:c?c.nom:''}),'Les fiches restent dans l\'appli : seul ce carnet disparaît.',rows([{act:'delok',label:'Supprimer le carnet',danger:true},{act:'close',label:'Garder'}]));return;}
   if(a==='delok'){const i=carnets.findIndex(x=>x.id===cid);if(i>-1){const [c]=carnets.splice(i,1);if(carnetSel===cid)carnetSel='tout';persist();closeSheet();refresh();toast('Carnet supprimé',()=>{carnets.splice(i,0,c);carnetSel=c.id;persist();refresh();});}return;}
   if(a==='close'){closeSheet();return;}
   if(a.startsWith('prov:')){provSignIn(a.slice(5));return;}
@@ -478,8 +507,8 @@ function onSheetSubmit(f){
   const c=newCarnet(nom);
   const ctx=sheetCtx||{};
   if(f.dataset.newfor==='multi'||f.dataset.newfor==='multimove'){multiInto(c.id,f.dataset.newfor==='multimove');return;}
-  if(f.dataset.newfor==='add'){const mv=ctx.cid&&isCustom(ctx.cid)&&ctx.cid!==c.id;const rec=mv?removeFrom(ctx.cid,ctx.k,ctx.id):null;addTo(c.id,ctx.k,ctx.id);closeSheet();refresh();toast((mv?'Déplacé vers « ':'Ajouté à « ')+c.nom+' »',()=>{removeFrom(c.id,ctx.k,ctx.id);if(rec)restoreAt(ctx.cid,rec);refresh();});return;}
-  if(f.dataset.newfor==='move'){removeFrom(ctx.cid,ctx.k,ctx.id);addTo(c.id,ctx.k,ctx.id);closeSheet();refresh();toast('Déplacé vers « '+c.nom+' »');return;}
+  if(f.dataset.newfor==='add'){const mv=ctx.cid&&isCustom(ctx.cid)&&ctx.cid!==c.id;const rec=mv?removeFrom(ctx.cid,ctx.k,ctx.id):null;addTo(c.id,ctx.k,ctx.id);closeSheet();refresh();toast($t(mv?'Déplacé vers « {c} »':'Ajouté à « {c} »',{c:c.nom}),()=>{removeFrom(c.id,ctx.k,ctx.id);if(rec)restoreAt(ctx.cid,rec);refresh();});return;}
+  if(f.dataset.newfor==='move'){removeFrom(ctx.cid,ctx.k,ctx.id);addTo(c.id,ctx.k,ctx.id);closeSheet();refresh();toast($t('Déplacé vers « {c} »',{c:c.nom}));return;}
   carnetSel=c.id;persist();closeSheet(false,()=>{if(tab!=='carnet'||route)goTab('carnet');else refresh();});toast('Carnet créé. Reste appuyé sur une fiche pour l\'y ajouter.');
 }
 function refresh(){const y=window.scrollY;render();window.scrollTo(0,y);}
@@ -570,63 +599,63 @@ function errMsg(e){
     'auth/account-exists-with-different-credential':'Un compte existe déjà avec cet e-mail, créé d\'une autre façon (Google ou e-mail).',
     'auth/requires-recent-login':'Par sécurité, reconnecte-toi puis recommence.','auth/popup-blocked':'La fenêtre de connexion a été bloquée.',
     'permission-denied':'Accès refusé par le serveur (règles de sécurité).','unavailable':'Serveur injoignable pour le moment.'};
-  if(M[c])return M[c];
-  if(e&&e.message==='off')return 'La connexion n\'est pas encore disponible.';
-  if(navigator.onLine===false)return 'Pas de connexion internet.';
-  return 'Une erreur est survenue'+(c?' ('+c+')':'')+'. Réessaie.';
+  if(M[c])return $t(M[c]);
+  if(e&&e.message==='off')return $t('La connexion n\'est pas encore disponible.');
+  if(navigator.onLine===false)return $t('Pas de connexion internet.');
+  return $t('Une erreur est survenue')+(c?' ('+c+')':'')+'. '+$t('Réessaie.');
 }
-function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<1)return 'à l\'instant';if(m<60)return 'il y a '+m+' min';const h=Math.round(m/60);if(h<24)return 'il y a '+h+' h';return 'le '+new Date(t).toLocaleDateString('fr-FR');}
+function ago(t){const m=Math.round((Date.now()-t)/60000);if(m<1)return $t('à l\'instant');if(m<60)return $t('il y a {n} min',{n:m});const h=Math.round(m/60);if(h<24)return $t('il y a {n} h',{n:h});return $t('le {d}',{d:new Date(t).toLocaleDateString(LOC)});}
 function syncLabel(){
-  if(syncState==='encours')return 'Synchronisation en cours…';
-  if(syncState==='horsligne')return 'Hors ligne : tes changements seront envoyés dès le retour du réseau.';
-  if(syncState==='erreur')return 'La synchronisation a échoué. '+(syncErr||'');
-  const at=+store('ys.sync.at')||0;return at?'Carnets synchronisés '+ago(at)+'.':'';
+  if(syncState==='encours')return $t('Synchronisation en cours…');
+  if(syncState==='horsligne')return $t('Hors ligne : tes changements seront envoyés dès le retour du réseau.');
+  if(syncState==='erreur')return $t('La synchronisation a échoué.')+' '+(syncErr||'');
+  const at=+store('ys.sync.at')||0;return at?$t('Carnets synchronisés {t}.',{t:ago(at)}):'';
 }
 function shownName(){return profil.nom||(user&&user.nom)||'';}
 function avatarHTML(cls){
   const ph=profil.photo||(user&&user.photo)||'',nm=shownName()||(user&&user.email)||'?';
   return ph?`<img class="avatar ${cls||''}" src="${esc(ph)}" alt="" referrerpolicy="no-referrer">`:`<span class="avatar ${cls||''}" aria-hidden="true">${esc(nm.trim().charAt(0).toUpperCase()||'?')}</span>`;
 }
-function accBtnInner(){return user?avatarHTML('sm')+`<span class="acc-n">${esc(shownName()||'Mon compte')}</span>`:'<span class="acc-n">Se connecter</span>';}
+function accBtnInner(){return user?avatarHTML('sm')+`<span class="acc-n">${esc(shownName()||$t('Mon compte'))}</span>`:`<span class="acc-n">${$t('Se connecter')}</span>`;}
 function accCardInner(){
-  return user?`<h2>Ton compte</h2><div class="acc-id">${avatarHTML()}<div><b>${esc(shownName()||'Sans nom')}</b><span>${esc(user.email||'')}</span></div></div><p class="acc-sync ${syncState}">${esc(syncLabel())}</p><button type="button" class="primary" data-account="1">Gérer mon compte</button>`
-    :`<h2>Ton compte</h2><p>Connecte-toi pour retrouver tes carnets, favoris et récents sur un autre téléphone. C'est facultatif.</p><button type="button" class="primary" data-account="1">Se connecter ou créer un compte</button>`;
+  return user?`<h2>${$t('Ton compte')}</h2><div class="acc-id">${avatarHTML()}<div><b>${esc(shownName()||$t('Sans nom'))}</b><span>${esc(user.email||'')}</span></div></div><p class="acc-sync ${syncState}">${esc(syncLabel())}</p><button type="button" class="primary" data-account="1">${$t('Gérer mon compte')}</button>`
+    :`<h2>${$t('Ton compte')}</h2><p>${$t('Connecte-toi pour retrouver tes carnets, favoris et récents sur un autre téléphone. C\'est facultatif.')}</p><button type="button" class="primary" data-account="1">${$t('Se connecter ou créer un compte')}</button>`;
 }
 function accRefresh(){
   if(sheetOpen&&sheetCtx&&sheetCtx.acc&&sheetCtx.mode!=='delete'){
     const f=$('#sheet .acc-form');const typing=f&&!user&&[...f.elements].some(x=>x.value);
     if(!typing)accSheet(sheetCtx.mode);else{const s=$('#sheet .acc-sync');if(s)s.textContent=syncLabel();}
   }
-  const hb=$('#accbtn');if(hb){hb.innerHTML=accBtnInner();hb.setAttribute('aria-label',user?'Ton compte':'Se connecter');}
+  const hb=$('#accbtn');if(hb){hb.innerHTML=accBtnInner();hb.setAttribute('aria-label',$t(user?'Ton compte':'Se connecter'));}
   const ic=$('#acccard');if(ic)ic.innerHTML=accCardInner();
 }
 function accSheet(mode){
   sheetCtx={acc:true,mode:mode||'login'};
   if(user){
-    openSheet('Ton compte','',`<div class="acc-id">${avatarHTML('big')}<div><b>${esc(shownName()||'Sans nom')}</b><span>${esc(user.email||'')}</span></div></div>
+    openSheet('Ton compte','',`<div class="acc-id">${avatarHTML('big')}<div><b>${esc(shownName()||$t('Sans nom'))}</b><span>${esc(user.email||'')}</span></div></div>
 <p class="acc-sync ${syncState}" role="status">${esc(syncLabel())}</p>`+
       rows([{act:'acc:sync',label:'Synchroniser maintenant'}])+
-      `<label class="sheet-row" for="acc-photo"><span>${profil.photo?'Changer ma photo':'Ajouter une photo de profil'}</span><input id="acc-photo" type="file" accept="image/*" hidden></label>`+
+      `<label class="sheet-row" for="acc-photo"><span>${$t(profil.photo?'Changer ma photo':'Ajouter une photo de profil')}</span><input id="acc-photo" type="file" accept="image/*" hidden></label>`+
       (profil.photo?rows([{act:'acc:nophoto',label:'Retirer ma photo'}]):'')+
-      `<form class="sheet-new" data-newfor="nom"><label for="newc">Nom affiché</label><div><input id="newc" type="text" maxlength="40" value="${esc(shownName())}" autocomplete="nickname"><button type="submit" class="primary">Enregistrer</button></div></form>`+
+      `<form class="sheet-new" data-newfor="nom"><label for="newc">${$t('Nom affiché')}</label><div><input id="newc" type="text" maxlength="40" value="${esc(shownName())}" autocomplete="nickname"><button type="submit" class="primary">${$t('Enregistrer')}</button></div></form>`+
       rows([{act:'acc:logout',label:'Se déconnecter'},{act:'acc:delete',label:'Supprimer mon compte',danger:true}]));
     return;
   }
   const su=sheetCtx.mode==='signup';
-  openSheet(su?'Créer un compte':'Se connecter','',`<p class="acc-intro">Retrouve tes carnets, favoris et récents sur un autre téléphone. Le compte est facultatif : sans compte, tout reste sur cet appareil.</p>
-<button type="button" class="prov" data-act="prov:google">Continuer avec Google</button>${FB&&FB.facebook?'<button type="button" class="prov" data-act="prov:facebook">Continuer avec Facebook</button>':''}
-<p class="or"><span>ou avec ton e-mail</span></p>
+  openSheet(su?'Créer un compte':'Se connecter','',`<p class="acc-intro">${$t('Retrouve tes carnets, favoris et récents sur un autre téléphone. Le compte est facultatif : sans compte, tout reste sur cet appareil.')}</p>
+<button type="button" class="prov" data-act="prov:google">${$t('Continuer avec Google')}</button>${FB&&FB.facebook?`<button type="button" class="prov" data-act="prov:facebook">${$t('Continuer avec Facebook')}</button>`:''}
+<p class="or"><span>${$t('ou avec ton e-mail')}</span></p>
 <form class="acc-form" data-mode="${su?'signup':'login'}" novalidate>
-${su?'<label>Prénom ou pseudo<input name="nom" type="text" maxlength="40" autocomplete="nickname"></label>':''}
-<label>E-mail<input name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"></label>
-<label>Mot de passe${su?' (6 caractères minimum)':''}<span class="pw"><input name="mdp" type="password" autocomplete="${su?'new-password':'current-password'}"><button type="button" data-pwtoggle="1" aria-label="Afficher le mot de passe">Afficher</button></span></label>
+${su?`<label>${$t('Prénom ou pseudo')}<input name="nom" type="text" maxlength="40" autocomplete="nickname"></label>`:''}
+<label>${$t('E-mail')}<input name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false"></label>
+<label>${$t('Mot de passe')}${su?' '+$t('(6 caractères minimum)'):''}<span class="pw"><input name="mdp" type="password" autocomplete="${su?'new-password':'current-password'}"><button type="button" data-pwtoggle="1" aria-label="${$t('Afficher le mot de passe')}">${$t('Afficher')}</button></span></label>
 <p class="acc-err" role="alert" hidden></p>
-<button type="submit" class="primary wide">${su?'Créer mon compte':'Se connecter'}</button>
+<button type="submit" class="primary wide">${$t(su?'Créer mon compte':'Se connecter')}</button>
 </form>
-<p class="acc-switch">${su?'Déjà un compte ? <button type="button" class="linkbtn inline" data-act="acc:login">Se connecter</button>':'Pas encore de compte ? <button type="button" class="linkbtn inline" data-act="acc:signup">Créer un compte</button></p><p class="acc-switch"><button type="button" class="linkbtn inline" data-act="acc:reset">Mot de passe oublié ?</button>'}</p>
-<p class="fine">Avec un compte sont enregistrés en ligne : ton e-mail, ton nom, ta photo si tu en mets une, tes carnets, favoris, récents et ton classement. Tes symptômes et tes ingrédients restent sur ce téléphone.</p>`);
+<p class="acc-switch">${su?`${$t('Déjà un compte ?')} <button type="button" class="linkbtn inline" data-act="acc:login">${$t('Se connecter')}</button>`:`${$t('Pas encore de compte ?')} <button type="button" class="linkbtn inline" data-act="acc:signup">${$t('Créer un compte')}</button></p><p class="acc-switch"><button type="button" class="linkbtn inline" data-act="acc:reset">${$t('Mot de passe oublié ?')}</button>`}</p>
+<p class="fine">${$t('Avec un compte sont enregistrés en ligne : ton e-mail, ton nom, ta photo si tu en mets une, tes carnets, favoris, récents et ton classement. Tes symptômes et tes ingrédients restent sur ce téléphone.')}</p>`);
 }
-function accErr(msg){const p=$('#sheet .acc-err');if(p){p.textContent=msg||'';p.hidden=!msg;}else if(msg)toast(msg);}
+function accErr(msg){const p=$('#sheet .acc-err');if(p){p.textContent=$t(msg||'');p.hidden=!msg;}else if(msg)toast(msg);}
 function accBusy(on){document.querySelectorAll('#sheet .prov,#sheet .acc-form [type="submit"]').forEach(b=>{b.disabled=on;});const f=$('#sheet .acc-form');if(f)f.setAttribute('aria-busy',String(on));}
 async function provSignIn(p){
   accErr('');accBusy(true);
@@ -699,15 +728,15 @@ function compat(r,n){
   return Math.max(1,Math.min(100,Math.round(p*100)));
 }
 function force(r){
-  if(r.pct>=70)return['forte','compatibilité forte'];
-  if(r.pct>=45)return['moyenne','compatibilité moyenne'];
-  return['faible','piste possible'];
+  if(r.pct>=70)return['forte',$t('compatibilité forte')];
+  if(r.pct>=45)return['moyenne',$t('compatibilité moyenne')];
+  return['faible',$t('piste possible')];
 }
-function ringHTML(p,cls,big){return `<span class="ring ${cls}${big?' big':''}" role="img" aria-label="Compatible à ${p} %"><svg viewBox="0 0 36 36" aria-hidden="true"><circle class="ring-bg" cx="18" cy="18" r="15.5"></circle><circle class="ring-fg" cx="18" cy="18" r="15.5" pathLength="100" style="--p:${p}"></circle></svg><b aria-hidden="true">${p}<small>%</small></b></span>`;}
+function ringHTML(p,cls,big){return `<span class="ring ${cls}${big?' big':''}" role="img" aria-label="${$t('Compatible à {p} %',{p})}"><svg viewBox="0 0 36 36" aria-hidden="true"><circle class="ring-bg" cx="18" cy="18" r="15.5"></circle><circle class="ring-fg" cx="18" cy="18" r="15.5" pathLength="100" style="--p:${p}"></circle></svg><b aria-hidden="true">${p}<small>%</small></b></span>`;}
 function renderSym(){
   if(symMode==='resultats'&&symSel.size)return renderSymResults();
-  view.innerHTML=`<h1 class="vh">Symptômes</h1><p class="lede">Coche ce que tu ressens, même un peu. L'appli cherche les tableaux de la médecine chinoise qui te ressemblent.</p>
-<div class="tools ac-wrap">${searchBox('sq',symQuery,'Tape les premières lettres : fat, toux, diarr…','Chercher un symptôme')}<div class="ac" id="ac" role="listbox" aria-label="Suggestions" hidden></div></div>
+  view.innerHTML=`<h1 class="vh">${$t('Symptômes')}</h1><p class="lede">${$t('Coche ce que tu ressens, même un peu. L\'appli cherche les tableaux de la médecine chinoise qui te ressemblent.')}</p>
+<div class="tools ac-wrap">${searchBox('sq',symQuery,$t('Tape les premières lettres : fat, toux, diarr…'),$t('Chercher un symptôme'))}<div class="ac" id="ac" role="listbox" aria-label="${$t('Suggestions')}" hidden></div></div>
 <div id="symlist"></div><div class="cta-wrap" id="symcta" hidden></div>`;
   const q=$('#sq'),acb=$('#ac');
   q.addEventListener('input',()=>{symQuery=q.value;renderAC();});
@@ -750,8 +779,8 @@ function renderAC(){
   const f=fold(symQuery).trim();
   const tabs=f.length<3?[]:tableaux.filter(t=>t._rep.some(r=>fold(r).split(/[\s,'’()\-]+/).some(w=>w.startsWith(f))||fold(r).startsWith(f))).slice(0,4);
   let h=list.map(s=>`<button type="button" class="ac-item" role="option" data-acsym="${esc(s.id)}" aria-selected="${symSel.has(s.id)}"><span class="ac-n">${hl(s.nom,symQuery)}</span><span class="ac-c">${esc(catName(s.cat))}</span>${symSel.has(s.id)?'<span class="ac-ok" aria-hidden="true">✓</span>':''}</button>`).join('');
-  if(tabs.length)h+=`<p class="ac-h">Tableaux liés à « ${esc(symQuery.trim())} »</p>`+tabs.map(t=>`<button type="button" class="ac-item ac-tab" data-opent="${esc(t.id)}"><span class="ac-n">${esc(t.nom)}</span><span class="ac-c">${esc(t._rep.find(r=>fold(r).includes(f))||t._label)}</span></button>`).join('');
-  box.innerHTML=h||'<p class="ac-empty">Aucun symptôme ne correspond. Essaie un autre mot.</p>';
+  if(tabs.length)h+=`<p class="ac-h">${esc($t('Tableaux liés à « {q} »',{q:symQuery.trim()}))}</p>`+tabs.map(t=>`<button type="button" class="ac-item ac-tab" data-opent="${esc(t.id)}"><span class="ac-n">${esc(t.nom)}</span><span class="ac-c">${esc(t._rep.find(r=>fold(r).includes(f))||t._label)}</span></button>`).join('');
+  box.innerHTML=h||`<p class="ac-empty">${$t('Aucun symptôme ne correspond. Essaie un autre mot.')}</p>`;
   box.hidden=false;
 }
 function pickSuggestion(id){
@@ -760,7 +789,7 @@ function pickSuggestion(id){
   document.querySelectorAll(`[data-sym="${cssq(id)}"]`).forEach(c=>c.setAttribute('aria-pressed','true'));
   symQuery='';const q=$('#sq');if(q){q.value='';q.focus({preventScroll:true});}
   renderAC();updateCatCounts();renderCTA();
-  toast(was?'Déjà choisi : '+symName(id):'Ajouté : '+symName(id),was?null:()=>{symSel.delete(id);saveSet('ys.symptomes',symSel);document.querySelectorAll(`[data-sym="${cssq(id)}"]`).forEach(c=>c.setAttribute('aria-pressed','false'));updateCatCounts();renderCTA();});
+  toast($t(was?'Déjà choisi : {s}':'Ajouté : {s}',{s:symName(id)}),was?null:()=>{symSel.delete(id);saveSet('ys.symptomes',symSel);document.querySelectorAll(`[data-sym="${cssq(id)}"]`).forEach(c=>c.setAttribute('aria-pressed','false'));updateCatCounts();renderCTA();});
 }
 /* Précautions liées aux diagnostics choisis (cancer, thyroïde, VIH, foie…) : rappelées sur les résultats, les tableaux et les fiches */
 function rappels(){
@@ -769,7 +798,7 @@ function rappels(){
     [...(c?arr(c.rappel):[]),...(s.rappel?[String(s.rappel)]:[])].forEach(r=>{if(!out.includes(r))out.push(r);});});
   return out;
 }
-function rappelHTML(){const r=rappels();return r.length?`<div class="alert rappel" role="note"><h2>Précautions pour toi</h2><ul>${r.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:'';}
+function rappelHTML(){const r=rappels();return r.length?`<div class="alert rappel" role="note"><h2>${$t('Précautions pour toi')}</h2><ul>${r.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:'';}
 function catIds(c){return arr(c.sous).length?[].concat(...c.sous.map(g=>arr(g.liste))):arr(c.liste);}
 function catList(c){const ids=catIds(c);return ids.length?ids.map(id=>SYM[id]).filter(Boolean):Object.values(SYM).filter(s=>s.cat===c.id);}
 function catBody(c){
@@ -813,43 +842,43 @@ function renderCTA(){
   const n=symSel.size;
   if(!n){box.hidden=true;box.innerHTML='';return;}
   const res=matchTableaux(),best=res[0];
-  box.innerHTML=`<div class="cta-bar"><div class="cta-t"><b>${plural(n,'symptôme','symptômes')}</b><span>${best?'Le plus proche : '+esc(best.t.nom)+' ('+best.pct+' %)':'Ajoute d\'autres signes pour affiner'}</span></div><button type="button" class="cta-x" data-clear="sym" aria-label="Effacer tous les symptômes">Effacer</button><button type="button" class="cta" data-mode="resultats">Voir${res.length?' ('+res.length+')':''} <span aria-hidden="true">→</span></button></div>`;
+  box.innerHTML=`<div class="cta-bar"><div class="cta-t"><b>${plural(n,'symptôme','symptômes')}</b><span>${best?$t('Le plus proche : ')+esc(best.t.nom)+' ('+best.pct+' %)':$t('Ajoute d\'autres signes pour affiner')}</span></div><button type="button" class="cta-x" data-clear="sym" aria-label="${$t('Effacer tous les symptômes')}">${$t('Effacer')}</button><button type="button" class="cta" data-mode="resultats">${$t('Voir')}${res.length?' ('+res.length+')':''} <span aria-hidden="true">→</span></button></div>`;
   box.hidden=false;
 }
 function renderSymResults(){
   const sel=[...symSel].filter(s=>SYM[s]);
   const res=matchTableaux();
-  let h=`<div class="bar"><button class="back" type="button" data-mode="choisir"><span aria-hidden="true">‹</span>Modifier</button><span class="kind">${plural(sel.length,'symptôme','symptômes')}</span></div>
-<h1 class="vh" style="margin-top:18px">Tes résultats</h1><p class="hint">Touche un symptôme pour le retirer, ou <button type="button" class="linkbtn inline" data-clear="sym">efface tout</button>.</p>
-<div class="chips small">${sel.map(s=>`<button type="button" class="chip rm" data-sym="${esc(s)}" aria-pressed="true" aria-label="Retirer ${esc(symName(s))}">${esc(symName(s))} <span aria-hidden="true">×</span></button>`).join('')}</div>`;
+  let h=`<div class="bar"><button class="back" type="button" data-mode="choisir"><span aria-hidden="true">‹</span>${$t('Modifier')}</button><span class="kind">${plural(sel.length,'symptôme','symptômes')}</span></div>
+<h1 class="vh" style="margin-top:18px">${$t('Tes résultats')}</h1><p class="hint">${$t('Touche un symptôme pour le retirer, ou')} <button type="button" class="linkbtn inline" data-clear="sym">${$t('efface tout')}</button>.</p>
+<div class="chips small">${sel.map(s=>`<button type="button" class="chip rm" data-sym="${esc(s)}" aria-pressed="true" aria-label="${esc($t('Retirer {s}',{s:symName(s)}))}">${esc(symName(s))} <span aria-hidden="true">×</span></button>`).join('')}</div>`;
   const alerts=sel.filter(s=>SYM[s].alerte);
-  if(alerts.length)h+=`<div class="alert" role="note"><h2>Quand consulter</h2><ul>${alerts.map(s=>`<li><b>${esc(SYM[s].nom)}.</b> ${esc(SYM[s].alerte)}</li>`).join('')}</ul></div>`;
+  if(alerts.length)h+=`<div class="alert" role="note"><h2>${$t('Quand consulter')}</h2><ul>${alerts.map(s=>`<li><b>${esc(SYM[s].nom)}.</b> ${esc(SYM[s].alerte)}</li>`).join('')}</ul></div>`;
   h+=rappelHTML();
   if(!res.length){
-    h+='<p class="msg">Pas encore de tableau qui correspond. Ajoute d\'autres symptômes, ou regarde les tableaux par organe.</p>';
+    h+=`<p class="msg">${$t('Pas encore de tableau qui correspond. Ajoute d\'autres symptômes, ou regarde les tableaux par organe.')}</p>`;
   }else{
     const shown=showAll?res:res.slice(0,5);
     const diag=sel.length===1&&arr(SYM[sel[0]].tab).length;
-    h+=diag?`<h2 class="results-h">${plural(res.length,'tableau souvent rencontré','tableaux souvent rencontrés')} avec ce diagnostic</h2><p class="hint">Ajoute tes autres symptômes pour savoir lequel te ressemble le plus. Touche un signe pour l'ajouter.</p>`
-      :sel.length===1?`<h2 class="results-h">${plural(res.length,'tableau contient','tableaux contiennent')} ce signe</h2><p class="hint">Regarde les autres signes de chaque tableau (en gras, les signes clés) : celui où tu te reconnais le plus est le bon point de départ. Touche un signe pour l'ajouter.</p>`
+    h+=diag?`<h2 class="results-h">${plural(res.length,'tableau souvent rencontré','tableaux souvent rencontrés')} ${$t('avec ce diagnostic')}</h2><p class="hint">${$t('Ajoute tes autres symptômes pour savoir lequel te ressemble le plus. Touche un signe pour l\'ajouter.')}</p>`
+      :sel.length===1?`<h2 class="results-h">${plural(res.length,'tableau contient','tableaux contiennent')} ${$t('ce signe')}</h2><p class="hint">${$t('Regarde les autres signes de chaque tableau (en gras, les signes clés) : celui où tu te reconnais le plus est le bon point de départ. Touche un signe pour l\'ajouter.')}</p>`
       :`<h2 class="results-h">${plural(res.length,'tableau possible','tableaux possibles')}</h2>`;
     h+='<div class="entries">';
     shown.forEach(r=>{
       const [cls,lab]=force(r);
       const missK=r.t._cle.filter(s=>!symSel.has(s)),missO=r.t._autres.filter(s=>!symSel.has(s)&&!/^langue|^enduit|^pointe|^bords/.test(s));
       const miss=[...missK.map(s=>[s,1]),...missO.map(s=>[s,0])].slice(0,Math.max(6,missK.length));
-      const extra=`<span class="match">${ringHTML(r.pct,cls)}<span class="match-t"><b>${r.pct} % compatible</b><span>avec tes symptômes · ${lab}</span></span></span><span class="emiss">Tu as : ${esc(r.m.map(s=>symName(s).toLowerCase()).join(', '))}</span>${r.contra.length?`<span class="emiss">Mais : ${esc(r.contra.map(s=>symName(s).toLowerCase()).join(', '))}</span>`:''}`;
-      h+=`<div class="result">${cardT(r.t,extra,true)}${miss.length?`<div class="verify"><span>As-tu aussi ces signes ?</span><div class="chips small">${miss.map(([s,k])=>`<button type="button" class="chip add${k?' key':''}" data-sym="${esc(s)}" aria-pressed="false">+ ${esc(symName(s))}</button>`).join('')}</div></div>`:''}</div>`;
+      const extra=`<span class="match">${ringHTML(r.pct,cls)}<span class="match-t"><b>${$t('{p} % compatible',{p:r.pct})}</b><span>${$t('avec tes symptômes')} · ${lab}</span></span></span><span class="emiss">${$t('Tu as :')} ${esc(r.m.map(s=>symName(s).toLowerCase()).join(', '))}</span>${r.contra.length?`<span class="emiss">${$t('Mais :')} ${esc(r.contra.map(s=>symName(s).toLowerCase()).join(', '))}</span>`:''}`;
+      h+=`<div class="result">${cardT(r.t,extra,true)}${miss.length?`<div class="verify"><span>${$t('As-tu aussi ces signes ?')}</span><div class="chips small">${miss.map(([s,k])=>`<button type="button" class="chip add${k?' key':''}" data-sym="${esc(s)}" aria-pressed="false">+ ${esc(symName(s))}</button>`).join('')}</div></div>`:''}</div>`;
     });
     h+='</div>';
-    if(res.length>5&&!showAll)h+=`<button type="button" class="ghost wide" data-more="1">Voir les ${res.length-5} autres</button>`;
+    if(res.length>5&&!showAll)h+=`<button type="button" class="ghost wide" data-more="1">${$t('Voir les {n} autres',{n:res.length-5})}</button>`;
     const recs=[],prots=[];
     res.slice(0,3).forEach(r=>{arr(r.t.recettes).forEach(id=>{const e=fiche(id);if(e&&!recs.includes(e))recs.push(e);});arr(r.t.fiches).forEach(id=>{const e=fiche(id);if(e&&!prots.includes(e))prots.push(e);});});
     fiches.filter(e=>e.type==='protocole'&&e._sym.some(s=>symSel.has(s))).forEach(e=>{if(!prots.includes(e))prots.push(e);});
-    if(recs.length)h+=`<h2 class="results-h">Recettes adaptées</h2><div class="entries">${recs.slice(0,6).map(e=>cardF(e)).join('')}</div>`;
-    if(prots.length)h+=`<h2 class="results-h">Protocoles complets</h2><div class="entries">${prots.map(e=>cardF(e)).join('')}</div>`;
+    if(recs.length)h+=`<h2 class="results-h">${$t('Recettes adaptées')}</h2><div class="entries">${recs.slice(0,6).map(e=>cardF(e)).join('')}</div>`;
+    if(prots.length)h+=`<h2 class="results-h">${$t('Protocoles complets')}</h2><div class="entries">${prots.map(e=>cardF(e)).join('')}</div>`;
   }
-  h+='<p class="fine">Ces correspondances orientent ta pratique de bien-être selon la médecine traditionnelle chinoise. Elles ne sont pas un diagnostic et ne remplacent pas un avis médical.</p>';
+  h+=`<p class="fine">${$t('Ces correspondances orientent ta pratique de bien-être selon la médecine traditionnelle chinoise. Elles ne sont pas un diagnostic et ne remplacent pas un avis médical.')}</p>`;
   view.innerHTML=h;
 }
 function toggleSym(id,anchor){
@@ -871,9 +900,9 @@ function toggleSym(id,anchor){
 function groupsWith(){return ORGS.map(o=>({o,list:tableaux.filter(t=>t._groups.includes(o.id))})).filter(g=>g.list.length);}
 function renderTableaux(){
   const gs=groupsWith();
-  view.innerHTML=`<h1 class="vh">Tableaux</h1><p class="lede">Les tableaux de la médecine chinoise, organe par organe, avec leurs signes, leurs points et leurs recettes.</p>
-<div class="tools">${searchBox('tq',tabQuery,'Chercher un tableau, un organe','Chercher un tableau')}</div>
-<nav class="jump" aria-label="Aller à un organe">${gs.map(g=>`<button type="button" class="jump-b" data-jump="${esc(g.o.id)}"><span lang="zh-Hans">${esc(g.o.zh||'')}</span>${esc(g.o.nom)}</button>`).join('')}</nav>
+  view.innerHTML=`<h1 class="vh">${$t('Tableaux')}</h1><p class="lede">${$t('Les tableaux de la médecine chinoise, organe par organe, avec leurs signes, leurs points et leurs recettes.')}</p>
+<div class="tools">${searchBox('tq',tabQuery,$t('Chercher un tableau, un organe'),$t('Chercher un tableau'))}</div>
+<nav class="jump" aria-label="${$t('Aller à un organe')}">${gs.map(g=>`<button type="button" class="jump-b" data-jump="${esc(g.o.id)}"><span lang="zh-Hans">${esc(g.o.zh||'')}</span>${esc(g.o.nom)}</button>`).join('')}</nav>
 <div id="tablist"></div>`;
   const q=$('#tq');q.addEventListener('input',()=>{tabQuery=q.value;renderTabList();});
   renderTabList();
@@ -885,9 +914,9 @@ function renderTabList(){
     list=list.filter(t=>matchQ(t._hay,tabQuery)&&(!tabQuery.trim()||t.organe===o.id));
     if(!list.length)return;n+=list.length;
     const also=tabQuery.trim()||o.id==='combines'?[]:tableaux.filter(t=>t.organe==='combines'&&String(t.etiquette||'').split(' · ').includes(o.nom));
-    h+=`<section class="grp" id="grp-${esc(o.id)}"><h2 class="org"><span class="org-zh" lang="zh-Hans">${esc(o.zh||'')}</span><span>${esc(o.nom)}${o.sous?`<small>${esc(o.sous)}</small>`:''}</span><span class="org-n">${list.length}</span></h2><div class="entries">${list.map(t=>cardT(t)).join('')}</div>${also.length?`<div class="also"><span>Avec un autre organe</span>${also.map(t=>`<button type="button" class="also-b" data-opent="${esc(t.id)}"><b>${esc(t.etiquette)}</b> ${esc(t.nom)}</button>`).join('')}</div>`:''}</section>`;
+    h+=`<section class="grp" id="grp-${esc(o.id)}"><h2 class="org"><span class="org-zh" lang="zh-Hans">${esc(o.zh||'')}</span><span>${esc(o.nom)}${o.sous?`<small>${esc(o.sous)}</small>`:''}</span><span class="org-n">${list.length}</span></h2><div class="entries">${list.map(t=>cardT(t)).join('')}</div>${also.length?`<div class="also"><span>${$t('Avec un autre organe')}</span>${also.map(t=>`<button type="button" class="also-b" data-opent="${esc(t.id)}"><b>${esc(t.etiquette)}</b> ${esc(t.nom)}</button>`).join('')}</div>`:''}</section>`;
   });
-  box.innerHTML=n?h:`<p class="msg">Aucun tableau ne correspond à « ${esc(tabQuery.trim())} ».</p>`;
+  box.innerHTML=n?h:`<p class="msg">${esc($t('Aucun tableau ne correspond à « {q} ».',{q:tabQuery.trim()}))}</p>`;
   const nav=view.querySelector('.jump');if(nav)nav.hidden=!!tabQuery.trim();
 }
 function signChips(list,key){
@@ -896,32 +925,32 @@ function signChips(list,key){
 function renderTableauDetail(t){
   const n=[...t._cle,...t._autres,...t._lies].filter(s=>symSel.has(s)).length;
   const me=n?matchTableaux().find(x=>x.t===t):null;let compatH='';
-  if(me){const [cls,lab]=force(me);compatH=`<div class="compat">${ringHTML(me.pct,cls,true)}<div><b>Compatible à ${me.pct} % avec tes symptômes</b><span>${esc(lab.charAt(0).toUpperCase()+lab.slice(1))} · ${symSel.size===1?'ton signe s\'y retrouve':me.m.length+' de tes '+symSel.size+' signes s\'y retrouve'+(me.m.length>1?'nt':'')}</span></div></div>`;}
+  if(me){const [cls,lab]=force(me);compatH=`<div class="compat">${ringHTML(me.pct,cls,true)}<div><b>${$t('Compatible à {p} % avec tes symptômes',{p:me.pct})}</b><span>${esc(lab.charAt(0).toUpperCase()+lab.slice(1))} · ${symSel.size===1?$t('ton signe s\'y retrouve'):$t(me.m.length>1?'{m} de tes {n} signes s\'y retrouvent':'{m} de tes {n} signes s\'y retrouve',{m:me.m.length,n:symSel.size})}</span></div></div>`;}
   let h=`<div class="fiche tableau">${barHTML('t',t.id,t._label)}
 <header class="dhead"><p class="eyebrow">${esc(t._label)}</p><h1 class="dtitle">${esc(t.nom)}</h1>
-${t.simple?`<p class="dsimple">${esc(t.simple)}</p>`:''}${t._rep.length?`<p class="dreps"><b>Souvent :</b>${t._rep.map(r=>`<span>${esc(r)}</span>`).join('')}</p><p class="dnote">Repères pour s'orienter : un tableau de médecine chinoise n'est pas un diagnostic médical.</p>`:''}
+${t.simple?`<p class="dsimple">${esc(t.simple)}</p>`:''}${t._rep.length?`<p class="dreps"><b>${$t('Souvent :')}</b>${t._rep.map(r=>`<span>${esc(r)}</span>`).join('')}</p><p class="dnote">${$t('Repères pour s\'orienter : un tableau de médecine chinoise n\'est pas un diagnostic médical.')}</p>`:''}
 ${compatH}<p class="sub"><span lang="zh-Hans">${esc(t.zh||'')}</span>${t.py?` · ${esc(t.py)}`:''}</p>
 ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
-  if(t.consulter)h+=`<div class="alert" role="note"><h2>Avis médical</h2><p>${esc(t.consulter)}</p></div>`;
+  if(t.consulter)h+=`<div class="alert" role="note"><h2>${$t('Avis médical')}</h2><p>${esc(t.consulter)}</p></div>`;
   h+=rappelHTML();
-  if(arr(t.causes).length)h+=`<h2 class="sec">Causes fréquentes</h2><ul class="bullets">${t.causes.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
-  if(t.mecanisme)h+=`<h2 class="sec">Ce qui se passe</h2><p class="prose">${esc(t.mecanisme)}</p>`;
-  h+=`<h2 class="sec">Signes${n?` <span class="sec-n">${n} chez toi</span>`:''}</h2><p class="hint">Les signes clés sont en gras. Touche un signe pour l'ajouter à tes symptômes.</p><div class="chips">${signChips(t._cle,true)}${signChips(t._autres,false)}</div>`;
-  if(t._lies.length)h+=`<p class="hint lies-h">Tableau souvent rencontré avec ces diagnostics médicaux, en plus de leur traitement :</p><div class="chips lies">${signChips(t._lies,false)}</div>`;
-  h+=`<dl class="kv tongue">${t.langue?`<dt>Langue</dt><dd>${esc(t.langue)}</dd>`:''}${t.pouls?`<dt>Pouls</dt><dd>${esc(t.pouls)}</dd>`:''}</dl>`;
+  if(arr(t.causes).length)h+=`<h2 class="sec">${$t('Causes fréquentes')}</h2><ul class="bullets">${t.causes.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
+  if(t.mecanisme)h+=`<h2 class="sec">${$t('Ce qui se passe')}</h2><p class="prose">${esc(t.mecanisme)}</p>`;
+  h+=`<h2 class="sec">${$t('Signes')}${n?` <span class="sec-n">${$t('{n} chez toi',{n})}</span>`:''}</h2><p class="hint">${$t('Les signes clés sont en gras. Touche un signe pour l\'ajouter à tes symptômes.')}</p><div class="chips">${signChips(t._cle,true)}${signChips(t._autres,false)}</div>`;
+  if(t._lies.length)h+=`<p class="hint lies-h">${$t('Tableau souvent rencontré avec ces diagnostics médicaux, en plus de leur traitement :')}</p><div class="chips lies">${signChips(t._lies,false)}</div>`;
+  h+=`<dl class="kv tongue">${t.langue?`<dt>${$t('Langue')}</dt><dd>${esc(t.langue)}</dd>`:''}${t.pouls?`<dt>${$t('Pouls')}</dt><dd>${esc(t.pouls)}</dd>`:''}</dl>`;
   h+=prinHTML(t);
   if(t._items.length){
-    h+='<h2 class="sec">Points d\'auto-massage</h2>';
+    h+=`<h2 class="sec">${$t('Points d\'auto-massage')}</h2>`;
     if(t.moxa)h+=`<p class="hint">${esc(t.moxa)}</p>`;
     h+=protoHTML(t);
   }
   const recs=arr(t.recettes).map(fiche).filter(Boolean);
-  if(recs.length)h+=`<h2 class="sec">Recettes adaptées</h2><div class="entries">${recs.map(e=>cardF(e)).join('')}</div>`;
+  if(recs.length)h+=`<h2 class="sec">${$t('Recettes adaptées')}</h2><div class="entries">${recs.map(e=>cardF(e)).join('')}</div>`;
   const prots=arr(t.fiches).map(fiche).filter(Boolean);
-  if(prots.length)h+=`<h2 class="sec">Protocole complet</h2><div class="entries">${prots.map(e=>cardF(e)).join('')}</div>`;
-  if(t.privilegier||t.eviter)h+=`<h2 class="sec">Alimentation et hygiène de vie</h2><div class="dual">${t.privilegier?`<div class="card good"><h3>À privilégier</h3><p>${esc(t.privilegier)}</p></div>`:''}${t.eviter?`<div class="card bad"><h3>À éviter</h3><p>${esc(t.eviter)}</p></div>`:''}</div>`;
-  if(arr(t.conseils).length)h+=`<h2 class="sec">Conseils</h2><ul class="bullets">${t.conseils.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
-  h+='<p class="fine">Ce tableau décrit un déséquilibre selon la médecine traditionnelle chinoise. Il ne remplace pas un avis médical.</p></div>';
+  if(prots.length)h+=`<h2 class="sec">${$t('Protocole complet')}</h2><div class="entries">${prots.map(e=>cardF(e)).join('')}</div>`;
+  if(t.privilegier||t.eviter)h+=`<h2 class="sec">${$t('Alimentation et hygiène de vie')}</h2><div class="dual">${t.privilegier?`<div class="card good"><h3>${$t('À privilégier')}</h3><p>${esc(t.privilegier)}</p></div>`:''}${t.eviter?`<div class="card bad"><h3>${$t('À éviter')}</h3><p>${esc(t.eviter)}</p></div>`:''}</div>`;
+  if(arr(t.conseils).length)h+=`<h2 class="sec">${$t('Conseils')}</h2><ul class="bullets">${t.conseils.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`;
+  h+=`<p class="fine">${$t('Ce tableau décrit un déséquilibre selon la médecine traditionnelle chinoise. Il ne remplace pas un avis médical.')}</p></div>`;
   view.innerHTML=h;
   afterDetail(t);
 }
@@ -929,19 +958,19 @@ ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
 /* ---------- Cuisine ---------- */
 function renderCuisine(){
   const recs=fiches.filter(e=>e.type==='recette');
-  let h=`<h1 class="vh">Cuisine</h1><p class="lede">Diététique chinoise au quotidien : à la casserole, au cuiseur, à la cocotte ou au four.</p>
-<details class="cat pick" data-cat="_ing"${ingOpen?' open':''}><summary><span>J'ai dans ma cuisine…</span>${have.size?`<span class="cat-n">${have.size}</span>`:''}</summary>
+  let h=`<h1 class="vh">${$t('Cuisine')}</h1><p class="lede">${$t('Diététique chinoise au quotidien : à la casserole, au cuiseur, à la cocotte ou au four.')}</p>
+<details class="cat pick" data-cat="_ing"${ingOpen?' open':''}><summary><span>${$t('J\'ai dans ma cuisine…')}</span>${have.size?`<span class="cat-n">${have.size}</span>`:''}</summary>
 ${INGCATS.map(c=>{const list=Object.values(INGC).filter(i=>i.cat===c.id);return list.length?`<p class="subcat">${esc(c.nom)}</p><div class="chips och">${list.map(i=>`<button type="button" class="chip" data-ing="${esc(i.id)}" aria-pressed="${have.has(i.id)}">${esc(i.nom)}</button>`).join('')}</div>`:'';}).join('')}
-${have.size?'<button type="button" class="linkbtn" data-clear="ing">Tout décocher</button>':''}
-<p class="fine">L'eau, le sel, l'huile, la sauce soja et le sucre sont comptés d'office.</p></details>
+${have.size?`<button type="button" class="linkbtn" data-clear="ing">${$t('Tout décocher')}</button>`:''}
+<p class="fine">${$t('L\'eau, le sel, l\'huile, la sauce soja et le sucre sont comptés d\'office.')}</p></details>
 <div id="cuisres"></div>`;
-  h+='<h2 class="results-h">Toutes les recettes</h2>';
+  h+=`<h2 class="results-h">${$t('Toutes les recettes')}</h2>`;
   AXES.forEach(a=>{
     const list=recs.filter(e=>e.axe===a.id);if(!list.length)return;
     h+=`<h3 class="axe"><span class="org-zh" lang="zh-Hans">${esc(a.zh||'')}</span>${esc(a.nom)}<span class="org-n">${list.length}</span></h3><div class="entries">${list.map(e=>cardF(e)).join('')}</div>`;
   });
   const other=recs.filter(e=>!AXES.some(a=>a.id===e.axe));
-  if(other.length)h+=`<h3 class="axe">Autres</h3><div class="entries">${other.map(e=>cardF(e)).join('')}</div>`;
+  if(other.length)h+=`<h3 class="axe">${$t('Autres')}</h3><div class="entries">${other.map(e=>cardF(e)).join('')}</div>`;
   view.innerHTML=h;
   const d=view.querySelector('details.pick');
   if(d)d.addEventListener('toggle',()=>{ingOpen=d.open;});
@@ -952,10 +981,10 @@ function renderCuisRes(){
   const recs=fiches.filter(e=>e.type==='recette');
   if(!have.size){box.innerHTML='';return;}
   const m=recs.map(e=>({e,got:e._keys.filter(k=>have.has(k))})).filter(r=>r.got.length).sort((a,b)=>(b.got.length/b.e._keys.length)-(a.got.length/a.e._keys.length)||b.got.length-a.got.length);
-  let h=`<h2 class="results-h">${m.length?'Avec tes ingrédients':'Aucune recette avec ces ingrédients'}</h2>`;
+  let h=`<h2 class="results-h">${$t(m.length?'Avec tes ingrédients':'Aucune recette avec ces ingrédients')}</h2>`;
   if(m.length)h+='<div class="entries">'+m.slice(0,8).map(r=>{
     const miss=r.e._keys.filter(k=>!have.has(k)).map(k=>(INGC[k]?INGC[k].nom:k).toLowerCase());
-    return cardF(r.e,`<span class="ematch">Tu as ${r.got.length} ingrédient${r.got.length>1?'s':''} sur ${r.e._keys.length}</span><span class="emiss">${miss.length?'Il manque : '+esc(miss.join(', ')):'Tu as tout ce qu\'il faut'}</span>`);
+    return cardF(r.e,`<span class="ematch">${$t(r.got.length>1?'Tu as {a} ingrédients sur {b}':'Tu as {a} ingrédient sur {b}',{a:r.got.length,b:r.e._keys.length})}</span><span class="emiss">${miss.length?$t('Il manque : ')+esc(miss.join(', ')):$t('Tu as tout ce qu\'il faut')}</span>`);
   }).join('')+'</div>';
   box.innerHTML=h;
 }
@@ -977,12 +1006,12 @@ function collCount(cid){
 function renderCarnet(){
   if(carnetSel!=='tout'&&!coll(carnetSel))carnetSel='tout';
   const custom=isCustom(carnetSel);
-  let h=`${FB?`<div class="accrow"><button type="button" class="accbtn" id="accbtn" data-account="1" aria-label="${user?'Ton compte':'Se connecter'}">${accBtnInner()}</button></div>`:''}<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">Reste appuyé sur une fiche pour la ranger ou la glisser dans un carnet, et sur un onglet pour le déplacer.</p></div></header>
-<nav class="colls" aria-label="Carnets">${orderedColls().map(([id,n])=>`<button type="button" class="coll${id===carnetSel?' on':''}" data-coll-sel="${esc(id)}" data-lpc="${esc(id)}" aria-pressed="${id===carnetSel}">${esc(n)}<span class="n">${collCount(id)}</span></button>`).join('')}<button type="button" class="coll add" data-newcarnet="1">+ Nouveau carnet</button>${carnets.length?'<button type="button" class="coll add" data-manage="1">Gérer</button>':''}</nav>
-<div class="tools"><div class="coll-h"><h2>${esc(collName(carnetSel))}</h2><span class="coll-a">${selMode?'':'<button type="button" class="ghost" data-selstart="1">Sélectionner</button>'}${custom?`<button type="button" class="ghost" data-cmenu="${esc(carnetSel)}" aria-label="Options du carnet">Options</button>`:''}</span></div>`;
-  if(carnetSel==='tout')h+=`<div class="seg segf" role="group" aria-label="Afficher"><button type="button" data-f="tout">Tout <span class="n"></span></button><button type="button" data-f="protocole">Protocoles <span class="n"></span></button><button type="button" data-f="recette">Recettes <span class="n"></span></button></div>
-<div class="trirow"><span id="tri-l">Classement</span><div class="seg segt" role="group" aria-labelledby="tri-l"><button type="button" data-tri="date">Par date</button><button type="button" data-tri="perso">Mon ordre</button></div></div>`;
-  h+=`${searchBox('q',query,'Chercher un plat, un symptôme','Chercher dans le carnet')}</div><div id="timeline" aria-live="polite"></div>`;
+  let h=`${FB?`<div class="accrow"><button type="button" class="accbtn" id="accbtn" data-account="1" aria-label="${$t(user?'Ton compte':'Se connecter')}">${accBtnInner()}</button></div>`:''}<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">${$t('Reste appuyé sur une fiche pour la ranger ou la glisser dans un carnet, et sur un onglet pour le déplacer.')}</p></div></header>
+<nav class="colls" aria-label="${$t('Carnets')}">${orderedColls().map(([id,n])=>`<button type="button" class="coll${id===carnetSel?' on':''}" data-coll-sel="${esc(id)}" data-lpc="${esc(id)}" aria-pressed="${id===carnetSel}">${esc(n)}<span class="n">${collCount(id)}</span></button>`).join('')}<button type="button" class="coll add" data-newcarnet="1">+ ${$t('Nouveau carnet')}</button>${carnets.length?`<button type="button" class="coll add" data-manage="1">${$t('Gérer')}</button>`:''}</nav>
+<div class="tools"><div class="coll-h"><h2>${esc(collName(carnetSel))}</h2><span class="coll-a">${selMode?'':`<button type="button" class="ghost" data-selstart="1">${$t('Sélectionner')}</button>`}${custom?`<button type="button" class="ghost" data-cmenu="${esc(carnetSel)}" aria-label="${$t('Options du carnet')}">${$t('Options')}</button>`:''}</span></div>`;
+  if(carnetSel==='tout')h+=`<div class="seg segf" role="group" aria-label="${$t('Afficher')}"><button type="button" data-f="tout">${$t('Tout')} <span class="n"></span></button><button type="button" data-f="protocole">${$t('Protocoles')} <span class="n"></span></button><button type="button" data-f="recette">${$t('Recettes')} <span class="n"></span></button></div>
+<div class="trirow"><span id="tri-l">${$t('Classement')}</span><div class="seg segt" role="group" aria-labelledby="tri-l"><button type="button" data-tri="date">${$t('Par date')}</button><button type="button" data-tri="perso">${$t('Mon ordre')}</button></div></div>`;
+  h+=`${searchBox('q',query,$t('Chercher un plat, un symptôme'),$t('Chercher dans le carnet'))}</div><div id="timeline" aria-live="polite"></div>`;
   view.innerHTML=h;
   const q=$('#q');q.addEventListener('input',()=>{query=q.value;renderTimeline();});
   renderTimeline();
@@ -999,15 +1028,15 @@ function renderTimeline(){
     const byKey={};fiches.forEach(e=>{byKey['f:'+e.id]=e;});
     const rowsList=toutKeys().map(k=>byKey[k]).filter(e=>e&&!isHidden('f',e.id)&&(filter==='tout'||e.type===filter)&&matchQ(e._hay,query));
     let h='';
-    if(!rowsList.length)h=`<p class="msg">Aucune fiche ne correspond${query.trim()?` à « ${esc(query.trim())} »`:''}.</p>`;
+    if(!rowsList.length)h=`<p class="msg">${query.trim()?esc($t('Aucune fiche ne correspond à « {q} ».',{q:query.trim()})):$t('Aucune fiche ne correspond.')}</p>`;
     else{
-      if(rowsList.length>1&&!selMode)h+=`<p class="hint">${toutTri==='perso'?'Dans ton ordre. Reste appuyé puis fais glisser une fiche pour la déplacer.':'Classées par date. Reste appuyé puis fais glisser une fiche pour la placer où tu veux.'}</p>`;
+      if(rowsList.length>1&&!selMode)h+=`<p class="hint">${$t(toutTri==='perso'?'Dans ton ordre. Reste appuyé puis fais glisser une fiche pour la déplacer.':'Classées par date. Reste appuyé puis fais glisser une fiche pour la placer où tu veux.')}</p>`;
       if(toutTri==='perso')h+=`<div class="entries" data-coll="tout" data-sort="tout">${rowsList.map(e=>cardF(e)).join('')}</div>`;
       else{
         let month='',day=null;const close=()=>{if(day!==null)h+='</div></section>';};
         rowsList.forEach(e=>{
           const d=e._d,mk=d?d.getFullYear()+'-'+d.getMonth():'?',dk=e.date||'?';
-          if(mk!==month){close();day=null;month=mk;h+=`<h2 class="month">${d?MOIS[d.getMonth()]+' '+d.getFullYear():'Sans date'}</h2>`;}
+          if(mk!==month){close();day=null;month=mk;h+=`<h2 class="month">${d?MOIS[d.getMonth()]+' '+d.getFullYear():$t('Sans date')}</h2>`;}
           if(dk!==day){close();day=dk;h+=`<section class="day" aria-label="${esc(longDate(d))}"><div class="date" aria-hidden="true"><span class="d">${d?d.getDate():'–'}</span><span class="w">${d?JOURS_C[d.getDay()]:''}</span></div><div class="entries" data-coll="tout">`;}
           h+=cardF(e);
         });
@@ -1020,15 +1049,15 @@ function renderTimeline(){
   }
   const it=(coll(carnetSel)||[]).map(x=>({x,e:item(x.k,x.id)})).filter(r=>r.e);
   if(!it.length){
-    box.innerHTML=carnetSel==='favoris'?'<p class="msg">Pas encore de favori. Touche l\'étoile d\'une fiche, ou reste appuyé dessus et choisis « Ajouter aux favoris ».</p>':
-      carnetSel==='recents'?'<p class="msg">Les fiches et tableaux que tu ouvres apparaîtront ici.</p>':
-      '<p class="msg">Ce carnet est vide. Reste appuyé sur une fiche ou un tableau, n\'importe où dans l\'appli, et choisis « Ajouter à un carnet ». Depuis tes autres carnets, tu peux aussi la faire glisser vers celui-ci en haut de l\'écran.</p>';
+    box.innerHTML='<p class="msg">'+$t(carnetSel==='favoris'?'Pas encore de favori. Touche l\'étoile d\'une fiche, ou reste appuyé dessus et choisis « Ajouter aux favoris ».':
+      carnetSel==='recents'?'Les fiches et tableaux que tu ouvres apparaîtront ici.':
+      'Ce carnet est vide. Reste appuyé sur une fiche ou un tableau, n\'importe où dans l\'appli, et choisis « Ajouter à un carnet ». Depuis tes autres carnets, tu peux aussi la faire glisser vers celui-ci en haut de l\'écran.')+'</p>';
     box.classList.remove('selecting');return;
   }
   const shown=it.filter(r=>matchQ(r.e._hay,query));
-  if(!shown.length){box.innerHTML=`<p class="msg">Aucune fiche ne correspond à « ${esc(query.trim())} ».</p>`;decorateSel(box);return;}
+  if(!shown.length){box.innerHTML=`<p class="msg">${esc($t('Aucune fiche ne correspond à « {q} ».',{q:query.trim()}))}</p>`;decorateSel(box);return;}
   const sortable=true;
-  const hint=selMode||shown.length<2?'':carnetSel==='recents'?'Reste appuyé puis fais glisser une fiche pour changer sa place, ou vers un carnet en haut de l\'écran. Une fiche que tu rouvres remonte en tête.':'Reste appuyé puis fais glisser une fiche pour la placer où tu veux, ou vers un autre carnet en haut de l\'écran.';
+  const hint=selMode||shown.length<2?'':$t(carnetSel==='recents'?'Reste appuyé puis fais glisser une fiche pour changer sa place, ou vers un carnet en haut de l\'écran. Une fiche que tu rouvres remonte en tête.':'Reste appuyé puis fais glisser une fiche pour la placer où tu veux, ou vers un autre carnet en haut de l\'écran.');
   box.innerHTML=`${hint?`<p class="hint">${hint}</p>`:''}<div class="entries${sortable?' sortable':''}" data-coll="${esc(carnetSel)}"${sortable?` data-sort="${esc(carnetSel)}"`:''}>${shown.map(r=>card(r.e)).join('')}</div>`;
   decorateSel(box);
 }
@@ -1053,32 +1082,77 @@ const LEXIQUE=[
  ['Shen','L\'esprit, qui loge dans le Cœur : sommeil, mémoire, humeur.'],
  ['Jing','L\'essence profonde, stockée dans le Rein : croissance, vitalité, vieillissement.']
 ];
+function segHTML(name,cur,opts,label,cols){
+  return `<div class="seg" role="group" aria-label="${esc(label)}" style="grid-template-columns:${cols||`repeat(${opts.length},minmax(0,1fr))`}">${opts.map(([v,l,lang])=>`<button type="button" data-set="${name}:${esc(v)}" aria-pressed="${String(cur)===String(v)}"${lang?` lang="${lang}"`:''}>${esc(l)}</button>`).join('')}</div>`;
+}
+function swHTML(name,on,title,sub){
+  return `<button type="button" class="switch" ${name==='auto'?'data-auto="1"':`data-pref="${name}"`} aria-pressed="${!!on}"><span class="sw" aria-hidden="true"></span><span><b>${esc(title)}</b><small>${esc(sub)}</small></span></button>`;
+}
+function settingsHTML(){
+  return `<h2 class="sec" id="reglages">${$t('Paramètres')}</h2><section class="card set">
+<h3 class="set-h">${$t('Affichage')}</h3>
+<p class="set-l">${$t('Apparence')}</p>${segHTML('theme',PREF.theme,[['auto',$t('Automatique')],['light',$t('Clair')],['dark',$t('Sombre')]],$t('Apparence'))}
+<p class="set-l">${$t('Langue de l\'appli')}</p>${segHTML('lang',LANG,[['fr','Français','fr'],['en','English','en']],$t('Langue de l\'appli'))}
+<p class="set-l">${$t('Taille du texte')}</p>${segHTML('fs',PREF.fs,[['n',$t('Normale')],['l',$t('Grande')],['xl',$t('Très grande')]],$t('Taille du texte'))}
+${swHTML('intro',PREF.intro,$t('Animation d\'ouverture'),$t('Le yin-yang qui se dessine au lancement de l\'appli'))}
+<h3 class="set-h">${$t('Minuteurs')}</h3>
+${swHTML('son',PREF.son,$t('Son'),$t('Une sonnerie à la fin de chaque côté, de chaque point et de chaque étape'))}
+${swHTML('vib',PREF.vib,$t('Vibration'),$t('Le téléphone vibre avec la sonnerie et à l\'appui long'))}
+${swHTML('ecran',PREF.ecran,$t('Garder l\'écran allumé'),$t('Tant qu\'un minuteur tourne'))}
+${swHTML('auto',auto,$t('Enchaîner automatiquement'),$t('Lance le côté ou le point suivant 5 s après la sonnerie'))}
+<h3 class="set-h">${$t('Cuisine')}</h3>
+<p class="set-l">${$t('Appareil préféré')}</p>${segHTML('var',varPref,[['casserole',$t('Casserole')],['cuiseur',$t('Cuiseur à riz')],['cocotte',$t('Cocotte-minute')]],$t('Appareil préféré'))}
+<p class="set-hint">${$t('Les recettes s\'ouvrent sur cet appareil quand elles le proposent.')}</p>
+<p class="set-l">${$t('Portions par défaut')}</p>${segHTML('portions',PREF.portions,[[0,$t('Comme la recette')],[1,'1'],[2,'2'],[4,'4']],$t('Portions par défaut'),'minmax(0,2.4fr) repeat(3,minmax(0,1fr))')}
+</section>`;
+}
+function setSetting(k,v,b){
+  if(k==='lang'){
+    if(v===LANG||b.disabled)return;
+    const go=()=>{store('ys.langue',v);try{sessionStorage.setItem('ys.apres','reglages');}catch(e){}location.reload();};
+    if(window.YS_DATA){go();return;}
+    b.disabled=true;
+    fetch(v==='en'?'data-en.json':'data.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw new Error();return r.json();}).then(go)
+      .catch(()=>{b.disabled=false;toast('Il faut une connexion internet pour changer de langue.');});
+    return;
+  }
+  if(k==='theme'||k==='fs'){setPref(k,v);applyLook();}
+  else if(k==='var'){varPref=v;store('ys.variante',v);}
+  else if(k==='portions'){setPref(k,+v||0);}
+  b.parentNode.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+}
 function renderInfos(){
   const nP=fiches.filter(e=>e.type==='protocole').length,nR=fiches.length-nP,nSup=masques.filter(m=>item(m.k,m.id)).length;
   let inst;
-  if(standalone)inst='<p>L\'appli est installée sur ce téléphone.</p>';
-  else if(installEvt)inst='<p>Ajoute Carnet Yang Sheng à tes applis pour l\'ouvrir d\'un appui, même sans connexion.</p><button type="button" class="primary" data-install="1">Installer l\'appli</button>';
-  else inst='<p>Dans Chrome, ouvre le menu ⋮ en haut à droite, puis choisis « Installer l\'application » ou « Ajouter à l\'écran d\'accueil ».</p>';
-  const acc=(list,g)=>`<div class="accwrap" data-acc="${g}">`+list.map(([t,p],i)=>`<details class="cat" data-cat="${g}${i}"><summary><span>${esc(t)}</span></summary><p class="prose">${esc(p)}</p></details>`).join('')+'</div>';
-  view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">Version ${esc(DATA.version||'')}</p></div></header>
+  if(standalone)inst=`<p>${$t('L\'appli est installée sur ce téléphone.')}</p>`;
+  else if(installEvt)inst=`<p>${$t('Ajoute Carnet Yang Sheng à tes applis pour l\'ouvrir d\'un appui, même sans connexion.')}</p><button type="button" class="primary" data-install="1">${$t('Installer l\'appli')}</button>`;
+  else inst=`<p>${$t('Dans Chrome, ouvre le menu ⋮ en haut à droite, puis choisis « Installer l\'application » ou « Ajouter à l\'écran d\'accueil ».')}</p>`;
+  const acc=(list,g)=>`<div class="accwrap" data-acc="${g}">`+list.map(([t,p],i)=>`<details class="cat" data-cat="${g}${i}"><summary><span>${esc($t(t))}</span></summary><p class="prose">${esc($t(p))}</p></details>`).join('')+'</div>';
+  const acts=[
+    nSup?`<button type="button" class="ghost" data-unhide="1">${$t(nSup>1?'Remettre les {n} fiches supprimées':'Remettre la fiche supprimée',{n:nSup})}</button>`:'',
+    symSel.size?`<button type="button" class="ghost" data-clear="sym">${$t('Effacer mes symptômes ({n})',{n:symSel.size})}</button>`:'',
+    have.size?`<button type="button" class="ghost" data-clear="ing">${$t('Décocher mes ingrédients ({n})',{n:have.size})}</button>`:'',
+    `<button type="button" class="ghost" data-prefreset="1">${$t('Rétablir les réglages par défaut')}</button>`].join('');
+  view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">${$t('Version {v}',{v:esc(DATA.version||'')})}</p></div></header>
 ${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:''}
-<section class="card"><h2>À lire avant d'utiliser</h2><p>Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.</p><p>Ce n'est ni un diagnostic ni un traitement. Si un symptôme dure, s'aggrave ou t'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.</p></section>
-<h2 class="sec">Bien masser</h2>${acc(GUIDE,'g')}
-<h2 class="sec">Petit lexique</h2>${acc(LEXIQUE,'l')}
-${SYMCATS.some(c=>c.guide)?`<h2 class="sec">Guides santé</h2><div class="guides">${SYMCATS.filter(c=>c.guide).map(c=>`<button type="button" class="guide-b" data-guide="${esc(c.id)}"><span><b>${esc(c.court||c.nom)}</b>${esc(c.guide)}</span><span aria-hidden="true">›</span></button>`).join('')}</div>`:''}
-<section class="card"><h2>Astuces</h2><p>Reste appuyé sur une fiche ou un tableau pour l'ajouter aux favoris ou à un carnet, ou pour le partager.</p><p>Dans le carnet : reste appuyé sur une fiche puis fais-la glisser pour changer sa place, ou vers le haut de l'écran pour la déposer dans un autre carnet. Reste appuyé sur un onglet pour le déplacer, et touche « Sélectionner » pour cocher plusieurs fiches à la fois (tout cocher, favoris, ajouter, déplacer, supprimer).</p><p>« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.</p></section>
-<section class="card"><h2>Installer sur ton téléphone</h2>${inst}</section>
-<section class="card"><h2>Faire découvrir l'appli</h2><p>Envoie le lien à tes proches : ils l'ouvrent dans Chrome et l'installent comme toi.</p><button type="button" class="primary" data-shareapp="1">Partager l'appli</button></section>
-<section class="card"><h2>Tes données</h2>${FB?'<p>Sans compte, rien ne quitte ce téléphone. Le compte est facultatif : si tu en crées un, ton e-mail, ton nom, ta photo, tes carnets, favoris, récents et ton classement sont gardés sur un serveur sécurisé (Google Firebase) pour les retrouver sur un autre appareil. Tu peux supprimer ton compte à tout moment depuis « Ton compte ».</p><p>Tes symptômes et tes ingrédients restent toujours sur ce téléphone.</p>':'<p>L\'appli ne demande aucun compte et ne collecte aucune donnée personnelle. Tes symptômes, tes ingrédients, tes favoris et tes carnets restent sur ce téléphone.</p>'}${nSup?`<p>${plural(nSup,'fiche supprimée','fiches supprimées')} de « Toutes les fiches ». <button type="button" class="linkbtn inline" data-unhide="1">Les remettre</button></p>`:''}</section>
-<section class="card"><h2>Contenu</h2><dl class="kv"><dt>Symptômes</dt><dd>${Object.keys(SYM).length}</dd><dt>Tableaux</dt><dd>${tableaux.length}</dd><dt>Points</dt><dd>${Object.keys(PTS).length}</dd><dt>Recettes</dt><dd>${nR}</dd><dt>Protocoles</dt><dd>${nP}</dd></dl></section>
-<p class="fine">Polices Atkinson Hyperlegible et Noto Serif SC, sous licence SIL Open Font License.</p>`;
+<section class="card"><h2>${$t('À lire avant d\'utiliser')}</h2><p>${$t('Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.')}</p><p>${$t('Ce n\'est ni un diagnostic ni un traitement. Si un symptôme dure, s\'aggrave ou t\'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.')}</p></section>
+${settingsHTML()}
+<h2 class="sec">${$t('Bien masser')}</h2>${acc(GUIDE,'g')}
+<h2 class="sec">${$t('Petit lexique')}</h2>${acc(LEXIQUE,'l')}
+${SYMCATS.some(c=>c.guide)?`<h2 class="sec">${$t('Guides santé')}</h2><div class="guides">${SYMCATS.filter(c=>c.guide).map(c=>`<button type="button" class="guide-b" data-guide="${esc(c.id)}"><span><b>${esc(c.court||c.nom)}</b>${esc(c.guide)}</span><span aria-hidden="true">›</span></button>`).join('')}</div>`:''}
+<section class="card"><h2>${$t('Astuces')}</h2><p>${$t('Reste appuyé sur une fiche ou un tableau pour l\'ajouter aux favoris ou à un carnet, ou pour le partager.')}</p><p>${$t('Dans le carnet : reste appuyé sur une fiche puis fais-la glisser pour changer sa place, ou vers le haut de l\'écran pour la déposer dans un autre carnet. Reste appuyé sur un onglet pour le déplacer, et touche « Sélectionner » pour cocher plusieurs fiches à la fois (tout cocher, favoris, ajouter, déplacer, supprimer).')}</p><p>${$t('« Partager » envoie un lien direct vers la fiche : pratique pour transmettre une recette ou un protocole.')}</p></section>
+<section class="card"><h2>${$t('Installer sur ton téléphone')}</h2>${inst}</section>
+<section class="card"><h2>${$t('Faire découvrir l\'appli')}</h2><p>${$t('Envoie le lien à tes proches : ils l\'ouvrent dans Chrome et l\'installent comme toi.')}</p><button type="button" class="primary" data-shareapp="1">${$t('Partager l\'appli')}</button></section>
+<section class="card"><h2>${$t('Tes données')}</h2>${FB?`<p>${$t('Sans compte, rien ne quitte ce téléphone. Le compte est facultatif : si tu en crées un, ton e-mail, ton nom, ta photo, tes carnets, favoris, récents et ton classement sont gardés sur un serveur sécurisé (Google Firebase) pour les retrouver sur un autre appareil. Tu peux supprimer ton compte à tout moment depuis « Ton compte ».')}</p><p>${$t('Tes symptômes, tes ingrédients et tes réglages restent toujours sur ce téléphone.')}</p>`:`<p>${$t('L\'appli ne demande aucun compte et ne collecte aucune donnée personnelle. Tes symptômes, tes ingrédients, tes favoris et tes carnets restent sur ce téléphone.')}</p>`}<div class="data-acts">${acts}</div></section>
+<section class="card"><h2>${$t('Contenu')}</h2><dl class="kv"><dt>${$t('Symptômes')}</dt><dd>${Object.keys(SYM).length}</dd><dt>${$t('Tableaux')}</dt><dd>${tableaux.length}</dd><dt>${$t('Points')}</dt><dd>${Object.keys(PTS).length}</dd><dt>${$t('Recettes')}</dt><dd>${nR}</dd><dt>${$t('Protocoles')}</dt><dd>${nP}</dd></dl></section>
+<p class="fine">${$t('Polices Atkinson Hyperlegible et Noto Serif SC, sous licence SIL Open Font License.')}</p>`;
   view.querySelectorAll('.accwrap').forEach(w=>accordion(w,()=>{}));
 }
 
 /* ---------- Fiche ---------- */
 function barHTML(k,id,label){
   const favd=isFav(k,id);
-  return `<div class="bar"><button class="back" id="back" type="button"><span aria-hidden="true">‹</span>Retour</button><span class="bar-r"><span class="kind">${esc(label)}</span><button type="button" class="star" data-fav="${k}:${esc(id)}" aria-pressed="${favd}" aria-label="${favd?'Retirer des favoris':'Ajouter aux favoris'}">${favd?'★':'☆'}</button><button type="button" class="more" data-menu="${k}:${esc(id)}" aria-label="Plus d'options"><span aria-hidden="true">⋯</span></button></span></div>`;
+  return `<div class="bar"><button class="back" id="back" type="button"><span aria-hidden="true">‹</span>${$t('Retour')}</button><span class="bar-r"><span class="kind">${esc(label)}</span><button type="button" class="star" data-fav="${k}:${esc(id)}" aria-pressed="${favd}" aria-label="${$t(favd?'Retirer des favoris':'Ajouter aux favoris')}">${favd?'★':'☆'}</button><button type="button" class="more" data-menu="${k}:${esc(id)}" aria-label="${$t('Plus d\'options')}"><span aria-hidden="true">⋯</span></button></span></div>`;
 }
 function prinHTML(e){
   const p=e.principe;if(!p)return'';
@@ -1087,10 +1161,10 @@ function prinHTML(e){
 function timerBtn(key){return `<button class="timer" type="button" data-tk="${esc(key)}"><span class="lab"><span class="s"></span><span class="h"></span></span><span class="time"></span></button>`;}
 function tkey(e,suffix){return e.kind+':'+e.id+'|'+suffix;}
 function protoHTML(e){
-  const cons=e.consigne||'Une séance par jour. Commence par disperser, puis tonifie. Sur les points doubles, le minuteur se relance pour le côté opposé.';
-  let h=`<div class="sum"><p>${e._items.length} ${esc(e.unite||'points')}, environ ${minutes(e)} minutes. ${esc(cons)}</p>
-<button type="button" class="switch" data-auto="1" aria-pressed="${auto}"><span class="sw" aria-hidden="true"></span><span><b>Enchaîner automatiquement</b><small>Lance le côté ou le point suivant 5 s après la sonnerie</small></span></button>
-<div class="hrow"><span class="count" data-count="${esc(e.kind+':'+e.id)}"></span><button class="ghost" type="button" data-reset="${esc(e.kind+':'+e.id)}">Réinitialiser</button></div></div>`;
+  const cons=e.consigne||$t('Une séance par jour. Commence par disperser, puis tonifie. Sur les points doubles, le minuteur se relance pour le côté opposé.');
+  let h=`<div class="sum"><p>${e._items.length} ${esc($t(e.unite||'points'))}, ${$t('environ {n} minutes.',{n:minutes(e)})} ${esc(cons)}</p>
+<button type="button" class="switch" data-auto="1" aria-pressed="${auto}"><span class="sw" aria-hidden="true"></span><span><b>${$t('Enchaîner automatiquement')}</b><small>${$t('Lance le côté ou le point suivant 5 s après la sonnerie')}</small></span></button>
+<div class="hrow"><span class="count" data-count="${esc(e.kind+':'+e.id)}"></span><button class="ghost" type="button" data-reset="${esc(e.kind+':'+e.id)}">${$t('Réinitialiser')}</button></div></div>`;
   let k=0;
   e._phases.forEach(ph=>{
     const m=ph.m;
@@ -1101,23 +1175,23 @@ function protoHTML(e){
       const labels=Array.isArray(it.sl)&&it.sl.length===2?it.sl:SIDE;
       const showAb=it.ab&&it.ab!==it.py;
       h+=`<article class="pt ${m}" data-card="${esc(key)}">
-<div class="meta"><span class="num">${idx+1}</span>${showAb?`<span class="ab">${esc(it.ab)}</span>`:''}</div>
+<div class="meta"><span class="num">${idx+1}</span>${showAb?`<span class="ab">${esc(pn(it.ab))}</span>`:''}</div>
 ${it.zh?`<div class="pt-zh" lang="zh-Hans" aria-hidden="true">${esc(it.zh)}</div>`:''}
-<h4 class="pt-py">${esc(it.py)}</h4>
-${it.loc?`<p class="loc"><span class="k">Où</span>${esc(it.loc)}</p>`:''}
-${figKeys(it).length?`<button type="button" class="voir" data-fig="${esc(figKeys(it).join('|'))}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>Voir l'image pour l'emplacement du point</button>`:''}
-${it.act?`<p class="act"><span class="k">Effet</span>${esc(it.act)}</p>`:''}
-${it.dos?'<p class="flag soft">Dans le dos : avec une balle contre un mur, ou par un proche.</p>':''}
-${it.grossesse?'<p class="flag">À éviter pendant la grossesse.</p>':''}
+<h4 class="pt-py">${esc(it.nom||it.py)}</h4>${it.nom&&it.py?`<p class="pt-py2">${esc(it.py)}</p>`:''}
+${it.loc?`<p class="loc"><span class="k">${$t('Où')}</span>${esc(it.loc)}</p>`:''}
+${figKeys(it).length?`<button type="button" class="voir" data-fig="${esc(figKeys(it).join('|'))}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>${$t('Voir l\'image pour l\'emplacement du point')}</button>`:''}
+${it.act?`<p class="act"><span class="k">${$t('Effet')}</span>${esc(it.act)}</p>`:''}
+${it.dos?`<p class="flag soft">${$t('Dans le dos : avec une balle contre un mur, ou par un proche.')}</p>`:''}
+${it.grossesse?`<p class="flag">${$t('À éviter pendant la grossesse.')}</p>`:''}
 <p class="tech"><span class="ic" aria-hidden="true">${esc(tech[0])}</span><span>${esc(tech[1])}</span></p>
 ${timerBtn(key)}
-<div class="foot"><div class="dots">${it.b?'<span class="dot">Gauche</span><span class="dot">Droite</span>':'<span class="dot">Centre</span>'}</div><button class="redo" type="button" data-redo="${esc(key)}">Recommencer</button></div>
+<div class="foot"><div class="dots">${it.b?`<span class="dot">${$t('Gauche')}</span><span class="dot">${$t('Droite')}</span>`:`<span class="dot">${$t('Centre')}</span>`}</div><button class="redo" type="button" data-redo="${esc(key)}">${$t('Recommencer')}</button></div>
 </article>`;
-      ensureT(key,{eid:e.id,ekind:e.kind,kind:'pt',total:Math.max(5,+it.s||60),b:!!it.b,labels,title:(showAb?it.ab+' · ':'')+(it.py||'')});
+      ensureT(key,{eid:e.id,ekind:e.kind,kind:'pt',total:Math.max(5,+it.s||60),b:!!it.b,labels,title:(showAb?pn(it.ab)+' · ':'')+(it.nom||it.py||'')});
     });
   });
   if(e.note)h+=`<p class="note">${esc(e.note)}</p>`;
-  if(arr(e.produits).length)h+='<h3 class="sec">Produits</h3><ul class="prod">'+e.produits.map(p=>`<li><b>${esc(p.nom)}</b><span>${esc(p.texte)}</span></li>`).join('')+'</ul>';
+  if(arr(e.produits).length)h+=`<h3 class="sec">${$t('Produits')}</h3><ul class="prod">`+e.produits.map(p=>`<li><b>${esc(p.nom)}</b><span>${esc(p.texte)}</span></li>`).join('')+'</ul>';
   if(e.regle)h+=`<p class="rule">${esc(e.regle)}</p>`;
   return h;
 }
@@ -1129,8 +1203,8 @@ function frac(v){
 }
 function qty(i,f){
   const u=i.u||null;let v=(+i.q||0)*f;
-  if(u==='g'||u==='ml'||u==='cl'){v=v>=100?Math.round(v/5)*5:Math.max(1,Math.round(v));return{txt:v.toLocaleString('fr-FR')+' '+UNIT[u],v};}
-  if(u==='kg'||u==='l'){v=Math.round(v*100)/100;return{txt:v.toLocaleString('fr-FR')+' '+UNIT[u],v};}
+  if(u==='g'||u==='ml'||u==='cl'){v=v>=100?Math.round(v/5)*5:Math.max(1,Math.round(v));return{txt:v.toLocaleString(LOC)+' '+UNIT[u],v};}
+  if(u==='kg'||u==='l'){v=Math.round(v*100)/100;return{txt:v.toLocaleString(LOC)+' '+UNIT[u],v};}
   if(u){v=Math.max(.25,Math.round(v*4)/4);return{txt:frac(v)+' '+(UNIT[u]||u),v};}
   v=Math.max(.5,Math.round(v*2)/2);return{txt:frac(v),v};
 }
@@ -1143,38 +1217,39 @@ function fill(text,ings,f){
     return `<strong>${esc(q.txt+(s?' '+s:''))}</strong>`;
   });
 }
+function startPortions(e){return PREF.portions>0?+PREF.portions:Math.max(1,+e.portions||1);}
 function currentVar(e){
   if(!e._var.length)return null;
   const want=recVar[e.id]||varPref;
   return e._var.find(v=>v.id===want)||e._var[0];
 }
 function recipeHTML(e){
-  const base=Math.max(1,+e.portions||1),n=portions[e.id]||base,f=n/base;
+  const base=Math.max(1,+e.portions||1),n=portions[e.id]||startPortions(e),f=n/base;
   const v=currentVar(e);const done=ingDone[e.id]||new Set();
   let h='';
-  if(e.precautions)h+=`<div class="alert soft" role="note"><h2>Précaution</h2><p>${esc(e.precautions)}</p></div>`;
-  if(e.duree)h+=`<p class="device">Durée : ${esc(e.duree)}</p>`;
-  if(e._var.length>1)h+=`<div class="seg varseg" role="group" aria-label="Mode de cuisson" style="grid-template-columns:repeat(${e._var.length},minmax(0,1fr))">${e._var.map(x=>`<button type="button" data-var="${esc(e.id)}:${esc(x.id)}" aria-pressed="${x===v}">${esc(x.nom)}</button>`).join('')}</div>`;
+  if(e.precautions)h+=`<div class="alert soft" role="note"><h2>${$t('Précaution')}</h2><p>${esc(e.precautions)}</p></div>`;
+  if(e.duree)h+=`<p class="device">${$t('Durée :')} ${esc(e.duree)}</p>`;
+  if(e._var.length>1)h+=`<div class="seg varseg" role="group" aria-label="${$t('Mode de cuisson')}" style="grid-template-columns:repeat(${e._var.length},minmax(0,1fr))">${e._var.map(x=>`<button type="button" data-var="${esc(e.id)}:${esc(x.id)}" aria-pressed="${x===v}">${esc(x.nom)}</button>`).join('')}</div>`;
   else if(v&&v.nom)h+=`<p class="device">${esc(v.nom)}</p>`;
-  h+=`<div class="serv"><span class="serv-l">Portions</span><div class="stepper"><button type="button" data-serv="-1" aria-label="Une portion de moins"${n<=1?' disabled':''}>−</button><output aria-live="polite">${n}</output><button type="button" data-serv="1" aria-label="Une portion de plus"${n>=12?' disabled':''}>+</button></div></div>`;
-  h+='<h2 class="sec">Ingrédients</h2><p class="hint">Touche un ingrédient pour le cocher pendant que tu cuisines.</p><ul class="ing">'+arr(e.ingredients).map(i=>`<li><button type="button" class="ingrow" data-ingdone="${esc(e.id)}:${esc(i.id)}" aria-pressed="${done.has(i.id)}"><span class="q">${esc(qty(i,f).txt)}</span><span class="nm">${esc(i.nom)}${i.cle&&have.has(i.cle)?'<span class="have">✓ tu en as</span>':''}${i.note?`<small>${esc(i.note)}</small>`:''}</span></button></li>`).join('')+'</ul>';
+  h+=`<div class="serv"><span class="serv-l">${$t('Portions')}</span><div class="stepper"><button type="button" data-serv="-1" aria-label="${$t('Une portion de moins')}"${n<=1?' disabled':''}>−</button><output aria-live="polite">${n}</output><button type="button" data-serv="1" aria-label="${$t('Une portion de plus')}"${n>=12?' disabled':''}>+</button></div></div>`;
+  h+=`<h2 class="sec">${$t('Ingrédients')}</h2><p class="hint">${$t('Touche un ingrédient pour le cocher pendant que tu cuisines.')}</p><ul class="ing">`+arr(e.ingredients).map(i=>`<li><button type="button" class="ingrow" data-ingdone="${esc(e.id)}:${esc(i.id)}" aria-pressed="${done.has(i.id)}"><span class="q">${esc(qty(i,f).txt)}</span><span class="nm">${esc(i.nom)}${i.cle&&have.has(i.cle)?`<span class="have">✓ ${$t('tu en as')}</span>`:''}${i.note?`<small>${esc(i.note)}</small>`:''}</span></button></li>`).join('')+'</ul>';
   if(v){
-    h+='<h2 class="sec">Étapes</h2><ol class="steps">';
+    h+=`<h2 class="sec">${$t('Étapes')}</h2><ol class="steps">`;
     arr(v.etapes).forEach((s,i)=>{
       const key=tkey(e,v.id+'|s'+i),has=+s.s>0;
-      h+=`<li class="step" data-card="${esc(key)}"><span class="snum" aria-hidden="true">${i+1}</span><div><h3>${esc(s.titre)}</h3><p>${fill(s.texte,e.ingredients,f)}</p>${has?timerBtn(key)+`<div class="foot"><button class="redo" type="button" data-plus="${esc(key)}">Ajouter 5 min</button><button class="redo" type="button" data-redo="${esc(key)}">Recommencer</button></div>`:''}</div></li>`;
-      if(has)ensureT(key,{eid:e.id,ekind:'f',kind:'step',total:+s.s,b:false,labels:SIDE,title:s.titre||'Étape '+(i+1)});
+      h+=`<li class="step" data-card="${esc(key)}"><span class="snum" aria-hidden="true">${i+1}</span><div><h3>${esc(s.titre)}</h3><p>${fill(s.texte,e.ingredients,f)}</p>${has?timerBtn(key)+`<div class="foot"><button class="redo" type="button" data-plus="${esc(key)}">${$t('Ajouter 5 min')}</button><button class="redo" type="button" data-redo="${esc(key)}">${$t('Recommencer')}</button></div>`:''}</div></li>`;
+      if(has)ensureT(key,{eid:e.id,ekind:'f',kind:'step',total:+s.s,b:false,labels:SIDE,title:s.titre||$t('Étape {n}',{n:i+1})});
     });
     h+='</ol>';
   }
-  if(arr(e.notes).length)h+='<h2 class="sec">Notes</h2><ul class="bullets">'+e.notes.map(x=>`<li>${esc(x)}</li>`).join('')+'</ul>';
+  if(arr(e.notes).length)h+=`<h2 class="sec">${$t('Notes')}</h2><ul class="bullets">`+e.notes.map(x=>`<li>${esc(x)}</li>`).join('')+'</ul>';
   return h;
 }
 function renderFicheDetail(e){
   const tabs=e._tab.map(tableau).filter(Boolean);
   view.innerHTML=`<div class="fiche ${e.type}">${barHTML('f',e.id,TYPES[e.type])}
-<header class="dhead"><p class="eyebrow">${esc(e.type==='recette'?((AXES.find(a=>a.id===e.axe)||{}).nom||'Recette'):longDate(e._d))}</p><h1 class="dtitle">${esc(e.titre)}</h1>${e.contexte?`<p class="ctx">${esc(e.contexte)}</p>`:''}
-${tabs.length?`<div class="for"><span class="for-l">Conseillé pour</span>${tabs.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
+<header class="dhead"><p class="eyebrow">${esc(e.type==='recette'?((AXES.find(a=>a.id===e.axe)||{}).nom||TYPES.recette):longDate(e._d))}</p><h1 class="dtitle">${esc(e.titre)}</h1>${e.contexte?`<p class="ctx">${esc(e.contexte)}</p>`:''}
+${tabs.length?`<div class="for"><span class="for-l">${$t('Conseillé pour')}</span>${tabs.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
 ${e._sym.length?`<div class="for">${e._sym.map(s=>`<span class="tag static">${esc(symName(s))}</span>`).join('')}</div>`:''}${prinHTML(e)}</header>
 ${rappelHTML()}${e.type==='protocole'?protoHTML(e):recipeHTML(e)}</div>`;
   afterDetail(e);
@@ -1188,7 +1263,7 @@ function afterDetail(e){
 function render(){
   document.querySelectorAll('.tab').forEach(b=>{if(b.dataset.tab===tab)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
   if(!DATA){
-    view.innerHTML=loadError?'<p class="msg">Le contenu n\'a pas pu se charger. Vérifie ta connexion et rouvre l\'appli.</p>':'<p class="msg" style="border:0">Ouverture du carnet…</p>';
+    view.innerHTML=loadError?`<p class="msg">${$t('Le contenu n\'a pas pu se charger. Vérifie ta connexion et rouvre l\'appli.')}</p>`:`<p class="msg" style="border:0">${$t('Ouverture du carnet…')}</p>`;
     return;
   }
   const e=route&&item(route.kind,route.id);
@@ -1263,12 +1338,12 @@ function updT(key){
     const cardEl=btn.closest('[data-card]');
     cardEl.classList.toggle('running',t.run);cardEl.classList.toggle('done',t.done);cardEl.classList.toggle('next',!!(pendingNext&&pendingNext.key===key));
     btn.style.setProperty('--p',t.done?1:Math.min(1,Math.max(0,1-t.rem/t.total)));
-    let s=t.kind==='pt'?(t.b?t.labels[t.side]:'Point central'):'Minuteur',h;
-    if(t.done){s='Terminé';h=t.kind==='pt'?(t.b?'Les deux côtés sont faits':'Point fait'):'Étape terminée';}
-    else if(pendingNext&&pendingNext.key===key)h=`Démarre dans ${pendingNext.n} s, touche pour lancer tout de suite`;
-    else if(t.run)h='En cours, touche pour mettre en pause';
-    else if(t.rem<t.total)h='En pause, touche pour reprendre';
-    else h=(t.b&&t.side===1)?'Touche pour lancer la symétrie':'Touche pour lancer';
+    let s=t.kind==='pt'?(t.b?t.labels[t.side]:$t('Point central')):$t('Minuteur'),h;
+    if(t.done){s=$t('Terminé');h=$t(t.kind==='pt'?(t.b?'Les deux côtés sont faits':'Point fait'):'Étape terminée');}
+    else if(pendingNext&&pendingNext.key===key)h=$t('Démarre dans {n} s, touche pour lancer tout de suite',{n:pendingNext.n});
+    else if(t.run)h=$t('En cours, touche pour mettre en pause');
+    else if(t.rem<t.total)h=$t('En pause, touche pour reprendre');
+    else h=$t((t.b&&t.side===1)?'Touche pour lancer la symétrie':'Touche pour lancer');
     btn.querySelector('.s').textContent=s;
     btn.querySelector('.h').textContent=h;
     btn.querySelector('.time').textContent=t.done?'✓':fmt(t.rem);
@@ -1285,13 +1360,13 @@ function updT(key){
 function counts(ref){
   const el=q('data-count',ref);if(!el)return;
   let n=0,d=0;T.forEach(t=>{if(t.ekind+':'+t.eid===ref&&t.kind==='pt'){n++;if(t.done)d++;}});
-  el.textContent=`${d} / ${n} faits`;
+  el.textContent=$t('{d} / {n} faits',{d,n});
 }
 function audio(){try{if(!ac)ac=new(window.AudioContext||window.webkitAudioContext)();if(ac.state==='suspended')ac.resume();}catch(e){}}
-function beep(n,f){if(!ac)return;try{for(let k=0;k<n;k++){const t=ac.currentTime+k*.42,o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.35,t+.02);g.gain.exponentialRampToValueAtTime(.0001,t+.32);o.connect(g).connect(ac.destination);o.start(t);o.stop(t+.36);}}catch(e){}}
-function buzz(p){try{if(navigator.vibrate)navigator.vibrate(p);}catch(e){}}
-async function lock(){try{if('wakeLock' in navigator&&!wl){wl=await navigator.wakeLock.request('screen');wl.addEventListener('release',()=>{wl=null;});}}catch(e){}}
-function unlock(){try{if(wl&&!act&&!pendingNext){wl.release();wl=null;}}catch(e){}}
+function beep(n,f){if(!ac||!PREF.son)return;try{for(let k=0;k<n;k++){const t=ac.currentTime+k*.42,o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.35,t+.02);g.gain.exponentialRampToValueAtTime(.0001,t+.32);o.connect(g).connect(ac.destination);o.start(t);o.stop(t+.36);}}catch(e){}}
+function buzz(p){if(!PREF.vib)return;try{if(navigator.vibrate)navigator.vibrate(p);}catch(e){}}
+async function lock(){if(!PREF.ecran)return;try{if('wakeLock' in navigator&&!wl){wl=await navigator.wakeLock.request('screen');wl.addEventListener('release',()=>{wl=null;});}}catch(e){}}
+function unlock(force){try{if(wl&&(force||(!act&&!pendingNext))){wl.release();wl=null;}}catch(e){}}
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&(act||pendingNext))lock();});
 function stop(){if(act){const t=T.get(act);if(t)t.run=false;}act=null;clearInterval(iv);iv=null;}
 function start(key){
@@ -1366,8 +1441,8 @@ function suppress(){suppressClick=true;setTimeout(()=>{suppressClick=false;},500
 function showDock(L){
   const d=$('#dock');if(!d)return;
   const [k,id]=splitKey(L.el.dataset.lp);
-  const targets=[['favoris','★ Favoris'],...carnets.map(c=>[c.id,c.nom])].filter(([cid])=>cid!==L.cid);
-  d.querySelector('.dock-in').innerHTML=targets.map(([cid,n])=>`<span class="dock-b${inColl(cid,k,id)?' has':''}" data-drop="${esc(cid)}">${esc(n)}</span>`).join('')+'<span class="dock-b new" data-drop="__new">+ Nouveau carnet</span>';
+  const targets=[['favoris','★ '+$t('Favoris')],...carnets.map(c=>[c.id,c.nom])].filter(([cid])=>cid!==L.cid);
+  d.querySelector('.dock-in').innerHTML=targets.map(([cid,n])=>`<span class="dock-b${inColl(cid,k,id)?' has':''}" data-drop="${esc(cid)}">${esc(n)}</span>`).join('')+`<span class="dock-b new" data-drop="__new">+ ${$t('Nouveau carnet')}</span>`;
   d.hidden=false;
 }
 function hideDock(){const d=$('#dock');if(d){d.hidden=true;d.querySelector('.dock-in').innerHTML='';}}
@@ -1471,11 +1546,11 @@ function dropInto(target,k,id,src){
   if(target==='__new'){ghostUntil=Date.now()+350;newCarnetFor(k,id,src);return;}
   const move=!!(src&&isCustom(src)&&isCustom(target));
   const had=inColl(target,k,id);
-  if(had&&!move){toast('Déjà dans « '+collName(target)+' »');return;}
+  if(had&&!move){toast($t('Déjà dans « {c} »',{c:collName(target)}));return;}
   const rec=move?removeFrom(src,k,id):null;
   if(!had)addTo(target,k,id);
   refresh();
-  toast((move?'Déplacé vers « ':'Ajouté à « ')+collName(target)+' »',()=>{if(!had)removeFrom(target,k,id);if(rec)restoreAt(src,rec);refresh();});
+  toast($t(move?'Déplacé vers « {c} »':'Ajouté à « {c} »',{c:collName(target)}),()=>{if(!had)removeFrom(target,k,id);if(rec)restoreAt(src,rec);refresh();});
 }
 window.addEventListener('pointerup',()=>lpEnd(false));
 window.addEventListener('pointercancel',()=>{if(lp&&lp.armed&&!lp.drag){lpEnd(false);}else lpEnd(true);});
@@ -1494,8 +1569,8 @@ document.addEventListener('click',ev=>{
   const d=b.dataset;
   if(b.closest('#sheet')){
     if(d.opent){const id=d.opent;closeSheet(false,()=>openItem('t',id));return;}
-    if(d.gsym){toggleSym(d.gsym,null);const on=symSel.has(d.gsym);b.setAttribute('aria-pressed',String(on));b.textContent=gsymLabel(d.gsym);toast(on?'Ajouté : '+symName(d.gsym):'Retiré : '+symName(d.gsym));return;}
-    if(d.pwtoggle){const i=b.parentNode.querySelector('input'),show=i.type==='password';i.type=show?'text':'password';b.textContent=show?'Masquer':'Afficher';b.setAttribute('aria-label',show?'Masquer le mot de passe':'Afficher le mot de passe');return;}
+    if(d.gsym){toggleSym(d.gsym,null);const on=symSel.has(d.gsym);b.setAttribute('aria-pressed',String(on));b.textContent=gsymLabel(d.gsym);toast($t(on?'Ajouté : {s}':'Retiré : {s}',{s:symName(d.gsym)}));return;}
+    if(d.pwtoggle){const i=b.parentNode.querySelector('input'),show=i.type==='password';i.type=show?'text':'password';b.textContent=$t(show?'Masquer':'Afficher');b.setAttribute('aria-label',$t(show?'Masquer le mot de passe':'Afficher le mot de passe'));return;}
     if(d.act)onSheetAct(d.act);else if(b.classList.contains('sheet-cancel'))closeSheet();return;
   }
   if(d.account){if(!FB)return;accSheet(user?'':'login');if(!compte&&navigator.onLine!==false)loadCompte().catch(()=>{});return;}
@@ -1516,6 +1591,14 @@ document.addEventListener('click',ev=>{
   if(d.collSel){if(selMode&&d.collSel!==carnetSel)endSel();carnetSel=d.collSel;query='';persist();render();return;}
   if(d.newcarnet){newCarnetSheet();return;}
   if(d.cmenu){collMenu(d.cmenu);return;}
+  if(d.set){const i=d.set.indexOf(':');setSetting(d.set.slice(0,i),d.set.slice(i+1),b);return;}
+  if(d.pref){const k=d.pref,on=!PREF[k];setPref(k,on);b.setAttribute('aria-pressed',String(on));
+    if(k==='son'&&on){audio();beep(1,660);}if(k==='vib'&&on)buzz(40);
+    if(k==='ecran'){if(on&&(act||pendingNext))lock();else if(!on)unlock(true);}
+    return;}
+  if(d.prefreset){Object.keys(PREF).forEach(k=>{delete PREF[k];});Object.assign(PREF,DEFPREF);store('ys.reglages',J(PREF));applyLook();
+    auto=false;store('ys.auto','0');cancelPending();varPref='cuiseur';store('ys.variante',varPref);
+    rerenderKeep('[data-prefreset]');toast('Réglages par défaut rétablis');return;}
   if(d.unhide){const old=masques;masques=[];persist();refresh();toast('Fiches remises dans le carnet',()=>{masques=old;persist();refresh();});return;}
   if(d.menu){const i=d.menu.indexOf(':');itemMenu(d.menu.slice(0,i),d.menu.slice(i+1),null);return;}
   if(d.jump){const s=$('#grp-'+cssq(d.jump));if(s)s.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});return;}
@@ -1525,7 +1608,7 @@ document.addEventListener('click',ev=>{
   if(d.plus){plus(d.plus);return;}
   if(d.reset){resetEntry(d.reset);return;}
   if(d.auto){auto=!auto;store('ys.auto',auto?'1':'0');document.querySelectorAll('[data-auto]').forEach(x=>x.setAttribute('aria-pressed',String(auto)));if(!auto)cancelPending();toast(auto?'Enchaînement automatique activé':'Enchaînement automatique désactivé');return;}
-  if(d.fav){const i=d.fav.indexOf(':'),k=d.fav.slice(0,i),id=d.fav.slice(i+1);const on=!isFav(k,id);on?addTo('favoris',k,id):removeFrom('favoris',k,id);b.setAttribute('aria-pressed',String(on));b.textContent=on?'★':'☆';b.setAttribute('aria-label',on?'Retirer des favoris':'Ajouter aux favoris');toast(on?'Ajouté aux favoris':'Retiré des favoris');return;}
+  if(d.fav){const i=d.fav.indexOf(':'),k=d.fav.slice(0,i),id=d.fav.slice(i+1);const on=!isFav(k,id);on?addTo('favoris',k,id):removeFrom('favoris',k,id);b.setAttribute('aria-pressed',String(on));b.textContent=on?'★':'☆';b.setAttribute('aria-label',$t(on?'Retirer des favoris':'Ajouter aux favoris'));toast(on?'Ajouté aux favoris':'Retiré des favoris');return;}
   if(d.var){const i=d.var.indexOf(':');const id=d.var.slice(0,i),v=d.var.slice(i+1);recVar[id]=v;varPref=v;store('ys.variante',v);rerenderKeep(`[data-var="${cssq(d.var)}"]`);return;}
   if(d.ingdone){const i=d.ingdone.indexOf(':'),rid=d.ingdone.slice(0,i),iid=d.ingdone.slice(i+1);const s=ingDone[rid]||(ingDone[rid]=new Set());s.has(iid)?s.delete(iid):s.add(iid);b.setAttribute('aria-pressed',String(s.has(iid)));return;}
   if(d.sym){toggleSym(d.sym,b);return;}
@@ -1538,8 +1621,7 @@ document.addEventListener('click',ev=>{
   if(d.install&&installEvt){installEvt.prompt();installEvt.userChoice.finally(()=>{installEvt=null;if(tab==='infos'&&!route)renderInfos();});return;}
   if(d.serv&&route&&route.kind==='f'){
     const e=fiche(route.id);if(!e)return;
-    const base=Math.max(1,+e.portions||1);
-    portions[e.id]=Math.min(12,Math.max(1,(portions[e.id]||base)+(+d.serv)));
+    portions[e.id]=Math.min(12,Math.max(1,(portions[e.id]||startPortions(e))+(+d.serv)));
     rerenderKeep(`[data-serv="${d.serv}"]`);
     const s=q('data-serv',d.serv);if(s&&!s.disabled)s.focus({preventScroll:true});
     return;
@@ -1569,6 +1651,7 @@ lastSnap=J(dataOnly());
 })();
 const INTRO_HTML=$('#intro')?$('#intro').outerHTML:'';
 function playIntro(){
+  if(!PREF.intro){const i=$('#intro');if(i)i.remove();return;}
   if(!INTRO_HTML)return;
   let el=$('#intro');
   if(!el){document.body.insertAdjacentHTML('afterbegin',INTRO_HTML);el=$('#intro');}
@@ -1607,6 +1690,7 @@ setInterval(()=>{if(document.visibilityState==='visible')checkUpdate(false);},10
 render();
 loadData().then(d=>{
   DATA=d||{};
+  if(EN&&DATA.ui&&typeof DATA.ui==='object')Object.assign(UI,DATA.ui);
   PTS=DATA.points&&typeof DATA.points==='object'?DATA.points:{};
   FIGS=DATA.figures&&typeof DATA.figures==='object'?DATA.figures:{};
   SYM={};arr(DATA.symptomes).forEach(s=>{if(s&&s.id)SYM[s.id]=s;});
@@ -1616,7 +1700,7 @@ loadData().then(d=>{
   INGCATS=arr(DATA.categories_ingredients);
   INGC={};arr(DATA.ingredients).forEach(i=>{if(i&&i.id)INGC[i.id]=i;});
   fiches=arr(DATA.fiches).map(normFiche).filter(Boolean)
-    .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||(+a.ordre||0)-(+b.ordre||0)||String(a.titre).localeCompare(String(b.titre),'fr'));
+    .sort((a,b)=>String(b.date||'').localeCompare(String(a.date||''))||(+a.ordre||0)-(+b.ordre||0)||String(a.titre).localeCompare(String(b.titre),LANG));
   tableaux=arr(DATA.tableaux).map(normTableau).filter(Boolean);
   SYMFREQ={};tableaux.forEach(t=>{t._cle.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+2;});t._autres.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+1;});t._lies.forEach(x=>{SYMFREQ[x]=(SYMFREQ[x]||0)+1;});});
   tableaux.forEach(t=>arr(t.recettes).forEach(id=>{const e=fiche(id);if(e&&!e._tab.includes(t.id))e._tab.push(t.id);}));
@@ -1626,9 +1710,10 @@ loadData().then(d=>{
   if(route&&!item(route.kind,route.id))route=null;
   if(FB&&(store('ys.sync.uid')||store('ys.compte.attente')))loadCompte().catch(()=>{});
   const prevV=store('ys.version'),curV=String(DATA.version||'');
-  if(curV){store('ys.version',curV);if(prevV&&prevV!==curV)setTimeout(()=>toast('Appli mise à jour : version '+curV),$('#intro')?3900:300);}
+  if(curV){store('ys.version',curV);if(prevV&&prevV!==curV)setTimeout(()=>toast($t('Appli mise à jour : version {v}',{v:curV})),$('#intro')?3900:300);}
   if(route)pushRecent(route.kind,route.id);
   render();
+  try{if(sessionStorage.getItem('ys.apres')==='reglages'){sessionStorage.removeItem('ys.apres');const go=()=>{const r=!route&&tab==='infos'&&$('#reglages');if(r)window.scrollTo(0,Math.max(0,window.scrollY+r.getBoundingClientRect().top-12));};go();setTimeout(go,120);}}catch(e){}
 }).catch(()=>{loadError=true;render();});
 
 if('serviceWorker' in navigator&&!window.YS_DATA&&location.protocol==='https:'){

@@ -1,0 +1,842 @@
+{
+ "version": "0.14.0",
+ "categories_symptomes": [
+  {
+   "id": "general",
+   "nom": "General"
+  },
+  {
+   "id": "tete",
+   "nom": "Head, eyes, nose, throat"
+  },
+  {
+   "id": "respiration",
+   "nom": "Breathing, chest"
+  },
+  {
+   "id": "digestion",
+   "nom": "Digestion"
+  },
+  {
+   "id": "selles",
+   "nom": "Stools and urine"
+  },
+  {
+   "id": "sommeil",
+   "nom": "Sleep, emotions, heart"
+  },
+  {
+   "id": "peau",
+   "nom": "Skin, hair, nails"
+  },
+  {
+   "id": "douleurs",
+   "nom": "Pain, joints, muscles"
+  },
+  {
+   "id": "cycle",
+   "nom": "Menstrual cycle, discharge"
+  },
+  {
+   "id": "menopause",
+   "nom": "Menopause: the common signs",
+   "liste": [
+    "chaleur-corps",
+    "chaud-froid",
+    "sueurs-nuit",
+    "cycles-irreguliers",
+    "secheresse-intime",
+    "libido",
+    "endormissement",
+    "reveils",
+    "irritabilite",
+    "humeur-variable",
+    "anxiete",
+    "tristesse",
+    "palpitations",
+    "memoire",
+    "concentration",
+    "fatigue",
+    "poids-facile",
+    "peau-seche",
+    "chute-cheveux",
+    "yeux-secs",
+    "bouche-seche",
+    "vertiges",
+    "acouphenes-faibles",
+    "genoux-faibles",
+    "raideur-articulaire",
+    "mictions-nuit",
+    "fuites-urinaires"
+   ]
+  },
+  {
+   "id": "intimite",
+   "nom": "Sexuality, fertility"
+  },
+  {
+   "id": "ist",
+   "nom": "STIs (STDs): sexually transmitted infections",
+   "court": "STIs",
+   "note": "An STI is treated by a doctor, and many cause no symptoms at all: testing is free at a sexual health clinic (free CeGIDD centers in France). The patterns support your comfort and your body's underlying balance, alongside treatment.",
+   "guide": "Each STI: signs, testing and patterns",
+   "intro": [
+    "STIs are passed on during sex (vaginal, anal or oral), and sometimes through blood or from mother to baby. Many cause no symptoms at all: only a test can tell you.",
+    "Where to get tested: at a sexual health clinic (free CeGIDD centers in France), anonymously if you like, with your doctor, a midwife or at a sexual health center. At a lab, without a prescription (in France: “Mon test IST”): the HIV test is free for everyone, and tests for chlamydia, gonorrhea, syphilis and hepatitis B are also free if you are under 26.",
+    "Condoms protect against most STIs. Vaccines exist against hepatitis B, hepatitis A, papillomavirus (HPV) and mpox.",
+    "Chinese medicine does not cure an STI. The patterns shown support your body's underlying balance and your comfort (itching, burning, fatigue), always alongside medical treatment.",
+    "For any question about STIs, call a helpline (in France: Sida Info Service, 0 800 840 800, free and anonymous, 7 days a week from 8 a.m. to 11 p.m.)."
+   ],
+   "precautions": [
+    "Sex without a condom, or a condom that broke: go to the emergency room right away (or to a sexual health clinic (free CeGIDD centers in France) during the day) to assess the risk of HIV; emergency treatment (PEP) works best within 4 hours and must be started within 48 hours at the latest. If there is a risk of pregnancy, get emergency contraception at a pharmacy (free and without a prescription in France). Then get tested for STIs.",
+    "During an infection, avoid sex until your treatment is finished, and tell your partners so they can get tested.",
+    "Don't massage an area with a sore, blisters or warts, and wash your hands after touching it."
+   ],
+   "sous": [
+    {
+     "nom": "The infections",
+     "liste": [
+      "chlamydia",
+      "gonorrhee",
+      "syphilis",
+      "herpes-genital",
+      "hpv",
+      "vih",
+      "hepatite-b",
+      "hepatite-c",
+      "hepatite-a",
+      "trichomonase",
+      "mycoplasma",
+      "lgv",
+      "chancre-mou",
+      "morpions",
+      "gale",
+      "molluscum",
+      "mpox"
+     ]
+    },
+    {
+     "nom": "Signs to watch for",
+     "liste": [
+      "ecoulement",
+      "brulures-urinaires",
+      "plaie-genitale",
+      "vesicules-genitales",
+      "verrues-genitales",
+      "pertes-jaunes",
+      "humidite-intime",
+      "douleur-testicules"
+     ]
+    }
+   ],
+   "rappel": [
+    "Don't massage an area with a sore, blisters or warts, and wash your hands after touching it."
+   ]
+  },
+  {
+   "id": "maladies",
+   "nom": "Conditions diagnosed by a doctor",
+   "court": "Conditions",
+   "note": "Your medical treatment remains the foundation. The patterns show the underlying imbalance often seen with these diagnoses, to support that treatment.",
+   "guide": "Each condition: key facts and patterns",
+   "intro": [
+    "These conditions are diagnosed by a doctor, with a blood test or another lab test. Keep your treatment and your follow-up: the routines in this app support them, they never replace them.",
+    "In Chinese medicine, the same condition can match several patterns depending on the person: also choose your other symptoms to find the one that fits you best.",
+    "Hashimoto's or Graves' disease: no iodine supplements and no seaweed (kelp, bladderwrack) without medical advice."
+   ],
+   "liste": [
+    "hashimoto",
+    "basedow",
+    "hormonal",
+    "parasitose"
+   ]
+  },
+  {
+   "id": "polyarthrite",
+   "nom": "Rheumatoid arthritis",
+   "court": "RA",
+   "note": "Rheumatoid arthritis is treated by a rheumatologist, as early as possible. The patterns help with pain, stiffness and fatigue, alongside treatment.",
+   "guide": "Rheumatoid arthritis: key facts and patterns",
+   "intro": [
+    "Rheumatoid arthritis is the most common inflammatory rheumatic disease. It mostly affects women, often between the ages of 40 and 60.",
+    "The earlier disease-modifying treatment starts, the better your joints are protected. Physical therapy, occupational therapy and gentle physical activity help a lot.",
+    "Chinese medicine looks at the phase you are in: during a flare (heat, swelling), you cool and drain; when things are calm, you warm, get things moving and nourish the Liver and Kidney. Also choose your current signs to find the right pattern.",
+    "Patient association (in France: AFPric, Association française des polyarthritiques et des rhumatismes inflammatoires chroniques)."
+   ],
+   "precautions": [
+    "Flare (red, hot, swollen joints): no heat and no moxa on the joint, only gentle pressure around it.",
+    "On methotrexate or a biologic: if you get a fever, a cough or an infection, see a doctor quickly; no herbs and no supplements without your rheumatologist's advice.",
+    "A very hot, very painful joint with fever: see a doctor the same day."
+   ],
+   "sous": [
+    {
+     "nom": "The diagnosis",
+     "liste": [
+      "polyarthrite"
+     ]
+    },
+    {
+     "nom": "Common signs",
+     "liste": [
+      "raideur-matinale",
+      "mains-gonflees",
+      "articulations-chaudes",
+      "articulations-lourdes",
+      "douleurs-froid",
+      "douleurs-migrantes",
+      "raideur-articulaire",
+      "deformations",
+      "fatigue",
+      "fievre-apres-midi",
+      "yeux-secs",
+      "bouche-seche",
+      "appetit-faible",
+      "amaigrissement",
+      "tristesse"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sep",
+   "nom": "Multiple sclerosis",
+   "court": "MS",
+   "note": "Multiple sclerosis is treated by a neurologist. The patterns show the underlying imbalance often seen with it, to help with fatigue, walking, sleep and mood, alongside treatment.",
+   "guide": "MS: key facts and patterns",
+   "intro": [
+    "Multiple sclerosis (MS) is a disease of the central nervous system: the immune system damages the sheath around the nerves of the brain and spinal cord. It often begins between the ages of 20 and 40, and more often in women.",
+    "Disease-modifying treatments, physical therapy and adapted physical activity are the foundation. The routines in this app can help with fatigue, sleep, digestion and mood.",
+    "Patient association (in France: Ligue française contre la sclérose en plaques)."
+   ],
+   "precautions": [
+    "A new problem (vision, strength, sensation, balance) lasting more than 24 hours: tell your neurologist, it may be a relapse.",
+    "Sudden weakness on one side, trouble speaking, loss of vision: call emergency services (15 or 112 in France).",
+    "No prolonged heat if it makes your symptoms worse; never a hot-water bottle or moxa on an area with reduced sensation.",
+    "No herbs and no supplements without your neurologist's advice."
+   ],
+   "sous": [
+    {
+     "nom": "The diagnosis",
+     "liste": [
+      "sep"
+     ]
+    },
+    {
+     "nom": "Common signs",
+     "liste": [
+      "fatigue",
+      "engourdissements",
+      "vision-double",
+      "vision-floue",
+      "jambes-faibles",
+      "desequilibre",
+      "vertiges",
+      "spasticite",
+      "crampes",
+      "tremblements",
+      "lhermitte",
+      "sensible-chaleur",
+      "mictions-frequentes",
+      "fuites-urinaires",
+      "constipation-effort",
+      "memoire",
+      "concentration",
+      "tristesse",
+      "erection",
+      "libido"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cancer",
+   "nom": "Cancer: support during treatment",
+   "court": "Cancer",
+   "note": "Chinese medicine does not cure cancer. It can help you cope better with treatment (fatigue, nausea, sleep, digestion, mood), always with your care team's agreement.",
+   "guide": "Each cancer: treatment side effects and patterns",
+   "intro": [
+    "Cancer is treated with surgery, chemotherapy, radiation therapy, hormone therapy, immunotherapy or targeted therapies. Nothing here replaces or delays these treatments.",
+    "In Chinese medicine, there is no single “cancer pattern”: we look at the person's underlying balance and at the side effects of treatment. That is what the matches below show.",
+    "What often helps, for your comfort and alongside your prescribed medicines: gentle self-massage of PC 6 (on the wrist) for nausea and of ST 36 (below the knee) for fatigue, warm, cooked meals that are easy to digest, rest, and gentle activity such as walking or qi gong.",
+    "Supportive care exists and is often free: psychologist, dietitian, adapted physical activity, beauty and wellbeing care. Ask your care team. (In France: Cancer info, 0 805 123 124, free service and call.)"
+   ],
+   "precautions": [
+    "Tell your oncologist about any herb, herbal tea, supplement or mushroom you take: some change how treatments work (St John's wort, grapefruit, Chinese angelica or dang gui, astragalus, high doses of turmeric or ginseng…).",
+    "During and after treatment, use only gentle pressure (tonification), never strong pressure. Skip any point on the tumor, on an area that has been operated on or irradiated, on a stoma, near an implanted port, on the belly after pelvic radiation therapy, or on a swollen arm or leg (lymphedema).",
+    "No moxa or hot-water bottle on an irradiated area or an area with reduced sensation, and no moxa (flame, smoke) if you are short of breath or use oxygen at home.",
+    "Low white blood cells: avoid raw foods (oysters and shellfish, raw fish, undercooked eggs, raw milk). Low platelets: very gentle pressure only; stop if you bruise.",
+    "Fever of 38 °C (100.4 °F) or higher during chemotherapy: call your care team right away, or emergency services (15 or 112 in France)."
+   ],
+   "sous": [
+    {
+     "nom": "By type of cancer",
+     "liste": [
+      "cancer-sein",
+      "cancer-prostate",
+      "cancer-poumon",
+      "cancer-colon",
+      "cancer-estomac",
+      "cancer-pancreas",
+      "cancer-foie",
+      "cancer-uterus",
+      "cancer-ovaire",
+      "cancer-vessie",
+      "cancer-orl",
+      "cancer-thyroide",
+      "cancer-peau",
+      "cancer-sang",
+      "cancer-cerveau",
+      "cancer-testicule",
+      "cancer-os"
+     ]
+    },
+    {
+     "nom": "Treatment side effects",
+     "liste": [
+      "fatigue-traitement",
+      "nausee-traitement",
+      "mucite",
+      "neuropathie",
+      "bouffees-hormono",
+      "peau-radiotherapie",
+      "appetit-faible",
+      "amaigrissement",
+      "selles-molles",
+      "constipation-seche",
+      "chute-cheveux",
+      "endormissement",
+      "anxiete",
+      "tristesse",
+      "memoire"
+     ]
+    }
+   ],
+   "rappel": [
+    "Gentle pressure only, never strong. Skip points on an area that has been operated on or irradiated, a stoma, the belly after pelvic radiation therapy, or a swollen arm or leg.",
+    "No moxa on an irradiated area or an area with reduced sensation, and none if you are short of breath or on oxygen.",
+    "Recipes: ask your care team before using Chinese angelica (dang gui), astragalus, ginseng or large amounts of turmeric. Low white blood cells: nothing raw (oysters, shellfish, raw fish, undercooked eggs).",
+    "Fever of 38 °C (100.4 °F) or higher during chemotherapy: call your care team or emergency services (15 or 112 in France)."
+   ]
+  },
+  {
+   "id": "langue",
+   "nom": "Your tongue (look at it in a mirror)"
+  }
+ ],
+ "organes": [
+  {
+   "id": "poumon",
+   "nom": "Lung",
+   "zh": "肺"
+  },
+  {
+   "id": "gros-intestin",
+   "nom": "Large Intestine",
+   "zh": "大肠"
+  },
+  {
+   "id": "estomac",
+   "nom": "Stomach",
+   "zh": "胃"
+  },
+  {
+   "id": "rate",
+   "nom": "Spleen",
+   "zh": "脾"
+  },
+  {
+   "id": "coeur",
+   "nom": "Heart",
+   "zh": "心"
+  },
+  {
+   "id": "vessie",
+   "nom": "Bladder",
+   "zh": "膀胱"
+  },
+  {
+   "id": "rein",
+   "nom": "Kidney",
+   "zh": "肾"
+  },
+  {
+   "id": "vesicule",
+   "nom": "Gallbladder",
+   "zh": "胆"
+  },
+  {
+   "id": "foie",
+   "nom": "Liver",
+   "zh": "肝"
+  },
+  {
+   "id": "combines",
+   "nom": "Combined patterns",
+   "zh": "兼证",
+   "sous": "Two organs affected together"
+  },
+  {
+   "id": "qi-sang",
+   "nom": "Qi and Blood",
+   "zh": "气血"
+  },
+  {
+   "id": "femme",
+   "nom": "Menstrual cycle",
+   "zh": "妇科"
+  },
+  {
+   "id": "menopause",
+   "nom": "Menopause",
+   "zh": "绝经",
+   "sous": "Before, during and after periods stop"
+  },
+  {
+   "id": "homme",
+   "nom": "Men's health",
+   "zh": "男科"
+  },
+  {
+   "id": "bi",
+   "nom": "Joints (Bi syndromes)",
+   "zh": "痹证"
+  },
+  {
+   "id": "peau",
+   "nom": "Skin",
+   "zh": "皮肤"
+  }
+ ],
+ "axes": [
+  {
+   "id": "qi",
+   "nom": "Tonify Qi",
+   "zh": "补气"
+  },
+  {
+   "id": "rate",
+   "nom": "Support the Spleen and Stomach",
+   "zh": "健脾和胃"
+  },
+  {
+   "id": "sang",
+   "nom": "Nourish Blood",
+   "zh": "养血"
+  },
+  {
+   "id": "yin",
+   "nom": "Nourish Yin, moisten",
+   "zh": "滋阴"
+  },
+  {
+   "id": "yang",
+   "nom": "Warm Yang",
+   "zh": "温阳"
+  },
+  {
+   "id": "essence",
+   "nom": "Nourish the Kidney and Essence"
+  },
+  {
+   "id": "coeur",
+   "nom": "Calm the mind",
+   "zh": "安神"
+  },
+  {
+   "id": "humidite",
+   "nom": "Drain Dampness and Phlegm",
+   "zh": "化湿祛痰"
+  },
+  {
+   "id": "chaleur",
+   "nom": "Clear Heat",
+   "zh": "清热"
+  },
+  {
+   "id": "circuler",
+   "nom": "Move Qi",
+   "zh": "理气"
+  },
+  {
+   "id": "exterieur",
+   "nom": "Early stage of a cold",
+   "zh": "解表"
+  }
+ ],
+ "categories_ingredients": [
+  {
+   "id": "cereales",
+   "nom": "Grains"
+  },
+  {
+   "id": "legumes",
+   "nom": "Vegetables"
+  },
+  {
+   "id": "fruits",
+   "nom": "Fruit"
+  },
+  {
+   "id": "viandes",
+   "nom": "Meat and eggs"
+  },
+  {
+   "id": "mer",
+   "nom": "Fish and seafood"
+  },
+  {
+   "id": "legumineuses",
+   "nom": "Legumes, tofu, seeds, nuts"
+  },
+  {
+   "id": "asie",
+   "nom": "Asian grocery"
+  },
+  {
+   "id": "aromates",
+   "nom": "Seasonings and flowers"
+  }
+ ],
+ "ingredients": [
+  {
+   "id": "riz",
+   "nom": "Rice",
+   "cat": "cereales"
+  },
+  {
+   "id": "millet",
+   "nom": "Millet",
+   "cat": "cereales"
+  },
+  {
+   "id": "orge-perle",
+   "nom": "Pearl barley",
+   "cat": "cereales"
+  },
+  {
+   "id": "carotte",
+   "nom": "Carrot",
+   "cat": "legumes"
+  },
+  {
+   "id": "courge",
+   "nom": "Squash",
+   "cat": "legumes"
+  },
+  {
+   "id": "patate-douce",
+   "nom": "Sweet potato",
+   "cat": "legumes"
+  },
+  {
+   "id": "epinards",
+   "nom": "Spinach",
+   "cat": "legumes"
+  },
+  {
+   "id": "betterave",
+   "nom": "Beet",
+   "cat": "legumes"
+  },
+  {
+   "id": "celeri",
+   "nom": "Celery",
+   "cat": "legumes"
+  },
+  {
+   "id": "poireau",
+   "nom": "Leek",
+   "cat": "legumes"
+  },
+  {
+   "id": "radis-blanc",
+   "nom": "Daikon (white radish)",
+   "cat": "legumes"
+  },
+  {
+   "id": "oignon",
+   "nom": "Onion",
+   "cat": "legumes"
+  },
+  {
+   "id": "cebette",
+   "nom": "Spring onion (scallion)",
+   "cat": "legumes"
+  },
+  {
+   "id": "pomme-de-terre",
+   "nom": "Potato",
+   "cat": "legumes"
+  },
+  {
+   "id": "brocoli",
+   "nom": "Broccoli",
+   "cat": "legumes"
+  },
+  {
+   "id": "shiitake",
+   "nom": "Shiitake mushrooms",
+   "cat": "legumes"
+  },
+  {
+   "id": "poire",
+   "nom": "Pear",
+   "cat": "fruits"
+  },
+  {
+   "id": "pomme",
+   "nom": "Apple",
+   "cat": "fruits"
+  },
+  {
+   "id": "pruneaux",
+   "nom": "Prunes",
+   "cat": "fruits"
+  },
+  {
+   "id": "orange",
+   "nom": "Orange",
+   "cat": "fruits"
+  },
+  {
+   "id": "oeuf",
+   "nom": "Egg",
+   "cat": "viandes"
+  },
+  {
+   "id": "poulet",
+   "nom": "Chicken",
+   "cat": "viandes"
+  },
+  {
+   "id": "agneau",
+   "nom": "Lamb",
+   "cat": "viandes"
+  },
+  {
+   "id": "boeuf",
+   "nom": "Beef",
+   "cat": "viandes"
+  },
+  {
+   "id": "mouton",
+   "nom": "Mutton",
+   "cat": "viandes"
+  },
+  {
+   "id": "crevettes",
+   "nom": "Shrimp",
+   "cat": "mer"
+  },
+  {
+   "id": "poisson-blanc",
+   "nom": "White fish (cod, sea bass, sea bream, carp)",
+   "cat": "mer"
+  },
+  {
+   "id": "saumon",
+   "nom": "Salmon",
+   "cat": "mer"
+  },
+  {
+   "id": "huitres",
+   "nom": "Oysters",
+   "cat": "mer"
+  },
+  {
+   "id": "moules",
+   "nom": "Mussels",
+   "cat": "mer"
+  },
+  {
+   "id": "poulpe",
+   "nom": "Octopus",
+   "cat": "mer"
+  },
+  {
+   "id": "calamar",
+   "nom": "Squid",
+   "cat": "mer"
+  },
+  {
+   "id": "tofu",
+   "nom": "Tofu",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "lentilles",
+   "nom": "Red lentils",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "mungo",
+   "nom": "Mung beans",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "azuki",
+   "nom": "Adzuki beans",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "haricots-noirs",
+   "nom": "Black beans",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "sesame-noir",
+   "nom": "Black sesame",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "noix",
+   "nom": "Walnuts",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "amandes",
+   "nom": "Almonds",
+   "cat": "legumineuses"
+  },
+  {
+   "id": "dattes",
+   "nom": "Jujubes (Chinese red dates)",
+   "cat": "asie"
+  },
+  {
+   "id": "goji",
+   "nom": "Goji berries",
+   "cat": "asie"
+  },
+  {
+   "id": "longane",
+   "nom": "Dried longans",
+   "cat": "asie"
+  },
+  {
+   "id": "lotus",
+   "nom": "Lotus seeds",
+   "cat": "asie"
+  },
+  {
+   "id": "tremelle",
+   "nom": "Tremella (white fungus)",
+   "cat": "asie"
+  },
+  {
+   "id": "shan-yao",
+   "nom": "Chinese yam (Shan Yao)",
+   "cat": "asie"
+  },
+  {
+   "id": "huang-qi",
+   "nom": "Astragalus (Huang Qi)",
+   "cat": "asie"
+  },
+  {
+   "id": "dang-gui",
+   "nom": "Chinese angelica (Dang Gui)",
+   "cat": "asie"
+  },
+  {
+   "id": "mandarine",
+   "nom": "Tangerine peel (Chen Pi)",
+   "cat": "asie"
+  },
+  {
+   "id": "gingembre",
+   "nom": "Fresh ginger",
+   "cat": "aromates"
+  },
+  {
+   "id": "cannelle",
+   "nom": "Cinnamon",
+   "cat": "aromates"
+  },
+  {
+   "id": "menthe",
+   "nom": "Fresh mint",
+   "cat": "aromates"
+  },
+  {
+   "id": "chrysantheme",
+   "nom": "Chrysanthemum flowers",
+   "cat": "aromates"
+  },
+  {
+   "id": "rose",
+   "nom": "Dried rosebuds",
+   "cat": "aromates"
+  },
+  {
+   "id": "miel",
+   "nom": "Honey",
+   "cat": "aromates"
+  },
+  {
+   "id": "ail",
+   "nom": "Garlic",
+   "cat": "aromates"
+  },
+  {
+   "id": "anis-etoile",
+   "nom": "Star anise",
+   "cat": "aromates"
+  },
+  {
+   "id": "ciboule-chinoise",
+   "nom": "Chinese chives (jiu cai)",
+   "cat": "legumes"
+  },
+  {
+   "id": "fenouil",
+   "nom": "Fennel",
+   "cat": "legumes"
+  },
+  {
+   "id": "concombre",
+   "nom": "Cucumber",
+   "cat": "legumes"
+  },
+  {
+   "id": "chataignes",
+   "nom": "Chestnuts",
+   "cat": "fruits"
+  },
+  {
+   "id": "canard",
+   "nom": "Duck",
+   "cat": "viandes"
+  },
+  {
+   "id": "foies-volaille",
+   "nom": "Chicken livers",
+   "cat": "viandes"
+  },
+  {
+   "id": "os-boeuf",
+   "nom": "Beef marrow bones",
+   "cat": "viandes"
+  },
+  {
+   "id": "qian-shi",
+   "nom": "Euryale seeds (qian shi)",
+   "cat": "asie"
+  },
+  {
+   "id": "wakame",
+   "nom": "Wakame seaweed",
+   "cat": "asie"
+  },
+  {
+   "id": "champignons-noirs",
+   "nom": "Wood ear mushrooms (mu er)",
+   "cat": "asie"
+  },
+  {
+   "id": "graines-fenouil",
+   "nom": "Fennel seeds",
+   "cat": "aromates"
+  }
+ ]
+}

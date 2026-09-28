@@ -1,0 +1,380 @@
+{
+ "points": {
+  "P 1": {
+   "loc": "Below the collarbone, toward the shoulder: in the 1st space between the ribs, 6 cun from the midline, 1 cun below the hollow under the outer end of the collarbone.",
+   "act": "Front-Mu point of the Lung: opens the chest, calms coughing and breathlessness."
+  },
+  "P 5": {
+   "loc": "In the elbow crease, arm straight and palm up, on the thumb side of the large biceps tendon.",
+   "act": "Clears Lung Heat, makes Qi descend, transforms phlegm."
+  },
+  "P 6": {
+   "loc": "Front of the forearm, 7 cun above the wrist crease, on the line joining LU 5 to LU 9.",
+   "act": "Xi-Cleft point of the Lung: calms acute coughs and asthma."
+  },
+  "P 7": {
+   "loc": "On the thumb edge of the forearm, 1.5 cun above the wrist crease, in the small hollow just above the bony bump (radial styloid).",
+   "act": "Helps Lung Qi descend and spread, expels Wind, frees the head and neck."
+  },
+  "P 9": {
+   "loc": "In the wrist crease on the thumb side, in the hollow just beside the radial artery (where you take the pulse). Press gently.",
+   "act": "Yuan-Source point of the Lung: tonifies Lung Qi and Yin."
+  },
+  "P 10": {
+   "loc": "Halfway along the 1st metacarpal (the thumb bone in the palm), where the skin of the palm meets the skin of the back of the hand.",
+   "act": "Clears Lung Heat, soothes the throat."
+  },
+  "P 11": {
+   "loc": "At the corner of the thumbnail, outer side, 0.1 cun from the corner of the nail.",
+   "act": "Soothes a sore throat and clears Heat."
+  },
+  "GI 4": {
+   "loc": "Back of the hand, between the 1st and 2nd metacarpals, at the midpoint of the 2nd metacarpal on the thumb side.",
+   "act": "Expels Wind, relieves pain, frees the face and head. With LR 3 (the Four Gates): moves Qi and Blood."
+  },
+  "GI 10": {
+   "loc": "On the thumb side of the forearm, 2 cun below LI 11.",
+   "act": "Tonifies Qi, soothes the arm and helps digestion."
+  },
+  "GI 11": {
+   "loc": "Elbow bent, at the outer end of the elbow crease, halfway between LU 5 and the bony bump of the elbow.",
+   "act": "Clears Heat, cools the Blood, eliminates Dampness, calms itching."
+  },
+  "GI 20": {
+   "loc": "In the groove running from the nose down to the mouth, level with the middle of the nostril.",
+   "act": "Unblocks the nose."
+  },
+  "E 21": {
+   "loc": "4 cun above the navel, 2 cun on each side of the midline.",
+   "act": "Harmonizes the Stomach, eases stomach pain, helps digestion."
+  },
+  "E 25": {
+   "loc": "Level with the navel, 2 cun on each side.",
+   "act": "Front-Mu point of the Large Intestine: regulates the belly and bowel movements."
+  },
+  "E 34": {
+   "loc": "2 cun above the upper outer corner of the kneecap.",
+   "act": "Xi-Cleft point of the Stomach: calms acute stomach pain and knee pain."
+  },
+  "E 35": {
+   "loc": "Knee bent, in the hollow below the kneecap, on the outer side of the kneecap tendon.",
+   "act": "Soothes the knee, expels local Cold and Dampness."
+  },
+  "E 36": {
+   "loc": "3 cun below ST 35 (outer hollow of the knee), 1 finger-width outside the crest of the shinbone.",
+   "act": "Tonifies the Qi and Blood of the Spleen and Stomach, strengthens the whole body."
+  },
+  "E 37": {
+   "loc": "3 cun below ST 36, 1 finger-width outside the crest of the shinbone.",
+   "act": "Lower He-Sea point of the Large Intestine: regulates the bowels, eliminates Damp-Heat."
+  },
+  "E 40": {
+   "loc": "On the leg, halfway between the knee and the outer ankle bone, 2 finger-widths outside the crest of the shinbone.",
+   "act": "Transforms Phlegm and Dampness, calms the mind."
+  },
+  "E 44": {
+   "loc": "Top of the foot, between the 2nd and 3rd toes, at the edge of the web.",
+   "act": "Clears Stomach Heat, soothes the gums and face."
+  },
+  "Rt 1": {
+   "loc": "At the inner corner of the big toenail, 0.1 cun from the corner of the nail.",
+   "act": "Helps the Spleen hold the Blood, calms the mind."
+  },
+  "Rt 3": {
+   "loc": "Inner edge of the foot, in the hollow behind and below the head of the 1st metatarsal (just past the bump at the base of the big toe).",
+   "act": "Yuan-Source point of the Spleen: tonifies the Spleen, transforms Dampness."
+  },
+  "Rt 4": {
+   "loc": "Inner edge of the foot, in the hollow in front of and below the base of the 1st metatarsal.",
+   "act": "Harmonizes the Spleen and Stomach, eases belly pain."
+  },
+  "Rt 6": {
+   "loc": "3 cun above the tip of the inner ankle bone, just behind the edge of the shinbone.",
+   "act": "Meeting point of the three Yin channels of the leg: tonifies the Spleen, nourishes Blood and Yin, calms the mind."
+  },
+  "Rt 8": {
+   "loc": "3 cun below SP 9, just behind the inner edge of the shinbone.",
+   "act": "Xi-Cleft point of the Spleen: moves the Blood, eases painful periods."
+  },
+  "Rt 9": {
+   "loc": "Inner side of the leg, in the hollow below the top of the shinbone (below the inner bump of the knee).",
+   "act": "Drains Dampness, especially from the lower body."
+  },
+  "Rt 10": {
+   "loc": "Knee bent, 2 cun above the upper inner corner of the kneecap, on the bulge of the muscle.",
+   "act": "“Sea of Blood”: moves and cools the Blood, soothes the skin."
+  },
+  "C 5": {
+   "loc": "Inner side of the wrist, 1 cun above the crease, on the little-finger side, against the tendon.",
+   "act": "Tonifies Heart Qi, calms the mind."
+  },
+  "C 6": {
+   "loc": "Inner side of the wrist, 0.5 cun above the crease, on the little-finger side, against the tendon.",
+   "act": "Xi-Cleft point of the Heart: nourishes Heart Yin, stops night sweats."
+  },
+  "C 7": {
+   "loc": "In the wrist crease on the little-finger side, in the hollow against the tendon.",
+   "act": "Yuan-Source point of the Heart: calms the mind, helps sleep and memory."
+  },
+  "C 8": {
+   "loc": "In the palm, between the 4th and 5th metacarpals, where the tip of your little finger lands when you make a fist.",
+   "act": "Clears Heart Fire, calms restlessness."
+  },
+  "IG 19": {
+   "loc": "In front of the ear, in the hollow that forms when you open your mouth.",
+   "act": "Soothes the ears: ringing in the ears (tinnitus), blocked ear."
+  },
+  "V 2": {
+   "loc": "In the small hollow at the inner end of the eyebrow.",
+   "act": "Soothes the eyes and headaches in the forehead."
+  },
+  "V 12": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 2nd thoracic vertebra.",
+   "act": "“Wind Gate”: expels Wind, strengthens your defenses against colds."
+  },
+  "V 13": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 3rd thoracic vertebra.",
+   "act": "Back-Shu point of the Lung: tonifies Lung Qi."
+  },
+  "V 15": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 5th thoracic vertebra.",
+   "act": "Back-Shu point of the Heart: tonifies the Heart, calms the mind."
+  },
+  "V 17": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 7th thoracic vertebra, roughly level with the tips of the shoulder blades.",
+   "act": "Meeting point of Blood: nourishes and moves the Blood."
+  },
+  "V 18": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 9th thoracic vertebra.",
+   "act": "Back-Shu point of the Liver: nourishes Liver Blood, soothes the eyes."
+  },
+  "V 20": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 11th thoracic vertebra.",
+   "act": "Back-Shu point of the Spleen: tonifies the Spleen, transforms Dampness."
+  },
+  "V 21": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 12th thoracic vertebra.",
+   "act": "Back-Shu point of the Stomach: tonifies the Stomach."
+  },
+  "V 23": {
+   "loc": "On the lower back, 1.5 cun on each side of the spine, below the 2nd lumbar vertebra, at waist level.",
+   "act": "Back-Shu point of the Kidney: tonifies the Kidney, strengthens the lower back."
+  },
+  "V 25": {
+   "loc": "On the lower back, 1.5 cun on each side of the spine, below the 4th lumbar vertebra, level with the top of the pelvis.",
+   "act": "Back-Shu point of the Large Intestine: regulates bowel movements, soothes the lower back."
+  },
+  "V 28": {
+   "loc": "On the sacrum, 1.5 cun on each side of the midline, level with the 2nd sacral hole.",
+   "act": "Back-Shu point of the Bladder: regulates urination."
+  },
+  "V 40": {
+   "loc": "In the middle of the crease behind the knee.",
+   "act": "Soothes the back and knees, cools the Blood."
+  },
+  "V 43": {
+   "loc": "On the back, 3 cun on each side of the spine, below the 4th thoracic vertebra, at the inner edge of the shoulder blade.",
+   "act": "Tonifies Qi and Yin in long-standing weakness."
+  },
+  "V 60": {
+   "loc": "In the hollow between the outer ankle bone and the Achilles tendon.",
+   "act": "Soothes the back, neck and head."
+  },
+  "V 62": {
+   "loc": "In the hollow just below the tip of the outer ankle bone.",
+   "act": "Calms the mind, soothes the neck and back."
+  },
+  "Rn 1": {
+   "loc": "On the sole of the foot, in the hollow that forms when you curl your toes, at the front third of the sole.",
+   "act": "Draws down what rises to the head, calms the mind, grounds you before sleep."
+  },
+  "Rn 2": {
+   "loc": "Inner edge of the foot, in the hollow below the bump of the navicular bone (in front of and below the ankle bone).",
+   "act": "Clears Kidney Deficiency-Heat."
+  },
+  "Rn 3": {
+   "loc": "In the hollow between the inner ankle bone and the Achilles tendon, level with the tip of the ankle bone.",
+   "act": "Yuan-Source point of the Kidney: tonifies Kidney Yin and Yang."
+  },
+  "Rn 6": {
+   "loc": "In the hollow just below the tip of the inner ankle bone.",
+   "act": "Nourishes Yin, moistens the throat and eyes, helps sleep."
+  },
+  "Rn 7": {
+   "loc": "2 cun above KI 3, at the front edge of the Achilles tendon.",
+   "act": "Tonifies the Kidney, regulates sweating and body fluids."
+  },
+  "Rn 27": {
+   "loc": "Below the collarbone, 2 cun on each side of the midline.",
+   "act": "Makes Lung Qi descend, calms coughing and breathlessness."
+  },
+  "MC 6": {
+   "loc": "Inner side of the forearm, 2 cun above the wrist crease, between the two tendons.",
+   "act": "Opens the chest, makes Stomach Qi descend (nausea), calms the mind."
+  },
+  "MC 7": {
+   "loc": "In the middle of the wrist crease, between the two tendons.",
+   "act": "Clears Heart Heat, calms the mind."
+  },
+  "MC 8": {
+   "loc": "In the center of the palm, between the 2nd and 3rd metacarpals, where the tip of your middle finger lands when you make a fist.",
+   "act": "Clears Heart Fire, calms restlessness."
+  },
+  "TR 5": {
+   "loc": "Back of the forearm, 2 cun above the wrist crease, between the two bones.",
+   "act": "Expels Wind-Heat, soothes the sides of the head and the ears."
+  },
+  "TR 6": {
+   "loc": "Back of the forearm, 3 cun above the wrist crease, between the two bones.",
+   "act": "Moves Qi, helps the stools move down, soothes the ribs."
+  },
+  "TR 17": {
+   "loc": "Behind the earlobe, in the hollow between the jaw and the bone behind the ear.",
+   "act": "Soothes the ears and jaw, expels Wind."
+  },
+  "VB 20": {
+   "loc": "Below the back of the skull, in the hollow between the two large neck muscles.",
+   "act": "“Wind Pool”: expels Wind, eases headaches, dizziness and a stiff neck."
+  },
+  "VB 21": {
+   "loc": "On top of the shoulder, halfway between the base of the neck and the tip of the shoulder.",
+   "act": "Relaxes the shoulders and neck, makes Qi descend."
+  },
+  "VB 34": {
+   "loc": "Outer side of the leg, in the hollow in front of and below the head of the fibula.",
+   "act": "Meeting point of the tendons: relaxes the tendons, frees the Liver and Gallbladder."
+  },
+  "VB 39": {
+   "loc": "3 cun above the tip of the outer ankle bone, at the front edge of the fibula.",
+   "act": "Meeting point of marrow: nourishes the marrow and bones."
+  },
+  "VB 40": {
+   "loc": "In the hollow in front of and below the outer ankle bone.",
+   "act": "Frees the Liver and Gallbladder, soothes the ankle and the ribs."
+  },
+  "VB 41": {
+   "loc": "Top of the foot, in the hollow in front of where the 4th and 5th metatarsals meet.",
+   "act": "Moves Liver Qi, soothes the temples and tender breasts."
+  },
+  "VB 43": {
+   "loc": "Top of the foot, between the 4th and 5th toes, at the edge of the web.",
+   "act": "Subdues Liver Yang, soothes the temples and ears."
+  },
+  "F 2": {
+   "loc": "Top of the foot, between the big toe and the 2nd toe, at the edge of the web.",
+   "act": "Clears Liver Fire."
+  },
+  "F 3": {
+   "loc": "Top of the foot, in the hollow between the 1st and 2nd metatarsals, in front of where their bases meet.",
+   "act": "Yuan-Source point of the Liver: frees Liver Qi, settles the Yang, calms the mind."
+  },
+  "F 5": {
+   "loc": "5 cun above the tip of the inner ankle bone, on the inner face of the shinbone.",
+   "act": "Eliminates Damp-Heat from the genital area."
+  },
+  "F 8": {
+   "loc": "Knee bent, at the inner end of the knee crease, in the hollow in front of the tendons.",
+   "act": "Nourishes Liver Blood, soothes the knee."
+  },
+  "F 13": {
+   "loc": "On the side of the trunk, below the free end of the 11th rib.",
+   "act": "Front-Mu point of the Spleen: harmonizes the Liver and Spleen."
+  },
+  "F 14": {
+   "loc": "Below the nipple, in the 6th space between the ribs.",
+   "act": "Front-Mu point of the Liver: frees Liver Qi, soothes the ribs."
+  },
+  "VG 4": {
+   "loc": "On the lower back, on the midline, below the 2nd lumbar vertebra, at waist level.",
+   "act": "“Gate of Life”: warms Kidney Yang."
+  },
+  "VG 12": {
+   "loc": "On the midline of the back, below the 3rd thoracic vertebra.",
+   "act": "Tonifies Lung Qi, expels Wind-Cold."
+  },
+  "VG 14": {
+   "loc": "On the midline, below the most prominent vertebra at the base of the neck.",
+   "act": "Releases the surface, clears Heat, strengthens Yang."
+  },
+  "VG 20": {
+   "loc": "At the top of the head, where the midline crosses the line joining the tops of both ears.",
+   "act": "Lifts Qi, calms the mind, clears the head."
+  },
+  "RM 3": {
+   "loc": "On the midline, 4 cun below the navel (1 cun above the pubic bone).",
+   "act": "Front-Mu point of the Bladder: regulates urination, eliminates Damp-Heat."
+  },
+  "RM 4": {
+   "loc": "On the midline, 3 cun below the navel.",
+   "act": "Tonifies the Kidney, the original Qi and the Blood, grounds you."
+  },
+  "RM 6": {
+   "loc": "On the midline, 1.5 cun below the navel.",
+   "act": "“Sea of Qi”: tonifies Qi and Yang."
+  },
+  "RM 9": {
+   "loc": "On the midline, 1 cun above the navel.",
+   "act": "Helps eliminate water, reduces swelling (edema)."
+  },
+  "RM 12": {
+   "loc": "On the midline, 4 cun above the navel, halfway between the navel and the base of the breastbone.",
+   "act": "Front-Mu point of the Stomach: tonifies and harmonizes the Stomach and Spleen, transforms Dampness."
+  },
+  "RM 14": {
+   "loc": "On the midline, 6 cun above the navel, just below the tip of the breastbone.",
+   "act": "Front-Mu point of the Heart: calms the mind, opens the chest."
+  },
+  "RM 17": {
+   "loc": "In the middle of the breastbone, between the two nipples.",
+   "act": "Meeting point of Qi: opens the chest, regulates breathing."
+  },
+  "RM 22": {
+   "loc": "In the center of the hollow above the breastbone. Press gently downward, never toward the throat.",
+   "act": "Makes Lung Qi descend, loosens the throat, calms coughing."
+  },
+  "Yin Tang": {
+   "loc": "Between the eyebrows, in the middle.",
+   "act": "Calms the mind, helps sleep, soothes the forehead and nose."
+  },
+  "Tai Yang": {
+   "loc": "In the hollow of the temple, 1 cun behind the point midway between the end of the eyebrow and the outer corner of the eye.",
+   "act": "Eases headaches at the temples and soothes the eyes."
+  },
+  "An Mian": {
+   "loc": "Behind the ear, halfway between TE 17 and GB 20.",
+   "act": "“Peaceful Sleep”: calms the mind, helps you fall asleep."
+  },
+  "Ding Chuan": {
+   "loc": "0.5 cun on each side of the most prominent vertebra at the base of the neck.",
+   "act": "“Calm Asthma”: eases coughing and wheezing."
+  },
+  "Nei Xi Yan": {
+   "loc": "Knee bent, in the hollow below the kneecap, on the inner side of the kneecap tendon.",
+   "act": "Soothes the knee, expels local Cold and Dampness."
+  },
+  "He Ding": {
+   "loc": "Above the kneecap, in the hollow at the middle of its upper edge.",
+   "act": "Moves Qi and Blood in the knee."
+  },
+  "Bai Chong Wo": {
+   "loc": "Knee bent, 3 cun above the upper inner corner of the kneecap (1 cun above SP 10).",
+   "act": "“Nest of a Hundred Insects”: calms itching."
+  },
+  "Zi Gong": {
+   "loc": "4 cun below the navel, 3 cun on each side of the midline.",
+   "act": "Regulates the uterus and periods."
+  },
+  "Ah Shi": {
+   "loc": "The most tender point or points when you press around the painful area. Search with your thumb: you'll know you've found it when you say “ah, that's it”.",
+   "act": "Unblocks Qi and Blood locally."
+  },
+  "F 1": {
+   "loc": "On the big toe, outer side (toward the 2nd toe), 2 mm from the corner of the nail.",
+   "act": "Warms and frees the Liver meridian, eases pain in the lower belly and genitals."
+  },
+  "V 52": {
+   "loc": "On the lower back, 3 cun from the spine (four finger-widths), level with the 2nd lumbar vertebra, i.e. at the waist.",
+   "act": "“Residence of the Will”: strengthens the Kidney, willpower and sexual health."
+  }
+ }
+}
