@@ -1,0 +1,1684 @@
+{
+ "fiches": [
+  {
+   "id": "amandons-noix-miel",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 500,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Honeyed sweet apricot kernels and walnuts",
+   "zh": "蜜饯双仁",
+   "py": "mìjiàn shuāng rén",
+   "contexte": "A small treat to keep in a jar for a lingering cough in someone who is run-down: sweet apricot kernels moisten the Lung, walnuts strengthen the Kidney, and honey soothes the throat.",
+   "principe": {
+    "zh": "补肺益肾止咳",
+    "py": "Bǔ fèi yì shèn zhǐ ké",
+    "fr": "Tonify the Lung and Kidney, calm the cough"
+   },
+   "precautions": "Only use sweet apricot kernels (nan xing ren): bitter apricot kernels (bei xing ren or ku xing ren) are toxic and are never used in cooking. Avoid if you are allergic to tree nuts. Rich and sweet: 1 to 2 spoonfuls a day at most, and go easy on it if you have diabetes, soft stools or diarrhea. No honey for babies under one year old. A cough that lasts more than three weeks needs a doctor's opinion.",
+   "portions": 8,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "amandons",
+     "q": 60,
+     "u": "g",
+     "nom": "sweet apricot kernels (nan xing ren)",
+     "cle": "amandons-abricot",
+     "note": "In Asian grocery stores or Chinese herbal shops, labeled 南杏仁 (\"southern apricot kernels\", large and flat). Check the label: never 北杏仁 or 苦杏仁, which are the bitter ones."
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "noix",
+     "q": 60,
+     "u": "g",
+     "nom": "walnut halves",
+     "cle": "noix"
+    },
+    {
+     "id": "miel",
+     "q": 60,
+     "u": "g",
+     "nom": "runny honey (about 3 tablespoons)",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Blanch the kernels",
+       "texte": "Drop the kernels ({amandons}) into a small pot of boiling water, then drain them.",
+       "s": 120
+      },
+      {
+       "titre": "Remove the skins",
+       "texte": "Pinch each kernel between two fingers: the thin brown skin slips right off. If you bought them already peeled, skip this step."
+      },
+      {
+       "titre": "Cook the kernels",
+       "texte": "Put the kernels back in the pot with the water ({eau}), bring to a simmer and cook gently, uncovered.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the walnuts",
+       "texte": "Add the walnuts ({noix}) and keep cooking over low heat, stirring, until there is hardly any liquid left in the bottom.",
+       "s": 900
+      },
+      {
+       "titre": "Stir in the honey",
+       "texte": "Turn off the heat and let it cool for a few minutes (honey should not boil), then stir in the honey ({miel}) to coat the nuts well.",
+       "s": 300
+      },
+      {
+       "titre": "Put in a jar",
+       "texte": "Let it cool completely and spoon it into a clean jar. Take one tablespoon in the morning, and another in the evening if needed."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The traditional recipe uses much more honey and family-size amounts: here the quantities are reduced to last about a week.",
+    "Keeps for 1 week in the fridge in a tightly closed jar. Take it out a little ahead so you eat it at room temperature."
+   ],
+   "tags": [
+    "cough",
+    "Lung",
+    "Kidney",
+    "walnuts",
+    "autumn"
+   ]
+  },
+  {
+   "id": "bananes-sesame-noir",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 501,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Bananas with black sesame",
+   "zh": "香蕉粘黑芝麻",
+   "py": "xiāngjiāo zhān hēizhīma",
+   "contexte": "For constipation with dry, hard stools, common in older people, after giving birth or after surgery. Banana moistens the intestines and black sesame nourishes Yin.",
+   "principe": {
+    "zh": "润肠通便",
+    "py": "Rùn cháng tōng biàn",
+    "fr": "Moisten the intestines, ease bowel movements"
+   },
+   "precautions": "Banana is cold in nature: if you have a cold belly or soft stools, choose the steamed version, and avoid it if you have diarrhea. Use very ripe bananas (green ones are constipating). Diabetes: ripe bananas are sweet, so have just one at a time. Sesame allergy: avoid. Constipation that lasts, pain or blood in the stools: see your doctor.",
+   "portions": 2,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "sesame",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "black sesame seeds",
+     "cle": "sesame-noir",
+     "note": "In Asian grocery stores or organic food stores."
+    },
+    {
+     "id": "bananes",
+     "q": 2,
+     "nom": "very ripe bananas",
+     "cle": "banane"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Toast the sesame",
+       "texte": "Put the black sesame ({sesame}) in a dry frying pan over medium-low heat. Stir constantly until it crackles and smells nutty: it should be lightly toasted, not burnt.",
+       "s": 180
+      },
+      {
+       "titre": "Let it cool",
+       "texte": "Tip it onto a plate right away, or it will keep cooking. You can crush it roughly in a mortar: it is easier to digest.",
+       "s": 120
+      },
+      {
+       "titre": "Roll the bananas",
+       "texte": "Peel the bananas ({bananes}), cut them into chunks and roll them in the sesame. Eat right away, as a snack."
+      }
+     ]
+    },
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Toast the sesame",
+       "texte": "Toast the black sesame ({sesame}) in a dry frying pan over medium-low heat, stirring constantly, until it crackles. Tip it onto a plate right away.",
+       "s": 180
+      },
+      {
+       "titre": "Steam the bananas",
+       "texte": "Peel the bananas ({bananes}), cut them into chunks, lay them on a plate in the steamer basket and steam until hot and soft.",
+       "s": 300
+      },
+      {
+       "titre": "Sprinkle and serve",
+       "texte": "Sprinkle with sesame and eat warm: cooking makes the banana less cold for the belly."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You can eat this up to three times a day for a few days, while drinking enough warm water.",
+    "Toast a small jar of sesame ahead of time: it keeps for 2 weeks, tightly closed."
+   ],
+   "tags": [
+    "constipation",
+    "intestines",
+    "black sesame",
+    "banana",
+    "postpartum"
+   ]
+  },
+  {
+   "id": "cacahuetes-sucre-candi",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 502,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Peanuts with rock sugar",
+   "zh": "花生冰糖汤",
+   "py": "huāshēng bīngtáng tāng",
+   "contexte": "A very simple sweet soup for a dry cough that lingers: peanuts moisten the Lung and bring back a little strength, and rock sugar soothes the throat.",
+   "principe": {
+    "zh": "润肺止咳",
+    "py": "Rùn fèi zhǐ ké",
+    "fr": "Moisten the Lung, calm the cough"
+   },
+   "precautions": "Peanut allergy: avoid completely. Peanuts are rich: go easy on them if you digest slowly, or have soft stools or diarrhea. Diabetes: reduce the rock sugar or leave it out. A cough that lasts more than three weeks needs a doctor's opinion.",
+   "portions": 2,
+   "duree": "1 h 15 (+ 1 h soaking)",
+   "ingredients": [
+    {
+     "id": "cacahuetes",
+     "q": 100,
+     "u": "g",
+     "nom": "raw shelled peanuts, with their red skins",
+     "cle": "cacahuetes",
+     "note": "Raw and unsalted, from Asian grocery stores or organic food stores (not roasted snack peanuts)."
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 20,
+     "u": "g",
+     "nom": "rock sugar",
+     "cle": "sucre-candi",
+     "note": "In Asian grocery stores (large white or yellow crystals). If you can't find it, stir in 1 tablespoon of honey off the heat."
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Rinse the peanuts ({cacahuetes}) and soak them in a bowl of cold water: they will cook faster and turn out more tender.",
+       "s": 3600
+      },
+      {
+       "titre": "Simmer gently",
+       "texte": "Drain them and put them in a pot with the water ({eau}). Bring to a boil, then simmer, covered, until they are tender to the bite.",
+       "s": 3600
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Add the rock sugar ({sucre}) and stir until it melts.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve warm in a bowl: eat the peanuts and drink the broth."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Rinse the peanuts ({cacahuetes}) and soak them in a bowl of cold water.",
+       "s": 3600
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put the drained peanuts and the water ({eau}) in the pressure cooker. Close it and start timing once it reaches pressure, over low heat.",
+       "s": 1200
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Let the pressure drop, open, add the rock sugar ({sucre}) and let it melt over low heat, stirring.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Rinse the peanuts ({cacahuetes}) and soak them in a bowl of cold water.",
+       "s": 3600
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the drained peanuts and the water ({eau}) in the inner pot."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Soup or Slow Cook program.",
+       "s": 5400
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Add the rock sugar ({sucre}), stir and leave for 5 minutes on Keep Warm.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Have it once a day, as a snack, while the cough lasts.",
+    "You can add 4 jujubes (Chinese red dates), slit open, at the start of cooking for a sweeter, more nourishing broth."
+   ],
+   "tags": [
+    "dry cough",
+    "Lung",
+    "peanut",
+    "sweet soup",
+    "autumn"
+   ]
+  },
+  {
+   "id": "carottes-miel",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 503,
+   "genre": "dessert",
+   "axe": "rate",
+   "titre": "Honey carrots",
+   "zh": "饯蜜胡萝卜",
+   "py": "jiàn mì húluóbo",
+   "contexte": "For tiredness with slow digestion and constipation where you push without result: carrot strengthens the Spleen and honey moistens the intestines.",
+   "principe": {
+    "zh": "健脾润肠",
+    "py": "Jiàn pí rùn cháng",
+    "fr": "Strengthen the Spleen, moisten the intestines"
+   },
+   "precautions": "Diabetes: halve the honey or replace it with a drizzle of sesame oil. No honey for babies under one year old.",
+   "portions": 2,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "carottes",
+     "q": 250,
+     "u": "g",
+     "nom": "carrots",
+     "cle": "carotte"
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "miel",
+     "q": 2,
+     "u": "tsp",
+     "nom": "honey",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cut the carrots",
+       "texte": "Peel the carrots ({carottes}) and cut them into half-inch rounds or sticks."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Drop them into the boiling water ({eau}) and cook until the tip of a knife slides through with no resistance.",
+       "s": 900
+      },
+      {
+       "titre": "Drizzle with honey",
+       "texte": "Drain them and let them cool a little before adding the honey ({miel}), which should not be cooked. Eat warm.",
+       "s": 180
+      }
+     ]
+    },
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Cut the carrots",
+       "texte": "Peel the carrots ({carottes}) and cut them into half-inch rounds or sticks."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Lay them in the steamer basket over the simmering water ({eau}) and steam until very tender.",
+       "s": 1200
+      },
+      {
+       "titre": "Drizzle with honey",
+       "texte": "Let them cool a little before adding the honey ({miel}), which should not be cooked. Eat warm.",
+       "s": 180
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Traditionally, this is eaten twice a day, as a snack, for one to two weeks.",
+    "Steaming keeps more of the carrot's natural sweetness: you can then use even less honey."
+   ],
+   "tags": [
+    "constipation",
+    "Spleen",
+    "fatigue",
+    "carrot",
+    "digestion"
+   ]
+  },
+  {
+   "id": "compotee-cerises-longanes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 504,
+   "genre": "dessert",
+   "axe": "sang",
+   "titre": "Cherry and longan compote with goji",
+   "zh": "樱桃龙眼羹",
+   "py": "yīngtáo lóngyǎn gēng",
+   "contexte": "A warm compote that tonifies Qi and nourishes Blood: for tiredness with a pale complexion, light sleep, eyesight that fades at dusk, or aching joints from lack of Blood. If you have been diagnosed with anemia, it goes alongside your medical care and never replaces it.",
+   "principe": {
+    "zh": "补气养血",
+    "py": "Bǔ qì yǎng xuè",
+    "fr": "Tonify Qi, nourish Blood"
+   },
+   "precautions": "Longans and cherries are slightly warming: go easy on them if you often feel hot or have a dry mouth or mouth ulcers. Diabetes: no added sugar, and a small portion.",
+   "portions": 2,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "longanes",
+     "q": 20,
+     "u": "g",
+     "nom": "dried longans (long yan rou)",
+     "cle": "longane",
+     "note": "In Asian grocery stores, in bags (龙眼肉). Or 30 g of fresh longans, peeled and pitted."
+    },
+    {
+     "id": "goji",
+     "q": 20,
+     "u": "g",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "cerises",
+     "q": 200,
+     "u": "g",
+     "nom": "fresh cherries",
+     "cle": "cerises",
+     "note": "Out of season, frozen pitted cherries work well."
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sugar (optional)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Pit the cherries",
+       "texte": "Wash the cherries ({cerises}), remove the stems and take out the pits with a small knife or a cherry pitter."
+      },
+      {
+       "titre": "Plump them up",
+       "texte": "Put the longans ({longanes}) and goji ({goji}) in a pot with the water ({eau}). Bring to a simmer and cook gently until they are nicely plump.",
+       "s": 900
+      },
+      {
+       "titre": "Add the cherries",
+       "texte": "Add the cherries and cook over low heat, just until they soften.",
+       "s": 300
+      },
+      {
+       "titre": "Taste and serve",
+       "texte": "Taste: the fruit is already sweet, so only add the sugar ({sucre}) if needed. Serve warm, with the juice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "This uses more cherries than the traditional recipe, to make a real compote.",
+    "Keeps for 2 days in the fridge: warm it up gently before eating."
+   ],
+   "tags": [
+    "Blood",
+    "fatigue",
+    "sleep",
+    "cherries",
+    "longan",
+    "summer"
+   ]
+  },
+  {
+   "id": "gateau-bu-shen",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 505,
+   "genre": "dessert",
+   "axe": "essence",
+   "titre": "\"Kidney-filling\" steamed cake",
+   "zh": "补肾糕",
+   "py": "bǔ shèn gāo",
+   "contexte": "A soft steamed cake with walnuts, chestnuts, Chinese yam, longans and goji. It nourishes the Blood and the Yin of the Liver and Kidney and gently warms the Kidney: for a weak or aching lower back and knees, and eyesight that fades at dusk.",
+   "principe": {
+    "zh": "补益肝肾",
+    "py": "Bǔ yì gān shèn",
+    "fr": "Tonify the Liver and Kidney"
+   },
+   "precautions": "Contains walnuts and eggs: watch out for allergies (you can replace the walnuts with pumpkin seeds). Sweet and high in flour: a small slice if you have diabetes. Rich and a little sticky: go easy on it if you digest slowly or have a bloated belly.",
+   "portions": 6,
+   "duree": "1 h 30",
+   "ingredients": [
+    {
+     "id": "longanes",
+     "q": 20,
+     "u": "g",
+     "nom": "dried longans, roughly chopped",
+     "cle": "longane",
+     "note": "In Asian grocery stores, in bags (龙眼肉)."
+    },
+    {
+     "id": "goji",
+     "q": 20,
+     "u": "g",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 200,
+     "u": "ml",
+     "nom": "lukewarm water, for soaking",
+     "base": true
+    },
+    {
+     "id": "igname",
+     "q": 300,
+     "u": "g",
+     "nom": "fresh Chinese yam (shan yao)",
+     "cle": "shan-yao",
+     "note": "Peel it wearing gloves: its sap makes your skin itch. If you can't find it, use sweet potato (the effect on the Kidney is weaker)."
+    },
+    {
+     "id": "chataignes",
+     "q": 150,
+     "u": "g",
+     "nom": "cooked, peeled chestnuts (vacuum-packed or in a jar)",
+     "cle": "chataignes"
+    },
+    {
+     "id": "oeufs",
+     "q": 2,
+     "nom": "eggs",
+     "cle": "oeuf"
+    },
+    {
+     "id": "sucre",
+     "q": 30,
+     "u": "g",
+     "nom": "whole cane sugar",
+     "cle": "sucre-complet"
+    },
+    {
+     "id": "farine",
+     "q": 80,
+     "u": "g",
+     "nom": "glutinous rice flour",
+     "cle": "riz-gluant",
+     "note": "In Asian grocery stores (糯米粉). It gives the cake its soft, slightly springy texture."
+    },
+    {
+     "id": "noix",
+     "q": 40,
+     "u": "g",
+     "nom": "walnut halves, roughly chopped",
+     "cle": "noix"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "neutral oil, for the pan",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Soak the dried fruit",
+       "texte": "Put the longans ({longanes}) and goji ({goji}) to soak in the lukewarm water ({eau}): they plump up while you prepare the rest."
+      },
+      {
+       "titre": "Steam the yam",
+       "texte": "Peel the yam ({igname}), cut it into chunks and steam until it mashes easily.",
+       "s": 1200
+      },
+      {
+       "titre": "Make the purée",
+       "texte": "Mash the yam while still hot with the chestnuts ({chataignes}), using a fork or a potato masher, until smooth. Let it cool a little.",
+       "s": 600
+      },
+      {
+       "titre": "Make the batter",
+       "texte": "Beat the eggs ({oeufs}) with the sugar ({sucre}) and add them to the purée. Stir in the glutinous rice flour ({farine}): the batter should be thick and sticky."
+      },
+      {
+       "titre": "Add the fruit",
+       "texte": "Drain the longans and goji. Mix the longans, half the goji and three quarters of the walnuts ({noix}) into the batter."
+      },
+      {
+       "titre": "Fill the pan",
+       "texte": "Oil ({huile}) a 7-inch round pan or a heatproof bowl. Pour in the batter, smooth the top with a wet spoon and sprinkle with the rest of the goji and walnuts. Cover with a sheet of parchment paper so drops of steam don't fall on it."
+      },
+      {
+       "titre": "Steam the cake",
+       "texte": "Set the pan in the steamer basket over rapidly simmering water, lid on. The cake is done when a knife inserted in the center comes out clean.",
+       "s": 2100
+      },
+      {
+       "titre": "Let it rest",
+       "texte": "Let it cool a little before turning it out and cutting it into slices: it firms up as it cools.",
+       "s": 900
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Keep the slices for 3 days in the fridge and reheat them for 5 minutes in the steamer.",
+    "A wok with a rack and a lid works just as well as a steamer."
+   ],
+   "tags": [
+    "Kidney",
+    "lower back",
+    "knees",
+    "chestnuts",
+    "Chinese yam",
+    "winter"
+   ]
+  },
+  {
+   "id": "gateau-igname-fruits-secs",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 506,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Steamed Chinese yam cake with dried fruit",
+   "zh": "异品山药饼",
+   "py": "yì pǐn shānyào bǐng",
+   "contexte": "A steamed Chinese yam cake topped with dried fruit and a light glaze, which nourishes Yin and tonifies the Kidney. For tiredness; if you have diabetes, it goes alongside your medical care without replacing it, and only as a small slice.",
+   "principe": {
+    "zh": "滋阴补肾",
+    "py": "Zī yīn bǔ shèn",
+    "fr": "Nourish Yin, tonify the Kidney"
+   },
+   "precautions": "Diabetes: flour, dried fruit and honey raise blood sugar; have a small slice, with your doctor's approval, and leave the honey out of the glaze. Contains wheat (gluten) and walnuts: watch out for allergies. No honey for babies under one year old.",
+   "portions": 6,
+   "duree": "1 h 15",
+   "ingredients": [
+    {
+     "id": "igname",
+     "q": 400,
+     "u": "g",
+     "nom": "fresh Chinese yam (shan yao)",
+     "cle": "shan-yao",
+     "note": "In Asian grocery stores. Peel it wearing gloves: its sap makes your skin itch."
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "coconut oil or neutral oil",
+     "base": true,
+     "note": "Coconut oil gives a mild flavor and a more tender dough."
+    },
+    {
+     "id": "farine",
+     "q": 120,
+     "u": "g",
+     "nom": "wheat flour",
+     "cle": "ble"
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates), pitted",
+     "cle": "dattes"
+    },
+    {
+     "id": "noix",
+     "q": 30,
+     "u": "g",
+     "nom": "walnut halves",
+     "cle": "noix"
+    },
+    {
+     "id": "raisins",
+     "q": 30,
+     "u": "g",
+     "nom": "raisins",
+     "cle": "raisin"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 150,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "agar",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "agar-agar powder (about 1 g)",
+     "cle": "agar-agar",
+     "note": "In organic food stores or the baking aisle."
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "honey",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Steam the yam",
+       "texte": "Peel the yam ({igname}), dice it and steam until very tender.",
+       "s": 1200
+      },
+      {
+       "titre": "Make the dough",
+       "texte": "Mash the hot yam with one tablespoon of the oil ({huile}). Add the flour ({farine}) little by little and mix until you have a soft dough that no longer sticks to your fingers."
+      },
+      {
+       "titre": "Prepare the topping",
+       "texte": "Cut the jujubes ({dattes}) into strips, roughly chop the walnuts ({noix}), and rinse the raisins ({raisins}) and goji ({goji})."
+      },
+      {
+       "titre": "Shape the cake",
+       "texte": "Oil a deep plate or an 8-inch pan with the rest of the oil. Spread the dough about 3/4 inch thick and press the topping lightly into the surface."
+      },
+      {
+       "titre": "Steam the cake",
+       "texte": "Steam in the steamer basket, lid on, over rapidly simmering water.",
+       "s": 1200
+      },
+      {
+       "titre": "Make the glaze",
+       "texte": "In a small pot, stir the agar-agar ({agar}) into the water ({eau}). Bring to a boil and let it boil, stirring, so it dissolves completely.",
+       "s": 120
+      },
+      {
+       "titre": "Add the honey",
+       "texte": "Off the heat, wait one minute, then stir the honey ({miel}) into the glaze."
+      },
+      {
+       "titre": "Glaze",
+       "texte": "Right away, pour the glaze in a thin layer over the still-warm cake and let it set before cutting it into slices.",
+       "s": 900
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Vary the dried fruit with what you have: dried apricots, figs, pumpkin seeds.",
+    "Keeps for 2 days in the fridge; take it out a while ahead so you eat it at room temperature."
+   ],
+   "tags": [
+    "Yin",
+    "Kidney",
+    "Chinese yam",
+    "fatigue",
+    "dried fruit"
+   ]
+  },
+  {
+   "id": "salade-radis-blanc",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 507,
+   "genre": "salade",
+   "axe": "exterieur",
+   "titre": "Daikon salad with sesame oil",
+   "zh": "凉拌萝卜",
+   "py": "liángbàn luóbo",
+   "contexte": "A raw, peppery, refreshing salad for the start of a Wind-Heat cold: sore throat, cough with yellowish phlegm, headache or red eyes. Daikon helps clear Phlegm and brings Qi downward.",
+   "principe": {
+    "zh": "疏风化痰降气",
+    "py": "Shū fēng huà tán jiàng qì",
+    "fr": "Disperse Wind, transform Phlegm, bring Qi down"
+   },
+   "precautions": "Raw and cooling: limit it if your digestion is weak, or if you have a cold belly or soft stools. High fever, a very sore throat, a sticky eye or a cough that lingers: see your doctor.",
+   "portions": 4,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "radis",
+     "q": 500,
+     "u": "g",
+     "nom": "daikon (white radish)",
+     "cle": "radis-blanc",
+     "note": "At the market or in Asian grocery stores, sometimes sold as Chinese white radish or mooli."
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Cut the daikon",
+       "texte": "Wash and peel the daikon ({radis}). Grate it coarsely, or slice it thinly and then into matchsticks."
+      },
+      {
+       "titre": "Salt",
+       "texte": "Toss it with the salt ({sel}) and let it rest: it releases its water and loses some of its bite.",
+       "s": 600
+      },
+      {
+       "titre": "Squeeze",
+       "texte": "Squeeze it between your hands over the sink to remove the released water. Taste: if it's too salty, rinse it quickly and squeeze again."
+      },
+      {
+       "titre": "Dress",
+       "texte": "Drizzle with sesame oil ({huile}), toss and serve as a starter or with the meal, at room temperature."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Add a sliced spring onion or a few cilantro leaves if you like.",
+    "Keeps for a day in the fridge; take it out 30 minutes before eating."
+   ],
+   "tags": [
+    "cold",
+    "throat",
+    "cough",
+    "daikon",
+    "Phlegm"
+   ]
+  },
+  {
+   "id": "salade-bambou-algues",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 508,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Bamboo shoot and kombu salad",
+   "zh": "凉拌竹笋海带",
+   "py": "liángbàn zhúsǔn hǎidài",
+   "contexte": "A cooling salad for a cough with thick yellow phlegm, sometimes with wheezing: bamboo shoots and kombu clear Heat, transform Phlegm and bring Qi downward.",
+   "principe": {
+    "zh": "清热化痰",
+    "py": "Qīng rè huà tán",
+    "fr": "Clear Heat, transform Phlegm"
+   },
+   "precautions": "Very cooling: avoid it if you have a cold belly, soft stools or weak digestion. Kombu is very high in iodine: once or twice a week at most, and ask your doctor if you have a thyroid problem or are pregnant. Soy sauce is salty: go easy on it if you have high blood pressure. Shortness of breath or an asthma attack: see your doctor.",
+   "portions": 2,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "algues",
+     "q": 15,
+     "u": "g",
+     "nom": "dried kombu",
+     "cle": "algues",
+     "note": "In Asian grocery stores (海带, hai dai) or organic food stores. The white powder on the surface is normal: don't scrub it off."
+    },
+    {
+     "id": "bambou",
+     "q": 150,
+     "u": "g",
+     "nom": "precooked bamboo shoots (canned or vacuum-packed), drained",
+     "cle": "pousses-bambou"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the kombu",
+       "texte": "Rinse the kombu ({algues}) and soak it in a large bowl of cold water: it swells and softens.",
+       "s": 1800
+      },
+      {
+       "titre": "Cut",
+       "texte": "Drain the kombu and cut it into thin strips. Slice the bamboo shoots ({bambou}) thinly."
+      },
+      {
+       "titre": "Cook the kombu",
+       "texte": "Drop the kombu strips into the boiling water ({eau}) and cook until tender.",
+       "s": 600
+      },
+      {
+       "titre": "Blanch the bamboo",
+       "texte": "Add the bamboo shoots to the pot for the last few minutes: this removes the canned taste.",
+       "s": 180
+      },
+      {
+       "titre": "Drain",
+       "texte": "Drain everything and let it cool to lukewarm in the colander.",
+       "s": 600
+      },
+      {
+       "titre": "Dress",
+       "texte": "Arrange on a plate, drizzle with soy sauce ({soja}) and sesame oil ({huile}), toss and serve at room temperature."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You can add a little fresh ginger, cut into fine threads, to soften the cooling effect of the dish."
+   ],
+   "tags": [
+    "cough",
+    "Phlegm",
+    "Lung",
+    "seaweed",
+    "bamboo"
+   ]
+  },
+  {
+   "id": "concombre-ecrase-ail",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 509,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Smashed cucumber with garlic",
+   "zh": "拍黄瓜",
+   "py": "pāi huángguā",
+   "contexte": "The great classic of Chinese summer salads: cucumber cools and quenches thirst, while garlic and vinegar wake up the appetite and temper its coolness. Ideal in hot weather, when you are thirsty and not very hungry.",
+   "principe": {
+    "zh": "清热生津",
+    "py": "Qīng rè shēng jīn",
+    "fr": "Clear Heat, generate body fluids"
+   },
+   "precautions": "Raw and cooling: limit it if your digestion is weak, or if you have a cold belly or soft stools. Raw garlic: go easy on it if you have heartburn.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "concombre",
+     "q": 1,
+     "nom": "cucumber (about 12 oz)",
+     "cle": "concombre"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "ail",
+     "q": 2,
+     "nom": "garlic cloves",
+     "cle": "ail"
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "rice vinegar or cider vinegar",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sugar",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Smash the cucumber",
+       "texte": "Wash the cucumber ({concombre}) and lay it on the cutting board. Smash it with one sharp blow of the flat of a large knife or a rolling pin, then cut it into rough chunks."
+      },
+      {
+       "titre": "Salt",
+       "texte": "Salt it ({sel}) and let it release its water, then pour the water off.",
+       "s": 600
+      },
+      {
+       "titre": "Make the dressing",
+       "texte": "Finely chop the garlic ({ail}) and mix it with the vinegar ({vinaigre}), soy sauce ({soja}), sugar ({sucre}) and sesame oil ({huile})."
+      },
+      {
+       "titre": "Toss",
+       "texte": "Pour the dressing over the cucumber, toss and let it rest a little so it soaks up the flavors.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Smashed rather than sliced, the cucumber soaks up the dressing much better.",
+    "A little chopped fresh cilantro goes very well with it."
+   ],
+   "tags": [
+    "summer",
+    "thirst",
+    "Heat",
+    "cucumber",
+    "garlic"
+   ]
+  },
+  {
+   "id": "salade-chou-chinois",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 510,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Chinese cabbage salad with vinegar",
+   "zh": "凉拌白菜心",
+   "py": "liángbàn báicài xīn",
+   "contexte": "A crunchy, tangy salad that cools, opens the appetite and helps you digest a rich meal. Ginger and spring onion temper the cabbage's coolness.",
+   "principe": {
+    "zh": "清热和胃",
+    "py": "Qīng rè hé wèi",
+    "fr": "Clear Heat, harmonize the Stomach"
+   },
+   "precautions": "Raw and cooling: limit it if your digestion is weak, or if you have a cold belly or soft stools. Vinegar: go easy on it if you have heartburn.",
+   "portions": 3,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "chou",
+     "q": 300,
+     "u": "g",
+     "nom": "Chinese cabbage (napa) heart, the inner leaves",
+     "cle": "chou-chinois"
+    },
+    {
+     "id": "carotte",
+     "q": 1,
+     "nom": "carrot",
+     "cle": "carotte"
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "nom": "piece of fresh ginger, about 1 inch",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "spring onion",
+     "cle": "cebette"
+    },
+    {
+     "id": "vinaigre",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "rice vinegar",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sugar",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Slice the vegetables",
+       "texte": "Cut the cabbage ({chou}) crosswise into thin strips. Peel the carrot ({carotte}) and cut it into fine julienne."
+      },
+      {
+       "titre": "Salt",
+       "texte": "Toss the cabbage and carrot with the salt ({sel}) and let them rest, then squeeze lightly to remove the released water.",
+       "s": 600
+      },
+      {
+       "titre": "Make the dressing",
+       "texte": "Peel the ginger ({gingembre}) and cut it into fine threads. Slice the spring onion ({cebette}). Mix the vinegar ({vinaigre}), sugar ({sucre}) and sesame oil ({huile})."
+      },
+      {
+       "titre": "Toss",
+       "texte": "Pour the dressing over the vegetables, add the ginger and spring onion, toss and let it rest a little before serving.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Save the tougher outer cabbage leaves for a soup or a stir-fry."
+   ],
+   "tags": [
+    "digestion",
+    "Stomach",
+    "Chinese cabbage",
+    "appetite"
+   ]
+  },
+  {
+   "id": "salade-wakame-sesame",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 511,
+   "genre": "salade",
+   "axe": "humidite",
+   "titre": "Wakame salad with sesame",
+   "zh": "凉拌裙带菜",
+   "py": "liángbàn qúndàicài",
+   "contexte": "A small salad with a taste of the sea: wakame, salty and cooling, helps transform Phlegm and clear excess water; ginger protects the Stomach and black sesame nourishes.",
+   "principe": {
+    "zh": "化痰利水",
+    "py": "Huà tán lì shuǐ",
+    "fr": "Transform Phlegm, drain water"
+   },
+   "precautions": "Cooling: limit it if your digestion is weak, or if you have a cold belly or soft stools. Seaweed is high in iodine: no more than twice a week, and ask your doctor if you have a thyroid problem or are pregnant. Sesame allergy: avoid.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "wakame",
+     "q": 10,
+     "u": "g",
+     "nom": "dried wakame seaweed",
+     "cle": "wakame",
+     "note": "In Asian grocery stores or organic food stores. It swells enormously: 10 g is enough for two."
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "cold water, for soaking",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "grated fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "rice vinegar",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sugar",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "toasted black sesame seeds",
+     "cle": "sesame-noir"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Rehydrate the seaweed",
+       "texte": "Soak the wakame ({wakame}) in the cold water ({eau}): it unfolds and swells.",
+       "s": 600
+      },
+      {
+       "titre": "Drain",
+       "texte": "Drain it, squeeze it gently and cut any pieces that are too long. Remove any tough ribs."
+      },
+      {
+       "titre": "Make the dressing",
+       "texte": "Mix the ginger ({gingembre}), vinegar ({vinaigre}), soy sauce ({soja}), sugar ({sucre}) and sesame oil ({huile})."
+      },
+      {
+       "titre": "Toss",
+       "texte": "Pour the dressing over the seaweed, toss, sprinkle with black sesame ({sesame}) and let it rest a little before serving.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Add cucumber slices or strips of daikon for a heartier salad."
+   ],
+   "tags": [
+    "seaweed",
+    "Phlegm",
+    "water retention",
+    "sesame"
+   ]
+  },
+  {
+   "id": "tofu-cebette",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 512,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Cold tofu with spring onion",
+   "zh": "小葱拌豆腐",
+   "py": "xiǎocōng bàn dòufu",
+   "contexte": "A very simple classic: tofu cools and hydrates, while spring onion brings a little warmth and helps you digest it. Perfect in summer, when you feel hot and have a dry mouth.",
+   "principe": {
+    "zh": "清热润燥",
+    "py": "Qīng rè rùn zào",
+    "fr": "Clear Heat, moisten Dryness"
+   },
+   "precautions": "Cooling: limit it if your digestion is weak, or if you have a cold belly or soft stools, and then choose the blanched version, served warm. Soy allergy: avoid.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "tofu",
+     "q": 300,
+     "u": "g",
+     "nom": "firm or silken tofu",
+     "cle": "tofu"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "water, for blanching",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions",
+     "cle": "cebette"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Blanch the tofu",
+       "texte": "Cut the tofu ({tofu}) into 3/4-inch cubes. Drop them into the lightly salted simmering water ({eau}): this removes the raw soy taste and makes it less cold.",
+       "s": 120
+      },
+      {
+       "titre": "Drain",
+       "texte": "Lift the cubes out gently with a slotted spoon and let them drain and cool slightly.",
+       "s": 300
+      },
+      {
+       "titre": "Slice the spring onion",
+       "texte": "Finely slice the spring onions ({cebette}), both green and white parts."
+      },
+      {
+       "titre": "Season",
+       "texte": "Sprinkle the tofu with the spring onion and salt ({sel}), drizzle with soy sauce ({soja}) and sesame oil ({huile}). Toss gently and serve."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Cut the tofu",
+       "texte": "Drain the tofu ({tofu}), pat it dry with paper towels and cut it into 3/4-inch cubes."
+      },
+      {
+       "titre": "Slice the spring onion",
+       "texte": "Finely slice the spring onions ({cebette}), both green and white parts."
+      },
+      {
+       "titre": "Season",
+       "texte": "Sprinkle the tofu with the spring onion and salt ({sel}), drizzle with soy sauce ({soja}) and sesame oil ({huile}). Toss gently and serve."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Silken tofu is meltingly soft, firm tofu holds its shape better: choose according to your taste."
+   ],
+   "tags": [
+    "tofu",
+    "summer",
+    "Heat",
+    "spring onion"
+   ]
+  },
+  {
+   "id": "soupe-azuki-sucree",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 513,
+   "genre": "dessert",
+   "axe": "humidite",
+   "titre": "Sweet adzuki bean soup with tangerine peel",
+   "zh": "陈皮红豆汤",
+   "py": "chénpí hóngdòu tāng",
+   "contexte": "A very common Chinese sweet soup: adzuki beans drain Dampness and help reduce swelling, while tangerine peel moves Qi and eases digestion. For a heavy body, swollen legs and sluggish digestion.",
+   "principe": {
+    "zh": "健脾利湿",
+    "py": "Jiàn pí lì shī",
+    "fr": "Strengthen the Spleen, drain Dampness"
+   },
+   "precautions": "Diabetes: reduce the sugar or leave it out (the soup is also good barely sweetened). Adzuki beans make you urinate: go easy on them if you already urinate a lot or are very dry (dry mouth and skin).",
+   "portions": 4,
+   "duree": "1 h 30 (+ soaking overnight)",
+   "ingredients": [
+    {
+     "id": "azuki",
+     "q": 150,
+     "u": "g",
+     "nom": "adzuki beans",
+     "cle": "azuki"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "chenpi",
+     "q": 5,
+     "u": "g",
+     "nom": "dried tangerine peel (chen pi)",
+     "cle": "mandarine",
+     "note": "In Asian grocery stores or Chinese herbal shops (陈皮). If you can't find it, use the zest of an organic tangerine, dried for a few days."
+    },
+    {
+     "id": "sucre",
+     "q": 40,
+     "u": "g",
+     "nom": "rock sugar",
+     "cle": "sucre-candi",
+     "note": "Chinese recipes often use twice as much: adjust to your taste."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the night before",
+       "texte": "Rinse the adzuki beans ({azuki}), cover them generously with cold water and let them soak overnight."
+      },
+      {
+       "titre": "Start cooking",
+       "texte": "Drain them and put them in a pot with the water ({eau}) and the tangerine peel ({chenpi}). Bring to a boil, then simmer with the lid ajar.",
+       "s": 3600
+      },
+      {
+       "titre": "Keep cooking",
+       "texte": "Stir now and then and add a little water if needed: the beans should crush easily between your fingers and the soup should thicken.",
+       "s": 1800
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Remove the peel, add the rock sugar ({sucre}) and salt ({sel}), and let it melt over low heat.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Soak the night before",
+       "texte": "Rinse the adzuki beans ({azuki}), cover them generously with cold water and let them soak overnight."
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put the drained beans, the water ({eau}) and the tangerine peel ({chenpi}) in the pressure cooker. Close it and start timing once it reaches pressure, over low heat.",
+       "s": 1500
+      },
+      {
+       "titre": "Let the pressure drop",
+       "texte": "Turn off the heat and let the pressure drop on its own: the beans finish softening.",
+       "s": 900
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Remove the peel, add the rock sugar ({sucre}) and salt ({sel}), and let it melt over low heat.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Soak the night before",
+       "texte": "Rinse the adzuki beans ({azuki}), cover them generously with cold water and let them soak overnight."
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the drained beans, the water ({eau}) and the tangerine peel ({chenpi}) in the inner pot."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Soup or Slow Cook program.",
+       "s": 7200
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Remove the peel, add the rock sugar ({sucre}) and salt ({sel}), stir and leave for 5 minutes on Keep Warm.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Eat it hot in winter and warm in summer. Keeps for 3 days in the fridge.",
+    "For a more nourishing version, add 4 jujubes (Chinese red dates) or a handful of lotus seeds with the beans."
+   ],
+   "tags": [
+    "adzuki",
+    "Dampness",
+    "heavy legs",
+    "sweet soup",
+    "Spleen"
+   ]
+  },
+  {
+   "id": "gelee-pasteque",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 514,
+   "genre": "dessert",
+   "axe": "chaleur",
+   "titre": "Watermelon agar jelly",
+   "zh": "西瓜冻",
+   "py": "xīguā dòng",
+   "contexte": "A summer dessert that cools and quenches thirst: watermelon clears Heat, calms the thirst and restlessness of heat-wave days, and makes you urinate.",
+   "principe": {
+    "zh": "清热解暑",
+    "py": "Qīng rè jiě shǔ",
+    "fr": "Clear Heat, relieve summer heat"
+   },
+   "precautions": "Watermelon and agar-agar are cold in nature: avoid if you have a cold belly, soft stools, or painful periods relieved by warmth. Eat it at room temperature, never ice-cold. Diabetes: watermelon raises blood sugar quickly, so have a small portion.",
+   "portions": 4,
+   "duree": "20 min (+ 1 h to set)",
+   "ingredients": [
+    {
+     "id": "pasteque",
+     "q": 600,
+     "u": "g",
+     "nom": "watermelon flesh, rind removed",
+     "cle": "pasteque"
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "agar",
+     "q": 1,
+     "u": "tsp",
+     "nom": "agar-agar powder (about 2 g)",
+     "cle": "agar-agar",
+     "note": "In organic food stores or the baking aisle of supermarkets."
+    },
+    {
+     "id": "menthe",
+     "q": 4,
+     "nom": "fresh mint leaves",
+     "cle": "menthe"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "With a blender or juicer",
+     "etapes": [
+      {
+       "titre": "Blend the watermelon",
+       "texte": "Remove the seeds from the watermelon ({pasteque}), blend the flesh, then strain it through a fine sieve: you should get about 450 ml of juice."
+      },
+      {
+       "titre": "Boil the agar-agar",
+       "texte": "In a small pot, stir the agar-agar ({agar}) into the water ({eau}), bring to a boil and let it boil, stirring.",
+       "s": 120
+      },
+      {
+       "titre": "Add the juice",
+       "texte": "Pour the watermelon juice into the pot, whisking quickly, then leave it over low heat without boiling, just so the mixture stays fully liquid.",
+       "s": 60
+      },
+      {
+       "titre": "Divide",
+       "texte": "Pour right away into 4 small glasses or ramekins."
+      },
+      {
+       "titre": "Let it set",
+       "texte": "Let it set at room temperature, without putting it in the fridge.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Top each glass with a mint leaf ({menthe}) and serve."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "No need for sugar: a really ripe watermelon is sweet enough. A squeeze of lime juice brightens it nicely.",
+    "Keeps for 2 days in the fridge, well covered; take it out half an hour before eating."
+   ],
+   "tags": [
+    "summer",
+    "heat wave",
+    "thirst",
+    "watermelon",
+    "Heat"
+   ]
+  }
+ ]
+}

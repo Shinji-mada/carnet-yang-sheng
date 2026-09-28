@@ -1,5 +1,5 @@
 {
- "version": "0.14.2",
+ "version": "0.15.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -463,380 +463,55 @@
    "zh": "解表"
   }
  ],
- "categories_ingredients": [
+ "genres": [
   {
-   "id": "cereales",
-   "nom": "Grains"
+   "id": "zhou",
+   "nom": "Congees and porridges",
+   "zh": "粥",
+   "py": "zhōu",
+   "texte": "The foundation of Chinese dietetics: grains cooked for a long time, gentle on the Spleen and easy to digest."
   },
   {
-   "id": "legumes",
-   "nom": "Vegetables"
+   "id": "soupe",
+   "nom": "Soups and broths",
+   "zh": "汤",
+   "py": "tāng",
+   "texte": "Soups and decoctions that nourish while warming or cooling."
   },
   {
-   "id": "fruits",
-   "nom": "Fruit"
+   "id": "plat",
+   "nom": "Main dishes",
+   "zh": "菜",
+   "py": "cài",
+   "texte": "Stir-fries, stews and steamed dishes to serve with rice."
   },
   {
-   "id": "viandes",
-   "nom": "Meat and eggs"
+   "id": "salade",
+   "nom": "Salads and cold dishes",
+   "zh": "凉拌",
+   "py": "liángbàn",
+   "texte": "Raw or barely cooked, they cool you down: for summer or Heat, to limit if your digestion is weak."
   },
   {
-   "id": "mer",
-   "nom": "Fish and seafood"
+   "id": "dessert",
+   "nom": "Desserts and sweets",
+   "zh": "甜品",
+   "py": "tiánpǐn",
+   "texte": "Healing sweets, with little sugar."
   },
   {
-   "id": "legumineuses",
-   "nom": "Legumes, tofu, seeds, nuts"
+   "id": "chaud",
+   "nom": "Hot drinks",
+   "zh": "热饮",
+   "py": "rèyǐn",
+   "texte": "Everyday infusions, decoctions and teas."
   },
   {
-   "id": "asie",
-   "nom": "Asian grocery"
-  },
-  {
-   "id": "aromates",
-   "nom": "Seasonings and flowers"
-  }
- ],
- "ingredients": [
-  {
-   "id": "riz",
-   "nom": "Rice",
-   "cat": "cereales"
-  },
-  {
-   "id": "millet",
-   "nom": "Millet",
-   "cat": "cereales"
-  },
-  {
-   "id": "orge-perle",
-   "nom": "Pearl barley",
-   "cat": "cereales"
-  },
-  {
-   "id": "carotte",
-   "nom": "Carrot",
-   "cat": "legumes"
-  },
-  {
-   "id": "courge",
-   "nom": "Squash",
-   "cat": "legumes"
-  },
-  {
-   "id": "patate-douce",
-   "nom": "Sweet potato",
-   "cat": "legumes"
-  },
-  {
-   "id": "epinards",
-   "nom": "Spinach",
-   "cat": "legumes"
-  },
-  {
-   "id": "betterave",
-   "nom": "Beet",
-   "cat": "legumes"
-  },
-  {
-   "id": "celeri",
-   "nom": "Celery",
-   "cat": "legumes"
-  },
-  {
-   "id": "poireau",
-   "nom": "Leek",
-   "cat": "legumes"
-  },
-  {
-   "id": "radis-blanc",
-   "nom": "Daikon (white radish)",
-   "cat": "legumes"
-  },
-  {
-   "id": "oignon",
-   "nom": "Onion",
-   "cat": "legumes"
-  },
-  {
-   "id": "cebette",
-   "nom": "Spring onion (scallion)",
-   "cat": "legumes"
-  },
-  {
-   "id": "pomme-de-terre",
-   "nom": "Potato",
-   "cat": "legumes"
-  },
-  {
-   "id": "brocoli",
-   "nom": "Broccoli",
-   "cat": "legumes"
-  },
-  {
-   "id": "shiitake",
-   "nom": "Shiitake mushrooms",
-   "cat": "legumes"
-  },
-  {
-   "id": "poire",
-   "nom": "Pear",
-   "cat": "fruits"
-  },
-  {
-   "id": "pomme",
-   "nom": "Apple",
-   "cat": "fruits"
-  },
-  {
-   "id": "pruneaux",
-   "nom": "Prunes",
-   "cat": "fruits"
-  },
-  {
-   "id": "orange",
-   "nom": "Orange",
-   "cat": "fruits"
-  },
-  {
-   "id": "oeuf",
-   "nom": "Egg",
-   "cat": "viandes"
-  },
-  {
-   "id": "poulet",
-   "nom": "Chicken",
-   "cat": "viandes"
-  },
-  {
-   "id": "agneau",
-   "nom": "Lamb",
-   "cat": "viandes"
-  },
-  {
-   "id": "boeuf",
-   "nom": "Beef",
-   "cat": "viandes"
-  },
-  {
-   "id": "mouton",
-   "nom": "Mutton",
-   "cat": "viandes"
-  },
-  {
-   "id": "crevettes",
-   "nom": "Shrimp",
-   "cat": "mer"
-  },
-  {
-   "id": "poisson-blanc",
-   "nom": "White fish (cod, sea bass, sea bream, carp)",
-   "cat": "mer"
-  },
-  {
-   "id": "saumon",
-   "nom": "Salmon",
-   "cat": "mer"
-  },
-  {
-   "id": "huitres",
-   "nom": "Oysters",
-   "cat": "mer"
-  },
-  {
-   "id": "moules",
-   "nom": "Mussels",
-   "cat": "mer"
-  },
-  {
-   "id": "poulpe",
-   "nom": "Octopus",
-   "cat": "mer"
-  },
-  {
-   "id": "calamar",
-   "nom": "Squid",
-   "cat": "mer"
-  },
-  {
-   "id": "tofu",
-   "nom": "Tofu",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "lentilles",
-   "nom": "Red lentils",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "mungo",
-   "nom": "Mung beans",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "azuki",
-   "nom": "Adzuki beans",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "haricots-noirs",
-   "nom": "Black beans",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "sesame-noir",
-   "nom": "Black sesame",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "noix",
-   "nom": "Walnuts",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "amandes",
-   "nom": "Almonds",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "dattes",
-   "nom": "Jujubes (Chinese red dates)",
-   "cat": "asie"
-  },
-  {
-   "id": "goji",
-   "nom": "Goji berries",
-   "cat": "asie"
-  },
-  {
-   "id": "longane",
-   "nom": "Dried longans",
-   "cat": "asie"
-  },
-  {
-   "id": "lotus",
-   "nom": "Lotus seeds",
-   "cat": "asie"
-  },
-  {
-   "id": "tremelle",
-   "nom": "Tremella (white fungus)",
-   "cat": "asie"
-  },
-  {
-   "id": "shan-yao",
-   "nom": "Chinese yam (Shan Yao)",
-   "cat": "asie"
-  },
-  {
-   "id": "huang-qi",
-   "nom": "Astragalus (Huang Qi)",
-   "cat": "asie"
-  },
-  {
-   "id": "dang-gui",
-   "nom": "Chinese angelica (Dang Gui)",
-   "cat": "asie"
-  },
-  {
-   "id": "mandarine",
-   "nom": "Tangerine peel (Chen Pi)",
-   "cat": "asie"
-  },
-  {
-   "id": "gingembre",
-   "nom": "Fresh ginger",
-   "cat": "aromates"
-  },
-  {
-   "id": "cannelle",
-   "nom": "Cinnamon",
-   "cat": "aromates"
-  },
-  {
-   "id": "menthe",
-   "nom": "Fresh mint",
-   "cat": "aromates"
-  },
-  {
-   "id": "chrysantheme",
-   "nom": "Chrysanthemum flowers",
-   "cat": "aromates"
-  },
-  {
-   "id": "rose",
-   "nom": "Dried rosebuds",
-   "cat": "aromates"
-  },
-  {
-   "id": "miel",
-   "nom": "Honey",
-   "cat": "aromates"
-  },
-  {
-   "id": "ail",
-   "nom": "Garlic",
-   "cat": "aromates"
-  },
-  {
-   "id": "anis-etoile",
-   "nom": "Star anise",
-   "cat": "aromates"
-  },
-  {
-   "id": "ciboule-chinoise",
-   "nom": "Chinese chives (jiu cai)",
-   "cat": "legumes"
-  },
-  {
-   "id": "fenouil",
-   "nom": "Fennel",
-   "cat": "legumes"
-  },
-  {
-   "id": "concombre",
-   "nom": "Cucumber",
-   "cat": "legumes"
-  },
-  {
-   "id": "chataignes",
-   "nom": "Chestnuts",
-   "cat": "fruits"
-  },
-  {
-   "id": "canard",
-   "nom": "Duck",
-   "cat": "viandes"
-  },
-  {
-   "id": "foies-volaille",
-   "nom": "Chicken livers",
-   "cat": "viandes"
-  },
-  {
-   "id": "os-boeuf",
-   "nom": "Beef marrow bones",
-   "cat": "viandes"
-  },
-  {
-   "id": "qian-shi",
-   "nom": "Euryale seeds (qian shi)",
-   "cat": "asie"
-  },
-  {
-   "id": "wakame",
-   "nom": "Wakame seaweed",
-   "cat": "asie"
-  },
-  {
-   "id": "champignons-noirs",
-   "nom": "Wood ear mushrooms (mu er)",
-   "cat": "asie"
-  },
-  {
-   "id": "graines-fenouil",
-   "nom": "Fennel seeds",
-   "cat": "aromates"
+   "id": "froid",
+   "nom": "Juices and cool drinks",
+   "zh": "鲜汁",
+   "py": "xiānzhī",
+   "texte": "To drink at room temperature, never iced."
   }
  ]
 }

@@ -1,0 +1,1608 @@
+{
+ "fiches": [
+  {
+   "id": "soupe-ble-reglisse-jujubes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 200,
+   "genre": "soupe",
+   "axe": "coeur",
+   "titre": "Soupe de blé, réglisse et jujubes",
+   "zh": "甘麦大枣汤",
+   "py": "gān mài dàzǎo tāng",
+   "contexte": "Une recette classique pour apaiser le Cœur et l'esprit : elle tonifie le Qi et nourrit le Yin. Pour les nuits agitées, la nervosité, l'humeur à fleur de peau, et les bouffées de chaleur avec sueurs nocturnes de la ménopause.",
+   "principe": {
+    "zh": "养心安神",
+    "py": "Yǎng xīn ān shén",
+    "fr": "Nourrir le Cœur, calmer l'esprit"
+   },
+   "precautions": "La réglisse fait monter la tension et retenir l'eau : évite ce plat en cas d'hypertension, de jambes gonflées (œdèmes), de maladie du cœur ou des reins, et pendant la grossesse. Si tu prends un traitement (diurétiques, cortisone, médicaments du cœur), demande d'abord à ton médecin. Pas plus de 2 à 3 semaines d'affilée. Contient du gluten.",
+   "portions": 2,
+   "duree": "1 h 30 (+ trempage 1 nuit)",
+   "ingredients": [
+    {
+     "id": "ble",
+     "q": 50,
+     "u": "g",
+     "nom": "blé en grains (blé entier), rincé",
+     "cle": "ble",
+     "note": "En magasin bio, au rayon céréales (blé tendre ou épeautre en grains)."
+    },
+    {
+     "id": "reglisse",
+     "q": 10,
+     "u": "g",
+     "nom": "racine de réglisse en rondelles (Gan Cao)",
+     "cle": "gan-cao",
+     "note": "En herboristerie chinoise ou en pharmacie spécialisée. La recette traditionnelle en met jusqu'à 15 g ; 10 g suffisent à la maison."
+    },
+    {
+     "id": "dattes",
+     "q": 5,
+     "nom": "dattes rouges (jujubes), fendues",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Faire tremper le blé",
+       "texte": "La veille, rince le blé ({ble}) et laisse-le tremper toute la nuit dans un grand bol d'eau froide."
+      },
+      {
+       "titre": "Préparer la décoction",
+       "texte": "Mets la réglisse ({reglisse}) dans une casserole avec l'eau ({eau}). Porte à ébullition, puis laisse frémir à couvert.",
+       "s": 1200
+      },
+      {
+       "titre": "Retirer la réglisse",
+       "texte": "Retire les rondelles de réglisse avec une écumoire, ou filtre la décoction et remets-la dans la casserole."
+      },
+      {
+       "titre": "Cuire le blé",
+       "texte": "Égoutte le blé et ajoute-le à la décoction avec les dattes ({dattes}). Laisse cuire à feu doux, couvercle entrouvert, en remuant de temps en temps : les grains doivent éclater et le bouillon épaissir. Rajoute un peu d'eau chaude s'il en manque.",
+       "s": 3600
+      },
+      {
+       "titre": "Servir en deux fois",
+       "texte": "Partage en deux bols : un le matin, un le soir, tiède. Mange les grains et les dattes (attention aux noyaux)."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Faire tremper le blé",
+       "texte": "La veille, rince le blé ({ble}) et laisse-le tremper toute la nuit dans un grand bol d'eau froide."
+      },
+      {
+       "titre": "Préparer la décoction",
+       "texte": "Mets la réglisse ({reglisse}) dans la cocotte avec l'eau ({eau}), sans fermer. Porte à ébullition, puis laisse frémir.",
+       "s": 1200
+      },
+      {
+       "titre": "Retirer la réglisse",
+       "texte": "Retire les rondelles de réglisse avec une écumoire."
+      },
+      {
+       "titre": "Cuire sous pression",
+       "texte": "Ajoute le blé égoutté et les dattes ({dattes}). Ferme la cocotte et compte le temps à partir de la mise en pression, à feu doux.",
+       "s": 1500
+      },
+      {
+       "titre": "Laisser reposer",
+       "texte": "Laisse la pression retomber d'elle-même, puis ouvre et remue : le mélange doit être crémeux. Sers en deux fois, matin et soir.",
+       "s": 600
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tu peux la préparer le soir pour le lendemain : elle se garde 2 jours au réfrigérateur. Réchauffe-la avec un peu d'eau.",
+    "On la prend en général 1 à 2 semaines. Si les troubles du sommeil durent, parles-en à un praticien."
+   ],
+   "tags": [
+    "sommeil",
+    "ménopause",
+    "anxiété",
+    "Cœur",
+    "blé"
+   ]
+  },
+  {
+   "id": "bouillon-huitres-gingembre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 201,
+   "genre": "soupe",
+   "axe": "yin",
+   "titre": "Bouillon d'huîtres au gingembre",
+   "zh": "牡蛎汤",
+   "py": "mǔlì tāng",
+   "contexte": "Les huîtres nourrissent le Yin du Foie et du Rein et aident à faire redescendre le Yang qui monte à la tête : maux de tête, vertiges, irritabilité, sueurs nocturnes. En cas d'hypertension, ce bouillon accompagne le suivi médical, il ne le remplace jamais.",
+   "principe": {
+    "zh": "滋阴潜阳",
+    "py": "Zī yīn qián yáng",
+    "fr": "Nourrir le Yin, faire redescendre le Yang"
+   },
+   "precautions": "Allergie aux fruits de mer : à éviter. Les huîtres doivent être très fraîches (coquilles bien fermées) et cuites. Légèrement fraîche : limite si tu as le ventre froid et les selles molles. En cas d'hypertension, sale très peu et garde ton traitement.",
+   "portions": 2,
+   "duree": "1 h 20",
+   "ingredients": [
+    {
+     "id": "huitres",
+     "q": 12,
+     "nom": "huîtres fraîches, avec leurs coquilles",
+     "cle": "huitres",
+     "note": "Demande au poissonnier de les ouvrir et de te donner les coquilles à part. À défaut de coquilles : 30 g de coquille d'huître concassée (Mu Li), en herboristerie chinoise."
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "fécule de maïs ou de pomme de terre"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "gingembre frais, en fine julienne",
+     "cle": "gingembre"
+    },
+    {
+     "id": "ciboulette",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "ciboulette ciselée",
+     "cle": "ciboulette"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Ouvrir les huîtres",
+       "texte": "Ouvre les huîtres ({huitres}) au-dessus d'un bol pour recueillir leur eau. Détache la chair et garde-la au frais. Brosse les coquilles vides sous l'eau froide."
+      },
+      {
+       "titre": "Décocter les coquilles",
+       "texte": "Mets les coquilles dans une grande casserole avec l'eau ({eau}). Porte à ébullition, puis laisse frémir à couvert, à feu doux.",
+       "s": 3600
+      },
+      {
+       "titre": "Filtrer le bouillon",
+       "texte": "Filtre le bouillon dans une passoire fine et jette les coquilles. Ajoute l'eau des huîtres filtrée, la sauce soja ({soja}) et le sel ({sel}), puis remets à frémir."
+      },
+      {
+       "titre": "Enrober les huîtres",
+       "texte": "Égoutte les huîtres et roule-les dans la fécule ({fecule}) : elles resteront moelleuses."
+      },
+      {
+       "titre": "Pocher les huîtres",
+       "texte": "Plonge les huîtres dans le bouillon frémissant avec le gingembre ({gingembre}). Ne fais pas bouillir fort : elles sont cuites quand leurs bords ondulent.",
+       "s": 120
+      },
+      {
+       "titre": "Servir",
+       "texte": "Hors du feu, ajoute la ciboulette ({ciboulette}) et quelques gouttes d'huile de sésame ({sesame}). Sers chaud."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Ouvrir les huîtres",
+       "texte": "Ouvre les huîtres ({huitres}) au-dessus d'un bol pour recueillir leur eau. Détache la chair et garde-la au frais. Brosse les coquilles vides sous l'eau froide."
+      },
+      {
+       "titre": "Décocter sous pression",
+       "texte": "Mets les coquilles dans la cocotte avec l'eau ({eau}). Ferme et compte le temps à partir de la mise en pression, à feu doux.",
+       "s": 1500
+      },
+      {
+       "titre": "Laisser retomber la pression",
+       "texte": "Coupe le feu et laisse la pression retomber d'elle-même.",
+       "s": 600
+      },
+      {
+       "titre": "Filtrer le bouillon",
+       "texte": "Filtre le bouillon et jette les coquilles. Ajoute l'eau des huîtres filtrée, la sauce soja ({soja}) et le sel ({sel}), puis remets à frémir dans la cocotte ouverte."
+      },
+      {
+       "titre": "Enrober les huîtres",
+       "texte": "Égoutte les huîtres et roule-les dans la fécule ({fecule})."
+      },
+      {
+       "titre": "Pocher les huîtres",
+       "texte": "Plonge les huîtres dans le bouillon frémissant avec le gingembre ({gingembre}), sans faire bouillir fort.",
+       "s": 120
+      },
+      {
+       "titre": "Servir",
+       "texte": "Hors du feu, ajoute la ciboulette ({ciboulette}) et quelques gouttes d'huile de sésame ({sesame}). Sers chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "L'eau des huîtres est déjà salée : goûte avant de saler.",
+    "Le bouillon de coquilles se garde 2 jours au réfrigérateur : tu n'as plus qu'à pocher les huîtres au dernier moment."
+   ],
+   "tags": [
+    "huîtres",
+    "vertiges",
+    "maux de tête",
+    "Foie",
+    "Yin"
+   ]
+  },
+  {
+   "id": "soupe-epinards-tremelle",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 202,
+   "genre": "soupe",
+   "axe": "yin",
+   "titre": "Soupe d'épinards et de trémelle",
+   "zh": "菠菜银耳汤",
+   "py": "bōcài yín'ěr tāng",
+   "contexte": "Une soupe douce qui nourrit le Yin et redonne des liquides au corps : pour la bouche sèche, la soif et la constipation avec selles sèches. En cas de diabète, elle accompagne le suivi médical, jamais à la place.",
+   "principe": {
+    "zh": "滋阴润燥",
+    "py": "Zī yīn rùn zào",
+    "fr": "Nourrir le Yin, humidifier la Sécheresse"
+   },
+   "precautions": "Plutôt fraîche : limite-la si tu as le ventre froid ou les selles molles. Les épinards sont riches en oxalates (à modérer si tu fais des calculs rénaux) et en vitamine K : si tu prends un anticoagulant, garde des quantités régulières et parles-en à ton médecin.",
+   "portions": 2,
+   "duree": "1 h 10",
+   "ingredients": [
+    {
+     "id": "tremelle",
+     "q": 10,
+     "u": "g",
+     "nom": "trémelle séchée (champignon blanc)",
+     "cle": "tremelle",
+     "note": "En épicerie asiatique, en boules blondes sous sachet."
+    },
+    {
+     "id": "epinards",
+     "q": 200,
+     "u": "g",
+     "nom": "épinards frais, grosses tiges retirées",
+     "cle": "epinards"
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "tranches de gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "sesame",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tremper la trémelle",
+       "texte": "Fais tremper la trémelle ({tremelle}) dans un grand bol d'eau tiède : elle va gonfler et s'assouplir.",
+       "s": 1800
+      },
+      {
+       "titre": "Préparer",
+       "texte": "Coupe la base dure et jaunâtre de la trémelle, puis déchire-la en petits morceaux. Lave les épinards ({epinards}) à grande eau et coupe-les grossièrement."
+      },
+      {
+       "titre": "Cuire la trémelle",
+       "texte": "Mets la trémelle dans l'eau ({eau}) avec le gingembre ({gingembre}). Porte à ébullition, puis laisse frémir à couvert : elle doit devenir tendre et un peu gélatineuse.",
+       "s": 1800
+      },
+      {
+       "titre": "Ajouter les épinards",
+       "texte": "Ajoute les épinards et laisse cuire juste le temps qu'ils tombent.",
+       "s": 180
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Sale ({sel}), ajoute quelques gouttes d'huile de sésame ({sesame}) et sers chaud, avec du riz ou du pain."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Tremper la trémelle",
+       "texte": "Fais tremper la trémelle ({tremelle}) dans un grand bol d'eau tiède.",
+       "s": 1800
+      },
+      {
+       "titre": "Préparer",
+       "texte": "Coupe la base dure de la trémelle et déchire-la en petits morceaux. Lave les épinards ({epinards}) et coupe-les grossièrement."
+      },
+      {
+       "titre": "Cuire sous pression",
+       "texte": "Mets la trémelle, l'eau ({eau}) et le gingembre ({gingembre}) dans la cocotte. Ferme et compte le temps à partir de la mise en pression, à feu doux.",
+       "s": 600
+      },
+      {
+       "titre": "Ajouter les épinards",
+       "texte": "Laisse retomber la pression, ouvre, ajoute les épinards et laisse frémir à découvert.",
+       "s": 180
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Sale ({sel}), ajoute quelques gouttes d'huile de sésame ({sesame}) et sers chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tu peux en prendre une à deux fois par jour, pendant 3 à 4 semaines.",
+    "Pour une soupe moins âpre, blanchis d'abord les épinards 1 minute dans une autre casserole."
+   ],
+   "tags": [
+    "épinards",
+    "trémelle",
+    "constipation",
+    "soif",
+    "Yin"
+   ]
+  },
+  {
+   "id": "soupe-nori-tofu",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 203,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Soupe d'algues nori et de tofu",
+   "zh": "紫菜豆腐汤",
+   "py": "zǐcài dòufu tāng",
+   "contexte": "Une soupe légère qui aide à transformer les Mucosités (les glaires) et à clarifier la Chaleur. On la conseille aussi en cas de cholestérol élevé : elle accompagne alors le suivi médical, jamais à la place.",
+   "principe": {
+    "zh": "化痰清热",
+    "py": "Huà tán qīng rè",
+    "fr": "Transformer les Mucosités, clarifier la Chaleur"
+   },
+   "precautions": "Les algues sont très riches en iode : si tu as un problème de thyroïde (nodule, goitre, traitement thyroïdien), demande l'avis de ton médecin avant d'en manger souvent. Plutôt fraîche : limite-la si tu as le ventre froid et les selles molles.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "nori",
+     "q": 2,
+     "nom": "feuilles de nori (algue séchée)",
+     "cle": "algues",
+     "note": "Les feuilles pour makis (rayon asiatique des supermarchés), ou environ 5 g d'algue zicai en galette, en épicerie asiatique."
+    },
+    {
+     "id": "tofu",
+     "q": 200,
+     "u": "g",
+     "nom": "tofu soyeux (tendre)",
+     "cle": "tofu"
+    },
+    {
+     "id": "poulet",
+     "q": 60,
+     "u": "g",
+     "nom": "blanc de poulet (facultatif)",
+     "cle": "poulet",
+     "note": "Facultatif : sans poulet, la soupe est tout aussi bonne."
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "tranches de gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 700,
+     "u": "ml",
+     "nom": "eau ou bouillon de légumes",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "cébette, émincée",
+     "cle": "cebette"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Coupe le tofu ({tofu}) en cubes et le poulet ({poulet}) en fines lamelles. Déchire la nori ({nori}) en morceaux."
+      },
+      {
+       "titre": "Chauffer le bouillon",
+       "texte": "Porte l'eau ({eau}) à ébullition avec le gingembre ({gingembre})."
+      },
+      {
+       "titre": "Cuire tofu et poulet",
+       "texte": "Glisse le tofu dans le bouillon et attends la reprise de l'ébullition. Ajoute les lamelles de poulet en les séparant et laisse frémir jusqu'à ce qu'elles soient blanches à cœur.",
+       "s": 240
+      },
+      {
+       "titre": "Ajouter la nori",
+       "texte": "Ajoute la nori au dernier moment : elle se déploie en quelques secondes.",
+       "s": 60
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Sale ({sel}), parsème de cébette ({cebette}) et arrose de quelques gouttes d'huile de sésame ({sesame}). Sers chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Version végétale : fais-la sans poulet, ou remplace-le par quelques shiitakés émincés, ajoutés en même temps que le tofu."
+   ],
+   "tags": [
+    "algues",
+    "tofu",
+    "Mucosités",
+    "cholestérol",
+    "soupe légère"
+   ]
+  },
+  {
+   "id": "soupe-yin-chen-mai-ya",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 204,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Soupe d'armoise capillaire, d'orge germé et de jujubes",
+   "zh": "茵陈麦芽红枣汤",
+   "py": "yīnchén màiyá hóngzǎo tāng",
+   "contexte": "L'armoise capillaire clarifie la Chaleur et draine l'Humidité du Foie ; l'orge germé et les jujubes ménagent la Rate et l'Estomac. On la donne traditionnellement en cas d'hépatite : elle accompagne alors le suivi médical, jamais à la place.",
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clarifier la Chaleur, drainer l'Humidité"
+   },
+   "precautions": "Hépatite, jaunisse (peau ou yeux jaunes), urines foncées : consulte d'abord ton médecin ; cette soupe ne remplace aucun traitement. Plante fraîche : pas en cas de ventre froid et de selles molles. À éviter pendant la grossesse et l'allaitement (l'orge germé peut diminuer le lait). Si tu prends des médicaments, demande l'avis d'un praticien.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "yinchen",
+     "q": 15,
+     "u": "g",
+     "nom": "armoise capillaire séchée (Yin Chen)",
+     "cle": "yin-chen",
+     "note": "En herboristerie chinoise ou en pharmacie spécialisée en plantes chinoises."
+    },
+    {
+     "id": "maiya",
+     "q": 20,
+     "u": "g",
+     "nom": "orge germé séché (Mai Ya)",
+     "cle": "mai-ya",
+     "note": "Au même endroit que l'armoise capillaire."
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "dattes rouges (jujubes), fendues",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau froide",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre de canne complet (facultatif)",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Rincer",
+       "texte": "Rince rapidement l'armoise ({yinchen}), l'orge germé ({maiya}) et les dattes ({dattes})."
+      },
+      {
+       "titre": "Décocter",
+       "texte": "Mets-les dans une casserole avec l'eau froide ({eau}). Porte à ébullition, puis laisse frémir à feu doux, à couvert.",
+       "s": 1800
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre en gardant les dattes et jette le reste. Sucre légèrement ({sucre}) si tu veux."
+      },
+      {
+       "titre": "Boire",
+       "texte": "Bois un demi-bol tiède deux fois par jour, matin et soir, et mange les dattes."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Garde la deuxième portion au réfrigérateur et réchauffe-la doucement avant de la boire."
+   ],
+   "tags": [
+    "Foie",
+    "Humidité",
+    "bouche amère",
+    "digestion",
+    "plantes chinoises"
+   ]
+  },
+  {
+   "id": "soupe-cebette-dou-chi",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 205,
+   "genre": "soupe",
+   "axe": "exterieur",
+   "titre": "Soupe de cébette et de soja fermenté",
+   "zh": "葱豉汤",
+   "py": "cōng chǐ tāng",
+   "contexte": "Un remède de cuisine pour le tout début d'un rhume attrapé par le froid : frissons, nez qui coule clair, éternuements, sans soif ni mal de gorge. Elle ouvre la Surface (la couche extérieure du corps) pour faire transpirer légèrement et chasser le Froid.",
+   "principe": {
+    "zh": "解表散寒",
+    "py": "Jiě biǎo sàn hán",
+    "fr": "Libérer la Surface, disperser le Froid"
+   },
+   "precautions": "Seulement pour un rhume par le froid qui commence. Pas en cas de mal de gorge, de fièvre élevée ou de glaires jaunes. Transpire légèrement, pas à grosses gouttes. Consulte si la fièvre monte, si tu as du mal à respirer ou si ça dure plus de 3 jours. Le miso est salé : modère en cas d'hypertension.",
+   "portions": 1,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "cébettes (la partie blanche, avec les racines)",
+     "cle": "cebette"
+    },
+    {
+     "id": "douchi",
+     "q": 10,
+     "u": "g",
+     "nom": "soja noir fermenté (Dan Dou Chi)",
+     "cle": "dou-chi",
+     "note": "En herboristerie chinoise (Dan Dou Chi, non salé). À défaut, le soja noir fermenté salé des épiceries asiatiques, bien rincé."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "miso",
+     "q": 1,
+     "u": "tsp",
+     "nom": "miso (ou 1 c. à café de sauce soja)",
+     "cle": "miso"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Lave bien les cébettes ({cebette}) en gardant les racines. Coupe les blancs en tronçons de 3 cm (garde le vert pour un autre plat). Rince le soja fermenté ({douchi})."
+      },
+      {
+       "titre": "Cuire le soja",
+       "texte": "Porte l'eau ({eau}) à ébullition, ajoute le soja fermenté et laisse frémir.",
+       "s": 180
+      },
+      {
+       "titre": "Ajouter la cébette",
+       "texte": "Ajoute les blancs de cébette et laisse frémir brièvement pour garder leur parfum.",
+       "s": 120
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Hors du feu, délaie le miso ({miso}) dans une louche de bouillon, puis verse-le dans la casserole : le miso ne doit pas bouillir."
+      },
+      {
+       "titre": "Se couvrir",
+       "texte": "Bois bien chaud, puis couvre-toi (pull, couverture ou couette) et repose-toi jusqu'à transpirer légèrement. Change-toi si tu es humide et évite les courants d'air."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tu peux en reprendre 2 à 3 fois dans la journée tant que les frissons durent ; arrête dès que tu as un peu transpiré."
+   ],
+   "tags": [
+    "rhume",
+    "frissons",
+    "cébette",
+    "Vent-Froid",
+    "hiver"
+   ]
+  },
+  {
+   "id": "soupe-bai-he-zao-ren",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 206,
+   "genre": "soupe",
+   "axe": "coeur",
+   "titre": "Soupe de bulbes de lys aux graines de jujubier sauvage",
+   "zh": "百合枣仁汤",
+   "py": "bǎihé zǎorén tāng",
+   "contexte": "Une soupe du soir qui nourrit le Yin, rafraîchit le Cœur et calme l'esprit : pour l'insomnie, l'agitation, et les bouffées de chaleur avec sueurs nocturnes de la ménopause.",
+   "principe": {
+    "zh": "养阴安神",
+    "py": "Yǎng yīn ān shén",
+    "fr": "Nourrir le Yin, calmer l'esprit"
+   },
+   "precautions": "Utilise uniquement des bulbes de lys vendus pour la cuisine ou en herboristerie, jamais des bulbes de lys de jardin ou de fleuriste. Plutôt fraîche : limite en cas de selles molles. Grossesse, allaitement ou traitement pour dormir (somnifères, anxiolytiques) : demande l'avis d'un praticien.",
+   "portions": 1,
+   "duree": "1 h (+ trempage 1 nuit)",
+   "ingredients": [
+    {
+     "id": "baihe",
+     "q": 20,
+     "u": "g",
+     "nom": "bulbes de lys séchés (Bai He)",
+     "cle": "bai-he",
+     "note": "En épicerie asiatique ou en herboristerie chinoise. Frais (sous vide, au rayon frais) : compte 50 g, sans trempage."
+    },
+    {
+     "id": "zaoren",
+     "q": 15,
+     "u": "g",
+     "nom": "graines de jujubier sauvage (Suan Zao Ren)",
+     "cle": "suan-zao-ren",
+     "note": "En herboristerie chinoise ou en pharmacie spécialisée."
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tremper le lys",
+       "texte": "La veille, fais tremper les bulbes de lys ({baihe}) dans un bol d'eau froide."
+      },
+      {
+       "titre": "Concasser les graines",
+       "texte": "Écrase grossièrement les graines de jujubier ({zaoren}) au pilon, ou dans un sachet avec un rouleau à pâtisserie."
+      },
+      {
+       "titre": "Préparer la décoction",
+       "texte": "Mets les graines dans l'eau ({eau}), porte à ébullition, puis laisse frémir à couvert.",
+       "s": 1800
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre la décoction dans une passoire fine et jette les graines."
+      },
+      {
+       "titre": "Cuire le lys",
+       "texte": "Égoutte les bulbes de lys, ajoute-les à la décoction et laisse cuire à feu moyen jusqu'à ce qu'ils soient tendres.",
+       "s": 1200
+      },
+      {
+       "titre": "Servir le soir",
+       "texte": "Bois la décoction tiède et mange les bulbes, une fois par jour, environ 1 h avant de te coucher."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Si tu trouves le goût un peu amer, ajoute un petit morceau de sucre candi en fin de cuisson."
+   ],
+   "tags": [
+    "sommeil",
+    "ménopause",
+    "sueurs nocturnes",
+    "Cœur",
+    "lys"
+   ]
+  },
+  {
+   "id": "oeufs-gingembre-armoise",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 207,
+   "genre": "soupe",
+   "axe": "yang",
+   "titre": "Œufs au gingembre et à l'armoise",
+   "zh": "生姜艾叶鸡蛋",
+   "py": "shēngjiāng àiyè jīdàn",
+   "contexte": "Un remède maison pour les règles douloureuses quand la douleur est soulagée par la chaleur (une bouillotte sur le ventre) : il réchauffe le bas-ventre, disperse le Froid et calme la douleur.",
+   "principe": {
+    "zh": "温经散寒止痛",
+    "py": "Wēn jīng sàn hán zhǐ tòng",
+    "fr": "Réchauffer les méridiens, disperser le Froid, calmer la douleur"
+   },
+   "precautions": "Plat réchauffant : pas en cas de règles abondantes, en avance ou rouge vif, ni si tu as facilement chaud. Grossesse et allaitement : demande l'avis d'un praticien. Ne dépasse pas la dose et ne le prends pas en continu. Des règles très douloureuses, qui changent ou qui t'empêchent de vivre normalement méritent un avis médical.",
+   "portions": 1,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "oeufs",
+     "q": 2,
+     "nom": "œufs, lavés",
+     "cle": "oeuf"
+    },
+    {
+     "id": "aiye",
+     "q": 10,
+     "u": "g",
+     "nom": "feuilles d'armoise séchées (Ai Ye)",
+     "cle": "ai-ye",
+     "note": "En herboristerie chinoise. Prends l'armoise vendue en vrac pour la tisane, pas les bâtonnets de moxa."
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre de canne complet (facultatif)",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Hache grossièrement l'armoise ({aiye}), ou glisse-la dans un filtre à thé en tissu pour ne pas avoir de brins dans le bouillon. Coupe le gingembre ({gingembre}) en tranches."
+      },
+      {
+       "titre": "Cuire les œufs",
+       "texte": "Porte l'eau ({eau}) à ébullition avec l'armoise et le gingembre, puis dépose-y délicatement les œufs ({oeufs}) à l'aide d'une cuillère. Laisse cuire à petits bouillons.",
+       "s": 600
+      },
+      {
+       "titre": "Écaler",
+       "texte": "Sors les œufs, passe-les sous l'eau froide et écale-les. Fais quelques petites entailles dans le blanc pour qu'ils prennent le goût."
+      },
+      {
+       "titre": "Remettre à cuire",
+       "texte": "Remets les œufs écalés dans la décoction et laisse frémir.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Filtre la décoction et sucre-la ({sucre}) si tu veux. Mange les œufs et bois la décoction bien chaude."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Prends-en une fois par jour, 5 jours de suite, en commençant 2 à 3 jours avant la date prévue des règles.",
+    "Pendant cette période, garde une bouillotte sur le bas-ventre et évite les boissons glacées."
+   ],
+   "tags": [
+    "règles douloureuses",
+    "Froid",
+    "Utérus",
+    "armoise",
+    "gingembre"
+   ]
+  },
+  {
+   "id": "oeuf-sucre-complet",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 208,
+   "genre": "dessert",
+   "axe": "sang",
+   "titre": "Œuf au sucre de canne complet",
+   "zh": "红糖鸡蛋",
+   "py": "hóngtáng jīdàn",
+   "contexte": "Une douceur chaude qui nourrit le Sang, l'aide à circuler et détend les crampes du ventre : pour les 2 ou 3 jours qui suivent les règles, en cas de règles douloureuses, ou après un accouchement.",
+   "principe": {
+    "zh": "养血活血",
+    "py": "Yǎng xuè huó xuè",
+    "fr": "Nourrir le Sang et le faire circuler"
+   },
+   "precautions": "Sucré : à éviter en cas de diabète. Pas pendant des règles très abondantes. Après un accouchement, fièvre, saignements qui augmentent ou forte douleur : appelle ta sage-femme ou ton médecin sans attendre.",
+   "portions": 1,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "oeuf",
+     "q": 1,
+     "nom": "œuf",
+     "cle": "oeuf"
+    },
+    {
+     "id": "sucre",
+     "q": 20,
+     "u": "g",
+     "nom": "sucre de canne complet",
+     "cle": "sucre-complet",
+     "note": "Le rapadura ou le muscovado conviennent."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Faire le sirop",
+       "texte": "Délaie le sucre ({sucre}) dans l'eau ({eau}), porte à ébullition et laisse bouillir doucement.",
+       "s": 180
+      },
+      {
+       "titre": "Battre l'œuf",
+       "texte": "Bats l'œuf ({oeuf}) à la fourchette dans un bol."
+      },
+      {
+       "titre": "Cuire l'œuf",
+       "texte": "Verse l'œuf en filet dans le sirop frémissant en remuant doucement : il forme des rubans. Laisse cuire.",
+       "s": 60
+      },
+      {
+       "titre": "Servir",
+       "texte": "Bois chaud, par petites gorgées. Une fois par jour."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le sucre est réduit par rapport à la recette traditionnelle (50 g) : ajoutes-en un peu si tu aimes plus doux.",
+    "Si tu as froid au ventre, ajoute 2 tranches de gingembre frais dans le sirop.",
+    "Tu peux aussi pocher l'œuf entier dans le sirop (3 minutes) au lieu de le battre."
+   ],
+   "tags": [
+    "règles",
+    "post-partum",
+    "Sang",
+    "œuf"
+   ]
+  },
+  {
+   "id": "oeufs-jujubes-goji",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 209,
+   "genre": "soupe",
+   "axe": "essence",
+   "titre": "Œufs aux jujubes et baies de goji",
+   "zh": "大枣杞子鸡蛋",
+   "py": "dàzǎo qǐzǐ jīdàn",
+   "contexte": "Un bouillon doux qui nourrit le Foie et le Rein et calme l'esprit : pour les nuits agitées et la nervosité, quand le bas du dos et les genoux sont faibles.",
+   "principe": {
+    "zh": "补肝肾安神",
+    "py": "Bǔ gān shèn ān shén",
+    "fr": "Tonifier le Foie et le Rein, calmer l'esprit"
+   },
+   "precautions": "Les dattes sont sucrées et nourrissantes : limite si tu as le ventre gonflé, des glaires ou la diarrhée. Si tu prends un anticoagulant, demande l'avis de ton médecin (le goji peut interagir).",
+   "portions": 1,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "dattes",
+     "q": 5,
+     "nom": "dattes rouges (jujubes), fendues",
+     "cle": "dattes"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "baies de goji",
+     "cle": "goji"
+    },
+    {
+     "id": "oeufs",
+     "q": 2,
+     "nom": "œufs, lavés",
+     "cle": "oeuf"
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tout mettre à cuire",
+       "texte": "Rince les dattes ({dattes}) et mets-les dans une petite casserole avec les œufs ({oeufs}) et l'eau ({eau}). Porte à ébullition, puis laisse cuire à petits bouillons.",
+       "s": 600
+      },
+      {
+       "titre": "Écaler",
+       "texte": "Sors les œufs, passe-les sous l'eau froide et écale-les."
+      },
+      {
+       "titre": "Ajouter le goji",
+       "texte": "Remets les œufs dans le bouillon avec les baies de goji ({goji}) rincées et laisse frémir.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange les œufs et les dattes, bois le bouillon. Une fois par jour, de préférence le soir."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "sommeil",
+    "Rein",
+    "Foie",
+    "goji",
+    "bas du dos"
+   ]
+  },
+  {
+   "id": "oeuf-vapeur-longane",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 210,
+   "genre": "dessert",
+   "axe": "coeur",
+   "titre": "Œuf vapeur à la pulpe de longane",
+   "zh": "龙眼肉蒸鸡蛋",
+   "py": "lóngyǎn ròu zhēng jīdàn",
+   "contexte": "Une petite douceur du soir qui nourrit le Sang et le Yin et calme l'esprit : pour l'insomnie et les nuits pleines de rêves.",
+   "principe": {
+    "zh": "养血安神",
+    "py": "Yǎng xuè ān shén",
+    "fr": "Nourrir le Sang, calmer l'esprit"
+   },
+   "precautions": "La longane est sucrée et réchauffante : limite si tu as beaucoup de chaleur (bouche sèche, aphtes, constipation), des glaires ou le ventre gonflé. Diabète : avec modération et sans sucre ajouté.",
+   "portions": 1,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "oeuf",
+     "q": 1,
+     "nom": "œuf",
+     "cle": "oeuf"
+    },
+    {
+     "id": "longane",
+     "q": 10,
+     "u": "g",
+     "nom": "pulpe de longane séchée (environ 6 fruits)",
+     "cle": "longane",
+     "note": "En épicerie asiatique, en sachet : une pulpe brune et collante, déjà dénoyautée."
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre (facultatif)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Ramollir la longane",
+       "texte": "Rince la pulpe de longane ({longane}) et fais-la tremper dans un peu d'eau chaude.",
+       "s": 600
+      },
+      {
+       "titre": "Préparer l'œuf",
+       "texte": "Casse l'œuf ({oeuf}) dans un ramequin sans crever le jaune. Parsème le blanc de sucre ({sucre})."
+      },
+      {
+       "titre": "Première cuisson",
+       "texte": "Fais cuire le ramequin à la vapeur, couvercle posé, jusqu'à ce que le blanc commence à prendre alors que le jaune reste coulant.",
+       "s": 240
+      },
+      {
+       "titre": "Garnir",
+       "texte": "Égoutte la longane et enfonce-la doucement dans le jaune."
+      },
+      {
+       "titre": "Finir la cuisson",
+       "texte": "Poursuis la cuisson à la vapeur jusqu'à ce que l'œuf soit bien pris.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Déguste tiède, le soir. Une fois par jour."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Sans cuit-vapeur : pose le ramequin dans une casserole avec 2 cm d'eau frémissante et couvre.",
+    "Le sucre est réduit au minimum : la longane est déjà très sucrée."
+   ],
+   "tags": [
+    "sommeil",
+    "rêves",
+    "Sang",
+    "longane",
+    "œuf"
+   ]
+  },
+  {
+   "id": "tremelle-oeufs-caille",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 211,
+   "genre": "dessert",
+   "axe": "essence",
+   "titre": "Œufs de caille à la trémelle",
+   "zh": "银耳鹑蛋",
+   "py": "yín'ěr chúndàn",
+   "contexte": "Une soupe sucrée légère qui tonifie le Rein, nourrit l'Essence et soutient le Cœur et la mémoire. On la conseille aussi en cas de cholestérol élevé : elle accompagne alors le suivi médical, jamais à la place.",
+   "principe": {
+    "zh": "补肾益精",
+    "py": "Bǔ shèn yì jīng",
+    "fr": "Tonifier le Rein, enrichir l'Essence"
+   },
+   "precautions": "Contient du sucre : en cas de diabète, fais-la sans sucre candi. Pour les femmes enceintes et les jeunes enfants, prolonge la cuisson jusqu'à ce que le jaune des œufs soit bien pris.",
+   "portions": 4,
+   "duree": "1 h 45",
+   "ingredients": [
+    {
+     "id": "tremelle",
+     "q": 15,
+     "u": "g",
+     "nom": "trémelle séchée (champignon blanc)",
+     "cle": "tremelle",
+     "note": "En épicerie asiatique, en boules blondes sous sachet."
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "eau froide",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 30,
+     "u": "g",
+     "nom": "sucre candi",
+     "cle": "sucre-candi"
+    },
+    {
+     "id": "oeufs",
+     "q": 12,
+     "nom": "œufs de caille",
+     "cle": "oeufs-caille"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Tremper la trémelle",
+       "texte": "Rince la trémelle ({tremelle}) et fais-la tremper dans un grand bol d'eau tiède.",
+       "s": 1800
+      },
+      {
+       "titre": "Découper",
+       "texte": "Coupe la base dure et jaunâtre, puis détaille la trémelle en petits morceaux."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Mets la trémelle dans un grand bol qui supporte la chaleur, avec l'eau froide ({eau}) et le sucre candi ({sucre}). Fais cuire à la vapeur, couvercle fermé, jusqu'à ce qu'elle soit tendre et que le liquide devienne un peu sirupeux. Surveille le niveau d'eau du cuit-vapeur.",
+       "s": 3600
+      },
+      {
+       "titre": "Pocher les œufs",
+       "texte": "Casse les œufs de caille ({oeufs}) un par un directement dans la soupe chaude et poursuis la cuisson à la vapeur.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Répartis dans 4 bols, avec 3 œufs par personne. Se déguste tiède."
+      }
+     ]
+    },
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tremper la trémelle",
+       "texte": "Rince la trémelle ({tremelle}) et fais-la tremper dans un grand bol d'eau tiède.",
+       "s": 1800
+      },
+      {
+       "titre": "Découper",
+       "texte": "Coupe la base dure et jaunâtre, puis détaille la trémelle en petits morceaux."
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Mets la trémelle dans une casserole avec l'eau ({eau}). Porte à ébullition, puis laisse frémir à feu doux, à couvert, en remuant de temps en temps.",
+       "s": 2700
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Ajoute le sucre candi ({sucre}) et laisse-le fondre en remuant.",
+       "s": 300
+      },
+      {
+       "titre": "Pocher les œufs",
+       "texte": "Casse les œufs de caille ({oeufs}) un par un dans la soupe frémissante, sans remuer.",
+       "s": 180
+      },
+      {
+       "titre": "Servir",
+       "texte": "Répartis dans 4 bols, avec 3 œufs par personne. Se déguste tiède."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La recette traditionnelle met 100 g de sucre candi : 30 g suffisent pour une douceur légère.",
+    "Pour casser un œuf de caille, entaille la coquille avec la pointe d'un couteau, puis ouvre-la au-dessus d'une tasse.",
+    "Se garde 2 jours au réfrigérateur ; réchauffe doucement."
+   ],
+   "tags": [
+    "Rein",
+    "Essence",
+    "trémelle",
+    "œufs de caille",
+    "mémoire"
+   ]
+  },
+  {
+   "id": "omelette-pourpier",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 212,
+   "genre": "plat",
+   "axe": "chaleur",
+   "titre": "Omelette au pourpier",
+   "zh": "马齿苋煎蛋",
+   "py": "mǎchǐxiàn jiāndàn",
+   "contexte": "Le pourpier clarifie la Chaleur, élimine les Toxines et draine l'Humidité : une omelette traditionnelle en cas de diarrhée soudaine, brûlante et malodorante.",
+   "principe": {
+    "zh": "清热解毒止痢",
+    "py": "Qīng rè jiě dú zhǐ lì",
+    "fr": "Clarifier la Chaleur, éliminer les Toxines, arrêter la diarrhée"
+   },
+   "precautions": "Le pourpier est froid : pas pour les diarrhées qui traînent avec ventre froid, ni pendant la grossesse. Bois beaucoup pour compenser l'eau perdue. Consulte vite en cas de fièvre élevée, de sang dans les selles, de diarrhée qui dure plus de 2 jours, ou si un bébé ou une personne âgée se déshydrate.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "pourpier",
+     "q": 60,
+     "u": "g",
+     "nom": "pourpier frais (feuilles et tiges tendres)",
+     "cle": "pourpier",
+     "note": "Sur les marchés en été, ou au jardin où il pousse tout seul. Cueille-le loin des routes et lave-le bien."
+    },
+    {
+     "id": "oeufs",
+     "q": 4,
+     "nom": "œufs",
+     "cle": "oeuf"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "huile",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Préparer le pourpier",
+       "texte": "Lave le pourpier ({pourpier}) à grande eau, égoutte-le bien et cisèle-le."
+      },
+      {
+       "titre": "Battre les œufs",
+       "texte": "Bats les œufs ({oeufs}) avec le sel ({sel}), puis incorpore le pourpier."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Chauffe l'huile ({huile}) à feu moyen dans une poêle, verse le mélange et laisse prendre sans remuer.",
+       "s": 180
+      },
+      {
+       "titre": "Plier et finir",
+       "texte": "Replie l'omelette en deux et laisse cuire encore, jusqu'à ce qu'elle soit bien prise à cœur.",
+       "s": 60
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sers chaud, avec un bol de riz ou de congee."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "En dehors des épisodes de diarrhée, c'est aussi une bonne omelette d'été, légère et rafraîchissante."
+   ],
+   "tags": [
+    "diarrhée",
+    "pourpier",
+    "Chaleur",
+    "été",
+    "intestins"
+   ]
+  },
+  {
+   "id": "soupe-courge-cireuse-crevettes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 213,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Soupe de courge cireuse aux crevettes séchées",
+   "zh": "虾米冬瓜汤",
+   "py": "xiāmǐ dōngguā tāng",
+   "contexte": "Une soupe d'été qui rafraîchit et draine l'Humidité : pour les journées lourdes et chaudes, les jambes un peu gonflées, les urines rares et foncées, la fatigue qui pèse.",
+   "principe": {
+    "zh": "清暑利湿",
+    "py": "Qīng shǔ lì shī",
+    "fr": "Clarifier la Chaleur de l'été, drainer l'Humidité"
+   },
+   "precautions": "Allergie aux crustacés : remplace les crevettes par 4 shiitakés séchés. Plutôt fraîche : limite si tu as le ventre froid, les selles molles ou si tu urines déjà beaucoup. Les crevettes séchées sont salées : sale peu.",
+   "portions": 3,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "courge",
+     "q": 500,
+     "u": "g",
+     "nom": "courge cireuse (dong gua)",
+     "cle": "courge-cireuse",
+     "note": "En épicerie asiatique, souvent vendue en tranches. Pèle-la finement ou garde la peau bien brossée : elle renforce l'effet drainant. À défaut, prends des courgettes (10 min de cuisson)."
+    },
+    {
+     "id": "crevettes",
+     "q": 15,
+     "u": "g",
+     "nom": "crevettes séchées",
+     "cle": "crevettes-sechees",
+     "note": "En épicerie asiatique, en sachet."
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "tranches de gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "cébette, émincée",
+     "cle": "cebette"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "sesame",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tremper les crevettes",
+       "texte": "Rince les crevettes séchées ({crevettes}) et fais-les tremper dans un bol d'eau tiède. Garde l'eau de trempage.",
+       "s": 900
+      },
+      {
+       "titre": "Préparer la courge",
+       "texte": "Retire les graines et la partie spongieuse de la courge ({courge}), puis coupe-la en cubes de 2 cm."
+      },
+      {
+       "titre": "Lancer le bouillon",
+       "texte": "Mets les crevettes, leur eau de trempage, l'eau ({eau}) et le gingembre ({gingembre}) dans une casserole. Porte à ébullition, puis laisse frémir.",
+       "s": 600
+      },
+      {
+       "titre": "Cuire la courge",
+       "texte": "Ajoute la courge et laisse frémir à couvert jusqu'à ce qu'elle devienne translucide et fondante.",
+       "s": 900
+      },
+      {
+       "titre": "Finir",
+       "texte": "Goûte avant de saler ({sel}), parsème de cébette ({cebette}) et ajoute quelques gouttes d'huile de sésame ({sesame})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Pour drainer davantage, ajoute une poignée de larmes-de-Job (yi yi ren) trempées la veille dès le lancement du bouillon, et prolonge la cuisson de 20 minutes."
+   ],
+   "tags": [
+    "été",
+    "Humidité",
+    "courge cireuse",
+    "jambes lourdes",
+    "crevettes"
+   ]
+  },
+  {
+   "id": "soupe-chou-chinois-tofu",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 214,
+   "genre": "soupe",
+   "axe": "rate",
+   "titre": "Soupe de chou chinois au tofu et aux shiitakés",
+   "zh": "白菜豆腐香菇汤",
+   "py": "báicài dòufu xiānggū tāng",
+   "contexte": "Une soupe légère de tous les jours qui ménage l'Estomac, apporte des liquides et aide le transit : idéale après des repas trop riches, ou quand la bouche est sèche et les selles un peu dures.",
+   "principe": {
+    "zh": "养胃润肠",
+    "py": "Yǎng wèi rùn cháng",
+    "fr": "Nourrir l'Estomac, humidifier les intestins"
+   },
+   "precautions": "Plutôt fraîche : si tu as le ventre froid ou les selles molles, double le gingembre.",
+   "portions": 3,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "shiitake",
+     "q": 6,
+     "nom": "champignons shiitakés séchés",
+     "cle": "shiitake",
+     "note": "Ou 150 g de shiitakés frais émincés, sans trempage."
+    },
+    {
+     "id": "chou",
+     "q": 400,
+     "u": "g",
+     "nom": "chou chinois",
+     "cle": "chou-chinois"
+    },
+    {
+     "id": "tofu",
+     "q": 200,
+     "u": "g",
+     "nom": "tofu ferme",
+     "cle": "tofu"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "tranches de gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "cébette, émincée",
+     "cle": "cebette"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tremper les shiitakés",
+       "texte": "Fais tremper les shiitakés ({shiitake}) dans un bol d'eau chaude.",
+       "s": 1800
+      },
+      {
+       "titre": "Préparer",
+       "texte": "Égoutte les shiitakés en gardant l'eau, retire les pieds durs et émince les chapeaux. Sépare les côtes blanches du chou ({chou}) des feuilles vertes et coupe le tout en lanières. Coupe le tofu ({tofu}) en cubes."
+      },
+      {
+       "titre": "Lancer le bouillon",
+       "texte": "Mets l'eau ({eau}), l'eau de trempage filtrée, les shiitakés et le gingembre ({gingembre}) dans une casserole. Porte à ébullition, puis laisse frémir.",
+       "s": 900
+      },
+      {
+       "titre": "Ajouter les côtes",
+       "texte": "Ajoute les côtes blanches du chou et laisse frémir.",
+       "s": 300
+      },
+      {
+       "titre": "Ajouter tofu et feuilles",
+       "texte": "Ajoute le tofu et les feuilles vertes, et laisse frémir doucement.",
+       "s": 300
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Ajoute la sauce soja ({soja}), la cébette ({cebette}) et quelques gouttes d'huile de sésame ({sesame}). Sers chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Ajoute une poignée de vermicelles de soja ou un peu de riz dans le bol pour en faire un repas complet."
+   ],
+   "tags": [
+    "digestion",
+    "Estomac",
+    "tofu",
+    "shiitaké",
+    "soupe légère"
+   ]
+  }
+ ]
+}

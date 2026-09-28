@@ -1,0 +1,2041 @@
+{
+ "fiches": [
+  {
+   "id": "boeuf-radis-blanc",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 300,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Bœuf sauté au radis blanc",
+   "zh": "萝卜炒牛肉丝",
+   "py": "luóbo chǎo niúròu sī",
+   "contexte": "Le radis blanc aide la Rate à évacuer l'eau en trop et les Mucosités, le bœuf la renforce. Un plat complet et léger quand on a tendance à gonfler, à retenir l'eau ou à prendre du poids.",
+   "principe": {
+    "zh": "健脾利水化痰",
+    "py": "Jiàn pí lì shuǐ huà tán",
+    "fr": "Renforcer la Rate, drainer l'Eau, transformer les Mucosités"
+   },
+   "precautions": "Le radis blanc fait descendre le Qi : évite de le manger le même jour qu'un tonique à base de ginseng.",
+   "portions": 3,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "boeuf",
+     "q": 250,
+     "u": "g",
+     "nom": "bœuf maigre (rumsteck, bavette ou faux-filet)",
+     "cle": "boeuf",
+     "note": "Glisse-le 15 minutes au congélateur : il se tranche beaucoup plus finement."
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tsp",
+     "nom": "fécule de maïs ou de pomme de terre"
+    },
+    {
+     "id": "sel",
+     "q": 2,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "radis",
+     "q": 500,
+     "u": "g",
+     "nom": "radis blanc (daikon)",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 3,
+     "u": "tbsp",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "coriandre",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "coriandre fraîche, ciselée",
+     "cle": "coriandre"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Trancher le bœuf",
+       "texte": "Coupe le bœuf ({boeuf}) en fines lanières, dans le sens contraire des fibres : il restera tendre."
+      },
+      {
+       "titre": "Mariner le bœuf",
+       "texte": "Mélange-le avec la sauce soja ({soja}), la fécule ({fecule}) et une pincée de sel ({sel}). Laisse reposer pendant que tu prépares le radis.",
+       "s": 900
+      },
+      {
+       "titre": "Tailler le radis",
+       "texte": "Pèle le radis ({radis}) et coupe-le en fins bâtonnets, comme des frites très fines."
+      },
+      {
+       "titre": "Sauter le radis",
+       "texte": "Chauffe la moitié de l'huile ({huile}) dans le wok à feu vif. Fais sauter le radis avec une pincée de sel en remuant souvent, jusqu'à ce qu'il devienne translucide et tendre. Réserve-le dans une assiette.",
+       "s": 360
+      },
+      {
+       "titre": "Saisir le bœuf",
+       "texte": "Verse le reste de l'huile dans le wok bien chaud et fais sauter le bœuf, juste jusqu'à ce qu'il ne soit plus rouge.",
+       "s": 150
+      },
+      {
+       "titre": "Étuver",
+       "texte": "Remets le radis, mélange, verse l'eau ({eau}), couvre et laisse cuire à feu moyen.",
+       "s": 180
+      },
+      {
+       "titre": "Servir",
+       "texte": "Parsème de coriandre ({coriandre}) au dernier moment et sers avec du riz."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le radis blanc (daikon) se trouve en épicerie asiatique et souvent au rayon légumes des supermarchés. Choisis-le lourd, ferme et bien lisse."
+   ],
+   "tags": [
+    "bœuf",
+    "radis blanc",
+    "rétention d'eau",
+    "Rate",
+    "sauté"
+   ]
+  },
+  {
+   "id": "brochettes-coeur-agneau-rose",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 301,
+   "genre": "plat",
+   "axe": "coeur",
+   "titre": "Brochettes de cœur d'agneau grillé à la rose",
+   "zh": "玫瑰花烤羊心",
+   "py": "méiguīhuā kǎo yángxīn",
+   "contexte": "La rose détend le Foie et dénoue les tensions, le cœur d'agneau nourrit le Cœur. Pour les nuits agitées, pleines de rêves ou de cauchemars, quand on est à cran dans la journée.",
+   "principe": {
+    "zh": "疏肝养心安神",
+    "py": "Shū gān yǎng xīn ān shén",
+    "fr": "Détendre le Foie, nourrir le Cœur, apaiser l'esprit"
+   },
+   "precautions": "À éviter pendant la grossesse (la rose fait circuler le Sang). Le cœur est un abat : à éviter en cas de goutte. Si l'insomnie dure plus de quelques semaines, parles-en à un médecin.",
+   "portions": 2,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "rose",
+     "q": 10,
+     "u": "g",
+     "nom": "boutons de rose séchés alimentaires",
+     "cle": "rose",
+     "note": "En épicerie asiatique ou en herboristerie. Jamais de roses de fleuriste : elles sont traitées."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "coeur",
+     "q": 1,
+     "nom": "cœur d'agneau (200 à 250 g)",
+     "cle": "coeur-agneau",
+     "note": "À demander chez le boucher, souvent sans commande en boucherie halal."
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile neutre",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "four",
+     "nom": "Au four (gril)",
+     "etapes": [
+      {
+       "titre": "Préparer l'eau de rose",
+       "texte": "Mets les boutons de rose ({rose}) dans une petite casserole avec l'eau ({eau}) et le sel ({sel}). Porte à ébullition, puis laisse frémir doucement.",
+       "s": 600
+      },
+      {
+       "titre": "Parer le cœur",
+       "texte": "Pendant ce temps, ouvre le cœur ({coeur}) en deux. Retire le gras, les membranes blanches et les petits tuyaux, puis rince-le à l'eau froide. Coupe-le en cubes de 2 cm."
+      },
+      {
+       "titre": "Mariner",
+       "texte": "Filtre l'eau de rose et laisse-la tiédir. Plonge les cubes dedans pour qu'ils s'en imprègnent. Garde l'eau de rose pour la cuisson.",
+       "s": 900
+      },
+      {
+       "titre": "Monter les brochettes",
+       "texte": "Enfile les cubes sur des piques (en bois, trempées 10 minutes dans l'eau pour ne pas brûler) et badigeonne-les d'huile ({huile})."
+      },
+      {
+       "titre": "Griller",
+       "texte": "Allume le gril du four. Pose les brochettes sur la grille, à 10 cm environ de la résistance. À mi-cuisson, trempe-les dans l'eau de rose et retourne-les. Le cœur doit être doré dehors et à peine rosé au centre, sinon il durcit.",
+       "s": 480
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sers aussitôt avec du riz et un légume vert, de préférence au dîner."
+      }
+     ]
+    },
+    {
+     "id": "poele",
+     "nom": "À la poêle-gril ou à la plancha",
+     "etapes": [
+      {
+       "titre": "Préparer l'eau de rose",
+       "texte": "Mets les boutons de rose ({rose}) dans une petite casserole avec l'eau ({eau}) et le sel ({sel}). Porte à ébullition, puis laisse frémir doucement.",
+       "s": 600
+      },
+      {
+       "titre": "Parer le cœur",
+       "texte": "Pendant ce temps, ouvre le cœur ({coeur}) en deux. Retire le gras, les membranes blanches et les petits tuyaux, puis rince-le à l'eau froide. Coupe-le en cubes de 2 cm."
+      },
+      {
+       "titre": "Mariner",
+       "texte": "Filtre l'eau de rose et laisse-la tiédir. Plonge les cubes dedans pour qu'ils s'en imprègnent. Garde l'eau de rose pour la cuisson.",
+       "s": 900
+      },
+      {
+       "titre": "Monter les brochettes",
+       "texte": "Enfile les cubes sur des piques et badigeonne-les d'huile ({huile})."
+      },
+      {
+       "titre": "Griller",
+       "texte": "Chauffe une poêle-gril ou une plancha à feu vif. Fais griller les brochettes en les retournant souvent, et badigeonne-les deux ou trois fois d'eau de rose pendant la cuisson.",
+       "s": 420
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sers aussitôt avec du riz et un légume vert, de préférence au dîner."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Avec des roses fraîches non traitées (de ton jardin, par exemple), compte 30 g de pétales pour la même quantité d'eau."
+   ],
+   "tags": [
+    "sommeil",
+    "insomnie",
+    "rose",
+    "Cœur",
+    "stress"
+   ]
+  },
+  {
+   "id": "canard-feuille-lotus",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 302,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Canard vapeur à la feuille de lotus",
+   "zh": "荷叶鸭肉",
+   "py": "héyè yāròu",
+   "contexte": "La feuille de lotus aide à évacuer l'Humidité et le gras, le canard renforce sans alourdir. Pour le surpoids et la cellulite ; en cas de cholestérol ou de triglycérides élevés, ce plat accompagne le suivi médical, il ne le remplace pas.",
+   "principe": {
+    "zh": "益气化湿",
+    "py": "Yì qì huà shī",
+    "fr": "Renforcer le Qi, transformer l'Humidité"
+   },
+   "precautions": "Le canard et la feuille de lotus sont plutôt frais : si tu as souvent froid au ventre et les selles molles, garde bien le gingembre et le poivre. Le riz gluant est un peu lourd : mange lentement.",
+   "portions": 2,
+   "duree": "2 h (+ marinade 2 h)",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 50,
+     "u": "g",
+     "nom": "riz gluant",
+     "cle": "riz-gluant"
+    },
+    {
+     "id": "badiane",
+     "q": 2,
+     "nom": "étoiles de badiane (anis étoilé)",
+     "cle": "anis-etoile"
+    },
+    {
+     "id": "canard",
+     "q": 400,
+     "u": "g",
+     "nom": "cuisses de canard désossées, sans la peau",
+     "cle": "canard",
+     "note": "Demande au boucher de les désosser. Des filets sans la peau marchent aussi."
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "gingembre frais, haché",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "cébettes, hachées",
+     "cle": "cebette"
+    },
+    {
+     "id": "poivre",
+     "q": 0.25,
+     "u": "tsp",
+     "nom": "poivre moulu",
+     "cle": "poivre"
+    },
+    {
+     "id": "eau",
+     "q": 3,
+     "u": "tbsp",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "lotus",
+     "q": 1,
+     "nom": "grande feuille de lotus séchée (He Ye)",
+     "cle": "he-ye",
+     "note": "En épicerie asiatique ou en herboristerie chinoise, vendue en grands disques pliés."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Griller riz et badiane",
+       "texte": "Casse la badiane ({badiane}) en morceaux. Fais-la griller avec le riz gluant ({riz}) dans une poêle sèche à feu moyen, en remuant sans arrêt, jusqu'à ce que le riz blondisse et sente le grillé.",
+       "s": 480
+      },
+      {
+       "titre": "Moudre",
+       "texte": "Laisse tiédir, puis mouds le tout au moulin à café ou au mixeur, en poudre assez fine. Quelques grains plus gros, c'est normal."
+      },
+      {
+       "titre": "Mariner le canard",
+       "texte": "Coupe le canard ({canard}) en morceaux de 3 cm. Mélange-le avec la sauce soja ({soja}), le gingembre ({gingembre}), la cébette ({cebette}), le poivre ({poivre}) et l'eau ({eau}). Couvre et laisse au frais (1 heure au minimum). Pendant ce temps, mets la feuille de lotus ({lotus}) à tremper dans une grande bassine d'eau chaude.",
+       "s": 7200
+      },
+      {
+       "titre": "Enrober",
+       "texte": "Sale légèrement le canard ({sel}), ajoute la poudre de riz et mélange pour bien enrober chaque morceau."
+      },
+      {
+       "titre": "Emballer",
+       "texte": "Égoutte et essuie la feuille de lotus, puis coupe-la en 4. Répartis le canard au centre de chaque morceau et replie les bords pour former des paquets bien fermés. Pose-les pliure en dessous dans une assiette creuse."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Pose l'assiette dans le panier vapeur au-dessus d'une eau qui bout, couvre et cuis à feu moyen. Surveille le niveau d'eau toutes les 30 minutes et complète avec de l'eau bouillante.",
+       "s": 5400
+      },
+      {
+       "titre": "Servir",
+       "texte": "Ouvre les paquets à table et sers avec du riz ou un légume vert. La feuille parfume la viande mais ne se mange pas."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Griller riz et badiane",
+       "texte": "Casse la badiane ({badiane}) en morceaux. Fais-la griller avec le riz gluant ({riz}) dans une poêle sèche à feu moyen, en remuant sans arrêt, jusqu'à ce que le riz blondisse et sente le grillé.",
+       "s": 480
+      },
+      {
+       "titre": "Moudre",
+       "texte": "Laisse tiédir, puis mouds le tout au moulin à café ou au mixeur, en poudre assez fine. Quelques grains plus gros, c'est normal."
+      },
+      {
+       "titre": "Mariner le canard",
+       "texte": "Coupe le canard ({canard}) en morceaux de 3 cm. Mélange-le avec la sauce soja ({soja}), le gingembre ({gingembre}), la cébette ({cebette}), le poivre ({poivre}) et l'eau ({eau}). Couvre et laisse au frais (1 heure au minimum). Pendant ce temps, mets la feuille de lotus ({lotus}) à tremper dans une grande bassine d'eau chaude.",
+       "s": 7200
+      },
+      {
+       "titre": "Enrober",
+       "texte": "Sale légèrement le canard ({sel}), ajoute la poudre de riz et mélange pour bien enrober chaque morceau."
+      },
+      {
+       "titre": "Emballer",
+       "texte": "Égoutte et essuie la feuille de lotus, puis coupe-la en 4. Répartis le canard au centre de chaque morceau et replie les bords pour former des paquets bien fermés. Pose-les pliure en dessous dans une assiette creuse."
+      },
+      {
+       "titre": "Cuire sous pression",
+       "texte": "Verse 500 ml d'eau dans la cocotte-minute, place le panier vapeur et l'assiette de paquets dessus. Ferme, et compte le temps à partir du chuchotement de la soupape, à feu doux.",
+       "s": 2400
+      },
+      {
+       "titre": "Laisser décompresser",
+       "texte": "Coupe le feu et laisse la pression retomber d'elle-même avant d'ouvrir.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Ouvre les paquets à table et sers avec du riz ou un légume vert. La feuille parfume la viande mais ne se mange pas."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Sans feuille de lotus, emballe le canard dans du papier cuisson : le plat reste bon, mais il perd le parfum et l'effet drainant de la feuille.",
+    "Tu peux faire un seul grand paquet avec la feuille entière : ajoute 15 minutes de cuisson."
+   ],
+   "tags": [
+    "canard",
+    "feuille de lotus",
+    "surpoids",
+    "cholestérol",
+    "vapeur"
+   ]
+  },
+  {
+   "id": "carpe-vapeur-the-vert",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 303,
+   "genre": "plat",
+   "axe": "chaleur",
+   "titre": "Carpe à la vapeur au thé vert",
+   "zh": "茶叶蒸鲤鱼",
+   "py": "cháyè zhēng lǐyú",
+   "contexte": "Le thé vert rafraîchit, la carpe renforce le corps sans le chauffer. La tradition la prépare quand la soif est intense et la bouche sèche. En cas de diabète, ce plat accompagne le suivi médical : il ne remplace ni le traitement ni les contrôles de glycémie.",
+   "principe": {
+    "zh": "清热补虚止渴",
+    "py": "Qīng rè bǔ xū zhǐ kě",
+    "fr": "Clarifier la Chaleur, tonifier le Vide, calmer la soif"
+   },
+   "precautions": "Le thé vert est frais : limite ce plat si tu as le ventre froid et les selles molles. La carpe a beaucoup de petites arêtes : prudence avec les enfants.",
+   "portions": 2,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "carpe",
+     "q": 1,
+     "nom": "carpe entière (600 à 800 g), vidée et écaillée",
+     "cle": "carpe",
+     "note": "Chez le poissonnier, très courante dans l'Est de la France. À défaut : un bar ou une dorade."
+    },
+    {
+     "id": "the",
+     "q": 10,
+     "u": "g",
+     "nom": "thé vert en feuilles (environ 2 cuillères à soupe)",
+     "cle": "the"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Nettoyer la carpe",
+       "texte": "Rince la carpe ({carpe}) à l'eau froide, dedans et dehors. Retire la fine peau noire à l'intérieur du ventre : c'est elle qui donne le goût de vase. Sèche-la et fais 2 ou 3 entailles sur chaque face."
+      },
+      {
+       "titre": "Ouvrir le thé",
+       "texte": "Arrose le thé vert ({the}) de 2 cuillères à soupe d'eau chaude pour que les feuilles s'ouvrent.",
+       "s": 120
+      },
+      {
+       "titre": "Garnir",
+       "texte": "Glisse les feuilles de thé dans le ventre et dans les entailles. Pose la carpe dans une assiette creuse qui rentre dans ton panier vapeur (retire la tête si besoin)."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Quand l'eau bout à gros bouillons, pose l'assiette dans le panier, couvre et cuis à feu vif. La chair doit se détacher facilement de l'arête centrale.",
+       "s": 900
+      },
+      {
+       "titre": "Servir",
+       "texte": "Retire les feuilles de thé et mange la chair nature, sans sauce ni épices, avec du riz. Attention aux arêtes."
+      }
+     ]
+    },
+    {
+     "id": "four",
+     "nom": "Au four (en papillote)",
+     "etapes": [
+      {
+       "titre": "Nettoyer la carpe",
+       "texte": "Rince la carpe ({carpe}) à l'eau froide, dedans et dehors. Retire la fine peau noire à l'intérieur du ventre : c'est elle qui donne le goût de vase. Sèche-la et fais 2 ou 3 entailles sur chaque face."
+      },
+      {
+       "titre": "Ouvrir le thé",
+       "texte": "Arrose le thé vert ({the}) de 2 cuillères à soupe d'eau chaude pour que les feuilles s'ouvrent. Préchauffe le four à 180 °C.",
+       "s": 120
+      },
+      {
+       "titre": "Fermer la papillote",
+       "texte": "Pose la carpe sur une grande feuille de papier cuisson. Glisse les feuilles de thé dans le ventre et dans les entailles, puis referme en papillote bien close."
+      },
+      {
+       "titre": "Cuire au four",
+       "texte": "Enfourne à mi-hauteur. La chair doit se détacher facilement de l'arête centrale.",
+       "s": 1500
+      },
+      {
+       "titre": "Servir",
+       "texte": "Retire les feuilles de thé et mange la chair nature, sans sauce ni épices, avec du riz. Attention aux arêtes."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Nature, le goût est très doux. Un filet de sauce soja à table reste possible, mais la tradition la mange sans assaisonnement."
+   ],
+   "tags": [
+    "carpe",
+    "thé vert",
+    "diabète",
+    "soif",
+    "vapeur"
+   ]
+  },
+  {
+   "id": "courge-cireuse-shiitakes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 304,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Courge cireuse sautée aux shiitakés",
+   "zh": "冬瓜炒香菇",
+   "py": "dōngguā chǎo xiānggū",
+   "contexte": "La courge cireuse rafraîchit et aide à éliminer l'eau en trop, les shiitakés soutiennent la Rate. Un accompagnement léger quand on gonfle, qu'on retient l'eau ou qu'on veut perdre du poids.",
+   "principe": {
+    "zh": "清热健脾",
+    "py": "Qīng rè jiàn pí",
+    "fr": "Clarifier la Chaleur, renforcer la Rate"
+   },
+   "precautions": "Plat frais : si tu as le ventre froid et les selles molles, garde le gingembre et mange-le bien chaud.",
+   "portions": 2,
+   "duree": "25 min (+ trempage 30 min)",
+   "ingredients": [
+    {
+     "id": "shiitake",
+     "q": 6,
+     "nom": "shiitakés séchés",
+     "cle": "shiitake"
+    },
+    {
+     "id": "eau",
+     "q": 200,
+     "u": "ml",
+     "nom": "eau tiède",
+     "base": true
+    },
+    {
+     "id": "courge",
+     "q": 400,
+     "u": "g",
+     "nom": "courge cireuse (dong gua), pelée et épépinée",
+     "cle": "courge-cireuse",
+     "note": "En épicerie asiatique, souvent vendue à la coupe. À défaut : de la courgette (cuisson plus courte)."
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "fines tranches de gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 2,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Tremper les shiitakés",
+       "texte": "Fais tremper les shiitakés ({shiitake}) dans l'eau tiède ({eau}) jusqu'à ce qu'ils soient souples.",
+       "s": 1800
+      },
+      {
+       "titre": "Couper les légumes",
+       "texte": "Coupe la courge cireuse ({courge}) en dés de 1,5 cm. Égoutte les shiitakés en gardant l'eau de trempage, retire les pieds durs et coupe les chapeaux en lamelles."
+      },
+      {
+       "titre": "Sauter",
+       "texte": "Chauffe l'huile ({huile}) dans le wok, fais grésiller le gingembre ({gingembre}) quelques secondes, puis ajoute la courge et les shiitakés. Fais sauter à feu vif en remuant.",
+       "s": 120
+      },
+      {
+       "titre": "Étuver",
+       "texte": "Verse l'eau de trempage en laissant le dépôt au fond du bol. Couvre et laisse cuire à feu moyen, jusqu'à ce que la courge devienne translucide.",
+       "s": 480
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Sale ({sel}), ajoute la sauce soja ({soja}) et laisse réduire le jus à découvert en mélangeant. Sers avec du riz.",
+       "s": 60
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Avec des shiitakés frais : 150 g en lamelles, sans trempage, et 100 ml d'eau à la place de l'eau de trempage."
+   ],
+   "tags": [
+    "courge cireuse",
+    "shiitakés",
+    "rétention d'eau",
+    "Rate",
+    "été"
+   ]
+  },
+  {
+   "id": "courge-cireuse-vapeur",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 305,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Courge cireuse à la vapeur",
+   "zh": "蒸冬瓜",
+   "py": "zhēng dōngguā",
+   "contexte": "La courge cireuse renforce la Rate et fait circuler l'Eau : un remède doux quand les jambes, les chevilles ou le visage gonflent et qu'on retient l'eau. Mangée sans sel, elle draine mieux.",
+   "principe": {
+    "zh": "健脾利水消肿",
+    "py": "Jiàn pí lì shuǐ xiāo zhǒng",
+    "fr": "Renforcer la Rate, drainer l'Eau, résorber les œdèmes"
+   },
+   "precautions": "Un œdème doit être vu par un médecin : il peut venir du cœur, des reins ou de la circulation. Ce plat accompagne le suivi, il ne le remplace pas. Plat frais : à limiter si tu as le ventre froid et les selles molles.",
+   "portions": 2,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "courge",
+     "q": 400,
+     "u": "g",
+     "nom": "courge cireuse (dong gua), avec la peau et les graines",
+     "cle": "courge-cireuse",
+     "note": "En épicerie asiatique, souvent vendue à la coupe."
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "fines tranches de gingembre frais",
+     "cle": "gingembre"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Couper la courge",
+       "texte": "Brosse bien la peau de la courge ({courge}) sous l'eau. Sans la peler, coupe-la en morceaux de 3 à 4 cm. Garde les graines : avec la peau, ce sont les parties qui drainent le plus."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Mets les morceaux dans un bol avec le gingembre ({gingembre}) et pose-le dans le panier vapeur au-dessus d'une eau qui bout. Couvre. La chair doit être translucide et tendre sous la pointe du couteau.",
+       "s": 1200
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-la chaude, sans sel, avec du riz, et bois le jus resté au fond du bol. Laisse la peau, trop dure, sur le bord de l'assiette : elle a donné ses vertus au jus."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz (panier vapeur)",
+     "etapes": [
+      {
+       "titre": "Couper la courge",
+       "texte": "Brosse bien la peau de la courge ({courge}) sous l'eau. Sans la peler, coupe-la en morceaux de 3 à 4 cm. Garde les graines : avec la peau, ce sont les parties qui drainent le plus."
+      },
+      {
+       "titre": "Cuire avec le riz",
+       "texte": "Lance ton riz comme d'habitude. Pour les 20 dernières minutes, pose au-dessus le panier vapeur avec la courge et le gingembre ({gingembre}) dans un bol, puis referme.",
+       "s": 1200
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-la chaude, sans sel, avec le riz, et bois le jus resté au fond du bol. Laisse la peau, trop dure, sur le bord de l'assiette : elle a donné ses vertus au jus."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La tradition la conseille à chaque repas pendant quelques jours, toujours avec du riz et sans sel.",
+    "Si le goût te semble trop fade, ajoute quelques gouttes de vinaigre de riz plutôt que du sel."
+   ],
+   "tags": [
+    "courge cireuse",
+    "œdème",
+    "rétention d'eau",
+    "jambes lourdes",
+    "vapeur"
+   ]
+  },
+  {
+   "id": "galettes-radis-mandarine",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 306,
+   "genre": "plat",
+   "axe": "rate",
+   "titre": "Galettes farcies au radis blanc et à la mandarine",
+   "zh": "萝卜饼",
+   "py": "luóbo bǐng",
+   "contexte": "Le radis blanc et l'écorce de mandarine font circuler le Qi et aident l'Estomac à digérer. Pour les digestions lentes, l'estomac lourd, plein ou douloureux après les repas.",
+   "principe": {
+    "zh": "理气健胃消食",
+    "py": "Lǐ qì jiàn wèi xiāo shí",
+    "fr": "Régulariser le Qi, renforcer l'Estomac, aider la digestion"
+   },
+   "precautions": "L'écorce de mandarine assèche un peu : à limiter si tu as la bouche sèche ou une toux sèche. Des douleurs d'estomac fréquentes ou fortes doivent être vues par un médecin.",
+   "portions": 3,
+   "duree": "1 h 15",
+   "ingredients": [
+    {
+     "id": "mandarine",
+     "q": 10,
+     "u": "g",
+     "nom": "écorce de mandarine séchée (Chen Pi)",
+     "cle": "mandarine",
+     "note": "En épicerie asiatique ou en herboristerie chinoise."
+    },
+    {
+     "id": "eau",
+     "q": 250,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "farine",
+     "q": 250,
+     "u": "g",
+     "nom": "farine de blé (T55)",
+     "cle": "ble"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "radis",
+     "q": 250,
+     "u": "g",
+     "nom": "radis blanc (daikon), pelé",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "huile",
+     "q": 3,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "poulet",
+     "q": 150,
+     "u": "g",
+     "nom": "poulet haché (ou blanc de poulet haché au couteau)",
+     "cle": "poulet",
+     "note": "Version sans viande : 150 g de tofu ferme émietté ou de shiitakés hachés."
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "gingembre frais, haché",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "cébettes, ciselées",
+     "cle": "cebette"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "four",
+     "nom": "Au four",
+     "etapes": [
+      {
+       "titre": "Décocter l'écorce",
+       "texte": "Mets l'écorce de mandarine ({mandarine}) dans une petite casserole avec l'eau ({eau}). Porte à ébullition, puis laisse frémir à couvert.",
+       "s": 900
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre : il doit te rester environ 150 ml de liquide. Laisse-le tiédir. Hache finement la moitié de l'écorce ramollie pour la farce."
+      },
+      {
+       "titre": "Pétrir la pâte",
+       "texte": "Mélange la farine ({farine}) et une pincée de sel ({sel}) dans un saladier. Verse la décoction tiède petit à petit en mélangeant, puis pétris jusqu'à obtenir une pâte souple qui ne colle plus. Couvre et laisse reposer.",
+       "s": 1800
+      },
+      {
+       "titre": "Précuire le radis",
+       "texte": "Pendant ce temps, râpe le radis ({radis}) avec la grosse râpe. Fais-le sauter dans une cuillère d'huile ({huile}) avec une pincée de sel : il doit rester un peu croquant. Laisse refroidir, puis presse-le entre tes mains pour enlever le jus.",
+       "s": 240
+      },
+      {
+       "titre": "Préparer la farce",
+       "texte": "Mélange le radis avec le poulet ({poulet}), le gingembre ({gingembre}), la cébette ({cebette}), l'écorce hachée, la sauce soja ({soja}) et le reste du sel."
+      },
+      {
+       "titre": "Façonner les galettes",
+       "texte": "Partage la pâte en 6 boules et étale chacune en disque de 12 cm. Pose une grosse cuillerée de farce au centre, ramène les bords vers le milieu en plissant et pince pour fermer. Aplatis doucement en galette, soudure en dessous."
+      },
+      {
+       "titre": "Cuire au four",
+       "texte": "Pose les galettes sur une plaque couverte de papier cuisson, badigeonne-les d'huile et enfourne à 200 °C, jusqu'à ce qu'elles soient bien dorées.",
+       "s": 1500
+      },
+      {
+       "titre": "Servir",
+       "texte": "Laisse tiédir 5 minutes avant de croquer : la farce est brûlante. Sers avec un bouillon ou des légumes."
+      }
+     ]
+    },
+    {
+     "id": "poele",
+     "nom": "À la poêle",
+     "etapes": [
+      {
+       "titre": "Décocter l'écorce",
+       "texte": "Mets l'écorce de mandarine ({mandarine}) dans une petite casserole avec l'eau ({eau}). Porte à ébullition, puis laisse frémir à couvert.",
+       "s": 900
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre : il doit te rester environ 150 ml de liquide. Laisse-le tiédir. Hache finement la moitié de l'écorce ramollie pour la farce."
+      },
+      {
+       "titre": "Pétrir la pâte",
+       "texte": "Mélange la farine ({farine}) et une pincée de sel ({sel}) dans un saladier. Verse la décoction tiède petit à petit en mélangeant, puis pétris jusqu'à obtenir une pâte souple qui ne colle plus. Couvre et laisse reposer.",
+       "s": 1800
+      },
+      {
+       "titre": "Précuire le radis",
+       "texte": "Pendant ce temps, râpe le radis ({radis}) avec la grosse râpe. Fais-le sauter dans une cuillère d'huile ({huile}) avec une pincée de sel : il doit rester un peu croquant. Laisse refroidir, puis presse-le entre tes mains pour enlever le jus.",
+       "s": 240
+      },
+      {
+       "titre": "Préparer la farce",
+       "texte": "Mélange le radis avec le poulet ({poulet}), le gingembre ({gingembre}), la cébette ({cebette}), l'écorce hachée, la sauce soja ({soja}) et le reste du sel."
+      },
+      {
+       "titre": "Façonner les galettes",
+       "texte": "Partage la pâte en 6 boules et étale chacune en disque de 12 cm. Pose une grosse cuillerée de farce au centre, ramène les bords vers le milieu en plissant et pince pour fermer. Aplatis doucement en galette, soudure en dessous."
+      },
+      {
+       "titre": "Dorer une face",
+       "texte": "Chauffe un filet d'huile dans une grande poêle à feu doux-moyen. Pose les galettes, couvre et laisse dorer.",
+       "s": 360
+      },
+      {
+       "titre": "Dorer l'autre face",
+       "texte": "Retourne-les, couvre de nouveau et laisse dorer l'autre face. Le poulet doit être bien cuit à cœur.",
+       "s": 360
+      },
+      {
+       "titre": "Servir",
+       "texte": "Laisse tiédir 5 minutes avant de croquer : la farce est brûlante. Sers avec un bouillon ou des légumes."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Les galettes se congèlent crues : fais-les cuire sans les décongeler, en comptant 5 à 10 minutes de plus.",
+    "Tu peux sécher toi-même des écorces de mandarines bio : quelques semaines à l'air, dans un endroit sec."
+   ],
+   "tags": [
+    "radis blanc",
+    "écorce de mandarine",
+    "digestion",
+    "Estomac",
+    "galette"
+   ]
+  },
+  {
+   "id": "rognons-agneau-muscade",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 307,
+   "genre": "plat",
+   "axe": "yang",
+   "titre": "Rognons d'agneau à la muscade",
+   "zh": "豆蔻腰花",
+   "py": "dòukòu yāohuā",
+   "contexte": "La muscade et la badiane réchauffent le Rein et la Rate, les rognons renforcent le Rein. Pour la fatigue, le mal de dos qui dure et les diarrhées chroniques, surtout celles du petit matin.",
+   "principe": {
+    "zh": "温肾健脾止泻",
+    "py": "Wēn shèn jiàn pí zhǐ xiè",
+    "fr": "Réchauffer le Rein, renforcer la Rate, arrêter la diarrhée"
+   },
+   "precautions": "Plat qui réchauffe : à éviter en cas de Chaleur (soif, bouche sèche, fièvre) ou de diarrhée brûlante. Muscade : pas plus que la dose indiquée, et pas pendant la grossesse. Rognons : à éviter en cas de goutte. Une diarrhée qui dure plus de 2 semaines doit être vue par un médecin.",
+   "portions": 2,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "badiane",
+     "q": 4,
+     "nom": "étoiles de badiane (anis étoilé)",
+     "cle": "anis-etoile"
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "rognons",
+     "q": 6,
+     "nom": "rognons d'agneau (environ 300 g)",
+     "cle": "rognons-agneau",
+     "note": "Chez le boucher : choisis-les bien frais, fermes et sans odeur forte."
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "vinaigre (de riz ou de cidre)",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "sichuan",
+     "q": 1,
+     "u": "tsp",
+     "nom": "poivre du Sichuan en grains",
+     "cle": "poivre-sichuan"
+    },
+    {
+     "id": "muscade",
+     "q": 0.25,
+     "u": "tsp",
+     "nom": "noix de muscade, râpée",
+     "cle": "muscade"
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Décocter la badiane",
+       "texte": "Mets la badiane ({badiane}) dans l'eau ({eau}), porte à ébullition et laisse frémir à couvert.",
+       "s": 1800
+      },
+      {
+       "titre": "Parer les rognons",
+       "texte": "Pendant ce temps, retire la fine peau des rognons ({rognons}). Coupe-les en deux dans l'épaisseur et enlève le cœur blanc et les canaux avec des ciseaux."
+      },
+      {
+       "titre": "Faire dégorger",
+       "texte": "Mets-les dans un bol d'eau froide avec le vinaigre ({vinaigre}) et laisse tremper. Rince-les bien ensuite.",
+       "s": 900
+      },
+      {
+       "titre": "Inciser en fleur",
+       "texte": "Quadrille la face bombée de chaque moitié de fines entailles, sans traverser, puis coupe-la en deux : les morceaux s'ouvriront en fleur à la cuisson."
+      },
+      {
+       "titre": "Blanchir",
+       "texte": "Retire les étoiles de badiane et ramène la décoction à ébullition. Plonge les rognons et égoutte-les dès qu'ils changent de couleur.",
+       "s": 40
+      },
+      {
+       "titre": "Parfumer l'huile",
+       "texte": "Chauffe l'huile ({huile}) dans le wok à feu moyen avec le poivre du Sichuan ({sichuan}). Retire les grains avec une écumoire dès qu'ils brunissent.",
+       "s": 60
+      },
+      {
+       "titre": "Sauter les rognons",
+       "texte": "Monte le feu et fais sauter les rognons vivement. Ils doivent rester tendres : trop cuits, ils durcissent.",
+       "s": 90
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Râpe la muscade ({muscade}) par-dessus, sale ({sel}), mélange et retire aussitôt du feu. Sers tout de suite avec du riz."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Les rognons de veau conviennent aussi : coupe-les en morceaux de la même taille."
+   ],
+   "tags": [
+    "rognons",
+    "Rein",
+    "Yang",
+    "diarrhée",
+    "mal de dos"
+   ]
+  },
+  {
+   "id": "foie-agneau-soja-vinaigre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 308,
+   "genre": "plat",
+   "axe": "sang",
+   "titre": "Foie d'agneau à la sauce soja et au vinaigre",
+   "zh": "酱油食醋羊肝",
+   "py": "jiàngyóu shícù yánggān",
+   "contexte": "Le foie d'agneau nourrit le Foie et le Sang, qui nourrissent les yeux. La tradition le donne quand on voit mal le soir ou dans la pénombre ; fais aussi contrôler ta vue par un ophtalmologiste, ce plat accompagne le suivi.",
+   "principe": {
+    "zh": "养肝明目",
+    "py": "Yǎng gān míng mù",
+    "fr": "Nourrir le Foie, éclaircir les yeux"
+   },
+   "precautions": "Le foie est très riche en vitamine A : pas pendant la grossesse, et pas plus d'une ou deux fois par semaine, même si la tradition en conseille chaque jour. À éviter en cas de goutte.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "foie",
+     "q": 250,
+     "u": "g",
+     "nom": "foie d'agneau",
+     "cle": "foie-agneau",
+     "note": "Choisis-le bien frais et brillant, chez le boucher."
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "fécule de maïs ou de pomme de terre"
+    },
+    {
+     "id": "eau",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "vinaigre de riz ou vinaigre noir chinois",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "gingembre frais, en fins bâtonnets",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "cébettes, en tronçons",
+     "cle": "cebette"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Préparer le foie",
+       "texte": "Retire la fine peau et les vaisseaux du foie ({foie}). Rince-le, éponge-le et coupe-le en tranches de 5 mm."
+      },
+      {
+       "titre": "Enrober",
+       "texte": "Délaye la fécule ({fecule}) dans l'eau ({eau}), ajoute les tranches et mélange pour bien les napper."
+      },
+      {
+       "titre": "Préparer la sauce",
+       "texte": "Dans un bol, mélange la sauce soja ({soja}), le vinaigre ({vinaigre}) et le sucre ({sucre})."
+      },
+      {
+       "titre": "Saisir le foie",
+       "texte": "Chauffe l'huile ({huile}) dans le wok à feu vif. Étale les tranches, laisse-les saisir sans y toucher, puis retourne-les.",
+       "s": 60
+      },
+      {
+       "titre": "Ajouter la sauce",
+       "texte": "Ajoute le gingembre ({gingembre}) et la cébette ({cebette}), verse la sauce et fais sauter jusqu'à ce que le foie soit juste cuit et encore tendre.",
+       "s": 90
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sers aussitôt avec du riz : le foie durcit s'il attend."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le vinaigre noir chinois donne le goût le plus juste ; le vinaigre de cidre dépanne.",
+    "Les foies de volaille se préparent de la même façon."
+   ],
+   "tags": [
+    "foie",
+    "yeux",
+    "vue",
+    "Sang",
+    "Foie"
+   ]
+  },
+  {
+   "id": "foie-agneau-ciboule",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 309,
+   "genre": "plat",
+   "axe": "sang",
+   "titre": "Foie d'agneau sauté à la ciboule chinoise",
+   "zh": "韭菜炒羊肝",
+   "py": "jiǔcài chǎo yánggān",
+   "contexte": "La ciboule chinoise réchauffe le Rein, le foie d'agneau nourrit le Foie et le Sang. Pour le mal de dos qui traîne, les vertiges, la vue qui se trouble, les crampes, et les règles peu abondantes ou sourdement douloureuses.",
+   "principe": {
+    "zh": "温补肝肾",
+    "py": "Wēn bǔ gān shèn",
+    "fr": "Réchauffer et tonifier le Foie et le Rein"
+   },
+   "precautions": "Plat qui réchauffe : à éviter en cas de Chaleur (yeux rouges, bouche amère, aphtes). Le foie est très riche en vitamine A : pas pendant la grossesse, et plutôt 2 ou 3 fois par semaine que tous les jours. Des vertiges ou des règles très perturbées méritent l'avis d'un médecin.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "foie",
+     "q": 250,
+     "u": "g",
+     "nom": "foie d'agneau",
+     "cle": "foie-agneau"
+    },
+    {
+     "id": "ciboule",
+     "q": 150,
+     "u": "g",
+     "nom": "ciboule chinoise (jiu cai)",
+     "cle": "ciboule-chinoise",
+     "note": "En botte en épicerie asiatique : feuilles plates, goût d'ail doux. À défaut, un jeune poireau émincé finement."
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 2,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Retire la fine peau et les vaisseaux du foie ({foie}), puis coupe-le en fines tranches. Lave la ciboule chinoise ({ciboule}), éponge-la et coupe-la en tronçons de 4 cm, en gardant à part les bouts blancs, plus fermes."
+      },
+      {
+       "titre": "Saisir le foie",
+       "texte": "Chauffe l'huile ({huile}) à feu vif dans le wok. Fais sauter le foie jusqu'à ce qu'il ne soit plus rouge en surface.",
+       "s": 90
+      },
+      {
+       "titre": "Ajouter la ciboule",
+       "texte": "Ajoute d'abord les bouts blancs, puis les feuilles. Fais sauter juste le temps qu'elles s'affaissent.",
+       "s": 60
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Sale ({sel}), ajoute la sauce soja ({soja}), mélange et sers aussitôt avec du riz."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Pour les règles, prends-le plutôt dans la semaine qui suit les règles, quand le Sang se reconstitue."
+   ],
+   "tags": [
+    "foie",
+    "ciboule chinoise",
+    "Rein",
+    "règles",
+    "mal de dos"
+   ]
+  },
+  {
+   "id": "gateau-radis-vapeur",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 310,
+   "genre": "plat",
+   "axe": "rate",
+   "titre": "Gâteau de radis blanc à la vapeur",
+   "zh": "白萝卜糕",
+   "py": "bái luóbo gāo",
+   "contexte": "Le radis blanc aide l'Estomac à digérer et dissout les Mucosités. Un en-cas ou un accompagnement pour l'estomac lourd, le ventre qui gonfle après les repas et les glaires.",
+   "principe": {
+    "zh": "健胃消食化痰",
+    "py": "Jiàn wèi xiāo shí huà tán",
+    "fr": "Renforcer l'Estomac, aider la digestion, transformer les Mucosités"
+   },
+   "precautions": "Les crevettes séchées sont salées : goûte avant de saler, surtout si tu surveilles ta tension. Allergie aux crustacés : remplace-les par 2 shiitakés de plus.",
+   "portions": 6,
+   "duree": "1 h 30 (+ refroidissement 1 h)",
+   "ingredients": [
+    {
+     "id": "crevettes",
+     "q": 20,
+     "u": "g",
+     "nom": "crevettes séchées",
+     "cle": "crevettes-sechees",
+     "note": "En sachet en épicerie asiatique."
+    },
+    {
+     "id": "shiitake",
+     "q": 4,
+     "nom": "shiitakés séchés",
+     "cle": "shiitake"
+    },
+    {
+     "id": "radis",
+     "q": 500,
+     "u": "g",
+     "nom": "radis blanc (daikon)",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "gingembre frais, haché",
+     "cle": "gingembre"
+    },
+    {
+     "id": "farine",
+     "q": 200,
+     "u": "g",
+     "nom": "farine de riz (pas de riz gluant)",
+     "cle": "riz",
+     "note": "En épicerie asiatique ou au rayon sans gluten."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "ciboulette",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "ciboulette, ciselée",
+     "cle": "ciboulette"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Faire tremper",
+       "texte": "Fais tremper les crevettes séchées ({crevettes}) et les shiitakés ({shiitake}) dans deux bols d'eau tiède (en plus de l'eau de la recette).",
+       "s": 1800
+      },
+      {
+       "titre": "Cuire le radis",
+       "texte": "Pendant ce temps, pèle le radis ({radis}) et râpe-le avec la grosse râpe. Mets-le dans une casserole avec son jus et un tiers de l'eau ({eau}). Couvre et laisse cuire à feu moyen, en remuant de temps en temps, jusqu'à ce qu'il soit translucide.",
+       "s": 600
+      },
+      {
+       "titre": "Revenir la garniture",
+       "texte": "Égoutte les crevettes et les shiitakés, retire les pieds des shiitakés et hache le tout grossièrement. Fais revenir dans l'huile ({huile}) avec le gingembre ({gingembre}).",
+       "s": 120
+      },
+      {
+       "titre": "Faire la pâte",
+       "texte": "Dans un saladier, délaye la farine de riz ({farine}) et le sel ({sel}) avec le reste de l'eau. Ajoute le radis chaud avec son jus, la garniture et la ciboulette ({ciboulette}). Mélange : la pâte doit être épaisse mais couler encore."
+      },
+      {
+       "titre": "Remplir le moule",
+       "texte": "Huile un moule rond de 20 cm, ou un plat creux qui tient dans ton panier vapeur. Verse la pâte et lisse la surface."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Cuis à la vapeur à feu vif, couvert. À mi-cuisson, rajoute de l'eau bouillante dans la marmite. Une baguette plantée au centre doit ressortir presque propre.",
+       "s": 3000
+      },
+      {
+       "titre": "Laisser refroidir",
+       "texte": "Laisse refroidir complètement : le gâteau se raffermit en refroidissant et se coupe alors net.",
+       "s": 3600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Démoule et coupe en tranches de 1 cm. Réchauffe-les à la vapeur, ou fais-les dorer 2 à 3 minutes de chaque côté dans une poêle huilée."
+      }
+     ]
+    },
+    {
+     "id": "four",
+     "nom": "Au four (au bain-marie)",
+     "etapes": [
+      {
+       "titre": "Faire tremper",
+       "texte": "Fais tremper les crevettes séchées ({crevettes}) et les shiitakés ({shiitake}) dans deux bols d'eau tiède (en plus de l'eau de la recette).",
+       "s": 1800
+      },
+      {
+       "titre": "Cuire le radis",
+       "texte": "Pendant ce temps, pèle le radis ({radis}) et râpe-le avec la grosse râpe. Mets-le dans une casserole avec son jus et un tiers de l'eau ({eau}). Couvre et laisse cuire à feu moyen, en remuant de temps en temps, jusqu'à ce qu'il soit translucide.",
+       "s": 600
+      },
+      {
+       "titre": "Revenir la garniture",
+       "texte": "Égoutte les crevettes et les shiitakés, retire les pieds des shiitakés et hache le tout grossièrement. Fais revenir dans l'huile ({huile}) avec le gingembre ({gingembre}).",
+       "s": 120
+      },
+      {
+       "titre": "Faire la pâte",
+       "texte": "Dans un saladier, délaye la farine de riz ({farine}) et le sel ({sel}) avec le reste de l'eau. Ajoute le radis chaud avec son jus, la garniture et la ciboulette ({ciboulette}). Mélange : la pâte doit être épaisse mais couler encore."
+      },
+      {
+       "titre": "Remplir le moule",
+       "texte": "Préchauffe le four à 180 °C. Huile un moule rond de 20 cm, verse la pâte, lisse la surface et couvre de papier aluminium."
+      },
+      {
+       "titre": "Cuire au bain-marie",
+       "texte": "Pose le moule dans un grand plat rempli d'eau chaude à mi-hauteur et enfourne. Une lame plantée au centre doit ressortir presque propre.",
+       "s": 4500
+      },
+      {
+       "titre": "Laisser refroidir",
+       "texte": "Laisse refroidir complètement : le gâteau se raffermit en refroidissant et se coupe alors net.",
+       "s": 3600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Démoule et coupe en tranches de 1 cm. Réchauffe-les à la vapeur, ou fais-les dorer 2 à 3 minutes de chaque côté dans une poêle huilée."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le gâteau se garde 4 jours au frais, bien emballé, et se congèle en tranches."
+   ],
+   "tags": [
+    "radis blanc",
+    "digestion",
+    "Mucosités",
+    "vapeur",
+    "en-cas"
+   ]
+  },
+  {
+   "id": "igname-vapeur",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 311,
+   "genre": "plat",
+   "axe": "yin",
+   "titre": "Igname de Chine à la vapeur",
+   "zh": "蒸山药",
+   "py": "zhēng shānyào",
+   "contexte": "L'igname de Chine nourrit le Yin et consolide l'Essence, en douceur. Pour les troubles de la ménopause (bouffées de chaleur, sueurs de nuit) et, en cas de diabète, en accompagnement du suivi médical, jamais à sa place.",
+   "principe": {
+    "zh": "滋阴固精",
+    "py": "Zī yīn gù jīng",
+    "fr": "Nourrir le Yin, consolider l'Essence"
+   },
+   "precautions": "Elle est riche en amidon : en cas de diabète, elle remplace le riz ou le pain du repas, elle ne s'y ajoute pas. À éviter si tu as le ventre ballonné et la digestion très encombrée.",
+   "portions": 2,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "igname",
+     "q": 300,
+     "u": "g",
+     "nom": "igname de Chine fraîche (shan yao)",
+     "cle": "shan-yao",
+     "note": "En épicerie asiatique : longue racine beige et poilue. L'igname africaine n'est pas la même plante."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel (facultatif)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Laver l'igname",
+       "texte": "Brosse l'igname ({igname}) sous l'eau et coupe-la en tronçons de 8 à 10 cm, sans la peler : cuite avec sa peau, tu n'auras pas à toucher sa sève, qui gratte."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Pose les tronçons dans le panier vapeur au-dessus d'une eau qui bout. Couvre et cuis jusqu'à ce qu'une pointe de couteau s'enfonce sans résistance.",
+       "s": 1200
+      },
+      {
+       "titre": "Peler",
+       "texte": "Laisse tiédir un instant, puis retire la peau : elle glisse toute seule.",
+       "s": 120
+      },
+      {
+       "titre": "Servir",
+       "texte": "Coupe en rondelles et sale à peine ({sel}) si tu veux. Mange-la à la place du riz ou du pain du repas."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz (panier vapeur)",
+     "etapes": [
+      {
+       "titre": "Laver l'igname",
+       "texte": "Brosse l'igname ({igname}) sous l'eau et coupe-la en tronçons de 8 à 10 cm, sans la peler : cuite avec sa peau, tu n'auras pas à toucher sa sève, qui gratte."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Verse de l'eau dans la cuve selon la notice, pose l'igname dans le panier vapeur et lance le programme Vapeur.",
+       "s": 1500
+      },
+      {
+       "titre": "Peler",
+       "texte": "Laisse tiédir un instant, puis retire la peau : elle glisse toute seule.",
+       "s": 120
+      },
+      {
+       "titre": "Servir",
+       "texte": "Coupe en rondelles et sale à peine ({sel}) si tu veux. Mange-la à la place du riz ou du pain du repas."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La tradition la conseille deux fois par jour, à la place du féculent habituel.",
+    "Elle se garde une à deux semaines au frais, enveloppée dans du papier journal."
+   ],
+   "tags": [
+    "igname de Chine",
+    "ménopause",
+    "Yin",
+    "diabète",
+    "vapeur"
+   ]
+  },
+  {
+   "id": "poisson-epinards",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 312,
+   "genre": "plat",
+   "axe": "chaleur",
+   "titre": "Lamelles de poisson sautées aux épinards",
+   "zh": "菠菜炒生鱼片",
+   "py": "bōcài chǎo shēngyú piàn",
+   "contexte": "Les épinards rafraîchissent et nourrissent le Foie, le poisson est léger. Pour les vertiges, l'irritabilité et la tension qui monte à la tête ; en cas d'hypertension, ce plat accompagne le suivi médical, il ne le remplace pas.",
+   "principe": {
+    "zh": "清热除烦平肝",
+    "py": "Qīng rè chú fán píng gān",
+    "fr": "Clarifier la Chaleur, calmer l'agitation, apaiser le Foie"
+   },
+   "precautions": "Plat frais : à limiter si tu as le ventre froid et les selles molles. En cas d'hypertension, sale très peu. Si tu as des calculs rénaux, ne mange pas d'épinards trop souvent.",
+   "portions": 2,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "epinards",
+     "q": 300,
+     "u": "g",
+     "nom": "épinards frais",
+     "cle": "epinards"
+    },
+    {
+     "id": "poisson",
+     "q": 300,
+     "u": "g",
+     "nom": "poisson blanc à chair ferme (cabillaud, lieu, merlu)",
+     "cle": "poisson-blanc"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tsp",
+     "nom": "fécule de maïs ou de pomme de terre"
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "ail",
+     "q": 2,
+     "nom": "gousses d'ail, écrasées",
+     "cle": "ail"
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "gingembre frais, haché",
+     "cle": "gingembre"
+    },
+    {
+     "id": "oignon",
+     "q": 0.5,
+     "nom": "oignon, en morceaux",
+     "cle": "oignon"
+    },
+    {
+     "id": "eau",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Préparer les épinards",
+       "texte": "Coupe les pieds des épinards ({epinards}), lave les feuilles à grande eau et coupe les plus grandes en deux."
+      },
+      {
+       "titre": "Blanchir",
+       "texte": "Plonge-les dans une grande casserole d'eau bouillante, juste le temps qu'ils tombent. Égoutte-les et presse-les doucement.",
+       "s": 30
+      },
+      {
+       "titre": "Préparer le poisson",
+       "texte": "Coupe le poisson ({poisson}) en lamelles de 1 cm, sale-les légèrement ({sel}) et roule-les dans la fécule ({fecule})."
+      },
+      {
+       "titre": "Parfumer l'huile",
+       "texte": "Chauffe l'huile ({huile}) dans le wok à feu moyen. Fais dorer l'ail ({ail}), puis ajoute le gingembre ({gingembre}) et l'oignon ({oignon}). Remue jusqu'à ce que ça sente bon.",
+       "s": 90
+      },
+      {
+       "titre": "Sauter le poisson",
+       "texte": "Monte le feu, ajoute le poisson et l'eau ({eau}). Retourne les lamelles délicatement, sans trop remuer pour ne pas les casser.",
+       "s": 120
+      },
+      {
+       "titre": "Ajouter les épinards",
+       "texte": "Ajoute les épinards et mélange doucement, juste pour les réchauffer. Sers aussitôt avec du riz.",
+       "s": 60
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le blanchiment enlève l'amertume des épinards et une partie de leur acide oxalique."
+   ],
+   "tags": [
+    "épinards",
+    "poisson",
+    "tension",
+    "vertiges",
+    "Foie"
+   ]
+  },
+  {
+   "id": "lapin-sesame-noir",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 313,
+   "genre": "plat",
+   "axe": "rate",
+   "titre": "Lapin mijoté au sésame noir",
+   "zh": "黑芝麻炖兔肉",
+   "py": "hēizhīma dùn tùròu",
+   "contexte": "Le lapin renforce la Rate et l'Estomac sans alourdir, le sésame noir humidifie les intestins et les clous de girofle réchauffent. Pour la fatigue, le surpoids et les selles sèches.",
+   "principe": {
+    "zh": "健脾和胃润肠",
+    "py": "Jiàn pí hé wèi rùn cháng",
+    "fr": "Renforcer la Rate, harmoniser l'Estomac, humidifier les intestins"
+   },
+   "precautions": "Le sésame noir humidifie les intestins : réduis-le si tu as les selles molles ou la diarrhée.",
+   "portions": 2,
+   "duree": "1 h 30",
+   "ingredients": [
+    {
+     "id": "sesame",
+     "q": 40,
+     "u": "g",
+     "nom": "graines de sésame noir",
+     "cle": "sesame-noir"
+    },
+    {
+     "id": "lapin",
+     "q": 600,
+     "u": "g",
+     "nom": "lapin en morceaux (2 cuisses et un râble)",
+     "cle": "lapin",
+     "note": "Au rayon volaille ou chez le boucher."
+    },
+    {
+     "id": "eau",
+     "q": 700,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "gingembre frais, en tranches",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "cébettes, en tronçons",
+     "cle": "cebette"
+    },
+    {
+     "id": "girofle",
+     "q": 4,
+     "nom": "clous de girofle",
+     "cle": "girofle"
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "huile-sesame",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Griller le sésame",
+       "texte": "Fais griller le sésame noir ({sesame}) dans une poêle sèche à feu moyen, en remuant, jusqu'à ce qu'il crépite et sente la noisette. Verse-le dans un bol.",
+       "s": 180
+      },
+      {
+       "titre": "Blanchir le lapin",
+       "texte": "Mets les morceaux de lapin ({lapin}) dans une grande casserole d'eau froide et porte à ébullition. Laisse bouillir, puis jette l'eau et rince les morceaux.",
+       "s": 300
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Remets le lapin dans la casserole avec l'eau ({eau}), le gingembre ({gingembre}), la cébette ({cebette}), les clous de girofle ({girofle}), la sauce soja ({soja}) et le sel ({sel}). Porte à ébullition, puis laisse mijoter à feu doux, couvercle entrouvert, en retournant les morceaux de temps en temps.",
+       "s": 3600
+      },
+      {
+       "titre": "Réduire",
+       "texte": "Retire le couvercle et laisse réduire jusqu'à ce qu'il ne reste qu'un fond de jus sirupeux, 3 à 4 cuillères à soupe. La viande doit se détacher de l'os.",
+       "s": 900
+      },
+      {
+       "titre": "Napper",
+       "texte": "Dresse le lapin dans un plat. Filtre le jus, ajoute le sésame grillé et l'huile de sésame ({huile-sesame}), puis nappe les morceaux. Sers avec du riz."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Griller le sésame",
+       "texte": "Fais griller le sésame noir ({sesame}) dans une poêle sèche à feu moyen, en remuant, jusqu'à ce qu'il crépite et sente la noisette. Verse-le dans un bol.",
+       "s": 180
+      },
+      {
+       "titre": "Blanchir le lapin",
+       "texte": "Mets les morceaux de lapin ({lapin}) dans la cocotte, couvre d'eau froide et porte à ébullition. Laisse bouillir, puis jette l'eau et rince les morceaux.",
+       "s": 300
+      },
+      {
+       "titre": "Cuire sous pression",
+       "texte": "Remets le lapin dans la cocotte avec l'eau ({eau}), le gingembre ({gingembre}), la cébette ({cebette}), les clous de girofle ({girofle}), la sauce soja ({soja}) et le sel ({sel}). Ferme, et compte le temps à partir du chuchotement de la soupape, à feu doux.",
+       "s": 1500
+      },
+      {
+       "titre": "Laisser décompresser",
+       "texte": "Coupe le feu et laisse la pression retomber d'elle-même avant d'ouvrir.",
+       "s": 600
+      },
+      {
+       "titre": "Réduire",
+       "texte": "Fais bouillir à découvert jusqu'à ce qu'il ne reste qu'un fond de jus sirupeux, 3 à 4 cuillères à soupe.",
+       "s": 1200
+      },
+      {
+       "titre": "Napper",
+       "texte": "Dresse le lapin dans un plat. Filtre le jus, ajoute le sésame grillé et l'huile de sésame ({huile-sesame}), puis nappe les morceaux. Sers avec du riz."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Griller le sésame",
+       "texte": "Fais griller le sésame noir ({sesame}) dans une poêle sèche à feu moyen, en remuant, jusqu'à ce qu'il crépite et sente la noisette. Verse-le dans un bol.",
+       "s": 180
+      },
+      {
+       "titre": "Blanchir le lapin",
+       "texte": "Mets les morceaux de lapin ({lapin}) dans une grande casserole d'eau froide et porte à ébullition. Laisse bouillir, puis jette l'eau et rince les morceaux.",
+       "s": 300
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Mets le lapin dans la cuve avec l'eau ({eau}), le gingembre ({gingembre}), la cébette ({cebette}), les clous de girofle ({girofle}), la sauce soja ({soja}) et le sel ({sel}). Programme Mijotage ou Soupe.",
+       "s": 5400
+      },
+      {
+       "titre": "Réduire le jus",
+       "texte": "Sors le lapin et garde-le au chaud. Verse le jus dans une petite casserole (ou utilise le mode Saisir de l'appareil) et fais-le bouillir à découvert jusqu'à 3 ou 4 cuillères à soupe.",
+       "s": 900
+      },
+      {
+       "titre": "Napper",
+       "texte": "Dresse le lapin dans un plat. Filtre le jus, ajoute le sésame grillé et l'huile de sésame ({huile-sesame}), puis nappe les morceaux. Sers avec du riz."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La tradition le propose deux fois par semaine, en cure de quelques semaines : une moitié le midi, l'autre le soir.",
+    "Quatre clous de girofle suffisent à parfumer : au-delà, le jus devient amer."
+   ],
+   "tags": [
+    "lapin",
+    "sésame noir",
+    "fatigue",
+    "constipation",
+    "Rate"
+   ]
+  },
+  {
+   "id": "poulet-carottes-chen-pi",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 314,
+   "genre": "plat",
+   "axe": "circuler",
+   "titre": "Sauté de poulet aux carottes et à l'écorce de mandarine",
+   "zh": "胡萝卜炒陈皮鸡丝",
+   "py": "húluóbo chǎo chénpí jīsī",
+   "contexte": "L'écorce de mandarine fait circuler le Qi, la carotte renforce la Rate. Pour l'estomac tendu, gonflé ou douloureux et les digestions difficiles, surtout quand le stress s'en mêle.",
+   "principe": {
+    "zh": "宽中理气",
+    "py": "Kuān zhōng lǐ qì",
+    "fr": "Détendre le Centre, régulariser le Qi"
+   },
+   "precautions": "L'écorce de mandarine assèche : à limiter si tu as la bouche sèche ou une toux sèche. Des douleurs d'estomac fréquentes ou fortes doivent être vues par un médecin.",
+   "portions": 2,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "mandarine",
+     "q": 10,
+     "u": "g",
+     "nom": "écorce de mandarine séchée (Chen Pi)",
+     "cle": "mandarine",
+     "note": "En épicerie asiatique ou en herboristerie chinoise."
+    },
+    {
+     "id": "poulet",
+     "q": 250,
+     "u": "g",
+     "nom": "blanc ou haut de cuisse de poulet",
+     "cle": "poulet"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tsp",
+     "nom": "fécule de maïs ou de pomme de terre"
+    },
+    {
+     "id": "carottes",
+     "q": 250,
+     "u": "g",
+     "nom": "carottes",
+     "cle": "carotte"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "cébettes",
+     "cle": "cebette"
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "huile neutre",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 4,
+     "u": "tbsp",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Tremper l'écorce",
+       "texte": "Fais tremper l'écorce de mandarine ({mandarine}) dans un bol d'eau tiède jusqu'à ce qu'elle soit souple.",
+       "s": 900
+      },
+      {
+       "titre": "Mariner le poulet",
+       "texte": "Pendant ce temps, coupe le poulet ({poulet}) en fines lanières et mélange-le avec la sauce soja ({soja}) et la fécule ({fecule})."
+      },
+      {
+       "titre": "Tailler",
+       "texte": "Coupe les carottes ({carottes}) en julienne, ou râpe-les avec la grosse râpe. Égoutte l'écorce, gratte la peau blanche à l'intérieur si elle est épaisse et coupe-la en fines lanières. Cisèle la cébette ({cebette})."
+      },
+      {
+       "titre": "Sauter les carottes",
+       "texte": "Chauffe la moitié de l'huile ({huile}) dans le wok et fais sauter les carottes à feu vif. Réserve-les dans une assiette.",
+       "s": 120
+      },
+      {
+       "titre": "Sauter le poulet",
+       "texte": "Verse le reste de l'huile et fais sauter le poulet avec les lanières d'écorce, jusqu'à ce qu'il blanchisse.",
+       "s": 180
+      },
+      {
+       "titre": "Étuver",
+       "texte": "Remets les carottes, sale légèrement ({sel}), verse l'eau ({eau}), couvre et laisse cuire à feu moyen.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Parsème de cébette et sers avec du riz."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Plus l'écorce de mandarine est vieille, plus elle est douce et parfumée.",
+    "La même recette se fait avec des lanières de bœuf."
+   ],
+   "tags": [
+    "poulet",
+    "carottes",
+    "écorce de mandarine",
+    "digestion",
+    "ballonnements"
+   ]
+  }
+ ]
+}

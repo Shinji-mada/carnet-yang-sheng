@@ -98,7 +98,11 @@
     "saumon-patate-douce",
     "poulpe-pommes-de-terre",
     "boeuf-brocoli",
-    "foies-volaille-epinards"
+    "foies-volaille-epinards",
+    "congee-riz-gluant-dattes",
+    "oeuf-sucre-complet",
+    "foie-agneau-ciboule",
+    "compotee-cerises-longanes"
    ],
    "privilegier": "Broths, jujubes, goji berries, eggs, meat in small amounts, grains, legumes.",
    "eviter": "Restrictive diets, overwork, skipping meals.",
@@ -216,7 +220,10 @@
     "soupe-huitres-tofu",
     "soupe-canard-igname",
     "bouillon-os-boeuf",
-    "creme-sesame-noix"
+    "creme-sesame-noix",
+    "bouillon-huitres-gingembre",
+    "oeufs-jujubes-goji",
+    "gateau-bu-shen"
    ],
    "privilegier": "Goji berries, black sesame, black beans, snow fungus (tremella), eggs, pear, chrysanthemum.",
    "eviter": "Late-night screens, spicy food, alcohol, staying up late.",
@@ -331,7 +338,8 @@
     "infusion-gingembre-cannelle",
     "soupe-mouton-radis",
     "crevettes-ciboule-oeufs",
-    "poulet-chataignes"
+    "poulet-chataignes",
+    "rognons-agneau-muscade"
    ],
    "privilegier": "Slow-cooked dishes, ginger, cinnamon, leek, walnuts, lamb, rice, squash.",
    "eviter": "Anything cold or raw, ice cream, sodas.",
@@ -433,7 +441,9 @@
     "soupe-poulet-huang-qi",
     "congee-millet-patate-douce",
     "poulet-shiitake",
-    "congee-poulet"
+    "congee-poulet",
+    "bouillie-millet-astragale",
+    "congee-pomme-raisin"
    ],
    "privilegier": "Chinese yam, rice, millet, chicken, mushrooms, cooked vegetables.",
    "eviter": "Dairy, sugar, raw food, cold food.",
@@ -530,7 +540,11 @@
     "agneau-dang-gui",
     "infusion-rose-orange",
     "veloute-betterave-lentilles",
-    "champignons-noirs"
+    "champignons-noirs",
+    "oeuf-sucre-complet",
+    "infusion-shan-zha",
+    "boisson-champignons-noirs",
+    "infusion-chrysantheme-shan-zha-cassia"
    ],
    "privilegier": "Daily movement, beets, onion, chives, rosebuds, turmeric, a little rice vinegar.",
    "eviter": "Cold, a sedentary lifestyle, sitting for hours.",
@@ -630,7 +644,8 @@
    "recettes": [
     "agneau-dang-gui",
     "infusion-gingembre-cannelle",
-    "agneau-fenouil"
+    "agneau-fenouil",
+    "oeufs-gingembre-armoise"
    ],
    "privilegier": "Ginger, cinnamon, lamb, slow-cooked dishes, hot drinks.",
    "eviter": "Cold drinks, ice cream, swimming in cold water during your period.",

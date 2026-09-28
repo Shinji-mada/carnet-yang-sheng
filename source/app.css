@@ -631,3 +631,35 @@ details.set-acc>.set>.set-h:first-child{margin-top:16px}
 .tipbox p{margin:0}
 .tipbox b{color:var(--jade)}
 .tipbox .ti{flex:none;width:22px;height:22px;margin-top:1px;color:var(--jade)}
+/* Cuisine : recettes par type, guide des aliments */
+.segc{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:16px}
+.segc .n,.segt .n{font-weight:400;color:var(--muted);font-size:13px}
+.segn{grid-template-columns:repeat(4,minmax(0,1fr))}
+.segn button{font-size:13.5px;padding:0 4px;line-height:1.15}
+.nat{display:inline-block;flex:none;padding:2px 9px;border-radius:999px;font-size:12.5px;font-weight:700;line-height:1.5;color:#fff;background:#8B9590;white-space:nowrap}
+.n-froide{background:#1E4E9C}.n-fraiche-froide{background:linear-gradient(90deg,#1B87AA,#1E4E9C)}.n-fraiche{background:#1B87AA}
+.n-neutre-fraiche{background:linear-gradient(90deg,#7E8A85,#1B87AA)}.n-neutre{background:#7E8A85}.n-neutre-tiede{background:linear-gradient(90deg,#7E8A85,#D9711C)}
+.n-tiede{background:#D9711C}.n-tiede-chaude{background:linear-gradient(90deg,#D9711C,#B8342A)}.n-chaude{background:#B8342A}
+.sav{display:inline-flex;align-items:center;gap:5px;font-size:13px;font-weight:700;color:var(--ink);white-space:nowrap}
+.sav::before{content:"";width:8px;height:8px;border-radius:50%;background:currentColor;flex:none}
+.s-douce::before{background:#E09A12}.s-acide::before{background:#3E9B3A}.s-amere::before{background:#C9362B}.s-piquante::before{background:#8A8F8C}
+.s-salee::before{background:#3F74B8}.s-astringente::before{background:#1F6B3A}.s-insipide::before{background:transparent;border:1.5px solid var(--muted)}
+.alist{display:grid;gap:6px}
+.al{display:grid;gap:4px;width:100%;text-align:left;padding:10px 14px;border:1px solid var(--line);border-radius:12px;background:var(--surface);cursor:pointer;min-height:52px}
+.al-top{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.al-n{font-weight:700;font-size:15px}
+.al-sub{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px}
+.al-t{font-size:13px;color:var(--muted)}
+.howto{margin-top:16px}
+.howto-b{padding:0 16px 14px;font-size:14.5px;line-height:1.5}
+.howto-b p{margin:0 0 8px}
+.natscale{display:flex;flex-wrap:wrap;gap:6px}
+.savlist{list-style:none;margin:0 0 8px;padding:0;display:grid;gap:6px;font-size:14px;color:var(--muted)}
+.savlist .sav{margin-right:4px}
+.alim p{margin:0 0 10px}
+.alim-nat{display:flex;gap:10px;align-items:flex-start;font-size:14.5px}
+.alim .sh{margin:16px 0 6px;font-size:14px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
+.alim-note{font-size:14px;color:var(--muted);border-left:3px solid var(--line);padding-left:10px}
+.alim-recs{display:grid;gap:6px}
+.alim-r{display:block;width:100%;text-align:left;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);font-size:15px;font-weight:700;color:var(--ink);cursor:pointer;min-height:44px}
+.alim .switch{margin-top:14px}

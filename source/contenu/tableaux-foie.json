@@ -84,7 +84,13 @@
    ],
    "recettes": [
     "infusion-rose-orange",
-    "infusion-chen-pi"
+    "infusion-chen-pi",
+    "congee-ecorce-pamplemousse",
+    "congee-rose",
+    "brochettes-coeur-agneau-rose",
+    "jus-celeri-frais",
+    "jus-celeri-miel",
+    "jus-ciboule-gingembre"
    ],
    "privilegier": "Légumes verts, radis, zeste d'agrumes, cébette, menthe, repas pris au calme.",
    "eviter": "Alcool, excès de café, gras, sédentarité.",
@@ -208,7 +214,13 @@
     "saumon-patate-douce",
     "poulpe-pommes-de-terre",
     "foies-volaille-epinards",
-    "bouillon-os-boeuf"
+    "bouillon-os-boeuf",
+    "oeuf-sucre-complet",
+    "foie-agneau-soja-vinaigre",
+    "foie-agneau-ciboule",
+    "boisson-champignons-noirs",
+    "compotee-cerises-longanes",
+    "gateau-bu-shen"
    ],
    "privilegier": "Goji, dattes, sésame noir, épinards, betterave, lentilles, œufs, un peu de viande rouge, bouillons d'os.",
    "eviter": "Écrans tard le soir, veiller, régimes restrictifs.",
@@ -324,7 +336,11 @@
     "saute-celeri-tofu",
     "soupe-huitres-tofu",
     "calamars-celeri",
-    "champignons-noirs"
+    "champignons-noirs",
+    "bouillon-huitres-gingembre",
+    "poisson-epinards",
+    "jus-celeri-frais",
+    "infusion-chrysantheme-shan-zha-cassia"
    ],
    "privilegier": "Céleri, chrysanthème, épinards, tofu, légumes verts, champignons.",
    "eviter": "Alcool, café, épices, colère ruminée, écrans tard.",
@@ -426,7 +442,9 @@
    "recettes": [
     "infusion-chrysantheme-goji",
     "saute-celeri-tofu",
-    "soupe-mungo"
+    "soupe-mungo",
+    "poisson-epinards",
+    "jus-celeri-frais"
    ],
    "privilegier": "Céleri, chrysanthème, concombre cuit, tofu, pousses de soja, haricots mungo.",
    "eviter": "Alcool, épices, friture, agneau, tabac.",
@@ -520,7 +538,9 @@
     "congee-orge-azuki",
     "soupe-mungo",
     "saute-celeri-tofu",
-    "bouillon-concombre-wakame"
+    "bouillon-concombre-wakame",
+    "soupe-yin-chen-mai-ya",
+    "jus-celeri-miel"
    ],
    "privilegier": "Céleri, radis, orge perlé, haricots mungo et azuki, légumes verts cuits.",
    "eviter": "Alcool, gras, friture, sucre, épices.",
@@ -615,7 +635,9 @@
    "recettes": [
     "congee-millet-patate-douce",
     "infusion-rose-orange",
-    "congee-courge-carotte"
+    "congee-courge-carotte",
+    "poulet-carottes-chen-pi",
+    "jus-celeri-miel"
    ],
    "privilegier": "Repas chauds et réguliers, pris au calme ; zeste d'agrumes, radis, céréales cuites.",
    "eviter": "Manger vite ou en travaillant, café à jeun, alcool.",
@@ -717,7 +739,13 @@
    ],
    "recettes": [
     "infusion-rose-orange",
-    "congee-courge-carotte"
+    "congee-courge-carotte",
+    "congee-ecorce-pamplemousse",
+    "congee-rose",
+    "galettes-radis-mandarine",
+    "poulet-carottes-chen-pi",
+    "jus-ciboule-gingembre",
+    "decoction-shan-zha-mandarine"
    ],
    "privilegier": "Petits repas chauds, congee, radis, gingembre frais en petite quantité.",
    "eviter": "Café, alcool, épices, agrumes acides à jeun, repas tardifs.",

@@ -1,0 +1,2911 @@
+{
+ "categories_ingredients": [
+  {
+   "id": "cereales",
+   "nom": "Céréales",
+   "zh": "谷"
+  },
+  {
+   "id": "legumes",
+   "nom": "Légumes et champignons",
+   "zh": "蔬"
+  },
+  {
+   "id": "fruits",
+   "nom": "Fruits",
+   "zh": "果"
+  },
+  {
+   "id": "noix",
+   "nom": "Fruits secs et graines",
+   "zh": "仁"
+  },
+  {
+   "id": "legumineuses",
+   "nom": "Légumineuses et soja",
+   "zh": "豆"
+  },
+  {
+   "id": "viandes",
+   "nom": "Viandes",
+   "zh": "肉"
+  },
+  {
+   "id": "oeufs",
+   "nom": "Œufs et laitages",
+   "zh": "蛋"
+  },
+  {
+   "id": "mer",
+   "nom": "Poissons, fruits de mer et algues",
+   "zh": "鱼"
+  },
+  {
+   "id": "aromates",
+   "nom": "Condiments, aromates et fleurs",
+   "zh": "香"
+  },
+  {
+   "id": "asie",
+   "nom": "Épicerie chinoise et plantes",
+   "zh": "药"
+  },
+  {
+   "id": "divers",
+   "nom": "Sucres, huiles et boissons",
+   "zh": "杂"
+  }
+ ],
+ "natures": [
+  {
+   "id": "froide",
+   "nom": "Froide",
+   "texte": "Rafraîchit fortement : utile quand il y a de la Chaleur, à limiter si tu as froid ou si ta digestion est faible."
+  },
+  {
+   "id": "fraiche-froide",
+   "nom": "Fraîche à froide",
+   "texte": "Rafraîchit nettement : pour la Chaleur, à limiter si tu as froid."
+  },
+  {
+   "id": "fraiche",
+   "nom": "Fraîche",
+   "texte": "Rafraîchit doucement : bien en été ou en cas de Chaleur légère."
+  },
+  {
+   "id": "neutre-fraiche",
+   "nom": "Neutre à fraîche",
+   "texte": "Presque neutre, légèrement rafraîchissant."
+  },
+  {
+   "id": "neutre",
+   "nom": "Neutre",
+   "texte": "Ni chaud ni froid : convient à presque tout le monde, tous les jours."
+  },
+  {
+   "id": "neutre-tiede",
+   "nom": "Neutre à tiède",
+   "texte": "Presque neutre, légèrement réchauffant."
+  },
+  {
+   "id": "tiede",
+   "nom": "Tiède",
+   "texte": "Réchauffe doucement : bien en hiver ou si tu as souvent froid, à limiter en cas de Chaleur."
+  },
+  {
+   "id": "tiede-chaude",
+   "nom": "Tiède à chaude",
+   "texte": "Réchauffe nettement : pour le froid, à éviter en cas de Chaleur."
+  },
+  {
+   "id": "chaude",
+   "nom": "Chaude",
+   "texte": "Réchauffe fortement : en petite quantité, à éviter en cas de Chaleur ou de sécheresse."
+  }
+ ],
+ "saveurs": [
+  {
+   "id": "douce",
+   "nom": "Douce",
+   "texte": "Tonifie et nourrit, détend, harmonise (Rate)."
+  },
+  {
+   "id": "acide",
+   "nom": "Acide",
+   "texte": "Resserre et retient (sueur, fuites), génère les liquides (Foie)."
+  },
+  {
+   "id": "amere",
+   "nom": "Amère",
+   "texte": "Fait descendre, assèche l'Humidité, clarifie la Chaleur (Cœur)."
+  },
+  {
+   "id": "piquante",
+   "nom": "Piquante",
+   "texte": "Disperse, fait circuler le Qi, ouvre la surface (Poumon)."
+  },
+  {
+   "id": "salee",
+   "nom": "Salée",
+   "texte": "Ramollit les masses, fait descendre, va au Rein."
+  },
+  {
+   "id": "astringente",
+   "nom": "Astringente",
+   "texte": "Resserre comme la saveur acide : retient les fuites."
+  },
+  {
+   "id": "insipide",
+   "nom": "Insipide",
+   "texte": "Draine l'Humidité par les urines."
+  }
+ ],
+ "organes_courts": [
+  {
+   "id": "P",
+   "nom": "Poumon"
+  },
+  {
+   "id": "GI",
+   "nom": "Gros Intestin"
+  },
+  {
+   "id": "E",
+   "nom": "Estomac"
+  },
+  {
+   "id": "Rt",
+   "nom": "Rate"
+  },
+  {
+   "id": "C",
+   "nom": "Cœur"
+  },
+  {
+   "id": "IG",
+   "nom": "Intestin grêle"
+  },
+  {
+   "id": "V",
+   "nom": "Vessie"
+  },
+  {
+   "id": "R",
+   "nom": "Rein"
+  },
+  {
+   "id": "F",
+   "nom": "Foie"
+  },
+  {
+   "id": "VB",
+   "nom": "Vésicule biliaire"
+  }
+ ],
+ "ingredients": [
+  {
+   "id": "riz",
+   "nom": "Riz",
+   "cat": "cereales",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "riz-gluant",
+   "nom": "Riz gluant",
+   "cat": "cereales",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P"
+   ]
+  },
+  {
+   "id": "avoine",
+   "nom": "Avoine",
+   "cat": "cereales",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "mais",
+   "nom": "Maïs",
+   "cat": "cereales",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "V"
+   ]
+  },
+  {
+   "id": "seigle",
+   "nom": "Seigle",
+   "cat": "cereales",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "ble",
+   "nom": "Blé (grains ou farine)",
+   "cat": "cereales",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "C",
+    "R"
+   ]
+  },
+  {
+   "id": "orge-perle",
+   "nom": "Larmes-de-Job, orge perlé chinois (yi yi ren)",
+   "cat": "cereales",
+   "zh": "薏苡仁",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P",
+    "V"
+   ]
+  },
+  {
+   "id": "millet",
+   "nom": "Millet",
+   "cat": "cereales",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "R"
+   ]
+  },
+  {
+   "id": "orge",
+   "nom": "Orge",
+   "cat": "cereales",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "V"
+   ]
+  },
+  {
+   "id": "sarrasin",
+   "nom": "Sarrasin",
+   "cat": "cereales",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "poireau",
+   "nom": "Poireau",
+   "cat": "legumes",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "E",
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "fenouil",
+   "nom": "Fenouil",
+   "cat": "legumes",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "R",
+    "F",
+    "E"
+   ]
+  },
+  {
+   "id": "courge",
+   "nom": "Courge, potiron",
+   "cat": "legumes",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "oignon",
+   "nom": "Oignon",
+   "cat": "legumes",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "pleurotes",
+   "nom": "Pleurotes",
+   "cat": "legumes",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "radis-blanc",
+   "nom": "Radis blanc (navet blanc, daikon)",
+   "cat": "legumes",
+   "zh": "萝卜",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P",
+    "V"
+   ],
+   "note": "Cru, il est frais et fait descendre le Qi ; cuit, il devient tiède et plus doux (Rate, Poumon, Estomac)."
+  },
+  {
+   "id": "cepes",
+   "nom": "Cèpes",
+   "cat": "legumes",
+   "nature": "tiede",
+   "saveurs": [
+    "insipide"
+   ],
+   "tropisme": []
+  },
+  {
+   "id": "carotte",
+   "nom": "Carotte",
+   "cat": "legumes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "F"
+   ]
+  },
+  {
+   "id": "shiitake",
+   "nom": "Champignons shiitakés (champignons parfumés)",
+   "cat": "legumes",
+   "zh": "香菇",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "chou",
+   "nom": "Chou",
+   "cat": "legumes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "haricots-verts",
+   "nom": "Haricots verts",
+   "cat": "legumes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "tropisme": [
+    "V"
+   ]
+  },
+  {
+   "id": "patate-douce",
+   "nom": "Patate douce",
+   "cat": "legumes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "pomme-de-terre",
+   "nom": "Pomme de terre",
+   "cat": "legumes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "chou-fleur",
+   "nom": "Chou-fleur",
+   "cat": "legumes",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "R",
+    "Rt"
+   ]
+  },
+  {
+   "id": "asperge",
+   "nom": "Asperge",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "GI",
+    "V"
+   ]
+  },
+  {
+   "id": "laitue",
+   "nom": "Laitue",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "GI",
+    "E"
+   ]
+  },
+  {
+   "id": "blette",
+   "nom": "Blette",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "GI",
+    "E"
+   ]
+  },
+  {
+   "id": "celeri",
+   "nom": "Céleri branche",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "E",
+    "P",
+    "V"
+   ]
+  },
+  {
+   "id": "champignons-paris",
+   "nom": "Champignons de Paris, rosés-des-prés",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "chou-chinois",
+   "nom": "Chou chinois",
+   "cat": "legumes",
+   "zh": "白菜",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "P",
+    "V"
+   ]
+  },
+  {
+   "id": "concombre",
+   "nom": "Concombre",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "E",
+    "V"
+   ]
+  },
+  {
+   "id": "epinards",
+   "nom": "Épinards",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "GI",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "chou-rave",
+   "nom": "Chou-rave",
+   "cat": "legumes",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "GI",
+    "V"
+   ]
+  },
+  {
+   "id": "aubergine",
+   "nom": "Aubergine",
+   "cat": "legumes",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "pousses-bambou",
+   "nom": "Pousses de bambou",
+   "cat": "legumes",
+   "zh": "竹笋",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "GI",
+    "E"
+   ]
+  },
+  {
+   "id": "cresson",
+   "nom": "Cresson",
+   "cat": "legumes",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P"
+   ]
+  },
+  {
+   "id": "tomate",
+   "nom": "Tomate",
+   "cat": "legumes",
+   "nature": "froide",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "E"
+   ]
+  },
+  {
+   "id": "pourpier",
+   "nom": "Pourpier",
+   "cat": "legumes",
+   "zh": "马齿苋",
+   "nature": "froide",
+   "saveurs": [
+    "acide"
+   ],
+   "tropisme": [
+    "GI",
+    "F",
+    "V",
+    "C"
+   ]
+  },
+  {
+   "id": "chicoree",
+   "nom": "Chicorée",
+   "cat": "legumes",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "tropisme": [
+    "F",
+    "VB",
+    "C",
+    "E"
+   ]
+  },
+  {
+   "id": "ciboule-chinoise",
+   "nom": "Ciboule chinoise (jiu cai)",
+   "cat": "legumes",
+   "zh": "韭菜",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "cebette",
+   "nom": "Oignon cébette (ciboule)",
+   "cat": "legumes",
+   "zh": "葱",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "E",
+    "P"
+   ]
+  },
+  {
+   "id": "courge-cireuse",
+   "nom": "Courge cireuse (dong gua)",
+   "cat": "legumes",
+   "zh": "冬瓜",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "tropisme": [
+    "P",
+    "GI",
+    "IG",
+    "V"
+   ]
+  },
+  {
+   "id": "betterave",
+   "nom": "Betterave",
+   "cat": "legumes"
+  },
+  {
+   "id": "brocoli",
+   "nom": "Brocoli",
+   "cat": "legumes"
+  },
+  {
+   "id": "abricot",
+   "nom": "Abricot",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "cerises",
+   "nom": "Cerises",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "F"
+   ]
+  },
+  {
+   "id": "coing",
+   "nom": "Coing",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": []
+  },
+  {
+   "id": "framboises",
+   "nom": "Framboises",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": []
+  },
+  {
+   "id": "goyave",
+   "nom": "Goyave",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "astringente",
+    "douce"
+   ],
+   "tropisme": [
+    "GI"
+   ]
+  },
+  {
+   "id": "grenade",
+   "nom": "Grenade",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "astringente",
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "GI",
+    "R"
+   ]
+  },
+  {
+   "id": "kumquat",
+   "nom": "Kumquat",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "litchi",
+   "nom": "Litchi",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "F",
+    "C"
+   ]
+  },
+  {
+   "id": "peche",
+   "nom": "Pêche",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "chataignes",
+   "nom": "Châtaignes",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "R"
+   ]
+  },
+  {
+   "id": "datte",
+   "nom": "Dattes (du palmier)",
+   "cat": "fruits",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "P"
+   ]
+  },
+  {
+   "id": "papaye",
+   "nom": "Papaye",
+   "cat": "fruits",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "raisin",
+   "nom": "Raisin",
+   "cat": "fruits",
+   "nature": "neutre",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "noix-coco",
+   "nom": "Noix de coco",
+   "cat": "fruits",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "ananas",
+   "nom": "Ananas",
+   "cat": "fruits",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "pomme",
+   "nom": "Pomme",
+   "cat": "fruits",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P"
+   ]
+  },
+  {
+   "id": "prune",
+   "nom": "Prune",
+   "cat": "fruits",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "E"
+   ]
+  },
+  {
+   "id": "pruneaux",
+   "nom": "Pruneaux",
+   "cat": "fruits",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "E"
+   ],
+   "note": "Prune séchée."
+  },
+  {
+   "id": "fraises",
+   "nom": "Fraises",
+   "cat": "fruits",
+   "nature": "fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P",
+    "V"
+   ]
+  },
+  {
+   "id": "mandarine-fruit",
+   "nom": "Mandarine (fruit)",
+   "cat": "fruits",
+   "nature": "fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "Rt"
+   ]
+  },
+  {
+   "id": "mangue",
+   "nom": "Mangue",
+   "cat": "fruits",
+   "nature": "fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "melon",
+   "nom": "Melon",
+   "cat": "fruits",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "E"
+   ]
+  },
+  {
+   "id": "nefle",
+   "nom": "Nèfle du Japon",
+   "cat": "fruits",
+   "zh": "枇杷",
+   "nature": "fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "P"
+   ]
+  },
+  {
+   "id": "orange",
+   "nom": "Orange",
+   "cat": "fruits",
+   "nature": "fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "V"
+   ]
+  },
+  {
+   "id": "poire",
+   "nom": "Poire",
+   "cat": "fruits",
+   "nature": "fraiche",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "E"
+   ]
+  },
+  {
+   "id": "banane",
+   "nom": "Banane",
+   "cat": "fruits",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "kaki",
+   "nom": "Kaki",
+   "cat": "fruits",
+   "nature": "froide",
+   "saveurs": [
+    "astringente",
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "kiwi",
+   "nom": "Kiwi",
+   "cat": "fruits",
+   "nature": "froide",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "V"
+   ]
+  },
+  {
+   "id": "pamplemousse",
+   "nom": "Pamplemousse, pomélo",
+   "cat": "fruits",
+   "zh": "柚",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "tropisme": [
+    "E",
+    "V"
+   ]
+  },
+  {
+   "id": "pasteque",
+   "nom": "Pastèque",
+   "cat": "fruits",
+   "zh": "西瓜",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "tropisme": [
+    "C",
+    "E",
+    "V"
+   ]
+  },
+  {
+   "id": "noix",
+   "nom": "Noix",
+   "cat": "noix",
+   "zh": "核桃",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "R",
+    "P"
+   ]
+  },
+  {
+   "id": "pignons",
+   "nom": "Pignons de pin",
+   "cat": "noix",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "pistaches",
+   "nom": "Pistaches",
+   "cat": "noix",
+   "nature": "tiede",
+   "saveurs": [
+    "astringente",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "cacahuetes",
+   "nom": "Cacahuètes",
+   "cat": "noix",
+   "zh": "花生",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "graines-courge",
+   "nom": "Graines de courge",
+   "cat": "noix",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "GI"
+   ]
+  },
+  {
+   "id": "lotus",
+   "nom": "Graines de lotus",
+   "cat": "noix",
+   "zh": "莲子",
+   "nature": "neutre",
+   "saveurs": [
+    "astringente",
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "graines-tournesol",
+   "nom": "Graines de tournesol",
+   "cat": "noix",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "GI"
+   ]
+  },
+  {
+   "id": "sesame-noir",
+   "nom": "Sésame noir",
+   "cat": "noix",
+   "zh": "黑芝麻",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "R",
+    "GI"
+   ]
+  },
+  {
+   "id": "amandes",
+   "nom": "Amandes",
+   "cat": "noix",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "amandons-abricot",
+   "nom": "Amandons d'abricot doux (nan xing ren)",
+   "cat": "noix",
+   "zh": "南杏仁",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "GI"
+   ],
+   "note": "Toujours la variété douce, vendue pour la cuisine. L'amandon amer (ku xing ren) est toxique cru ou en quantité : il est réservé aux praticiens."
+  },
+  {
+   "id": "azuki",
+   "nom": "Haricots azuki",
+   "cat": "legumineuses",
+   "zh": "赤小豆",
+   "nature": "neutre",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "IG",
+    "Rt",
+    "GI"
+   ]
+  },
+  {
+   "id": "feves",
+   "nom": "Fèves",
+   "cat": "legumineuses",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "haricots-blancs",
+   "nom": "Haricots blancs",
+   "cat": "legumineuses",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "haricots-noirs",
+   "nom": "Haricots noirs",
+   "cat": "legumineuses",
+   "zh": "黑豆",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "lentilles",
+   "nom": "Lentilles",
+   "cat": "legumineuses",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "pois-chiches",
+   "nom": "Pois chiches",
+   "cat": "legumineuses",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "petits-pois",
+   "nom": "Petits pois",
+   "cat": "legumineuses",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "mungo",
+   "nom": "Haricots mungo (soja vert)",
+   "cat": "legumineuses",
+   "zh": "绿豆",
+   "nature": "fraiche-froide",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "E"
+   ]
+  },
+  {
+   "id": "pousses-soja",
+   "nom": "Pousses de soja",
+   "cat": "legumineuses",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "C"
+   ]
+  },
+  {
+   "id": "tofu",
+   "nom": "Tofu",
+   "cat": "legumineuses",
+   "zh": "豆腐",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "agneau",
+   "nom": "Agneau",
+   "cat": "viandes",
+   "zh": "羊肉",
+   "nature": "tiede-chaude",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "mouton",
+   "nom": "Mouton",
+   "cat": "viandes",
+   "zh": "羊肉",
+   "nature": "tiede-chaude",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "cerf",
+   "nom": "Cerf",
+   "cat": "viandes",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "R"
+   ]
+  },
+  {
+   "id": "faisan",
+   "nom": "Faisan",
+   "cat": "viandes",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "poulet",
+   "nom": "Poulet",
+   "cat": "viandes",
+   "zh": "鸡肉",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "caille",
+   "nom": "Caille",
+   "cat": "viandes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "oie",
+   "nom": "Oie",
+   "cat": "viandes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P"
+   ]
+  },
+  {
+   "id": "pigeon",
+   "nom": "Pigeon",
+   "cat": "viandes",
+   "nature": "neutre",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "canard",
+   "nom": "Canard",
+   "cat": "viandes",
+   "zh": "鸭肉",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P",
+    "R"
+   ]
+  },
+  {
+   "id": "lapin",
+   "nom": "Lapin",
+   "cat": "viandes",
+   "zh": "兔肉",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F",
+    "GI"
+   ]
+  },
+  {
+   "id": "boeuf",
+   "nom": "Bœuf",
+   "cat": "viandes",
+   "zh": "牛肉",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "foie-agneau",
+   "nom": "Foie d'agneau",
+   "cat": "viandes",
+   "zh": "羊肝",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "F"
+   ]
+  },
+  {
+   "id": "rognons-agneau",
+   "nom": "Rognons d'agneau",
+   "cat": "viandes",
+   "zh": "羊肾",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "R"
+   ]
+  },
+  {
+   "id": "coeur-agneau",
+   "nom": "Cœur d'agneau",
+   "cat": "viandes",
+   "zh": "羊心",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C"
+   ]
+  },
+  {
+   "id": "foies-volaille",
+   "nom": "Foies de volaille",
+   "cat": "viandes",
+   "zh": "鸡肝",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "os-boeuf",
+   "nom": "Os à moelle de bœuf",
+   "cat": "viandes"
+  },
+  {
+   "id": "oeuf",
+   "nom": "Œuf",
+   "cat": "oeufs",
+   "zh": "鸡蛋",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "Rt",
+    "R"
+   ],
+   "note": "Le jaune est neutre à tiède (Cœur, Rein), le blanc est frais (Poumon) ; entiers, ils vont en plus à la Rate."
+  },
+  {
+   "id": "oeufs-caille",
+   "nom": "Œufs de caille",
+   "cat": "oeufs",
+   "zh": "鹌鹑蛋",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "F",
+    "Rt",
+    "P",
+    "R"
+   ],
+   "note": "Vont aux cinq organes."
+  },
+  {
+   "id": "lait-vache",
+   "nom": "Lait de vache",
+   "cat": "oeufs",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "P",
+    "E"
+   ],
+   "note": "Peu digeste pour beaucoup d'adultes : il génère facilement de l'Humidité et des Mucosités. Les laitages fermentés passent mieux, en petite quantité."
+  },
+  {
+   "id": "lait-chevre",
+   "nom": "Lait de chèvre",
+   "cat": "oeufs",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "E",
+    "R"
+   ]
+  },
+  {
+   "id": "lait-brebis",
+   "nom": "Lait de brebis",
+   "cat": "oeufs",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "E",
+    "R"
+   ]
+  },
+  {
+   "id": "anchois",
+   "nom": "Anchois",
+   "cat": "mer",
+   "nature": "tiede",
+   "saveurs": [],
+   "tropisme": [
+    "Rt"
+   ]
+  },
+  {
+   "id": "crevettes",
+   "nom": "Crevettes",
+   "cat": "mer",
+   "zh": "虾",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "R"
+   ]
+  },
+  {
+   "id": "crevettes-sechees",
+   "nom": "Crevettes séchées",
+   "cat": "mer",
+   "zh": "虾米",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "R"
+   ]
+  },
+  {
+   "id": "moules",
+   "nom": "Moules",
+   "cat": "mer",
+   "nature": "neutre-tiede",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "carpe",
+   "nom": "Carpe",
+   "cat": "mer",
+   "zh": "鲤鱼",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "dorade",
+   "nom": "Dorade",
+   "cat": "mer",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "mulet",
+   "nom": "Mulet",
+   "cat": "mer",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "seiche",
+   "nom": "Seiche",
+   "cat": "mer",
+   "nature": "neutre",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "poulpe",
+   "nom": "Poulpe",
+   "cat": "mer",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "huitres",
+   "nom": "Huîtres",
+   "cat": "mer",
+   "zh": "牡蛎",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "F",
+    "R",
+    "C"
+   ]
+  },
+  {
+   "id": "calamar",
+   "nom": "Calamar",
+   "cat": "mer",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "poisson-blanc",
+   "nom": "Poisson blanc (cabillaud, bar, dorade, carpe)",
+   "cat": "mer",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "saumon",
+   "nom": "Saumon",
+   "cat": "mer",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "algues",
+   "nom": "Algues (kombu, nori)",
+   "cat": "mer",
+   "zh": "海带",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "P",
+    "E",
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "wakame",
+   "nom": "Algue wakame",
+   "cat": "mer",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "P",
+    "E",
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "agar-agar",
+   "nom": "Agar-agar",
+   "cat": "mer",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "gingembre-sec",
+   "nom": "Gingembre sec (en poudre)",
+   "cat": "aromates",
+   "zh": "干姜",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "piment",
+   "nom": "Piment de Cayenne",
+   "cat": "aromates",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "C"
+   ]
+  },
+  {
+   "id": "poivre-sichuan",
+   "nom": "Poivre du Sichuan",
+   "cat": "aromates",
+   "zh": "花椒",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "poivre",
+   "nom": "Poivre noir",
+   "cat": "aromates",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "ail",
+   "nom": "Ail",
+   "cat": "aromates",
+   "zh": "大蒜",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P"
+   ]
+  },
+  {
+   "id": "aneth",
+   "nom": "Graines d'aneth",
+   "cat": "aromates",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F",
+    "R"
+   ]
+  },
+  {
+   "id": "anis-etoile",
+   "nom": "Anis étoilé (badiane)",
+   "cat": "aromates",
+   "zh": "八角",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "cannelle",
+   "nom": "Cannelle",
+   "cat": "aromates",
+   "zh": "肉桂",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "C"
+   ]
+  },
+  {
+   "id": "cardamome",
+   "nom": "Cardamome (sha ren)",
+   "cat": "aromates",
+   "zh": "砂仁",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "R"
+   ]
+  },
+  {
+   "id": "ciboulette",
+   "nom": "Ciboulette",
+   "cat": "aromates",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "E"
+   ]
+  },
+  {
+   "id": "girofle",
+   "nom": "Clous de girofle",
+   "cat": "aromates",
+   "zh": "丁香",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "E",
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "coriandre",
+   "nom": "Coriandre",
+   "cat": "aromates",
+   "zh": "香菜",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P"
+   ]
+  },
+  {
+   "id": "cumin",
+   "nom": "Cumin",
+   "cat": "aromates",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "R",
+    "E"
+   ]
+  },
+  {
+   "id": "echalote",
+   "nom": "Échalote",
+   "cat": "aromates",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": []
+  },
+  {
+   "id": "gingembre",
+   "nom": "Gingembre frais",
+   "cat": "aromates",
+   "zh": "生姜",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "graines-fenouil",
+   "nom": "Graines de fenouil",
+   "cat": "aromates",
+   "zh": "小茴香",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "F",
+    "R",
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "muscade",
+   "nom": "Noix de muscade",
+   "cat": "aromates",
+   "zh": "肉豆蔻",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "safran",
+   "nom": "Safran",
+   "cat": "aromates",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "F"
+   ]
+  },
+  {
+   "id": "thym",
+   "nom": "Thym",
+   "cat": "aromates",
+   "nature": "neutre",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "menthe",
+   "nom": "Menthe fraîche",
+   "cat": "aromates",
+   "zh": "薄荷",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "F"
+   ]
+  },
+  {
+   "id": "origan",
+   "nom": "Origan",
+   "cat": "aromates",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante"
+   ],
+   "tropisme": [
+    "E",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "chrysantheme",
+   "nom": "Fleurs de chrysanthème",
+   "cat": "aromates",
+   "zh": "菊花",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "F"
+   ]
+  },
+  {
+   "id": "rose",
+   "nom": "Boutons de rose séchés",
+   "cat": "aromates",
+   "zh": "玫瑰花",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "Rt"
+   ]
+  },
+  {
+   "id": "dattes",
+   "nom": "Dattes rouges (jujubes)",
+   "cat": "asie",
+   "zh": "大枣",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "goji",
+   "nom": "Baies de goji",
+   "cat": "asie",
+   "zh": "枸杞子",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "R",
+    "P"
+   ]
+  },
+  {
+   "id": "longane",
+   "nom": "Longanes séchées",
+   "cat": "asie",
+   "zh": "龙眼肉",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "Rt"
+   ],
+   "note": "Frais, le longane est neutre."
+  },
+  {
+   "id": "tremelle",
+   "nom": "Trémelle (champignon blanc)",
+   "cat": "asie",
+   "zh": "银耳",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "GI"
+   ]
+  },
+  {
+   "id": "champignons-noirs",
+   "nom": "Champignons noirs (mu er)",
+   "cat": "asie",
+   "zh": "木耳",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "E",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "shan-yao",
+   "nom": "Igname de Chine (shan yao)",
+   "cat": "asie",
+   "zh": "山药",
+   "nature": "neutre",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "P",
+    "R"
+   ]
+  },
+  {
+   "id": "huang-qi",
+   "nom": "Astragale (huang qi)",
+   "cat": "asie",
+   "zh": "黄芪",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "P"
+   ]
+  },
+  {
+   "id": "dang-gui",
+   "nom": "Angélique chinoise (dang gui)",
+   "cat": "asie",
+   "zh": "当归",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "F",
+    "C",
+    "Rt"
+   ]
+  },
+  {
+   "id": "mandarine",
+   "nom": "Écorce de mandarine (chen pi)",
+   "cat": "asie",
+   "zh": "陈皮",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "P"
+   ]
+  },
+  {
+   "id": "qian-shi",
+   "nom": "Euryale (qian shi)",
+   "cat": "asie",
+   "zh": "芡实",
+   "nature": "neutre",
+   "saveurs": [
+    "astringente",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "shan-zha",
+   "nom": "Azeroles, baies d'aubépine chinoise (shan zha)",
+   "cat": "asie",
+   "zh": "山楂",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "jue-ming-zi",
+   "nom": "Graines de cassia (jue ming zi)",
+   "cat": "asie",
+   "zh": "决明子",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "douce",
+    "salee"
+   ],
+   "tropisme": [
+    "F",
+    "GI"
+   ]
+  },
+  {
+   "id": "sang-ye",
+   "nom": "Feuilles de mûrier (sang ye)",
+   "cat": "asie",
+   "zh": "桑叶",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "F"
+   ]
+  },
+  {
+   "id": "gan-cao",
+   "nom": "Réglisse (gan cao)",
+   "cat": "asie",
+   "zh": "甘草",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "P",
+    "Rt",
+    "E"
+   ],
+   "note": "À éviter en cas d'hypertension ou d'œdèmes, et pas en cure prolongée."
+  },
+  {
+   "id": "fu-ling",
+   "nom": "Poria (fu ling)",
+   "cat": "asie",
+   "zh": "茯苓",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "tropisme": [
+    "C",
+    "P",
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "ze-xie",
+   "nom": "Alisma (ze xie)",
+   "cat": "asie",
+   "zh": "泽泻",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "tropisme": [
+    "R",
+    "V"
+   ]
+  },
+  {
+   "id": "ai-ye",
+   "nom": "Feuilles d'armoise (ai ye)",
+   "cat": "asie",
+   "zh": "艾叶",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "tropisme": [
+    "F",
+    "Rt",
+    "R"
+   ]
+  },
+  {
+   "id": "yin-chen",
+   "nom": "Armoise capillaire (yin chen)",
+   "cat": "asie",
+   "zh": "茵陈",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F",
+    "VB"
+   ]
+  },
+  {
+   "id": "mai-ya",
+   "nom": "Orge germé (mai ya)",
+   "cat": "asie",
+   "zh": "麦芽",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "bai-he",
+   "nom": "Bulbes de lys (bai he)",
+   "cat": "asie",
+   "zh": "百合",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "P"
+   ]
+  },
+  {
+   "id": "suan-zao-ren",
+   "nom": "Graines de jujubier sauvage (suan zao ren)",
+   "cat": "asie",
+   "zh": "酸枣仁",
+   "nature": "neutre",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "F",
+    "VB"
+   ]
+  },
+  {
+   "id": "he-ye",
+   "nom": "Feuilles de lotus (he ye)",
+   "cat": "asie",
+   "zh": "荷叶",
+   "nature": "neutre",
+   "saveurs": [
+    "amere"
+   ],
+   "tropisme": [
+    "F",
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "dou-chi",
+   "nom": "Soja noir fermenté (dan dou chi)",
+   "cat": "asie",
+   "zh": "淡豆豉",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "tropisme": [
+    "P",
+    "E"
+   ]
+  },
+  {
+   "id": "cafe",
+   "nom": "Café",
+   "cat": "divers",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "V",
+    "GI"
+   ]
+  },
+  {
+   "id": "vinaigre",
+   "nom": "Vinaigre",
+   "cat": "divers",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "F",
+    "E"
+   ]
+  },
+  {
+   "id": "huile-soja",
+   "nom": "Huile de soja",
+   "cat": "divers",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "tropisme": [
+    "GI"
+   ]
+  },
+  {
+   "id": "miso",
+   "nom": "Miso",
+   "cat": "divers",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": []
+  },
+  {
+   "id": "sucre-complet",
+   "nom": "Sucre de canne complet",
+   "cat": "divers",
+   "zh": "红糖",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "F"
+   ]
+  },
+  {
+   "id": "canne-sucre",
+   "nom": "Canne à sucre (jus)",
+   "cat": "divers",
+   "zh": "甘蔗",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "Rt",
+    "E"
+   ]
+  },
+  {
+   "id": "sucre-blanc",
+   "nom": "Sucre de canne blanc",
+   "cat": "divers",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "P"
+   ]
+  },
+  {
+   "id": "sucre-candi",
+   "nom": "Sucre candi",
+   "cat": "divers",
+   "zh": "冰糖",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "P",
+    "Rt"
+   ]
+  },
+  {
+   "id": "miel",
+   "nom": "Miel",
+   "cat": "divers",
+   "zh": "蜂蜜",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "P",
+    "GI"
+   ]
+  },
+  {
+   "id": "huile-arachide",
+   "nom": "Huile d'arachide",
+   "cat": "divers",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "GI",
+    "P",
+    "Rt"
+   ]
+  },
+  {
+   "id": "huile-olive",
+   "nom": "Huile d'olive",
+   "cat": "divers",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "C",
+    "R",
+    "F",
+    "GI"
+   ]
+  },
+  {
+   "id": "the",
+   "nom": "Thé",
+   "cat": "divers",
+   "zh": "茶",
+   "nature": "neutre-fraiche",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "tropisme": [
+    "C",
+    "F",
+    "E",
+    "GI",
+    "V"
+   ]
+  },
+  {
+   "id": "huile-sesame",
+   "nom": "Huile de sésame",
+   "cat": "divers",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "GI"
+   ]
+  },
+  {
+   "id": "sauce-soja",
+   "nom": "Sauce soja",
+   "cat": "divers",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "Rt",
+    "E",
+    "R"
+   ]
+  },
+  {
+   "id": "sel",
+   "nom": "Sel",
+   "cat": "divers",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "tropisme": [
+    "R"
+   ]
+  }
+ ]
+}

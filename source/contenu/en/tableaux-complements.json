@@ -67,7 +67,13 @@
    "recettes": [
     "poire-vapeur-amandes",
     "soupe-tremelle",
-    "compote-pomme-poire"
+    "compote-pomme-poire",
+    "congee-coques-cacahuetes",
+    "soupe-epinards-tremelle",
+    "infusion-chrysantheme-amandons-murier",
+    "jus-poire-radis",
+    "amandons-noix-miel",
+    "cacahuetes-sucre-candi"
    ],
    "privilegier": "Pear, stewed apple, snow fungus (tremella), almonds, honey, sesame, broths, enough water.",
    "eviter": "Heating turned up too high, spicy food, grilled food, tobacco.",
@@ -156,7 +162,12 @@
    "recettes": [
     "congee-poulet",
     "poisson-vapeur",
-    "congee-millet-patate-douce"
+    "congee-millet-patate-douce",
+    "bouillie-igname-farine",
+    "congee-avoine-pomme",
+    "galettes-radis-mandarine",
+    "jus-pomme-carotte",
+    "carottes-miel"
    ],
    "privilegier": "Small, warm, regular meals, congee, broths, rice, steamed fish.",
    "eviter": "Skipping breakfast, cold and raw food, eating standing up.",
@@ -259,7 +270,9 @@
     "infusion-gingembre-cannelle",
     "poisson-vapeur",
     "soupe-mouton-radis",
-    "agneau-fenouil"
+    "agneau-fenouil",
+    "congee-riz-gluant-dattes",
+    "congee-avoine-pomme"
    ],
    "privilegier": "Ginger, rice, squash, chicken, lamb in winter, hot drinks.",
    "eviter": "Ice cream, cold drinks, raw fruit on an empty stomach.",
@@ -432,7 +445,8 @@
     "crevettes-poireau-noix",
     "soupe-mouton-radis",
     "congee-qian-shi",
-    "crevettes-ciboule-oeufs"
+    "crevettes-ciboule-oeufs",
+    "congee-ciboule-chinoise"
    ],
    "privilegier": "Walnuts, leek, shrimp, mussels, lamb, hot dishes.",
    "eviter": "Cold drinks, drinking a lot in the evening, cold feet.",
@@ -610,7 +624,9 @@
     "congee-goji-sesame",
     "calamars-celeri",
     "infusion-chrysantheme-goji",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "foie-agneau-soja-vinaigre",
+    "poisson-epinards"
    ],
    "privilegier": "Goji berries, chrysanthemum, black sesame, eggs, tofu, spinach, squid.",
    "eviter": "Late-night screens, alcohol, spicy food, staying up late.",

@@ -1,0 +1,1523 @@
+{
+ "fiches": [
+  {
+   "id": "jus-canne-gingembre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 400,
+   "genre": "froid",
+   "axe": "rate",
+   "titre": "Sugarcane juice with ginger",
+   "zh": "甘蔗姜汁",
+   "py": "gānzhè jiāng zhī",
+   "contexte": "Sugarcane soothes and moistens the Stomach, and a touch of ginger calms and warms it. A juice to sip for nausea, motion sickness and morning sickness in pregnancy.",
+   "principe": {
+    "zh": "和胃止呕",
+    "py": "Hé wèi zhǐ ǒu",
+    "fr": "Harmonize the Stomach, ease nausea"
+   },
+   "precautions": "Very sweet: avoid it if you have diabetes. Drink it at room temperature, never ice-cold, and go easy on it if you have a cold belly or soft stools. If you are pregnant and vomit several times a day or can't keep anything down, see your midwife or doctor quickly.",
+   "portions": 1,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "canne",
+     "q": 300,
+     "u": "ml",
+     "nom": "plain sugarcane juice, at room temperature",
+     "cle": "canne-sucre",
+     "note": "In Asian grocery stores: fresh, bottled or frozen (let it thaw in the fridge). Choose one with no added sugar."
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "fresh ginger (a piece about 3 cm long)",
+     "cle": "gingembre"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Grate the ginger",
+       "texte": "Peel the ginger ({gingembre}) with the edge of a spoon and grate it finely."
+      },
+      {
+       "titre": "Squeeze out the juice",
+       "texte": "Put the pulp in a square of clean cloth and squeeze it hard over a bowl: you should get about a teaspoon of juice."
+      },
+      {
+       "titre": "Mix",
+       "texte": "Pour the sugarcane juice ({canne}) over the ginger juice and stir. Taste it: add a few more drops of ginger if you want it spicier."
+      },
+      {
+       "titre": "Sip slowly",
+       "texte": "Drink it in small amounts, one or two sips at a time, spread over the day or the journey."
+      }
+     ]
+    },
+    {
+     "id": "mixeur",
+     "nom": "In a blender or juicer",
+     "etapes": [
+      {
+       "titre": "Juice the ginger",
+       "texte": "Run the ginger ({gingembre}) through the juicer. With a blender: slice it and blend it with a third of the sugarcane juice ({canne}), then strain through a fine sieve, pressing the pulp well."
+      },
+      {
+       "titre": "Mix",
+       "texte": "Add the rest of the sugarcane juice and stir."
+      },
+      {
+       "titre": "Sip slowly",
+       "texte": "Drink it in small amounts, spread over the day or the journey."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Fresh sugarcane juice turns quickly: keep it in the fridge for 24 hours at most and take it out a little while before drinking.",
+    "When traveling, make it in the morning in a small bottle."
+   ],
+   "tags": [
+    "nausea",
+    "motion sickness",
+    "pregnancy",
+    "Stomach",
+    "ginger"
+   ]
+  },
+  {
+   "id": "jus-celeri-frais",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 401,
+   "genre": "froid",
+   "axe": "chaleur",
+   "titre": "Fresh celery juice",
+   "zh": "鲜芹菜汁",
+   "py": "xiān qíncài zhī",
+   "contexte": "Celery calms the Liver and cools: a juice for irritability, a chest tight with stress or rising blood pressure. If you have high blood pressure, it goes alongside your medical care and never replaces it.",
+   "principe": {
+    "zh": "平肝清热",
+    "py": "Píng gān qīng rè",
+    "fr": "Calm the Liver, clear Heat"
+   },
+   "precautions": "Cooling: drink it at room temperature, never ice-cold, and go easy on it if you have a cold belly, soft stools or low blood pressure. Never change your blood pressure treatment without talking to your doctor. Avoid it if you are allergic to celery.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "celeri",
+     "q": 250,
+     "u": "g",
+     "nom": "celery (stalks and leaves)",
+     "cle": "celeri"
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "water (only with a blender)",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt (optional)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "In a blender or juicer",
+     "etapes": [
+      {
+       "titre": "Prepare the celery",
+       "texte": "Wash the celery ({celeri}) well and cut it into 3 cm pieces."
+      },
+      {
+       "titre": "Extract the juice",
+       "texte": "Run it through the juicer. With a blender: blend it very finely with the water ({eau})."
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain through a fine sieve, pressing the pulp well with the back of a spoon."
+      },
+      {
+       "titre": "Season and drink",
+       "texte": "Add a pinch of salt ({sel}) if you like. Drink a small glass in the morning and another in the afternoon, away from meals."
+      }
+     ]
+    },
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Blanch the celery",
+       "texte": "Wash the celery ({celeri}), cut it into pieces and drop it into a pot of boiling water.",
+       "s": 60
+      },
+      {
+       "titre": "Drain",
+       "texte": "Drain it and let it cool down a little.",
+       "s": 300
+      },
+      {
+       "titre": "Blend and strain",
+       "texte": "Blend it finely with the water ({eau}), then strain, pressing the pulp well."
+      },
+      {
+       "titre": "Season and drink",
+       "texte": "Add a little salt ({sel}) if you like. Drink it in two servings over the day, warm or at room temperature."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Blanched celery makes a milder juice that is easier on a sensitive stomach.",
+    "Make it the same day: the juice oxidizes quickly."
+   ],
+   "tags": [
+    "blood pressure",
+    "stress",
+    "irritability",
+    "Liver",
+    "celery"
+   ]
+  },
+  {
+   "id": "jus-celeri-miel",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 402,
+   "genre": "chaud",
+   "axe": "chaleur",
+   "titre": "Warm celery juice with honey",
+   "zh": "蜜炖芹菜",
+   "py": "mì dùn qíncài",
+   "contexte": "Gently heated and sweetened with honey, celery juice clears the Liver while sparing the Spleen and Stomach. For irritability; with hepatitis, it goes alongside your medical care and never replaces it.",
+   "principe": {
+    "zh": "清肝健脾",
+    "py": "Qīng gān jiàn pí",
+    "fr": "Clear the Liver, strengthen the Spleen"
+   },
+   "precautions": "Diabetes: use less honey or leave it out. No honey for babies under one year old. Hepatitis: never replace your treatment, and talk to your doctor about it.",
+   "portions": 1,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "celeri",
+     "q": 150,
+     "u": "g",
+     "nom": "celery, washed and cut into pieces",
+     "cle": "celeri"
+    },
+    {
+     "id": "eau",
+     "q": 50,
+     "u": "ml",
+     "nom": "water (only with a blender)",
+     "base": true
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "honey",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Extract the juice",
+       "texte": "Run the celery ({celeri}) through the juicer. With a blender: blend it finely with the water ({eau}) and strain, pressing the pulp well."
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Pour the juice into a small pot and warm it over very low heat, without letting it boil.",
+       "s": 300
+      },
+      {
+       "titre": "Add the honey",
+       "texte": "Off the heat, let it cool slightly, then stir in the honey ({miel}).",
+       "s": 180
+      },
+      {
+       "titre": "Drink",
+       "texte": "Drink it warm but not scalding, once a day, ideally in the morning."
+      }
+     ]
+    },
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Extract the juice",
+       "texte": "Run the celery ({celeri}) through the juicer. With a blender: blend it finely with the water ({eau}) and strain, pressing the pulp well."
+      },
+      {
+       "titre": "Cook in a water bath",
+       "texte": "Pour the juice into a heatproof bowl and cover it with a plate. Set it in a steamer basket or in a pot of simmering water, with the water halfway up the bowl.",
+       "s": 900
+      },
+      {
+       "titre": "Add the honey",
+       "texte": "Take the bowl out, let it cool slightly, then stir in the honey ({miel}).",
+       "s": 180
+      },
+      {
+       "titre": "Drink",
+       "texte": "Drink it warm but not scalding, once a day."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Honey keeps its qualities better when added to warm juice rather than boiling juice.",
+    "You can drink it every day for several weeks: it is a food, not a medicine."
+   ],
+   "tags": [
+    "Liver",
+    "irritability",
+    "digestion",
+    "celery",
+    "honey"
+   ]
+  },
+  {
+   "id": "jus-ciboule-gingembre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 403,
+   "genre": "froid",
+   "axe": "circuler",
+   "titre": "Chinese chive and ginger juice",
+   "zh": "韭菜姜汁",
+   "py": "jiǔcài jiāng zhī",
+   "contexte": "For nausea that comes on or gets worse with stress and emotions: Chinese chives get the Qi moving again and a little ginger calms the Stomach.",
+   "principe": {
+    "zh": "理气和胃",
+    "py": "Lǐ qì hé wèi",
+    "fr": "Move the Qi, harmonize the Stomach"
+   },
+   "precautions": "Pungent and warming: avoid it if you have mouth ulcers, a dry mouth, heartburn or a stomach ulcer. Drink it at room temperature, never ice-cold. If the nausea lasts more than a few days or you vomit often, see a doctor.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "ciboule",
+     "q": 200,
+     "u": "g",
+     "nom": "Chinese chives (jiu cai)",
+     "cle": "ciboule-chinoise",
+     "note": "Sold in bunches in Asian grocery stores: long flat leaves with a mild garlic taste. Don't mix them up with regular chives."
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "fresh ginger (a piece about 3 cm long)",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 150,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sugar",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "In a blender or juicer",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Wash the chives ({ciboule}) and cut them into pieces. Peel the ginger ({gingembre}) and cut it into thin slices."
+      },
+      {
+       "titre": "Extract the juice",
+       "texte": "Run them through the juicer, then add the water ({eau}). With a blender: blend them with the water until you get a smooth purée."
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain through a fine sieve or a clean cloth, pressing the pulp well."
+      },
+      {
+       "titre": "Sweeten and drink",
+       "texte": "Add a little sugar ({sucre}) and stir. Drink half in the morning and the rest in the afternoon, in small sips; add a little water if it is too strong."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Chop and grate",
+       "texte": "Chop the chives ({ciboule}) very finely. Peel the ginger ({gingembre}) and grate it finely."
+      },
+      {
+       "titre": "Squeeze",
+       "texte": "Put everything in a clean cloth and squeeze it hard over a bowl to collect all the juice. Add the water ({eau})."
+      },
+      {
+       "titre": "Sweeten and drink",
+       "texte": "Add a little sugar ({sucre}), stir and drink it in two servings over the day, in small sips."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The original recipe uses a large amount of ginger juice: a small dose is enough and makes the juice much easier to drink.",
+    "Make it the same day: it quickly loses its strength."
+   ],
+   "tags": [
+    "nausea",
+    "stress",
+    "emotions",
+    "Stomach",
+    "Chinese chives"
+   ]
+  },
+  {
+   "id": "infusion-shan-zha",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 404,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Chinese hawthorn berry tea",
+   "zh": "山楂饮",
+   "py": "shānzhā yǐn",
+   "contexte": "Chinese hawthorn berries help you digest fatty meals, get the Blood moving and ease a tight chest. For excess weight or high blood fats, alongside your medical care, never instead of it.",
+   "principe": {
+    "zh": "消食活血",
+    "py": "Xiāo shí huó xuè",
+    "fr": "Aid digestion, move the Blood"
+   },
+   "precautions": "Sour: avoid it if you have an acid stomach, heartburn or an ulcer, and don't drink it on an empty stomach. Not during pregnancy: hawthorn moves the Blood. If you take medication for your heart, blood pressure or cholesterol, or a blood thinner, ask your doctor first.",
+   "portions": 2,
+   "duree": "45 min (+ 1 h soaking)",
+   "ingredients": [
+    {
+     "id": "shanzha",
+     "q": 30,
+     "u": "g",
+     "nom": "dried Chinese hawthorn berries (shan zha), sliced",
+     "cle": "shan-zha",
+     "note": "In Asian grocery stores or Chinese herbal shops: small dried red slices with their seeds. They are the berries of the Chinese hawthorn tree."
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "whole cane sugar",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Rinse and soak",
+       "texte": "Rinse the hawthorn berries ({shanzha}) and let them soak in the cold water ({eau}), right in the pot.",
+       "s": 3600
+      },
+      {
+       "titre": "Bring to a boil",
+       "texte": "Heat over medium heat until it boils.",
+       "s": 300
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Lower the heat, cover and let it simmer gently.",
+       "s": 1800
+      },
+      {
+       "titre": "Strain and sweeten",
+       "texte": "Strain, add the whole cane sugar ({sucre}) and stir. Drink it hot or warm, in several cups over the day, after meals."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "In a teapot or a bowl",
+     "etapes": [
+      {
+       "titre": "Steep",
+       "texte": "Rinse the hawthorn berries ({shanzha}), put them in a teapot or a large bowl and pour the boiling water ({eau}) over them. Cover.",
+       "s": 900
+      },
+      {
+       "titre": "Sweeten and serve",
+       "texte": "Strain, add the whole cane sugar ({sucre}) and drink warm, after the meal. You can top up the same berries with hot water once."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The teapot version is lighter: handy at the office after a big meal.",
+    "Avoid store-bought hawthorn candies and flakes, which are very sugary."
+   ],
+   "tags": [
+    "digestion",
+    "cholesterol",
+    "excess weight",
+    "hawthorn",
+    "Blood"
+   ]
+  },
+  {
+   "id": "decoction-shan-zha-mandarine",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 405,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Hawthorn, tangerine peel, ginger and jujube decoction",
+   "zh": "山楂橘皮饮",
+   "py": "shānzhā júpí yǐn",
+   "contexte": "For a heavy, bloated or aching stomach after eating too much or eating badly, sometimes with soft stools. Hawthorn aids digestion, tangerine peel and ginger get the Qi moving, and jujubes protect the Stomach.",
+   "principe": {
+    "zh": "消食理气",
+    "py": "Xiāo shí lǐ qì",
+    "fr": "Aid digestion, move the Qi"
+   },
+   "precautions": "Avoid it if you have an acid stomach, heartburn or an ulcer. If you are pregnant, ask for advice first: hawthorn moves the Blood. If the pain is strong or lasting, or if the diarrhea comes with fever or blood, see a doctor.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "shanzha",
+     "q": 15,
+     "u": "g",
+     "nom": "dried Chinese hawthorn berries (shan zha)",
+     "cle": "shan-zha",
+     "note": "In Asian grocery stores or Chinese herbal shops, as small red slices."
+    },
+    {
+     "id": "mandarine",
+     "q": 10,
+     "u": "g",
+     "nom": "dried tangerine peel (chen pi)",
+     "cle": "mandarine",
+     "note": "In Asian grocery stores or Chinese herbal shops. You can also air-dry the peel of unwaxed organic tangerines for a few days."
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "fresh ginger, in 3 or 4 slices",
+     "cle": "gingembre"
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 700,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Rinse the hawthorn berries ({shanzha}) and tangerine peel ({mandarine}). Slice the ginger ({gingembre}) and slit the jujubes ({dattes}) with a knife."
+      },
+      {
+       "titre": "Bring to a boil",
+       "texte": "Put everything in a pot with the cold water ({eau}) and bring to a boil.",
+       "s": 300
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Lower the heat, cover and let it simmer gently.",
+       "s": 1500
+      },
+      {
+       "titre": "Strain and drink",
+       "texte": "Strain and drink it hot, in two servings, after meals. You can eat the jujubes."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Keep it hot in a thermos to drink over the day."
+   ],
+   "tags": [
+    "digestion",
+    "bloating",
+    "Stomach",
+    "hawthorn",
+    "tangerine peel"
+   ]
+  },
+  {
+   "id": "shan-zha-miel-sommeil",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 406,
+   "genre": "chaud",
+   "axe": "coeur",
+   "titre": "Hawthorn and honey drink for sleep",
+   "zh": "山楂入寐饮",
+   "py": "shānzhā rù mèi yǐn",
+   "contexte": "For restless nights after a big or late dinner: toasted hawthorn berries aid digestion, the Stomach settles and sleep comes more easily.",
+   "principe": {
+    "zh": "消食和胃安神",
+    "py": "Xiāo shí hé wèi ān shén",
+    "fr": "Aid digestion, harmonize the Stomach, calm the mind"
+   },
+   "precautions": "Avoid it if you have an acid stomach, heartburn or an ulcer, and during pregnancy. Diabetes: use less honey. If the insomnia lasts more than a few weeks, talk to your doctor.",
+   "portions": 1,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "shanzha",
+     "q": 15,
+     "u": "g",
+     "nom": "dried Chinese hawthorn berries (shan zha)",
+     "cle": "shan-zha",
+     "note": "In Asian grocery stores or Chinese herbal shops, as small red slices."
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "honey",
+     "cle": "miel"
+    },
+    {
+     "id": "eau",
+     "q": 250,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Toast the berries",
+       "texte": "Dry-toast the hawthorn berries ({shanzha}) in a frying pan over low heat, stirring, until they turn lightly golden and smell good.",
+       "s": 300
+      },
+      {
+       "titre": "Mix",
+       "texte": "Put them in a heatproof bowl, add the honey ({miel}), stir, then pour in the water ({eau})."
+      },
+      {
+       "titre": "Cook in a water bath",
+       "texte": "Cover the bowl with a plate and set it in a steamer basket or in a pot of simmering water.",
+       "s": 1200
+      },
+      {
+       "titre": "Drink before bed",
+       "texte": "Strain and drink the cup warm, about 30 minutes before going to bed."
+      }
+     ]
+    },
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Toast the berries",
+       "texte": "Dry-toast the hawthorn berries ({shanzha}) in a small pot over low heat, stirring, until they turn lightly golden and smell good.",
+       "s": 300
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Pour in the water ({eau}), bring to a boil, then cover and let it simmer over low heat.",
+       "s": 900
+      },
+      {
+       "titre": "Add the honey",
+       "texte": "Strain, let it cool slightly, then stir in the honey ({miel}).",
+       "s": 180
+      },
+      {
+       "titre": "Drink before bed",
+       "texte": "Drink the cup warm, about 30 minutes before going to bed."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Toast a larger batch of berries at once and keep them in a tightly closed jar.",
+    "The original recipe uses far more: this amount for one cup is enough and stays gentle on the stomach."
+   ],
+   "tags": [
+    "sleep",
+    "insomnia",
+    "digestion",
+    "dinner",
+    "hawthorn"
+   ]
+  },
+  {
+   "id": "infusion-coriandre-cardamome",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 407,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Cilantro and cardamom tea",
+   "zh": "香菜砂仁饮",
+   "py": "xiāngcài shārén yǐn",
+   "contexte": "Fresh cilantro and Chinese cardamom (sha ren) wake up the Stomach and help a meal go down. A tea to sip slowly for nausea, including morning sickness in pregnancy.",
+   "principe": {
+    "zh": "开胃止呕",
+    "py": "Kāi wèi zhǐ ǒu",
+    "fr": "Wake up the Stomach, ease nausea"
+   },
+   "precautions": "A little warming: avoid it if you have a dry mouth, thirst and a feeling of heat. If you are pregnant and vomit several times a day, lose weight or can't keep liquids down, see your midwife or doctor quickly.",
+   "portions": 1,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "coriandre",
+     "q": 10,
+     "u": "g",
+     "nom": "fresh cilantro (a small handful of sprigs)",
+     "cle": "coriandre"
+    },
+    {
+     "id": "cardamome",
+     "q": 5,
+     "u": "g",
+     "nom": "Chinese cardamom (sha ren)",
+     "cle": "cardamome",
+     "note": "In Chinese herbal shops or Asian grocery stores. If you can't find it, use 3 or 4 green cardamom pods, cracked open; they are more fragrant."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "boiling water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "theiere",
+     "nom": "In a teapot or a bowl",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Rinse the cilantro ({coriandre}) and chop it roughly, stems included. Lightly crush the cardamom ({cardamome}) with the flat of a knife or in a mortar."
+      },
+      {
+       "titre": "Steep",
+       "texte": "Put them in a bowl or teapot, pour the boiling water ({eau}) over them and cover.",
+       "s": 600
+      },
+      {
+       "titre": "Sip slowly",
+       "texte": "Strain. If the smell bothers you, let it cool for a few minutes, then sip it slowly as soon as it seems pleasant to you."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Make it in the morning in a thermos and take a few sips as soon as a wave of nausea comes."
+   ],
+   "tags": [
+    "nausea",
+    "pregnancy",
+    "Stomach",
+    "cilantro",
+    "cardamom"
+   ]
+  },
+  {
+   "id": "boisson-champignons-noirs",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 408,
+   "genre": "chaud",
+   "axe": "sang",
+   "titre": "Wood ear mushroom drink",
+   "zh": "木耳饮",
+   "py": "mù'ěr yǐn",
+   "contexte": "Wood ear mushrooms support the Qi, nourish the Blood and get it moving. For scanty, painful periods toward the end of the cycle, and for constipation: you eat the mushrooms and drink the broth.",
+   "principe": {
+    "zh": "养血活血",
+    "py": "Yǎng xuè huó xuè",
+    "fr": "Nourish the Blood and get it moving"
+   },
+   "precautions": "They move the Blood: avoid this drink during pregnancy and if your periods are heavy, and ask your doctor first if you take a blood thinner. Never leave the mushrooms soaking for more than a few hours at room temperature: beyond that, put them in the fridge.",
+   "portions": 1,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "champignons",
+     "q": 6,
+     "u": "g",
+     "nom": "dried wood ear mushrooms (mu er)",
+     "cle": "champignons-noirs",
+     "note": "Sold in bags in Asian grocery stores. They swell a lot: 6 g is a small handful."
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "whole cane sugar",
+     "cle": "sucre-complet"
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Rehydrate",
+       "texte": "Soak the mushrooms ({champignons}) in a bowl of lukewarm water until they are soft.",
+       "s": 1800
+      },
+      {
+       "titre": "Clean",
+       "texte": "Rinse them carefully, remove the small hard base and cut them into strips."
+      },
+      {
+       "titre": "Bring to a boil",
+       "texte": "Put them in a pot with the water ({eau}) and the whole cane sugar ({sucre}), then bring to a boil.",
+       "s": 300
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Lower to medium-low heat, cover and cook until they are tender.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat the mushrooms and drink the hot broth."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "For periods, drink it mainly in the days before they start and toward the end of your period.",
+    "Throw away the soaking water: it holds the impurities."
+   ],
+   "tags": [
+    "periods",
+    "constipation",
+    "Blood",
+    "wood ear mushrooms"
+   ]
+  },
+  {
+   "id": "infusion-chrysantheme-shan-zha-cassia",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 409,
+   "genre": "chaud",
+   "axe": "humidite",
+   "titre": "Chrysanthemum, hawthorn and cassia seed tea",
+   "zh": "菊查决明饮",
+   "py": "jú zhā juémíng yǐn",
+   "contexte": "A drink to have instead of tea, which gets the Blood moving and helps the body clear excess fats. For excess weight and high cholesterol, alongside your medical care, never instead of it.",
+   "principe": {
+    "zh": "活血降浊",
+    "py": "Huó xuè jiàng zhuó",
+    "fr": "Move the Blood, clear turbidity (excess fats)"
+   },
+   "precautions": "Cassia seeds are cooling and mildly laxative: avoid this drink if you have soft stools, diarrhea or low blood pressure. Not during pregnancy or breastfeeding. Also avoid it if you have an acid stomach or an ulcer. If you take medication for cholesterol or blood pressure, or a blood thinner, ask your doctor first. Take breaks: a few weeks on, then one week off.",
+   "portions": 1,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "chrysantheme",
+     "q": 10,
+     "u": "g",
+     "nom": "dried chrysanthemum flowers (ju hua)",
+     "cle": "chrysantheme"
+    },
+    {
+     "id": "shanzha",
+     "q": 15,
+     "u": "g",
+     "nom": "dried Chinese hawthorn berries (shan zha), sliced",
+     "cle": "shan-zha"
+    },
+    {
+     "id": "cassia",
+     "q": 15,
+     "u": "g",
+     "nom": "cassia seeds (jue ming zi)",
+     "cle": "jue-ming-zi",
+     "note": "In Chinese herbal shops or Asian grocery stores: small, shiny brown seeds. Nothing to do with Chinese cinnamon, which is also sometimes called cassia."
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Toast the seeds",
+       "texte": "Dry-toast the cassia seeds ({cassia}) in a frying pan over low heat, stirring, until they smell toasted.",
+       "s": 240
+      },
+      {
+       "titre": "Crush",
+       "texte": "Let them cool for a moment, then crush them in a mortar, or in a bag with a rolling pin."
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put them in a pot with the hawthorn berries ({shanzha}) and the water ({eau}). Bring to a boil, then cover and let it simmer.",
+       "s": 1200
+      },
+      {
+       "titre": "Steep the flowers",
+       "texte": "Off the heat, add the chrysanthemum flowers ({chrysantheme}), cover and let them steep.",
+       "s": 300
+      },
+      {
+       "titre": "Drink over the day",
+       "texte": "Strain and drink it hot or warm, in several cups over the day, instead of tea."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "In a teapot or a bowl",
+     "etapes": [
+      {
+       "titre": "Toast the seeds",
+       "texte": "Dry-toast the cassia seeds ({cassia}) in a frying pan over low heat, stirring, until they smell toasted.",
+       "s": 240
+      },
+      {
+       "titre": "Crush",
+       "texte": "Let them cool for a moment, then crush them in a mortar, or in a bag with a rolling pin."
+      },
+      {
+       "titre": "Steep",
+       "texte": "Put the seeds, hawthorn berries ({shanzha}) and flowers ({chrysantheme}) in a large teapot or a thermos. Pour in the boiling water ({eau}) and close.",
+       "s": 1200
+      },
+      {
+       "titre": "Drink over the day",
+       "texte": "Drink it warm throughout the day; you can top it up with hot water once."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The original recipe doesn't toast the cassia seeds: toasting makes them gentler on the belly and more fragrant.",
+    "Toast a larger batch of seeds ahead of time and keep them in a closed jar."
+   ],
+   "tags": [
+    "excess weight",
+    "cholesterol",
+    "Blood",
+    "chrysanthemum",
+    "hawthorn"
+   ]
+  },
+  {
+   "id": "infusion-chrysantheme-amandons-murier",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 410,
+   "genre": "chaud",
+   "axe": "exterieur",
+   "titre": "Chrysanthemum, sweet apricot kernel and mulberry leaf tea",
+   "zh": "菊杏代茶饮",
+   "py": "jú xìng dàichá yǐn",
+   "contexte": "At the start of a cold with a sore throat and cough, when you feel rather hot. Chrysanthemum and mulberry leaves drive out Wind and Heat, and the sweet apricot kernel calms the cough and helps loosen phlegm.",
+   "principe": {
+    "zh": "疏风清热止咳",
+    "py": "Shū fēng qīng rè zhǐ ké",
+    "fr": "Disperse Wind, clear Heat, calm the cough"
+   },
+   "precautions": "Only SWEET apricot kernels, never bitter apricot kernels (toxic), and no more than the amount given. Not for young children; if you are pregnant or breastfeeding, ask for advice first. Licorice raises blood pressure: leave it out if you have high blood pressure, swelling (edema) or treatment for your heart or kidneys. A little cooling: go easy on it if you have a cold belly. High fever, difficulty breathing or a cough lasting more than a week: see a doctor.",
+   "portions": 1,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "chrysantheme",
+     "q": 6,
+     "u": "g",
+     "nom": "dried chrysanthemum flowers (ju hua)",
+     "cle": "chrysantheme"
+    },
+    {
+     "id": "amandons",
+     "q": 6,
+     "u": "g",
+     "nom": "sweet apricot kernels (nan xing ren)",
+     "cle": "amandons-abricot",
+     "note": "In Asian grocery stores or Chinese herbal shops, sold as nan xing ren or \"sweet apricot kernels\": large, flat and pale. Never buy bitter apricot kernels (bei xing ren, ku xing ren), which are smaller and pointed."
+    },
+    {
+     "id": "murier",
+     "q": 6,
+     "u": "g",
+     "nom": "dried mulberry leaves (sang ye)",
+     "cle": "sang-ye",
+     "note": "In Chinese herbal shops."
+    },
+    {
+     "id": "reglisse",
+     "q": 3,
+     "u": "g",
+     "nom": "licorice root (gan cao), 2 or 3 slices",
+     "cle": "gan-cao",
+     "note": "Optional: see the cautions."
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Crush the kernels",
+       "texte": "Crush the apricot kernels ({amandons}) in a mortar or with the flat of a knife."
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put them in a pot with the licorice ({reglisse}) and the water ({eau}). Bring to a boil, then cover and let it simmer.",
+       "s": 600
+      },
+      {
+       "titre": "Steep",
+       "texte": "Off the heat, add the mulberry leaves ({murier}) and the chrysanthemum flowers ({chrysantheme}). Cover and let them steep.",
+       "s": 600
+      },
+      {
+       "titre": "Drink over the day",
+       "texte": "Strain and drink it warm, in small sips, several times over the day."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The traditional recipe uses bitter apricot kernel, a medicinal herb reserved for practitioners: here it is replaced by the sweet kernel, which is safer.",
+    "The original recipe steeps everything in boiling water: simmering the kernels first makes them easier to digest."
+   ],
+   "tags": [
+    "cough",
+    "sore throat",
+    "cold",
+    "Lung",
+    "chrysanthemum"
+   ]
+  },
+  {
+   "id": "jus-pasteque-menthe",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 411,
+   "genre": "froid",
+   "axe": "chaleur",
+   "titre": "Watermelon mint juice",
+   "zh": "西瓜薄荷汁",
+   "py": "xīguā bòhe zhī",
+   "contexte": "Watermelon cools, quenches thirst and helps you urinate: the juice for heat-wave days, when you feel hot, thirsty and restless. Mint adds freshness.",
+   "principe": {
+    "zh": "清热解暑",
+    "py": "Qīng rè jiě shǔ",
+    "fr": "Clear Heat, relieve summer heat"
+   },
+   "precautions": "Watermelon is very cooling: drink this juice at room temperature, never ice-cold, and go easy on it if you have a cold belly, soft stools or during your period. Diabetes: one small glass only.",
+   "portions": 2,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "pasteque",
+     "q": 500,
+     "u": "g",
+     "nom": "watermelon flesh, rind removed",
+     "cle": "pasteque"
+    },
+    {
+     "id": "menthe",
+     "q": 6,
+     "nom": "fresh mint leaves",
+     "cle": "menthe"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "In a blender or juicer",
+     "etapes": [
+      {
+       "titre": "Cut",
+       "texte": "Cut the watermelon ({pasteque}) into cubes and remove the black seeds."
+      },
+      {
+       "titre": "Blend",
+       "texte": "Blend it with the mint leaves ({menthe}) until very smooth."
+      },
+      {
+       "titre": "Strain and serve",
+       "texte": "Strain it if you prefer a juice without pulp. Drink it right away, at room temperature."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Mash",
+       "texte": "Cut the watermelon ({pasteque}) into pieces, remove the seeds and mash it with a potato masher or a fork in a large bowl."
+      },
+      {
+       "titre": "Strain",
+       "texte": "Pass it through a sieve, pressing the pulp well."
+      },
+      {
+       "titre": "Flavor",
+       "texte": "Crush the mint leaves ({menthe}) between your fingers, add them to the juice and let them steep.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the mint and drink the juice at room temperature."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "If your watermelon comes straight from the fridge, let the juice come back to room temperature before drinking it."
+   ],
+   "tags": [
+    "summer",
+    "heat wave",
+    "thirst",
+    "Heat",
+    "watermelon"
+   ]
+  },
+  {
+   "id": "eau-concombre-menthe",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 412,
+   "genre": "froid",
+   "axe": "chaleur",
+   "titre": "Cucumber mint water",
+   "zh": "黄瓜薄荷水",
+   "py": "huángguā bòhe shuǐ",
+   "contexte": "A flavored water that quenches thirst and gently cools you on hot days. Cucumber clears Heat and moistens, and mint brings freshness.",
+   "principe": {
+    "zh": "清热生津",
+    "py": "Qīng rè shēng jīn",
+    "fr": "Clear Heat, generate body fluids"
+   },
+   "precautions": "Cooling: drink it at room temperature, never ice-cold, and go easy on it if you have a cold belly or soft stools.",
+   "portions": 4,
+   "duree": "10 min (+ 1 h steeping)",
+   "ingredients": [
+    {
+     "id": "concombre",
+     "q": 150,
+     "u": "g",
+     "nom": "cucumber",
+     "cle": "concombre"
+    },
+    {
+     "id": "menthe",
+     "q": 8,
+     "nom": "fresh mint leaves",
+     "cle": "menthe"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "room-temperature water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Prepare the cucumber",
+       "texte": "Wash the cucumber ({concombre}) and cut it into thin slices, skin on if it is organic."
+      },
+      {
+       "titre": "Bruise the mint",
+       "texte": "Lightly crush the mint leaves ({menthe}) between your fingers to release their scent."
+      },
+      {
+       "titre": "Steep",
+       "texte": "Put everything in a pitcher, pour in the water ({eau}) and let it steep.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Drink it within the day, at room temperature. If it is very hot, keep the pitcher in the fridge, but take it out 30 minutes before drinking."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You can top up the same cucumber with water once.",
+    "After one day, throw it all away: the cucumber goes soft."
+   ],
+   "tags": [
+    "summer",
+    "thirst",
+    "Heat",
+    "cucumber",
+    "mint"
+   ]
+  },
+  {
+   "id": "jus-poire-radis",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 413,
+   "genre": "froid",
+   "axe": "yin",
+   "titre": "Pear and daikon juice",
+   "zh": "雪梨萝卜汁",
+   "py": "xuělí luóbo zhī",
+   "contexte": "For a dry cough and a scratchy throat, especially in autumn or in dry weather. Pear moistens the Lung, and daikon soothes the cough and helps loosen phlegm.",
+   "principe": {
+    "zh": "润肺止咳",
+    "py": "Rùn fèi zhǐ ké",
+    "fr": "Moisten the Lung, calm the cough"
+   },
+   "precautions": "Cooling: drink it at room temperature, never ice-cold, and go easy on it if you have a cold belly, soft stools or a cough with lots of white phlegm. No honey for babies under one year old. A cough lasting more than 3 weeks, fever, blood in your phlegm or shortness of breath: see a doctor.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "poire",
+     "q": 2,
+     "nom": "ripe pears",
+     "cle": "poire"
+    },
+    {
+     "id": "radis",
+     "q": 150,
+     "u": "g",
+     "nom": "daikon (white radish), peeled",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "honey (optional)",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "In a blender or juicer",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Wash the pears ({poire}), core them and cut them into pieces. Dice the daikon ({radis})."
+      },
+      {
+       "titre": "Extract the juice",
+       "texte": "Run them through the juicer. With a blender: blend them with the water ({eau}), then strain, pressing the pulp well."
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add the honey ({miel}) if you like and drink it in two servings over the day, at room temperature."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Grate",
+       "texte": "Finely grate the cored pears ({poire}), then the daikon ({radis})."
+      },
+      {
+       "titre": "Squeeze",
+       "texte": "Put the grated mixture in a clean cloth and squeeze it hard over a bowl. Thin it with the water ({eau}) if the radish taste is too strong."
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add the honey ({miel}) if you like and drink it in two servings over the day, at room temperature."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "If your stomach is delicate, warm the juice for a few minutes in a small pot before drinking it."
+   ],
+   "tags": [
+    "dry cough",
+    "throat",
+    "Lung",
+    "autumn",
+    "pear"
+   ]
+  },
+  {
+   "id": "jus-pomme-carotte",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 414,
+   "genre": "froid",
+   "axe": "rate",
+   "titre": "Apple and carrot juice",
+   "zh": "苹果胡萝卜汁",
+   "py": "píngguǒ húluóbo zhī",
+   "contexte": "A mild, nourishing juice that supports the Spleen and Stomach, for small appetites and sluggish digestion. A slice of ginger makes it easier to digest.",
+   "principe": {
+    "zh": "健脾和胃",
+    "py": "Jiàn pí hé wèi",
+    "fr": "Strengthen the Spleen, harmonize the Stomach"
+   },
+   "precautions": "Drink it at room temperature, never ice-cold, preferably mid-morning rather than with meals. Cold belly or soft stools: keep the ginger and stick to a small glass. Diabetes: choose whole fruit instead.",
+   "portions": 2,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "pomme",
+     "q": 2,
+     "nom": "sweet apples",
+     "cle": "pomme"
+    },
+    {
+     "id": "carotte",
+     "q": 2,
+     "nom": "carrots",
+     "cle": "carotte"
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "nom": "thin slice of fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 150,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "In a blender or juicer",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Wash the apples ({pomme}) and carrots ({carotte}). Core the apples and cut everything into pieces, along with the ginger ({gingembre})."
+      },
+      {
+       "titre": "Extract the juice",
+       "texte": "Run them through the juicer. With a blender: blend them with the water ({eau}), then strain, pressing the pulp well."
+      },
+      {
+       "titre": "Serve",
+       "texte": "Stir and drink right away, in small sips, at room temperature."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "No cooking",
+     "etapes": [
+      {
+       "titre": "Grate",
+       "texte": "Finely grate the cored apples ({pomme}), the peeled carrots ({carotte}) and the ginger ({gingembre})."
+      },
+      {
+       "titre": "Squeeze",
+       "texte": "Squeeze the grated mixture in a clean cloth over a bowl, then thin it with the water ({eau})."
+      },
+      {
+       "titre": "Serve",
+       "texte": "Stir and drink right away, in small sips, at room temperature."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Drink it right away: it darkens and loses its qualities within a few hours."
+   ],
+   "tags": [
+    "Spleen",
+    "appetite",
+    "digestion",
+    "carrot",
+    "apple"
+   ]
+  },
+  {
+   "id": "the-orge-grillee",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 415,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Roasted barley tea",
+   "zh": "大麦茶",
+   "py": "dàmài chá",
+   "contexte": "A hot, caffeine-free drink that tastes of toasted bread. It helps digestion after a heavy or fatty meal and quenches thirst without chilling the Stomach.",
+   "principe": {
+    "zh": "消食和中",
+    "py": "Xiāo shí hé zhōng",
+    "fr": "Aid digestion, harmonize the Center (Spleen and Stomach)"
+   },
+   "precautions": "Barley contains gluten: avoid it if you have celiac disease. Breastfeeding: don't drink much of it, as barley is said to reduce milk supply.",
+   "portions": 4,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "orge",
+     "q": 40,
+     "u": "g",
+     "nom": "barley grains (hulled or pearl)",
+     "cle": "orge",
+     "note": "In organic food stores or with the dried beans and grains. Asian grocery stores also sell barley already roasted for tea."
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Roast the barley",
+       "texte": "Dry-roast the barley ({orge}) in a frying pan over medium-low heat, stirring often, until it is golden brown and smells like toasted bread.",
+       "s": 720
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Bring the water ({eau}) to a boil, add the roasted barley, then cover and let it simmer.",
+       "s": 600
+      },
+      {
+       "titre": "Strain and serve",
+       "texte": "Strain and drink hot or warm, after meals or throughout the day."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "In a teapot or a bowl",
+     "etapes": [
+      {
+       "titre": "Roast the barley",
+       "texte": "Dry-roast the barley ({orge}) in a frying pan over medium-low heat, stirring often, until it is golden brown and smells like toasted bread.",
+       "s": 720
+      },
+      {
+       "titre": "Steep",
+       "texte": "Put the roasted barley in a large teapot, pour in the boiling water ({eau}) and cover.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Strain and drink hot or warm. You can top up the same barley with hot water once."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Roast a larger batch ahead of time: it keeps for several weeks in a closed jar.",
+    "In summer, you can also drink it at room temperature."
+   ],
+   "tags": [
+    "digestion",
+    "Spleen",
+    "after meals",
+    "barley",
+    "caffeine-free"
+   ]
+  }
+ ]
+}

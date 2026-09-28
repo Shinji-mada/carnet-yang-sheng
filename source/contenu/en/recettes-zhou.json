@@ -1,0 +1,1505 @@
+{
+ "fiches": [
+  {
+   "id": "bouillie-millet-astragale",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 100,
+   "genre": "zhou",
+   "axe": "qi",
+   "titre": "Millet porridge with astragalus",
+   "zh": "小米黄芪煎",
+   "py": "xiǎomǐ huángqí jiān",
+   "contexte": "Millet and astragalus (huang qi) strengthen the Spleen and Qi, and help the body clear Dampness. For fatigue, one cold after another, convalescence, the weeks after giving birth, long-lasting soft stools, white vaginal discharge or swollen ankles.",
+   "principe": {
+    "zh": "健脾益气利湿",
+    "py": "Jiàn pí yì qì lì shī",
+    "fr": "Strengthen the Spleen, tonify Qi, drain Dampness"
+   },
+   "precautions": "Astragalus is a Chinese medicinal herb: take it as a 5 to 7 day course, no longer without advice. Avoid it during a cold or an infection with fever, and if you have signs of Heat (thirst, feeling hot, red tongue). Pregnancy, breastfeeding, autoimmune disease or immunosuppressant treatment: ask your doctor or practitioner first.",
+   "portions": 2,
+   "duree": "1 h 10 min",
+   "ingredients": [
+    {
+     "id": "astragale",
+     "q": 30,
+     "u": "g",
+     "nom": "dried astragalus root (huang qi), sliced",
+     "cle": "huang-qi",
+     "note": "In Chinese herbal shops, Asian grocery stores or specialist pharmacies: long, pale yellow slices with a slightly sweet taste."
+    },
+    {
+     "id": "millet",
+     "q": 100,
+     "u": "g",
+     "nom": "hulled millet",
+     "cle": "millet"
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Make the pouch",
+       "texte": "Wrap the astragalus ({astragale}) in a square of cheesecloth or a cloth spice bag and tie it tightly."
+      },
+      {
+       "titre": "Steep the astragalus",
+       "texte": "Put the pouch in a pot with the cold water ({eau}). Bring to a boil, then let it simmer, covered: the astragalus starts releasing its benefits.",
+       "s": 1200
+      },
+      {
+       "titre": "Add the millet",
+       "texte": "Rinse the millet ({millet}) until the water runs clear and add it to the pot. Cook over low heat with the lid ajar, stirring now and then, until the millet bursts and the porridge thickens.",
+       "s": 1800
+      },
+      {
+       "titre": "Remove the pouch",
+       "texte": "Take out the astragalus pouch, pressing it against the side of the pot with a spoon, then throw it away. Add a little salt ({sel})."
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat the porridge hot: one bowl in the morning, one bowl in the evening."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Make the pouch",
+       "texte": "Wrap the astragalus ({astragale}) in a square of cheesecloth or a cloth spice bag and tie it tightly."
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the pouch, rinsed millet ({millet}) and water ({eau}) in the inner pot. Let it soak before you start cooking: the astragalus begins to steep.",
+       "s": 1800
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Finish",
+       "texte": "Take out the pouch, pressing it, add salt ({sel}) and eat hot, morning and evening."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "No cheesecloth? First simmer the astragalus on its own in the water for 20 minutes, strain, then cook the millet in this broth.",
+    "You can add 3 jujubes with the millet for a sweeter, more nourishing porridge."
+   ],
+   "tags": [
+    "porridge",
+    "fatigue",
+    "Spleen",
+    "convalescence",
+    "frequent colds"
+   ]
+  },
+  {
+   "id": "congee-alisma",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 101,
+   "genre": "zhou",
+   "axe": "humidite",
+   "titre": "Alisma congee",
+   "zh": "泽泻粥",
+   "py": "zéxiè zhōu",
+   "contexte": "Alisma (ze xie) helps the body get rid of excess water and cools the lower belly, while the rice is gentle on the Stomach. It supports medical care for cystitis (burning, urgent need to urinate) and helps with ankles swollen from water retention.",
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clear Heat, drain Dampness"
+   },
+   "precautions": "A cooling, draining Chinese medicinal herb: 3 to 5 days in a row at most, never as a long course. Not if fatigue comes with abundant, clear urine, or if you often feel cold. Not during pregnancy or breastfeeding, nor with kidney disease or diuretic treatment without medical advice. Cystitis: this congee doesn't replace seeing a doctor; with fever, lower back pain or blood in the urine, see a doctor right away.",
+   "portions": 2,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "alisma",
+     "q": 10,
+     "u": "g",
+     "nom": "powdered alisma (ze xie)",
+     "cle": "ze-xie",
+     "note": "Sold as dried slices in Chinese herbal shops or pharmacies specializing in Chinese herbs: grind them to a fine powder in a coffee or spice grinder. Some herbal shops sell it already ground."
+    },
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Rinse the rice ({riz}) and put it in a pot with the water ({eau}). Bring to a boil, then let it simmer with the lid ajar, stirring now and then, until the grains burst and little craters form on the surface.",
+       "s": 1800
+      },
+      {
+       "titre": "Mix the powder",
+       "texte": "Stir the alisma powder ({alisma}) into two spoonfuls of the cooking water to avoid lumps."
+      },
+      {
+       "titre": "Finish cooking",
+       "texte": "Stir it into the congee and cook a little longer over very low heat.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it warm, in two servings: one bowl in the morning, one in the evening."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the rinsed rice ({riz}) and water ({eau}) in the inner pot."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the alisma",
+       "texte": "Mix the alisma powder ({alisma}) with a little congee, stir it into the rest and leave on Keep Warm with the lid closed.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it warm: one bowl in the morning, one in the evening."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "No grinder? Simmer the alisma slices in the water for 30 minutes, strain, then cook the rice in this decoction.",
+    "During a bout of cystitis, also drink plenty of water throughout the day."
+   ],
+   "tags": [
+    "congee",
+    "cystitis",
+    "water retention",
+    "Bladder",
+    "Dampness"
+   ]
+  },
+  {
+   "id": "congee-ciboule-chinoise",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 102,
+   "genre": "zhou",
+   "axe": "yang",
+   "titre": "Chinese chive congee",
+   "zh": "韭菜粥",
+   "py": "jiǔcài zhōu",
+   "contexte": "Chinese chives warm the Kidney and support Yang, the body's deep inner fire. For fatigue with feeling cold, thin white discharge, or frequent urination linked to age or the prostate, alongside medical care.",
+   "principe": {
+    "zh": "补肾壮阳固精",
+    "py": "Bǔ shèn zhuàng yáng gù jīng",
+    "fr": "Tonify the Kidney, strengthen Yang, consolidate Essence"
+   },
+   "precautions": "A warming dish: avoid it if you have signs of Heat (thirst, feeling hot, red tongue, mouth ulcers, spots), night sweats or a sore throat. Urinary problems in men should be checked by a doctor: this congee supports medical care, it doesn't replace it.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 100,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "ciboule",
+     "q": 80,
+     "u": "g",
+     "nom": "Chinese chives (jiu cai), washed and cut into 1 cm pieces",
+     "cle": "ciboule-chinoise",
+     "note": "Sold in bunches in Asian grocery stores: flat leaves, a taste between garlic and chives. If you can't find them, use very thinly sliced leek."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Rinse the rice ({riz}), bring it to a boil in the water ({eau}), then let it simmer with the lid ajar, stirring now and then.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the chives",
+       "texte": "Add the Chinese chives ({ciboule}) and cook just long enough for them to turn tender and bright green.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}) and eat hot, ideally for breakfast."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Put the rinsed rice ({riz}) and water ({eau}) in the inner pot, then start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the chives",
+       "texte": "Add the Chinese chives ({ciboule}), stir, close the lid and leave on Keep Warm.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add salt ({sel}) and eat hot, ideally for breakfast."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Traditionally, it's eaten for breakfast for about two weeks.",
+    "Added at the end, the chives keep their color and aroma."
+   ],
+   "tags": [
+    "congee",
+    "Kidney",
+    "Yang",
+    "feeling cold",
+    "breakfast"
+   ]
+  },
+  {
+   "id": "congee-coques-cacahuetes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 103,
+   "genre": "zhou",
+   "axe": "rate",
+   "titre": "Peanut shell decoction congee",
+   "zh": "花生壳粥",
+   "py": "huāshēngké zhōu",
+   "contexte": "Boiled peanut shells make a mild decoction that supports the Spleen and moistens the Lung. In China, it's recommended for high cholesterol or high blood pressure, alongside medical care, never instead of treatment.",
+   "principe": {
+    "zh": "健脾润肺",
+    "py": "Jiàn pí rùn fèi",
+    "fr": "Strengthen the Spleen, moisten the Lung"
+   },
+   "precautions": "Never if you're allergic to peanuts: the shells contain allergens too. Use only raw, organic (untreated) peanut shells that are clean and dry; throw away any stained or moldy shell. Blood pressure or cholesterol: don't change your treatment without your doctor. Diabetes: leave out the rock sugar.",
+   "portions": 2,
+   "duree": "1 h 15 min",
+   "ingredients": [
+    {
+     "id": "coques",
+     "q": 60,
+     "u": "g",
+     "nom": "shells of raw organic peanuts, untreated",
+     "cle": "cacahuetes",
+     "note": "That's roughly what 250 g of raw peanuts in their shells give you. Keep the nuts for another dish."
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "sucre",
+     "q": 10,
+     "u": "g",
+     "nom": "rock sugar (optional)",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Wash the shells",
+       "texte": "Shell the peanuts and keep the shells ({coques}). Rinse them well, scrubbing them with a brush under running water, then break them up roughly by hand."
+      },
+      {
+       "titre": "Make the decoction",
+       "texte": "Put the shells in a pot with the water ({eau}), bring to a boil, then let it simmer, covered.",
+       "s": 1800
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain the decoction through a fine sieve and throw away the shells. You should have about 1 liter of liquid left; top up with hot water if needed."
+      },
+      {
+       "titre": "Cook the congee",
+       "texte": "Put the decoction back on the heat with the rinsed rice ({riz}). Let it simmer with the lid ajar, stirring now and then.",
+       "s": 2100
+      },
+      {
+       "titre": "Sweeten and serve",
+       "texte": "Add the rock sugar ({sucre}), let it melt and eat hot, in two servings over the day."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Wash the shells",
+       "texte": "Shell the peanuts and keep the shells ({coques}). Rinse them well, scrubbing them with a brush under running water, then break them up roughly by hand."
+      },
+      {
+       "titre": "Make the decoction",
+       "texte": "Put the shells and water ({eau}) in the inner pot and start the Soup program.",
+       "s": 1800
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain the decoction, throw away the shells, rinse the inner pot and pour the liquid back in."
+      },
+      {
+       "titre": "Cook the congee",
+       "texte": "Add the rinsed rice ({riz}) and start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Sweeten and serve",
+       "texte": "Add the rock sugar ({sucre}), stir and eat hot, in two servings over the day."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The rock sugar is optional: go easy on it, especially if you have high cholesterol.",
+    "Non-organic peanut shells may have been treated with chemicals: that's why you only use organic ones."
+   ],
+   "tags": [
+    "congee",
+    "cholesterol",
+    "blood pressure",
+    "Spleen",
+    "Lung"
+   ]
+  },
+  {
+   "id": "congee-menthe",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 104,
+   "genre": "zhou",
+   "axe": "exterieur",
+   "titre": "Mint congee",
+   "zh": "薄荷粥",
+   "py": "bòhe zhōu",
+   "contexte": "Mint disperses Wind-Heat and clears the head and eyes. For the start of a “hot” cold: scratchy throat, headache, red, stinging eyes.",
+   "principe": {
+    "zh": "疏风清热",
+    "py": "Shū fēng qīng rè",
+    "fr": "Disperse Wind, clear Heat"
+   },
+   "precautions": "A cooling dish: not for a chill-type cold (shivers, clear runny nose), nor if you're already sweating a lot. Breastfeeding: mint in large amounts can reduce milk supply. Very painful eye, worsening vision or fever lasting more than 3 days: see a doctor.",
+   "portions": 2,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 900,
+     "u": "ml",
+     "nom": "water for the congee",
+     "base": true
+    },
+    {
+     "id": "menthe",
+     "q": 30,
+     "u": "g",
+     "nom": "fresh mint, leaves and tender stems (or 10 g dried mint)",
+     "cle": "menthe",
+     "note": "Peppermint is the closest to Chinese mint (bo he). Dried mint is sold in herbal shops or in the herbal tea aisle."
+    },
+    {
+     "id": "eau-menthe",
+     "q": 250,
+     "u": "ml",
+     "nom": "water for the mint decoction",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 10,
+     "u": "g",
+     "nom": "rock sugar",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Rinse the rice ({riz}), bring it to a boil in the water ({eau}), then let it simmer with the lid ajar, stirring now and then.",
+       "s": 1800
+      },
+      {
+       "titre": "Prepare the mint",
+       "texte": "Meanwhile, bring the mint water ({eau-menthe}) to a boil in a small pot. Add the mint ({menthe}), cover and simmer for 3 minutes, no longer, or its aroma will escape.",
+       "s": 180
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain and press the leaves well to get all the liquid out."
+      },
+      {
+       "titre": "Combine",
+       "texte": "Add the decoction to the cooked congee with the rock sugar ({sucre}) and cook a moment longer.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it warm, in two servings: one bowl in the morning, one in the evening."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Put the rinsed rice ({riz}) and water ({eau}) in the inner pot and start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Prepare the mint",
+       "texte": "Toward the end of cooking, simmer the mint ({menthe}) in its water ({eau-menthe}) for 3 minutes, covered, in a small pot.",
+       "s": 180
+      },
+      {
+       "titre": "Combine",
+       "texte": "Strain the decoction into the inner pot, add the rock sugar ({sucre}), stir and leave on Keep Warm.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it warm: one bowl in the morning, one in the evening."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The mint cooks only briefly: that's what keeps it effective.",
+    "The congee keeps for a day in the fridge; reheat it gently with a little water."
+   ],
+   "tags": [
+    "congee",
+    "first signs of a cold",
+    "sore throat",
+    "headache",
+    "red eyes"
+   ]
+  },
+  {
+   "id": "congee-ecorce-pamplemousse",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 105,
+   "genre": "zhou",
+   "axe": "circuler",
+   "titre": "Grapefruit peel congee",
+   "zh": "柚皮粥",
+   "py": "yòupí zhōu",
+   "contexte": "Pomelo or grapefruit peel gets Qi moving, soothes the Liver and wakes up the Stomach. For stomach pain and bloating after a heavy meal, or when stress ties your stomach in knots.",
+   "principe": {
+    "zh": "疏肝理气开胃",
+    "py": "Shū gān lǐ qì kāi wèi",
+    "fr": "Soothe the Liver, move Qi, stimulate the appetite"
+   },
+   "precautions": "Grapefruit and pomelo, peel included, interact with many medicines (for cholesterol, blood pressure, heart rhythm problems, anti-rejection drugs…): if you're on any treatment, ask your pharmacist first. A dispersing dish: not as a long course if fatigue is your main problem. Severe or lasting stomach pain, black stools: see a doctor.",
+   "portions": 2,
+   "duree": "1 h (+ 24 h drying)",
+   "ingredients": [
+    {
+     "id": "ecorce",
+     "q": 1,
+     "nom": "organic grapefruit peel (or a quarter of an organic pomelo's peel)",
+     "cle": "pamplemousse",
+     "note": "Organic only: the peel of non-organic citrus fruit is treated."
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "spring onion, finely sliced",
+     "cle": "cebette"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Dry the peel",
+       "texte": "The day before, wash and scrub the fruit, then remove the peel ({ecorce}) in large pieces. Let it dry for 24 hours in the open air, on a plate."
+      },
+      {
+       "titre": "Cut the peel",
+       "texte": "Cut the peel into thin strips about 1 cm by 3 cm."
+      },
+      {
+       "titre": "Start cooking",
+       "texte": "Put the strips in a pot with the water ({eau}) and bring to a boil. Then add the rinsed rice ({riz})."
+      },
+      {
+       "titre": "Simmer gently",
+       "texte": "Let it simmer over low heat with the lid ajar, stirring now and then, until you get a thick congee.",
+       "s": 2400
+      },
+      {
+       "titre": "Season and serve",
+       "texte": "Remove the strips if you find them too bitter. Add salt ({sel}), sprinkle with spring onion ({cebette}) and eat hot, morning and evening."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Dry the peel",
+       "texte": "The day before, wash and scrub the fruit, then remove the peel ({ecorce}) in large pieces. Let it dry for 24 hours in the open air, on a plate."
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Cut the peel into thin strips and put them in the inner pot with the rinsed rice ({riz}) and water ({eau})."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Season and serve",
+       "texte": "Remove the strips if you find them too bitter. Add salt ({sel}), sprinkle with spring onion ({cebette}) and eat hot, morning and evening."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "If you're worried about bitterness, blanch the strips in boiling water for 5 minutes first and throw that water away.",
+    "Dried for several days until brittle, the peels keep for months in a closed jar."
+   ],
+   "tags": [
+    "congee",
+    "stomach",
+    "stress",
+    "bloating",
+    "digestion"
+   ]
+  },
+  {
+   "id": "congee-pomme-raisin",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 106,
+   "genre": "zhou",
+   "axe": "exterieur",
+   "titre": "Apple and grape congee",
+   "zh": "苹果葡萄粥",
+   "py": "píngguǒ pútao zhōu",
+   "contexte": "A mild congee that strengthens Qi while helping drive out the cold. For people who catch one cold after another because they're run down: tired or older people, new mothers after giving birth, children.",
+   "principe": {
+    "zh": "益气解表",
+    "py": "Yì qì jiě biǎo",
+    "fr": "Strengthen Qi, release the Exterior"
+   },
+   "precautions": "For young children, cut the grapes into quarters (choking hazard). Sweat lightly without wearing yourself out, and change if your clothes get damp. High fever, fever in a baby or difficulty breathing: see a doctor. Diabetes: reduce or leave out the sugar.",
+   "portions": 3,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 100,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1300,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "pomme",
+     "q": 1,
+     "nom": "apple, peeled and thinly sliced",
+     "cle": "pomme"
+    },
+    {
+     "id": "raisin",
+     "q": 40,
+     "u": "g",
+     "nom": "fresh grapes, halved (or 20 g raisins)",
+     "cle": "raisin"
+    },
+    {
+     "id": "sucre",
+     "q": 20,
+     "u": "g",
+     "nom": "rock sugar",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Rinse the rice ({riz}), bring it to a boil in the water ({eau}), then let it simmer with the lid ajar: the congee should stay fairly runny.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the fruit",
+       "texte": "When the rice has almost melted, add the apple slices ({pomme}), grapes ({raisin}) and rock sugar ({sucre}). Keep cooking gently.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it piping hot, then snuggle under the duvet: a light sweat helps drive out the cold."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Put the rinsed rice ({riz}) and water ({eau}) in the inner pot and start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the fruit",
+       "texte": "Add the apple ({pomme}), grapes ({raisin}) and rock sugar ({sucre}), stir and run the Soup or Porridge program again for a few minutes.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it piping hot, then rest somewhere warm under the duvet."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The sugar is deliberately reduced compared with the traditional recipe: adjust it to taste.",
+    "Out of season, raisins work very well instead of fresh grapes."
+   ],
+   "tags": [
+    "congee",
+    "common cold",
+    "fatigue",
+    "children",
+    "older people",
+    "after childbirth"
+   ]
+  },
+  {
+   "id": "congee-poria",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 107,
+   "genre": "zhou",
+   "axe": "humidite",
+   "titre": "Poria congee",
+   "zh": "茯苓粉粥",
+   "py": "fúlíng fěn zhōu",
+   "contexte": "Poria (fu ling), a mushroom, strengthens the Spleen and helps the body get rid of excess water; the jujubes soften and nourish. For swollen legs or face, water retention, soft stools or difficult urination.",
+   "principe": {
+    "zh": "健脾利湿",
+    "py": "Jiàn pí lì shī",
+    "fr": "Strengthen the Spleen, drain Dampness"
+   },
+   "precautions": "Poria is gentle, but it makes you pass water: avoid long courses if you already urinate a lot and your urine is clear, or if your mouth and skin are very dry. Legs that swell suddenly, or on one side only, need to be seen by a doctor.",
+   "portions": 2,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "fuling",
+     "q": 30,
+     "u": "g",
+     "nom": "powdered poria (fu ling)",
+     "cle": "fu-ling",
+     "note": "In Asian grocery stores or Chinese herbal shops, as a powder or white cubes. The cubes are very hard: grind them to a powder in a spice grinder."
+    },
+    {
+     "id": "riz",
+     "q": 60,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 900,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Start the rice",
+       "texte": "Rinse the rice ({riz}) and bring it to a boil in the water ({eau})."
+      },
+      {
+       "titre": "Add the jujubes",
+       "texte": "Add the jujubes ({dattes}) and let it simmer with the lid ajar, stirring now and then.",
+       "s": 1800
+      },
+      {
+       "titre": "Mix the poria",
+       "texte": "Stir the poria powder ({fuling}) into half a glass of cold water until there are no lumps left."
+      },
+      {
+       "titre": "Finish cooking",
+       "texte": "Add it to the almost-cooked congee while stirring, then cook a little longer over low heat.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the jujube pits and eat hot."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the rinsed rice ({riz}), jujubes ({dattes}) and water ({eau}) in the inner pot."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the poria",
+       "texte": "Mix the poria powder ({fuling}) with a little cold water, stir it into the inner pot and leave on Keep Warm.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the jujube pits and eat hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Poria has almost no taste: it slips easily into a congee, a soup or pancake batter.",
+    "The congee keeps for 2 days in the fridge; reheat it with a little water."
+   ],
+   "tags": [
+    "congee",
+    "water retention",
+    "swollen legs",
+    "Spleen",
+    "Dampness"
+   ]
+  },
+  {
+   "id": "congee-rose",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 108,
+   "genre": "zhou",
+   "axe": "circuler",
+   "titre": "Rose petal congee",
+   "zh": "玫瑰花粥",
+   "py": "méiguihuā zhōu",
+   "contexte": "Rose soothes the Liver and harmonizes the Stomach: it helps Qi flow when emotions block everything. For irritability, premenstrual syndrome and irregular periods; with hepatitis, alongside medical care.",
+   "principe": {
+    "zh": "疏肝和胃",
+    "py": "Shū gān hé wèi",
+    "fr": "Soothe the Liver, harmonize the Stomach"
+   },
+   "precautions": "Rose gets Qi and Blood moving: avoid it during pregnancy and during heavy periods. If you take an anticoagulant, ask your doctor. Never use florist roses: they are treated with chemicals.",
+   "portions": 2,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "short-grain rice",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "rose",
+     "q": 10,
+     "u": "g",
+     "nom": "dried food-grade rosebuds or rose petals (mei gui hua)",
+     "cle": "rose",
+     "note": "In Asian grocery stores, herbal shops or the organic herbal tea aisle. In season, three handfuls of fresh petals from an unsprayed garden work too."
+    },
+    {
+     "id": "sucre",
+     "q": 10,
+     "u": "g",
+     "nom": "rock sugar (optional)",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Rinse the rice ({riz}), bring it to a boil in the water ({eau}), then let it simmer with the lid ajar, stirring now and then.",
+       "s": 2100
+      },
+      {
+       "titre": "Prepare the rose",
+       "texte": "Meanwhile, pull the petals off the rosebuds ({rose}); you can also keep the buds whole."
+      },
+      {
+       "titre": "Add the rose",
+       "texte": "When the rice has fully melted, add the rose and the rock sugar ({sucre}). Simmer for a few minutes, no longer, to keep the fragrance.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it warm, in the morning or evening."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Cook the rice",
+       "texte": "Put the rinsed rice ({riz}) and water ({eau}) in the inner pot and start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Add the rose",
+       "texte": "Add the rose petals or buds ({rose}) and rock sugar ({sucre}), stir and leave on Keep Warm with the lid closed.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it warm, in the morning or evening."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The rock sugar is optional: rose already has a sweet, fragrant taste.",
+    "Store dried rosebuds in a closed jar, away from light."
+   ],
+   "tags": [
+    "congee",
+    "stress",
+    "periods",
+    "premenstrual syndrome",
+    "Liver"
+   ]
+  },
+  {
+   "id": "bouillie-igname-farine",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 109,
+   "genre": "zhou",
+   "axe": "qi",
+   "titre": "Chinese yam porridge with flour, onion and ginger",
+   "zh": "山药粥",
+   "py": "shānyào zhōu",
+   "contexte": "A thick, comforting porridge: Chinese yam and wheat strengthen the Spleen and Qi, while onion and ginger warm you up. For fatigue; traditionally also for men with declining sexual vigor or seminal emissions.",
+   "principe": {
+    "zh": "健脾益气",
+    "py": "Jiàn pí yì qì",
+    "fr": "Strengthen the Spleen, tonify Qi"
+   },
+   "precautions": "Ground ginger is warming: use less if you often feel hot, have a dry mouth or mouth ulcers. Contains gluten (wheat flour). Diabetes: leave out the sugar.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "igname",
+     "q": 100,
+     "u": "g",
+     "nom": "fresh Chinese yam (shan yao)",
+     "cle": "shan-yao",
+     "note": "Peel it wearing gloves: its sap makes your skin itch. You'll find it in Asian grocery stores (a long, beige, hairy root)."
+    },
+    {
+     "id": "farine",
+     "q": 100,
+     "u": "g",
+     "nom": "wheat flour",
+     "cle": "ble"
+    },
+    {
+     "id": "eau",
+     "q": 900,
+     "u": "ml",
+     "nom": "cold water",
+     "base": true
+    },
+    {
+     "id": "oignon",
+     "q": 1,
+     "nom": "small onion, finely chopped",
+     "cle": "oignon"
+    },
+    {
+     "id": "gingembre",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "ground ginger",
+     "cle": "gingembre-sec"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "whole cane sugar",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Prepare the yam",
+       "texte": "Wash and peel the yam ({igname}), cut it into chunks, then crush them into small pieces with the flat of a knife."
+      },
+      {
+       "titre": "Mix in the flour",
+       "texte": "In a pot off the heat, whisk the flour ({farine}) while adding the cold water ({eau}) little by little, until there are no lumps. Add the yam."
+      },
+      {
+       "titre": "Cook the porridge",
+       "texte": "Bring to a boil over medium heat, stirring constantly, then lower the heat and let it thicken gently, stirring often so it doesn't stick.",
+       "s": 1200
+      },
+      {
+       "titre": "Add the aromatics",
+       "texte": "Add the onion ({oignon}), ground ginger ({gingembre}) and whole cane sugar ({sucre}). Keep cooking until the onion is tender.",
+       "s": 480
+      },
+      {
+       "titre": "Serve",
+       "texte": "Thin with a little hot water if it's too thick and eat hot. You can have it often."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Prepare the yam",
+       "texte": "Wash and peel the yam ({igname}), cut it into chunks, then crush them into small pieces with the flat of a knife."
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "In a bowl, whisk the flour ({farine}) while adding the cold water ({eau}) little by little, until there are no lumps. Transfer to the inner pot and add the yam."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Soup program; stir once or twice during cooking if your appliance allows it.",
+       "s": 2400
+      },
+      {
+       "titre": "Add the aromatics",
+       "texte": "Add the onion ({oignon}), ginger ({gingembre}) and whole cane sugar ({sucre}), stir and keep cooking.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Thin with a little hot water if needed and eat hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Gluten-free: replace the wheat flour with the same amount of rice flour.",
+    "If onion is hard on your stomach, soften it first for 5 minutes in a spoonful of oil before adding it."
+   ],
+   "tags": [
+    "porridge",
+    "fatigue",
+    "Spleen",
+    "Chinese yam",
+    "Qi"
+   ]
+  },
+  {
+   "id": "congee-riz-gluant-dattes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 110,
+   "genre": "zhou",
+   "axe": "qi",
+   "titre": "Glutinous rice congee with jujubes and whole cane sugar",
+   "zh": "红枣糯米粥",
+   "py": "hóngzǎo nuòmǐ zhōu",
+   "contexte": "Glutinous rice warms the Center (the Spleen and Stomach) and tonifies Qi, jujubes nourish Qi and Blood, and whole cane sugar warms. A comforting bowl for cold days, when you're tired and chilly, or when your belly aches and warmth helps.",
+   "principe": {
+    "zh": "温中益气",
+    "py": "Wēn zhōng yì qì",
+    "fr": "Warm the Center, tonify Qi"
+   },
+   "precautions": "Glutinous rice is sticky and filling: not if your digestion feels blocked, your belly is bloated, or you have phlegm or a fever. For children and older people, give small, piping-hot portions. Diabetes: avoid it (glutinous rice and sugar raise blood sugar quickly).",
+   "portions": 3,
+   "duree": "1 h (+ 1 h soaking)",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 100,
+     "u": "g",
+     "nom": "glutinous rice",
+     "cle": "riz-gluant",
+     "note": "In Asian grocery stores (opaque white grains), sometimes sold as sticky rice or sweet rice."
+    },
+    {
+     "id": "eau",
+     "q": 1300,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "dattes",
+     "q": 9,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "thin slices of fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "sucre",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "whole cane sugar",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Rinse the glutinous rice ({riz}) several times, then let it soak in a large bowl of cold water.",
+       "s": 3600
+      },
+      {
+       "titre": "Start cooking",
+       "texte": "Drain the rice and put it in a heavy-bottomed pot with the water ({eau}), jujubes ({dattes}) and ginger ({gingembre}). Bring to a boil."
+      },
+      {
+       "titre": "Simmer gently",
+       "texte": "Let it simmer over low heat with the lid ajar. Stir often, scraping the bottom: glutinous rice sticks quickly.",
+       "s": 2700
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Remove the ginger, add the whole cane sugar ({sucre}) and stir until it melts."
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it hot, ideally in the morning or as an afternoon snack."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Rinse the glutinous rice ({riz}) several times, then let it soak in a large bowl of cold water.",
+       "s": 3600
+      },
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Drain the rice and put it in the inner pot with the water ({eau}), jujubes ({dattes}) and ginger ({gingembre})."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Congee program.",
+       "s": 3600
+      },
+      {
+       "titre": "Sweeten and serve",
+       "texte": "Remove the ginger, add the whole cane sugar ({sucre}), stir and eat hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "For a lighter congee, replace half the glutinous rice with short-grain rice.",
+    "It thickens a lot as it cools: reheat it with a little hot water."
+   ],
+   "tags": [
+    "congee",
+    "feeling cold",
+    "fatigue",
+    "Spleen",
+    "winter"
+   ]
+  },
+  {
+   "id": "congee-avoine-pomme",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 111,
+   "genre": "zhou",
+   "axe": "rate",
+   "titre": "Oat congee with apple and cinnamon",
+   "zh": "苹果肉桂燕麦粥",
+   "py": "píngguǒ ròuguì yànmài zhōu",
+   "contexte": "A warm, gentle breakfast for the Spleen: oats nourish without weighing you down, cooked apple is easy to digest and cinnamon warms the Stomach. Ideal if you have little appetite in the morning, digest slowly or often feel cold.",
+   "principe": {
+    "zh": "健脾暖胃",
+    "py": "Jiàn pí nuǎn wèi",
+    "fr": "Strengthen the Spleen, warm the Stomach"
+   },
+   "precautions": "Cinnamon is warming: use less if you often feel hot, have a dry mouth or mouth ulcers. Gluten intolerance: choose certified gluten-free oats.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "avoine",
+     "q": 80,
+     "u": "g",
+     "nom": "rolled oats",
+     "cle": "avoine"
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "pomme",
+     "q": 1,
+     "nom": "apple, diced small (skin on if organic)",
+     "cle": "pomme"
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "jujubes (Chinese red dates), pitted and chopped",
+     "cle": "dattes"
+    },
+    {
+     "id": "cannelle",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "ground cinnamon",
+     "cle": "cannelle"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Heat the fruit",
+       "texte": "Put the water ({eau}), apple ({pomme}), jujubes ({dattes}) and cinnamon ({cannelle}) in a pot and bring to a boil."
+      },
+      {
+       "titre": "Add the oats",
+       "texte": "Add the oats ({avoine}) and salt ({sel}), lower the heat and cook gently, stirring often, until creamy.",
+       "s": 600
+      },
+      {
+       "titre": "Let it rest",
+       "texte": "Cover off the heat: the oats finish swelling.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat hot, thinned with a little hot water if you like it runnier."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the oats ({avoine}), apple ({pomme}), jujubes ({dattes}), cinnamon ({cannelle}), salt ({sel}) and water ({eau}) in the inner pot, then stir."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge program.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Stir, thin with a little hot water if needed and eat hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "With a rice cooker, set a delayed start in the evening: breakfast is ready when you wake up.",
+    "Old-fashioned rolled oats hold up better during cooking than instant oats."
+   ],
+   "tags": [
+    "congee",
+    "breakfast",
+    "oats",
+    "Spleen",
+    "digestion"
+   ]
+  },
+  {
+   "id": "congee-mais-millet",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 112,
+   "genre": "zhou",
+   "axe": "humidite",
+   "titre": "Corn and millet congee",
+   "zh": "玉米小米粥",
+   "py": "yùmǐ xiǎomǐ zhōu",
+   "contexte": "Corn and millet harmonize the Stomach and gently help clear Dampness by promoting urination. A light congee for times when you feel heavy and a bit bloated, with sluggish digestion or a sticky, coated mouth.",
+   "principe": {
+    "zh": "和胃利湿",
+    "py": "Hé wèi lì shī",
+    "fr": "Harmonize the Stomach, drain Dampness"
+   },
+   "precautions": "Millet is slightly cooling: if your belly often feels cold or your stools are very soft, add 2 slices of fresh ginger while it cooks.",
+   "portions": 3,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "millet",
+     "q": 80,
+     "u": "g",
+     "nom": "hulled millet",
+     "cle": "millet"
+    },
+    {
+     "id": "mais",
+     "q": 50,
+     "u": "g",
+     "nom": "cornmeal (polenta)",
+     "cle": "mais",
+     "note": "Or 100 g of fresh or frozen corn kernels, added at the same time as the millet."
+    },
+    {
+     "id": "eau",
+     "q": 1400,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the millet",
+       "texte": "Rinse the millet ({millet}) until the water runs clear. Bring the water ({eau}) to a boil, add the millet and let it simmer.",
+       "s": 900
+      },
+      {
+       "titre": "Add the corn",
+       "texte": "Sprinkle in the cornmeal ({mais}) while whisking to avoid lumps."
+      },
+      {
+       "titre": "Simmer gently",
+       "texte": "Let it simmer over low heat with the lid ajar, stirring often: the mixture thickens and sticks easily.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add a little salt ({sel}), thin with hot water if it's too thick and eat hot."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Fill the inner pot",
+       "texte": "Put the rinsed millet ({millet}), cornmeal ({mais}) and cold water ({eau}) in the inner pot and whisk well."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Start the Porridge or Congee program; stir once halfway through if your appliance allows it.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add a little salt ({sel}), stir and eat hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "If you find fresh corn on the cob, first simmer its silk (the fine threads) in the water for 15 minutes, remove it, then cook the millet in that water: it boosts the draining effect.",
+    "The congee thickens as it cools; it keeps for 2 days in the fridge."
+   ],
+   "tags": [
+    "congee",
+    "Dampness",
+    "digestion",
+    "millet",
+    "corn"
+   ]
+  }
+ ]
+}

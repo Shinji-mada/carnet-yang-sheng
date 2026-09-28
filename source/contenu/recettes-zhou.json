@@ -1,0 +1,1505 @@
+{
+ "fiches": [
+  {
+   "id": "bouillie-millet-astragale",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 100,
+   "genre": "zhou",
+   "axe": "qi",
+   "titre": "Bouillie de millet à l'astragale",
+   "zh": "小米黄芪煎",
+   "py": "xiǎomǐ huángqí jiān",
+   "contexte": "Le millet et l'astragale (Huang Qi) renforcent la Rate et le Qi, et aident le corps à évacuer l'Humidité. Pour la fatigue, les rhumes qui s'enchaînent, la convalescence, l'après-accouchement, les selles molles qui durent, les pertes blanches ou les chevilles qui gonflent.",
+   "principe": {
+    "zh": "健脾益气利湿",
+    "py": "Jiàn pí yì qì lì shī",
+    "fr": "Renforcer la Rate, tonifier le Qi, drainer l'Humidité"
+   },
+   "precautions": "L'astragale est une plante de pharmacie chinoise : fais-en une cure de 5 à 7 jours, pas plus sans avis. Évite-la pendant un rhume ou une infection avec fièvre, et si tu as des signes de Chaleur (soif, sensation de chaud, langue rouge). Grossesse, allaitement, maladie auto-immune ou traitement immunosuppresseur : demande d'abord l'avis de ton médecin ou de ton praticien.",
+   "portions": 2,
+   "duree": "1 h 10",
+   "ingredients": [
+    {
+     "id": "astragale",
+     "q": 30,
+     "u": "g",
+     "nom": "racine d'astragale séchée (Huang Qi), en lamelles",
+     "cle": "huang-qi",
+     "note": "En herboristerie chinoise, en épicerie asiatique ou en pharmacie spécialisée : de longues lamelles jaune pâle, au goût légèrement sucré."
+    },
+    {
+     "id": "millet",
+     "q": 100,
+     "u": "g",
+     "nom": "millet décortiqué",
+     "cle": "millet"
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Préparer le sachet",
+       "texte": "Enferme l'astragale ({astragale}) dans un carré de gaze ou un sachet à épices en tissu, et noue-le bien."
+      },
+      {
+       "titre": "Faire infuser l'astragale",
+       "texte": "Mets le sachet dans une casserole avec l'eau froide ({eau}). Porte à ébullition, puis laisse frémir à couvert : l'astragale commence à donner ses bienfaits.",
+       "s": 1200
+      },
+      {
+       "titre": "Ajouter le millet",
+       "texte": "Rince le millet ({millet}) jusqu'à ce que l'eau soit claire et verse-le dans la casserole. Laisse cuire à feu doux, couvercle entrouvert, en remuant de temps en temps, jusqu'à ce que le millet éclate et que la bouillie épaississe.",
+       "s": 1800
+      },
+      {
+       "titre": "Retirer le sachet",
+       "texte": "Sors le sachet d'astragale en le pressant contre la paroi avec une cuillère, puis jette-le. Sale légèrement ({sel})."
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange la bouillie chaude : un bol le matin, un bol le soir."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Préparer le sachet",
+       "texte": "Enferme l'astragale ({astragale}) dans un carré de gaze ou un sachet à épices en tissu, et noue-le bien."
+      },
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Mets le sachet, le millet rincé ({millet}) et l'eau ({eau}) dans la cuve. Laisse tremper avant de lancer la cuisson : l'astragale commence à infuser.",
+       "s": 1800
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Finir",
+       "texte": "Retire le sachet en le pressant, sale ({sel}) et mange chaud, matin et soir."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Pas de gaze ? Fais d'abord frémir l'astragale seul 20 minutes dans l'eau, filtre, puis cuis le millet dans ce bouillon.",
+    "Tu peux ajouter 3 dattes rouges avec le millet pour une bouillie plus douce et plus nourrissante."
+   ],
+   "tags": [
+    "bouillie",
+    "fatigue",
+    "Rate",
+    "convalescence",
+    "rhumes à répétition"
+   ]
+  },
+  {
+   "id": "congee-alisma",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 101,
+   "genre": "zhou",
+   "axe": "humidite",
+   "titre": "Congee à l'alisma",
+   "zh": "泽泻粥",
+   "py": "zéxiè zhōu",
+   "contexte": "L'alisma (Ze Xie) aide le corps à évacuer l'eau en trop et rafraîchit le bas du ventre, le riz ménage l'Estomac. Il accompagne le suivi médical d'une cystite (brûlures, envies pressantes) et aide en cas de chevilles gonflées par la rétention d'eau.",
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clarifier la Chaleur, drainer l'Humidité"
+   },
+   "precautions": "Plante de pharmacie chinoise, fraîche et drainante : 3 à 5 jours d'affilée au plus, jamais en cure longue. Pas si la fatigue s'accompagne d'urines abondantes et claires, ni si tu as souvent froid. Pas pendant la grossesse ou l'allaitement, ni en cas de maladie des reins ou de traitement diurétique sans avis médical. Cystite : ce congee ne remplace pas la consultation ; fièvre, douleur dans le bas du dos ou sang dans les urines, vois un médecin sans attendre.",
+   "portions": 2,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "alisma",
+     "q": 10,
+     "u": "g",
+     "nom": "alisma (Ze Xie) en poudre",
+     "cle": "ze-xie",
+     "note": "Vendu en tranches séchées en herboristerie chinoise ou en pharmacie spécialisée en plantes chinoises : réduis-les en poudre fine au moulin à café ou à épices. Certaines herboristeries le vendent déjà moulu."
+    },
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Rince le riz ({riz}) et mets-le dans une casserole avec l'eau ({eau}). Porte à ébullition, puis laisse frémir à couvercle entrouvert, en remuant de temps en temps, jusqu'à ce que le riz éclate et que de petits cratères se forment en surface.",
+       "s": 1800
+      },
+      {
+       "titre": "Délayer la poudre",
+       "texte": "Délaie la poudre d'alisma ({alisma}) dans deux cuillerées d'eau de cuisson pour éviter les grumeaux."
+      },
+      {
+       "titre": "Finir la cuisson",
+       "texte": "Verse-la dans le congee, mélange bien et laisse cuire encore à feu très doux.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le tiède, en deux fois : un bol le matin, un bol le soir."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Mets le riz rincé ({riz}) et l'eau ({eau}) dans la cuve."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Ajouter l'alisma",
+       "texte": "Délaie la poudre d'alisma ({alisma}) dans un peu de congee, mélange-la au reste et laisse en maintien au chaud, couvercle fermé.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le tiède : un bol le matin, un bol le soir."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Sans moulin : fais frémir les tranches d'alisma 30 minutes dans l'eau, filtre, puis cuis le riz dans cette décoction.",
+    "Pendant une cystite, bois aussi beaucoup d'eau tout au long de la journée."
+   ],
+   "tags": [
+    "congee",
+    "cystite",
+    "rétention d'eau",
+    "Vessie",
+    "Humidité"
+   ]
+  },
+  {
+   "id": "congee-ciboule-chinoise",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 102,
+   "genre": "zhou",
+   "axe": "yang",
+   "titre": "Congee à la ciboule chinoise",
+   "zh": "韭菜粥",
+   "py": "jiǔcài zhōu",
+   "contexte": "La ciboule chinoise réchauffe le Rein et soutient le Yang, le feu de fond du corps. Pour la fatigue avec frilosité, les pertes blanches fluides, ou les envies d'uriner fréquentes liées à l'âge ou à la prostate, en accompagnement du suivi médical.",
+   "principe": {
+    "zh": "补肾壮阳固精",
+    "py": "Bǔ shèn zhuàng yáng gù jīng",
+    "fr": "Tonifier le Rein, renforcer le Yang, consolider l'Essence"
+   },
+   "precautions": "Plat réchauffant : évite-le en cas de signes de Chaleur (soif, sensation de chaud, langue rouge, aphtes, boutons), de sueurs la nuit ou de mal de gorge. Les troubles urinaires de l'homme doivent être vus par un médecin : ce congee accompagne le suivi, il ne le remplace pas.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 100,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "ciboule",
+     "q": 80,
+     "u": "g",
+     "nom": "ciboule chinoise (jiu cai), lavée et coupée en tronçons de 1 cm",
+     "cle": "ciboule-chinoise",
+     "note": "En botte en épicerie asiatique : feuilles plates, goût entre l'ail et la ciboulette. À défaut, prends du poireau émincé très fin."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Rince le riz ({riz}), porte-le à ébullition dans l'eau ({eau}), puis laisse frémir à couvercle entrouvert en remuant de temps en temps.",
+       "s": 1800
+      },
+      {
+       "titre": "Ajouter la ciboule",
+       "texte": "Ajoute la ciboule chinoise ({ciboule}) et laisse cuire juste assez pour qu'elle devienne tendre et bien verte.",
+       "s": 180
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sale ({sel}) et mange chaud, de préférence au petit-déjeuner."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Mets le riz rincé ({riz}) et l'eau ({eau}) dans la cuve, puis lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Ajouter la ciboule",
+       "texte": "Ajoute la ciboule chinoise ({ciboule}), mélange et referme en maintien au chaud.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sale ({sel}) et mange chaud, de préférence au petit-déjeuner."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Traditionnellement, on le prend au petit-déjeuner pendant une quinzaine de jours.",
+    "Ajoutée en fin de cuisson, la ciboule garde sa couleur et son parfum."
+   ],
+   "tags": [
+    "congee",
+    "Rein",
+    "Yang",
+    "frilosité",
+    "petit-déjeuner"
+   ]
+  },
+  {
+   "id": "congee-coques-cacahuetes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 103,
+   "genre": "zhou",
+   "axe": "rate",
+   "titre": "Congee à la décoction de coques de cacahuètes",
+   "zh": "花生壳粥",
+   "py": "huāshēngké zhōu",
+   "contexte": "Bouillies, les coques de cacahuètes donnent une décoction douce qui soutient la Rate et humidifie le Poumon. En Chine, on la conseille en cas de cholestérol ou de tension élevés, en accompagnement du suivi médical, jamais à la place du traitement.",
+   "principe": {
+    "zh": "健脾润肺",
+    "py": "Jiàn pí rùn fèi",
+    "fr": "Renforcer la Rate, humidifier le Poumon"
+   },
+   "precautions": "Jamais en cas d'allergie à l'arachide : les coques en contiennent aussi. N'utilise que des coques de cacahuètes crues et bio (non traitées), propres et sèches ; jette toute coque tachée ou moisie. Tension ou cholestérol : ne change rien à ton traitement sans ton médecin. Diabète : supprime le sucre candi.",
+   "portions": 2,
+   "duree": "1 h 15",
+   "ingredients": [
+    {
+     "id": "coques",
+     "q": 60,
+     "u": "g",
+     "nom": "coques de cacahuètes crues bio, non traitées",
+     "cle": "cacahuetes",
+     "note": "C'est à peu près ce que donnent 250 g de cacahuètes crues en coque. Garde les graines pour un autre plat."
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "sucre",
+     "q": 10,
+     "u": "g",
+     "nom": "sucre candi (facultatif)",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Laver les coques",
+       "texte": "Décortique les cacahuètes et garde les coques ({coques}). Rince-les longuement en les frottant à la brosse sous l'eau, puis casse-les grossièrement à la main."
+      },
+      {
+       "titre": "Faire la décoction",
+       "texte": "Mets les coques dans une casserole avec l'eau ({eau}), porte à ébullition puis laisse frémir à couvert.",
+       "s": 1800
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre la décoction dans une passoire fine et jette les coques. Il doit te rester environ 1 litre de liquide ; complète avec de l'eau chaude si besoin."
+      },
+      {
+       "titre": "Cuire le congee",
+       "texte": "Remets la décoction sur le feu avec le riz rincé ({riz}). Laisse frémir à couvercle entrouvert, en remuant de temps en temps.",
+       "s": 2100
+      },
+      {
+       "titre": "Sucrer et servir",
+       "texte": "Ajoute le sucre candi ({sucre}), laisse-le fondre et mange chaud, en deux fois dans la journée."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Laver les coques",
+       "texte": "Décortique les cacahuètes et garde les coques ({coques}). Rince-les longuement en les frottant à la brosse sous l'eau, puis casse-les grossièrement à la main."
+      },
+      {
+       "titre": "Faire la décoction",
+       "texte": "Mets les coques et l'eau ({eau}) dans la cuve et lance le programme Soupe.",
+       "s": 1800
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre la décoction, jette les coques, rince la cuve et remets-y le liquide."
+      },
+      {
+       "titre": "Cuire le congee",
+       "texte": "Ajoute le riz rincé ({riz}) et lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Sucrer et servir",
+       "texte": "Ajoute le sucre candi ({sucre}), mélange et mange chaud, en deux fois dans la journée."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le sucre candi est facultatif : garde la main légère, surtout en cas de cholestérol.",
+    "Les coques de cacahuètes non bio peuvent avoir été traitées : c'est pour ça qu'on ne prend que du bio."
+   ],
+   "tags": [
+    "congee",
+    "cholestérol",
+    "tension",
+    "Rate",
+    "Poumon"
+   ]
+  },
+  {
+   "id": "congee-menthe",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 104,
+   "genre": "zhou",
+   "axe": "exterieur",
+   "titre": "Congee à la menthe",
+   "zh": "薄荷粥",
+   "py": "bòhe zhōu",
+   "contexte": "La menthe disperse le Vent-Chaleur et dégage la tête et les yeux. Pour un début de rhume « chaud » : gorge qui pique, mal de tête, yeux rouges qui piquent.",
+   "principe": {
+    "zh": "疏风清热",
+    "py": "Shū fēng qīng rè",
+    "fr": "Disperser le Vent, clarifier la Chaleur"
+   },
+   "precautions": "Plat rafraîchissant : pas pour un rhume froid (frissons, nez qui coule clair) ni si tu transpires déjà beaucoup. Allaitement : la menthe en quantité peut diminuer le lait. Œil très douloureux, vue qui baisse ou fièvre de plus de 3 jours : consulte un médecin.",
+   "portions": 2,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 900,
+     "u": "ml",
+     "nom": "eau pour le congee",
+     "base": true
+    },
+    {
+     "id": "menthe",
+     "q": 30,
+     "u": "g",
+     "nom": "menthe fraîche, feuilles et tiges tendres (ou 10 g de menthe séchée)",
+     "cle": "menthe",
+     "note": "La menthe poivrée est la plus proche de la menthe chinoise (Bo He). Séchée, elle se trouve en herboristerie ou au rayon tisanes."
+    },
+    {
+     "id": "eau-menthe",
+     "q": 250,
+     "u": "ml",
+     "nom": "eau pour la décoction de menthe",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 10,
+     "u": "g",
+     "nom": "sucre candi",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Rince le riz ({riz}), porte-le à ébullition dans l'eau ({eau}), puis laisse frémir à couvercle entrouvert en remuant de temps en temps.",
+       "s": 1800
+      },
+      {
+       "titre": "Préparer la menthe",
+       "texte": "Pendant ce temps, porte l'eau de la menthe ({eau-menthe}) à ébullition dans une petite casserole. Ajoute la menthe ({menthe}), couvre et laisse frémir 3 minutes, pas plus : son parfum s'envolerait.",
+       "s": 180
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre et presse bien les feuilles pour récupérer tout le liquide."
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Verse la décoction dans le congee cuit, ajoute le sucre candi ({sucre}) et laisse cuire encore un instant.",
+       "s": 120
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le tiède, en deux fois : un bol le matin, un bol le soir."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Mets le riz rincé ({riz}) et l'eau ({eau}) dans la cuve et lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Préparer la menthe",
+       "texte": "Vers la fin de la cuisson, fais frémir la menthe ({menthe}) dans son eau ({eau-menthe}) 3 minutes à couvert, dans une petite casserole.",
+       "s": 180
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Filtre la décoction dans la cuve, ajoute le sucre candi ({sucre}), mélange et laisse en maintien au chaud.",
+       "s": 120
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le tiède : un bol le matin, un bol le soir."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La menthe cuit très peu : c'est ce qui garde son effet.",
+    "Le congee se garde un jour au frais ; réchauffe-le doucement avec un peu d'eau."
+   ],
+   "tags": [
+    "congee",
+    "début de rhume",
+    "mal de gorge",
+    "mal de tête",
+    "yeux rouges"
+   ]
+  },
+  {
+   "id": "congee-ecorce-pamplemousse",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 105,
+   "genre": "zhou",
+   "axe": "circuler",
+   "titre": "Congee à l'écorce de pamplemousse",
+   "zh": "柚皮粥",
+   "py": "yòupí zhōu",
+   "contexte": "L'écorce de pomélo ou de pamplemousse fait circuler le Qi, détend le Foie et réveille l'Estomac. Pour les douleurs et les ballonnements d'estomac après un repas trop lourd, ou quand le stress « noue » l'estomac.",
+   "principe": {
+    "zh": "疏肝理气开胃",
+    "py": "Shū gān lǐ qì kāi wèi",
+    "fr": "Détendre le Foie, faire circuler le Qi, ouvrir l'appétit"
+   },
+   "precautions": "Le pamplemousse et le pomélo, écorce comprise, interagissent avec de nombreux médicaments (contre le cholestérol, la tension, les troubles du rythme cardiaque, les anti-rejet…) : si tu suis un traitement, demande d'abord à ton pharmacien. Plat qui disperse : pas en cure longue si c'est surtout la fatigue qui domine. Douleur d'estomac forte ou qui dure, selles noires : consulte un médecin.",
+   "portions": 2,
+   "duree": "1 h (+ séchage 24 h)",
+   "ingredients": [
+    {
+     "id": "ecorce",
+     "q": 1,
+     "nom": "écorce de pamplemousse bio (ou un quart d'écorce de pomélo bio)",
+     "cle": "pamplemousse",
+     "note": "Bio impérativement : l'écorce des agrumes non bio est traitée."
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "cébette, finement ciselée",
+     "cle": "cebette"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Sécher l'écorce",
+       "texte": "La veille, lave et brosse le fruit, puis retire l'écorce ({ecorce}) en gros morceaux. Laisse-la sécher 24 heures à l'air libre, sur une assiette."
+      },
+      {
+       "titre": "Couper l'écorce",
+       "texte": "Coupe l'écorce en fines lanières d'environ 1 cm sur 3 cm."
+      },
+      {
+       "titre": "Lancer la cuisson",
+       "texte": "Mets les lanières dans une casserole avec l'eau ({eau}) et porte à ébullition. Ajoute alors le riz rincé ({riz})."
+      },
+      {
+       "titre": "Cuire doucement",
+       "texte": "Laisse frémir à feu doux, couvercle entrouvert, en remuant de temps en temps, jusqu'à obtenir un congee épais.",
+       "s": 2400
+      },
+      {
+       "titre": "Assaisonner et servir",
+       "texte": "Retire les lanières si tu les trouves trop amères. Sale ({sel}), parsème de cébette ({cebette}) et mange chaud, matin et soir."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Sécher l'écorce",
+       "texte": "La veille, lave et brosse le fruit, puis retire l'écorce ({ecorce}) en gros morceaux. Laisse-la sécher 24 heures à l'air libre, sur une assiette."
+      },
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Coupe l'écorce en fines lanières et mets-la dans la cuve avec le riz rincé ({riz}) et l'eau ({eau})."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Assaisonner et servir",
+       "texte": "Retire les lanières si tu les trouves trop amères. Sale ({sel}), parsème de cébette ({cebette}) et mange chaud, matin et soir."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Si tu crains l'amertume, blanchis d'abord les lanières 5 minutes dans l'eau bouillante et jette cette eau.",
+    "Séchées plusieurs jours jusqu'à devenir cassantes, les écorces se gardent des mois dans un bocal fermé."
+   ],
+   "tags": [
+    "congee",
+    "estomac",
+    "stress",
+    "ballonnements",
+    "digestion"
+   ]
+  },
+  {
+   "id": "congee-pomme-raisin",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 106,
+   "genre": "zhou",
+   "axe": "exterieur",
+   "titre": "Congee pomme-raisin",
+   "zh": "苹果葡萄粥",
+   "py": "píngguǒ pútao zhōu",
+   "contexte": "Un congee doux qui renforce le Qi tout en aidant à chasser le froid. Pour ceux qui enchaînent les rhumes parce qu'ils sont à plat : personnes fatiguées ou âgées, jeunes mamans après l'accouchement, enfants.",
+   "principe": {
+    "zh": "益气解表",
+    "py": "Yì qì jiě biǎo",
+    "fr": "Renforcer le Qi, libérer la Surface"
+   },
+   "precautions": "Pour les jeunes enfants, coupe les grains de raisin en quatre (risque d'étouffement). Transpire légèrement, sans t'épuiser, et change-toi si tes vêtements sont humides. Fièvre élevée, fièvre chez un bébé ou gêne pour respirer : consulte un médecin. Diabète : réduis ou supprime le sucre.",
+   "portions": 3,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 100,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1300,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "pomme",
+     "q": 1,
+     "nom": "pomme, épluchée et coupée en fines lamelles",
+     "cle": "pomme"
+    },
+    {
+     "id": "raisin",
+     "q": 40,
+     "u": "g",
+     "nom": "grains de raisin frais, coupés en deux (ou 20 g de raisins secs)",
+     "cle": "raisin"
+    },
+    {
+     "id": "sucre",
+     "q": 20,
+     "u": "g",
+     "nom": "sucre candi",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Rince le riz ({riz}), porte-le à ébullition dans l'eau ({eau}), puis laisse frémir à couvercle entrouvert : le congee doit rester assez fluide.",
+       "s": 1800
+      },
+      {
+       "titre": "Ajouter les fruits",
+       "texte": "Quand le riz est presque fondu, ajoute les lamelles de pomme ({pomme}), le raisin ({raisin}) et le sucre candi ({sucre}). Poursuis la cuisson doucement.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le bien chaud, puis glisse-toi sous la couette : une légère transpiration aide à chasser le froid."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Mets le riz rincé ({riz}) et l'eau ({eau}) dans la cuve et lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Ajouter les fruits",
+       "texte": "Ajoute la pomme ({pomme}), le raisin ({raisin}) et le sucre candi ({sucre}), mélange et relance quelques minutes en mode Soupe ou Porridge.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le bien chaud, puis repose-toi au chaud sous la couette."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le sucre est volontairement réduit par rapport à la recette traditionnelle : ajuste selon ton goût.",
+    "Hors saison, les raisins secs remplacent très bien le raisin frais."
+   ],
+   "tags": [
+    "congee",
+    "rhume",
+    "fatigue",
+    "enfants",
+    "personnes âgées",
+    "après l'accouchement"
+   ]
+  },
+  {
+   "id": "congee-poria",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 107,
+   "genre": "zhou",
+   "axe": "humidite",
+   "titre": "Congee au poria",
+   "zh": "茯苓粉粥",
+   "py": "fúlíng fěn zhōu",
+   "contexte": "Le poria (Fu Ling), un champignon, renforce la Rate et aide le corps à évacuer l'eau en trop ; les dattes adoucissent et nourrissent. Pour les jambes ou le visage gonflés, la rétention d'eau, les selles molles ou les urines difficiles.",
+   "principe": {
+    "zh": "健脾利湿",
+    "py": "Jiàn pí lì shī",
+    "fr": "Renforcer la Rate, drainer l'Humidité"
+   },
+   "precautions": "Le poria est doux, mais il fait éliminer l'eau : évite les cures longues si tu urines déjà beaucoup et clair, ou si tu as la bouche et la peau très sèches. Des jambes qui gonflent d'un coup, ou d'un seul côté, doivent être vues par un médecin.",
+   "portions": 2,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "fuling",
+     "q": 30,
+     "u": "g",
+     "nom": "poria (Fu Ling) en poudre",
+     "cle": "fu-ling",
+     "note": "En épicerie asiatique ou en herboristerie chinoise, en poudre ou en cubes blancs. Les cubes sont très durs : réduis-les en poudre au moulin à épices."
+    },
+    {
+     "id": "riz",
+     "q": 60,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 900,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "dattes rouges (jujubes), fendues",
+     "cle": "dattes"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Lancer le riz",
+       "texte": "Rince le riz ({riz}) et porte-le à ébullition dans l'eau ({eau})."
+      },
+      {
+       "titre": "Ajouter les dattes",
+       "texte": "Ajoute les dattes ({dattes}) et laisse frémir à couvercle entrouvert, en remuant de temps en temps.",
+       "s": 1800
+      },
+      {
+       "titre": "Délayer le poria",
+       "texte": "Délaie la poudre de poria ({fuling}) dans un demi-verre d'eau froide, jusqu'à ce qu'il n'y ait plus de grumeaux."
+      },
+      {
+       "titre": "Finir la cuisson",
+       "texte": "Verse-la dans le congee presque cuit en remuant, puis laisse cuire encore à feu doux.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Retire les noyaux des dattes et mange chaud."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Mets le riz rincé ({riz}), les dattes ({dattes}) et l'eau ({eau}) dans la cuve."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Ajouter le poria",
+       "texte": "Délaie la poudre de poria ({fuling}) dans un peu d'eau froide, verse-la dans la cuve en remuant et laisse en maintien au chaud.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Retire les noyaux des dattes et mange chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le poria n'a presque pas de goût : il se glisse facilement dans un congee, une soupe ou une pâte à crêpes.",
+    "Le congee se garde 2 jours au frais ; réchauffe-le avec un peu d'eau."
+   ],
+   "tags": [
+    "congee",
+    "rétention d'eau",
+    "jambes gonflées",
+    "Rate",
+    "Humidité"
+   ]
+  },
+  {
+   "id": "congee-rose",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 108,
+   "genre": "zhou",
+   "axe": "circuler",
+   "titre": "Congee aux pétales de rose",
+   "zh": "玫瑰花粥",
+   "py": "méiguihuā zhōu",
+   "contexte": "La rose détend le Foie et harmonise l'Estomac : elle aide le Qi à circuler quand les émotions bloquent tout. Pour l'irritabilité, le syndrome prémenstruel et les règles irrégulières ; en cas d'hépatite, en accompagnement du suivi médical.",
+   "principe": {
+    "zh": "疏肝和胃",
+    "py": "Shū gān hé wèi",
+    "fr": "Détendre le Foie, harmoniser l'Estomac"
+   },
+   "precautions": "La rose fait circuler le Qi et le Sang : évite-la pendant la grossesse et pendant des règles abondantes. Si tu prends un anticoagulant, demande l'avis de ton médecin. N'utilise jamais de roses de fleuriste : elles sont traitées.",
+   "portions": 2,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 80,
+     "u": "g",
+     "nom": "riz rond",
+     "cle": "riz"
+    },
+    {
+     "id": "eau",
+     "q": 1000,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "rose",
+     "q": 10,
+     "u": "g",
+     "nom": "boutons ou pétales de rose séchés, alimentaires (Mei Gui Hua)",
+     "cle": "rose",
+     "note": "En épicerie asiatique, en herboristerie ou au rayon tisanes bio. En saison, trois poignées de pétales frais d'un jardin sans traitement conviennent aussi."
+    },
+    {
+     "id": "sucre",
+     "q": 10,
+     "u": "g",
+     "nom": "sucre candi (facultatif)",
+     "cle": "sucre-candi"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Rince le riz ({riz}), porte-le à ébullition dans l'eau ({eau}), puis laisse frémir à couvercle entrouvert en remuant de temps en temps.",
+       "s": 2100
+      },
+      {
+       "titre": "Préparer la rose",
+       "texte": "Pendant ce temps, détache les pétales des boutons de rose ({rose}) ; tu peux aussi garder les boutons entiers."
+      },
+      {
+       "titre": "Ajouter la rose",
+       "texte": "Quand le riz est bien fondu, ajoute la rose et le sucre candi ({sucre}). Laisse frémir quelques minutes, pas plus, pour garder le parfum.",
+       "s": 180
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le tiède, le matin ou le soir."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Cuire le riz",
+       "texte": "Mets le riz rincé ({riz}) et l'eau ({eau}) dans la cuve et lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Ajouter la rose",
+       "texte": "Ajoute les pétales ou les boutons de rose ({rose}) et le sucre candi ({sucre}), mélange et laisse en maintien au chaud, couvercle fermé.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le tiède, le matin ou le soir."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le sucre candi est facultatif : la rose a déjà un goût doux et parfumé.",
+    "Garde les boutons séchés dans un bocal fermé, à l'abri de la lumière."
+   ],
+   "tags": [
+    "congee",
+    "stress",
+    "règles",
+    "syndrome prémenstruel",
+    "Foie"
+   ]
+  },
+  {
+   "id": "bouillie-igname-farine",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 109,
+   "genre": "zhou",
+   "axe": "qi",
+   "titre": "Bouillie d'igname de Chine à la farine, à l'oignon et au gingembre",
+   "zh": "山药粥",
+   "py": "shānyào zhōu",
+   "contexte": "Une bouillie épaisse et réconfortante : l'igname de Chine et le blé renforcent la Rate et le Qi, l'oignon et le gingembre réchauffent. Pour la fatigue ; traditionnellement aussi pour les hommes dont la vigueur sexuelle baisse ou qui ont des pertes séminales.",
+   "principe": {
+    "zh": "健脾益气",
+    "py": "Jiàn pí yì qì",
+    "fr": "Renforcer la Rate, tonifier le Qi"
+   },
+   "precautions": "Le gingembre en poudre réchauffe : réduis-le si tu as souvent chaud, la bouche sèche ou des aphtes. Contient du gluten (farine de blé). Diabète : supprime le sucre.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "igname",
+     "q": 100,
+     "u": "g",
+     "nom": "igname de Chine fraîche",
+     "cle": "shan-yao",
+     "note": "Pèle-la avec des gants : sa sève gratte. Elle se trouve en épicerie asiatique (longue racine beige et poilue)."
+    },
+    {
+     "id": "farine",
+     "q": 100,
+     "u": "g",
+     "nom": "farine de blé",
+     "cle": "ble"
+    },
+    {
+     "id": "eau",
+     "q": 900,
+     "u": "ml",
+     "nom": "eau froide",
+     "base": true
+    },
+    {
+     "id": "oignon",
+     "q": 1,
+     "nom": "petit oignon, haché fin",
+     "cle": "oignon"
+    },
+    {
+     "id": "gingembre",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "gingembre en poudre",
+     "cle": "gingembre-sec"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "sucre de canne complet",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Préparer l'igname",
+       "texte": "Lave et pèle l'igname ({igname}), coupe-la en tronçons, puis écrase-les au plat du couteau en petits morceaux."
+      },
+      {
+       "titre": "Délayer la farine",
+       "texte": "Dans une casserole hors du feu, fouette la farine ({farine}) en versant l'eau froide ({eau}) petit à petit, jusqu'à ce qu'il n'y ait plus de grumeaux. Ajoute l'igname."
+      },
+      {
+       "titre": "Cuire la bouillie",
+       "texte": "Porte à ébullition sur feu moyen en remuant sans arrêt, puis baisse le feu et laisse épaissir doucement, en remuant souvent pour que ça n'attache pas.",
+       "s": 1200
+      },
+      {
+       "titre": "Ajouter les aromates",
+       "texte": "Ajoute l'oignon ({oignon}), le gingembre en poudre ({gingembre}) et le sucre complet ({sucre}). Laisse cuire encore jusqu'à ce que l'oignon soit tendre.",
+       "s": 480
+      },
+      {
+       "titre": "Servir",
+       "texte": "Allonge d'un peu d'eau chaude si c'est trop épais et mange chaud. Tu peux en manger souvent."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Préparer l'igname",
+       "texte": "Lave et pèle l'igname ({igname}), coupe-la en tronçons, puis écrase-les au plat du couteau en petits morceaux."
+      },
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Dans un saladier, fouette la farine ({farine}) en versant l'eau froide ({eau}) petit à petit, jusqu'à ce qu'il n'y ait plus de grumeaux. Verse dans la cuve et ajoute l'igname."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge ou Soupe ; remue une ou deux fois pendant la cuisson si ton appareil le permet.",
+       "s": 2400
+      },
+      {
+       "titre": "Ajouter les aromates",
+       "texte": "Ajoute l'oignon ({oignon}), le gingembre ({gingembre}) et le sucre complet ({sucre}), mélange et poursuis la cuisson.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Allonge d'un peu d'eau chaude si besoin et mange chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Sans gluten : remplace la farine de blé par la même quantité de farine de riz.",
+    "Si l'oignon te pèse, fais-le d'abord fondre 5 minutes dans une cuillerée d'huile avant de l'ajouter."
+   ],
+   "tags": [
+    "bouillie",
+    "fatigue",
+    "Rate",
+    "igname de Chine",
+    "Qi"
+   ]
+  },
+  {
+   "id": "congee-riz-gluant-dattes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 110,
+   "genre": "zhou",
+   "axe": "qi",
+   "titre": "Congee de riz gluant aux dattes et au sucre complet",
+   "zh": "红枣糯米粥",
+   "py": "hóngzǎo nuòmǐ zhōu",
+   "contexte": "Le riz gluant réchauffe le Centre (la Rate et l'Estomac) et tonifie le Qi, les dattes rouges nourrissent le Qi et le Sang, le sucre complet réchauffe. Un bol réconfortant pour les jours froids, quand on est fatigué, frileux, ou qu'on a mal au ventre et que la chaleur soulage.",
+   "principe": {
+    "zh": "温中益气",
+    "py": "Wēn zhōng yì qì",
+    "fr": "Réchauffer le Centre, tonifier le Qi"
+   },
+   "precautions": "Le riz gluant est collant et nourrissant : pas en cas de digestion bloquée, de ventre gonflé, de glaires ou de fièvre. Pour les enfants et les personnes âgées, donne-en de petites portions bien chaudes. Diabète : évite-le (riz gluant et sucre font vite monter la glycémie).",
+   "portions": 3,
+   "duree": "1 h (+ trempage 1 h)",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 100,
+     "u": "g",
+     "nom": "riz gluant",
+     "cle": "riz-gluant",
+     "note": "En épicerie asiatique (grains blancs et opaques), parfois sous le nom de riz glutineux ou sticky rice."
+    },
+    {
+     "id": "eau",
+     "q": 1300,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "dattes",
+     "q": 9,
+     "nom": "dattes rouges (jujubes), fendues",
+     "cle": "dattes"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "fines tranches de gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "sucre",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "sucre de canne complet",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Faire tremper",
+       "texte": "Rince le riz gluant ({riz}) plusieurs fois, puis laisse-le tremper dans un grand bol d'eau froide.",
+       "s": 3600
+      },
+      {
+       "titre": "Lancer la cuisson",
+       "texte": "Égoutte le riz et mets-le dans une casserole à fond épais avec l'eau ({eau}), les dattes ({dattes}) et le gingembre ({gingembre}). Porte à ébullition."
+      },
+      {
+       "titre": "Cuire doucement",
+       "texte": "Laisse frémir à feu doux, couvercle entrouvert. Remue souvent en raclant le fond : le riz gluant attache vite.",
+       "s": 2700
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Retire le gingembre, ajoute le sucre complet ({sucre}) et mélange jusqu'à ce qu'il fonde."
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange-le chaud, plutôt le matin ou au goûter."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Faire tremper",
+       "texte": "Rince le riz gluant ({riz}) plusieurs fois, puis laisse-le tremper dans un grand bol d'eau froide.",
+       "s": 3600
+      },
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Égoutte le riz et mets-le dans la cuve avec l'eau ({eau}), les dattes ({dattes}) et le gingembre ({gingembre})."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge ou Congee.",
+       "s": 3600
+      },
+      {
+       "titre": "Sucrer et servir",
+       "texte": "Retire le gingembre, ajoute le sucre complet ({sucre}), mélange et mange chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Pour un congee plus léger, remplace la moitié du riz gluant par du riz rond.",
+    "Il épaissit beaucoup en refroidissant : réchauffe-le avec un peu d'eau chaude."
+   ],
+   "tags": [
+    "congee",
+    "froid",
+    "fatigue",
+    "Rate",
+    "hiver"
+   ]
+  },
+  {
+   "id": "congee-avoine-pomme",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 111,
+   "genre": "zhou",
+   "axe": "rate",
+   "titre": "Congee d'avoine à la pomme et à la cannelle",
+   "zh": "苹果肉桂燕麦粥",
+   "py": "píngguǒ ròuguì yànmài zhōu",
+   "contexte": "Un petit-déjeuner chaud et doux pour la Rate : l'avoine nourrit sans alourdir, la pomme cuite passe bien et la cannelle réchauffe l'Estomac. Idéal si tu manques d'appétit le matin, digères lentement ou as souvent froid.",
+   "principe": {
+    "zh": "健脾暖胃",
+    "py": "Jiàn pí nuǎn wèi",
+    "fr": "Renforcer la Rate, réchauffer l'Estomac"
+   },
+   "precautions": "La cannelle réchauffe : réduis-la si tu as souvent chaud, la bouche sèche ou des aphtes. Intolérance au gluten : choisis une avoine certifiée sans gluten.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "avoine",
+     "q": 80,
+     "u": "g",
+     "nom": "flocons d'avoine",
+     "cle": "avoine"
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "pomme",
+     "q": 1,
+     "nom": "pomme, en petits dés (avec la peau si elle est bio)",
+     "cle": "pomme"
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "dattes rouges (jujubes), dénoyautées et coupées en morceaux",
+     "cle": "dattes"
+    },
+    {
+     "id": "cannelle",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "cannelle en poudre",
+     "cle": "cannelle"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Chauffer les fruits",
+       "texte": "Mets l'eau ({eau}), la pomme ({pomme}), les dattes ({dattes}) et la cannelle ({cannelle}) dans une casserole et porte à ébullition."
+      },
+      {
+       "titre": "Ajouter l'avoine",
+       "texte": "Verse les flocons d'avoine ({avoine}) et le sel ({sel}), baisse le feu et laisse cuire doucement en remuant souvent, jusqu'à ce que ce soit crémeux.",
+       "s": 600
+      },
+      {
+       "titre": "Laisser reposer",
+       "texte": "Couvre hors du feu : l'avoine finit de gonfler.",
+       "s": 180
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange chaud, allongé d'un peu d'eau chaude si tu l'aimes plus fluide."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Mets les flocons d'avoine ({avoine}), la pomme ({pomme}), les dattes ({dattes}), la cannelle ({cannelle}), le sel ({sel}) et l'eau ({eau}) dans la cuve, puis mélange."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge.",
+       "s": 3600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mélange, allonge d'un peu d'eau chaude si besoin et mange chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Au cuiseur, programme un départ différé le soir : le petit-déjeuner est prêt au réveil.",
+    "Les gros flocons d'avoine tiennent mieux à la cuisson que les flocons instantanés."
+   ],
+   "tags": [
+    "congee",
+    "petit-déjeuner",
+    "avoine",
+    "Rate",
+    "digestion"
+   ]
+  },
+  {
+   "id": "congee-mais-millet",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 112,
+   "genre": "zhou",
+   "axe": "humidite",
+   "titre": "Congee de maïs et de millet",
+   "zh": "玉米小米粥",
+   "py": "yùmǐ xiǎomǐ zhōu",
+   "contexte": "Le maïs et le millet harmonisent l'Estomac et aident à évacuer l'Humidité en douceur, en favorisant les urines. Un congee léger pour les périodes où l'on se sent lourd et un peu gonflé, avec une digestion paresseuse ou la bouche pâteuse.",
+   "principe": {
+    "zh": "和胃利湿",
+    "py": "Hé wèi lì shī",
+    "fr": "Harmoniser l'Estomac, drainer l'Humidité"
+   },
+   "precautions": "Le millet est un peu frais : si tu as souvent froid au ventre ou les selles très molles, ajoute 2 tranches de gingembre frais à la cuisson.",
+   "portions": 3,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "millet",
+     "q": 80,
+     "u": "g",
+     "nom": "millet décortiqué",
+     "cle": "millet"
+    },
+    {
+     "id": "mais",
+     "q": 50,
+     "u": "g",
+     "nom": "semoule de maïs (polenta)",
+     "cle": "mais",
+     "note": "Ou 100 g de grains de maïs frais ou surgelés, ajoutés en même temps que le millet."
+    },
+    {
+     "id": "eau",
+     "q": 1400,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Cuire le millet",
+       "texte": "Rince le millet ({millet}) jusqu'à ce que l'eau soit claire. Porte l'eau ({eau}) à ébullition, verse le millet et laisse frémir.",
+       "s": 900
+      },
+      {
+       "titre": "Ajouter le maïs",
+       "texte": "Verse la semoule de maïs ({mais}) en pluie, en fouettant pour éviter les grumeaux."
+      },
+      {
+       "titre": "Cuire doucement",
+       "texte": "Laisse frémir à feu doux, couvercle entrouvert, en remuant souvent : le mélange épaissit et attache facilement.",
+       "s": 1200
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sale légèrement ({sel}), allonge d'eau chaude si c'est trop épais et mange chaud."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Mets le millet rincé ({millet}), la semoule de maïs ({mais}) et l'eau froide ({eau}) dans la cuve, et mélange bien au fouet."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Lance le programme Porridge ou Congee ; remue une fois à mi-cuisson si ton appareil le permet.",
+       "s": 3600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sale légèrement ({sel}), mélange et mange chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Si tu trouves du maïs frais en épi, fais d'abord frémir ses barbes (les fils soyeux) 15 minutes dans l'eau, retire-les, puis cuis le millet dans cette eau : elles renforcent l'effet drainant.",
+    "Le congee épaissit en refroidissant ; il se garde 2 jours au frais."
+   ],
+   "tags": [
+    "congee",
+    "Humidité",
+    "digestion",
+    "millet",
+    "maïs"
+   ]
+  }
+ ]
+}

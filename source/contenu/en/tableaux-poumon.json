@@ -99,7 +99,9 @@
     "soupe-poulet-huang-qi",
     "congee-shan-yao",
     "congee-millet-patate-douce",
-    "congee-poulet"
+    "congee-poulet",
+    "bouillie-millet-astragale",
+    "congee-pomme-raisin"
    ],
    "privilegier": "Warm, cooked dishes, grains, Chinese yam, chicken, mushrooms, a little ginger and onion.",
    "eviter": "Cold and raw food, too much dairy, tobacco, staying hunched over for long periods.",
@@ -326,7 +328,10 @@
     "poire-vapeur-amandes",
     "soupe-tremelle",
     "congee-shan-yao",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "jus-poire-radis",
+    "amandons-noix-miel",
+    "cacahuetes-sucre-candi"
    ],
    "privilegier": "Pear, snow fungus (tremella), almonds, honey, sesame, tofu, Chinese yam, soups and stewed fruit.",
    "eviter": "Strong spices, grilled food, alcohol, tobacco, coffee, overly dry air.",
@@ -502,7 +507,9 @@
    ],
    "recettes": [
     "infusion-cong-bai",
-    "congee-cebette"
+    "congee-cebette",
+    "congee-pomme-raisin",
+    "soupe-cebette-dou-chi"
    ],
    "privilegier": "Hot drinks, ginger, spring onion, broths; bundle up so you sweat a little.",
    "eviter": "Cold and raw food, cold showers, going out without a scarf.",
@@ -595,7 +602,10 @@
    ],
    "recettes": [
     "infusion-menthe-chrysantheme",
-    "poire-vapeur-amandes"
+    "poire-vapeur-amandes",
+    "congee-menthe",
+    "infusion-chrysantheme-amandons-murier",
+    "salade-radis-blanc"
    ],
    "privilegier": "Lukewarm drinks, pear, mint, chrysanthemum, light broths.",
    "eviter": "Spices, fried food, alcohol, sugar.",
@@ -703,7 +713,9 @@
    "recettes": [
     "soupe-radis-gingembre",
     "infusion-chen-pi",
-    "congee-orge-azuki"
+    "congee-orge-azuki",
+    "soupe-nori-tofu",
+    "gateau-radis-vapeur"
    ],
    "privilegier": "White radish (daikon), mandarin peel, ginger, pearl barley, cooked grains.",
    "eviter": "Dairy, sugar, fried food, bananas, cold drinks.",
@@ -794,7 +806,13 @@
    ],
    "recettes": [
     "poire-vapeur-amandes",
-    "soupe-radis-gingembre"
+    "soupe-radis-gingembre",
+    "soupe-nori-tofu",
+    "infusion-chrysantheme-amandons-murier",
+    "jus-poire-radis",
+    "salade-radis-blanc",
+    "salade-bambou-algues",
+    "salade-wakame-sesame"
    ],
    "privilegier": "Pear, white radish, watercress, mushrooms, light broths.",
    "eviter": "Tobacco, fried food, spices, dairy, sugar, alcohol.",

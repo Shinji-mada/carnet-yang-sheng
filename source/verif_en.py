@@ -10,7 +10,7 @@ SRC = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, SRC)
 PROTEGE = {"id", "cat", "cle", "k", "zh", "py", "ab", "p", "m", "u", "axe", "date", "organe", "groupes", "recettes", "fiches",
            "autres", "contre", "tab", "liste", "type", "vue", "svg", "vb", "x", "y", "rep", "regle", "lab", "voisins", "canal",
-           "defaut", "regles", "s", "b", "q", "base", "ordre", "portions", "a", "tx", "ty", "sym", "symptomes", "version", "unite"}
+           "defaut", "regles", "s", "b", "q", "base", "ordre", "portions", "a", "tx", "ty", "sym", "symptomes", "version", "unite", "nature", "saveurs", "tropisme", "genre"}
 FR_WORDS = re.compile(r"\b(les|des|du|une|est|pour|avec|dans|sur|pas|qui|aux|tu|ton|ta|tes|très|être|fait|jusqu|puis)\b", re.I)
 FR_CODE = re.compile(r"\b(Rt|Rn|VB|VG|RM|MC|TR|IG|GI|E|F|P|C|V) \d{1,2}\b")
 REF = re.compile(r"\{([A-Za-z0-9_-]+)\}")

@@ -74,7 +74,8 @@
    "recettes": [
     "congee-lotus-jujube",
     "soupe-poulet-huang-qi",
-    "congee-poulet"
+    "congee-poulet",
+    "brochettes-coeur-agneau-rose"
    ],
    "privilegier": "Grains, jujubes, longans, lotus seeds, chicken, regular meals.",
    "eviter": "Overwork, too much coffee, strenuous exertion.",
@@ -169,7 +170,11 @@
     "congee-lotus-jujube",
     "infusion-longane-jujube",
     "congee-goji-sesame",
-    "foies-volaille-epinards"
+    "foies-volaille-epinards",
+    "soupe-ble-reglisse-jujubes",
+    "oeuf-vapeur-longane",
+    "brochettes-coeur-agneau-rose",
+    "compotee-cerises-longanes"
    ],
    "privilegier": "Jujubes, longans, goji berries, eggs, spinach, grains, lotus seeds.",
    "eviter": "Screens in the evening, eating dinner too late, coffee in the afternoon.",
@@ -263,7 +268,9 @@
     "soupe-tremelle",
     "congee-lotus-jujube",
     "soupe-huitres-tofu",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "soupe-ble-reglisse-jujubes",
+    "soupe-bai-he-zao-ren"
    ],
    "privilegier": "Snow fungus (white wood ear), lotus seeds, pear, tofu, eggs, sesame, millet.",
    "eviter": "Coffee, alcohol, spices, intense exercise in the evening, late-night screens.",
@@ -358,7 +365,8 @@
    "recettes": [
     "soupe-mungo",
     "congee-lotus-jujube",
-    "infusion-chrysantheme-goji"
+    "infusion-chrysantheme-goji",
+    "jus-pasteque-menthe"
    ],
    "privilegier": "Mung beans, lotus seeds with their green germ, green vegetables, cooked cucumber.",
    "eviter": "Coffee, alcohol, spices, screens in the evening, overwork.",
@@ -453,7 +461,10 @@
     "congee-lotus-jujube",
     "infusion-longane-jujube",
     "congee-millet-patate-douce",
-    "congee-qian-shi"
+    "congee-qian-shi",
+    "soupe-ble-reglisse-jujubes",
+    "oeuf-vapeur-longane",
+    "compotee-cerises-longanes"
    ],
    "privilegier": "Lotus seeds, longans, jujubes, millet, rice, sweet potato, chicken.",
    "eviter": "Eating while working, skipping meals, too much sugar.",
@@ -560,7 +571,10 @@
     "congee-haricots-noirs",
     "soupe-huitres-tofu",
     "congee-qian-shi",
-    "huitres-gingembre"
+    "huitres-gingembre",
+    "soupe-ble-reglisse-jujubes",
+    "soupe-bai-he-zao-ren",
+    "oeufs-jujubes-goji"
    ],
    "privilegier": "Lotus seeds, black beans, black sesame, snow fungus (tremella), millet.",
    "eviter": "Coffee, alcohol, spices, screens and intense exercise in the evening.",

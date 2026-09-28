@@ -1,0 +1,2041 @@
+{
+ "fiches": [
+  {
+   "id": "boeuf-radis-blanc",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 300,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Beef stir-fry with daikon",
+   "zh": "萝卜炒牛肉丝",
+   "py": "luóbo chǎo niúròu sī",
+   "contexte": "Daikon helps the Spleen clear out excess water and Phlegm, and beef strengthens it. A light, complete dish when you tend to feel puffy, retain water or put on weight.",
+   "principe": {
+    "zh": "健脾利水化痰",
+    "py": "Jiàn pí lì shuǐ huà tán",
+    "fr": "Strengthen the Spleen, drain Water, transform Phlegm"
+   },
+   "precautions": "Daikon makes Qi descend: avoid eating it on the same day as a ginseng-based tonic.",
+   "portions": 3,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "boeuf",
+     "q": 250,
+     "u": "g",
+     "nom": "lean beef (rump, flank or sirloin)",
+     "cle": "boeuf",
+     "note": "Put it in the freezer for 15 minutes: it slices much more thinly."
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tsp",
+     "nom": "cornstarch or potato starch"
+    },
+    {
+     "id": "sel",
+     "q": 2,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "radis",
+     "q": 500,
+     "u": "g",
+     "nom": "daikon (white radish)",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 3,
+     "u": "tbsp",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "coriandre",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "fresh cilantro, chopped",
+     "cle": "coriandre"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Slice the beef",
+       "texte": "Cut the beef ({boeuf}) into thin strips, against the grain: it will stay tender."
+      },
+      {
+       "titre": "Marinate the beef",
+       "texte": "Mix it with the soy sauce ({soja}), starch ({fecule}) and a pinch of salt ({sel}). Let it rest while you prepare the daikon.",
+       "s": 900
+      },
+      {
+       "titre": "Cut the daikon",
+       "texte": "Peel the daikon ({radis}) and cut it into thin sticks, like very thin fries."
+      },
+      {
+       "titre": "Stir-fry the daikon",
+       "texte": "Heat half the oil ({huile}) in the wok over high heat. Stir-fry the daikon with a pinch of salt, stirring often, until it turns translucent and tender. Set it aside on a plate.",
+       "s": 360
+      },
+      {
+       "titre": "Sear the beef",
+       "texte": "Pour the rest of the oil into the hot wok and stir-fry the beef just until it is no longer red.",
+       "s": 150
+      },
+      {
+       "titre": "Braise",
+       "texte": "Return the daikon, stir, pour in the water ({eau}), cover and cook over medium heat.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Scatter the cilantro ({coriandre}) on top at the last moment and serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You'll find daikon in Asian grocery stores and often in the produce section of supermarkets. Choose one that feels heavy, firm and smooth."
+   ],
+   "tags": [
+    "beef",
+    "daikon",
+    "water retention",
+    "Spleen",
+    "stir-fry"
+   ]
+  },
+  {
+   "id": "brochettes-coeur-agneau-rose",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 301,
+   "genre": "plat",
+   "axe": "coeur",
+   "titre": "Grilled lamb heart skewers with rose",
+   "zh": "玫瑰花烤羊心",
+   "py": "méiguīhuā kǎo yángxīn",
+   "contexte": "Rose soothes the Liver and eases tension, and lamb heart nourishes the Heart. For restless nights full of dreams or nightmares, when you feel on edge during the day.",
+   "principe": {
+    "zh": "疏肝养心安神",
+    "py": "Shū gān yǎng xīn ān shén",
+    "fr": "Soothe the Liver, nourish the Heart, calm the spirit"
+   },
+   "precautions": "Avoid during pregnancy (rose moves the Blood). Heart is an organ meat: avoid it if you have gout. If your insomnia lasts more than a few weeks, talk to a doctor.",
+   "portions": 2,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "rose",
+     "q": 10,
+     "u": "g",
+     "nom": "food-grade dried rosebuds",
+     "cle": "rose",
+     "note": "From Asian grocery stores or herbalists. Never use florist roses: they are sprayed."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "coeur",
+     "q": 1,
+     "nom": "lamb's heart (200 to 250 g)",
+     "cle": "coeur-agneau",
+     "note": "Ask your butcher; halal butchers often have it without ordering ahead."
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "neutral oil",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "four",
+     "nom": "In the oven (broiler)",
+     "etapes": [
+      {
+       "titre": "Make the rose water",
+       "texte": "Put the rosebuds ({rose}) in a small saucepan with the water ({eau}) and salt ({sel}). Bring to a boil, then let it simmer gently.",
+       "s": 600
+      },
+      {
+       "titre": "Trim the heart",
+       "texte": "Meanwhile, cut the heart ({coeur}) open. Remove the fat, the white membranes and the small tubes, then rinse it in cold water. Cut it into 2 cm cubes."
+      },
+      {
+       "titre": "Marinate",
+       "texte": "Strain the rose water and let it cool until warm. Soak the cubes in it so they absorb the flavor. Keep the rose water for cooking.",
+       "s": 900
+      },
+      {
+       "titre": "Assemble the skewers",
+       "texte": "Thread the cubes onto skewers (wooden ones soaked in water for 10 minutes so they don't burn) and brush them with oil ({huile})."
+      },
+      {
+       "titre": "Broil",
+       "texte": "Turn on the broiler. Place the skewers on the rack, about 10 cm from the heating element. Halfway through, dip them in the rose water and turn them over. The heart should be browned outside and barely pink in the center, or it turns tough.",
+       "s": 480
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve right away with rice and a green vegetable, ideally at dinner."
+      }
+     ]
+    },
+    {
+     "id": "poele",
+     "nom": "In a grill pan or on a griddle",
+     "etapes": [
+      {
+       "titre": "Make the rose water",
+       "texte": "Put the rosebuds ({rose}) in a small saucepan with the water ({eau}) and salt ({sel}). Bring to a boil, then let it simmer gently.",
+       "s": 600
+      },
+      {
+       "titre": "Trim the heart",
+       "texte": "Meanwhile, cut the heart ({coeur}) open. Remove the fat, the white membranes and the small tubes, then rinse it in cold water. Cut it into 2 cm cubes."
+      },
+      {
+       "titre": "Marinate",
+       "texte": "Strain the rose water and let it cool until warm. Soak the cubes in it so they absorb the flavor. Keep the rose water for cooking.",
+       "s": 900
+      },
+      {
+       "titre": "Assemble the skewers",
+       "texte": "Thread the cubes onto skewers and brush them with oil ({huile})."
+      },
+      {
+       "titre": "Grill",
+       "texte": "Heat a grill pan or griddle over high heat. Grill the skewers, turning them often, and brush them with rose water two or three times as they cook.",
+       "s": 420
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve right away with rice and a green vegetable, ideally at dinner."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "With fresh unsprayed roses (from your garden, for example), use 30 g of petals for the same amount of water."
+   ],
+   "tags": [
+    "sleep",
+    "insomnia",
+    "rose",
+    "Heart",
+    "stress"
+   ]
+  },
+  {
+   "id": "canard-feuille-lotus",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 302,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Steamed duck in lotus leaf",
+   "zh": "荷叶鸭肉",
+   "py": "héyè yāròu",
+   "contexte": "Lotus leaf helps clear Dampness and fat, and duck strengthens without weighing you down. For excess weight and cellulite; if your cholesterol or triglycerides are high, this dish supports your medical care, it does not replace it.",
+   "principe": {
+    "zh": "益气化湿",
+    "py": "Yì qì huà shī",
+    "fr": "Strengthen Qi, transform Dampness"
+   },
+   "precautions": "Duck and lotus leaf are rather cooling: if you often have a cold belly and soft stools, don't leave out the ginger and pepper. Glutinous rice is a little heavy: eat slowly.",
+   "portions": 2,
+   "duree": "2 h (+ 2 h marinating)",
+   "ingredients": [
+    {
+     "id": "riz",
+     "q": 50,
+     "u": "g",
+     "nom": "glutinous rice",
+     "cle": "riz-gluant"
+    },
+    {
+     "id": "badiane",
+     "q": 2,
+     "nom": "star anise pods",
+     "cle": "anis-etoile"
+    },
+    {
+     "id": "canard",
+     "q": 400,
+     "u": "g",
+     "nom": "boneless duck legs, skin removed",
+     "cle": "canard",
+     "note": "Ask your butcher to bone them. Skinless duck breasts work too."
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "fresh ginger, minced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions, chopped",
+     "cle": "cebette"
+    },
+    {
+     "id": "poivre",
+     "q": 0.25,
+     "u": "tsp",
+     "nom": "ground pepper",
+     "cle": "poivre"
+    },
+    {
+     "id": "eau",
+     "q": 3,
+     "u": "tbsp",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "lotus",
+     "q": 1,
+     "nom": "large dried lotus leaf (he ye)",
+     "cle": "he-ye",
+     "note": "From Asian grocery stores or Chinese herbalists, sold as large folded discs."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Toast rice and anise",
+       "texte": "Break the star anise ({badiane}) into pieces. Toast it with the glutinous rice ({riz}) in a dry frying pan over medium heat, stirring constantly, until the rice turns golden and smells toasty.",
+       "s": 480
+      },
+      {
+       "titre": "Grind",
+       "texte": "Let it cool a little, then grind everything in a coffee grinder or blender into a fairly fine powder. A few bigger bits are normal."
+      },
+      {
+       "titre": "Marinate the duck",
+       "texte": "Cut the duck ({canard}) into 3 cm pieces. Mix it with the soy sauce ({soja}), ginger ({gingembre}), spring onion ({cebette}), pepper ({poivre}) and water ({eau}). Cover and refrigerate (1 hour minimum). Meanwhile, soak the lotus leaf ({lotus}) in a large basin of hot water.",
+       "s": 7200
+      },
+      {
+       "titre": "Coat",
+       "texte": "Lightly salt the duck ({sel}), add the rice powder and mix to coat each piece well."
+      },
+      {
+       "titre": "Wrap",
+       "texte": "Drain and wipe the lotus leaf, then cut it into 4. Divide the duck among the pieces, placing it in the center, and fold the edges over to make tightly closed parcels. Set them seam side down in a deep plate."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Put the plate in the steamer basket over boiling water, cover and steam over medium heat. Check the water level every 30 minutes and top up with boiling water.",
+       "s": 5400
+      },
+      {
+       "titre": "Serve",
+       "texte": "Open the parcels at the table and serve with rice or a green vegetable. The leaf flavors the meat but is not eaten."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Toast rice and anise",
+       "texte": "Break the star anise ({badiane}) into pieces. Toast it with the glutinous rice ({riz}) in a dry frying pan over medium heat, stirring constantly, until the rice turns golden and smells toasty.",
+       "s": 480
+      },
+      {
+       "titre": "Grind",
+       "texte": "Let it cool a little, then grind everything in a coffee grinder or blender into a fairly fine powder. A few bigger bits are normal."
+      },
+      {
+       "titre": "Marinate the duck",
+       "texte": "Cut the duck ({canard}) into 3 cm pieces. Mix it with the soy sauce ({soja}), ginger ({gingembre}), spring onion ({cebette}), pepper ({poivre}) and water ({eau}). Cover and refrigerate (1 hour minimum). Meanwhile, soak the lotus leaf ({lotus}) in a large basin of hot water.",
+       "s": 7200
+      },
+      {
+       "titre": "Coat",
+       "texte": "Lightly salt the duck ({sel}), add the rice powder and mix to coat each piece well."
+      },
+      {
+       "titre": "Wrap",
+       "texte": "Drain and wipe the lotus leaf, then cut it into 4. Divide the duck among the pieces, placing it in the center, and fold the edges over to make tightly closed parcels. Set them seam side down in a deep plate."
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Pour 500 ml of water into the pressure cooker and set the steamer basket with the plate of parcels on top. Close it and start timing once the valve starts hissing, over low heat.",
+       "s": 2400
+      },
+      {
+       "titre": "Release the pressure",
+       "texte": "Turn off the heat and let the pressure drop on its own before opening.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Open the parcels at the table and serve with rice or a green vegetable. The leaf flavors the meat but is not eaten."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Without a lotus leaf, wrap the duck in parchment paper: the dish is still good, but it loses the leaf's aroma and draining effect.",
+    "You can make one big parcel with the whole leaf: add 15 minutes of cooking time."
+   ],
+   "tags": [
+    "duck",
+    "lotus leaf",
+    "weight",
+    "cholesterol",
+    "steamed"
+   ]
+  },
+  {
+   "id": "carpe-vapeur-the-vert",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 303,
+   "genre": "plat",
+   "axe": "chaleur",
+   "titre": "Steamed carp with green tea",
+   "zh": "茶叶蒸鲤鱼",
+   "py": "cháyè zhēng lǐyú",
+   "contexte": "Green tea is cooling, and carp strengthens the body without heating it. Tradition makes this dish when thirst is intense and the mouth is dry. If you have diabetes, this dish supports your medical care: it replaces neither your treatment nor your blood sugar checks.",
+   "principe": {
+    "zh": "清热补虚止渴",
+    "py": "Qīng rè bǔ xū zhǐ kě",
+    "fr": "Clear Heat, tonify Deficiency, relieve thirst"
+   },
+   "precautions": "Green tea is cooling: go easy on this dish if you have a cold belly and soft stools. Carp has many small bones: be careful with children.",
+   "portions": 2,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "carpe",
+     "q": 1,
+     "nom": "whole carp (600 to 800 g), gutted and scaled",
+     "cle": "carpe",
+     "note": "From the fishmonger; very common in eastern France. Otherwise: a sea bass or sea bream."
+    },
+    {
+     "id": "the",
+     "q": 10,
+     "u": "g",
+     "nom": "loose-leaf green tea (about 2 tablespoons)",
+     "cle": "the"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Clean the carp",
+       "texte": "Rinse the carp ({carpe}) in cold water, inside and out. Remove the thin black lining inside the belly: that's what gives the muddy taste. Pat it dry and make 2 or 3 slashes on each side."
+      },
+      {
+       "titre": "Open the tea",
+       "texte": "Sprinkle the green tea ({the}) with 2 tablespoons of hot water so the leaves unfurl.",
+       "s": 120
+      },
+      {
+       "titre": "Stuff",
+       "texte": "Tuck the tea leaves into the belly and the slashes. Lay the carp in a deep plate that fits in your steamer basket (remove the head if needed)."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Once the water is at a rolling boil, put the plate in the basket, cover and steam over high heat. The flesh should come away easily from the backbone.",
+       "s": 900
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the tea leaves and eat the flesh plain, with no sauce or spices, with rice. Watch out for bones."
+      }
+     ]
+    },
+    {
+     "id": "four",
+     "nom": "In the oven (in parchment)",
+     "etapes": [
+      {
+       "titre": "Clean the carp",
+       "texte": "Rinse the carp ({carpe}) in cold water, inside and out. Remove the thin black lining inside the belly: that's what gives the muddy taste. Pat it dry and make 2 or 3 slashes on each side."
+      },
+      {
+       "titre": "Open the tea",
+       "texte": "Sprinkle the green tea ({the}) with 2 tablespoons of hot water so the leaves unfurl. Preheat the oven to 180 °C (350 °F).",
+       "s": 120
+      },
+      {
+       "titre": "Seal the parcel",
+       "texte": "Lay the carp on a large sheet of parchment paper. Tuck the tea leaves into the belly and the slashes, then fold into a tightly sealed parcel."
+      },
+      {
+       "titre": "Bake",
+       "texte": "Bake on the middle rack. The flesh should come away easily from the backbone.",
+       "s": 1500
+      },
+      {
+       "titre": "Serve",
+       "texte": "Remove the tea leaves and eat the flesh plain, with no sauce or spices, with rice. Watch out for bones."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Plain, the flavor is very mild. A dash of soy sauce at the table is fine, but tradition eats it unseasoned."
+   ],
+   "tags": [
+    "carp",
+    "green tea",
+    "diabetes",
+    "thirst",
+    "steamed"
+   ]
+  },
+  {
+   "id": "courge-cireuse-shiitakes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 304,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Stir-fried winter melon with shiitake",
+   "zh": "冬瓜炒香菇",
+   "py": "dōngguā chǎo xiānggū",
+   "contexte": "Winter melon is cooling and helps clear excess water, and shiitake mushrooms support the Spleen. A light side dish when you feel puffy, retain water or want to lose weight.",
+   "principe": {
+    "zh": "清热健脾",
+    "py": "Qīng rè jiàn pí",
+    "fr": "Clear Heat, strengthen the Spleen"
+   },
+   "precautions": "A cooling dish: if you have a cold belly and soft stools, keep the ginger and eat it piping hot.",
+   "portions": 2,
+   "duree": "25 min (+ 30 min soaking)",
+   "ingredients": [
+    {
+     "id": "shiitake",
+     "q": 6,
+     "nom": "dried shiitake mushrooms",
+     "cle": "shiitake"
+    },
+    {
+     "id": "eau",
+     "q": 200,
+     "u": "ml",
+     "nom": "lukewarm water",
+     "base": true
+    },
+    {
+     "id": "courge",
+     "q": 400,
+     "u": "g",
+     "nom": "winter melon (dong gua), peeled and seeded",
+     "cle": "courge-cireuse",
+     "note": "From Asian grocery stores, often sold by the slice. Otherwise: zucchini (shorter cooking time)."
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "thin slices of fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 2,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Soak the shiitake",
+       "texte": "Soak the shiitake ({shiitake}) in the lukewarm water ({eau}) until soft.",
+       "s": 1800
+      },
+      {
+       "titre": "Cut the vegetables",
+       "texte": "Cut the winter melon ({courge}) into 1.5 cm cubes. Drain the shiitake, keeping the soaking water, remove the tough stems and slice the caps."
+      },
+      {
+       "titre": "Stir-fry",
+       "texte": "Heat the oil ({huile}) in the wok, let the ginger ({gingembre}) sizzle for a few seconds, then add the melon and mushrooms. Stir-fry over high heat.",
+       "s": 120
+      },
+      {
+       "titre": "Braise",
+       "texte": "Pour in the soaking water, leaving the grit at the bottom of the bowl. Cover and cook over medium heat until the melon turns translucent.",
+       "s": 480
+      },
+      {
+       "titre": "Season",
+       "texte": "Add salt ({sel}) and the soy sauce ({soja}), and let the liquid reduce uncovered, stirring. Serve with rice.",
+       "s": 60
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "With fresh shiitake: 150 g, sliced, no soaking, and 100 ml of water instead of the soaking water."
+   ],
+   "tags": [
+    "winter melon",
+    "shiitake",
+    "water retention",
+    "Spleen",
+    "summer"
+   ]
+  },
+  {
+   "id": "courge-cireuse-vapeur",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 305,
+   "genre": "plat",
+   "axe": "humidite",
+   "titre": "Steamed winter melon",
+   "zh": "蒸冬瓜",
+   "py": "zhēng dōngguā",
+   "contexte": "Winter melon strengthens the Spleen and moves Water: a gentle remedy when your legs, ankles or face swell and you retain water. Eaten without salt, it drains better.",
+   "principe": {
+    "zh": "健脾利水消肿",
+    "py": "Jiàn pí lì shuǐ xiāo zhǒng",
+    "fr": "Strengthen the Spleen, drain Water, reduce swelling"
+   },
+   "precautions": "Swelling (edema) should be checked by a doctor: it can come from the heart, the kidneys or the circulation. This dish supports your medical care, it does not replace it. A cooling dish: go easy on it if you have a cold belly and soft stools.",
+   "portions": 2,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "courge",
+     "q": 400,
+     "u": "g",
+     "nom": "winter melon (dong gua), with its skin and seeds",
+     "cle": "courge-cireuse",
+     "note": "From Asian grocery stores, often sold by the slice."
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "thin slices of fresh ginger",
+     "cle": "gingembre"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Cut the melon",
+       "texte": "Scrub the skin of the melon ({courge}) well under running water. Without peeling it, cut it into 3 to 4 cm chunks. Keep the seeds: together with the skin, they are the most draining parts."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Put the chunks in a bowl with the ginger ({gingembre}) and set it in the steamer basket over boiling water. Cover. The flesh should be translucent and tender when pierced with a knife.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it hot, without salt, with rice, and drink the juice left in the bowl. Leave the skin, too tough to eat, on the side of your plate: it has already passed its benefits into the juice."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker (steamer basket)",
+     "etapes": [
+      {
+       "titre": "Cut the melon",
+       "texte": "Scrub the skin of the melon ({courge}) well under running water. Without peeling it, cut it into 3 to 4 cm chunks. Keep the seeds: together with the skin, they are the most draining parts."
+      },
+      {
+       "titre": "Cook with the rice",
+       "texte": "Start your rice as usual. For the last 20 minutes, set the steamer basket on top with the melon and ginger ({gingembre}) in a bowl, then close the lid.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat it hot, without salt, with the rice, and drink the juice left in the bowl. Leave the skin, too tough to eat, on the side of your plate: it has already passed its benefits into the juice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tradition recommends it at every meal for a few days, always with rice and without salt.",
+    "If it tastes too bland, add a few drops of rice vinegar rather than salt."
+   ],
+   "tags": [
+    "winter melon",
+    "edema",
+    "water retention",
+    "heavy legs",
+    "steamed"
+   ]
+  },
+  {
+   "id": "galettes-radis-mandarine",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 306,
+   "genre": "plat",
+   "axe": "rate",
+   "titre": "Stuffed flatbreads with daikon and tangerine peel",
+   "zh": "萝卜饼",
+   "py": "luóbo bǐng",
+   "contexte": "Daikon and tangerine peel move the Qi and help the Stomach digest. For slow digestion and a stomach that feels heavy, full or sore after meals.",
+   "principe": {
+    "zh": "理气健胃消食",
+    "py": "Lǐ qì jiàn wèi xiāo shí",
+    "fr": "Regulate Qi, strengthen the Stomach, aid digestion"
+   },
+   "precautions": "Tangerine peel is slightly drying: go easy on it if you have a dry mouth or a dry cough. Frequent or severe stomach pain should be checked by a doctor.",
+   "portions": 3,
+   "duree": "1 h 15",
+   "ingredients": [
+    {
+     "id": "mandarine",
+     "q": 10,
+     "u": "g",
+     "nom": "dried tangerine peel (chen pi)",
+     "cle": "mandarine",
+     "note": "From Asian grocery stores or Chinese herbalists."
+    },
+    {
+     "id": "eau",
+     "q": 250,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "farine",
+     "q": 250,
+     "u": "g",
+     "nom": "all-purpose wheat flour",
+     "cle": "ble"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "radis",
+     "q": 250,
+     "u": "g",
+     "nom": "daikon (white radish), peeled",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "huile",
+     "q": 3,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "poulet",
+     "q": 150,
+     "u": "g",
+     "nom": "ground chicken (or chicken breast finely chopped with a knife)",
+     "cle": "poulet",
+     "note": "Meat-free version: 150 g of crumbled firm tofu or chopped shiitake mushrooms."
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "fresh ginger, minced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions, thinly sliced",
+     "cle": "cebette"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "four",
+     "nom": "In the oven",
+     "etapes": [
+      {
+       "titre": "Simmer the peel",
+       "texte": "Put the tangerine peel ({mandarine}) in a small saucepan with the water ({eau}). Bring to a boil, then simmer, covered.",
+       "s": 900
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain it: you should have about 150 ml of liquid left. Let it cool until warm. Finely chop half of the softened peel for the filling."
+      },
+      {
+       "titre": "Knead the dough",
+       "texte": "Mix the flour ({farine}) and a pinch of salt ({sel}) in a bowl. Gradually pour in the warm liquid while stirring, then knead until you have a soft dough that no longer sticks. Cover and let it rest.",
+       "s": 1800
+      },
+      {
+       "titre": "Precook the daikon",
+       "texte": "Meanwhile, grate the daikon ({radis}) on the large holes of a grater. Stir-fry it in a spoonful of oil ({huile}) with a pinch of salt: it should stay a little crunchy. Let it cool, then squeeze it in your hands to remove the juice.",
+       "s": 240
+      },
+      {
+       "titre": "Make the filling",
+       "texte": "Mix the daikon with the chicken ({poulet}), ginger ({gingembre}), spring onion ({cebette}), chopped peel, soy sauce ({soja}) and the rest of the salt."
+      },
+      {
+       "titre": "Shape the flatbreads",
+       "texte": "Divide the dough into 6 balls and roll each into a 12 cm disc. Put a heaped spoonful of filling in the center, bring the edges up to the middle in pleats and pinch to seal. Gently flatten into a round, seam side down."
+      },
+      {
+       "titre": "Bake",
+       "texte": "Place the flatbreads on a baking sheet lined with parchment paper, brush them with oil and bake at 200 °C (400 °F) until nicely golden.",
+       "s": 1500
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let them cool for 5 minutes before biting in: the filling is scalding. Serve with a broth or vegetables."
+      }
+     ]
+    },
+    {
+     "id": "poele",
+     "nom": "In a frying pan",
+     "etapes": [
+      {
+       "titre": "Simmer the peel",
+       "texte": "Put the tangerine peel ({mandarine}) in a small saucepan with the water ({eau}). Bring to a boil, then simmer, covered.",
+       "s": 900
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain it: you should have about 150 ml of liquid left. Let it cool until warm. Finely chop half of the softened peel for the filling."
+      },
+      {
+       "titre": "Knead the dough",
+       "texte": "Mix the flour ({farine}) and a pinch of salt ({sel}) in a bowl. Gradually pour in the warm liquid while stirring, then knead until you have a soft dough that no longer sticks. Cover and let it rest.",
+       "s": 1800
+      },
+      {
+       "titre": "Precook the daikon",
+       "texte": "Meanwhile, grate the daikon ({radis}) on the large holes of a grater. Stir-fry it in a spoonful of oil ({huile}) with a pinch of salt: it should stay a little crunchy. Let it cool, then squeeze it in your hands to remove the juice.",
+       "s": 240
+      },
+      {
+       "titre": "Make the filling",
+       "texte": "Mix the daikon with the chicken ({poulet}), ginger ({gingembre}), spring onion ({cebette}), chopped peel, soy sauce ({soja}) and the rest of the salt."
+      },
+      {
+       "titre": "Shape the flatbreads",
+       "texte": "Divide the dough into 6 balls and roll each into a 12 cm disc. Put a heaped spoonful of filling in the center, bring the edges up to the middle in pleats and pinch to seal. Gently flatten into a round, seam side down."
+      },
+      {
+       "titre": "Brown one side",
+       "texte": "Heat a drizzle of oil in a large frying pan over medium-low heat. Add the flatbreads, cover and let them brown.",
+       "s": 360
+      },
+      {
+       "titre": "Brown the other side",
+       "texte": "Flip them, cover again and brown the other side. The chicken must be cooked all the way through.",
+       "s": 360
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let them cool for 5 minutes before biting in: the filling is scalding. Serve with a broth or vegetables."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The flatbreads freeze well uncooked: cook them straight from frozen, adding 5 to 10 minutes.",
+    "You can dry your own peel from organic tangerines: a few weeks in the open air, somewhere dry."
+   ],
+   "tags": [
+    "daikon",
+    "tangerine peel",
+    "digestion",
+    "Stomach",
+    "flatbread"
+   ]
+  },
+  {
+   "id": "rognons-agneau-muscade",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 307,
+   "genre": "plat",
+   "axe": "yang",
+   "titre": "Lamb kidneys with nutmeg",
+   "zh": "豆蔻腰花",
+   "py": "dòukòu yāohuā",
+   "contexte": "Nutmeg and star anise warm the Kidney and Spleen, and kidneys strengthen the Kidney. For fatigue, lingering lower back pain and chronic diarrhea, especially the early-morning kind.",
+   "principe": {
+    "zh": "温肾健脾止泻",
+    "py": "Wēn shèn jiàn pí zhǐ xiè",
+    "fr": "Warm the Kidney, strengthen the Spleen, stop diarrhea"
+   },
+   "precautions": "A warming dish: avoid it if you have Heat (thirst, dry mouth, fever) or burning diarrhea. Nutmeg: no more than the amount given, and not during pregnancy. Kidneys: avoid if you have gout. Diarrhea lasting more than 2 weeks should be checked by a doctor.",
+   "portions": 2,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "badiane",
+     "q": 4,
+     "nom": "star anise pods",
+     "cle": "anis-etoile"
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "rognons",
+     "q": 6,
+     "nom": "lamb kidneys (about 300 g)",
+     "cle": "rognons-agneau",
+     "note": "From the butcher: choose very fresh, firm kidneys with no strong smell."
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "vinegar (rice or cider)",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "sichuan",
+     "q": 1,
+     "u": "tsp",
+     "nom": "whole Sichuan peppercorns",
+     "cle": "poivre-sichuan"
+    },
+    {
+     "id": "muscade",
+     "q": 0.25,
+     "u": "tsp",
+     "nom": "nutmeg, freshly grated",
+     "cle": "muscade"
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Simmer the anise",
+       "texte": "Put the star anise ({badiane}) in the water ({eau}), bring to a boil and simmer, covered.",
+       "s": 1800
+      },
+      {
+       "titre": "Trim the kidneys",
+       "texte": "Meanwhile, remove the thin membrane from the kidneys ({rognons}). Halve them horizontally and snip out the white core and tubes with scissors."
+      },
+      {
+       "titre": "Soak",
+       "texte": "Put them in a bowl of cold water with the vinegar ({vinaigre}) and let them soak. Rinse them well afterward.",
+       "s": 900
+      },
+      {
+       "titre": "Score into flowers",
+       "texte": "Score the rounded side of each half in a fine crisscross, without cutting through, then cut it in two: the pieces will open like flowers as they cook."
+      },
+      {
+       "titre": "Blanch",
+       "texte": "Remove the star anise and bring the liquid back to a boil. Drop in the kidneys and drain them as soon as they change color.",
+       "s": 40
+      },
+      {
+       "titre": "Flavor the oil",
+       "texte": "Heat the oil ({huile}) in the wok over medium heat with the Sichuan peppercorns ({sichuan}). Scoop out the peppercorns with a slotted spoon as soon as they darken.",
+       "s": 60
+      },
+      {
+       "titre": "Stir-fry the kidneys",
+       "texte": "Turn up the heat and stir-fry the kidneys briskly. They should stay tender: overcooked, they turn tough.",
+       "s": 90
+      },
+      {
+       "titre": "Season",
+       "texte": "Grate the nutmeg ({muscade}) over them, add salt ({sel}), stir and take off the heat at once. Serve right away with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Veal kidneys work too: cut them into pieces of the same size."
+   ],
+   "tags": [
+    "kidneys",
+    "Kidney",
+    "Yang",
+    "diarrhea",
+    "back pain"
+   ]
+  },
+  {
+   "id": "foie-agneau-soja-vinaigre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 308,
+   "genre": "plat",
+   "axe": "sang",
+   "titre": "Lamb's liver with soy sauce and vinegar",
+   "zh": "酱油食醋羊肝",
+   "py": "jiàngyóu shícù yánggān",
+   "contexte": "Lamb's liver nourishes the Liver and Blood, which in turn nourish the eyes. Tradition uses it when you see poorly in the evening or in dim light; also have your eyes checked by an eye doctor, as this dish supports that care.",
+   "principe": {
+    "zh": "养肝明目",
+    "py": "Yǎng gān míng mù",
+    "fr": "Nourish the Liver, brighten the eyes"
+   },
+   "precautions": "Liver is very rich in vitamin A: not during pregnancy, and no more than once or twice a week, even though tradition recommends it daily. Avoid if you have gout.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "foie",
+     "q": 250,
+     "u": "g",
+     "nom": "lamb's liver",
+     "cle": "foie-agneau",
+     "note": "Choose it very fresh and glossy, from the butcher."
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "cornstarch or potato starch"
+    },
+    {
+     "id": "eau",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "rice vinegar or Chinese black vinegar",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sugar",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "fresh ginger, in thin matchsticks",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions, cut into lengths",
+     "cle": "cebette"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Prepare the liver",
+       "texte": "Remove the thin membrane and the vessels from the liver ({foie}). Rinse it, pat it dry and cut it into 5 mm slices."
+      },
+      {
+       "titre": "Coat",
+       "texte": "Stir the starch ({fecule}) into the water ({eau}), add the slices and mix to coat them well."
+      },
+      {
+       "titre": "Make the sauce",
+       "texte": "In a bowl, mix the soy sauce ({soja}), vinegar ({vinaigre}) and sugar ({sucre})."
+      },
+      {
+       "titre": "Sear the liver",
+       "texte": "Heat the oil ({huile}) in the wok over high heat. Spread out the slices, let them sear without touching them, then flip them.",
+       "s": 60
+      },
+      {
+       "titre": "Add the sauce",
+       "texte": "Add the ginger ({gingembre}) and spring onion ({cebette}), pour in the sauce and stir-fry until the liver is just cooked and still tender.",
+       "s": 90
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve right away with rice: liver turns tough if it waits."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Chinese black vinegar gives the most authentic flavor; cider vinegar will do in a pinch.",
+    "Chicken livers can be cooked the same way."
+   ],
+   "tags": [
+    "liver",
+    "eyes",
+    "eyesight",
+    "Blood",
+    "Liver"
+   ]
+  },
+  {
+   "id": "foie-agneau-ciboule",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 309,
+   "genre": "plat",
+   "axe": "sang",
+   "titre": "Lamb's liver stir-fried with Chinese chives",
+   "zh": "韭菜炒羊肝",
+   "py": "jiǔcài chǎo yánggān",
+   "contexte": "Chinese chives warm the Kidney, and lamb's liver nourishes the Liver and Blood. For lingering lower back pain, dizziness, blurred vision, cramps, and scanty or dully painful periods.",
+   "principe": {
+    "zh": "温补肝肾",
+    "py": "Wēn bǔ gān shèn",
+    "fr": "Warm and tonify the Liver and Kidney"
+   },
+   "precautions": "A warming dish: avoid it if you have Heat (red eyes, bitter taste in the mouth, mouth ulcers). Liver is very rich in vitamin A: not during pregnancy, and better 2 or 3 times a week than every day. Dizziness or very irregular periods deserve a doctor's opinion.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "foie",
+     "q": 250,
+     "u": "g",
+     "nom": "lamb's liver",
+     "cle": "foie-agneau"
+    },
+    {
+     "id": "ciboule",
+     "q": 150,
+     "u": "g",
+     "nom": "Chinese chives (jiu cai)",
+     "cle": "ciboule-chinoise",
+     "note": "Sold in bunches in Asian grocery stores: flat leaves, mild garlicky taste. Otherwise, a young leek, very thinly sliced."
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 2,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Remove the thin membrane and the vessels from the liver ({foie}), then cut it into thin slices. Wash the Chinese chives ({ciboule}), pat them dry and cut them into 4 cm lengths, keeping the firmer white ends separate."
+      },
+      {
+       "titre": "Sear the liver",
+       "texte": "Heat the oil ({huile}) in the wok over high heat. Stir-fry the liver until it is no longer red on the surface.",
+       "s": 90
+      },
+      {
+       "titre": "Add the chives",
+       "texte": "Add the white ends first, then the leaves. Stir-fry just until they wilt.",
+       "s": 60
+      },
+      {
+       "titre": "Season",
+       "texte": "Add salt ({sel}) and the soy sauce ({soja}), stir and serve right away with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "For period problems, eat it preferably in the week after your period, when the Blood is rebuilding."
+   ],
+   "tags": [
+    "liver",
+    "Chinese chives",
+    "Kidney",
+    "periods",
+    "back pain"
+   ]
+  },
+  {
+   "id": "gateau-radis-vapeur",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 310,
+   "genre": "plat",
+   "axe": "rate",
+   "titre": "Steamed daikon cake",
+   "zh": "白萝卜糕",
+   "py": "bái luóbo gāo",
+   "contexte": "Daikon helps the Stomach digest and dissolves Phlegm. A snack or side dish for a heavy stomach, bloating after meals and phlegm.",
+   "principe": {
+    "zh": "健胃消食化痰",
+    "py": "Jiàn wèi xiāo shí huà tán",
+    "fr": "Strengthen the Stomach, aid digestion, transform Phlegm"
+   },
+   "precautions": "Dried shrimp are salty: taste before adding salt, especially if you watch your blood pressure. Shellfish allergy: replace them with 2 extra shiitake mushrooms.",
+   "portions": 6,
+   "duree": "1 h 30 (+ 1 h cooling)",
+   "ingredients": [
+    {
+     "id": "crevettes",
+     "q": 20,
+     "u": "g",
+     "nom": "dried shrimp",
+     "cle": "crevettes-sechees",
+     "note": "Sold in bags in Asian grocery stores."
+    },
+    {
+     "id": "shiitake",
+     "q": 4,
+     "nom": "dried shiitake mushrooms",
+     "cle": "shiitake"
+    },
+    {
+     "id": "radis",
+     "q": 500,
+     "u": "g",
+     "nom": "daikon (white radish)",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "fresh ginger, minced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "farine",
+     "q": 200,
+     "u": "g",
+     "nom": "rice flour (not glutinous rice flour)",
+     "cle": "riz",
+     "note": "From Asian grocery stores or the gluten-free aisle."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "ciboulette",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "chives, snipped",
+     "cle": "ciboulette"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Soak the dried shrimp ({crevettes}) and the shiitake ({shiitake}) in two bowls of lukewarm water (on top of the water in the recipe).",
+       "s": 1800
+      },
+      {
+       "titre": "Cook the daikon",
+       "texte": "Meanwhile, peel the daikon ({radis}) and grate it on the large holes of a grater. Put it in a saucepan with its juice and a third of the water ({eau}). Cover and cook over medium heat, stirring now and then, until translucent.",
+       "s": 600
+      },
+      {
+       "titre": "Sauté the topping",
+       "texte": "Drain the shrimp and mushrooms, remove the shiitake stems and roughly chop everything. Sauté in the oil ({huile}) with the ginger ({gingembre}).",
+       "s": 120
+      },
+      {
+       "titre": "Make the batter",
+       "texte": "In a bowl, stir the rice flour ({farine}) and salt ({sel}) into the rest of the water. Add the hot daikon with its juice, the topping and the chives ({ciboulette}). Mix: the batter should be thick but still pourable."
+      },
+      {
+       "titre": "Fill the pan",
+       "texte": "Oil a 20 cm round pan, or a deep dish that fits in your steamer basket. Pour in the batter and smooth the top."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Steam over high heat, covered. Halfway through, top up the pot with boiling water. A chopstick inserted in the center should come out almost clean.",
+       "s": 3000
+      },
+      {
+       "titre": "Let it cool",
+       "texte": "Let it cool completely: the cake firms up as it cools and then slices cleanly.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Unmold and cut into 1 cm slices. Reheat them by steaming, or brown them for 2 to 3 minutes per side in an oiled frying pan."
+      }
+     ]
+    },
+    {
+     "id": "four",
+     "nom": "In the oven (water bath)",
+     "etapes": [
+      {
+       "titre": "Soak",
+       "texte": "Soak the dried shrimp ({crevettes}) and the shiitake ({shiitake}) in two bowls of lukewarm water (on top of the water in the recipe).",
+       "s": 1800
+      },
+      {
+       "titre": "Cook the daikon",
+       "texte": "Meanwhile, peel the daikon ({radis}) and grate it on the large holes of a grater. Put it in a saucepan with its juice and a third of the water ({eau}). Cover and cook over medium heat, stirring now and then, until translucent.",
+       "s": 600
+      },
+      {
+       "titre": "Sauté the topping",
+       "texte": "Drain the shrimp and mushrooms, remove the shiitake stems and roughly chop everything. Sauté in the oil ({huile}) with the ginger ({gingembre}).",
+       "s": 120
+      },
+      {
+       "titre": "Make the batter",
+       "texte": "In a bowl, stir the rice flour ({farine}) and salt ({sel}) into the rest of the water. Add the hot daikon with its juice, the topping and the chives ({ciboulette}). Mix: the batter should be thick but still pourable."
+      },
+      {
+       "titre": "Fill the pan",
+       "texte": "Preheat the oven to 180 °C (350 °F). Oil a 20 cm round pan, pour in the batter, smooth the top and cover with aluminum foil."
+      },
+      {
+       "titre": "Bake in a water bath",
+       "texte": "Set the pan in a large dish filled halfway up with hot water and put it in the oven. A knife inserted in the center should come out almost clean.",
+       "s": 4500
+      },
+      {
+       "titre": "Let it cool",
+       "texte": "Let it cool completely: the cake firms up as it cools and then slices cleanly.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Unmold and cut into 1 cm slices. Reheat them by steaming, or brown them for 2 to 3 minutes per side in an oiled frying pan."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The cake keeps for 4 days in the fridge, well wrapped, and freezes well in slices."
+   ],
+   "tags": [
+    "daikon",
+    "digestion",
+    "Phlegm",
+    "steamed",
+    "snack"
+   ]
+  },
+  {
+   "id": "igname-vapeur",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 311,
+   "genre": "plat",
+   "axe": "yin",
+   "titre": "Steamed Chinese yam",
+   "zh": "蒸山药",
+   "py": "zhēng shānyào",
+   "contexte": "Chinese yam gently nourishes Yin and consolidates Essence. For menopause symptoms (hot flashes, night sweats) and, if you have diabetes, as support for your medical care, never in its place.",
+   "principe": {
+    "zh": "滋阴固精",
+    "py": "Zī yīn gù jīng",
+    "fr": "Nourish Yin, consolidate Essence"
+   },
+   "precautions": "It is starchy: if you have diabetes, it replaces the rice or bread in your meal, it is not added on top. Avoid it if your belly is bloated and your digestion feels very clogged.",
+   "portions": 2,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "igname",
+     "q": 300,
+     "u": "g",
+     "nom": "fresh Chinese yam (shan yao)",
+     "cle": "shan-yao",
+     "note": "From Asian grocery stores: a long, beige, hairy root. African yam is a different plant."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt (optional)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "Steamed",
+     "etapes": [
+      {
+       "titre": "Wash the yam",
+       "texte": "Scrub the yam ({igname}) under running water and cut it into 8 to 10 cm lengths without peeling: cooked in its skin, you won't have to touch its sap, which makes your skin itch."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Place the pieces in the steamer basket over boiling water. Cover and steam until a knife tip slides in with no resistance.",
+       "s": 1200
+      },
+      {
+       "titre": "Peel",
+       "texte": "Let it cool for a moment, then remove the skin: it slips right off.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Slice it into rounds and add just a little salt ({sel}) if you like. Eat it in place of the rice or bread in your meal."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker (steamer basket)",
+     "etapes": [
+      {
+       "titre": "Wash the yam",
+       "texte": "Scrub the yam ({igname}) under running water and cut it into 8 to 10 cm lengths without peeling: cooked in its skin, you won't have to touch its sap, which makes your skin itch."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Pour water into the inner pot as the manual says, put the yam in the steamer basket and start the Steam program.",
+       "s": 1500
+      },
+      {
+       "titre": "Peel",
+       "texte": "Let it cool for a moment, then remove the skin: it slips right off.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Slice it into rounds and add just a little salt ({sel}) if you like. Eat it in place of the rice or bread in your meal."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tradition recommends it twice a day, in place of your usual starch.",
+    "It keeps for one to two weeks in the fridge, wrapped in newspaper."
+   ],
+   "tags": [
+    "Chinese yam",
+    "menopause",
+    "Yin",
+    "diabetes",
+    "steamed"
+   ]
+  },
+  {
+   "id": "poisson-epinards",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 312,
+   "genre": "plat",
+   "axe": "chaleur",
+   "titre": "Stir-fried fish with spinach",
+   "zh": "菠菜炒生鱼片",
+   "py": "bōcài chǎo shēngyú piàn",
+   "contexte": "Spinach is cooling and nourishes the Liver, and fish is light. For dizziness, irritability and pressure rising to the head; if you have high blood pressure, this dish supports your medical care, it does not replace it.",
+   "principe": {
+    "zh": "清热除烦平肝",
+    "py": "Qīng rè chú fán píng gān",
+    "fr": "Clear Heat, calm agitation, settle the Liver"
+   },
+   "precautions": "A cooling dish: go easy on it if you have a cold belly and soft stools. If you have high blood pressure, use very little salt. If you have kidney stones, don't eat spinach too often.",
+   "portions": 2,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "epinards",
+     "q": 300,
+     "u": "g",
+     "nom": "fresh spinach",
+     "cle": "epinards"
+    },
+    {
+     "id": "poisson",
+     "q": 300,
+     "u": "g",
+     "nom": "firm white fish (cod, pollock, hake)",
+     "cle": "poisson-blanc"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tsp",
+     "nom": "cornstarch or potato starch"
+    },
+    {
+     "id": "huile",
+     "q": 1.5,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "ail",
+     "q": 2,
+     "nom": "garlic cloves, crushed",
+     "cle": "ail"
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "fresh ginger, minced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "oignon",
+     "q": 0.5,
+     "nom": "onion, cut into chunks",
+     "cle": "oignon"
+    },
+    {
+     "id": "eau",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Prepare the spinach",
+       "texte": "Trim the stems of the spinach ({epinards}), wash the leaves in plenty of water and cut the largest ones in half."
+      },
+      {
+       "titre": "Blanch",
+       "texte": "Plunge them into a large pot of boiling water just until they wilt. Drain and squeeze them gently.",
+       "s": 30
+      },
+      {
+       "titre": "Prepare the fish",
+       "texte": "Cut the fish ({poisson}) into 1 cm strips, salt them lightly ({sel}) and roll them in the starch ({fecule})."
+      },
+      {
+       "titre": "Flavor the oil",
+       "texte": "Heat the oil ({huile}) in the wok over medium heat. Brown the garlic ({ail}), then add the ginger ({gingembre}) and onion ({oignon}). Stir until fragrant.",
+       "s": 90
+      },
+      {
+       "titre": "Stir-fry the fish",
+       "texte": "Turn up the heat, add the fish and water ({eau}). Turn the strips gently, without stirring too much so they don't break.",
+       "s": 120
+      },
+      {
+       "titre": "Add the spinach",
+       "texte": "Add the spinach and stir gently, just to heat it through. Serve right away with rice.",
+       "s": 60
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Blanching removes the spinach's bitterness and some of its oxalic acid."
+   ],
+   "tags": [
+    "spinach",
+    "fish",
+    "blood pressure",
+    "dizziness",
+    "Liver"
+   ]
+  },
+  {
+   "id": "lapin-sesame-noir",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 313,
+   "genre": "plat",
+   "axe": "rate",
+   "titre": "Braised rabbit with black sesame",
+   "zh": "黑芝麻炖兔肉",
+   "py": "hēizhīma dùn tùròu",
+   "contexte": "Rabbit strengthens the Spleen and Stomach without weighing you down, black sesame moistens the intestines and cloves bring warmth. For fatigue, excess weight and dry stools.",
+   "principe": {
+    "zh": "健脾和胃润肠",
+    "py": "Jiàn pí hé wèi rùn cháng",
+    "fr": "Strengthen the Spleen, harmonize the Stomach, moisten the intestines"
+   },
+   "precautions": "Black sesame moistens the intestines: use less if you have soft stools or diarrhea.",
+   "portions": 2,
+   "duree": "1 h 30",
+   "ingredients": [
+    {
+     "id": "sesame",
+     "q": 40,
+     "u": "g",
+     "nom": "black sesame seeds",
+     "cle": "sesame-noir"
+    },
+    {
+     "id": "lapin",
+     "q": 600,
+     "u": "g",
+     "nom": "rabbit pieces (2 legs and a saddle)",
+     "cle": "lapin",
+     "note": "In the poultry section or from the butcher."
+    },
+    {
+     "id": "eau",
+     "q": 700,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "fresh ginger, sliced",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions, cut into lengths",
+     "cle": "cebette"
+    },
+    {
+     "id": "girofle",
+     "q": 4,
+     "nom": "cloves",
+     "cle": "girofle"
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "huile-sesame",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Toast the sesame",
+       "texte": "Toast the black sesame seeds ({sesame}) in a dry frying pan over medium heat, stirring, until they crackle and smell nutty. Tip them into a bowl.",
+       "s": 180
+      },
+      {
+       "titre": "Blanch the rabbit",
+       "texte": "Put the rabbit pieces ({lapin}) in a large pot of cold water and bring to a boil. Let it boil, then discard the water and rinse the pieces.",
+       "s": 300
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Return the rabbit to the pot with the water ({eau}), ginger ({gingembre}), spring onion ({cebette}), cloves ({girofle}), soy sauce ({soja}) and salt ({sel}). Bring to a boil, then simmer over low heat with the lid ajar, turning the pieces now and then.",
+       "s": 3600
+      },
+      {
+       "titre": "Reduce",
+       "texte": "Remove the lid and let it reduce until only a little syrupy liquid is left, 3 to 4 tablespoons. The meat should come away from the bone.",
+       "s": 900
+      },
+      {
+       "titre": "Glaze",
+       "texte": "Arrange the rabbit on a platter. Strain the liquid, add the toasted sesame and the sesame oil ({huile-sesame}), then spoon it over the pieces. Serve with rice."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Toast the sesame",
+       "texte": "Toast the black sesame seeds ({sesame}) in a dry frying pan over medium heat, stirring, until they crackle and smell nutty. Tip them into a bowl.",
+       "s": 180
+      },
+      {
+       "titre": "Blanch the rabbit",
+       "texte": "Put the rabbit pieces ({lapin}) in the pressure cooker, cover with cold water and bring to a boil. Let it boil, then discard the water and rinse the pieces.",
+       "s": 300
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Return the rabbit to the pressure cooker with the water ({eau}), ginger ({gingembre}), spring onion ({cebette}), cloves ({girofle}), soy sauce ({soja}) and salt ({sel}). Close it and start timing once the valve starts hissing, over low heat.",
+       "s": 1500
+      },
+      {
+       "titre": "Release the pressure",
+       "texte": "Turn off the heat and let the pressure drop on its own before opening.",
+       "s": 600
+      },
+      {
+       "titre": "Reduce",
+       "texte": "Boil uncovered until only a little syrupy liquid is left, 3 to 4 tablespoons.",
+       "s": 1200
+      },
+      {
+       "titre": "Glaze",
+       "texte": "Arrange the rabbit on a platter. Strain the liquid, add the toasted sesame and the sesame oil ({huile-sesame}), then spoon it over the pieces. Serve with rice."
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "In a rice cooker or multicooker",
+     "etapes": [
+      {
+       "titre": "Toast the sesame",
+       "texte": "Toast the black sesame seeds ({sesame}) in a dry frying pan over medium heat, stirring, until they crackle and smell nutty. Tip them into a bowl.",
+       "s": 180
+      },
+      {
+       "titre": "Blanch the rabbit",
+       "texte": "Put the rabbit pieces ({lapin}) in a large pot of cold water and bring to a boil. Let it boil, then discard the water and rinse the pieces.",
+       "s": 300
+      },
+      {
+       "titre": "Cook",
+       "texte": "Put the rabbit in the inner pot with the water ({eau}), ginger ({gingembre}), spring onion ({cebette}), cloves ({girofle}), soy sauce ({soja}) and salt ({sel}). Slow Cook or Soup program.",
+       "s": 5400
+      },
+      {
+       "titre": "Reduce the liquid",
+       "texte": "Take out the rabbit and keep it warm. Pour the liquid into a small saucepan (or use the appliance's Sauté mode) and boil it uncovered down to 3 or 4 tablespoons.",
+       "s": 900
+      },
+      {
+       "titre": "Glaze",
+       "texte": "Arrange the rabbit on a platter. Strain the liquid, add the toasted sesame and the sesame oil ({huile-sesame}), then spoon it over the pieces. Serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tradition suggests it twice a week, as a course lasting a few weeks: half at lunch, the other half at dinner.",
+    "Four cloves are enough for flavor: any more and the sauce turns bitter."
+   ],
+   "tags": [
+    "rabbit",
+    "black sesame",
+    "fatigue",
+    "constipation",
+    "Spleen"
+   ]
+  },
+  {
+   "id": "poulet-carottes-chen-pi",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 314,
+   "genre": "plat",
+   "axe": "circuler",
+   "titre": "Chicken stir-fry with carrots and tangerine peel",
+   "zh": "胡萝卜炒陈皮鸡丝",
+   "py": "húluóbo chǎo chénpí jīsī",
+   "contexte": "Tangerine peel moves the Qi, and carrot strengthens the Spleen. For a tight, bloated or sore stomach and difficult digestion, especially when stress is involved.",
+   "principe": {
+    "zh": "宽中理气",
+    "py": "Kuān zhōng lǐ qì",
+    "fr": "Relax the Middle, regulate Qi"
+   },
+   "precautions": "Tangerine peel is drying: go easy on it if you have a dry mouth or a dry cough. Frequent or severe stomach pain should be checked by a doctor.",
+   "portions": 2,
+   "duree": "35 min",
+   "ingredients": [
+    {
+     "id": "mandarine",
+     "q": 10,
+     "u": "g",
+     "nom": "dried tangerine peel (chen pi)",
+     "cle": "mandarine",
+     "note": "From Asian grocery stores or Chinese herbalists."
+    },
+    {
+     "id": "poulet",
+     "q": 250,
+     "u": "g",
+     "nom": "chicken breast or boneless thigh",
+     "cle": "poulet"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tsp",
+     "nom": "cornstarch or potato starch"
+    },
+    {
+     "id": "carottes",
+     "q": 250,
+     "u": "g",
+     "nom": "carrots",
+     "cle": "carotte"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions",
+     "cle": "cebette"
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "neutral oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "eau",
+     "q": 4,
+     "u": "tbsp",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Soak the peel",
+       "texte": "Soak the tangerine peel ({mandarine}) in a bowl of lukewarm water until soft.",
+       "s": 900
+      },
+      {
+       "titre": "Marinate the chicken",
+       "texte": "Meanwhile, cut the chicken ({poulet}) into thin strips and mix it with the soy sauce ({soja}) and starch ({fecule})."
+      },
+      {
+       "titre": "Cut",
+       "texte": "Cut the carrots ({carottes}) into matchsticks, or grate them on the large holes of a grater. Drain the peel, scrape off the white pith inside if it's thick, and cut it into thin strips. Thinly slice the spring onion ({cebette})."
+      },
+      {
+       "titre": "Stir-fry the carrots",
+       "texte": "Heat half the oil ({huile}) in the wok and stir-fry the carrots over high heat. Set them aside on a plate.",
+       "s": 120
+      },
+      {
+       "titre": "Stir-fry the chicken",
+       "texte": "Pour in the rest of the oil and stir-fry the chicken with the strips of peel until it turns white.",
+       "s": 180
+      },
+      {
+       "titre": "Braise",
+       "texte": "Return the carrots, salt lightly ({sel}), pour in the water ({eau}), cover and cook over medium heat.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Scatter the spring onion on top and serve with rice."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The older the tangerine peel, the mellower and more fragrant it is.",
+    "The same recipe works with strips of beef."
+   ],
+   "tags": [
+    "chicken",
+    "carrots",
+    "tangerine peel",
+    "digestion",
+    "bloating"
+   ]
+  }
+ ]
+}

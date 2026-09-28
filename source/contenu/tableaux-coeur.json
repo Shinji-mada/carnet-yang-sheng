@@ -74,7 +74,8 @@
    "recettes": [
     "congee-lotus-jujube",
     "soupe-poulet-huang-qi",
-    "congee-poulet"
+    "congee-poulet",
+    "brochettes-coeur-agneau-rose"
    ],
    "privilegier": "Céréales, dattes, longanes, graines de lotus, poulet, repas réguliers.",
    "eviter": "Surmenage, café en excès, efforts violents.",
@@ -169,7 +170,11 @@
     "congee-lotus-jujube",
     "infusion-longane-jujube",
     "congee-goji-sesame",
-    "foies-volaille-epinards"
+    "foies-volaille-epinards",
+    "soupe-ble-reglisse-jujubes",
+    "oeuf-vapeur-longane",
+    "brochettes-coeur-agneau-rose",
+    "compotee-cerises-longanes"
    ],
    "privilegier": "Dattes, longanes, goji, œufs, épinards, céréales, graines de lotus.",
    "eviter": "Écrans le soir, dîner trop tard, café l'après-midi.",
@@ -263,7 +268,9 @@
     "soupe-tremelle",
     "congee-lotus-jujube",
     "soupe-huitres-tofu",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "soupe-ble-reglisse-jujubes",
+    "soupe-bai-he-zao-ren"
    ],
    "privilegier": "Trémelle, graines de lotus, poire, tofu, œufs, sésame, millet.",
    "eviter": "Café, alcool, épices, sport intense le soir, écrans tard.",
@@ -358,7 +365,8 @@
    "recettes": [
     "soupe-mungo",
     "congee-lotus-jujube",
-    "infusion-chrysantheme-goji"
+    "infusion-chrysantheme-goji",
+    "jus-pasteque-menthe"
    ],
    "privilegier": "Haricots mungo, graines de lotus avec leur germe, légumes verts, concombre cuit.",
    "eviter": "Café, alcool, épices, écrans le soir, surmenage.",
@@ -453,7 +461,10 @@
     "congee-lotus-jujube",
     "infusion-longane-jujube",
     "congee-millet-patate-douce",
-    "congee-qian-shi"
+    "congee-qian-shi",
+    "soupe-ble-reglisse-jujubes",
+    "oeuf-vapeur-longane",
+    "compotee-cerises-longanes"
    ],
    "privilegier": "Graines de lotus, longanes, dattes, millet, riz, patate douce, poulet.",
    "eviter": "Manger en travaillant, sauter des repas, sucre en excès.",
@@ -560,7 +571,10 @@
     "congee-haricots-noirs",
     "soupe-huitres-tofu",
     "congee-qian-shi",
-    "huitres-gingembre"
+    "huitres-gingembre",
+    "soupe-ble-reglisse-jujubes",
+    "soupe-bai-he-zao-ren",
+    "oeufs-jujubes-goji"
    ],
    "privilegier": "Graines de lotus, haricots noirs, sésame noir, trémelle, millet.",
    "eviter": "Café, alcool, épices, écrans et sport intense le soir.",

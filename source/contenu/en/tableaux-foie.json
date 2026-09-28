@@ -84,7 +84,13 @@
    ],
    "recettes": [
     "infusion-rose-orange",
-    "infusion-chen-pi"
+    "infusion-chen-pi",
+    "congee-ecorce-pamplemousse",
+    "congee-rose",
+    "brochettes-coeur-agneau-rose",
+    "jus-celeri-frais",
+    "jus-celeri-miel",
+    "jus-ciboule-gingembre"
    ],
    "privilegier": "Green vegetables, radish, citrus peel, spring onion, mint, meals eaten in peace.",
    "eviter": "Alcohol, too much coffee, fatty food, a sedentary lifestyle.",
@@ -208,7 +214,13 @@
     "saumon-patate-douce",
     "poulpe-pommes-de-terre",
     "foies-volaille-epinards",
-    "bouillon-os-boeuf"
+    "bouillon-os-boeuf",
+    "oeuf-sucre-complet",
+    "foie-agneau-soja-vinaigre",
+    "foie-agneau-ciboule",
+    "boisson-champignons-noirs",
+    "compotee-cerises-longanes",
+    "gateau-bu-shen"
    ],
    "privilegier": "Goji berries, jujubes, black sesame, spinach, beets, lentils, eggs, a little red meat, bone broths.",
    "eviter": "Screens late in the evening, staying up late, restrictive diets.",
@@ -324,7 +336,11 @@
     "saute-celeri-tofu",
     "soupe-huitres-tofu",
     "calamars-celeri",
-    "champignons-noirs"
+    "champignons-noirs",
+    "bouillon-huitres-gingembre",
+    "poisson-epinards",
+    "jus-celeri-frais",
+    "infusion-chrysantheme-shan-zha-cassia"
    ],
    "privilegier": "Celery, chrysanthemum, spinach, tofu, green vegetables, mushrooms.",
    "eviter": "Alcohol, coffee, spicy food, brooding over anger, late-night screens.",
@@ -426,7 +442,9 @@
    "recettes": [
     "infusion-chrysantheme-goji",
     "saute-celeri-tofu",
-    "soupe-mungo"
+    "soupe-mungo",
+    "poisson-epinards",
+    "jus-celeri-frais"
    ],
    "privilegier": "Celery, chrysanthemum, cooked cucumber, tofu, bean sprouts, mung beans.",
    "eviter": "Alcohol, spicy food, fried food, lamb, tobacco.",
@@ -520,7 +538,9 @@
     "congee-orge-azuki",
     "soupe-mungo",
     "saute-celeri-tofu",
-    "bouillon-concombre-wakame"
+    "bouillon-concombre-wakame",
+    "soupe-yin-chen-mai-ya",
+    "jus-celeri-miel"
    ],
    "privilegier": "Celery, radish, pearl barley, mung and adzuki beans, cooked green vegetables.",
    "eviter": "Alcohol, fatty food, fried food, sugar, spicy food.",
@@ -615,7 +635,9 @@
    "recettes": [
     "congee-millet-patate-douce",
     "infusion-rose-orange",
-    "congee-courge-carotte"
+    "congee-courge-carotte",
+    "poulet-carottes-chen-pi",
+    "jus-celeri-miel"
    ],
    "privilegier": "Warm, regular meals, eaten in peace; citrus peel, radish, cooked grains.",
    "eviter": "Eating fast or while working, coffee on an empty stomach, alcohol.",
@@ -717,7 +739,13 @@
    ],
    "recettes": [
     "infusion-rose-orange",
-    "congee-courge-carotte"
+    "congee-courge-carotte",
+    "congee-ecorce-pamplemousse",
+    "congee-rose",
+    "galettes-radis-mandarine",
+    "poulet-carottes-chen-pi",
+    "jus-ciboule-gingembre",
+    "decoction-shan-zha-mandarine"
    ],
    "privilegier": "Small warm meals, congee, radish, a little fresh ginger.",
    "eviter": "Coffee, alcohol, spicy food, sour citrus fruit on an empty stomach, late meals.",

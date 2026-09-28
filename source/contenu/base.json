@@ -1,5 +1,5 @@
 {
- "version": "0.14.2",
+ "version": "0.15.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -463,380 +463,55 @@
    "zh": "解表"
   }
  ],
- "categories_ingredients": [
+ "genres": [
   {
-   "id": "cereales",
-   "nom": "Céréales"
+   "id": "zhou",
+   "nom": "Congees et bouillies",
+   "zh": "粥",
+   "py": "zhōu",
+   "texte": "La base de la diététique chinoise : des céréales longuement cuites, douces pour la Rate et faciles à digérer."
   },
   {
-   "id": "legumes",
-   "nom": "Légumes"
+   "id": "soupe",
+   "nom": "Soupes et bouillons",
+   "zh": "汤",
+   "py": "tāng",
+   "texte": "Des soupes et des décoctions qui nourrissent tout en réchauffant ou en rafraîchissant."
   },
   {
-   "id": "fruits",
-   "nom": "Fruits"
+   "id": "plat",
+   "nom": "Plats",
+   "zh": "菜",
+   "py": "cài",
+   "texte": "Sautés, mijotés et plats vapeur à servir avec du riz."
   },
   {
-   "id": "viandes",
-   "nom": "Viandes et œufs"
+   "id": "salade",
+   "nom": "Salades et plats froids",
+   "zh": "凉拌",
+   "py": "liángbàn",
+   "texte": "Crus ou à peine cuits, ils rafraîchissent : pour l'été ou la Chaleur, à limiter si ta digestion est fragile."
   },
   {
-   "id": "mer",
-   "nom": "Poissons et fruits de mer"
+   "id": "dessert",
+   "nom": "Desserts et douceurs",
+   "zh": "甜品",
+   "py": "tiánpǐn",
+   "texte": "Des douceurs qui soignent, peu sucrées."
   },
   {
-   "id": "legumineuses",
-   "nom": "Légumineuses, tofu, graines, noix"
+   "id": "chaud",
+   "nom": "Boissons chaudes",
+   "zh": "热饮",
+   "py": "rèyǐn",
+   "texte": "Infusions, décoctions et thés de tous les jours."
   },
   {
-   "id": "asie",
-   "nom": "Épicerie asiatique"
-  },
-  {
-   "id": "aromates",
-   "nom": "Aromates et fleurs"
-  }
- ],
- "ingredients": [
-  {
-   "id": "riz",
-   "nom": "Riz",
-   "cat": "cereales"
-  },
-  {
-   "id": "millet",
-   "nom": "Millet",
-   "cat": "cereales"
-  },
-  {
-   "id": "orge-perle",
-   "nom": "Orge perlé",
-   "cat": "cereales"
-  },
-  {
-   "id": "carotte",
-   "nom": "Carotte",
-   "cat": "legumes"
-  },
-  {
-   "id": "courge",
-   "nom": "Courge",
-   "cat": "legumes"
-  },
-  {
-   "id": "patate-douce",
-   "nom": "Patate douce",
-   "cat": "legumes"
-  },
-  {
-   "id": "epinards",
-   "nom": "Épinards",
-   "cat": "legumes"
-  },
-  {
-   "id": "betterave",
-   "nom": "Betterave",
-   "cat": "legumes"
-  },
-  {
-   "id": "celeri",
-   "nom": "Céleri branche",
-   "cat": "legumes"
-  },
-  {
-   "id": "poireau",
-   "nom": "Poireau",
-   "cat": "legumes"
-  },
-  {
-   "id": "radis-blanc",
-   "nom": "Radis blanc",
-   "cat": "legumes"
-  },
-  {
-   "id": "oignon",
-   "nom": "Oignon",
-   "cat": "legumes"
-  },
-  {
-   "id": "cebette",
-   "nom": "Oignon cébette",
-   "cat": "legumes"
-  },
-  {
-   "id": "pomme-de-terre",
-   "nom": "Pomme de terre",
-   "cat": "legumes"
-  },
-  {
-   "id": "brocoli",
-   "nom": "Brocoli",
-   "cat": "legumes"
-  },
-  {
-   "id": "shiitake",
-   "nom": "Champignons shiitakés",
-   "cat": "legumes"
-  },
-  {
-   "id": "poire",
-   "nom": "Poire",
-   "cat": "fruits"
-  },
-  {
-   "id": "pomme",
-   "nom": "Pomme",
-   "cat": "fruits"
-  },
-  {
-   "id": "pruneaux",
-   "nom": "Pruneaux",
-   "cat": "fruits"
-  },
-  {
-   "id": "orange",
-   "nom": "Orange",
-   "cat": "fruits"
-  },
-  {
-   "id": "oeuf",
-   "nom": "Œuf",
-   "cat": "viandes"
-  },
-  {
-   "id": "poulet",
-   "nom": "Poulet",
-   "cat": "viandes"
-  },
-  {
-   "id": "agneau",
-   "nom": "Agneau",
-   "cat": "viandes"
-  },
-  {
-   "id": "boeuf",
-   "nom": "Bœuf",
-   "cat": "viandes"
-  },
-  {
-   "id": "mouton",
-   "nom": "Mouton",
-   "cat": "viandes"
-  },
-  {
-   "id": "crevettes",
-   "nom": "Crevettes",
-   "cat": "mer"
-  },
-  {
-   "id": "poisson-blanc",
-   "nom": "Poisson blanc (cabillaud, bar, dorade, carpe)",
-   "cat": "mer"
-  },
-  {
-   "id": "saumon",
-   "nom": "Saumon",
-   "cat": "mer"
-  },
-  {
-   "id": "huitres",
-   "nom": "Huîtres",
-   "cat": "mer"
-  },
-  {
-   "id": "moules",
-   "nom": "Moules",
-   "cat": "mer"
-  },
-  {
-   "id": "poulpe",
-   "nom": "Poulpe",
-   "cat": "mer"
-  },
-  {
-   "id": "calamar",
-   "nom": "Calamar",
-   "cat": "mer"
-  },
-  {
-   "id": "tofu",
-   "nom": "Tofu",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "lentilles",
-   "nom": "Lentilles corail",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "mungo",
-   "nom": "Haricots mungo",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "azuki",
-   "nom": "Haricots azuki",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "haricots-noirs",
-   "nom": "Haricots noirs",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "sesame-noir",
-   "nom": "Sésame noir",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "noix",
-   "nom": "Noix",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "amandes",
-   "nom": "Amandes",
-   "cat": "legumineuses"
-  },
-  {
-   "id": "dattes",
-   "nom": "Dattes rouges (jujubes)",
-   "cat": "asie"
-  },
-  {
-   "id": "goji",
-   "nom": "Baies de goji",
-   "cat": "asie"
-  },
-  {
-   "id": "longane",
-   "nom": "Longanes séchées",
-   "cat": "asie"
-  },
-  {
-   "id": "lotus",
-   "nom": "Graines de lotus",
-   "cat": "asie"
-  },
-  {
-   "id": "tremelle",
-   "nom": "Trémelle (champignon blanc)",
-   "cat": "asie"
-  },
-  {
-   "id": "shan-yao",
-   "nom": "Igname de Chine (Shan Yao)",
-   "cat": "asie"
-  },
-  {
-   "id": "huang-qi",
-   "nom": "Astragale (Huang Qi)",
-   "cat": "asie"
-  },
-  {
-   "id": "dang-gui",
-   "nom": "Angélique chinoise (Dang Gui)",
-   "cat": "asie"
-  },
-  {
-   "id": "mandarine",
-   "nom": "Écorce de mandarine (Chen Pi)",
-   "cat": "asie"
-  },
-  {
-   "id": "gingembre",
-   "nom": "Gingembre frais",
-   "cat": "aromates"
-  },
-  {
-   "id": "cannelle",
-   "nom": "Cannelle",
-   "cat": "aromates"
-  },
-  {
-   "id": "menthe",
-   "nom": "Menthe fraîche",
-   "cat": "aromates"
-  },
-  {
-   "id": "chrysantheme",
-   "nom": "Fleurs de chrysanthème",
-   "cat": "aromates"
-  },
-  {
-   "id": "rose",
-   "nom": "Boutons de rose séchés",
-   "cat": "aromates"
-  },
-  {
-   "id": "miel",
-   "nom": "Miel",
-   "cat": "aromates"
-  },
-  {
-   "id": "ail",
-   "nom": "Ail",
-   "cat": "aromates"
-  },
-  {
-   "id": "anis-etoile",
-   "nom": "Anis étoilé (badiane)",
-   "cat": "aromates"
-  },
-  {
-   "id": "ciboule-chinoise",
-   "nom": "Ciboule chinoise (jiu cai)",
-   "cat": "legumes"
-  },
-  {
-   "id": "fenouil",
-   "nom": "Fenouil",
-   "cat": "legumes"
-  },
-  {
-   "id": "concombre",
-   "nom": "Concombre",
-   "cat": "legumes"
-  },
-  {
-   "id": "chataignes",
-   "nom": "Châtaignes",
-   "cat": "fruits"
-  },
-  {
-   "id": "canard",
-   "nom": "Canard",
-   "cat": "viandes"
-  },
-  {
-   "id": "foies-volaille",
-   "nom": "Foies de volaille",
-   "cat": "viandes"
-  },
-  {
-   "id": "os-boeuf",
-   "nom": "Os à moelle de bœuf",
-   "cat": "viandes"
-  },
-  {
-   "id": "qian-shi",
-   "nom": "Euryale (qian shi)",
-   "cat": "asie"
-  },
-  {
-   "id": "wakame",
-   "nom": "Algue wakame",
-   "cat": "asie"
-  },
-  {
-   "id": "champignons-noirs",
-   "nom": "Champignons noirs (mu er)",
-   "cat": "asie"
-  },
-  {
-   "id": "graines-fenouil",
-   "nom": "Graines de fenouil",
-   "cat": "aromates"
+   "id": "froid",
+   "nom": "Jus et boissons fraîches",
+   "zh": "鲜汁",
+   "py": "xiānzhī",
+   "texte": "À boire à température ambiante, jamais glacés."
   }
  ]
 }

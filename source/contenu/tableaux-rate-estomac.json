@@ -102,7 +102,23 @@
     "congee-shan-yao",
     "poulet-shiitake",
     "boeuf-brocoli",
-    "poisson-vapeur"
+    "poisson-vapeur",
+    "bouillie-millet-astragale",
+    "congee-coques-cacahuetes",
+    "congee-poria",
+    "bouillie-igname-farine",
+    "congee-riz-gluant-dattes",
+    "congee-avoine-pomme",
+    "congee-mais-millet",
+    "boeuf-radis-blanc",
+    "canard-feuille-lotus",
+    "courge-cireuse-shiitakes",
+    "courge-cireuse-vapeur",
+    "lapin-sesame-noir",
+    "jus-pomme-carotte",
+    "the-orge-grillee",
+    "carottes-miel",
+    "gateau-igname-fruits-secs"
    ],
    "privilegier": "Repas chauds, cuits et réguliers : riz, millet, courge, patate douce, carotte, dattes, poulet.",
    "eviter": "Cru, froid, sucre, laitages, grignotage, manger devant un écran.",
@@ -209,7 +225,9 @@
     "congee-courge-carotte",
     "infusion-gingembre-cannelle",
     "congee-millet-patate-douce",
-    "soupe-mouton-radis"
+    "soupe-mouton-radis",
+    "congee-riz-gluant-dattes",
+    "rognons-agneau-muscade"
    ],
    "privilegier": "Gingembre, cannelle, poireau, courge, riz, flocons d'avoine cuits, bouillons, agneau en hiver.",
    "eviter": "Boissons froides, glaces, fruits crus, salades, marcher pieds nus sur le carrelage.",
@@ -300,7 +318,8 @@
     "congee-shan-yao",
     "congee-poulet",
     "boeuf-carottes-dattes",
-    "congee-qian-shi"
+    "congee-qian-shi",
+    "bouillie-millet-astragale"
    ],
    "privilegier": "Comme pour le vide de Qi de la Rate, avec l'astragale (Huang Qi) en bouillon.",
    "eviter": "Porter lourd, rester debout longtemps, pousser fort aux toilettes.",
@@ -503,7 +522,14 @@
     "congee-orge-azuki",
     "infusion-chen-pi",
     "congee-courge-carotte",
-    "soupe-poisson-azuki"
+    "soupe-poisson-azuki",
+    "congee-poria",
+    "boeuf-radis-blanc",
+    "gateau-radis-vapeur",
+    "infusion-shan-zha",
+    "decoction-shan-zha-mandarine",
+    "infusion-coriandre-cardamome",
+    "soupe-azuki-sucree"
    ],
    "privilegier": "Orge perlé, haricots azuki, gingembre, zeste de mandarine, radis, riz.",
    "eviter": "Laitages, sucre, gras, pain blanc en excès, boissons froides, lieux humides.",
@@ -613,7 +639,17 @@
    "recettes": [
     "congee-orge-azuki",
     "soupe-mungo",
-    "bouillon-concombre-wakame"
+    "bouillon-concombre-wakame",
+    "congee-mais-millet",
+    "soupe-yin-chen-mai-ya",
+    "omelette-pourpier",
+    "soupe-courge-cireuse-crevettes",
+    "canard-feuille-lotus",
+    "courge-cireuse-shiitakes",
+    "courge-cireuse-vapeur",
+    "infusion-chrysantheme-shan-zha-cassia",
+    "salade-wakame-sesame",
+    "soupe-azuki-sucree"
    ],
    "privilegier": "Orge perlé, haricots mungo et azuki, céleri, radis, concombre cuit, riz.",
    "eviter": "Alcool, friture, sucre, viande grasse, épices fortes, laitages.",
@@ -714,7 +750,15 @@
     "soupe-tremelle",
     "congee-shan-yao",
     "poire-vapeur-amandes",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "soupe-epinards-tremelle",
+    "soupe-chou-chinois-tofu",
+    "carpe-vapeur-the-vert",
+    "igname-vapeur",
+    "jus-canne-gingembre",
+    "bananes-sesame-noir",
+    "concombre-ecrase-ail",
+    "tofu-cebette"
    ],
    "privilegier": "Soupes, congee, igname, trémelle, poire, tofu, œufs, sésame. Mange à heures fixes.",
    "eviter": "Épices, café, alcool, grillades, manger tard le soir ou en travaillant.",
@@ -809,7 +853,14 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "saute-celeri-tofu"
+    "saute-celeri-tofu",
+    "carpe-vapeur-the-vert",
+    "jus-pasteque-menthe",
+    "eau-concombre-menthe",
+    "concombre-ecrase-ail",
+    "salade-chou-chinois",
+    "tofu-cebette",
+    "gelee-pasteque"
    ],
    "privilegier": "Légumes verts, concombre, poire, tofu, haricots mungo, céréales complètes, eau à température ambiante.",
    "eviter": "Épices, alcool, café, friture, grillades, agneau, excès de viande rouge.",
@@ -989,7 +1040,19 @@
    ],
    "recettes": [
     "soupe-radis-gingembre",
-    "infusion-chen-pi"
+    "infusion-chen-pi",
+    "congee-ecorce-pamplemousse",
+    "soupe-chou-chinois-tofu",
+    "boeuf-radis-blanc",
+    "galettes-radis-mandarine",
+    "gateau-radis-vapeur",
+    "poulet-carottes-chen-pi",
+    "infusion-shan-zha",
+    "decoction-shan-zha-mandarine",
+    "shan-zha-miel-sommeil",
+    "infusion-coriandre-cardamome",
+    "the-orge-grillee",
+    "salade-chou-chinois"
    ],
    "privilegier": "Sauter un repas ou manger léger (bouillon, congee), radis, zeste de mandarine.",
    "eviter": "Se coucher juste après manger, dîner copieux.",
@@ -1082,7 +1145,10 @@
    "recettes": [
     "congee-courge-carotte",
     "infusion-chen-pi",
-    "poisson-vapeur"
+    "poisson-vapeur",
+    "jus-canne-gingembre",
+    "jus-ciboule-gingembre",
+    "infusion-coriandre-cardamome"
    ],
    "privilegier": "Gingembre frais, congee, petits repas chauds.",
    "eviter": "Gras, repas copieux, s'allonger juste après manger.",

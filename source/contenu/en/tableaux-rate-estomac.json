@@ -102,7 +102,23 @@
     "congee-shan-yao",
     "poulet-shiitake",
     "boeuf-brocoli",
-    "poisson-vapeur"
+    "poisson-vapeur",
+    "bouillie-millet-astragale",
+    "congee-coques-cacahuetes",
+    "congee-poria",
+    "bouillie-igname-farine",
+    "congee-riz-gluant-dattes",
+    "congee-avoine-pomme",
+    "congee-mais-millet",
+    "boeuf-radis-blanc",
+    "canard-feuille-lotus",
+    "courge-cireuse-shiitakes",
+    "courge-cireuse-vapeur",
+    "lapin-sesame-noir",
+    "jus-pomme-carotte",
+    "the-orge-grillee",
+    "carottes-miel",
+    "gateau-igname-fruits-secs"
    ],
    "privilegier": "Warm, cooked, regular meals: rice, millet, squash, sweet potato, carrot, dates, chicken.",
    "eviter": "Raw and cold food, sugar, dairy, snacking, eating in front of a screen.",
@@ -209,7 +225,9 @@
     "congee-courge-carotte",
     "infusion-gingembre-cannelle",
     "congee-millet-patate-douce",
-    "soupe-mouton-radis"
+    "soupe-mouton-radis",
+    "congee-riz-gluant-dattes",
+    "rognons-agneau-muscade"
    ],
    "privilegier": "Ginger, cinnamon, leek, squash, rice, cooked oatmeal, broths, lamb in winter.",
    "eviter": "Cold drinks, ice cream, raw fruit, salads, walking barefoot on tiled floors.",
@@ -300,7 +318,8 @@
     "congee-shan-yao",
     "congee-poulet",
     "boeuf-carottes-dattes",
-    "congee-qian-shi"
+    "congee-qian-shi",
+    "bouillie-millet-astragale"
    ],
    "privilegier": "As for Spleen Qi Deficiency, plus astragalus (Huang Qi) cooked in broth.",
    "eviter": "Carrying heavy loads, standing for long periods, straining hard on the toilet.",
@@ -503,7 +522,14 @@
     "congee-orge-azuki",
     "infusion-chen-pi",
     "congee-courge-carotte",
-    "soupe-poisson-azuki"
+    "soupe-poisson-azuki",
+    "congee-poria",
+    "boeuf-radis-blanc",
+    "gateau-radis-vapeur",
+    "infusion-shan-zha",
+    "decoction-shan-zha-mandarine",
+    "infusion-coriandre-cardamome",
+    "soupe-azuki-sucree"
    ],
    "privilegier": "Pearl barley, adzuki beans, ginger, mandarin peel, radish, rice.",
    "eviter": "Dairy, sugar, fatty food, too much white bread, cold drinks, damp places.",
@@ -613,7 +639,17 @@
    "recettes": [
     "congee-orge-azuki",
     "soupe-mungo",
-    "bouillon-concombre-wakame"
+    "bouillon-concombre-wakame",
+    "congee-mais-millet",
+    "soupe-yin-chen-mai-ya",
+    "omelette-pourpier",
+    "soupe-courge-cireuse-crevettes",
+    "canard-feuille-lotus",
+    "courge-cireuse-shiitakes",
+    "courge-cireuse-vapeur",
+    "infusion-chrysantheme-shan-zha-cassia",
+    "salade-wakame-sesame",
+    "soupe-azuki-sucree"
    ],
    "privilegier": "Pearl barley, mung and adzuki beans, celery, radish, cooked cucumber, rice.",
    "eviter": "Alcohol, fried food, sugar, fatty meat, strong spices, dairy.",
@@ -714,7 +750,15 @@
     "soupe-tremelle",
     "congee-shan-yao",
     "poire-vapeur-amandes",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "soupe-epinards-tremelle",
+    "soupe-chou-chinois-tofu",
+    "carpe-vapeur-the-vert",
+    "igname-vapeur",
+    "jus-canne-gingembre",
+    "bananes-sesame-noir",
+    "concombre-ecrase-ail",
+    "tofu-cebette"
    ],
    "privilegier": "Soups, congee, Chinese yam, snow fungus (tremella), pear, tofu, eggs, sesame. Eat at set times.",
    "eviter": "Spices, coffee, alcohol, grilled food, eating late at night or while working.",
@@ -809,7 +853,14 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "saute-celeri-tofu"
+    "saute-celeri-tofu",
+    "carpe-vapeur-the-vert",
+    "jus-pasteque-menthe",
+    "eau-concombre-menthe",
+    "concombre-ecrase-ail",
+    "salade-chou-chinois",
+    "tofu-cebette",
+    "gelee-pasteque"
    ],
    "privilegier": "Green vegetables, cucumber, pear, tofu, mung beans, whole grains, room-temperature water.",
    "eviter": "Spices, alcohol, coffee, fried food, grilled food, lamb, too much red meat.",
@@ -989,7 +1040,19 @@
    ],
    "recettes": [
     "soupe-radis-gingembre",
-    "infusion-chen-pi"
+    "infusion-chen-pi",
+    "congee-ecorce-pamplemousse",
+    "soupe-chou-chinois-tofu",
+    "boeuf-radis-blanc",
+    "galettes-radis-mandarine",
+    "gateau-radis-vapeur",
+    "poulet-carottes-chen-pi",
+    "infusion-shan-zha",
+    "decoction-shan-zha-mandarine",
+    "shan-zha-miel-sommeil",
+    "infusion-coriandre-cardamome",
+    "the-orge-grillee",
+    "salade-chou-chinois"
    ],
    "privilegier": "Skip a meal or eat light (broth, congee), radish, mandarin peel.",
    "eviter": "Lying down right after eating, heavy dinners.",
@@ -1082,7 +1145,10 @@
    "recettes": [
     "congee-courge-carotte",
     "infusion-chen-pi",
-    "poisson-vapeur"
+    "poisson-vapeur",
+    "jus-canne-gingembre",
+    "jus-ciboule-gingembre",
+    "infusion-coriandre-cardamome"
    ],
    "privilegier": "Fresh ginger, congee, small warm meals.",
    "eviter": "Fatty food, big meals, lying down right after eating.",

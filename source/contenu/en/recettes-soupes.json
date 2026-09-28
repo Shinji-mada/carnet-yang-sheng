@@ -1,0 +1,1608 @@
+{
+ "fiches": [
+  {
+   "id": "soupe-ble-reglisse-jujubes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 200,
+   "genre": "soupe",
+   "axe": "coeur",
+   "titre": "Wheat, licorice and jujube soup",
+   "zh": "甘麦大枣汤",
+   "py": "gān mài dàzǎo tāng",
+   "contexte": "A classic recipe to settle the Heart and the mind: it tonifies Qi and nourishes Yin. For restless nights, nervousness, frayed emotions, and menopausal hot flashes with night sweats.",
+   "principe": {
+    "zh": "养心安神",
+    "py": "Yǎng xīn ān shén",
+    "fr": "Nourish the Heart, calm the mind"
+   },
+   "precautions": "Licorice raises blood pressure and makes the body hold on to water: avoid this dish if you have high blood pressure, swollen legs (edema), heart or kidney disease, and during pregnancy. If you take any medication (diuretics, cortisone, heart medication), ask your doctor first. No more than 2 to 3 weeks in a row. Contains gluten.",
+   "portions": 2,
+   "duree": "1 h 30 (+ overnight soaking)",
+   "ingredients": [
+    {
+     "id": "ble",
+     "q": 50,
+     "u": "g",
+     "nom": "whole wheat berries, rinsed",
+     "cle": "ble",
+     "note": "In organic stores, in the grains aisle (soft wheat or spelt berries)."
+    },
+    {
+     "id": "reglisse",
+     "q": 10,
+     "u": "g",
+     "nom": "sliced licorice root (gan cao)",
+     "cle": "gan-cao",
+     "note": "From a Chinese herbal shop or a specialist pharmacy. The traditional recipe uses up to 15 g; 10 g is enough at home."
+    },
+    {
+     "id": "dattes",
+     "q": 5,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the wheat",
+       "texte": "The day before, rinse the wheat ({ble}) and leave it to soak overnight in a large bowl of cold water."
+      },
+      {
+       "titre": "Make the decoction",
+       "texte": "Put the licorice ({reglisse}) in a pot with the water ({eau}). Bring to a boil, then let it simmer with the lid on.",
+       "s": 1200
+      },
+      {
+       "titre": "Remove the licorice",
+       "texte": "Lift out the licorice slices with a slotted spoon, or strain the decoction and pour it back into the pot."
+      },
+      {
+       "titre": "Cook the wheat",
+       "texte": "Drain the wheat and add it to the decoction with the jujubes ({dattes}). Cook over low heat with the lid ajar, stirring now and then: the grains should burst open and the broth thicken. Add a little hot water if it runs low.",
+       "s": 3600
+      },
+      {
+       "titre": "Serve in two parts",
+       "texte": "Divide between two bowls: one in the morning, one in the evening, warm. Eat the grains and the jujubes (watch out for the pits)."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Soak the wheat",
+       "texte": "The day before, rinse the wheat ({ble}) and leave it to soak overnight in a large bowl of cold water."
+      },
+      {
+       "titre": "Make the decoction",
+       "texte": "Put the licorice ({reglisse}) in the pressure cooker with the water ({eau}), without locking the lid. Bring to a boil, then let it simmer.",
+       "s": 1200
+      },
+      {
+       "titre": "Remove the licorice",
+       "texte": "Lift out the licorice slices with a slotted spoon."
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Add the drained wheat and the jujubes ({dattes}). Lock the lid and start timing once it reaches pressure, over low heat.",
+       "s": 1500
+      },
+      {
+       "titre": "Let it rest",
+       "texte": "Let the pressure drop on its own, then open and stir: it should be creamy. Serve in two parts, morning and evening.",
+       "s": 600
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You can make it in the evening for the next day: it keeps 2 days in the fridge. Reheat it with a little water.",
+    "It's usually taken for 1 to 2 weeks. If sleep problems persist, talk to a practitioner."
+   ],
+   "tags": [
+    "sleep",
+    "menopause",
+    "anxiety",
+    "Heart",
+    "wheat"
+   ]
+  },
+  {
+   "id": "bouillon-huitres-gingembre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 201,
+   "genre": "soupe",
+   "axe": "yin",
+   "titre": "Ginger oyster broth",
+   "zh": "牡蛎汤",
+   "py": "mǔlì tāng",
+   "contexte": "Oysters nourish Liver and Kidney Yin and help bring down the Yang that rises to the head: headaches, dizziness, irritability, night sweats. If you have high blood pressure, this broth goes alongside your medical care, it never replaces it.",
+   "principe": {
+    "zh": "滋阴潜阳",
+    "py": "Zī yīn qián yáng",
+    "fr": "Nourish Yin, bring the Yang back down"
+   },
+   "precautions": "Seafood allergy: avoid. The oysters must be very fresh (tightly closed shells) and cooked. Slightly cooling: go easy on it if you have a cold belly and soft stools. If you have high blood pressure, use very little salt and keep taking your treatment.",
+   "portions": 2,
+   "duree": "1 h 20",
+   "ingredients": [
+    {
+     "id": "huitres",
+     "q": 12,
+     "nom": "fresh oysters, with their shells",
+     "cle": "huitres",
+     "note": "Ask your fishmonger to open them and give you the shells separately. If you have no shells: 30 g of crushed oyster shell (mu li) from a Chinese herbal shop."
+    },
+    {
+     "id": "eau",
+     "q": 1200,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "fecule",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "cornstarch or potato starch"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "fresh ginger, in thin matchsticks",
+     "cle": "gingembre"
+    },
+    {
+     "id": "ciboulette",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "chopped chives",
+     "cle": "ciboulette"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Open the oysters",
+       "texte": "Open the oysters ({huitres}) over a bowl to catch their liquor. Loosen the flesh and keep it in the fridge. Scrub the empty shells under cold water."
+      },
+      {
+       "titre": "Simmer the shells",
+       "texte": "Put the shells in a large pot with the water ({eau}). Bring to a boil, then let it simmer with the lid on, over low heat.",
+       "s": 3600
+      },
+      {
+       "titre": "Strain the broth",
+       "texte": "Strain the broth through a fine sieve and discard the shells. Add the strained oyster liquor, the soy sauce ({soja}) and the salt ({sel}), then bring back to a simmer."
+      },
+      {
+       "titre": "Coat the oysters",
+       "texte": "Drain the oysters and roll them in the starch ({fecule}): they'll stay tender."
+      },
+      {
+       "titre": "Poach the oysters",
+       "texte": "Slip the oysters into the simmering broth with the ginger ({gingembre}). Don't let it boil hard: they're done when their edges curl.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Off the heat, add the chives ({ciboulette}) and a few drops of sesame oil ({sesame}). Serve hot."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Open the oysters",
+       "texte": "Open the oysters ({huitres}) over a bowl to catch their liquor. Loosen the flesh and keep it in the fridge. Scrub the empty shells under cold water."
+      },
+      {
+       "titre": "Pressure-cook the shells",
+       "texte": "Put the shells in the pressure cooker with the water ({eau}). Lock the lid and start timing once it reaches pressure, over low heat.",
+       "s": 1500
+      },
+      {
+       "titre": "Let the pressure drop",
+       "texte": "Turn off the heat and let the pressure drop on its own.",
+       "s": 600
+      },
+      {
+       "titre": "Strain the broth",
+       "texte": "Strain the broth and discard the shells. Add the strained oyster liquor, the soy sauce ({soja}) and the salt ({sel}), then bring back to a simmer with the lid off."
+      },
+      {
+       "titre": "Coat the oysters",
+       "texte": "Drain the oysters and roll them in the starch ({fecule})."
+      },
+      {
+       "titre": "Poach the oysters",
+       "texte": "Slip the oysters into the simmering broth with the ginger ({gingembre}), without letting it boil hard.",
+       "s": 120
+      },
+      {
+       "titre": "Serve",
+       "texte": "Off the heat, add the chives ({ciboulette}) and a few drops of sesame oil ({sesame}). Serve hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The oyster liquor is already salty: taste before adding salt.",
+    "The shell broth keeps 2 days in the fridge: then you only need to poach the oysters at the last minute."
+   ],
+   "tags": [
+    "oysters",
+    "dizziness",
+    "headache",
+    "Liver",
+    "Yin"
+   ]
+  },
+  {
+   "id": "soupe-epinards-tremelle",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 202,
+   "genre": "soupe",
+   "axe": "yin",
+   "titre": "Spinach and tremella soup",
+   "zh": "菠菜银耳汤",
+   "py": "bōcài yín'ěr tāng",
+   "contexte": "A gentle soup that nourishes Yin and replenishes body fluids: for a dry mouth, thirst and constipation with dry stools. If you have diabetes, it goes alongside your medical care, never instead of it.",
+   "principe": {
+    "zh": "滋阴润燥",
+    "py": "Zī yīn rùn zào",
+    "fr": "Nourish Yin, moisten Dryness"
+   },
+   "precautions": "Rather cooling: go easy on it if you have a cold belly or soft stools. Spinach is rich in oxalates (limit it if you get kidney stones) and in vitamin K: if you take an anticoagulant, keep the amounts steady and talk to your doctor.",
+   "portions": 2,
+   "duree": "1 h 10",
+   "ingredients": [
+    {
+     "id": "tremelle",
+     "q": 10,
+     "u": "g",
+     "nom": "dried tremella (white fungus)",
+     "cle": "tremelle",
+     "note": "In Asian grocery stores, as pale golden balls in bags."
+    },
+    {
+     "id": "epinards",
+     "q": 200,
+     "u": "g",
+     "nom": "fresh spinach, thick stems removed",
+     "cle": "epinards"
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "sesame",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the tremella",
+       "texte": "Soak the tremella ({tremelle}) in a large bowl of warm water: it will swell and soften.",
+       "s": 1800
+      },
+      {
+       "titre": "Prepare",
+       "texte": "Cut off the hard, yellowish base of the tremella, then tear it into small pieces. Wash the spinach ({epinards}) in plenty of water and chop it roughly."
+      },
+      {
+       "titre": "Cook the tremella",
+       "texte": "Put the tremella in the water ({eau}) with the ginger ({gingembre}). Bring to a boil, then let it simmer with the lid on: it should turn tender and slightly jelly-like.",
+       "s": 1800
+      },
+      {
+       "titre": "Add the spinach",
+       "texte": "Add the spinach and cook just until it wilts.",
+       "s": 180
+      },
+      {
+       "titre": "Season",
+       "texte": "Add salt ({sel}) and a few drops of sesame oil ({sesame}), and serve hot, with rice or bread."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Soak the tremella",
+       "texte": "Soak the tremella ({tremelle}) in a large bowl of warm water.",
+       "s": 1800
+      },
+      {
+       "titre": "Prepare",
+       "texte": "Cut off the hard base of the tremella and tear it into small pieces. Wash the spinach ({epinards}) and chop it roughly."
+      },
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put the tremella, water ({eau}) and ginger ({gingembre}) in the pressure cooker. Lock the lid and start timing once it reaches pressure, over low heat.",
+       "s": 600
+      },
+      {
+       "titre": "Add the spinach",
+       "texte": "Let the pressure drop, open, add the spinach and let it simmer uncovered.",
+       "s": 180
+      },
+      {
+       "titre": "Season",
+       "texte": "Add salt ({sel}) and a few drops of sesame oil ({sesame}), and serve hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You can have it once or twice a day, for 3 to 4 weeks.",
+    "For a less astringent soup, blanch the spinach for 1 minute in another pot first."
+   ],
+   "tags": [
+    "spinach",
+    "tremella",
+    "constipation",
+    "thirst",
+    "Yin"
+   ]
+  },
+  {
+   "id": "soupe-nori-tofu",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 203,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Nori seaweed and tofu soup",
+   "zh": "紫菜豆腐汤",
+   "py": "zǐcài dòufu tāng",
+   "contexte": "A light soup that helps transform Phlegm (mucus) and clear Heat. It's also recommended for high cholesterol: in that case it goes alongside your medical care, never instead of it.",
+   "principe": {
+    "zh": "化痰清热",
+    "py": "Huà tán qīng rè",
+    "fr": "Transform Phlegm, clear Heat"
+   },
+   "precautions": "Seaweed is very rich in iodine: if you have a thyroid problem (nodule, goiter, thyroid medication), ask your doctor before eating it often. Rather cooling: go easy on it if you have a cold belly and soft stools.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "nori",
+     "q": 2,
+     "nom": "sheets of nori (dried seaweed)",
+     "cle": "algues",
+     "note": "The sheets used for sushi rolls (Asian aisle of supermarkets), or about 5 g of zicai seaweed cakes from Asian grocery stores."
+    },
+    {
+     "id": "tofu",
+     "q": 200,
+     "u": "g",
+     "nom": "silken (soft) tofu",
+     "cle": "tofu"
+    },
+    {
+     "id": "poulet",
+     "q": 60,
+     "u": "g",
+     "nom": "chicken breast (optional)",
+     "cle": "poulet",
+     "note": "Optional: the soup is just as good without chicken."
+    },
+    {
+     "id": "gingembre",
+     "q": 2,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 700,
+     "u": "ml",
+     "nom": "water or vegetable stock",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "spring onion, thinly sliced",
+     "cle": "cebette"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Cut the tofu ({tofu}) into cubes and the chicken ({poulet}) into thin strips. Tear the nori ({nori}) into pieces."
+      },
+      {
+       "titre": "Heat the broth",
+       "texte": "Bring the water ({eau}) to a boil with the ginger ({gingembre})."
+      },
+      {
+       "titre": "Cook tofu and chicken",
+       "texte": "Slide the tofu into the broth and wait for it to come back to a boil. Add the chicken strips, separating them, and simmer until they're white all the way through.",
+       "s": 240
+      },
+      {
+       "titre": "Add the nori",
+       "texte": "Add the nori at the very end: it unfurls in a few seconds.",
+       "s": 60
+      },
+      {
+       "titre": "Season",
+       "texte": "Add salt ({sel}), sprinkle with spring onion ({cebette}) and drizzle with a few drops of sesame oil ({sesame}). Serve hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Plant-based version: leave out the chicken, or replace it with a few sliced shiitake mushrooms added at the same time as the tofu."
+   ],
+   "tags": [
+    "seaweed",
+    "tofu",
+    "Phlegm",
+    "cholesterol",
+    "light soup"
+   ]
+  },
+  {
+   "id": "soupe-yin-chen-mai-ya",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 204,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Capillary wormwood, sprouted barley and jujube soup",
+   "zh": "茵陈麦芽红枣汤",
+   "py": "yīnchén màiyá hóngzǎo tāng",
+   "contexte": "Capillary wormwood clears Heat and drains Dampness from the Liver; sprouted barley and jujubes look after the Spleen and Stomach. It is traditionally given for hepatitis: in that case it goes alongside your medical care, never instead of it.",
+   "principe": {
+    "zh": "清热利湿",
+    "py": "Qīng rè lì shī",
+    "fr": "Clear Heat, drain Dampness"
+   },
+   "precautions": "Hepatitis, jaundice (yellow skin or eyes), dark urine: see your doctor first; this soup does not replace any treatment. A cooling herb: not if you have a cold belly and soft stools. Avoid during pregnancy and breastfeeding (sprouted barley can reduce milk supply). If you take any medication, ask a practitioner for advice.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "yinchen",
+     "q": 15,
+     "u": "g",
+     "nom": "dried capillary wormwood (yin chen)",
+     "cle": "yin-chen",
+     "note": "From a Chinese herbal shop or a pharmacy that stocks Chinese herbs."
+    },
+    {
+     "id": "maiya",
+     "q": 20,
+     "u": "g",
+     "nom": "dried sprouted barley (mai ya)",
+     "cle": "mai-ya",
+     "note": "From the same place as the capillary wormwood."
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "cold water",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "whole cane sugar (optional)",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Rinse",
+       "texte": "Quickly rinse the wormwood ({yinchen}), the sprouted barley ({maiya}) and the jujubes ({dattes})."
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put them in a pot with the cold water ({eau}). Bring to a boil, then let it simmer over low heat with the lid on.",
+       "s": 1800
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain, keeping the jujubes and discarding the rest. Sweeten lightly ({sucre}) if you like."
+      },
+      {
+       "titre": "Drink",
+       "texte": "Drink half a bowl, warm, twice a day, morning and evening, and eat the jujubes."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Keep the second serving in the fridge and reheat it gently before drinking."
+   ],
+   "tags": [
+    "Liver",
+    "Dampness",
+    "bitter taste in the mouth",
+    "digestion",
+    "Chinese herbs"
+   ]
+  },
+  {
+   "id": "soupe-cebette-dou-chi",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 205,
+   "genre": "soupe",
+   "axe": "exterieur",
+   "titre": "Spring onion and fermented black soybean soup",
+   "zh": "葱豉汤",
+   "py": "cōng chǐ tāng",
+   "contexte": "A kitchen remedy for the very first signs of a cold caught from the cold: chills, clear runny nose, sneezing, with no thirst and no sore throat. It opens the Exterior (the outer layer of the body) to bring on a light sweat and drive out the Cold.",
+   "principe": {
+    "zh": "解表散寒",
+    "py": "Jiě biǎo sàn hán",
+    "fr": "Release the Exterior, disperse Cold"
+   },
+   "precautions": "Only for a cold from the cold that is just starting. Not if you have a sore throat, a high fever or yellow mucus. Sweat lightly, not heavily. See a doctor if the fever rises, if you have trouble breathing or if it lasts more than 3 days. Miso is salty: go easy if you have high blood pressure.",
+   "portions": 1,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "spring onions (the white part, with the roots)",
+     "cle": "cebette"
+    },
+    {
+     "id": "douchi",
+     "q": 10,
+     "u": "g",
+     "nom": "fermented black soybeans (dan dou chi)",
+     "cle": "dou-chi",
+     "note": "From a Chinese herbal shop (dan dou chi, unsalted). Otherwise, the salted fermented black beans sold in Asian grocery stores, well rinsed."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "miso",
+     "q": 1,
+     "u": "tsp",
+     "nom": "miso (or 1 teaspoon of soy sauce)",
+     "cle": "miso"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Wash the spring onions ({cebette}) well, keeping the roots. Cut the white parts into 3 cm pieces (save the green for another dish). Rinse the fermented soybeans ({douchi})."
+      },
+      {
+       "titre": "Cook the soybeans",
+       "texte": "Bring the water ({eau}) to a boil, add the fermented soybeans and let them simmer.",
+       "s": 180
+      },
+      {
+       "titre": "Add the spring onion",
+       "texte": "Add the white parts of the spring onions and simmer briefly to keep their aroma.",
+       "s": 120
+      },
+      {
+       "titre": "Season",
+       "texte": "Off the heat, dissolve the miso ({miso}) in a ladle of broth, then stir it into the pot: miso should not boil."
+      },
+      {
+       "titre": "Wrap up warm",
+       "texte": "Drink it very hot, then cover up (sweater, blanket or comforter) and rest until you sweat lightly. Change your clothes if they're damp and stay out of drafts."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "You can have it 2 to 3 times during the day while the chills last; stop as soon as you've sweated a little."
+   ],
+   "tags": [
+    "cold",
+    "chills",
+    "spring onion",
+    "Wind-Cold",
+    "winter"
+   ]
+  },
+  {
+   "id": "soupe-bai-he-zao-ren",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 206,
+   "genre": "soupe",
+   "axe": "coeur",
+   "titre": "Lily bulb and sour jujube seed soup",
+   "zh": "百合枣仁汤",
+   "py": "bǎihé zǎorén tāng",
+   "contexte": "An evening soup that nourishes Yin, cools the Heart and calms the mind: for insomnia, restlessness, and menopausal hot flashes with night sweats.",
+   "principe": {
+    "zh": "养阴安神",
+    "py": "Yǎng yīn ān shén",
+    "fr": "Nourish Yin, calm the mind"
+   },
+   "precautions": "Only use lily bulbs sold for cooking or by herbal shops, never bulbs of garden or florist lilies. Rather cooling: go easy on it if you have soft stools. Pregnancy, breastfeeding or sleep medication (sleeping pills, anti-anxiety drugs): ask a practitioner for advice.",
+   "portions": 1,
+   "duree": "1 h (+ overnight soaking)",
+   "ingredients": [
+    {
+     "id": "baihe",
+     "q": 20,
+     "u": "g",
+     "nom": "dried lily bulbs (bai he)",
+     "cle": "bai-he",
+     "note": "In Asian grocery stores or Chinese herbal shops. Fresh (vacuum-packed, in the chilled section): use 50 g, no soaking needed."
+    },
+    {
+     "id": "zaoren",
+     "q": 15,
+     "u": "g",
+     "nom": "sour jujube seeds (suan zao ren)",
+     "cle": "suan-zao-ren",
+     "note": "From a Chinese herbal shop or a specialist pharmacy."
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the lily",
+       "texte": "The day before, soak the lily bulbs ({baihe}) in a bowl of cold water."
+      },
+      {
+       "titre": "Crush the seeds",
+       "texte": "Roughly crush the sour jujube seeds ({zaoren}) with a mortar and pestle, or in a bag with a rolling pin."
+      },
+      {
+       "titre": "Make the decoction",
+       "texte": "Put the seeds in the water ({eau}), bring to a boil, then let it simmer with the lid on.",
+       "s": 1800
+      },
+      {
+       "titre": "Strain",
+       "texte": "Strain the decoction through a fine sieve and discard the seeds."
+      },
+      {
+       "titre": "Cook the lily",
+       "texte": "Drain the lily bulbs, add them to the decoction and cook over medium heat until tender.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve in the evening",
+       "texte": "Drink the decoction warm and eat the bulbs, once a day, about 1 hour before bed."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "If you find it a little bitter, add a small piece of rock sugar at the end of cooking."
+   ],
+   "tags": [
+    "sleep",
+    "menopause",
+    "night sweats",
+    "Heart",
+    "lily"
+   ]
+  },
+  {
+   "id": "oeufs-gingembre-armoise",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 207,
+   "genre": "soupe",
+   "axe": "yang",
+   "titre": "Ginger and mugwort eggs",
+   "zh": "生姜艾叶鸡蛋",
+   "py": "shēngjiāng àiyè jīdàn",
+   "contexte": "A home remedy for painful periods when the pain eases with warmth (a hot-water bottle on the belly): it warms the lower belly, disperses Cold and relieves pain.",
+   "principe": {
+    "zh": "温经散寒止痛",
+    "py": "Wēn jīng sàn hán zhǐ tòng",
+    "fr": "Warm the channels, disperse Cold, relieve pain"
+   },
+   "precautions": "A warming dish: not for heavy, early or bright red periods, nor if you tend to feel hot. Pregnancy and breastfeeding: ask a practitioner for advice. Don't exceed the dose and don't take it continuously. Very painful periods, periods that change, or pain that stops you from living normally need medical advice.",
+   "portions": 1,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "oeufs",
+     "q": 2,
+     "nom": "eggs, washed",
+     "cle": "oeuf"
+    },
+    {
+     "id": "aiye",
+     "q": 10,
+     "u": "g",
+     "nom": "dried mugwort leaves (ai ye)",
+     "cle": "ai-ye",
+     "note": "From a Chinese herbal shop. Buy loose mugwort sold for tea, not moxa sticks."
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "whole cane sugar (optional)",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Prepare",
+       "texte": "Roughly chop the mugwort ({aiye}), or put it in a cloth tea bag so no bits end up in the broth. Slice the ginger ({gingembre})."
+      },
+      {
+       "titre": "Cook the eggs",
+       "texte": "Bring the water ({eau}) to a boil with the mugwort and ginger, then gently lower in the eggs ({oeufs}) with a spoon. Cook at a gentle boil.",
+       "s": 600
+      },
+      {
+       "titre": "Peel",
+       "texte": "Take out the eggs, run them under cold water and peel them. Make a few small cuts in the whites so they soak up the flavor."
+      },
+      {
+       "titre": "Simmer again",
+       "texte": "Put the peeled eggs back in the decoction and let them simmer.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Strain the decoction and sweeten it ({sucre}) if you like. Eat the eggs and drink the decoction very hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Have it once a day, 5 days in a row, starting 2 to 3 days before your period is due.",
+    "During that time, keep a hot-water bottle on your lower belly and avoid iced drinks."
+   ],
+   "tags": [
+    "painful periods",
+    "Cold",
+    "Uterus",
+    "mugwort",
+    "ginger"
+   ]
+  },
+  {
+   "id": "oeuf-sucre-complet",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 208,
+   "genre": "dessert",
+   "axe": "sang",
+   "titre": "Egg in whole cane sugar syrup",
+   "zh": "红糖鸡蛋",
+   "py": "hóngtáng jīdàn",
+   "contexte": "A warm treat that nourishes Blood, helps it circulate and eases belly cramps: for the 2 or 3 days after your period, for painful periods, or after giving birth.",
+   "principe": {
+    "zh": "养血活血",
+    "py": "Yǎng xuè huó xuè",
+    "fr": "Nourish Blood and help it circulate"
+   },
+   "precautions": "Sweet: avoid if you have diabetes. Not during very heavy periods. After giving birth, if you have a fever, bleeding that increases or severe pain: call your midwife or doctor right away.",
+   "portions": 1,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "oeuf",
+     "q": 1,
+     "nom": "egg",
+     "cle": "oeuf"
+    },
+    {
+     "id": "sucre",
+     "q": 20,
+     "u": "g",
+     "nom": "whole cane sugar",
+     "cle": "sucre-complet",
+     "note": "Rapadura or muscovado both work."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Make the syrup",
+       "texte": "Dissolve the sugar ({sucre}) in the water ({eau}), bring to a boil and let it bubble gently.",
+       "s": 180
+      },
+      {
+       "titre": "Beat the egg",
+       "texte": "Beat the egg ({oeuf}) with a fork in a bowl."
+      },
+      {
+       "titre": "Cook the egg",
+       "texte": "Pour the egg in a thin stream into the simmering syrup, stirring gently: it forms ribbons. Let it cook.",
+       "s": 60
+      },
+      {
+       "titre": "Serve",
+       "texte": "Drink it hot, in small sips. Once a day."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The sugar is reduced compared with the traditional recipe (50 g): add a little more if you like it sweeter.",
+    "If your belly feels cold, add 2 slices of fresh ginger to the syrup.",
+    "You can also poach the whole egg in the syrup (3 minutes) instead of beating it."
+   ],
+   "tags": [
+    "periods",
+    "postpartum",
+    "Blood",
+    "egg"
+   ]
+  },
+  {
+   "id": "oeufs-jujubes-goji",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 209,
+   "genre": "soupe",
+   "axe": "essence",
+   "titre": "Eggs with jujubes and goji berries",
+   "zh": "大枣杞子鸡蛋",
+   "py": "dàzǎo qǐzǐ jīdàn",
+   "contexte": "A gentle broth that nourishes the Liver and Kidney and calms the mind: for restless nights and nervousness, when the lower back and knees feel weak.",
+   "principe": {
+    "zh": "补肝肾安神",
+    "py": "Bǔ gān shèn ān shén",
+    "fr": "Tonify the Liver and Kidney, calm the mind"
+   },
+   "precautions": "Jujubes are sweet and rich: go easy if you have a bloated belly, mucus or diarrhea. If you take an anticoagulant, ask your doctor (goji can interact with it).",
+   "portions": 1,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "dattes",
+     "q": 5,
+     "nom": "jujubes (Chinese red dates), slit open",
+     "cle": "dattes"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "goji berries",
+     "cle": "goji"
+    },
+    {
+     "id": "oeufs",
+     "q": 2,
+     "nom": "eggs, washed",
+     "cle": "oeuf"
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Put everything on",
+       "texte": "Rinse the jujubes ({dattes}) and put them in a small pot with the eggs ({oeufs}) and the water ({eau}). Bring to a boil, then cook at a gentle boil.",
+       "s": 600
+      },
+      {
+       "titre": "Peel",
+       "texte": "Take out the eggs, run them under cold water and peel them."
+      },
+      {
+       "titre": "Add the goji",
+       "texte": "Put the eggs back in the broth with the rinsed goji berries ({goji}) and let them simmer.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Eat the eggs and jujubes, and drink the broth. Once a day, ideally in the evening."
+      }
+     ]
+    }
+   ],
+   "notes": [],
+   "tags": [
+    "sleep",
+    "Kidney",
+    "Liver",
+    "goji",
+    "lower back"
+   ]
+  },
+  {
+   "id": "oeuf-vapeur-longane",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 210,
+   "genre": "dessert",
+   "axe": "coeur",
+   "titre": "Steamed egg with longan",
+   "zh": "龙眼肉蒸鸡蛋",
+   "py": "lóngyǎn ròu zhēng jīdàn",
+   "contexte": "A small evening treat that nourishes Blood and Yin and calms the mind: for insomnia and nights full of dreams.",
+   "principe": {
+    "zh": "养血安神",
+    "py": "Yǎng xuè ān shén",
+    "fr": "Nourish Blood, calm the mind"
+   },
+   "precautions": "Longan is sweet and warming: go easy if you have a lot of heat (dry mouth, mouth ulcers, constipation), mucus or a bloated belly. Diabetes: in moderation and with no added sugar.",
+   "portions": 1,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "oeuf",
+     "q": 1,
+     "nom": "egg",
+     "cle": "oeuf"
+    },
+    {
+     "id": "longane",
+     "q": 10,
+     "u": "g",
+     "nom": "dried longan flesh (about 6 fruits)",
+     "cle": "longane",
+     "note": "In Asian grocery stores, in bags: a brown, sticky flesh, already pitted."
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sugar (optional)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "In a steamer",
+     "etapes": [
+      {
+       "titre": "Soften the longan",
+       "texte": "Rinse the longan flesh ({longane}) and soak it in a little hot water.",
+       "s": 600
+      },
+      {
+       "titre": "Prepare the egg",
+       "texte": "Crack the egg ({oeuf}) into a ramekin without breaking the yolk. Sprinkle the white with sugar ({sucre})."
+      },
+      {
+       "titre": "First steaming",
+       "texte": "Steam the ramekin with the lid on until the white starts to set while the yolk is still runny.",
+       "s": 240
+      },
+      {
+       "titre": "Fill",
+       "texte": "Drain the longan and gently press it into the yolk."
+      },
+      {
+       "titre": "Finish steaming",
+       "texte": "Keep steaming until the egg is fully set.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Enjoy it warm, in the evening. Once a day."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "No steamer: set the ramekin in a pot with 2 cm of simmering water and cover.",
+    "The sugar is kept to a minimum: longan is already very sweet."
+   ],
+   "tags": [
+    "sleep",
+    "dreams",
+    "Blood",
+    "longan",
+    "egg"
+   ]
+  },
+  {
+   "id": "tremelle-oeufs-caille",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 211,
+   "genre": "dessert",
+   "axe": "essence",
+   "titre": "Quail eggs in tremella soup",
+   "zh": "银耳鹑蛋",
+   "py": "yín'ěr chúndàn",
+   "contexte": "A light sweet soup that tonifies the Kidney, nourishes Essence and supports the Heart and memory. It's also recommended for high cholesterol: in that case it goes alongside your medical care, never instead of it.",
+   "principe": {
+    "zh": "补肾益精",
+    "py": "Bǔ shèn yì jīng",
+    "fr": "Tonify the Kidney, enrich Essence"
+   },
+   "precautions": "Contains sugar: if you have diabetes, make it without the rock sugar. For pregnant women and young children, cook it longer until the egg yolks are fully set.",
+   "portions": 4,
+   "duree": "1 h 45",
+   "ingredients": [
+    {
+     "id": "tremelle",
+     "q": 15,
+     "u": "g",
+     "nom": "dried tremella (white fungus)",
+     "cle": "tremelle",
+     "note": "In Asian grocery stores, as pale golden balls in bags."
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "cold water",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 30,
+     "u": "g",
+     "nom": "rock sugar",
+     "cle": "sucre-candi"
+    },
+    {
+     "id": "oeufs",
+     "q": 12,
+     "nom": "quail eggs",
+     "cle": "oeufs-caille"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "In a steamer",
+     "etapes": [
+      {
+       "titre": "Soak the tremella",
+       "texte": "Rinse the tremella ({tremelle}) and soak it in a large bowl of warm water.",
+       "s": 1800
+      },
+      {
+       "titre": "Cut up",
+       "texte": "Cut off the hard, yellowish base, then cut the tremella into small pieces."
+      },
+      {
+       "titre": "Steam",
+       "texte": "Put the tremella in a large heatproof bowl with the cold water ({eau}) and the rock sugar ({sucre}). Steam with the lid on until it's tender and the liquid turns slightly syrupy. Keep an eye on the water level in the steamer.",
+       "s": 3600
+      },
+      {
+       "titre": "Poach the eggs",
+       "texte": "Crack the quail eggs ({oeufs}) one at a time straight into the hot soup and keep steaming.",
+       "s": 300
+      },
+      {
+       "titre": "Serve",
+       "texte": "Divide among 4 bowls, with 3 eggs each. Enjoy warm."
+      }
+     ]
+    },
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the tremella",
+       "texte": "Rinse the tremella ({tremelle}) and soak it in a large bowl of warm water.",
+       "s": 1800
+      },
+      {
+       "titre": "Cut up",
+       "texte": "Cut off the hard, yellowish base, then cut the tremella into small pieces."
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put the tremella in a pot with the water ({eau}). Bring to a boil, then let it simmer over low heat with the lid on, stirring now and then.",
+       "s": 2700
+      },
+      {
+       "titre": "Sweeten",
+       "texte": "Add the rock sugar ({sucre}) and let it melt, stirring.",
+       "s": 300
+      },
+      {
+       "titre": "Poach the eggs",
+       "texte": "Crack the quail eggs ({oeufs}) one at a time into the simmering soup, without stirring.",
+       "s": 180
+      },
+      {
+       "titre": "Serve",
+       "texte": "Divide among 4 bowls, with 3 eggs each. Enjoy warm."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "The traditional recipe uses 100 g of rock sugar: 30 g is enough for a lightly sweet soup.",
+    "To crack a quail egg, nick the shell with the tip of a knife, then open it over a cup.",
+    "Keeps 2 days in the fridge; reheat gently."
+   ],
+   "tags": [
+    "Kidney",
+    "Essence",
+    "tremella",
+    "quail eggs",
+    "memory"
+   ]
+  },
+  {
+   "id": "omelette-pourpier",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 212,
+   "genre": "plat",
+   "axe": "chaleur",
+   "titre": "Purslane omelet",
+   "zh": "马齿苋煎蛋",
+   "py": "mǎchǐxiàn jiāndàn",
+   "contexte": "Purslane clears Heat, eliminates Toxins and drains Dampness: a traditional omelet for sudden, burning, foul-smelling diarrhea.",
+   "principe": {
+    "zh": "清热解毒止痢",
+    "py": "Qīng rè jiě dú zhǐ lì",
+    "fr": "Clear Heat, eliminate Toxins, stop diarrhea"
+   },
+   "precautions": "Purslane is cold: not for lingering diarrhea with a cold belly, nor during pregnancy. Drink plenty to replace lost fluids. See a doctor quickly if there's a high fever, blood in the stools, diarrhea lasting more than 2 days, or if a baby or an elderly person is getting dehydrated.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "pourpier",
+     "q": 60,
+     "u": "g",
+     "nom": "fresh purslane (leaves and tender stems)",
+     "cle": "pourpier",
+     "note": "At markets in summer, or in the garden where it grows on its own. Pick it away from roads and wash it well."
+    },
+    {
+     "id": "oeufs",
+     "q": 4,
+     "nom": "eggs",
+     "cle": "oeuf"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "oil",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "In a frying pan or wok",
+     "etapes": [
+      {
+       "titre": "Prepare the purslane",
+       "texte": "Wash the purslane ({pourpier}) in plenty of water, drain it well and chop it finely."
+      },
+      {
+       "titre": "Beat the eggs",
+       "texte": "Beat the eggs ({oeufs}) with the salt ({sel}), then stir in the purslane."
+      },
+      {
+       "titre": "Cook",
+       "texte": "Heat the oil ({huile}) over medium heat in a frying pan, pour in the mixture and let it set without stirring.",
+       "s": 180
+      },
+      {
+       "titre": "Fold and finish",
+       "texte": "Fold the omelet in half and cook a little longer, until it's set all the way through.",
+       "s": 60
+      },
+      {
+       "titre": "Serve",
+       "texte": "Serve hot, with a bowl of rice or congee."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Outside of bouts of diarrhea, it's also a nice summer omelet, light and refreshing."
+   ],
+   "tags": [
+    "diarrhea",
+    "purslane",
+    "Heat",
+    "summer",
+    "intestines"
+   ]
+  },
+  {
+   "id": "soupe-courge-cireuse-crevettes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 213,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Winter melon soup with dried shrimp",
+   "zh": "虾米冬瓜汤",
+   "py": "xiāmǐ dōngguā tāng",
+   "contexte": "A summer soup that cools and drains Dampness: for heavy, hot days, slightly swollen legs, scanty dark urine, and that weighed-down kind of tiredness.",
+   "principe": {
+    "zh": "清暑利湿",
+    "py": "Qīng shǔ lì shī",
+    "fr": "Clear summer Heat, drain Dampness"
+   },
+   "precautions": "Shellfish allergy: replace the shrimp with 4 dried shiitake mushrooms. Rather cooling: go easy on it if you have a cold belly, soft stools, or if you already urinate a lot. Dried shrimp are salty: use little salt.",
+   "portions": 3,
+   "duree": "45 min",
+   "ingredients": [
+    {
+     "id": "courge",
+     "q": 500,
+     "u": "g",
+     "nom": "winter melon (dong gua)",
+     "cle": "courge-cireuse",
+     "note": "In Asian grocery stores, often sold in slices. Peel it thinly or keep the skin, well scrubbed: it boosts the draining effect. Otherwise, use zucchini (10 min of cooking)."
+    },
+    {
+     "id": "crevettes",
+     "q": 15,
+     "u": "g",
+     "nom": "dried shrimp",
+     "cle": "crevettes-sechees",
+     "note": "In Asian grocery stores, in bags."
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "spring onion, thinly sliced",
+     "cle": "cebette"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt",
+     "base": true
+    },
+    {
+     "id": "sesame",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the shrimp",
+       "texte": "Rinse the dried shrimp ({crevettes}) and soak them in a bowl of warm water. Keep the soaking water.",
+       "s": 900
+      },
+      {
+       "titre": "Prepare the melon",
+       "texte": "Remove the seeds and spongy center of the winter melon ({courge}), then cut it into 2 cm cubes."
+      },
+      {
+       "titre": "Start the broth",
+       "texte": "Put the shrimp, their soaking water, the water ({eau}) and the ginger ({gingembre}) in a pot. Bring to a boil, then let it simmer.",
+       "s": 600
+      },
+      {
+       "titre": "Cook the melon",
+       "texte": "Add the winter melon and simmer with the lid on until it turns translucent and meltingly soft.",
+       "s": 900
+      },
+      {
+       "titre": "Finish",
+       "texte": "Taste before adding salt ({sel}), sprinkle with spring onion ({cebette}) and add a few drops of sesame oil ({sesame})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "For a stronger draining effect, add a handful of Job's tears (yi yi ren), soaked the day before, when you start the broth, and cook 20 minutes longer."
+   ],
+   "tags": [
+    "summer",
+    "Dampness",
+    "winter melon",
+    "heavy legs",
+    "shrimp"
+   ]
+  },
+  {
+   "id": "soupe-chou-chinois-tofu",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 214,
+   "genre": "soupe",
+   "axe": "rate",
+   "titre": "Chinese cabbage soup with tofu and shiitake",
+   "zh": "白菜豆腐香菇汤",
+   "py": "báicài dòufu xiānggū tāng",
+   "contexte": "A light everyday soup that is kind to the Stomach, replenishes fluids and keeps things moving: ideal after overly rich meals, or when your mouth is dry and your stools a little hard.",
+   "principe": {
+    "zh": "养胃润肠",
+    "py": "Yǎng wèi rùn cháng",
+    "fr": "Nourish the Stomach, moisten the intestines"
+   },
+   "precautions": "Rather cooling: if you have a cold belly or soft stools, double the ginger.",
+   "portions": 3,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "shiitake",
+     "q": 6,
+     "nom": "dried shiitake mushrooms",
+     "cle": "shiitake",
+     "note": "Or 150 g of fresh shiitake, sliced, no soaking needed."
+    },
+    {
+     "id": "chou",
+     "q": 400,
+     "u": "g",
+     "nom": "Chinese cabbage (napa)",
+     "cle": "chou-chinois"
+    },
+    {
+     "id": "tofu",
+     "q": 200,
+     "u": "g",
+     "nom": "firm tofu",
+     "cle": "tofu"
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of fresh ginger",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "soy sauce",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "spring onion, thinly sliced",
+     "cle": "cebette"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sesame oil",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Soak the shiitake",
+       "texte": "Soak the shiitake ({shiitake}) in a bowl of hot water.",
+       "s": 1800
+      },
+      {
+       "titre": "Prepare",
+       "texte": "Drain the shiitake, keeping the water, remove the tough stems and slice the caps. Separate the white ribs of the cabbage ({chou}) from the green leaves and cut everything into strips. Cut the tofu ({tofu}) into cubes."
+      },
+      {
+       "titre": "Start the broth",
+       "texte": "Put the water ({eau}), the strained soaking water, the shiitake and the ginger ({gingembre}) in a pot. Bring to a boil, then let it simmer.",
+       "s": 900
+      },
+      {
+       "titre": "Add the ribs",
+       "texte": "Add the white cabbage ribs and let them simmer.",
+       "s": 300
+      },
+      {
+       "titre": "Add tofu and leaves",
+       "texte": "Add the tofu and the green leaves, and simmer gently.",
+       "s": 300
+      },
+      {
+       "titre": "Season",
+       "texte": "Add the soy sauce ({soja}), the spring onion ({cebette}) and a few drops of sesame oil ({sesame}). Serve hot."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Add a handful of glass noodles or a little rice to the bowl to make it a full meal."
+   ],
+   "tags": [
+    "digestion",
+    "Stomach",
+    "tofu",
+    "shiitake",
+    "light soup"
+   ]
+  }
+ ]
+}

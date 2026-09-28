@@ -1,0 +1,1523 @@
+{
+ "fiches": [
+  {
+   "id": "jus-canne-gingembre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 400,
+   "genre": "froid",
+   "axe": "rate",
+   "titre": "Jus de canne à sucre au gingembre",
+   "zh": "甘蔗姜汁",
+   "py": "gānzhè jiāng zhī",
+   "contexte": "La canne à sucre adoucit et hydrate l'Estomac, une pointe de gingembre le calme et le réchauffe. Un jus à siroter contre les nausées, le mal des transports et les nausées de la grossesse.",
+   "principe": {
+    "zh": "和胃止呕",
+    "py": "Hé wèi zhǐ ǒu",
+    "fr": "Harmoniser l'Estomac, calmer les nausées"
+   },
+   "precautions": "Très sucré : à éviter en cas de diabète. Bois-le à température ambiante, jamais glacé, et limite-le si tu as le ventre froid ou les selles molles. Enceinte, si tu vomis plusieurs fois par jour ou si tu ne gardes plus rien, consulte vite ta sage-femme ou ton médecin.",
+   "portions": 1,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "canne",
+     "q": 300,
+     "u": "ml",
+     "nom": "jus de canne à sucre nature, à température ambiante",
+     "cle": "canne-sucre",
+     "note": "En épicerie asiatique : frais, en bouteille ou surgelé (laisse-le décongeler au réfrigérateur). Choisis-le sans sucre ajouté."
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "gingembre frais (un morceau d'environ 3 cm)",
+     "cle": "gingembre"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Râper le gingembre",
+       "texte": "Épluche le gingembre ({gingembre}) avec le bord d'une cuillère et râpe-le finement."
+      },
+      {
+       "titre": "Presser le jus",
+       "texte": "Mets la pulpe dans un carré de tissu propre et presse-la fort au-dessus d'un bol : tu dois obtenir environ une cuillère à café de jus."
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Verse le jus de canne ({canne}) sur le jus de gingembre et mélange. Goûte : ajoute quelques gouttes de gingembre si tu le veux plus relevé."
+      },
+      {
+       "titre": "Boire à petites gorgées",
+       "texte": "Bois-le par petites quantités, une ou deux gorgées à la fois, réparties sur la journée ou sur le trajet."
+      }
+     ]
+    },
+    {
+     "id": "mixeur",
+     "nom": "Au mixeur ou à l'extracteur de jus",
+     "etapes": [
+      {
+       "titre": "Extraire le gingembre",
+       "texte": "Passe le gingembre ({gingembre}) à l'extracteur. Avec un mixeur : coupe-le en rondelles et mixe-le avec un tiers du jus de canne ({canne}), puis filtre dans une passoire fine en pressant bien la pulpe."
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Ajoute le reste du jus de canne et mélange."
+      },
+      {
+       "titre": "Boire à petites gorgées",
+       "texte": "Bois-le par petites quantités, réparties sur la journée ou sur le trajet."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le jus de canne frais tourne vite : garde-le 24 h au réfrigérateur au maximum et sors-le un moment avant de le boire.",
+    "En voyage, prépare-le le matin dans une petite bouteille."
+   ],
+   "tags": [
+    "nausées",
+    "mal des transports",
+    "grossesse",
+    "Estomac",
+    "gingembre"
+   ]
+  },
+  {
+   "id": "jus-celeri-frais",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 401,
+   "genre": "froid",
+   "axe": "chaleur",
+   "titre": "Jus de céleri frais",
+   "zh": "鲜芹菜汁",
+   "py": "xiān qíncài zhī",
+   "contexte": "Le céleri calme le Foie et rafraîchit : un jus pour l'irritabilité, la poitrine serrée par le stress ou la tension qui monte. En cas d'hypertension, il accompagne le suivi médical, il ne le remplace pas.",
+   "principe": {
+    "zh": "平肝清热",
+    "py": "Píng gān qīng rè",
+    "fr": "Calmer le Foie, clarifier la Chaleur"
+   },
+   "precautions": "Frais : bois-le à température ambiante, jamais glacé, et limite-le si tu as le ventre froid, les selles molles ou une tension basse. Ne change jamais ton traitement contre la tension sans l'avis de ton médecin. À éviter si tu es allergique au céleri.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "celeri",
+     "q": 250,
+     "u": "g",
+     "nom": "céleri branche (tiges et feuilles)",
+     "cle": "celeri"
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "eau (seulement avec un mixeur)",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel (facultatif)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "Au mixeur ou à l'extracteur de jus",
+     "etapes": [
+      {
+       "titre": "Préparer le céleri",
+       "texte": "Lave bien le céleri ({celeri}) et coupe-le en tronçons de 3 cm."
+      },
+      {
+       "titre": "Extraire le jus",
+       "texte": "Passe-le à l'extracteur. Avec un mixeur : mixe-le très finement avec l'eau ({eau})."
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre dans une passoire fine en pressant bien la pulpe avec le dos d'une cuillère."
+      },
+      {
+       "titre": "Assaisonner et boire",
+       "texte": "Ajoute une pincée de sel ({sel}) si tu aimes. Bois un petit verre le matin et un autre l'après-midi, à distance des repas."
+      }
+     ]
+    },
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Blanchir le céleri",
+       "texte": "Lave le céleri ({celeri}), coupe-le en tronçons et plonge-le dans une casserole d'eau bouillante.",
+       "s": 60
+      },
+      {
+       "titre": "Égoutter",
+       "texte": "Égoutte-le et laisse-le tiédir.",
+       "s": 300
+      },
+      {
+       "titre": "Mixer et filtrer",
+       "texte": "Mixe-le finement avec l'eau ({eau}), puis filtre en pressant bien la pulpe."
+      },
+      {
+       "titre": "Assaisonner et boire",
+       "texte": "Sale légèrement ({sel}) si tu veux. Bois-le en deux fois dans la journée, tiède ou à température ambiante."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le céleri blanchi donne un jus plus doux, mieux toléré si ton estomac est sensible.",
+    "Prépare-le le jour même : le jus s'oxyde vite."
+   ],
+   "tags": [
+    "tension",
+    "stress",
+    "irritabilité",
+    "Foie",
+    "céleri"
+   ]
+  },
+  {
+   "id": "jus-celeri-miel",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 402,
+   "genre": "chaud",
+   "axe": "chaleur",
+   "titre": "Jus de céleri mijoté au miel",
+   "zh": "蜜炖芹菜",
+   "py": "mì dùn qíncài",
+   "contexte": "Chauffé doucement et adouci au miel, le jus de céleri clarifie le Foie tout en ménageant la Rate et l'Estomac. Pour l'irritabilité ; en cas d'hépatite, il accompagne le suivi médical, sans jamais le remplacer.",
+   "principe": {
+    "zh": "清肝健脾",
+    "py": "Qīng gān jiàn pí",
+    "fr": "Clarifier le Foie, renforcer la Rate"
+   },
+   "precautions": "Diabète : réduis le miel ou supprime-le. Pas de miel pour un bébé de moins d'un an. Hépatite : ne remplace jamais ton traitement et parles-en à ton médecin.",
+   "portions": 1,
+   "duree": "25 min",
+   "ingredients": [
+    {
+     "id": "celeri",
+     "q": 150,
+     "u": "g",
+     "nom": "céleri branche, lavé et coupé en tronçons",
+     "cle": "celeri"
+    },
+    {
+     "id": "eau",
+     "q": 50,
+     "u": "ml",
+     "nom": "eau (seulement avec un mixeur)",
+     "base": true
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "miel",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Extraire le jus",
+       "texte": "Passe le céleri ({celeri}) à l'extracteur. Avec un mixeur : mixe-le finement avec l'eau ({eau}) et filtre en pressant bien la pulpe."
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Verse le jus dans une petite casserole et chauffe-le à feu très doux, sans le laisser bouillir.",
+       "s": 300
+      },
+      {
+       "titre": "Ajouter le miel",
+       "texte": "Hors du feu, laisse tiédir un peu, puis ajoute le miel ({miel}) en remuant.",
+       "s": 180
+      },
+      {
+       "titre": "Boire",
+       "texte": "Bois-le chaud mais pas brûlant, une fois par jour, de préférence le matin."
+      }
+     ]
+    },
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Extraire le jus",
+       "texte": "Passe le céleri ({celeri}) à l'extracteur. Avec un mixeur : mixe-le finement avec l'eau ({eau}) et filtre en pressant bien la pulpe."
+      },
+      {
+       "titre": "Cuire au bain-marie",
+       "texte": "Verse le jus dans un bol qui résiste à la chaleur et couvre-le d'une assiette. Pose-le dans un panier vapeur ou dans une casserole d'eau frémissante, l'eau à mi-hauteur du bol.",
+       "s": 900
+      },
+      {
+       "titre": "Ajouter le miel",
+       "texte": "Sors le bol, laisse tiédir un peu, puis ajoute le miel ({miel}) en remuant.",
+       "s": 180
+      },
+      {
+       "titre": "Boire",
+       "texte": "Bois-le chaud mais pas brûlant, une fois par jour."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le miel garde mieux ses qualités ajouté à un jus tiède plutôt que bouillant.",
+    "Tu peux en boire chaque jour pendant plusieurs semaines : c'est un aliment, pas un médicament."
+   ],
+   "tags": [
+    "Foie",
+    "irritabilité",
+    "digestion",
+    "céleri",
+    "miel"
+   ]
+  },
+  {
+   "id": "jus-ciboule-gingembre",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 403,
+   "genre": "froid",
+   "axe": "circuler",
+   "titre": "Jus de ciboule chinoise au gingembre",
+   "zh": "韭菜姜汁",
+   "py": "jiǔcài jiāng zhī",
+   "contexte": "Pour les nausées qui arrivent ou s'aggravent avec le stress et les émotions : la ciboule chinoise remet le Qi en mouvement et un peu de gingembre calme l'Estomac.",
+   "principe": {
+    "zh": "理气和胃",
+    "py": "Lǐ qì hé wèi",
+    "fr": "Faire circuler le Qi, harmoniser l'Estomac"
+   },
+   "precautions": "Piquant et réchauffant : évite-le si tu as des aphtes, la bouche sèche, des brûlures d'estomac ou un ulcère. Bois-le à température ambiante, jamais glacé. Si les nausées durent plus de quelques jours ou si tu vomis souvent, consulte.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "ciboule",
+     "q": 200,
+     "u": "g",
+     "nom": "ciboule chinoise (jiu cai)",
+     "cle": "ciboule-chinoise",
+     "note": "En botte en épicerie asiatique : longues feuilles plates au goût d'ail doux. Ne la confonds pas avec la ciboulette."
+    },
+    {
+     "id": "gingembre",
+     "q": 15,
+     "u": "g",
+     "nom": "gingembre frais (un morceau d'environ 3 cm)",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 150,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "Au mixeur ou à l'extracteur de jus",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Lave la ciboule ({ciboule}) et coupe-la en tronçons. Épluche le gingembre ({gingembre}) et coupe-le en fines rondelles."
+      },
+      {
+       "titre": "Extraire le jus",
+       "texte": "Passe-les à l'extracteur, puis ajoute l'eau ({eau}). Avec un mixeur : mixe-les avec l'eau jusqu'à obtenir une purée fine."
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Filtre dans une passoire fine ou un tissu propre en pressant bien la pulpe."
+      },
+      {
+       "titre": "Sucrer et boire",
+       "texte": "Sucre légèrement ({sucre}) et mélange. Bois la moitié le matin et le reste l'après-midi, à petites gorgées ; allonge d'un peu d'eau si c'est trop fort."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Hacher et râper",
+       "texte": "Hache très finement la ciboule ({ciboule}). Épluche le gingembre ({gingembre}) et râpe-le finement."
+      },
+      {
+       "titre": "Presser",
+       "texte": "Mets le hachis dans un tissu propre et presse-le fort au-dessus d'un bol pour récupérer tout le jus. Ajoute l'eau ({eau})."
+      },
+      {
+       "titre": "Sucrer et boire",
+       "texte": "Sucre légèrement ({sucre}), mélange et bois en deux fois dans la journée, à petites gorgées."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La recette d'origine met une grande quantité de jus de gingembre : une petite dose suffit et rend le jus plus facile à boire.",
+    "Prépare-le le jour même : il perd vite sa force."
+   ],
+   "tags": [
+    "nausées",
+    "stress",
+    "émotions",
+    "Estomac",
+    "ciboule chinoise"
+   ]
+  },
+  {
+   "id": "infusion-shan-zha",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 404,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Infusion d'azeroles",
+   "zh": "山楂饮",
+   "py": "shānzhā yǐn",
+   "contexte": "Les azeroles (baies d'aubépine chinoise) aident à digérer les repas gras, font circuler le Sang et soulagent la poitrine oppressée. Pour le surpoids ou l'excès de graisses dans le sang, en accompagnement du suivi médical, jamais à sa place.",
+   "principe": {
+    "zh": "消食活血",
+    "py": "Xiāo shí huó xuè",
+    "fr": "Faire digérer, activer la circulation du Sang"
+   },
+   "precautions": "Acide : évite-la si tu as l'estomac acide, des brûlures ou un ulcère, et ne la bois pas à jeun. Pas pendant la grossesse : l'azerole fait circuler le Sang. Si tu prends un traitement pour le cœur, la tension ou le cholestérol, ou un anticoagulant, demande l'avis de ton médecin.",
+   "portions": 2,
+   "duree": "45 min (+ trempage 1 h)",
+   "ingredients": [
+    {
+     "id": "shanzha",
+     "q": 30,
+     "u": "g",
+     "nom": "azeroles séchées (shan zha), en tranches",
+     "cle": "shan-zha",
+     "note": "En épicerie asiatique ou en herboristerie chinoise : petites tranches rouges séchées, avec leurs pépins. Ce sont les baies de l'aubépine de Chine."
+    },
+    {
+     "id": "eau",
+     "q": 600,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre de canne complet",
+     "cle": "sucre-complet"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Rincer et tremper",
+       "texte": "Rince les azeroles ({shanzha}) et laisse-les tremper dans l'eau froide ({eau}), directement dans la casserole.",
+       "s": 3600
+      },
+      {
+       "titre": "Porter à ébullition",
+       "texte": "Fais chauffer à feu moyen jusqu'à ébullition.",
+       "s": 300
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Baisse le feu, couvre et laisse frémir doucement.",
+       "s": 1800
+      },
+      {
+       "titre": "Filtrer et sucrer",
+       "texte": "Filtre, ajoute le sucre complet ({sucre}) et remue. Bois-la chaude ou tiède, en plusieurs tasses dans la journée, après les repas."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "En théière ou dans un bol",
+     "etapes": [
+      {
+       "titre": "Infuser",
+       "texte": "Rince les azeroles ({shanzha}), mets-les dans une théière ou un grand bol et verse l'eau bouillante ({eau}). Couvre.",
+       "s": 900
+      },
+      {
+       "titre": "Sucrer et servir",
+       "texte": "Filtre, ajoute le sucre complet ({sucre}) et bois tiède, après le repas. Tu peux remettre une fois de l'eau chaude sur les mêmes azeroles."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La version en théière est plus légère : pratique au bureau, après un repas copieux.",
+    "Évite les bonbons et galettes d'azerole du commerce, très sucrés."
+   ],
+   "tags": [
+    "digestion",
+    "cholestérol",
+    "surpoids",
+    "azerole",
+    "Sang"
+   ]
+  },
+  {
+   "id": "decoction-shan-zha-mandarine",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 405,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Décoction d'azeroles, d'écorce de mandarine, de gingembre et de jujubes",
+   "zh": "山楂橘皮饮",
+   "py": "shānzhā júpí yǐn",
+   "contexte": "Quand l'estomac est lourd, gonflé ou douloureux après avoir trop ou mal mangé, parfois avec des selles molles. L'azerole fait digérer, l'écorce de mandarine et le gingembre remettent le Qi en mouvement, les jujubes protègent l'Estomac.",
+   "principe": {
+    "zh": "消食理气",
+    "py": "Xiāo shí lǐ qì",
+    "fr": "Faire digérer, faire circuler le Qi"
+   },
+   "precautions": "Évite-la si tu as l'estomac acide, des brûlures ou un ulcère. Enceinte, demande conseil avant : l'azerole fait circuler le Sang. Si la douleur est forte ou dure, ou si la diarrhée s'accompagne de fièvre ou de sang, consulte.",
+   "portions": 2,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "shanzha",
+     "q": 15,
+     "u": "g",
+     "nom": "azeroles séchées (shan zha)",
+     "cle": "shan-zha",
+     "note": "En épicerie asiatique ou en herboristerie chinoise, en petites tranches rouges."
+    },
+    {
+     "id": "mandarine",
+     "q": 10,
+     "u": "g",
+     "nom": "écorce de mandarine séchée (chen pi)",
+     "cle": "mandarine",
+     "note": "En épicerie asiatique ou en herboristerie chinoise. Tu peux aussi faire sécher à l'air, quelques jours, l'écorce de mandarines non traitées."
+    },
+    {
+     "id": "gingembre",
+     "q": 10,
+     "u": "g",
+     "nom": "gingembre frais, en 3 ou 4 tranches",
+     "cle": "gingembre"
+    },
+    {
+     "id": "dattes",
+     "q": 4,
+     "nom": "dattes rouges (jujubes), fendues",
+     "cle": "dattes"
+    },
+    {
+     "id": "eau",
+     "q": 700,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Rince les azeroles ({shanzha}) et l'écorce de mandarine ({mandarine}). Tranche le gingembre ({gingembre}) et fends les dattes ({dattes}) d'un coup de couteau."
+      },
+      {
+       "titre": "Porter à ébullition",
+       "texte": "Mets le tout dans une casserole avec l'eau froide ({eau}) et porte à ébullition.",
+       "s": 300
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Baisse le feu, couvre et laisse frémir doucement.",
+       "s": 1500
+      },
+      {
+       "titre": "Filtrer et boire",
+       "texte": "Filtre et bois-la chaude, en deux fois, après les repas. Tu peux manger les dattes."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Garde-la au chaud dans une bouteille isotherme pour la boire dans la journée."
+   ],
+   "tags": [
+    "digestion",
+    "ventre gonflé",
+    "Estomac",
+    "azerole",
+    "mandarine"
+   ]
+  },
+  {
+   "id": "shan-zha-miel-sommeil",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 406,
+   "genre": "chaud",
+   "axe": "coeur",
+   "titre": "Azeroles au miel pour le sommeil",
+   "zh": "山楂入寐饮",
+   "py": "shānzhā rù mèi yǐn",
+   "contexte": "Pour les nuits agitées après un dîner copieux ou pris trop tard : les azeroles grillées font digérer, l'Estomac se calme et le sommeil vient plus facilement.",
+   "principe": {
+    "zh": "消食和胃安神",
+    "py": "Xiāo shí hé wèi ān shén",
+    "fr": "Faire digérer, harmoniser l'Estomac, apaiser l'esprit"
+   },
+   "precautions": "Évite-la si tu as l'estomac acide, des brûlures ou un ulcère, et pendant la grossesse. Diabète : réduis le miel. Si l'insomnie dure plus de quelques semaines, parles-en à ton médecin.",
+   "portions": 1,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "shanzha",
+     "q": 15,
+     "u": "g",
+     "nom": "azeroles séchées (shan zha)",
+     "cle": "shan-zha",
+     "note": "En épicerie asiatique ou en herboristerie chinoise, en petites tranches rouges."
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "miel",
+     "cle": "miel"
+    },
+    {
+     "id": "eau",
+     "q": 250,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Griller les azeroles",
+       "texte": "Fais griller les azeroles ({shanzha}) à sec dans une poêle, à feu doux, en remuant, jusqu'à ce qu'elles dorent légèrement et sentent bon.",
+       "s": 300
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Mets-les dans un bol qui résiste à la chaleur, ajoute le miel ({miel}), mélange, puis verse l'eau ({eau})."
+      },
+      {
+       "titre": "Cuire au bain-marie",
+       "texte": "Couvre le bol d'une assiette et pose-le dans un panier vapeur ou dans une casserole d'eau frémissante.",
+       "s": 1200
+      },
+      {
+       "titre": "Boire avant le coucher",
+       "texte": "Filtre et bois la tasse tiède, environ 30 minutes avant d'aller te coucher."
+      }
+     ]
+    },
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Griller les azeroles",
+       "texte": "Fais griller les azeroles ({shanzha}) à sec dans une petite casserole, à feu doux, en remuant, jusqu'à ce qu'elles dorent légèrement et sentent bon.",
+       "s": 300
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Verse l'eau ({eau}), porte à ébullition, puis couvre et laisse frémir à feu doux.",
+       "s": 900
+      },
+      {
+       "titre": "Ajouter le miel",
+       "texte": "Filtre, laisse tiédir un peu, puis ajoute le miel ({miel}) en remuant.",
+       "s": 180
+      },
+      {
+       "titre": "Boire avant le coucher",
+       "texte": "Bois la tasse tiède, environ 30 minutes avant d'aller te coucher."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Grille une plus grande quantité d'azeroles d'un coup et garde-les dans un bocal bien fermé.",
+    "La recette d'origine en met beaucoup plus : cette dose pour une tasse suffit et reste douce pour l'estomac."
+   ],
+   "tags": [
+    "sommeil",
+    "insomnie",
+    "digestion",
+    "dîner",
+    "azerole"
+   ]
+  },
+  {
+   "id": "infusion-coriandre-cardamome",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 407,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Infusion de coriandre et de cardamome",
+   "zh": "香菜砂仁饮",
+   "py": "xiāngcài shārén yǐn",
+   "contexte": "La coriandre fraîche et la cardamome chinoise (sha ren) réveillent l'Estomac et aident à faire passer un repas. Une infusion à boire à petites gorgées contre les nausées, y compris celles de la grossesse.",
+   "principe": {
+    "zh": "开胃止呕",
+    "py": "Kāi wèi zhǐ ǒu",
+    "fr": "Réveiller l'Estomac, calmer les nausées"
+   },
+   "precautions": "Un peu réchauffante : évite-la si tu as la bouche sèche, soif et une sensation de chaleur. Enceinte, si tu vomis plusieurs fois par jour, si tu perds du poids ou si tu ne gardes pas les liquides, consulte vite ta sage-femme ou ton médecin.",
+   "portions": 1,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "coriandre",
+     "q": 10,
+     "u": "g",
+     "nom": "coriandre fraîche (une petite poignée de brins)",
+     "cle": "coriandre"
+    },
+    {
+     "id": "cardamome",
+     "q": 5,
+     "u": "g",
+     "nom": "cardamome chinoise (sha ren)",
+     "cle": "cardamome",
+     "note": "En herboristerie chinoise ou en épicerie asiatique. À défaut, prends 3 ou 4 gousses de cardamome verte ouvertes, plus parfumées."
+    },
+    {
+     "id": "eau",
+     "q": 300,
+     "u": "ml",
+     "nom": "eau bouillante",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "theiere",
+     "nom": "En théière ou dans un bol",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Rince la coriandre ({coriandre}) et coupe-la grossièrement, tiges comprises. Écrase légèrement la cardamome ({cardamome}) avec le plat d'un couteau ou au mortier."
+      },
+      {
+       "titre": "Infuser",
+       "texte": "Mets-les dans un bol ou une théière, verse l'eau bouillante ({eau}) et couvre.",
+       "s": 600
+      },
+      {
+       "titre": "Boire à petites gorgées",
+       "texte": "Filtre. Si l'odeur te gêne, laisse tiédir quelques minutes, puis bois à petites gorgées dès qu'elle te paraît agréable."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Prépare-la le matin dans une bouteille isotherme et bois-en quelques gorgées dès qu'une nausée arrive."
+   ],
+   "tags": [
+    "nausées",
+    "grossesse",
+    "Estomac",
+    "coriandre",
+    "cardamome"
+   ]
+  },
+  {
+   "id": "boisson-champignons-noirs",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 408,
+   "genre": "chaud",
+   "axe": "sang",
+   "titre": "Boisson aux champignons noirs",
+   "zh": "木耳饮",
+   "py": "mù'ěr yǐn",
+   "contexte": "Les champignons noirs soutiennent le Qi, nourrissent le Sang et le font circuler. Pour les règles peu abondantes et douloureuses en fin de cycle, et pour la constipation : tu manges les champignons et tu bois le bouillon.",
+   "principe": {
+    "zh": "养血活血",
+    "py": "Yǎng xuè huó xuè",
+    "fr": "Nourrir le Sang et le faire circuler"
+   },
+   "precautions": "Ils font circuler le Sang : évite cette boisson pendant la grossesse et si tes règles sont abondantes, et demande l'avis de ton médecin si tu prends un anticoagulant. Ne laisse jamais les champignons tremper plus de quelques heures à température ambiante : au-delà, mets-les au réfrigérateur.",
+   "portions": 1,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "champignons",
+     "q": 6,
+     "u": "g",
+     "nom": "champignons noirs séchés (mu er)",
+     "cle": "champignons-noirs",
+     "note": "En sachets en épicerie asiatique. Ils gonflent beaucoup : 6 g, c'est une petite poignée."
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre de canne complet",
+     "cle": "sucre-complet"
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Réhydrater",
+       "texte": "Fais tremper les champignons ({champignons}) dans un bol d'eau tiède jusqu'à ce qu'ils soient souples.",
+       "s": 1800
+      },
+      {
+       "titre": "Nettoyer",
+       "texte": "Rince-les soigneusement, retire le petit pied dur et coupe-les en lanières."
+      },
+      {
+       "titre": "Porter à ébullition",
+       "texte": "Mets-les dans une casserole avec l'eau ({eau}) et le sucre complet ({sucre}), puis porte à ébullition.",
+       "s": 300
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Baisse à feu moyen-doux, couvre et laisse cuire jusqu'à ce qu'ils soient tendres.",
+       "s": 1200
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mange les champignons et bois le bouillon chaud."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Pour les règles, bois-la plutôt les jours qui les précèdent et en fin de règles.",
+    "Jette l'eau de trempage : elle garde les impuretés."
+   ],
+   "tags": [
+    "règles",
+    "constipation",
+    "Sang",
+    "champignons noirs"
+   ]
+  },
+  {
+   "id": "infusion-chrysantheme-shan-zha-cassia",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 409,
+   "genre": "chaud",
+   "axe": "humidite",
+   "titre": "Infusion de chrysanthème, d'azeroles et de graines de cassia",
+   "zh": "菊查决明饮",
+   "py": "jú zhā juémíng yǐn",
+   "contexte": "Une boisson à prendre à la place du thé, qui fait circuler le Sang et aide le corps à éliminer les graisses en excès. Pour le surpoids et l'excès de cholestérol, en accompagnement du suivi médical, jamais à sa place.",
+   "principe": {
+    "zh": "活血降浊",
+    "py": "Huó xuè jiàng zhuó",
+    "fr": "Activer le Sang, éliminer le trouble (les graisses en excès)"
+   },
+   "precautions": "Les graines de cassia sont fraîches et un peu laxatives : évite cette boisson si tu as les selles molles, la diarrhée ou une tension basse. Pas pendant la grossesse ni l'allaitement. Évite-la aussi si tu as l'estomac acide ou un ulcère. Traitement pour le cholestérol, la tension ou anticoagulant : demande l'avis de ton médecin. Fais des pauses : quelques semaines, puis une semaine sans.",
+   "portions": 1,
+   "duree": "40 min",
+   "ingredients": [
+    {
+     "id": "chrysantheme",
+     "q": 10,
+     "u": "g",
+     "nom": "fleurs de chrysanthème séchées (ju hua)",
+     "cle": "chrysantheme"
+    },
+    {
+     "id": "shanzha",
+     "q": 15,
+     "u": "g",
+     "nom": "azeroles séchées (shan zha), en tranches",
+     "cle": "shan-zha"
+    },
+    {
+     "id": "cassia",
+     "q": 15,
+     "u": "g",
+     "nom": "graines de cassia (jue ming zi)",
+     "cle": "jue-ming-zi",
+     "note": "En herboristerie chinoise ou en épicerie asiatique : petites graines brunes et luisantes. Rien à voir avec la cannelle de Chine, parfois aussi appelée cassia."
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Griller les graines",
+       "texte": "Fais griller les graines de cassia ({cassia}) à sec dans une poêle, à feu doux, en remuant, jusqu'à ce qu'elles sentent le grillé.",
+       "s": 240
+      },
+      {
+       "titre": "Concasser",
+       "texte": "Laisse-les refroidir un instant, puis concasse-les au mortier, ou dans un sac avec un rouleau à pâtisserie."
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Mets-les dans une casserole avec les azeroles ({shanzha}) et l'eau ({eau}). Porte à ébullition, puis couvre et laisse frémir.",
+       "s": 1200
+      },
+      {
+       "titre": "Infuser les fleurs",
+       "texte": "Hors du feu, ajoute les fleurs de chrysanthème ({chrysantheme}), couvre et laisse infuser.",
+       "s": 300
+      },
+      {
+       "titre": "Boire dans la journée",
+       "texte": "Filtre et bois-la chaude ou tiède, en plusieurs tasses dans la journée, à la place du thé."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "En théière ou dans un bol",
+     "etapes": [
+      {
+       "titre": "Griller les graines",
+       "texte": "Fais griller les graines de cassia ({cassia}) à sec dans une poêle, à feu doux, en remuant, jusqu'à ce qu'elles sentent le grillé.",
+       "s": 240
+      },
+      {
+       "titre": "Concasser",
+       "texte": "Laisse-les refroidir un instant, puis concasse-les au mortier, ou dans un sac avec un rouleau à pâtisserie."
+      },
+      {
+       "titre": "Infuser",
+       "texte": "Mets les graines, les azeroles ({shanzha}) et les fleurs ({chrysantheme}) dans une grande théière ou une bouteille isotherme. Verse l'eau bouillante ({eau}) et ferme.",
+       "s": 1200
+      },
+      {
+       "titre": "Boire dans la journée",
+       "texte": "Bois-la tiède au fil de la journée ; tu peux rajouter une fois de l'eau chaude."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La recette d'origine ne grille pas les graines de cassia : les griller les rend plus douces pour le ventre et plus parfumées.",
+    "Grille une plus grande quantité de graines d'avance et garde-les dans un bocal fermé."
+   ],
+   "tags": [
+    "surpoids",
+    "cholestérol",
+    "Sang",
+    "chrysanthème",
+    "azerole"
+   ]
+  },
+  {
+   "id": "infusion-chrysantheme-amandons-murier",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 410,
+   "genre": "chaud",
+   "axe": "exterieur",
+   "titre": "Infusion de chrysanthème, d'amandons d'abricot doux et de feuilles de mûrier",
+   "zh": "菊杏代茶饮",
+   "py": "jú xìng dàichá yǐn",
+   "contexte": "Au début d'un rhume avec mal de gorge et toux, quand on a plutôt chaud. Le chrysanthème et les feuilles de mûrier chassent le Vent et la Chaleur, l'amandon d'abricot doux calme la toux et aide à décoller les glaires.",
+   "principe": {
+    "zh": "疏风清热止咳",
+    "py": "Shū fēng qīng rè zhǐ ké",
+    "fr": "Disperser le Vent, clarifier la Chaleur, calmer la toux"
+   },
+   "precautions": "Uniquement des amandons d'abricot DOUX, jamais des amandons amers (toxiques), et pas plus que la dose indiquée. Pas pour les jeunes enfants ; enceinte ou allaitante, demande conseil avant. La réglisse fait monter la tension : retire-la si tu as de l'hypertension, des œdèmes ou un traitement pour le cœur ou les reins. Un peu fraîche : limite-la si tu as le ventre froid. Fièvre élevée, gêne pour respirer ou toux qui dure plus d'une semaine : consulte.",
+   "portions": 1,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "chrysantheme",
+     "q": 6,
+     "u": "g",
+     "nom": "fleurs de chrysanthème séchées (ju hua)",
+     "cle": "chrysantheme"
+    },
+    {
+     "id": "amandons",
+     "q": 6,
+     "u": "g",
+     "nom": "amandons d'abricot doux (nan xing ren)",
+     "cle": "amandons-abricot",
+     "note": "En épicerie asiatique ou en herboristerie chinoise, sous le nom de nan xing ren ou « amandes d'abricot douces » : gros, plats et pâles. N'achète jamais les amandons amers (bei xing ren, ku xing ren), plus petits et pointus."
+    },
+    {
+     "id": "murier",
+     "q": 6,
+     "u": "g",
+     "nom": "feuilles de mûrier séchées (sang ye)",
+     "cle": "sang-ye",
+     "note": "En herboristerie chinoise."
+    },
+    {
+     "id": "reglisse",
+     "q": 3,
+     "u": "g",
+     "nom": "réglisse (gan cao), 2 ou 3 rondelles",
+     "cle": "gan-cao",
+     "note": "Facultative : voir les précautions."
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Concasser les amandons",
+       "texte": "Concasse les amandons ({amandons}) au mortier ou avec le plat d'un couteau."
+      },
+      {
+       "titre": "Faire frémir",
+       "texte": "Mets-les dans une casserole avec la réglisse ({reglisse}) et l'eau ({eau}). Porte à ébullition, puis couvre et laisse frémir.",
+       "s": 600
+      },
+      {
+       "titre": "Infuser",
+       "texte": "Hors du feu, ajoute les feuilles de mûrier ({murier}) et les fleurs de chrysanthème ({chrysantheme}). Couvre et laisse infuser.",
+       "s": 600
+      },
+      {
+       "titre": "Boire dans la journée",
+       "texte": "Filtre et bois-la tiède, à petites gorgées, en plusieurs fois dans la journée."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La recette traditionnelle utilise l'amandon amer, une plante médicinale réservée aux praticiens : ici il est remplacé par l'amandon doux, plus sûr.",
+    "La recette d'origine infuse tout dans l'eau bouillante : faire d'abord frémir les amandons les rend plus digestes."
+   ],
+   "tags": [
+    "toux",
+    "mal de gorge",
+    "rhume",
+    "Poumon",
+    "chrysanthème"
+   ]
+  },
+  {
+   "id": "jus-pasteque-menthe",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 411,
+   "genre": "froid",
+   "axe": "chaleur",
+   "titre": "Jus de pastèque à la menthe",
+   "zh": "西瓜薄荷汁",
+   "py": "xīguā bòhe zhī",
+   "contexte": "La pastèque rafraîchit, désaltère et fait uriner : le jus des jours de canicule, quand on a chaud, soif et qu'on se sent agité. La menthe ajoute de la fraîcheur.",
+   "principe": {
+    "zh": "清热解暑",
+    "py": "Qīng rè jiě shǔ",
+    "fr": "Clarifier la Chaleur, chasser la chaleur de l'été"
+   },
+   "precautions": "La pastèque est très fraîche : bois ce jus à température ambiante, jamais glacé, et limite-le si tu as le ventre froid, les selles molles ou pendant les règles. Diabète : un petit verre seulement.",
+   "portions": 2,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "pasteque",
+     "q": 500,
+     "u": "g",
+     "nom": "chair de pastèque, sans l'écorce",
+     "cle": "pasteque"
+    },
+    {
+     "id": "menthe",
+     "q": 6,
+     "nom": "feuilles de menthe fraîche",
+     "cle": "menthe"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "Au mixeur ou à l'extracteur de jus",
+     "etapes": [
+      {
+       "titre": "Couper",
+       "texte": "Coupe la pastèque ({pasteque}) en cubes et retire les pépins noirs."
+      },
+      {
+       "titre": "Mixer",
+       "texte": "Mixe-la avec les feuilles de menthe ({menthe}) jusqu'à ce que ce soit bien lisse."
+      },
+      {
+       "titre": "Filtrer et servir",
+       "texte": "Filtre si tu préfères un jus sans pulpe. Bois-le tout de suite, à température ambiante."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Écraser",
+       "texte": "Coupe la pastèque ({pasteque}) en morceaux, retire les pépins et écrase-la au presse-purée ou à la fourchette dans un saladier."
+      },
+      {
+       "titre": "Filtrer",
+       "texte": "Passe-la dans une passoire en pressant bien la pulpe."
+      },
+      {
+       "titre": "Parfumer",
+       "texte": "Froisse les feuilles de menthe ({menthe}) entre tes doigts, ajoute-les au jus et laisse infuser.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Retire la menthe et bois le jus à température ambiante."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Si ta pastèque sort du réfrigérateur, laisse le jus revenir à température ambiante avant de le boire."
+   ],
+   "tags": [
+    "été",
+    "canicule",
+    "soif",
+    "Chaleur",
+    "pastèque"
+   ]
+  },
+  {
+   "id": "eau-concombre-menthe",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 412,
+   "genre": "froid",
+   "axe": "chaleur",
+   "titre": "Eau de concombre à la menthe",
+   "zh": "黄瓜薄荷水",
+   "py": "huángguā bòhe shuǐ",
+   "contexte": "Une eau parfumée qui désaltère et rafraîchit doucement les jours chauds. Le concombre clarifie la Chaleur et humidifie, la menthe apporte de la fraîcheur.",
+   "principe": {
+    "zh": "清热生津",
+    "py": "Qīng rè shēng jīn",
+    "fr": "Clarifier la Chaleur, produire les liquides"
+   },
+   "precautions": "Fraîche : bois-la à température ambiante, jamais glacée, et limite-la si tu as le ventre froid ou les selles molles.",
+   "portions": 4,
+   "duree": "10 min (+ infusion 1 h)",
+   "ingredients": [
+    {
+     "id": "concombre",
+     "q": 150,
+     "u": "g",
+     "nom": "concombre",
+     "cle": "concombre"
+    },
+    {
+     "id": "menthe",
+     "q": 8,
+     "nom": "feuilles de menthe fraîche",
+     "cle": "menthe"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau à température ambiante",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Préparer le concombre",
+       "texte": "Lave le concombre ({concombre}) et coupe-le en fines rondelles, avec la peau s'il est bio."
+      },
+      {
+       "titre": "Froisser la menthe",
+       "texte": "Froisse légèrement les feuilles de menthe ({menthe}) entre tes doigts pour libérer leur parfum."
+      },
+      {
+       "titre": "Infuser",
+       "texte": "Mets le tout dans une carafe, verse l'eau ({eau}) et laisse infuser.",
+       "s": 3600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Bois-la dans la journée, à température ambiante. S'il fait très chaud, garde la carafe au frais, mais sors-la 30 minutes avant de boire."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tu peux remettre une fois de l'eau sur le même concombre.",
+    "Au-delà d'une journée, jette tout : le concombre ramollit."
+   ],
+   "tags": [
+    "été",
+    "soif",
+    "Chaleur",
+    "concombre",
+    "menthe"
+   ]
+  },
+  {
+   "id": "jus-poire-radis",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 413,
+   "genre": "froid",
+   "axe": "yin",
+   "titre": "Jus de poire et de radis blanc",
+   "zh": "雪梨萝卜汁",
+   "py": "xuělí luóbo zhī",
+   "contexte": "Pour la toux sèche et la gorge qui gratte, surtout en automne ou par temps sec. La poire humidifie le Poumon, le radis blanc apaise la toux et aide à décoller les glaires.",
+   "principe": {
+    "zh": "润肺止咳",
+    "py": "Rùn fèi zhǐ ké",
+    "fr": "Humidifier le Poumon, calmer la toux"
+   },
+   "precautions": "Frais : bois-le à température ambiante, jamais glacé, et limite-le si tu as le ventre froid, les selles molles ou une toux avec beaucoup de glaires blanches. Pas de miel pour un bébé de moins d'un an. Toux de plus de 3 semaines, fièvre, sang dans les crachats ou essoufflement : consulte.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "poire",
+     "q": 2,
+     "nom": "poires bien mûres",
+     "cle": "poire"
+    },
+    {
+     "id": "radis",
+     "q": 150,
+     "u": "g",
+     "nom": "radis blanc (daikon), épluché",
+     "cle": "radis-blanc"
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tsp",
+     "nom": "miel (facultatif)",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "Au mixeur ou à l'extracteur de jus",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Lave les poires ({poire}), retire le cœur et coupe-les en morceaux. Coupe le radis ({radis}) en dés."
+      },
+      {
+       "titre": "Extraire le jus",
+       "texte": "Passe-les à l'extracteur. Avec un mixeur : mixe-les avec l'eau ({eau}), puis filtre en pressant bien la pulpe."
+      },
+      {
+       "titre": "Servir",
+       "texte": "Ajoute le miel ({miel}) si tu veux et bois en deux fois dans la journée, à température ambiante."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Râper",
+       "texte": "Râpe finement les poires ({poire}) sans le cœur, puis le radis ({radis})."
+      },
+      {
+       "titre": "Presser",
+       "texte": "Mets la râpée dans un tissu propre et presse-la fort au-dessus d'un bol. Allonge avec l'eau ({eau}) si le goût du radis est trop fort."
+      },
+      {
+       "titre": "Servir",
+       "texte": "Ajoute le miel ({miel}) si tu veux et bois en deux fois dans la journée, à température ambiante."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Si ton estomac est fragile, tiédis le jus quelques minutes dans une petite casserole avant de le boire."
+   ],
+   "tags": [
+    "toux sèche",
+    "gorge",
+    "Poumon",
+    "automne",
+    "poire"
+   ]
+  },
+  {
+   "id": "jus-pomme-carotte",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 414,
+   "genre": "froid",
+   "axe": "rate",
+   "titre": "Jus de pomme et de carotte",
+   "zh": "苹果胡萝卜汁",
+   "py": "píngguǒ húluóbo zhī",
+   "contexte": "Un jus doux et nourrissant qui soutient la Rate et l'Estomac, pour les petits appétits et les digestions paresseuses. Une tranche de gingembre le rend plus facile à digérer.",
+   "principe": {
+    "zh": "健脾和胃",
+    "py": "Jiàn pí hé wèi",
+    "fr": "Renforcer la Rate, harmoniser l'Estomac"
+   },
+   "precautions": "Bois-le à température ambiante, jamais glacé, plutôt en milieu de matinée qu'avec les repas. Ventre froid ou selles molles : garde le gingembre et contente-toi d'un petit verre. Diabète : préfère les fruits entiers.",
+   "portions": 2,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "pomme",
+     "q": 2,
+     "nom": "pommes douces",
+     "cle": "pomme"
+    },
+    {
+     "id": "carotte",
+     "q": 2,
+     "nom": "carottes",
+     "cle": "carotte"
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "nom": "tranche fine de gingembre frais",
+     "cle": "gingembre"
+    },
+    {
+     "id": "eau",
+     "q": 150,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "Au mixeur ou à l'extracteur de jus",
+     "etapes": [
+      {
+       "titre": "Préparer",
+       "texte": "Lave les pommes ({pomme}) et les carottes ({carotte}). Retire le cœur des pommes et coupe le tout en morceaux, avec le gingembre ({gingembre})."
+      },
+      {
+       "titre": "Extraire le jus",
+       "texte": "Passe-les à l'extracteur. Avec un mixeur : mixe-les avec l'eau ({eau}), puis filtre en pressant bien la pulpe."
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mélange et bois tout de suite, à petites gorgées, à température ambiante."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Râper",
+       "texte": "Râpe finement les pommes ({pomme}) sans le cœur, les carottes épluchées ({carotte}) et le gingembre ({gingembre})."
+      },
+      {
+       "titre": "Presser",
+       "texte": "Presse la râpée dans un tissu propre au-dessus d'un bol, puis allonge avec l'eau ({eau})."
+      },
+      {
+       "titre": "Servir",
+       "texte": "Mélange et bois tout de suite, à petites gorgées, à température ambiante."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Bois-le tout de suite : il noircit et perd ses qualités en quelques heures."
+   ],
+   "tags": [
+    "Rate",
+    "appétit",
+    "digestion",
+    "carotte",
+    "pomme"
+   ]
+  },
+  {
+   "id": "the-orge-grillee",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 415,
+   "genre": "chaud",
+   "axe": "rate",
+   "titre": "Thé d'orge grillée",
+   "zh": "大麦茶",
+   "py": "dàmài chá",
+   "contexte": "Une boisson chaude au goût de pain grillé, sans théine, qui aide à digérer après un repas lourd ou gras et désaltère sans refroidir l'Estomac.",
+   "principe": {
+    "zh": "消食和中",
+    "py": "Xiāo shí hé zhōng",
+    "fr": "Faire digérer, harmoniser le Centre (Rate et Estomac)"
+   },
+   "precautions": "L'orge contient du gluten : évite-la en cas de maladie cœliaque. Allaitement : n'en bois pas beaucoup, l'orge est réputée diminuer le lait.",
+   "portions": 4,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "orge",
+     "q": 40,
+     "u": "g",
+     "nom": "orge en grains (mondé ou perlé)",
+     "cle": "orge",
+     "note": "En magasin bio ou au rayon des légumes secs. En épicerie asiatique, tu trouves aussi de l'orge déjà grillée pour le thé."
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Griller l'orge",
+       "texte": "Fais griller l'orge ({orge}) à sec dans une poêle, à feu moyen-doux, en remuant souvent, jusqu'à ce qu'elle soit brun doré et sente le pain grillé.",
+       "s": 720
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Porte l'eau ({eau}) à ébullition, ajoute l'orge grillée, puis couvre et laisse frémir.",
+       "s": 600
+      },
+      {
+       "titre": "Filtrer et servir",
+       "texte": "Filtre et bois chaud ou tiède, après les repas ou tout au long de la journée."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "En théière ou dans un bol",
+     "etapes": [
+      {
+       "titre": "Griller l'orge",
+       "texte": "Fais griller l'orge ({orge}) à sec dans une poêle, à feu moyen-doux, en remuant souvent, jusqu'à ce qu'elle soit brun doré et sente le pain grillé.",
+       "s": 720
+      },
+      {
+       "titre": "Infuser",
+       "texte": "Mets l'orge grillée dans une grande théière, verse l'eau bouillante ({eau}) et couvre.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Filtre et bois chaud ou tiède. Tu peux remettre une fois de l'eau chaude sur la même orge."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Grille une plus grande quantité d'avance : elle se garde plusieurs semaines dans un bocal fermé.",
+    "En été, tu peux aussi la boire à température ambiante."
+   ],
+   "tags": [
+    "digestion",
+    "Rate",
+    "après le repas",
+    "orge",
+    "sans théine"
+   ]
+  }
+ ]
+}

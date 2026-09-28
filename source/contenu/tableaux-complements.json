@@ -67,7 +67,13 @@
    "recettes": [
     "poire-vapeur-amandes",
     "soupe-tremelle",
-    "compote-pomme-poire"
+    "compote-pomme-poire",
+    "congee-coques-cacahuetes",
+    "soupe-epinards-tremelle",
+    "infusion-chrysantheme-amandons-murier",
+    "jus-poire-radis",
+    "amandons-noix-miel",
+    "cacahuetes-sucre-candi"
    ],
    "privilegier": "Poire, pomme cuite, trémelle, amande, miel, sésame, bouillons, assez d'eau.",
    "eviter": "Chauffage trop fort, épices, grillades, tabac.",
@@ -156,7 +162,12 @@
    "recettes": [
     "congee-poulet",
     "poisson-vapeur",
-    "congee-millet-patate-douce"
+    "congee-millet-patate-douce",
+    "bouillie-igname-farine",
+    "congee-avoine-pomme",
+    "galettes-radis-mandarine",
+    "jus-pomme-carotte",
+    "carottes-miel"
    ],
    "privilegier": "Petits repas chauds et réguliers, congee, bouillons, riz, poisson vapeur.",
    "eviter": "Sauter le petit-déjeuner, froid et cru, repas pris debout.",
@@ -259,7 +270,9 @@
     "infusion-gingembre-cannelle",
     "poisson-vapeur",
     "soupe-mouton-radis",
-    "agneau-fenouil"
+    "agneau-fenouil",
+    "congee-riz-gluant-dattes",
+    "congee-avoine-pomme"
    ],
    "privilegier": "Gingembre, riz, courge, poulet, mouton en hiver, boissons chaudes.",
    "eviter": "Glaces, boissons froides, fruits crus à jeun.",
@@ -432,7 +445,8 @@
     "crevettes-poireau-noix",
     "soupe-mouton-radis",
     "congee-qian-shi",
-    "crevettes-ciboule-oeufs"
+    "crevettes-ciboule-oeufs",
+    "congee-ciboule-chinoise"
    ],
    "privilegier": "Noix, poireau, crevettes, moules, mouton, plats chauds.",
    "eviter": "Boissons froides, boire beaucoup le soir, pieds froids.",
@@ -610,7 +624,9 @@
     "congee-goji-sesame",
     "calamars-celeri",
     "infusion-chrysantheme-goji",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "foie-agneau-soja-vinaigre",
+    "poisson-epinards"
    ],
    "privilegier": "Goji, chrysanthème, sésame noir, œufs, tofu, épinards, calamar.",
    "eviter": "Écrans tard, alcool, épices, veiller.",

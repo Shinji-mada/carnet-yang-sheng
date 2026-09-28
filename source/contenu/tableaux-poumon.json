@@ -99,7 +99,9 @@
     "soupe-poulet-huang-qi",
     "congee-shan-yao",
     "congee-millet-patate-douce",
-    "congee-poulet"
+    "congee-poulet",
+    "bouillie-millet-astragale",
+    "congee-pomme-raisin"
    ],
    "privilegier": "Plats tièdes et cuits, céréales, igname, poulet, champignons, un peu de gingembre et d'oignon.",
    "eviter": "Froid et cru, laitages en excès, tabac, rester voûté longtemps.",
@@ -326,7 +328,10 @@
     "poire-vapeur-amandes",
     "soupe-tremelle",
     "congee-shan-yao",
-    "soupe-canard-igname"
+    "soupe-canard-igname",
+    "jus-poire-radis",
+    "amandons-noix-miel",
+    "cacahuetes-sucre-candi"
    ],
    "privilegier": "Poire, trémelle, amande, miel, sésame, tofu, igname, soupes et compotes.",
    "eviter": "Épices fortes, grillades, alcool, tabac, café, air trop sec.",
@@ -502,7 +507,9 @@
    ],
    "recettes": [
     "infusion-cong-bai",
-    "congee-cebette"
+    "congee-cebette",
+    "congee-pomme-raisin",
+    "soupe-cebette-dou-chi"
    ],
    "privilegier": "Boissons chaudes, gingembre, cébette, bouillons, se couvrir pour transpirer légèrement.",
    "eviter": "Froid, cru, douche froide, sortir sans écharpe.",
@@ -595,7 +602,10 @@
    ],
    "recettes": [
     "infusion-menthe-chrysantheme",
-    "poire-vapeur-amandes"
+    "poire-vapeur-amandes",
+    "congee-menthe",
+    "infusion-chrysantheme-amandons-murier",
+    "salade-radis-blanc"
    ],
    "privilegier": "Boissons tièdes, poire, menthe, chrysanthème, bouillons légers.",
    "eviter": "Épices, friture, alcool, sucre.",
@@ -703,7 +713,9 @@
    "recettes": [
     "soupe-radis-gingembre",
     "infusion-chen-pi",
-    "congee-orge-azuki"
+    "congee-orge-azuki",
+    "soupe-nori-tofu",
+    "gateau-radis-vapeur"
    ],
    "privilegier": "Radis blanc, zeste de mandarine, gingembre, orge perlé, céréales cuites.",
    "eviter": "Laitages, sucre, friture, banane, boissons froides.",
@@ -794,7 +806,13 @@
    ],
    "recettes": [
     "poire-vapeur-amandes",
-    "soupe-radis-gingembre"
+    "soupe-radis-gingembre",
+    "soupe-nori-tofu",
+    "infusion-chrysantheme-amandons-murier",
+    "jus-poire-radis",
+    "salade-radis-blanc",
+    "salade-bambou-algues",
+    "salade-wakame-sesame"
    ],
    "privilegier": "Poire, radis blanc, cresson, champignons, bouillons légers.",
    "eviter": "Tabac, friture, épices, laitages, sucre, alcool.",

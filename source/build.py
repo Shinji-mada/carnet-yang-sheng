@@ -29,7 +29,7 @@ for name, path in [("AtkinsonHyperlegible-Regular.ttf", "atkinsonhyperlegible/At
 # Tout ce qui manque en anglais reste en français. Les identifiants et codes ne sont jamais pris dans l'anglais.
 PROTEGE = {"id", "cat", "cle", "k", "zh", "py", "ab", "p", "m", "u", "axe", "date", "organe", "groupes", "recettes", "fiches",
            "autres", "contre", "tab", "liste", "type", "vue", "svg", "vb", "x", "y", "rep", "regle", "lab", "voisins", "canal",
-           "defaut", "regles", "s", "b", "q", "base", "ordre", "portions", "a", "tx", "ty", "sym", "axe", "symptomes", "version", "unite"}
+           "defaut", "regles", "s", "b", "q", "base", "ordre", "portions", "a", "tx", "ty", "sym", "axe", "symptomes", "version", "unite", "nature", "saveurs", "tropisme", "genre"}
 def overlay(fr, en, key=None):
     if en is None: return fr
     if key in PROTEGE and not (isinstance(fr, list) and fr and all(isinstance(x, dict) for x in fr)) and not (key == "regle" and isinstance(fr, str)): return fr

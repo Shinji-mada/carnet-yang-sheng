@@ -1,0 +1,1684 @@
+{
+ "fiches": [
+  {
+   "id": "amandons-noix-miel",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 500,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Amandons d'abricot doux et noix au miel",
+   "zh": "蜜饯双仁",
+   "py": "mìjiàn shuāng rén",
+   "contexte": "Une petite douceur à garder en bocal pour la toux qui traîne chez une personne fatiguée : les amandons doux humidifient le Poumon, les noix renforcent le Rein, le miel adoucit la gorge.",
+   "principe": {
+    "zh": "补肺益肾止咳",
+    "py": "Bǔ fèi yì shèn zhǐ ké",
+    "fr": "Tonifier le Poumon et le Rein, calmer la toux"
+   },
+   "precautions": "N'utilise que des amandons d'abricot doux (nan xing ren) : l'amandon amer (bei xing ren ou ku xing ren) est toxique et ne s'utilise jamais en cuisine. À éviter en cas d'allergie aux fruits à coque. Riche et sucré : 1 à 2 cuillerées par jour au plus, avec modération si tu as du diabète, les selles molles ou la diarrhée. Pas de miel pour un bébé de moins d'un an. Une toux qui dure plus de trois semaines mérite un avis médical.",
+   "portions": 8,
+   "duree": "1 h",
+   "ingredients": [
+    {
+     "id": "amandons",
+     "q": 60,
+     "u": "g",
+     "nom": "amandons d'abricot doux (nan xing ren)",
+     "cle": "amandons-abricot",
+     "note": "En épicerie asiatique ou en herboristerie chinoise, sous le nom 南杏仁 (« amandons du Sud », grands et plats). Vérifie l'étiquette : jamais 北杏仁 ni 苦杏仁, qui sont les amers."
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "noix",
+     "q": 60,
+     "u": "g",
+     "nom": "cerneaux de noix",
+     "cle": "noix"
+    },
+    {
+     "id": "miel",
+     "q": 60,
+     "u": "g",
+     "nom": "miel liquide (environ 3 c. à soupe)",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Émonder les amandons",
+       "texte": "Plonge les amandons ({amandons}) dans une petite casserole d'eau bouillante, puis égoutte-les.",
+       "s": 120
+      },
+      {
+       "titre": "Retirer la peau",
+       "texte": "Pince chaque amandon entre deux doigts : la fine peau brune glisse toute seule. Si tu as acheté des amandons déjà pelés, passe cette étape."
+      },
+      {
+       "titre": "Cuire les amandons",
+       "texte": "Remets les amandons dans la casserole avec l'eau ({eau}), porte à frémissement et laisse cuire doucement, sans couvercle.",
+       "s": 1800
+      },
+      {
+       "titre": "Ajouter les noix",
+       "texte": "Ajoute les noix ({noix}) et poursuis à feu doux en remuant, jusqu'à ce qu'il ne reste presque plus de liquide au fond.",
+       "s": 900
+      },
+      {
+       "titre": "Lier au miel",
+       "texte": "Coupe le feu et laisse tiédir quelques minutes (le miel ne doit pas bouillir), puis mélange avec le miel ({miel}) pour bien enrober les fruits secs.",
+       "s": 300
+      },
+      {
+       "titre": "Mettre en bocal",
+       "texte": "Laisse refroidir complètement et verse dans un bocal propre. Prends-en une cuillerée à soupe le matin, et une le soir si besoin."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "La recette traditionnelle met bien plus de miel et des quantités pour toute la famille : ici, les doses sont réduites pour environ une semaine.",
+    "Se garde 1 semaine au réfrigérateur, bocal bien fermé. Sors-le un peu avant pour le manger à température ambiante."
+   ],
+   "tags": [
+    "toux",
+    "Poumon",
+    "Rein",
+    "noix",
+    "automne"
+   ]
+  },
+  {
+   "id": "bananes-sesame-noir",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 501,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Bananes au sésame noir",
+   "zh": "香蕉粘黑芝麻",
+   "py": "xiāngjiāo zhān hēizhīma",
+   "contexte": "Pour la constipation avec des selles sèches et dures, fréquente chez les personnes âgées, après un accouchement ou une opération. La banane humidifie les intestins, le sésame noir nourrit le Yin.",
+   "principe": {
+    "zh": "润肠通便",
+    "py": "Rùn cháng tōng biàn",
+    "fr": "Humidifier les intestins, faciliter les selles"
+   },
+   "precautions": "La banane est de nature froide : si tu as le ventre froid ou les selles molles, choisis la version vapeur, et évite-la en cas de diarrhée. Prends des bananes bien mûres (vertes, elles constipent). Diabète : la banane mûre est sucrée, une seule à la fois. Allergie au sésame : à éviter. Constipation qui dure, douleurs ou sang dans les selles : consulte ton médecin.",
+   "portions": 2,
+   "duree": "10 min",
+   "ingredients": [
+    {
+     "id": "sesame",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "graines de sésame noir",
+     "cle": "sesame-noir",
+     "note": "En épicerie asiatique ou en magasin bio."
+    },
+    {
+     "id": "bananes",
+     "q": 2,
+     "nom": "bananes bien mûres",
+     "cle": "banane"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "poele",
+     "nom": "À la poêle ou au wok",
+     "etapes": [
+      {
+       "titre": "Griller le sésame",
+       "texte": "Verse le sésame noir ({sesame}) dans une poêle sèche, à feu moyen-doux. Remue sans arrêt jusqu'à ce qu'il crépite et sente la noisette : il doit être à peine grillé, pas brûlé.",
+       "s": 180
+      },
+      {
+       "titre": "Laisser refroidir",
+       "texte": "Verse-le aussitôt dans une assiette, sinon il continue de cuire. Tu peux l'écraser grossièrement au mortier : il se digère mieux.",
+       "s": 120
+      },
+      {
+       "titre": "Rouler les bananes",
+       "texte": "Pèle les bananes ({bananes}), coupe-les en tronçons et roule-les dans le sésame. Mange tout de suite, en collation."
+      }
+     ]
+    },
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Griller le sésame",
+       "texte": "Fais griller le sésame noir ({sesame}) dans une poêle sèche à feu moyen-doux, en remuant sans arrêt, jusqu'à ce qu'il crépite. Verse-le aussitôt dans une assiette.",
+       "s": 180
+      },
+      {
+       "titre": "Cuire les bananes",
+       "texte": "Pèle les bananes ({bananes}), coupe-les en tronçons, pose-les sur une assiette dans le panier vapeur et cuis-les jusqu'à ce qu'elles soient chaudes et fondantes.",
+       "s": 300
+      },
+      {
+       "titre": "Parsemer et servir",
+       "texte": "Parsème de sésame et mange tiède : la cuisson rend la banane moins froide pour le ventre."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tu peux en manger jusqu'à trois fois par jour pendant quelques jours, en buvant suffisamment d'eau tiède.",
+    "Prépare un petit bocal de sésame grillé d'avance : il se garde 2 semaines, bien fermé."
+   ],
+   "tags": [
+    "constipation",
+    "intestins",
+    "sésame noir",
+    "banane",
+    "post-partum"
+   ]
+  },
+  {
+   "id": "cacahuetes-sucre-candi",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 502,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Cacahuètes au sucre candi",
+   "zh": "花生冰糖汤",
+   "py": "huāshēng bīngtáng tāng",
+   "contexte": "Une soupe sucrée toute simple pour la toux sèche qui traîne : la cacahuète humidifie le Poumon et redonne un peu de force, le sucre candi adoucit la gorge.",
+   "principe": {
+    "zh": "润肺止咳",
+    "py": "Rùn fèi zhǐ ké",
+    "fr": "Humidifier le Poumon, calmer la toux"
+   },
+   "precautions": "Allergie à l'arachide : à éviter absolument. Les cacahuètes sont riches : avec modération si tu digères lentement, si tu as les selles molles ou la diarrhée. Diabète : réduis le sucre candi ou supprime-le. Une toux qui dure plus de trois semaines mérite un avis médical.",
+   "portions": 2,
+   "duree": "1 h 15 (+ trempage 1 h)",
+   "ingredients": [
+    {
+     "id": "cacahuetes",
+     "q": 100,
+     "u": "g",
+     "nom": "cacahuètes crues décortiquées, avec leur peau rouge",
+     "cle": "cacahuetes",
+     "note": "Crues et non salées, en épicerie asiatique ou en magasin bio (pas des cacahuètes grillées d'apéritif)."
+    },
+    {
+     "id": "eau",
+     "q": 800,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 20,
+     "u": "g",
+     "nom": "sucre candi",
+     "cle": "sucre-candi",
+     "note": "En épicerie asiatique (gros cristaux blancs ou jaunes). À défaut, 1 c. à soupe de miel ajoutée hors du feu."
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Faire tremper",
+       "texte": "Rince les cacahuètes ({cacahuetes}) et laisse-les tremper dans un bol d'eau froide : elles cuiront plus vite et seront plus tendres.",
+       "s": 3600
+      },
+      {
+       "titre": "Cuire doucement",
+       "texte": "Égoutte-les et mets-les dans une casserole avec l'eau ({eau}). Porte à ébullition, puis laisse frémir à couvert jusqu'à ce qu'elles soient tendres sous la dent.",
+       "s": 3600
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Ajoute le sucre candi ({sucre}) et remue jusqu'à ce qu'il fonde.",
+       "s": 300
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sers tiède dans un bol : mange les cacahuètes et bois le bouillon."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Faire tremper",
+       "texte": "Rince les cacahuètes ({cacahuetes}) et laisse-les tremper dans un bol d'eau froide.",
+       "s": 3600
+      },
+      {
+       "titre": "Cuire sous pression",
+       "texte": "Mets les cacahuètes égouttées et l'eau ({eau}) dans la cocotte. Ferme et compte le temps à partir du sifflement, à feu doux.",
+       "s": 1200
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Laisse retomber la pression, ouvre, ajoute le sucre candi ({sucre}) et laisse fondre à feu doux en remuant.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Faire tremper",
+       "texte": "Rince les cacahuètes ({cacahuetes}) et laisse-les tremper dans un bol d'eau froide.",
+       "s": 3600
+      },
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Mets les cacahuètes égouttées et l'eau ({eau}) dans la cuve."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Programme Soupe ou Mijotage.",
+       "s": 5400
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Ajoute le sucre candi ({sucre}), remue et laisse 5 minutes en maintien au chaud.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "À prendre une fois par jour, en collation, pendant la période de toux.",
+    "Tu peux ajouter 4 dattes rouges fendues au début de la cuisson pour un bouillon plus doux et plus nourrissant."
+   ],
+   "tags": [
+    "toux sèche",
+    "Poumon",
+    "cacahuète",
+    "soupe sucrée",
+    "automne"
+   ]
+  },
+  {
+   "id": "carottes-miel",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 503,
+   "genre": "dessert",
+   "axe": "rate",
+   "titre": "Carottes au miel",
+   "zh": "饯蜜胡萝卜",
+   "py": "jiàn mì húluóbo",
+   "contexte": "Pour la fatigue avec une digestion lente et une constipation où l'on pousse sans résultat : la carotte renforce la Rate, le miel humidifie les intestins.",
+   "principe": {
+    "zh": "健脾润肠",
+    "py": "Jiàn pí rùn cháng",
+    "fr": "Renforcer la Rate, humidifier les intestins"
+   },
+   "precautions": "Diabète : réduis le miel de moitié ou remplace-le par un filet d'huile de sésame. Pas de miel pour un bébé de moins d'un an.",
+   "portions": 2,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "carottes",
+     "q": 250,
+     "u": "g",
+     "nom": "carottes",
+     "cle": "carotte"
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "miel",
+     "q": 2,
+     "u": "tsp",
+     "nom": "miel",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tailler les carottes",
+       "texte": "Épluche les carottes ({carottes}) et coupe-les en rondelles d'un centimètre ou en bâtonnets."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Plonge-les dans l'eau ({eau}) bouillante et laisse cuire jusqu'à ce que la pointe d'un couteau les traverse sans résistance.",
+       "s": 900
+      },
+      {
+       "titre": "Napper de miel",
+       "texte": "Égoutte-les et laisse-les tiédir un peu avant d'ajouter le miel ({miel}), qui ne doit pas cuire. Mange tiède.",
+       "s": 180
+      }
+     ]
+    },
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Tailler les carottes",
+       "texte": "Épluche les carottes ({carottes}) et coupe-les en rondelles d'un centimètre ou en bâtonnets."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Dispose-les dans le panier vapeur au-dessus de l'eau frémissante ({eau}) et cuis-les jusqu'à ce qu'elles soient bien tendres.",
+       "s": 1200
+      },
+      {
+       "titre": "Napper de miel",
+       "texte": "Laisse-les tiédir un peu avant d'ajouter le miel ({miel}), qui ne doit pas cuire. Mange tiède.",
+       "s": 180
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Traditionnellement, on en prend deux fois par jour, en collation, pendant une à deux semaines.",
+    "La cuisson vapeur garde mieux le goût sucré de la carotte : tu peux alors mettre encore moins de miel."
+   ],
+   "tags": [
+    "constipation",
+    "Rate",
+    "fatigue",
+    "carotte",
+    "digestion"
+   ]
+  },
+  {
+   "id": "compotee-cerises-longanes",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 504,
+   "genre": "dessert",
+   "axe": "sang",
+   "titre": "Compotée de cerises et de longanes au goji",
+   "zh": "樱桃龙眼羹",
+   "py": "yīngtáo lóngyǎn gēng",
+   "contexte": "Une compotée tiède qui tonifie le Qi et nourrit le Sang : pour la fatigue avec un teint pâle, le sommeil léger, la vue qui baisse au crépuscule ou les articulations douloureuses par manque de Sang. Si une anémie a été diagnostiquée, elle accompagne le suivi médical sans le remplacer.",
+   "principe": {
+    "zh": "补气养血",
+    "py": "Bǔ qì yǎng xuè",
+    "fr": "Tonifier le Qi, nourrir le Sang"
+   },
+   "precautions": "Longanes et cerises sont un peu réchauffantes : avec modération si tu as souvent chaud, la bouche sèche ou des aphtes. Diabète : sans sucre ajouté et en petite portion.",
+   "portions": 2,
+   "duree": "30 min",
+   "ingredients": [
+    {
+     "id": "longanes",
+     "q": 20,
+     "u": "g",
+     "nom": "longanes séchées (long yan rou)",
+     "cle": "longane",
+     "note": "En épicerie asiatique, en sachet (龙眼肉). Ou 30 g de longanes fraîches, pelées et dénoyautées."
+    },
+    {
+     "id": "goji",
+     "q": 20,
+     "u": "g",
+     "nom": "baies de goji",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 400,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "cerises",
+     "q": 200,
+     "u": "g",
+     "nom": "cerises fraîches",
+     "cle": "cerises",
+     "note": "Hors saison, des cerises surgelées dénoyautées conviennent."
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre (facultatif)",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Dénoyauter les cerises",
+       "texte": "Lave les cerises ({cerises}), équeute-les et retire les noyaux avec un petit couteau ou un dénoyauteur."
+      },
+      {
+       "titre": "Faire gonfler",
+       "texte": "Mets les longanes ({longanes}) et le goji ({goji}) dans une casserole avec l'eau ({eau}). Porte à frémissement et laisse cuire doucement jusqu'à ce qu'ils soient bien gonflés.",
+       "s": 900
+      },
+      {
+       "titre": "Ajouter les cerises",
+       "texte": "Ajoute les cerises et laisse cuire à petit feu, juste le temps qu'elles ramollissent.",
+       "s": 300
+      },
+      {
+       "titre": "Goûter et servir",
+       "texte": "Goûte : les fruits sont déjà doux, n'ajoute le sucre ({sucre}) que si besoin. Sers tiède, avec le jus."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Il y a ici plus de cerises que dans la recette traditionnelle, pour en faire une vraie compotée.",
+    "Se garde 2 jours au réfrigérateur : réchauffe-la doucement avant de la manger."
+   ],
+   "tags": [
+    "Sang",
+    "fatigue",
+    "sommeil",
+    "cerises",
+    "longane",
+    "été"
+   ]
+  },
+  {
+   "id": "gateau-bu-shen",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 505,
+   "genre": "dessert",
+   "axe": "essence",
+   "titre": "Gâteau vapeur « pour remplir les Reins »",
+   "zh": "补肾糕",
+   "py": "bǔ shèn gāo",
+   "contexte": "Un gâteau vapeur moelleux aux noix, châtaignes, igname de Chine, longanes et goji. Il nourrit le Sang et le Yin du Foie et du Rein et réchauffe doucement le Rein : pour le bas du dos et les genoux faibles ou douloureux, et la vue qui baisse à la tombée du jour.",
+   "principe": {
+    "zh": "补益肝肾",
+    "py": "Bǔ yì gān shèn",
+    "fr": "Tonifier le Foie et le Rein"
+   },
+   "precautions": "Contient des noix et des œufs : attention aux allergies (tu peux remplacer les noix par des graines de courge). Sucré et riche en farine : une petite part si tu as du diabète. Nourrissant et un peu collant : avec modération si tu digères lentement ou si tu as le ventre gonflé.",
+   "portions": 6,
+   "duree": "1 h 30",
+   "ingredients": [
+    {
+     "id": "longanes",
+     "q": 20,
+     "u": "g",
+     "nom": "longanes séchées, hachées grossièrement",
+     "cle": "longane",
+     "note": "En épicerie asiatique, en sachet (龙眼肉)."
+    },
+    {
+     "id": "goji",
+     "q": 20,
+     "u": "g",
+     "nom": "baies de goji",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 200,
+     "u": "ml",
+     "nom": "eau tiède, pour le trempage",
+     "base": true
+    },
+    {
+     "id": "igname",
+     "q": 300,
+     "u": "g",
+     "nom": "igname de Chine fraîche (shan yao)",
+     "cle": "shan-yao",
+     "note": "Pèle-la avec des gants : sa sève gratte. À défaut, de la patate douce (l'effet sur le Rein est plus faible)."
+    },
+    {
+     "id": "chataignes",
+     "q": 150,
+     "u": "g",
+     "nom": "châtaignes cuites et pelées (sous vide ou en bocal)",
+     "cle": "chataignes"
+    },
+    {
+     "id": "oeufs",
+     "q": 2,
+     "nom": "œufs",
+     "cle": "oeuf"
+    },
+    {
+     "id": "sucre",
+     "q": 30,
+     "u": "g",
+     "nom": "sucre de canne complet",
+     "cle": "sucre-complet"
+    },
+    {
+     "id": "farine",
+     "q": 80,
+     "u": "g",
+     "nom": "farine de riz gluant",
+     "cle": "riz-gluant",
+     "note": "En épicerie asiatique (糯米粉). C'est elle qui donne le côté moelleux et un peu élastique."
+    },
+    {
+     "id": "noix",
+     "q": 40,
+     "u": "g",
+     "nom": "cerneaux de noix, concassés",
+     "cle": "noix"
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile neutre, pour le moule",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Tremper les fruits secs",
+       "texte": "Mets les longanes ({longanes}) et le goji ({goji}) à tremper dans l'eau tiède ({eau}) : ils gonflent pendant que tu prépares la suite."
+      },
+      {
+       "titre": "Cuire l'igname",
+       "texte": "Pèle l'igname ({igname}), coupe-la en tronçons et cuis-la à la vapeur jusqu'à ce qu'elle s'écrase facilement.",
+       "s": 1200
+      },
+      {
+       "titre": "Faire la purée",
+       "texte": "Écrase l'igname encore chaude avec les châtaignes ({chataignes}), à la fourchette ou au presse-purée, jusqu'à obtenir une purée lisse. Laisse tiédir.",
+       "s": 600
+      },
+      {
+       "titre": "Faire la pâte",
+       "texte": "Bats les œufs ({oeufs}) avec le sucre ({sucre}) et ajoute-les à la purée. Incorpore la farine de riz gluant ({farine}) : la pâte doit être épaisse et collante."
+      },
+      {
+       "titre": "Ajouter les fruits",
+       "texte": "Égoutte les longanes et le goji. Mélange à la pâte les longanes, la moitié du goji et les trois quarts des noix ({noix})."
+      },
+      {
+       "titre": "Remplir le moule",
+       "texte": "Huile ({huile}) un moule rond de 18 cm ou un bol qui supporte la chaleur. Verse la pâte, lisse le dessus avec une cuillère mouillée et parsème du reste de goji et de noix. Couvre d'une feuille de papier cuisson pour que les gouttes de vapeur ne tombent pas dessus."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Pose le moule dans le panier vapeur, au-dessus d'une eau à gros frémissement, couvercle fermé. Le gâteau est cuit quand une lame plantée au centre ressort propre.",
+       "s": 2100
+      },
+      {
+       "titre": "Laisser reposer",
+       "texte": "Laisse tiédir avant de démouler et de couper en parts : il se tient mieux en refroidissant.",
+       "s": 900
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Garde les parts 3 jours au réfrigérateur et réchauffe-les 5 minutes à la vapeur.",
+    "Un wok avec une grille et un couvercle fait aussi bien l'affaire qu'un cuit-vapeur."
+   ],
+   "tags": [
+    "Rein",
+    "bas du dos",
+    "genoux",
+    "châtaignes",
+    "igname",
+    "hiver"
+   ]
+  },
+  {
+   "id": "gateau-igname-fruits-secs",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 506,
+   "genre": "dessert",
+   "axe": "yin",
+   "titre": "Gâteau vapeur à l'igname et aux fruits secs",
+   "zh": "异品山药饼",
+   "py": "yì pǐn shānyào bǐng",
+   "contexte": "Une galette vapeur à l'igname de Chine, garnie de fruits secs et nappée d'un glaçage léger, qui nourrit le Yin et tonifie le Rein. Pour la fatigue ; en cas de diabète, elle accompagne le suivi médical sans le remplacer, et seulement en petite part.",
+   "principe": {
+    "zh": "滋阴补肾",
+    "py": "Zī yīn bǔ shèn",
+    "fr": "Nourrir le Yin, tonifier le Rein"
+   },
+   "precautions": "Diabète : farine, fruits secs et miel font monter la glycémie ; prends une petite part, avec l'accord de ton médecin, et supprime le miel du glaçage. Contient du blé (gluten) et des noix : attention aux allergies. Pas de miel pour un bébé de moins d'un an.",
+   "portions": 6,
+   "duree": "1 h 15",
+   "ingredients": [
+    {
+     "id": "igname",
+     "q": 400,
+     "u": "g",
+     "nom": "igname de Chine fraîche (shan yao)",
+     "cle": "shan-yao",
+     "note": "En épicerie asiatique. Pèle-la avec des gants : sa sève gratte."
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "huile de coco ou huile neutre",
+     "base": true,
+     "note": "L'huile de coco donne un parfum doux et une pâte plus tendre."
+    },
+    {
+     "id": "farine",
+     "q": 120,
+     "u": "g",
+     "nom": "farine de blé",
+     "cle": "ble"
+    },
+    {
+     "id": "dattes",
+     "q": 6,
+     "nom": "dattes rouges, dénoyautées",
+     "cle": "dattes"
+    },
+    {
+     "id": "noix",
+     "q": 30,
+     "u": "g",
+     "nom": "cerneaux de noix",
+     "cle": "noix"
+    },
+    {
+     "id": "raisins",
+     "q": 30,
+     "u": "g",
+     "nom": "raisins secs",
+     "cle": "raisin"
+    },
+    {
+     "id": "goji",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "baies de goji",
+     "cle": "goji"
+    },
+    {
+     "id": "eau",
+     "q": 150,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "agar",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "agar-agar en poudre (environ 1 g)",
+     "cle": "agar-agar",
+     "note": "En magasin bio ou au rayon pâtisserie."
+    },
+    {
+     "id": "miel",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "miel",
+     "cle": "miel"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "vapeur",
+     "nom": "À la vapeur",
+     "etapes": [
+      {
+       "titre": "Cuire l'igname",
+       "texte": "Pèle l'igname ({igname}), coupe-la en dés et cuis-la à la vapeur jusqu'à ce qu'elle soit très tendre.",
+       "s": 1200
+      },
+      {
+       "titre": "Faire la pâte",
+       "texte": "Écrase l'igname chaude en purée avec une cuillère à soupe d'huile ({huile}). Ajoute la farine ({farine}) peu à peu et mélange jusqu'à obtenir une pâte souple qui ne colle plus aux doigts."
+      },
+      {
+       "titre": "Préparer la garniture",
+       "texte": "Coupe les dattes ({dattes}) en lanières, concasse les noix ({noix}), rince les raisins secs ({raisins}) et le goji ({goji})."
+      },
+      {
+       "titre": "Façonner la galette",
+       "texte": "Huile une assiette creuse ou un moule de 20 cm avec le reste d'huile. Étale la pâte sur 2 cm d'épaisseur et enfonce légèrement la garniture sur le dessus."
+      },
+      {
+       "titre": "Cuire à la vapeur",
+       "texte": "Cuis dans le panier vapeur, couvercle fermé, au-dessus d'une eau à gros frémissement.",
+       "s": 1200
+      },
+      {
+       "titre": "Préparer le glaçage",
+       "texte": "Dans une petite casserole, délaye l'agar-agar ({agar}) dans l'eau ({eau}). Porte à ébullition et laisse bouillir en remuant pour qu'il se dissolve bien.",
+       "s": 120
+      },
+      {
+       "titre": "Ajouter le miel",
+       "texte": "Hors du feu, attends une minute puis mélange le miel ({miel}) au glaçage."
+      },
+      {
+       "titre": "Napper",
+       "texte": "Verse aussitôt le glaçage en fine couche sur le gâteau encore chaud et laisse prendre avant de couper en parts.",
+       "s": 900
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Varie les fruits secs selon ce que tu as : abricots secs, figues, graines de courge.",
+    "Se garde 2 jours au réfrigérateur ; sors-le un moment avant pour le manger à température ambiante."
+   ],
+   "tags": [
+    "Yin",
+    "Rein",
+    "igname",
+    "fatigue",
+    "fruits secs"
+   ]
+  },
+  {
+   "id": "salade-radis-blanc",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 507,
+   "genre": "salade",
+   "axe": "exterieur",
+   "titre": "Salade de radis blanc à l'huile de sésame",
+   "zh": "凉拌萝卜",
+   "py": "liángbàn luóbo",
+   "contexte": "Une salade crue, piquante et fraîche, pour un début de rhume par Vent-Chaleur : gorge douloureuse, toux avec des glaires jaunâtres, mal de tête ou yeux rouges. Le radis blanc aide à évacuer les Mucosités et fait descendre le Qi.",
+   "principe": {
+    "zh": "疏风化痰降气",
+    "py": "Shū fēng huà tán jiàng qì",
+    "fr": "Disperser le Vent, transformer les Mucosités, faire descendre le Qi"
+   },
+   "precautions": "Plat cru et frais : limite-le si ta digestion est faible, si tu as le ventre froid ou les selles molles. Fièvre élevée, gorge très douloureuse, œil qui colle ou toux qui dure : consulte ton médecin.",
+   "portions": 4,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "radis",
+     "q": 500,
+     "u": "g",
+     "nom": "radis blanc (daikon)",
+     "cle": "radis-blanc",
+     "note": "Au marché ou en épicerie asiatique, parfois vendu sous le nom de navet blanc chinois."
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Tailler le radis",
+       "texte": "Lave et épluche le radis ({radis}). Râpe-le gros, ou coupe-le en fines lamelles puis en allumettes."
+      },
+      {
+       "titre": "Saler",
+       "texte": "Mélange-le avec le sel ({sel}) et laisse reposer : il rend son eau et perd un peu de son piquant.",
+       "s": 600
+      },
+      {
+       "titre": "Presser",
+       "texte": "Presse-le entre tes mains au-dessus de l'évier pour retirer l'eau rendue. Goûte : s'il est trop salé, rince-le rapidement et presse encore."
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Arrose d'huile de sésame ({huile}), mélange et sers en entrée ou pendant le repas, à température ambiante."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Ajoute une cébette ciselée ou quelques feuilles de coriandre si tu aimes.",
+    "Se garde un jour au réfrigérateur ; sors-la 30 minutes avant de la manger."
+   ],
+   "tags": [
+    "rhume",
+    "gorge",
+    "toux",
+    "radis blanc",
+    "Mucosités"
+   ]
+  },
+  {
+   "id": "salade-bambou-algues",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 508,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Salade de pousses de bambou et d'algue kombu",
+   "zh": "凉拌竹笋海带",
+   "py": "liángbàn zhúsǔn hǎidài",
+   "contexte": "Une salade fraîche pour la toux avec des glaires jaunes et épaisses, parfois avec une respiration sifflante : pousses de bambou et algue kombu clarifient la Chaleur, transforment les Mucosités et font descendre le Qi.",
+   "principe": {
+    "zh": "清热化痰",
+    "py": "Qīng rè huà tán",
+    "fr": "Clarifier la Chaleur, transformer les Mucosités"
+   },
+   "precautions": "Plat très frais : évite-le si tu as le ventre froid, les selles molles ou une digestion faible. Le kombu est très riche en iode : une à deux fois par semaine au plus, et demande l'avis de ton médecin si tu as un problème de thyroïde ou si tu es enceinte. Sauce soja salée : modère-la si tu as de l'hypertension. Essoufflement ou crise d'asthme : consulte ton médecin.",
+   "portions": 2,
+   "duree": "50 min",
+   "ingredients": [
+    {
+     "id": "algues",
+     "q": 15,
+     "u": "g",
+     "nom": "algue kombu séchée",
+     "cle": "algues",
+     "note": "En épicerie asiatique (海带, hai dai) ou en magasin bio. La poudre blanche en surface est normale : ne la frotte pas."
+    },
+    {
+     "id": "bambou",
+     "q": 150,
+     "u": "g",
+     "nom": "pousses de bambou précuites (en conserve ou sous vide), égouttées",
+     "cle": "pousses-bambou"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 2,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 2,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Tremper l'algue",
+       "texte": "Rince le kombu ({algues}) et fais-le tremper dans un grand bol d'eau froide : il gonfle et s'assouplit.",
+       "s": 1800
+      },
+      {
+       "titre": "Tailler",
+       "texte": "Égoutte le kombu et coupe-le en fines lanières. Coupe les pousses de bambou ({bambou}) en fines tranches."
+      },
+      {
+       "titre": "Cuire l'algue",
+       "texte": "Plonge les lanières de kombu dans l'eau ({eau}) bouillante et laisse cuire jusqu'à ce qu'elles soient tendres.",
+       "s": 600
+      },
+      {
+       "titre": "Blanchir le bambou",
+       "texte": "Ajoute les pousses de bambou dans la casserole pour les dernières minutes : cela enlève le goût de conserve.",
+       "s": 180
+      },
+      {
+       "titre": "Égoutter",
+       "texte": "Égoutte le tout et laisse tiédir dans la passoire.",
+       "s": 600
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Dispose sur une assiette, arrose de sauce soja ({soja}) et d'huile de sésame ({huile}), mélange et sers à température ambiante."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Tu peux ajouter un peu de gingembre frais en fins filaments pour adoucir la fraîcheur du plat."
+   ],
+   "tags": [
+    "toux",
+    "Mucosités",
+    "Poumon",
+    "algues",
+    "bambou"
+   ]
+  },
+  {
+   "id": "concombre-ecrase-ail",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 509,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Concombre écrasé à l'ail",
+   "zh": "拍黄瓜",
+   "py": "pāi huángguā",
+   "contexte": "Le grand classique des salades chinoises d'été : le concombre rafraîchit et désaltère, l'ail et le vinaigre réveillent l'appétit et tempèrent sa fraîcheur. Idéal par temps chaud, quand on a soif et peu faim.",
+   "principe": {
+    "zh": "清热生津",
+    "py": "Qīng rè shēng jīn",
+    "fr": "Clarifier la Chaleur, produire des liquides"
+   },
+   "precautions": "Plat cru et frais : limite-le si ta digestion est faible, si tu as le ventre froid ou les selles molles. Ail cru : avec modération si tu as des brûlures d'estomac.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "concombre",
+     "q": 1,
+     "nom": "concombre (environ 350 g)",
+     "cle": "concombre"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "ail",
+     "q": 2,
+     "nom": "gousses d'ail",
+     "cle": "ail"
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "vinaigre de riz ou de cidre",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sucre",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Écraser le concombre",
+       "texte": "Lave le concombre ({concombre}) et pose-le sur la planche. Écrase-le d'un coup sec avec le plat d'un grand couteau ou un rouleau à pâtisserie, puis coupe-le en morceaux irréguliers."
+      },
+      {
+       "titre": "Saler",
+       "texte": "Sale ({sel}) et laisse dégorger, puis jette l'eau rendue.",
+       "s": 600
+      },
+      {
+       "titre": "Préparer la sauce",
+       "texte": "Hache finement l'ail ({ail}) et mélange-le avec le vinaigre ({vinaigre}), la sauce soja ({soja}), le sucre ({sucre}) et l'huile de sésame ({huile})."
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Verse la sauce sur le concombre, mélange et laisse reposer un peu pour qu'il s'imprègne.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Écrasé plutôt que tranché, le concombre prend bien mieux la sauce.",
+    "Un peu de coriandre fraîche ciselée lui va très bien."
+   ],
+   "tags": [
+    "été",
+    "soif",
+    "Chaleur",
+    "concombre",
+    "ail"
+   ]
+  },
+  {
+   "id": "salade-chou-chinois",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 510,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Salade de chou chinois au vinaigre",
+   "zh": "凉拌白菜心",
+   "py": "liángbàn báicài xīn",
+   "contexte": "Une salade croquante et acidulée qui rafraîchit, ouvre l'appétit et aide à digérer un repas riche. Le gingembre et la cébette tempèrent la fraîcheur du chou.",
+   "principe": {
+    "zh": "清热和胃",
+    "py": "Qīng rè hé wèi",
+    "fr": "Clarifier la Chaleur, harmoniser l'Estomac"
+   },
+   "precautions": "Plat cru et frais : limite-le si ta digestion est faible, si tu as le ventre froid ou les selles molles. Vinaigre : avec modération si tu as des brûlures d'estomac.",
+   "portions": 3,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "chou",
+     "q": 300,
+     "u": "g",
+     "nom": "cœur de chou chinois (les feuilles du centre)",
+     "cle": "chou-chinois"
+    },
+    {
+     "id": "carotte",
+     "q": 1,
+     "nom": "carotte",
+     "cle": "carotte"
+    },
+    {
+     "id": "sel",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "nom": "morceau de gingembre frais de 2 cm",
+     "cle": "gingembre"
+    },
+    {
+     "id": "cebette",
+     "q": 1,
+     "nom": "cébette",
+     "cle": "cebette"
+    },
+    {
+     "id": "vinaigre",
+     "q": 2,
+     "u": "tbsp",
+     "nom": "vinaigre de riz",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "sucre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sucre",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Émincer les légumes",
+       "texte": "Coupe le chou ({chou}) en fines lanières dans la largeur. Épluche la carotte ({carotte}) et taille-la en fine julienne."
+      },
+      {
+       "titre": "Saler",
+       "texte": "Mélange le chou et la carotte avec le sel ({sel}) et laisse reposer, puis presse légèrement pour retirer l'eau rendue.",
+       "s": 600
+      },
+      {
+       "titre": "Préparer la sauce",
+       "texte": "Pèle le gingembre ({gingembre}) et coupe-le en fins filaments. Cisèle la cébette ({cebette}). Mélange le vinaigre ({vinaigre}), le sucre ({sucre}) et l'huile de sésame ({huile})."
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Verse la sauce sur les légumes, ajoute le gingembre et la cébette, mélange et laisse reposer un peu avant de servir.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Les feuilles extérieures du chou, plus dures, se gardent pour une soupe ou un sauté."
+   ],
+   "tags": [
+    "digestion",
+    "Estomac",
+    "chou chinois",
+    "appétit"
+   ]
+  },
+  {
+   "id": "salade-wakame-sesame",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 511,
+   "genre": "salade",
+   "axe": "humidite",
+   "titre": "Salade d'algue wakame au sésame",
+   "zh": "凉拌裙带菜",
+   "py": "liángbàn qúndàicài",
+   "contexte": "Une petite salade iodée : la wakame, salée et fraîche, aide à transformer les Mucosités et à éliminer l'eau en excès ; le gingembre protège l'Estomac, le sésame noir nourrit.",
+   "principe": {
+    "zh": "化痰利水",
+    "py": "Huà tán lì shuǐ",
+    "fr": "Transformer les Mucosités, drainer l'eau"
+   },
+   "precautions": "Plat frais : limite-le si ta digestion est faible, si tu as le ventre froid ou les selles molles. Les algues sont riches en iode : pas plus de deux fois par semaine, et demande l'avis de ton médecin si tu as un problème de thyroïde ou si tu es enceinte. Allergie au sésame : à éviter.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "wakame",
+     "q": 10,
+     "u": "g",
+     "nom": "algue wakame séchée",
+     "cle": "wakame",
+     "note": "En épicerie asiatique ou en magasin bio. Elle gonfle énormément : 10 g suffisent pour deux."
+    },
+    {
+     "id": "eau",
+     "q": 500,
+     "u": "ml",
+     "nom": "eau froide, pour le trempage",
+     "base": true
+    },
+    {
+     "id": "gingembre",
+     "q": 1,
+     "u": "tsp",
+     "nom": "gingembre frais râpé",
+     "cle": "gingembre"
+    },
+    {
+     "id": "vinaigre",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "vinaigre de riz",
+     "cle": "vinaigre"
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "sucre",
+     "q": 0.5,
+     "u": "tsp",
+     "nom": "sucre",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    },
+    {
+     "id": "sesame",
+     "q": 1,
+     "u": "tbsp",
+     "nom": "graines de sésame noir grillées",
+     "cle": "sesame-noir"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Réhydrater l'algue",
+       "texte": "Fais tremper la wakame ({wakame}) dans l'eau froide ({eau}) : elle se déplie et gonfle.",
+       "s": 600
+      },
+      {
+       "titre": "Égoutter",
+       "texte": "Égoutte-la, presse-la doucement et coupe les morceaux trop longs. Retire les nervures dures s'il y en a."
+      },
+      {
+       "titre": "Préparer la sauce",
+       "texte": "Mélange le gingembre ({gingembre}), le vinaigre ({vinaigre}), la sauce soja ({soja}), le sucre ({sucre}) et l'huile de sésame ({huile})."
+      },
+      {
+       "titre": "Mélanger",
+       "texte": "Verse la sauce sur l'algue, mélange, parsème de sésame noir ({sesame}) et laisse reposer un peu avant de servir.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Ajoute des rondelles de concombre ou des lanières de radis blanc pour une salade plus copieuse."
+   ],
+   "tags": [
+    "algues",
+    "Mucosités",
+    "rétention d'eau",
+    "sésame"
+   ]
+  },
+  {
+   "id": "tofu-cebette",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 512,
+   "genre": "salade",
+   "axe": "chaleur",
+   "titre": "Tofu froid à la cébette",
+   "zh": "小葱拌豆腐",
+   "py": "xiǎocōng bàn dòufu",
+   "contexte": "Un classique tout simple : le tofu rafraîchit et hydrate, la cébette apporte un peu de chaleur et aide à le digérer. Parfait en été, quand on a chaud et la bouche sèche.",
+   "principe": {
+    "zh": "清热润燥",
+    "py": "Qīng rè rùn zào",
+    "fr": "Clarifier la Chaleur, humidifier la Sécheresse"
+   },
+   "precautions": "Plat frais : limite-le si ta digestion est faible, si tu as le ventre froid ou les selles molles, et choisis alors la version blanchie, servie tiède. Allergie au soja : à éviter.",
+   "portions": 2,
+   "duree": "15 min",
+   "ingredients": [
+    {
+     "id": "tofu",
+     "q": 300,
+     "u": "g",
+     "nom": "tofu ferme ou soyeux",
+     "cle": "tofu"
+    },
+    {
+     "id": "eau",
+     "q": 1,
+     "u": "l",
+     "nom": "eau, pour blanchir",
+     "base": true
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "cébettes",
+     "cle": "cebette"
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    },
+    {
+     "id": "soja",
+     "q": 1,
+     "u": "tsp",
+     "nom": "sauce soja",
+     "base": true
+    },
+    {
+     "id": "huile",
+     "q": 1,
+     "u": "tsp",
+     "nom": "huile de sésame",
+     "cle": "huile-sesame"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Blanchir le tofu",
+       "texte": "Coupe le tofu ({tofu}) en cubes de 2 cm. Plonge-les dans l'eau ({eau}) frémissante légèrement salée : cela enlève le goût de soja cru et le rend moins froid.",
+       "s": 120
+      },
+      {
+       "titre": "Égoutter",
+       "texte": "Retire les cubes délicatement avec une écumoire et laisse-les égoutter et tiédir.",
+       "s": 300
+      },
+      {
+       "titre": "Ciseler la cébette",
+       "texte": "Cisèle finement les cébettes ({cebette}), le vert comme le blanc."
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Parsème le tofu de cébette et de sel ({sel}), arrose de sauce soja ({soja}) et d'huile de sésame ({huile}). Mélange délicatement et sers."
+      }
+     ]
+    },
+    {
+     "id": "cru",
+     "nom": "Sans cuisson",
+     "etapes": [
+      {
+       "titre": "Couper le tofu",
+       "texte": "Égoutte le tofu ({tofu}), éponge-le avec du papier absorbant et coupe-le en cubes de 2 cm."
+      },
+      {
+       "titre": "Ciseler la cébette",
+       "texte": "Cisèle finement les cébettes ({cebette}), le vert comme le blanc."
+      },
+      {
+       "titre": "Assaisonner",
+       "texte": "Parsème le tofu de cébette et de sel ({sel}), arrose de sauce soja ({soja}) et d'huile de sésame ({huile}). Mélange délicatement et sers."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le tofu soyeux est plus fondant, le ferme se tient mieux : choisis selon ton goût."
+   ],
+   "tags": [
+    "tofu",
+    "été",
+    "Chaleur",
+    "cébette"
+   ]
+  },
+  {
+   "id": "soupe-azuki-sucree",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 513,
+   "genre": "dessert",
+   "axe": "humidite",
+   "titre": "Soupe sucrée de haricots azuki à la mandarine",
+   "zh": "陈皮红豆汤",
+   "py": "chénpí hóngdòu tāng",
+   "contexte": "Une soupe sucrée chinoise très courante : les haricots azuki drainent l'Humidité et aident à dégonfler, l'écorce de mandarine fait circuler le Qi et facilite la digestion. Pour le corps lourd, les jambes gonflées, la digestion encombrée.",
+   "principe": {
+    "zh": "健脾利湿",
+    "py": "Jiàn pí lì shī",
+    "fr": "Renforcer la Rate, drainer l'Humidité"
+   },
+   "precautions": "Diabète : réduis le sucre ou supprime-le (la soupe se mange aussi à peine sucrée). Les azuki font uriner : avec modération si tu urines déjà beaucoup ou si tu es très sec (bouche et peau sèches).",
+   "portions": 4,
+   "duree": "1 h 30 (+ trempage 1 nuit)",
+   "ingredients": [
+    {
+     "id": "azuki",
+     "q": 150,
+     "u": "g",
+     "nom": "haricots azuki",
+     "cle": "azuki"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "chenpi",
+     "q": 5,
+     "u": "g",
+     "nom": "écorce de mandarine séchée (chen pi)",
+     "cle": "mandarine",
+     "note": "En épicerie asiatique ou en herboristerie chinoise (陈皮). À défaut, le zeste d'une mandarine non traitée, séché quelques jours."
+    },
+    {
+     "id": "sucre",
+     "q": 40,
+     "u": "g",
+     "nom": "sucre candi",
+     "cle": "sucre-candi",
+     "note": "Les recettes chinoises en mettent souvent le double : ajuste à ton goût."
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Faire tremper la veille",
+       "texte": "Rince les azuki ({azuki}), couvre-les largement d'eau froide et laisse-les tremper toute la nuit."
+      },
+      {
+       "titre": "Lancer la cuisson",
+       "texte": "Égoutte-les et mets-les dans une casserole avec l'eau ({eau}) et l'écorce de mandarine ({chenpi}). Porte à ébullition, puis laisse frémir à couvercle entrouvert.",
+       "s": 3600
+      },
+      {
+       "titre": "Poursuivre la cuisson",
+       "texte": "Remue de temps en temps et rajoute un peu d'eau si besoin : les haricots doivent s'écraser facilement entre les doigts et la soupe épaissir.",
+       "s": 1800
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Retire l'écorce, ajoute le sucre candi ({sucre}) et le sel ({sel}), et laisse fondre à feu doux.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Faire tremper la veille",
+       "texte": "Rince les azuki ({azuki}), couvre-les largement d'eau froide et laisse-les tremper toute la nuit."
+      },
+      {
+       "titre": "Cuire sous pression",
+       "texte": "Mets les azuki égouttés, l'eau ({eau}) et l'écorce de mandarine ({chenpi}) dans la cocotte. Ferme et compte le temps à partir du sifflement, à feu doux.",
+       "s": 1500
+      },
+      {
+       "titre": "Laisser retomber la pression",
+       "texte": "Coupe le feu et laisse la pression retomber d'elle-même : les haricots finissent de fondre.",
+       "s": 900
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Retire l'écorce, ajoute le sucre candi ({sucre}) et le sel ({sel}), et laisse fondre à feu doux.",
+       "s": 300
+      }
+     ]
+    },
+    {
+     "id": "cuiseur",
+     "nom": "Au cuiseur à riz ou multicuiseur",
+     "etapes": [
+      {
+       "titre": "Faire tremper la veille",
+       "texte": "Rince les azuki ({azuki}), couvre-les largement d'eau froide et laisse-les tremper toute la nuit."
+      },
+      {
+       "titre": "Remplir la cuve",
+       "texte": "Mets les azuki égouttés, l'eau ({eau}) et l'écorce de mandarine ({chenpi}) dans la cuve."
+      },
+      {
+       "titre": "Cuire",
+       "texte": "Programme Soupe ou Mijotage.",
+       "s": 7200
+      },
+      {
+       "titre": "Sucrer",
+       "texte": "Retire l'écorce, ajoute le sucre candi ({sucre}) et le sel ({sel}), remue et laisse 5 minutes en maintien au chaud.",
+       "s": 300
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Se mange chaude en hiver, tiède en été. Se garde 3 jours au réfrigérateur.",
+    "Pour une version plus nourrissante, ajoute 4 dattes rouges ou une poignée de graines de lotus avec les haricots."
+   ],
+   "tags": [
+    "azuki",
+    "Humidité",
+    "jambes lourdes",
+    "soupe sucrée",
+    "Rate"
+   ]
+  },
+  {
+   "id": "gelee-pasteque",
+   "type": "recette",
+   "date": "2026-09-28",
+   "ordre": 514,
+   "genre": "dessert",
+   "axe": "chaleur",
+   "titre": "Gelée de pastèque à l'agar-agar",
+   "zh": "西瓜冻",
+   "py": "xīguā dòng",
+   "contexte": "Un dessert d'été qui rafraîchit et désaltère : la pastèque clarifie la Chaleur, calme la soif et l'agitation des journées caniculaires et fait uriner.",
+   "principe": {
+    "zh": "清热解暑",
+    "py": "Qīng rè jiě shǔ",
+    "fr": "Clarifier la Chaleur, chasser la chaleur de l'été"
+   },
+   "precautions": "Pastèque et agar-agar sont de nature froide : à éviter si tu as le ventre froid, les selles molles ou des règles douloureuses soulagées par la chaleur. Mange-la à température ambiante, jamais glacée. Diabète : la pastèque fait monter vite la glycémie, prends une petite portion.",
+   "portions": 4,
+   "duree": "20 min (+ 1 h de prise)",
+   "ingredients": [
+    {
+     "id": "pasteque",
+     "q": 600,
+     "u": "g",
+     "nom": "chair de pastèque, sans l'écorce",
+     "cle": "pasteque"
+    },
+    {
+     "id": "eau",
+     "q": 100,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "agar",
+     "q": 1,
+     "u": "tsp",
+     "nom": "agar-agar en poudre (environ 2 g)",
+     "cle": "agar-agar",
+     "note": "En magasin bio ou au rayon pâtisserie des supermarchés."
+    },
+    {
+     "id": "menthe",
+     "q": 4,
+     "nom": "feuilles de menthe fraîche",
+     "cle": "menthe"
+    }
+   ],
+   "variantes": [
+    {
+     "id": "mixeur",
+     "nom": "Au mixeur ou à l'extracteur de jus",
+     "etapes": [
+      {
+       "titre": "Mixer la pastèque",
+       "texte": "Retire les pépins de la pastèque ({pasteque}), mixe la chair puis filtre-la dans une passoire fine : tu dois obtenir environ 450 ml de jus."
+      },
+      {
+       "titre": "Cuire l'agar-agar",
+       "texte": "Dans une petite casserole, délaye l'agar-agar ({agar}) dans l'eau ({eau}), porte à ébullition et laisse bouillir en remuant.",
+       "s": 120
+      },
+      {
+       "titre": "Ajouter le jus",
+       "texte": "Verse le jus de pastèque dans la casserole en fouettant vite, puis laisse sur feu doux sans faire bouillir, juste pour que le mélange reste bien liquide.",
+       "s": 60
+      },
+      {
+       "titre": "Répartir",
+       "texte": "Verse tout de suite dans 4 verrines ou ramequins."
+      },
+      {
+       "titre": "Laisser prendre",
+       "texte": "Laisse prendre à température ambiante, sans passer par le réfrigérateur.",
+       "s": 3600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Décore chaque verrine d'une feuille de menthe ({menthe}) et sers."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Pas besoin de sucre : une pastèque bien mûre suffit. Un filet de jus de citron vert la relève joliment.",
+    "Se garde 2 jours au réfrigérateur, bien couverte ; sors-la une demi-heure avant de la manger."
+   ],
+   "tags": [
+    "été",
+    "canicule",
+    "soif",
+    "pastèque",
+    "Chaleur"
+   ]
+  }
+ ]
+}

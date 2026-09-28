@@ -56,7 +56,7 @@ applyLook();
 
 /* ---------- État ---------- */
 const view=$('#view');
-let DATA=null,FIGS={},SYMFREQ={},loadError=false,fiches=[],tableaux=[],SYM={},SYMCATS=[],ORG={},ORGS=[],AXES=[],INGC={},INGCATS=[],PTS={};
+let DATA=null,FIGS={},SYMFREQ={},loadError=false,fiches=[],tableaux=[],SYM={},SYMCATS=[],ORG={},ORGS=[],AXES=[],GENRES=[],INGC={},INGCATS=[],PTS={},NATS={},SAVS={},ORGC={};
 let tab=TABS.includes(store('ys.onglet'))?store('ys.onglet'):'symptomes';
 let route=null;
 const scrollMem={};
@@ -117,7 +117,8 @@ function normFiche(d){
   e._keys=[...new Set(arr(e.ingredients).filter(i=>i&&i.cle&&!i.base).map(i=>i.cle))];
   e._var=arr(e.variantes).length?e.variantes:(Array.isArray(e.etapes)?[{id:'base',nom:'',etapes:e.etapes}]:[]);
   e._tab=[];
-  e._hay=hayOf([e.titre,e.contexte,arr(e.tags).join(' '),e._sym.map(s=>SYM[s].nom).join(' '),e.principe&&[e.principe.zh,e.principe.py,e.principe.fr].join(' '),
+  const gn=GENRES.find(g=>g.id===e.genre);
+  e._hay=hayOf([e.titre,e.zh,e.py,gn&&gn.nom,e.contexte,arr(e.tags).join(' '),e._sym.map(s=>SYM[s].nom).join(' '),e.principe&&[e.principe.zh,e.principe.py,e.principe.fr].join(' '),
     e._items.map(it=>[it.ab,pn(it.ab),it.py,it.zh].join(' ')).join(' '),arr(e.ingredients).map(i=>i.nom).join(' '),arr(e.produits).map(x=>x.nom).join(' ')]);
   return e;
 }
@@ -960,25 +961,47 @@ ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
 }
 
 /* ---------- Cuisine ---------- */
+let cuisMode=store('ys.cuisine-mode')==='aliments'?'aliments':'recettes',cuisTri=store('ys.cuisine-tri')==='axe'?'axe':'genre',recQuery='',alimQuery='',alimNat='tous';
+const NAT_GROUPES={frais:['froide','fraiche-froide','fraiche','neutre-fraiche'],neutre:['neutre'],chaud:['neutre-tiede','tiede','tiede-chaude','chaude']};
+function natBadge(n){const x=NATS[n];return x?`<span class="nat n-${esc(n)}">${esc(x.nom)}</span>`:'';}
+function savHTML(list){return arr(list).filter(s=>SAVS[s]).map(s=>`<span class="sav s-${esc(s)}">${esc(SAVS[s].nom)}</span>`).join('');}
+function orgNames(list){return arr(list).map(o=>ORGC[o]?ORGC[o].nom:o).join(', ');}
 function renderCuisine(){
   const recs=fiches.filter(e=>e.type==='recette');
-  let h=`<h1 class="vh">${$t('Cuisine')}</h1><p class="lede">${$t('Diététique chinoise au quotidien : à la casserole, au cuiseur, à la cocotte ou au four.')}</p>
-<details class="cat pick" data-cat="_ing"${ingOpen?' open':''}><summary><span>${$t('J\'ai dans ma cuisine…')}</span>${have.size?`<span class="cat-n">${have.size}</span>`:''}</summary>
-${INGCATS.map(c=>{const list=Object.values(INGC).filter(i=>i.cat===c.id);return list.length?`<p class="subcat">${esc(c.nom)}</p><div class="chips och">${list.map(i=>`<button type="button" class="chip" data-ing="${esc(i.id)}" aria-pressed="${have.has(i.id)}">${esc(i.nom)}</button>`).join('')}</div>`:'';}).join('')}
+  let h=`<h1 class="vh">${$t('Cuisine')}</h1><p class="lede">${$t(cuisMode==='aliments'?'La nature, les saveurs et les organes de chaque aliment, selon la diététique chinoise.':'Diététique chinoise au quotidien : congees, soupes, plats, salades, desserts et boissons.')}</p>
+<div class="seg segc" role="group" aria-label="${$t('Afficher')}"><button type="button" data-cmode="recettes" aria-pressed="${cuisMode==='recettes'}">${$t('Recettes')} <span class="n">${recs.length}</span></button><button type="button" data-cmode="aliments" aria-pressed="${cuisMode==='aliments'}">${$t('Aliments')} <span class="n">${Object.values(INGC).filter(i=>NATS[i.nature]).length}</span></button></div>`;
+  if(cuisMode==='aliments'){view.innerHTML=h+alimShellHTML();bindAlim();return;}
+  const used=new Set();recs.forEach(e=>e._keys.forEach(k=>used.add(k)));
+  h+=`<details class="cat pick" data-cat="_ing"${ingOpen?' open':''}><summary><span>${$t('J\'ai dans ma cuisine…')}</span>${have.size?`<span class="cat-n">${have.size}</span>`:''}</summary>
+${INGCATS.map(c=>{const list=Object.values(INGC).filter(i=>i.cat===c.id&&used.has(i.id));return list.length?`<p class="subcat">${esc(c.nom)}</p><div class="chips och">${list.map(i=>`<button type="button" class="chip" data-ing="${esc(i.id)}" aria-pressed="${have.has(i.id)}">${esc(i.nom)}</button>`).join('')}</div>`:'';}).join('')}
 ${have.size?`<button type="button" class="linkbtn" data-clear="ing">${$t('Tout décocher')}</button>`:''}
 <p class="fine">${$t('L\'eau, le sel, l\'huile, la sauce soja et le sucre sont comptés d\'office.')}</p></details>
-<div id="cuisres"></div>`;
-  h+=`<h2 class="results-h">${$t('Toutes les recettes')}</h2>`;
-  AXES.forEach(a=>{
-    const list=recs.filter(e=>e.axe===a.id);if(!list.length)return;
-    h+=`<h3 class="axe"><span class="org-zh" lang="zh-Hans">${esc(a.zh||'')}</span>${esc(a.nom)}<span class="org-n">${list.length}</span></h3><div class="entries">${list.map(e=>cardF(e)).join('')}</div>`;
-  });
-  const other=recs.filter(e=>!AXES.some(a=>a.id===e.axe));
-  if(other.length)h+=`<h3 class="axe">${$t('Autres')}</h3><div class="entries">${other.map(e=>cardF(e)).join('')}</div>`;
+<div id="cuisres"></div>
+<h2 class="results-h">${$t('Toutes les recettes')}</h2>
+<div class="tools">${searchBox('rq',recQuery,$t('Chercher une recette, un ingrédient'),$t('Chercher une recette'))}
+<div class="trirow"><span id="ctri-l">${$t('Classement')}</span><div class="seg segt" role="group" aria-labelledby="ctri-l"><button type="button" data-ctri="genre" aria-pressed="${cuisTri==='genre'}">${$t('Par type de plat')}</button><button type="button" data-ctri="axe" aria-pressed="${cuisTri==='axe'}">${$t('Par effet')}</button></div></div></div>
+<nav class="jump" aria-label="${$t('Aller à une rubrique')}">${recGroups(recs).map(g=>`<button type="button" class="jump-b" data-jump="${esc(g.key)}">${g.zh?`<span lang="zh-Hans">${esc(g.zh)}</span>`:''}${esc(g.nom)}</button>`).join('')}</nav>
+<div id="reclist"></div>`;
   view.innerHTML=h;
   const d=view.querySelector('details.pick');
   if(d)d.addEventListener('toggle',()=>{ingOpen=d.open;});
-  renderCuisRes();
+  const q=$('#rq');q.addEventListener('input',()=>{recQuery=q.value;renderRecList();});
+  renderCuisRes();renderRecList();
+}
+function recGroups(recs){
+  const src=cuisTri==='axe'?AXES:GENRES,key=cuisTri==='axe'?'axe':'genre';
+  const gs=src.map(a=>({key:key[0]+'-'+a.id,zh:a.zh,nom:a.nom,texte:cuisTri==='genre'?a.texte:'',list:recs.filter(e=>e[key]===a.id)})).filter(g=>g.list.length);
+  const other=recs.filter(e=>!src.some(a=>a.id===e[key]));
+  if(other.length)gs.push({key:key[0]+'-autres',zh:'',nom:$t('Autres'),texte:'',list:other});
+  return gs;
+}
+function renderRecList(){
+  const box=$('#reclist');if(!box)return;
+  const q=recQuery.trim();let n=0;
+  const gs=recGroups(fiches.filter(e=>e.type==='recette'&&matchQ(e._hay,recQuery)));
+  box.innerHTML=gs.map(g=>{n+=g.list.length;return `<section class="grp" id="grp-${esc(g.key)}"><h2 class="org">${g.zh?`<span class="org-zh" lang="zh-Hans">${esc(g.zh)}</span>`:''}<span>${esc(g.nom)}${g.texte&&!q?`<small>${esc(g.texte)}</small>`:''}</span><span class="org-n">${g.list.length}</span></h2><div class="entries">${g.list.map(e=>cardF(e)).join('')}</div></section>`;}).join('')
+    ||`<p class="msg">${esc($t('Aucune recette ne correspond à « {q} ».',{q}))}</p>`;
+  const nav=view.querySelector('.jump');if(nav)nav.hidden=!!q;
 }
 function renderCuisRes(){
   const box=$('#cuisres');if(!box)return;
@@ -1000,6 +1023,49 @@ function toggleIng(id,anchor){
   if(sm){let n=sm.querySelector('.cat-n');if(have.size){if(!n){n=document.createElement('span');n.className='cat-n';sm.appendChild(n);}n.textContent=have.size;}else if(n)n.remove();}
   renderCuisRes();
   window.scrollBy(0,anchor.getBoundingClientRect().top-before);
+}
+/* Guide des aliments : nature, saveurs, tropisme */
+function alimShellHTML(){
+  const cats=INGCATS.filter(c=>Object.values(INGC).some(i=>i.cat===c.id&&NATS[i.nature]));
+  return `<details class="cat howto"><summary><span>${$t('Comment lire ces fiches')}</span></summary><div class="howto-b">
+<p><b>${$t('La nature')}</b> ${$t('dit si l\'aliment réchauffe ou rafraîchit le corps, du plus froid au plus chaud :')}</p><p class="natscale">${Object.keys(NATS).map(natBadge).join('')}</p>
+<p><b>${$t('Les saveurs')}</b> ${$t('indiquent son action :')}</p><ul class="savlist">${Object.entries(SAVS).map(([k,s])=>`<li><span class="sav s-${esc(k)}">${esc(s.nom)}</span> ${esc(s.texte||'')}</li>`).join('')}</ul>
+<p><b>${$t('Le tropisme')}</b> ${$t('désigne les organes vers lesquels l\'aliment agit en priorité.')}</p>
+<p class="fine">${$t('Un repas équilibré mélange les natures ; on ajuste selon la saison et selon qu\'on a plutôt chaud ou plutôt froid.')}</p></div></details>
+<div class="tools">${searchBox('alq',alimQuery,$t('Chercher un aliment'),$t('Chercher un aliment'))}
+<div class="seg segn" role="group" aria-label="${$t('Nature')}">${[['tous','Tous'],['frais','Rafraîchissants'],['neutre','Neutres'],['chaud','Réchauffants']].map(([k,l])=>`<button type="button" data-anat="${k}" aria-pressed="${alimNat===k}">${$t(l)}</button>`).join('')}</div></div>
+<nav class="jump" aria-label="${$t('Aller à une rubrique')}">${cats.map(c=>`<button type="button" class="jump-b" data-jump="a-${esc(c.id)}">${c.zh?`<span lang="zh-Hans">${esc(c.zh)}</span>`:''}${esc(c.nom)}</button>`).join('')}</nav>
+<div id="alimlist"></div>`;
+}
+function bindAlim(){const q=$('#alq');if(q)q.addEventListener('input',()=>{alimQuery=q.value;renderAlimList();});renderAlimList();}
+function renderAlimList(){
+  const box=$('#alimlist');if(!box)return;
+  const order=Object.keys(NATS),q=alimQuery.trim(),grp=NAT_GROUPES[alimNat];
+  const coll=typeof Intl!=='undefined'&&Intl.Collator?new Intl.Collator(LANG):null;
+  let n=0;
+  box.innerHTML=INGCATS.map(c=>{
+    const list=Object.values(INGC).filter(i=>i.cat===c.id&&NATS[i.nature]&&(!grp||grp.includes(i.nature))&&matchQ(hayOf([i.nom,i.zh||'']),alimQuery))
+      .sort((a,b)=>order.indexOf(a.nature)-order.indexOf(b.nature)||(coll?coll.compare(a.nom,b.nom):0));
+    if(!list.length)return '';n+=list.length;
+    return `<section class="grp" id="grp-a-${esc(c.id)}"><h2 class="org">${c.zh?`<span class="org-zh" lang="zh-Hans">${esc(c.zh)}</span>`:''}<span>${esc(c.nom)}</span><span class="org-n">${list.length}</span></h2><div class="alist">${list.map(i=>`<button type="button" class="al" data-alim="${esc(i.id)}"><span class="al-top"><span class="al-n">${esc(i.nom)}</span>${natBadge(i.nature)}</span><span class="al-sub">${savHTML(i.saveurs)}${arr(i.tropisme).length?`<span class="al-t">${esc(orgNames(i.tropisme))}</span>`:''}</span></button>`).join('')}</div></section>`;
+  }).join('')||`<p class="msg">${esc($t('Aucun aliment ne correspond à « {q} ».',{q}))}</p>`;
+  view.querySelectorAll('[data-anat]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.anat===alimNat)));
+  const nav=view.querySelector('.jump');if(nav)nav.hidden=!!q;
+}
+function alimSheet(id){
+  const i=INGC[id];if(!i)return;
+  const recs=fiches.filter(e=>e.type==='recette'&&e._keys.includes(id));
+  const nat=NATS[i.nature];
+  let b=`<div class="alim">${nat?`<p class="alim-nat">${natBadge(i.nature)}<span>${esc(nat.texte||'')}</span></p>`:''}`;
+  if(arr(i.saveurs).length)b+=`<h3 class="sh">${$t('Saveurs')}</h3><ul class="savlist">${i.saveurs.filter(s=>SAVS[s]).map(s=>`<li><span class="sav s-${esc(s)}">${esc(SAVS[s].nom)}</span> ${esc(SAVS[s].texte||'')}</li>`).join('')}</ul>`;
+  if(arr(i.tropisme).length)b+=`<h3 class="sh">${$t('Tropisme')}</h3><p>${esc(orgNames(i.tropisme))}</p>`;
+  if(i.note)b+=`<p class="alim-note">${esc(i.note)}</p>`;
+  if(recs.length){
+    b+=`<h3 class="sh">${$t(recs.length>1?'{n} recettes avec cet aliment':'1 recette avec cet aliment',{n:recs.length})}</h3><div class="alim-recs">${recs.map(e=>`<button type="button" class="alim-r" data-open="${esc(e.id)}">${esc(e.titre)}</button>`).join('')}</div>
+<button type="button" class="switch" data-ing="${esc(id)}" aria-pressed="${have.has(id)}"><span class="sw" aria-hidden="true"></span><span><b>${$t('J\'en ai dans ma cuisine')}</b><small>${$t('Pour trouver les recettes avec ce que tu as')}</small></span></button>`;
+  }
+  b+='</div>';
+  openSheet(i.nom,i.zh||'',b);
 }
 
 /* ---------- Carnet ---------- */
@@ -1259,7 +1325,7 @@ function recipeHTML(e){
 function renderFicheDetail(e){
   const tabs=e._tab.map(tableau).filter(Boolean);
   view.innerHTML=`<div class="fiche ${e.type}">${barHTML('f',e.id,TYPES[e.type])}
-<header class="dhead"><p class="eyebrow">${esc(e.type==='recette'?((AXES.find(a=>a.id===e.axe)||{}).nom||TYPES.recette):longDate(e._d))}</p><h1 class="dtitle">${esc(e.titre)}</h1>${e.contexte?`<p class="ctx">${esc(e.contexte)}</p>`:''}
+<header class="dhead"><p class="eyebrow">${esc(e.type==='recette'?([(GENRES.find(g=>g.id===e.genre)||{}).nom,(AXES.find(a=>a.id===e.axe)||{}).nom].filter(Boolean).join(' · ')||TYPES.recette):longDate(e._d))}</p><h1 class="dtitle">${esc(e.titre)}</h1>${e.zh?`<p class="sub"><span lang="zh-Hans">${esc(e.zh)}</span>${e.py?` · ${esc(e.py)}`:''}</p>`:''}${e.contexte?`<p class="ctx">${esc(e.contexte)}</p>`:''}
 ${tabs.length?`<div class="for"><span class="for-l">${$t('Conseillé pour')}</span>${tabs.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
 ${e._sym.length?`<div class="for">${e._sym.map(s=>`<span class="tag static">${esc(symName(s))}</span>`).join('')}</div>`:''}${prinHTML(e)}</header>
 ${rappelHTML()}${e.type==='protocole'?protoHTML(e):recipeHTML(e)}</div>`;
@@ -1580,6 +1646,8 @@ document.addEventListener('click',ev=>{
   const d=b.dataset;
   if(b.closest('#sheet')){
     if(d.opent){const id=d.opent;closeSheet(false,()=>openItem('t',id));return;}
+    if(d.open){const id=d.open;closeSheet(false,()=>openItem('f',id));return;}
+    if(d.ing){have.has(d.ing)?have.delete(d.ing):have.add(d.ing);saveSet('ys.cuisine',have);b.setAttribute('aria-pressed',String(have.has(d.ing)));toast(have.has(d.ing)?'Ajouté à ta cuisine':'Retiré de ta cuisine');return;}
     if(d.gsym){toggleSym(d.gsym,null);const on=symSel.has(d.gsym);b.setAttribute('aria-pressed',String(on));b.textContent=gsymLabel(d.gsym);toast($t(on?'Ajouté : {s}':'Retiré : {s}',{s:symName(d.gsym)}));return;}
     if(d.pwtoggle){const i=b.parentNode.querySelector('input'),show=i.type==='password';i.type=show?'text':'password';b.textContent=$t(show?'Masquer':'Afficher');b.setAttribute('aria-label',$t(show?'Masquer le mot de passe':'Afficher le mot de passe'));return;}
     if(d.act)onSheetAct(d.act);else if(b.classList.contains('sheet-cancel'))closeSheet();return;
@@ -1612,6 +1680,10 @@ document.addEventListener('click',ev=>{
     rerenderKeep('[data-prefreset]');toast('Réglages par défaut rétablis');return;}
   if(d.unhide){const old=masques;masques=[];persist();refresh();toast('Fiches remises dans le carnet',()=>{masques=old;persist();refresh();});return;}
   if(d.menu){const i=d.menu.indexOf(':');itemMenu(d.menu.slice(0,i),d.menu.slice(i+1),null);return;}
+  if(d.cmode){if(cuisMode!==d.cmode){cuisMode=d.cmode;store('ys.cuisine-mode',cuisMode);render();}return;}
+  if(d.ctri){if(cuisTri!==d.ctri){cuisTri=d.ctri;store('ys.cuisine-tri',cuisTri);rerenderKeep('.segt');}return;}
+  if(d.anat){alimNat=d.anat;renderAlimList();return;}
+  if(d.alim){alimSheet(d.alim);return;}
   if(d.jump){const s=$('#grp-'+cssq(d.jump));if(s)s.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});return;}
   if(d.acsym){pickSuggestion(d.acsym);return;}
   if(d.tk){toggle(d.tk);return;}
@@ -1707,7 +1779,8 @@ loadData().then(d=>{
   SYM={};arr(DATA.symptomes).forEach(s=>{if(s&&s.id)SYM[s.id]=s;});
   SYMCATS=arr(DATA.categories_symptomes);
   ORGS=arr(DATA.organes);ORG={};ORGS.forEach(o=>{ORG[o.id]=o;});
-  AXES=arr(DATA.axes);
+  AXES=arr(DATA.axes);GENRES=arr(DATA.genres);
+  NATS={};arr(DATA.natures).forEach(n=>{if(n&&n.id)NATS[n.id]=n;});SAVS={};arr(DATA.saveurs).forEach(n=>{if(n&&n.id)SAVS[n.id]=n;});ORGC={};arr(DATA.organes_courts).forEach(n=>{if(n&&n.id)ORGC[n.id]=n;});
   INGCATS=arr(DATA.categories_ingredients);
   INGC={};arr(DATA.ingredients).forEach(i=>{if(i&&i.id)INGC[i.id]=i;});
   fiches=arr(DATA.fiches).map(normFiche).filter(Boolean)

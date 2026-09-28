@@ -113,7 +113,10 @@
     "crevettes-ciboule-oeufs",
     "poulet-chataignes",
     "bouillon-os-boeuf",
-    "agneau-fenouil"
+    "agneau-fenouil",
+    "congee-ciboule-chinoise",
+    "rognons-agneau-muscade",
+    "foie-agneau-ciboule"
    ],
    "privilegier": "Walnuts, lamb, shrimp, leek, cinnamon, ginger, black beans, chestnuts, slow-cooked dishes.",
    "eviter": "Cold and raw food, iced drinks, overwork, staying up late, sitting on cold floors.",
@@ -238,7 +241,14 @@
     "soupe-huitres-tofu",
     "soupe-canard-igname",
     "huitres-gingembre",
-    "creme-sesame-noix"
+    "creme-sesame-noix",
+    "bouillon-huitres-gingembre",
+    "soupe-bai-he-zao-ren",
+    "oeufs-jujubes-goji",
+    "tremelle-oeufs-caille",
+    "igname-vapeur",
+    "gateau-bu-shen",
+    "gateau-igname-fruits-secs"
    ],
    "privilegier": "Black beans, black sesame, goji berries, snow fungus (tremella), Chinese yam, eggs, tofu, pear.",
    "eviter": "Spicy food, alcohol, coffee, sauna, intense exercise in the evening, staying up late.",
@@ -345,7 +355,9 @@
     "congee-qian-shi",
     "poulet-chataignes",
     "huitres-gingembre",
-    "crevettes-ciboule-oeufs"
+    "crevettes-ciboule-oeufs",
+    "congee-ciboule-chinoise",
+    "bouillie-igname-farine"
    ],
    "privilegier": "Chinese yam, walnuts, black beans, lotus seeds, chestnuts.",
    "eviter": "Cold drinks, carrying heavy loads, drinking a lot in the evening.",
@@ -448,7 +460,8 @@
    "recettes": [
     "congee-shan-yao",
     "congee-haricots-noirs",
-    "soupe-poulet-huang-qi"
+    "soupe-poulet-huang-qi",
+    "amandons-noix-miel"
    ],
    "privilegier": "Walnuts, Chinese yam, black beans, chicken, hot dishes.",
    "eviter": "Tobacco, cold, sudden exertion.",
@@ -546,7 +559,9 @@
     "poulet-chataignes",
     "bouillon-os-boeuf",
     "huitres-gingembre",
-    "creme-sesame-noix"
+    "creme-sesame-noix",
+    "tremelle-oeufs-caille",
+    "gateau-bu-shen"
    ],
    "privilegier": "Black sesame, black beans, walnuts, goji berries, eggs, bone broths, seaweed.",
    "eviter": "Overwork, short nights, excess of any kind.",
@@ -639,7 +654,13 @@
    "recettes": [
     "soupe-mungo",
     "congee-orge-azuki",
-    "bouillon-concombre-wakame"
+    "bouillon-concombre-wakame",
+    "congee-alisma",
+    "soupe-courge-cireuse-crevettes",
+    "courge-cireuse-vapeur",
+    "jus-pasteque-menthe",
+    "eau-concombre-menthe",
+    "gelee-pasteque"
    ],
    "privilegier": "Drinking plenty of water, mung and adzuki beans, pearl barley, celery, cooked cucumber.",
    "eviter": "Alcohol, spicy food, coffee, sugar, holding in your urine.",
@@ -720,7 +741,8 @@
    "recettes": [
     "soupe-mungo",
     "congee-orge-azuki",
-    "bouillon-concombre-wakame"
+    "bouillon-concombre-wakame",
+    "omelette-pourpier"
    ],
    "privilegier": "Rice, broths, cooked carrot, pearl barley. Drink often, in small sips.",
    "eviter": "Fatty food, dairy, alcohol, spicy food, raw fruit during the attack.",
@@ -805,7 +827,12 @@
     "compote-pomme-poire",
     "poire-vapeur-amandes",
     "congee-goji-sesame",
-    "creme-sesame-noix"
+    "creme-sesame-noix",
+    "soupe-epinards-tremelle",
+    "soupe-chou-chinois-tofu",
+    "lapin-sesame-noir",
+    "boisson-champignons-noirs",
+    "bananes-sesame-noir"
    ],
    "privilegier": "Prunes, pear, stewed apple, sesame, almonds, walnuts, spinach, sweet potato, enough water.",
    "eviter": "Spicy food, grilled food, too much coffee, holding it in when you need to go.",
@@ -892,7 +919,9 @@
     "congee-millet-patate-douce",
     "compote-pomme-poire",
     "soupe-poulet-huang-qi",
-    "boeuf-carottes-dattes"
+    "boeuf-carottes-dattes",
+    "lapin-sesame-noir",
+    "carottes-miel"
    ],
    "privilegier": "Sweet potato, cooked grains, prunes, stewed fruit, cooked vegetables.",
    "eviter": "Raw and cold food, a sedentary lifestyle.",
