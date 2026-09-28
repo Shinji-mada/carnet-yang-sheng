@@ -630,3 +630,8 @@ details.set-acc>summary{padding:16px;min-height:64px}
 .set-sum small{display:block;margin-top:2px;font-weight:400;font-size:calc(13px*var(--fs,1));color:var(--muted);line-height:1.35}
 details.set-acc>.set{padding:0 16px 18px;border-top:1px solid var(--line);margin-top:0}
 details.set-acc>.set>.set-h:first-child{margin-top:16px}
+/* Encadrés d'explication (Symptômes, Tableaux) */
+.tipbox{display:flex;gap:12px;align-items:flex-start;margin:16px 0 0;padding:12px 14px;border-radius:14px;background:var(--jade-bg);color:var(--ink);font-size:calc(14.5px*var(--fs,1));line-height:1.45;max-width:62ch}
+.tipbox p{margin:0}
+.tipbox b{color:var(--jade)}
+.tipbox .ti{flex:none;width:22px;height:22px;margin-top:1px;color:var(--jade)}

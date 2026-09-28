@@ -736,6 +736,7 @@ function ringHTML(p,cls,big){return `<span class="ring ${cls}${big?' big':''}" r
 function renderSym(){
   if(symMode==='resultats'&&symSel.size)return renderSymResults();
   view.innerHTML=`<h1 class="vh">${$t('Symptômes')}</h1><p class="lede">${$t('Coche ce que tu ressens, même un peu. L\'appli cherche les tableaux de la médecine chinoise qui te ressemblent.')}</p>
+${tipHTML(TIP_FILTRE,'Coche plusieurs symptômes.','Un seul signe se retrouve dans beaucoup de tableaux : plus tu en coches, plus la recherche s\'affine et plus le tableau proposé est précis.')}
 <div class="tools ac-wrap">${searchBox('sq',symQuery,$t('Tape les premières lettres : fat, toux, diarr…'),$t('Chercher un symptôme'))}<div class="ac" id="ac" role="listbox" aria-label="${$t('Suggestions')}" hidden></div></div>
 <div id="symlist"></div><div class="cta-wrap" id="symcta" hidden></div>`;
   const q=$('#sq'),acb=$('#ac');
@@ -798,6 +799,8 @@ function rappels(){
     [...(c?arr(c.rappel):[]),...(s.rappel?[String(s.rappel)]:[])].forEach(r=>{if(!out.includes(r))out.push(r);});});
   return out;
 }
+const TIP_FILTRE='<path d="M3.5 5h17l-6.5 7.5v5.5l-4 2v-7.5z"/>',TIP_COUCHES='<path d="M12 3.5l8.5 4.5-8.5 4.5-8.5-4.5z"/><path d="M3.5 12.5l8.5 4.5 8.5-4.5"/><path d="M3.5 16.5l8.5 4.5 8.5-4.5"/>';
+function tipHTML(ic,titre,texte){return `<div class="tipbox" role="note"><svg class="ti" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ic}</svg><p><b>${$t(titre)}</b> ${$t(texte)}</p></div>`;}
 function rappelHTML(){const r=rappels();return r.length?`<div class="alert rappel" role="note"><h2>${$t('Précautions pour toi')}</h2><ul>${r.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div>`:'';}
 function catIds(c){return arr(c.sous).length?[].concat(...c.sous.map(g=>arr(g.liste))):arr(c.liste);}
 function catList(c){const ids=catIds(c);return ids.length?ids.map(id=>SYM[id]).filter(Boolean):Object.values(SYM).filter(s=>s.cat===c.id);}
@@ -861,7 +864,7 @@ function renderSymResults(){
     const diag=sel.length===1&&arr(SYM[sel[0]].tab).length;
     h+=diag?`<h2 class="results-h">${plural(res.length,'tableau souvent rencontré','tableaux souvent rencontrés')} ${$t('avec ce diagnostic')}</h2><p class="hint">${$t('Ajoute tes autres symptômes pour savoir lequel te ressemble le plus. Touche un signe pour l\'ajouter.')}</p>`
       :sel.length===1?`<h2 class="results-h">${plural(res.length,'tableau contient','tableaux contiennent')} ${$t('ce signe')}</h2><p class="hint">${$t('Regarde les autres signes de chaque tableau (en gras, les signes clés) : celui où tu te reconnais le plus est le bon point de départ. Touche un signe pour l\'ajouter.')}</p>`
-      :`<h2 class="results-h">${plural(res.length,'tableau possible','tableaux possibles')}</h2>`;
+      :`<h2 class="results-h">${plural(res.length,'tableau possible','tableaux possibles')}</h2>${res.length>1?`<p class="hint">${$t('Un tableau ne vient jamais seul : plusieurs de ces tableaux peuvent te correspondre en même temps.')}</p>`:''}`;
     h+='<div class="entries">';
     shown.forEach(r=>{
       const [cls,lab]=force(r);
@@ -901,6 +904,7 @@ function groupsWith(){return ORGS.map(o=>({o,list:tableaux.filter(t=>t._groups.i
 function renderTableaux(){
   const gs=groupsWith();
   view.innerHTML=`<h1 class="vh">${$t('Tableaux')}</h1><p class="lede">${$t('Les tableaux de la médecine chinoise, organe par organe, avec leurs signes, leurs points et leurs recettes.')}</p>
+${tipHTML(TIP_COUCHES,'Un tableau ne vient jamais seul.','On a souvent plusieurs tableaux en même temps, qui s\'entretiennent l\'un l\'autre : par exemple un Vide de Qi de la Rate avec une Stagnation du Qi du Foie. Il est donc normal de te reconnaître dans plusieurs d\'entre eux.')}
 <div class="tools">${searchBox('tq',tabQuery,$t('Chercher un tableau, un organe'),$t('Chercher un tableau'))}</div>
 <nav class="jump" aria-label="${$t('Aller à un organe')}">${gs.map(g=>`<button type="button" class="jump-b" data-jump="${esc(g.o.id)}"><span lang="zh-Hans">${esc(g.o.zh||'')}</span>${esc(g.o.nom)}</button>`).join('')}</nav>
 <div id="tablist"></div>`;
@@ -1138,7 +1142,7 @@ function renderInfos(){
   view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">${$t('Version {v}',{v:esc(DATA.version||'')})}</p></div></header>
 ${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:''}
 ${settingsHTML()}
-<section class="card"><h2>${$t('À lire avant d\'utiliser')}</h2><p>${$t('Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.')}</p><p>${$t('Ce n\'est ni un diagnostic ni un traitement. Si un symptôme dure, s\'aggrave ou t\'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.')}</p></section>
+<section class="card"><h2>${$t('À lire avant d\'utiliser')}</h2><p>${$t('Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.')}</p><p>${$t('Ce n\'est ni un diagnostic ni un traitement. Si un symptôme dure, s\'aggrave ou t\'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.')}</p><p><b>${$t('Rien ne remplace un vrai praticien.')}</b> ${$t('L\'appli ne vaut pas le bilan et le diagnostic d\'un praticien de médecine traditionnelle chinoise : en t\'examinant (langue, pouls, questions sur ton histoire et ton mode de vie), lui seul peut dire quels tableaux sont vraiment les tiens et adapter les soins à ta situation.')}</p></section>
 <h2 class="sec">${$t('Bien masser')}</h2>${acc(GUIDE,'g')}
 <h2 class="sec">${$t('Petit lexique')}</h2>${acc(LEXIQUE,'l')}
 ${SYMCATS.some(c=>c.guide)?`<h2 class="sec">${$t('Guides santé')}</h2><div class="guides">${SYMCATS.filter(c=>c.guide).map(c=>`<button type="button" class="guide-b" data-guide="${esc(c.id)}"><span><b>${esc(c.court||c.nom)}</b>${esc(c.guide)}</span><span aria-hidden="true">›</span></button>`).join('')}</div>`:''}
