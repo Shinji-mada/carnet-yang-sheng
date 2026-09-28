@@ -1088,8 +1088,10 @@ function segHTML(name,cur,opts,label,cols){
 function swHTML(name,on,title,sub){
   return `<button type="button" class="switch" ${name==='auto'?'data-auto="1"':`data-pref="${name}"`} aria-pressed="${!!on}"><span class="sw" aria-hidden="true"></span><span><b>${esc(title)}</b><small>${esc(sub)}</small></span></button>`;
 }
+let setOpen=false;
+const GEAR='<svg class="set-ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>';
 function settingsHTML(){
-  return `<h2 class="sec" id="reglages">${$t('Paramètres')}</h2><section class="card set">
+  return `<details class="cat set-acc" id="reglages"${setOpen?' open':''}><summary><span class="set-sum">${GEAR}<span><b>${$t('Paramètres')}</b><small>${$t('Apparence, langue, taille du texte, minuteurs, cuisine')}</small></span></span></summary><div class="set">
 <h3 class="set-h">${$t('Affichage')}</h3>
 <p class="set-l">${$t('Apparence')}</p>${segHTML('theme',PREF.theme,[['auto',$t('Automatique')],['light',$t('Clair')],['dark',$t('Sombre')]],$t('Apparence'))}
 <p class="set-l">${$t('Langue de l\'appli')}</p>${segHTML('lang',LANG,[['fr','Français','fr'],['en','English','en']],$t('Langue de l\'appli'))}
@@ -1104,7 +1106,7 @@ ${swHTML('auto',auto,$t('Enchaîner automatiquement'),$t('Lance le côté ou le 
 <p class="set-l">${$t('Appareil préféré')}</p>${segHTML('var',varPref,[['casserole',$t('Casserole')],['cuiseur',$t('Cuiseur à riz')],['cocotte',$t('Cocotte-minute')]],$t('Appareil préféré'))}
 <p class="set-hint">${$t('Les recettes s\'ouvrent sur cet appareil quand elles le proposent.')}</p>
 <p class="set-l">${$t('Portions par défaut')}</p>${segHTML('portions',PREF.portions,[[0,$t('Comme la recette')],[1,'1'],[2,'2'],[4,'4']],$t('Portions par défaut'),'minmax(0,2.4fr) repeat(3,minmax(0,1fr))')}
-</section>`;
+</div></details>`;
 }
 function setSetting(k,v,b){
   if(k==='lang'){
@@ -1135,8 +1137,8 @@ function renderInfos(){
     `<button type="button" class="ghost" data-prefreset="1">${$t('Rétablir les réglages par défaut')}</button>`].join('');
   view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">${$t('Version {v}',{v:esc(DATA.version||'')})}</p></div></header>
 ${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:''}
-<section class="card"><h2>${$t('À lire avant d\'utiliser')}</h2><p>${$t('Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.')}</p><p>${$t('Ce n\'est ni un diagnostic ni un traitement. Si un symptôme dure, s\'aggrave ou t\'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.')}</p></section>
 ${settingsHTML()}
+<section class="card"><h2>${$t('À lire avant d\'utiliser')}</h2><p>${$t('Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.')}</p><p>${$t('Ce n\'est ni un diagnostic ni un traitement. Si un symptôme dure, s\'aggrave ou t\'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.')}</p></section>
 <h2 class="sec">${$t('Bien masser')}</h2>${acc(GUIDE,'g')}
 <h2 class="sec">${$t('Petit lexique')}</h2>${acc(LEXIQUE,'l')}
 ${SYMCATS.some(c=>c.guide)?`<h2 class="sec">${$t('Guides santé')}</h2><div class="guides">${SYMCATS.filter(c=>c.guide).map(c=>`<button type="button" class="guide-b" data-guide="${esc(c.id)}"><span><b>${esc(c.court||c.nom)}</b>${esc(c.guide)}</span><span aria-hidden="true">›</span></button>`).join('')}</div>`:''}
@@ -1147,6 +1149,11 @@ ${SYMCATS.some(c=>c.guide)?`<h2 class="sec">${$t('Guides santé')}</h2><div clas
 <section class="card"><h2>${$t('Contenu')}</h2><dl class="kv"><dt>${$t('Symptômes')}</dt><dd>${Object.keys(SYM).length}</dd><dt>${$t('Tableaux')}</dt><dd>${tableaux.length}</dd><dt>${$t('Points')}</dt><dd>${Object.keys(PTS).length}</dd><dt>${$t('Recettes')}</dt><dd>${nR}</dd><dt>${$t('Protocoles')}</dt><dd>${nP}</dd></dl></section>
 <p class="fine">${$t('Polices Atkinson Hyperlegible et Noto Serif SC, sous licence SIL Open Font License.')}</p>`;
   view.querySelectorAll('.accwrap').forEach(w=>accordion(w,()=>{}));
+  const r=$('#reglages');
+  if(r)r.addEventListener('toggle',()=>{
+    setOpen=r.open;
+    if(r.open)window.scrollTo({top:Math.max(0,window.scrollY+r.getBoundingClientRect().top-12),behavior:reduce?'auto':'smooth'});
+  });
 }
 
 /* ---------- Fiche ---------- */
@@ -1713,7 +1720,7 @@ loadData().then(d=>{
   if(curV){store('ys.version',curV);if(prevV&&prevV!==curV)setTimeout(()=>toast($t('Appli mise à jour : version {v}',{v:curV})),$('#intro')?3900:300);}
   if(route)pushRecent(route.kind,route.id);
   render();
-  try{if(sessionStorage.getItem('ys.apres')==='reglages'){sessionStorage.removeItem('ys.apres');const go=()=>{const r=!route&&tab==='infos'&&$('#reglages');if(r)window.scrollTo(0,Math.max(0,window.scrollY+r.getBoundingClientRect().top-12));};go();setTimeout(go,120);}}catch(e){}
+  try{if(sessionStorage.getItem('ys.apres')==='reglages'){sessionStorage.removeItem('ys.apres');setOpen=true;const r=!route&&tab==='infos'&&$('#reglages');if(r){r.open=true;const go=()=>window.scrollTo(0,Math.max(0,window.scrollY+r.getBoundingClientRect().top-12));setTimeout(go,150);setTimeout(go,500);}}}catch(e){}
 }).catch(()=>{loadError=true;render();});
 
 if('serviceWorker' in navigator&&!window.YS_DATA&&location.protocol==='https:'){

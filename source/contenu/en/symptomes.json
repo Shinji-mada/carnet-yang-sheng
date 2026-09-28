@@ -3,9 +3,9 @@
   {
    "id": "fatigue",
    "cat": "general",
-   "nom": "Fatigue",
+   "nom": "Tiredness",
    "alerte": "See a doctor if the fatigue lasts more than a few weeks, or if it comes with fever, shortness of breath or unexplained weight loss.",
-   "syn": "tired tiredness exhausted exhaustion asthenia no energy low energy worn out drained energy slump burnout weary"
+   "syn": "fatigue tired tiredness exhausted exhaustion asthenia no energy low energy worn out drained energy slump burnout weary"
   },
   {
    "id": "fatigue-matin",

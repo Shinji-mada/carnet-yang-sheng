@@ -613,8 +613,8 @@ details.cat.rich>.chips{margin:0;padding:0 14px 14px}
 .fig-lab{font-size:13.5px;font-weight:700;fill:#E2231A;paint-order:stroke;stroke:#fff;stroke-width:3px}.fig-svg .osf{fill:#E9E9E9;stroke:#BDBDBD;stroke-width:.8}
 
 /* Paramètres */
-.set .set-h{margin:22px 0 2px;font-size:calc(13px*var(--fs,1));font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
-.set .set-h:first-child{margin-top:0}
+.set .set-h{margin:26px 0 2px;font-size:calc(13px*var(--fs,1));font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.set .set-h:first-child{margin-top:4px}
 .set-l{margin:18px 0 6px;font-size:calc(15px*var(--fs,1));font-weight:700}
 .set-hint{margin:6px 2px 0;font-size:calc(13px*var(--fs,1));color:var(--muted)}
 .set .switch{margin-top:10px}
@@ -622,3 +622,11 @@ details.cat.rich>.chips{margin:0;padding:0 14px 14px}
 .data-acts .ghost{text-align:left}
 .no-intro #intro{display:none}
 .pt-py2{margin:2px 0 0;font-size:calc(14px*var(--fs,1));color:var(--muted);font-style:italic}
+details.set-acc{margin-top:16px}
+details.set-acc>summary{padding:16px;min-height:64px}
+.set-sum{display:flex;align-items:center;gap:14px}
+.set-ic{width:28px;height:28px;flex:none;color:var(--jade)}
+.set-sum b{display:block;font-size:calc(17px*var(--fs,1))}
+.set-sum small{display:block;margin-top:2px;font-weight:400;font-size:calc(13px*var(--fs,1));color:var(--muted);line-height:1.35}
+details.set-acc>.set{padding:0 16px 18px;border-top:1px solid var(--line);margin-top:0}
+details.set-acc>.set>.set-h:first-child{margin-top:16px}
