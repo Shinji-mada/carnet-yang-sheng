@@ -1344,9 +1344,15 @@
    "syn": "enduit gras collant glissant visqueux"
   },
   {
+   "id": "sans-enduit",
+   "cat": "langue",
+   "nom": "Langue sans enduit, lisse et brillante",
+   "syn": "sans enduit lisse brillante pelée miroir"
+  },
+  {
    "id": "enduit-pele",
    "cat": "langue",
-   "nom": "Enduit absent par plaques (langue « en carte ») ou partout",
+   "nom": "Enduit absent par plaques (langue « en carte »)",
    "syn": "pelée carte géographique plaques sans enduit lisse"
   },
   {

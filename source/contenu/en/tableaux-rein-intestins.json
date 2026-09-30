@@ -185,7 +185,8 @@
     "langue-mince",
     "langue-fissuree",
     "enduit-pele",
-    "demangeaisons-nuit"
+    "demangeaisons-nuit",
+    "sans-enduit"
    ],
    "contre": [
     "frilosite",
@@ -727,7 +728,8 @@
    "contre": [
     "diarrhee-matin",
     "frilosite",
-    "langue-pale"
+    "langue-pale",
+    "sans-enduit"
    ],
    "langue": "Red, greasy yellow coating.",
    "pouls": "Slippery and rapid.",
@@ -810,7 +812,8 @@
     "haleine",
     "vertiges",
     "langue-pale",
-    "langue-mince"
+    "langue-mince",
+    "sans-enduit"
    ],
    "contre": [
     "selles-molles",

@@ -278,7 +278,8 @@
     "urines-foncees",
     "gorge-chatouille",
     "langue-mince",
-    "enduit-pele"
+    "enduit-pele",
+    "sans-enduit"
    ],
    "contre": [
     "toux-glaires-blanches",
@@ -691,7 +692,8 @@
    "contre": [
     "toux-seche",
     "toux-glaires-jaunes",
-    "langue-rouge-sans-enduit"
+    "langue-rouge-sans-enduit",
+    "sans-enduit"
    ],
    "langue": "Pale and swollen, sometimes with tooth marks; thick, greasy white coating.",
    "pouls": "Slippery.",
@@ -805,7 +807,8 @@
    "contre": [
     "toux-glaires-blanches",
     "frilosite",
-    "langue-pale"
+    "langue-pale",
+    "sans-enduit"
    ],
    "langue": "Red, sometimes red dots at the front; greasy yellow coating.",
    "pouls": "Slippery and rapid.",

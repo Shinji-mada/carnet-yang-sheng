@@ -42,7 +42,8 @@
     "fatigue-traitement",
     "fatigue-matin",
     "langue-mince",
-    "saignements-nez"
+    "saignements-nez",
+    "sans-enduit"
    ],
    "contre": [
     "langue-rouge",
@@ -162,7 +163,8 @@
     "langue-rouge-sans-enduit",
     "vision-nuit",
     "demangeaisons-nuit",
-    "lhermitte"
+    "lhermitte",
+    "sans-enduit"
    ],
    "contre": [
     "frilosite",

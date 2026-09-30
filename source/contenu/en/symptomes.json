@@ -1344,9 +1344,15 @@
    "syn": "greasy sticky slippery coating"
   },
   {
+   "id": "sans-enduit",
+   "cat": "langue",
+   "nom": "Tongue with no coating, smooth and shiny",
+   "syn": "no coating smooth shiny peeled mirror"
+  },
+  {
    "id": "enduit-pele",
    "cat": "langue",
-   "nom": "Coating missing in patches (map-like tongue) or everywhere",
+   "nom": "Coating missing in patches (map-like tongue)",
    "syn": "peeled geographic map patches no coating smooth"
   },
   {

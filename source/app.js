@@ -918,8 +918,8 @@ const LG_Q=[
  {id:'forme',multi:'normale',titre:'Et sa forme ?',
   o:[['normale','Normale, souple',''],['mince','Mince, effilée','langue-mince'],['gonflee','Gonflée, large','langue-gonflee'],['dents','Marques des dents sur les bords','marques-dents'],['fissure','Une fissure au milieu','fissure-centrale'],['fissures','Plusieurs fissures','langue-fissuree'],['tremble','Elle tremble quand tu la tires','langue-tremblante']]},
  {id:'enduit',titre:'Et l\'enduit, le dépôt à sa surface ?',aide:'Un enduit fin laisse voir la langue à travers ; un enduit épais la cache.',
-  o:[['fin','Fin et blanc',''],['epais','Blanc et épais','enduit-blanc-epais'],['jaune','Jaune','enduit-jaune'],['gris','Gris ou noir',''],['absent','Absent par plaques ou partout, langue lisse','enduit-pele']]},
- {id:'gras',titre:'Cet enduit est-il gras, collant ou glissant ?',si:r=>r.enduit!=='absent',
+  o:[['fin','Fin et blanc',''],['epais','Blanc et épais','enduit-blanc-epais'],['jaune','Jaune','enduit-jaune'],['gris','Gris ou noir',''],['sans','Pas d\'enduit du tout : langue lisse, brillante','sans-enduit'],['absent','Absent par plaques (langue « en carte »)','enduit-pele']]},
+ {id:'gras',titre:'Cet enduit est-il gras, collant ou glissant ?',si:r=>r.enduit!=='absent'&&r.enduit!=='sans',
   o:[['non','Non, il est sec ou normal',''],['oui','Oui, gras ou collant','enduit-gras']]},
  {id:'humidite',titre:'Est-elle sèche ou mouillée ?',
   o:[['normale','Juste humide',''],['seche','Sèche','langue-seche'],['humide','Très humide, mouillée','langue-humide']]},
@@ -936,7 +936,7 @@ function lgSigns(r){
   const out=[];
   LG_Q.forEach(q=>{if(q.si&&!q.si(r))return;const v=q.multi?arr(r[q.id]):[r[q.id]];
     q.o.forEach(o=>{if(v.includes(o[0])&&o[2])o[2].split(' ').forEach(s=>{if(!out.includes(s))out.push(s);});});});
-  if((r.couleur==='rouge'||r.couleur==='fonce')&&r.enduit==='absent')out.push('langue-rouge-sans-enduit');
+  if((r.couleur==='rouge'||r.couleur==='fonce')&&(r.enduit==='absent'||r.enduit==='sans'))out.push('langue-rouge-sans-enduit');
   return out.filter(s=>SYM[s]);
 }
 function lgFresh(){return !!LGX.fait&&Date.now()-LGX.fait<LG_FRAIS;}
@@ -982,6 +982,7 @@ function tongueSVG(o){
   const E={fin:['#FFFFFF',.4],epais:['#FAF8F2',.92],jaune:['#DDB842',.9],gris:['#66625E',.9]}[o.enduit];
   const EP=o.enduit==='fin'?'M26 12H74C79 28 77 50 67 64C60 73 40 73 33 64C23 50 21 28 26 12Z':'M20 12H80C86 32 84 62 70 78C61 88 39 88 30 78C16 62 14 32 20 12Z';
   if(E)s+=`<path d="${EP}" fill="${E[0]}" opacity="${E[1]}"/>`;
+  if(o.enduit==='sans')s+=`<path d="M30 30c8-6 18-6 24-2M60 56c6-2 10 1 12 5M36 84c8 5 20 5 28 0" stroke="#FFFFFF" stroke-width="3.4" fill="none" opacity=".85" stroke-linecap="round"/><ellipse cx="40" cy="44" rx="6" ry="3" fill="#FFFFFF" opacity=".7"/>`;
   if(o.enduit==='absent')s+=`<path d="M20 12H80C86 32 84 62 70 78C61 88 39 88 30 78C16 62 14 32 20 12Z" fill="#FFFFFF" opacity=".55"/><path d="M34 30c6-5 14 0 12 7s-12 8-14 2 1-7 2-9zM56 48c7-3 13 3 10 9s-11 5-12-1 0-7 2-8zM40 62c5-2 9 2 7 6s-8 4-9 0 1-5 2-6z" fill="${col}"/><path d="M36 84c8 5 20 5 28 0" stroke="#FFFFFF" stroke-width="3" fill="none" opacity=".6" stroke-linecap="round"/>`;
   if(o.gras)s+=`<path d="M32 24c6 10 4 22 10 32M52 20c-2 12 4 22 0 34M66 26c-5 9-2 20-8 28" stroke="#FFFFFF" stroke-width="3.2" fill="none" opacity=".95" stroke-linecap="round"/><ellipse cx="42" cy="34" rx="5" ry="2.5" fill="#FFFFFF"/>`;
   if(o.forme==='dents'){const pts=[[14,28],[13,41],[13,54],[15,67],[19,80]];s+=pts.map(([x,y])=>`<path d="M${x} ${y}q5 4.5 0 9M${100-x} ${y}q-5 4.5 0 9" stroke="#A8545C" stroke-width="2" fill="none" stroke-linecap="round"/>`).join('');}
@@ -1160,7 +1161,8 @@ const LG_SENS={
  'enduit-blanc-epais':'L\'enduit blanc et épais montre de l\'Humidité ou du Froid qui s\'accumule.',
  'enduit-jaune':'L\'enduit jaune montre de la Chaleur.',
  'enduit-gras':'L\'enduit gras montre de l\'Humidité ou des Mucosités.',
- 'enduit-pele':'L\'enduit qui manque montre que l\'Estomac et le Yin s\'épuisent.',
+ 'sans-enduit':'L\'enduit est la « vapeur » de l\'Estomac : quand il manque, le Qi et le Yin de l\'Estomac s\'épuisent.',
+ 'enduit-pele':'L\'enduit qui manque par plaques montre que le Yin de l\'Estomac s\'épuise.',
  'langue-seche':'La sécheresse montre que la Chaleur, ou un manque de Yin, assèche les liquides.',
  'langue-humide':'Une langue très humide montre du Froid ou de l\'Humidité, par manque de Yang.',
  'veines-sublinguales':'Les veines gonflées dessous montrent que le Sang stagne.',
@@ -1178,7 +1180,8 @@ function lgDesc(r){
   if(f.includes('dents'))avec.push($t('des marques de dents'));
   if(f.includes('fissure'))avec.push($t('une fissure au milieu'));
   const EA={fin:['fin','blanc'],epais:['blanc','épais'],jaune:['jaune'],gris:['gris ou noir']}[r.enduit];
-  if(r.enduit==='absent')avec.push($t('peu ou pas d\'enduit'));
+  if(r.enduit==='sans')avec.push($t('peu ou pas d\'enduit'));
+  else if(r.enduit==='absent')avec.push($t('un enduit qui manque par plaques'));
   else if(EA||r.gras==='oui'){const q=(EA||[]).map(x=>$t(x));if(r.gras==='oui')q.push($t('gras'));avec.push($t('un enduit {q}',{q:q.length>1?q.slice(0,-1).join(', ')+' '+$t('et')+' '+q[q.length-1]:q[0]}));}
   if(r.veines==='gonflees')avec.push($t('des veines gonflées dessous'));
   const et=' '+$t('et')+' ',join=a=>a.length>1?a.slice(0,-1).join(', ')+et+a[a.length-1]:a[0]||'';
@@ -1252,6 +1255,7 @@ const BILAN_LIENS_T=[
   ['sangVide','yangMonte','Le Sang du Foie retient son Yang : quand le Sang manque, le Yang monte vers la tête.'],
   ['qiStag','chaleurP','Un Qi bloqué depuis longtemps finit par chauffer : la Stagnation se transforme en Chaleur.'],
   ['sangVide','stase','Un Sang qui manque circule moins bien : le manque et la stagnation vont souvent ensemble.'],
+  ['yinVide','yinVide','Le Yin de tous les organes puise à la même source, le Rein : quand il s\'épuise à un endroit, il s\'épuise souvent ailleurs.'],
   ['humid','chaleurP','L\'Humidité qui stagne s\'échauffe avec le temps : elle devient Humidité-Chaleur.'],
 ];
 function lienTexte(a,b,used){
@@ -1310,7 +1314,7 @@ function computeBilan(){
     b.tabs=[p,...b.assoc];
     // Un signe resté seul : on dit à quel tableau il appartient d'habitude (signe clé d'abord), au lieu de le laisser sans explication
     const pist=new Map();
-    b.reste.forEach(s=>{
+    b.reste.filter(s=>SYM[s].cat!=='langue').forEach(s=>{
       const cands=tableaux.filter(t=>!b.tabs.some(r=>r.t===t)&&(t._cle.includes(s)||t._autres.includes(s)||t._lies.includes(s)));
       if(!cands.length)return;
       const orgs=new Set(b.tabs.flatMap(r=>bilanOrgs(r.t)));
@@ -1319,7 +1323,7 @@ function computeBilan(){
       if(!pist.has(t))pist.set(t,[]);pist.get(t).push(s);
     });
     b.pistes=[...pist].map(([t,s])=>({t,s,cle:s.some(x=>t._cle.includes(x))})).slice(0,3);
-    b.orphelins=b.reste.filter(s=>!b.pistes.some(x=>x.s.includes(s)));
+    b.orphelins=b.reste.filter(s=>SYM[s].cat!=='langue'&&!b.pistes.some(x=>x.s.includes(s)));
     b.confiance=p.pct>=65&&b.reste.length<=1?'forte':p.pct>=40?'moyenne':'faible';
     if(!b.langue&&b.confiance==='forte')b.confiance='moyenne';
   }
@@ -1371,7 +1375,7 @@ function poulsTexte(t){
   return p?$t('Au pouls, un praticien s\'attendrait à le trouver {p}.',{p:minus(p)}):'';
 }
 function lgBilanHTML(b){
-  const L=b.sel.filter(s=>SYM[s].cat==='langue');
+  const K=Object.keys(LG_SENS),L=b.sel.filter(s=>SYM[s].cat==='langue').sort((x,y)=>K.indexOf(x)-K.indexOf(y));
   const ph=[lgPhoto1(LGX.photo),lgPhoto1(LGX.photo2)].filter(Boolean);
   const img=ph.length?`<span class="pv-lgimgs">${ph.map(p=>`<button type="button" class="pv-lgimg" data-lgph="${esc(p.id)}" aria-label="${$t('Agrandir la photo')}"><img src="${p.img}" alt=""></button>`).join('')}</span>`:'';
   if(!b.langue)return pvBulle(`${$t('Il me manque ta langue. En consultation, c\'est l\'une des premières choses que je regarde : elle confirme ou corrige ce que disent les symptômes.')} <button type="button" class="linkbtn inline pv-link" data-mode="langue">${$t('Regarder ma langue')}</button>`);
@@ -1380,7 +1384,7 @@ function lgBilanHTML(b){
   if(!L.length){
     t=esc($t('Ta langue est plutôt normale : rose, souple, avec un enduit fin et blanc. C\'est rassurant : le déséquilibre est encore léger, ou récent.'));
   }else{
-    t=esc(d||$t('Ta langue : {s}.',{s:listeSignes(L,6)}))+' '+L.filter(s=>LG_SENS[s]&&!(s==='langue-rouge'&&(L.includes('langue-cramoisie')||L.includes('langue-rouge-sans-enduit')))).slice(0,4).map(s=>esc($t(LG_SENS[s]))).join(' ');
+    t=esc(d||$t('Ta langue : {s}.',{s:listeSignes(L,6)}))+' '+L.filter(s=>LG_SENS[s]&&!(s==='langue-rouge'&&(L.includes('langue-cramoisie')||L.includes('langue-rouge-sans-enduit')))&&!(s==='sans-enduit'&&L.includes('langue-rouge-sans-enduit'))).slice(0,4).map(s=>esc($t(LG_SENS[s]))).join(' ');
     const p=b.principal,inP=L.filter(s=>p.t._cle.includes(s)||p.t._autres.includes(s)),contraP=L.filter(s=>p.t._contre.includes(s));
     const inA=b.assoc.filter(r=>L.some(s=>r.t._cle.includes(s)||r.t._autres.includes(s)));
     if(contraP.length)t+=' '+esc($t('Attention : ta langue ({s}) ne colle pas avec le tableau « {nom} ». Il faudra en tenir compte : un praticien trancherait en t\'examinant.',{s:listeSignes(contraP),nom:p.t.nom}));

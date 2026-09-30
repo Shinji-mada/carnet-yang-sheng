@@ -476,7 +476,8 @@
    "contre": [
     "enduit-jaune",
     "soif",
-    "langue-rouge"
+    "langue-rouge",
+    "sans-enduit"
    ],
    "langue": "Pale and swollen, tooth marks, thick greasy white coating.",
    "pouls": "Soggy and slow, or slippery.",
@@ -607,7 +608,8 @@
     "enduit-blanc-epais",
     "frilosite",
     "langue-pale",
-    "langue-rouge-sans-enduit"
+    "langue-rouge-sans-enduit",
+    "sans-enduit"
    ],
    "langue": "Red, with a greasy yellow coating.",
    "pouls": "Slippery or soggy, and rapid.",
@@ -719,7 +721,8 @@
     "langue-fissuree",
     "enduit-pele",
     "centre-rouge",
-    "langue-mince"
+    "langue-mince",
+    "sans-enduit"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -1038,7 +1041,8 @@
    "contre": [
     "langue-rouge-sans-enduit",
     "douleur-estomac-faim",
-    "enduit-pele"
+    "enduit-pele",
+    "sans-enduit"
    ],
    "langue": "Thick, greasy coating, white or yellowish.",
    "pouls": "Full and slippery.",

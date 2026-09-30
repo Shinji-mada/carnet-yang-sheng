@@ -476,7 +476,8 @@
    "contre": [
     "enduit-jaune",
     "soif",
-    "langue-rouge"
+    "langue-rouge",
+    "sans-enduit"
    ],
    "langue": "Pâle et gonflée, marques des dents, enduit blanc épais et gras.",
    "pouls": "Mou et lent, ou glissant.",
@@ -607,7 +608,8 @@
     "enduit-blanc-epais",
     "frilosite",
     "langue-pale",
-    "langue-rouge-sans-enduit"
+    "langue-rouge-sans-enduit",
+    "sans-enduit"
    ],
    "langue": "Rouge, enduit jaune et gras.",
    "pouls": "Glissant ou mou, et rapide.",
@@ -719,7 +721,8 @@
     "langue-fissuree",
     "enduit-pele",
     "centre-rouge",
-    "langue-mince"
+    "langue-mince",
+    "sans-enduit"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -1038,7 +1041,8 @@
    "contre": [
     "langue-rouge-sans-enduit",
     "douleur-estomac-faim",
-    "enduit-pele"
+    "enduit-pele",
+    "sans-enduit"
    ],
    "langue": "Enduit épais et gras, blanc ou jaunâtre.",
    "pouls": "Plein et glissant.",
