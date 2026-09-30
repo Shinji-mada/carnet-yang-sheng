@@ -461,6 +461,7 @@ async function share(k,id){
 }
 function onSheetAct(a){
   if(a.startsWith('lgdel:')){lgDelete(a.slice(6));return;}
+  if(a.startsWith('lgexdel:')){lgExamDelete(a.slice(8));return;}
   const ctx=sheetCtx||{};const {k,id,cid}=ctx;
   if(a==='select'){closeSheet();selMode=true;selSet.clear();selSet.add(k+':'+id);refresh();return;}
   if(a==='selectin'){closeSheet();carnetSel=cid;persist();selMode=true;selSet.clear();if(tab!=='carnet'||route)goTab('carnet');else refresh();return;}
@@ -925,7 +926,7 @@ const LG_Q=[
  {id:'veines',titre:'Soulève-la : comment sont les deux veines dessous ?',aide:'Pose la pointe de ta langue contre le palais et regarde dans un miroir.',
   o:[['fines','Fines, peu visibles',''],['gonflees','Gonflées, foncées ou violettes','veines-sublinguales']]},
 ];
-const LG_MAX=8,LG_FRAIS=7*24*3600*1000;
+const LG_MAX=30,LG_FRAIS=7*24*3600*1000;
 let LGX=storedJSON('ys.langue.exam',{});if(!LGX||typeof LGX!=='object'||Array.isArray(LGX))LGX={};if(!LGX.r||typeof LGX.r!=='object')LGX.r={};
 function lgSave(){store('ys.langue.exam',J(LGX));}
 function lgPhotos(){return arr(storedJSON('ys.langue.photos',[])).filter(p=>p&&p.id&&typeof p.img==='string'&&p.img.startsWith('data:image/'));}
@@ -994,14 +995,6 @@ function tongueSVG(o){
 }
 const CAM_ICON='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-2.5h6L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.6"/></svg>';
 function lgDate(iso){try{return new Date(iso).toLocaleDateString(LOC,{day:'numeric',month:'long',year:'numeric'});}catch(e){return '';}}
-function lgPhotoHTML(){
-  const cur=LGX.photo&&lgPhotos().find(p=>p.id===LGX.photo);
-  if(cur)return `<figure class="lg-ph"><button type="button" class="lg-zoom" data-lgph="${esc(cur.id)}" aria-label="${$t('Agrandir la photo')}"><img src="${cur.img}" alt="${esc($t('Ta langue, photo du {d}',{d:lgDate(cur.d)}))}"></button><figcaption><span>${esc($t('Photo du {d}',{d:lgDate(cur.d)}))}</span><button type="button" class="linkbtn" data-lgcam="1">${$t('Reprendre')}</button></figcaption></figure>`;
-  return `<div class="lg-take"><p class="lg-take-t">${$t('Prends ta langue en photo')}</p>
-<ul class="lg-tips"><li>${$t('À la lumière du jour, face à une fenêtre, sans lampe colorée.')}</li><li>${$t('Tire la langue sans forcer, bien détendue, 10 secondes au plus. Recommence si besoin.')}</li><li>${$t('Pas juste après un café, du tabac, des bonbons, des épices ou une boisson colorée : ils colorent la langue et l\'enduit.')}</li></ul>
-<div class="lg-btns"><button type="button" class="cta" data-lgcam="1">${CAM_ICON}<span>${$t('Prendre la photo')}</span></button><button type="button" class="ghost" data-lgfile="1">${$t('Choisir une photo')}</button></div>
-<p class="fine">${$t('La photo reste sur ce téléphone : elle n\'est envoyée nulle part, même avec un compte.')}</p></div>`;
-}
 function lgQuestionsHTML(){
   let n=0;
   return LG_Q.map(q=>{
@@ -1011,24 +1004,103 @@ function lgQuestionsHTML(){
 <div class="lg-os">${q.o.map(o=>{const on=q.multi?v.includes(o[0]):v===o[0];return `<button type="button" class="lg-o" data-lg="${q.id}:${o[0]}" aria-pressed="${on}">${tongueSVG(lgIll(q.id,o[0]))}<span>${$t(o[1])}</span></button>`;}).join('')}</div></section>`;
   }).join('');
 }
+/* Deux photos par examen (dessus et dessous de la langue) ; chaque examen est gardé avec sa date, ses photos et les
+   modèles choisis, pour suivre l'évolution. Tout reste sur ce téléphone. */
+let lgTarget='dessus';
+function lgHist(){return arr(storedJSON('ys.langue.hist',[])).filter(x=>x&&x.id&&x.r&&typeof x.r==='object');}
+function lgSaveHist(H){store('ys.langue.hist',J(H.slice(0,40)));}
+function lgPhoto1(id){return id?lgPhotos().find(p=>p.id===id)||null:null;}
+function lgGC(){
+  const keep=new Set([LGX.photo,LGX.photo2,...lgHist().flatMap(x=>[x.p1,x.p2])].filter(Boolean));
+  const L=lgPhotos();if(L.some(p=>!keep.has(p.id)))lgSavePhotos(L.filter(p=>keep.has(p.id)));
+}
+(function lgMigre(){ // photos de la v0.17 (une seule par examen) → examens
+  if(store('ys.langue.hist')!==null)return;
+  const H=lgPhotos().map(p=>({id:'ex'+p.id,d:p.d,r:{},s:arr(p.s),p1:p.id,p2:null}));
+  if(LGX.photo){const e=H.find(x=>x.p1===LGX.photo);if(e){e.r=JSON.parse(J(LGX.r));LGX.exam=e.id;lgSave();}}
+  lgSaveHist(H);
+})();
+/* Un nouvel examen commence si le précédent date d'un autre jour : photos et réponses repartent de zéro */
+function lgNouveau(){
+  const t=LGX.fait||LGX.debut;
+  if(t&&new Date(t).toDateString()!==new Date().toDateString()){
+    LGX={r:{}};lgSave();
+    Object.keys(SYM).forEach(s=>{if(SYM[s].cat==='langue')symSel.delete(s);});saveSet('ys.symptomes',symSel);
+  }
+}
+function lgStart(){if(!LGX.debut){LGX.debut=Date.now();lgSave();}}
+function lgSaveExam(){
+  const H=lgHist(),auj=new Date().toDateString();
+  let e=LGX.exam&&H.find(x=>x.id===LGX.exam);
+  if(!e||new Date(e.d).toDateString()!==auj){e={id:'ex'+Date.now().toString(36)};H.unshift(e);LGX.exam=e.id;}
+  Object.assign(e,{d:new Date().toISOString(),r:JSON.parse(J(LGX.r)),s:lgSigns(LGX.r),p1:LGX.photo||null,p2:LGX.photo2||null});
+  lgSaveHist(H);lgGC();
+}
+function lgModels(r){
+  const out=[];
+  LG_Q.forEach(q=>{if(q.si&&!q.si(r))return;const v=q.multi?arr(r[q.id]):(r[q.id]?[r[q.id]]:[]);v.forEach(oid=>{const o=q.o.find(x=>x[0]===oid);if(o)out.push([q.id,oid,$t(o[1])]);});});
+  return out;
+}
+function lgSlotHTML(v){
+  const p=lgPhoto1(v==='dessous'?LGX.photo2:LGX.photo),t=$t(v==='dessous'?'Dessous de la langue':'Dessus de la langue');
+  if(p)return `<figure class="lg-slot on"><button type="button" class="lg-zoom" data-lgph="${esc(p.id)}" aria-label="${esc($t('Agrandir : {t}',{t}))}"><img src="${p.img}" alt="${esc(t)}"></button><figcaption><b>${t}</b><button type="button" class="linkbtn" data-lgcam="${v}">${$t('Reprendre')}</button></figcaption></figure>`;
+  return `<div class="lg-slot">${tongueSVG(v==='dessous'?{veines:'fines'}:{})}<b>${t}</b><span class="lg-slot-a">${$t(v==='dessous'?'Pointe de la langue contre le palais : on voit les deux veines.':'Langue bien tirée, détendue.')}</span><button type="button" class="cta" data-lgcam="${v}">${CAM_ICON}<span>${$t('Photo')}</span></button><button type="button" class="linkbtn" data-lgfile="${v}">${$t('Choisir une photo')}</button></div>`;
+}
+function lgPhotoHTML(){
+  const n=(lgPhoto1(LGX.photo)?1:0)+(lgPhoto1(LGX.photo2)?1:0);
+  return `${n<2?`<div class="lg-take"><p class="lg-take-t">${$t('Prends deux photos : le dessus et le dessous de ta langue')}</p>
+<ul class="lg-tips"><li>${$t('À la lumière du jour, face à une fenêtre, sans lampe colorée.')}</li><li>${$t('Tire la langue sans forcer, bien détendue, 10 secondes au plus. Recommence si besoin.')}</li><li>${$t('Pas juste après un café, du tabac, des bonbons, des épices ou une boisson colorée : ils colorent la langue et l\'enduit.')}</li></ul></div>`:''}
+<div class="lg-slots">${lgSlotHTML('dessus')}${lgSlotHTML('dessous')}</div>${n<2?`<p class="fine">${$t('Les photos restent sur ce téléphone : elles ne sont envoyées nulle part, même avec un compte.')}</p>`:''}`;
+}
+function lgExamCard(e){
+  const ph=[lgPhoto1(e.p1),lgPhoto1(e.p2)],mods=lgModels(e.r),cur=e.id===LGX.exam;
+  return `<button type="button" class="lg-ex" data-lgex="${esc(e.id)}"><span class="lg-ex-d">${esc(lgDate(e.d))}${cur?` <em>${$t('dernier examen')}</em>`:''}</span>
+<span class="lg-ex-ph">${ph.map((p,i)=>p?`<img src="${p.img}" alt="">`:`<span class="lg-ex-no">${$t(i?'dessous':'dessus')}</span>`).join('')}</span>
+<span class="lg-ex-m">${mods.length?mods.slice(0,7).map(m=>`<span class="lg-mini" title="${esc(m[2])}">${tongueSVG(lgIll(m[0],m[1]))}</span>`).join(''):`<span class="lg-ex-t">${$t('Aucun modèle choisi')}</span>`}</span>
+${mods.length?`<span class="lg-ex-t">${esc(mods.map(m=>m[2]).join(' · '))}</span>`:''}</button>`;
+}
 function lgHistHTML(){
-  const L=lgPhotos().filter(p=>p.id!==LGX.photo);
-  if(!L.length)return'';
-  return `<h2 class="sec">${$t('Tes photos précédentes')}</h2><p class="hint">${$t('Compare d\'une fois sur l\'autre : un enduit qui s\'épaissit montre que le déséquilibre s\'installe, un enduit qui s\'affine qu\'il recule.')}</p><div class="lg-hist">${L.map(p=>`<button type="button" class="lg-th" data-lgph="${esc(p.id)}"><img src="${p.img}" alt=""><span>${esc(lgDate(p.d))}</span></button>`).join('')}</div>`;
+  const H=lgHist();if(!H.length)return'';
+  return `<h2 class="sec">${$t('Mes examens de langue')}</h2><p class="hint">${$t('Compare d\'une fois sur l\'autre : un enduit qui s\'épaissit montre que le déséquilibre s\'installe, un enduit qui s\'affine qu\'il recule.')}</p><div class="lg-exs">${H.map(lgExamCard).join('')}</div>`;
+}
+function lgHistSheet(){
+  const H=lgHist();
+  openSheet($t('Mes examens de langue'),plural(H.length,'examen','examens'),H.length?`<div class="lg-exs">${H.map(lgExamCard).join('')}</div>`:`<p class="hint">${$t('Aucun examen pour l\'instant : il se fait à l\'étape « Langue », après tes symptômes.')}</p>`);
+}
+function lgExamSheet(id){
+  const e=lgHist().find(x=>x.id===id);if(!e)return;
+  const blocs=LG_Q.map(q=>{
+    if(q.si&&!q.si(e.r))return'';
+    const v=q.multi?arr(e.r[q.id]):(e.r[q.id]?[e.r[q.id]]:[]),os=q.o.filter(o=>v.includes(o[0]));
+    return os.length?`<div class="lg-ex-q"><p>${$t(q.titre)}</p><div class="lg-ex-os">${os.map(o=>`<span class="lg-ex-o">${tongueSVG(lgIll(q.id,o[0]))}<span>${$t(o[1])}</span></span>`).join('')}</div></div>`:'';
+  }).join('');
+  const sg=arr(e.s).filter(s=>SYM[s]);
+  openSheet($t('Examen de la langue'),lgDate(e.d),`<div class="lg-ex-big">${[['p1','Dessus de la langue'],['p2','Dessous de la langue']].map(([k,l])=>{const p=lgPhoto1(e[k]);return `<figure><figcaption>${$t(l)}</figcaption>${p?`<img class="lg-big" src="${p.img}" alt="">`:`<p class="hint">${$t('Pas de photo')}</p>`}</figure>`;}).join('')}</div>
+<h3 class="lg-ex-h">${$t('Les modèles choisis')}</h3>${blocs||`<p class="hint">${$t('Aucun modèle choisi')}</p>`}
+${sg.length?`<p class="hint" style="margin-top:12px">${$t('Signes retenus pour le bilan :')} ${esc(sg.map(s=>court(s)).join(', '))}</p>`:`<p class="hint" style="margin-top:12px">${$t('Langue plutôt normale ce jour-là.')}</p>`}
+<div class="sheet-acts"><button type="button" class="ghost danger" data-act="lgexdel:${esc(e.id)}">${$t('Supprimer cet examen')}</button></div>`);
+}
+function lgExamDelete(id){
+  lgSaveHist(lgHist().filter(x=>x.id!==id));
+  if(LGX.exam===id){LGX.exam=null;LGX.photo=null;LGX.photo2=null;lgSave();}
+  lgGC();closeSheet(false,()=>{render();toast('Examen supprimé');});
 }
 function renderLangue(){
+  lgNouveau();
+  const n2=lgPhoto1(LGX.photo)&&lgPhoto1(LGX.photo2);
   view.innerHTML=`<div class="bar"><button class="back" type="button" data-mode="choisir"><span aria-hidden="true">‹</span>${$t('Symptômes')}</button><span class="kind">${plural(nSymHorsLangue(),'symptôme','symptômes')}</span></div>
 ${stepsHTML(2)}<h1 class="vh big-q">${$t('Et ta langue ?')}</h1>
 <p class="lede">${$t('En médecine chinoise, la langue montre ce que les symptômes ne disent pas : l\'état du Qi et du Sang, la Chaleur ou le Froid, l\'Humidité. C\'est une pièce essentielle de ton bilan.')}</p>
-<div class="lg-photo${LGX.photo&&lgPhotos().some(p=>p.id===LGX.photo)?' pin':''}" id="lgphoto">${lgPhotoHTML()}</div>
+<div class="lg-photo${n2?' pin':''}" id="lgphoto">${lgPhotoHTML()}</div>
 <input type="file" id="lg-cam" accept="image/*" capture="user" hidden><input type="file" id="lg-file" accept="image/*" hidden>
-<p class="lg-intro">${$t('Regarde ta photo, ou ta langue dans un miroir, et touche ce qui lui ressemble le plus. Si tu hésites, passe la question.')}</p>
+<p class="lg-intro">${$t('Regarde tes photos, ou ta langue dans un miroir, et touche le modèle qui lui ressemble le plus. Si tu hésites, passe la question.')}</p>
 <div id="lgq">${lgQuestionsHTML()}</div>
 <div class="lg-go"><button type="button" class="cta" data-lggo="1">${$t('Voir mon bilan')} <span aria-hidden="true">→</span></button><button type="button" class="linkbtn" data-lgskip="1">${$t('Je ne peux pas regarder ma langue maintenant')}</button></div>
 ${lgHistHTML()}`;
 }
 function lgPick(v){
   const i=v.indexOf(':'),qid=v.slice(0,i),oid=v.slice(i+1),q=LG_Q.find(x=>x.id===qid);if(!q)return;
+  lgStart();
   if(q.multi){let a=arr(LGX.r[qid]);if(oid===q.multi)a=a.includes(oid)?[]:[oid];else{a=a.filter(x=>x!==q.multi);a=a.includes(oid)?a.filter(x=>x!==oid):[...a,oid];}LGX.r[qid]=a;}
   else LGX.r[qid]=LGX.r[qid]===oid?'':oid;
   lgSave();
@@ -1037,17 +1109,20 @@ function lgPick(v){
   box.innerHTML=lgQuestionsHTML();
   const el2=$(sel);if(el2){if(top!==null)window.scrollBy(0,el2.getBoundingClientRect().top-top);el2.focus({preventScroll:true});}
 }
-function lgPhoto(file){
+function lgPhoto(file,v){
   if(!file)return;
   const img=new Image(),url=URL.createObjectURL(file);
   img.onload=()=>{
-    const M=900,w=img.naturalWidth,h=img.naturalHeight,k=Math.min(1,M/Math.max(w,h)),c=document.createElement('canvas');
+    const M=760,w=img.naturalWidth,h=img.naturalHeight,k=Math.min(1,M/Math.max(w,h)),c=document.createElement('canvas');
     c.width=Math.max(1,Math.round(w*k));c.height=Math.max(1,Math.round(h*k));c.getContext('2d').drawImage(img,0,0,c.width,c.height);URL.revokeObjectURL(url);
-    const p={id:'lg'+Date.now().toString(36),d:new Date().toISOString(),img:c.toDataURL('image/jpeg',0.8)};
-    const L=[p,...lgPhotos()].slice(0,LG_MAX),n=lgSavePhotos(L);
-    if(!n){toast('Plus assez de place sur ce téléphone pour garder la photo.');return;}
-    LGX.photo=p.id;lgSave();
-    const box=$('#lgphoto');if(box&&symMode==='langue'){box.innerHTML=lgPhotoHTML();box.classList.add('pin');}else render();
+    const p={id:'lg'+Date.now().toString(36),d:new Date().toISOString(),v,img:c.toDataURL('image/jpeg',0.78)};
+    lgStart();
+    const old=v==='dessous'?LGX.photo2:LGX.photo;
+    if(v==='dessous')LGX.photo2=p.id;else LGX.photo=p.id;
+    const L=[p,...lgPhotos().filter(x=>x.id!==old||lgHist().some(e=>e.p1===old||e.p2===old))].slice(0,LG_MAX),n=lgSavePhotos(L);
+    if(!n){if(v==='dessous')LGX.photo2=old;else LGX.photo=old;toast('Plus assez de place sur ce téléphone pour garder la photo.');return;}
+    lgSave();
+    if(symMode==='langue'&&$('#lgphoto')){const box=$('#lgphoto');box.innerHTML=lgPhotoHTML();box.classList.toggle('pin',!!(lgPhoto1(LGX.photo)&&lgPhoto1(LGX.photo2)));}else render();
     toast(n<L.length?'Photo enregistrée. Les plus anciennes ont été retirées pour faire de la place.':'Photo enregistrée');
   };
   img.onerror=()=>{URL.revokeObjectURL(url);toast('Cette image ne peut pas être lue.');};
@@ -1055,12 +1130,13 @@ function lgPhoto(file){
 }
 function lgPhotoSheet(id){
   const p=lgPhotos().find(x=>x.id===id);if(!p)return;
-  const sg=arr(p.s).filter(s=>SYM[s]);
-  openSheet($t('Ta langue'),$t('Photo du {d}',{d:lgDate(p.d)}),`<img class="lg-big" src="${p.img}" alt="">${sg.length?`<p class="hint" style="margin-top:12px">${$t('Ce jour-là, tu as noté :')}</p><div class="chips small">${sg.map(s=>`<span class="chip static">${esc(symName(s))}</span>`).join('')}</div>`:''}<div class="sheet-acts"><button type="button" class="ghost danger" data-act="lgdel:${esc(p.id)}">${$t('Supprimer cette photo')}</button></div>`);
+  const cur=id===LGX.photo||id===LGX.photo2;
+  openSheet($t(p.v==='dessous'?'Dessous de la langue':'Dessus de la langue'),$t('Photo du {d}',{d:lgDate(p.d)}),`<img class="lg-big" src="${p.img}" alt="">${cur?`<div class="sheet-acts"><button type="button" class="ghost danger" data-act="lgdel:${esc(p.id)}">${$t('Supprimer cette photo')}</button></div>`:''}`);
 }
 function lgDelete(id){
-  const L=lgPhotos().filter(p=>p.id!==id);lgSavePhotos(L);
-  if(LGX.photo===id){LGX.photo=null;lgSave();}
+  if(LGX.photo===id)LGX.photo=null;if(LGX.photo2===id)LGX.photo2=null;lgSave();
+  const H=lgHist();H.forEach(e=>{if(e.p1===id)e.p1=null;if(e.p2===id)e.p2=null;});lgSaveHist(H);
+  lgSavePhotos(lgPhotos().filter(p=>p.id!==id));
   closeSheet(false,()=>{render();toast('Photo supprimée');});
 }
 /* Ce que la langue dit, en mots simples, pour le bilan */
@@ -1296,8 +1372,8 @@ function poulsTexte(t){
 }
 function lgBilanHTML(b){
   const L=b.sel.filter(s=>SYM[s].cat==='langue');
-  const cur=LGX.photo&&lgPhotos().find(p=>p.id===LGX.photo);
-  const img=cur?`<button type="button" class="pv-lgimg" data-lgph="${esc(cur.id)}" aria-label="${$t('Agrandir la photo')}"><img src="${cur.img}" alt=""></button>`:'';
+  const ph=[lgPhoto1(LGX.photo),lgPhoto1(LGX.photo2)].filter(Boolean);
+  const img=ph.length?`<span class="pv-lgimgs">${ph.map(p=>`<button type="button" class="pv-lgimg" data-lgph="${esc(p.id)}" aria-label="${$t('Agrandir la photo')}"><img src="${p.img}" alt=""></button>`).join('')}</span>`:'';
   if(!b.langue)return pvBulle(`${$t('Il me manque ta langue. En consultation, c\'est l\'une des premières choses que je regarde : elle confirme ou corrige ce que disent les symptômes.')} <button type="button" class="linkbtn inline pv-link" data-mode="langue">${$t('Regarder ma langue')}</button>`);
   let t='';
   const d=lgFresh()?lgDesc(LGX.r):'';
@@ -1313,6 +1389,7 @@ function lgBilanHTML(b){
   }
   if(LGX.r.enduit==='gris'&&lgFresh())t+=' '+esc($t('Un enduit gris ou noir se voit après le café, le tabac, certains aliments ou médicaments. S\'il reste après un rinçage et dure plusieurs jours, montre-le à un praticien ou à ton médecin.'));
   if(LGX.fait&&!lgFresh())t+=' '+esc($t('Ton examen de la langue date de plus d\'une semaine : refais-le, elle change vite.'))+` <button type="button" class="linkbtn inline pv-link" data-mode="langue">${$t('Refaire')}</button>`;
+  if(lgHist().length>1)t+=` <button type="button" class="linkbtn inline pv-link" data-lghist="1">${$t('Comparer avec mes examens précédents')}</button>`;
   return `<div class="pv-b pv-lg">${img}<div>${t}</div></div>`;
 }
 const AVATAR='<span class="pv-av" aria-hidden="true" lang="zh-Hans">医</span>';
@@ -1697,6 +1774,7 @@ function renderInfos(){
   const acc=(list,g)=>`<div class="accwrap" data-acc="${g}">`+list.map(([t,p],i)=>`<details class="cat" data-cat="${g}${i}"><summary><span>${esc($t(t))}</span></summary><p class="prose">${esc($t(p))}</p></details>`).join('')+'</div>';
   const acts=[
     nSup?`<button type="button" class="ghost" data-unhide="1">${$t(nSup>1?'Remettre les {n} fiches supprimées':'Remettre la fiche supprimée',{n:nSup})}</button>`:'',
+    lgHist().length?`<button type="button" class="ghost" data-lghist="1">${$t('Mes examens de langue ({n})',{n:lgHist().length})}</button>`:'',
     symSel.size?`<button type="button" class="ghost" data-clear="sym">${$t('Effacer mes symptômes ({n})',{n:symSel.size})}</button>`:'',
     have.size?`<button type="button" class="ghost" data-clear="ing">${$t('Décocher mes ingrédients ({n})',{n:have.size})}</button>`:'',
     `<button type="button" class="ghost" data-prefreset="1">${$t('Rétablir les réglages par défaut')}</button>`].join('');
@@ -2142,6 +2220,7 @@ document.addEventListener('click',ev=>{
   const d=b.dataset;
   if(b.closest('#sheet')){
     if(d.opent){const id=d.opent;closeSheet(false,()=>openItem('t',id));return;}
+    if(d.lgex){lgExamSheet(d.lgex);return;}
     if(d.open){const id=d.open;closeSheet(false,()=>openItem('f',id));return;}
     if(d.ing){have.has(d.ing)?have.delete(d.ing):have.add(d.ing);saveSet('ys.cuisine',have);b.setAttribute('aria-pressed',String(have.has(d.ing)));toast(have.has(d.ing)?'Ajouté à ta cuisine':'Retiré de ta cuisine');return;}
     if(d.gsym){toggleSym(d.gsym,null);const on=symSel.has(d.gsym);b.setAttribute('aria-pressed',String(on));b.textContent=gsymLabel(d.gsym);toast($t(on?'Ajouté : {s}':'Retiré : {s}',{s:symName(d.gsym)}));return;}
@@ -2161,10 +2240,12 @@ document.addEventListener('click',ev=>{
   if(b.id==='back'){goBack();return;}
   if(d.mode){if(route){route=null;try{history.replaceState(null,'','#'+tab);}catch(e){}}if(tab!=='symptomes'){tab='symptomes';store('ys.onglet',tab);}symMode=d.mode;showAll=false;render();window.scrollTo(0,0);return;}
   if(d.lg){lgPick(d.lg);return;}
-  if(d.lggo){LGX.fait=Date.now();lgApply();const L=lgPhotos(),ph=L.find(x=>x.id===LGX.photo);if(ph){ph.s=lgSigns(LGX.r);lgSavePhotos(L);}lgSave();symMode='bilan';render();window.scrollTo(0,0);return;}
+  if(d.lggo){LGX.fait=Date.now();lgApply();lgSaveExam();lgSave();symMode='bilan';render();window.scrollTo(0,0);return;}
   if(d.lgskip){symMode='bilan';render();window.scrollTo(0,0);return;}
-  if(d.lgcam){const i=$('#lg-cam');if(i)i.click();return;}
-  if(d.lgfile){const i=$('#lg-file');if(i)i.click();return;}
+  if(d.lgcam){lgTarget=d.lgcam==='dessous'?'dessous':'dessus';const i=$('#lg-cam');if(i)i.click();return;}
+  if(d.lgfile){lgTarget=d.lgfile==='dessous'?'dessous':'dessus';const i=$('#lg-file');if(i)i.click();return;}
+  if(d.lgex){lgExamSheet(d.lgex);return;}
+  if(d.lghist){lgHistSheet();return;}
   if(d.lgph){lgPhotoSheet(d.lgph);return;}
   if(d.more){showAll=true;rerenderKeep('[data-more]');return;}
   if(d.f){filter=d.f;store('ys.filtre',filter);renderTimeline();return;}
@@ -2223,7 +2304,7 @@ document.addEventListener('submit',ev=>{
 });
 document.addEventListener('change',ev=>{
   if(ev.target&&ev.target.id==='acc-photo'){handlePhoto(ev.target.files&&ev.target.files[0]);ev.target.value='';}
-  if(ev.target&&(ev.target.id==='lg-cam'||ev.target.id==='lg-file')){lgPhoto(ev.target.files&&ev.target.files[0]);ev.target.value='';}
+  if(ev.target&&(ev.target.id==='lg-cam'||ev.target.id==='lg-file')){lgPhoto(ev.target.files&&ev.target.files[0],lgTarget);ev.target.value='';}
 });
 window.addEventListener('online',()=>{if(user)syncNow();});
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&user&&Date.now()-(+store('ys.sync.at')||0)>20000)syncNow();});
