@@ -116,7 +116,8 @@
     "Convalescence",
     "After childbirth",
     "Hair loss"
-   ]
+   ],
+   "diag": "your body lacks both energy and Blood: everything runs slowly"
   },
   {
    "id": "foie-rein-yin",
@@ -239,7 +240,8 @@
    ],
    "groupes": [
     "menopause"
-   ]
+   ],
+   "diag": "the Yin reserves of your Liver and Kidney are running out: an empty heat rises, especially at night"
   },
   {
    "id": "rate-rein-yang",
@@ -354,7 +356,8 @@
     "Edema",
     "Hypothyroidism",
     "Deep fatigue"
-   ]
+   ],
+   "diag": "the deep fire of your Kidney no longer warms your Spleen: everything becomes cold and slow"
   },
   {
    "id": "poumon-rate-qi",
@@ -456,7 +459,8 @@
     "Chronic bronchitis",
     "Allergies",
     "Tiredness"
-   ]
+   ],
+   "diag": "your Spleen and Lung both lack strength: energy and defenses weaken"
   },
   {
    "id": "stase-sang",
@@ -561,7 +565,8 @@
     "Chronic pain",
     "Varicose veins",
     "Aftermath of a fall or blow"
-   ]
+   ],
+   "diag": "your Blood flows poorly and pools in places: the pain is fixed and stabbing"
   },
   {
    "id": "froid-uterus",
@@ -659,7 +664,8 @@
     "Dysmenorrhea",
     "Difficulty conceiving",
     "Long cycles"
-   ]
+   ],
+   "diag": "Cold has lodged in your Uterus and slows the flow of Blood"
   },
   {
    "id": "bi-vent",
@@ -737,7 +743,8 @@
     "Widespread joint pain",
     "Stiff neck",
     "Muscle aches"
-   ]
+   ],
+   "diag": "Wind moves through your joints and blocks Qi: the pain travels"
   },
   {
    "id": "bi-froid",
@@ -831,7 +838,8 @@
     "Lumbago",
     "Frozen shoulder",
     "Pain in the cold"
-   ]
+   ],
+   "diag": "Cold has entered your joints and freezes them: warmth brings relief"
   },
   {
    "id": "bi-humidite",
@@ -923,7 +931,8 @@
     "Swollen knee",
     "Rheumatism",
     "Morning stiffness"
-   ]
+   ],
+   "diag": "Dampness has settled in your joints: they feel heavy and swollen"
   },
   {
    "id": "bi-chaleur",
@@ -1000,7 +1009,8 @@
     "Arthritis",
     "Inflammatory flare-up",
     "Acute tendinitis"
-   ]
+   ],
+   "diag": "Heat is inflaming your joints"
   },
   {
    "id": "peau-vent-chaleur",
@@ -1078,7 +1088,8 @@
     "Skin allergy",
     "Itching",
     "Reaction to an insect bite"
-   ]
+   ],
+   "diag": "Wind and Heat are rising to the surface of your skin"
   },
   {
    "id": "peau-humidite-chaleur",
@@ -1172,7 +1183,8 @@
     "Dermatitis",
     "Fungal skin infection",
     "Intertrigo"
-   ]
+   ],
+   "diag": "Damp-Heat is coming out through your skin"
   },
   {
    "id": "peau-vide-sang",
@@ -1256,7 +1268,8 @@
     "Dry eczema",
     "Itching in older people",
     "Psoriasis"
-   ]
+   ],
+   "diag": "your Blood no longer nourishes your skin enough, so it dries out and itches"
   },
   {
    "id": "peau-chaleur-sang",
@@ -1343,7 +1356,8 @@
     "Boils",
     "Rosacea",
     "Psoriasis flare-up"
-   ]
+   ],
+   "diag": "Heat in your Blood is breaking out on your skin"
   }
  ]
 }

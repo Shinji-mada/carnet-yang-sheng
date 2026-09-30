@@ -115,7 +115,8 @@
     "Low immune defenses",
     "Chronic bronchitis",
     "Respiratory fatigue"
-   ]
+   ],
+   "diag": "your Lung lacks breath and your defenses are low"
   },
   {
    "id": "p-vide-yang",
@@ -227,7 +228,8 @@
     "Recurrent colds",
     "Sensitivity to cold",
     "Chronic bronchitis"
-   ]
+   ],
+   "diag": "your Lung lacks warmth: you catch cold easily and fluids stagnate"
   },
   {
    "id": "p-vide-yin",
@@ -346,7 +348,8 @@
     "Loss of voice",
     "Aftermath of bronchitis",
     "Smokers"
-   ]
+   ],
+   "diag": "your Lung lacks fluids: throat and cough stay dry, with a mild heat"
   },
   {
    "id": "p-stagnation-qi",
@@ -364,7 +367,8 @@
     "gorge-serree",
     "soupirs",
     "oppression",
-    "tristesse"
+    "tristesse",
+    "noyau-prune"
    ],
    "autres": [
     "ruminations",
@@ -437,7 +441,8 @@
     "Depression",
     "Lump in the throat",
     "Anxiety"
-   ]
+   ],
+   "diag": "held-back emotions knot your Lung Qi in the chest and throat"
   },
   {
    "id": "p-vent-froid",
@@ -522,7 +527,8 @@
     "Onset of flu",
     "Chill",
     "Rhinitis"
-   ]
+   ],
+   "diag": "Wind-Cold has come in through the surface and blocks your Lung: this is the start of a 'cold' type of cold"
   },
   {
    "id": "p-vent-chaleur",
@@ -618,7 +624,8 @@
     "Pharyngitis",
     "Flu",
     "Cold with fever"
-   ]
+   ],
+   "diag": "Wind-Heat is attacking your Lung: this is the start of a 'hot' type of cold"
   },
   {
    "id": "p-mucosites-humidite",
@@ -729,7 +736,8 @@
     "Asthma",
     "Sinusitis",
     "Smokers"
-   ]
+   ],
+   "diag": "damp Phlegm is clogging your Lung; it often comes from a tired Spleen"
   },
   {
    "id": "p-mucosites-chaleur",
@@ -825,7 +833,8 @@
     "Sinusitis",
     "Wet cough",
     "Smokers"
-   ]
+   ],
+   "diag": "hot Phlegm is blocking your Lung"
   }
  ]
 }

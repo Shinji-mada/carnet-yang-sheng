@@ -40,7 +40,8 @@
     "acouphenes-aigus",
     "caillots",
     "bords-rouges",
-    "langue-violacee"
+    "langue-violacee",
+    "noyau-prune"
    ],
    "contre": [],
    "langue": "Normal, or slightly red edges.",
@@ -114,7 +115,113 @@
     "Lump in the throat",
     "Irritable bowel",
     "Irritability"
-   ]
+   ],
+   "diag": "stress blocks the free flow of your Liver Qi: it gets stuck in the throat, under the ribs and in your mood"
+  },
+  {
+   "id": "mei-he-qi",
+   "organe": "foie",
+   "nom": "Qi and Phlegm Knotted in the Throat (plum-pit)",
+   "zh": "痰气郁结",
+   "py": "Tán qì yù jié",
+   "resume": "Qi blocked by emotions knots with Phlegm in the throat: it feels like a plum pit you can neither swallow nor spit out.",
+   "causes": [
+    "Stress, frustration or held-back emotions",
+    "Long-lasting worry",
+    "Food that thickens Phlegm: fatty food, sugar, dairy, meals eaten on the go"
+   ],
+   "mecanisme": "When Liver Qi is blocked, it no longer moves the fluids, which thicken into Phlegm. Qi and Phlegm then knot in the throat, where the Liver and Lung channels pass, giving this feeling of something stuck. The lump comes and goes with emotions, while swallowing stays normal.",
+   "cle": [
+    "noyau-prune",
+    "gorge-serree",
+    "soupirs"
+   ],
+   "autres": [
+    "oppression",
+    "irritabilite",
+    "humeur-variable",
+    "anxiete",
+    "eructations",
+    "nausee",
+    "toux-glaires-blanches",
+    "douleur-cotes",
+    "ballonnements",
+    "enduit-blanc-epais"
+   ],
+   "contre": [
+    "fievre",
+    "gorge-mal"
+   ],
+   "langue": "Thin, sticky white coating; edges sometimes slightly red.",
+   "pouls": "Wiry and slippery.",
+   "principe": {
+    "zh": "行气化痰散结",
+    "py": "Xíng qì huà tán sàn jié",
+    "fr": "Move Qi, transform Phlegm, release the throat"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Frees Liver Qi, the source of the knot."
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Opens the chest and calms the mind."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Moves the Qi of the chest."
+      },
+      {
+       "p": "RM 22",
+       "s": 60,
+       "pourquoi": "Releases the throat.",
+       "tech": [
+        "↓",
+        "Gentle downward pressure, no circles"
+       ]
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforms Phlegm."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-rose-orange",
+    "infusion-chen-pi",
+    "congee-ecorce-pamplemousse",
+    "soupe-radis-gingembre",
+    "congee-rose",
+    "salade-radis-blanc"
+   ],
+   "privilegier": "Regular meals eaten calmly, daikon, citrus zest, rose and tangerine peel infusions, spring onion.",
+   "eviter": "Fatty food, sugar, dairy and fried food, which thicken Phlegm; eating fast or while chewing over your worries.",
+   "conseils": [
+    "Breathe slowly into your belly and sigh on purpose: it loosens the knot.",
+    "Talk about what upsets you, or write it down: the lump feeds on what you hold back.",
+    "Hum or sing softly: the throat relaxes."
+   ],
+   "consulter": "If the feeling lasts more than 3 to 4 weeks, if swallowing is difficult or painful, if your voice changes, if you lose weight or feel a lump in your neck: see an ENT doctor. Acid reflux can also cause this feeling.",
+   "groupes": [
+    "poumon"
+   ],
+   "simple": "Stress knots the throat: it feels like a lump stuck there that comes and goes with emotions, while you swallow normally.",
+   "reperes": [
+    "Lump in the throat",
+    "Stress",
+    "Anxiety",
+    "Globus"
+   ],
+   "diag": "Qi blocked by your emotions has knotted with Phlegm in your throat"
   },
   {
    "id": "f-vide-sang",
@@ -240,7 +347,8 @@
     "Cramps",
     "Hair loss",
     "Scanty periods"
-   ]
+   ],
+   "diag": "your Liver no longer stores enough Blood to nourish your eyes, tendons and cycle"
   },
   {
    "id": "f-yang",
@@ -358,7 +466,8 @@
    ],
    "groupes": [
     "menopause"
-   ]
+   ],
+   "diag": "your Liver Yang rises to the head because there is not enough Yin to hold it down"
   },
   {
    "id": "f-feu",
@@ -458,7 +567,8 @@
     "High blood pressure",
     "Red eyes",
     "Insomnia"
-   ]
+   ],
+   "diag": "the Heat in your Liver has turned into Fire, which flares up to the head"
   },
   {
    "id": "f-humidite-chaleur",
@@ -553,7 +663,8 @@
     "Nausea",
     "Vaginal discharge",
     "Yeast infections"
-   ]
+   ],
+   "diag": "Dampness and Heat are clogging your Liver and Gallbladder"
   },
   {
    "id": "foie-rate",
@@ -654,7 +765,8 @@
     "Bloating",
     "Stress",
     "Alternating diarrhea and constipation"
-   ]
+   ],
+   "diag": "your Liver, tense with stress, weighs on your Spleen: your digestion follows your emotions"
   },
   {
    "id": "foie-estomac",
@@ -681,7 +793,8 @@
     "douleur-estomac-brulure",
     "omoplate-hypocondre",
     "nausee-traitement",
-    "gorge-serree"
+    "gorge-serree",
+    "noyau-prune"
    ],
    "contre": [],
    "langue": "Normal or red edges.",
@@ -758,7 +871,8 @@
     "Stress gastritis",
     "Nausea",
     "Hiccups"
-   ]
+   ],
+   "diag": "your blocked Liver pushes up on the Stomach: it knots it and makes it rise"
   }
  ]
 }

@@ -133,7 +133,8 @@
     "Bloating",
     "Tiredness after meals",
     "Loose stools"
-   ]
+   ],
+   "diag": "your Spleen lacks the strength to turn what you eat into energy"
   },
   {
    "id": "rt-vide-yang",
@@ -242,7 +243,8 @@
     "Slow digestion",
     "Water retention",
     "Hypothyroidism"
-   ]
+   ],
+   "diag": "your Spleen lacks warmth: it digests poorly and everything slows down"
   },
   {
    "id": "rt-effondrement",
@@ -333,7 +335,8 @@
     "Hemorrhoids",
     "Chronic diarrhea",
     "Extreme fatigue"
-   ]
+   ],
+   "diag": "your Spleen no longer has the strength to hold things in place: everything tends to sag"
   },
   {
    "id": "rt-sang",
@@ -419,7 +422,8 @@
     "Heavy periods",
     "Bleeding gums",
     "Anemia"
-   ]
+   ],
+   "diag": "your Spleen no longer has the strength to keep Blood in the vessels"
   },
   {
    "id": "rt-froid-humidite",
@@ -543,7 +547,8 @@
     "Weight gain",
     "Water retention",
     "Candida overgrowth"
-   ]
+   ],
+   "diag": "Cold and Dampness are weighing down your Spleen"
   },
   {
    "id": "rt-humidite-chaleur",
@@ -662,7 +667,8 @@
     "Fatty liver",
     "Acne",
     "Eczema"
-   ]
+   ],
+   "diag": "Dampness and Heat are clogging your Spleen and Stomach"
   },
   {
    "id": "e-vide-yin",
@@ -772,7 +778,8 @@
     "Dry mouth",
     "Aftermath of a fever",
     "Loss of appetite"
-   ]
+   ],
+   "diag": "your Stomach lacks fluids: it runs hot on empty and digests poorly"
   },
   {
    "id": "e-feu",
@@ -873,7 +880,8 @@
     "Bad breath",
     "Mouth ulcers",
     "Food cravings"
-   ]
+   ],
+   "diag": "Fire is burning in your Stomach"
   },
   {
    "id": "e-froid",
@@ -962,7 +970,8 @@
     "Stomach cramps",
     "Indigestion",
     "Acute gastritis"
-   ]
+   ],
+   "diag": "Cold has gripped your Stomach"
   },
   {
    "id": "e-stagnation-alimentaire",
@@ -1066,7 +1075,8 @@
     "Morning after overindulging",
     "Acid reflux",
     "Bloating"
-   ]
+   ],
+   "diag": "food is stuck in your Stomach, which can no longer move it down"
   },
   {
    "id": "e-rebellion",
@@ -1165,7 +1175,8 @@
     "Morning sickness in pregnancy",
     "Hiccups",
     "Acid reflux"
-   ]
+   ],
+   "diag": "your Stomach Qi rises instead of going down"
   }
  ]
 }

@@ -106,7 +106,8 @@
     "Douleurs du bas-ventre au froid",
     "Libido en berne",
     "Règles douloureuses"
-   ]
+   ],
+   "diag": "le Froid s'est installé sur le trajet de ton Foie, dans le bas-ventre, et le contracte"
   },
   {
    "id": "f-humidite-bas",
@@ -205,7 +206,8 @@
     "Prostatite",
     "Démangeaisons intimes",
     "Cystite"
-   ]
+   ],
+   "diag": "de l'Humidité-Chaleur descend par le trajet du Foie vers le bas du corps"
   },
   {
    "id": "rn-peur",
@@ -306,7 +308,8 @@
     "Éjaculation précoce",
     "Stress",
     "Trac"
-   ]
+   ],
+   "diag": "la peur ou un choc ont vidé l'énergie de ton Rein, qui ne tient plus le bas du corps"
   },
   {
    "id": "rn-yin-yang",
@@ -414,7 +417,8 @@
    "conseils": [
     "Garde les pieds au chaud mais la tête au frais : chaussettes et chambre aérée.",
     "Une marche quotidienne et un coucher régulier atténuent souvent les bouffées."
-   ]
+   ],
+   "diag": "ton Rein s'épuise des deux côtés : il manque à la fois de chaleur et de fraîcheur"
   }
  ]
 }

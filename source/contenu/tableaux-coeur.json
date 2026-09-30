@@ -88,7 +88,8 @@
     "Palpitations",
     "Essoufflement",
     "Convalescence"
-   ]
+   ],
+   "diag": "ton Cœur manque d'énergie pour bien faire circuler le Sang : il s'essouffle au moindre effort"
   },
   {
    "id": "c-vide-sang",
@@ -189,7 +190,8 @@
     "Dépression légère",
     "Anémie",
     "Troubles de la mémoire"
-   ]
+   ],
+   "diag": "ton Cœur n'est plus assez nourri par le Sang, et ton esprit, qui y loge, perd son ancrage la nuit"
   },
   {
    "id": "c-vide-yin",
@@ -287,7 +289,8 @@
    ],
    "groupes": [
     "menopause"
-   ]
+   ],
+   "diag": "ton Cœur manque de fraîcheur et de liquides : une petite chaleur monte et agite l'esprit, surtout le soir"
   },
   {
    "id": "c-feu",
@@ -378,7 +381,8 @@
     "Aphtes",
     "Agitation",
     "Brûlures urinaires"
-   ]
+   ],
+   "diag": "une vraie Chaleur s'est installée dans ton Cœur et enflamme l'esprit"
   },
   {
    "id": "coeur-rate",
@@ -484,7 +488,8 @@
     "Fatigue chronique",
     "Anxiété",
     "Anémie"
-   ]
+   ],
+   "diag": "à force de soucis, ta Rate fabrique moins de Sang et ton Cœur, moins nourri, ne trouve plus le repos"
   },
   {
    "id": "coeur-rein",
@@ -593,7 +598,8 @@
     "Ménopause",
     "Surmenage",
     "Éjaculations nocturnes"
-   ]
+   ],
+   "diag": "le feu de ton Cœur et l'eau de ton Rein ne s'équilibrent plus : la chaleur monte et le sommeil s'en va"
   }
  ]
 }

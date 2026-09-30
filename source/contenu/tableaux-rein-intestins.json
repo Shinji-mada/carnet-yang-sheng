@@ -137,7 +137,8 @@
     "Troubles de l'érection",
     "Lombalgie chronique",
     "Hypothyroïdie"
-   ]
+   ],
+   "diag": "le feu de fond de ton Rein s'affaiblit : le bas du corps se refroidit et l'énergie baisse"
   },
   {
    "id": "rn-vide-yin",
@@ -266,7 +267,8 @@
     "Acouphènes",
     "Surmenage",
     "Éjaculation précoce"
-   ]
+   ],
+   "diag": "les réserves de Yin de ton Rein s'épuisent : une chaleur de vide monte le soir et la nuit"
   },
   {
    "id": "rn-qi-non-ferme",
@@ -374,7 +376,8 @@
     "Pertes séminales",
     "Prostate",
     "Descente d'organe"
-   ]
+   ],
+   "diag": "ton Rein n'a plus la force de retenir : urines, pertes ou fuites s'échappent"
   },
   {
    "id": "rn-recevoir-qi",
@@ -474,7 +477,8 @@
     "Essoufflement",
     "BPCO",
     "Souffle court à l'effort"
-   ]
+   ],
+   "diag": "ton Rein n'arrive plus à recevoir le souffle que le Poumon lui envoie"
   },
   {
    "id": "rn-jing",
@@ -579,7 +583,8 @@
     "Baisse de l'audition",
     "Infertilité",
     "Ostéoporose"
-   ]
+   ],
+   "diag": "ton Essence de fond, stockée dans le Rein, s'épuise"
   },
   {
    "id": "v-humidite-chaleur",
@@ -671,7 +676,8 @@
     "Infection urinaire",
     "Prostatite",
     "Urétrite"
-   ]
+   ],
+   "diag": "de l'Humidité-Chaleur s'est installée dans ta Vessie"
   },
   {
    "id": "gi-humidite-chaleur",
@@ -753,7 +759,8 @@
     "Intoxication alimentaire",
     "Colite",
     "Hémorroïdes enflammées"
-   ]
+   ],
+   "diag": "de l'Humidité-Chaleur irrite tes intestins"
   },
   {
    "id": "gi-secheresse",
@@ -846,7 +853,8 @@
     "Constipation des seniors",
     "Après un accouchement",
     "Hémorroïdes"
-   ]
+   ],
+   "diag": "tes intestins manquent de liquides : les selles se dessèchent"
   },
   {
    "id": "gi-constipation-vide",
@@ -934,7 +942,8 @@
     "Intestin paresseux",
     "Fatigue",
     "Convalescence"
-   ]
+   ],
+   "diag": "tes intestins manquent de force pour pousser les selles"
   }
  ]
 }

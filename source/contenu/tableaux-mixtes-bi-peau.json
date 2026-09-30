@@ -116,7 +116,8 @@
     "Convalescence",
     "Après un accouchement",
     "Chute de cheveux"
-   ]
+   ],
+   "diag": "ton corps manque à la fois d'énergie et de Sang : tout fonctionne au ralenti"
   },
   {
    "id": "foie-rein-yin",
@@ -239,7 +240,8 @@
    ],
    "groupes": [
     "menopause"
-   ]
+   ],
+   "diag": "les réserves de Yin de ton Foie et de ton Rein s'épuisent : une chaleur de vide monte, surtout la nuit"
   },
   {
    "id": "rate-rein-yang",
@@ -354,7 +356,8 @@
     "Œdèmes",
     "Hypothyroïdie",
     "Fatigue profonde"
-   ]
+   ],
+   "diag": "le feu de fond de ton Rein ne réchauffe plus ta Rate : tout devient froid et lent"
   },
   {
    "id": "poumon-rate-qi",
@@ -456,7 +459,8 @@
     "Bronchite chronique",
     "Allergies",
     "Fatigue"
-   ]
+   ],
+   "diag": "ta Rate et ton Poumon manquent tous deux de force : l'énergie et les défenses faiblissent"
   },
   {
    "id": "stase-sang",
@@ -561,7 +565,8 @@
     "Douleurs chroniques",
     "Varices",
     "Suites de chute ou de choc"
-   ]
+   ],
+   "diag": "ton Sang circule mal et stagne par endroits : la douleur est fixe et piquante"
   },
   {
    "id": "froid-uterus",
@@ -659,7 +664,8 @@
     "Dysménorrhée",
     "Difficulté à concevoir",
     "Cycles longs"
-   ]
+   ],
+   "diag": "le Froid s'est logé dans ton Utérus et freine la circulation du Sang"
   },
   {
    "id": "bi-vent",
@@ -737,7 +743,8 @@
     "Douleurs articulaires diffuses",
     "Torticolis",
     "Courbatures"
-   ]
+   ],
+   "diag": "du Vent circule dans tes articulations et bloque le Qi : la douleur se déplace"
   },
   {
    "id": "bi-froid",
@@ -831,7 +838,8 @@
     "Lumbago",
     "Épaule gelée",
     "Douleurs au froid"
-   ]
+   ],
+   "diag": "le Froid a pénétré tes articulations et les fige : la chaleur te soulage"
   },
   {
    "id": "bi-humidite",
@@ -923,7 +931,8 @@
     "Genou gonflé",
     "Rhumatismes",
     "Raideur au réveil"
-   ]
+   ],
+   "diag": "de l'Humidité s'est installée dans tes articulations : elles sont lourdes et gonflées"
   },
   {
    "id": "bi-chaleur",
@@ -1000,7 +1009,8 @@
     "Arthrite",
     "Poussée inflammatoire",
     "Tendinite aiguë"
-   ]
+   ],
+   "diag": "de la Chaleur enflamme tes articulations"
   },
   {
    "id": "peau-vent-chaleur",
@@ -1078,7 +1088,8 @@
     "Allergie cutanée",
     "Démangeaisons",
     "Réaction à une piqûre"
-   ]
+   ],
+   "diag": "du Vent et de la Chaleur remontent à la surface de ta peau"
   },
   {
    "id": "peau-humidite-chaleur",
@@ -1172,7 +1183,8 @@
     "Dermatite",
     "Mycose de la peau",
     "Intertrigo"
-   ]
+   ],
+   "diag": "de l'Humidité-Chaleur ressort par ta peau"
   },
   {
    "id": "peau-vide-sang",
@@ -1256,7 +1268,8 @@
     "Eczéma sec",
     "Démangeaisons des seniors",
     "Psoriasis"
-   ]
+   ],
+   "diag": "ton Sang ne nourrit plus assez ta peau, qui se dessèche et gratte"
   },
   {
    "id": "peau-chaleur-sang",
@@ -1343,7 +1356,8 @@
     "Furoncles",
     "Rosacée",
     "Psoriasis en poussée"
-   ]
+   ],
+   "diag": "de la Chaleur dans ton Sang ressort sur ta peau"
   }
  ]
 }

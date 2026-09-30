@@ -40,7 +40,8 @@
     "acouphenes-aigus",
     "caillots",
     "bords-rouges",
-    "langue-violacee"
+    "langue-violacee",
+    "noyau-prune"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges.",
@@ -114,7 +115,113 @@
     "Boule dans la gorge",
     "Côlon irritable",
     "Irritabilité"
-   ]
+   ],
+   "diag": "le stress bloque la libre circulation du Qi de ton Foie : il se coince dans la gorge, sous les côtes et dans l'humeur"
+  },
+  {
+   "id": "mei-he-qi",
+   "organe": "foie",
+   "nom": "Qi et Mucosités noués dans la gorge (noyau de prune)",
+   "zh": "痰气郁结",
+   "py": "Tán qì yù jié",
+   "resume": "Le Qi bloqué par les émotions se noue avec des Mucosités dans la gorge : sensation d'un noyau de prune qu'on ne peut ni avaler ni cracher.",
+   "causes": [
+    "Stress, contrariétés ou émotions retenues",
+    "Inquiétude qui dure",
+    "Alimentation qui épaissit les Mucosités : gras, sucre, laitages, repas pris sur le pouce"
+   ],
+   "mecanisme": "Quand le Qi du Foie se bloque, il ne fait plus circuler les liquides, qui s'épaississent en Mucosités. Qi et Mucosités se nouent alors dans la gorge, là où passent les trajets du Foie et du Poumon, et donnent cette sensation de corps étranger. La boule va et vient avec les émotions, alors qu'on avale normalement.",
+   "cle": [
+    "noyau-prune",
+    "gorge-serree",
+    "soupirs"
+   ],
+   "autres": [
+    "oppression",
+    "irritabilite",
+    "humeur-variable",
+    "anxiete",
+    "eructations",
+    "nausee",
+    "toux-glaires-blanches",
+    "douleur-cotes",
+    "ballonnements",
+    "enduit-blanc-epais"
+   ],
+   "contre": [
+    "fievre",
+    "gorge-mal"
+   ],
+   "langue": "Enduit blanc, fin et collant ; bords parfois un peu rouges.",
+   "pouls": "Tendu et glissant.",
+   "principe": {
+    "zh": "行气化痰散结",
+    "py": "Xíng qì huà tán sàn jié",
+    "fr": "Faire circuler le Qi, transformer les Mucosités, dénouer la gorge"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Libère le Qi du Foie, à l'origine du nœud."
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Ouvre la poitrine et apaise l'esprit."
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Fait circuler le Qi de la poitrine."
+      },
+      {
+       "p": "RM 22",
+       "s": 60,
+       "pourquoi": "Dénoue la gorge.",
+       "tech": [
+        "↓",
+        "Pression douce vers le bas, sans rotation"
+       ]
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforme les Mucosités."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "infusion-rose-orange",
+    "infusion-chen-pi",
+    "congee-ecorce-pamplemousse",
+    "soupe-radis-gingembre",
+    "congee-rose",
+    "salade-radis-blanc"
+   ],
+   "privilegier": "Repas réguliers pris au calme, radis blanc, zeste d'agrumes, infusion de rose et d'écorce de mandarine, cébette.",
+   "eviter": "Gras, sucre, laitages et fritures qui épaississent les Mucosités ; manger vite ou en ruminant ses soucis.",
+   "conseils": [
+    "Respire lentement par le ventre et soupire volontairement : cela dénoue.",
+    "Parle de ce qui te contrarie, ou écris-le : la boule se nourrit de ce qu'on retient.",
+    "Fredonne ou chante doucement : la gorge se relâche."
+   ],
+   "consulter": "Si la sensation dure plus de 3 à 4 semaines, si tu as du mal à avaler ou mal en avalant, si ta voix change, si tu maigris ou si tu sens une grosseur au cou : consulte un médecin ORL. Le reflux acide peut aussi donner cette sensation.",
+   "groupes": [
+    "poumon"
+   ],
+   "simple": "Le stress noue la gorge : on sent une boule coincée qui va et vient avec les émotions, alors qu'on avale normalement.",
+   "reperes": [
+    "Boule dans la gorge",
+    "Stress",
+    "Anxiété",
+    "Globus"
+   ],
+   "diag": "le Qi bloqué par tes émotions s'est noué avec des Mucosités dans ta gorge"
   },
   {
    "id": "f-vide-sang",
@@ -240,7 +347,8 @@
     "Crampes",
     "Chute de cheveux",
     "Règles peu abondantes"
-   ]
+   ],
+   "diag": "ton Foie ne stocke plus assez de Sang pour nourrir tes yeux, tes tendons et ton cycle"
   },
   {
    "id": "f-yang",
@@ -358,7 +466,8 @@
    ],
    "groupes": [
     "menopause"
-   ]
+   ],
+   "diag": "le Yang de ton Foie monte vers la tête, faute d'assez de Yin pour le retenir"
   },
   {
    "id": "f-feu",
@@ -458,7 +567,8 @@
     "Hypertension",
     "Yeux rouges",
     "Insomnie"
-   ]
+   ],
+   "diag": "la Chaleur de ton Foie s'est transformée en Feu, qui flambe vers la tête"
   },
   {
    "id": "f-humidite-chaleur",
@@ -553,7 +663,8 @@
     "Nausées",
     "Pertes vaginales",
     "Mycoses"
-   ]
+   ],
+   "diag": "de l'Humidité et de la Chaleur encombrent ton Foie et ta Vésicule biliaire"
   },
   {
    "id": "foie-rate",
@@ -654,7 +765,8 @@
     "Ballonnements",
     "Stress",
     "Alternance diarrhée-constipation"
-   ]
+   ],
+   "diag": "ton Foie, tendu par le stress, pèse sur ta Rate : ta digestion suit tes émotions"
   },
   {
    "id": "foie-estomac",
@@ -681,7 +793,8 @@
     "douleur-estomac-brulure",
     "omoplate-hypocondre",
     "nausee-traitement",
-    "gorge-serree"
+    "gorge-serree",
+    "noyau-prune"
    ],
    "contre": [],
    "langue": "Normale ou bords rouges.",
@@ -758,7 +871,8 @@
     "Gastrite de stress",
     "Nausées",
     "Hoquet"
-   ]
+   ],
+   "diag": "ton Foie bloqué remonte sur l'Estomac : il le noue et le fait refluer"
   }
  ]
 }

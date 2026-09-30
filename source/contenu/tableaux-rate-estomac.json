@@ -133,7 +133,8 @@
     "Ballonnements",
     "Fatigue après les repas",
     "Selles molles"
-   ]
+   ],
+   "diag": "ta Rate manque de force pour transformer ce que tu manges en énergie"
   },
   {
    "id": "rt-vide-yang",
@@ -242,7 +243,8 @@
     "Digestion lente",
     "Rétention d'eau",
     "Hypothyroïdie"
-   ]
+   ],
+   "diag": "ta Rate manque de chaleur : elle digère mal et tout ralentit"
   },
   {
    "id": "rt-effondrement",
@@ -333,7 +335,8 @@
     "Hémorroïdes",
     "Diarrhée chronique",
     "Grande fatigue"
-   ]
+   ],
+   "diag": "ta Rate n'a plus la force de tenir les choses en place : tout a tendance à descendre"
   },
   {
    "id": "rt-sang",
@@ -419,7 +422,8 @@
     "Règles abondantes",
     "Gencives qui saignent",
     "Anémie"
-   ]
+   ],
+   "diag": "ta Rate n'a plus la force de garder le Sang dans les vaisseaux"
   },
   {
    "id": "rt-froid-humidite",
@@ -543,7 +547,8 @@
     "Prise de poids",
     "Rétention d'eau",
     "Candidose"
-   ]
+   ],
+   "diag": "du Froid et de l'Humidité alourdissent ta Rate"
   },
   {
    "id": "rt-humidite-chaleur",
@@ -662,7 +667,8 @@
     "Foie gras",
     "Acné",
     "Eczéma"
-   ]
+   ],
+   "diag": "de l'Humidité et de la Chaleur encombrent ta Rate et ton Estomac"
   },
   {
    "id": "e-vide-yin",
@@ -772,7 +778,8 @@
     "Bouche sèche",
     "Suite de fièvre",
     "Perte d'appétit"
-   ]
+   ],
+   "diag": "ton Estomac manque de liquides : il chauffe à vide et digère mal"
   },
   {
    "id": "e-feu",
@@ -873,7 +880,8 @@
     "Mauvaise haleine",
     "Aphtes",
     "Fringales"
-   ]
+   ],
+   "diag": "un Feu brûle dans ton Estomac"
   },
   {
    "id": "e-froid",
@@ -962,7 +970,8 @@
     "Crampes d'estomac",
     "Indigestion",
     "Gastrite aiguë"
-   ]
+   ],
+   "diag": "le Froid a saisi ton Estomac"
   },
   {
    "id": "e-stagnation-alimentaire",
@@ -1066,7 +1075,8 @@
     "Lendemain de fête",
     "Reflux",
     "Ballonnements"
-   ]
+   ],
+   "diag": "les aliments stagnent dans ton Estomac, qui n'arrive plus à les faire descendre"
   },
   {
    "id": "e-rebellion",
@@ -1165,7 +1175,8 @@
     "Nausées de grossesse",
     "Hoquet",
     "Reflux"
-   ]
+   ],
+   "diag": "le Qi de ton Estomac remonte au lieu de descendre"
   }
  ]
 }

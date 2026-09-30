@@ -87,7 +87,8 @@
     "Pharyngitis",
     "Indoor heating, dry air",
     "Dry skin"
-   ]
+   ],
+   "diag": "your Lung lacks moisture: dry air irritates it and the cough stays dry"
   },
   {
    "id": "e-vide-qi",
@@ -180,7 +181,8 @@
     "Loss of appetite",
     "Dyspepsia",
     "Tiredness"
-   ]
+   ],
+   "diag": "your Stomach no longer has the strength to receive food and move it down"
   },
   {
    "id": "e-vide-froid",
@@ -285,7 +287,8 @@
     "Stomach pain on an empty stomach",
     "Stomach cramps",
     "Difficult digestion"
-   ]
+   ],
+   "diag": "your Stomach lacks warmth: it digests slowly and craves warm food"
   },
   {
    "id": "vb-vide",
@@ -369,7 +372,8 @@
     "Indecision",
     "Anxiety",
     "Light sleep"
-   ]
+   ],
+   "diag": "your Gallbladder lacks strength: you hesitate, startle easily and lack the drive to decide"
   },
   {
    "id": "v-vide-froid",
@@ -459,7 +463,8 @@
     "Urinary leakage",
     "Getting up at night to urinate",
     "Overactive bladder"
-   ]
+   ],
+   "diag": "your Bladder lacks the warmth to hold in and transform fluids"
   },
   {
    "id": "gi-froid",
@@ -546,7 +551,8 @@
     "Intestinal cramps",
     "Stomach upset after a chill",
     "Diarrhea"
-   ]
+   ],
+   "diag": "Cold has gripped your intestines: they cramp and hurt"
   },
   {
    "id": "f-vide-yin",
@@ -640,7 +646,8 @@
     "Dizziness",
     "Menopause",
     "Cramps"
-   ]
+   ],
+   "diag": "your Liver lacks fluids and coolness: eyes and tendons dry out and a mild heat appears"
   },
   {
    "id": "femme-chaleur-sang",
@@ -734,7 +741,8 @@
     "Short cycles",
     "Hormonal acne",
     "Hot flashes"
-   ]
+   ],
+   "diag": "Heat has entered your Blood: it pushes it and makes it flow too early and too heavily"
   }
  ]
 }

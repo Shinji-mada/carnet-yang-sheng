@@ -137,7 +137,8 @@
     "Erectile dysfunction",
     "Chronic low back pain",
     "Hypothyroidism"
-   ]
+   ],
+   "diag": "the deep fire of your Kidney is weakening: the lower body gets cold and energy drops"
   },
   {
    "id": "rn-vide-yin",
@@ -266,7 +267,8 @@
     "Tinnitus",
     "Overwork",
     "Premature ejaculation"
-   ]
+   ],
+   "diag": "your Kidney Yin reserves are running out: an empty heat rises in the evening and at night"
   },
   {
    "id": "rn-qi-non-ferme",
@@ -374,7 +376,8 @@
     "Seminal leakage",
     "Prostate problems",
     "Organ prolapse"
-   ]
+   ],
+   "diag": "your Kidney no longer has the strength to hold in: urine, discharges or leaks escape"
   },
   {
    "id": "rn-recevoir-qi",
@@ -474,7 +477,8 @@
     "Shortness of breath",
     "COPD",
     "Short of breath on exertion"
-   ]
+   ],
+   "diag": "your Kidney can no longer receive the breath the Lung sends down to it"
   },
   {
    "id": "rn-jing",
@@ -579,7 +583,8 @@
     "Hearing loss",
     "Infertility",
     "Osteoporosis"
-   ]
+   ],
+   "diag": "your deep Essence, stored in the Kidney, is running out"
   },
   {
    "id": "v-humidite-chaleur",
@@ -671,7 +676,8 @@
     "Urinary tract infection",
     "Prostatitis",
     "Urethritis"
-   ]
+   ],
+   "diag": "Damp-Heat has settled in your Bladder"
   },
   {
    "id": "gi-humidite-chaleur",
@@ -753,7 +759,8 @@
     "Food poisoning",
     "Colitis",
     "Inflamed hemorrhoids"
-   ]
+   ],
+   "diag": "Damp-Heat is irritating your intestines"
   },
   {
    "id": "gi-secheresse",
@@ -846,7 +853,8 @@
     "Constipation in older people",
     "After childbirth",
     "Hemorrhoids"
-   ]
+   ],
+   "diag": "your intestines lack fluids: stools dry out"
   },
   {
    "id": "gi-constipation-vide",
@@ -934,7 +942,8 @@
     "Sluggish bowel",
     "Tiredness",
     "Convalescence"
-   ]
+   ],
+   "diag": "your intestines lack the strength to push stools out"
   }
  ]
 }

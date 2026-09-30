@@ -115,7 +115,8 @@
     "Défenses immunitaires basses",
     "Bronchite chronique",
     "Fatigue respiratoire"
-   ]
+   ],
+   "diag": "ton Poumon manque de souffle et tes défenses sont basses"
   },
   {
    "id": "p-vide-yang",
@@ -227,7 +228,8 @@
     "Rhumes à répétition",
     "Frilosité",
     "Bronchite chronique"
-   ]
+   ],
+   "diag": "ton Poumon manque de chaleur : tu prends froid facilement et les liquides stagnent"
   },
   {
    "id": "p-vide-yin",
@@ -346,7 +348,8 @@
     "Extinction de voix",
     "Suite de bronchite",
     "Fumeurs"
-   ]
+   ],
+   "diag": "ton Poumon manque de liquides : la gorge et la toux restent sèches, avec une chaleur légère"
   },
   {
    "id": "p-stagnation-qi",
@@ -364,7 +367,8 @@
     "gorge-serree",
     "soupirs",
     "oppression",
-    "tristesse"
+    "tristesse",
+    "noyau-prune"
    ],
    "autres": [
     "ruminations",
@@ -437,7 +441,8 @@
     "Dépression",
     "Boule dans la gorge",
     "Angoisse"
-   ]
+   ],
+   "diag": "des émotions retenues nouent le Qi de ton Poumon dans la poitrine et la gorge"
   },
   {
    "id": "p-vent-froid",
@@ -522,7 +527,8 @@
     "Début de grippe",
     "Coup de froid",
     "Rhinite"
-   ]
+   ],
+   "diag": "du Vent-Froid est entré par la surface et bloque ton Poumon : c'est un début de rhume « froid »"
   },
   {
    "id": "p-vent-chaleur",
@@ -618,7 +624,8 @@
     "Pharyngite",
     "Grippe",
     "Rhume avec fièvre"
-   ]
+   ],
+   "diag": "du Vent-Chaleur attaque ton Poumon : c'est un début de rhume « chaud »"
   },
   {
    "id": "p-mucosites-humidite",
@@ -729,7 +736,8 @@
     "Asthme",
     "Sinusite",
     "Fumeurs"
-   ]
+   ],
+   "diag": "des Mucosités humides encombrent ton Poumon ; elles viennent souvent d'une Rate fatiguée"
   },
   {
    "id": "p-mucosites-chaleur",
@@ -825,7 +833,8 @@
     "Sinusite",
     "Toux grasse",
     "Fumeurs"
-   ]
+   ],
+   "diag": "des Mucosités chaudes obstruent ton Poumon"
   }
  ]
 }

@@ -87,7 +87,8 @@
     "Pharyngite",
     "Chauffage, air sec",
     "Peau sèche"
-   ]
+   ],
+   "diag": "ton Poumon manque d'humidité : l'air sec l'irrite et la toux reste sèche"
   },
   {
    "id": "e-vide-qi",
@@ -180,7 +181,8 @@
     "Manque d'appétit",
     "Dyspepsie",
     "Fatigue"
-   ]
+   ],
+   "diag": "ton Estomac n'a plus la force de recevoir les aliments et de les faire descendre"
   },
   {
    "id": "e-vide-froid",
@@ -285,7 +287,8 @@
     "Douleur d'estomac à jeun",
     "Crampes d'estomac",
     "Digestion difficile"
-   ]
+   ],
+   "diag": "ton Estomac manque de chaleur : il digère lentement et réclame du chaud"
   },
   {
    "id": "vb-vide",
@@ -369,7 +372,8 @@
     "Indécision",
     "Anxiété",
     "Sommeil léger"
-   ]
+   ],
+   "diag": "ta Vésicule biliaire manque de force : tu hésites, tu sursautes et tu manques d'élan pour décider"
   },
   {
    "id": "v-vide-froid",
@@ -459,7 +463,8 @@
     "Fuites urinaires",
     "Pipi la nuit",
     "Vessie hyperactive"
-   ]
+   ],
+   "diag": "ta Vessie manque de chaleur pour retenir et transformer les liquides"
   },
   {
    "id": "gi-froid",
@@ -546,7 +551,8 @@
     "Crampes intestinales",
     "Gastro par le froid",
     "Diarrhée"
-   ]
+   ],
+   "diag": "le Froid a saisi tes intestins : ils se contractent et font mal"
   },
   {
    "id": "f-vide-yin",
@@ -640,7 +646,8 @@
     "Vertiges",
     "Ménopause",
     "Crampes"
-   ]
+   ],
+   "diag": "ton Foie manque de liquides et de fraîcheur : les yeux et les tendons se dessèchent et une chaleur légère apparaît"
   },
   {
    "id": "femme-chaleur-sang",
@@ -734,7 +741,8 @@
     "Cycles courts",
     "Acné hormonale",
     "Bouffées de chaleur"
-   ]
+   ],
+   "diag": "de la Chaleur est passée dans ton Sang : elle le pousse et le fait couler trop tôt et trop fort"
   }
  ]
 }

@@ -88,7 +88,8 @@
     "Palpitations",
     "Shortness of breath",
     "Convalescence"
-   ]
+   ],
+   "diag": "your Heart lacks the energy to move Blood well: it runs out of breath at the slightest effort"
   },
   {
    "id": "c-vide-sang",
@@ -189,7 +190,8 @@
     "Mild depression",
     "Anemia",
     "Memory problems"
-   ]
+   ],
+   "diag": "your Heart is no longer nourished enough by Blood, and your mind, which lives there, loses its anchor at night"
   },
   {
    "id": "c-vide-yin",
@@ -287,7 +289,8 @@
    ],
    "groupes": [
     "menopause"
-   ]
+   ],
+   "diag": "your Heart lacks coolness and fluids: a mild heat rises and stirs the mind, especially in the evening"
   },
   {
    "id": "c-feu",
@@ -378,7 +381,8 @@
     "Mouth ulcers",
     "Restlessness",
     "Burning urination"
-   ]
+   ],
+   "diag": "real Heat has settled in your Heart and inflames the mind"
   },
   {
    "id": "coeur-rate",
@@ -484,7 +488,8 @@
     "Chronic fatigue",
     "Anxiety",
     "Anemia"
-   ]
+   ],
+   "diag": "worry has worn down your Spleen, which makes less Blood, and your Heart, less nourished, can no longer rest"
   },
   {
    "id": "coeur-rein",
@@ -593,7 +598,8 @@
     "Menopause",
     "Overwork",
     "Nocturnal emissions"
-   ]
+   ],
+   "diag": "the fire of your Heart and the water of your Kidney no longer balance each other: heat rises and sleep goes"
   }
  ]
 }

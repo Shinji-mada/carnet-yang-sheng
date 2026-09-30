@@ -338,6 +338,13 @@
    "syn": "boule gorge nœud"
   },
   {
+   "id": "noyau-prune",
+   "cat": "tete",
+   "nom": "Sensation de noyau de prune dans la gorge",
+   "alerte": "Consulte un médecin ORL si la sensation dure plus de 3 à 4 semaines, si tu as du mal à avaler ou mal en avalant, si ta voix change, si tu maigris sans raison ou si tu sens une grosseur au cou. Le reflux acide peut aussi donner cette sensation.",
+   "syn": "noyau de prune boule gorge mei he qi globus corps étranger gorge nœud gorge avaler cracher"
+  },
+  {
    "id": "aphtes",
    "cat": "tete",
    "nom": "Aphtes, petites plaies dans la bouche",
