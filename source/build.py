@@ -96,6 +96,11 @@ def check(data):
             if x not in sym: errs.append(f"rubrique {c['id']} : symptôme inconnu {x}")
         if c.get("guide") and not any(s.get("info") and s["id"] in c.get("liste", []) + [x for g in c.get("sous", []) for x in g.get("liste", [])] for s in data.get("symptomes", [])):
             errs.append(f"rubrique {c['id']} : guide sans aucune fiche « info »")
+        # Une rubrique qui liste ses symptômes à la main ne doit oublier aucun symptôme de sa catégorie
+        listes = c.get("liste", []) + [x for g in c.get("sous", []) for x in g.get("liste", [])]
+        if listes:
+            oublis = [s["id"] for s in data.get("symptomes", []) if s.get("cat") == c["id"] and s["id"] not in listes]
+            if oublis: errs.append(f"rubrique {c['id']} : symptômes de la catégorie absents des listes : {oublis}")
     for s in data.get("symptomes", []):
         for t in s.get("tab", []):
             if t not in tids: errs.append(f"diagnostic {s['id']} : tableau inconnu {t}")
@@ -141,8 +146,18 @@ def check(data):
     for t in tabs:
         for s in set(t.get("cle", []) + t.get("autres", [])): nlien[s] = nlien.get(s, 0) + 1
     for s in data.get("symptomes", []): nlien[s["id"]] += len(set(s.get("tab", [])))
+    # Un signe mène à au moins 2 tableaux, ou il est le signe clé d'un tableau (signe caractéristique,
+    # comme les mouches volantes pour le Vide de Sang du Foie) : mieux vaut 2 tableaux justes que 3 dont un faux.
+    ncle = {}
+    for t in tabs:
+        for s in set(t.get("cle", [])): ncle[s] = ncle.get(s, 0) + 1
     for s in sorted(sym):
-        if nlien[s] < 3: errs.append(f"symptôme {s} : relié à {nlien[s]} tableau(x), il en faut au moins 3")
+        if nlien[s] < 2 and not ncle.get(s): errs.append(f"symptôme {s} : relié à {nlien[s]} tableau, il en faut au moins 2 (ou en être un signe clé)")
+    for t in tabs:
+        lists = {k: set(t.get(k, [])) for k in ("cle", "autres", "contre")}
+        for a, b in (("cle", "autres"), ("cle", "contre"), ("autres", "contre")):
+            if lists[a] & lists[b]: errs.append(f"tableau {t['id']} : {sorted(lists[a] & lists[b])} à la fois dans {a} et {b}")
+        if not 2 <= len(lists["cle"]) <= 5: errs.append(f"tableau {t['id']} : {len(lists['cle'])} signes clés (2 à 5)")
     for t in tabs:
         if len(t.get("recettes", [])) < 2: errs.append(f"tableau {t['id']} : moins de 2 recettes")
     linked = {r for t in tabs for r in t.get("recettes", [])}

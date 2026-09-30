@@ -19,11 +19,11 @@
     "essoufflement",
     "voix-faible",
     "sueurs-jour",
-    "rhumes-frequents"
+    "rhumes-frequents",
+    "toux-faible"
    ],
    "autres": [
     "fatigue",
-    "toux-faible",
     "toux-glaires-blanches",
     "teint-pale",
     "langue-pale",
@@ -32,7 +32,8 @@
     "eternuements",
     "constipation-effort",
     "sueurs-spontanees",
-    "nez-clair"
+    "nez-clair",
+    "sifflement"
    ],
    "contre": [
     "langue-rouge",
@@ -133,11 +134,11 @@
    "cle": [
     "frilosite",
     "froid-dos",
-    "rhumes-frequents",
-    "toux-glaires-blanches"
+    "toux-glaires-blanches",
+    "essoufflement"
    ],
    "autres": [
-    "essoufflement",
+    "rhumes-frequents",
     "voix-faible",
     "sueurs-jour",
     "nez-clair",
@@ -147,7 +148,15 @@
     "langue-gonflee",
     "eternuements",
     "toux-faible",
-    "sueurs-spontanees"
+    "sueurs-spontanees",
+    "teint-pale",
+    "fatigue",
+    "mictions-frequentes",
+    "oppression",
+    "sifflement",
+    "langue-humide",
+    "marques-dents",
+    "salive-abondante"
    ],
    "contre": [
     "chaleur-corps",
@@ -155,8 +164,8 @@
     "toux-glaires-jaunes",
     "soif"
    ],
-   "langue": "Pale and slightly moist.",
-   "pouls": "Weak, especially at the right thumb position.",
+   "langue": "Pale, swollen and wet, sometimes with tooth marks; white slippery coating.",
+   "pouls": "Weak and slow, especially at the right front position.",
    "principe": {
     "zh": "温补肺阳",
     "py": "Wēn bǔ fèi yáng",
@@ -249,11 +258,11 @@
     "toux-seche",
     "gorge-seche",
     "langue-rouge-sans-enduit",
-    "sueurs-nuit"
+    "sueurs-nuit",
+    "fievre-apres-midi"
    ],
    "autres": [
     "bouche-seche",
-    "fievre-apres-midi",
     "pommettes-rouges",
     "chaleur-5-coeurs",
     "voix-faible",
@@ -264,15 +273,21 @@
     "langue-fissuree",
     "mucite",
     "peau-radiotherapie",
-    "gorge-mal"
+    "gorge-mal",
+    "constipation-seche",
+    "urines-foncees",
+    "gorge-chatouille",
+    "langue-mince",
+    "enduit-pele"
    ],
    "contre": [
     "toux-glaires-blanches",
     "frilosite",
     "enduit-blanc-epais",
-    "langue-pale"
+    "langue-pale",
+    "langue-humide"
    ],
-   "langue": "Red and dry, little or no coating, sometimes cracked at the front.",
+   "langue": "Red, dry, often thin, with little or no coating (sometimes in patches), sometimes cracked at the front.",
    "pouls": "Thready and rapid.",
    "principe": {
     "zh": "滋阴润肺",
@@ -375,7 +390,9 @@
     "toux-seche",
     "humeur-variable",
     "appetit-faible",
-    "essoufflement"
+    "essoufflement",
+    "anxiete",
+    "decouragement"
    ],
    "contre": [
     "fievre",
@@ -460,14 +477,16 @@
     "aversion-froid",
     "nez-clair",
     "eternuements",
-    "cephalee-nuque"
+    "cephalee-nuque",
+    "toux-glaires-blanches"
    ],
    "autres": [
     "nez-bouche",
-    "toux-glaires-blanches",
     "nuque-raide",
     "fievre",
-    "peu-soif"
+    "peu-soif",
+    "gorge-chatouille",
+    "courbatures"
    ],
    "contre": [
     "gorge-mal",
@@ -546,24 +565,28 @@
     "gorge-mal",
     "fievre",
     "nez-jaune",
-    "soif"
+    "toux-glaires-jaunes"
    ],
    "autres": [
+    "soif",
     "aversion-froid",
-    "toux-glaires-jaunes",
     "cephalee-front",
     "pointe-rouge",
     "yeux-rouges",
     "nez-bouche",
     "orgelet",
-    "paupieres-gonflees"
+    "paupieres-gonflees",
+    "courbatures",
+    "gorge-seche",
+    "points-rouges",
+    "enduit-jaune"
    ],
    "contre": [
     "nez-clair",
     "frilosite",
     "langue-pale"
    ],
-   "langue": "Red tip and edges, thin white or yellow coating.",
+   "langue": "Red tip, sometimes small red dots at the front; thin white or yellow coating.",
    "pouls": "Floating and rapid.",
    "principe": {
     "zh": "疏风清热",
@@ -657,14 +680,20 @@
     "cephalee-lourde",
     "nez-bouche",
     "somnolence",
-    "gorge-serree"
+    "gorge-serree",
+    "selles-molles",
+    "ballonnements",
+    "teint-pale",
+    "langue-pale",
+    "enduit-gras",
+    "marques-dents"
    ],
    "contre": [
     "toux-seche",
     "toux-glaires-jaunes",
     "langue-rouge-sans-enduit"
    ],
-   "langue": "Swollen, with a thick, greasy white coating.",
+   "langue": "Pale and swollen, sometimes with tooth marks; thick, greasy white coating.",
    "pouls": "Slippery.",
    "principe": {
     "zh": "燥湿化痰",
@@ -765,14 +794,20 @@
     "langue-rouge",
     "nez-jaune",
     "crachats-sang",
-    "gorge-mal"
+    "gorge-mal",
+    "constipation-seche",
+    "urines-foncees",
+    "anxiete",
+    "visage-rouge",
+    "enduit-gras",
+    "points-rouges"
    ],
    "contre": [
     "toux-glaires-blanches",
     "frilosite",
     "langue-pale"
    ],
-   "langue": "Red, with a greasy yellow coating.",
+   "langue": "Red, sometimes red dots at the front; greasy yellow coating.",
    "pouls": "Slippery and rapid.",
    "principe": {
     "zh": "清热化痰",

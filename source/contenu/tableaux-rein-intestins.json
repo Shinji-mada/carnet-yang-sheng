@@ -22,37 +22,37 @@
    ],
    "autres": [
     "fatigue",
-    "lombalgie-sourde",
-    "diarrhee-matin",
-    "oedeme",
-    "libido",
-    "teint-pale",
     "decouragement",
-    "langue-pale",
-    "langue-gonflee",
+    "teint-pale",
+    "teint-sombre",
+    "lombalgie-sourde",
+    "froid-dos",
+    "froid-genital",
+    "mictions-frequentes",
+    "oedeme",
+    "diarrhee-matin",
+    "aliments-non-digeres",
+    "libido",
     "erection",
     "sperme-clair",
-    "froid-genital",
-    "froid-dos",
-    "teint-sombre",
-    "douleur-genou",
-    "douleurs-froid",
-    "mictions-frequentes",
     "fertilite",
-    "humidite-intime",
     "cycles-irreguliers",
-    "fatigue-matin",
-    "sueurs-spontanees",
-    "gynecomastie",
+    "pertes-blanches",
+    "humidite-intime",
     "raideur-articulaire",
-    "regles-retard",
+    "dents-dechaussees",
+    "langue-pale",
+    "langue-gonflee",
+    "langue-humide",
     "langue-violacee",
-    "paupieres-gonflees"
+    "levres-ongles-violaces",
+    "urines-troubles"
    ],
    "contre": [
     "chaleur-corps",
     "sueurs-nuit",
-    "langue-rouge"
+    "langue-rouge",
+    "langue-rouge-sans-enduit"
    ],
    "langue": "Pâle, gonflée, humide.",
    "pouls": "Profond et faible, surtout aux positions du Rein.",
@@ -160,42 +160,41 @@
     "acouphenes-faibles"
    ],
    "autres": [
-    "bouche-seche",
+    "douleur-genou",
+    "talons-douloureux",
     "vertiges",
+    "audition",
     "memoire",
     "reveils",
+    "bouche-seche",
+    "pommettes-rouges",
+    "chaleur-corps",
+    "fievre-apres-midi",
+    "bouffees-hormono",
+    "amaigrissement",
     "constipation-seche",
     "urines-foncees",
-    "pommettes-rouges",
-    "langue-rouge-sans-enduit",
-    "chaleur-corps",
     "cheveux-blancs",
+    "dents-dechaussees",
     "pollutions-nocturnes",
     "ejaculation-precoce",
     "libido-excessive",
-    "audition",
-    "langue-fissuree",
-    "douleur-genou",
     "secheresse-intime",
-    "fertilite",
     "cycles-irreguliers",
-    "gynecomastie",
-    "vesicules-genitales",
-    "mucite",
-    "bouffees-hormono",
-    "sensible-chaleur",
-    "fievre-apres-midi",
-    "chaud-froid",
-    "gorge-seche",
-    "regles-avance"
+    "langue-rouge-sans-enduit",
+    "langue-mince",
+    "langue-fissuree",
+    "enduit-pele",
+    "demangeaisons-nuit"
    ],
    "contre": [
     "frilosite",
     "urines-claires",
     "langue-pale",
-    "enduit-blanc-epais"
+    "enduit-blanc-epais",
+    "langue-humide"
    ],
-   "langue": "Rouge, sans enduit, parfois fissurée.",
+   "langue": "Rouge, mince, peu ou pas d'enduit (parfois pelée par plaques), parfois fissurée.",
    "pouls": "Fin et rapide.",
    "principe": {
     "zh": "滋补肾阴",
@@ -285,20 +284,24 @@
    "mecanisme": "Le Qi du Rein garde les portes du bas du corps fermées. Quand il faiblit, les urines et les pertes s'échappent.",
    "cle": [
     "fuites-urinaires",
+    "mictions-frequentes",
     "mictions-nuit",
     "genoux-faibles"
    ],
    "autres": [
     "urines-claires",
     "lombalgie-sourde",
-    "pertes-blanches",
     "fatigue",
-    "langue-pale",
+    "teint-pale",
+    "acouphenes-faibles",
+    "audition",
+    "talons-douloureux",
+    "pertes-blanches",
     "pertes-seminales",
     "ejaculation-precoce",
-    "mictions-frequentes",
     "sperme-clair",
-    "pesanteur"
+    "pesanteur",
+    "langue-pale"
    ],
    "contre": [
     "brulures-urinaires",
@@ -393,18 +396,21 @@
    ],
    "mecanisme": "Le Poumon inspire, le Rein « reçoit » et ancre le souffle en bas. Quand le Rein faiblit, l'inspiration reste courte et l'essoufflement s'installe.",
    "cle": [
+    "inspiration-difficile",
     "essoufflement",
     "sifflement",
     "genoux-faibles"
    ],
    "autres": [
+    "toux-faible",
+    "voix-faible",
     "sueurs-jour",
     "fatigue",
-    "urines-claires",
     "frilosite",
-    "voix-faible",
-    "langue-pale",
-    "toux-faible"
+    "fuites-urinaires",
+    "urines-claires",
+    "oedeme",
+    "langue-pale"
    ],
    "contre": [
     "toux-glaires-jaunes",
@@ -496,29 +502,32 @@
    "cle": [
     "cheveux-blancs",
     "memoire",
-    "genoux-faibles"
+    "genoux-faibles",
+    "fertilite"
    ],
    "autres": [
     "chute-cheveux",
+    "dents-dechaussees",
     "audition",
     "acouphenes-faibles",
-    "libido",
-    "fatigue",
     "vertiges",
-    "sperme-clair",
-    "fertilite",
-    "erection",
-    "douleur-genou",
-    "teint-sombre",
-    "cephalee-sourde",
-    "cycles-irreguliers",
-    "fatigue-traitement",
-    "deformations",
-    "jambes-faibles",
-    "lhermitte",
-    "vision-double",
     "desequilibre",
-    "concentration"
+    "vision-double",
+    "cephalee-sourde",
+    "concentration",
+    "fatigue",
+    "jambes-faibles",
+    "talons-douloureux",
+    "deformations",
+    "libido",
+    "erection",
+    "sperme-clair",
+    "cycles-irreguliers",
+    "teint-sombre",
+    "fatigue-traitement",
+    "langue-pale",
+    "langue-rouge-sans-enduit",
+    "lhermitte"
    ],
    "contre": [],
    "langue": "Variable, souvent pâle ou rouge sans enduit.",
@@ -601,21 +610,26 @@
    "mecanisme": "L'Humidité-Chaleur bloque la Vessie : les urines deviennent rares, foncées, brûlantes et pressantes.",
    "cle": [
     "brulures-urinaires",
-    "urines-foncees"
+    "urines-foncees",
+    "mictions-frequentes"
    ],
    "autres": [
     "soif",
     "enduit-jaune",
     "fievre",
     "lombalgie-sourde",
-    "mictions-frequentes",
-    "ecoulement"
+    "ecoulement",
+    "langue-rouge",
+    "urines-troubles",
+    "enduit-gras",
+    "points-rouges"
    ],
    "contre": [
     "urines-claires",
-    "frilosite"
+    "frilosite",
+    "langue-pale"
    ],
-   "langue": "Enduit jaune et gras à l'arrière.",
+   "langue": "Rouge, enduit jaune et gras surtout à l'arrière, parfois points rouges.",
    "pouls": "Glissant et rapide.",
    "principe": {
     "zh": "清利膀胱湿热",
@@ -694,14 +708,21 @@
    "mecanisme": "L'Humidité-Chaleur bloque le Gros Intestin : les selles deviennent urgentes, brûlantes et malodorantes.",
    "cle": [
     "diarrhee-chaude",
-    "enduit-jaune"
+    "enduit-jaune",
+    "selles-glaireuses"
    ],
    "autres": [
     "ballonnements",
     "soif",
     "urines-foncees",
     "fievre",
-    "hemorroides"
+    "hemorroides",
+    "langue-rouge",
+    "lourdeur",
+    "nausee",
+    "enduit-gras",
+    "douleur-avant-selles",
+    "selles-collantes"
    ],
    "contre": [
     "diarrhee-matin",
@@ -785,14 +806,20 @@
     "teint-pale",
     "langue-rouge-sans-enduit",
     "amaigrissement",
-    "langue-fissuree"
+    "langue-fissuree",
+    "haleine",
+    "vertiges",
+    "langue-pale",
+    "langue-mince"
    ],
    "contre": [
     "selles-molles",
-    "diarrhee-chaude"
+    "diarrhee-chaude",
+    "enduit-blanc-epais",
+    "langue-humide"
    ],
-   "langue": "Sèche, pâle ou rouge sans enduit.",
-   "pouls": "Fin.",
+   "langue": "Sèche, souvent mince ; pâle, ou rouge avec peu d'enduit.",
+   "pouls": "Fin, parfois rugueux.",
    "principe": {
     "zh": "润肠通便",
     "py": "Rùn cháng tōng biàn",
@@ -878,13 +905,15 @@
     "sueurs-jour",
     "voix-faible",
     "teint-pale",
-    "langue-pale"
+    "langue-pale",
+    "pesanteur",
+    "marques-dents"
    ],
    "contre": [
     "constipation-seche",
     "enduit-jaune"
    ],
-   "langue": "Pâle.",
+   "langue": "Pâle, parfois marques des dents.",
    "pouls": "Vide.",
    "principe": {
     "zh": "益气润肠",

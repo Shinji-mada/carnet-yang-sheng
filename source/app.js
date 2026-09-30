@@ -460,6 +460,7 @@ async function share(k,id){
   try{await navigator.clipboard.writeText(url);toast('Lien copié');}catch(err){toast(url);}
 }
 function onSheetAct(a){
+  if(a.startsWith('lgdel:')){lgDelete(a.slice(6));return;}
   const ctx=sheetCtx||{};const {k,id,cid}=ctx;
   if(a==='select'){closeSheet();selMode=true;selSet.clear();selSet.add(k+':'+id);refresh();return;}
   if(a==='selectin'){closeSheet();carnetSel=cid;persist();selMode=true;selSet.clear();if(tab!=='carnet'||route)goTab('carnet');else refresh();return;}
@@ -737,7 +738,9 @@ function ringHTML(p,cls,big){return `<span class="ring ${cls}${big?' big':''}" r
 function renderSym(){
   if(symMode==='bilan'&&symSel.size)return renderBilan();
   if(symMode==='resultats'&&symSel.size)return renderSymResults();
-  view.innerHTML=`<h1 class="vh">${$t('Symptômes')}</h1><p class="lede">${$t('Coche ce que tu ressens, même un peu. L\'appli cherche les tableaux de la médecine chinoise qui te ressemblent.')}</p>
+  if(symMode==='langue'&&nSymHorsLangue())return renderLangue();
+  symMode='choisir';
+  view.innerHTML=`${stepsHTML(1)}<h1 class="vh big-q">${$t('Quels sont tes symptômes ?')}</h1><p class="lede">${$t('Coche ce que tu ressens, même un peu. Ensuite, tu regarderas ta langue, puis l\'appli fera ton bilan selon la médecine chinoise.')}</p>
 ${tipHTML(TIP_FILTRE,'Coche plusieurs symptômes.','Un seul signe se retrouve dans beaucoup de tableaux : plus tu en coches, plus la recherche s\'affine et plus le tableau proposé est précis.')}
 <div class="tools ac-wrap">${searchBox('sq',symQuery,$t('Tape les premières lettres : fat, toux, diarr…'),$t('Chercher un symptôme'))}<div class="ac" id="ac" role="listbox" aria-label="${$t('Suggestions')}" hidden></div></div>
 <div id="symlist"></div><div class="cta-wrap" id="symcta" hidden></div>`;
@@ -818,6 +821,7 @@ function catCount(cat){const c=SYMCATS.find(x=>x.id===cat);return c?catList(c).f
 function renderSymList(){
   const box=$('#symlist');if(!box)return;
   box.innerHTML=SYMCATS.map(c=>{
+    if(c.id==='langue')return'';
     const list=catList(c);if(!list.length)return'';
     const k=catCount(c.id);
     return `<details class="cat${c.note||c.sous?' rich':''}" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary>${catBody(c)}</details>`;
@@ -844,10 +848,10 @@ function updateCatCounts(){
 }
 function renderCTA(){
   const box=$('#symcta');if(!box)return;
-  const n=symSel.size;
+  const n=nSymHorsLangue();
   if(!n){box.hidden=true;box.innerHTML='';return;}
   const res=matchTableaux(),best=res[0];
-  box.innerHTML=`<div class="cta-bar"><div class="cta-t"><b>${plural(n,'symptôme','symptômes')}</b><span>${best?$t('Le plus proche : ')+esc(best.t.nom)+' ('+best.pct+' %)':$t('Ajoute d\'autres signes pour affiner')}</span></div><button type="button" class="cta-x" data-clear="sym" aria-label="${$t('Effacer tous les symptômes')}">${$t('Effacer')}</button><button type="button" class="cta" data-mode="bilan">${$t('Mon bilan')} <span aria-hidden="true">→</span></button></div>`;
+  box.innerHTML=`<div class="cta-bar"><div class="cta-t"><b>${plural(n,'symptôme','symptômes')}</b><span>${best?$t('Le plus proche : ')+esc(best.t.nom)+' ('+best.pct+' %)':$t('Ajoute d\'autres signes pour affiner')}</span></div><button type="button" class="cta-x" data-clear="sym" aria-label="${$t('Effacer tous les symptômes')}">${$t('Effacer')}</button><button type="button" class="cta" data-mode="langue">${$t('Valider')} <span aria-hidden="true">→</span></button></div>`;
   box.hidden=false;
 }
 function renderSymResults(){
@@ -901,12 +905,225 @@ function toggleSym(id,anchor){
   refresh();
 }
 
+/* ---------- Examen de la langue ----------
+   Étape entre les symptômes et le bilan : une photo de la langue, gardée sur ce téléphone, puis des questions
+   illustrées. Les réponses deviennent des signes de la catégorie « langue », que les tableaux et le bilan utilisent.
+   L'appli ne lit pas la photo elle-même : la personne décrit ce qu'elle voit en la regardant. */
+const LG_Q=[
+ {id:'couleur',titre:'De quelle couleur est ta langue ?',aide:'Regarde le corps de la langue, sous le dépôt blanc ou jaune qui la recouvre.',
+  o:[['normale','Rose clair, vivante',''],['pale','Pâle, blanchâtre','langue-pale'],['rouge','Rouge','langue-rouge'],['fonce','Rouge foncé, écarlate','langue-rouge langue-cramoisie'],['violacee','Violacée ou bleutée','langue-violacee']]},
+ {id:'zones',multi:'aucune',titre:'Vois-tu des zones plus rouges ou des taches ?',
+  o:[['aucune','Non, la couleur est égale',''],['pointe','La pointe plus rouge','pointe-rouge'],['bords','Les bords plus rouges','bords-rouges'],['centre','Le centre plus rouge','centre-rouge'],['points','De petits points rouges','points-rouges'],['taches','Des taches violettes ou sombres','taches-violettes']]},
+ {id:'forme',multi:'normale',titre:'Et sa forme ?',
+  o:[['normale','Normale, souple',''],['mince','Mince, effilée','langue-mince'],['gonflee','Gonflée, large','langue-gonflee'],['dents','Marques des dents sur les bords','marques-dents'],['fissure','Une fissure au milieu','fissure-centrale'],['fissures','Plusieurs fissures','langue-fissuree'],['tremble','Elle tremble quand tu la tires','langue-tremblante']]},
+ {id:'enduit',titre:'Et l\'enduit, le dépôt à sa surface ?',aide:'Un enduit fin laisse voir la langue à travers ; un enduit épais la cache.',
+  o:[['fin','Fin et blanc',''],['epais','Blanc et épais','enduit-blanc-epais'],['jaune','Jaune','enduit-jaune'],['gris','Gris ou noir',''],['absent','Absent par plaques ou partout, langue lisse','enduit-pele']]},
+ {id:'gras',titre:'Cet enduit est-il gras, collant ou glissant ?',si:r=>r.enduit!=='absent',
+  o:[['non','Non, il est sec ou normal',''],['oui','Oui, gras ou collant','enduit-gras']]},
+ {id:'humidite',titre:'Est-elle sèche ou mouillée ?',
+  o:[['normale','Juste humide',''],['seche','Sèche','langue-seche'],['humide','Très humide, mouillée','langue-humide']]},
+ {id:'veines',titre:'Soulève-la : comment sont les deux veines dessous ?',aide:'Pose la pointe de ta langue contre le palais et regarde dans un miroir.',
+  o:[['fines','Fines, peu visibles',''],['gonflees','Gonflées, foncées ou violettes','veines-sublinguales']]},
+];
+const LG_MAX=8,LG_FRAIS=7*24*3600*1000;
+let LGX=storedJSON('ys.langue.exam',{});if(!LGX||typeof LGX!=='object'||Array.isArray(LGX))LGX={};if(!LGX.r||typeof LGX.r!=='object')LGX.r={};
+function lgSave(){store('ys.langue.exam',J(LGX));}
+function lgPhotos(){return arr(storedJSON('ys.langue.photos',[])).filter(p=>p&&p.id&&typeof p.img==='string'&&p.img.startsWith('data:image/'));}
+function lgSavePhotos(L){for(let n=L.length;n>=0;n--){try{localStorage.setItem('ys.langue.photos',J(L.slice(0,n)));return n;}catch(e){}}return 0;}
+function lgVal(q,r){const v=(r||LGX.r)[q.id];return q.multi?arr(v):(typeof v==='string'?v:'');}
+function lgSigns(r){
+  const out=[];
+  LG_Q.forEach(q=>{if(q.si&&!q.si(r))return;const v=q.multi?arr(r[q.id]):[r[q.id]];
+    q.o.forEach(o=>{if(v.includes(o[0])&&o[2])o[2].split(' ').forEach(s=>{if(!out.includes(s))out.push(s);});});});
+  if((r.couleur==='rouge'||r.couleur==='fonce')&&r.enduit==='absent')out.push('langue-rouge-sans-enduit');
+  return out.filter(s=>SYM[s]);
+}
+function lgFresh(){return !!LGX.fait&&Date.now()-LGX.fait<LG_FRAIS;}
+function lgCount(){return LG_Q.filter(q=>!(q.si&&!q.si(LGX.r))&&(q.multi?arr(LGX.r[q.id]).length:LGX.r[q.id])).length;}
+function lgApply(){
+  Object.keys(SYM).forEach(s=>{if(SYM[s].cat==='langue')symSel.delete(s);});
+  lgSigns(LGX.r).forEach(s=>symSel.add(s));saveSet('ys.symptomes',symSel);
+}
+function nSymHorsLangue(){return [...symSel].filter(s=>SYM[s]&&SYM[s].cat!=='langue').length;}
+function stepsHTML(n){
+  const L=['Symptômes','Langue','Bilan'];
+  return `<ol class="steps3" aria-label="${$t('Étapes')}">${L.map((l,i)=>`<li class="${i+1<n?'ok':''}"${i+1===n?' aria-current="step"':''}><b>${i+1<n?'✓':i+1}</b><span>${$t(l)}</span></li>`).join('')}</ol>`;
+}
+/* Dessins de langue (SVG) pour illustrer chaque réponse */
+let lgN=0;
+const LG_COL={normale:'#E8959B',pale:'#F1CDC8',rouge:'#DB4E4C',fonce:'#A1203A',violacee:'#9777A4'};
+const LG_PATH={normale:'M18 10H82C90 34 90 72 76 97C66 114 34 114 24 97C10 72 10 34 18 10Z',mince:'M27 10H73C79 36 78 74 67 98C59 114 41 114 33 98C22 74 21 36 27 10Z',gonflee:'M11 10H89C99 36 99 75 83 99C71 116 29 116 17 99C1 75 1 36 11 10Z'};
+function lgIll(qid,oid){
+  if(qid==='couleur')return{c:oid};
+  if(qid==='zones')return{zone:oid};
+  if(qid==='forme')return{forme:oid};
+  if(qid==='enduit')return{enduit:oid};
+  if(qid==='gras')return oid==='oui'?{enduit:'epais',gras:1}:{enduit:'fin'};
+  if(qid==='humidite')return{hum:oid};
+  if(qid==='veines')return{veines:oid};
+  return{};
+}
+function tongueSVG(o){
+  const k='lgc'+(++lgN);
+  if(o.veines){
+    const g=o.veines==='gonflees',vc=g?'#4E2A63':'#8C7BB4',vw=g?5.5:2;
+    const vl=g?'M45 101C36 90 44 78 37 66C31 56 39 46 33 32':'M45 101C41 82 37 60 35 34',vr=g?'M55 101C64 90 56 78 63 66C69 56 61 46 67 32':'M55 101C59 82 63 60 65 34';
+    return `<svg viewBox="0 0 100 118" class="lg-svg" aria-hidden="true"><rect x="3" y="3" width="94" height="112" rx="42" fill="#3B2327"/><path d="M13 24C13 6 87 6 87 24C91 62 80 101 50 106C20 101 9 62 13 24Z" fill="#E6A0AB"/><path d="M50 106V62" stroke="#CF8391" stroke-width="3" stroke-linecap="round"/><path d="${vl}" stroke="${vc}" stroke-width="${vw}" fill="none" stroke-linecap="round" opacity="${g?1:.75}"/><path d="${vr}" stroke="${vc}" stroke-width="${vw}" fill="none" stroke-linecap="round" opacity="${g?1:.75}"/></svg>`;
+  }
+  const P=LG_PATH[o.forme==='mince'?'mince':o.forme==='gonflee'?'gonflee':'normale'],col=LG_COL[o.c]||LG_COL.normale;
+  const red=o.c==='fonce'?'#7C0E24':'#C42F38';
+  let s=`<svg viewBox="0 0 100 118" class="lg-svg" aria-hidden="true"><defs><clipPath id="${k}"><path d="${P}"/></clipPath></defs><rect x="6" y="3" width="88" height="13" rx="6.5" fill="#3B2327"/><path d="${P}" fill="${col}"/><g clip-path="url(#${k})">`;
+  if(o.zone==='pointe')s+=`<ellipse cx="50" cy="106" rx="26" ry="17" fill="${red}" opacity=".8"/>`;
+  if(o.zone==='bords')s+=`<path d="${P}" fill="none" stroke="${red}" stroke-width="13" opacity=".75"/>`;
+  if(o.zone==='centre')s+=`<ellipse cx="50" cy="54" rx="13" ry="22" fill="${red}" opacity=".65"/>`;
+  if(o.zone==='points')s+=[[36,66],[46,74],[58,70],[64,82],[40,86],[52,90],[30,78],[70,64],[56,58],[44,56]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="2.1" fill="${red}"/>`).join('');
+  if(o.zone==='taches')s+=`<ellipse cx="34" cy="64" rx="6" ry="4.5" fill="#5B3470" opacity=".8"/><ellipse cx="64" cy="76" rx="5" ry="4" fill="#5B3470" opacity=".8"/><ellipse cx="50" cy="44" rx="4" ry="3" fill="#5B3470" opacity=".7"/>`;
+  const E={fin:['#FFFFFF',.4],epais:['#FAF8F2',.92],jaune:['#DDB842',.9],gris:['#66625E',.9]}[o.enduit];
+  const EP=o.enduit==='fin'?'M26 12H74C79 28 77 50 67 64C60 73 40 73 33 64C23 50 21 28 26 12Z':'M20 12H80C86 32 84 62 70 78C61 88 39 88 30 78C16 62 14 32 20 12Z';
+  if(E)s+=`<path d="${EP}" fill="${E[0]}" opacity="${E[1]}"/>`;
+  if(o.enduit==='absent')s+=`<path d="M20 12H80C86 32 84 62 70 78C61 88 39 88 30 78C16 62 14 32 20 12Z" fill="#FFFFFF" opacity=".55"/><path d="M34 30c6-5 14 0 12 7s-12 8-14 2 1-7 2-9zM56 48c7-3 13 3 10 9s-11 5-12-1 0-7 2-8zM40 62c5-2 9 2 7 6s-8 4-9 0 1-5 2-6z" fill="${col}"/><path d="M36 84c8 5 20 5 28 0" stroke="#FFFFFF" stroke-width="3" fill="none" opacity=".6" stroke-linecap="round"/>`;
+  if(o.gras)s+=`<path d="M32 24c6 10 4 22 10 32M52 20c-2 12 4 22 0 34M66 26c-5 9-2 20-8 28" stroke="#FFFFFF" stroke-width="3.2" fill="none" opacity=".95" stroke-linecap="round"/><ellipse cx="42" cy="34" rx="5" ry="2.5" fill="#FFFFFF"/>`;
+  if(o.forme==='dents'){const pts=[[14,28],[13,41],[13,54],[15,67],[19,80]];s+=pts.map(([x,y])=>`<path d="M${x} ${y}q5 4.5 0 9M${100-x} ${y}q-5 4.5 0 9" stroke="#A8545C" stroke-width="2" fill="none" stroke-linecap="round"/>`).join('');}
+  if(o.forme==='fissure')s+=`<path d="M50 18C48 40 52 64 50 92" stroke="#8C2A33" stroke-width="2.4" fill="none" stroke-linecap="round"/>`;
+  if(o.forme==='fissures')s+=`<path d="M50 22V78M37 34l7 9M63 34l-7 9M33 54l10 6M67 54l-10 6M39 74l8 6M61 74l-8 6" stroke="#8C2A33" stroke-width="2" fill="none" stroke-linecap="round"/>`;
+  if(o.hum==='humide')s+=`<ellipse cx="38" cy="36" rx="8" ry="4" fill="#FFFFFF" opacity=".75"/><ellipse cx="62" cy="58" rx="6" ry="3" fill="#FFFFFF" opacity=".7"/><ellipse cx="44" cy="80" rx="5" ry="2.5" fill="#FFFFFF" opacity=".7"/><path d="M26 100c2 4 2 7 0 9M74 100c-2 4-2 7 0 9" stroke="#FFFFFF" stroke-width="2.5" opacity=".8" fill="none" stroke-linecap="round"/>`;
+  if(o.hum==='seche')s+=`<rect x="0" y="0" width="100" height="118" fill="#9C8B7A" opacity=".16"/><path d="M34 40l5 4-3 5M60 36l-4 5 4 4M44 64l6 3-2 6M64 70l-5 3 3 5M36 82l5-2 3 5" stroke="#8C2A33" stroke-width="1.4" fill="none" stroke-linecap="round" opacity=".8"/>`;
+  s+=`</g><path d="${P}" fill="none" stroke="#000" stroke-opacity=".16" stroke-width="1"/>`;
+  if(o.forme==='tremble')s+=`<path d="M6 46q-4 6 0 12M94 46q4 6 0 12M3 62q-3 6 0 12M97 62q3 6 0 12" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" opacity=".55"/>`;
+  return s+'</svg>';
+}
+const CAM_ICON='<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l2-2.5h6L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.6"/></svg>';
+function lgDate(iso){try{return new Date(iso).toLocaleDateString(LOC,{day:'numeric',month:'long',year:'numeric'});}catch(e){return '';}}
+function lgPhotoHTML(){
+  const cur=LGX.photo&&lgPhotos().find(p=>p.id===LGX.photo);
+  if(cur)return `<figure class="lg-ph"><button type="button" class="lg-zoom" data-lgph="${esc(cur.id)}" aria-label="${$t('Agrandir la photo')}"><img src="${cur.img}" alt="${esc($t('Ta langue, photo du {d}',{d:lgDate(cur.d)}))}"></button><figcaption><span>${esc($t('Photo du {d}',{d:lgDate(cur.d)}))}</span><button type="button" class="linkbtn" data-lgcam="1">${$t('Reprendre')}</button></figcaption></figure>`;
+  return `<div class="lg-take"><p class="lg-take-t">${$t('Prends ta langue en photo')}</p>
+<ul class="lg-tips"><li>${$t('À la lumière du jour, face à une fenêtre, sans lampe colorée.')}</li><li>${$t('Tire la langue sans forcer, bien détendue, 10 secondes au plus. Recommence si besoin.')}</li><li>${$t('Pas juste après un café, du tabac, des bonbons, des épices ou une boisson colorée : ils colorent la langue et l\'enduit.')}</li></ul>
+<div class="lg-btns"><button type="button" class="cta" data-lgcam="1">${CAM_ICON}<span>${$t('Prendre la photo')}</span></button><button type="button" class="ghost" data-lgfile="1">${$t('Choisir une photo')}</button></div>
+<p class="fine">${$t('La photo reste sur ce téléphone : elle n\'est envoyée nulle part, même avec un compte.')}</p></div>`;
+}
+function lgQuestionsHTML(){
+  let n=0;
+  return LG_Q.map(q=>{
+    if(q.si&&!q.si(LGX.r))return'';
+    n++;const v=lgVal(q);
+    return `<section class="lg-q" id="lgq-${q.id}"><h2 class="lg-t"><span class="lg-n">${n}</span><span>${$t(q.titre)}</span></h2>${q.aide?`<p class="hint">${$t(q.aide)}</p>`:''}${q.multi?`<p class="hint">${$t('Plusieurs réponses possibles.')}</p>`:''}
+<div class="lg-os">${q.o.map(o=>{const on=q.multi?v.includes(o[0]):v===o[0];return `<button type="button" class="lg-o" data-lg="${q.id}:${o[0]}" aria-pressed="${on}">${tongueSVG(lgIll(q.id,o[0]))}<span>${$t(o[1])}</span></button>`;}).join('')}</div></section>`;
+  }).join('');
+}
+function lgHistHTML(){
+  const L=lgPhotos().filter(p=>p.id!==LGX.photo);
+  if(!L.length)return'';
+  return `<h2 class="sec">${$t('Tes photos précédentes')}</h2><p class="hint">${$t('Compare d\'une fois sur l\'autre : un enduit qui s\'épaissit montre que le déséquilibre s\'installe, un enduit qui s\'affine qu\'il recule.')}</p><div class="lg-hist">${L.map(p=>`<button type="button" class="lg-th" data-lgph="${esc(p.id)}"><img src="${p.img}" alt=""><span>${esc(lgDate(p.d))}</span></button>`).join('')}</div>`;
+}
+function renderLangue(){
+  view.innerHTML=`<div class="bar"><button class="back" type="button" data-mode="choisir"><span aria-hidden="true">‹</span>${$t('Symptômes')}</button><span class="kind">${plural(nSymHorsLangue(),'symptôme','symptômes')}</span></div>
+${stepsHTML(2)}<h1 class="vh big-q">${$t('Et ta langue ?')}</h1>
+<p class="lede">${$t('En médecine chinoise, la langue montre ce que les symptômes ne disent pas : l\'état du Qi et du Sang, la Chaleur ou le Froid, l\'Humidité. C\'est une pièce essentielle de ton bilan.')}</p>
+<div class="lg-photo${LGX.photo&&lgPhotos().some(p=>p.id===LGX.photo)?' pin':''}" id="lgphoto">${lgPhotoHTML()}</div>
+<input type="file" id="lg-cam" accept="image/*" capture="user" hidden><input type="file" id="lg-file" accept="image/*" hidden>
+<p class="lg-intro">${$t('Regarde ta photo, ou ta langue dans un miroir, et touche ce qui lui ressemble le plus. Si tu hésites, passe la question.')}</p>
+<div id="lgq">${lgQuestionsHTML()}</div>
+<div class="lg-go"><button type="button" class="cta" data-lggo="1">${$t('Voir mon bilan')} <span aria-hidden="true">→</span></button><button type="button" class="linkbtn" data-lgskip="1">${$t('Je ne peux pas regarder ma langue maintenant')}</button></div>
+${lgHistHTML()}`;
+}
+function lgPick(v){
+  const i=v.indexOf(':'),qid=v.slice(0,i),oid=v.slice(i+1),q=LG_Q.find(x=>x.id===qid);if(!q)return;
+  if(q.multi){let a=arr(LGX.r[qid]);if(oid===q.multi)a=a.includes(oid)?[]:[oid];else{a=a.filter(x=>x!==q.multi);a=a.includes(oid)?a.filter(x=>x!==oid):[...a,oid];}LGX.r[qid]=a;}
+  else LGX.r[qid]=LGX.r[qid]===oid?'':oid;
+  lgSave();
+  const box=$('#lgq');if(!box)return;
+  const sel=`[data-lg="${cssq(v)}"]`,el=$(sel),top=el?el.getBoundingClientRect().top:null;
+  box.innerHTML=lgQuestionsHTML();
+  const el2=$(sel);if(el2){if(top!==null)window.scrollBy(0,el2.getBoundingClientRect().top-top);el2.focus({preventScroll:true});}
+}
+function lgPhoto(file){
+  if(!file)return;
+  const img=new Image(),url=URL.createObjectURL(file);
+  img.onload=()=>{
+    const M=900,w=img.naturalWidth,h=img.naturalHeight,k=Math.min(1,M/Math.max(w,h)),c=document.createElement('canvas');
+    c.width=Math.max(1,Math.round(w*k));c.height=Math.max(1,Math.round(h*k));c.getContext('2d').drawImage(img,0,0,c.width,c.height);URL.revokeObjectURL(url);
+    const p={id:'lg'+Date.now().toString(36),d:new Date().toISOString(),img:c.toDataURL('image/jpeg',0.8)};
+    const L=[p,...lgPhotos()].slice(0,LG_MAX),n=lgSavePhotos(L);
+    if(!n){toast('Plus assez de place sur ce téléphone pour garder la photo.');return;}
+    LGX.photo=p.id;lgSave();
+    const box=$('#lgphoto');if(box&&symMode==='langue'){box.innerHTML=lgPhotoHTML();box.classList.add('pin');}else render();
+    toast(n<L.length?'Photo enregistrée. Les plus anciennes ont été retirées pour faire de la place.':'Photo enregistrée');
+  };
+  img.onerror=()=>{URL.revokeObjectURL(url);toast('Cette image ne peut pas être lue.');};
+  img.src=url;
+}
+function lgPhotoSheet(id){
+  const p=lgPhotos().find(x=>x.id===id);if(!p)return;
+  const sg=arr(p.s).filter(s=>SYM[s]);
+  openSheet($t('Ta langue'),$t('Photo du {d}',{d:lgDate(p.d)}),`<img class="lg-big" src="${p.img}" alt="">${sg.length?`<p class="hint" style="margin-top:12px">${$t('Ce jour-là, tu as noté :')}</p><div class="chips small">${sg.map(s=>`<span class="chip static">${esc(symName(s))}</span>`).join('')}</div>`:''}<div class="sheet-acts"><button type="button" class="ghost danger" data-act="lgdel:${esc(p.id)}">${$t('Supprimer cette photo')}</button></div>`);
+}
+function lgDelete(id){
+  const L=lgPhotos().filter(p=>p.id!==id);lgSavePhotos(L);
+  if(LGX.photo===id){LGX.photo=null;lgSave();}
+  closeSheet(false,()=>{render();toast('Photo supprimée');});
+}
+/* Ce que la langue dit, en mots simples, pour le bilan */
+const LG_SENS={
+ 'langue-pale':'La pâleur montre un manque de Qi, de Sang ou de Yang : le corps manque de ce qui le nourrit et le réchauffe.',
+ 'langue-rouge':'Le rouge montre de la Chaleur.',
+ 'langue-cramoisie':'Le rouge foncé montre une Chaleur forte, qui a gagné le Sang.',
+ 'langue-rouge-sans-enduit':'Rouge et sans enduit : le Yin s\'épuise et laisse monter une Chaleur « par manque ».',
+ 'langue-violacee':'La teinte violacée montre que le Sang circule mal, souvent figé par le Froid.',
+ 'taches-violettes':'Les taches sombres montrent que le Sang stagne à certains endroits.',
+ 'pointe-rouge':'La pointe rouge montre de la Chaleur dans le Cœur : sommeil léger, agitation.',
+ 'bords-rouges':'Les bords rouges montrent de la Chaleur dans le Foie.',
+ 'centre-rouge':'Le centre rouge montre de la Chaleur dans l\'Estomac.',
+ 'points-rouges':'Les petits points rouges montrent de la Chaleur dans le Sang.',
+ 'langue-mince':'Une langue mince montre un manque de Sang ou de Yin.',
+ 'langue-gonflee':'Une langue gonflée montre que l\'Humidité s\'accumule : la Rate n\'arrive plus à tout transformer.',
+ 'marques-dents':'Les marques des dents montrent une Rate qui manque de Qi.',
+ 'fissure-centrale':'La fissure au milieu montre un Estomac qui manque de liquides (de Yin) ; si elle va jusqu\'à la pointe, elle parle aussi du Cœur.',
+ 'langue-fissuree':'Les fissures montrent que les liquides du corps, le Yin, s\'épuisent.',
+ 'langue-tremblante':'Une langue qui tremble montre un manque de Sang ou de Qi.',
+ 'enduit-blanc-epais':'L\'enduit blanc et épais montre de l\'Humidité ou du Froid qui s\'accumule.',
+ 'enduit-jaune':'L\'enduit jaune montre de la Chaleur.',
+ 'enduit-gras':'L\'enduit gras montre de l\'Humidité ou des Mucosités.',
+ 'enduit-pele':'L\'enduit qui manque montre que l\'Estomac et le Yin s\'épuisent.',
+ 'langue-seche':'La sécheresse montre que la Chaleur, ou un manque de Yin, assèche les liquides.',
+ 'langue-humide':'Une langue très humide montre du Froid ou de l\'Humidité, par manque de Yang.',
+ 'veines-sublinguales':'Les veines gonflées dessous montrent que le Sang stagne.',
+};
+function lgDesc(r){
+  const adj=[],avec=[];
+  const C={pale:'pâle',rouge:'rouge',fonce:'rouge foncé',violacee:'violacée'};
+  if(C[r.couleur])adj.push($t(C[r.couleur]));
+  const f=arr(r.forme);
+  if(f.includes('mince'))adj.push($t('mince'));if(f.includes('gonflee'))adj.push($t('gonflée'));if(f.includes('fissures'))adj.push($t('fissurée'));
+  if(r.humidite==='seche')adj.push($t('sèche'));if(r.humidite==='humide')adj.push($t('très humide'));
+  if(f.includes('tremble'))adj.push($t('qui tremble'));
+  const Z={pointe:'la pointe plus rouge',bords:'les bords plus rouges',centre:'le centre plus rouge',points:'de petits points rouges',taches:'des taches sombres'};
+  arr(r.zones).forEach(z=>{if(Z[z])avec.push($t(Z[z]));});
+  if(f.includes('dents'))avec.push($t('des marques de dents'));
+  if(f.includes('fissure'))avec.push($t('une fissure au milieu'));
+  const EA={fin:['fin','blanc'],epais:['blanc','épais'],jaune:['jaune'],gris:['gris ou noir']}[r.enduit];
+  if(r.enduit==='absent')avec.push($t('peu ou pas d\'enduit'));
+  else if(EA||r.gras==='oui'){const q=(EA||[]).map(x=>$t(x));if(r.gras==='oui')q.push($t('gras'));avec.push($t('un enduit {q}',{q:q.length>1?q.slice(0,-1).join(', ')+' '+$t('et')+' '+q[q.length-1]:q[0]}));}
+  if(r.veines==='gonflees')avec.push($t('des veines gonflées dessous'));
+  const et=' '+$t('et')+' ',join=a=>a.length>1?a.slice(0,-1).join(', ')+et+a[a.length-1]:a[0]||'';
+  if(!adj.length&&!avec.length)return '';
+  if(!adj.length)return $t('Ta langue a {a}.',{a:join(avec)});
+  return avec.length?$t('Ta langue est {x}, avec {a}.',{x:join(adj),a:join(avec)}):$t('Ta langue est {x}.',{x:join(adj)});
+}
 /* ---------- Bilan du praticien virtuel ----------
    À partir des symptômes cochés : un tableau principal, 0 à 2 tableaux associés qui expliquent les signes restants,
    un texte rédigé comme par un praticien, une séance de points qui réunit les tableaux, des questions pour affiner. */
 const BILAN_MIN=3;
+/* Nature de chaque tableau selon les huit règles : v = Vide, p = Plénitude, m = les deux ; c = Chaleur, f = Froid, n = ni l'un ni l'autre */
+const BILAN_NAT={'c-vide-qi':'vn','c-vide-sang':'vn','c-vide-yin':'vc','c-feu':'pc','coeur-rate':'vn','coeur-rein':'vc','p-secheresse':'pn','e-vide-qi':'vn','e-vide-froid':'vf','vb-vide':'vn','v-vide-froid':'vf','gi-froid':'pf',
+  'f-vide-yin':'vc','femme-chaleur-sang':'pc','f-stagnation-qi':'pn','mei-he-qi':'pn','f-vide-sang':'vn','f-yang':'mc','f-feu':'pc','f-humidite-chaleur':'pc','foie-rate':'mn','foie-estomac':'pn','f-froid-meridien':'pf','f-humidite-bas':'pc',
+  'rn-peur':'vn','rn-yin-yang':'vn','qi-sang':'vn','foie-rein-yin':'vc','rate-rein-yang':'vf','poumon-rate-qi':'vn','stase-sang':'pn','froid-uterus':'mf','bi-vent':'pn','bi-froid':'pf','bi-humidite':'pn','bi-chaleur':'pc',
+  'peau-vent-chaleur':'pc','peau-humidite-chaleur':'pc','peau-vide-sang':'vn','peau-chaleur-sang':'pc','p-vide-qi':'vn','p-vide-yang':'vf','p-vide-yin':'vc','p-stagnation-qi':'pn','p-vent-froid':'pf','p-vent-chaleur':'pc',
+  'p-mucosites-humidite':'pn','p-mucosites-chaleur':'pc','rt-vide-qi':'vn','rt-vide-yang':'vf','rt-effondrement':'vn','rt-sang':'vn','rt-froid-humidite':'pf','rt-humidite-chaleur':'pc','e-vide-yin':'vc','e-feu':'pc','e-froid':'pf',
+  'e-stagnation-alimentaire':'pn','e-rebellion':'pn','rn-vide-yang':'vf','rn-vide-yin':'vc','rn-qi-non-ferme':'vn','rn-recevoir-qi':'vn','rn-jing':'vn','v-humidite-chaleur':'pc','gi-humidite-chaleur':'pc','gi-secheresse':'vn','gi-constipation-vide':'vn'};
 const BILAN_ORG={'coeur-rate':['coeur','rate'],'coeur-rein':['coeur','rein'],'f-humidite-chaleur':['foie','vesicule'],'foie-rate':['foie','rate'],'foie-estomac':['foie','estomac'],
-  'foie-rein-yin':['foie','rein'],'rate-rein-yang':['rate','rein'],'poumon-rate-qi':['poumon','rate'],'rt-humidite-chaleur':['rate','estomac'],'mei-he-qi':['foie','poumon']};
+  'foie-rein-yin':['foie','rein'],'rate-rein-yang':['rate','rein'],'poumon-rate-qi':['poumon','rate'],'rt-humidite-chaleur':['rate','estomac'],'mei-he-qi':['foie','poumon'],'qi-sang':['rate','coeur'],'rt-sang':['rate'],'rn-peur':['rein','coeur'],'vb-vide':['vesicule']};
+const ORG_ART={coeur:'le Cœur',poumon:'le Poumon',rate:'la Rate',estomac:'l\'Estomac',foie:'le Foie',vesicule:'la Vésicule biliaire',rein:'le Rein',vessie:'la Vessie','gros-intestin':'le Gros Intestin'};
 const BILAN_LIENS=[
   [['foie','rate'],'Le Foie et la Rate sont liés : quand le Qi du Foie se bloque, il pèse sur la digestion, et une Rate fatiguée laisse le Foie s\'emballer.'],
   [['foie','estomac'],'Le Foie bloqué remonte sur l\'Estomac : d\'où l\'estomac noué, les renvois ou les nausées quand tu es tendu.'],
@@ -920,6 +1137,7 @@ const BILAN_LIENS=[
   [['foie','poumon'],'Le Poumon fait descendre le Qi et le Foie le fait circuler : quand ils se bloquent, la poitrine et la gorge se serrent.'],
   [['poumon','rein'],'Le Poumon fait descendre le souffle et le Rein le reçoit : quand le Rein faiblit, le souffle devient court.'],
   [['foie','vesicule'],'Le Foie et la Vésicule biliaire travaillent ensemble : ce qui touche l\'un touche l\'autre.'],
+  [['coeur','vesicule'],'La Vésicule biliaire donne le courage de décider, le Cœur abrite l\'esprit : quand ils faiblissent ensemble, on sursaute et on doute.'],
   [['gros-intestin','poumon'],'Le Poumon et le Gros Intestin sont couplés : quand le Poumon manque de force ou de liquides, le transit suit.'],
   [['gros-intestin','rate'],'La digestion est une chaîne : quand la Rate faiblit, les intestins le ressentent.'],
   [['estomac','gros-intestin'],'La digestion est une chaîne : ce qui gêne l\'Estomac se retrouve dans les intestins.'],
@@ -928,42 +1146,85 @@ const BILAN_LIENS=[
   [['femme','rate'],'La Rate fabrique le Sang des règles et le garde dans les vaisseaux : quand elle faiblit, le cycle s\'en ressent.'],
   [['femme','rein'],'Le Rein est la racine du cycle : quand il s\'épuise, les règles et la fertilité s\'en ressentent.'],
   [['peau','poumon'],'Le Poumon gouverne la peau : ce qui touche l\'un se voit sur l\'autre.'],
+  [['bi','rein'],'Le Rein nourrit les os et le Foie les tendons : quand ils faiblissent, le Vent, le Froid et l\'Humidité s\'installent plus facilement dans les articulations.'],
+  [['bi','foie'],'Le Foie nourrit les tendons : quand il manque de Sang, les articulations se défendent moins bien.'],
+  [['bi','rate'],'La Rate nourrit les muscles et gère l\'Humidité : quand elle faiblit, l\'Humidité s\'installe dans les articulations.'],
 ];
 function bilanOrgs(t){return BILAN_ORG[t.id]||[t.organe];}
-function lienTexte(a,b){
-  const A=bilanOrgs(a),B=bilanOrgs(b);
-  for(const [pair,txt] of BILAN_LIENS){if((A.includes(pair[0])&&B.includes(pair[1]))||(A.includes(pair[1])&&B.includes(pair[0])))return $t(txt);}
-  if(A.includes('qi-sang')||B.includes('qi-sang'))return $t('Le Qi et le Sang se nourrissent l\'un l\'autre : quand l\'un manque, l\'autre suit.');
-  const same=A.find(o=>B.includes(o)&&ORG[o]);
-  if(same)return $t('Les deux touchent le même organe, {o} : ils s\'entretiennent, il faut les soigner ensemble.',{o:ORG[same].nom});
-  return $t('Ces deux déséquilibres s\'entretiennent souvent : en soigner un aide l\'autre.');
+/* Liens entre deux tableaux : d'abord selon leur nature (la Rate fabrique le Sang, le Qi mène le Sang…), puis selon les organes */
+const BILAN_GR={
+  rateVide:['rt-vide-qi','rt-vide-yang','rt-effondrement','rt-sang','poumon-rate-qi','coeur-rate','rate-rein-yang','e-vide-qi','e-vide-froid','gi-constipation-vide'],
+  sangVide:['f-vide-sang','c-vide-sang','qi-sang','peau-vide-sang','coeur-rate'],
+  humid:['rt-froid-humidite','rt-humidite-chaleur','p-mucosites-humidite','p-mucosites-chaleur','bi-humidite','f-humidite-chaleur','f-humidite-bas','peau-humidite-chaleur','gi-humidite-chaleur','v-humidite-chaleur','mei-he-qi'],
+  qiStag:['f-stagnation-qi','foie-rate','foie-estomac','mei-he-qi','p-stagnation-qi'],
+  stase:['stase-sang'],
+  yinVide:['rn-vide-yin','foie-rein-yin','f-vide-yin','c-vide-yin','p-vide-yin','e-vide-yin','coeur-rein','rn-yin-yang','gi-secheresse'],
+  yangMonte:['f-yang','f-feu'],
+};
+function bGr(t,g){
+  const n=BILAN_NAT[t.id]||'';
+  if(g==='froid')return n[1]==='f';
+  if(g==='chaleurP')return n==='pc'||n==='mc';
+  return (BILAN_GR[g]||[]).includes(t.id);
 }
+const BILAN_LIENS_T=[
+  ['rateVide','sangVide','La Rate fabrique le Sang à partir de ce que tu manges : quand elle faiblit, le Sang vient à manquer.'],
+  ['rateVide','humid','Une Rate qui manque de force transforme mal l\'eau et les aliments : l\'Humidité s\'accumule, et cette Humidité fatigue la Rate à son tour.'],
+  ['qiStag','stase','Le Qi mène le Sang : quand le Qi se bloque longtemps, le Sang finit par stagner.'],
+  ['froid','stase','Le Froid fige le Sang : c\'est pour cela qu\'il circule mal.'],
+  ['yinVide','yangMonte','Quand le Yin manque, il ne retient plus le Yang du Foie, qui monte vers la tête.'],
+  ['sangVide','yangMonte','Le Sang du Foie retient son Yang : quand le Sang manque, le Yang monte vers la tête.'],
+  ['qiStag','chaleurP','Un Qi bloqué depuis longtemps finit par chauffer : la Stagnation se transforme en Chaleur.'],
+  ['sangVide','stase','Un Sang qui manque circule moins bien : le manque et la stagnation vont souvent ensemble.'],
+  ['humid','chaleurP','L\'Humidité qui stagne s\'échauffe avec le temps : elle devient Humidité-Chaleur.'],
+];
+function lienTexte(a,b,used){
+  used=used||new Set();
+  const ok=txt=>{const t=$t(txt);if(used.has(t))return'';used.add(t);return t;};
+  for(const [g1,g2,txt] of BILAN_LIENS_T){if((bGr(a,g1)&&bGr(b,g2))||(bGr(a,g2)&&bGr(b,g1))){const t=ok(txt);if(t)return t;}}
+  const A=bilanOrgs(a),B=bilanOrgs(b);
+  for(const [pair,txt] of BILAN_LIENS){if((A.includes(pair[0])&&B.includes(pair[1]))||(A.includes(pair[1])&&B.includes(pair[0]))){const t=ok(txt);if(t)return t;}}
+  if(A.includes('qi-sang')||B.includes('qi-sang')){const t=ok('Le Qi et le Sang se nourrissent l\'un l\'autre : quand l\'un manque ou se bloque, l\'autre suit.');if(t)return t;}
+  const same=A.find(o=>B.includes(o)&&ORG_ART[o]);
+  if(same){const t=$t('Les deux touchent {o} : ils s\'entretiennent, il faut les soigner ensemble.',{o:$t(ORG_ART[same])});if(!used.has(t)){used.add(t);return t;}}
+  return ok('Ces deux déséquilibres s\'entretiennent souvent : en soigner un aide l\'autre.');
+}
+function court(s){return minus(String(symName(s)).split(/,| \(|\s?: /)[0].trim());}
+/* « que à » → « qu'à » (le texte du tableau commence parfois par une voyelle) */
+function elide(h){return EN?h:String(h).replace(/(^|[^A-Za-zÀ-ÿ])([Qq])ue (?=[aeiouyàâéèêîôœ])/g,"$1$2u'");}
 function listeSignes(ids,max){
-  const n=ids.map(s=>minus(String(symName(s)).split(/,| \(/)[0].trim()));
+  const n=ids.map(court);
   const m=max||4,shown=n.slice(0,m),plus=n.length-shown.length;
   const et=' '+$t('et')+' ';
   if(plus>0)return shown.join(', ')+'…';
   return shown.length>1?shown.slice(0,-1).join(', ')+et+shown[shown.length-1]:shown[0]||'';
 }
 function minus(s){s=String(s||'');return s.charAt(0).toLowerCase()+s.slice(1);}
+function majus(s){s=String(s||'');return s.charAt(0).toUpperCase()+s.slice(1);}
 function computeBilan(){
   const sel=[...symSel].filter(s=>SYM[s]);
   const res=matchTableaux();
-  const b={sel,res,tabs:[],assoc:[],reste:[],questions:[]};
+  const hors=sel.filter(s=>SYM[s].cat!=='langue');
+  const b={sel,res,tabs:[],assoc:[],reste:[],pistes:[],questions:[]};
+  b.langue=lgFresh()||sel.some(s=>SYM[s].cat==='langue');
   // principal : le plus compatible, ou un tableau combiné qui explique davantage de signes
   let p=res[0];
   if(p){const c=res.slice(1,6).find(r=>r.t.organe==='combines'&&r.m.length>p.m.length&&r.pct>=p.pct-15&&!r.contra.length);if(c)p=c;}
-  b.enough=sel.length>=BILAN_MIN&&!!p&&p.m.length>=2;
+  b.enough=hors.length>=BILAN_MIN&&!!p&&p.m.length>=2;
   if(b.enough){
     b.principal=p;const covered=new Set(p.m);
-    for(let k=0;k<2;k++){
+    for(let k=0;k<3;k++){
       let best=null;
       res.forEach(r=>{
-        if(r===p||b.assoc.includes(r)||r.contra.length)return;
+        if(r===p||b.assoc.includes(r))return;
+        // un signe contraire n'écarte pas un tableau s'il est déjà expliqué par un tableau retenu (une langue rouge due à une Chaleur, par exemple)
+        if(r.contra.some(s=>!covered.has(s)))return;
         const nouv=r.m.filter(s=>!covered.has(s));if(!nouv.length)return;
-        const nKey=nouv.filter(s=>r.t._cle.includes(s)).length;
+        const nKey=nouv.filter(s=>r.t._cle.includes(s)).length,nLg=nouv.filter(s=>SYM[s].cat==='langue').length;
+        if(nLg===nouv.length&&nouv.length<2)return;
         if(nouv.length<2&&!nKey)return;
-        const val=2*nouv.length+2*nKey+r.pct/25;
+        if(k===2&&nouv.length<2)return;
+        const val=2*nouv.length+2*nKey-0.5*nLg+r.pct/25-(r.contra.length?1.5:0);
         if(!best||val>best.val)best={r,val,nouv};
       });
       if(!best)break;
@@ -971,19 +1232,32 @@ function computeBilan(){
     }
     b.reste=sel.filter(s=>!covered.has(s));
     b.tabs=[p,...b.assoc];
+    // Un signe resté seul : on dit à quel tableau il appartient d'habitude (signe clé d'abord), au lieu de le laisser sans explication
+    const pist=new Map();
+    b.reste.forEach(s=>{
+      const cands=tableaux.filter(t=>!b.tabs.some(r=>r.t===t)&&(t._cle.includes(s)||t._autres.includes(s)||t._lies.includes(s)));
+      if(!cands.length)return;
+      const orgs=new Set(b.tabs.flatMap(r=>bilanOrgs(r.t)));
+      const sc=t=>(t._cle.includes(s)?10:0)+(((res.find(r=>r.t===t)||{}).pct)||0)/10-(t._contre.some(x=>symSel.has(x))?3:0)+(bilanOrgs(t).some(o=>orgs.has(o))?2:0);
+      const t=cands.sort((x,y)=>sc(y)-sc(x))[0];
+      if(!pist.has(t))pist.set(t,[]);pist.get(t).push(s);
+    });
+    b.pistes=[...pist].map(([t,s])=>({t,s,cle:s.some(x=>t._cle.includes(x))})).slice(0,3);
+    b.orphelins=b.reste.filter(s=>!b.pistes.some(x=>x.s.includes(s)));
     b.confiance=p.pct>=65&&b.reste.length<=1?'forte':p.pct>=40?'moyenne':'faible';
+    if(!b.langue&&b.confiance==='forte')b.confiance='moyenne';
   }
-  // questions pour affiner : signes clés des tableaux retenus, puis du meilleur concurrent, puis la langue
-  const q=[],add=s=>{if(SYM[s]&&!symSel.has(s)&&!q.includes(s))q.push(s);};
+  // questions pour affiner : signes clés des pistes, des tableaux retenus et du meilleur concurrent (la langue a sa propre étape)
+  const q=[],add=s=>{if(SYM[s]&&SYM[s].cat!=='langue'&&!symSel.has(s)&&!q.includes(s))q.push(s);};
+  b.pistes.forEach(x=>x.t._cle.forEach(add));
   const cand=b.enough?[...b.tabs,res.find(r=>!b.tabs.includes(r))].filter(Boolean):res.slice(0,3);
   cand.forEach(r=>r.t._cle.forEach(add));
-  cand.forEach(r=>r.t._autres.filter(s=>/^(langue|enduit)/.test(s)).forEach(add));
-  cand.forEach(r=>r.t._autres.slice(0,4).forEach(add));
+  cand.forEach(r=>r.t._autres.filter(s=>SYM[s]&&SYM[s].cat!=='langue').slice(0,4).forEach(add));
   b.questions=q.slice(0,b.enough?8:10);
   return b;
 }
 function bilanProto(tabs){
-  const seen=new Map(),ph={d:[],t:[],w:[]},caps=[5,3,3];
+  const seen=new Map(),ph={d:[],t:[],w:[]},caps=[5,3,3,2];
   tabs.forEach((t,i)=>{
     let n=0;
     t._phases.forEach(x=>x.items.forEach(it=>{
@@ -998,39 +1272,98 @@ function bilanProto(tabs){
   return {kind:'b',id:'bilan-'+(h>>>0).toString(36),unite:'points',_multi:tabs.length>1,_phases,_items:[].concat(..._phases.map(x=>x.items)),
     consigne:$t('Une séance par jour. Commence par disperser, puis tonifie. Sur les points doubles, le minuteur se relance pour le côté opposé.')};
 }
+function huitRegles(tabs){
+  const N=tabs.map(r=>BILAN_NAT[r.t.id]||'mn');
+  const v=N.some(n=>n[0]!=='p'),p=N.some(n=>n[0]!=='v');
+  const c=N.some(n=>n[1]==='c'),f=N.some(n=>n[1]==='f'),cVide=c&&N.every(n=>n[1]!=='c'||n==='vc');
+  let s=v&&p?$t('Ton bilan mêle Vide et Plénitude : un terrain qui manque de force, sur lequel quelque chose s\'est bloqué ou accumulé.')
+    :v?$t('Au fond, c\'est un terrain de Vide : il te manque quelque chose (du Qi, du Sang, du Yin ou du Yang), qu\'il faut nourrir sans forcer.')
+    :$t('C\'est surtout une Plénitude : quelque chose s\'accumule ou se bloque (le Qi, la Chaleur, l\'Humidité ou le Sang), qu\'il faut faire circuler ou éliminer.');
+  if(c&&f)s+=' '+$t('La Chaleur et le Froid se mêlent : c\'est fréquent, par exemple de la Chaleur en haut et du Froid en bas.');
+  else if(c)s+=' '+(cVide?$t('La Chaleur y vient d\'un manque de Yin : une Chaleur « par manque », qu\'on apaise en nourrissant plutôt qu\'en refroidissant.'):$t('Il y a de la Chaleur, qu\'il faut rafraîchir.'));
+  else if(f)s+=' '+$t('Il y a du Froid, qu\'il faut réchauffer.');
+  return s;
+}
+function organesTexte(tabs){
+  const o=[];tabs.forEach(r=>bilanOrgs(r.t).forEach(x=>{if(ORG_ART[x]&&!o.includes(x))o.push(x);}));
+  if(!o.length)return'';
+  const n=o.map(x=>$t(ORG_ART[x])),et=' '+$t('et')+' ';
+  return $t(o.length>1?'Les organes en jeu : {o}.':'L\'organe en jeu : {o}.',{o:n.length>1?n.slice(0,-1).join(', ')+et+n[n.length-1]:n[0]});
+}
+function poulsTexte(t){
+  const p=String(t.pouls||'').split(/\.\s|\.$/)[0].trim();
+  return p?$t('Au pouls, un praticien s\'attendrait à le trouver {p}.',{p:minus(p)}):'';
+}
+function lgBilanHTML(b){
+  const L=b.sel.filter(s=>SYM[s].cat==='langue');
+  const cur=LGX.photo&&lgPhotos().find(p=>p.id===LGX.photo);
+  const img=cur?`<button type="button" class="pv-lgimg" data-lgph="${esc(cur.id)}" aria-label="${$t('Agrandir la photo')}"><img src="${cur.img}" alt=""></button>`:'';
+  if(!b.langue)return pvBulle(`${$t('Il me manque ta langue. En consultation, c\'est l\'une des premières choses que je regarde : elle confirme ou corrige ce que disent les symptômes.')} <button type="button" class="linkbtn inline pv-link" data-mode="langue">${$t('Regarder ma langue')}</button>`);
+  let t='';
+  const d=lgFresh()?lgDesc(LGX.r):'';
+  if(!L.length){
+    t=esc($t('Ta langue est plutôt normale : rose, souple, avec un enduit fin et blanc. C\'est rassurant : le déséquilibre est encore léger, ou récent.'));
+  }else{
+    t=esc(d||$t('Ta langue : {s}.',{s:listeSignes(L,6)}))+' '+L.filter(s=>LG_SENS[s]&&!(s==='langue-rouge'&&(L.includes('langue-cramoisie')||L.includes('langue-rouge-sans-enduit')))).slice(0,4).map(s=>esc($t(LG_SENS[s]))).join(' ');
+    const p=b.principal,inP=L.filter(s=>p.t._cle.includes(s)||p.t._autres.includes(s)),contraP=L.filter(s=>p.t._contre.includes(s));
+    const inA=b.assoc.filter(r=>L.some(s=>r.t._cle.includes(s)||r.t._autres.includes(s)));
+    if(contraP.length)t+=' '+esc($t('Attention : ta langue ({s}) ne colle pas avec le tableau « {nom} ». Il faudra en tenir compte : un praticien trancherait en t\'examinant.',{s:listeSignes(contraP),nom:p.t.nom}));
+    else if(inP.length)t+=' '+esc($t('Elle va dans le même sens que ton tableau principal.'));
+    else if(inA.length)t+=' '+esc($t('Elle confirme surtout le tableau « {nom} ».',{nom:inA[0].t.nom}));
+  }
+  if(LGX.r.enduit==='gris'&&lgFresh())t+=' '+esc($t('Un enduit gris ou noir se voit après le café, le tabac, certains aliments ou médicaments. S\'il reste après un rinçage et dure plusieurs jours, montre-le à un praticien ou à ton médecin.'));
+  if(LGX.fait&&!lgFresh())t+=' '+esc($t('Ton examen de la langue date de plus d\'une semaine : refais-le, elle change vite.'))+` <button type="button" class="linkbtn inline pv-link" data-mode="langue">${$t('Refaire')}</button>`;
+  return `<div class="pv-b pv-lg">${img}<div>${t}</div></div>`;
+}
 const AVATAR='<span class="pv-av" aria-hidden="true" lang="zh-Hans">医</span>';
 function pvBulle(html){return `<div class="pv-b">${html}</div>`;}
+function nomT(t){const b=`<button type="button" class="linkbtn inline pv-link" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`;return EN?`“${b}”`:`« ${b} »`;}
 function renderBilan(){
-  const b=computeBilan(),sel=b.sel;
-  let h=`<div class="bar"><button class="back" type="button" data-mode="choisir"><span aria-hidden="true">‹</span>${$t('Modifier')}</button><span class="kind">${plural(sel.length,'symptôme','symptômes')}</span></div>
-<h1 class="vh" style="margin-top:18px">${$t('Ton bilan')}</h1><p class="hint">${$t('Touche « Modifier » pour ajouter ou retirer des symptômes, ou')} <button type="button" class="linkbtn inline" data-clear="sym">${$t('efface tout')}</button>.</p>`;
+  const b=computeBilan(),sel=b.sel,hors=sel.filter(s=>SYM[s].cat!=='langue');
+  let h=`<div class="bar"><button class="back" type="button" data-mode="${b.langue||!hors.length?'choisir':'langue'}"><span aria-hidden="true">‹</span>${$t('Modifier')}</button><span class="kind">${plural(hors.length,'symptôme','symptômes')}</span></div>
+${stepsHTML(3)}<h1 class="vh" style="margin-top:14px">${$t('Ton bilan')}</h1><p class="hint">${$t('Touche « Modifier » pour ajouter ou retirer des symptômes, ou')} <button type="button" class="linkbtn inline" data-clear="sym">${$t('efface tout')}</button>.</p>`;
   const alerts=sel.filter(s=>SYM[s].alerte);
   if(alerts.length)h+=`<div class="alert" role="note"><h2>${$t('Quand consulter')}</h2><ul>${alerts.map(s=>`<li><b>${esc(SYM[s].nom)}.</b> ${esc(SYM[s].alerte)}</li>`).join('')}</ul></div>`;
-  let msgs=[];
+  h+=rappelHTML();
+  const msgs=[];
   if(!b.enough){
-    if(sel.length<BILAN_MIN)msgs.push($t('Pour l\'instant, tu m\'as donné {n}, c\'est trop peu pour faire un bilan : un symptôme ne vient jamais seul.',{n:plural(sel.length,'signe','signes')}));
-    else msgs.push($t('Tes signes partent dans plusieurs directions et je n\'arrive pas encore à les relier entre eux.'));
+    if(hors.length<BILAN_MIN)msgs.push(esc($t('Pour l\'instant, tu m\'as donné {n}, c\'est trop peu pour faire un bilan : un symptôme ne vient jamais seul.',{n:plural(hors.length,'signe','signes')})));
+    else msgs.push(esc($t('Tes signes partent dans plusieurs directions et je n\'arrive pas encore à les relier entre eux.')));
     const diags=sel.filter(s=>arr(SYM[s].tab).length);
     if(diags.length)msgs.push(esc($t('Le diagnostic « {s} » oriente vers quelques tableaux, mais ce sont tes signes à toi qui diront lequel te correspond.',{s:listeSignes(diags,3)})));
-    msgs.push($t('Cite-moi d\'autres symptômes, même légers : comment tu dors, comment tu digères, si tu as plutôt chaud ou froid, à quoi ressemble ta langue. Par exemple, as-tu aussi l\'un de ces signes ?'));
+    msgs.push(esc($t('Cite-moi d\'autres symptômes, même légers : comment tu dors, comment tu digères, si tu as plutôt chaud ou froid. Par exemple, as-tu aussi l\'un de ces signes ?')));
+    if(!b.langue)msgs.push(`${esc($t('Et regarde ta langue : elle m\'aidera à y voir clair.'))} <button type="button" class="linkbtn inline pv-link" data-mode="langue">${$t('Regarder ma langue')}</button>`);
   }else{
-    const p=b.principal,a=b.assoc;
-    msgs.push($t('J\'ai lu attentivement les {n} que tu m\'as donnés.',{n:plural(sel.length,'signe','signes')}));
-    msgs.push($t('Avec tout ce que tu m\'as dit, ce qui se rapproche le plus, c\'est le tableau « <b>{nom}</b> ».',{nom:esc(p.t.nom)})+' '+
-      esc($t('Tes signes ({s}) montrent que {d}.',{s:listeSignes(p.m),d:p.t.diag||minus(p.t.simple)})));
-    if(a.length){
-      msgs.push($t('Mais un tableau ne vient jamais seul : je vois aussi le tableau « <b>{nom}</b> ».',{nom:esc(a[0].t.nom)})+' '+
-        esc($t(a[0]._nouv.length>1?'Ici, {s} laissent penser que {d}.':'Ici, ton signe « {s} » laisse penser que {d}.',{s:listeSignes(a[0]._nouv),d:a[0].t.diag||minus(a[0].t.simple)}))+' '+esc(lienTexte(p.t,a[0].t)));
-      if(a[1])msgs.push($t('Et un troisième fil se dessine : « <b>{nom}</b> ».',{nom:esc(a[1].t.nom)})+' '+
-        esc(a[1]._nouv.length>1?$t('{S} montrent que {d}.',{S:(s=>s.charAt(0).toUpperCase()+s.slice(1))(listeSignes(a[1]._nouv)),d:a[1].t.diag||minus(a[1].t.simple)}):$t('Ton signe « {s} » montre que {d}.',{s:listeSignes(a[1]._nouv),d:a[1].t.diag||minus(a[1].t.simple)})));
-    }else msgs.push($t('Tout ce que tu décris s\'explique par ce tableau : il est bien dessiné.'));
-    if(p.contra.length)msgs.push(esc($t('Un point ne colle pas : {s}. Garde-le en tête et parles-en à un praticien.',{s:listeSignes(p.contra)})));
-    if(b.reste.length)msgs.push(esc($t(b.reste.length>1?'Je n\'arrive pas à relier ces signes à ton bilan : {s}. Ils peuvent avoir une autre origine, parles-en à ton médecin.':'Je n\'arrive pas à relier ce signe à ton bilan : {s}. Il peut avoir une autre origine, parles-en à ton médecin.',{s:listeSignes(b.reste,6)})));
-    const pr=b.tabs.map(r=>r.t.principe&&r.t.principe.fr).filter(Boolean).map(minus);
-    if(pr.length)msgs.push(esc(pr.length>1?$t('Ce que je te propose : d\'abord {a}, puis {b}.',{a:pr[0],b:pr.slice(1).join(' ; ')}):$t('Ce que je te propose : {a}.',{a:pr[0]})));
-    msgs.push(esc($t(b.confiance==='forte'?'Ton bilan est net.':b.confiance==='moyenne'?'Ton bilan tient la route, mais quelques signes de plus le rendraient plus sûr.':'C\'est une première piste : j\'aurais besoin de plus de signes pour être sûr.')));
+    const p=b.principal,a=b.assoc,ord=l=>[...l.filter(s=>SYM[s].cat!=='langue'),...l.filter(s=>SYM[s].cat==='langue')],used=new Set();
+    msgs.push(esc($t(b.langue?'J\'ai lu attentivement les {n} que tu m\'as donnés, et regardé ta langue.':'J\'ai lu attentivement les {n} que tu m\'as donnés.',{n:plural(hors.length,'signe','signes')})));
+    msgs.push($t('Avec tout ce que tu m\'as dit, ce qui se rapproche le plus, c\'est le tableau {nom}.',{nom:nomT(p.t)})+' '+
+      esc($t(p.m.length>1?'Tes signes ({s}) montrent que {d}.':'Ton signe « {s} » montre que {d}.',{s:listeSignes(ord(p.m)),d:p.t.diag||minus(p.t.simple)})));
+    a.forEach((r,i)=>{
+      const d=r.t.diag||minus(r.t.simple),s=listeSignes(ord(r._nouv)),lgSeul=r._nouv.every(x=>SYM[x].cat==='langue');
+      const intro=lgSeul?$t('Ta langue ajoute un fil : le tableau {nom}.',{nom:nomT(r.t)}):i===0?$t('Mais un tableau ne vient jamais seul : je vois aussi le tableau {nom}.',{nom:nomT(r.t)}):i===1?$t('Et un autre fil se dessine : le tableau {nom}.',{nom:nomT(r.t)}):$t('Enfin, je note le tableau {nom}.',{nom:nomT(r.t)});
+      const expl=lgSeul?$t('Son aspect ({s}) laisse penser que {d}.',{s,d}):r._nouv.length>1?$t('Ici, {s} laissent penser que {d}.',{s,d}):$t('Ici, ton signe « {s} » laisse penser que {d}.',{s,d});
+      let lien='';for(const o of [p,...a.slice(0,i)]){lien=lienTexte(o.t,r.t,used);if(lien)break;}
+      msgs.push(intro+' '+esc(expl)+(lien?' '+esc(lien):''));
+    });
+    if(!a.length)msgs.push(esc($t('Tout ce que tu décris s\'explique par ce tableau : il est bien dessiné.')));
+    msgs.push(lgBilanHTML(b));
+    const pc=p.contra.filter(s=>SYM[s].cat!=='langue');
+    if(pc.length)msgs.push(esc($t(pc.length>1?'Deux choses ne collent pas avec ce tableau : {s}. Garde-les en tête, un praticien trancherait en t\'examinant.':'Un point ne colle pas avec ce tableau : {s}. Garde-le en tête, un praticien trancherait en t\'examinant.',{s:listeSignes(pc)})));
+    b.pistes.forEach(x=>{
+      const s=listeSignes(x.s);
+      msgs.push(x.cle?$t(x.s.length>1?'Il reste {s} : ce sont des signes du tableau {nom}, dont un signe clé. Tu n\'as pas encore assez de ses autres signes pour que je l\'affirme, mais je le garde en tête : regarde plus bas si tu as aussi ceux que je te propose.':'Il reste « {s} » : c\'est un signe clé du tableau {nom}. Tu n\'as pas encore assez de ses autres signes pour que je l\'affirme, mais je le garde en tête : regarde plus bas si tu as aussi ceux que je te propose.',{s:esc(s),nom:nomT(x.t)})
+        :$t(x.s.length>1?'Il reste {s} : on les rencontre surtout dans le tableau {nom}. C\'est une piste à vérifier.':'Il reste « {s} » : on le rencontre surtout dans le tableau {nom}. C\'est une piste à vérifier.',{s:esc(s),nom:nomT(x.t)}));
+    });
+    if(b.orphelins.length)msgs.push(esc($t(b.orphelins.length>1?'Je n\'arrive pas à relier ces signes à ton bilan : {s}. Ils peuvent avoir une autre origine, parles-en à ton médecin.':'Je n\'arrive pas à relier ce signe à ton bilan : {s}. Il peut avoir une autre origine, parles-en à ton médecin.',{s:listeSignes(b.orphelins,6)})));
+    // synthèse : huit règles, organes, stratégie, pouls
+    const ordre=[...b.tabs].sort((x,y)=>'pmv'.indexOf((BILAN_NAT[x.t.id]||'m')[0])-'pmv'.indexOf((BILAN_NAT[y.t.id]||'m')[0]));
+    const pr=ordre.map(r=>r.t.principe&&r.t.principe.fr).filter(Boolean).map(minus);
+    const strat=pr.length>1?$t('Ce que je te propose : d\'abord {a}, puis {b}.',{a:pr[0],b:pr.slice(1).join(EN?'; ':' ; ')}):pr.length?$t('Ce que je te propose : {a}.',{a:pr[0]}):'';
+    msgs.push(`<b>${$t('En résumé')}</b> — `+esc([huitRegles(b.tabs),organesTexte(b.tabs),strat].filter(Boolean).join(' ')));
+    const pl=poulsTexte(p.t);
+    msgs.push(esc([pl,$t(b.confiance==='forte'?'Ton bilan est net.':b.confiance==='moyenne'?'Ton bilan tient la route, mais quelques signes de plus le rendraient plus sûr.':'C\'est une première piste : j\'aurais besoin de plus de signes pour être sûr.')].filter(Boolean).join(' ')));
   }
-  h+=`<section class="pv" aria-label="${$t('Ton praticien virtuel')}"><div class="pv-h">${AVATAR}<div><b>${$t('Ton praticien virtuel')}</b><small>${$t('Il relie tes signes comme en consultation')}</small></div></div>${msgs.map(pvBulle).join('')}`;
+  h+=`<section class="pv" aria-label="${$t('Ton praticien virtuel')}"><div class="pv-h">${AVATAR}<div><b>${$t('Ton praticien virtuel')}</b><small>${$t('Il relie tes signes comme en consultation')}</small></div></div>${msgs.map(m=>elide(m.startsWith('<div class="pv-b')?m:pvBulle(m))).join('')}`;
   if(b.enough){
     const zh=b.tabs.filter(r=>r.t.zh).map(r=>`<span lang="zh-Hans">${esc(r.t.zh)}</span>`).join(' + ');
     if(zh)h+=`<p class="pv-zh">${zh}<small>${esc(b.tabs.filter(r=>r.t.py).map(r=>r.t.py).join(' + '))}</small></p>`;
@@ -1046,6 +1379,8 @@ function renderBilan(){
     const sc={};b.tabs.forEach((r,i)=>arr(r.t.recettes).forEach((id,k)=>{sc[id]=(sc[id]||0)+(i?1:1.5)+(k<3?0.5:0);}));
     const recs=Object.keys(sc).map(fiche).filter(Boolean).sort((x,y)=>sc[y.id]-sc[x.id]).slice(0,6);
     if(recs.length)h+=`<h2 class="sec">${$t('Dans ton assiette')}</h2><div class="entries">${recs.map(x=>cardF(x)).join('')}</div>`;
+    const pt=b.principal.t,cons=[];b.tabs.forEach(r=>arr(r.t.conseils).slice(0,2).forEach(c=>{if(!cons.includes(c))cons.push(c);}));
+    if(pt.privilegier||pt.eviter||cons.length)h+=`<h2 class="sec">${$t('Au quotidien')}</h2>${pt.privilegier||pt.eviter?`<div class="dual">${pt.privilegier?`<div class="card good"><h3>${$t('À privilégier')}</h3><p>${esc(pt.privilegier)}</p></div>`:''}${pt.eviter?`<div class="card bad"><h3>${$t('À éviter')}</h3><p>${esc(pt.eviter)}</p></div>`:''}</div>`:''}${cons.length?`<ul class="bullets">${cons.slice(0,6).map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}`;
     h+=`<button type="button" class="ghost wide" data-mode="resultats">${$t('Voir tous les tableaux possibles ({n})',{n:b.res.length})}</button>`;
     h+=`<p class="fine">${$t('Ce bilan est une orientation selon la médecine traditionnelle chinoise, calculée à partir de tes réponses. Ce n\'est pas un diagnostic médical et il ne remplace ni ton médecin ni le bilan d\'un praticien qui t\'examine (langue, pouls).')}</p>`;
     view.innerHTML=h;
@@ -1357,7 +1692,8 @@ function renderInfos(){
   let inst;
   if(standalone)inst=`<p>${$t('L\'appli est installée sur ce téléphone.')}</p>`;
   else if(installEvt)inst=`<p>${$t('Ajoute Carnet Yang Sheng à tes applis pour l\'ouvrir d\'un appui, même sans connexion.')}</p><button type="button" class="primary" data-install="1">${$t('Installer l\'appli')}</button>`;
-  else inst=`<p>${$t('Dans Chrome, ouvre le menu ⋮ en haut à droite, puis choisis « Installer l\'application » ou « Ajouter à l\'écran d\'accueil ».')}</p>`;
+  else if(/iPhone|iPad|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1))inst=`<p>${$t('Sur iPhone ou iPad, ouvre cette page dans Safari, touche le bouton Partager (le carré avec une flèche vers le haut), puis « Sur l\'écran d\'accueil ». L\'appli s\'ouvre ensuite d\'un appui, même sans connexion.')}</p>`;
+  else inst=`<p>${$t('Dans Chrome, ouvre le menu ⋮ en haut à droite, puis choisis « Installer l\'application » ou « Ajouter à l\'écran d\'accueil ».')}</p><p>${$t('Sur iPhone ou iPad : dans Safari, touche le bouton Partager (le carré avec une flèche vers le haut), puis « Sur l\'écran d\'accueil ».')}</p>`;
   const acc=(list,g)=>`<div class="accwrap" data-acc="${g}">`+list.map(([t,p],i)=>`<details class="cat" data-cat="${g}${i}"><summary><span>${esc($t(t))}</span></summary><p class="prose">${esc($t(p))}</p></details>`).join('')+'</div>';
   const acts=[
     nSup?`<button type="button" class="ghost" data-unhide="1">${$t(nSup>1?'Remettre les {n} fiches supprimées':'Remettre la fiche supprimée',{n:nSup})}</button>`:'',
@@ -1823,7 +2159,13 @@ document.addEventListener('click',ev=>{
   if(d.open){openItem('f',d.open);return;}
   if(d.opent){openItem('t',d.opent);return;}
   if(b.id==='back'){goBack();return;}
-  if(d.mode){symMode=d.mode;showAll=false;render();window.scrollTo(0,0);return;}
+  if(d.mode){if(route){route=null;try{history.replaceState(null,'','#'+tab);}catch(e){}}if(tab!=='symptomes'){tab='symptomes';store('ys.onglet',tab);}symMode=d.mode;showAll=false;render();window.scrollTo(0,0);return;}
+  if(d.lg){lgPick(d.lg);return;}
+  if(d.lggo){LGX.fait=Date.now();lgApply();const L=lgPhotos(),ph=L.find(x=>x.id===LGX.photo);if(ph){ph.s=lgSigns(LGX.r);lgSavePhotos(L);}lgSave();symMode='bilan';render();window.scrollTo(0,0);return;}
+  if(d.lgskip){symMode='bilan';render();window.scrollTo(0,0);return;}
+  if(d.lgcam){const i=$('#lg-cam');if(i)i.click();return;}
+  if(d.lgfile){const i=$('#lg-file');if(i)i.click();return;}
+  if(d.lgph){lgPhotoSheet(d.lgph);return;}
   if(d.more){showAll=true;rerenderKeep('[data-more]');return;}
   if(d.f){filter=d.f;store('ys.filtre',filter);renderTimeline();return;}
   if(d.tri){if(toutTri!==d.tri){toutTri=d.tri;persist();renderTimeline();toast(toutTri==='perso'?'Classement dans ton ordre':'Classement par date');}return;}
@@ -1857,7 +2199,7 @@ document.addEventListener('click',ev=>{
   if(d.sym){toggleSym(d.sym,b);return;}
   if(d.ing){toggleIng(d.ing,b);return;}
   if(d.clear==='ing'){have.clear();saveSet('ys.cuisine',have);refresh();return;}
-  if(d.clear==='sym'){const old=[...symSel];symSel.clear();saveSet('ys.symptomes',symSel);symMode='choisir';refresh();toast('Symptômes effacés',()=>{old.forEach(s=>symSel.add(s));saveSet('ys.symptomes',symSel);refresh();});return;}
+  if(d.clear==='sym'){const old=[...symSel];symSel.clear();saveSet('ys.symptomes',symSel);symMode='choisir';LGX.fait=0;lgSave();refresh();toast('Symptômes effacés',()=>{old.forEach(s=>symSel.add(s));saveSet('ys.symptomes',symSel);refresh();});return;}
   if(d.fig){figSheet(d.fig);return;}
   if(d.guide){guideSheet(d.guide);return;}
   if(d.shareapp){shareApp();return;}
@@ -1879,7 +2221,10 @@ document.addEventListener('submit',ev=>{
   const a=ev.target.closest('.acc-form');if(a){ev.preventDefault();accSubmit(a);return;}
   const f=ev.target.closest('.sheet-new');if(!f)return;ev.preventDefault();onSheetSubmit(f);
 });
-document.addEventListener('change',ev=>{if(ev.target&&ev.target.id==='acc-photo'){handlePhoto(ev.target.files&&ev.target.files[0]);ev.target.value='';}});
+document.addEventListener('change',ev=>{
+  if(ev.target&&ev.target.id==='acc-photo'){handlePhoto(ev.target.files&&ev.target.files[0]);ev.target.value='';}
+  if(ev.target&&(ev.target.id==='lg-cam'||ev.target.id==='lg-file')){lgPhoto(ev.target.files&&ev.target.files[0]);ev.target.value='';}
+});
 window.addEventListener('online',()=>{if(user)syncNow();});
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&user&&Date.now()-(+store('ys.sync.at')||0)>20000)syncNow();});
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape'&&sheetOpen)closeSheet();});
@@ -1890,7 +2235,7 @@ lastSnap=J(dataOnly());
 (function initRoute(){
   const p=parseHash();
   if(p.route)route=p.route;
-  else{tab='infos';try{history.replaceState(null,'','#infos');}catch(e){}}
+  else{let t='symptomes';try{if(sessionStorage.getItem('ys.apres')==='reglages')t='infos';}catch(e){}tab=t;try{history.replaceState(null,'','#'+t);}catch(e){}}
 })();
 const INTRO_HTML=$('#intro')?$('#intro').outerHTML:'';
 function playIntro(){
@@ -1910,7 +2255,7 @@ document.addEventListener('visibilitychange',()=>{
   const away=hiddenAt?Date.now()-hiddenAt:0;hiddenAt=0;
   if(away<5*60*1000||act||pendingNext||sheetOpen||lp){checkUpdate(false);return;}
   playIntro();
-  if(DATA&&(route||tab!=='infos'))goTab('infos');
+  if(DATA){symMode='choisir';goTab('symptomes');}
   checkUpdate(true);
 });
 /* Nouvelle version en ligne ? Au retour après 5 min : rechargement pendant l'animation.
@@ -1950,7 +2295,6 @@ loadData().then(d=>{
   tableaux.forEach(t=>arr(t.recettes).forEach(id=>{const e=fiche(id);if(e&&!e._tab.includes(t.id))e._tab.push(t.id);}));
   [...symSel].forEach(s=>{if(!SYM[s])symSel.delete(s);});
   [...have].forEach(s=>{if(!INGC[s])have.delete(s);});
-  if(symSel.size&&tab==='symptomes'&&!route)symMode='bilan';
   if(route&&!item(route.kind,route.id))route=null;
   if(FB&&(store('ys.sync.uid')||store('ys.compte.attente')))loadCompte().catch(()=>{});
   const prevV=store('ys.version'),curV=String(DATA.version||'');

@@ -25,31 +25,23 @@
     "teint-jaune",
     "langue-pale",
     "langue-gonflee",
+    "marques-dents",
+    "langue-fissuree",
+    "langue-tremblante",
     "envie-sucre",
     "ruminations",
     "voix-faible",
     "lourdeur",
     "poids-facile",
-    "cephalee-sourde",
-    "cephalee-lourde",
     "constipation-effort",
-    "pesanteur",
-    "peau-terne",
-    "langue-fissuree",
-    "fatigue-matin",
-    "fatigue-traitement",
-    "nausee-traitement",
     "jambes-faibles",
     "amaigrissement",
     "douleur-estomac-faim",
-    "aliments-non-digeres",
-    "alternance",
-    "concentration",
     "regles-abondantes",
     "regles-avance",
-    "spm",
-    "orgelet",
-    "paupieres-gonflees"
+    "paupieres-gonflees",
+    "bouche-pateuse",
+    "pertes-blanches"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -57,7 +49,7 @@
     "diarrhee-chaude"
    ],
    "langue": "Pâle, gonflée, marques des dents sur les bords.",
-   "pouls": "Vide.",
+   "pouls": "Vide, faible, un peu lent.",
    "principe": {
     "zh": "健脾益气",
     "py": "Jiàn pí yì qì",
@@ -159,17 +151,21 @@
     "fatigue",
     "oedeme",
     "appetit-faible",
-    "urines-claires",
     "peu-soif",
     "langue-pale",
     "langue-gonflee",
+    "marques-dents",
+    "langue-humide",
     "ballonnements",
     "poids-facile",
     "envie-sucre",
     "somnolence",
     "douleur-estomac-froid",
     "douleur-estomac-faim",
-    "diarrhee-matin"
+    "pertes-blanches",
+    "teint-pale",
+    "lourdeur",
+    "salive-abondante"
    ],
    "contre": [
     "chaleur-corps",
@@ -177,7 +173,7 @@
     "soif",
     "diarrhee-chaude"
    ],
-   "langue": "Pâle, gonflée, humide.",
+   "langue": "Pâle, gonflée, humide, marques des dents, enduit blanc.",
    "pouls": "Profond, lent et faible.",
    "principe": {
     "zh": "温中健脾",
@@ -270,13 +266,19 @@
     "voix-faible",
     "appetit-faible",
     "langue-pale",
-    "vertiges"
+    "vertiges",
+    "mictions-frequentes",
+    "ballonnements",
+    "teint-pale",
+    "essoufflement",
+    "marques-dents",
+    "urines-troubles"
    ],
    "contre": [
     "langue-rouge",
     "chaleur-corps"
    ],
-   "langue": "Pâle.",
+   "langue": "Pâle, parfois marques des dents.",
    "pouls": "Faible.",
    "principe": {
     "zh": "补中益气",
@@ -361,11 +363,17 @@
     "selles-molles",
     "langue-pale",
     "hemorroides",
-    "gencives"
+    "gencives",
+    "voix-faible",
+    "teint-jaune",
+    "ballonnements",
+    "regles-avance",
+    "saignements-nez"
    ],
    "contre": [
     "langue-rouge",
-    "chaleur-corps"
+    "chaleur-corps",
+    "regles-rouge-vif"
    ],
    "langue": "Pâle.",
    "pouls": "Fin et faible.",
@@ -451,25 +459,27 @@
     "cephalee-lourde",
     "pertes-blanches",
     "appetit-faible",
+    "langue-pale",
     "langue-gonflee",
+    "marques-dents",
+    "enduit-gras",
+    "langue-humide",
     "articulations-lourdes",
-    "poids-facile",
     "somnolence",
-    "envie-sucre",
-    "fatigue-matin",
-    "gynecomastie",
-    "raideur-matinale",
-    "desequilibre",
-    "concentration",
-    "paupieres-gonflees"
+    "paupieres-gonflees",
+    "oedeme",
+    "teint-jaune",
+    "douleur-ventre-froid",
+    "poids-facile",
+    "fatigue-matin"
    ],
    "contre": [
     "enduit-jaune",
     "soif",
     "langue-rouge"
    ],
-   "langue": "Enduit blanc, épais et collant.",
-   "pouls": "Glissant et lent.",
+   "langue": "Pâle et gonflée, marques des dents, enduit blanc épais et gras.",
+   "pouls": "Mou et lent, ou glissant.",
    "principe": {
     "zh": "温中化湿",
     "py": "Wēn zhōng huà shī",
@@ -566,13 +576,13 @@
    "cle": [
     "enduit-jaune",
     "diarrhee-chaude",
-    "bouche-pateuse"
+    "bouche-pateuse",
+    "lourdeur"
    ],
    "autres": [
     "ballonnements",
     "nausee",
     "urines-foncees",
-    "lourdeur",
     "teint-jaune",
     "acne",
     "eczema-suintant",
@@ -580,25 +590,27 @@
     "humidite-intime",
     "pertes-jaunes",
     "cephalee-lourde",
-    "boutons-pus",
-    "articulations-chaudes",
     "ecoulement",
     "verrues-genitales",
-    "mains-gonflees",
     "jambes-faibles",
-    "sensible-chaleur",
-    "aphtes",
-    "toux-glaires-jaunes",
     "plaie-genitale",
-    "orgelet"
+    "orgelet",
+    "appetit-faible",
+    "gout-amer",
+    "fievre-apres-midi",
+    "langue-rouge",
+    "enduit-gras",
+    "selles-collantes",
+    "selles-glaireuses"
    ],
    "contre": [
     "enduit-blanc-epais",
     "frilosite",
-    "langue-pale"
+    "langue-pale",
+    "langue-rouge-sans-enduit"
    ],
    "langue": "Rouge, enduit jaune et gras.",
-   "pouls": "Glissant et rapide.",
+   "pouls": "Glissant ou mou, et rapide.",
    "principe": {
     "zh": "清热化湿",
     "py": "Qīng rè huà shī",
@@ -687,11 +699,11 @@
    "cle": [
     "langue-rouge-sans-enduit",
     "bouche-seche",
-    "langue-fissuree"
+    "douleur-estomac-brulure",
+    "fissure-centrale",
+    "faim-sans-appetit"
    ],
    "autres": [
-    "douleur-estomac-brulure",
-    "faim-excessive",
     "appetit-faible",
     "constipation-seche",
     "fievre-apres-midi",
@@ -701,11 +713,19 @@
     "amaigrissement",
     "nez-sec",
     "gorge-seche",
-    "aphtes"
+    "aphtes",
+    "langue-seche",
+    "nausee",
+    "langue-fissuree",
+    "enduit-pele",
+    "centre-rouge",
+    "langue-mince"
    ],
    "contre": [
     "enduit-blanc-epais",
-    "frilosite"
+    "frilosite",
+    "langue-pale",
+    "enduit-gras"
    ],
    "langue": "Rouge, sans enduit au centre, fissure médiane.",
    "pouls": "Fin, un peu rapide.",
@@ -811,15 +831,20 @@
     "cephalee-front",
     "boutons-pus",
     "mucite",
-    "orgelet"
+    "orgelet",
+    "vomissements",
+    "saignements-nez",
+    "langue-seche",
+    "centre-rouge",
+    "points-rouges"
    ],
    "contre": [
     "frilosite",
     "langue-pale",
     "peu-soif"
    ],
-   "langue": "Rouge, enduit jaune et sec.",
-   "pouls": "Plein et rapide.",
+   "langue": "Rouge (surtout au centre), enduit jaune et sec.",
+   "pouls": "Glissant, rapide et plein.",
    "principe": {
     "zh": "清胃泻火",
     "py": "Qīng wèi xiè huǒ",
@@ -897,21 +922,26 @@
    "mecanisme": "Le Froid contracte et fige : l'Estomac se crispe, la douleur est vive et cède à la chaleur.",
    "cle": [
     "douleur-estomac-froid",
-    "nausee"
+    "nausee",
+    "vomissements"
    ],
    "autres": [
-    "vomissements",
     "peu-soif",
     "enduit-blanc-epais",
     "selles-molles",
-    "douleur-ventre-froid"
+    "douleur-ventre-froid",
+    "frilosite",
+    "hoquet",
+    "langue-humide",
+    "salive-abondante"
    ],
    "contre": [
     "douleur-estomac-brulure",
     "soif",
-    "enduit-jaune"
+    "enduit-jaune",
+    "langue-rouge"
    ],
-   "langue": "Enduit blanc épais.",
+   "langue": "Enduit blanc, épais ou humide et glissant.",
    "pouls": "Profond et serré.",
    "principe": {
     "zh": "温胃散寒",
@@ -989,22 +1019,28 @@
    "cle": [
     "digestion-lente",
     "eructations",
-    "haleine"
+    "reflux"
    ],
    "autres": [
-    "reflux",
     "nausee",
     "vomissements",
     "ballonnements",
     "enduit-blanc-epais",
+    "enduit-gras",
     "sommeil-agite",
     "appetit-faible",
-    "cephalee-front"
+    "cephalee-front",
+    "haleine",
+    "diarrhee-chaude",
+    "douleur-avant-selles",
+    "gaz"
    ],
    "contre": [
-    "langue-rouge-sans-enduit"
+    "langue-rouge-sans-enduit",
+    "douleur-estomac-faim",
+    "enduit-pele"
    ],
-   "langue": "Enduit épais.",
+   "langue": "Enduit épais et gras, blanc ou jaunâtre.",
    "pouls": "Plein et glissant.",
    "principe": {
     "zh": "消食导滞",
@@ -1094,18 +1130,20 @@
    "cle": [
     "nausee",
     "hoquet",
-    "eructations"
+    "eructations",
+    "vomissements"
    ],
    "autres": [
-    "vomissements",
     "reflux",
     "digestion-lente",
     "appetit-faible",
-    "nausee-traitement"
+    "nausee-traitement",
+    "ballonnements",
+    "haleine"
    ],
    "contre": [],
    "langue": "Variable selon la cause.",
-   "pouls": "Variable selon la cause.",
+   "pouls": "Tendu ou serré à la position de l'Estomac (barrière droite) ; variable selon la cause.",
    "principe": {
     "zh": "和胃降逆",
     "py": "Hé wèi jiàng nì",

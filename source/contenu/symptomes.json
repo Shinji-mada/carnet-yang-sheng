@@ -35,8 +35,8 @@
   {
    "id": "aversion-froid",
    "cat": "general",
-   "nom": "Frissons, besoin de se couvrir (début de rhume)",
-   "syn": "frissons rhume grippe"
+   "nom": "Frissons, peur du froid ou des courants d'air",
+   "syn": "frissons rhume grippe courant d'air vent début de rhume"
   },
   {
    "id": "fievre",
@@ -167,6 +167,19 @@
    "cat": "general",
    "nom": "Bouffées de chaleur suivies de frissons",
    "syn": "ménopause alternance chaud froid"
+  },
+  {
+   "id": "levres-ongles-pales",
+   "cat": "general",
+   "nom": "Lèvres et ongles pâles",
+   "syn": "lèvres blanches, lèvres décolorées, ongles blancs, ongles pâles, lit de l'ongle pâle lèvres pâles, blanches, décolorées, sans couleur"
+  },
+  {
+   "id": "levres-ongles-violaces",
+   "cat": "general",
+   "nom": "Lèvres ou ongles violacés, foncés",
+   "syn": "lèvres violettes, lèvres bleutées, lèvres foncées, ongles violets, ongles bleus",
+   "alerte": "Des lèvres qui bleuissent d'un coup, avec essoufflement ou douleur dans la poitrine : appelle le 15."
   },
   {
    "id": "cephalee-front",
@@ -333,14 +346,14 @@
   {
    "id": "gorge-serree",
    "cat": "tete",
-   "nom": "Gorge serrée, sensation de boule",
+   "nom": "Gorge serrée, nouée par le stress ou l'émotion",
    "alerte": "Consulte un médecin ORL si la gêne devient permanente, si tu as du mal à avaler, si ta voix change durablement ou si tu sens une grosseur au cou.",
    "syn": "boule gorge nœud"
   },
   {
    "id": "noyau-prune",
    "cat": "tete",
-   "nom": "Sensation de noyau de prune dans la gorge",
+   "nom": "Noyau de prune : boule coincée dans la gorge, qu'on ne peut ni avaler ni cracher",
    "alerte": "Consulte un médecin ORL si la sensation dure plus de 3 à 4 semaines, si tu as du mal à avaler ou mal en avalant, si ta voix change, si tu maigris sans raison ou si tu sens une grosseur au cou. Le reflux acide peut aussi donner cette sensation.",
    "syn": "noyau de prune boule gorge mei he qi globus corps étranger gorge nœud gorge avaler cracher"
   },
@@ -374,6 +387,39 @@
    "cat": "tete",
    "nom": "Bouche pâteuse, goût fade",
    "syn": "bouche goût"
+  },
+  {
+   "id": "dents-dechaussees",
+   "cat": "tete",
+   "nom": "Dents qui bougent ou se déchaussent",
+   "syn": "dents qui bougent, dents déchaussées, dents branlantes, dents qui se déchaussent",
+   "alerte": "Des gencives qui saignent ou des dents qui bougent : fais contrôler tes dents par un dentiste."
+  },
+  {
+   "id": "vision-nuit",
+   "cat": "tete",
+   "nom": "Vue qui baisse le soir ou dans la pénombre",
+   "syn": "mal voir la nuit, héméralopie, cécité crépusculaire, vue qui baisse quand la lumière baisse, conduite de nuit difficile",
+   "alerte": "Une baisse de la vue qui apparaît ou s'aggrave doit être vue par un ophtalmologiste."
+  },
+  {
+   "id": "saignements-nez",
+   "cat": "tete",
+   "nom": "Saignements de nez",
+   "syn": "saignement du nez, nez qui saigne, épistaxis",
+   "alerte": "Si le saignement dure plus de 20 minutes malgré une pression ferme, revient souvent, ou si tu prends un anticoagulant : consulte un médecin (15 en cas de saignement abondant)."
+  },
+  {
+   "id": "salive-abondante",
+   "cat": "tete",
+   "nom": "Salive abondante ou claire, bave sur l'oreiller",
+   "syn": "salive claire, beaucoup de salive, bave la nuit, eau claire qui remonte dans la bouche"
+  },
+  {
+   "id": "gorge-chatouille",
+   "cat": "tete",
+   "nom": "Gorge qui gratte ou chatouille et donne envie de tousser",
+   "syn": "gorge qui gratte chatouillement gorge irritée toux d'irritation picotement"
   },
   {
    "id": "toux-glaires-blanches",
@@ -439,6 +485,13 @@
    "nom": "Crachats avec du sang",
    "alerte": "Du sang dans les crachats doit être vu rapidement par un médecin.",
    "syn": "hémoptysie sang"
+  },
+  {
+   "id": "inspiration-difficile",
+   "cat": "respiration",
+   "nom": "Du mal à inspirer à fond, depuis longtemps : l'air ne descend pas",
+   "syn": "inspiration courte, souffle qui ne descend pas, impossible de prendre une grande inspiration, on expire plus facilement qu'on n'inspire, respiration superficielle",
+   "alerte": "Un essoufflement qui apparaît brutalement, au repos, ou avec une douleur dans la poitrine : appelle le 15. Un essoufflement qui s'installe doit être vu par un médecin."
   },
   {
    "id": "appetit-faible",
@@ -531,6 +584,18 @@
    "cat": "digestion",
    "nom": "Douleur du ventre soulagée par la chaleur",
    "syn": "mal au ventre crampes"
+  },
+  {
+   "id": "gaz",
+   "cat": "digestion",
+   "nom": "Gaz, ventre qui gargouille",
+   "syn": "flatulences, gaz intestinaux, pets, ventre qui gargouille, borborygmes"
+  },
+  {
+   "id": "faim-sans-appetit",
+   "cat": "digestion",
+   "nom": "Sensation de faim, mais sans vraie envie de manger (on mange peu)",
+   "syn": "faim sans appétit, creux à l'estomac, estomac qui tiraille, fringale mais rien ne fait envie"
   },
   {
    "id": "selles-molles",
@@ -628,6 +693,32 @@
    "nom": "Pesanteur dans le bas-ventre, sensation de descente d'organe",
    "alerte": "Une descente d'organe se diagnostique et se soigne : consulte un médecin ou une sage-femme.",
    "syn": "prolapsus descente d'organe"
+  },
+  {
+   "id": "douleur-avant-selles",
+   "cat": "selles",
+   "nom": "Mal de ventre qui pousse à aller à la selle, soulagé après",
+   "syn": "crampe avant d'aller aux toilettes, douleur soulagée par la selle, besoin urgent avec douleur, côlon irritable"
+  },
+  {
+   "id": "selles-collantes",
+   "cat": "selles",
+   "nom": "Selles collantes, difficiles à évacuer, impression de ne pas avoir fini",
+   "syn": "selles grasses, qui collent à la cuvette, évacuation incomplète, pas soulagé après la selle"
+  },
+  {
+   "id": "selles-glaireuses",
+   "cat": "selles",
+   "nom": "Glaires (mucus) dans les selles",
+   "syn": "glaires selles glaireuses mucus colite selles avec du mucus",
+   "alerte": "Du sang dans les selles, une perte de poids, de la fièvre ou des glaires qui durent : consulte un médecin."
+  },
+  {
+   "id": "urines-troubles",
+   "cat": "selles",
+   "nom": "Urines troubles ou laiteuses",
+   "syn": "urine trouble urines laiteuses dépôt dans les urines urines blanchâtres",
+   "alerte": "Avec des brûlures, de la fièvre, du sang ou une douleur dans le dos : consulte un médecin rapidement."
   },
   {
    "id": "endormissement",
@@ -795,6 +886,18 @@
    "syn": "ongles"
   },
   {
+   "id": "demangeaisons-nuit",
+   "cat": "peau",
+   "nom": "Démangeaisons qui empirent le soir ou la nuit",
+   "syn": "ça gratte la nuit prurit nocturne démangeaisons le soir grattage nocturne"
+  },
+  {
+   "id": "peau-squames",
+   "cat": "peau",
+   "nom": "Peau rugueuse, épaissie ou qui pèle (squames, pellicules)",
+   "syn": "squames desquamation peau qui pèle pellicules peau épaisse rugueuse écailles lichénification"
+  },
+  {
    "id": "douleur-genou",
    "cat": "douleurs",
    "nom": "Douleur au genou",
@@ -935,6 +1038,18 @@
    "syn": "douleur"
   },
   {
+   "id": "talons-douloureux",
+   "cat": "douleurs",
+   "nom": "Douleur aux talons",
+   "syn": "mal au talon, talons douloureux, douleur sous le talon, talon qui fait mal en marchant"
+  },
+  {
+   "id": "courbatures",
+   "cat": "douleurs",
+   "nom": "Courbatures, douleurs dans tout le corps",
+   "syn": "courbatures corps endolori grippe douleurs musculaires mal partout"
+  },
+  {
    "id": "regles-douloureuses",
    "cat": "cycle",
    "nom": "Règles douloureuses",
@@ -944,7 +1059,7 @@
   {
    "id": "regles-peu",
    "cat": "cycle",
-   "nom": "Règles peu abondantes, pâles",
+   "nom": "Règles peu abondantes",
    "syn": "règles"
   },
   {
@@ -1117,57 +1232,140 @@
   {
    "id": "langue-pale",
    "cat": "langue",
-   "nom": "Langue pâle"
+   "nom": "Langue pâle",
+   "syn": "blanche pâle claire"
   },
   {
    "id": "langue-rouge",
    "cat": "langue",
-   "nom": "Langue rouge"
+   "nom": "Langue rouge",
+   "syn": "rouge"
+  },
+  {
+   "id": "langue-cramoisie",
+   "cat": "langue",
+   "nom": "Langue rouge foncé, écarlate",
+   "syn": "cramoisie écarlate rouge foncé"
   },
   {
    "id": "langue-rouge-sans-enduit",
    "cat": "langue",
-   "nom": "Langue rouge, peu ou pas d'enduit"
-  },
-  {
-   "id": "pointe-rouge",
-   "cat": "langue",
-   "nom": "Pointe de la langue rouge"
-  },
-  {
-   "id": "bords-rouges",
-   "cat": "langue",
-   "nom": "Bords de la langue rouges"
-  },
-  {
-   "id": "langue-gonflee",
-   "cat": "langue",
-   "nom": "Langue gonflée, marques des dents sur les bords"
+   "nom": "Langue rouge, peu ou pas d'enduit",
+   "syn": "rouge lisse sans enduit"
   },
   {
    "id": "langue-violacee",
    "cat": "langue",
-   "nom": "Langue violacée ou avec des taches sombres"
+   "nom": "Langue violacée ou bleutée",
+   "syn": "violette violacée bleue bleutée pourpre"
   },
   {
-   "id": "enduit-blanc-epais",
+   "id": "taches-violettes",
    "cat": "langue",
-   "nom": "Enduit blanc et épais"
+   "nom": "Taches violettes ou sombres sur la langue",
+   "syn": "taches violettes sombres pourpres"
   },
   {
-   "id": "enduit-jaune",
+   "id": "pointe-rouge",
    "cat": "langue",
-   "nom": "Enduit jaune ou gras"
+   "nom": "Pointe de la langue plus rouge",
+   "syn": "pointe bout rouge"
+  },
+  {
+   "id": "bords-rouges",
+   "cat": "langue",
+   "nom": "Bords de la langue plus rouges",
+   "syn": "bords côtés rouges"
+  },
+  {
+   "id": "centre-rouge",
+   "cat": "langue",
+   "nom": "Centre de la langue plus rouge",
+   "syn": "centre milieu rouge"
+  },
+  {
+   "id": "points-rouges",
+   "cat": "langue",
+   "nom": "Petits points rouges sur la langue",
+   "syn": "points rouges épineuse picots"
+  },
+  {
+   "id": "langue-mince",
+   "cat": "langue",
+   "nom": "Langue mince, effilée",
+   "syn": "fine mince effilée petite"
+  },
+  {
+   "id": "langue-gonflee",
+   "cat": "langue",
+   "nom": "Langue gonflée, large",
+   "syn": "gonflée large épaisse grosse"
+  },
+  {
+   "id": "marques-dents",
+   "cat": "langue",
+   "nom": "Marques des dents sur les bords de la langue",
+   "syn": "marques dents dentelée indentée festonnée"
+  },
+  {
+   "id": "fissure-centrale",
+   "cat": "langue",
+   "nom": "Fissure au milieu de la langue",
+   "syn": "fissure centrale sillon milieu"
   },
   {
    "id": "langue-fissuree",
    "cat": "langue",
-   "nom": "Langue fissurée"
+   "nom": "Plusieurs fissures sur la langue",
+   "syn": "fissures crevasses craquelée"
+  },
+  {
+   "id": "langue-tremblante",
+   "cat": "langue",
+   "nom": "Langue qui tremble quand tu la tires",
+   "syn": "tremblante tremble"
+  },
+  {
+   "id": "enduit-blanc-epais",
+   "cat": "langue",
+   "nom": "Enduit blanc et épais",
+   "syn": "enduit blanc épais dépôt"
+  },
+  {
+   "id": "enduit-jaune",
+   "cat": "langue",
+   "nom": "Enduit jaune",
+   "syn": "enduit jaune"
+  },
+  {
+   "id": "enduit-gras",
+   "cat": "langue",
+   "nom": "Enduit gras, collant ou glissant",
+   "syn": "enduit gras collant glissant visqueux"
+  },
+  {
+   "id": "enduit-pele",
+   "cat": "langue",
+   "nom": "Enduit absent par plaques (langue « en carte ») ou partout",
+   "syn": "pelée carte géographique plaques sans enduit lisse"
   },
   {
    "id": "langue-seche",
    "cat": "langue",
-   "nom": "Langue sèche"
+   "nom": "Langue sèche",
+   "syn": "sèche"
+  },
+  {
+   "id": "langue-humide",
+   "cat": "langue",
+   "nom": "Langue très humide, mouillée",
+   "syn": "humide mouillée baveuse"
+  },
+  {
+   "id": "veines-sublinguales",
+   "cat": "langue",
+   "nom": "Veines sous la langue gonflées, foncées ou violettes",
+   "syn": "veines sous la langue sublinguales"
   }
  ]
 }

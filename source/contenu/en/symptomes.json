@@ -35,8 +35,8 @@
   {
    "id": "aversion-froid",
    "cat": "general",
-   "nom": "Chills, need to bundle up (start of a cold)",
-   "syn": "chills shivers shivering cold flu catching a cold"
+   "nom": "Chills, dislike of cold or drafts",
+   "syn": "chills shivers shivering cold flu catching a cold draft wind start of a cold"
   },
   {
    "id": "fievre",
@@ -167,6 +167,19 @@
    "cat": "general",
    "nom": "Hot flashes followed by chills",
    "syn": "menopause alternating hot and cold hot and cold chills hot flashes"
+  },
+  {
+   "id": "levres-ongles-pales",
+   "cat": "general",
+   "nom": "Pale lips and nails",
+   "syn": "white lips, colourless lips, pale nail beds, white nails pale lips, white lips, colorless lips"
+  },
+  {
+   "id": "levres-ongles-violaces",
+   "cat": "general",
+   "nom": "Purplish or dark lips or nails",
+   "syn": "purple lips, bluish lips, dark lips, purple nails, blue nails",
+   "alerte": "Lips turning blue suddenly, with breathlessness or chest pain: call emergency services (15 or 112 in France)."
   },
   {
    "id": "cephalee-front",
@@ -333,14 +346,14 @@
   {
    "id": "gorge-serree",
    "cat": "tete",
-   "nom": "Tight throat, feeling of a lump",
+   "nom": "Tight throat, choked up by stress or emotion",
    "alerte": "See an ENT doctor if the discomfort becomes constant, if you have trouble swallowing, if your voice changes for a long time or if you feel a lump in your neck.",
    "syn": "lump in the throat globus tight throat knot in the throat"
   },
   {
    "id": "noyau-prune",
    "cat": "tete",
-   "nom": "Plum-pit feeling in the throat",
+   "nom": "Plum pit: a lump stuck in the throat that you can neither swallow nor cough up",
    "alerte": "See an ENT doctor if the feeling lasts more than 3 to 4 weeks, if swallowing is difficult or painful, if your voice changes, if you lose weight for no reason or if you feel a lump in your neck. Acid reflux can also cause this feeling.",
    "syn": "plum pit plum-pit lump in throat globus mei he qi something stuck in throat knot throat swallow"
   },
@@ -374,6 +387,39 @@
    "cat": "tete",
    "nom": "Sticky, coated mouth, bland taste",
    "syn": "mouth taste coated mouth pasty mouth"
+  },
+  {
+   "id": "dents-dechaussees",
+   "cat": "tete",
+   "nom": "Loose teeth",
+   "syn": "loose teeth, wobbly teeth, teeth loosening",
+   "alerte": "Bleeding gums or loose teeth: have your teeth checked by a dentist."
+  },
+  {
+   "id": "vision-nuit",
+   "cat": "tete",
+   "nom": "Poor vision at dusk or in dim light",
+   "syn": "night blindness, poor night vision, can't see well in dim light, trouble driving at night",
+   "alerte": "Vision that starts to drop or gets worse needs to be checked by an eye doctor."
+  },
+  {
+   "id": "saignements-nez",
+   "cat": "tete",
+   "nom": "Nosebleeds",
+   "syn": "nosebleed, bleeding nose, epistaxis",
+   "alerte": "If the bleeding lasts more than 20 minutes despite firm pressure, keeps coming back, or you take a blood thinner: see a doctor (call emergency services, 15 or 112 in France, if it is heavy)."
+  },
+  {
+   "id": "salive-abondante",
+   "cat": "tete",
+   "nom": "Abundant or watery saliva, drooling on the pillow",
+   "syn": "watery saliva, lots of saliva, drooling at night, clear fluid rising into the mouth"
+  },
+  {
+   "id": "gorge-chatouille",
+   "cat": "tete",
+   "nom": "Itchy or tickly throat that makes you cough",
+   "syn": "itchy throat tickly throat scratchy throat tickly cough"
   },
   {
    "id": "toux-glaires-blanches",
@@ -439,6 +485,13 @@
    "nom": "Blood in your phlegm",
    "alerte": "Blood in your phlegm should be seen quickly by a doctor.",
    "syn": "hemoptysis coughing up blood blood"
+  },
+  {
+   "id": "inspiration-difficile",
+   "cat": "respiration",
+   "nom": "Trouble breathing in deeply, for a long time: the air doesn't go down",
+   "syn": "short inhalation, breath doesn't go down, can't take a deep breath, breathing out is easier than breathing in, shallow breathing",
+   "alerte": "Breathlessness that starts suddenly, at rest, or with chest pain: call emergency services (15 or 112 in France). Breathlessness that builds up over time needs to be checked by a doctor."
   },
   {
    "id": "appetit-faible",
@@ -531,6 +584,18 @@
    "cat": "digestion",
    "nom": "Belly pain relieved by warmth",
    "syn": "stomachache bellyache abdominal pain cramps"
+  },
+  {
+   "id": "gaz",
+   "cat": "digestion",
+   "nom": "Gas, rumbling belly",
+   "syn": "flatulence, wind, passing gas, rumbling stomach, borborygmi"
+  },
+  {
+   "id": "faim-sans-appetit",
+   "cat": "digestion",
+   "nom": "Feeling hungry but not really wanting to eat (eating little)",
+   "syn": "hungry but no appetite, gnawing empty stomach, hunger pangs but nothing appeals"
   },
   {
    "id": "selles-molles",
@@ -628,6 +693,32 @@
    "nom": "Heaviness in the lower belly, feeling that an organ is dropping",
    "alerte": "A prolapse can be diagnosed and treated: see a doctor or a midwife.",
    "syn": "prolapse organ prolapse pelvic heaviness dropped bladder"
+  },
+  {
+   "id": "douleur-avant-selles",
+   "cat": "selles",
+   "nom": "Belly pain that makes you rush to the toilet, relieved afterwards",
+   "syn": "cramp before a bowel movement, pain relieved by passing stool, urgent need with pain, irritable bowel"
+  },
+  {
+   "id": "selles-collantes",
+   "cat": "selles",
+   "nom": "Sticky stools that are hard to pass, feeling you haven't finished",
+   "syn": "sticky greasy stools, stick to the toilet bowl, incomplete evacuation, not relieved after a bowel movement"
+  },
+  {
+   "id": "selles-glaireuses",
+   "cat": "selles",
+   "nom": "Mucus in the stools",
+   "syn": "mucus in stool slimy stools colitis",
+   "alerte": "Blood in the stools, weight loss, fever or mucus that keeps coming: see a doctor."
+  },
+  {
+   "id": "urines-troubles",
+   "cat": "selles",
+   "nom": "Cloudy or milky urine",
+   "syn": "cloudy urine milky urine turbid urine sediment",
+   "alerte": "With burning, fever, blood or pain in the back: see a doctor quickly."
   },
   {
    "id": "endormissement",
@@ -795,6 +886,18 @@
    "syn": "nails"
   },
   {
+   "id": "demangeaisons-nuit",
+   "cat": "peau",
+   "nom": "Itching that gets worse in the evening or at night",
+   "syn": "night itching nocturnal itch itchy at night worse in the evening"
+  },
+  {
+   "id": "peau-squames",
+   "cat": "peau",
+   "nom": "Rough, thickened or flaking skin (scales, dandruff)",
+   "syn": "scales scaling flaking peeling skin dandruff thick rough skin"
+  },
+  {
    "id": "douleur-genou",
    "cat": "douleurs",
    "nom": "Knee pain",
@@ -935,6 +1038,18 @@
    "syn": "pain stabbing pain sharp pain"
   },
   {
+   "id": "talons-douloureux",
+   "cat": "douleurs",
+   "nom": "Heel pain",
+   "syn": "sore heels, pain under the heel, heel hurts when walking"
+  },
+  {
+   "id": "courbatures",
+   "cat": "douleurs",
+   "nom": "Body aches all over",
+   "syn": "body aches achy all over flu muscle aches"
+  },
+  {
    "id": "regles-douloureuses",
    "cat": "cycle",
    "nom": "Painful periods",
@@ -944,7 +1059,7 @@
   {
    "id": "regles-peu",
    "cat": "cycle",
-   "nom": "Light, pale periods",
+   "nom": "Scanty periods",
    "syn": "periods light periods scanty menstruation"
   },
   {
@@ -1117,57 +1232,140 @@
   {
    "id": "langue-pale",
    "cat": "langue",
-   "nom": "Pale tongue"
+   "nom": "Pale tongue",
+   "syn": "pale white light"
   },
   {
    "id": "langue-rouge",
    "cat": "langue",
-   "nom": "Red tongue"
+   "nom": "Red tongue",
+   "syn": "red"
+  },
+  {
+   "id": "langue-cramoisie",
+   "cat": "langue",
+   "nom": "Deep red, crimson tongue",
+   "syn": "crimson scarlet deep red dark red"
   },
   {
    "id": "langue-rouge-sans-enduit",
    "cat": "langue",
-   "nom": "Red tongue, little or no coating"
-  },
-  {
-   "id": "pointe-rouge",
-   "cat": "langue",
-   "nom": "Red tongue tip"
-  },
-  {
-   "id": "bords-rouges",
-   "cat": "langue",
-   "nom": "Red tongue edges"
-  },
-  {
-   "id": "langue-gonflee",
-   "cat": "langue",
-   "nom": "Swollen tongue, tooth marks on the edges"
+   "nom": "Red tongue, little or no coating",
+   "syn": "red smooth no coating"
   },
   {
    "id": "langue-violacee",
    "cat": "langue",
-   "nom": "Purplish tongue or tongue with dark spots"
+   "nom": "Purple or bluish tongue",
+   "syn": "purple bluish blue violet"
   },
   {
-   "id": "enduit-blanc-epais",
+   "id": "taches-violettes",
    "cat": "langue",
-   "nom": "Thick white coating"
+   "nom": "Purple or dark spots on the tongue",
+   "syn": "purple dark spots"
   },
   {
-   "id": "enduit-jaune",
+   "id": "pointe-rouge",
    "cat": "langue",
-   "nom": "Yellow or greasy coating"
+   "nom": "Redder tongue tip",
+   "syn": "tip red"
+  },
+  {
+   "id": "bords-rouges",
+   "cat": "langue",
+   "nom": "Redder tongue edges",
+   "syn": "edges sides red"
+  },
+  {
+   "id": "centre-rouge",
+   "cat": "langue",
+   "nom": "Redder center of the tongue",
+   "syn": "center middle red"
+  },
+  {
+   "id": "points-rouges",
+   "cat": "langue",
+   "nom": "Small red dots on the tongue",
+   "syn": "red dots red points prickles"
+  },
+  {
+   "id": "langue-mince",
+   "cat": "langue",
+   "nom": "Thin tongue",
+   "syn": "thin narrow small"
+  },
+  {
+   "id": "langue-gonflee",
+   "cat": "langue",
+   "nom": "Swollen, wide tongue",
+   "syn": "swollen wide thick puffy"
+  },
+  {
+   "id": "marques-dents",
+   "cat": "langue",
+   "nom": "Tooth marks on the edges of the tongue",
+   "syn": "tooth marks scalloped indented"
+  },
+  {
+   "id": "fissure-centrale",
+   "cat": "langue",
+   "nom": "Crack down the middle of the tongue",
+   "syn": "central crack midline crack"
   },
   {
    "id": "langue-fissuree",
    "cat": "langue",
-   "nom": "Cracked tongue"
+   "nom": "Several cracks on the tongue",
+   "syn": "cracks fissures cracked"
+  },
+  {
+   "id": "langue-tremblante",
+   "cat": "langue",
+   "nom": "Tongue that trembles when you stick it out",
+   "syn": "trembling quivering"
+  },
+  {
+   "id": "enduit-blanc-epais",
+   "cat": "langue",
+   "nom": "Thick white coating",
+   "syn": "thick white coating fur"
+  },
+  {
+   "id": "enduit-jaune",
+   "cat": "langue",
+   "nom": "Yellow coating",
+   "syn": "yellow coating fur"
+  },
+  {
+   "id": "enduit-gras",
+   "cat": "langue",
+   "nom": "Greasy, sticky or slippery coating",
+   "syn": "greasy sticky slippery coating"
+  },
+  {
+   "id": "enduit-pele",
+   "cat": "langue",
+   "nom": "Coating missing in patches (map-like tongue) or everywhere",
+   "syn": "peeled geographic map patches no coating smooth"
   },
   {
    "id": "langue-seche",
    "cat": "langue",
-   "nom": "Dry tongue"
+   "nom": "Dry tongue",
+   "syn": "dry"
+  },
+  {
+   "id": "langue-humide",
+   "cat": "langue",
+   "nom": "Very wet tongue",
+   "syn": "wet moist watery"
+  },
+  {
+   "id": "veines-sublinguales",
+   "cat": "langue",
+   "nom": "Swollen, dark or purple veins under the tongue",
+   "syn": "sublingual veins under the tongue"
   }
  ]
 }

@@ -17,34 +17,32 @@
     "fatigue",
     "teint-pale",
     "vertiges",
+    "palpitations",
     "langue-pale"
    ],
    "autres": [
-    "palpitations",
     "essoufflement",
     "voix-faible",
-    "regles-peu",
-    "chute-cheveux",
-    "engourdissements",
     "sueurs-jour",
-    "memoire",
-    "cephalee-sourde",
-    "mouches-volantes",
-    "constipation-effort",
-    "peau-terne",
-    "fatigue-matin",
     "sueurs-spontanees",
-    "fatigue-traitement",
+    "endormissement",
+    "levres-ongles-pales",
+    "mouches-volantes",
+    "regles-peu",
+    "engourdissements",
     "neuropathie",
-    "deformations",
+    "chute-cheveux",
+    "ongles-cassants",
+    "peau-terne",
+    "cephalee-sourde",
+    "constipation-effort",
     "jambes-faibles",
-    "desequilibre",
-    "sensible-chaleur",
     "amaigrissement",
     "pesanteur",
-    "cheveux-blancs",
-    "ongles-cassants",
-    "crampes"
+    "fatigue-traitement",
+    "fatigue-matin",
+    "langue-mince",
+    "saignements-nez"
    ],
    "contre": [
     "langue-rouge",
@@ -141,37 +139,36 @@
    "autres": [
     "acouphenes-faibles",
     "vision-floue",
-    "chaleur-5-coeurs",
-    "bouche-seche",
-    "reveils",
-    "regles-peu",
-    "cephalee-sourde",
-    "langue-rouge-sans-enduit",
-    "secheresse-intime",
-    "audition",
     "mouches-volantes",
-    "douleur-genou",
-    "tremblements",
-    "cycles-irreguliers",
-    "chaleur-corps",
+    "vision-double",
+    "memoire",
+    "reveils",
+    "douleur-cotes",
+    "chaleur-5-coeurs",
+    "pommettes-rouges",
+    "fievre-apres-midi",
     "bouffees-hormono",
-    "deformations",
+    "bouche-seche",
+    "pollutions-nocturnes",
+    "regles-peu",
+    "cycles-irreguliers",
+    "secheresse-intime",
+    "douleur-genou",
     "jambes-faibles",
     "spasticite",
-    "lhermitte",
-    "vision-double",
-    "desequilibre",
-    "sensible-chaleur",
-    "fievre-apres-midi",
-    "cheveux-blancs",
-    "ongles-cassants",
-    "articulations-chaudes",
-    "crampes"
+    "tremblements",
+    "crampes",
+    "deformations",
+    "langue-rouge-sans-enduit",
+    "vision-nuit",
+    "demangeaisons-nuit",
+    "lhermitte"
    ],
    "contre": [
     "frilosite",
     "langue-pale",
-    "enduit-blanc-epais"
+    "enduit-blanc-epais",
+    "langue-humide"
    ],
    "langue": "Rouge, sans enduit.",
    "pouls": "Fin et rapide.",
@@ -269,21 +266,25 @@
     "douleur-ventre-froid",
     "langue-pale",
     "langue-gonflee",
+    "marques-dents",
+    "langue-humide",
     "douleur-genou",
     "froid-dos",
     "froid-genital",
     "mictions-frequentes",
     "poids-facile",
-    "fatigue-matin",
-    "jambes-faibles",
-    "paupieres-gonflees"
+    "paupieres-gonflees",
+    "selles-molles",
+    "teint-pale",
+    "libido",
+    "mictions-nuit"
    ],
    "contre": [
     "chaleur-corps",
     "langue-rouge",
     "diarrhee-chaude"
    ],
-   "langue": "Pâle, gonflée, humide.",
+   "langue": "Pâle, gonflée, humide, marques des dents.",
    "pouls": "Profond, lent et faible.",
    "principe": {
     "zh": "温补脾肾",
@@ -376,10 +377,10 @@
     "fatigue",
     "rhumes-frequents",
     "appetit-faible",
-    "toux-glaires-blanches"
+    "toux-glaires-blanches",
+    "selles-molles"
    ],
    "autres": [
-    "selles-molles",
     "voix-faible",
     "sueurs-jour",
     "essoufflement",
@@ -388,13 +389,18 @@
     "toux-faible",
     "sueurs-spontanees",
     "fatigue-traitement",
-    "nez-clair"
+    "nez-clair",
+    "ballonnements",
+    "teint-pale",
+    "oedeme",
+    "constipation-effort",
+    "marques-dents"
    ],
    "contre": [
     "langue-rouge",
     "toux-glaires-jaunes"
    ],
-   "langue": "Pâle, gonflée.",
+   "langue": "Pâle, gonflée, marques des dents, enduit blanc.",
    "pouls": "Vide.",
    "principe": {
     "zh": "补肺健脾",
@@ -478,27 +484,29 @@
    "cle": [
     "douleur-fixe",
     "langue-violacee",
+    "taches-violettes",
     "caillots"
    ],
    "autres": [
     "regles-douloureuses",
-    "teint-sombre",
-    "bleus-faciles",
-    "engourdissements",
+    "regles-abondantes",
+    "cycles-irreguliers",
     "fertilite",
-    "douleur-genou",
+    "teint-sombre",
     "peau-terne",
-    "douleur-omoplates",
+    "levres-ongles-violaces",
+    "bleus-faciles",
+    "veines-sublinguales",
+    "engourdissements",
+    "neuropathie",
     "omoplate-hypocondre",
     "gynecomastie",
     "verrues-genitales",
-    "neuropathie",
     "raideur-matinale",
     "mains-gonflees",
     "deformations",
     "spasticite",
-    "lhermitte",
-    "regles-abondantes"
+    "peau-squames"
    ],
    "contre": [],
    "langue": "Violacée ou avec des taches sombres, veines sous la langue gonflées.",
@@ -588,13 +596,18 @@
    ],
    "autres": [
     "regles-retard",
+    "froid-genital",
     "frilosite",
+    "teint-pale",
+    "levres-ongles-violaces",
     "pertes-blanches",
-    "langue-pale",
-    "langue-violacee",
     "libido",
     "fertilite",
-    "douleur-fixe"
+    "douleur-fixe",
+    "langue-pale",
+    "langue-violacee",
+    "langue-humide",
+    "veines-sublinguales"
    ],
    "contre": [
     "pertes-jaunes",
@@ -680,16 +693,17 @@
    ],
    "mecanisme": "Le Vent est mobile : il fait voyager la douleur d'une articulation à l'autre.",
    "cle": [
-    "douleurs-migrantes"
+    "douleurs-migrantes",
+    "aversion-froid"
    ],
    "autres": [
     "nuque-raide",
     "raideur-articulaire",
-    "aversion-froid",
     "douleur-genou",
     "cephalee-nuque",
     "douleur-omoplates",
-    "raideur-matinale"
+    "fievre",
+    "courbatures"
    ],
    "contre": [
     "articulations-chaudes"
@@ -765,16 +779,19 @@
    "autres": [
     "frilosite",
     "douleur-genou",
-    "lombalgie-sourde",
     "langue-pale",
     "douleur-fixe",
     "douleur-omoplates",
-    "raideur-matinale"
+    "raideur-matinale",
+    "peu-soif",
+    "langue-violacee"
    ],
    "contre": [
-    "articulations-chaudes"
+    "articulations-chaudes",
+    "langue-rouge",
+    "soif"
    ],
-   "langue": "Pâle, enduit blanc.",
+   "langue": "Pâle ou bleutée, enduit blanc.",
    "pouls": "Tendu et serré.",
    "principe": {
     "zh": "温经散寒",
@@ -855,26 +872,30 @@
    "mecanisme": "L'Humidité est lourde et collante : elle s'accumule dans l'articulation, qui gonfle et devient pesante.",
    "cle": [
     "articulations-lourdes",
-    "lourdeur"
+    "lourdeur",
+    "engourdissements"
    ],
    "autres": [
-    "engourdissements",
     "douleur-genou",
     "enduit-blanc-epais",
+    "enduit-gras",
     "langue-gonflee",
+    "marques-dents",
+    "langue-pale",
+    "langue-humide",
     "douleurs-froid",
     "douleur-fixe",
     "neuropathie",
     "raideur-matinale",
     "mains-gonflees",
-    "douleurs-migrantes",
     "raideur-articulaire"
    ],
    "contre": [
-    "articulations-chaudes"
+    "articulations-chaudes",
+    "langue-rouge-sans-enduit"
    ],
-   "langue": "Enduit blanc et gras.",
-   "pouls": "Glissant.",
+   "langue": "Pâle, gonflée, enduit blanc et gras.",
+   "pouls": "Mou et lent, ou glissant.",
    "principe": {
     "zh": "除湿通络",
     "py": "Chú shī tōng luò",
@@ -947,24 +968,29 @@
    ],
    "mecanisme": "La Chaleur enflamme l'articulation : rougeur, chaleur, gonflement et douleur vive.",
    "cle": [
-    "articulations-chaudes"
+    "articulations-chaudes",
+    "fievre"
    ],
    "autres": [
-    "fievre",
     "soif",
     "langue-rouge",
     "enduit-jaune",
+    "enduit-gras",
     "douleur-genou",
     "douleurs-migrantes",
     "articulations-lourdes",
-    "mains-gonflees"
+    "mains-gonflees",
+    "anxiete",
+    "urines-foncees",
+    "sensible-chaleur"
    ],
    "contre": [
     "douleurs-froid",
-    "frilosite"
+    "frilosite",
+    "langue-pale"
    ],
-   "langue": "Rouge, enduit jaune.",
-   "pouls": "Rapide.",
+   "langue": "Rouge, enduit jaune et gras.",
+   "pouls": "Glissant et rapide.",
    "principe": {
     "zh": "清热通络",
     "py": "Qīng rè tōng luò",
@@ -1034,13 +1060,16 @@
     "soif",
     "langue-rouge",
     "pointe-rouge",
-    "paupieres-gonflees"
+    "paupieres-gonflees",
+    "fievre",
+    "aversion-froid",
+    "sensible-chaleur"
    ],
    "contre": [
     "peau-seche",
     "langue-pale"
    ],
-   "langue": "Pointe rouge, enduit fin.",
+   "langue": "Pointe rouge, enduit fin, blanc ou jaune.",
    "pouls": "Superficiel et rapide.",
    "principe": {
     "zh": "疏风清热止痒",
@@ -1117,12 +1146,17 @@
     "boutons-pus",
     "vesicules-genitales",
     "plaie-genitale",
-    "plaques-rouges"
+    "plaques-rouges",
+    "enduit-gras",
+    "langue-rouge",
+    "sensible-chaleur",
+    "humidite-intime"
    ],
    "contre": [
-    "peau-seche"
+    "peau-seche",
+    "langue-pale"
    ],
-   "langue": "Enduit jaune et gras.",
+   "langue": "Rouge, enduit jaune et gras.",
    "pouls": "Glissant et rapide.",
    "principe": {
     "zh": "清热利湿",
@@ -1201,7 +1235,8 @@
    "mecanisme": "Le Sang humidifie la peau. Quand il manque, elle se dessèche et un « Vent interne » fait démanger.",
    "cle": [
     "peau-seche",
-    "demangeaisons"
+    "demangeaisons",
+    "demangeaisons-nuit"
    ],
    "autres": [
     "teint-pale",
@@ -1210,13 +1245,18 @@
     "langue-pale",
     "vertiges",
     "peau-terne",
-    "peau-radiotherapie"
+    "peau-radiotherapie",
+    "langue-mince",
+    "langue-seche",
+    "regles-peu",
+    "peau-squames"
    ],
    "contre": [
     "eczema-suintant",
-    "enduit-jaune"
+    "enduit-jaune",
+    "enduit-gras"
    ],
-   "langue": "Pâle, sèche.",
+   "langue": "Pâle, mince, un peu sèche.",
    "pouls": "Fin.",
    "principe": {
     "zh": "养血润燥祛风",
@@ -1299,14 +1339,20 @@
     "plaques-rouges",
     "regles-rouge-vif",
     "peau-radiotherapie",
-    "orgelet"
+    "orgelet",
+    "points-rouges",
+    "langue-cramoisie",
+    "enduit-jaune",
+    "bleus-faciles",
+    "peau-squames",
+    "saignements-nez"
    ],
    "contre": [
     "langue-pale",
     "frilosite"
    ],
-   "langue": "Rouge.",
-   "pouls": "Rapide.",
+   "langue": "Rouge ou rouge foncé, petits points rouges, enduit jaune fin.",
+   "pouls": "Rapide, souvent tendu ou glissant.",
    "principe": {
     "zh": "清热凉血",
     "py": "Qīng rè liáng xuè",

@@ -22,15 +22,21 @@
     "bouche-seche",
     "peau-seche",
     "langue-seche",
-    "constipation-seche"
+    "constipation-seche",
+    "crachats-sang",
+    "aversion-froid",
+    "urines-foncees",
+    "gorge-chatouille",
+    "saignements-nez"
    ],
    "contre": [
     "toux-glaires-blanches",
     "enduit-blanc-epais",
-    "sueurs-nuit"
+    "sueurs-nuit",
+    "langue-humide"
    ],
    "langue": "Dry, thin coating.",
-   "pouls": "Thready.",
+   "pouls": "Thin, sometimes floating and slightly rapid.",
    "principe": {
     "zh": "润肺生津",
     "py": "Rùn fèi shēng jīn",
@@ -114,11 +120,12 @@
     "langue-pale",
     "selles-molles",
     "douleur-estomac-faim",
-    "envie-sucre",
-    "somnolence",
     "fatigue-matin",
     "nausee-traitement",
-    "aliments-non-digeres"
+    "eructations",
+    "nausee",
+    "teint-jaune",
+    "jambes-faibles"
    ],
    "contre": [
     "faim-excessive",
@@ -210,14 +217,19 @@
     "fatigue",
     "selles-molles",
     "langue-pale",
-    "langue-gonflee"
+    "langue-gonflee",
+    "marques-dents",
+    "langue-humide",
+    "aliments-non-digeres",
+    "digestion-lente",
+    "salive-abondante"
    ],
    "contre": [
     "douleur-estomac-brulure",
     "soif",
     "langue-rouge"
    ],
-   "langue": "Pale and moist.",
+   "langue": "Pale, swollen, wet, tooth marks.",
    "pouls": "Deep, weak and slow.",
    "principe": {
     "zh": "温中和胃",
@@ -308,12 +320,15 @@
     "peurs"
    ],
    "autres": [
+    "anxiete",
+    "decouragement",
+    "soupirs",
     "reveils",
     "sommeil-agite",
-    "soupirs",
+    "palpitations",
     "vertiges",
     "vision-floue",
-    "decouragement",
+    "mouches-volantes",
     "langue-pale"
    ],
    "contre": [
@@ -322,7 +337,7 @@
     "enduit-jaune"
    ],
    "langue": "Pale or normal.",
-   "pouls": "Weak.",
+   "pouls": "Weak, or thin and wiry.",
    "principe": {
     "zh": "益气壮胆",
     "py": "Yì qì zhuàng dǎn",
@@ -390,19 +405,23 @@
    "mecanisme": "The Bladder stores and releases urine thanks to Kidney Qi and Yang. When these weaken, it doesn't hold well and urine becomes clear and frequent.",
    "cle": [
     "mictions-frequentes",
-    "urines-claires"
+    "urines-claires",
+    "fuites-urinaires"
    ],
    "autres": [
     "mictions-nuit",
-    "fuites-urinaires",
     "frilosite",
     "douleur-ventre-froid",
     "genoux-faibles",
-    "langue-pale"
+    "langue-pale",
+    "lombalgie-sourde",
+    "froid-genital",
+    "langue-humide"
    ],
    "contre": [
     "brulures-urinaires",
-    "urines-foncees"
+    "urines-foncees",
+    "langue-rouge"
    ],
    "langue": "Pale and moist.",
    "pouls": "Deep and weak.",
@@ -488,14 +507,21 @@
     "enduit-blanc-epais",
     "peu-soif",
     "ballonnements",
-    "douleur-estomac-froid"
+    "douleur-estomac-froid",
+    "urines-claires",
+    "nausee",
+    "langue-pale",
+    "langue-humide",
+    "selles-glaireuses",
+    "gaz"
    ],
    "contre": [
     "diarrhee-chaude",
     "enduit-jaune",
-    "soif"
+    "soif",
+    "langue-rouge"
    ],
-   "langue": "Thick white coating.",
+   "langue": "Pale or normal, with a thick, moist white coating.",
    "pouls": "Deep and tight.",
    "principe": {
     "zh": "温中散寒",
@@ -573,26 +599,35 @@
     "vertiges"
    ],
    "autres": [
+    "acouphenes-faibles",
+    "mouches-volantes",
+    "vision-nuit",
+    "vision-double",
     "engourdissements",
     "crampes",
+    "tremblements",
+    "spasticite",
+    "douleur-cotes",
     "chaleur-5-coeurs",
+    "fievre-apres-midi",
+    "pommettes-rouges",
+    "chaleur-corps",
     "sueurs-nuit",
+    "bouche-seche",
     "endormissement",
     "irritabilite",
     "langue-rouge-sans-enduit",
-    "bouche-seche",
-    "tremblements",
-    "mouches-volantes",
-    "spasticite",
-    "vision-double"
+    "langue-seche",
+    "langue-mince"
    ],
    "contre": [
     "langue-pale",
     "frilosite",
-    "enduit-blanc-epais"
+    "enduit-blanc-epais",
+    "langue-humide"
    ],
-   "langue": "Red, especially on the edges, little coating.",
-   "pouls": "Thready, slightly rapid.",
+   "langue": "Red, especially on the sides, little or no coating, dry, sometimes thin.",
+   "pouls": "Thin and wiry, slightly rapid.",
    "principe": {
     "zh": "滋养肝阴",
     "py": "Zī yǎng gān yīn",
@@ -669,12 +704,20 @@
    ],
    "autres": [
     "soif",
-    "irritabilite",
     "chaleur-corps",
     "visage-rouge",
-    "langue-rouge",
+    "irritabilite",
+    "anxiete",
+    "sommeil-agite",
+    "constipation-seche",
     "urines-foncees",
-    "acne"
+    "acne",
+    "spm",
+    "langue-rouge",
+    "langue-cramoisie",
+    "points-rouges",
+    "enduit-jaune",
+    "saignements-nez"
    ],
    "contre": [
     "regles-retard",
@@ -682,8 +725,8 @@
     "frilosite",
     "langue-pale"
    ],
-   "langue": "Red.",
-   "pouls": "Rapid.",
+   "langue": "Red or deep red, yellow coating.",
+   "pouls": "Rapid and slippery, or wiry and rapid.",
    "principe": {
     "zh": "清热凉血",
     "py": "Qīng rè liáng xuè",

@@ -1,5 +1,5 @@
 {
- "version": "0.16.0",
+ "version": "0.17.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -7,7 +7,76 @@
   },
   {
    "id": "tete",
-   "nom": "Tête, yeux, nez, gorge"
+   "nom": "Tête, yeux, nez, gorge",
+   "sous": [
+    {
+     "nom": "Maux de tête",
+     "liste": [
+      "cephalee-front",
+      "cephalee-tempes",
+      "cephalee-sommet",
+      "cephalee-nuque",
+      "cephalee-sourde",
+      "cephalee-lourde"
+     ]
+    },
+    {
+     "nom": "Vertiges, oreilles",
+     "liste": [
+      "vertiges",
+      "desequilibre",
+      "acouphenes-aigus",
+      "acouphenes-faibles",
+      "audition"
+     ]
+    },
+    {
+     "nom": "Yeux",
+     "liste": [
+      "yeux-secs",
+      "vision-floue",
+      "mouches-volantes",
+      "vision-nuit",
+      "vision-double",
+      "yeux-rouges",
+      "orgelet",
+      "paupieres-gonflees"
+     ]
+    },
+    {
+     "nom": "Nez",
+     "liste": [
+      "nez-bouche",
+      "nez-clair",
+      "nez-jaune",
+      "nez-sec",
+      "eternuements",
+      "saignements-nez"
+     ]
+    },
+    {
+     "nom": "Gorge",
+     "liste": [
+      "noyau-prune",
+      "gorge-serree",
+      "gorge-mal",
+      "gorge-seche",
+      "gorge-chatouille"
+     ]
+    },
+    {
+     "nom": "Bouche, dents",
+     "liste": [
+      "aphtes",
+      "gencives",
+      "dents-dechaussees",
+      "gout-amer",
+      "haleine",
+      "bouche-pateuse",
+      "salive-abondante"
+     ]
+    }
+   ]
   },
   {
    "id": "respiration",

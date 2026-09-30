@@ -56,8 +56,9 @@
     "rate-rein-yang",
     "rt-vide-yang",
     "qi-sang",
-    "rt-froid-humidite",
-    "f-stagnation-qi"
+    "f-stagnation-qi",
+    "mei-he-qi",
+    "stase-sang"
    ]
   },
   {
@@ -76,7 +77,9 @@
     "rn-vide-yin",
     "foie-rein-yin",
     "f-yang",
-    "e-feu"
+    "e-feu",
+    "mei-he-qi",
+    "f-vide-yin"
    ]
   },
   {
@@ -109,7 +112,8 @@
     "gi-humidite-chaleur",
     "rt-humidite-chaleur",
     "rt-vide-qi",
-    "e-stagnation-alimentaire"
+    "e-stagnation-alimentaire",
+    "qi-sang"
    ]
   },
   {
@@ -123,7 +127,8 @@
    "tab": [
     "f-humidite-bas",
     "v-humidite-chaleur",
-    "rt-humidite-chaleur"
+    "rn-vide-yin",
+    "stase-sang"
    ]
   },
   {
@@ -137,7 +142,7 @@
    "tab": [
     "v-humidite-chaleur",
     "f-humidite-bas",
-    "rt-humidite-chaleur"
+    "rn-vide-yin"
    ]
   },
   {
@@ -150,8 +155,9 @@
    "mtc": "Toxine d'Humidité-Chaleur qui passe dans le Sang.",
    "tab": [
     "f-humidite-bas",
-    "peau-humidite-chaleur",
-    "rt-humidite-chaleur"
+    "peau-chaleur-sang",
+    "stase-sang",
+    "foie-rein-yin"
    ]
   },
   {
@@ -199,7 +205,10 @@
     "poumon-rate-qi",
     "rt-vide-qi",
     "rn-vide-yin",
-    "rn-jing"
+    "p-vide-yin",
+    "rate-rein-yang",
+    "stase-sang",
+    "p-vent-chaleur"
    ]
   },
   {
@@ -214,8 +223,9 @@
    "tab": [
     "f-humidite-chaleur",
     "foie-rate",
-    "rt-vide-qi",
-    "foie-rein-yin"
+    "foie-rein-yin",
+    "stase-sang",
+    "rate-rein-yang"
    ]
   },
   {
@@ -231,7 +241,8 @@
     "f-humidite-chaleur",
     "foie-rate",
     "f-stagnation-qi",
-    "stase-sang"
+    "stase-sang",
+    "foie-rein-yin"
    ]
   },
   {
@@ -261,7 +272,8 @@
    "tab": [
     "f-humidite-bas",
     "rt-humidite-chaleur",
-    "v-humidite-chaleur"
+    "v-humidite-chaleur",
+    "foie-rein-yin"
    ]
   },
   {
@@ -275,7 +287,8 @@
    "tab": [
     "f-humidite-bas",
     "v-humidite-chaleur",
-    "rt-humidite-chaleur"
+    "rn-vide-yin",
+    "stase-sang"
    ]
   },
   {
@@ -330,8 +343,7 @@
    "mtc": "Humidité-Chaleur et Vent dans la peau.",
    "tab": [
     "peau-humidite-chaleur",
-    "peau-vent-chaleur",
-    "peau-vide-sang"
+    "peau-vent-chaleur"
    ]
   },
   {
@@ -359,7 +371,8 @@
    "tab": [
     "p-vent-chaleur",
     "peau-humidite-chaleur",
-    "qi-sang"
+    "peau-chaleur-sang",
+    "p-mucosites-chaleur"
    ]
   },
   {
@@ -376,7 +389,8 @@
     "qi-sang",
     "rn-vide-yin",
     "rn-yin-yang",
-    "foie-rein-yin"
+    "foie-rein-yin",
+    "rt-vide-qi"
    ]
   },
   {
@@ -394,7 +408,9 @@
     "rn-vide-yang",
     "rn-yin-yang",
     "v-humidite-chaleur",
-    "qi-sang"
+    "qi-sang",
+    "stase-sang",
+    "rate-rein-yang"
    ]
   },
   {
@@ -410,7 +426,9 @@
     "p-vide-yin",
     "poumon-rate-qi",
     "qi-sang",
-    "rn-recevoir-qi"
+    "stase-sang",
+    "p-mucosites-humidite",
+    "p-mucosites-chaleur"
    ]
   },
   {
@@ -424,9 +442,10 @@
    "tab": [
     "rt-vide-qi",
     "gi-humidite-chaleur",
-    "gi-constipation-vide",
-    "f-vide-sang",
-    "qi-sang"
+    "qi-sang",
+    "stase-sang",
+    "rate-rein-yang",
+    "foie-rein-yin"
    ]
   },
   {
@@ -439,10 +458,13 @@
    "mtc": "Rébellion du Qi de l'Estomac, vide de Qi et de Yin de l'Estomac.",
    "tab": [
     "e-rebellion",
-    "e-vide-qi",
     "e-vide-yin",
     "rt-vide-qi",
-    "qi-sang"
+    "qi-sang",
+    "foie-estomac",
+    "e-vide-froid",
+    "stase-sang",
+    "mei-he-qi"
    ]
   },
   {
@@ -458,7 +480,9 @@
     "rt-froid-humidite",
     "foie-rate",
     "f-stagnation-qi",
-    "qi-sang"
+    "qi-sang",
+    "f-humidite-chaleur",
+    "stase-sang"
    ]
   },
   {
@@ -474,7 +498,9 @@
     "f-humidite-chaleur",
     "foie-rate",
     "rt-vide-qi",
-    "foie-rein-yin"
+    "foie-rein-yin",
+    "stase-sang",
+    "f-stagnation-qi"
    ]
   },
   {
@@ -488,10 +514,13 @@
    "mtc": "Vide de Qi et de Sang, vide de Yin et de Yang du Rein (ménopause provoquée), Humidité-Chaleur dans le bas du corps après la radiothérapie.",
    "tab": [
     "qi-sang",
-    "rn-yin-yang",
-    "rn-vide-yin",
     "rt-vide-qi",
-    "gi-humidite-chaleur"
+    "gi-humidite-chaleur",
+    "f-stagnation-qi",
+    "f-humidite-bas",
+    "stase-sang",
+    "foie-rein-yin",
+    "rate-rein-yang"
    ]
   },
   {
@@ -506,9 +535,9 @@
    "tab": [
     "qi-sang",
     "rt-vide-qi",
-    "rn-yin-yang",
     "f-stagnation-qi",
-    "f-vide-sang"
+    "stase-sang",
+    "foie-rein-yin"
    ]
   },
   {
@@ -523,7 +552,9 @@
     "v-humidite-chaleur",
     "rn-qi-non-ferme",
     "rn-vide-yin",
-    "qi-sang"
+    "qi-sang",
+    "stase-sang",
+    "rate-rein-yang"
    ]
   },
   {
@@ -539,7 +570,8 @@
     "p-vide-yin",
     "rn-vide-yin",
     "p-secheresse",
-    "qi-sang"
+    "qi-sang",
+    "stase-sang"
    ]
   },
   {
@@ -551,11 +583,12 @@
    "info": "Effets fréquents : fatigue, voix changée après la chirurgie, prise de poids ou nervosité selon la dose d'hormone thyroïdienne, bouche sèche après l'iode radioactif.",
    "mtc": "Vide de Yang ou de Yin selon le dosage de l'hormone, et stagnation du Qi du Foie.",
    "tab": [
-    "rn-vide-yang",
     "c-vide-yin",
     "f-stagnation-qi",
     "qi-sang",
-    "p-vide-yin"
+    "mei-he-qi",
+    "stase-sang",
+    "rt-vide-qi"
    ]
   },
   {
@@ -568,9 +601,10 @@
    "mtc": "Vent-Chaleur ou vide de Sang dans la peau, vide de Qi et de Sang.",
    "tab": [
     "qi-sang",
-    "peau-vent-chaleur",
     "peau-vide-sang",
-    "peau-chaleur-sang"
+    "peau-chaleur-sang",
+    "stase-sang",
+    "peau-humidite-chaleur"
    ]
   },
   {
@@ -586,7 +620,8 @@
     "rn-jing",
     "rn-vide-yin",
     "rt-sang",
-    "p-vide-qi"
+    "stase-sang",
+    "foie-rein-yin"
    ]
   },
   {
@@ -599,9 +634,9 @@
    "mtc": "Vide d'Essence du Rein qui nourrit mal le cerveau (la « mer des moelles »), vide de Sang du Cœur, Yang du Foie qui monte.",
    "tab": [
     "rn-jing",
-    "c-vide-sang",
-    "coeur-rate",
-    "f-yang"
+    "f-yang",
+    "foie-rein-yin",
+    "stase-sang"
    ]
   },
   {
@@ -616,7 +651,8 @@
     "qi-sang",
     "rn-jing",
     "rn-vide-yang",
-    "e-rebellion"
+    "e-rebellion",
+    "stase-sang"
    ]
   },
   {
@@ -630,7 +666,9 @@
    "tab": [
     "rn-jing",
     "qi-sang",
-    "foie-rein-yin"
+    "foie-rein-yin",
+    "stase-sang",
+    "rn-vide-yang"
    ]
   },
   {
@@ -665,10 +703,10 @@
     "rt-vide-qi",
     "foie-rein-yin",
     "rn-jing",
-    "qi-sang",
     "rt-humidite-chaleur",
     "rate-rein-yang",
-    "f-vide-sang"
+    "rn-yin-yang",
+    "stase-sang"
    ]
   }
  ]

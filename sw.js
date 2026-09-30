@@ -1,6 +1,6 @@
 /* Carnet Yang Sheng : fonctionnement hors ligne */
-const VERSION='ys-0.16.0-b5c57913';
-const CORE=["./", "index.html", "app.css?v=80edaf07", "app.js?v=7e8efd9c", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "fonts/notoserifsc-500.woff2", "fonts/notoserifsc-700.woff2", "fonts/atkinson-400.woff2", "fonts/atkinson-700.woff2"];
+const VERSION='ys-0.17.0-dce75036';
+const CORE=["./", "index.html", "app.css?v=c1bc7c44", "app.js?v=dc7c1302", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "fonts/notoserifsc-500.woff2", "fonts/notoserifsc-700.woff2", "fonts/atkinson-400.woff2", "fonts/atkinson-700.woff2"];
 self.addEventListener('install',e=>{
   /* La version anglaise n'est gardée hors ligne que si elle l'était déjà (appli passée en anglais) */
   e.waitUntil(caches.open(VERSION).then(c=>c.addAll(CORE).then(()=>caches.match('data-en.json',{ignoreSearch:true})).then(r=>r?c.add('data-en.json').catch(()=>{}):null)).then(()=>self.skipWaiting()));

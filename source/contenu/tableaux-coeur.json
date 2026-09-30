@@ -16,22 +16,23 @@
    "cle": [
     "palpitations",
     "essoufflement",
+    "oppression",
     "sueurs-jour",
     "fatigue"
    ],
    "autres": [
     "teint-pale",
     "langue-pale",
+    "fissure-centrale",
     "voix-faible",
     "tristesse",
-    "oppression",
     "sueurs-spontanees",
     "indecision"
    ],
    "contre": [
     "langue-rouge"
    ],
-   "langue": "Pâle.",
+   "langue": "Pâle ou normale ; parfois une fissure au milieu qui monte jusqu'à la pointe.",
    "pouls": "Vide, parfois irrégulier.",
    "principe": {
     "zh": "补益心气",
@@ -111,21 +112,24 @@
     "sommeil-agite"
    ],
    "autres": [
-    "anxiete",
     "vertiges",
-    "teint-pale",
-    "langue-pale",
+    "anxiete",
     "peurs",
-    "regles-peu",
     "concentration",
-    "humeur-variable"
+    "teint-pale",
+    "teint-jaune",
+    "levres-ongles-pales",
+    "regles-peu",
+    "langue-pale",
+    "langue-mince",
+    "langue-seche"
    ],
    "contre": [
     "langue-rouge",
     "chaleur-corps"
    ],
-   "langue": "Pâle, un peu sèche.",
-   "pouls": "Fin.",
+   "langue": "Pâle, mince, un peu sèche.",
+   "pouls": "Fin et faible, parfois rugueux.",
    "principe": {
     "zh": "养血安神",
     "py": "Yǎng xuè ān shén",
@@ -210,23 +214,29 @@
     "palpitations",
     "reveils",
     "sueurs-nuit",
-    "anxiete"
+    "anxiete",
+    "chaleur-5-coeurs"
    ],
    "autres": [
+    "sommeil-agite",
     "memoire",
+    "peurs",
     "bouche-seche",
-    "chaleur-5-coeurs",
+    "fievre-apres-midi",
+    "pommettes-rouges",
+    "sensible-chaleur",
+    "bouffees-hormono",
     "pointe-rouge",
     "langue-rouge-sans-enduit",
-    "pommettes-rouges",
-    "bouffees-hormono",
-    "sensible-chaleur"
+    "langue-seche",
+    "fissure-centrale"
    ],
    "contre": [
     "langue-pale",
-    "frilosite"
+    "frilosite",
+    "langue-humide"
    ],
-   "langue": "Rouge, pointe plus rouge, peu d'enduit.",
+   "langue": "Rouge, pointe plus rouge, sèche, peu ou pas d'enduit ; parfois une fissure au milieu jusqu'à la pointe.",
    "pouls": "Fin et rapide.",
    "principe": {
     "zh": "滋阴安神",
@@ -311,21 +321,29 @@
     "endormissement"
    ],
    "autres": [
-    "soif",
-    "visage-rouge",
-    "urines-foncees",
     "palpitations",
     "sommeil-agite",
+    "soif",
+    "visage-rouge",
+    "chaleur-corps",
     "gout-amer",
-    "pollutions-nocturnes",
+    "urines-foncees",
     "brulures-urinaires",
-    "mucite"
+    "constipation-seche",
+    "pollutions-nocturnes",
+    "mucite",
+    "langue-rouge",
+    "langue-cramoisie",
+    "points-rouges",
+    "enduit-jaune",
+    "fissure-centrale",
+    "saignements-nez"
    ],
    "contre": [
     "langue-pale",
     "frilosite"
    ],
-   "langue": "Rouge, pointe plus rouge et gonflée, parfois ulcérée.",
+   "langue": "Rouge, pointe plus rouge et gonflée avec des points rouges, parfois ulcérée ; enduit jaune.",
    "pouls": "Rapide et plein.",
    "principe": {
     "zh": "清心泻火",
@@ -398,25 +416,30 @@
    ],
    "mecanisme": "La réflexion excessive fatigue la Rate, qui fabrique moins de Sang. Le Cœur mal nourri laisse l'esprit agité : on rumine, on dort mal, on se fatigue vite.",
    "cle": [
-    "ruminations",
-    "fatigue",
+    "palpitations",
     "endormissement",
-    "palpitations"
+    "fatigue",
+    "ruminations",
+    "appetit-faible"
    ],
    "autres": [
-    "appetit-faible",
-    "selles-molles",
+    "sommeil-agite",
     "memoire",
     "concentration",
-    "teint-pale",
-    "bleus-faciles",
-    "langue-pale",
+    "vertiges",
+    "selles-molles",
     "ballonnements",
+    "envie-sucre",
+    "teint-pale",
+    "teint-jaune",
+    "levres-ongles-pales",
+    "bleus-faciles",
+    "regles-peu",
+    "langue-pale",
     "erection",
     "ejaculation-precoce",
     "pertes-seminales",
     "libido",
-    "envie-sucre",
     "fatigue-traitement"
    ],
    "contre": [
@@ -507,30 +530,35 @@
    "cle": [
     "endormissement",
     "reveils",
+    "anxiete",
     "genoux-faibles",
     "sueurs-nuit"
    ],
    "autres": [
     "palpitations",
-    "anxiete",
+    "sommeil-agite",
     "memoire",
+    "vertiges",
     "acouphenes-faibles",
     "chaleur-5-coeurs",
-    "pointe-rouge",
-    "langue-rouge-sans-enduit",
+    "chaleur-corps",
+    "bouffees-hormono",
     "bouche-seche",
+    "urines-foncees",
+    "constipation-seche",
     "pollutions-nocturnes",
     "pertes-seminales",
     "libido-excessive",
     "ejaculation-precoce",
-    "chaleur-corps",
-    "bouffees-hormono"
+    "pointe-rouge",
+    "langue-rouge-sans-enduit",
+    "fissure-centrale"
    ],
    "contre": [
     "langue-pale",
-    "frilosite"
+    "langue-humide"
    ],
-   "langue": "Rouge, pointe plus rouge, sans enduit.",
+   "langue": "Rouge, pointe plus rouge, peu ou pas d'enduit ; parfois une fissure au milieu jusqu'à la pointe.",
    "pouls": "Fin et rapide.",
    "principe": {
     "zh": "交通心肾",

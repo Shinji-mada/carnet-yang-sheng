@@ -23,13 +23,15 @@
    ],
    "autres": [
     "cephalee-sommet",
+    "vomissements",
     "frilosite",
+    "peu-soif",
     "libido",
     "erection",
     "regles-douloureuses",
     "douleur-fixe",
-    "peu-soif",
-    "langue-pale"
+    "langue-pale",
+    "langue-humide"
    ],
    "contre": [
     "soif",
@@ -128,24 +130,25 @@
    "mecanisme": "The Liver meridian circles the genitals. When Damp-Heat flows down into this area, it weighs it down, irritates and overheats it: dampness and odor, itching, yellow discharge, burning when urinating. It can also get in the way of erections or make ejaculation too quick, without any underlying weakness.",
    "cle": [
     "humidite-intime",
-    "urines-foncees",
+    "pertes-jaunes",
     "enduit-jaune"
    ],
    "autres": [
-    "pertes-jaunes",
+    "urines-foncees",
     "brulures-urinaires",
+    "ecoulement",
+    "plaie-genitale",
+    "vesicules-genitales",
+    "verrues-genitales",
     "erection",
     "ejaculation-precoce",
-    "douleur-testicules",
     "pertes-seminales",
+    "douleur-testicules",
     "gout-amer",
     "irritabilite",
     "lourdeur",
     "langue-rouge",
-    "ecoulement",
-    "plaie-genitale",
-    "vesicules-genitales",
-    "verrues-genitales"
+    "enduit-gras"
    ],
    "contre": [
     "frilosite",
@@ -233,19 +236,19 @@
    "autres": [
     "palpitations",
     "sommeil-agite",
-    "ejaculation-precoce",
+    "reveils",
     "indecision",
     "decouragement",
+    "ejaculation-precoce",
     "mictions-frequentes",
-    "genoux-faibles",
-    "libido"
+    "genoux-faibles"
    ],
    "contre": [
     "humidite-intime",
     "enduit-jaune"
    ],
    "langue": "Often normal, sometimes pale.",
-   "pouls": "Weak at the Kidney positions, sometimes rapid and irregular under emotion.",
+   "pouls": "Thin and wiry, weak at the Kidney positions.",
    "principe": {
     "zh": "益肾宁神",
     "py": "Yì shèn níng shén",
@@ -344,16 +347,22 @@
     "chaleur-corps",
     "sueurs-nuit",
     "frilosite",
-    "mictions-nuit",
-    "fatigue",
+    "froid-dos",
+    "lombalgie-sourde",
+    "vertiges",
     "acouphenes-faibles",
     "memoire",
+    "reveils",
+    "irritabilite",
+    "fatigue",
+    "mictions-nuit",
+    "diarrhee-matin",
+    "oedeme",
     "secheresse-intime",
     "libido",
-    "oedeme",
-    "irritabilite",
-    "reveils",
-    "bouffees-hormono"
+    "bouffees-hormono",
+    "langue-pale",
+    "enduit-pele"
    ],
    "contre": [
     "enduit-jaune",
