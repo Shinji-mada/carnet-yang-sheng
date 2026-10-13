@@ -102,6 +102,12 @@
    "syn": "dry mouth dry throat dryness xerostomia"
   },
   {
+   "id": "bouche-seche-sans-soif",
+   "cat": "general",
+   "nom": "Dry mouth, but no wish to drink",
+   "syn": "dry mouth not thirsty"
+  },
+  {
    "id": "lourdeur",
    "cat": "general",
    "nom": "Heavy body, heavy limbs",
@@ -227,6 +233,13 @@
    "syn": "dizzy vertigo head spinning room spinning lightheaded lightheadedness"
   },
   {
+   "id": "vertiges-lever",
+   "cat": "tete",
+   "nom": "Dizziness or blurred vision when you stand up quickly",
+   "syn": "dizziness standing up head rush low blood pressure",
+   "alerte": "Repeated faintness when standing, or passing out, needs to be checked by a doctor."
+  },
+  {
    "id": "desequilibre",
    "cat": "tete",
    "nom": "Loss of balance, unsteady walk",
@@ -286,6 +299,13 @@
    "nom": "Red, swollen or painful eyes",
    "alerte": "A red, painful eye with loss of vision needs urgent medical attention.",
    "syn": "conjunctivitis pink eye red eyes bloodshot eyes"
+  },
+  {
+   "id": "yeux-jaunes",
+   "cat": "tete",
+   "nom": "Whites of the eyes or skin turning yellow",
+   "syn": "jaundice yellow eyes yellow skin",
+   "alerte": "Yellowing of the eyes or skin (jaundice) needs to be seen by a doctor quickly."
   },
   {
    "id": "orgelet",
@@ -375,6 +395,12 @@
    "cat": "tete",
    "nom": "Bitter taste in the mouth",
    "syn": "bitterness bitter taste mouth"
+  },
+  {
+   "id": "gout-sucre",
+   "cat": "tete",
+   "nom": "Sweet taste in the mouth, sticky mouth",
+   "syn": "sweet taste sticky mouth"
   },
   {
    "id": "haleine",
@@ -586,6 +612,19 @@
    "syn": "stomachache bellyache abdominal pain cramps"
   },
   {
+   "id": "douleur-pression-pire",
+   "cat": "digestion",
+   "nom": "Belly pain that gets worse when you press on it",
+   "syn": "pain worse pressing pressure tender belly",
+   "alerte": "Severe belly pain that gets worse when touched, with fever or a hard belly, needs urgent care."
+  },
+  {
+   "id": "douleur-pression-mieux",
+   "cat": "digestion",
+   "nom": "Belly pain eased by pressing or resting a hand on it",
+   "syn": "pain eased pressing hand pressure better"
+  },
+  {
    "id": "gaz",
    "cat": "digestion",
    "nom": "Gas, rumbling belly",
@@ -624,6 +663,27 @@
    "syn": "stools poop undigested food"
   },
   {
+   "id": "selles-decolorees",
+   "cat": "selles",
+   "nom": "Very pale, whitish or clay-colored stools",
+   "syn": "pale white clay grey colorless stools",
+   "alerte": "Pale stools, especially with dark urine or yellowing of the skin or eyes, need to be seen by a doctor quickly."
+  },
+  {
+   "id": "selles-noires",
+   "cat": "selles",
+   "nom": "Black, tar-like stools",
+   "syn": "black tarry stools melena",
+   "alerte": "Black, sticky stools can come from bleeding in the stomach: call emergency services (15 or 112 in France) or get urgent care, especially with faintness or dizziness. Iron, charcoal, blueberries or black pudding also darken stools, harmlessly."
+  },
+  {
+   "id": "sang-selles",
+   "cat": "selles",
+   "nom": "Red blood in the stools or on the toilet paper",
+   "syn": "blood stools toilet paper bleeding rectal",
+   "alerte": "Blood in the stools should always be shown to a doctor, even though it often comes from hemorrhoids."
+  },
+  {
    "id": "constipation-seche",
    "cat": "selles",
    "nom": "Constipation, dry and hard stools",
@@ -635,6 +695,12 @@
    "cat": "selles",
    "nom": "Constipation from lack of strength, stools not hard",
    "syn": "constipation constipated bowel movements"
+  },
+  {
+   "id": "selles-billes",
+   "cat": "selles",
+   "nom": "Stools in small hard pellets, like rabbit droppings",
+   "syn": "pellets rabbit droppings hard small balls stools"
   },
   {
    "id": "alternance",
@@ -686,6 +752,13 @@
    "nom": "Urine leaks",
    "alerte": "Talk to your doctor: pelvic floor rehabilitation gives very good results.",
    "syn": "incontinence leaking urine bladder leaks pee"
+  },
+  {
+   "id": "gouttes-apres-uriner",
+   "cat": "selles",
+   "nom": "Dribbling after urinating, bladder never feels quite empty",
+   "syn": "dribbling incomplete emptying bladder after urinating",
+   "alerte": "If it's new, with a weak stream or night-time urges, talk to your doctor (the prostate, in men)."
   },
   {
    "id": "pesanteur",

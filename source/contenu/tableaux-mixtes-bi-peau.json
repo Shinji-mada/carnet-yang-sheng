@@ -43,7 +43,8 @@
     "fatigue-matin",
     "langue-mince",
     "saignements-nez",
-    "sans-enduit"
+    "sans-enduit",
+    "vertiges-lever"
    ],
    "contre": [
     "langue-rouge",
@@ -117,6 +118,123 @@
     "Chute de cheveux"
    ],
    "diag": "ton corps manque à la fois d'énergie et de Sang : tout fonctionne au ralenti"
+  },
+  {
+   "id": "qi-yin",
+   "organe": "qi-sang",
+   "nom": "Vide de Qi et de Yin",
+   "zh": "气阴两虚",
+   "py": "Qì yīn liǎng xū",
+   "resume": "Le corps manque à la fois d'énergie (Qi) et de liquides (Yin) : fatigue, souffle court, bouche sèche, transpiration le jour et sueurs la nuit.",
+   "causes": [
+    "Longue maladie, fièvre qui a duré, convalescence",
+    "Surmenage et manque de sommeil",
+    "Traitements lourds (chimiothérapie, radiothérapie)",
+    "Diabète, thyroïde qui s'emballe",
+    "Transpiration abondante répétée"
+   ],
+   "mecanisme": "Le Qi produit et retient les liquides, le Yin nourrit et rafraîchit. Quand les deux s'épuisent ensemble, après une longue maladie, un surmenage ou des traitements lourds, on est à la fois fatigué et « sec » : souffle court, voix faible, transpiration au moindre effort, mais aussi bouche sèche, chaleur légère le soir et sueurs nocturnes.",
+   "cle": [
+    "fatigue",
+    "essoufflement",
+    "bouche-seche",
+    "sueurs-nuit"
+   ],
+   "autres": [
+    "sueurs-jour",
+    "sueurs-spontanees",
+    "voix-faible",
+    "chaleur-5-coeurs",
+    "fievre-apres-midi",
+    "palpitations",
+    "endormissement",
+    "constipation-seche",
+    "amaigrissement",
+    "appetit-faible",
+    "toux-seche",
+    "fatigue-traitement",
+    "mucite",
+    "langue-seche",
+    "langue-fissuree",
+    "langue-mince",
+    "sans-enduit",
+    "enduit-pele",
+    "marques-dents"
+   ],
+   "contre": [
+    "langue-humide",
+    "enduit-gras",
+    "enduit-blanc-epais"
+   ],
+   "langue": "Rose pâle à rouge, peu ou pas d'enduit, sèche, parfois fissurée ; des marques de dents si le Qi manque surtout.",
+   "pouls": "Fin et faible, ou fin et un peu rapide.",
+   "principe": {
+    "zh": "益气养阴",
+    "py": "Yì qì yǎng yīn",
+    "fr": "Tonifier le Qi, nourrir le Yin"
+   },
+   "moxa": "Pas de moxa fort : il assécherait le Yin. Une chaleur douce sur E 36 seulement si tu as froid.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifie le Qi, source des liquides."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin et le Sang."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Point Yuan du Rein : nourrit le Yin à la racine."
+      },
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifie le Qi du Poumon, apaise le souffle court."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin, humidifie la gorge."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifie le Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-canard-igname",
+    "igname-vapeur",
+    "soupe-tremelle",
+    "poire-vapeur-amandes",
+    "gateau-igname-fruits-secs",
+    "congee-lotus-jujube"
+   ],
+   "privilegier": "Igname de Chine, millet, riz, bulbes de lys, poire, trémelle, œufs, canard, goji, dattes, sésame ; soupes et congees.",
+   "eviter": "Épices fortes, café en excès, grillades et fritures, veiller tard, sport épuisant, sauna.",
+   "conseils": [
+    "Reprends des forces doucement : marche, qi gong ; évite les efforts qui épuisent ou font trop transpirer.",
+    "Bois par petites gorgées tout au long de la journée, tiède plutôt que glacé.",
+    "Couche-toi avant 23 h : le Yin se refait la nuit."
+   ],
+   "simple": "Tu manques à la fois d'énergie et de liquides : fatigue, souffle court, bouche sèche, sueurs.",
+   "reperes": [
+    "Fatigue après une longue maladie",
+    "Après une chimiothérapie ou une radiothérapie",
+    "Diabète",
+    "Sueurs le jour et la nuit",
+    "Bouche sèche"
+   ],
+   "diag": "ton corps manque à la fois d'énergie et de liquides : il s'épuise et s'assèche en même temps"
   },
   {
    "id": "foie-rein-yin",
@@ -279,7 +397,8 @@
     "selles-molles",
     "teint-pale",
     "libido",
-    "mictions-nuit"
+    "mictions-nuit",
+    "douleur-pression-mieux"
    ],
    "contre": [
     "chaleur-corps",
@@ -508,9 +627,14 @@
     "mains-gonflees",
     "deformations",
     "spasticite",
-    "peau-squames"
+    "peau-squames",
+    "selles-noires",
+    "douleur-pression-pire",
+    "bouche-seche-sans-soif"
    ],
-   "contre": [],
+   "contre": [
+    "douleur-pression-mieux"
+   ],
    "langue": "Violacée ou avec des taches sombres, veines sous la langue gonflées.",
    "pouls": "Rugueux ou tendu.",
    "principe": {

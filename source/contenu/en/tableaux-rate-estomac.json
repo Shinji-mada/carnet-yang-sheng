@@ -41,7 +41,10 @@
     "regles-avance",
     "paupieres-gonflees",
     "bouche-pateuse",
-    "pertes-blanches"
+    "pertes-blanches",
+    "douleur-pression-mieux",
+    "gout-sucre",
+    "vertiges-lever"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -165,13 +168,16 @@
     "pertes-blanches",
     "teint-pale",
     "lourdeur",
-    "salive-abondante"
+    "salive-abondante",
+    "selles-decolorees",
+    "douleur-pression-mieux"
    ],
    "contre": [
     "chaleur-corps",
     "langue-rouge",
     "soif",
-    "diarrhee-chaude"
+    "diarrhee-chaude",
+    "douleur-pression-pire"
    ],
    "langue": "Pale, swollen, wet, tooth marks, white coating.",
    "pouls": "Deep, slow and weak.",
@@ -272,7 +278,9 @@
     "teint-pale",
     "essoufflement",
     "marques-dents",
-    "urines-troubles"
+    "urines-troubles",
+    "gouttes-apres-uriner",
+    "vertiges-lever"
    ],
    "contre": [
     "langue-rouge",
@@ -368,7 +376,9 @@
     "teint-jaune",
     "ballonnements",
     "regles-avance",
-    "saignements-nez"
+    "saignements-nez",
+    "selles-noires",
+    "sang-selles"
    ],
    "contre": [
     "langue-rouge",
@@ -471,7 +481,11 @@
     "teint-jaune",
     "douleur-ventre-froid",
     "poids-facile",
-    "fatigue-matin"
+    "fatigue-matin",
+    "selles-decolorees",
+    "gout-sucre",
+    "yeux-jaunes",
+    "bouche-seche-sans-soif"
    ],
    "contre": [
     "enduit-jaune",
@@ -602,7 +616,10 @@
     "langue-rouge",
     "enduit-gras",
     "selles-collantes",
-    "selles-glaireuses"
+    "selles-glaireuses",
+    "gout-sucre",
+    "yeux-jaunes",
+    "bouche-seche-sans-soif"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -839,7 +856,8 @@
     "saignements-nez",
     "langue-seche",
     "centre-rouge",
-    "points-rouges"
+    "points-rouges",
+    "selles-noires"
    ],
    "contre": [
     "frilosite",
@@ -936,7 +954,8 @@
     "frilosite",
     "hoquet",
     "langue-humide",
-    "salive-abondante"
+    "salive-abondante",
+    "douleur-pression-pire"
    ],
    "contre": [
     "douleur-estomac-brulure",
@@ -1036,13 +1055,15 @@
     "haleine",
     "diarrhee-chaude",
     "douleur-avant-selles",
-    "gaz"
+    "gaz",
+    "douleur-pression-pire"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
     "douleur-estomac-faim",
     "enduit-pele",
-    "sans-enduit"
+    "sans-enduit",
+    "douleur-pression-mieux"
    ],
    "langue": "Thick, greasy coating, white or yellowish.",
    "pouls": "Full and slippery.",

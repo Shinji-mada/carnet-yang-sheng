@@ -43,7 +43,8 @@
     "fatigue-matin",
     "langue-mince",
     "saignements-nez",
-    "sans-enduit"
+    "sans-enduit",
+    "vertiges-lever"
    ],
    "contre": [
     "langue-rouge",
@@ -117,6 +118,123 @@
     "Hair loss"
    ],
    "diag": "your body lacks both energy and Blood: everything runs slowly"
+  },
+  {
+   "id": "qi-yin",
+   "organe": "qi-sang",
+   "nom": "Qi and Yin Deficiency",
+   "zh": "气阴两虚",
+   "py": "Qì yīn liǎng xū",
+   "resume": "The body lacks both energy (Qi) and fluids (Yin): tiredness, shortness of breath, dry mouth, sweating by day and night sweats.",
+   "causes": [
+    "Long illness, lingering fever, convalescence",
+    "Overwork and lack of sleep",
+    "Heavy treatments (chemotherapy, radiotherapy)",
+    "Diabetes, overactive thyroid",
+    "Repeated heavy sweating"
+   ],
+   "mecanisme": "Qi produces and holds the fluids, Yin nourishes and cools. When both run low together, after a long illness, overwork or heavy treatments, you are both tired and “dry”: short of breath, weak voice, sweating at the slightest effort, but also a dry mouth, mild heat in the evening and night sweats.",
+   "cle": [
+    "fatigue",
+    "essoufflement",
+    "bouche-seche",
+    "sueurs-nuit"
+   ],
+   "autres": [
+    "sueurs-jour",
+    "sueurs-spontanees",
+    "voix-faible",
+    "chaleur-5-coeurs",
+    "fievre-apres-midi",
+    "palpitations",
+    "endormissement",
+    "constipation-seche",
+    "amaigrissement",
+    "appetit-faible",
+    "toux-seche",
+    "fatigue-traitement",
+    "mucite",
+    "langue-seche",
+    "langue-fissuree",
+    "langue-mince",
+    "sans-enduit",
+    "enduit-pele",
+    "marques-dents"
+   ],
+   "contre": [
+    "langue-humide",
+    "enduit-gras",
+    "enduit-blanc-epais"
+   ],
+   "langue": "Pale pink to red, little or no coating, dry, sometimes cracked; tooth marks if Qi is mostly lacking.",
+   "pouls": "Thin and weak, or thin and slightly fast.",
+   "principe": {
+    "zh": "益气养阴",
+    "py": "Yì qì yǎng yīn",
+    "fr": "Tonify Qi, nourish Yin"
+   },
+   "moxa": "No strong moxa: it would dry out the Yin. Gentle warmth on ST 36 only if you feel cold.",
+   "phases": [
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Qi, the source of fluids."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin and Blood."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Source point of the Kidney: nourishes Yin at the root."
+      },
+      {
+       "p": "P 9",
+       "s": 90,
+       "pourquoi": "Tonifies Lung Qi, eases shortness of breath."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, moistens the throat."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifies Qi."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-canard-igname",
+    "igname-vapeur",
+    "soupe-tremelle",
+    "poire-vapeur-amandes",
+    "gateau-igname-fruits-secs",
+    "congee-lotus-jujube"
+   ],
+   "privilegier": "Chinese yam, millet, rice, lily bulbs, pear, snow fungus, eggs, duck, goji, dates, sesame; soups and congees.",
+   "eviter": "Strong spices, too much coffee, grilled and fried food, late nights, exhausting exercise, sauna.",
+   "conseils": [
+    "Rebuild your strength gently: walking, qi gong; avoid efforts that exhaust you or make you sweat a lot.",
+    "Sip drinks throughout the day, lukewarm rather than iced.",
+    "Go to bed before 11 pm: Yin rebuilds at night."
+   ],
+   "simple": "You lack both energy and fluids: tiredness, shortness of breath, dry mouth, sweating.",
+   "reperes": [
+    "Tiredness after a long illness",
+    "After chemotherapy or radiotherapy",
+    "Diabetes",
+    "Sweating by day and at night",
+    "Dry mouth"
+   ],
+   "diag": "your body lacks both energy and fluids: it is wearing out and drying out at the same time"
   },
   {
    "id": "foie-rein-yin",
@@ -279,7 +397,8 @@
     "selles-molles",
     "teint-pale",
     "libido",
-    "mictions-nuit"
+    "mictions-nuit",
+    "douleur-pression-mieux"
    ],
    "contre": [
     "chaleur-corps",
@@ -508,9 +627,14 @@
     "mains-gonflees",
     "deformations",
     "spasticite",
-    "peau-squames"
+    "peau-squames",
+    "selles-noires",
+    "douleur-pression-pire",
+    "bouche-seche-sans-soif"
    ],
-   "contre": [],
+   "contre": [
+    "douleur-pression-mieux"
+   ],
    "langue": "Purplish or with dark spots, swollen veins under the tongue.",
    "pouls": "Choppy or wiry.",
    "principe": {

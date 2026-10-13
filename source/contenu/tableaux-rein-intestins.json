@@ -46,7 +46,8 @@
     "langue-humide",
     "langue-violacee",
     "levres-ongles-violaces",
-    "urines-troubles"
+    "urines-troubles",
+    "gouttes-apres-uriner"
    ],
    "contre": [
     "chaleur-corps",
@@ -186,7 +187,8 @@
     "langue-fissuree",
     "enduit-pele",
     "demangeaisons-nuit",
-    "sans-enduit"
+    "sans-enduit",
+    "selles-billes"
    ],
    "contre": [
     "frilosite",
@@ -302,7 +304,8 @@
     "ejaculation-precoce",
     "sperme-clair",
     "pesanteur",
-    "langue-pale"
+    "langue-pale",
+    "gouttes-apres-uriner"
    ],
    "contre": [
     "brulures-urinaires",
@@ -723,7 +726,9 @@
     "nausee",
     "enduit-gras",
     "douleur-avant-selles",
-    "selles-collantes"
+    "selles-collantes",
+    "sang-selles",
+    "douleur-pression-pire"
    ],
    "contre": [
     "diarrhee-matin",
@@ -813,7 +818,9 @@
     "vertiges",
     "langue-pale",
     "langue-mince",
-    "sans-enduit"
+    "sans-enduit",
+    "sang-selles",
+    "selles-billes"
    ],
    "contre": [
     "selles-molles",

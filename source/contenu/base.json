@@ -1,5 +1,5 @@
 {
- "version": "0.17.2",
+ "version": "0.18.0",
  "categories_symptomes": [
   {
    "id": "general",
@@ -24,6 +24,7 @@
      "nom": "Vertiges, oreilles",
      "liste": [
       "vertiges",
+      "vertiges-lever",
       "desequilibre",
       "acouphenes-aigus",
       "acouphenes-faibles",
@@ -39,6 +40,7 @@
       "vision-nuit",
       "vision-double",
       "yeux-rouges",
+      "yeux-jaunes",
       "orgelet",
       "paupieres-gonflees"
      ]
@@ -71,6 +73,7 @@
       "gencives",
       "dents-dechaussees",
       "gout-amer",
+      "gout-sucre",
       "haleine",
       "bouche-pateuse",
       "salive-abondante"

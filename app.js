@@ -60,6 +60,12 @@ let DATA=null,FIGS={},SYMFREQ={},loadError=false,fiches=[],tableaux=[],SYM={},SY
 let tab=TABS.includes(store('ys.onglet'))?store('ys.onglet'):'symptomes';
 let route=null;
 const scrollMem={};
+/* Reprise : tant que l'appli n'a pas été fermée complètement (même session du navigateur), on revient sur la page
+   où l'on était, au même endroit, sans l'animation d'ouverture. Une vraie fermeture efface cette mémoire. */
+const UI0=(()=>{try{const u=JSON.parse(sessionStorage.getItem('ys.ui')||'null');return u&&typeof u==='object'&&!Array.isArray(u)?u:null;}catch(e){return null;}})();
+let uiT=0;
+function saveUINow(){clearTimeout(uiT);try{sessionStorage.setItem('ys.ui',J({tab,route,symMode,y:Math.round(window.scrollY||0)}));}catch(e){}}
+function saveUI(){clearTimeout(uiT);uiT=setTimeout(saveUINow,150);}
 let filter=store('ys.filtre')||'tout';if(!['tout','protocole','recette'].includes(filter))filter='tout';
 let query='',symQuery='',tabQuery='';
 let symMode='choisir',showAll=false,openCat=null,ingOpen=false;
@@ -462,6 +468,7 @@ async function share(k,id){
 function onSheetAct(a){
   if(a.startsWith('lgdel:')){lgDelete(a.slice(6));return;}
   if(a.startsWith('lgexdel:')){lgExamDelete(a.slice(8));return;}
+  if(a.startsWith('lgexuse:')){lgExamReprendre(a.slice(8));return;}
   const ctx=sheetCtx||{};const {k,id,cid}=ctx;
   if(a==='select'){closeSheet();selMode=true;selSet.clear();selSet.add(k+':'+id);refresh();return;}
   if(a==='selectin'){closeSheet();carnetSel=cid;persist();selMode=true;selSet.clear();if(tab!=='carnet'||route)goTab('carnet');else refresh();return;}
@@ -741,7 +748,7 @@ function renderSym(){
   if(symMode==='resultats'&&symSel.size)return renderSymResults();
   if(symMode==='langue'&&nSymHorsLangue())return renderLangue();
   symMode='choisir';
-  view.innerHTML=`${stepsHTML(1)}<h1 class="vh big-q">${$t('Quels sont tes symptômes ?')}</h1><p class="lede">${$t('Coche ce que tu ressens, même un peu. Ensuite, tu regarderas ta langue, puis l\'appli fera ton bilan selon la médecine chinoise.')}</p>
+  view.innerHTML=`${stepsHTML(1)}<h1 class="vh big-q">${$t('Quels sont tes symptômes ?')}</h1><p class="lede">${$t('Coche ce que tu ressens, même un peu. Ensuite, tu regarderas ta langue, puis l\'appli fera ton bilan selon la médecine chinoise.')}</p>${bilans().length?`<button type="button" class="ghost mesbilans" data-bilans="1">${$t('Mes bilans enregistrés')} <b>${bilans().length}</b></button>`:''}
 ${tipHTML(TIP_FILTRE,'Coche plusieurs symptômes.','Un seul signe se retrouve dans beaucoup de tableaux : plus tu en coches, plus la recherche s\'affine et plus le tableau proposé est précis.')}
 <div class="tools ac-wrap">${searchBox('sq',symQuery,$t('Tape les premières lettres : fat, toux, diarr…'),$t('Chercher un symptôme'))}<div class="ac" id="ac" role="listbox" aria-label="${$t('Suggestions')}" hidden></div></div>
 <div id="symlist"></div><div class="cta-wrap" id="symcta" hidden></div>`;
@@ -1012,7 +1019,7 @@ function lgHist(){return arr(storedJSON('ys.langue.hist',[])).filter(x=>x&&x.id&
 function lgSaveHist(H){store('ys.langue.hist',J(H.slice(0,40)));}
 function lgPhoto1(id){return id?lgPhotos().find(p=>p.id===id)||null:null;}
 function lgGC(){
-  const keep=new Set([LGX.photo,LGX.photo2,...lgHist().flatMap(x=>[x.p1,x.p2])].filter(Boolean));
+  const keep=new Set([LGX.photo,LGX.photo2,...lgHist().flatMap(x=>[x.p1,x.p2]),...bilans().flatMap(b=>b.lg?[b.lg.p1,b.lg.p2]:[])].filter(Boolean));
   const L=lgPhotos();if(L.some(p=>!keep.has(p.id)))lgSavePhotos(L.filter(p=>keep.has(p.id)));
 }
 (function lgMigre(){ // photos de la v0.17 (une seule par examen) → examens
@@ -1079,7 +1086,15 @@ function lgExamSheet(id){
   openSheet($t('Examen de la langue'),lgDate(e.d),`<div class="lg-ex-big">${[['p1','Dessus de la langue'],['p2','Dessous de la langue']].map(([k,l])=>{const p=lgPhoto1(e[k]);return `<figure><figcaption>${$t(l)}</figcaption>${p?`<img class="lg-big" src="${p.img}" alt="">`:`<p class="hint">${$t('Pas de photo')}</p>`}</figure>`;}).join('')}</div>
 <h3 class="lg-ex-h">${$t('Les modèles choisis')}</h3>${blocs||`<p class="hint">${$t('Aucun modèle choisi')}</p>`}
 ${sg.length?`<p class="hint" style="margin-top:12px">${$t('Signes retenus pour le bilan :')} ${esc(sg.map(s=>court(s)).join(', '))}</p>`:`<p class="hint" style="margin-top:12px">${$t('Langue plutôt normale ce jour-là.')}</p>`}
-<div class="sheet-acts"><button type="button" class="ghost danger" data-act="lgexdel:${esc(e.id)}">${$t('Supprimer cet examen')}</button></div>`);
+<div class="sheet-acts col"><button type="button" class="primary" data-act="lgexuse:${esc(e.id)}">${$t('Reprendre cet examen')}</button><p class="fine">${$t('Ses photos et ses modèles reviennent dans ton examen du jour : tu peux les ajuster, puis voir ton bilan.')}</p><button type="button" class="ghost danger" data-act="lgexdel:${esc(e.id)}">${$t('Supprimer cet examen')}</button></div>`);
+}
+function lgExamReprendre(id){
+  const e=lgHist().find(x=>x.id===id);if(!e)return;
+  LGX={r:JSON.parse(J(e.r||{})),photo:lgPhoto1(e.p1)?e.p1:null,photo2:lgPhoto1(e.p2)?e.p2:null,exam:e.id,debut:Date.now()};lgSave();
+  closeSheet(false,()=>{
+    if(nSymHorsLangue()){route=null;tab='symptomes';store('ys.onglet',tab);symMode='langue';try{history.replaceState(null,'','#symptomes');}catch(_){}render();window.scrollTo(0,0);toast('Examen repris : vérifie les modèles, puis touche « Voir mon bilan ».');}
+    else{route=null;tab='symptomes';symMode='choisir';render();window.scrollTo(0,0);toast('Examen repris. Coche d\'abord tes symptômes, puis valide.');}
+  });
 }
 function lgExamDelete(id){
   lgSaveHist(lgHist().filter(x=>x.id!==id));
@@ -1199,9 +1214,9 @@ const BILAN_NAT={'c-vide-qi':'vn','c-vide-sang':'vn','c-vide-yin':'vc','c-feu':'
   'rn-peur':'vn','rn-yin-yang':'vn','qi-sang':'vn','foie-rein-yin':'vc','rate-rein-yang':'vf','poumon-rate-qi':'vn','stase-sang':'pn','froid-uterus':'mf','bi-vent':'pn','bi-froid':'pf','bi-humidite':'pn','bi-chaleur':'pc',
   'peau-vent-chaleur':'pc','peau-humidite-chaleur':'pc','peau-vide-sang':'vn','peau-chaleur-sang':'pc','p-vide-qi':'vn','p-vide-yang':'vf','p-vide-yin':'vc','p-stagnation-qi':'pn','p-vent-froid':'pf','p-vent-chaleur':'pc',
   'p-mucosites-humidite':'pn','p-mucosites-chaleur':'pc','rt-vide-qi':'vn','rt-vide-yang':'vf','rt-effondrement':'vn','rt-sang':'vn','rt-froid-humidite':'pf','rt-humidite-chaleur':'pc','e-vide-yin':'vc','e-feu':'pc','e-froid':'pf',
-  'e-stagnation-alimentaire':'pn','e-rebellion':'pn','rn-vide-yang':'vf','rn-vide-yin':'vc','rn-qi-non-ferme':'vn','rn-recevoir-qi':'vn','rn-jing':'vn','v-humidite-chaleur':'pc','gi-humidite-chaleur':'pc','gi-secheresse':'vn','gi-constipation-vide':'vn'};
+  'e-stagnation-alimentaire':'pn','e-rebellion':'pn','rn-vide-yang':'vf','rn-vide-yin':'vc','rn-qi-non-ferme':'vn','rn-recevoir-qi':'vn','rn-jing':'vn','v-humidite-chaleur':'pc','gi-humidite-chaleur':'pc','gi-secheresse':'vn','gi-constipation-vide':'vn','qi-yin':'vc','vb-mucosites':'pc'};
 const BILAN_ORG={'coeur-rate':['coeur','rate'],'coeur-rein':['coeur','rein'],'f-humidite-chaleur':['foie','vesicule'],'foie-rate':['foie','rate'],'foie-estomac':['foie','estomac'],
-  'foie-rein-yin':['foie','rein'],'rate-rein-yang':['rate','rein'],'poumon-rate-qi':['poumon','rate'],'rt-humidite-chaleur':['rate','estomac'],'mei-he-qi':['foie','poumon'],'qi-sang':['rate','coeur'],'rt-sang':['rate'],'rn-peur':['rein','coeur'],'vb-vide':['vesicule']};
+  'foie-rein-yin':['foie','rein'],'rate-rein-yang':['rate','rein'],'poumon-rate-qi':['poumon','rate'],'rt-humidite-chaleur':['rate','estomac'],'mei-he-qi':['foie','poumon'],'qi-sang':['rate','coeur'],'rt-sang':['rate'],'rn-peur':['rein','coeur'],'vb-vide':['vesicule'],'vb-mucosites':['vesicule','coeur']};
 const ORG_ART={coeur:'le Cœur',poumon:'le Poumon',rate:'la Rate',estomac:'l\'Estomac',foie:'le Foie',vesicule:'la Vésicule biliaire',rein:'le Rein',vessie:'la Vessie','gros-intestin':'le Gros Intestin'};
 const BILAN_LIENS=[
   [['foie','rate'],'Le Foie et la Rate sont liés : quand le Qi du Foie se bloque, il pèse sur la digestion, et une Rate fatiguée laisse le Foie s\'emballer.'],
@@ -1234,10 +1249,10 @@ function bilanOrgs(t){return BILAN_ORG[t.id]||[t.organe];}
 const BILAN_GR={
   rateVide:['rt-vide-qi','rt-vide-yang','rt-effondrement','rt-sang','poumon-rate-qi','coeur-rate','rate-rein-yang','e-vide-qi','e-vide-froid','gi-constipation-vide'],
   sangVide:['f-vide-sang','c-vide-sang','qi-sang','peau-vide-sang','coeur-rate'],
-  humid:['rt-froid-humidite','rt-humidite-chaleur','p-mucosites-humidite','p-mucosites-chaleur','bi-humidite','f-humidite-chaleur','f-humidite-bas','peau-humidite-chaleur','gi-humidite-chaleur','v-humidite-chaleur','mei-he-qi'],
-  qiStag:['f-stagnation-qi','foie-rate','foie-estomac','mei-he-qi','p-stagnation-qi'],
+  humid:['vb-mucosites','rt-froid-humidite','rt-humidite-chaleur','p-mucosites-humidite','p-mucosites-chaleur','bi-humidite','f-humidite-chaleur','f-humidite-bas','peau-humidite-chaleur','gi-humidite-chaleur','v-humidite-chaleur','mei-he-qi'],
+  qiStag:['vb-mucosites','f-stagnation-qi','foie-rate','foie-estomac','mei-he-qi','p-stagnation-qi'],
   stase:['stase-sang'],
-  yinVide:['rn-vide-yin','foie-rein-yin','f-vide-yin','c-vide-yin','p-vide-yin','e-vide-yin','coeur-rein','rn-yin-yang','gi-secheresse'],
+  yinVide:['qi-yin','rn-vide-yin','foie-rein-yin','f-vide-yin','c-vide-yin','p-vide-yin','e-vide-yin','coeur-rein','rn-yin-yang','gi-secheresse'],
   yangMonte:['f-yang','f-feu'],
 };
 function bGr(t,g){
@@ -1450,6 +1465,14 @@ ${stepsHTML(3)}<h1 class="vh" style="margin-top:14px">${$t('Ton bilan')}</h1><p 
     if(zh)h+=`<p class="pv-zh">${zh}<small>${esc(b.tabs.filter(r=>r.t.py).map(r=>r.t.py).join(' + '))}</small></p>`;
   }
   h+=`</section>`;
+  if(b.enough){
+    const zhB=b.tabs.filter(r=>r.t.zh).map(r=>r.t.zh).join(' + '),pyB=b.tabs.filter(r=>r.t.py).map(r=>r.t.py).join(' + ');
+    const scB={};b.tabs.forEach((r,i)=>arr(r.t.recettes).forEach((id,k)=>{scB[id]=(scB[id]||0)+(i?1:1.5)+(k<3?0.5:0);}));
+    lastBilan={sel:[...sel],tabs:b.tabs.map(r=>({id:r.t.id,pct:r.pct})),msgs:msgs.map(m=>elide(m.startsWith('<div class="pv-b')?m:pvBulle(m))),zh:zhB,py:pyB,
+      recs:Object.keys(scB).filter(id=>fiche(id)).sort((x,y)=>scB[y]-scB[x]).slice(0,6),
+      lg:{fait:b.langue?(LGX.fait||Date.now()):0,exam:LGX.exam||null,p1:b.langue?LGX.photo||null:null,p2:b.langue?LGX.photo2||null:null,r:b.langue&&lgFresh()?JSON.parse(J(LGX.r)):null}};
+    h+=bilanSaveHTML();
+  }else lastBilan=null;
   if(b.questions.length)h+=`<div class="verify pv-q"><span>${$t(b.enough?'Pour affiner mon bilan, as-tu aussi :':'As-tu aussi :')}</span><div class="chips small">${b.questions.map(s=>`<button type="button" class="chip add" data-sym="${esc(s)}" data-keep="1" aria-pressed="false">+ ${esc(symName(s))}</button>`).join('')}</div></div>`;
   if(b.enough){
     h+=`<h2 class="results-h">${$t(b.tabs.length>1?'Tes tableaux':'Ton tableau')}</h2><div class="entries">${b.tabs.map((r,i)=>{const [cls,lab]=force(r);return `<div class="result"><p class="pv-role">${$t(i?'Associé':'Principal')}</p>${cardT(r.t,`<span class="match">${ringHTML(r.pct,cls)}<span class="match-t"><b>${$t('{p} % compatible',{p:r.pct})}</b><span>${$t('avec tes symptômes')} · ${lab}</span></span></span>`,true)}</div>`;}).join('')}</div>`;
@@ -1472,8 +1495,84 @@ ${stepsHTML(3)}<h1 class="vh" style="margin-top:14px">${$t('Ton bilan')}</h1><p 
     view.innerHTML=h;bilanShown=null;
   }
 }
+/* ---------- Bilans enregistrés ----------
+   Un bilan enregistré garde ce qui a été dit ce jour-là : symptômes, langue, tableaux, texte du praticien, plats.
+   La séance de points et les conseils se recalculent à partir des tableaux. Les bilans restent sur ce téléphone,
+   comme les symptômes et les photos de langue. */
+let lastBilan=null;
+function bilans(){return arr(storedJSON('ys.bilans',[])).filter(b=>b&&b.id&&Array.isArray(b.tabs));}
+function saveBilans(L){try{localStorage.setItem('ys.bilans',J(L.slice(0,60)));return true;}catch(e){return false;}}
+function bilanRec(id){return bilans().find(b=>b.id===id)||null;}
+function routeOk(r){return !!r&&(r.kind==='b'?!!bilanRec(r.id):!!item(r.kind,r.id));}
+function bilanKey(x){return x.tabs.map(t=>t.id).join('+')+'|'+[...x.sel].sort().join(',');}
+function bilanDejaEnr(){if(!lastBilan)return null;const k=bilanKey(lastBilan),auj=new Date().toDateString();return bilans().find(b=>bilanKey(b)===k&&new Date(b.d).toDateString()===auj)||null;}
+function bilanEnregistrer(){
+  if(!lastBilan)return;
+  const deja=bilanDejaEnr();if(deja){openBilan(deja.id);return;}
+  const rec=Object.assign({id:'bl'+Date.now().toString(36),d:new Date().toISOString()},lastBilan);
+  if(!saveBilans([rec,...bilans()])){toast('Plus assez de place sur ce téléphone pour enregistrer le bilan.');return;}
+  const b=$('#bilan-save');if(b)b.outerHTML=bilanSaveHTML();
+  toast('Bilan enregistré dans ton profil',()=>openBilan(rec.id),'Voir');
+}
+function bilanSaveHTML(){
+  const d=bilanDejaEnr();
+  return d?`<div class="bsave ok" id="bilan-save"><span>✓ ${$t('Bilan enregistré dans ton profil')}</span><button type="button" class="linkbtn inline pv-link" data-bilans="1">${$t('Mes bilans')}</button></div>`
+    :`<div class="bsave" id="bilan-save"><button type="button" class="cta" data-bsave="1">${$t('Enregistrer ce bilan')}</button><span>${$t('Garde ton bilan, tes points et tes plats pour les retrouver plus tard.')}</span></div>`;
+}
+function openBilan(id){
+  if(!bilanRec(id))return;
+  if(!route)scrollMem[tab]=window.scrollY;
+  route={kind:'b',id};hideStaleToast();
+  try{history.pushState({ys:'b:'+id},'','#b-'+id);}catch(e){}
+  render();window.scrollTo(0,0);
+}
+function bilanTitre(b){return $t('Bilan du {d}',{d:lgDate(b.d)});}
+function bilanCard(b){
+  const ts=b.tabs.map(x=>tableau(x.id)).filter(Boolean);
+  return `<button type="button" class="bl-card" data-bopen="${esc(b.id)}"><span class="bl-d">${esc(bilanTitre(b))}</span><span class="bl-t">${ts.map((t,i)=>`<b${i?' class="as"':''}>${esc(t.nom)}</b>`).join('')}</span>${b.zh?`<span class="bl-zh" lang="zh-Hans">${esc(b.zh)}</span>`:''}<span class="bl-n">${plural(arr(b.sel).filter(s=>SYM[s]&&SYM[s].cat!=='langue').length,'symptôme','symptômes')}${b.lg&&b.lg.fait?' · '+$t('langue examinée'):''}</span></button>`;
+}
+function bilansSheet(){
+  const L=bilans();
+  openSheet($t('Mes bilans'),plural(L.length,'bilan enregistré','bilans enregistrés'),L.length?`<div class="bl-list">${L.map(bilanCard).join('')}</div>`:`<p class="hint">${$t('Aucun bilan enregistré pour l\'instant. À la fin d\'un bilan, touche « Enregistrer ce bilan ».')}</p>`);
+}
+function renderBilanEnr(b){
+  const tabs=b.tabs.map(x=>({x,t:tableau(x.id)})).filter(o=>o.t);
+  const sel=arr(b.sel).filter(s=>SYM[s]),hors=sel.filter(s=>SYM[s].cat!=='langue'),L=sel.filter(s=>SYM[s].cat==='langue');
+  const ph=b.lg?[lgPhoto1(b.lg.p1),lgPhoto1(b.lg.p2)].filter(Boolean):[];
+  const mods=b.lg&&b.lg.r?lgModels(b.lg.r):[];
+  let h=`<div class="bar"><button class="back" id="back" type="button"><span aria-hidden="true">‹</span>${$t('Retour')}</button><span class="kind">${$t('Bilan enregistré')}</span></div>
+<h1 class="vh" style="margin-top:18px">${esc(bilanTitre(b))}</h1>
+<h2 class="sec">${$t('Tes symptômes ce jour-là')}</h2><div class="chips small">${hors.map(s=>`<span class="chip static">${esc(symName(s))}</span>`).join('')}</div>`;
+  if(ph.length||mods.length||L.length)h+=`<h2 class="sec">${$t('Ta langue ce jour-là')}</h2><div class="bl-lg">${ph.map(p=>`<button type="button" class="lg-zoom" data-lgph="${esc(p.id)}" aria-label="${$t('Agrandir la photo')}"><img src="${p.img}" alt=""></button>`).join('')}</div>${mods.length?`<div class="lg-ex-m bl-mods">${mods.map(m=>`<span class="lg-mini" title="${esc(m[2])}">${tongueSVG(lgIll(m[0],m[1]))}</span>`).join('')}</div><p class="hint">${esc(mods.map(m=>m[2]).join(' · '))}</p>`:L.length?`<p class="hint">${esc(L.map(s=>symName(s)).join(' · '))}</p>`:''}`;
+  h+=`<section class="pv" aria-label="${$t('Ton praticien virtuel')}"><div class="pv-h">${AVATAR}<div><b>${$t('Ton praticien virtuel')}</b><small>${esc(lgDate(b.d))}</small></div></div>${arr(b.msgs).map(m=>String(m).startsWith('<div class="pv-b')?m:pvBulle(m)).join('')}${b.zh?`<p class="pv-zh"><span lang="zh-Hans">${esc(b.zh)}</span><small>${esc(b.py||'')}</small></p>`:''}</section>`;
+  h+=`<h2 class="results-h">${$t(tabs.length>1?'Tes tableaux':'Ton tableau')}</h2><div class="entries">${tabs.map(({x,t},i)=>`<div class="result"><p class="pv-role">${$t(i?'Associé':'Principal')}${x.pct?` · ${$t('{p} % compatible',{p:x.pct})}`:''}</p>${cardT(t,'',true)}</div>`).join('')}</div>`;
+  const e=bilanProto(tabs.map(o=>o.t));
+  if(e._items.length)h+=`<h2 class="sec">${$t('Ta séance de points')}</h2><p class="hint">${$t('Une séance par jour, jusqu\'à ce que les signes s\'apaisent. Refais un bilan si tes symptômes changent.')}</p><div class="fiche bilan-proto">${protoHTML(e)}</div>`;
+  const recs=arr(b.recs).map(fiche).filter(Boolean);
+  if(recs.length)h+=`<h2 class="sec">${$t('Dans ton assiette')}</h2><div class="entries">${recs.map(x=>cardF(x)).join('')}</div>`;
+  const pt=tabs[0]&&tabs[0].t,cons=[];tabs.forEach(o=>arr(o.t.conseils).slice(0,2).forEach(c=>{if(!cons.includes(c))cons.push(c);}));
+  if(pt&&(pt.privilegier||pt.eviter||cons.length))h+=`<h2 class="sec">${$t('Au quotidien')}</h2>${pt.privilegier||pt.eviter?`<div class="dual">${pt.privilegier?`<div class="card good"><h3>${$t('À privilégier')}</h3><p>${esc(pt.privilegier)}</p></div>`:''}${pt.eviter?`<div class="card bad"><h3>${$t('À éviter')}</h3><p>${esc(pt.eviter)}</p></div>`:''}</div>`:''}${cons.length?`<ul class="bullets">${cons.slice(0,6).map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}`;
+  h+=`<div class="bl-acts"><button type="button" class="ghost" data-bredo="${esc(b.id)}">${$t('Refaire un bilan avec ces symptômes')}</button><button type="button" class="ghost danger" data-bdel="${esc(b.id)}">${$t('Supprimer ce bilan')}</button></div>
+<p class="fine">${$t('Ce bilan est une orientation selon la médecine traditionnelle chinoise, calculée à partir de tes réponses. Ce n\'est pas un diagnostic médical et il ne remplace ni ton médecin ni le bilan d\'un praticien qui t\'examine (langue, pouls).')}</p>`;
+  view.innerHTML=h;
+  if(e._items.length){T.forEach((t,k)=>{if(t.eid===e.id&&t.ekind==='b')updT(k);});counts('b:'+e.id);}
+  bilanShown=e.id;
+}
+function bilanSupprimer(id){
+  const L=bilans(),i=L.findIndex(b=>b.id===id);if(i<0)return;
+  const [old]=L.splice(i,1);saveBilans(L);lgGC();
+  route=null;try{history.replaceState(null,'','#'+tab);}catch(e){}
+  render();window.scrollTo(0,scrollMem[tab]||0);
+  toast('Bilan supprimé',()=>{const M=bilans();M.splice(Math.min(i,M.length),0,old);saveBilans(M);render();});
+}
+function bilanRefaire(id){
+  const b=bilanRec(id);if(!b)return;
+  symSel.clear();arr(b.sel).filter(s=>SYM[s]&&SYM[s].cat!=='langue').forEach(s=>symSel.add(s));saveSet('ys.symptomes',symSel);
+  route=null;tab='symptomes';store('ys.onglet',tab);symMode='choisir';try{history.replaceState(null,'','#symptomes');}catch(e){}
+  render();window.scrollTo(0,0);toast('Symptômes repris. Ajoute ou retire ce qui a changé, puis valide.');
+}
 let bilanShown=null;
-function onBilanShown(t){return t&&t.ekind==='b'&&!route&&tab==='symptomes'&&symMode==='bilan'&&bilanShown===t.eid;}
+function onBilanShown(t){return t&&t.ekind==='b'&&bilanShown===t.eid&&(route?route.kind==='b':tab==='symptomes'&&symMode==='bilan');}
 
 /* ---------- Tableaux ---------- */
 function groupsWith(){return ORGS.map(o=>({o,list:tableaux.filter(t=>t._groups.includes(o.id))})).filter(g=>g.list.length);}
@@ -1768,6 +1867,10 @@ function setSetting(k,v,b){
   else if(k==='portions'){setPref(k,+v||0);}
   b.parentNode.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
 }
+function suiviHTML(){
+  const nb=bilans().length,ne=lgHist().length;
+  return `<section class="card suivi"><h2>${$t('Mon suivi')}</h2><p>${$t('Tes bilans enregistrés et tes examens de langue, datés. Ils restent sur ce téléphone.')}</p><div class="suivi-b"><button type="button" class="ghost" data-bilans="1">${$t('Mes bilans')} <b>${nb}</b></button><button type="button" class="ghost" data-lghist="1">${$t('Mes examens de langue')} <b>${ne}</b></button></div></section>`;
+}
 function renderInfos(){
   const nP=fiches.filter(e=>e.type==='protocole').length,nR=fiches.length-nP,nSup=masques.filter(m=>item(m.k,m.id)).length;
   let inst;
@@ -1778,12 +1881,12 @@ function renderInfos(){
   const acc=(list,g)=>`<div class="accwrap" data-acc="${g}">`+list.map(([t,p],i)=>`<details class="cat" data-cat="${g}${i}"><summary><span>${esc($t(t))}</span></summary><p class="prose">${esc($t(p))}</p></details>`).join('')+'</div>';
   const acts=[
     nSup?`<button type="button" class="ghost" data-unhide="1">${$t(nSup>1?'Remettre les {n} fiches supprimées':'Remettre la fiche supprimée',{n:nSup})}</button>`:'',
-    lgHist().length?`<button type="button" class="ghost" data-lghist="1">${$t('Mes examens de langue ({n})',{n:lgHist().length})}</button>`:'',
     symSel.size?`<button type="button" class="ghost" data-clear="sym">${$t('Effacer mes symptômes ({n})',{n:symSel.size})}</button>`:'',
     have.size?`<button type="button" class="ghost" data-clear="ing">${$t('Décocher mes ingrédients ({n})',{n:have.size})}</button>`:'',
     `<button type="button" class="ghost" data-prefreset="1">${$t('Rétablir les réglages par défaut')}</button>`].join('');
   view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">${$t('Version {v}',{v:esc(DATA.version||'')})}</p></div></header>
 ${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:''}
+${suiviHTML()}
 ${settingsHTML()}
 <section class="card"><h2>${$t('À lire avant d\'utiliser')}</h2><p>${$t('Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.')}</p><p>${$t('Ce n\'est ni un diagnostic ni un traitement. Si un symptôme dure, s\'aggrave ou t\'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.')}</p><p><b>${$t('Rien ne remplace un vrai praticien.')}</b> ${$t('L\'appli ne vaut pas le bilan et le diagnostic d\'un praticien de médecine traditionnelle chinoise : en t\'examinant (langue, pouls, questions sur ton histoire et ton mode de vie), lui seul peut dire quels tableaux sont vraiment les tiens et adapter les soins à ta situation.')}</p></section>
 <h2 class="sec">${$t('Bien masser')}</h2>${acc(GUIDE,'g')}
@@ -1921,10 +2024,11 @@ function render(){
     view.innerHTML=loadError?`<p class="msg">${$t('Le contenu n\'a pas pu se charger. Vérifie ta connexion et rouvre l\'appli.')}</p>`:`<p class="msg" style="border:0">${$t('Ouverture du carnet…')}</p>`;
     return;
   }
+  if(route&&route.kind==='b'){const b=bilanRec(route.id);if(b){renderBilanEnr(b);mini();saveUI();return;}route=null;}
   const e=route&&item(route.kind,route.id);
   if(e){e.kind==='t'?renderTableauDetail(e):renderFicheDetail(e);}
   else{route=null;({symptomes:renderSym,tableaux:renderTableaux,cuisine:renderCuisine,carnet:renderCarnet,infos:renderInfos})[tab]();}
-  mini();
+  mini();saveUI();
 }
 function rerenderKeep(sel){
   const el=sel&&document.querySelector(sel);const before=el?el.getBoundingClientRect().top:null;const y=window.scrollY;
@@ -1960,7 +2064,7 @@ function goBack(){
 }
 function parseHash(){
   const h=decodeURIComponent((location.hash||'').slice(1));
-  const m=/^([ft])-(.+)$/.exec(h);
+  const m=/^([ftb])-(.+)$/.exec(h);
   if(m)return{route:{kind:m[1],id:m[2]}};
   return{tab:TABS.includes(h)?h:null};
 }
@@ -1968,7 +2072,7 @@ window.addEventListener('popstate',()=>{
   if(ignorePop){flushPop();return;}
   if(sheetOpen){closeSheet(true);return;}
   const p=parseHash();
-  if(p.route&&item(p.route.kind,p.route.id)){route=p.route;render();window.scrollTo(0,0);return;}
+  if(p.route&&routeOk(p.route)){route=p.route;render();window.scrollTo(0,0);return;}
   route=null;if(p.tab)tab=p.tab;
   render();window.scrollTo(0,scrollMem[tab]||0);
 });
@@ -2225,6 +2329,7 @@ document.addEventListener('click',ev=>{
   if(b.closest('#sheet')){
     if(d.opent){const id=d.opent;closeSheet(false,()=>openItem('t',id));return;}
     if(d.lgex){lgExamSheet(d.lgex);return;}
+    if(d.bopen){const id=d.bopen;closeSheet(false,()=>openBilan(id));return;}
     if(d.open){const id=d.open;closeSheet(false,()=>openItem('f',id));return;}
     if(d.ing){have.has(d.ing)?have.delete(d.ing):have.add(d.ing);saveSet('ys.cuisine',have);b.setAttribute('aria-pressed',String(have.has(d.ing)));toast(have.has(d.ing)?'Ajouté à ta cuisine':'Retiré de ta cuisine');return;}
     if(d.gsym){toggleSym(d.gsym,null);const on=symSel.has(d.gsym);b.setAttribute('aria-pressed',String(on));b.textContent=gsymLabel(d.gsym);toast($t(on?'Ajouté : {s}':'Retiré : {s}',{s:symName(d.gsym)}));return;}
@@ -2250,6 +2355,11 @@ document.addEventListener('click',ev=>{
   if(d.lgfile){lgTarget=d.lgfile==='dessous'?'dessous':'dessus';const i=$('#lg-file');if(i)i.click();return;}
   if(d.lgex){lgExamSheet(d.lgex);return;}
   if(d.lghist){lgHistSheet();return;}
+  if(d.bsave){bilanEnregistrer();return;}
+  if(d.bilans){bilansSheet();return;}
+  if(d.bopen){openBilan(d.bopen);return;}
+  if(d.bdel){bilanSupprimer(d.bdel);return;}
+  if(d.bredo){bilanRefaire(d.bredo);return;}
   if(d.lgph){lgPhotoSheet(d.lgph);return;}
   if(d.more){showAll=true;rerenderKeep('[data-more]');return;}
   if(d.f){filter=d.f;store('ys.filtre',filter);renderTimeline();return;}
@@ -2319,12 +2429,18 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=
 lastSnap=J(dataOnly());
 (function initRoute(){
   const p=parseHash();
+  if(UI0&&TABS.includes(UI0.tab)){
+    tab=UI0.tab;route=UI0.route&&UI0.route.kind&&UI0.route.id?{kind:String(UI0.route.kind),id:String(UI0.route.id)}:null;
+    if(['choisir','langue','bilan','resultats'].includes(UI0.symMode))symMode=UI0.symMode;
+    try{history.replaceState(null,'',route?'#'+route.kind+'-'+route.id:'#'+tab);}catch(e){}
+    return;
+  }
   if(p.route)route=p.route;
   else{let t='symptomes';try{if(sessionStorage.getItem('ys.apres')==='reglages')t='infos';}catch(e){}tab=t;try{history.replaceState(null,'','#'+t);}catch(e){}}
 })();
 const INTRO_HTML=$('#intro')?$('#intro').outerHTML:'';
 function playIntro(){
-  if(!PREF.intro){const i=$('#intro');if(i)i.remove();return;}
+  if(!PREF.intro||UI0){const i=$('#intro');if(i)i.remove();return;}
   if(!INTRO_HTML)return;
   let el=$('#intro');
   if(!el){document.body.insertAdjacentHTML('afterbegin',INTRO_HTML);el=$('#intro');}
@@ -2332,17 +2448,16 @@ function playIntro(){
   playIntro.t=setTimeout(()=>{el.classList.add('out');setTimeout(()=>el.remove(),600);},reduce?1600:3600);
 }
 playIntro();
-/* Retour dans l'appli après 5 minutes ou plus : on la rouvre comme un nouveau lancement,
-   sauf si un minuteur tourne ou si une feuille est ouverte */
+/* Appli mise de côté puis reprise : on reste sur la même page. Après 5 minutes, une nouvelle version éventuelle
+   est chargée sans bruit, et la page reprend au même endroit. */
 let hiddenAt=0;
 document.addEventListener('visibilitychange',()=>{
-  if(document.visibilityState==='hidden'){hiddenAt=Date.now();return;}
+  if(document.visibilityState==='hidden'){hiddenAt=Date.now();saveUINow();return;}
   const away=hiddenAt?Date.now()-hiddenAt:0;hiddenAt=0;
-  if(away<5*60*1000||act||pendingNext||sheetOpen||lp){checkUpdate(false);return;}
-  playIntro();
-  if(DATA){symMode='choisir';goTab('symptomes');}
-  checkUpdate(true);
+  checkUpdate(away>=5*60*1000&&!act&&!pendingNext&&!sheetOpen&&!lp);
 });
+window.addEventListener('pagehide',saveUINow);
+window.addEventListener('scroll',saveUI,{passive:true});
 /* Nouvelle version en ligne ? Au retour après 5 min : rechargement pendant l'animation.
    Sinon : bandeau « Mettre à jour » (vérifié au retour dans l'appli et toutes les 10 minutes). */
 let lastCheck=0,updOffered=false;
@@ -2380,12 +2495,13 @@ loadData().then(d=>{
   tableaux.forEach(t=>arr(t.recettes).forEach(id=>{const e=fiche(id);if(e&&!e._tab.includes(t.id))e._tab.push(t.id);}));
   [...symSel].forEach(s=>{if(!SYM[s])symSel.delete(s);});
   [...have].forEach(s=>{if(!INGC[s])have.delete(s);});
-  if(route&&!item(route.kind,route.id))route=null;
+  if(route&&!routeOk(route))route=null;
   if(FB&&(store('ys.sync.uid')||store('ys.compte.attente')))loadCompte().catch(()=>{});
   const prevV=store('ys.version'),curV=String(DATA.version||'');
   if(curV){store('ys.version',curV);if(prevV&&prevV!==curV)setTimeout(()=>toast($t('Appli mise à jour : version {v}',{v:curV})),$('#intro')?3900:300);}
-  if(route)pushRecent(route.kind,route.id);
+  if(route&&route.kind!=='b')pushRecent(route.kind,route.id);
   render();
+  if(UI0&&UI0.y&&!(sessionStorage.getItem('ys.apres'))){const y=+UI0.y||0;setTimeout(()=>window.scrollTo(0,y),60);setTimeout(()=>window.scrollTo(0,y),450);}
   try{if(sessionStorage.getItem('ys.apres')==='reglages'){sessionStorage.removeItem('ys.apres');setOpen=true;const r=!route&&tab==='infos'&&$('#reglages');if(r){r.open=true;const go=()=>window.scrollTo(0,Math.max(0,window.scrollY+r.getBoundingClientRect().top-12));setTimeout(go,150);setTimeout(go,500);}}}catch(e){}
 }).catch(()=>{loadError=true;render();});
 

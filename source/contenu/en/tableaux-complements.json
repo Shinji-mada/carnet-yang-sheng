@@ -126,7 +126,8 @@
     "nausee",
     "teint-jaune",
     "jambes-faibles",
-    "sans-enduit"
+    "sans-enduit",
+    "douleur-pression-mieux"
    ],
    "contre": [
     "faim-excessive",
@@ -223,12 +224,14 @@
     "langue-humide",
     "aliments-non-digeres",
     "digestion-lente",
-    "salive-abondante"
+    "salive-abondante",
+    "douleur-pression-mieux"
    ],
    "contre": [
     "douleur-estomac-brulure",
     "soif",
-    "langue-rouge"
+    "langue-rouge",
+    "douleur-pression-pire"
    ],
    "langue": "Pale, swollen, wet, tooth marks.",
    "pouls": "Deep, weak and slow.",
@@ -390,6 +393,127 @@
     "Light sleep"
    ],
    "diag": "your Gallbladder lacks strength: you hesitate, startle easily and lack the drive to decide"
+  },
+  {
+   "id": "vb-mucosites",
+   "organe": "vesicule",
+   "nom": "Phlegm-Heat Disturbing the Gallbladder",
+   "zh": "胆郁痰扰",
+   "py": "Dǎn yù tán rǎo",
+   "resume": "Hot Phlegm clogs the Gallbladder and rises to disturb the mind: restless sleep, fears and palpitations, bitter mouth, nausea.",
+   "causes": [
+    "Stress, frustration, held-back emotions",
+    "Greasy, sweet or spicy food",
+    "Emotional shock, a great fright",
+    "Weak Spleen producing Phlegm"
+   ],
+   "mecanisme": "When Gallbladder Qi gets blocked, it heats up and mixes with the Phlegm of a clogged digestion. This hot Phlegm rises to disturb the mind: you sleep badly, wake with a start, get scared over nothing, your heart races. It also bothers the Stomach: bitter mouth, nausea, belching.",
+   "cle": [
+    "peurs",
+    "sommeil-agite",
+    "gout-amer",
+    "palpitations"
+   ],
+   "autres": [
+    "reveils",
+    "endormissement",
+    "anxiete",
+    "irritabilite",
+    "indecision",
+    "soupirs",
+    "oppression",
+    "douleur-cotes",
+    "vertiges",
+    "nausee",
+    "vomissements",
+    "eructations",
+    "bouche-pateuse",
+    "enduit-gras",
+    "enduit-jaune",
+    "langue-rouge"
+   ],
+   "contre": [
+    "sans-enduit",
+    "langue-rouge-sans-enduit",
+    "enduit-pele"
+   ],
+   "langue": "Red or pink, greasy coating, white or yellow.",
+   "pouls": "Wiry and slippery, sometimes fast.",
+   "principe": {
+    "zh": "清胆化痰安神",
+    "py": "Qīng dǎn huà tán ān shén",
+    "fr": "Clear the Gallbladder, transform Phlegm, calm the mind"
+   },
+   "moxa": "No moxa: there is Heat.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "VB 34",
+       "s": 90,
+       "pourquoi": "Frees the Gallbladder and moves Qi."
+      },
+      {
+       "p": "E 40",
+       "s": 90,
+       "pourquoi": "The main point for transforming Phlegm."
+      },
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Calms nausea, opens the chest, settles the mind."
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Brings down Heat from the Liver and Gallbladder."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Calms the mind and fears, helps you sleep."
+      },
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "pourquoi": "Calms the mind."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "jus-poire-radis",
+    "soupe-mungo",
+    "congee-ecorce-pamplemousse",
+    "soupe-bai-he-zao-ren",
+    "saute-celeri-tofu",
+    "infusion-rose-orange"
+   ],
+   "privilegier": "White radish, celery, cucumber, pear, mung beans, mandarin peel, mushrooms, millet, light green tea.",
+   "eviter": "Fried food, greasy dishes, sweets, dairy, spices, coffee, late meals.",
+   "conseils": [
+    "Eat light in the evening, at least 3 hours before bed.",
+    "Move every day (walking, cycling) to keep Qi flowing.",
+    "Before sleeping, write your worries down and breathe slowly, with a long out-breath."
+   ],
+   "groupes": [
+    "coeur"
+   ],
+   "simple": "Stress and hot Phlegm disturb sleep and courage: waking with a start, anxiety, bitter mouth, nausea.",
+   "reperes": [
+    "Insomnia with waking with a start",
+    "Anxiety, panic attacks",
+    "Bitter mouth",
+    "Nausea",
+    "Dizziness"
+   ],
+   "diag": "hot Phlegm is clogging your Gallbladder and rising to disturb your mind: you sleep badly, you startle easily and your mouth tastes bitter"
   },
   {
    "id": "v-vide-froid",

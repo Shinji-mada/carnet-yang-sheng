@@ -764,3 +764,26 @@ details.set-acc>.set>.set-h:first-child{margin-top:16px}
 .lg-ex-o{display:inline-flex;align-items:center;gap:8px;padding:6px 12px 6px 6px;border-radius:12px;background:var(--cin-bg);color:var(--cin);font-weight:700;font-size:14px}
 .lg-ex-o .lg-svg{width:34px;height:40px}
 .pv-lgimgs{display:flex;flex-direction:column;gap:6px;flex:none}
+/* Bilans enregistrés et suivi */
+.bsave{display:flex;flex-direction:column;align-items:center;gap:6px;margin:16px 0 4px;text-align:center}
+.bsave .cta{box-shadow:none;width:100%;max-width:360px}
+.bsave span{font-size:13.5px;color:var(--muted)}
+.bsave.ok{flex-direction:row;justify-content:center;flex-wrap:wrap;gap:4px 10px;padding:10px 14px;border-radius:14px;background:var(--jade-bg)}
+.bsave.ok span{color:var(--jade);font-weight:700;font-size:14.5px}
+.bl-list{display:grid;gap:10px}
+.bl-card{display:grid;gap:5px;text-align:left;width:100%;padding:12px 14px;border:1px solid var(--line);border-left:4px solid var(--cin);border-radius:14px;background:var(--surface);cursor:pointer;color:var(--ink)}
+.bl-d{font-weight:700;font-size:15px}
+.bl-t{display:flex;flex-direction:column;gap:2px}
+.bl-t b{font-size:14.5px;color:var(--cin)}
+.bl-t b.as{font-weight:400;color:var(--ink)}
+.bl-zh{font-family:var(--serif);color:var(--cin);font-size:16px}
+.bl-n{font-size:13px;color:var(--muted)}
+.bl-lg{display:flex;gap:10px}
+.bl-lg .lg-zoom img{width:120px;height:120px;object-fit:cover;border-radius:12px;display:block}
+.bl-mods{margin-top:10px}
+.bl-acts{display:flex;flex-direction:column;gap:10px;margin-top:22px}
+.suivi-b{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.suivi-b .ghost b,.mesbilans b{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 6px;margin-left:6px;border-radius:999px;background:var(--jade-bg);color:var(--jade);font-size:12.5px}
+.mesbilans{margin-top:12px;display:inline-flex;align-items:center}
+.sheet-acts.col{flex-direction:column;align-items:center;gap:8px;text-align:center}
+.sheet-acts.col .primary{width:100%;max-width:340px}

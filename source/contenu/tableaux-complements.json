@@ -126,7 +126,8 @@
     "nausee",
     "teint-jaune",
     "jambes-faibles",
-    "sans-enduit"
+    "sans-enduit",
+    "douleur-pression-mieux"
    ],
    "contre": [
     "faim-excessive",
@@ -223,12 +224,14 @@
     "langue-humide",
     "aliments-non-digeres",
     "digestion-lente",
-    "salive-abondante"
+    "salive-abondante",
+    "douleur-pression-mieux"
    ],
    "contre": [
     "douleur-estomac-brulure",
     "soif",
-    "langue-rouge"
+    "langue-rouge",
+    "douleur-pression-pire"
    ],
    "langue": "Pâle, gonflée, humide, marques des dents.",
    "pouls": "Profond, faible et lent.",
@@ -390,6 +393,127 @@
     "Sommeil léger"
    ],
    "diag": "ta Vésicule biliaire manque de force : tu hésites, tu sursautes et tu manques d'élan pour décider"
+  },
+  {
+   "id": "vb-mucosites",
+   "organe": "vesicule",
+   "nom": "Mucosités-Chaleur qui troublent la Vésicule biliaire",
+   "zh": "胆郁痰扰",
+   "py": "Dǎn yù tán rǎo",
+   "resume": "Des Mucosités chaudes encombrent la Vésicule biliaire et montent troubler l'esprit : sommeil agité, peurs et palpitations, bouche amère, nausées.",
+   "causes": [
+    "Stress, frustrations, émotions retenues",
+    "Alimentation grasse, sucrée ou épicée",
+    "Choc émotionnel, grande peur",
+    "Rate faible qui fabrique des Mucosités"
+   ],
+   "mecanisme": "Quand le Qi de la Vésicule biliaire se bloque, il s'échauffe et se mêle aux Mucosités d'une digestion encombrée. Cette Mucosité chaude monte troubler l'esprit : on dort mal, on se réveille en sursaut, on a peur pour un rien, le cœur bat vite. Elle gêne aussi l'Estomac : bouche amère, nausées, renvois.",
+   "cle": [
+    "peurs",
+    "sommeil-agite",
+    "gout-amer",
+    "palpitations"
+   ],
+   "autres": [
+    "reveils",
+    "endormissement",
+    "anxiete",
+    "irritabilite",
+    "indecision",
+    "soupirs",
+    "oppression",
+    "douleur-cotes",
+    "vertiges",
+    "nausee",
+    "vomissements",
+    "eructations",
+    "bouche-pateuse",
+    "enduit-gras",
+    "enduit-jaune",
+    "langue-rouge"
+   ],
+   "contre": [
+    "sans-enduit",
+    "langue-rouge-sans-enduit",
+    "enduit-pele"
+   ],
+   "langue": "Rouge ou rose, enduit gras, blanc ou jaune.",
+   "pouls": "Tendu et glissant, parfois rapide.",
+   "principe": {
+    "zh": "清胆化痰安神",
+    "py": "Qīng dǎn huà tán ān shén",
+    "fr": "Clarifier la Vésicule biliaire, transformer les Mucosités, apaiser l'esprit"
+   },
+   "moxa": "Pas de moxa : il y a de la Chaleur.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "VB 34",
+       "s": 90,
+       "pourquoi": "Libère la Vésicule biliaire et fait circuler le Qi."
+      },
+      {
+       "p": "E 40",
+       "s": 90,
+       "pourquoi": "Le grand point pour transformer les Mucosités."
+      },
+      {
+       "p": "MC 6",
+       "s": 90,
+       "pourquoi": "Calme les nausées, ouvre la poitrine, apaise l'esprit."
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Fait descendre la Chaleur du Foie et de la Vésicule."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "C 7",
+       "s": 90,
+       "pourquoi": "Apaise l'esprit et les peurs, aide à dormir."
+      },
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "pourquoi": "Calme l'esprit."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "jus-poire-radis",
+    "soupe-mungo",
+    "congee-ecorce-pamplemousse",
+    "soupe-bai-he-zao-ren",
+    "saute-celeri-tofu",
+    "infusion-rose-orange"
+   ],
+   "privilegier": "Radis blanc, céleri, concombre, poire, haricots mungo, écorce de mandarine, champignons, millet, thé vert léger.",
+   "eviter": "Fritures, plats gras, sucreries, produits laitiers, épices, café, repas tardifs.",
+   "conseils": [
+    "Mange léger le soir, au moins 3 h avant le coucher.",
+    "Bouge chaque jour (marche, vélo) pour faire circuler le Qi.",
+    "Avant de dormir, pose tes soucis sur papier et respire lentement, avec une longue expiration."
+   ],
+   "groupes": [
+    "coeur"
+   ],
+   "simple": "Stress et Mucosités chaudes troublent le sommeil et le courage : réveils en sursaut, angoisse, bouche amère, nausées.",
+   "reperes": [
+    "Insomnie avec réveils en sursaut",
+    "Anxiété, crises d'angoisse",
+    "Bouche amère",
+    "Nausées",
+    "Vertiges"
+   ],
+   "diag": "des Mucosités chaudes encombrent ta Vésicule biliaire et montent troubler ton esprit : tu dors mal, tu sursautes et tu as la bouche amère"
   },
   {
    "id": "v-vide-froid",

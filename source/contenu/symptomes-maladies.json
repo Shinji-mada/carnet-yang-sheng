@@ -79,7 +79,8 @@
     "f-yang",
     "e-feu",
     "mei-he-qi",
-    "f-vide-yin"
+    "f-vide-yin",
+    "qi-yin"
    ]
   },
   {
@@ -390,7 +391,8 @@
     "rn-vide-yin",
     "rn-yin-yang",
     "foie-rein-yin",
-    "rt-vide-qi"
+    "rt-vide-qi",
+    "qi-yin"
    ]
   },
   {
@@ -428,7 +430,8 @@
     "qi-sang",
     "stase-sang",
     "p-mucosites-humidite",
-    "p-mucosites-chaleur"
+    "p-mucosites-chaleur",
+    "qi-yin"
    ]
   },
   {
@@ -571,7 +574,8 @@
     "rn-vide-yin",
     "p-secheresse",
     "qi-sang",
-    "stase-sang"
+    "stase-sang",
+    "qi-yin"
    ]
   },
   {
@@ -588,7 +592,8 @@
     "qi-sang",
     "mei-he-qi",
     "stase-sang",
-    "rt-vide-qi"
+    "rt-vide-qi",
+    "qi-yin"
    ]
   },
   {
@@ -621,7 +626,8 @@
     "rn-vide-yin",
     "rt-sang",
     "stase-sang",
-    "foie-rein-yin"
+    "foie-rein-yin",
+    "qi-yin"
    ]
   },
   {

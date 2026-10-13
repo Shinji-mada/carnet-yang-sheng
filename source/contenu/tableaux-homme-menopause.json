@@ -31,7 +31,8 @@
     "regles-douloureuses",
     "douleur-fixe",
     "langue-pale",
-    "langue-humide"
+    "langue-humide",
+    "douleur-pression-pire"
    ],
    "contre": [
     "soif",

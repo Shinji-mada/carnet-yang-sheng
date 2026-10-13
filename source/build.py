@@ -287,7 +287,7 @@ index = f"""<!doctype html>
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<script>try{{var p=JSON.parse(localStorage.getItem('ys.reglages')||'{{}}')||{{}},r=document.documentElement;if(p.theme==='dark'||p.theme==='light')r.dataset.theme=p.theme;if(p.fs==='l'||p.fs==='xl')r.dataset.fs=p.fs;if(p.intro===false)r.classList.add('no-intro');if(localStorage.getItem('ys.langue')==='en')r.lang='en';}}catch(e){{}}</script>
+<script>try{{var p=JSON.parse(localStorage.getItem('ys.reglages')||'{{}}')||{{}},r=document.documentElement;if(p.theme==='dark'||p.theme==='light')r.dataset.theme=p.theme;if(p.fs==='l'||p.fs==='xl')r.dataset.fs=p.fs;if(p.intro===false)r.classList.add('no-intro');if(localStorage.getItem('ys.langue')==='en')r.lang='en';if(sessionStorage.getItem('ys.ui'))r.classList.add('no-intro');}}catch(e){{}}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Carnet Yang Sheng</title>
 <meta name="description" content="{manifest['description']}">

@@ -102,6 +102,12 @@
    "syn": "sécheresse bouche"
   },
   {
+   "id": "bouche-seche-sans-soif",
+   "cat": "general",
+   "nom": "Bouche sèche, mais sans envie de boire",
+   "syn": "bouche sèche pas soif sans envie de boire"
+  },
+  {
    "id": "lourdeur",
    "cat": "general",
    "nom": "Corps lourd, membres lourds",
@@ -227,6 +233,13 @@
    "syn": "tête qui tourne étourdissement"
   },
   {
+   "id": "vertiges-lever",
+   "cat": "tete",
+   "nom": "Vertiges ou vue qui se brouille en se levant d'un coup",
+   "syn": "vertiges lever debout tête qui tourne hypotension voile noir",
+   "alerte": "Des malaises répétés en te levant, ou une perte de connaissance, doivent être vus par un médecin."
+  },
+  {
    "id": "desequilibre",
    "cat": "tete",
    "nom": "Pertes d'équilibre, démarche instable",
@@ -286,6 +299,13 @@
    "nom": "Yeux rouges, gonflés ou douloureux",
    "alerte": "Un œil rouge et douloureux avec baisse de vision nécessite une consultation en urgence.",
    "syn": "conjonctivite yeux"
+  },
+  {
+   "id": "yeux-jaunes",
+   "cat": "tete",
+   "nom": "Blanc des yeux ou peau qui jaunit",
+   "syn": "jaunisse yeux jaunes peau jaune ictère",
+   "alerte": "Un jaunissement des yeux ou de la peau (jaunisse) doit être vu rapidement par un médecin."
   },
   {
    "id": "orgelet",
@@ -375,6 +395,12 @@
    "cat": "tete",
    "nom": "Goût amer dans la bouche",
    "syn": "amertume bouche"
+  },
+  {
+   "id": "gout-sucre",
+   "cat": "tete",
+   "nom": "Goût sucré dans la bouche, bouche collante",
+   "syn": "goût sucré bouche collante"
   },
   {
    "id": "haleine",
@@ -586,6 +612,19 @@
    "syn": "mal au ventre crampes"
   },
   {
+   "id": "douleur-pression-pire",
+   "cat": "digestion",
+   "nom": "Douleur du ventre qui empire quand on appuie dessus",
+   "syn": "douleur appuyer pression pire palpation ventre dur",
+   "alerte": "Une douleur du ventre forte, qui empire au toucher, avec fièvre ou ventre dur, doit être vue en urgence."
+  },
+  {
+   "id": "douleur-pression-mieux",
+   "cat": "digestion",
+   "nom": "Douleur du ventre soulagée quand on appuie ou qu'on pose la main dessus",
+   "syn": "douleur soulagée appuyer main chaleur pression mieux"
+  },
+  {
    "id": "gaz",
    "cat": "digestion",
    "nom": "Gaz, ventre qui gargouille",
@@ -624,6 +663,27 @@
    "syn": "selles"
   },
   {
+   "id": "selles-decolorees",
+   "cat": "selles",
+   "nom": "Selles très claires, blanchâtres ou couleur mastic",
+   "syn": "selles blanches décolorées claires grises mastic argile",
+   "alerte": "Des selles décolorées, surtout avec des urines foncées ou un jaunissement de la peau ou des yeux, doivent être vues rapidement par un médecin."
+  },
+  {
+   "id": "selles-noires",
+   "cat": "selles",
+   "nom": "Selles noires, comme du goudron",
+   "syn": "selles noires goudron méléna sang digéré",
+   "alerte": "Des selles noires et collantes peuvent venir d'un saignement de l'estomac : appelle le 15 ou consulte en urgence, surtout avec un malaise ou des vertiges. Le fer, le charbon, les myrtilles ou le boudin noircissent aussi les selles, sans danger."
+  },
+  {
+   "id": "sang-selles",
+   "cat": "selles",
+   "nom": "Sang rouge dans les selles ou sur le papier",
+   "syn": "sang selles papier rouge rectorragie saignement anus",
+   "alerte": "Du sang dans les selles doit toujours être montré à un médecin, même s'il vient souvent d'hémorroïdes."
+  },
+  {
    "id": "constipation-seche",
    "cat": "selles",
    "nom": "Constipation, selles sèches et dures",
@@ -635,6 +695,12 @@
    "cat": "selles",
    "nom": "Constipation par manque de force, selles pas dures",
    "syn": "constipation transit constipé"
+  },
+  {
+   "id": "selles-billes",
+   "cat": "selles",
+   "nom": "Selles en petites billes dures, comme des crottes de chèvre",
+   "syn": "billes crottes chèvre lapin selles dures petites boules"
   },
   {
    "id": "alternance",
@@ -686,6 +752,13 @@
    "nom": "Fuites urinaires",
    "alerte": "Parles-en à ton médecin : la rééducation du périnée donne de très bons résultats.",
    "syn": "incontinence pipi"
+  },
+  {
+   "id": "gouttes-apres-uriner",
+   "cat": "selles",
+   "nom": "Urines qui gouttent après avoir uriné, vessie jamais vraiment vide",
+   "syn": "gouttes gouttelettes vessie vide miction incomplète goutte retardataire",
+   "alerte": "Si c'est nouveau, avec un jet faible ou des envies la nuit, parles-en à ton médecin (la prostate chez l'homme)."
   },
   {
    "id": "pesanteur",

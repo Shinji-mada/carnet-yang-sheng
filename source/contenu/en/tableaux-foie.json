@@ -39,7 +39,8 @@
     "gynecomastie",
     "omoplate-hypocondre",
     "bords-rouges",
-    "veines-sublinguales"
+    "veines-sublinguales",
+    "selles-billes"
    ],
    "contre": [],
    "langue": "Normal or slightly red on the sides, thin white coating; veins under the tongue sometimes distended.",
@@ -264,7 +265,9 @@
     "langue-pale",
     "langue-mince",
     "langue-tremblante",
-    "langue-seche"
+    "langue-seche",
+    "selles-billes",
+    "vertiges-lever"
    ],
    "contre": [
     "langue-rouge",
@@ -615,7 +618,9 @@
     "nez-jaune",
     "bords-rouges",
     "langue-rouge",
-    "enduit-gras"
+    "enduit-gras",
+    "selles-decolorees",
+    "yeux-jaunes"
    ],
    "contre": [
     "frilosite",
