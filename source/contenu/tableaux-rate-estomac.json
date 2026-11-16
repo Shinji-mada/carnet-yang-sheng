@@ -66,12 +66,14 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Point Mu de l'Estomac : tonifie le centre."
+       "pourquoi": "Point Mu de l'Estomac : tonifie le centre.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifie le Qi de la Rate et de l'Estomac."
+       "pourquoi": "Tonifie le Qi de la Rate et de l'Estomac.",
+       "ess": 1
       },
       {
        "p": "Rt 3",
@@ -87,6 +89,11 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Point Shu du dos de la Rate."
+      },
+      {
+       "p": "V 21",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de l'Estomac : renforce le centre."
       }
      ]
     }
@@ -189,12 +196,23 @@
    "moxa": "Moxa conseillé.",
    "phases": [
     {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Draine l'eau qui s'accumule (gonflements)."
+      }
+     ]
+    },
+    {
      "m": "t",
      "items": [
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Tonifie le centre."
+       "pourquoi": "Tonifie le centre.",
+       "ess": 1
       },
       {
        "p": "Rt 3",
@@ -205,6 +223,11 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Point Shu du dos de la Rate."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Renforce la Rate et draine l'Humidité."
       }
      ]
     },
@@ -214,12 +237,19 @@
       {
        "p": "RM 6",
        "s": 300,
-       "pourquoi": "Réchauffe le Yang."
+       "pourquoi": "Réchauffe le Yang.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 240,
-       "pourquoi": "Réchauffe et tonifie la Rate et l'Estomac."
+       "pourquoi": "Réchauffe et tonifie la Rate et l'Estomac.",
+       "ess": 1
+      },
+      {
+       "p": "RM 9",
+       "s": 240,
+       "pourquoi": "Moxa : aide le corps à évacuer l'eau."
       }
      ]
     }
@@ -301,16 +331,18 @@
       {
        "p": "VG 20",
        "s": 90,
-       "pourquoi": "Fait remonter le Qi.",
        "tech": [
         "↻",
         "Pression douce, rotation horaire, sans appuyer fort"
-       ]
+       ],
+       "pourquoi": "Fait remonter le Qi.",
+       "ess": 1
       },
       {
        "p": "RM 6",
        "s": 90,
-       "pourquoi": "Tonifie le Qi."
+       "pourquoi": "Tonifie le Qi.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -321,6 +353,21 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Point Shu du dos de la Rate."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Point Mu de l'Estomac : renforce le centre."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Point Yuan de la Rate : tonifie le Qi de la Rate."
+      },
+      {
+       "p": "V 57",
+       "s": 90,
+       "pourquoi": "Soulage les hémorroïdes."
       }
      ]
     }
@@ -398,9 +445,10 @@
      "m": "t",
      "items": [
       {
-       "p": "Rt 1",
-       "s": 60,
-       "pourquoi": "Aide la Rate à retenir le Sang."
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifie le Qi.",
+       "ess": 1
       },
       {
        "p": "Rt 10",
@@ -408,14 +456,35 @@
        "pourquoi": "Régule le Sang."
       },
       {
-       "p": "E 36",
-       "s": 120,
-       "pourquoi": "Tonifie le Qi."
-      },
-      {
        "p": "V 20",
        "s": 90,
        "pourquoi": "Point Shu du dos de la Rate."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Point Yuan de la Rate : renforce la Rate qui retient le Sang."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Point Mu de l'Estomac : renforce le centre."
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Point de réunion du Sang : nourrit le Sang."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "Rt 1",
+       "s": 240,
+       "pourquoi": "Moxa : aide à arrêter les saignements (règles trop abondantes).",
+       "ess": 1
       }
      ]
     }
@@ -508,7 +577,18 @@
       {
        "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Draine l'Humidité."
+       "pourquoi": "Draine l'Humidité.",
+       "ess": 1
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "tech": [
+        "↺",
+        "Pression moyenne, rotation anti-horaire"
+       ],
+       "pourquoi": "Transforme l'Humidité au centre.",
+       "ess": 1
       },
       {
        "p": "RM 9",
@@ -516,13 +596,9 @@
        "pourquoi": "Aide à éliminer l'eau."
       },
       {
-       "p": "RM 12",
+       "p": "Rt 6",
        "s": 60,
-       "pourquoi": "Transforme l'Humidité au centre.",
-       "tech": [
-        "↺",
-        "Pression moyenne, rotation anti-horaire"
-       ]
+       "pourquoi": "Draine l'Humidité."
       }
      ]
     },
@@ -533,6 +609,11 @@
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Renforce la Rate."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Rate : aide la Rate à transformer l'Humidité."
       }
      ]
     },
@@ -643,7 +724,18 @@
       {
        "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Draine l'Humidité."
+       "pourquoi": "Draine l'Humidité.",
+       "ess": 1
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "tech": [
+        "↺",
+        "Pression moyenne, rotation anti-horaire"
+       ],
+       "pourquoi": "Harmonise le centre.",
+       "ess": 1
       },
       {
        "p": "GI 11",
@@ -656,18 +748,14 @@
        "pourquoi": "Clarifie la Chaleur de l'Estomac."
       },
       {
-       "p": "RM 12",
-       "s": 60,
-       "pourquoi": "Harmonise le centre.",
-       "tech": [
-        "↺",
-        "Pression moyenne, rotation anti-horaire"
-       ]
-      },
-      {
        "p": "E 40",
        "s": 60,
        "pourquoi": "Transforme l'Humidité."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité."
       }
      ]
     }
@@ -772,7 +860,14 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Tonifie l'Estomac."
+       "pourquoi": "Tonifie l'Estomac.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -780,14 +875,14 @@
        "pourquoi": "Tonifie l'Estomac."
       },
       {
-       "p": "Rt 6",
+       "p": "Rn 6",
        "s": 90,
        "pourquoi": "Nourrit le Yin."
       },
       {
-       "p": "Rn 6",
+       "p": "V 21",
        "s": 90,
-       "pourquoi": "Nourrit le Yin."
+       "pourquoi": "Point Shu du dos de l'Estomac : nourrit l'Estomac."
       }
      ]
     }
@@ -879,17 +974,19 @@
       {
        "p": "E 44",
        "s": 60,
-       "pourquoi": "Clarifie la Chaleur de l'Estomac, soulage les gencives."
+       "pourquoi": "Clarifie la Chaleur de l'Estomac, soulage les gencives.",
+       "ess": 1
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur.",
+       "ess": 1
       },
       {
        "p": "E 21",
        "s": 60,
        "pourquoi": "Calme la douleur d'estomac."
-      },
-      {
-       "p": "GI 11",
-       "s": 60,
-       "pourquoi": "Clarifie la Chaleur."
       },
       {
        "p": "GI 4",
@@ -900,6 +997,21 @@
        "p": "E 25",
        "s": 60,
        "pourquoi": "Aide les selles à descendre."
+      },
+      {
+       "p": "E 34",
+       "s": 60,
+       "pourquoi": "Point Xi de l'Estomac : calme la douleur aiguë."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Protège les liquides de l'Estomac."
       }
      ]
     }
@@ -976,9 +1088,10 @@
      "m": "d",
      "items": [
       {
-       "p": "MC 6",
+       "p": "E 21",
        "s": 60,
-       "pourquoi": "Fait descendre le Qi de l'Estomac, calme la nausée."
+       "pourquoi": "Calme la douleur d'estomac.",
+       "ess": 1
       },
       {
        "p": "Rt 4",
@@ -986,9 +1099,14 @@
        "pourquoi": "Calme la douleur du ventre."
       },
       {
-       "p": "E 21",
+       "p": "MC 6",
        "s": 60,
-       "pourquoi": "Calme la douleur d'estomac."
+       "pourquoi": "Fait descendre le Qi de l'Estomac, calme la nausée."
+      },
+      {
+       "p": "E 34",
+       "s": 60,
+       "pourquoi": "Point Xi de l'Estomac : calme la douleur aiguë."
       }
      ]
     },
@@ -998,7 +1116,8 @@
       {
        "p": "RM 12",
        "s": 300,
-       "pourquoi": "Réchauffe l'Estomac."
+       "pourquoi": "Réchauffe l'Estomac.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -1079,11 +1198,18 @@
       {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Libère l'Estomac.",
        "tech": [
         "↺",
         "Pression moyenne, rotation anti-horaire"
-       ]
+       ],
+       "pourquoi": "Libère l'Estomac.",
+       "ess": 1
+      },
+      {
+       "p": "RM 10",
+       "s": 60,
+       "pourquoi": "Aide les aliments à descendre de l'Estomac vers l'intestin.",
+       "ess": 1
       },
       {
        "p": "E 21",
@@ -1104,6 +1230,11 @@
        "p": "E 44",
        "s": 60,
        "pourquoi": "Dégage l'Estomac."
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Fait descendre et transforme ce qui stagne."
       }
      ]
     }
@@ -1181,16 +1312,23 @@
       {
        "p": "MC 6",
        "s": 90,
-       "pourquoi": "Point majeur contre la nausée."
+       "pourquoi": "Point majeur contre la nausée.",
+       "ess": 1
       },
       {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Harmonise l'Estomac.",
        "tech": [
         "↺",
         "Pression moyenne, rotation anti-horaire"
-       ]
+       ],
+       "pourquoi": "Harmonise l'Estomac."
+      },
+      {
+       "p": "RM 13",
+       "s": 60,
+       "pourquoi": "Fait descendre le Qi de l'Estomac, calme les renvois et les nausées.",
+       "ess": 1
       },
       {
        "p": "Rt 4",
@@ -1201,6 +1339,11 @@
        "p": "RM 17",
        "s": 60,
        "pourquoi": "Fait descendre le Qi, calme le hoquet."
+      },
+      {
+       "p": "E 21",
+       "s": 60,
+       "pourquoi": "Harmonise l'Estomac."
       }
      ]
     },
@@ -1210,7 +1353,8 @@
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Renforce l'Estomac."
+       "pourquoi": "Renforce l'Estomac.",
+       "ess": 1
       }
      ]
     }

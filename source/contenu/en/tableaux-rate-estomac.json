@@ -66,12 +66,14 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Front-Mu point of the Stomach: tonifies the center (digestion)."
+       "pourquoi": "Front-Mu point of the Stomach: tonifies the center (digestion).",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifies Spleen and Stomach Qi."
+       "pourquoi": "Tonifies Spleen and Stomach Qi.",
+       "ess": 1
       },
       {
        "p": "Rt 3",
@@ -87,6 +89,11 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Back-Shu point of the Spleen."
+      },
+      {
+       "p": "V 21",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Stomach: strengthens the center."
       }
      ]
     }
@@ -189,12 +196,23 @@
    "moxa": "Moxa recommended.",
    "phases": [
     {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains water that builds up (swelling)."
+      }
+     ]
+    },
+    {
      "m": "t",
      "items": [
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Tonifies the center (digestion)."
+       "pourquoi": "Tonifies the center (digestion).",
+       "ess": 1
       },
       {
        "p": "Rt 3",
@@ -205,6 +223,11 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Back-Shu point of the Spleen."
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen and drains Dampness."
       }
      ]
     },
@@ -214,12 +237,19 @@
       {
        "p": "RM 6",
        "s": 300,
-       "pourquoi": "Warms Yang."
+       "pourquoi": "Warms Yang.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 240,
-       "pourquoi": "Warms and tonifies the Spleen and Stomach."
+       "pourquoi": "Warms and tonifies the Spleen and Stomach.",
+       "ess": 1
+      },
+      {
+       "p": "RM 9",
+       "s": 240,
+       "pourquoi": "Moxa: helps the body clear water."
       }
      ]
     }
@@ -301,16 +331,18 @@
       {
        "p": "VG 20",
        "s": 90,
-       "pourquoi": "Raises Qi.",
        "tech": [
         "↻",
         "Gentle pressure, clockwise rotation, without pressing hard"
-       ]
+       ],
+       "pourquoi": "Raises Qi.",
+       "ess": 1
       },
       {
        "p": "RM 6",
        "s": 90,
-       "pourquoi": "Tonifies Qi."
+       "pourquoi": "Tonifies Qi.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -321,6 +353,21 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Back-Shu point of the Spleen."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Front-Mu point of the Stomach: strengthens the center."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Source point of the Spleen: tonifies Spleen Qi."
+      },
+      {
+       "p": "V 57",
+       "s": 90,
+       "pourquoi": "Relieves hemorrhoids."
       }
      ]
     }
@@ -398,9 +445,10 @@
      "m": "t",
      "items": [
       {
-       "p": "Rt 1",
-       "s": 60,
-       "pourquoi": "Helps the Spleen hold Blood."
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Tonifies Qi.",
+       "ess": 1
       },
       {
        "p": "Rt 10",
@@ -408,14 +456,35 @@
        "pourquoi": "Regulates Blood."
       },
       {
-       "p": "E 36",
-       "s": 120,
-       "pourquoi": "Tonifies Qi."
-      },
-      {
        "p": "V 20",
        "s": 90,
        "pourquoi": "Back-Shu point of the Spleen."
+      },
+      {
+       "p": "Rt 3",
+       "s": 90,
+       "pourquoi": "Source point of the Spleen: strengthens the Spleen, which holds the Blood."
+      },
+      {
+       "p": "RM 12",
+       "s": 90,
+       "pourquoi": "Front-Mu point of the Stomach: strengthens the center."
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Gathering point of Blood: nourishes Blood."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "Rt 1",
+       "s": 240,
+       "pourquoi": "Moxa: helps stop bleeding (heavy periods).",
+       "ess": 1
       }
      ]
     }
@@ -508,7 +577,18 @@
       {
        "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Drains Dampness."
+       "pourquoi": "Drains Dampness.",
+       "ess": 1
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ],
+       "pourquoi": "Transforms Dampness in the center.",
+       "ess": 1
       },
       {
        "p": "RM 9",
@@ -516,13 +596,9 @@
        "pourquoi": "Helps eliminate water."
       },
       {
-       "p": "RM 12",
+       "p": "Rt 6",
        "s": 60,
-       "pourquoi": "Transforms Dampness in the center.",
-       "tech": [
-        "↺",
-        "Medium pressure, anticlockwise rotation"
-       ]
+       "pourquoi": "Drains Dampness."
       }
      ]
     },
@@ -533,6 +609,11 @@
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Strengthens the Spleen."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen: helps the Spleen transform Dampness."
       }
      ]
     },
@@ -643,7 +724,18 @@
       {
        "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Drains Dampness."
+       "pourquoi": "Drains Dampness.",
+       "ess": 1
+      },
+      {
+       "p": "RM 12",
+       "s": 60,
+       "tech": [
+        "↺",
+        "Medium pressure, anticlockwise rotation"
+       ],
+       "pourquoi": "Harmonizes the center.",
+       "ess": 1
       },
       {
        "p": "GI 11",
@@ -656,18 +748,14 @@
        "pourquoi": "Clears Stomach Heat."
       },
       {
-       "p": "RM 12",
-       "s": 60,
-       "pourquoi": "Harmonizes the center.",
-       "tech": [
-        "↺",
-        "Medium pressure, anticlockwise rotation"
-       ]
-      },
-      {
        "p": "E 40",
        "s": 60,
        "pourquoi": "Transforms Dampness."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
       }
      ]
     }
@@ -772,7 +860,14 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Tonifies the Stomach."
+       "pourquoi": "Tonifies the Stomach.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -780,14 +875,14 @@
        "pourquoi": "Tonifies the Stomach."
       },
       {
-       "p": "Rt 6",
+       "p": "Rn 6",
        "s": 90,
        "pourquoi": "Nourishes Yin."
       },
       {
-       "p": "Rn 6",
+       "p": "V 21",
        "s": 90,
-       "pourquoi": "Nourishes Yin."
+       "pourquoi": "Back-Shu point of the Stomach: nourishes the Stomach."
       }
      ]
     }
@@ -879,17 +974,19 @@
       {
        "p": "E 44",
        "s": 60,
-       "pourquoi": "Clears Stomach Heat, relieves the gums."
+       "pourquoi": "Clears Stomach Heat, relieves the gums.",
+       "ess": 1
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat.",
+       "ess": 1
       },
       {
        "p": "E 21",
        "s": 60,
        "pourquoi": "Calms stomach pain."
-      },
-      {
-       "p": "GI 11",
-       "s": 60,
-       "pourquoi": "Clears Heat."
       },
       {
        "p": "GI 4",
@@ -900,6 +997,21 @@
        "p": "E 25",
        "s": 60,
        "pourquoi": "Helps the stools move down."
+      },
+      {
+       "p": "E 34",
+       "s": 60,
+       "pourquoi": "Xi-cleft point of the Stomach: eases acute pain."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Protects the Stomach's fluids."
       }
      ]
     }
@@ -976,9 +1088,10 @@
      "m": "d",
      "items": [
       {
-       "p": "MC 6",
+       "p": "E 21",
        "s": 60,
-       "pourquoi": "Makes Stomach Qi descend, calms nausea."
+       "pourquoi": "Calms stomach pain.",
+       "ess": 1
       },
       {
        "p": "Rt 4",
@@ -986,9 +1099,14 @@
        "pourquoi": "Calms belly pain."
       },
       {
-       "p": "E 21",
+       "p": "MC 6",
        "s": 60,
-       "pourquoi": "Calms stomach pain."
+       "pourquoi": "Makes Stomach Qi descend, calms nausea."
+      },
+      {
+       "p": "E 34",
+       "s": 60,
+       "pourquoi": "Xi-cleft point of the Stomach: eases acute pain."
       }
      ]
     },
@@ -998,7 +1116,8 @@
       {
        "p": "RM 12",
        "s": 300,
-       "pourquoi": "Warms the Stomach."
+       "pourquoi": "Warms the Stomach.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -1079,11 +1198,18 @@
       {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Frees the Stomach.",
        "tech": [
         "↺",
         "Medium pressure, anticlockwise rotation"
-       ]
+       ],
+       "pourquoi": "Frees the Stomach.",
+       "ess": 1
+      },
+      {
+       "p": "RM 10",
+       "s": 60,
+       "pourquoi": "Helps food move down from the Stomach to the intestine.",
+       "ess": 1
       },
       {
        "p": "E 21",
@@ -1104,6 +1230,11 @@
        "p": "E 44",
        "s": 60,
        "pourquoi": "Clears the Stomach."
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Moves down and transforms what is stagnating."
       }
      ]
     }
@@ -1181,16 +1312,23 @@
       {
        "p": "MC 6",
        "s": 90,
-       "pourquoi": "Key point for nausea."
+       "pourquoi": "Key point for nausea.",
+       "ess": 1
       },
       {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Harmonizes the Stomach.",
        "tech": [
         "↺",
         "Medium pressure, anticlockwise rotation"
-       ]
+       ],
+       "pourquoi": "Harmonizes the Stomach."
+      },
+      {
+       "p": "RM 13",
+       "s": 60,
+       "pourquoi": "Makes Stomach Qi descend, calms belching and nausea.",
+       "ess": 1
       },
       {
        "p": "Rt 4",
@@ -1201,6 +1339,11 @@
        "p": "RM 17",
        "s": 60,
        "pourquoi": "Makes Qi descend, calms hiccups."
+      },
+      {
+       "p": "E 21",
+       "s": 60,
+       "pourquoi": "Harmonizes the Stomach."
       }
      ]
     },
@@ -1210,7 +1353,8 @@
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Strengthens the Stomach."
+       "pourquoi": "Strengthens the Stomach.",
+       "ess": 1
       }
      ]
     }

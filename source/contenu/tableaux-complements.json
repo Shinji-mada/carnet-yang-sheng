@@ -50,7 +50,14 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Tonifie le Poumon."
+       "pourquoi": "Tonifie le Poumon.",
+       "ess": 1
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin et les liquides.",
+       "ess": 1
       },
       {
        "p": "P 7",
@@ -58,14 +65,14 @@
        "pourquoi": "Avec Rn 6 : humidifie la gorge."
       },
       {
-       "p": "Rn 6",
-       "s": 90,
-       "pourquoi": "Nourrit le Yin et les liquides."
-      },
-      {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourrit les liquides."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourrit les liquides à la racine."
       }
      ]
     }
@@ -149,12 +156,14 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Point Mu de l'Estomac : le tonifie directement."
+       "pourquoi": "Point Mu de l'Estomac : le tonifie directement.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifie le Qi de l'Estomac."
+       "pourquoi": "Tonifie le Qi de l'Estomac.",
+       "ess": 1
       },
       {
        "p": "V 21",
@@ -165,6 +174,11 @@
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Soutient la Rate, partenaire de l'Estomac."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifie le Qi."
       }
      ]
     }
@@ -258,12 +272,18 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Tonifie l'Estomac."
+       "pourquoi": "Tonifie l'Estomac.",
+       "ess": 1
       },
       {
        "p": "V 21",
        "s": 90,
        "pourquoi": "Point Shu du dos de l'Estomac."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Rate : renforce le centre."
       }
      ]
     },
@@ -273,7 +293,8 @@
       {
        "p": "E 36",
        "s": 240,
-       "pourquoi": "Réchauffe et tonifie l'Estomac."
+       "pourquoi": "Réchauffe et tonifie l'Estomac.",
+       "ess": 1
       },
       {
        "p": "RM 6",
@@ -354,7 +375,14 @@
       {
        "p": "VB 40",
        "s": 90,
-       "pourquoi": "Point Yuan de la Vésicule biliaire."
+       "pourquoi": "Point Yuan de la Vésicule biliaire.",
+       "ess": 1
+      },
+      {
+       "p": "V 19",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Vésicule biliaire : fortifie la Vésicule.",
+       "ess": 1
       },
       {
        "p": "C 7",
@@ -452,12 +480,14 @@
       {
        "p": "VB 34",
        "s": 90,
-       "pourquoi": "Libère la Vésicule biliaire et fait circuler le Qi."
+       "pourquoi": "Libère la Vésicule biliaire et fait circuler le Qi.",
+       "ess": 1
       },
       {
        "p": "E 40",
        "s": 90,
-       "pourquoi": "Le grand point pour transformer les Mucosités."
+       "pourquoi": "Le grand point pour transformer les Mucosités.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -465,9 +495,19 @@
        "pourquoi": "Calme les nausées, ouvre la poitrine, apaise l'esprit."
       },
       {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Point Mu de l'Estomac : tarit la source des Mucosités."
+      },
+      {
        "p": "F 2",
        "s": 60,
        "pourquoi": "Fait descendre la Chaleur du Foie et de la Vésicule."
+      },
+      {
+       "p": "VB 44",
+       "s": 60,
+       "pourquoi": "Point Jing de la Vésicule biliaire : calme l'insomnie et les cauchemars."
       }
      ]
     },
@@ -563,12 +603,14 @@
       {
        "p": "V 28",
        "s": 90,
-       "pourquoi": "Point Shu du dos de la Vessie."
+       "pourquoi": "Point Shu du dos de la Vessie.",
+       "ess": 1
       },
       {
        "p": "V 23",
        "s": 90,
-       "pourquoi": "Point Shu du dos du Rein."
+       "pourquoi": "Point Shu du dos du Rein.",
+       "ess": 1
       },
       {
        "p": "Rn 3",
@@ -583,7 +625,18 @@
       {
        "p": "RM 4",
        "s": 300,
-       "pourquoi": "Réchauffe le Rein et le bas-ventre."
+       "pourquoi": "Réchauffe le Rein et le bas-ventre.",
+       "ess": 1
+      },
+      {
+       "p": "RM 3",
+       "s": 240,
+       "pourquoi": "Réchauffe la Vessie."
+      },
+      {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "Réchauffe le Yang du Rein."
       }
      ]
     }
@@ -661,12 +714,14 @@
       {
        "p": "E 25",
        "s": 60,
-       "pourquoi": "Point Mu du Gros Intestin."
+       "pourquoi": "Point Mu du Gros Intestin.",
+       "ess": 1
       },
       {
        "p": "E 37",
        "s": 60,
-       "pourquoi": "Régule le Gros Intestin."
+       "pourquoi": "Régule le Gros Intestin.",
+       "ess": 1
       }
      ]
     },
@@ -682,6 +737,11 @@
        "p": "E 36",
        "s": 240,
        "pourquoi": "Réchauffe et tonifie."
+      },
+      {
+       "p": "V 25",
+       "s": 240,
+       "pourquoi": "Point Shu du dos du Gros Intestin : réchauffe les intestins."
       }
      ]
     }
@@ -766,7 +826,14 @@
       {
        "p": "F 8",
        "s": 90,
-       "pourquoi": "Nourrit le Yin et le Sang du Foie."
+       "pourquoi": "Nourrit le Yin et le Sang du Foie.",
+       "ess": 1
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "L'Eau du Rein nourrit le Bois du Foie.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
@@ -774,14 +841,19 @@
        "pourquoi": "Nourrit le Yin."
       },
       {
-       "p": "Rn 3",
-       "s": 90,
-       "pourquoi": "L'Eau du Rein nourrit le Bois du Foie."
-      },
-      {
        "p": "Rn 6",
        "s": 90,
        "pourquoi": "Nourrit le Yin, humidifie les yeux."
+      },
+      {
+       "p": "V 18",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Foie : nourrit le Foie."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein : nourrit le Yin à la racine."
       }
      ]
     }
@@ -866,7 +938,14 @@
       {
        "p": "Rt 10",
        "s": 60,
-       "pourquoi": "Rafraîchit le Sang."
+       "pourquoi": "Rafraîchit le Sang.",
+       "ess": 1
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur du Foie.",
+       "ess": 1
       },
       {
        "p": "GI 11",
@@ -874,9 +953,9 @@
        "pourquoi": "Clarifie la Chaleur."
       },
       {
-       "p": "F 2",
+       "p": "Rn 2",
        "s": 60,
-       "pourquoi": "Clarifie la Chaleur du Foie."
+       "pourquoi": "Clarifie la Chaleur qui vient d'un manque de Yin."
       }
      ]
     },

@@ -47,7 +47,20 @@
       {
        "p": "C 5",
        "s": 90,
-       "pourquoi": "Tonifies Heart Qi."
+       "pourquoi": "Tonifies Heart Qi.",
+       "ess": 1
+      },
+      {
+       "p": "RM 17",
+       "s": 90,
+       "pourquoi": "Tonifies the Qi of the chest.",
+       "ess": 1
+      },
+      {
+       "p": "V 15",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Heart.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -55,19 +68,14 @@
        "pourquoi": "Opens the chest, regulates the Heart."
       },
       {
-       "p": "RM 17",
+       "p": "RM 6",
        "s": 90,
-       "pourquoi": "Tonifies the Qi of the chest."
+       "pourquoi": "Tonifies Qi throughout the body."
       },
       {
        "p": "E 36",
        "s": 120,
        "pourquoi": "Tonifies the Qi of the whole body."
-      },
-      {
-       "p": "V 15",
-       "s": 90,
-       "pourquoi": "Back-Shu point of the Heart."
       }
      ]
     }
@@ -141,18 +149,21 @@
      "m": "t",
      "items": [
       {
-       "p": "Yin Tang",
-       "s": 60,
-       "pourquoi": "Calms the mind.",
-       "tech": [
-        "●",
-        "Gentle, still pressure, eyes closed"
-       ]
-      },
-      {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Yuan-Source point of the Heart: calms the mind, helps sleep."
+       "pourquoi": "Yuan-Source point of the Heart: calms the mind, helps sleep.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood.",
+       "ess": 1
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Gathering point of Blood: nourishes Blood."
       },
       {
        "p": "MC 6",
@@ -160,14 +171,23 @@
        "pourquoi": "Calms the mind."
       },
       {
-       "p": "Rt 6",
+       "p": "RM 14",
        "s": 90,
-       "pourquoi": "Nourishes Blood."
+       "pourquoi": "Front-Mu point of the Heart: nourishes the Heart, calms the mind."
       },
       {
        "p": "E 36",
        "s": 120,
        "pourquoi": "Strengthens the Spleen, which makes Blood."
+      },
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "tech": [
+        "●",
+        "Gentle, still pressure, eyes closed"
+       ],
+       "pourquoi": "Calms the mind."
       }
      ]
     }
@@ -253,22 +273,35 @@
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Calms the mind."
+       "pourquoi": "Calms the mind.",
+       "ess": 1
       },
       {
        "p": "C 6",
        "s": 90,
-       "pourquoi": "Nourishes Heart Yin, stops night sweats."
+       "pourquoi": "Nourishes Heart Yin, stops night sweats.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourishes Yin, helps sleep."
+       "pourquoi": "Nourishes Yin, helps sleep.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "RM 15",
+       "s": 60,
+       "pourquoi": "Calms the mind and nourishes Heart Yin."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Source point of the Kidney: nourishes Yin at the root."
       },
       {
        "p": "An Mian",
@@ -360,7 +393,8 @@
       {
        "p": "C 8",
        "s": 60,
-       "pourquoi": "Clears Heart Fire."
+       "pourquoi": "Clears Heart Fire.",
+       "ess": 1
       },
       {
        "p": "MC 7",
@@ -371,6 +405,11 @@
        "p": "C 7",
        "s": 60,
        "pourquoi": "Calms the mind."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat from the whole body."
       }
      ]
     },
@@ -380,7 +419,13 @@
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourishes Water to temper Fire."
+       "pourquoi": "Nourishes Water to temper Fire.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin to temper the Fire."
       }
      ]
     }
@@ -461,7 +506,20 @@
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Calms the mind."
+       "pourquoi": "Calms the mind.",
+       "ess": 1
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Blood, calms the mind.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -474,14 +532,14 @@
        "pourquoi": "Strengthens the center."
       },
       {
-       "p": "E 36",
-       "s": 120,
-       "pourquoi": "Strengthens the Spleen."
+       "p": "V 15",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Heart: nourishes the Heart."
       },
       {
-       "p": "Rt 6",
+       "p": "V 20",
        "s": 90,
-       "pourquoi": "Nourishes Blood, calms the mind."
+       "pourquoi": "Back-Shu point of the Spleen: strengthens the Spleen, source of Blood."
       }
      ]
     }
@@ -575,22 +633,35 @@
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Calms the mind."
+       "pourquoi": "Calms the mind.",
+       "ess": 1
       },
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifies the Kidney."
+       "pourquoi": "Tonifies the Kidney.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourishes Yin, helps sleep."
+       "pourquoi": "Nourishes Yin, helps sleep.",
+       "ess": 1
+      },
+      {
+       "p": "C 6",
+       "s": 90,
+       "pourquoi": "Nourishes Heart Yin, calms night sweats."
       },
       {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourishes Yin."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes Kidney Yin."
       },
       {
        "p": "Rn 1",

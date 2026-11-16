@@ -55,19 +55,15 @@
      "m": "d",
      "items": [
       {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Yuan-Source point of the Liver: releases stagnation.",
+       "ess": 1
+      },
+      {
        "p": "GI 4",
        "s": 60,
        "pourquoi": "With LR 3: the Four Gates, get Qi moving through the whole body."
-      },
-      {
-       "p": "F 3",
-       "s": 60,
-       "pourquoi": "Yuan-Source point of the Liver: releases stagnation."
-      },
-      {
-       "p": "MC 6",
-       "s": 60,
-       "pourquoi": "Opens the chest, calms the mind."
       },
       {
        "p": "VB 34",
@@ -75,9 +71,19 @@
        "pourquoi": "Frees the Liver and Gallbladder."
       },
       {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Opens the chest, calms the mind."
+      },
+      {
        "p": "F 14",
        "s": 60,
        "pourquoi": "Front-Mu point of the Liver: relieves the ribs."
+      },
+      {
+       "p": "TR 6",
+       "s": 60,
+       "pourquoi": "Moves Qi along the sides, eases tension under the ribs."
       }
      ]
     }
@@ -165,6 +171,22 @@
      "m": "d",
      "items": [
       {
+       "p": "RM 22",
+       "s": 60,
+       "tech": [
+        "↓",
+        "Gentle downward pressure, no circles"
+       ],
+       "pourquoi": "Releases the throat.",
+       "ess": 1
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforms Phlegm.",
+       "ess": 1
+      },
+      {
        "p": "F 3",
        "s": 60,
        "pourquoi": "Frees Liver Qi, the source of the knot."
@@ -180,18 +202,9 @@
        "pourquoi": "Moves the Qi of the chest."
       },
       {
-       "p": "RM 22",
+       "p": "P 7",
        "s": 60,
-       "pourquoi": "Releases the throat.",
-       "tech": [
-        "↓",
-        "Gentle downward pressure, no circles"
-       ]
-      },
-      {
-       "p": "E 40",
-       "s": 60,
-       "pourquoi": "Transforms Phlegm."
+       "pourquoi": "Opens the throat and makes Lung Qi descend."
       }
      ]
     }
@@ -289,17 +302,24 @@
       {
        "p": "F 8",
        "s": 90,
-       "pourquoi": "Nourishes Liver Blood."
+       "pourquoi": "Nourishes Liver Blood.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
-       "pourquoi": "Nourishes Blood."
+       "pourquoi": "Nourishes Blood.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 120,
        "pourquoi": "Strengthens the Spleen, the source of Blood."
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Gathering point of Blood: nourishes Blood."
       },
       {
        "p": "RM 4",
@@ -310,6 +330,11 @@
        "p": "V 18",
        "s": 90,
        "pourquoi": "Back-Shu point of the Liver."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen, source of Blood."
       }
      ]
     }
@@ -407,12 +432,14 @@
       {
        "p": "F 3",
        "s": 60,
-       "pourquoi": "Calms Liver Yang."
+       "pourquoi": "Calms Liver Yang.",
+       "ess": 1
       },
       {
        "p": "VB 20",
        "s": 60,
-       "pourquoi": "Calms headaches and dizziness."
+       "pourquoi": "Calms headaches and dizziness.",
+       "ess": 1
       },
       {
        "p": "Tai Yang",
@@ -423,6 +450,11 @@
        "p": "VB 43",
        "s": 60,
        "pourquoi": "Brings Yang down from the head."
+      },
+      {
+       "p": "TR 5",
+       "s": 60,
+       "pourquoi": "Eases headaches on the sides of the head."
       }
      ]
     },
@@ -433,6 +465,11 @@
        "p": "Rn 3",
        "s": 90,
        "pourquoi": "Nourishes Kidney Yin, which holds Yang back."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourishes Liver Blood and Yin, which hold down its Yang."
       },
       {
        "p": "Rt 6",
@@ -533,7 +570,8 @@
       {
        "p": "F 2",
        "s": 60,
-       "pourquoi": "Clears Liver Fire."
+       "pourquoi": "Clears Liver Fire.",
+       "ess": 1
       },
       {
        "p": "VB 43",
@@ -554,6 +592,16 @@
        "p": "Tai Yang",
        "s": 60,
        "pourquoi": "Relieves the temples and eyes."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Protects Yin from the Fire."
       }
      ]
     }
@@ -641,24 +689,42 @@
      "m": "d",
      "items": [
       {
-       "p": "F 14",
-       "s": 60,
-       "pourquoi": "Frees the Liver, relieves the ribs."
-      },
-      {
        "p": "VB 34",
        "s": 60,
-       "pourquoi": "Frees the Gallbladder."
+       "pourquoi": "Frees the Gallbladder.",
+       "ess": 1
+      },
+      {
+       "p": "F 14",
+       "s": 60,
+       "pourquoi": "Frees the Liver, relieves the ribs.",
+       "ess": 1
       },
       {
        "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Drains Dampness."
+       "pourquoi": "Drains Dampness.",
+       "ess": 1
       },
       {
        "p": "F 5",
        "s": 60,
        "pourquoi": "Clears Damp-Heat from the genital area."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      },
+      {
+       "p": "V 19",
+       "s": 60,
+       "pourquoi": "Back-Shu point of the Gallbladder: drains Damp-Heat."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Drains Dampness downward."
       }
      ]
     }
@@ -732,17 +798,24 @@
       {
        "p": "F 3",
        "s": 60,
-       "pourquoi": "Frees Liver Qi."
+       "pourquoi": "Frees Liver Qi.",
+       "ess": 1
       },
       {
        "p": "F 13",
        "s": 60,
-       "pourquoi": "Front-Mu point of the Spleen: harmonizes the Liver and Spleen."
+       "pourquoi": "Front-Mu point of the Spleen: harmonizes the Liver and Spleen.",
+       "ess": 1
       },
       {
        "p": "VB 34",
        "s": 60,
        "pourquoi": "Frees the Liver."
+      },
+      {
+       "p": "E 25",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Large Intestine: settles loose stools and belly pain."
       }
      ]
     },
@@ -750,14 +823,15 @@
      "m": "t",
      "items": [
       {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Spleen.",
+       "ess": 1
+      },
+      {
        "p": "RM 12",
        "s": 90,
        "pourquoi": "Strengthens the center."
-      },
-      {
-       "p": "E 36",
-       "s": 120,
-       "pourquoi": "Strengthens the Spleen."
       },
       {
        "p": "Rt 6",
@@ -834,33 +908,40 @@
      "m": "d",
      "items": [
       {
+       "p": "F 14",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Liver.",
+       "ess": 1
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Brings Stomach Qi down.",
+       "ess": 1
+      },
+      {
        "p": "F 3",
        "s": 60,
        "pourquoi": "Frees Liver Qi."
       },
       {
-       "p": "F 14",
-       "s": 60,
-       "pourquoi": "Front-Mu point of the Liver."
-      },
-      {
-       "p": "MC 6",
-       "s": 60,
-       "pourquoi": "Brings Stomach Qi down."
-      },
-      {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Harmonizes the Stomach.",
        "tech": [
         "↺",
         "Medium pressure, anticlockwise rotation"
-       ]
+       ],
+       "pourquoi": "Harmonizes the Stomach."
       },
       {
        "p": "VB 34",
        "s": 60,
        "pourquoi": "Frees the Liver."
+      },
+      {
+       "p": "E 21",
+       "s": 60,
+       "pourquoi": "Harmonizes the Stomach, eases pain."
       }
      ]
     },

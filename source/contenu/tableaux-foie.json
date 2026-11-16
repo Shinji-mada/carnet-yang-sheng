@@ -55,19 +55,15 @@
      "m": "d",
      "items": [
       {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Point Yuan du Foie : libère la stagnation.",
+       "ess": 1
+      },
+      {
        "p": "GI 4",
        "s": 60,
        "pourquoi": "Avec F 3 : les 4 barrières, font circuler le Qi dans tout le corps."
-      },
-      {
-       "p": "F 3",
-       "s": 60,
-       "pourquoi": "Point Yuan du Foie : libère la stagnation."
-      },
-      {
-       "p": "MC 6",
-       "s": 60,
-       "pourquoi": "Ouvre la poitrine, calme l'esprit."
       },
       {
        "p": "VB 34",
@@ -75,9 +71,19 @@
        "pourquoi": "Libère le Foie et la Vésicule biliaire."
       },
       {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Ouvre la poitrine, calme l'esprit."
+      },
+      {
        "p": "F 14",
        "s": 60,
        "pourquoi": "Point Mu du Foie : soulage les côtes."
+      },
+      {
+       "p": "TR 6",
+       "s": 60,
+       "pourquoi": "Fait circuler le Qi sur les côtés, soulage les tensions sous les côtes."
       }
      ]
     }
@@ -165,6 +171,22 @@
      "m": "d",
      "items": [
       {
+       "p": "RM 22",
+       "s": 60,
+       "tech": [
+        "↓",
+        "Pression douce vers le bas, sans rotation"
+       ],
+       "pourquoi": "Dénoue la gorge.",
+       "ess": 1
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforme les Mucosités.",
+       "ess": 1
+      },
+      {
        "p": "F 3",
        "s": 60,
        "pourquoi": "Libère le Qi du Foie, à l'origine du nœud."
@@ -180,18 +202,9 @@
        "pourquoi": "Fait circuler le Qi de la poitrine."
       },
       {
-       "p": "RM 22",
+       "p": "P 7",
        "s": 60,
-       "pourquoi": "Dénoue la gorge.",
-       "tech": [
-        "↓",
-        "Pression douce vers le bas, sans rotation"
-       ]
-      },
-      {
-       "p": "E 40",
-       "s": 60,
-       "pourquoi": "Transforme les Mucosités."
+       "pourquoi": "Ouvre la gorge et fait descendre le Qi du Poumon."
       }
      ]
     }
@@ -289,17 +302,24 @@
       {
        "p": "F 8",
        "s": 90,
-       "pourquoi": "Nourrit le Sang du Foie."
+       "pourquoi": "Nourrit le Sang du Foie.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
-       "pourquoi": "Nourrit le Sang."
+       "pourquoi": "Nourrit le Sang.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 120,
        "pourquoi": "Renforce la Rate, source du Sang."
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Point de réunion du Sang : nourrit le Sang."
       },
       {
        "p": "RM 4",
@@ -310,6 +330,11 @@
        "p": "V 18",
        "s": 90,
        "pourquoi": "Point Shu du dos du Foie."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Renforce la Rate, source du Sang."
       }
      ]
     }
@@ -407,12 +432,14 @@
       {
        "p": "F 3",
        "s": 60,
-       "pourquoi": "Apaise le Yang du Foie."
+       "pourquoi": "Apaise le Yang du Foie.",
+       "ess": 1
       },
       {
        "p": "VB 20",
        "s": 60,
-       "pourquoi": "Calme les maux de tête et les vertiges."
+       "pourquoi": "Calme les maux de tête et les vertiges.",
+       "ess": 1
       },
       {
        "p": "Tai Yang",
@@ -423,6 +450,11 @@
        "p": "VB 43",
        "s": 60,
        "pourquoi": "Fait descendre le Yang de la tête."
+      },
+      {
+       "p": "TR 5",
+       "s": 60,
+       "pourquoi": "Soulage les maux de tête sur les côtés de la tête."
       }
      ]
     },
@@ -433,6 +465,11 @@
        "p": "Rn 3",
        "s": 90,
        "pourquoi": "Nourrit le Yin du Rein qui retient le Yang."
+      },
+      {
+       "p": "F 8",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang et le Yin du Foie, qui retiennent son Yang."
       },
       {
        "p": "Rt 6",
@@ -533,7 +570,8 @@
       {
        "p": "F 2",
        "s": 60,
-       "pourquoi": "Clarifie le Feu du Foie."
+       "pourquoi": "Clarifie le Feu du Foie.",
+       "ess": 1
       },
       {
        "p": "VB 43",
@@ -554,6 +592,16 @@
        "p": "Tai Yang",
        "s": 60,
        "pourquoi": "Soulage les tempes et les yeux."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Protège le Yin du Feu."
       }
      ]
     }
@@ -641,24 +689,42 @@
      "m": "d",
      "items": [
       {
-       "p": "F 14",
-       "s": 60,
-       "pourquoi": "Libère le Foie, soulage les côtes."
-      },
-      {
        "p": "VB 34",
        "s": 60,
-       "pourquoi": "Libère la Vésicule biliaire."
+       "pourquoi": "Libère la Vésicule biliaire.",
+       "ess": 1
+      },
+      {
+       "p": "F 14",
+       "s": 60,
+       "pourquoi": "Libère le Foie, soulage les côtes.",
+       "ess": 1
       },
       {
        "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Draine l'Humidité."
+       "pourquoi": "Draine l'Humidité.",
+       "ess": 1
       },
       {
        "p": "F 5",
        "s": 60,
        "pourquoi": "Élimine l'Humidité-Chaleur de la sphère génitale."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      },
+      {
+       "p": "V 19",
+       "s": 60,
+       "pourquoi": "Point Shu du dos de la Vésicule biliaire : draine l'Humidité-Chaleur."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité vers le bas."
       }
      ]
     }
@@ -732,17 +798,24 @@
       {
        "p": "F 3",
        "s": 60,
-       "pourquoi": "Libère le Qi du Foie."
+       "pourquoi": "Libère le Qi du Foie.",
+       "ess": 1
       },
       {
        "p": "F 13",
        "s": 60,
-       "pourquoi": "Point Mu de la Rate : harmonise Foie et Rate."
+       "pourquoi": "Point Mu de la Rate : harmonise Foie et Rate.",
+       "ess": 1
       },
       {
        "p": "VB 34",
        "s": 60,
        "pourquoi": "Libère le Foie."
+      },
+      {
+       "p": "E 25",
+       "s": 60,
+       "pourquoi": "Point Mu du Gros Intestin : calme les selles molles et les douleurs du ventre."
       }
      ]
     },
@@ -750,14 +823,15 @@
      "m": "t",
      "items": [
       {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Renforce la Rate.",
+       "ess": 1
+      },
+      {
        "p": "RM 12",
        "s": 90,
        "pourquoi": "Renforce le centre."
-      },
-      {
-       "p": "E 36",
-       "s": 120,
-       "pourquoi": "Renforce la Rate."
       },
       {
        "p": "Rt 6",
@@ -834,33 +908,40 @@
      "m": "d",
      "items": [
       {
+       "p": "F 14",
+       "s": 60,
+       "pourquoi": "Point Mu du Foie.",
+       "ess": 1
+      },
+      {
+       "p": "MC 6",
+       "s": 60,
+       "pourquoi": "Fait descendre le Qi de l'Estomac.",
+       "ess": 1
+      },
+      {
        "p": "F 3",
        "s": 60,
        "pourquoi": "Libère le Qi du Foie."
       },
       {
-       "p": "F 14",
-       "s": 60,
-       "pourquoi": "Point Mu du Foie."
-      },
-      {
-       "p": "MC 6",
-       "s": 60,
-       "pourquoi": "Fait descendre le Qi de l'Estomac."
-      },
-      {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Harmonise l'Estomac.",
        "tech": [
         "↺",
         "Pression moyenne, rotation anti-horaire"
-       ]
+       ],
+       "pourquoi": "Harmonise l'Estomac."
       },
       {
        "p": "VB 34",
        "s": 60,
        "pourquoi": "Libère le Foie."
+      },
+      {
+       "p": "E 21",
+       "s": 60,
+       "pourquoi": "Harmonise l'Estomac, calme la douleur."
       }
      ]
     },

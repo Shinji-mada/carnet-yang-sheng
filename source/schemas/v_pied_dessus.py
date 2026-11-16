@@ -69,4 +69,5 @@ PTS = {
     'E 44': dict(x=180, y=316, rep=['palmure23', 'mt23'], lab='t'),
     'VB 41': dict(x=141, y=178, rep=['mt45'], lab='r'),
     'VB 43': dict(x=124, y=314, rep=['palmure45'], lab='t'),
+    'VB 44': dict(x=132, y=350, rep=['palmure45'], lab='l'),
 }

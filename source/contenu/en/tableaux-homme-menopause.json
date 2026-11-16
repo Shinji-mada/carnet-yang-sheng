@@ -57,6 +57,11 @@
        "p": "F 3",
        "s": 60,
        "pourquoi": "Frees Liver Qi and calms the pulling pain."
+      },
+      {
+       "p": "F 5",
+       "s": 60,
+       "pourquoi": "Luo point of the Liver: connected to the genitals."
       }
      ]
     },
@@ -81,12 +86,19 @@
       {
        "p": "F 1",
        "s": 180,
-       "pourquoi": "Warms the Liver meridian at its source."
+       "pourquoi": "Warms the Liver meridian at its source.",
+       "ess": 1
       },
       {
        "p": "RM 4",
        "s": 300,
-       "pourquoi": "Warms the lower belly and the Kidney."
+       "pourquoi": "Warms the lower belly and the Kidney.",
+       "ess": 1
+      },
+      {
+       "p": "RM 3",
+       "s": 240,
+       "pourquoi": "Warms the lower belly and genitals."
       }
      ]
     }
@@ -171,7 +183,14 @@
       {
        "p": "F 5",
        "s": 60,
-       "pourquoi": "Luo-Connecting point of the Liver: clears Damp-Heat from the genital area."
+       "pourquoi": "Luo-Connecting point of the Liver: clears Damp-Heat from the genital area.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains Dampness from the lower body.",
+       "ess": 1
       },
       {
        "p": "F 2",
@@ -179,14 +198,14 @@
        "pourquoi": "Clears Liver Heat."
       },
       {
-       "p": "Rt 9",
-       "s": 60,
-       "pourquoi": "Drains Dampness from the lower body."
-      },
-      {
        "p": "RM 3",
        "s": 60,
        "pourquoi": "Front-Mu point of the Bladder: clears Damp-Heat from the lower belly."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Drains Dampness from the lower body."
       }
      ]
     }
@@ -261,14 +280,21 @@
      "m": "t",
      "items": [
       {
-       "p": "Yin Tang",
-       "s": 60,
-       "pourquoi": "Calms the mind, releases tension."
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Yuan-Source point of the Kidney: strengthens it.",
+       "ess": 1
       },
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Yuan-Source point of the Heart: calms fear and agitation."
+       "pourquoi": "Yuan-Source point of the Heart: calms fear and agitation.",
+       "ess": 1
+      },
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "pourquoi": "Calms the mind, releases tension."
       },
       {
        "p": "MC 6",
@@ -276,14 +302,14 @@
        "pourquoi": "Opens the chest, soothes anxiety."
       },
       {
-       "p": "Rn 3",
-       "s": 90,
-       "pourquoi": "Yuan-Source point of the Kidney: strengthens it."
-      },
-      {
        "p": "RM 4",
        "s": 90,
        "pourquoi": "Anchors Qi in the lower belly."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney: supports the Kidney."
       },
       {
        "p": "V 52",
@@ -385,7 +411,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Yuan-Source point of the Kidney: supports both Yin and Yang."
+       "pourquoi": "Yuan-Source point of the Kidney: supports both Yin and Yang.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 120,
+       "pourquoi": "Anchors and tonifies the Kidney.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
@@ -403,14 +436,19 @@
        "pourquoi": "Crossing point of the three Yin meridians: nourishes Blood and Yin."
       },
       {
-       "p": "RM 4",
-       "s": 120,
-       "pourquoi": "Anchors and tonifies the Kidney."
-      },
-      {
        "p": "V 23",
        "s": 90,
        "pourquoi": "Back-Shu point of the Kidney."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "Gently warms Kidney Yang."
       }
      ]
     }

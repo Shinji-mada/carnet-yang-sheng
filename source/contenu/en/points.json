@@ -366,7 +366,8 @@
   },
   "Ah Shi": {
    "loc": "The most tender point or points when you press around the painful area. Search with your thumb: you'll know you've found it when you say “ah, that's it”.",
-   "act": "Unblocks Qi and Blood locally."
+   "act": "Unblocks Qi and Blood locally.",
+   "nom": "Tender point"
   },
   "F 1": {
    "loc": "On the big toe, outer side (toward the 2nd toe), 2 mm from the corner of the nail.",
@@ -375,6 +376,42 @@
   "V 52": {
    "loc": "On the lower back, 3 cun from the spine (four finger-widths), level with the 2nd lumbar vertebra, i.e. at the waist.",
    "act": "“Residence of the Will”: strengthens the Kidney, willpower and sexual health."
+  },
+  "RM 15": {
+   "loc": "On the midline, 1 cun below the tip of the breastbone (7 cun above the navel). Press gently.",
+   "act": "Luo point of the Conception Vessel: calms the mind, eases anxiety, nourishes the Heart."
+  },
+  "RM 13": {
+   "loc": "On the midline, 5 cun above the navel (1 cun above CV 12).",
+   "act": "Makes Stomach Qi descend: belching, nausea, vomiting, overfull stomach."
+  },
+  "RM 10": {
+   "loc": "On the midline, 2 cun above the navel.",
+   "act": "Helps food move down from the Stomach to the intestine, relieves an overfull stomach."
+  },
+  "E 29": {
+   "loc": "4 cun below the navel, 2 cun on each side of the midline.",
+   "act": "Warms the Uterus and moves Blood: painful, late or absent periods."
+  },
+  "V 19": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 10th thoracic vertebra.",
+   "act": "Back-Shu point of the Gallbladder: frees the Gallbladder, drains Damp-Heat, strengthens courage."
+  },
+  "V 22": {
+   "loc": "On the back, 1.5 cun on each side of the spine, below the 1st lumbar vertebra.",
+   "act": "Back-Shu point of the Triple Energizer: opens the water passages, drains Dampness and swelling."
+  },
+  "Rn 10": {
+   "loc": "At the inner end of the crease behind the knee, between the two tendons you feel when you bend the knee slightly.",
+   "act": "He-sea point of the Kidney: nourishes Kidney Yin, drains Damp-Heat from the lower body."
+  },
+  "VB 44": {
+   "loc": "At the outer corner of the 4th toenail, 0.1 cun from the corner of the nail.",
+   "act": "Well point of the Gallbladder: calms an agitated mind, nightmares and headaches."
+  },
+  "V 57": {
+   "loc": "On the back of the leg, in the middle of the calf, in the hollow that appears below the two bulges of the muscle when you stand on tiptoe.",
+   "act": "Relieves hemorrhoids, cramps and calf pain."
   }
  }
 }

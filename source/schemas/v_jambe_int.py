@@ -84,4 +84,5 @@ PTS = {
     'Rt 4': dict(x=72, y=447, rep=['metatarsien'], lab='t'),
     'Rt 3': dict(x=44, y=452, rep=['metatarsien'], lab='t'),
     'Rt 1': dict(x=4, y=435, rep=['orteil'], lab='r'),
+    'Rn 10': dict(x=197, y=101, rep=['condyle-femur'], lab='l'),
 }

@@ -113,4 +113,6 @@ PTS = {
     'V 43': pt('T4', 3, rep=['bord-omoplate', 'epine-omoplate'], lab='r'),
     'V 52': pt('L2', 3, rep=['crete', 'cote12'], lab='r'),
     'VB 21': dict(x=274, y=60, rep=['c7', 'acromion'], lab='t'),
+    'V 19': pt('T10', 1.5, rep=['pointe-omoplate', 'cote12'], lab='r'),
+    'V 22': pt('L1', 1.5, rep=['cote12', 'crete'], lab='r'),
 }

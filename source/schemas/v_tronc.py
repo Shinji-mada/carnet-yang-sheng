@@ -96,4 +96,8 @@ PTS = {
     'P 1': dict(x=X0 - 6 * K, y=76, rep=['clavicule', 'espace1'], regle=['poitrine'], lab='b'),
     'F 14': dict(x=X0 - 4 * K, y=186, rep=['mamelon', 'espace6'], regle=['poitrine'], lab='b'),
     'F 13': dict(x=62, y=290, rep=['cote11'], lab='b'),
+    'RM 15': dict(x=X0, y=round(haut(7)), rep=['xiphoide'], regle=['haut8'], lab='l'),
+    'RM 13': dict(x=X0, y=round(haut(5)), rep=['xiphoide', 'nombril'], regle=['haut8'], lab='r'),
+    'RM 10': dict(x=X0, y=round(haut(2)), rep=['nombril'], regle=['haut8'], lab='r'),
+    'E 29': dict(x=X0 - 2 * K, y=round(bas(4)), rep=['nombril', 'pubis'], regle=['bas5', h(bas(4), 2)], lab='b'),
 }

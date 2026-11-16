@@ -57,6 +57,11 @@
        "p": "F 3",
        "s": 60,
        "pourquoi": "Libère le Qi du Foie et calme la douleur qui tire."
+      },
+      {
+       "p": "F 5",
+       "s": 60,
+       "pourquoi": "Point Luo du Foie : relié aux organes génitaux."
       }
      ]
     },
@@ -81,12 +86,19 @@
       {
        "p": "F 1",
        "s": 180,
-       "pourquoi": "Réchauffe le méridien du Foie à sa source."
+       "pourquoi": "Réchauffe le méridien du Foie à sa source.",
+       "ess": 1
       },
       {
        "p": "RM 4",
        "s": 300,
-       "pourquoi": "Réchauffe le bas-ventre et le Rein."
+       "pourquoi": "Réchauffe le bas-ventre et le Rein.",
+       "ess": 1
+      },
+      {
+       "p": "RM 3",
+       "s": 240,
+       "pourquoi": "Réchauffe le bas-ventre et les organes génitaux."
       }
      ]
     }
@@ -171,7 +183,14 @@
       {
        "p": "F 5",
        "s": 60,
-       "pourquoi": "Point Luo du Foie : élimine l'Humidité-Chaleur de la sphère génitale."
+       "pourquoi": "Point Luo du Foie : élimine l'Humidité-Chaleur de la sphère génitale.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité du bas du corps.",
+       "ess": 1
       },
       {
        "p": "F 2",
@@ -179,14 +198,14 @@
        "pourquoi": "Clarifie la Chaleur du Foie."
       },
       {
-       "p": "Rt 9",
-       "s": 60,
-       "pourquoi": "Draine l'Humidité du bas du corps."
-      },
-      {
        "p": "RM 3",
        "s": 60,
        "pourquoi": "Point Mu de la Vessie : élimine l'Humidité-Chaleur du bas-ventre."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité du bas du corps."
       }
      ]
     }
@@ -261,14 +280,21 @@
      "m": "t",
      "items": [
       {
-       "p": "Yin Tang",
-       "s": 60,
-       "pourquoi": "Apaise l'esprit, relâche la tension."
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Point Yuan du Rein : le renforce.",
+       "ess": 1
       },
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Point Yuan du Cœur : calme la peur et l'agitation."
+       "pourquoi": "Point Yuan du Cœur : calme la peur et l'agitation.",
+       "ess": 1
+      },
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "pourquoi": "Apaise l'esprit, relâche la tension."
       },
       {
        "p": "MC 6",
@@ -276,14 +302,14 @@
        "pourquoi": "Ouvre la poitrine, apaise l'anxiété."
       },
       {
-       "p": "Rn 3",
-       "s": 90,
-       "pourquoi": "Point Yuan du Rein : le renforce."
-      },
-      {
        "p": "RM 4",
        "s": 90,
        "pourquoi": "Ancre le Qi dans le bas-ventre."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein : soutient le Rein."
       },
       {
        "p": "V 52",
@@ -385,7 +411,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Point Yuan du Rein : soutient à la fois le Yin et le Yang."
+       "pourquoi": "Point Yuan du Rein : soutient à la fois le Yin et le Yang.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 120,
+       "pourquoi": "Ancre et tonifie le Rein.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
@@ -403,14 +436,19 @@
        "pourquoi": "Carrefour des trois Yin : nourrit le Sang et le Yin."
       },
       {
-       "p": "RM 4",
-       "s": 120,
-       "pourquoi": "Ancre et tonifie le Rein."
-      },
-      {
        "p": "V 23",
        "s": 90,
        "pourquoi": "Point Shu du dos du Rein."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "Réchauffe doucement le Yang du Rein."
       }
      ]
     }

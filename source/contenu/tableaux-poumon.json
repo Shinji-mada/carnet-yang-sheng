@@ -56,7 +56,14 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Point Yuan du Poumon : tonifie directement son Qi."
+       "pourquoi": "Point Yuan du Poumon : tonifie directement son Qi.",
+       "ess": 1
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Poumon : tonifie son Qi.",
+       "ess": 1
       },
       {
        "p": "P 7",
@@ -69,19 +76,14 @@
        "pourquoi": "Tonifie la Rate et l'Estomac : « la Terre nourrit le Métal »."
       },
       {
-       "p": "RM 6",
-       "s": 90,
-       "pourquoi": "Mer du Qi : tonifie le Qi de tout le corps."
-      },
-      {
-       "p": "V 13",
-       "s": 90,
-       "pourquoi": "Point Shu du dos du Poumon : tonifie son Qi."
-      },
-      {
        "p": "V 20",
        "s": 90,
        "pourquoi": "Point Shu du dos de la Rate : renforce la source du Qi."
+      },
+      {
+       "p": "VG 12",
+       "s": 90,
+       "pourquoi": "Renforce les défenses du Poumon."
       }
      ]
     },
@@ -179,7 +181,14 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Point Yuan du Poumon : tonifie son Qi."
+       "pourquoi": "Point Yuan du Poumon : tonifie son Qi.",
+       "ess": 1
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Poumon.",
+       "ess": 1
       },
       {
        "p": "P 7",
@@ -190,11 +199,6 @@
        "p": "RM 12",
        "s": 90,
        "pourquoi": "Régule le Qi du centre et diffuse le Yang."
-      },
-      {
-       "p": "V 13",
-       "s": 90,
-       "pourquoi": "Point Shu du dos du Poumon."
       },
       {
        "p": "VG 12",
@@ -303,11 +307,11 @@
       {
        "p": "P 10",
        "s": 60,
-       "pourquoi": "Calme la chaleur de la gorge.",
        "tech": [
         "↺",
         "Pression moyenne, rotation anti-horaire"
-       ]
+       ],
+       "pourquoi": "Calme la chaleur de la gorge."
       }
      ]
     },
@@ -317,17 +321,19 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Tonifie le Yin du Poumon."
+       "pourquoi": "Tonifie le Yin du Poumon.",
+       "ess": 1
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin, humidifie la gorge.",
+       "ess": 1
       },
       {
        "p": "P 7",
        "s": 90,
        "pourquoi": "Avec Rn 6 : ouvre le Ren Mai, humidifie la gorge."
-      },
-      {
-       "p": "Rn 6",
-       "s": 90,
-       "pourquoi": "Nourrit le Yin, humidifie la gorge."
       },
       {
        "p": "Rt 6",
@@ -338,6 +344,11 @@
        "p": "V 43",
        "s": 90,
        "pourquoi": "Tonifie le Yin du Poumon dans les états chroniques."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Poumon : nourrit le Poumon."
       }
      ]
     }
@@ -413,7 +424,14 @@
       {
        "p": "P 7",
        "s": 60,
-       "pourquoi": "Libère le Qi du Poumon, relâche les émotions retenues."
+       "pourquoi": "Libère le Qi du Poumon, relâche les émotions retenues.",
+       "ess": 1
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Point de réunion du Qi de la poitrine.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -421,23 +439,23 @@
        "pourquoi": "Ouvre la poitrine."
       },
       {
-       "p": "RM 17",
-       "s": 60,
-       "pourquoi": "Point de réunion du Qi de la poitrine."
-      },
-      {
        "p": "RM 22",
        "s": 60,
-       "pourquoi": "Dénoue la gorge.",
        "tech": [
         "↓",
         "Pression douce vers le bas, sans rotation"
-       ]
+       ],
+       "pourquoi": "Dénoue la gorge."
       },
       {
        "p": "E 40",
        "s": 60,
        "pourquoi": "Transforme les mucosités qui encombrent la gorge."
+      },
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Libère le Qi bloqué par les émotions."
       }
      ]
     }
@@ -510,12 +528,14 @@
       {
        "p": "P 7",
        "s": 60,
-       "pourquoi": "Relance la diffusion du Poumon, chasse le Vent."
+       "pourquoi": "Relance la diffusion du Poumon, chasse le Vent.",
+       "ess": 1
       },
       {
        "p": "GI 4",
        "s": 60,
-       "pourquoi": "Libère la surface et la tête."
+       "pourquoi": "Libère la surface et la tête.",
+       "ess": 1
       },
       {
        "p": "VB 20",
@@ -526,6 +546,11 @@
        "p": "V 12",
        "s": 60,
        "pourquoi": "« Porte du Vent » : fait sortir le Vent-Froid."
+      },
+      {
+       "p": "V 13",
+       "s": 60,
+       "pourquoi": "Point Shu du dos du Poumon : libère le Poumon."
       }
      ]
     }
@@ -599,14 +624,16 @@
      "m": "d",
      "items": [
       {
-       "p": "GI 11",
-       "s": 60,
-       "pourquoi": "Clarifie la Chaleur."
-      },
-      {
        "p": "GI 4",
        "s": 60,
-       "pourquoi": "Libère la surface, soulage la gorge et la tête."
+       "pourquoi": "Libère la surface, soulage la gorge et la tête.",
+       "ess": 1
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur.",
+       "ess": 1
       },
       {
        "p": "TR 5",
@@ -616,16 +643,21 @@
       {
        "p": "P 11",
        "s": 30,
-       "pourquoi": "Soulage la gorge douloureuse.",
        "tech": [
         "↺",
         "Pression forte avec l'ongle, par petites pressions répétées"
-       ]
+       ],
+       "pourquoi": "Soulage la gorge douloureuse."
       },
       {
        "p": "VG 14",
        "s": 60,
        "pourquoi": "Fait baisser la chaleur."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Chasse le Vent, soulage la tête."
       }
      ]
     }
@@ -708,14 +740,16 @@
      "m": "d",
      "items": [
       {
-       "p": "P 5",
-       "s": 60,
-       "pourquoi": "Fait descendre le Qi du Poumon, transforme les glaires."
-      },
-      {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Point majeur pour transformer les Mucosités."
+       "pourquoi": "Point majeur pour transformer les Mucosités.",
+       "ess": 1
+      },
+      {
+       "p": "P 5",
+       "s": 60,
+       "pourquoi": "Fait descendre le Qi du Poumon, transforme les glaires.",
+       "ess": 1
       },
       {
        "p": "RM 17",
@@ -725,11 +759,16 @@
       {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Aide la Rate à transformer l'Humidité.",
        "tech": [
         "↺",
         "Pression moyenne, rotation anti-horaire"
-       ]
+       ],
+       "pourquoi": "Aide la Rate à transformer l'Humidité."
+      },
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Fait descendre le Qi du Poumon, calme la toux."
       }
      ]
     },
@@ -745,6 +784,11 @@
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Point Yuan de la Rate."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Renforce la Rate, pour qu'elle ne fabrique plus de Mucosités."
       }
      ]
     }
@@ -824,19 +868,21 @@
      "m": "d",
      "items": [
       {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforme les Mucosités.",
+       "ess": 1
+      },
+      {
        "p": "P 5",
        "s": 60,
-       "pourquoi": "Clarifie la Chaleur du Poumon, transforme les glaires."
+       "pourquoi": "Clarifie la Chaleur du Poumon, transforme les glaires.",
+       "ess": 1
       },
       {
        "p": "P 1",
        "s": 60,
        "pourquoi": "Point Mu du Poumon : libère la poitrine."
-      },
-      {
-       "p": "E 40",
-       "s": 60,
-       "pourquoi": "Transforme les Mucosités."
       },
       {
        "p": "GI 11",
@@ -847,6 +893,16 @@
        "p": "RM 17",
        "s": 60,
        "pourquoi": "Libère la poitrine."
+      },
+      {
+       "p": "P 10",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur du Poumon, apaise la gorge."
+      },
+      {
+       "p": "V 13",
+       "s": 60,
+       "pourquoi": "Point Shu du dos du Poumon : clarifie le Poumon."
       }
      ]
     }

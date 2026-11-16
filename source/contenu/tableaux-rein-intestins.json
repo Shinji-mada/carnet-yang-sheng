@@ -70,7 +70,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Point Yuan du Rein."
+       "pourquoi": "Point Yuan du Rein.",
+       "ess": 1
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein.",
+       "ess": 1
       },
       {
        "p": "Rn 7",
@@ -78,9 +85,9 @@
        "pourquoi": "Tonifie le Rein."
       },
       {
-       "p": "V 23",
+       "p": "V 52",
        "s": 90,
-       "pourquoi": "Point Shu du dos du Rein."
+       "pourquoi": "Renforce le Rein et la volonté."
       },
       {
        "p": "E 36",
@@ -93,14 +100,16 @@
      "m": "w",
      "items": [
       {
-       "p": "RM 4",
-       "s": 300,
-       "pourquoi": "Réchauffe le Rein et le bas-ventre."
-      },
-      {
        "p": "VG 4",
        "s": 300,
-       "pourquoi": "« Porte de la Vie » : réchauffe le Yang du Rein."
+       "pourquoi": "« Porte de la Vie » : réchauffe le Yang du Rein.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Réchauffe le Rein et le bas-ventre.",
+       "ess": 1
       }
      ]
     }
@@ -212,12 +221,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifie le Rein."
+       "pourquoi": "Tonifie le Rein.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourrit le Yin."
+       "pourquoi": "Nourrit le Yin.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
@@ -233,6 +244,16 @@
        "p": "V 23",
        "s": 90,
        "pourquoi": "Point Shu du dos du Rein."
+      },
+      {
+       "p": "Rn 10",
+       "s": 90,
+       "pourquoi": "Point He du Rein : nourrit le Yin."
+      },
+      {
+       "p": "V 52",
+       "s": 90,
+       "pourquoi": "Renforce le Rein."
       }
      ]
     }
@@ -324,14 +345,21 @@
      "m": "t",
      "items": [
       {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Tonifie le Rein.",
+       "ess": 1
+      },
+      {
        "p": "Rn 3",
        "s": 90,
        "pourquoi": "Tonifie le Rein."
-      },
-      {
-       "p": "V 23",
-       "s": 90,
-       "pourquoi": "Point Shu du dos du Rein."
       },
       {
        "p": "V 28",
@@ -339,9 +367,9 @@
        "pourquoi": "Point Shu du dos de la Vessie."
       },
       {
-       "p": "RM 4",
+       "p": "VG 20",
        "s": 90,
-       "pourquoi": "Tonifie le Rein."
+       "pourquoi": "Fait remonter et retient le Qi."
       }
      ]
     },
@@ -352,6 +380,11 @@
        "p": "RM 6",
        "s": 300,
        "pourquoi": "Tonifie et réchauffe le Qi."
+      },
+      {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "Réchauffe et consolide le Rein."
       }
      ]
     }
@@ -445,7 +478,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifie le Rein."
+       "pourquoi": "Tonifie le Rein.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Ancre le souffle en bas.",
+       "ess": 1
       },
       {
        "p": "P 9",
@@ -463,9 +503,9 @@
        "pourquoi": "Fait descendre le Qi, calme l'essoufflement."
       },
       {
-       "p": "RM 4",
+       "p": "V 23",
        "s": 90,
-       "pourquoi": "Ancre le souffle en bas."
+       "pourquoi": "Point Shu du dos du Rein : aide le Rein à recevoir le souffle."
       }
      ]
     }
@@ -548,7 +588,19 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifie le Rein."
+       "pourquoi": "Tonifie le Rein.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourrit le Rein et l'Essence.",
+       "ess": 1
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Rein."
       },
       {
        "p": "VB 39",
@@ -556,14 +608,14 @@
        "pourquoi": "Point de réunion des moelles."
       },
       {
-       "p": "RM 4",
+       "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourrit le Rein et l'Essence."
+       "pourquoi": "Nourrit le Yin et l'Essence."
       },
       {
-       "p": "V 23",
+       "p": "V 52",
        "s": 90,
-       "pourquoi": "Point Shu du dos du Rein."
+       "pourquoi": "Renforce le Rein et l'Essence."
       }
      ]
     }
@@ -649,27 +701,29 @@
       {
        "p": "RM 3",
        "s": 60,
-       "pourquoi": "Point Mu de la Vessie."
+       "pourquoi": "Point Mu de la Vessie.",
+       "ess": 1
       },
       {
        "p": "V 28",
        "s": 60,
-       "pourquoi": "Point Shu du dos de la Vessie."
+       "pourquoi": "Point Shu du dos de la Vessie.",
+       "ess": 1
       },
       {
        "p": "Rt 9",
        "s": 60,
        "pourquoi": "Draine l'Humidité."
-      }
-     ]
-    },
-    {
-     "m": "t",
-     "items": [
+      },
       {
        "p": "Rt 6",
-       "s": 90,
+       "s": 60,
        "pourquoi": "Régule le bas du corps."
+      },
+      {
+       "p": "V 22",
+       "s": 60,
+       "pourquoi": "Point Shu du dos du Triple Réchauffeur : ouvre les voies de l'eau."
       }
      ]
     }
@@ -752,12 +806,14 @@
       {
        "p": "E 25",
        "s": 60,
-       "pourquoi": "Point Mu du Gros Intestin."
+       "pourquoi": "Point Mu du Gros Intestin.",
+       "ess": 1
       },
       {
        "p": "E 37",
        "s": 60,
-       "pourquoi": "Point He inférieur du Gros Intestin."
+       "pourquoi": "Point He inférieur du Gros Intestin.",
+       "ess": 1
       },
       {
        "p": "GI 11",
@@ -768,6 +824,21 @@
        "p": "Rt 9",
        "s": 60,
        "pourquoi": "Draine l'Humidité."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Draine l'Humidité."
+      },
+      {
+       "p": "V 25",
+       "s": 60,
+       "pourquoi": "Point Shu du dos du Gros Intestin : clarifie les intestins."
+      },
+      {
+       "p": "V 57",
+       "s": 60,
+       "pourquoi": "Soulage les hémorroïdes."
       }
      ]
     }
@@ -842,7 +913,8 @@
       {
        "p": "TR 6",
        "s": 60,
-       "pourquoi": "Aide les selles à descendre."
+       "pourquoi": "Aide les selles à descendre.",
+       "ess": 1
       },
       {
        "p": "E 25",
@@ -857,12 +929,18 @@
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourrit le Yin et les liquides."
+       "pourquoi": "Nourrit le Yin et les liquides.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourrit le Sang et le Yin."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Renforce le Qi qui fait avancer les selles."
       }
      ]
     }
@@ -947,7 +1025,14 @@
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifie le Qi."
+       "pourquoi": "Tonifie le Qi.",
+       "ess": 1
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifie le Qi.",
+       "ess": 1
       },
       {
        "p": "E 25",
@@ -955,9 +1040,14 @@
        "pourquoi": "Régule le Gros Intestin."
       },
       {
-       "p": "RM 6",
+       "p": "V 25",
        "s": 90,
-       "pourquoi": "Tonifie le Qi."
+       "pourquoi": "Point Shu du dos du Gros Intestin : aide le transit."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Renforce la Rate, qui donne la force de pousser."
       }
      ]
     }

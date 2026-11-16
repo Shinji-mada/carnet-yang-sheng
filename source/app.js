@@ -100,7 +100,7 @@ function resolveItem(it,m){
   const o=Object.assign({m},it);
   if(it.p){
     const b=PTS[it.p]||{};
-    o.ab=it.p;o.py=it.py||b.py||it.p;o.zh=it.zh||b.zh;o.loc=it.loc||b.loc;o.act=it.pourquoi||it.act||b.act;
+    o.ab=it.p;o.py=it.py||b.py||it.p;if(!it.nom&&b.nom)o.nom=b.nom;o.zh=it.zh||b.zh;o.loc=it.loc||b.loc;o.act=it.pourquoi||it.act||b.act;
     o.b=it.b!==undefined?it.b:b.b;o.grossesse=b.grossesse;o.dos=b.dos;
   }
   return o;
@@ -1351,15 +1351,25 @@ function computeBilan(){
   b.questions=q.slice(0,b.enough?8:10);
   return b;
 }
+/* Séance réunie : les points clés de chaque tableau sont toujours gardés (E 40 pour les Mucosités, F 3 pour la
+   Stagnation…), puis les autres points dans l'ordre d'importance, jusqu'à 6 pour le tableau principal et 4 ou 3
+   pour les tableaux associés. Un même point n'apparaît qu'une fois (sauf s'il est réchauffé en plus d'être massé). */
 function bilanProto(tabs){
-  const seen=new Map(),ph={d:[],t:[],w:[]},caps=[5,3,3,2];
+  const seen=new Map(),ph={d:[],t:[],w:[]},caps=[6,4,3,3];
+  const add=(t,x,it)=>{
+    const key=(it.p||it.ab||it.py)+(x.m==='w'?':w':'');
+    if(seen.has(key)){const o=seen.get(key);if(!o._for.includes(t))o._for.push(t);if(it.ess)o.ess=1;return false;}
+    const o=Object.assign({},it,{m:x.m,_for:[t]});seen.set(key,o);ph[x.m].push(o);return true;
+  };
+  tabs.forEach((t,i)=>{t._phases.forEach(x=>x.items.forEach(it=>{if(it.ess)add(t,x,it);}));});
   tabs.forEach((t,i)=>{
-    let n=0;
+    let n=t._phases.reduce((a,x)=>a+x.items.filter(it=>it.ess).length,0);
     t._phases.forEach(x=>x.items.forEach(it=>{
-      const key=it.p||it.ab||it.py;
-      if(seen.has(key)){const o=seen.get(key);if(!o._for.includes(t))o._for.push(t);return;}
+      if(it.ess)return;
+      const key=(it.p||it.ab||it.py)+(x.m==='w'?':w':'');
+      if(seen.has(key)){add(t,x,it);return;}
       if(n>=caps[i])return;
-      const o=Object.assign({},it,{m:x.m,_for:[t]});seen.set(key,o);ph[x.m].push(o);n++;
+      if(add(t,x,it))n++;
     }));
   });
   const _phases=['d','t','w'].filter(m=>ph[m].length).map(m=>({m,items:ph[m]}));
@@ -1921,7 +1931,7 @@ function protoHTML(e){
   const cons=e.consigne||$t('Une séance par jour. Commence par disperser, puis tonifie. Sur les points doubles, le minuteur se relance pour le côté opposé.');
   let h=`<div class="sum"><p>${e._items.length} ${esc($t(e.unite||'points'))}, ${$t('environ {n} minutes.',{n:minutes(e)})} ${esc(cons)}</p>
 <button type="button" class="switch" data-auto="1" aria-pressed="${auto}"><span class="sw" aria-hidden="true"></span><span><b>${$t('Enchaîner automatiquement')}</b><small>${$t('Lance le côté ou le point suivant 5 s après la sonnerie')}</small></span></button>
-<div class="hrow"><span class="count" data-count="${esc(e.kind+':'+e.id)}"></span><button class="ghost" type="button" data-reset="${esc(e.kind+':'+e.id)}">${$t('Réinitialiser')}</button></div></div>`;
+<div class="hrow"><span class="count" data-count="${esc(e.kind+':'+e.id)}"></span><button class="ghost" type="button" data-reset="${esc(e.kind+':'+e.id)}">${$t('Réinitialiser')}</button></div></div>${e._items.some(it=>it.ess)?`<p class="hint cle-h"><span class="cle-pt">${$t('Point clé')}</span> ${$t('les incontournables du traitement : garde-les même si tu manques de temps.')}</p>`:''}`;
   let k=0;
   e._phases.forEach(ph=>{
     const m=ph.m;
@@ -1932,7 +1942,7 @@ function protoHTML(e){
       const labels=Array.isArray(it.sl)&&it.sl.length===2?it.sl:SIDE;
       const showAb=it.ab&&it.ab!==it.py;
       h+=`<article class="pt ${m}" data-card="${esc(key)}">
-<div class="meta"><span class="num">${idx+1}</span>${showAb?`<span class="ab">${esc(pn(it.ab))}</span>`:''}</div>
+<div class="meta"><span class="num">${idx+1}</span>${showAb?`<span class="ab">${esc(pn(it.ab))}</span>`:''}${it.ess?`<span class="cle-pt">${$t('Point clé')}</span>`:''}</div>
 ${it.zh?`<div class="pt-zh" lang="zh-Hans" aria-hidden="true">${esc(it.zh)}</div>`:''}
 <h4 class="pt-py">${esc(it.nom||it.py)}</h4>${it.nom&&it.py?`<p class="pt-py2">${esc(it.py)}</p>`:''}
 ${it.loc?`<p class="loc"><span class="k">${$t('Où')}</span>${esc(it.loc)}</p>`:''}

@@ -39,4 +39,5 @@ VIEW = {
 
 PTS = {
     'V 40': dict(x=200, y=106, rep=['pli-genou', 'semi', 'biceps'], lab='t'),
+    'V 57': dict(x=200, y=244, rep=['mollet', 'pli-genou'], regle=['mollet8'], lab='l'),
 }

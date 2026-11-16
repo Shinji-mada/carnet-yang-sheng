@@ -65,12 +65,14 @@
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifies Qi and Blood."
+       "pourquoi": "Tonifies Qi and Blood.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
-       "pourquoi": "Nourishes Blood."
+       "pourquoi": "Nourishes Blood.",
+       "ess": 1
       },
       {
        "p": "RM 6",
@@ -86,6 +88,11 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Strengthens the Spleen, the source of Qi and Blood."
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Gathering point of Blood: nourishes Blood."
       }
      ]
     }
@@ -181,17 +188,19 @@
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifies Qi, the source of fluids."
+       "pourquoi": "Tonifies Qi, the source of fluids.",
+       "ess": 1
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Source point of the Kidney: nourishes Yin at the root.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourishes Yin and Blood."
-      },
-      {
-       "p": "Rn 3",
-       "s": 90,
-       "pourquoi": "Source point of the Kidney: nourishes Yin at the root."
       },
       {
        "p": "P 9",
@@ -207,6 +216,11 @@
        "p": "RM 6",
        "s": 90,
        "pourquoi": "Tonifies Qi."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes Yin and root Qi."
       }
      ]
     }
@@ -305,12 +319,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifies the Kidney."
+       "pourquoi": "Tonifies the Kidney.",
+       "ess": 1
       },
       {
        "p": "F 8",
        "s": 90,
-       "pourquoi": "Nourishes the Liver."
+       "pourquoi": "Nourishes the Liver.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
@@ -326,6 +342,16 @@
        "p": "RM 4",
        "s": 90,
        "pourquoi": "Nourishes the Kidney."
+      },
+      {
+       "p": "V 18",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Liver: nourishes the Liver."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney: nourishes the Kidney."
       }
      ]
     }
@@ -428,6 +454,11 @@
        "pourquoi": "Yuan-Source point of the Kidney."
       },
       {
+       "p": "Rn 7",
+       "s": 90,
+       "pourquoi": "Tonifies Kidney Yang and regulates water."
+      },
+      {
        "p": "V 20",
        "s": 90,
        "pourquoi": "Back-Shu point of the Spleen."
@@ -443,9 +474,16 @@
      "m": "w",
      "items": [
       {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "Warms the Kidney fire.",
+       "ess": 1
+      },
+      {
        "p": "RM 4",
        "s": 300,
-       "pourquoi": "Warms the Kidney."
+       "pourquoi": "Warms the Kidney.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -536,17 +574,19 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Tonifies the Lung."
+       "pourquoi": "Tonifies the Lung.",
+       "ess": 1
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Earth nourishes Metal.",
+       "ess": 1
       },
       {
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Tonifies the Spleen."
-      },
-      {
-       "p": "E 36",
-       "s": 120,
-       "pourquoi": "Earth nourishes Metal."
       },
       {
        "p": "RM 12",
@@ -562,6 +602,11 @@
        "p": "V 20",
        "s": 90,
        "pourquoi": "Back-Shu point of the Spleen."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifies Qi."
       }
      ]
     }
@@ -649,7 +694,14 @@
       {
        "p": "Rt 10",
        "s": 60,
-       "pourquoi": "Gets Blood moving."
+       "pourquoi": "Gets Blood moving.",
+       "ess": 1
+      },
+      {
+       "p": "V 17",
+       "s": 60,
+       "pourquoi": "Influential (Meeting) point of Blood.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
@@ -667,9 +719,14 @@
        "pourquoi": "Frees Qi, which carries Blood along."
       },
       {
-       "p": "V 17",
+       "p": "MC 6",
        "s": 60,
-       "pourquoi": "Influential (Meeting) point of Blood."
+       "pourquoi": "Moves Blood in the chest, eases pain."
+      },
+      {
+       "p": "Rt 8",
+       "s": 60,
+       "pourquoi": "Xi-cleft point of the Spleen: moves Blood, especially for painful periods."
       }
      ]
     }
@@ -755,7 +812,8 @@
       {
        "p": "Rt 8",
        "s": 60,
-       "pourquoi": "Relieves painful periods."
+       "pourquoi": "Relieves painful periods.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
@@ -775,12 +833,18 @@
       {
        "p": "RM 4",
        "s": 300,
-       "pourquoi": "Warms the Uterus."
+       "pourquoi": "Warms the Uterus.",
+       "ess": 1
       },
       {
        "p": "RM 6",
        "s": 240,
        "pourquoi": "Warms and gets Qi moving."
+      },
+      {
+       "p": "E 29",
+       "s": 240,
+       "pourquoi": "Warms the Uterus, eases painful periods."
       }
      ]
     }
@@ -849,7 +913,8 @@
        "p": "Ah Shi",
        "s": 90,
        "b": 0,
-       "pourquoi": "Unblocks the area that hurts today."
+       "pourquoi": "Unblocks the area that hurts today.",
+       "ess": 1
       },
       {
        "p": "VB 20",
@@ -857,9 +922,15 @@
        "pourquoi": "Expels Wind."
       },
       {
+       "p": "TR 5",
+       "s": 60,
+       "pourquoi": "Expels Wind, eases pain that moves around."
+      },
+      {
        "p": "Rt 10",
        "s": 60,
-       "pourquoi": "“To treat Wind, first treat the Blood.”"
+       "pourquoi": "“To treat Wind, first treat the Blood.”",
+       "ess": 1
       },
       {
        "p": "V 17",
@@ -933,7 +1004,8 @@
        "p": "Ah Shi",
        "s": 90,
        "b": 0,
-       "pourquoi": "Unblocks the painful area."
+       "pourquoi": "Unblocks the painful area.",
+       "ess": 1
       },
       {
        "p": "VB 34",
@@ -949,12 +1021,18 @@
        "p": "Ah Shi",
        "s": 300,
        "b": 0,
-       "pourquoi": "Warmth dissolves local Cold."
+       "pourquoi": "Warmth dissolves local Cold.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 180,
        "pourquoi": "Strengthens Yang and Qi."
+      },
+      {
+       "p": "V 23",
+       "s": 240,
+       "pourquoi": "Warms Kidney Yang, which protects the bones and joints."
       }
      ]
     }
@@ -1036,12 +1114,24 @@
        "p": "Ah Shi",
        "s": 90,
        "b": 0,
-       "pourquoi": "Unblocks the painful area."
+       "pourquoi": "Unblocks the painful area.",
+       "ess": 1
       },
       {
        "p": "Rt 9",
        "s": 60,
+       "pourquoi": "Drains Dampness.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
        "pourquoi": "Drains Dampness."
+      },
+      {
+       "p": "VB 34",
+       "s": 60,
+       "pourquoi": "Relaxes the tendons and joints."
       }
      ]
     },
@@ -1057,6 +1147,17 @@
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Strengthens the Spleen."
+      }
+     ]
+    },
+    {
+     "m": "w",
+     "items": [
+      {
+       "p": "Ah Shi",
+       "s": 240,
+       "b": 0,
+       "pourquoi": "Warmth helps clear local Dampness."
       }
      ]
     }
@@ -1131,7 +1232,20 @@
       {
        "p": "GI 11",
        "s": 60,
-       "pourquoi": "Clears Heat."
+       "pourquoi": "Clears Heat.",
+       "ess": 1
+      },
+      {
+       "p": "Ah Shi",
+       "s": 60,
+       "b": 0,
+       "pourquoi": "Unblocks the painful joint (gentle pressure if it is very hot).",
+       "ess": 1
+      },
+      {
+       "p": "VG 14",
+       "s": 60,
+       "pourquoi": "Brings heat down."
       },
       {
        "p": "GI 4",
@@ -1139,9 +1253,14 @@
        "pourquoi": "Calms pain."
       },
       {
-       "p": "VG 14",
+       "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Brings heat down."
+       "pourquoi": "Drains the Damp-Heat that swells the joint."
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Cools the Blood."
       }
      ]
     }
@@ -1210,12 +1329,19 @@
       {
        "p": "GI 11",
        "s": 60,
-       "pourquoi": "Clears Heat, calms itching."
+       "pourquoi": "Clears Heat, calms itching.",
+       "ess": 1
       },
       {
        "p": "Rt 10",
        "s": 60,
-       "pourquoi": "Cools the Blood."
+       "pourquoi": "Cools the Blood.",
+       "ess": 1
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Expels Wind."
       },
       {
        "p": "Bai Chong Wo",
@@ -1223,9 +1349,9 @@
        "pourquoi": "Calms itching."
       },
       {
-       "p": "GI 4",
+       "p": "V 40",
        "s": 60,
-       "pourquoi": "Expels Wind."
+       "pourquoi": "Cools the Blood, calms itching."
       }
      ]
     }
@@ -1297,12 +1423,14 @@
       {
        "p": "Rt 9",
        "s": 60,
-       "pourquoi": "Drains Dampness."
+       "pourquoi": "Drains Dampness.",
+       "ess": 1
       },
       {
        "p": "GI 11",
        "s": 60,
-       "pourquoi": "Clears Heat."
+       "pourquoi": "Clears Heat.",
+       "ess": 1
       },
       {
        "p": "Rt 10",
@@ -1313,16 +1441,16 @@
        "p": "Bai Chong Wo",
        "s": 60,
        "pourquoi": "Calms itching."
-      }
-     ]
-    },
-    {
-     "m": "t",
-     "items": [
+      },
       {
        "p": "Rt 6",
-       "s": 90,
+       "s": 60,
        "pourquoi": "Strengthens the Spleen."
+      },
+      {
+       "p": "V 40",
+       "s": 60,
+       "pourquoi": "Cools the Blood, calms itching."
       }
      ]
     }
@@ -1396,12 +1524,14 @@
       {
        "p": "Rt 10",
        "s": 90,
-       "pourquoi": "Nourishes and regulates Blood."
+       "pourquoi": "Nourishes and regulates Blood.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
-       "pourquoi": "Nourishes Blood."
+       "pourquoi": "Nourishes Blood.",
+       "ess": 1
       },
       {
        "p": "E 36",
@@ -1412,6 +1542,11 @@
        "p": "F 8",
        "s": 90,
        "pourquoi": "Nourishes Liver Blood."
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Gathering point of Blood: nourishes Blood."
       }
      ]
     }
@@ -1492,7 +1627,14 @@
       {
        "p": "GI 11",
        "s": 60,
-       "pourquoi": "Clears Heat."
+       "pourquoi": "Clears Heat.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 10",
+       "s": 60,
+       "pourquoi": "Cools the Blood.",
+       "ess": 1
       },
       {
        "p": "GI 4",
@@ -1500,14 +1642,14 @@
        "pourquoi": "Soothes the face."
       },
       {
-       "p": "Rt 10",
+       "p": "V 40",
        "s": 60,
        "pourquoi": "Cools the Blood."
       },
       {
-       "p": "V 40",
+       "p": "E 44",
        "s": 60,
-       "pourquoi": "Cools the Blood."
+       "pourquoi": "Clears Stomach Heat rising to the face."
       }
      ]
     }

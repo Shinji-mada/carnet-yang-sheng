@@ -14,6 +14,7 @@ for m in mods:
     mod = importlib.import_module(os.path.basename(m)[:-3])
     V = dict(mod.VIEW)
     if V.get('sym'): V.setdefault('axe', 100)
+    if V.get('canal'): V['canal'] = {k: v for k, v in V['canal'].items() if k not in mod.PTS}
     F[name] = V
     for k, d in mod.PTS.items():
         assert k in P, k

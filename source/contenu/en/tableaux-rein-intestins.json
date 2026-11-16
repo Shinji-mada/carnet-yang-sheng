@@ -70,7 +70,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Yuan-Source point of the Kidney."
+       "pourquoi": "Yuan-Source point of the Kidney.",
+       "ess": 1
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney.",
+       "ess": 1
       },
       {
        "p": "Rn 7",
@@ -78,9 +85,9 @@
        "pourquoi": "Tonifies the Kidney."
       },
       {
-       "p": "V 23",
+       "p": "V 52",
        "s": 90,
-       "pourquoi": "Back-Shu point of the Kidney."
+       "pourquoi": "Strengthens the Kidney and willpower."
       },
       {
        "p": "E 36",
@@ -93,14 +100,16 @@
      "m": "w",
      "items": [
       {
-       "p": "RM 4",
-       "s": 300,
-       "pourquoi": "Warms the Kidney and the lower belly."
-      },
-      {
        "p": "VG 4",
        "s": 300,
-       "pourquoi": "“Gate of Life”: warms Kidney Yang."
+       "pourquoi": "“Gate of Life”: warms Kidney Yang.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 300,
+       "pourquoi": "Warms the Kidney and the lower belly.",
+       "ess": 1
       }
      ]
     }
@@ -212,12 +221,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifies the Kidney."
+       "pourquoi": "Tonifies the Kidney.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourishes Yin."
+       "pourquoi": "Nourishes Yin.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
@@ -233,6 +244,16 @@
        "p": "V 23",
        "s": 90,
        "pourquoi": "Back-Shu point of the Kidney."
+      },
+      {
+       "p": "Rn 10",
+       "s": 90,
+       "pourquoi": "He-sea point of the Kidney: nourishes Yin."
+      },
+      {
+       "p": "V 52",
+       "s": 90,
+       "pourquoi": "Strengthens the Kidney."
       }
      ]
     }
@@ -324,14 +345,21 @@
      "m": "t",
      "items": [
       {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Tonifies the Kidney.",
+       "ess": 1
+      },
+      {
        "p": "Rn 3",
        "s": 90,
        "pourquoi": "Tonifies the Kidney."
-      },
-      {
-       "p": "V 23",
-       "s": 90,
-       "pourquoi": "Back-Shu point of the Kidney."
       },
       {
        "p": "V 28",
@@ -339,9 +367,9 @@
        "pourquoi": "Back-Shu point of the Bladder."
       },
       {
-       "p": "RM 4",
+       "p": "VG 20",
        "s": 90,
-       "pourquoi": "Tonifies the Kidney."
+       "pourquoi": "Raises and holds the Qi."
       }
      ]
     },
@@ -352,6 +380,11 @@
        "p": "RM 6",
        "s": 300,
        "pourquoi": "Tonifies and warms Qi."
+      },
+      {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "Warms and firms the Kidney."
       }
      ]
     }
@@ -445,7 +478,14 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifies the Kidney."
+       "pourquoi": "Tonifies the Kidney.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Anchors the breath low down.",
+       "ess": 1
       },
       {
        "p": "P 9",
@@ -463,9 +503,9 @@
        "pourquoi": "Brings Qi down, calms breathlessness."
       },
       {
-       "p": "RM 4",
+       "p": "V 23",
        "s": 90,
-       "pourquoi": "Anchors the breath low down."
+       "pourquoi": "Back-Shu point of the Kidney: helps the Kidney receive the breath."
       }
      ]
     }
@@ -548,7 +588,19 @@
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifies the Kidney."
+       "pourquoi": "Tonifies the Kidney.",
+       "ess": 1
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes the Kidney and Essence.",
+       "ess": 1
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney."
       },
       {
        "p": "VB 39",
@@ -556,14 +608,14 @@
        "pourquoi": "Influential (Meeting) point of Marrow."
       },
       {
-       "p": "RM 4",
+       "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourishes the Kidney and Essence."
+       "pourquoi": "Nourishes Yin and Essence."
       },
       {
-       "p": "V 23",
+       "p": "V 52",
        "s": 90,
-       "pourquoi": "Back-Shu point of the Kidney."
+       "pourquoi": "Strengthens the Kidney and Essence."
       }
      ]
     }
@@ -649,27 +701,29 @@
       {
        "p": "RM 3",
        "s": 60,
-       "pourquoi": "Front-Mu point of the Bladder."
+       "pourquoi": "Front-Mu point of the Bladder.",
+       "ess": 1
       },
       {
        "p": "V 28",
        "s": 60,
-       "pourquoi": "Back-Shu point of the Bladder."
+       "pourquoi": "Back-Shu point of the Bladder.",
+       "ess": 1
       },
       {
        "p": "Rt 9",
        "s": 60,
        "pourquoi": "Drains Dampness."
-      }
-     ]
-    },
-    {
-     "m": "t",
-     "items": [
+      },
       {
        "p": "Rt 6",
-       "s": 90,
+       "s": 60,
        "pourquoi": "Regulates the lower body."
+      },
+      {
+       "p": "V 22",
+       "s": 60,
+       "pourquoi": "Back-Shu point of the Triple Energizer: opens the water passages."
       }
      ]
     }
@@ -752,12 +806,14 @@
       {
        "p": "E 25",
        "s": 60,
-       "pourquoi": "Front-Mu point of the Large Intestine."
+       "pourquoi": "Front-Mu point of the Large Intestine.",
+       "ess": 1
       },
       {
        "p": "E 37",
        "s": 60,
-       "pourquoi": "Lower He-Sea point of the Large Intestine."
+       "pourquoi": "Lower He-Sea point of the Large Intestine.",
+       "ess": 1
       },
       {
        "p": "GI 11",
@@ -768,6 +824,21 @@
        "p": "Rt 9",
        "s": 60,
        "pourquoi": "Drains Dampness."
+      },
+      {
+       "p": "Rt 6",
+       "s": 60,
+       "pourquoi": "Drains Dampness."
+      },
+      {
+       "p": "V 25",
+       "s": 60,
+       "pourquoi": "Back-Shu point of the Large Intestine: clears the intestines."
+      },
+      {
+       "p": "V 57",
+       "s": 60,
+       "pourquoi": "Relieves hemorrhoids."
       }
      ]
     }
@@ -842,7 +913,8 @@
       {
        "p": "TR 6",
        "s": 60,
-       "pourquoi": "Helps stools move down."
+       "pourquoi": "Helps stools move down.",
+       "ess": 1
       },
       {
        "p": "E 25",
@@ -857,12 +929,18 @@
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourishes Yin and fluids."
+       "pourquoi": "Nourishes Yin and fluids.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourishes Blood and Yin."
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Strengthens the Qi that moves the stools along."
       }
      ]
     }
@@ -947,7 +1025,14 @@
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifies Qi."
+       "pourquoi": "Tonifies Qi.",
+       "ess": 1
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifies Qi.",
+       "ess": 1
       },
       {
        "p": "E 25",
@@ -955,9 +1040,14 @@
        "pourquoi": "Regulates the Large Intestine."
       },
       {
-       "p": "RM 6",
+       "p": "V 25",
        "s": 90,
-       "pourquoi": "Tonifies Qi."
+       "pourquoi": "Back-Shu point of the Large Intestine: helps the bowels move."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen, which gives the strength to push."
       }
      ]
     }

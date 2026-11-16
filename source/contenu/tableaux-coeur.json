@@ -47,7 +47,20 @@
       {
        "p": "C 5",
        "s": 90,
-       "pourquoi": "Tonifie le Qi du Cœur."
+       "pourquoi": "Tonifie le Qi du Cœur.",
+       "ess": 1
+      },
+      {
+       "p": "RM 17",
+       "s": 90,
+       "pourquoi": "Tonifie le Qi de la poitrine.",
+       "ess": 1
+      },
+      {
+       "p": "V 15",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Cœur.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -55,19 +68,14 @@
        "pourquoi": "Ouvre la poitrine, régule le Cœur."
       },
       {
-       "p": "RM 17",
+       "p": "RM 6",
        "s": 90,
-       "pourquoi": "Tonifie le Qi de la poitrine."
+       "pourquoi": "Tonifie le Qi de tout le corps."
       },
       {
        "p": "E 36",
        "s": 120,
        "pourquoi": "Tonifie le Qi de tout le corps."
-      },
-      {
-       "p": "V 15",
-       "s": 90,
-       "pourquoi": "Point Shu du dos du Cœur."
       }
      ]
     }
@@ -141,18 +149,21 @@
      "m": "t",
      "items": [
       {
-       "p": "Yin Tang",
-       "s": 60,
-       "pourquoi": "Calme l'esprit.",
-       "tech": [
-        "●",
-        "Pression douce et immobile, yeux fermés"
-       ]
-      },
-      {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Point Yuan du Cœur : calme l'esprit, aide au sommeil."
+       "pourquoi": "Point Yuan du Cœur : calme l'esprit, aide au sommeil.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang.",
+       "ess": 1
+      },
+      {
+       "p": "V 17",
+       "s": 90,
+       "pourquoi": "Point de réunion du Sang : nourrit le Sang."
       },
       {
        "p": "MC 6",
@@ -160,14 +171,23 @@
        "pourquoi": "Calme l'esprit."
       },
       {
-       "p": "Rt 6",
+       "p": "RM 14",
        "s": 90,
-       "pourquoi": "Nourrit le Sang."
+       "pourquoi": "Point Mu du Cœur : nourrit le Cœur, apaise l'esprit."
       },
       {
        "p": "E 36",
        "s": 120,
        "pourquoi": "Renforce la Rate qui fabrique le Sang."
+      },
+      {
+       "p": "Yin Tang",
+       "s": 60,
+       "tech": [
+        "●",
+        "Pression douce et immobile, yeux fermés"
+       ],
+       "pourquoi": "Calme l'esprit."
       }
      ]
     }
@@ -253,22 +273,35 @@
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Calme l'esprit."
+       "pourquoi": "Calme l'esprit.",
+       "ess": 1
       },
       {
        "p": "C 6",
        "s": 90,
-       "pourquoi": "Nourrit le Yin du Cœur, arrête les sueurs nocturnes."
+       "pourquoi": "Nourrit le Yin du Cœur, arrête les sueurs nocturnes.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourrit le Yin, aide au sommeil."
+       "pourquoi": "Nourrit le Yin, aide au sommeil.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourrit le Yin."
+      },
+      {
+       "p": "RM 15",
+       "s": 60,
+       "pourquoi": "Calme l'esprit et nourrit le Yin du Cœur."
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Point Yuan du Rein : nourrit le Yin à la racine."
       },
       {
        "p": "An Mian",
@@ -360,7 +393,8 @@
       {
        "p": "C 8",
        "s": 60,
-       "pourquoi": "Clarifie le Feu du Cœur."
+       "pourquoi": "Clarifie le Feu du Cœur.",
+       "ess": 1
       },
       {
        "p": "MC 7",
@@ -371,6 +405,11 @@
        "p": "C 7",
        "s": 60,
        "pourquoi": "Calme l'esprit."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur de tout le corps."
       }
      ]
     },
@@ -380,7 +419,13 @@
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourrit l'Eau pour tempérer le Feu."
+       "pourquoi": "Nourrit l'Eau pour tempérer le Feu.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin pour tempérer le Feu."
       }
      ]
     }
@@ -461,7 +506,20 @@
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Calme l'esprit."
+       "pourquoi": "Calme l'esprit.",
+       "ess": 1
+      },
+      {
+       "p": "E 36",
+       "s": 120,
+       "pourquoi": "Renforce la Rate.",
+       "ess": 1
+      },
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Sang, calme l'esprit.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -474,14 +532,14 @@
        "pourquoi": "Renforce le centre."
       },
       {
-       "p": "E 36",
-       "s": 120,
-       "pourquoi": "Renforce la Rate."
+       "p": "V 15",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Cœur : nourrit le Cœur."
       },
       {
-       "p": "Rt 6",
+       "p": "V 20",
        "s": 90,
-       "pourquoi": "Nourrit le Sang, calme l'esprit."
+       "pourquoi": "Point Shu du dos de la Rate : renforce la Rate, source du Sang."
       }
      ]
     }
@@ -575,22 +633,35 @@
       {
        "p": "C 7",
        "s": 90,
-       "pourquoi": "Calme l'esprit."
+       "pourquoi": "Calme l'esprit.",
+       "ess": 1
       },
       {
        "p": "Rn 3",
        "s": 90,
-       "pourquoi": "Tonifie le Rein."
+       "pourquoi": "Tonifie le Rein.",
+       "ess": 1
       },
       {
        "p": "Rn 6",
        "s": 90,
-       "pourquoi": "Nourrit le Yin, aide au sommeil."
+       "pourquoi": "Nourrit le Yin, aide au sommeil.",
+       "ess": 1
+      },
+      {
+       "p": "C 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin du Cœur, calme les sueurs nocturnes."
       },
       {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourrit le Yin."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin du Rein."
       },
       {
        "p": "Rn 1",

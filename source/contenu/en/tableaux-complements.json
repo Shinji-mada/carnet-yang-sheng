@@ -50,7 +50,14 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Tonifies the Lung."
+       "pourquoi": "Tonifies the Lung.",
+       "ess": 1
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin and fluids.",
+       "ess": 1
       },
       {
        "p": "P 7",
@@ -58,14 +65,14 @@
        "pourquoi": "With KI 6: moistens the throat."
       },
       {
-       "p": "Rn 6",
-       "s": 90,
-       "pourquoi": "Nourishes Yin and fluids."
-      },
-      {
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Nourishes fluids."
+      },
+      {
+       "p": "RM 4",
+       "s": 90,
+       "pourquoi": "Nourishes fluids at the root."
       }
      ]
     }
@@ -149,12 +156,14 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Front-Mu point of the Stomach: tonifies it directly."
+       "pourquoi": "Front-Mu point of the Stomach: tonifies it directly.",
+       "ess": 1
       },
       {
        "p": "E 36",
        "s": 120,
-       "pourquoi": "Tonifies Stomach Qi."
+       "pourquoi": "Tonifies Stomach Qi.",
+       "ess": 1
       },
       {
        "p": "V 21",
@@ -165,6 +174,11 @@
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Supports the Spleen, the Stomach's partner."
+      },
+      {
+       "p": "RM 6",
+       "s": 90,
+       "pourquoi": "Tonifies Qi."
       }
      ]
     }
@@ -258,12 +272,18 @@
       {
        "p": "RM 12",
        "s": 90,
-       "pourquoi": "Tonifies the Stomach."
+       "pourquoi": "Tonifies the Stomach.",
+       "ess": 1
       },
       {
        "p": "V 21",
        "s": 90,
        "pourquoi": "Back-Shu point of the Stomach."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen: strengthens the center."
       }
      ]
     },
@@ -273,7 +293,8 @@
       {
        "p": "E 36",
        "s": 240,
-       "pourquoi": "Warms and tonifies the Stomach."
+       "pourquoi": "Warms and tonifies the Stomach.",
+       "ess": 1
       },
       {
        "p": "RM 6",
@@ -354,7 +375,14 @@
       {
        "p": "VB 40",
        "s": 90,
-       "pourquoi": "Yuan-Source point of the Gallbladder."
+       "pourquoi": "Yuan-Source point of the Gallbladder.",
+       "ess": 1
+      },
+      {
+       "p": "V 19",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Gallbladder: strengthens the Gallbladder.",
+       "ess": 1
       },
       {
        "p": "C 7",
@@ -452,12 +480,14 @@
       {
        "p": "VB 34",
        "s": 90,
-       "pourquoi": "Frees the Gallbladder and moves Qi."
+       "pourquoi": "Frees the Gallbladder and moves Qi.",
+       "ess": 1
       },
       {
        "p": "E 40",
        "s": 90,
-       "pourquoi": "The main point for transforming Phlegm."
+       "pourquoi": "The main point for transforming Phlegm.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -465,9 +495,19 @@
        "pourquoi": "Calms nausea, opens the chest, settles the mind."
       },
       {
+       "p": "RM 12",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Stomach: dries up the source of Phlegm."
+      },
+      {
        "p": "F 2",
        "s": 60,
        "pourquoi": "Brings down Heat from the Liver and Gallbladder."
+      },
+      {
+       "p": "VB 44",
+       "s": 60,
+       "pourquoi": "Well point of the Gallbladder: calms insomnia and nightmares."
       }
      ]
     },
@@ -563,12 +603,14 @@
       {
        "p": "V 28",
        "s": 90,
-       "pourquoi": "Back-Shu point of the Bladder."
+       "pourquoi": "Back-Shu point of the Bladder.",
+       "ess": 1
       },
       {
        "p": "V 23",
        "s": 90,
-       "pourquoi": "Back-Shu point of the Kidney."
+       "pourquoi": "Back-Shu point of the Kidney.",
+       "ess": 1
       },
       {
        "p": "Rn 3",
@@ -583,7 +625,18 @@
       {
        "p": "RM 4",
        "s": 300,
-       "pourquoi": "Warms the Kidney and the lower belly."
+       "pourquoi": "Warms the Kidney and the lower belly.",
+       "ess": 1
+      },
+      {
+       "p": "RM 3",
+       "s": 240,
+       "pourquoi": "Warms the Bladder."
+      },
+      {
+       "p": "VG 4",
+       "s": 300,
+       "pourquoi": "Warms Kidney Yang."
       }
      ]
     }
@@ -661,12 +714,14 @@
       {
        "p": "E 25",
        "s": 60,
-       "pourquoi": "Front-Mu point of the Large Intestine."
+       "pourquoi": "Front-Mu point of the Large Intestine.",
+       "ess": 1
       },
       {
        "p": "E 37",
        "s": 60,
-       "pourquoi": "Regulates the Large Intestine."
+       "pourquoi": "Regulates the Large Intestine.",
+       "ess": 1
       }
      ]
     },
@@ -682,6 +737,11 @@
        "p": "E 36",
        "s": 240,
        "pourquoi": "Warms and tonifies."
+      },
+      {
+       "p": "V 25",
+       "s": 240,
+       "pourquoi": "Back-Shu point of the Large Intestine: warms the intestines."
       }
      ]
     }
@@ -766,7 +826,14 @@
       {
        "p": "F 8",
        "s": 90,
-       "pourquoi": "Nourishes Liver Yin and Blood."
+       "pourquoi": "Nourishes Liver Yin and Blood.",
+       "ess": 1
+      },
+      {
+       "p": "Rn 3",
+       "s": 90,
+       "pourquoi": "Kidney Water nourishes Liver Wood.",
+       "ess": 1
       },
       {
        "p": "Rt 6",
@@ -774,14 +841,19 @@
        "pourquoi": "Nourishes Yin."
       },
       {
-       "p": "Rn 3",
-       "s": 90,
-       "pourquoi": "Kidney Water nourishes Liver Wood."
-      },
-      {
        "p": "Rn 6",
        "s": 90,
        "pourquoi": "Nourishes Yin, moistens the eyes."
+      },
+      {
+       "p": "V 18",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Liver: nourishes the Liver."
+      },
+      {
+       "p": "V 23",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Kidney: nourishes Yin at the root."
       }
      ]
     }
@@ -866,7 +938,14 @@
       {
        "p": "Rt 10",
        "s": 60,
-       "pourquoi": "Cools the Blood."
+       "pourquoi": "Cools the Blood.",
+       "ess": 1
+      },
+      {
+       "p": "F 2",
+       "s": 60,
+       "pourquoi": "Clears Liver Heat.",
+       "ess": 1
       },
       {
        "p": "GI 11",
@@ -874,9 +953,9 @@
        "pourquoi": "Clears Heat."
       },
       {
-       "p": "F 2",
+       "p": "Rn 2",
        "s": 60,
-       "pourquoi": "Clears Liver Heat."
+       "pourquoi": "Clears Heat arising from a lack of Yin."
       }
      ]
     },

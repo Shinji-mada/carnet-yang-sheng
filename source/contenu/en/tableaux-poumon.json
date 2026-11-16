@@ -56,7 +56,14 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Yuan-Source point of the Lung: directly tonifies its Qi."
+       "pourquoi": "Yuan-Source point of the Lung: directly tonifies its Qi.",
+       "ess": 1
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Lung: tonifies its Qi.",
+       "ess": 1
       },
       {
        "p": "P 7",
@@ -69,19 +76,14 @@
        "pourquoi": "Tonifies the Spleen and Stomach: “Earth nourishes Metal.”"
       },
       {
-       "p": "RM 6",
-       "s": 90,
-       "pourquoi": "Sea of Qi: tonifies the Qi of the whole body."
-      },
-      {
-       "p": "V 13",
-       "s": 90,
-       "pourquoi": "Back-Shu point of the Lung: tonifies its Qi."
-      },
-      {
        "p": "V 20",
        "s": 90,
        "pourquoi": "Back-Shu point of the Spleen: strengthens the source of Qi."
+      },
+      {
+       "p": "VG 12",
+       "s": 90,
+       "pourquoi": "Strengthens the Lung's defenses."
       }
      ]
     },
@@ -179,7 +181,14 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Yuan-Source point of the Lung: tonifies its Qi."
+       "pourquoi": "Yuan-Source point of the Lung: tonifies its Qi.",
+       "ess": 1
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Lung.",
+       "ess": 1
       },
       {
        "p": "P 7",
@@ -190,11 +199,6 @@
        "p": "RM 12",
        "s": 90,
        "pourquoi": "Regulates the Qi of the center (digestion) and spreads Yang."
-      },
-      {
-       "p": "V 13",
-       "s": 90,
-       "pourquoi": "Back-Shu point of the Lung."
       },
       {
        "p": "VG 12",
@@ -303,11 +307,11 @@
       {
        "p": "P 10",
        "s": 60,
-       "pourquoi": "Calms heat in the throat.",
        "tech": [
         "↺",
         "Medium pressure, anticlockwise rotation"
-       ]
+       ],
+       "pourquoi": "Calms heat in the throat."
       }
      ]
     },
@@ -317,17 +321,19 @@
       {
        "p": "P 9",
        "s": 90,
-       "pourquoi": "Tonifies Lung Yin."
+       "pourquoi": "Tonifies Lung Yin.",
+       "ess": 1
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin, moistens the throat.",
+       "ess": 1
       },
       {
        "p": "P 7",
        "s": 90,
        "pourquoi": "With KI 6: opens the Ren Mai and moistens the throat."
-      },
-      {
-       "p": "Rn 6",
-       "s": 90,
-       "pourquoi": "Nourishes Yin, moistens the throat."
       },
       {
        "p": "Rt 6",
@@ -338,6 +344,11 @@
        "p": "V 43",
        "s": 90,
        "pourquoi": "Tonifies Lung Yin in chronic conditions."
+      },
+      {
+       "p": "V 13",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Lung: nourishes the Lung."
       }
      ]
     }
@@ -413,7 +424,14 @@
       {
        "p": "P 7",
        "s": 60,
-       "pourquoi": "Frees Lung Qi and releases emotions held inside."
+       "pourquoi": "Frees Lung Qi and releases emotions held inside.",
+       "ess": 1
+      },
+      {
+       "p": "RM 17",
+       "s": 60,
+       "pourquoi": "Gathering point of the Qi of the chest.",
+       "ess": 1
       },
       {
        "p": "MC 6",
@@ -421,23 +439,23 @@
        "pourquoi": "Opens the chest."
       },
       {
-       "p": "RM 17",
-       "s": 60,
-       "pourquoi": "Gathering point of the Qi of the chest."
-      },
-      {
        "p": "RM 22",
        "s": 60,
-       "pourquoi": "Unknots the throat.",
        "tech": [
         "↓",
         "Gentle downward pressure, no rotation"
-       ]
+       ],
+       "pourquoi": "Unknots the throat."
       },
       {
        "p": "E 40",
        "s": 60,
        "pourquoi": "Transforms the Phlegm clogging the throat."
+      },
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Frees Qi blocked by emotions."
       }
      ]
     }
@@ -510,12 +528,14 @@
       {
        "p": "P 7",
        "s": 60,
-       "pourquoi": "Restores the Lung's spreading function and expels Wind."
+       "pourquoi": "Restores the Lung's spreading function and expels Wind.",
+       "ess": 1
       },
       {
        "p": "GI 4",
        "s": 60,
-       "pourquoi": "Releases the surface and the head."
+       "pourquoi": "Releases the surface and the head.",
+       "ess": 1
       },
       {
        "p": "VB 20",
@@ -526,6 +546,11 @@
        "p": "V 12",
        "s": 60,
        "pourquoi": "“Wind Gate”: drives out Wind-Cold."
+      },
+      {
+       "p": "V 13",
+       "s": 60,
+       "pourquoi": "Back-Shu point of the Lung: frees the Lung."
       }
      ]
     }
@@ -599,14 +624,16 @@
      "m": "d",
      "items": [
       {
-       "p": "GI 11",
-       "s": 60,
-       "pourquoi": "Clears Heat."
-      },
-      {
        "p": "GI 4",
        "s": 60,
-       "pourquoi": "Releases the surface, relieves the throat and head."
+       "pourquoi": "Releases the surface, relieves the throat and head.",
+       "ess": 1
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat.",
+       "ess": 1
       },
       {
        "p": "TR 5",
@@ -616,16 +643,21 @@
       {
        "p": "P 11",
        "s": 30,
-       "pourquoi": "Relieves a sore throat.",
        "tech": [
         "↺",
         "Strong pressure with the fingernail, in short repeated presses"
-       ]
+       ],
+       "pourquoi": "Relieves a sore throat."
       },
       {
        "p": "VG 14",
        "s": 60,
        "pourquoi": "Brings down fever."
+      },
+      {
+       "p": "VB 20",
+       "s": 60,
+       "pourquoi": "Expels Wind, relieves the head."
       }
      ]
     }
@@ -708,14 +740,16 @@
      "m": "d",
      "items": [
       {
-       "p": "P 5",
-       "s": 60,
-       "pourquoi": "Makes Lung Qi descend and transforms phlegm."
-      },
-      {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Key point for transforming Phlegm."
+       "pourquoi": "Key point for transforming Phlegm.",
+       "ess": 1
+      },
+      {
+       "p": "P 5",
+       "s": 60,
+       "pourquoi": "Makes Lung Qi descend and transforms phlegm.",
+       "ess": 1
       },
       {
        "p": "RM 17",
@@ -725,11 +759,16 @@
       {
        "p": "RM 12",
        "s": 60,
-       "pourquoi": "Helps the Spleen transform Dampness.",
        "tech": [
         "↺",
         "Medium pressure, anticlockwise rotation"
-       ]
+       ],
+       "pourquoi": "Helps the Spleen transform Dampness."
+      },
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Makes Lung Qi descend, calms coughing."
       }
      ]
     },
@@ -745,6 +784,11 @@
        "p": "Rt 3",
        "s": 90,
        "pourquoi": "Yuan-Source point of the Spleen."
+      },
+      {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Strengthens the Spleen so it stops making Phlegm."
       }
      ]
     }
@@ -824,19 +868,21 @@
      "m": "d",
      "items": [
       {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforms Phlegm.",
+       "ess": 1
+      },
+      {
        "p": "P 5",
        "s": 60,
-       "pourquoi": "Clears Lung Heat, transforms phlegm."
+       "pourquoi": "Clears Lung Heat, transforms phlegm.",
+       "ess": 1
       },
       {
        "p": "P 1",
        "s": 60,
        "pourquoi": "Front-Mu point of the Lung: frees the chest."
-      },
-      {
-       "p": "E 40",
-       "s": 60,
-       "pourquoi": "Transforms Phlegm."
       },
       {
        "p": "GI 11",
@@ -847,6 +893,16 @@
        "p": "RM 17",
        "s": 60,
        "pourquoi": "Frees the chest."
+      },
+      {
+       "p": "P 10",
+       "s": 60,
+       "pourquoi": "Clears Lung Heat, soothes the throat."
+      },
+      {
+       "p": "V 13",
+       "s": 60,
+       "pourquoi": "Back-Shu point of the Lung: clears the Lung."
       }
      ]
     }

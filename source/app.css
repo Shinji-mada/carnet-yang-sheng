@@ -787,3 +787,5 @@ details.set-acc>.set>.set-h:first-child{margin-top:16px}
 .mesbilans{margin-top:12px;display:inline-flex;align-items:center}
 .sheet-acts.col{flex-direction:column;align-items:center;gap:8px;text-align:center}
 .sheet-acts.col .primary{width:100%;max-width:340px}
+.cle-pt{display:inline-block;padding:2px 8px;border-radius:999px;background:var(--cin);color:var(--surface);font-size:11.5px;font-weight:700;letter-spacing:.02em;line-height:1.5}
+.cle-h{margin-top:10px}
