@@ -373,6 +373,100 @@
      "t": "web between the|4th and 5th toes"
     }
    }
+  },
+  "crane": {
+   "nom": "Skull from above (forehead at the top)",
+   "reps": {
+    "lisiere-av": {
+     "t": "front hairline"
+    },
+    "lisiere-ar": {
+     "t": "back hairline|(nape)"
+    },
+    "sommet": {
+     "t": "vertex: line joining|the ear apexes"
+    },
+    "occiput": {
+     "t": "occipital|bump"
+    }
+   }
+  },
+  "bras-haut-ext": {
+   "nom": "Shoulder and arm (side view)",
+   "reps": {
+    "acromion": {
+     "t": "acromion|(tip of the shoulder)"
+    },
+    "deltoide": {
+     "t": "tip of the V|of the deltoid"
+    },
+    "pli-coude": {
+     "t": "end of the|elbow crease"
+    },
+    "olecrane": {
+     "t": "point of the elbow|(olecranon)"
+    },
+    "arriere-epaule": {
+     "t": "hollow behind|the acromion"
+    }
+   }
+  },
+  "bras-haut-int": {
+   "nom": "Upper arm (inner side)",
+   "reps": {
+    "aisselle": {
+     "t": "armpit hollow"
+    },
+    "pli-aisselle": {
+     "t": "front armpit|crease"
+    },
+    "biceps": {
+     "t": "biceps"
+    },
+    "pli-coude": {
+     "t": "elbow crease"
+    }
+   }
+  },
+  "cuisse": {
+   "nom": "Thigh (front)",
+   "reps": {
+    "epine-iliaque": {
+     "t": "front bump of the|pelvis (iliac spine)"
+    },
+    "trochanter": {
+     "t": "greater trochanter|(hip bump)"
+    },
+    "pli-aine": {
+     "t": "groin crease"
+    },
+    "rotule": {
+     "t": "top edge|of the kneecap"
+    },
+    "interieur-cuisse": {
+     "t": "inner side|of the thigh"
+    },
+    "cote-cuisse": {
+     "t": "side of the thigh: arm|along the body, where|the middle fingertip lands"
+    }
+   }
+  },
+  "cuisse-arr": {
+   "nom": "Buttock and back of the thigh",
+   "reps": {
+    "sacrum": {
+     "t": "sacral hiatus|(bottom of the sacrum)"
+    },
+    "trochanter": {
+     "t": "greater trochanter|(hip bump)"
+    },
+    "pli-fesse": {
+     "t": "buttock crease"
+    },
+    "pli-genou": {
+     "t": "knee crease"
+    }
+   }
   }
  }
 }

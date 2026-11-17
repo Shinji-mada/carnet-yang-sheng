@@ -1,0 +1,195 @@
+{
+ "meridiens": [
+  {
+   "id": "P",
+   "type": "yin",
+   "nom": "Lung",
+   "zh": "肺",
+   "meridien": "手太阴肺经",
+   "py": "Shǒu tài yīn fèi jīng",
+   "n": 11,
+   "element": "Metal",
+   "heures": "3 am – 5 am",
+   "couple": "GI"
+  },
+  {
+   "id": "Rt",
+   "type": "yin",
+   "nom": "Spleen",
+   "zh": "脾",
+   "meridien": "足太阴脾经",
+   "py": "Zú tài yīn pí jīng",
+   "n": 21,
+   "element": "Earth",
+   "heures": "9 am – 11 am",
+   "couple": "E"
+  },
+  {
+   "id": "C",
+   "type": "yin",
+   "nom": "Heart",
+   "zh": "心",
+   "meridien": "手少阴心经",
+   "py": "Shǒu shào yīn xīn jīng",
+   "n": 9,
+   "element": "Fire",
+   "heures": "11 am – 1 pm",
+   "couple": "IG"
+  },
+  {
+   "id": "Rn",
+   "type": "yin",
+   "nom": "Kidney",
+   "zh": "肾",
+   "meridien": "足少阴肾经",
+   "py": "Zú shào yīn shèn jīng",
+   "n": 27,
+   "element": "Water",
+   "heures": "5 pm – 7 pm",
+   "couple": "V"
+  },
+  {
+   "id": "MC",
+   "type": "yin",
+   "nom": "Pericardium",
+   "zh": "心包",
+   "meridien": "手厥阴心包经",
+   "py": "Shǒu jué yīn xīn bāo jīng",
+   "n": 9,
+   "element": "Ministerial Fire",
+   "heures": "7 pm – 9 pm",
+   "couple": "TR"
+  },
+  {
+   "id": "F",
+   "type": "yin",
+   "nom": "Liver",
+   "zh": "肝",
+   "meridien": "足厥阴肝经",
+   "py": "Zú jué yīn gān jīng",
+   "n": 14,
+   "element": "Wood",
+   "heures": "1 am – 3 am",
+   "couple": "VB"
+  },
+  {
+   "id": "GI",
+   "type": "yang",
+   "nom": "Large Intestine",
+   "zh": "大肠",
+   "meridien": "手阳明大肠经",
+   "py": "Shǒu yáng míng dà cháng jīng",
+   "n": 20,
+   "element": "Metal",
+   "heures": "5 am – 7 am",
+   "couple": "P"
+  },
+  {
+   "id": "E",
+   "type": "yang",
+   "nom": "Stomach",
+   "zh": "胃",
+   "meridien": "足阳明胃经",
+   "py": "Zú yáng míng wèi jīng",
+   "n": 45,
+   "element": "Earth",
+   "heures": "7 am – 9 am",
+   "couple": "Rt"
+  },
+  {
+   "id": "IG",
+   "type": "yang",
+   "nom": "Small Intestine",
+   "zh": "小肠",
+   "meridien": "手太阳小肠经",
+   "py": "Shǒu tài yáng xiǎo cháng jīng",
+   "n": 19,
+   "element": "Fire",
+   "heures": "1 pm – 3 pm",
+   "couple": "C"
+  },
+  {
+   "id": "V",
+   "type": "yang",
+   "nom": "Bladder",
+   "zh": "膀胱",
+   "meridien": "足太阳膀胱经",
+   "py": "Zú tài yáng páng guāng jīng",
+   "n": 67,
+   "element": "Water",
+   "heures": "3 pm – 5 pm",
+   "couple": "Rn"
+  },
+  {
+   "id": "TR",
+   "type": "yang",
+   "nom": "Triple Energizer",
+   "zh": "三焦",
+   "meridien": "手少阳三焦经",
+   "py": "Shǒu shào yáng sān jiāo jīng",
+   "n": 23,
+   "element": "Ministerial Fire",
+   "heures": "9 pm – 11 pm",
+   "couple": "MC"
+  },
+  {
+   "id": "VB",
+   "type": "yang",
+   "nom": "Gallbladder",
+   "zh": "胆",
+   "meridien": "足少阳胆经",
+   "py": "Zú shào yáng dǎn jīng",
+   "n": 44,
+   "element": "Wood",
+   "heures": "11 pm – 1 am",
+   "couple": "F"
+  },
+  {
+   "id": "VG",
+   "type": "vaisseau",
+   "nom": "Governing Vessel",
+   "zh": "督",
+   "meridien": "督脉",
+   "py": "Dū mài",
+   "n": 28,
+   "couple": "RM"
+  },
+  {
+   "id": "RM",
+   "type": "vaisseau",
+   "nom": "Conception Vessel",
+   "zh": "任",
+   "meridien": "任脉",
+   "py": "Rèn mài",
+   "n": 24,
+   "couple": "VG"
+  },
+  {
+   "id": "X",
+   "type": "hors",
+   "nom": "Extra points",
+   "zh": "奇",
+   "meridien": "经外奇穴",
+   "py": "Jīng wài qí xué",
+   "n": 0
+  }
+ ],
+ "groupes_meridiens": [
+  {
+   "id": "yin",
+   "nom": "Yin organs"
+  },
+  {
+   "id": "yang",
+   "nom": "Yang organs"
+  },
+  {
+   "id": "vaisseau",
+   "nom": "Governing and Conception Vessels"
+  },
+  {
+   "id": "hors",
+   "nom": "Extra points"
+  }
+ ]
+}

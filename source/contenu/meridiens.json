@@ -1,0 +1,195 @@
+{
+ "meridiens": [
+  {
+   "id": "P",
+   "type": "yin",
+   "nom": "Poumon",
+   "zh": "肺",
+   "meridien": "手太阴肺经",
+   "py": "Shǒu tài yīn fèi jīng",
+   "n": 11,
+   "element": "Métal",
+   "heures": "3 h – 5 h",
+   "couple": "GI"
+  },
+  {
+   "id": "Rt",
+   "type": "yin",
+   "nom": "Rate",
+   "zh": "脾",
+   "meridien": "足太阴脾经",
+   "py": "Zú tài yīn pí jīng",
+   "n": 21,
+   "element": "Terre",
+   "heures": "9 h – 11 h",
+   "couple": "E"
+  },
+  {
+   "id": "C",
+   "type": "yin",
+   "nom": "Cœur",
+   "zh": "心",
+   "meridien": "手少阴心经",
+   "py": "Shǒu shào yīn xīn jīng",
+   "n": 9,
+   "element": "Feu",
+   "heures": "11 h – 13 h",
+   "couple": "IG"
+  },
+  {
+   "id": "Rn",
+   "type": "yin",
+   "nom": "Rein",
+   "zh": "肾",
+   "meridien": "足少阴肾经",
+   "py": "Zú shào yīn shèn jīng",
+   "n": 27,
+   "element": "Eau",
+   "heures": "17 h – 19 h",
+   "couple": "V"
+  },
+  {
+   "id": "MC",
+   "type": "yin",
+   "nom": "Maître du Cœur (Péricarde)",
+   "zh": "心包",
+   "meridien": "手厥阴心包经",
+   "py": "Shǒu jué yīn xīn bāo jīng",
+   "n": 9,
+   "element": "Feu ministériel",
+   "heures": "19 h – 21 h",
+   "couple": "TR"
+  },
+  {
+   "id": "F",
+   "type": "yin",
+   "nom": "Foie",
+   "zh": "肝",
+   "meridien": "足厥阴肝经",
+   "py": "Zú jué yīn gān jīng",
+   "n": 14,
+   "element": "Bois",
+   "heures": "1 h – 3 h",
+   "couple": "VB"
+  },
+  {
+   "id": "GI",
+   "type": "yang",
+   "nom": "Gros Intestin",
+   "zh": "大肠",
+   "meridien": "手阳明大肠经",
+   "py": "Shǒu yáng míng dà cháng jīng",
+   "n": 20,
+   "element": "Métal",
+   "heures": "5 h – 7 h",
+   "couple": "P"
+  },
+  {
+   "id": "E",
+   "type": "yang",
+   "nom": "Estomac",
+   "zh": "胃",
+   "meridien": "足阳明胃经",
+   "py": "Zú yáng míng wèi jīng",
+   "n": 45,
+   "element": "Terre",
+   "heures": "7 h – 9 h",
+   "couple": "Rt"
+  },
+  {
+   "id": "IG",
+   "type": "yang",
+   "nom": "Intestin grêle",
+   "zh": "小肠",
+   "meridien": "手太阳小肠经",
+   "py": "Shǒu tài yáng xiǎo cháng jīng",
+   "n": 19,
+   "element": "Feu",
+   "heures": "13 h – 15 h",
+   "couple": "C"
+  },
+  {
+   "id": "V",
+   "type": "yang",
+   "nom": "Vessie",
+   "zh": "膀胱",
+   "meridien": "足太阳膀胱经",
+   "py": "Zú tài yáng páng guāng jīng",
+   "n": 67,
+   "element": "Eau",
+   "heures": "15 h – 17 h",
+   "couple": "Rn"
+  },
+  {
+   "id": "TR",
+   "type": "yang",
+   "nom": "Triple Réchauffeur",
+   "zh": "三焦",
+   "meridien": "手少阳三焦经",
+   "py": "Shǒu shào yáng sān jiāo jīng",
+   "n": 23,
+   "element": "Feu ministériel",
+   "heures": "21 h – 23 h",
+   "couple": "MC"
+  },
+  {
+   "id": "VB",
+   "type": "yang",
+   "nom": "Vésicule biliaire",
+   "zh": "胆",
+   "meridien": "足少阳胆经",
+   "py": "Zú shào yáng dǎn jīng",
+   "n": 44,
+   "element": "Bois",
+   "heures": "23 h – 1 h",
+   "couple": "F"
+  },
+  {
+   "id": "VG",
+   "type": "vaisseau",
+   "nom": "Vaisseau Gouverneur",
+   "zh": "督",
+   "meridien": "督脉",
+   "py": "Dū mài",
+   "n": 28,
+   "couple": "RM"
+  },
+  {
+   "id": "RM",
+   "type": "vaisseau",
+   "nom": "Vaisseau Conception",
+   "zh": "任",
+   "meridien": "任脉",
+   "py": "Rèn mài",
+   "n": 24,
+   "couple": "VG"
+  },
+  {
+   "id": "X",
+   "type": "hors",
+   "nom": "Points hors méridiens",
+   "zh": "奇",
+   "meridien": "经外奇穴",
+   "py": "Jīng wài qí xué",
+   "n": 0
+  }
+ ],
+ "groupes_meridiens": [
+  {
+   "id": "yin",
+   "nom": "Organes Yin"
+  },
+  {
+   "id": "yang",
+   "nom": "Organes Yang"
+  },
+  {
+   "id": "vaisseau",
+   "nom": "Vaisseaux Gouverneur et Conception"
+  },
+  {
+   "id": "hors",
+   "nom": "Points hors méridiens"
+  }
+ ]
+}

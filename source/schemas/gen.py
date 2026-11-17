@@ -9,6 +9,12 @@ F = json.load(open(C + 'figures.json'))['figures']
 P = json.load(open(C + 'points.json'))['points']
 mods = sorted(glob.glob(os.path.join(os.path.dirname(__file__), 'v_*.py')))
 done = []
+# Priorité des planches pour un point dessiné seulement « en gris » sur plusieurs planches
+PRIO = ['tete-face', 'crane', 'tete-profil', 'tronc', 'dos', 'bras-haut-int', 'bras-haut-ext', 'bras-int', 'bras-ext', 'main-dos',
+        'cuisse', 'cuisse-arr', 'jambe-int', 'jambe-ext', 'genou-arr', 'pied-dessus', 'pied-ext', 'plante']
+placed, canal_pos = set(), {}
+for key in ('vue', 'x', 'y', 'rep', 'regle', 'lab', 'voisins'):
+    for p in P.values(): p.pop(key, None)
 for m in mods:
     name = os.path.basename(m)[2:-3].replace('_', '-')
     mod = importlib.import_module(os.path.basename(m)[:-3])
@@ -19,10 +25,17 @@ for m in mods:
     for k, d in mod.PTS.items():
         assert k in P, k
         p = P[k]
-        for key in ('rep', 'regle', 'lab', 'voisins'): p.pop(key, None)
         p['vue'] = name
         for key, v in d.items(): p[key] = round(v, 1) if isinstance(v, float) else v
+        placed.add(k)
+    for k, xy in V.get('canal', {}).items(): canal_pos.setdefault(k, []).append((name, xy))
     done.append(name)
+# Points de l'atlas sans planche à eux : placés là où ils sont dessinés en gris (côté de l'étiquette choisi par l'appli)
+for k, L in canal_pos.items():
+    if k in P and k not in placed:
+        L.sort(key=lambda t: PRIO.index(t[0]) if t[0] in PRIO else 99)
+        name, (x, y) = L[0]
+        P[k].update(vue=name, x=round(x, 1) if isinstance(x, float) else x, y=round(y, 1) if isinstance(y, float) else y)
 # vues abandonnées : points qui y restent
 used = {p.get('vue') for p in P.values()}
 for fid in list(F):
