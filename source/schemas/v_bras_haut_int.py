@@ -27,7 +27,7 @@ VIEW = {
     'reps': {
         'aisselle': dict(t="creux de l'aisselle", x=110, y=56, tx=40, ty=96, a='end'),
         'pli-aisselle': dict(t="pli avant|de l'aisselle", x=150, y=64, tx=270, ty=30),
-        'biceps': dict(t="biceps", x=214, y=180, tx=270, ty=160),
+        'biceps': dict(t="biceps", x=212, y=150, tx=244, ty=118),
         'pli-coude': dict(t="pli du coude", x=150, y=YC + 4, tx=60, ty=YC + 40, a='end'),
     },
     'defaut': ['aisselle', 'pli-coude'],

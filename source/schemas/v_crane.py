@@ -31,12 +31,14 @@ VIEW = {
     'reps': {
         'lisiere-av': dict(t="lisière des cheveux|du front", x=232, y=77, tx=300, ty=40),
         'lisiere-ar': dict(t="lisière des cheveux|de la nuque", x=248, y=361, tx=300, ty=402),
-        'sommet': dict(t="sommet : ligne qui relie|la pointe des oreilles", x=230, y=200, tx=262, ty=236),
+        'sommet': dict(t="sommet : ligne|qui relie la pointe|des oreilles", x=230, y=200, tx=244, ty=236),
         'occiput': dict(t="bosse de|l'occiput", x=214, y=av(9.5), tx=262, ty=av(9.5) + 30),
     },
     'defaut': ['lisiere-av', 'sommet'],
     'regles': {'ah12': dict(a=[350, AH], b=[350, PH], n=12, lab=[0, 5, 12], cote=-1)},
-    'canal': {'E 8': [92, 98], 'VG 16': [X0, round(av(11))], 'VB 20': [148, round(av(11))]},
+    'canal': {
+        'VG 20': [200, 198],
+        'VG 24': [200, 90], 'E 8': [92, 98], 'VG 16': [X0, round(av(11))], 'VB 20': [148, round(av(11))]},
 }
 
 def vg(v, lab='r'): return dict(x=X0, y=round(av(v)), rep=['lisiere-av'] if v < 5 else (['sommet'] if v < 7 else ['occiput']), regle=['ah12'], lab=lab)

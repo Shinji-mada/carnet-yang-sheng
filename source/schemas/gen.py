@@ -13,7 +13,9 @@ done = []
 PRIO = ['tete-face', 'crane', 'tete-profil', 'tronc', 'dos', 'bras-haut-int', 'bras-haut-ext', 'bras-int', 'bras-ext', 'main-dos',
         'cuisse', 'cuisse-arr', 'jambe-int', 'jambe-ext', 'genou-arr', 'pied-dessus', 'pied-ext', 'plante']
 placed, canal_pos = set(), {}
-for key in ('vue', 'x', 'y', 'rep', 'regle', 'lab', 'voisins'):
+# Planche principale imposée pour quelques points dessinés seulement en gris
+FORCE = {'VG 16': 'tete-profil', 'VG 15': 'tete-profil'}
+for key in ('vue', 'x', 'y', 'rep', 'regle', 'lab', 'voisins', 'vues2'):
     for p in P.values(): p.pop(key, None)
 for m in mods:
     name = os.path.basename(m)[2:-3].replace('_', '-')
@@ -33,11 +35,34 @@ for m in mods:
 # Points de l'atlas sans planche à eux : placés là où ils sont dessinés en gris (côté de l'étiquette choisi par l'appli)
 for k, L in canal_pos.items():
     if k in P and k not in placed:
-        L.sort(key=lambda t: PRIO.index(t[0]) if t[0] in PRIO else 99)
+        L.sort(key=lambda t: (t[0] != FORCE.get(k), PRIO.index(t[0]) if t[0] in PRIO else 99))
         name, (x, y) = L[0]
         P[k].update(vue=name, x=round(x, 1) if isinstance(x, float) else x, y=round(y, 1) if isinstance(y, float) else y)
+def near(vue, xy, lim=70):
+    reps = F[vue].get('reps', {})
+    best = min(reps.items(), key=lambda kv: (kv[1]['x'] - xy[0]) ** 2 + (kv[1]['y'] - xy[1]) ** 2, default=None)
+    if best and ((best[1]['x'] - xy[0]) ** 2 + (best[1]['y'] - xy[1]) ** 2) ** .5 < lim: return {'rep': [best[0]]}
+    return {}
+# Autres vues : un point dessiné aussi (en gris) sur d'autres planches peut y être montré (face + profil, etc.)
+for k, p in P.items(): p.pop('vues2', None)
+for k, L in canal_pos.items():
+    if k not in P or not P[k].get('vue'): continue
+    alt = [(n, xy) for n, xy in L if n != P[k]['vue']]
+    alt.sort(key=lambda t: PRIO.index(t[0]) if t[0] in PRIO else 99)
+    if alt: P[k]['vues2'] = [{'vue': n, 'x': xy[0], 'y': xy[1]} for n, xy in alt[:2]]
+# Points placés d'après leur position « en gris » : le repère le plus proche sert de repère
+for k, p in P.items():
+    if p.get('vue') and k not in placed and not p.get('rep'):
+        r = near(p['vue'], (p['x'], p['y']))
+        if r: p['rep'] = r['rep']
+# Côté de l'étiquette choisi à la main ou par verif_labels (labs.json : {"code@vue": "t|b|l|r"})
+LABS = json.load(open(os.path.join(os.path.dirname(__file__), 'labs.json'))) if os.path.exists(os.path.join(os.path.dirname(__file__), 'labs.json')) else {}
+for k, p in P.items():
+    if p.get('vue') and LABS.get(k + '@' + p['vue']): p['lab'] = LABS[k + '@' + p['vue']]
+    for v in p.get('vues2', []):
+        if LABS.get(k + '@' + v['vue']): v['lab'] = LABS[k + '@' + v['vue']]
 # vues abandonnées : points qui y restent
-used = {p.get('vue') for p in P.values()}
+used = {p.get('vue') for p in P.values()} | {v['vue'] for p in P.values() for v in p.get('vues2', [])}
 for fid in list(F):
     if fid not in used: del F[fid]
 json.dump({'figures': F}, open(C + 'figures.json', 'w'), ensure_ascii=False, indent=1)

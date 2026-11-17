@@ -574,6 +574,12 @@
        "ess": 1
       },
       {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Yuan-Source point of the Liver: calms Liver Fire and Yang.",
+       "ess": 1
+      },
+      {
        "p": "VB 43",
        "s": 60,
        "pourquoi": "Brings Fire down from the head."
@@ -699,6 +705,11 @@
        "s": 60,
        "pourquoi": "Frees the Liver, relieves the ribs.",
        "ess": 1
+      },
+      {
+       "p": "VB 24",
+       "s": 60,
+       "pourquoi": "Front-Mu point of the Gallbladder: drains Damp-Heat from the Liver and Gallbladder."
       },
       {
        "p": "Rt 9",

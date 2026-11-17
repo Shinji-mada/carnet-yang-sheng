@@ -21,7 +21,7 @@ const UNIT=EN?{g:'g',kg:'kg',ml:'ml',cl:'cl',l:'l',tsp:'tsp',tbsp:'tbsp',pinch:'
 /* Codes des points : français (Rt 6) en interne, OMS (SP 6) en anglais */
 const WHO={P:'LU',GI:'LI',E:'ST',Rt:'SP',C:'HT',IG:'SI',V:'BL',Rn:'KI',MC:'PC',TR:'TE',VB:'GB',F:'LR',VG:'GV',RM:'CV'};
 function pn(k){if(!EN||!k)return k;if(UI[k]!=null)return UI[k];return String(k).replace(/\b(P|GI|E|Rt|C|IG|V|Rn|MC|TR|VB|F|VG|RM) (\d+)\b/g,(m,a,n)=>WHO[a]+' '+n);}
-const TABS=['symptomes','tableaux','cuisine','carnet','infos'];
+const TABS=['symptomes','tableaux','cuisine','carnet','atlas','infos'];
 const reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 const standalone=window.matchMedia&&(matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true);
 if(standalone)document.documentElement.classList.add('standalone');
@@ -32,6 +32,7 @@ function storedSet(k){const a=storedJSON(k,[]);return new Set(Array.isArray(a)?a
 function saveSet(k,s){store(k,JSON.stringify([...s]));}
 function today(){const d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function arr(v){return Array.isArray(v)?v:[];}
+function verLabel(){const v=String(DATA&&DATA.version||''),m=/^(\d+\.\d+)\.0-beta(?:\.(\d+))?$/.exec(v);return m?m[1]+' '+(EN?'beta':'bêta')+(m[2]?' '+m[2]:''):v;}
 const J=JSON.stringify;
 /* Réglages (Infos › Paramètres) */
 const DEFPREF={theme:'auto',fs:'n',son:true,vib:true,ecran:true,intro:true,portions:0};
@@ -50,7 +51,7 @@ applyLook();
   const set=(sel,txt,attr)=>{const el=$(sel);if(el){if(attr)el.setAttribute(attr,txt);else el.textContent=txt;}};
   set('.intro-s','Nourishing life, day by day');set('.mini-t span','Timer running');set('#mini-open','See');
   set('.dock-t','Drop the card into a notebook');set('.toast-b','Undo');set('.sheet-cancel','Close');set('.tabs','Sections','aria-label');
-  const L={symptomes:'Symptoms',tableaux:'Patterns',cuisine:'Kitchen',carnet:'Notebook',infos:'Info'};
+  const L={symptomes:'Symptoms',tableaux:'Patterns',cuisine:'Kitchen',carnet:'Notebook',atlas:'Atlas',infos:'Info'};
   document.querySelectorAll('.tab').forEach(b=>{const l=b.querySelector('.tab-l');if(l&&L[b.dataset.tab])l.textContent=L[b.dataset.tab];});
 })();
 
@@ -417,7 +418,28 @@ function rulerSVG(R,pts){
   return h;
 }
 /* Élargit le cadre si un libellé dépasse (les polices varient d'un téléphone à l'autre) */
+/* Écarte les repères écrits qui tombent sur un point, une étiquette ou une graduation (décalage vertical, trait suivi) */
+function declutter(svg){
+  try{
+    const box=e=>{const b=e.getBBox();return {x:b.x,y:b.y,w:b.width,h:b.height};};
+    const hit=(A,B)=>A.x<B.x+B.w+1&&B.x<A.x+A.w+1&&A.y<B.y+B.h+1&&B.y<A.y+A.h+1;
+    const obs=[];
+    svg.querySelectorAll('circle.fig-halo').forEach(c=>{const x=+c.getAttribute('cx'),y=+c.getAttribute('cy');obs.push({x:x-9,y:y-9,w:18,h:18});});
+    svg.querySelectorAll('text.fig-lab,text.rg-t,text.fv-t').forEach(t=>obs.push(box(t)));
+    svg.querySelectorAll('path.rg').forEach(p=>{const b=box(p);if(b.w<3||b.h<3)obs.push(b);});
+    svg.querySelectorAll('g.rp').forEach(g=>{
+      const t=g.querySelector('text'),p=g.querySelector('path');if(!t)return;
+      const b=box(t),free=dy=>!obs.some(o=>hit({x:b.x,y:b.y+dy,w:b.w,h:b.h},o));
+      let dy=0;
+      if(!free(0))for(const d of [12,-12,24,-24,36,-36,48,-48,60,-60,72,-72]){if(free(d)){dy=d;break;}}
+      if(dy){t.querySelectorAll('tspan').forEach(s=>s.setAttribute('y',+s.getAttribute('y')+dy));
+        const m=/M([-\d.]+),([-\d.]+)L([-\d.]+),([-\d.]+)/.exec(p.getAttribute('d'));if(m)p.setAttribute('d',`M${m[1]},${m[2]}L${m[3]},${+m[4]+dy}`);}
+      obs.push({x:b.x,y:b.y+dy,w:b.w,h:b.h});
+    });
+  }catch(e){}
+}
 function fitFig(svg){
+  declutter(svg);
   try{const vb=svg.viewBox.baseVal;let x0=vb.x,y0=vb.y,x1=vb.x+vb.width,y1=vb.y+vb.height;
     svg.querySelectorAll('text').forEach(t=>{const b=t.getBBox();if(!b||!b.width)return;x0=Math.min(x0,b.x-4);y0=Math.min(y0,b.y-4);x1=Math.max(x1,b.x+b.width+4);y1=Math.max(y1,b.y+b.height+4);});
     if(x0<vb.x||y0<vb.y||x1>vb.x+vb.width||y1>vb.y+vb.height)svg.setAttribute('viewBox',`${x0} ${y0} ${x1-x0} ${y1-y0}`);
@@ -426,34 +448,43 @@ function fitFig(svg){
 function figSheet(keys){
   keys=String(keys).split('|').filter(k=>PTS[k]);if(!keys.length)return;
   const p0=PTS[keys[0]],f=FIGS[p0.vue];if(!f)return;
-  openSheet(keys.length>1?keys.map(pn).join(' '+$t('et')+' '):pn(keys[0])+(p0.py&&p0.py!==keys[0]?' · '+p0.py:''),f.nom,figMarkup(keys)+
+  openSheet(keys.length>1?keys.map(pn).join(' '+$t('et')+' '):pn(keys[0])+(p0.py&&p0.py!==keys[0]?' · '+p0.py:''),'',keys.length>1?figMarkup(keys):figBlock(keys[0],false,0)+
     (keys.length===1&&p0.mer?`<button type="button" class="ghost wide" data-atpt="${esc(keys[0])}">${$t('Fiche complète du point (atlas)')}</button>`:''),sh=>{const g=sh.querySelector('.fig-svg');if(g)fitFig(g);});
 }
-/* Planche d'un ou plusieurs points (sans la localisation écrite quand court=true) */
-function figMarkup(keys,court){
-  const p0=PTS[keys[0]],f=FIGS[p0.vue];if(!f)return'';
+/* Vues d'un point : sa planche principale, puis les autres planches où il est dessiné (face, profil, dessus…) */
+const VUE_COURT={'tete-face':'De face','tete-profil':'De profil','crane':'Du dessus','tronc':'Devant','dos':'Dos','bras-int':'Avant-bras','bras-ext':'Avant-bras (dos)','bras-haut-int':'Bras (intérieur)','bras-haut-ext':'Épaule','main-dos':'Main','cuisse':'Cuisse','cuisse-arr':'Fesse et cuisse','jambe-int':'Jambe (intérieur)','jambe-ext':'Jambe (extérieur)','genou-arr':'Creux du genou','pied-dessus':'Dessus du pied','pied-ext':'Pied (côté)','plante':'Plante du pied'};
+function ptView(k,i){const p=PTS[k],v=i?arr(p.vues2)[i-1]:null;return v&&FIGS[v.vue]?Object.assign({},p,{vue:v.vue,x:v.x,y:v.y,lab:v.lab,rep:arr(v.rep),regle:[],voisins:[]}):p;}
+function figBlock(k,court,i){
+  const p=PTS[k],vs=[p.vue].concat(arr(p.vues2).map(v=>v.vue)).map((v,j)=>[v,j]).filter(([v])=>FIGS[v]);
+  const seg=vs.length>1?`<div class="seg figv" role="group" aria-label="${$t('Vue')}">${vs.map(([v,j])=>`<button type="button" data-figv="${esc(k)}|${j}" aria-pressed="${j===i}">${esc($t(VUE_COURT[v]||FIGS[v].nom))}</button>`).join('')}</div>`:'';
+  return `<div class="figw" data-court="${court?1:0}">${seg}${figMarkup([k],court,i)}</div>`;
+}
+/* Planche d'un ou plusieurs points (sans la localisation écrite quand court=true ; vue i pour un seul point) */
+function figMarkup(keys,court,vi){
+  const Q={};keys.forEach((k,j)=>{Q[k]=ptView(k,j?0:vi||0);});
+  const p0=Q[keys[0]],f=FIGS[p0.vue];if(!f)return'';
   const vb=String(f.vb).split(' ').map(Number),x1=vb[0]+vb[2],ax=+f.axe||vb[0]+vb[2]/2;
   const chans=new Set(keys.map(chanOf).filter(Boolean)),seen=new Set(keys);let grey='';
   const dot=(k,x,y)=>{if(seen.has(k))return;seen.add(k);grey+=`<circle class="fc" cx="${+x}" cy="${+y}" r="3.1"></circle>`;};
   Object.keys(PTS).forEach(k=>{if(PTS[k].vue===p0.vue&&chans.has(chanOf(k)))dot(k,PTS[k].x,PTS[k].y);});
   Object.entries(f.canal||{}).forEach(([k,xy])=>{if(chans.has(chanOf(k)))dot(k,xy[0],xy[1]);});
-  const rs=[];keys.forEach(k=>arr(PTS[k].regle).forEach(r=>{const R=typeof r==='string'?(f.regles||{})[r]:r;if(R&&!rs.includes(R))rs.push(R);}));
-  let marks=rs.map(R=>rulerSVG(R,keys.filter(k=>arr(PTS[k].regle).some(r=>(typeof r==='string'?(f.regles||{})[r]:r)===R)).map(k=>[+PTS[k].x,+PTS[k].y]))).join('');
-  const reps=[];keys.forEach(k=>arr(PTS[k].rep).forEach(r=>{if(!reps.includes(r))reps.push(r);}));if(!reps.length)arr(f.defaut).forEach(r=>reps.push(r));
+  const rs=[];keys.forEach(k=>arr(Q[k].regle).forEach(r=>{const R=typeof r==='string'?(f.regles||{})[r]:r;if(R&&!rs.includes(R))rs.push(R);}));
+  let marks=rs.map(R=>rulerSVG(R,keys.filter(k=>arr(Q[k].regle).some(r=>(typeof r==='string'?(f.regles||{})[r]:r)===R)).map(k=>[+Q[k].x,+Q[k].y]))).join('');
+  const reps=[];keys.forEach(k=>arr(Q[k].rep).forEach(r=>{if(!reps.includes(r))reps.push(r);}));if(!reps.length)arr(f.defaut).forEach(r=>reps.push(r));
   marks+=reps.map(r=>{const L=(f.reps||{})[r];if(!L)return'';const a=L.a||'start',dx=a==='end'?-3:a==='middle'?0:3;
-    return `<path class="ldr" d="M${L.x},${L.y}L${L.tx},${L.ty}"/>`+figLines(L.t,L.tx+dx,L.ty+(a==='middle'?(L.ty>L.y?11:-4-13*(String(L.t).split('|').length-1)):4),a,'lbl',13);}).join('');
-  keys.forEach(k=>arr(PTS[k].voisins).forEach(v=>{const q=PTS[v]&&PTS[v].vue===p0.vue?[PTS[v].x,PTS[v].y]:(f.canal||{})[v];if(!q)return;seen.add(v);
+    return `<g class="rp"><path class="ldr" d="M${L.x},${L.y}L${L.tx},${L.ty}"/>`+figLines(L.t,L.tx+dx,L.ty+(a==='middle'?(L.ty>L.y?11:-4-13*(String(L.t).split('|').length-1)):4),a,'lbl',13)+'</g>';}).join('');
+  keys.forEach(k=>arr(Q[k].voisins).forEach(v=>{const q=PTS[v]&&PTS[v].vue===p0.vue?[PTS[v].x,PTS[v].y]:(f.canal||{})[v];if(!q)return;seen.add(v);
     marks+=`<circle class="fv" cx="${+q[0]}" cy="${+q[1]}" r="3.3"></circle><text class="fv-t" x="${+q[0]+6}" y="${+q[1]-5}">${esc(pn(v))}</text>`;}));
   marks+=grey;
   keys.forEach(ab=>{
-    const p=PTS[ab],x=+p.x,y=+p.y,xs=[x];if(f.sym&&p.b&&Math.abs(x-ax)>2)xs.push(2*ax-x);
+    const p=Q[ab],x=+p.x,y=+p.y,xs=[x];if(f.sym&&p.b&&Math.abs(x-ax)>2)xs.push(2*ax-x);
     const side=p.lab||(x<x1-60?'r':'l'),lx=side==='r'?x+8:side==='l'?x-8:x,ly=side==='t'?y-10:side==='b'?y+18:y-6;
     marks+=xs.map((cx,i)=>`<circle class="fig-halo" cx="${cx}" cy="${y}" r="10"></circle><circle class="fig-dot${i?' alt':''}" cx="${cx}" cy="${y}" r="4.2"></circle>`).join('')+
       `<text class="fig-lab" x="${lx}" y="${ly}" text-anchor="${side==='r'?'start':side==='l'?'end':'middle'}">${esc(pn(ab))}</text>`;
   });
-  const both=keys.some(ab=>PTS[ab].b),mirrored=f.sym&&both;
+  const both=keys.some(ab=>Q[ab].b),mirrored=f.sym&&both;
   return `<div class="fig"><svg class="fig-svg" viewBox="${esc(f.vb)}" role="img" aria-label="${$t('Emplacement :')} ${esc(keys.map(pn).join(', '))}, ${esc(f.nom)}">${f.svg}${marks}</svg></div>
-${court?`<p class="fine">${esc(f.nom)}</p>`:keys.map(ab=>{const p=PTS[ab];return `${p.zh?`<p class="fig-zh" lang="zh-Hans">${esc(p.zh)} <span>${esc(p.py||'')}</span></p>`:''}<p class="fig-loc"><b>${esc(pn(ab))}${EN?':':' :'}</b> ${esc(p.loc||'')}</p>`;}).join('')}
+${court?`<p class="fine fig-nom">${esc(f.nom)}</p>`:`<p class="fine fig-nom">${esc(f.nom)}</p>`+keys.map(ab=>{const p=PTS[ab];return `${p.zh?`<p class="fig-zh" lang="zh-Hans">${esc(p.zh)} <span>${esc(p.py||'')}</span></p>`:''}<p class="fig-loc"><b>${esc(pn(ab))}${EN?':':' :'}</b> ${esc(p.loc||'')}</p>`;}).join('')}
 <p class="fine">${$t(both?(mirrored?'Point présent des deux côtés du corps (les deux sont marqués) : masse-le à gauche puis à droite.':'Point présent des deux côtés du corps : masse-le à gauche puis à droite.'):'Point unique, sur la ligne du milieu du corps.')}</p>
 <p class="fine">${$t('En gris, les autres points du même méridien. 1 cun correspond à la largeur de ton pouce ; les règles donnent la distance en cun. Schéma indicatif.')}</p>`;
 }
@@ -1533,14 +1564,19 @@ ${stepsHTML(3)}<h1 class="vh" style="margin-top:14px">${$t('Ton bilan')}</h1><p 
    Tous les points des 14 méridiens et les points hors méridiens de l'appli : organes Yin, organes Yang, Vaisseaux
    Gouverneur et Conception. Chaque point : planche, catégories (Shu antiques, Yuan, Luo…), actions, indications,
    précautions, et les tableaux de l'appli qui l'utilisent. */
-let atlasQ='',atlasOpen=null;
+let atlasQ='',atlasOpen=null,atlasF='';
+/* Filtres rapides par catégorie (étiquettes courtes calculées dans points.json) */
+const ATF=[['Shu','Shu antiques'],['Yuan','Yuan'],['Luo','Luo'],['Xi','Xi'],['Mu','Mu'],['Shu dos','Shu du dos'],['Hui','Hui'],['Ouverture','Ouverture'],['He inf.','He inférieurs'],['Tonif.','Tonification'],['Disp.','Dispersion']];
+const SHU5T=['Puits','Jaillissement','Rivière','Fleuve','Mer'];
+function atlasFiltre(k){const t=arr(PTS[k].tags);if(!atlasF)return true;if(atlasF==='Shu')return t.some(x=>SHU5T.includes(x));return t.includes(atlasF);}
 function atlasPts(mer){
   return Object.keys(PTS).filter(k=>PTS[k].mer===mer).sort((a,b)=>(+PTS[a].n||0)-(+PTS[b].n||0)||a.localeCompare(b));
 }
 function atlasHay(k){const p=PTS[k];if(!p._hay)p._hay=hayOf([k,pn(k),p.py,p.zh,p.nom,p.fn,p.act,p.ind,p.loc,p.locp,arr(p.cats).join(' '),arr(p.tags).join(' ')].map(x=>x&&String(x).replace(/[-‐()]/g,' ')));return p._hay;}
 function atlasRow(k){
   const p=PTS[k];
-  return `<button type="button" class="at-row" data-atpt="${esc(k)}"><span class="at-code">${esc(pn(k))}</span><span class="at-nm"><b>${esc(p.nom||p.py||k)}</b>${p.nom&&p.py?`<small>${esc(p.py)}</small>`:''}</span><span class="at-zh" lang="zh-Hans">${esc(p.zh||'')}</span>${arr(p.tags).length?`<span class="at-tags">${p.tags.map(t=>`<span>${esc(t)}</span>`).join('')}</span>`:''}</button>`;
+  const x=p.mer==='X';
+  return `<button type="button" class="at-row${x?' x':''}" data-atpt="${esc(k)}">${x?'':`<span class="at-code">${esc(pn(k))}</span>`}<span class="at-nm"><b>${esc(p.nom||p.py||k)}</b>${p.nom&&p.py?`<small>${esc(p.py)}</small>`:''}</span><span class="at-zh" lang="zh-Hans">${esc(p.zh||'')}</span>${arr(p.tags).length?`<span class="at-tags">${p.tags.map(t=>`<span>${esc(t)}</span>`).join('')}</span>`:''}</button>`;
 }
 function merHead(m){
   const sub=[m.element,m.heures,m.couple?$t('couplé avec {c}',{c:merName(m.couple)}):''].filter(Boolean).join(' · ');
@@ -1548,21 +1584,21 @@ function merHead(m){
 }
 function merName(id){const m=arr(DATA.meridiens).find(x=>x.id===id);return m?m.nom:id;}
 function renderAtlas(){
-  const MER=arr(DATA.meridiens),G=arr(DATA.groupes_meridiens);
-  let h=`<div class="bar"><button class="back" id="back" type="button"><span aria-hidden="true">‹</span>${$t('Retour')}</button><span class="kind">${$t('Atlas des points')}</span></div>
-<h1 class="vh" style="margin-top:18px">${$t('Atlas des points d\'acupuncture')}</h1>
-<p class="lede">${$t('Les 361 points des 14 méridiens, classés par organe, et les points hors méridiens de l\'appli. Touche un point : emplacement dessiné, catégories, actions, indications et précautions.')}</p>
-<div class="tools">${searchBox('atq',atlasQ,$t('Chercher : VB 34, Zu San Li, insomnie…'),$t('Chercher un point'))}</div><div id="atlist"></div>`;
-  view.innerHTML=h;
+  const n=Object.keys(PTS).filter(k=>PTS[k].mer&&PTS[k].mer!=='X').length;
+  view.innerHTML=`<h1 class="vh">${$t('Atlas des points')}</h1>
+<p class="lede">${$t('Les {n} points des 14 méridiens, classés par organe, et les points hors méridiens de l\'appli. Touche un point : emplacement dessiné, catégories, actions, indications et précautions.',{n})}</p>
+<div class="tools">${searchBox('atq',atlasQ,$t('Chercher : VB 34, Zu San Li, insomnie…'),$t('Chercher un point'))}</div>
+<div class="chips at-f" role="group" aria-label="${$t('Filtrer par catégorie')}">${ATF.map(([id,l])=>`<button type="button" class="chip" data-atf="${id}" aria-pressed="${atlasF===id}">${$t(l)}</button>`).join('')}</div>
+<div id="atlist"></div>`;
   const q=$('#atq');q.addEventListener('input',()=>{atlasQ=q.value;renderAtlasList();});
   renderAtlasList();
 }
 function renderAtlasList(){
   const box=$('#atlist');if(!box)return;
   const MER=arr(DATA.meridiens),G=arr(DATA.groupes_meridiens);
-  if(atlasQ.trim()){
-    const q=atlasQ.replace(/[-‐]/g,' ').replace(/\s+/g,' '),all=[];MER.forEach(m=>atlasPts(m.id).forEach(k=>{if(matchQ(atlasHay(k),q))all.push(k);}));
-    box.innerHTML=all.length?`<p class="hint">${plural(all.length,'point trouvé','points trouvés')}</p><div class="at-list">${all.slice(0,120).map(atlasRow).join('')}</div>`:`<p class="msg">${esc($t('Aucun point ne correspond à « {q} ».',{q:atlasQ.trim()}))}</p>`;
+  if(atlasQ.trim()||atlasF){
+    const q=atlasQ.replace(/[-‐]/g,' ').replace(/\s+/g,' '),all=[];MER.forEach(m=>atlasPts(m.id).forEach(k=>{if(atlasFiltre(k)&&matchQ(atlasHay(k),q))all.push(k);}));
+    box.innerHTML=all.length?`<p class="hint">${plural(all.length,'point trouvé','points trouvés')}</p><div class="at-list">${all.map(atlasRow).join('')}</div>`:`<p class="msg">${esc(atlasQ.trim()?$t('Aucun point ne correspond à « {q} ».',{q:atlasQ.trim()}):$t('Aucun point dans cette catégorie.'))}</p>`;
     return;
   }
   box.innerHTML=G.map(g=>{
@@ -1574,24 +1610,19 @@ function renderAtlasList(){
 function atlasSheet(k){
   const p=PTS[k];if(!p)return;
   const used=tableaux.filter(t=>t._items.some(it=>it.ab===k));
-  const fig=p.vue&&FIGS[p.vue]?figMarkup([k],true):'';
+  const fig=p.vue&&FIGS[p.vue]?figBlock(k,true,0):'';
   const sec=(t,v,cls)=>v?`<h3 class="at-h">${$t(t)}</h3><p class="at-p${cls?' '+cls:''}">${esc(v)}</p>`:'';
   const flags=[p.grossesse?$t('À éviter pendant la grossesse.'):'',p.moxa===0?$t('Moxa classiquement déconseillé sur ce point.'):''].filter(Boolean);
   openSheet(pn(k)+(p.py&&p.py!==k?' · '+p.py:''),(p.zh?p.zh+' · ':'')+merName(p.mer),
 `${arr(p.cats).length?`<ul class="at-cats">${p.cats.map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}
 ${fig?`<div class="at-fig">${fig}</div>`:`<p class="hint">${$t('Pas de planche pour ce point.')}</p>`}
-${sec('Localisation',p.locp||p.loc)}${sec('Actions',p.fn||p.act)}${sec('Indications',p.ind)}
+${sec('Localisation',p.locp||p.loc)}${sec('Actions',p.fn||p.act)}${p.ind?`<h3 class="at-h">${$t('Indications')}</h3><ul class="at-ind">${String(p.ind).split(/\s*;\s*/).filter(Boolean).map(x=>`<li>${esc(x.charAt(0).toUpperCase()+x.slice(1))}</li>`).join('')}</ul>`:''}
 ${p.ci||flags.length?`<h3 class="at-h">${$t('Précautions et contre-indications')}</h3>${p.ci?`<p class="at-p warn">${esc(p.ci)}</p>`:''}${flags.map(f=>`<p class="flag">${esc(f)}</p>`).join('')}`:''}
 ${p.fn&&p.act?`<h3 class="at-h">${$t('En mots simples')}</h3>${p.locp&&p.loc!==p.locp?`<p class="at-p">${esc(p.loc)}</p>`:''}<p class="at-p">${esc(p.act)}</p>`:''}
 ${used.length?`<h3 class="at-h">${$t('Dans les tableaux de l\'appli')}</h3><div class="at-used">${used.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}`,
   sh=>{const g=sh.querySelector('.fig-svg');if(g)fitFig(g);});
 }
-function openAtlas(){
-  if(!route)scrollMem[tab]=window.scrollY;
-  route={kind:'a',id:'points'};hideStaleToast();
-  try{history.pushState({ys:'a:points'},'','#a-points');}catch(e){}
-  render();window.scrollTo(0,0);
-}
+function openAtlas(){goTab('atlas');}
 /* ---------- Bilans enregistrés ----------
    Un bilan enregistré garde ce qui a été dit ce jour-là : symptômes, langue, tableaux, texte du praticien, plats.
    La séance de points et les conseils se recalculent à partir des tableaux. Les bilans restent sur ce téléphone,
@@ -1613,7 +1644,7 @@ function bilanRenameSheet(id){
   const b=bilanRec(id);if(!b)return;
   openSheet('Renommer ce bilan',bilanTitre(b),`<form class="sheet-new" data-bname="${esc(id)}"><label for="newc">${$t('Nom du bilan')}</label><div><input id="newc" type="text" maxlength="80" value="${esc(bilanNom(b))}" autocomplete="off"><button type="submit" class="primary">${$t('Enregistrer')}</button></div></form>`);
 }
-function routeOk(r){return !!r&&(r.kind==='a'?r.id==='points':r.kind==='b'?!!bilanRec(r.id):!!item(r.kind,r.id));}
+function routeOk(r){return !!r&&(r.kind==='b'?!!bilanRec(r.id):!!item(r.kind,r.id));}
 function bilanKey(x){return x.tabs.map(t=>t.id).join('+')+'|'+[...x.sel].sort().join(',');}
 function bilanDejaEnr(){if(!lastBilan)return null;const k=bilanKey(lastBilan),auj=new Date().toDateString();return bilans().find(b=>bilanKey(b)===k&&new Date(b.d).toDateString()===auj)||null;}
 function bilanEnregistrer(){
@@ -1952,7 +1983,7 @@ function settingsHTML(){
 <p class="set-l">${$t('Taille du texte')}</p>${segHTML('fs',PREF.fs,[['n',$t('Normale')],['l',$t('Grande')],['xl',$t('Très grande')]],$t('Taille du texte'))}
 ${swHTML('intro',PREF.intro,$t('Animation d\'ouverture'),$t('Le yin-yang qui se dessine au lancement de l\'appli'))}
 <h3 class="set-h">${$t('Minuteurs')}</h3>
-${swHTML('son',PREF.son,$t('Son'),$t('Une sonnerie à la fin de chaque côté, de chaque point et de chaque étape'))}
+${swHTML('son',PREF.son,$t('Son'),$t('Un bip pendant les 3 dernières secondes, puis une sonnerie à la fin de chaque côté, de chaque point et de chaque étape'))}
 ${swHTML('vib',PREF.vib,$t('Vibration'),$t('Le téléphone vibre avec la sonnerie et à l\'appui long'))}
 ${swHTML('ecran',PREF.ecran,$t('Garder l\'écran allumé'),$t('Tant qu\'un minuteur tourne'))}
 ${swHTML('auto',auto,$t('Enchaîner automatiquement'),$t('Lance le côté ou le point suivant 5 s après la sonnerie'))}
@@ -1977,10 +2008,6 @@ function setSetting(k,v,b){
   else if(k==='portions'){setPref(k,+v||0);}
   b.parentNode.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
 }
-function atlasCardHTML(){
-  const n=Object.keys(PTS).filter(k=>PTS[k].mer&&PTS[k].mer!=='X').length;
-  return `<section class="card atlas-c"><h2>${$t('Atlas des points')}</h2><p>${$t('Tous les points d\'acupuncture classés par organe Yin et Yang : nom, caractères, emplacement dessiné, catégories (Shu antiques, Yuan, Luo, Mu…), actions, indications et précautions.')}</p><button type="button" class="primary" data-atlas="1">${$t('Ouvrir l\'atlas ({n} points)',{n})}</button></section>`;
-}
 function suiviHTML(){
   const nb=bilans().length,ne=lgHist().length;
   return `<section class="card suivi"><h2>${$t('Mon suivi')}</h2><p>${$t('Tes bilans enregistrés et tes examens de langue, datés. Ils restent sur ce téléphone.')}</p><div class="suivi-b"><button type="button" class="ghost" data-bilans="1">${$t('Mes bilans')} <b>${nb}</b></button><button type="button" class="ghost" data-lghist="1">${$t('Mes examens de langue')} <b>${ne}</b></button></div></section>`;
@@ -1998,10 +2025,9 @@ function renderInfos(){
     symSel.size?`<button type="button" class="ghost" data-clear="sym">${$t('Effacer mes symptômes ({n})',{n:symSel.size})}</button>`:'',
     have.size?`<button type="button" class="ghost" data-clear="ing">${$t('Décocher mes ingrédients ({n})',{n:have.size})}</button>`:'',
     `<button type="button" class="ghost" data-prefreset="1">${$t('Rétablir les réglages par défaut')}</button>`].join('');
-  view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">${$t('Version {v}',{v:esc(DATA.version||'')})}</p></div></header>
+  view.innerHTML=`<header class="mast">${SEAL}<div><h1>Carnet Yang Sheng</h1><p class="lede">${$t('Version {v}',{v:esc(verLabel())})}</p></div></header>
 ${FB?`<section class="card acc-card" id="acccard">${accCardInner()}</section>`:''}
 ${suiviHTML()}
-${atlasCardHTML()}
 ${settingsHTML()}
 <section class="card"><h2>${$t('À lire avant d\'utiliser')}</h2><p>${$t('Carnet Yang Sheng propose des routines de bien-être inspirées de la médecine traditionnelle chinoise : auto-massage de points, chaleur et recettes.')}</p><p>${$t('Ce n\'est ni un diagnostic ni un traitement. Si un symptôme dure, s\'aggrave ou t\'inquiète, consulte un médecin. En urgence, appelle le 15 ou le 112.')}</p><p><b>${$t('Rien ne remplace un vrai praticien.')}</b> ${$t('L\'appli ne vaut pas le bilan et le diagnostic d\'un praticien de médecine traditionnelle chinoise : en t\'examinant (langue, pouls, questions sur ton histoire et ton mode de vie), lui seul peut dire quels tableaux sont vraiment les tiens et adapter les soins à ta situation.')}</p></section>
 <h2 class="sec">${$t('Bien masser')}</h2>${acc(GUIDE,'g')}
@@ -2140,10 +2166,9 @@ function render(){
     return;
   }
   if(route&&route.kind==='b'){const b=bilanRec(route.id);if(b){renderBilanEnr(b);mini();saveUI();return;}route=null;}
-  if(route&&route.kind==='a'){renderAtlas();mini();saveUI();return;}
   const e=route&&item(route.kind,route.id);
   if(e){e.kind==='t'?renderTableauDetail(e):renderFicheDetail(e);}
-  else{route=null;({symptomes:renderSym,tableaux:renderTableaux,cuisine:renderCuisine,carnet:renderCarnet,infos:renderInfos})[tab]();}
+  else{route=null;({symptomes:renderSym,tableaux:renderTableaux,cuisine:renderCuisine,carnet:renderCarnet,atlas:renderAtlas,infos:renderInfos})[tab]();}
   mini();saveUI();
 }
 function rerenderKeep(sel){
@@ -2180,7 +2205,8 @@ function goBack(){
 }
 function parseHash(){
   const h=decodeURIComponent((location.hash||'').slice(1));
-  const m=/^([ftba])-(.+)$/.exec(h);
+  if(h==='a-points')return{tab:'atlas'};
+  const m=/^([ftb])-(.+)$/.exec(h);
   if(m)return{route:{kind:m[1],id:m[2]}};
   return{tab:TABS.includes(h)?h:null};
 }
@@ -2239,6 +2265,8 @@ function counts(ref){
 }
 function audio(){try{if(!ac)ac=new(window.AudioContext||window.webkitAudioContext)();if(ac.state==='suspended')ac.resume();}catch(e){}}
 function beep(n,f){if(!ac||!PREF.son)return;try{for(let k=0;k<n;k++){const t=ac.currentTime+k*.42,o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.35,t+.02);g.gain.exponentialRampToValueAtTime(.0001,t+.32);o.connect(g).connect(ac.destination);o.start(t);o.stop(t+.36);}}catch(e){}}
+/* Bip court du décompte (3, 2, 1 s avant la fin) */
+function tick(n){if(!ac||!PREF.son)return;try{const t=ac.currentTime,o=ac.createOscillator(),g=ac.createGain();o.type='sine';o.frequency.value=n===1?740:560;g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(.28,t+.015);g.gain.exponentialRampToValueAtTime(.0001,t+.14);o.connect(g);g.connect(ac.destination);o.start(t);o.stop(t+.16);}catch(e){}}
 function buzz(p){if(!PREF.vib)return;try{if(navigator.vibrate)navigator.vibrate(p);}catch(e){}}
 async function lock(){if(!PREF.ecran)return;try{if('wakeLock' in navigator&&!wl){wl=await navigator.wakeLock.request('screen');wl.addEventListener('release',()=>{wl=null;});}}catch(e){}}
 function unlock(force){try{if(wl&&(force||(!act&&!pendingNext))){wl.release();wl=null;}}catch(e){}}
@@ -2256,7 +2284,8 @@ function pause(key){const t=T.get(key);if(!t)return;if(act===key)stop();t.run=fa
 function loop(){
   if(!act)return;
   const t=T.get(act);if(!t){stop();return;}
-  const now=performance.now();t.rem-=(now-last)/1000;last=now;
+  const now=performance.now(),s0=Math.ceil(t.rem);t.rem-=(now-last)/1000;last=now;
+  const s1=Math.ceil(t.rem);if(t.rem>0&&s1<s0&&s1<=3&&t.total>5){tick(s1);buzz(30);}
   if(t.rem<=0)finish(act);else updT(act);
 }
 function nextPointKey(key){
@@ -2447,6 +2476,7 @@ document.addEventListener('click',ev=>{
     if(d.lgex){lgExamSheet(d.lgex);return;}
     if(d.bopen){const id=d.bopen;closeSheet(false,()=>openBilan(id));return;}
     if(d.atpt){atlasSheet(d.atpt);return;}
+    if(d.figv){const i=d.figv.lastIndexOf('|'),k=d.figv.slice(0,i),w=b.closest('.figw');if(w&&PTS[k]){w.outerHTML=figBlock(k,w.dataset.court==='1',+d.figv.slice(i+1));const g=$('#sheet .fig-svg');if(g)fitFig(g);}return;}
     if(d.open){const id=d.open;closeSheet(false,()=>openItem('f',id));return;}
     if(d.ing){have.has(d.ing)?have.delete(d.ing):have.add(d.ing);saveSet('ys.cuisine',have);b.setAttribute('aria-pressed',String(have.has(d.ing)));toast(have.has(d.ing)?'Ajouté à ta cuisine':'Retiré de ta cuisine');return;}
     if(d.gsym){toggleSym(d.gsym,null);const on=symSel.has(d.gsym);b.setAttribute('aria-pressed',String(on));b.textContent=gsymLabel(d.gsym);toast($t(on?'Ajouté : {s}':'Retiré : {s}',{s:symName(d.gsym)}));return;}
@@ -2473,7 +2503,7 @@ document.addEventListener('click',ev=>{
   if(d.lgex){lgExamSheet(d.lgex);return;}
   if(d.lghist){lgHistSheet();return;}
   if(d.bsave){bilanEnregistrer();return;}
-  if(d.atlas){openAtlas();return;}
+  if(d.atf!==undefined){atlasF=atlasF===d.atf?'':d.atf;document.querySelectorAll('[data-atf]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.atf===atlasF)));renderAtlasList();return;}
   if(d.atpt){atlasSheet(d.atpt);return;}
   if(d.bilans){bilansSheet();return;}
   if(d.bopen){openBilan(d.bopen);return;}
@@ -2618,8 +2648,8 @@ loadData().then(d=>{
   if(route&&!routeOk(route))route=null;
   if(FB&&(store('ys.sync.uid')||store('ys.compte.attente')))loadCompte().catch(()=>{});
   const prevV=store('ys.version'),curV=String(DATA.version||'');
-  if(curV){store('ys.version',curV);if(prevV&&prevV!==curV)setTimeout(()=>toast($t('Appli mise à jour : version {v}',{v:curV})),$('#intro')?3900:300);}
-  if(route&&route.kind!=='a')pushRecent(route.kind,route.id);
+  if(curV){store('ys.version',curV);if(prevV&&prevV!==curV)setTimeout(()=>toast($t('Appli mise à jour : version {v}',{v:verLabel()})),$('#intro')?3900:300);}
+  if(route)pushRecent(route.kind,route.id);
   render();
   if(UI0&&UI0.y&&!(sessionStorage.getItem('ys.apres'))){const y=+UI0.y||0;setTimeout(()=>window.scrollTo(0,y),60);setTimeout(()=>window.scrollTo(0,y),450);}
   try{if(sessionStorage.getItem('ys.apres')==='reglages'){sessionStorage.removeItem('ys.apres');setOpen=true;const r=!route&&tab==='infos'&&$('#reglages');if(r){r.open=true;const go=()=>window.scrollTo(0,Math.max(0,window.scrollY+r.getBoundingClientRect().top-12));setTimeout(go,150);setTimeout(go,500);}}}catch(e){}

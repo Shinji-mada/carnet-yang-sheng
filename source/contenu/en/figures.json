@@ -249,6 +249,12 @@
     },
     "machoire": {
      "t": "angle of|the jaw"
+    },
+    "hyoide": {
+     "t": "hyoid bone"
+    },
+    "pomme-adam": {
+     "t": "Adam's apple"
     }
    }
   },
@@ -384,7 +390,7 @@
      "t": "back hairline|(nape)"
     },
     "sommet": {
-     "t": "vertex: line joining|the ear apexes"
+     "t": "vertex: line|joining the|ear apexes"
     },
     "occiput": {
      "t": "occipital|bump"

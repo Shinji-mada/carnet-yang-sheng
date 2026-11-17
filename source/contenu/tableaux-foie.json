@@ -574,6 +574,12 @@
        "ess": 1
       },
       {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Point Yuan du Foie : apaise le Feu et le Yang du Foie.",
+       "ess": 1
+      },
+      {
        "p": "VB 43",
        "s": 60,
        "pourquoi": "Fait descendre le Feu de la tête."
@@ -699,6 +705,11 @@
        "s": 60,
        "pourquoi": "Libère le Foie, soulage les côtes.",
        "ess": 1
+      },
+      {
+       "p": "VB 24",
+       "s": 60,
+       "pourquoi": "Point Mu de la Vésicule biliaire : draine l'Humidité-Chaleur du Foie et de la Vésicule."
       },
       {
        "p": "Rt 9",

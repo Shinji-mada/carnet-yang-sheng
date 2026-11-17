@@ -1344,6 +1344,11 @@
        "pourquoi": "Expels Wind."
       },
       {
+       "p": "VB 31",
+       "s": 60,
+       "pourquoi": "\"Wind Market\": expels Wind and calms itching."
+      },
+      {
        "p": "Bai Chong Wo",
        "s": 60,
        "pourquoi": "Calms itching."

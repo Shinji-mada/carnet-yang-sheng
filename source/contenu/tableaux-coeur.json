@@ -171,6 +171,11 @@
        "pourquoi": "Calme l'esprit."
       },
       {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Point Shu du dos de la Rate : la Rate fabrique le Sang."
+      },
+      {
        "p": "RM 14",
        "s": 90,
        "pourquoi": "Point Mu du Cœur : nourrit le Cœur, apaise l'esprit."
@@ -395,6 +400,11 @@
        "s": 60,
        "pourquoi": "Clarifie le Feu du Cœur.",
        "ess": 1
+      },
+      {
+       "p": "C 9",
+       "s": 30,
+       "pourquoi": "Point Jing-Puits du Cœur : fait sortir le Feu (pince le coin de l'ongle du petit doigt)."
       },
       {
        "p": "MC 7",

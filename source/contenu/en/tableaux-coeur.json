@@ -171,6 +171,11 @@
        "pourquoi": "Calms the mind."
       },
       {
+       "p": "V 20",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Spleen: the Spleen makes Blood."
+      },
+      {
        "p": "RM 14",
        "s": 90,
        "pourquoi": "Front-Mu point of the Heart: nourishes the Heart, calms the mind."
@@ -395,6 +400,11 @@
        "s": 60,
        "pourquoi": "Clears Heart Fire.",
        "ess": 1
+      },
+      {
+       "p": "C 9",
+       "s": 30,
+       "pourquoi": "Jing-Well point of the Heart: drains Fire (pinch the corner of the little fingernail)."
       },
       {
        "p": "MC 7",
