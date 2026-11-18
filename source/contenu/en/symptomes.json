@@ -385,6 +385,14 @@
    "syn": "plum pit plum-pit lump in throat globus mei he qi something stuck in throat knot throat swallow"
   },
   {
+   "id": "thyroide-gonflee",
+   "cat": "tete",
+   "nom": "Swollen thyroid, goiter or nodule",
+   "alerte": "A swollen thyroid or a nodule should always be checked by a doctor (blood test, ultrasound). Seek care quickly if it grows fast, if you have trouble swallowing or breathing, or if your voice stays hoarse.",
+   "rappel": "Thyroid: no iodine or seaweed supplements (kelp, bladderwrack, Hai Zao) without a thyroid check-up and medical advice.",
+   "syn": "swollen thyroid goiter goitre thyroid nodule thyroid cyst swollen front of the neck lump at the base of the neck enlarged thyroid gland"
+  },
+  {
    "id": "aphtes",
    "cat": "tete",
    "nom": "Canker sores, small sores in the mouth",

@@ -562,7 +562,8 @@
     "kyste",
     "kyste-ovaire",
     "ronflement",
-    "jambes-lourdes"
+    "jambes-lourdes",
+    "thyroide-gonflee"
    ],
    "contre": [
     "enduit-jaune",
@@ -596,6 +597,12 @@
         "Medium pressure, anticlockwise rotation"
        ],
        "pourquoi": "Transforms Dampness in the center.",
+       "ess": 1
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "The great point for Phlegm (Tan): transforms the Dampness and Phlegm that weigh the body down.",
        "ess": 1
       },
       {

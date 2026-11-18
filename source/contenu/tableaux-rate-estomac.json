@@ -562,7 +562,8 @@
     "kyste",
     "kyste-ovaire",
     "ronflement",
-    "jambes-lourdes"
+    "jambes-lourdes",
+    "thyroide-gonflee"
    ],
    "contre": [
     "enduit-jaune",
@@ -596,6 +597,12 @@
         "Pression moyenne, rotation anti-horaire"
        ],
        "pourquoi": "Transforme l'Humidité au centre.",
+       "ess": 1
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Le grand point des Mucosités (Tan) : transforme l'Humidité et les Mucosités qui alourdissent le corps.",
        "ess": 1
       },
       {

@@ -43,7 +43,8 @@
     "selles-billes",
     "kyste-ovaire",
     "reveils-1h-3h",
-    "bruxisme"
+    "bruxisme",
+    "thyroide-gonflee"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges, enduit blanc fin ; veines sous la langue parfois dilatées.",
@@ -158,7 +159,8 @@
     "enduit-blanc-epais",
     "enduit-gras",
     "ganglions",
-    "kyste"
+    "kyste",
+    "thyroide-gonflee"
    ],
    "contre": [
     "fievre",
@@ -188,7 +190,7 @@
       {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Transforme les Mucosités.",
+       "pourquoi": "Le grand point des Mucosités (Tan) : défait la boule de la gorge et les gonflements du cou, comme la thyroïde.",
        "ess": 1
       },
       {
@@ -259,7 +261,8 @@
    "cle": [
     "ganglions",
     "bouche-seche",
-    "kyste"
+    "kyste",
+    "thyroide-gonflee"
    ],
    "autres": [
     "acne",
@@ -308,7 +311,7 @@
       {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Transforme les Mucosités.",
+       "pourquoi": "Le grand point des Mucosités (Tan) : aide à faire fondre ganglions, kystes et thyroïde gonflée.",
        "ess": 1
       },
       {
@@ -690,7 +693,8 @@
     "points-rouges",
     "saignements-nez",
     "reveils-1h-3h",
-    "bruxisme"
+    "bruxisme",
+    "thyroide-gonflee"
    ],
    "contre": [
     "frilosite",

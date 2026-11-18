@@ -385,6 +385,14 @@
    "syn": "noyau de prune boule gorge mei he qi globus corps étranger gorge nœud gorge avaler cracher"
   },
   {
+   "id": "thyroide-gonflee",
+   "cat": "tete",
+   "nom": "Thyroïde gonflée, goitre ou nodule",
+   "alerte": "Une thyroïde gonflée ou un nodule se vérifie toujours chez le médecin (prise de sang, échographie). Consulte vite si ça grossit vite, si tu as du mal à avaler ou à respirer, ou si ta voix reste enrouée.",
+   "rappel": "Thyroïde : pas de compléments d'iode ni d'algues (kelp, fucus, Hai Zao) sans bilan thyroïdien ni avis médical.",
+   "syn": "thyroïde gonflée goitre nodule thyroïdien kyste thyroïdien cou gonflé devant boule à la base du cou glande thyroïde grosse"
+  },
+  {
    "id": "aphtes",
    "cat": "tete",
    "nom": "Aphtes, petites plaies dans la bouche",

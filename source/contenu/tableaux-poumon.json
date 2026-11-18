@@ -450,7 +450,8 @@
       {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Transforme les mucosités qui encombrent la gorge."
+       "pourquoi": "Le grand point des Mucosités (Tan) : dégage celles qui encombrent la gorge.",
+       "ess": 1
       },
       {
        "p": "F 3",
@@ -746,7 +747,7 @@
       {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Point majeur pour transformer les Mucosités.",
+       "pourquoi": "Le grand point des Mucosités (Tan), qu'elles soient dans le Poumon, la gorge ou ailleurs.",
        "ess": 1
       },
       {
@@ -874,7 +875,7 @@
       {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Transforme les Mucosités.",
+       "pourquoi": "Le grand point des Mucosités (Tan) : les transforme et les fait descendre.",
        "ess": 1
       },
       {

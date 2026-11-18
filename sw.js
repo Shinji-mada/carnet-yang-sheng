@@ -1,5 +1,5 @@
 /* Carnet Yang Sheng : fonctionnement hors ligne */
-const VERSION='ys-1.1.0-beta.3-ced54940';
+const VERSION='ys-1.1.0-beta.4-714b12af';
 const CORE=["./", "index.html", "app.css?v=922c1350", "app.js?v=a85a62ea", "data.json", "manifest.webmanifest", "icons/icon-192.png", "icons/icon-512.png", "fonts/notoserifsc-500.woff2", "fonts/notoserifsc-700.woff2", "fonts/atkinson-400.woff2", "fonts/atkinson-700.woff2"];
 self.addEventListener('install',e=>{
   /* La version anglaise n'est gardée hors ligne que si elle l'était déjà (appli passée en anglais) */

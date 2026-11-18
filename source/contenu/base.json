@@ -1,5 +1,5 @@
 {
- "version": "1.1.0-beta.3",
+ "version": "1.1.0-beta.4",
  "categories_symptomes": [
   {
    "id": "general",
@@ -61,6 +61,7 @@
      "nom": "Gorge",
      "liste": [
       "noyau-prune",
+      "thyroide-gonflee",
       "gorge-serree",
       "gorge-mal",
       "gorge-seche",
@@ -143,7 +144,8 @@
     "raideur-articulaire",
     "mictions-nuit",
     "fuites-urinaires"
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "intimite",
@@ -217,7 +219,7 @@
    "guide": "Chaque maladie : repères et tableaux",
    "intro": [
     "Ces maladies sont diagnostiquées par un médecin, avec une prise de sang ou une analyse. Garde ton traitement et ton suivi : les routines de cette appli les accompagnent, elles ne les remplacent jamais.",
-    "Sclérose en plaques, polyarthrite rhumatoïde, cancer et IST ont chacune leur propre guide, avec leurs signes fréquents.",
+    "Ménopause, sclérose en plaques, polyarthrite rhumatoïde, cancer et IST ont chacun leur propre rubrique, rangée dans celle-ci, avec leurs signes fréquents.",
     "En médecine chinoise, une même maladie peut correspondre à plusieurs tableaux selon la personne : choisis aussi tes autres symptômes pour trouver celui qui te ressemble le plus.",
     "Hashimoto ou Basedow : pas de compléments d'iode ni d'algues (kelp, fucus) sans avis médical."
    ],

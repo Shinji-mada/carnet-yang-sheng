@@ -43,7 +43,8 @@
     "selles-billes",
     "kyste-ovaire",
     "reveils-1h-3h",
-    "bruxisme"
+    "bruxisme",
+    "thyroide-gonflee"
    ],
    "contre": [],
    "langue": "Normal or slightly red on the sides, thin white coating; veins under the tongue sometimes distended.",
@@ -158,7 +159,8 @@
     "enduit-blanc-epais",
     "enduit-gras",
     "ganglions",
-    "kyste"
+    "kyste",
+    "thyroide-gonflee"
    ],
    "contre": [
     "fievre",
@@ -188,7 +190,7 @@
       {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Transforms Phlegm.",
+       "pourquoi": "The great point for Phlegm (Tan): dissolves the lump in the throat and swellings of the neck, such as the thyroid.",
        "ess": 1
       },
       {
@@ -259,7 +261,8 @@
    "cle": [
     "ganglions",
     "bouche-seche",
-    "kyste"
+    "kyste",
+    "thyroide-gonflee"
    ],
    "autres": [
     "acne",
@@ -308,7 +311,7 @@
       {
        "p": "E 40",
        "s": 60,
-       "pourquoi": "Transforms Phlegm.",
+       "pourquoi": "The great point for Phlegm (Tan): helps dissolve lymph nodes, cysts and a swollen thyroid.",
        "ess": 1
       },
       {
@@ -690,7 +693,8 @@
     "points-rouges",
     "saignements-nez",
     "reveils-1h-3h",
-    "bruxisme"
+    "bruxisme",
+    "thyroide-gonflee"
    ],
    "contre": [
     "frilosite",

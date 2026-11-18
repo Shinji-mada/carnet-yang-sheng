@@ -1,5 +1,5 @@
 {
- "version": "1.1.0-beta.3",
+ "version": "1.1.0-beta.4",
  "categories_symptomes": [
   {
    "id": "general",
@@ -61,6 +61,7 @@
      "nom": "Throat",
      "liste": [
       "noyau-prune",
+      "thyroide-gonflee",
       "gorge-serree",
       "gorge-mal",
       "gorge-seche",
@@ -143,7 +144,8 @@
     "raideur-articulaire",
     "mictions-nuit",
     "fuites-urinaires"
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "intimite",
@@ -217,7 +219,7 @@
    "guide": "Each condition: key facts and patterns",
    "intro": [
     "These conditions are diagnosed by a doctor, with a blood test or another lab test. Keep your treatment and your follow-up: the routines in this app support them, they never replace them.",
-    "Multiple sclerosis, rheumatoid arthritis, cancer and STIs each have their own guide, with their common signs.",
+    "Menopause, multiple sclerosis, rheumatoid arthritis, cancer and STIs each have their own section, placed inside this one, with their common signs.",
     "In Chinese medicine, the same condition can match several patterns depending on the person: also choose your other symptoms to find the one that fits you best.",
     "Hashimoto's or Graves' disease: no iodine supplements and no seaweed (kelp, bladderwrack) without medical advice."
    ],
