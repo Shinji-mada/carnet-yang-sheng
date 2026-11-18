@@ -44,7 +44,9 @@
     "pertes-blanches",
     "douleur-pression-mieux",
     "gout-sucre",
-    "vertiges-lever"
+    "vertiges-lever",
+    "ronflement",
+    "jambes-lourdes"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -310,7 +312,8 @@
     "marques-dents",
     "urines-troubles",
     "gouttes-apres-uriner",
-    "vertiges-lever"
+    "vertiges-lever",
+    "jambes-lourdes"
    ],
    "contre": [
     "langue-rouge",
@@ -557,7 +560,9 @@
     "bouche-seche-sans-soif",
     "cheveux-gras",
     "kyste",
-    "kyste-ovaire"
+    "kyste-ovaire",
+    "ronflement",
+    "jambes-lourdes"
    ],
    "contre": [
     "enduit-jaune",
@@ -705,7 +710,9 @@
     "yeux-jaunes",
     "bouche-seche-sans-soif",
     "cheveux-gras",
-    "levres-seches"
+    "levres-seches",
+    "ronflement",
+    "peau-grasse"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -959,7 +966,8 @@
     "centre-rouge",
     "points-rouges",
     "selles-noires",
-    "levres-seches"
+    "levres-seches",
+    "bruxisme"
    ],
    "contre": [
     "frilosite",
@@ -1136,7 +1144,9 @@
    ],
    "recettes": [
     "infusion-gingembre-cannelle",
-    "congee-courge-carotte"
+    "congee-courge-carotte",
+    "congee-cebette",
+    "soupe-mouton-radis"
    ],
    "privilegier": "Gingembre frais, bouillons chauds, riz, poireau.",
    "eviter": "Boissons glacées, glaces, cru, fruits froids.",

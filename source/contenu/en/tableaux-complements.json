@@ -407,7 +407,8 @@
    "recettes": [
     "congee-lotus-jujube",
     "congee-goji-sesame",
-    "infusion-longane-jujube"
+    "infusion-longane-jujube",
+    "oeufs-jujubes-goji"
    ],
    "privilegier": "Foods that nourish Qi and Blood: jujubes, goji berries, grains, eggs, chicken.",
    "eviter": "Late-night screens, coffee, stimulants.",
@@ -460,7 +461,8 @@
     "bouche-pateuse",
     "enduit-gras",
     "enduit-jaune",
-    "langue-rouge"
+    "langue-rouge",
+    "reveils-1h-3h"
    ],
    "contre": [
     "sans-enduit",
@@ -751,7 +753,9 @@
    "recettes": [
     "infusion-gingembre-cannelle",
     "congee-courge-carotte",
-    "agneau-fenouil"
+    "agneau-fenouil",
+    "congee-avoine-pomme",
+    "rognons-agneau-muscade"
    ],
    "privilegier": "Hot broths, rice, ginger, squash.",
    "eviter": "Anything cold or raw.",
@@ -805,7 +809,9 @@
     "irritabilite",
     "langue-rouge-sans-enduit",
     "langue-seche",
-    "langue-mince"
+    "langue-mince",
+    "jambes-sans-repos",
+    "tressautements"
    ],
    "contre": [
     "langue-pale",
@@ -979,7 +985,10 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "infusion-chrysantheme-goji"
+    "infusion-chrysantheme-goji",
+    "jus-celeri-frais",
+    "soupe-epinards-tremelle",
+    "tofu-cebette"
    ],
    "privilegier": "Green vegetables, celery, cooked cucumber, mung beans, tofu.",
    "eviter": "Spicy food, alcohol, coffee, lamb, fried food.",

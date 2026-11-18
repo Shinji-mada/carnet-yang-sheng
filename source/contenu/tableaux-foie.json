@@ -41,7 +41,9 @@
     "bords-rouges",
     "veines-sublinguales",
     "selles-billes",
-    "kyste-ovaire"
+    "kyste-ovaire",
+    "reveils-1h-3h",
+    "bruxisme"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges, enduit blanc fin ; veines sous la langue parfois dilatées.",
@@ -412,7 +414,10 @@
     "langue-seche",
     "selles-billes",
     "vertiges-lever",
-    "cheveux-secs"
+    "cheveux-secs",
+    "reveils-1h-3h",
+    "jambes-sans-repos",
+    "tressautements"
    ],
    "contre": [
     "langue-rouge",
@@ -544,7 +549,9 @@
     "desequilibre",
     "langue-tremblante",
     "bords-rouges",
-    "langue-rouge"
+    "langue-rouge",
+    "tressautements",
+    "bruxisme"
    ],
    "contre": [
     "frilosite"
@@ -681,7 +688,9 @@
     "enduit-jaune",
     "langue-seche",
     "points-rouges",
-    "saignements-nez"
+    "saignements-nez",
+    "reveils-1h-3h",
+    "bruxisme"
    ],
    "contre": [
     "frilosite",

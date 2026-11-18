@@ -407,7 +407,8 @@
    "recettes": [
     "congee-lotus-jujube",
     "congee-goji-sesame",
-    "infusion-longane-jujube"
+    "infusion-longane-jujube",
+    "oeufs-jujubes-goji"
    ],
    "privilegier": "Aliments qui nourrissent le Qi et le Sang : dattes, goji, céréales, œufs, poulet.",
    "eviter": "Écrans tard, café, excitants.",
@@ -460,7 +461,8 @@
     "bouche-pateuse",
     "enduit-gras",
     "enduit-jaune",
-    "langue-rouge"
+    "langue-rouge",
+    "reveils-1h-3h"
    ],
    "contre": [
     "sans-enduit",
@@ -751,7 +753,9 @@
    "recettes": [
     "infusion-gingembre-cannelle",
     "congee-courge-carotte",
-    "agneau-fenouil"
+    "agneau-fenouil",
+    "congee-avoine-pomme",
+    "rognons-agneau-muscade"
    ],
    "privilegier": "Bouillons chauds, riz, gingembre, courge.",
    "eviter": "Tout ce qui est froid ou cru.",
@@ -805,7 +809,9 @@
     "irritabilite",
     "langue-rouge-sans-enduit",
     "langue-seche",
-    "langue-mince"
+    "langue-mince",
+    "jambes-sans-repos",
+    "tressautements"
    ],
    "contre": [
     "langue-pale",
@@ -979,7 +985,10 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "infusion-chrysantheme-goji"
+    "infusion-chrysantheme-goji",
+    "jus-celeri-frais",
+    "soupe-epinards-tremelle",
+    "tofu-cebette"
    ],
    "privilegier": "Légumes verts, céleri, concombre cuit, haricots mungo, tofu.",
    "eviter": "Épices, alcool, café, agneau, friture.",

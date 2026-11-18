@@ -118,6 +118,253 @@
    ]
   },
   {
+   "id": "endometriose",
+   "cat": "maladies",
+   "nom": "Endometriosis",
+   "syn": "endometriosis endometrioma adenomyosis very painful periods chocolate cyst",
+   "alerte": "Keep up your gynecological follow-up; seek care quickly for sudden, severe belly pain or fever.",
+   "info": "Tissue similar to the lining of the uterus grows outside it: very painful periods, pain during sex or bowel movements, fatigue, sometimes difficulty conceiving. It is diagnosed by ultrasound or MRI and treated with hormones, painkillers, sometimes surgery.",
+   "mtc": "Mainly Blood Stasis in the Uterus, often on top of Liver Qi Stagnation or Cold in the Uterus; sometimes with Heat, or Qi and Blood Deficiency over the years.",
+   "tab": [
+    "stase-sang",
+    "froid-uterus",
+    "f-stagnation-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "diabete-2",
+   "cat": "maladies",
+   "nom": "Type 2 diabetes",
+   "syn": "diabetes blood sugar glucose HbA1c metformin insulin",
+   "alerte": "Keep your treatment and blood sugar monitoring; tell your doctor about any herb or supplement (some lower blood sugar).",
+   "rappel": "Diabetes: go easy on sweet recipes (honey, dates, cane sugar), and watch your blood sugar if you add herbs.",
+   "info": "The body uses insulin poorly and sugar stays too high in the blood: thirst, heavy urination, fatigue, often with no signs at first. Diet, physical activity and medication keep it stable; follow-up of the eyes, feet and kidneys matters.",
+   "mtc": "\"Xiao Ke\" 消渴 (wasting thirst): Heat burning up the fluids, then Qi and Yin Deficiency; often Damp-Heat or Phlegm on a weak Spleen.",
+   "tab": [
+    "qi-yin",
+    "e-vide-yin",
+    "rn-vide-yin",
+    "rt-humidite-chaleur",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "hypertension",
+   "cat": "maladies",
+   "nom": "High blood pressure",
+   "syn": "high blood pressure hypertension blood pressure medication",
+   "alerte": "Keep your treatment: never stop it on your own. Severe headache, vision or speech problems, chest pain: call emergency services.",
+   "rappel": "Blood pressure: no long courses of licorice, no ephedra (Ma Huang) and no high-dose ginseng.",
+   "info": "Blood pressure in the arteries stays too high, often without any sign. It strains the heart, brain and kidneys; less salt, physical activity, sleep and medication keep it under control.",
+   "mtc": "Mainly Liver Yang rising on top of Liver and Kidney Yin Deficiency; also Liver Fire, Phlegm-Damp (excess weight) or Blood Stasis.",
+   "tab": [
+    "f-yang",
+    "foie-rein-yin",
+    "f-feu",
+    "rt-froid-humidite",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "cholesterol",
+   "cat": "maladies",
+   "nom": "High cholesterol or triglycerides",
+   "syn": "cholesterol triglycerides blood fats LDL statin dyslipidemia",
+   "alerte": "Keep your treatment; tell your doctor about any herb (red yeast rice acts like a statin).",
+   "info": "Too much fat in the blood, with no signs, gradually damaging the arteries. Diet, physical activity and sometimes medication bring it down.",
+   "mtc": "Mainly Phlegm-Damp on a weak Spleen, often with Blood Stasis; sometimes Liver and Kidney Yin Deficiency.",
+   "tab": [
+    "rt-froid-humidite",
+    "stase-sang",
+    "rt-vide-qi",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "anemie",
+   "cat": "maladies",
+   "nom": "Anemia, iron deficiency",
+   "syn": "anemia iron ferritin iron deficiency low hemoglobin red blood cells",
+   "alerte": "Anemia must be explained by a doctor (heavy periods, digestive bleeding, diet…).",
+   "info": "Not enough red blood cells or iron: fatigue, pallor, breathlessness on exertion, dizziness, brittle nails, hair loss. Iron is taken away from tea and coffee.",
+   "mtc": "Blood Deficiency, often with Spleen Qi Deficiency no longer making enough Blood, or the Spleen not holding Blood (heavy periods).",
+   "tab": [
+    "qi-sang",
+    "f-vide-sang",
+    "coeur-rate",
+    "rt-vide-qi",
+    "rt-sang"
+   ]
+  },
+  {
+   "id": "rgo",
+   "cat": "maladies",
+   "nom": "Gastroesophageal reflux (GERD)",
+   "syn": "reflux GERD heartburn acid reflux esophagitis hiatal hernia omeprazole PPI",
+   "alerte": "Difficulty swallowing, weight loss, vomiting blood or black stools: seek care quickly.",
+   "info": "Stomach acid rises into the esophagus: burning behind the breastbone, acid regurgitation, cough or hoarse voice in the morning, worse lying down or after a large meal.",
+   "mtc": "Stomach Qi rises instead of descending: Liver attacking the Stomach (stress), Stomach Fire, or Stomach Yin Deficiency.",
+   "tab": [
+    "foie-estomac",
+    "e-feu",
+    "e-rebellion",
+    "e-vide-yin"
+   ]
+  },
+  {
+   "id": "sii",
+   "cat": "maladies",
+   "nom": "Irritable bowel syndrome (IBS)",
+   "syn": "irritable bowel IBS spastic colon functional bowel disorder bloating diarrhea constipation",
+   "alerte": "Blood in the stool, weight loss, fever, waking at night to pass stool, or onset after 50: further tests are needed.",
+   "info": "Belly pain, bloating and bowel changes (diarrhea, constipation or both) with no visible damage, often worse with stress and certain foods.",
+   "mtc": "Mainly the Liver attacking the Spleen (stress → pain and urgent stools), on a weak Spleen; sometimes Cold or Damp-Heat in the intestines.",
+   "tab": [
+    "foie-rate",
+    "rt-vide-qi",
+    "rt-vide-yang",
+    "gi-humidite-chaleur",
+    "f-stagnation-qi"
+   ]
+  },
+  {
+   "id": "mici",
+   "cat": "maladies",
+   "nom": "Crohn's disease, ulcerative colitis (IBD)",
+   "syn": "Crohn ulcerative colitis IBD inflammatory bowel disease colitis",
+   "alerte": "Keep your follow-up with your gastroenterologist; a flare with fever, heavy bleeding or severe pain needs prompt care. No herbs without their advice.",
+   "info": "Chronic inflammation of the bowel that comes in flares: diarrhea sometimes with blood, belly pain, fatigue, weight loss. Long-term treatments calm the inflammation.",
+   "mtc": "Damp-Heat in the intestines during flares, on Spleen and Kidney Deficiency between flares; often Blood Stasis over the years.",
+   "tab": [
+    "gi-humidite-chaleur",
+    "rt-vide-qi",
+    "rate-rein-yang",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "migraine",
+   "cat": "maladies",
+   "nom": "Migraine",
+   "syn": "migraine migraine attack aura one-sided headache triptan",
+   "alerte": "A sudden \"thunderclap\" headache, one with fever and a stiff neck, or with weakness or speech problems: call emergency services.",
+   "info": "Headache attacks, often one-sided and throbbing, with nausea and sensitivity to light and noise, sometimes preceded by a visual aura. They are often tied to the cycle, lack of sleep, stress or certain foods.",
+   "mtc": "Mainly Liver Yang or Fire rising, often on Blood or Yin Deficiency; also Phlegm or Blood Stasis for long-standing migraines.",
+   "tab": [
+    "f-yang",
+    "f-feu",
+    "f-vide-sang",
+    "stase-sang",
+    "p-mucosites-humidite"
+   ]
+  },
+  {
+   "id": "asthme",
+   "cat": "maladies",
+   "nom": "Asthma",
+   "syn": "asthma asthma attack airways inhaler wheezing respiratory allergy",
+   "alerte": "Keep your preventer treatment and rescue inhaler with you; an attack that doesn't ease with treatment, blue lips or trouble speaking: call emergency services.",
+   "info": "The airways tighten in attacks: breathlessness, wheezing, cough, chest tightness, often at night, on exertion, in the cold or with allergies.",
+   "mtc": "Phlegm obstructing the Lung during attacks (cold or hot); between attacks, Deficiency of the Lung, Spleen and a Kidney that no longer grasps Qi.",
+   "tab": [
+    "p-mucosites-humidite",
+    "p-mucosites-chaleur",
+    "rn-recevoir-qi",
+    "p-vide-qi"
+   ]
+  },
+  {
+   "id": "eczema-atopique",
+   "cat": "maladies",
+   "nom": "Atopic eczema (atopic dermatitis)",
+   "syn": "atopic eczema atopic dermatitis atopic skin itchy patches",
+   "alerte": "Patches weeping yellow fluid, crusts or fever (infection): seek care quickly.",
+   "info": "Red itchy patches, dry skin, flares linked to stress, seasons and allergens; common with asthma and hay fever.",
+   "mtc": "Damp-Heat or Wind-Heat during flares (red, weeping), Blood Deficiency drying the skin between flares.",
+   "tab": [
+    "peau-humidite-chaleur",
+    "peau-vent-chaleur",
+    "peau-vide-sang"
+   ]
+  },
+  {
+   "id": "psoriasis",
+   "cat": "maladies",
+   "nom": "Psoriasis",
+   "syn": "psoriasis scaly plaques psoriatic arthritis",
+   "alerte": "Pain or swelling in the joints: talk to your doctor (psoriatic arthritis).",
+   "info": "Thick red plaques covered in white scales (elbows, knees, scalp) that come in flares, often with stress.",
+   "mtc": "Blood Heat during flares, then Blood Deficiency with dryness and Blood Stasis for old, thick plaques.",
+   "tab": [
+    "peau-chaleur-sang",
+    "peau-vide-sang",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "arthrose",
+   "cat": "maladies",
+   "nom": "Osteoarthritis",
+   "syn": "osteoarthritis cartilage wear knee arthritis hip arthritis finger arthritis",
+   "alerte": "A very swollen, hot, red joint, or one with fever: seek care quickly.",
+   "info": "Wear of the joint cartilage (knees, hips, fingers, back): pain on exertion, morning stiffness lasting a few minutes, creaking. Suitable activity and weight help.",
+   "mtc": "Chronic Bi: Cold-Damp in the joints on Liver and Kidney Deficiency (poorly nourished bones and tendons), often with Blood Stasis.",
+   "tab": [
+    "bi-froid",
+    "bi-humidite",
+    "rn-jing",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "fibromyalgie",
+   "cat": "maladies",
+   "nom": "Fibromyalgia",
+   "syn": "fibromyalgia widespread pain chronic fatigue chronic pain syndrome",
+   "alerte": "Keep your medical follow-up; talk about it if your mood drops (in France, 3114 answers day and night if you have dark thoughts).",
+   "info": "Widespread pain throughout the body, deep fatigue, unrefreshing sleep, memory problems, often with anxiety or low mood. Gentle, regular activity helps.",
+   "mtc": "Liver Qi Stagnation with Qi and Blood Deficiency: muscles and tendons are poorly nourished and Qi moves poorly; often Dampness and Heart-Spleen involvement.",
+   "tab": [
+    "f-stagnation-qi",
+    "qi-sang",
+    "coeur-rate",
+    "bi-humidite",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "depression",
+   "cat": "maladies",
+   "nom": "Depression (diagnosed)",
+   "syn": "depression low mood antidepressant burnout exhaustion sadness",
+   "alerte": "Dark thoughts or wanting to die: in France call 3114 (day and night, free) or 15; elsewhere, your local crisis line or emergency number. Never change your treatment without your doctor; no St John's wort with an antidepressant.",
+   "info": "Lasting sadness or inner emptiness, loss of drive and pleasure, fatigue, sleep and appetite changes, trouble concentrating. It can be treated: psychotherapy, sometimes medication, physical activity, connection with others.",
+   "mtc": "Often Liver Qi Stagnation (feeling blocked, irritability), Heart and Spleen Deficiency (rumination, fatigue), or a Kidney weakened by fear and exhaustion.",
+   "tab": [
+    "f-stagnation-qi",
+    "coeur-rate",
+    "rn-peur",
+    "mei-he-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cystites",
+   "cat": "maladies",
+   "nom": "Recurrent cystitis",
+   "syn": "cystitis urinary tract infection UTI recurrent burning urination bladder",
+   "alerte": "Fever, chills or lower back (kidney) pain: see a doctor the same day. Cystitis in a man, a child or a pregnant woman must always be checked.",
+   "info": "Bladder infections that keep coming back: burning when urinating, frequent and urgent need, cloudy urine. Drinking enough and not holding it in help prevent them.",
+   "mtc": "Damp-Heat in the Bladder during attacks; Kidney Deficiency (Yin or Qi) that lets the infection return between attacks.",
+   "tab": [
+    "v-humidite-chaleur",
+    "rn-vide-yin",
+    "rn-qi-non-ferme",
+    "f-humidite-bas"
+   ]
+  },
+  {
    "id": "chlamydia",
    "cat": "ist",
    "nom": "Chlamydia",

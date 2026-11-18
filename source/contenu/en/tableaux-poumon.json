@@ -462,7 +462,9 @@
    ],
    "recettes": [
     "infusion-rose-orange",
-    "infusion-chen-pi"
+    "infusion-chen-pi",
+    "salade-radis-blanc",
+    "soupe-radis-gingembre"
    ],
    "privilegier": "Regular meals, citrus zest, radish, spring onion, rose tea.",
    "eviter": "Eating while brooding, sitting hunched over for hours.",
@@ -721,7 +723,8 @@
     "enduit-gras",
     "marques-dents",
     "bouche-seche-sans-soif",
-    "kyste"
+    "kyste",
+    "ronflement"
    ],
    "contre": [
     "toux-seche",

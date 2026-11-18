@@ -1,5 +1,5 @@
 {
- "version": "1.1.0-beta.2",
+ "version": "1.1.0-beta.3",
  "categories_symptomes": [
   {
    "id": "general",
@@ -42,7 +42,8 @@
       "yeux-rouges",
       "yeux-jaunes",
       "orgelet",
-      "paupieres-gonflees"
+      "paupieres-gonflees",
+      "tressautements"
      ]
     },
     {
@@ -77,7 +78,8 @@
       "gout-sucre",
       "haleine",
       "bouche-pateuse",
-      "salive-abondante"
+      "salive-abondante",
+      "bruxisme"
      ]
     }
    ]
@@ -204,7 +206,8 @@
    ],
    "rappel": [
     "Don't massage an area with a sore, blisters or warts, and wash your hands after touching it."
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "maladies",
@@ -214,14 +217,66 @@
    "guide": "Each condition: key facts and patterns",
    "intro": [
     "These conditions are diagnosed by a doctor, with a blood test or another lab test. Keep your treatment and your follow-up: the routines in this app support them, they never replace them.",
+    "Multiple sclerosis, rheumatoid arthritis, cancer and STIs each have their own guide, with their common signs.",
     "In Chinese medicine, the same condition can match several patterns depending on the person: also choose your other symptoms to find the one that fits you best.",
     "Hashimoto's or Graves' disease: no iodine supplements and no seaweed (kelp, bladderwrack) without medical advice."
    ],
-   "liste": [
-    "hashimoto",
-    "basedow",
-    "hormonal",
-    "parasitose"
+   "sous": [
+    {
+     "nom": "Hormones and thyroid",
+     "liste": [
+      "hashimoto",
+      "basedow",
+      "hormonal",
+      "endometriose"
+     ]
+    },
+    {
+     "nom": "Heart, blood, metabolism",
+     "liste": [
+      "hypertension",
+      "cholesterol",
+      "diabete-2",
+      "anemie"
+     ]
+    },
+    {
+     "nom": "Digestion",
+     "liste": [
+      "rgo",
+      "sii",
+      "mici",
+      "parasitose"
+     ]
+    },
+    {
+     "nom": "Breathing and skin",
+     "liste": [
+      "asthme",
+      "eczema-atopique",
+      "psoriasis"
+     ]
+    },
+    {
+     "nom": "Pain",
+     "liste": [
+      "arthrose",
+      "fibromyalgie",
+      "migraine"
+     ]
+    },
+    {
+     "nom": "Mood",
+     "liste": [
+      "depression"
+     ]
+    },
+    {
+     "nom": "Urinary tract",
+     "liste": [
+      "cystites"
+     ]
+    }
    ]
   },
   {
@@ -268,7 +323,8 @@
       "tristesse"
      ]
     }
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "sep",
@@ -319,7 +375,8 @@
       "libido"
      ]
     }
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "cancer",
@@ -389,7 +446,8 @@
     "No moxa on an irradiated area or an area with reduced sensation, and none if you are short of breath or on oxygen.",
     "Recipes: ask your care team before using Chinese angelica (dang gui), astragalus, ginseng or large amounts of turmeric. Low white blood cells: nothing raw (oysters, shellfish, raw fish, undercooked eggs).",
     "Fever of 38 °C (100.4 °F) or higher during chemotherapy: call your care team or emergency services (15 or 112 in France)."
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "langue",

@@ -880,26 +880,31 @@ function catBody(c){
   else h+=chips(catList(c));
   return h;
 }
-function catCount(cat){const c=SYMCATS.find(x=>x.id===cat);return c?catList(c).filter(s=>symSel.has(s.id)).length:0;}
+/* Rubriques rangées dans une autre (SEP, cancer, polyarthrite, IST dans « Maladies diagnostiquées ») */
+function catKids(c){return SYMCATS.filter(x=>x.parent===c.id);}
+function catIsKid(c){return !!c.parent&&SYMCATS.some(x=>x.id===c.parent);}
+function catCount(cat){const c=SYMCATS.find(x=>x.id===cat);if(!c)return 0;const ids=new Set(catList(c).map(s=>s.id));catKids(c).forEach(k=>catList(k).forEach(s=>ids.add(s.id)));return [...ids].filter(id=>symSel.has(id)).length;}
+function catHTML(c,sub){
+  const list=catList(c),kids=sub?[]:catKids(c);if(!list.length&&!kids.length)return'';
+  const k=catCount(c.id),open=openCat===c.id||kids.some(x=>x.id===openCat);
+  return `<details class="cat${c.note||c.sous?' rich':''}${sub?' sub':''}" data-cat="${esc(c.id)}"${open?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary>${catBody(c)}${kids.length?`<p class="cat-sub">${$t('Rubriques détaillées')}</p><div class="cat-kids">${kids.map(x=>catHTML(x,true)).join('')}</div>`:''}</details>`;
+}
 function renderSymList(){
   const box=$('#symlist');if(!box)return;
-  box.innerHTML=SYMCATS.map(c=>{
-    if(c.id==='langue')return'';
-    const list=catList(c);if(!list.length)return'';
-    const k=catCount(c.id);
-    return `<details class="cat${c.note||c.sous?' rich':''}" data-cat="${esc(c.id)}"${openCat===c.id?' open':''}><summary><span>${esc(c.nom)}</span>${k?`<span class="cat-n">${k}</span>`:''}</summary>${catBody(c)}</details>`;
-  }).join('');
+  box.innerHTML=SYMCATS.map(c=>c.id==='langue'||catIsKid(c)?'':catHTML(c,false)).join('');
   accordion(box,v=>{openCat=v;});
 }
 function accordion(box,setOpen,scroller){
   let anchorTop=null;
+  /* la rubrique ouverte la plus profonde dont toutes les rubriques parentes sont ouvertes */
+  const cur=()=>{let r=null;box.querySelectorAll('details.cat[open]').forEach(o=>{let p=o.parentElement&&o.parentElement.closest('details.cat'),ok=true;while(p&&box.contains(p)){if(!p.open){ok=false;break;}p=p.parentElement&&p.parentElement.closest('details.cat');}if(ok)r=o;});return r?r.dataset.cat:null;};
   box.querySelectorAll('details.cat>summary').forEach(s=>s.addEventListener('click',()=>{anchorTop=s.getBoundingClientRect().top;}));
   box.querySelectorAll('details.cat').forEach(d=>d.addEventListener('toggle',()=>{
     if(d.open){
-      setOpen(d.dataset.cat);
-      box.querySelectorAll('details.cat[open]').forEach(o=>{if(o!==d)o.open=false;});
+      box.querySelectorAll('details.cat[open]').forEach(o=>{if(o!==d&&!o.contains(d)&&!d.contains(o))o.open=false;});
+      setOpen(cur());
       if(anchorTop!==null){const s=d.querySelector('summary'),dy=s.getBoundingClientRect().top-anchorTop;if(scroller)scroller.scrollTop+=dy;else window.scrollBy(0,dy);}
-    }else if(![...box.querySelectorAll('details.cat')].some(o=>o.open)){setOpen(null);}
+    }else setOpen(cur());
     anchorTop=null;
   }));
 }

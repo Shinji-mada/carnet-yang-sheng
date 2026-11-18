@@ -571,6 +571,11 @@ details.cat.rich>.chips{margin:0;padding:0 14px 14px}
 .gd-p{margin:10px 0 0;font-size:calc(15px*var(--fs,1));line-height:1.5}
 .gd-t{margin:22px 0 0;font-size:calc(13px*var(--fs,1));font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .gd-acc details.cat>summary{font-size:calc(15px*var(--fs,1))}
+/* v1.1 : rubriques détaillées rangées dans « Maladies diagnostiquées » */
+.cat-kids{padding:0 10px 12px}
+details.cat.sub{margin-top:8px;background:var(--bg);border-radius:12px}
+details.cat.sub>summary{font-size:calc(15px*var(--fs,1));min-height:48px;padding:12px 14px}
+details.cat.sub .guide-b{background:var(--surface)}
 .gd{padding:0 16px 16px}
 .gd>.gd-p:first-child{margin-top:0}
 .gd-h{margin:14px 0 6px;font-size:calc(13px*var(--fs,1));font-weight:700;color:var(--muted)}

@@ -118,6 +118,253 @@
    ]
   },
   {
+   "id": "endometriose",
+   "cat": "maladies",
+   "nom": "Endométriose",
+   "syn": "endométriose endométriome adénomyose règles très douloureuses kyste chocolat",
+   "alerte": "Garde ton suivi gynécologique ; consulte vite en cas de douleur brutale et intense du ventre ou de fièvre.",
+   "info": "Du tissu semblable à la muqueuse de l'utérus se développe en dehors : règles très douloureuses, douleurs pendant les rapports ou à la selle, fatigue, parfois difficulté à concevoir. Elle se diagnostique par échographie ou IRM et se traite par hormones, antidouleurs, parfois chirurgie.",
+   "mtc": "Surtout une stase de Sang dans l'Utérus, souvent sur une stagnation du Qi du Foie ou un Froid de l'Utérus ; parfois avec Chaleur ou Vide de Qi et de Sang avec les années.",
+   "tab": [
+    "stase-sang",
+    "froid-uterus",
+    "f-stagnation-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "diabete-2",
+   "cat": "maladies",
+   "nom": "Diabète de type 2",
+   "syn": "diabète sucre glycémie hémoglobine glyquée metformine insuline diabète gras",
+   "alerte": "Continue ton traitement et la surveillance de ta glycémie ; signale à ton médecin toute plante ou tout complément (certains font baisser le sucre).",
+   "rappel": "Diabète : recettes sucrées (miel, dattes, sucre de canne) avec modération, et surveille ta glycémie si tu ajoutes des plantes.",
+   "info": "Le corps utilise mal l'insuline et le sucre reste trop haut dans le sang : soif, urines abondantes, fatigue, souvent sans aucun signe au début. Alimentation, activité physique et médicaments le stabilisent ; le suivi des yeux, des pieds et des reins est important.",
+   "mtc": "Le « Xiao Ke » 消渴 (soif qui consume) : Chaleur qui brûle les liquides, puis Vide de Qi et de Yin ; souvent Humidité-Chaleur ou Mucosités sur un terrain de Rate faible.",
+   "tab": [
+    "qi-yin",
+    "e-vide-yin",
+    "rn-vide-yin",
+    "rt-humidite-chaleur",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "hypertension",
+   "cat": "maladies",
+   "nom": "Hypertension artérielle",
+   "syn": "tension haute hypertension pression artérielle antihypertenseur",
+   "alerte": "Garde ton traitement : ne l'arrête jamais de toi-même. Mal de tête violent, trouble de la vue ou de la parole, douleur dans la poitrine : appelle le 15.",
+   "rappel": "Tension : pas de réglisse en cure longue, pas d'éphédra (Ma Huang) ni de ginseng à forte dose.",
+   "info": "La pression du sang dans les artères reste trop haute, souvent sans aucun signe. Elle fatigue le cœur, le cerveau et les reins ; moins de sel, l'activité physique, le sommeil et les médicaments la contrôlent.",
+   "mtc": "Surtout une montée du Yang du Foie sur un Vide de Yin du Foie et du Rein ; aussi Feu du Foie, Mucosités-Humidité (surpoids) ou stase de Sang.",
+   "tab": [
+    "f-yang",
+    "foie-rein-yin",
+    "f-feu",
+    "rt-froid-humidite",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "cholesterol",
+   "cat": "maladies",
+   "nom": "Cholestérol ou triglycérides élevés",
+   "syn": "cholestérol triglycérides graisses dans le sang LDL statine dyslipidémie",
+   "alerte": "Garde ton traitement ; signale toute plante à ton médecin (la levure de riz rouge agit comme une statine).",
+   "info": "Trop de graisses dans le sang, sans aucun signe, qui abîment peu à peu les artères. L'alimentation, l'activité physique et parfois un médicament les font baisser.",
+   "mtc": "Surtout des Mucosités-Humidité sur une Rate faible, souvent avec stase de Sang ; parfois Vide de Yin du Foie et du Rein.",
+   "tab": [
+    "rt-froid-humidite",
+    "stase-sang",
+    "rt-vide-qi",
+    "foie-rein-yin"
+   ]
+  },
+  {
+   "id": "anemie",
+   "cat": "maladies",
+   "nom": "Anémie, manque de fer",
+   "syn": "anémie fer ferritine carence en fer hémoglobine basse globules rouges",
+   "alerte": "Une anémie doit être expliquée par un médecin (règles abondantes, saignement digestif, alimentation…).",
+   "info": "Pas assez de globules rouges ou de fer : fatigue, pâleur, essoufflement à l'effort, vertiges, ongles cassants, cheveux qui tombent. Le fer se prend loin du thé et du café.",
+   "mtc": "Vide de Sang, souvent avec Vide de Qi de la Rate qui ne fabrique plus assez de Sang, ou Rate qui ne retient pas le Sang (règles abondantes).",
+   "tab": [
+    "qi-sang",
+    "f-vide-sang",
+    "coeur-rate",
+    "rt-vide-qi",
+    "rt-sang"
+   ]
+  },
+  {
+   "id": "rgo",
+   "cat": "maladies",
+   "nom": "Reflux gastro-œsophagien (RGO)",
+   "syn": "reflux RGO brûlures d'estomac remontées acides œsophagite hernie hiatale oméprazole IPP",
+   "alerte": "Difficulté à avaler, amaigrissement, vomissements de sang ou selles noires : consulte vite.",
+   "info": "L'acide de l'estomac remonte dans l'œsophage : brûlures derrière le sternum, remontées acides, toux ou voix enrouée le matin, pire couché ou après un gros repas.",
+   "mtc": "Le Qi de l'Estomac remonte au lieu de descendre : Foie qui agresse l'Estomac (stress), Feu de l'Estomac, ou Vide de Yin de l'Estomac.",
+   "tab": [
+    "foie-estomac",
+    "e-feu",
+    "e-rebellion",
+    "e-vide-yin"
+   ]
+  },
+  {
+   "id": "sii",
+   "cat": "maladies",
+   "nom": "Côlon irritable (syndrome de l'intestin irritable)",
+   "syn": "côlon irritable SII intestin irritable colopathie fonctionnelle ballonnements diarrhée constipation",
+   "alerte": "Sang dans les selles, amaigrissement, fièvre, réveils la nuit pour aller à la selle ou début après 50 ans : il faut d'autres examens.",
+   "info": "Douleurs du ventre, ballonnements et troubles du transit (diarrhée, constipation ou les deux) sans lésion visible, souvent aggravés par le stress et certains aliments.",
+   "mtc": "Surtout le Foie qui agresse la Rate (stress → douleur et selles pressantes), sur une Rate faible ; parfois Froid ou Humidité-Chaleur des intestins.",
+   "tab": [
+    "foie-rate",
+    "rt-vide-qi",
+    "rt-vide-yang",
+    "gi-humidite-chaleur",
+    "f-stagnation-qi"
+   ]
+  },
+  {
+   "id": "mici",
+   "cat": "maladies",
+   "nom": "Maladie de Crohn, rectocolite hémorragique (MICI)",
+   "syn": "Crohn rectocolite RCH MICI maladie inflammatoire de l'intestin colite",
+   "alerte": "Garde ton suivi avec ton gastro-entérologue ; poussée avec fièvre, sang abondant ou douleur forte : consulte vite. Aucune plante sans son avis.",
+   "info": "Inflammation chronique de l'intestin qui évolue par poussées : diarrhée parfois avec sang, douleurs du ventre, fatigue, amaigrissement. Les traitements de fond calment l'inflammation.",
+   "mtc": "Humidité-Chaleur des intestins pendant les poussées, sur un Vide de la Rate et du Rein entre les poussées ; souvent stase de Sang avec les années.",
+   "tab": [
+    "gi-humidite-chaleur",
+    "rt-vide-qi",
+    "rate-rein-yang",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "migraine",
+   "cat": "maladies",
+   "nom": "Migraine",
+   "syn": "migraine crise migraineuse aura mal de tête d'un côté céphalée triptan",
+   "alerte": "Mal de tête brutal « en coup de tonnerre », avec fièvre et nuque raide, ou avec faiblesse ou trouble de la parole : appelle le 15.",
+   "info": "Crises de mal de tête souvent d'un côté, pulsatiles, avec nausées et gêne à la lumière et au bruit, parfois précédées d'une aura visuelle. Elles sont souvent liées au cycle, au manque de sommeil, au stress ou à certains aliments.",
+   "mtc": "Surtout le Yang ou le Feu du Foie qui monte, souvent sur un Vide de Sang ou de Yin ; aussi Mucosités ou stase de Sang pour les migraines anciennes.",
+   "tab": [
+    "f-yang",
+    "f-feu",
+    "f-vide-sang",
+    "stase-sang",
+    "p-mucosites-humidite"
+   ]
+  },
+  {
+   "id": "asthme",
+   "cat": "maladies",
+   "nom": "Asthme",
+   "syn": "asthme crise d'asthme bronches ventoline sifflement allergie respiratoire",
+   "alerte": "Garde ton traitement de fond et ton inhalateur de secours sur toi ; crise qui ne cède pas au traitement, lèvres bleues ou difficulté à parler : appelle le 15.",
+   "info": "Les bronches se resserrent par crises : essoufflement, sifflement, toux, oppression, souvent la nuit, à l'effort, au froid ou avec les allergies.",
+   "mtc": "Mucosités qui obstruent le Poumon pendant les crises (froides ou chaudes) ; entre les crises, Vide du Poumon, de la Rate et du Rein qui ne reçoit plus le Qi.",
+   "tab": [
+    "p-mucosites-humidite",
+    "p-mucosites-chaleur",
+    "rn-recevoir-qi",
+    "p-vide-qi"
+   ]
+  },
+  {
+   "id": "eczema-atopique",
+   "cat": "maladies",
+   "nom": "Eczéma atopique (dermatite atopique)",
+   "syn": "eczéma atopique dermatite atopique peau atopique plaques qui démangent",
+   "alerte": "Plaques qui suintent jaune, croûtes ou fièvre (surinfection) : consulte vite.",
+   "info": "Plaques rouges qui démangent, peau sèche, poussées liées au stress, aux saisons, aux allergènes ; fréquent avec l'asthme et le rhume des foins.",
+   "mtc": "Humidité-Chaleur ou Vent-Chaleur pendant les poussées (rouge, suintant), Vide de Sang qui assèche la peau en dehors des poussées.",
+   "tab": [
+    "peau-humidite-chaleur",
+    "peau-vent-chaleur",
+    "peau-vide-sang"
+   ]
+  },
+  {
+   "id": "psoriasis",
+   "cat": "maladies",
+   "nom": "Psoriasis",
+   "syn": "psoriasis plaques squameuses rhumatisme psoriasique",
+   "alerte": "Douleurs ou gonflements des articulations : parles-en à ton médecin (rhumatisme psoriasique).",
+   "info": "Plaques rouges épaisses couvertes de squames blanches (coudes, genoux, cuir chevelu), qui évoluent par poussées, souvent avec le stress.",
+   "mtc": "Chaleur du Sang pendant les poussées, puis Vide de Sang avec sécheresse et stase de Sang pour les plaques anciennes et épaisses.",
+   "tab": [
+    "peau-chaleur-sang",
+    "peau-vide-sang",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "arthrose",
+   "cat": "maladies",
+   "nom": "Arthrose",
+   "syn": "arthrose usure du cartilage gonarthrose coxarthrose arthrose du genou de la hanche des doigts",
+   "alerte": "Articulation très gonflée, chaude, rouge, ou avec fièvre : consulte vite.",
+   "info": "Usure du cartilage des articulations (genoux, hanches, doigts, dos) : douleur à l'effort, raideur au réveil de quelques minutes, craquements. L'activité adaptée et le poids aident.",
+   "mtc": "Bi chronique : Froid-Humidité dans les articulations sur un Vide du Foie et du Rein (os et tendons mal nourris), souvent avec stase de Sang.",
+   "tab": [
+    "bi-froid",
+    "bi-humidite",
+    "rn-jing",
+    "stase-sang"
+   ]
+  },
+  {
+   "id": "fibromyalgie",
+   "cat": "maladies",
+   "nom": "Fibromyalgie",
+   "syn": "fibromyalgie douleurs diffuses fatigue chronique syndrome douloureux",
+   "alerte": "Garde ton suivi médical ; parles-en si le moral flanche (le 3114 répond jour et nuit en cas d'idées noires).",
+   "info": "Douleurs diffuses dans tout le corps, fatigue profonde, sommeil non réparateur, troubles de la mémoire, souvent avec anxiété ou humeur basse. L'activité douce et régulière aide.",
+   "mtc": "Stagnation du Qi du Foie avec Vide de Qi et de Sang : les muscles et les tendons sont mal nourris et le Qi circule mal ; souvent Humidité et Cœur-Rate atteints.",
+   "tab": [
+    "f-stagnation-qi",
+    "qi-sang",
+    "coeur-rate",
+    "bi-humidite",
+    "rt-vide-qi"
+   ]
+  },
+  {
+   "id": "depression",
+   "cat": "maladies",
+   "nom": "Dépression (diagnostiquée)",
+   "syn": "dépression déprime antidépresseur burn-out épuisement moral tristesse",
+   "alerte": "Idées noires ou envie de mourir : appelle le 3114 (jour et nuit, gratuit) ou le 15. Ne change jamais ton traitement sans ton médecin ; pas de millepertuis avec un antidépresseur.",
+   "info": "Tristesse ou vide intérieur qui durent, perte d'envie et de plaisir, fatigue, troubles du sommeil et de l'appétit, difficulté à se concentrer. Elle se soigne : psychothérapie, parfois médicament, activité physique, lien avec les autres.",
+   "mtc": "Souvent stagnation du Qi du Foie (blocage, irritabilité), Vide du Cœur et de la Rate (ruminations, fatigue), ou Rein affaibli par la peur et l'épuisement.",
+   "tab": [
+    "f-stagnation-qi",
+    "coeur-rate",
+    "rn-peur",
+    "mei-he-qi",
+    "qi-sang"
+   ]
+  },
+  {
+   "id": "cystites",
+   "cat": "maladies",
+   "nom": "Cystites à répétition",
+   "syn": "cystite infection urinaire brûlures urinaires récidivantes vessie",
+   "alerte": "Fièvre, frissons ou douleur dans le bas du dos (rein) : consulte le jour même. Une cystite chez l'homme, l'enfant ou la femme enceinte doit toujours être vue.",
+   "info": "Infections de la vessie qui reviennent : brûlures en urinant, envies fréquentes et pressantes, urines troubles. Boire suffisamment et ne pas se retenir aident à les prévenir.",
+   "mtc": "Humidité-Chaleur de la Vessie pendant les crises ; Vide du Rein (Yin ou Qi) qui laisse revenir l'infection entre les crises.",
+   "tab": [
+    "v-humidite-chaleur",
+    "rn-vide-yin",
+    "rn-qi-non-ferme",
+    "f-humidite-bas"
+   ]
+  },
+  {
    "id": "chlamydia",
    "cat": "ist",
    "nom": "Chlamydia",

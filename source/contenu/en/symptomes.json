@@ -111,7 +111,7 @@
    "id": "lourdeur",
    "cat": "general",
    "nom": "Heavy body, heavy limbs",
-   "syn": "heavy legs heaviness heavy body sluggish"
+   "syn": "heaviness heavy body sluggish"
   },
   {
    "id": "oedeme",
@@ -461,6 +461,19 @@
    "syn": "itchy throat tickly throat scratchy throat tickly cough"
   },
   {
+   "id": "tressautements",
+   "cat": "tete",
+   "nom": "Twitching eyelid or muscle",
+   "alerte": "If the twitching spreads across the face, lasts several weeks or comes with weakness, see a doctor.",
+   "syn": "eyelid twitch eye twitching twitching muscle fasciculations myokymia small spasms"
+  },
+  {
+   "id": "bruxisme",
+   "cat": "tete",
+   "nom": "Clenched jaw, grinding teeth at night",
+   "syn": "bruxism teeth grinding clenching teeth tight jaw jaw pain"
+  },
+  {
    "id": "toux-glaires-blanches",
    "cat": "respiration",
    "nom": "Cough with white, clear or watery phlegm",
@@ -531,6 +544,13 @@
    "nom": "Trouble breathing in deeply, for a long time: the air doesn't go down",
    "syn": "short inhalation, breath doesn't go down, can't take a deep breath, breathing out is easier than breathing in, shallow breathing",
    "alerte": "Breathlessness that starts suddenly, at rest, or with chest pain: call emergency services (15 or 112 in France). Breathlessness that builds up over time needs to be checked by a doctor."
+  },
+  {
+   "id": "ronflement",
+   "cat": "respiration",
+   "nom": "Snoring",
+   "alerte": "Pauses in breathing at night or heavy daytime sleepiness: talk to your doctor (sleep apnea).",
+   "syn": "snore snoring sleep apnea"
   },
   {
    "id": "appetit-faible",
@@ -902,6 +922,19 @@
    "syn": "shyness hesitation hesitant decision indecisive"
   },
   {
+   "id": "reveils-1h-3h",
+   "cat": "sommeil",
+   "nom": "Waking around 1–3 a.m.",
+   "syn": "night waking waking at 1am 2am 3am liver time waking at the same time every night"
+  },
+  {
+   "id": "jambes-sans-repos",
+   "cat": "sommeil",
+   "nom": "Restless legs in the evening, urge to move",
+   "alerte": "Have your iron (ferritin) checked: low iron often makes them worse.",
+   "syn": "restless legs syndrome RLS crawling legs at night jittery legs"
+  },
+  {
    "id": "peau-seche",
    "cat": "peau",
    "nom": "Dry skin",
@@ -1001,6 +1034,12 @@
    "cat": "peau",
    "nom": "Rough, thickened or flaking skin (scales, dandruff)",
    "syn": "scales scaling flaking peeling skin dandruff thick rough skin"
+  },
+  {
+   "id": "peau-grasse",
+   "cat": "peau",
+   "nom": "Oily skin, enlarged pores",
+   "syn": "oily skin greasy face shiny face sebum enlarged pores blackheads"
   },
   {
    "id": "douleur-genou",
@@ -1153,6 +1192,27 @@
    "cat": "douleurs",
    "nom": "Body aches all over",
    "syn": "body aches achy all over flu muscle aches"
+  },
+  {
+   "id": "jambes-lourdes",
+   "cat": "douleurs",
+   "nom": "Heavy legs, varicose veins",
+   "alerte": "A red, hot, swollen, painful calf on one side, or sudden breathlessness: get urgent care (blood clot).",
+   "syn": "heavy legs varicose veins swollen veins swollen ankles venous insufficiency poor circulation"
+  },
+  {
+   "id": "douleur-epaule",
+   "cat": "douleurs",
+   "nom": "Shoulder pain",
+   "alerte": "Pain in the left shoulder or arm with chest tightness, breathlessness or sweating: call emergency services.",
+   "syn": "painful shoulder stiff shoulder frozen shoulder capsulitis shoulder tendinitis rotator cuff"
+  },
+  {
+   "id": "sciatique",
+   "cat": "douleurs",
+   "nom": "Pain running down the buttock and leg (sciatica)",
+   "alerte": "A leg losing strength, numbness between the thighs, or trouble passing urine or stool: emergency, call emergency services.",
+   "syn": "sciatica sciatic nerve herniated disc slipped disc leg pain"
   },
   {
    "id": "regles-douloureuses",

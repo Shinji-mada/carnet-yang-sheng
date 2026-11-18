@@ -45,7 +45,8 @@
     "saignements-nez",
     "sans-enduit",
     "vertiges-lever",
-    "cheveux-secs"
+    "cheveux-secs",
+    "jambes-sans-repos"
    ],
    "contre": [
     "langue-rouge",
@@ -299,7 +300,9 @@
     "demangeaisons-nuit",
     "lhermitte",
     "sans-enduit",
-    "cheveux-secs"
+    "cheveux-secs",
+    "jambes-sans-repos",
+    "tressautements"
    ],
    "contre": [
     "frilosite",
@@ -680,7 +683,10 @@
     "douleur-pression-pire",
     "bouche-seche-sans-soif",
     "kyste",
-    "kyste-ovaire"
+    "kyste-ovaire",
+    "jambes-lourdes",
+    "douleur-epaule",
+    "sciatique"
    ],
    "contre": [
     "douleur-pression-mieux"
@@ -899,7 +905,8 @@
     "cephalee-nuque",
     "douleur-omoplates",
     "fievre",
-    "courbatures"
+    "courbatures",
+    "douleur-epaule"
    ],
    "contre": [
     "articulations-chaudes"
@@ -949,7 +956,9 @@
    "recettes": [
     "congee-goji-sesame",
     "infusion-gingembre-cannelle",
-    "champignons-noirs"
+    "champignons-noirs",
+    "congee-cebette",
+    "soupe-cebette-dou-chi"
    ],
    "privilegier": "Warm dishes, foods that nourish Blood.",
    "eviter": "Drafts, air conditioning blowing on you.",
@@ -987,7 +996,9 @@
     "douleur-omoplates",
     "raideur-matinale",
     "peu-soif",
-    "langue-violacee"
+    "langue-violacee",
+    "douleur-epaule",
+    "sciatique"
    ],
    "contre": [
     "articulations-chaudes",
@@ -1098,7 +1109,10 @@
     "neuropathie",
     "raideur-matinale",
     "mains-gonflees",
-    "raideur-articulaire"
+    "raideur-articulaire",
+    "jambes-lourdes",
+    "douleur-epaule",
+    "sciatique"
    ],
    "contre": [
     "articulations-chaudes",
@@ -1171,7 +1185,8 @@
    "recettes": [
     "congee-orge-azuki",
     "infusion-chen-pi",
-    "soupe-poisson-azuki"
+    "soupe-poisson-azuki",
+    "congee-poria"
    ],
    "privilegier": "Pearl barley, adzuki beans, ginger, cooked grains.",
    "eviter": "Dairy, sugar, fatty food, damp places.",
@@ -1273,7 +1288,8 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "congee-orge-azuki"
+    "congee-orge-azuki",
+    "jus-celeri-frais"
    ],
    "privilegier": "Mung beans, celery, green vegetables, pearl barley.",
    "eviter": "Alcohol, spicy food, red meat, local heat.",
@@ -1369,7 +1385,9 @@
    ],
    "recettes": [
     "soupe-mungo",
-    "infusion-menthe-chrysantheme"
+    "infusion-menthe-chrysantheme",
+    "congee-menthe",
+    "infusion-chrysantheme-amandons-murier"
    ],
    "privilegier": "Mung beans, cooked cucumber, green vegetables, water.",
    "eviter": "Seafood, alcohol, spicy food, foods that have already triggered a reaction in you.",
@@ -1414,7 +1432,8 @@
     "langue-rouge",
     "sensible-chaleur",
     "humidite-intime",
-    "cheveux-gras"
+    "cheveux-gras",
+    "peau-grasse"
    ],
    "contre": [
     "peau-seche",
@@ -1470,7 +1489,9 @@
    "recettes": [
     "congee-orge-azuki",
     "soupe-mungo",
-    "bouillon-concombre-wakame"
+    "bouillon-concombre-wakame",
+    "congee-alisma",
+    "courge-cireuse-vapeur"
    ],
    "privilegier": "Pearl barley, mung and adzuki beans, cooked green vegetables.",
    "eviter": "Sugar, dairy, alcohol, fried food, spicy food.",
@@ -1621,7 +1642,8 @@
     "bleus-faciles",
     "peau-squames",
     "saignements-nez",
-    "levres-seches"
+    "levres-seches",
+    "peau-grasse"
    ],
    "contre": [
     "langue-pale",
@@ -1672,7 +1694,10 @@
    "recettes": [
     "soupe-mungo",
     "infusion-chrysantheme-goji",
-    "saute-celeri-tofu"
+    "saute-celeri-tofu",
+    "concombre-ecrase-ail",
+    "jus-celeri-frais",
+    "salade-bambou-algues"
    ],
    "privilegier": "Green vegetables, mung beans, celery, cooked cucumber, water.",
    "eviter": "Sugar, fried food, chocolate, spicy food, alcohol, dairy.",

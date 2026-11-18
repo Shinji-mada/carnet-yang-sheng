@@ -111,7 +111,7 @@
    "id": "lourdeur",
    "cat": "general",
    "nom": "Corps lourd, membres lourds",
-   "syn": "jambes lourdes pesanteur"
+   "syn": "pesanteur"
   },
   {
    "id": "oedeme",
@@ -461,6 +461,19 @@
    "syn": "gorge qui gratte chatouillement gorge irritée toux d'irritation picotement"
   },
   {
+   "id": "tressautements",
+   "cat": "tete",
+   "nom": "Paupière ou muscle qui tressaute",
+   "alerte": "Si le tressautement gagne tout le visage, dure plusieurs semaines ou s'accompagne d'une faiblesse, consulte un médecin.",
+   "syn": "paupière qui saute œil qui saute tic de la paupière tressautement fasciculations myokymie petits spasmes"
+  },
+  {
+   "id": "bruxisme",
+   "cat": "tete",
+   "nom": "Mâchoires serrées, grincement des dents la nuit",
+   "syn": "bruxisme grincer des dents serrer les dents mâchoire crispée douleur de la mâchoire"
+  },
+  {
    "id": "toux-glaires-blanches",
    "cat": "respiration",
    "nom": "Toux avec glaires blanches, claires ou aqueuses",
@@ -531,6 +544,13 @@
    "nom": "Du mal à inspirer à fond, depuis longtemps : l'air ne descend pas",
    "syn": "inspiration courte, souffle qui ne descend pas, impossible de prendre une grande inspiration, on expire plus facilement qu'on n'inspire, respiration superficielle",
    "alerte": "Un essoufflement qui apparaît brutalement, au repos, ou avec une douleur dans la poitrine : appelle le 15. Un essoufflement qui s'installe doit être vu par un médecin."
+  },
+  {
+   "id": "ronflement",
+   "cat": "respiration",
+   "nom": "Ronflements",
+   "alerte": "Pauses de la respiration la nuit ou forte somnolence dans la journée : parles-en à ton médecin (apnée du sommeil).",
+   "syn": "ronfle ronfler ronflement apnée du sommeil"
   },
   {
    "id": "appetit-faible",
@@ -902,6 +922,19 @@
    "syn": "timidité hésitation décision"
   },
   {
+   "id": "reveils-1h-3h",
+   "cat": "sommeil",
+   "nom": "Réveils vers 1 h – 3 h du matin",
+   "syn": "réveil nocturne réveil à 1h réveil à 2h réveil à 3h heure du foie se réveiller toujours à la même heure la nuit"
+  },
+  {
+   "id": "jambes-sans-repos",
+   "cat": "sommeil",
+   "nom": "Jambes sans repos le soir, besoin de bouger",
+   "alerte": "Fais doser ton fer (ferritine) : un manque de fer les aggrave souvent.",
+   "syn": "impatiences impatiences des jambes syndrome des jambes sans repos fourmis dans les jambes le soir jambes agitées"
+  },
+  {
    "id": "peau-seche",
    "cat": "peau",
    "nom": "Peau sèche",
@@ -1001,6 +1034,12 @@
    "cat": "peau",
    "nom": "Peau rugueuse, épaissie ou qui pèle (squames, pellicules)",
    "syn": "squames desquamation peau qui pèle pellicules peau épaisse rugueuse écailles lichénification"
+  },
+  {
+   "id": "peau-grasse",
+   "cat": "peau",
+   "nom": "Peau grasse, pores dilatés",
+   "syn": "peau grasse visage gras visage qui brille sébum pores dilatés points noirs"
   },
   {
    "id": "douleur-genou",
@@ -1153,6 +1192,27 @@
    "cat": "douleurs",
    "nom": "Courbatures, douleurs dans tout le corps",
    "syn": "courbatures corps endolori grippe douleurs musculaires mal partout"
+  },
+  {
+   "id": "jambes-lourdes",
+   "cat": "douleurs",
+   "nom": "Jambes lourdes, varices",
+   "alerte": "Mollet rouge, chaud, gonflé et douloureux d'un seul côté, ou essoufflement brutal : consulte en urgence (phlébite).",
+   "syn": "jambes lourdes varices veines gonflées chevilles enflées insuffisance veineuse mauvaise circulation"
+  },
+  {
+   "id": "douleur-epaule",
+   "cat": "douleurs",
+   "nom": "Douleur à l'épaule",
+   "alerte": "Douleur de l'épaule gauche ou du bras avec oppression dans la poitrine, essoufflement ou sueurs : appelle le 15.",
+   "syn": "épaule douloureuse épaule bloquée épaule gelée capsulite tendinite de l'épaule périarthrite"
+  },
+  {
+   "id": "sciatique",
+   "cat": "douleurs",
+   "nom": "Douleur qui descend dans la fesse et la jambe (sciatique)",
+   "alerte": "Jambe qui perd sa force, engourdissement entre les cuisses ou trouble pour uriner ou aller à la selle : urgence, appelle le 15.",
+   "syn": "sciatique sciatalgie cruralgie nerf sciatique hernie discale douleur dans la jambe"
   },
   {
    "id": "regles-douloureuses",

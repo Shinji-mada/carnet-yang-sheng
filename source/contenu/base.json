@@ -1,5 +1,5 @@
 {
- "version": "1.1.0-beta.2",
+ "version": "1.1.0-beta.3",
  "categories_symptomes": [
   {
    "id": "general",
@@ -42,7 +42,8 @@
       "yeux-rouges",
       "yeux-jaunes",
       "orgelet",
-      "paupieres-gonflees"
+      "paupieres-gonflees",
+      "tressautements"
      ]
     },
     {
@@ -77,7 +78,8 @@
       "gout-sucre",
       "haleine",
       "bouche-pateuse",
-      "salive-abondante"
+      "salive-abondante",
+      "bruxisme"
      ]
     }
    ]
@@ -204,7 +206,8 @@
    ],
    "rappel": [
     "Ne masse pas une zone avec plaie, cloques ou verrues, et lave-toi les mains après y avoir touché."
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "maladies",
@@ -214,14 +217,66 @@
    "guide": "Chaque maladie : repères et tableaux",
    "intro": [
     "Ces maladies sont diagnostiquées par un médecin, avec une prise de sang ou une analyse. Garde ton traitement et ton suivi : les routines de cette appli les accompagnent, elles ne les remplacent jamais.",
+    "Sclérose en plaques, polyarthrite rhumatoïde, cancer et IST ont chacune leur propre guide, avec leurs signes fréquents.",
     "En médecine chinoise, une même maladie peut correspondre à plusieurs tableaux selon la personne : choisis aussi tes autres symptômes pour trouver celui qui te ressemble le plus.",
     "Hashimoto ou Basedow : pas de compléments d'iode ni d'algues (kelp, fucus) sans avis médical."
    ],
-   "liste": [
-    "hashimoto",
-    "basedow",
-    "hormonal",
-    "parasitose"
+   "sous": [
+    {
+     "nom": "Hormones et thyroïde",
+     "liste": [
+      "hashimoto",
+      "basedow",
+      "hormonal",
+      "endometriose"
+     ]
+    },
+    {
+     "nom": "Cœur, sang, métabolisme",
+     "liste": [
+      "hypertension",
+      "cholesterol",
+      "diabete-2",
+      "anemie"
+     ]
+    },
+    {
+     "nom": "Digestion",
+     "liste": [
+      "rgo",
+      "sii",
+      "mici",
+      "parasitose"
+     ]
+    },
+    {
+     "nom": "Respiration et peau",
+     "liste": [
+      "asthme",
+      "eczema-atopique",
+      "psoriasis"
+     ]
+    },
+    {
+     "nom": "Douleurs",
+     "liste": [
+      "arthrose",
+      "fibromyalgie",
+      "migraine"
+     ]
+    },
+    {
+     "nom": "Moral",
+     "liste": [
+      "depression"
+     ]
+    },
+    {
+     "nom": "Voies urinaires",
+     "liste": [
+      "cystites"
+     ]
+    }
    ]
   },
   {
@@ -268,7 +323,8 @@
       "tristesse"
      ]
     }
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "sep",
@@ -319,7 +375,8 @@
       "libido"
      ]
     }
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "cancer",
@@ -389,7 +446,8 @@
     "Pas de moxa sur une zone irradiée ou moins sensible, ni si tu es essoufflé ou sous oxygène.",
     "Recettes : demande l'avis de ton équipe avant l'angélique chinoise (dang gui), l'astragale, le ginseng ou le curcuma en grande quantité. Globules blancs bas : rien de cru (huîtres, coquillages, poisson cru, œufs peu cuits).",
     "Fièvre à 38 °C ou plus pendant une chimiothérapie : appelle ton équipe de soins ou le 15."
-   ]
+   ],
+   "parent": "maladies"
   },
   {
    "id": "langue",
