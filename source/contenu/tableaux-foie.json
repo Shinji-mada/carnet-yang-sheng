@@ -40,7 +40,8 @@
     "omoplate-hypocondre",
     "bords-rouges",
     "veines-sublinguales",
-    "selles-billes"
+    "selles-billes",
+    "kyste-ovaire"
    ],
    "contre": [],
    "langue": "Normale ou bords légèrement rouges, enduit blanc fin ; veines sous la langue parfois dilatées.",
@@ -154,7 +155,8 @@
     "toux-glaires-blanches",
     "enduit-blanc-epais",
     "enduit-gras",
-    "ganglions"
+    "ganglions",
+    "kyste"
    ],
    "contre": [
     "fievre",
@@ -241,10 +243,10 @@
   {
    "id": "mucosites-feu-ganglions",
    "organe": "foie",
-   "nom": "Mucosités et Feu noués en ganglions",
+   "nom": "Mucosités et Feu noués en ganglions et kystes",
    "zh": "痰火凝结",
    "py": "Tán huǒ níng jié",
-   "resume": "La Chaleur épaissit les liquides en Mucosités, qui se nouent en petites boules sous la peau : ganglions du cou, des aisselles ou de l'aine (Luo Li).",
+   "resume": "La Chaleur épaissit les liquides en Mucosités, qui se nouent en petites boules sous la peau : ganglions du cou, des aisselles ou de l'aine (Luo Li), ou kystes.",
    "causes": [
     "Stress, colère ou émotions retenues qui bloquent le Qi du Foie",
     "Alimentation grasse, sucrée, frite ou épicée",
@@ -254,7 +256,8 @@
    "mecanisme": "Quand le Qi du Foie se bloque, il chauffe et ne fait plus circuler les liquides. La Chaleur les épaissit en Mucosités, qui se nouent le long des méridiens du Foie, de la Vésicule biliaire et du Triple Réchauffeur, sur les côtés du cou et sous les aisselles. Si le Yin s'épuise, la sécheresse s'ajoute : lèvres et bouche sèches, boutons rouges.",
    "cle": [
     "ganglions",
-    "bouche-seche"
+    "bouche-seche",
+    "kyste"
    ],
    "autres": [
     "acne",
@@ -357,13 +360,13 @@
    "groupes": [
     "peau"
    ],
-   "simple": "La Chaleur et les Mucosités se nouent en petites boules sous la peau (ganglions).",
+   "simple": "La Chaleur et les Mucosités se nouent en petites boules sous la peau (ganglions, kystes).",
    "reperes": [
     "Ganglions bénins persistants",
     "Nodules de la thyroïde",
     "Kystes sous la peau"
    ],
-   "diag": "de la Chaleur et des Mucosités se nouent en ganglions"
+   "diag": "de la Chaleur et des Mucosités se nouent en ganglions ou en kystes"
   },
   {
    "id": "f-vide-sang",
@@ -408,7 +411,8 @@
     "langue-tremblante",
     "langue-seche",
     "selles-billes",
-    "vertiges-lever"
+    "vertiges-lever",
+    "cheveux-secs"
    ],
    "contre": [
     "langue-rouge",
@@ -802,7 +806,8 @@
     "langue-rouge",
     "enduit-gras",
     "selles-decolorees",
-    "yeux-jaunes"
+    "yeux-jaunes",
+    "cheveux-gras"
    ],
    "contre": [
     "frilosite",

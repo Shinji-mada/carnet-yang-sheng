@@ -554,7 +554,10 @@
     "selles-decolorees",
     "gout-sucre",
     "yeux-jaunes",
-    "bouche-seche-sans-soif"
+    "bouche-seche-sans-soif",
+    "cheveux-gras",
+    "kyste",
+    "kyste-ovaire"
    ],
    "contre": [
     "enduit-jaune",
@@ -700,7 +703,9 @@
     "selles-glaireuses",
     "gout-sucre",
     "yeux-jaunes",
-    "bouche-seche-sans-soif"
+    "bouche-seche-sans-soif",
+    "cheveux-gras",
+    "levres-seches"
    ],
    "contre": [
     "enduit-blanc-epais",

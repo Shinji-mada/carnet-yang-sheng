@@ -40,7 +40,8 @@
     "omoplate-hypocondre",
     "bords-rouges",
     "veines-sublinguales",
-    "selles-billes"
+    "selles-billes",
+    "kyste-ovaire"
    ],
    "contre": [],
    "langue": "Normal or slightly red on the sides, thin white coating; veins under the tongue sometimes distended.",
@@ -154,7 +155,8 @@
     "toux-glaires-blanches",
     "enduit-blanc-epais",
     "enduit-gras",
-    "ganglions"
+    "ganglions",
+    "kyste"
    ],
    "contre": [
     "fievre",
@@ -241,10 +243,10 @@
   {
    "id": "mucosites-feu-ganglions",
    "organe": "foie",
-   "nom": "Phlegm and Fire Knotted into Lymph Nodes",
+   "nom": "Phlegm and Fire Knotted into Lymph Nodes and Cysts",
    "zh": "痰火凝结",
    "py": "Tán huǒ níng jié",
-   "resume": "Heat thickens the fluids into Phlegm, which knots into small lumps under the skin: lymph nodes in the neck, armpits or groin (Luo Li).",
+   "resume": "Heat thickens the fluids into Phlegm, which knots into small lumps under the skin: lymph nodes in the neck, armpits or groin (Luo Li), or cysts.",
    "causes": [
     "Stress, anger or held-back emotions blocking Liver Qi",
     "Fatty, sweet, fried or spicy food",
@@ -254,7 +256,8 @@
    "mecanisme": "When Liver Qi is blocked, it heats up and stops moving the fluids. The Heat thickens them into Phlegm, which knots along the Liver, Gallbladder and Triple Energizer channels, on the sides of the neck and under the armpits. If Yin runs low, dryness joins in: dry lips and mouth, red pimples.",
    "cle": [
     "ganglions",
-    "bouche-seche"
+    "bouche-seche",
+    "kyste"
    ],
    "autres": [
     "acne",
@@ -357,13 +360,13 @@
    "groupes": [
     "peau"
    ],
-   "simple": "Heat and Phlegm knot into small lumps under the skin (lymph nodes).",
+   "simple": "Heat and Phlegm knot into small lumps under the skin (lymph nodes, cysts).",
    "reperes": [
     "Persistent benign lymph nodes",
     "Thyroid nodules",
     "Cysts under the skin"
    ],
-   "diag": "Heat and Phlegm are knotting into lymph nodes"
+   "diag": "Heat and Phlegm are knotting into lymph nodes or cysts"
   },
   {
    "id": "f-vide-sang",
@@ -408,7 +411,8 @@
     "langue-tremblante",
     "langue-seche",
     "selles-billes",
-    "vertiges-lever"
+    "vertiges-lever",
+    "cheveux-secs"
    ],
    "contre": [
     "langue-rouge",
@@ -802,7 +806,8 @@
     "langue-rouge",
     "enduit-gras",
     "selles-decolorees",
-    "yeux-jaunes"
+    "yeux-jaunes",
+    "cheveux-gras"
    ],
    "contre": [
     "frilosite",

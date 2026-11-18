@@ -966,6 +966,25 @@
    "syn": "gray hair grey hair white hair going gray graying"
   },
   {
+   "id": "cheveux-secs",
+   "cat": "peau",
+   "nom": "Dry, brittle, dull hair",
+   "syn": "dry hair brittle dull split ends damaged lifeless thin fragile"
+  },
+  {
+   "id": "cheveux-gras",
+   "cat": "peau",
+   "nom": "Oily hair and scalp",
+   "syn": "oily hair greasy scalp sebum greasy roots oily dandruff itchy scalp"
+  },
+  {
+   "id": "kyste",
+   "cat": "peau",
+   "nom": "Cysts or lumps under the skin (nodules, lipomas)",
+   "alerte": "Show a doctor any cyst or nodule that grows quickly, is hard and does not move, hurts or turns red.",
+   "syn": "cyst cysts lump under the skin nodule lipoma sebaceous cyst bump soft mass"
+  },
+  {
    "id": "ongles-cassants",
    "cat": "peau",
    "nom": "Brittle or ridged nails",
@@ -1184,6 +1203,13 @@
    "cat": "cycle",
    "nom": "Tender breasts, irritability before your period",
    "syn": "premenstrual syndrome PMS breasts sore breasts"
+  },
+  {
+   "id": "kyste-ovaire",
+   "cat": "cycle",
+   "nom": "Ovarian cyst or fibroid (diagnosed)",
+   "alerte": "Ultrasound follow-up remains essential; seek care quickly for sudden, severe lower abdominal pain.",
+   "syn": "ovarian cyst cysts on the ovaries polycystic ovaries PCOS fibroid myoma uterus polyp lower abdominal mass"
   },
   {
    "id": "pertes-blanches",

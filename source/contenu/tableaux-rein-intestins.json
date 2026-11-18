@@ -197,7 +197,8 @@
     "enduit-pele",
     "demangeaisons-nuit",
     "sans-enduit",
-    "selles-billes"
+    "selles-billes",
+    "cheveux-secs"
    ],
    "contre": [
     "frilosite",
@@ -571,7 +572,8 @@
     "fatigue-traitement",
     "langue-pale",
     "langue-rouge-sans-enduit",
-    "lhermitte"
+    "lhermitte",
+    "cheveux-secs"
    ],
    "contre": [],
    "langue": "Variable, souvent pâle ou rouge sans enduit.",

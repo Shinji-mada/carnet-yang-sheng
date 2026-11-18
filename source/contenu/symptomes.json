@@ -966,6 +966,25 @@
    "syn": "cheveux gris cheveux blanc blanchissent grisonnant canitie"
   },
   {
+   "id": "cheveux-secs",
+   "cat": "peau",
+   "nom": "Cheveux secs, cassants, ternes",
+   "syn": "cheveux secs cassants ternes fourches abîmés sans éclat fins fragiles"
+  },
+  {
+   "id": "cheveux-gras",
+   "cat": "peau",
+   "nom": "Cheveux et cuir chevelu gras",
+   "syn": "cheveux gras cuir chevelu gras sébum racines grasses pellicules grasses démangeaisons du cuir chevelu"
+  },
+  {
+   "id": "kyste",
+   "cat": "peau",
+   "nom": "Kystes ou boules sous la peau (nodules, lipomes)",
+   "alerte": "Montre à un médecin tout kyste ou nodule qui grossit vite, qui est dur et ne bouge pas, qui fait mal ou qui rougit.",
+   "syn": "kyste kystes boule sous la peau nodule lipome kyste sébacé grosseur bosse masse molle"
+  },
+  {
    "id": "ongles-cassants",
    "cat": "peau",
    "nom": "Ongles cassants ou striés",
@@ -1184,6 +1203,13 @@
    "cat": "cycle",
    "nom": "Seins tendus, irritabilité avant les règles",
    "syn": "syndrome prémenstruel seins"
+  },
+  {
+   "id": "kyste-ovaire",
+   "cat": "cycle",
+   "nom": "Kyste aux ovaires ou fibrome (connu)",
+   "alerte": "Le suivi par échographie reste indispensable ; consulte vite en cas de douleur brutale et forte du bas-ventre.",
+   "syn": "kyste ovarien kyste aux ovaires ovaires polykystiques SOPK fibrome myome utérus polype masse du bas-ventre"
   },
   {
    "id": "pertes-blanches",
