@@ -1603,6 +1603,117 @@
     "shiitake",
     "light soup"
    ]
+  },
+  {
+   "id": "soupe-courge-cireuse-azuki",
+   "type": "recette",
+   "date": "2026-11-18",
+   "ordre": 215,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Winter melon soup with adzuki beans",
+   "zh": "冬瓜赤小豆汤",
+   "py": "dōngguā chìxiǎodòu tāng",
+   "contexte": "Winter melon cooked with its skin and adzuki beans drain water through the urine: the classic soup for swelling, especially when it comes with a little Heat. Ginger and scallion make it gentler on the Stomach.",
+   "principe": {
+    "zh": "利水消肿",
+    "py": "Lì shuǐ xiāo zhǒng",
+    "fr": "Move water, reduce swelling"
+   },
+   "precautions": "Swelling should be checked by a doctor. If you feel the cold a lot, keep the ginger and drink it hot.",
+   "portions": 4,
+   "duree": "1 h 30 min (+ soaking)",
+   "ingredients": [
+    {
+     "id": "azuki",
+     "q": 80,
+     "u": "g",
+     "nom": "adzuki beans, soaked overnight",
+     "cle": "azuki"
+    },
+    {
+     "id": "courge",
+     "q": 600,
+     "u": "g",
+     "nom": "winter melon with its skin, in large cubes",
+     "cle": "courge-cireuse",
+     "note": "From Asian grocery stores (\"dong gua\", \"winter melon\"). Keep the skin and seeds: they drain water the most."
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "slices of ginger",
+     "cle": "gingembre",
+     "suffixe": "slices"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "scallion stalks, finely sliced",
+     "cle": "cebette",
+     "suffixe": "stalks"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "salt, just a little",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Cook the adzuki beans",
+       "texte": "Drain the adzuki beans ({azuki}), put them in the water ({eau}) with the ginger ({gingembre}), bring to a boil and let it simmer.",
+       "s": 2700
+      },
+      {
+       "titre": "Add the melon",
+       "texte": "Add the winter melon ({courge}) with its skin and keep cooking until it turns translucent.",
+       "s": 1500
+      },
+      {
+       "titre": "Serve",
+       "texte": "Add very little salt ({sel}) and sprinkle with scallion ({cebette}). Drink the broth, eat the melon and the beans."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "In a pressure cooker",
+     "etapes": [
+      {
+       "titre": "Pressure-cook",
+       "texte": "Put the drained adzuki beans ({azuki}), melon ({courge}), ginger ({gingembre}) and water ({eau}) in the pressure cooker. Start timing once it reaches pressure.",
+       "s": 1200
+      },
+      {
+       "titre": "Serve",
+       "texte": "Let the pressure release naturally, add very little salt ({sel}) and the scallion ({cebette})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Salt makes the body hold on to water: use as little as possible."
+   ],
+   "tags": [
+    "soup",
+    "swelling",
+    "Dampness",
+    "winter melon"
+   ]
   }
  ]
 }

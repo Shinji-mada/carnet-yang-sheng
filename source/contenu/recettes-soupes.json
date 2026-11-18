@@ -1603,6 +1603,117 @@
     "shiitaké",
     "soupe légère"
    ]
+  },
+  {
+   "id": "soupe-courge-cireuse-azuki",
+   "type": "recette",
+   "date": "2026-11-18",
+   "ordre": 215,
+   "genre": "soupe",
+   "axe": "humidite",
+   "titre": "Soupe de courge cireuse aux haricots azuki",
+   "zh": "冬瓜赤小豆汤",
+   "py": "dōngguā chìxiǎodòu tāng",
+   "contexte": "La courge cireuse cuite avec sa peau et les haricots azuki drainent l'eau par les urines : la soupe classique des gonflements, surtout quand ils viennent avec un peu de Chaleur. Le gingembre et la cébette la rendent plus douce pour l'Estomac.",
+   "principe": {
+    "zh": "利水消肿",
+    "py": "Lì shuǐ xiāo zhǒng",
+    "fr": "Faire circuler l'eau, réduire les œdèmes"
+   },
+   "precautions": "Des œdèmes doivent être vus par un médecin. Si tu es très frileux, garde bien le gingembre et bois-la chaude.",
+   "portions": 4,
+   "duree": "1 h 30 (+ trempage)",
+   "ingredients": [
+    {
+     "id": "azuki",
+     "q": 80,
+     "u": "g",
+     "nom": "haricots azuki, trempés une nuit",
+     "cle": "azuki"
+    },
+    {
+     "id": "courge",
+     "q": 600,
+     "u": "g",
+     "nom": "courge cireuse avec sa peau, en gros cubes",
+     "cle": "courge-cireuse",
+     "note": "En épicerie asiatique (« dong gua », « winter melon »). Garde la peau et les graines : ce sont elles qui drainent le plus l'eau."
+    },
+    {
+     "id": "gingembre",
+     "q": 3,
+     "nom": "tranches de gingembre",
+     "cle": "gingembre",
+     "suffixe": "tranches"
+    },
+    {
+     "id": "cebette",
+     "q": 2,
+     "nom": "tiges de cébette, ciselées",
+     "cle": "cebette",
+     "suffixe": "tiges"
+    },
+    {
+     "id": "eau",
+     "q": 1500,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    },
+    {
+     "id": "sel",
+     "q": 1,
+     "u": "pinch",
+     "nom": "sel, très peu",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Cuire les azuki",
+       "texte": "Égoutte les azuki ({azuki}), mets-les dans l'eau ({eau}) avec le gingembre ({gingembre}), porte à ébullition et laisse frémir.",
+       "s": 2700
+      },
+      {
+       "titre": "Ajouter la courge",
+       "texte": "Ajoute la courge ({courge}) avec sa peau et poursuis jusqu'à ce qu'elle devienne translucide.",
+       "s": 1500
+      },
+      {
+       "titre": "Servir",
+       "texte": "Sale très peu ({sel}) et parsème de cébette ({cebette}). Bois le bouillon, mange la courge et les haricots."
+      }
+     ]
+    },
+    {
+     "id": "cocotte",
+     "nom": "À la cocotte-minute",
+     "etapes": [
+      {
+       "titre": "Cuire sous pression",
+       "texte": "Mets les azuki égouttés ({azuki}), la courge ({courge}), le gingembre ({gingembre}) et l'eau ({eau}) dans la cocotte. Compte le temps à partir du sifflement.",
+       "s": 1200
+      },
+      {
+       "titre": "Servir",
+       "texte": "Laisse la pression retomber seule, sale très peu ({sel}) et ajoute la cébette ({cebette})."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Le sel retient l'eau : sale le moins possible."
+   ],
+   "tags": [
+    "soupe",
+    "œdèmes",
+    "Humidité",
+    "courge cireuse"
+   ]
   }
  ]
 }

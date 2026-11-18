@@ -2695,6 +2695,22 @@
    ]
   },
   {
+   "id": "barbe-mais",
+   "nom": "Corn silk",
+   "cat": "asie",
+   "zh": "玉米须",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "V",
+    "F",
+    "VB"
+   ],
+   "note": "The silky threads of the corn cob, dried: promote urination without cooling."
+  },
+  {
    "id": "cafe",
    "nom": "Coffee",
    "cat": "divers",

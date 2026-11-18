@@ -46,7 +46,9 @@
     "gout-sucre",
     "vertiges-lever",
     "ronflement",
-    "jambes-lourdes"
+    "jambes-lourdes",
+    "oedeme-jambes",
+    "visage-bouffi"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -179,7 +181,10 @@
     "lourdeur",
     "salive-abondante",
     "selles-decolorees",
-    "douleur-pression-mieux"
+    "douleur-pression-mieux",
+    "oedeme-jambes",
+    "urines-rares",
+    "visage-bouffi"
    ],
    "contre": [
     "chaleur-corps",
@@ -230,6 +235,11 @@
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Strengthens the Spleen and drains Dampness."
+      },
+      {
+       "p": "V 22",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Triple Burner: opens the water passages."
       }
      ]
     },
@@ -262,10 +272,13 @@
     "congee-millet-patate-douce",
     "soupe-mouton-radis",
     "congee-riz-gluant-dattes",
-    "rognons-agneau-muscade"
+    "rognons-agneau-muscade",
+    "soupe-poisson-azuki",
+    "congee-poria",
+    "infusion-barbe-mais"
    ],
-   "privilegier": "Ginger, cinnamon, leek, squash, rice, cooked oatmeal, broths, lamb in winter.",
-   "eviter": "Cold drinks, ice cream, raw fruit, salads, walking barefoot on tiled floors.",
+   "privilegier": "Ginger, cinnamon, leek, squash, rice, cooked oatmeal, broths, lamb in winter. For swelling: adzuki beans, carp, winter melon with its skin, corn silk, and very little salt.",
+   "eviter": "Cold drinks, ice cream, raw fruit, salads, walking barefoot on tiled floors, too much salt.",
    "conseils": [
     "Put a hot-water bottle on your belly in the evening.",
     "Start your day with a hot drink."
@@ -563,7 +576,9 @@
     "kyste-ovaire",
     "ronflement",
     "jambes-lourdes",
-    "thyroide-gonflee"
+    "thyroide-gonflee",
+    "oedeme-jambes",
+    "urines-rares"
    ],
    "contre": [
     "enduit-jaune",
@@ -654,7 +669,9 @@
     "infusion-shan-zha",
     "decoction-shan-zha-mandarine",
     "infusion-coriandre-cardamome",
-    "soupe-azuki-sucree"
+    "soupe-azuki-sucree",
+    "infusion-barbe-mais",
+    "soupe-courge-cireuse-azuki"
    ],
    "privilegier": "Pearl barley, adzuki beans, ginger, mandarin peel, radish, rice.",
    "eviter": "Dairy, sugar, fatty food, too much white bread, cold drinks, damp places.",

@@ -30,6 +30,7 @@ c Bu Gu Zhi : 12 g ; Rou Dou Kou : 6 g ; Wu Wei Zi : 6 g ; Wu Zhu Yu : 3 g ; She
 a Réchauffe le Rein et la Rate, arrête la diarrhée. || Warms the Kidney and Spleen, stops diarrhea.
 i diarrhée à l'aube (selles molles au réveil) ; ventre et lombes froids ; appétit faible || diarrhea at dawn (loose stools on waking); cold belly and lower back; poor appetite
 t rate-rein-yang, rn-vide-yang
+s diarrhee-matin
 x Diarrhée de Chaleur ou infectieuse. || Heat or infectious diarrhea.
 
 @wan-dai-tang | Wan Dai Tang | 完带汤 | astringent |

@@ -48,7 +48,13 @@
     "levres-ongles-violaces",
     "urines-troubles",
     "gouttes-apres-uriner",
-    "sciatique"
+    "sciatique",
+    "oedeme-jambes",
+    "oedeme-poteaux",
+    "urines-rares",
+    "visage-bouffi",
+    "palpitations",
+    "essoufflement"
    ],
    "contre": [
     "chaleur-corps",
@@ -83,7 +89,7 @@
       {
        "p": "Rn 7",
        "s": 90,
-       "pourquoi": "Tonifies the Kidney."
+       "pourquoi": "Tonifies the Kidney and regulates water (edema, sweating)."
       },
       {
        "p": "V 52",
@@ -94,6 +100,11 @@
        "p": "E 36",
        "s": 120,
        "pourquoi": "Tonifies the Qi of the whole body."
+      },
+      {
+       "p": "V 22",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Triple Burner: opens the water passages."
       }
      ]
     },
@@ -111,6 +122,12 @@
        "s": 300,
        "pourquoi": "Warms the Kidney and the lower belly.",
        "ess": 1
+      },
+      {
+       "p": "RM 9",
+       "s": 120,
+       "pourquoi": "Moxa on the \"Water Separation\" point: helps the body clear water, reduces edema.",
+       "ess": 1
       }
      ]
     }
@@ -127,10 +144,12 @@
     "agneau-fenouil",
     "congee-ciboule-chinoise",
     "rognons-agneau-muscade",
-    "foie-agneau-ciboule"
+    "foie-agneau-ciboule",
+    "soupe-poisson-azuki",
+    "infusion-barbe-mais"
    ],
-   "privilegier": "Walnuts, lamb, shrimp, leek, cinnamon, ginger, black beans, chestnuts, slow-cooked dishes.",
-   "eviter": "Cold and raw food, iced drinks, overwork, staying up late, sitting on cold floors.",
+   "privilegier": "Walnuts, lamb, shrimp, leek, cinnamon, ginger, black beans, chestnuts, slow-cooked dishes. For swelling: adzuki beans, carp, winter melon with its skin, corn silk, and very little salt.",
+   "eviter": "Cold and raw food, iced drinks, overwork, staying up late, sitting on cold floors, too much salt.",
    "conseils": [
     "Rub your lower back with your palms every evening until it feels warm.",
     "Keep your lower back and feet warm."
@@ -449,7 +468,8 @@
     "fuites-urinaires",
     "urines-claires",
     "oedeme",
-    "langue-pale"
+    "langue-pale",
+    "oedeme-jambes"
    ],
    "contre": [
     "toux-glaires-jaunes",

@@ -606,6 +606,26 @@
    "ci": "Vide de Yin, transpiration abondante."
   },
   {
+   "id": "cao-guo",
+   "py": "Cao Guo",
+   "zh": "草果",
+   "lat": "Tsaoko Fructus",
+   "nom": "Cardamome noire (tsaoko)",
+   "cat": "aromatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "3–6 g",
+   "act": "Assèche l'Humidité, réchauffe le Centre, arrête les nausées.",
+   "ind": "ventre plein et froid ; nausées ; enduit de langue blanc et épais ; œdèmes de Froid-Humidité ; fièvres intermittentes",
+   "ci": "Vide de Yin, Vide de Sang, Chaleur."
+  },
+  {
    "id": "chai-hu",
    "py": "Chai Hu",
    "zh": "柴胡",
@@ -730,6 +750,27 @@
    "act": "Rafraîchit le Sang, active le Sang, dissout la stase, calme la douleur.",
    "ind": "douleurs fixes ; règles douloureuses avec caillots ; yeux rouges ; éruptions rouges ; hématomes",
    "ci": "Vide de Sang sans stase ; grossesse."
+  },
+  {
+   "id": "chi-xiao-dou",
+   "py": "Chi Xiao Dou",
+   "zh": "赤小豆",
+   "lat": "Vignae Semen",
+   "nom": "Haricot azuki",
+   "cat": "diuretiques",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "acide"
+   ],
+   "mer": [
+    "C",
+    "IG"
+   ],
+   "dose": "9–30 g",
+   "act": "Fait uriner, réduit les œdèmes, clarifie la Chaleur et le poison, draine le pus.",
+   "ind": "œdèmes ; ventre gonflé ; jaunisse ; furoncles, abcès",
+   "ci": "Prise longue chez une personne très maigre ou sèche (assèche)."
   },
   {
    "id": "chuan-bei-mu",
@@ -4423,6 +4464,27 @@
    "act": "Tonifie le Yang du Rein, fortifie les tendons et les os, chasse le Vent-Humidité.",
    "ind": "impuissance ; libido faible ; lombes froides ; ménopause ; douleurs articulaires de Froid",
    "ci": "Vide de Yin avec Feu ; troubles du rythme cardiaque (prudence)."
+  },
+  {
+   "id": "yu-mi-xu",
+   "py": "Yu Mi Xu",
+   "zh": "玉米须",
+   "lat": "Maydis Stigma",
+   "nom": "Barbe de maïs",
+   "cat": "diuretiques",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "V",
+    "F",
+    "VB"
+   ],
+   "dose": "15–30 g",
+   "act": "Fait uriner, réduit les œdèmes, aide la bile, abaisse un peu la tension.",
+   "ind": "œdèmes ; urines rares ; jaunisse ; calculs ; hypertension (en accompagnement) ; diabète (en accompagnement)",
+   "ci": "Avec un diurétique, un traitement de la tension ou du diabète : demande l'avis de ton médecin."
   },
   {
    "id": "yu-xing-cao",

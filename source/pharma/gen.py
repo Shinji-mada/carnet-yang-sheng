@@ -25,7 +25,7 @@ def blocks(pattern):
                 out.append(cur)
             else:
                 k, _, v = line.partition(' ')
-                assert cur is not None and k in 'nacitxo' and len(k) == 1, (f, line)
+                assert cur is not None and k in 'nacitxos' and len(k) == 1, (f, line)
                 cur[k] = v.strip()
     return out
 
@@ -118,6 +118,7 @@ def formules():
         en = {'id': fid, 'nom': ne, 'act': ae, 'ind': i_e, 'ci': xe}
         if 'o' in b:
             of, oe = bi(b['o']); fr['note'] = of; en['note'] = oe
+        if 's' in b: fr['sym'] = [s.strip() for s in b['s'].split(',') if s.strip()]
         F.append(fr); E.append(en)
     ids = [f['id'] for f in F]
     for i in set(ids):
@@ -193,7 +194,7 @@ PRINCIPAL = {'bi-chaleur': 'si-miao-san bai-hu-jia-gui-zhi-tang', 'bi-froid': 'd
     'mei-he-qi': 'ban-xia-hou-po-tang', 'mucosites-feu-ganglions': 'xiao-luo-wan hai-zao-yu-hu-tang',
     'p-mucosites-chaleur': 'qing-qi-hua-tan-wan', 'p-mucosites-humidite': 'er-chen-tang er-chen-san-zi',
     'p-secheresse': 'qing-zao-jiu-fei-tang sha-shen-mai-dong-tang', 'p-stagnation-qi': 'ban-xia-hou-po-tang',
-    'p-vent-chaleur': 'yin-qiao-san sang-ju-yin', 'p-vent-froid': 'jing-fang-bai-du-san gui-zhi-tang', 'p-vide-qi': 'bu-fei-tang yu-ping-feng-san',
+    'p-vent-chaleur': 'yin-qiao-san sang-ju-yin', 'p-vent-eau': 'yue-bi-jia-zhu-tang wu-pi-yin', 'p-vent-froid': 'jing-fang-bai-du-san gui-zhi-tang', 'p-vide-qi': 'bu-fei-tang yu-ping-feng-san',
     'p-vide-yang': 'bu-fei-tang ling-gui-zhu-gan-tang', 'p-vide-yin': 'bai-he-gu-jin-wan mai-wei-di-huang-wan',
     'peau-chaleur-sang': 'pi-pa-qing-fei-yin wu-wei-xiao-du-yin', 'peau-humidite-chaleur': 'bi-xie-shen-shi-tang xiao-feng-san',
     'peau-vent-chaleur': 'xiao-feng-san yin-qiao-san', 'peau-vide-sang': 'dang-gui-yin-zi', 'poumon-rate-qi': 'shen-ling-bai-zhu-san liu-jun-zi-tang',

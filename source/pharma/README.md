@@ -11,6 +11,7 @@ Formule (`formules-*.txt`) :
     a Actions || Actions
     i Indications || Indications
     t tableau-id, tableau-id                   (tableaux de l'appli soignés par la formule, le plus typique d'abord)
+    s symptome-id, symptome-id                 (facultatif : signes qui la font passer en tête dans le bilan)
     x Contre-indications et précautions || Contraindications and cautions
     o Note (substitutions, version du labo…) || Note
 

@@ -46,7 +46,9 @@
     "gout-sucre",
     "vertiges-lever",
     "ronflement",
-    "jambes-lourdes"
+    "jambes-lourdes",
+    "oedeme-jambes",
+    "visage-bouffi"
    ],
    "contre": [
     "langue-rouge-sans-enduit",
@@ -179,7 +181,10 @@
     "lourdeur",
     "salive-abondante",
     "selles-decolorees",
-    "douleur-pression-mieux"
+    "douleur-pression-mieux",
+    "oedeme-jambes",
+    "urines-rares",
+    "visage-bouffi"
    ],
    "contre": [
     "chaleur-corps",
@@ -230,6 +235,11 @@
        "p": "Rt 6",
        "s": 90,
        "pourquoi": "Renforce la Rate et draine l'Humidité."
+      },
+      {
+       "p": "V 22",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Triple Réchauffeur : ouvre les voies de l'eau."
       }
      ]
     },
@@ -262,10 +272,13 @@
     "congee-millet-patate-douce",
     "soupe-mouton-radis",
     "congee-riz-gluant-dattes",
-    "rognons-agneau-muscade"
+    "rognons-agneau-muscade",
+    "soupe-poisson-azuki",
+    "congee-poria",
+    "infusion-barbe-mais"
    ],
-   "privilegier": "Gingembre, cannelle, poireau, courge, riz, flocons d'avoine cuits, bouillons, agneau en hiver.",
-   "eviter": "Boissons froides, glaces, fruits crus, salades, marcher pieds nus sur le carrelage.",
+   "privilegier": "Gingembre, cannelle, poireau, courge, riz, flocons d'avoine cuits, bouillons, agneau en hiver. Contre les œdèmes : haricots azuki, carpe, courge cireuse avec sa peau, barbe de maïs, et très peu de sel.",
+   "eviter": "Boissons froides, glaces, fruits crus, salades, marcher pieds nus sur le carrelage, sel en excès.",
    "conseils": [
     "Bouillotte sur le ventre le soir.",
     "Commence la journée par une boisson chaude."
@@ -563,7 +576,9 @@
     "kyste-ovaire",
     "ronflement",
     "jambes-lourdes",
-    "thyroide-gonflee"
+    "thyroide-gonflee",
+    "oedeme-jambes",
+    "urines-rares"
    ],
    "contre": [
     "enduit-jaune",
@@ -654,7 +669,9 @@
     "infusion-shan-zha",
     "decoction-shan-zha-mandarine",
     "infusion-coriandre-cardamome",
-    "soupe-azuki-sucree"
+    "soupe-azuki-sucree",
+    "infusion-barbe-mais",
+    "soupe-courge-cireuse-azuki"
    ],
    "privilegier": "Orge perlé, haricots azuki, gingembre, zeste de mandarine, radis, riz.",
    "eviter": "Laitages, sucre, gras, pain blanc en excès, boissons froides, lieux humides.",

@@ -1641,6 +1641,28 @@
    "ind": "itching; irritated skin; mild hives",
    "ci": "Pregnancy.",
    "note": "JZ composition for the daily dose, different from Xiao Feng San."
+  },
+  {
+   "id": "yue-bi-jia-zhu-tang",
+   "nom": "Maidservant from Yue Decoction plus Atractylodes",
+   "act": "Releases the Lung, expels Wind, moves Water, clears Heat.",
+   "ind": "swelling that starts suddenly in the face and eyelids, then spreads to the whole body; scanty urine; aversion to wind; fever; sore throat",
+   "ci": "Ma Huang (ephedra): by prescription only, avoid with high blood pressure, heart rhythm problems, insomnia or pregnancy; any sudden facial swelling must be checked by a doctor (urine test)."
+  },
+  {
+   "id": "shi-pi-yin",
+   "nom": "Bolster the Spleen Drink",
+   "act": "Warms Spleen and Kidney Yang, moves Qi and Water.",
+   "ind": "edema mainly of the lower body, worse below the waist; distended belly; cold hands and feet; loose stools; poor appetite; no thirst",
+   "ci": "Pregnancy; Heat, Yin deficiency; Fu Zi is toxic unless processed; any edema must be checked by a doctor."
+  },
+  {
+   "id": "ji-sheng-shen-qi-wan",
+   "nom": "Kidney Qi Pill from Formulas to Aid the Living",
+   "act": "Warms Kidney Yang, moves Water, reduces edema.",
+   "ind": "very swollen legs; lower-body edema; scanty urine; cold, aching lower back; feeling cold",
+   "ci": "Pregnancy (Niu Xi, Fu Zi); Yin deficiency with Heat; Fu Zi is toxic unless processed; any edema must be checked by a doctor.",
+   "note": "It is Jin Gui Shen Qi Wan strengthened against edema with Niu Xi and Che Qian Zi."
   }
  ],
  "labos": [

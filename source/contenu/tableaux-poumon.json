@@ -158,7 +158,8 @@
     "sifflement",
     "langue-humide",
     "marques-dents",
-    "salive-abondante"
+    "salive-abondante",
+    "visage-bouffi"
    ],
    "contre": [
     "chaleur-corps",
@@ -685,6 +686,109 @@
     "Rhume avec fièvre"
    ],
    "diag": "du Vent-Chaleur attaque ton Poumon : c'est un début de rhume « chaud »"
+  },
+  {
+   "id": "p-vent-eau",
+   "organe": "poumon",
+   "nom": "Vent-Eau envahissant le Poumon",
+   "zh": "风水犯肺",
+   "py": "Fēng shuǐ fàn fèi",
+   "resume": "Un gonflement qui commence d'un coup par le visage et les paupières, puis gagne tout le corps, souvent après un rhume ou un mal de gorge : urines rares, frissons.",
+   "causes": [
+    "Vent-Froid ou Vent-Chaleur qui entre par la surface (rhume, angine)",
+    "Défenses affaiblies, Qi du Poumon fragile"
+   ],
+   "mecanisme": "Le Poumon est la « source haute de l'Eau » : il la diffuse et la fait descendre vers la Vessie. Quand le Vent le bloque, l'Eau ne descend plus et déborde vers la surface, en commençant par le haut du corps : visage, paupières, puis les membres.",
+   "cle": [
+    "oedeme-visage",
+    "paupieres-gonflees",
+    "urines-rares",
+    "aversion-froid"
+   ],
+   "autres": [
+    "oedeme",
+    "fievre",
+    "gorge-mal",
+    "toux-glaires-blanches",
+    "courbatures",
+    "articulations-lourdes",
+    "peu-soif",
+    "nez-bouche",
+    "eternuements",
+    "sueurs-spontanees"
+   ],
+   "contre": [
+    "oedeme-poteaux",
+    "diarrhee-matin",
+    "langue-rouge-sans-enduit"
+   ],
+   "langue": "Enduit fin et blanc (jaune si la Chaleur domine).",
+   "pouls": "Superficiel ; serré si Froid, rapide si Chaleur.",
+   "principe": {
+    "zh": "宣肺利水",
+    "py": "Xuān fèi lì shuǐ",
+    "fr": "Libérer le Poumon, faire circuler l'Eau"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Ouvre le Poumon et les voies de l'Eau, chasse le Vent : le point clé de l'œdème qui part du haut.",
+       "ess": 1
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Libère la surface et le visage.",
+       "ess": 1
+      },
+      {
+       "p": "GI 6",
+       "s": 60,
+       "pourquoi": "Point Luo : ouvre les voies de l'Eau du haut du corps."
+      },
+      {
+       "p": "V 13",
+       "s": 60,
+       "pourquoi": "Point Shu du dos du Poumon : relance la descente de l'Eau."
+      },
+      {
+       "p": "RM 9",
+       "s": 60,
+       "pourquoi": "« Partage des eaux » : aide à éliminer l'eau."
+      },
+      {
+       "p": "VG 26",
+       "s": 30,
+       "pourquoi": "Point classique du gonflement du visage."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-courge-cireuse-azuki",
+    "infusion-barbe-mais",
+    "soupe-cebette-dou-chi",
+    "congee-orge-azuki",
+    "courge-cireuse-vapeur",
+    "infusion-cong-bai"
+   ],
+   "privilegier": "Bouillons légers, cébette et gingembre au début (s'il y a des frissons), courge cireuse avec sa peau, haricots azuki, barbe de maïs, très peu de sel.",
+   "eviter": "Sel, plats salés et industriels, froid et cru, rester dans le vent ou le froid.",
+   "conseils": [
+    "Repose-toi et reste au chaud : ce tableau suit souvent un rhume ou une angine.",
+    "Un visage qui gonfle d'un coup, surtout après une angine, doit être vu par un médecin (analyse d'urine) : c'est parfois une atteinte des reins."
+   ],
+   "simple": "Gonflement soudain du visage et des paupières qui gagne le corps, souvent après un rhume.",
+   "reperes": [
+    "Œdème aigu",
+    "Gonflement après une angine",
+    "Néphrite aiguë (avec le médecin)"
+   ],
+   "diag": "du Vent bloque ton Poumon, qui ne fait plus descendre l'Eau : elle déborde par le haut du corps, d'où le visage qui gonfle"
   },
   {
    "id": "p-mucosites-humidite",

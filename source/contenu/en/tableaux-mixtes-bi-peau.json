@@ -408,7 +408,8 @@
     "diarrhee-matin",
     "frilosite",
     "aliments-non-digeres",
-    "genoux-faibles"
+    "genoux-faibles",
+    "oedeme-jambes"
    ],
    "autres": [
     "oedeme",
@@ -430,7 +431,13 @@
     "teint-pale",
     "libido",
     "mictions-nuit",
-    "douleur-pression-mieux"
+    "douleur-pression-mieux",
+    "oedeme-poteaux",
+    "urines-rares",
+    "visage-bouffi",
+    "appetit-faible",
+    "essoufflement",
+    "palpitations"
    ],
    "contre": [
     "chaleur-corps",
@@ -446,6 +453,17 @@
    },
    "moxa": "Moxa recommended.",
    "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Drains water downward: the point for swollen legs.",
+       "ess": 1
+      }
+     ]
+    },
     {
      "m": "t",
      "items": [
@@ -473,6 +491,11 @@
        "p": "V 23",
        "s": 90,
        "pourquoi": "Back-Shu point of the Kidney."
+      },
+      {
+       "p": "V 22",
+       "s": 90,
+       "pourquoi": "Back-Shu point of the Triple Burner: opens the water passages."
       }
      ]
     },
@@ -495,6 +518,12 @@
        "p": "E 36",
        "s": 240,
        "pourquoi": "Warms the Spleen."
+      },
+      {
+       "p": "RM 9",
+       "s": 120,
+       "pourquoi": "Moxa on the \"Water Separation\" point: helps the body clear water, reduces edema.",
+       "ess": 1
       }
      ]
     }
@@ -507,10 +536,13 @@
     "soupe-mouton-radis",
     "crevettes-ciboule-oeufs",
     "poulet-chataignes",
-    "rognons-agneau-muscade"
+    "rognons-agneau-muscade",
+    "soupe-poisson-azuki",
+    "congee-poria",
+    "infusion-barbe-mais"
    ],
-   "privilegier": "Slow-cooked dishes, ginger, cinnamon, leek, walnuts, lamb, rice, squash.",
-   "eviter": "Anything cold or raw, ice cream, sodas.",
+   "privilegier": "Slow-cooked dishes, ginger, cinnamon, leek, walnuts, lamb, rice, squash. For swelling: adzuki beans, carp, winter melon with its skin, corn silk, and very little salt.",
+   "eviter": "Anything cold or raw, ice cream, sodas, too much salt.",
    "conseils": [
     "Hot-water bottle on your belly and lower back in the evening."
    ],
@@ -559,7 +591,9 @@
     "teint-pale",
     "oedeme",
     "constipation-effort",
-    "marques-dents"
+    "marques-dents",
+    "oedeme-jambes",
+    "visage-bouffi"
    ],
    "contre": [
     "langue-rouge",

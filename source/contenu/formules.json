@@ -1562,7 +1562,10 @@
     "rt-sang",
     "gi-constipation-vide"
    ],
-   "ci": "Vide de Yin avec Chaleur ; hypertension, montée du Yang du Foie."
+   "ci": "Vide de Yin avec Chaleur ; hypertension, montée du Yang du Foie.",
+   "sym": [
+    "pesanteur"
+   ]
   },
   {
    "id": "c-tonic",
@@ -2713,9 +2716,14 @@
    "ind": "œdèmes des jambes ; transpiration facile ; corps lourd ; genoux gonflés sur terrain fatigué",
    "tab": [
     "bi-humidite",
-    "rt-vide-qi"
+    "rt-vide-qi",
+    "p-vent-eau"
    ],
-   "ci": "N'utiliser que Han Fang Ji (Stephania) : Guang Fang Ji (Aristoloche) est interdit."
+   "ci": "N'utiliser que Han Fang Ji (Stephania) : Guang Fang Ji (Aristoloche) est interdit.",
+   "sym": [
+    "oedeme-jambes",
+    "sueurs-spontanees"
+   ]
   },
   {
    "id": "formule-yang-eau",
@@ -3383,7 +3391,10 @@
     "mei-he-qi"
    ],
    "ci": "Thyroïde : algues riches en iode, ne pas prendre sans bilan thyroïdien ni avis médical ; grossesse.",
-   "note": "Contient Hai Zao et Gan Cao, une association déconseillée par les textes classiques mais traditionnelle dans cette formule."
+   "note": "Contient Hai Zao et Gan Cao, une association déconseillée par les textes classiques mais traditionnelle dans cette formule.",
+   "sym": [
+    "thyroide-gonflee"
+   ]
   },
   {
    "id": "huai-jiao-wan",
@@ -3762,6 +3773,80 @@
     "rn-vide-yang"
    ],
    "ci": "Constipation de Chaleur."
+  },
+  {
+   "id": "ji-sheng-shen-qi-wan",
+   "py": "Ji Sheng Shen Qi Wan",
+   "zh": "济生肾气丸",
+   "nom": "Pilules du Qi du Rein de Ji Sheng",
+   "cat": "yang",
+   "labs": [],
+   "compo": [
+    [
+     "Shu Di Huang",
+     "15 g",
+     "shu-di-huang"
+    ],
+    [
+     "Shan Yao",
+     "12 g",
+     "shan-yao"
+    ],
+    [
+     "Shan Zhu Yu",
+     "12 g",
+     "shan-zhu-yu"
+    ],
+    [
+     "Ze Xie",
+     "9 g",
+     "ze-xie"
+    ],
+    [
+     "Fu Ling",
+     "9 g",
+     "fu-ling"
+    ],
+    [
+     "Mu Dan Pi",
+     "9 g",
+     "mu-dan-pi"
+    ],
+    [
+     "Rou Gui",
+     "3 g",
+     "rou-gui"
+    ],
+    [
+     "Zhi Fu Zi",
+     "3 g",
+     "fu-zi"
+    ],
+    [
+     "Niu Xi",
+     "9 g",
+     "niu-xi"
+    ],
+    [
+     "Che Qian Zi",
+     "9 g",
+     "che-qian-zi"
+    ]
+   ],
+   "act": "Réchauffe le Yang du Rein, fait circuler l'Eau, réduit les œdèmes.",
+   "ind": "jambes très gonflées ; œdème du bas du corps ; urines rares ; lombes froides et douloureuses ; frilosité",
+   "tab": [
+    "rn-vide-yang",
+    "rate-rein-yang"
+   ],
+   "ci": "Grossesse (Niu Xi, Fu Zi) ; Vide de Yin avec Chaleur ; Fu Zi est toxique s'il n'est pas préparé ; tout œdème doit être exploré par un médecin.",
+   "note": "C'est Jin Gui Shen Qi Wan renforcé contre les œdèmes par Niu Xi et Che Qian Zi.",
+   "sym": [
+    "oedeme-jambes",
+    "oedeme-poteaux",
+    "urines-rares",
+    "oedeme"
+   ]
   },
   {
    "id": "jia-wei-bao-he-wan",
@@ -7454,6 +7539,88 @@
    "note": "Composition de Calebasse pour la dose du jour (version simplifiée de la formule chinoise)."
   },
   {
+   "id": "shi-pi-yin",
+   "py": "Shi Pi Yin",
+   "zh": "实脾饮",
+   "nom": "Boisson qui raffermit la Rate",
+   "cat": "humidite",
+   "labs": [],
+   "compo": [
+    [
+     "Zhi Fu Zi",
+     "6 g",
+     "fu-zi"
+    ],
+    [
+     "Gan Jiang",
+     "6 g",
+     "gan-jiang"
+    ],
+    [
+     "Fu Ling",
+     "9 g",
+     "fu-ling"
+    ],
+    [
+     "Bai Zhu",
+     "9 g",
+     "bai-zhu"
+    ],
+    [
+     "Mu Gua",
+     "6 g",
+     "mu-gua"
+    ],
+    [
+     "Hou Po",
+     "6 g",
+     "hou-po"
+    ],
+    [
+     "Mu Xiang",
+     "6 g",
+     "mu-xiang"
+    ],
+    [
+     "Da Fu Pi",
+     "6 g",
+     "da-fu-pi"
+    ],
+    [
+     "Cao Guo",
+     "6 g",
+     "cao-guo"
+    ],
+    [
+     "Zhi Gan Cao",
+     "3 g",
+     "gan-cao"
+    ],
+    [
+     "Sheng Jiang",
+     "3 g",
+     "sheng-jiang"
+    ],
+    [
+     "Da Zao",
+     "2 pièces",
+     "da-zao"
+    ]
+   ],
+   "act": "Réchauffe le Yang de la Rate et du Rein, fait circuler le Qi et l'Eau.",
+   "ind": "œdème surtout du bas du corps, plus marqué sous la taille ; ventre gonflé ; mains et pieds froids ; selles molles ; appétit faible ; pas soif",
+   "tab": [
+    "rate-rein-yang",
+    "rt-vide-yang"
+   ],
+   "ci": "Grossesse ; Chaleur, Vide de Yin ; Fu Zi est toxique s'il n'est pas préparé ; tout œdème doit être exploré par un médecin.",
+   "sym": [
+    "oedeme-jambes",
+    "oedeme-poteaux",
+    "oedeme"
+   ]
+  },
+  {
    "id": "shi-quan-da-bu-tang",
    "py": "Shi Quan Da Bu Tang",
    "zh": "十全大补汤",
@@ -7942,7 +8109,10 @@
     "rate-rein-yang",
     "rn-vide-yang"
    ],
-   "ci": "Diarrhée de Chaleur ou infectieuse."
+   "ci": "Diarrhée de Chaleur ou infectieuse.",
+   "sym": [
+    "diarrhee-matin"
+   ]
   },
   {
    "id": "si-wu-tang",
@@ -9135,7 +9305,11 @@
     "rate-rein-yang",
     "rt-froid-humidite"
    ],
-   "ci": "Vide de Yin ; tout œdème doit être exploré par un médecin."
+   "ci": "Vide de Yin ; tout œdème doit être exploré par un médecin.",
+   "sym": [
+    "urines-rares",
+    "oedeme"
+   ]
   },
   {
    "id": "wu-pi-yin",
@@ -9177,9 +9351,14 @@
    "ind": "gonflement du visage et des membres ; corps lourd ; ventre gonflé ; urines rares",
    "tab": [
     "rate-rein-yang",
-    "rt-froid-humidite"
+    "rt-froid-humidite",
+    "p-vent-eau"
    ],
-   "ci": "Œdèmes de Vide sévère ; tout œdème doit être vu par un médecin."
+   "ci": "Œdèmes de Vide sévère ; tout œdème doit être vu par un médecin.",
+   "sym": [
+    "oedeme-visage",
+    "oedeme"
+   ]
   },
   {
    "id": "wu-shi-cha",
@@ -10905,6 +11084,55 @@
    "ci": "Rhume en cours avec fièvre (on traite d'abord le rhume) ; sueurs nocturnes de Vide de Yin."
   },
   {
+   "id": "yue-bi-jia-zhu-tang",
+   "py": "Yue Bi Jia Zhu Tang",
+   "zh": "越婢加术汤",
+   "nom": "Décoction Yue Bi avec Atractylode",
+   "cat": "surface",
+   "labs": [],
+   "compo": [
+    [
+     "Ma Huang",
+     "9 g",
+     "ma-huang"
+    ],
+    [
+     "Shi Gao",
+     "18 g",
+     "shi-gao"
+    ],
+    [
+     "Sheng Jiang",
+     "9 g",
+     "sheng-jiang"
+    ],
+    [
+     "Bai Zhu",
+     "12 g",
+     "bai-zhu"
+    ],
+    [
+     "Gan Cao",
+     "6 g",
+     "gan-cao"
+    ],
+    [
+     "Da Zao",
+     "4 pièces",
+     "da-zao"
+    ]
+   ],
+   "act": "Libère le Poumon, chasse le Vent, fait circuler l'Eau, clarifie la Chaleur.",
+   "ind": "œdème qui commence d'un coup par le visage et les paupières, puis gagne tout le corps ; urines rares ; peur du vent ; fièvre ; mal de gorge",
+   "tab": [
+    "p-vent-eau"
+   ],
+   "ci": "Ma Huang (éphédra) : uniquement sur prescription, à éviter en cas d'hypertension, de trouble du rythme cardiaque, d'insomnie ou de grossesse ; tout gonflement soudain du visage doit être exploré par un médecin (analyse d'urine).",
+   "sym": [
+    "oedeme-visage"
+   ]
+  },
+  {
    "id": "yue-ju-wan",
    "py": "Yue Ju Wan",
    "zh": "越鞠丸",
@@ -11149,7 +11377,13 @@
     "rate-rein-yang",
     "rn-vide-yang"
    ],
-   "ci": "Grossesse ; Chaleur ; tout œdème doit être exploré par un médecin."
+   "ci": "Grossesse ; Chaleur ; tout œdème doit être exploré par un médecin.",
+   "sym": [
+    "oedeme-jambes",
+    "oedeme-poteaux",
+    "urines-rares",
+    "oedeme"
+   ]
   },
   {
    "id": "zhi-bai-di-huang-wan",
@@ -11969,6 +12203,7 @@
    "cong-rong-bu-shen",
    "ningxin-plus",
    "zpg",
+   "ji-sheng-shen-qi-wan",
    "ji-chuan-jian",
    "si-shen-wan",
    "zhen-wu-tang",
@@ -12037,7 +12272,8 @@
   "rt-vide-yang": [
    "li-zhong-wan",
    "xiao-jian-zhong-tang",
-   "ling-gui-zhu-gan-tang"
+   "ling-gui-zhu-gan-tang",
+   "shi-pi-yin"
   ],
   "e-vide-froid": [
    "huang-qi-jian-zhong-tang",
@@ -12175,9 +12411,11 @@
    "si-shen-wan",
    "wu-ling-san",
    "wu-pi-yin",
+   "shi-pi-yin",
    "jin-gui-shen-qi-wan",
    "qsl",
    "shi-quan-da-bu-tang",
+   "ji-sheng-shen-qi-wan",
    "you-gui-wan"
   ],
   "coeur-rate": [
@@ -12304,6 +12542,11 @@
    "du-huo-ji-sheng-tang",
    "si-miao-san",
    "shen-tong-zhu-yu-tang"
+  ],
+  "p-vent-eau": [
+   "yue-bi-jia-zhu-tang",
+   "wu-pi-yin",
+   "fang-ji-huang-qi-tang"
   ],
   "bi-chaleur": [
    "si-miao-san",

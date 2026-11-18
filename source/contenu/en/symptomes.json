@@ -121,6 +121,27 @@
    "syn": "water retention fluid retention swelling swollen legs swollen ankles puffy edema"
   },
   {
+   "id": "oedeme-jambes",
+   "cat": "general",
+   "nom": "Swelling that starts at the ankles and legs: a finger press leaves a dent",
+   "alerte": "See a doctor if the swelling is new, getting worse, affects only one leg (especially if hot and painful) or comes with breathlessness: the heart, kidneys, veins or a medication can be the cause.",
+   "syn": "leg edema swollen ankles swollen feet swollen legs in the evening pitting edema water retention yin edema"
+  },
+  {
+   "id": "oedeme-poteaux",
+   "cat": "general",
+   "nom": "Very swollen legs, heavy as posts; the swelling spreads to the belly or lower back",
+   "alerte": "Major swelling must be seen quickly by a doctor. Call emergency services if you are breathless at rest or have to sleep sitting up.",
+   "syn": "post-like legs very swollen legs severe edema lower body edema ascites belly swollen with fluid"
+  },
+  {
+   "id": "oedeme-visage",
+   "cat": "general",
+   "nom": "Swelling that starts suddenly in the face and eyelids, then spreads to the body",
+   "alerte": "A face that swells suddenly must be seen by a doctor the same day (allergy, kidneys, especially after a sore throat). Trouble breathing, swelling lips or tongue: call emergency services.",
+   "syn": "suddenly swollen face facial edema swelling that starts at the top swelling after a sore throat yang edema"
+  },
+  {
    "id": "poids-facile",
    "cat": "general",
    "nom": "Gaining weight easily",
@@ -144,6 +165,12 @@
    "cat": "general",
    "nom": "Pale or white complexion",
    "syn": "pale pallor white face pasty"
+  },
+  {
+   "id": "visage-bouffi",
+   "cat": "general",
+   "nom": "Pale, puffy face",
+   "syn": "puffy face pale swollen face pasty face"
   },
   {
    "id": "teint-jaune",
@@ -769,6 +796,13 @@
    "syn": "urine pee dark urine"
   },
   {
+   "id": "urines-rares",
+   "cat": "selles",
+   "nom": "Scanty urine, little urine even when drinking",
+   "alerte": "If you are barely urinating at all, see a doctor the same day.",
+   "syn": "little urine scanty urine oliguria hardly urinating fluid retention"
+  },
+  {
    "id": "mictions-frequentes",
    "cat": "selles",
    "nom": "Needing to urinate often",
@@ -804,7 +838,7 @@
   {
    "id": "pesanteur",
    "cat": "selles",
-   "nom": "Heaviness in the lower belly, feeling that an organ is dropping",
+   "nom": "Heaviness in the lower belly, dropping organ (prolapse)",
    "alerte": "A prolapse can be diagnosed and treated: see a doctor or a midwife.",
    "syn": "prolapse organ prolapse pelvic heaviness dropped bladder"
   },

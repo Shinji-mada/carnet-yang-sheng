@@ -1877,6 +1877,30 @@
    "ind": "chronic cough; breathlessness; sweating; thirst; seminal emissions; insomnia; palpitations",
    "ci": "An active cold, recent cough, Excess Heat; possible interactions with some drugs (liver).",
    "dose": "3–6 g"
+  },
+  {
+   "id": "cao-guo",
+   "nom": "Black cardamom (tsaoko)",
+   "act": "Dries Dampness, warms the Middle, stops nausea.",
+   "ind": "full, cold belly; nausea; thick white tongue coating; Cold-Damp edema; intermittent fevers",
+   "ci": "Yin deficiency, Blood deficiency, Heat.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "yu-mi-xu",
+   "nom": "Corn silk",
+   "act": "Promotes urination, reduces edema, helps bile flow, slightly lowers blood pressure.",
+   "ind": "edema; scanty urine; jaundice; stones; high blood pressure (as support); diabetes (as support)",
+   "ci": "With a diuretic, blood pressure or diabetes medication: ask your doctor.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "chi-xiao-dou",
+   "nom": "Adzuki bean",
+   "act": "Promotes urination, reduces edema, clears Heat and toxins, drains pus.",
+   "ind": "edema; distended belly; jaundice; boils, abscesses",
+   "ci": "Long use in a very thin or dry person (drying).",
+   "dose": "9–30 g"
   }
  ]
 }

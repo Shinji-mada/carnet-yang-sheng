@@ -125,6 +125,9 @@ def check(data):
             if r not in fiches: errs.append(f"tableau {t['id']} : recette inconnue {r}")
         for f in t.get("fiches", []):
             if f not in fiches: errs.append(f"tableau {t['id']} : fiche inconnue {f}")
+    for f in data.get("formules", []):
+        for s in f.get("sym", []):
+            if s not in sym: errs.append(f"formule {f['id']} : symptôme inconnu {s}")
     for f in data.get("fiches", []):
         for s in f.get("symptomes", []):
             if s not in sym: errs.append(f"fiche {f['id']} : symptôme inconnu {s}")

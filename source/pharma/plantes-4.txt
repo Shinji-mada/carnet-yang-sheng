@@ -252,3 +252,21 @@ n Schisandra (« fruit aux cinq saveurs ») || Schisandra ("five-flavor fruit")
 a Retient le Poumon et le Rein, génère les liquides, arrête la transpiration, retient l'Essence, calme le Shen. || Astringes the Lung and Kidney, generates fluids, stops sweating, secures Essence, calms the Shen.
 i toux chronique ; essoufflement ; sueurs ; soif ; pertes séminales ; insomnie ; palpitations || chronic cough; breathlessness; sweating; thirst; seminal emissions; insomnia; palpitations
 x Rhume en cours, toux récente, Chaleur de Plénitude ; interactions possibles avec certains médicaments (foie). || An active cold, recent cough, Excess Heat; possible interactions with some drugs (liver).
+
+@Cao Guo | 草果 | Tsaoko Fructus | aromatiques | tiede | piquante | Rt, E | 3–6 g
+n Cardamome noire (tsaoko) || Black cardamom (tsaoko)
+a Assèche l'Humidité, réchauffe le Centre, arrête les nausées. || Dries Dampness, warms the Middle, stops nausea.
+i ventre plein et froid ; nausées ; enduit de langue blanc et épais ; œdèmes de Froid-Humidité ; fièvres intermittentes || full, cold belly; nausea; thick white tongue coating; Cold-Damp edema; intermittent fevers
+x Vide de Yin, Vide de Sang, Chaleur. || Yin deficiency, Blood deficiency, Heat.
+
+@Yu Mi Xu | 玉米须 | Maydis Stigma | diuretiques | neutre | douce | V, F, VB | 15–30 g
+n Barbe de maïs || Corn silk
+a Fait uriner, réduit les œdèmes, aide la bile, abaisse un peu la tension. || Promotes urination, reduces edema, helps bile flow, slightly lowers blood pressure.
+i œdèmes ; urines rares ; jaunisse ; calculs ; hypertension (en accompagnement) ; diabète (en accompagnement) || edema; scanty urine; jaundice; stones; high blood pressure (as support); diabetes (as support)
+x Avec un diurétique, un traitement de la tension ou du diabète : demande l'avis de ton médecin. || With a diuretic, blood pressure or diabetes medication: ask your doctor.
+
+@Chi Xiao Dou | 赤小豆 | Vignae Semen | diuretiques | neutre | douce, acide | C, IG | 9–30 g
+n Haricot azuki || Adzuki bean
+a Fait uriner, réduit les œdèmes, clarifie la Chaleur et le poison, draine le pus. || Promotes urination, reduces edema, clears Heat and toxins, drains pus.
+i œdèmes ; ventre gonflé ; jaunisse ; furoncles, abcès || edema; distended belly; jaundice; boils, abscesses
+x Prise longue chez une personne très maigre ou sèche (assèche). || Long use in a very thin or dry person (drying).

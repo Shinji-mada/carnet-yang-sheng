@@ -121,6 +121,27 @@
    "syn": "rétention d'eau gonflement jambes gonflées chevilles"
   },
   {
+   "id": "oedeme-jambes",
+   "cat": "general",
+   "nom": "Œdème qui commence aux chevilles et aux jambes : le doigt laisse un creux",
+   "alerte": "Consulte un médecin si l'œdème est nouveau, s'aggrave, touche une seule jambe (surtout chaude et douloureuse) ou s'accompagne d'essoufflement : le cœur, les reins, les veines ou un médicament peuvent en être la cause.",
+   "syn": "œdème des jambes chevilles gonflées pieds gonflés jambes gonflées le soir godet rétention d'eau œdème yin"
+  },
+  {
+   "id": "oedeme-poteaux",
+   "cat": "general",
+   "nom": "Jambes très gonflées, lourdes comme des poteaux ; l'œdème gagne le ventre ou le bas du dos",
+   "alerte": "Un œdème important doit être vu rapidement par un médecin. Appelle le 15 si tu es essoufflé au repos ou si tu dois dormir assis.",
+   "syn": "jambes poteaux jambes énormes œdème important œdème du bas du corps gros œdème ascite ventre gonflé d'eau"
+  },
+  {
+   "id": "oedeme-visage",
+   "cat": "general",
+   "nom": "Gonflement qui commence d'un coup par le visage et les paupières, puis gagne le corps",
+   "alerte": "Un visage qui gonfle d'un coup doit être vu par un médecin le jour même (allergie, reins, surtout après une angine). Gêne pour respirer, lèvres ou langue qui gonflent : appelle le 15.",
+   "syn": "visage gonflé d'un coup œdème du visage œdème qui commence par le haut gonflement après une angine œdème yang"
+  },
+  {
    "id": "poids-facile",
    "cat": "general",
    "nom": "Prise de poids facile",
@@ -144,6 +165,12 @@
    "cat": "general",
    "nom": "Teint pâle ou blanc",
    "syn": "pâleur blanc"
+  },
+  {
+   "id": "visage-bouffi",
+   "cat": "general",
+   "nom": "Visage pâle et bouffi",
+   "syn": "visage bouffi visage gonflé et pâle teint blanc et bouffi visage empâté"
   },
   {
    "id": "teint-jaune",
@@ -769,6 +796,13 @@
    "syn": "urine pipi"
   },
   {
+   "id": "urines-rares",
+   "cat": "selles",
+   "nom": "Urines rares, peu abondantes, même en buvant",
+   "alerte": "Si tu n'urines presque plus, consulte le jour même.",
+   "syn": "peu d'urine urine peu oligurie on urine peu rétention d'eau"
+  },
+  {
    "id": "mictions-frequentes",
    "cat": "selles",
    "nom": "Envies d'uriner fréquentes",
@@ -804,7 +838,7 @@
   {
    "id": "pesanteur",
    "cat": "selles",
-   "nom": "Pesanteur dans le bas-ventre, sensation de descente d'organe",
+   "nom": "Pesanteur dans le bas-ventre, descente d'organe (prolapsus)",
    "alerte": "Une descente d'organe se diagnostique et se soigne : consulte un médecin ou une sage-femme.",
    "syn": "prolapsus descente d'organe"
   },

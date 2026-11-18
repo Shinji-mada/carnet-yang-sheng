@@ -158,7 +158,8 @@
     "sifflement",
     "langue-humide",
     "marques-dents",
-    "salive-abondante"
+    "salive-abondante",
+    "visage-bouffi"
    ],
    "contre": [
     "chaleur-corps",
@@ -685,6 +686,109 @@
     "Cold with fever"
    ],
    "diag": "Wind-Heat is attacking your Lung: this is the start of a 'hot' type of cold"
+  },
+  {
+   "id": "p-vent-eau",
+   "organe": "poumon",
+   "nom": "Wind-Water Invading the Lung",
+   "zh": "风水犯肺",
+   "py": "Fēng shuǐ fàn fèi",
+   "resume": "Swelling that starts suddenly in the face and eyelids, then spreads to the whole body, often after a cold or a sore throat: scanty urine, chills.",
+   "causes": [
+    "Wind-Cold or Wind-Heat entering through the surface (cold, sore throat)",
+    "Weakened defenses, fragile Lung Qi"
+   ],
+   "mecanisme": "The Lung is the \"upper source of Water\": it spreads it and sends it down to the Bladder. When Wind blocks it, Water no longer descends and overflows toward the surface, starting with the upper body: face, eyelids, then the limbs.",
+   "cle": [
+    "oedeme-visage",
+    "paupieres-gonflees",
+    "urines-rares",
+    "aversion-froid"
+   ],
+   "autres": [
+    "oedeme",
+    "fievre",
+    "gorge-mal",
+    "toux-glaires-blanches",
+    "courbatures",
+    "articulations-lourdes",
+    "peu-soif",
+    "nez-bouche",
+    "eternuements",
+    "sueurs-spontanees"
+   ],
+   "contre": [
+    "oedeme-poteaux",
+    "diarrhee-matin",
+    "langue-rouge-sans-enduit"
+   ],
+   "langue": "Thin white coating (yellow if Heat dominates).",
+   "pouls": "Floating; tight with Cold, rapid with Heat.",
+   "principe": {
+    "zh": "宣肺利水",
+    "py": "Xuān fèi lì shuǐ",
+    "fr": "Free the Lung, move Water"
+   },
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "P 7",
+       "s": 60,
+       "pourquoi": "Opens the Lung and the water passages, expels Wind: the key point for swelling that starts at the top.",
+       "ess": 1
+      },
+      {
+       "p": "GI 4",
+       "s": 60,
+       "pourquoi": "Releases the surface and the face.",
+       "ess": 1
+      },
+      {
+       "p": "GI 6",
+       "s": 60,
+       "pourquoi": "Luo point: opens the water passages of the upper body."
+      },
+      {
+       "p": "V 13",
+       "s": 60,
+       "pourquoi": "Back-Shu point of the Lung: restores the downward flow of water."
+      },
+      {
+       "p": "RM 9",
+       "s": 60,
+       "pourquoi": "\"Water Separation\": helps clear water."
+      },
+      {
+       "p": "VG 26",
+       "s": 30,
+       "pourquoi": "Classic point for facial swelling."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "soupe-courge-cireuse-azuki",
+    "infusion-barbe-mais",
+    "soupe-cebette-dou-chi",
+    "congee-orge-azuki",
+    "courge-cireuse-vapeur",
+    "infusion-cong-bai"
+   ],
+   "privilegier": "Light broths, scallion and ginger at the start (if there are chills), winter melon with its skin, adzuki beans, corn silk, very little salt.",
+   "eviter": "Salt, salty and processed food, cold and raw food, staying out in the wind or cold.",
+   "conseils": [
+    "Rest and keep warm: this pattern often follows a cold or a sore throat.",
+    "A face that swells suddenly, especially after a sore throat, must be seen by a doctor (urine test): it is sometimes a kidney problem."
+   ],
+   "simple": "Sudden swelling of the face and eyelids that spreads to the body, often after a cold.",
+   "reperes": [
+    "Acute edema",
+    "Swelling after a sore throat",
+    "Acute nephritis (with your doctor)"
+   ],
+   "diag": "Wind is blocking your Lung, which no longer sends Water down: it overflows through the upper body, which is why your face is swelling"
   },
   {
    "id": "p-mucosites-humidite",

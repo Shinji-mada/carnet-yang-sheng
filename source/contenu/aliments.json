@@ -2695,6 +2695,22 @@
    ]
   },
   {
+   "id": "barbe-mais",
+   "nom": "Barbe de maïs",
+   "cat": "asie",
+   "zh": "玉米须",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "tropisme": [
+    "V",
+    "F",
+    "VB"
+   ],
+   "note": "Les fils soyeux de l'épi de maïs, séchés : font uriner sans refroidir."
+  },
+  {
    "id": "cafe",
    "nom": "Café",
    "cat": "divers",

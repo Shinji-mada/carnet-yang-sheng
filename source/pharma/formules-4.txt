@@ -13,6 +13,7 @@ c Ze Xie : 15 g ; Fu Ling : 9 g ; Zhu Ling : 9 g ; Bai Zhu : 9 g ; Gui Zhi : 6 g
 a Fait circuler l'Eau, draine l'Humidité, renforce la Rate, réchauffe le Yang. || Promotes water metabolism, drains Dampness, strengthens the Spleen, warms Yang.
 i rétention d'eau ; œdèmes ; urines rares ; diarrhée aqueuse ; vertiges avec nausées ; soif mais vomit l'eau || water retention; edema; scanty urine; watery diarrhea; dizziness with nausea; thirst but vomits water
 t rate-rein-yang, rt-froid-humidite
+s urines-rares, oedeme
 x Vide de Yin ; tout œdème doit être exploré par un médecin. || Yin deficiency; any edema must be checked by a doctor.
 
 @ling-gui-zhu-gan-tang | Ling Gui Zhu Gan Tang | 苓桂术甘汤 | humidite | cal
@@ -28,7 +29,8 @@ n Boisson des cinq écorces || Five-Peel Drink
 c Sang Bai Pi : 9 g ; Chen Pi : 9 g ; Sheng Jiang Pi : 9 g ; Da Fu Pi : 9 g ; Fu Ling Pi : 9 g
 a Draine l'Humidité, fait circuler le Qi, réduit les œdèmes. || Drains Dampness, moves Qi, reduces edema.
 i gonflement du visage et des membres ; corps lourd ; ventre gonflé ; urines rares || swelling of the face and limbs; heavy body; distended belly; scanty urine
-t rate-rein-yang, rt-froid-humidite
+t rate-rein-yang, rt-froid-humidite, p-vent-eau
+s oedeme-visage, oedeme
 x Œdèmes de Vide sévère ; tout œdème doit être vu par un médecin. || Edema from severe deficiency; any edema must be seen by a doctor.
 
 @ba-zheng-san | Ba Zheng San | 八正散 | humidite | cal
@@ -172,7 +174,8 @@ n Décoction Stéphania et Astragale || Stephania and Astragalus Decoction
 c Han Fang Ji : 12 g ; Huang Qi : 15 g ; Bai Zhu : 9 g ; Gan Cao : 6 g ; Sheng Jiang : 3 g ; Da Zao : 2 pièces
 a Tonifie le Qi, consolide la surface, draine l'Eau, soulage les articulations. || Tonifies Qi, secures the exterior, drains Water, relieves the joints.
 i œdèmes des jambes ; transpiration facile ; corps lourd ; genoux gonflés sur terrain fatigué || leg edema; easy sweating; heavy body; swollen knees in a tired constitution
-t bi-humidite, rt-vide-qi
+t bi-humidite, rt-vide-qi, p-vent-eau
+s oedeme-jambes, sueurs-spontanees
 x N'utiliser que Han Fang Ji (Stephania) : Guang Fang Ji (Aristoloche) est interdit. || Use only Han Fang Ji (Stephania): Guang Fang Ji (Aristolochia) is banned.
 
 @jian-bu-wan | Jian Bu Wan | 健步丸 | humidite | cal, jz
@@ -312,6 +315,7 @@ c Hai Zao : 9 g ; Kun Bu : 9 g ; Hai Dai : 9 g ; Zhe Bei Mu : 9 g ; Chen Pi : 6 
 a Transforme les Mucosités, ramollit les masses, fait circuler le Qi et le Sang. || Transforms Phlegm, softens masses, moves Qi and Blood.
 i nodules du cou ; goitre ; ganglions durs indolores ; boule dans la gorge || neck nodules; goiter; hard painless lymph nodes; lump in the throat
 t mucosites-feu-ganglions, mei-he-qi
+s thyroide-gonflee
 x Thyroïde : algues riches en iode, ne pas prendre sans bilan thyroïdien ni avis médical ; grossesse. || Thyroid: seaweeds are rich in iodine, do not take without thyroid tests and medical advice; pregnancy.
 o Contient Hai Zao et Gan Cao, une association déconseillée par les textes classiques mais traditionnelle dans cette formule. || Contains Hai Zao with Gan Cao, a pairing the classics advise against but which is traditional in this formula.
 
@@ -538,3 +542,31 @@ i démangeaisons ; peau irritée ; urticaire légère || itching; irritated skin
 t peau-vent-chaleur, peau-vide-sang
 x Grossesse. || Pregnancy.
 o Composition JZ pour la dose du jour, différente de Xiao Feng San. || JZ composition for the daily dose, different from Xiao Feng San.
+
+@yue-bi-jia-zhu-tang | Yue Bi Jia Zhu Tang | 越婢加术汤 | surface |
+n Décoction Yue Bi avec Atractylode || Maidservant from Yue Decoction plus Atractylodes
+c Ma Huang : 9 g ; Shi Gao : 18 g ; Sheng Jiang : 9 g ; Bai Zhu : 12 g ; Gan Cao : 6 g ; Da Zao : 4 pièces
+a Libère le Poumon, chasse le Vent, fait circuler l'Eau, clarifie la Chaleur. || Releases the Lung, expels Wind, moves Water, clears Heat.
+i œdème qui commence d'un coup par le visage et les paupières, puis gagne tout le corps ; urines rares ; peur du vent ; fièvre ; mal de gorge || swelling that starts suddenly in the face and eyelids, then spreads to the whole body; scanty urine; aversion to wind; fever; sore throat
+t p-vent-eau
+s oedeme-visage
+x Ma Huang (éphédra) : uniquement sur prescription, à éviter en cas d'hypertension, de trouble du rythme cardiaque, d'insomnie ou de grossesse ; tout gonflement soudain du visage doit être exploré par un médecin (analyse d'urine). || Ma Huang (ephedra): by prescription only, avoid with high blood pressure, heart rhythm problems, insomnia or pregnancy; any sudden facial swelling must be checked by a doctor (urine test).
+
+@shi-pi-yin | Shi Pi Yin | 实脾饮 | humidite |
+n Boisson qui raffermit la Rate || Bolster the Spleen Drink
+c Zhi Fu Zi : 6 g ; Gan Jiang : 6 g ; Fu Ling : 9 g ; Bai Zhu : 9 g ; Mu Gua : 6 g ; Hou Po : 6 g ; Mu Xiang : 6 g ; Da Fu Pi : 6 g ; Cao Guo : 6 g ; Zhi Gan Cao : 3 g ; Sheng Jiang : 3 g ; Da Zao : 2 pièces
+a Réchauffe le Yang de la Rate et du Rein, fait circuler le Qi et l'Eau. || Warms Spleen and Kidney Yang, moves Qi and Water.
+i œdème surtout du bas du corps, plus marqué sous la taille ; ventre gonflé ; mains et pieds froids ; selles molles ; appétit faible ; pas soif || edema mainly of the lower body, worse below the waist; distended belly; cold hands and feet; loose stools; poor appetite; no thirst
+t rate-rein-yang, rt-vide-yang
+s oedeme-jambes, oedeme-poteaux, oedeme
+x Grossesse ; Chaleur, Vide de Yin ; Fu Zi est toxique s'il n'est pas préparé ; tout œdème doit être exploré par un médecin. || Pregnancy; Heat, Yin deficiency; Fu Zi is toxic unless processed; any edema must be checked by a doctor.
+
+@ji-sheng-shen-qi-wan | Ji Sheng Shen Qi Wan | 济生肾气丸 | yang |
+n Pilules du Qi du Rein de Ji Sheng || Kidney Qi Pill from Formulas to Aid the Living
+c Shu Di Huang : 15 g ; Shan Yao : 12 g ; Shan Zhu Yu : 12 g ; Ze Xie : 9 g ; Fu Ling : 9 g ; Mu Dan Pi : 9 g ; Rou Gui : 3 g ; Zhi Fu Zi : 3 g ; Niu Xi : 9 g ; Che Qian Zi : 9 g
+a Réchauffe le Yang du Rein, fait circuler l'Eau, réduit les œdèmes. || Warms Kidney Yang, moves Water, reduces edema.
+i jambes très gonflées ; œdème du bas du corps ; urines rares ; lombes froides et douloureuses ; frilosité || very swollen legs; lower-body edema; scanty urine; cold, aching lower back; feeling cold
+t rn-vide-yang, rate-rein-yang
+s oedeme-jambes, oedeme-poteaux, urines-rares, oedeme
+x Grossesse (Niu Xi, Fu Zi) ; Vide de Yin avec Chaleur ; Fu Zi est toxique s'il n'est pas préparé ; tout œdème doit être exploré par un médecin. || Pregnancy (Niu Xi, Fu Zi); Yin deficiency with Heat; Fu Zi is toxic unless processed; any edema must be checked by a doctor.
+o C'est Jin Gui Shen Qi Wan renforcé contre les œdèmes par Niu Xi et Che Qian Zi. || It is Jin Gui Shen Qi Wan strengthened against edema with Niu Xi and Che Qian Zi.

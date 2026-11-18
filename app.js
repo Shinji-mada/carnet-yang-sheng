@@ -1742,9 +1742,11 @@ ${fs.length?`<h3 class="at-h">${$t('Dans les formules')}</h3><div class="at-list
 <p class="fine">${$t(PHARMA_AVERT)}</p>`);
 }
 /* Formules conseillées pour une liste de tableaux (bilan) : 1 à 2 par tableau, 4 au plus, sans doublon */
-function bilanFormulesHTML(tabs){
+function bilanFormulesHTML(tabs,sel){
   const seen=new Set(),out=[];
-  tabs.forEach((t,i)=>{let k=0;arr(TAB_FML[t.id]).forEach(id=>{if(k>=(i?1:2)||out.length>=4||seen.has(id))return;seen.add(id);out.push([FML[id],t]);k++;});});
+  /* dans chaque tableau, les formules dont les signes (sym) sont cochés passent en tête, sinon l'ordre des manuels */
+  const on=new Set(sel||symSel),fit=id=>arr(FML[id]&&FML[id].sym).some(s=>on.has(s));
+  tabs.forEach((t,i)=>{let k=0;const l=arr(TAB_FML[t.id]);[...l.filter(fit),...l.filter(id=>!fit(id))].forEach(id=>{if(k>=(i?1:2)||out.length>=4||seen.has(id))return;seen.add(id);out.push([FML[id],t]);k++;});});
   if(!out.length)return'';
   return `<h2 class="sec">${$t('En pharmacopée chinoise')}</h2><p class="hint">${$t('Formules qui correspondent à tes tableaux. À valider avec un praticien avant de les prendre.')}</p><div class="at-list fm-list fm-card">${out.map(([f,t])=>fmlRow(f,$t('pour « {t} »',{t:t.nom}))).join('')}</div>`;
 }
@@ -1821,7 +1823,7 @@ function renderBilanEnr(b){
   if(e._items.length)h+=`<h2 class="sec">${$t('Ta séance de points')}</h2><p class="hint">${$t('Une séance par jour, jusqu\'à ce que les signes s\'apaisent. Refais un bilan si tes symptômes changent.')}</p><div class="fiche bilan-proto">${protoHTML(e)}</div>`;
   const recs=arr(b.recs).map(fiche).filter(Boolean);
   if(recs.length)h+=`<h2 class="sec">${$t('Dans ton assiette')}</h2><div class="entries">${recs.map(x=>cardF(x)).join('')}</div>`;
-  h+=bilanFormulesHTML(tabs.map(o=>o.t));
+  h+=bilanFormulesHTML(tabs.map(o=>o.t),sel);
   const pt=tabs[0]&&tabs[0].t,cons=[];tabs.forEach(o=>arr(o.t.conseils).slice(0,2).forEach(c=>{if(!cons.includes(c))cons.push(c);}));
   if(pt&&(pt.privilegier||pt.eviter||cons.length))h+=`<h2 class="sec">${$t('Au quotidien')}</h2>${pt.privilegier||pt.eviter?`<div class="dual">${pt.privilegier?`<div class="card good"><h3>${$t('À privilégier')}</h3><p>${esc(pt.privilegier)}</p></div>`:''}${pt.eviter?`<div class="card bad"><h3>${$t('À éviter')}</h3><p>${esc(pt.eviter)}</p></div>`:''}</div>`:''}${cons.length?`<ul class="bullets">${cons.slice(0,6).map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}`;
   h+=`<div class="bl-acts"><button type="button" class="ghost" data-act2="brename:${esc(b.id)}">${$t('Renommer ce bilan')}</button><button type="button" class="ghost" data-bredo="${esc(b.id)}">${$t('Refaire un bilan avec ces symptômes')}</button><button type="button" class="ghost danger" data-bdel="${esc(b.id)}">${$t('Supprimer ce bilan')}</button></div>

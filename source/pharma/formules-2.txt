@@ -96,6 +96,7 @@ c Huang Qi : 18 g ; Ren Shen : 9 g ; Bai Zhu : 9 g ; Zhi Gan Cao : 6 g ; Dang Gu
 a Tonifie le Qi du Centre, fait remonter le Yang qui s'effondre. || Tonifies Middle Qi, lifts sinking Yang.
 i grande fatigue ; descente d'organes (prolapsus) ; hémorroïdes ; diarrhée chronique ; règles trop longues ; petite fièvre de fatigue ; transpiration spontanée || great fatigue; organ prolapse; hemorrhoids; chronic diarrhea; overly long periods; low-grade fever from exhaustion; spontaneous sweating
 t rt-effondrement, rt-vide-qi, rt-sang, gi-constipation-vide
+s pesanteur
 x Vide de Yin avec Chaleur ; hypertension, montée du Yang du Foie. || Yin deficiency with Heat; hypertension, rising Liver Yang.
 
 @sheng-mai-yin | Sheng Mai Yin | 生脉饮 | qi-tonif | cal
@@ -459,6 +460,7 @@ c Zhi Fu Zi : 9 g ; Fu Ling : 9 g ; Bai Zhu : 6 g ; Bai Shao : 9 g ; Sheng Jiang
 a Réchauffe le Yang du Rein et de la Rate, fait circuler l'Eau. || Warms Kidney and Spleen Yang, moves Water.
 i œdèmes, surtout des jambes ; urines rares ; frilosité ; vertiges ; palpitations ; diarrhée claire || edema, mostly of the legs; scanty urine; feeling cold; dizziness; palpitations; watery diarrhea
 t rate-rein-yang, rn-vide-yang
+s oedeme-jambes, oedeme-poteaux, urines-rares, oedeme
 x Grossesse ; Chaleur ; tout œdème doit être exploré par un médecin. || Pregnancy; Heat; any edema must be checked by a doctor.
 
 @er-xian-tang | Er Xian Tang | 二仙汤 | yang |

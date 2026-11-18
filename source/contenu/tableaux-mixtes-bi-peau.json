@@ -408,7 +408,8 @@
     "diarrhee-matin",
     "frilosite",
     "aliments-non-digeres",
-    "genoux-faibles"
+    "genoux-faibles",
+    "oedeme-jambes"
    ],
    "autres": [
     "oedeme",
@@ -430,7 +431,13 @@
     "teint-pale",
     "libido",
     "mictions-nuit",
-    "douleur-pression-mieux"
+    "douleur-pression-mieux",
+    "oedeme-poteaux",
+    "urines-rares",
+    "visage-bouffi",
+    "appetit-faible",
+    "essoufflement",
+    "palpitations"
    ],
    "contre": [
     "chaleur-corps",
@@ -446,6 +453,17 @@
    },
    "moxa": "Moxa conseillé.",
    "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "Rt 9",
+       "s": 60,
+       "pourquoi": "Draine l'eau vers le bas : le point des jambes gonflées.",
+       "ess": 1
+      }
+     ]
+    },
     {
      "m": "t",
      "items": [
@@ -473,6 +491,11 @@
        "p": "V 23",
        "s": 90,
        "pourquoi": "Point Shu du dos du Rein."
+      },
+      {
+       "p": "V 22",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Triple Réchauffeur : ouvre les voies de l'eau."
       }
      ]
     },
@@ -495,6 +518,12 @@
        "p": "E 36",
        "s": 240,
        "pourquoi": "Réchauffe la Rate."
+      },
+      {
+       "p": "RM 9",
+       "s": 120,
+       "pourquoi": "Moxa sur le « Partage des eaux » : aide le corps à évacuer l'eau, réduit les œdèmes.",
+       "ess": 1
       }
      ]
     }
@@ -507,10 +536,13 @@
     "soupe-mouton-radis",
     "crevettes-ciboule-oeufs",
     "poulet-chataignes",
-    "rognons-agneau-muscade"
+    "rognons-agneau-muscade",
+    "soupe-poisson-azuki",
+    "congee-poria",
+    "infusion-barbe-mais"
    ],
-   "privilegier": "Plats mijotés, gingembre, cannelle, poireau, noix, agneau, riz, courge.",
-   "eviter": "Tout ce qui est froid ou cru, glaces, sodas.",
+   "privilegier": "Plats mijotés, gingembre, cannelle, poireau, noix, agneau, riz, courge. Contre les œdèmes : haricots azuki, carpe, courge cireuse avec sa peau, barbe de maïs, et très peu de sel.",
+   "eviter": "Tout ce qui est froid ou cru, glaces, sodas, sel en excès.",
    "conseils": [
     "Bouillotte sur le ventre et le bas du dos le soir."
    ],
@@ -559,7 +591,9 @@
     "teint-pale",
     "oedeme",
     "constipation-effort",
-    "marques-dents"
+    "marques-dents",
+    "oedeme-jambes",
+    "visage-bouffi"
    ],
    "contre": [
     "langue-rouge",

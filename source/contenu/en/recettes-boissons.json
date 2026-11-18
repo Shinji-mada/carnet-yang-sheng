@@ -1518,6 +1518,95 @@
     "barley",
     "caffeine-free"
    ]
+  },
+  {
+   "id": "infusion-barbe-mais",
+   "type": "recette",
+   "date": "2026-11-18",
+   "ordre": 416,
+   "genre": "chaud",
+   "axe": "humidite",
+   "titre": "Corn silk tea",
+   "zh": "玉米须茶",
+   "py": "yùmǐxū chá",
+   "contexte": "Corn silk (the silky threads under the husk of the cob) is a gentle, neutral Chinese medicine remedy that promotes urination: swelling, scanty urine, water retention. It doesn't cool the body and suits almost every constitution.",
+   "principe": {
+    "zh": "利水消肿",
+    "py": "Lì shuǐ xiāo zhǒng",
+    "fr": "Move water, reduce swelling"
+   },
+   "precautions": "Swelling should always be checked by a doctor. If you take a diuretic or medication for blood pressure or diabetes, ask your doctor first.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "barbe",
+     "q": 15,
+     "u": "g",
+     "nom": "dried corn silk (or the silk from 2 fresh cobs)",
+     "cle": "barbe-mais",
+     "note": "From an herbalist or an Asian grocery store (\"corn silk\"). In summer, save the silk from fresh corn and dry it."
+    },
+    {
+     "id": "mandarine",
+     "q": 3,
+     "u": "g",
+     "nom": "dried tangerine peel (optional)",
+     "cle": "mandarine"
+    },
+    {
+     "id": "eau",
+     "q": 750,
+     "u": "ml",
+     "nom": "water",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "In a pot",
+     "etapes": [
+      {
+       "titre": "Rinse",
+       "texte": "Rinse the corn silk ({barbe}) in cold water."
+      },
+      {
+       "titre": "Simmer",
+       "texte": "Put it in the cold water ({eau}) with the peel ({mandarine}), bring to a boil, then let it simmer, covered.",
+       "s": 900
+      },
+      {
+       "titre": "Serve",
+       "texte": "Strain and drink warm during the day, preferably before 5 p.m. so you don't have to get up at night."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "In a teapot",
+     "etapes": [
+      {
+       "titre": "Steep",
+       "texte": "Put the silk ({barbe}) and peel ({mandarine}) in a teapot, pour over the boiling water ({eau}) and cover.",
+       "s": 600
+      },
+      {
+       "titre": "Serve",
+       "texte": "Strain and drink warm. You can top up once more with hot water on the same silk."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Best as a course of a few weeks, while eating less salt."
+   ],
+   "tags": [
+    "swelling",
+    "Dampness",
+    "urine",
+    "caffeine-free"
+   ]
   }
  ]
 }

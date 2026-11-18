@@ -1518,6 +1518,95 @@
     "orge",
     "sans théine"
    ]
+  },
+  {
+   "id": "infusion-barbe-mais",
+   "type": "recette",
+   "date": "2026-11-18",
+   "ordre": 416,
+   "genre": "chaud",
+   "axe": "humidite",
+   "titre": "Infusion de barbe de maïs",
+   "zh": "玉米须茶",
+   "py": "yùmǐxū chá",
+   "contexte": "La barbe de maïs (les fils soyeux sous les feuilles de l'épi) est un remède doux et neutre de la médecine chinoise pour faire uriner : gonflements, urines rares, rétention d'eau. Elle ne refroidit pas et convient à presque tous les terrains.",
+   "principe": {
+    "zh": "利水消肿",
+    "py": "Lì shuǐ xiāo zhǒng",
+    "fr": "Faire circuler l'eau, réduire les œdèmes"
+   },
+   "precautions": "Des œdèmes doivent toujours être vus par un médecin. Si tu prends un diurétique, un traitement pour la tension ou le diabète, demande d'abord l'avis de ton médecin.",
+   "portions": 2,
+   "duree": "20 min",
+   "ingredients": [
+    {
+     "id": "barbe",
+     "q": 15,
+     "u": "g",
+     "nom": "barbe de maïs séchée (ou celle de 2 épis frais)",
+     "cle": "barbe-mais",
+     "note": "En herboristerie ou en épicerie asiatique (« corn silk »). En été, garde celle des épis frais et fais-la sécher."
+    },
+    {
+     "id": "mandarine",
+     "q": 3,
+     "u": "g",
+     "nom": "écorce de mandarine séchée (facultatif)",
+     "cle": "mandarine"
+    },
+    {
+     "id": "eau",
+     "q": 750,
+     "u": "ml",
+     "nom": "eau",
+     "base": true
+    }
+   ],
+   "variantes": [
+    {
+     "id": "casserole",
+     "nom": "À la casserole",
+     "etapes": [
+      {
+       "titre": "Rincer",
+       "texte": "Rince la barbe de maïs ({barbe}) à l'eau froide."
+      },
+      {
+       "titre": "Mijoter",
+       "texte": "Mets-la dans l'eau froide ({eau}) avec l'écorce ({mandarine}), porte à ébullition puis laisse frémir à couvert.",
+       "s": 900
+      },
+      {
+       "titre": "Servir",
+       "texte": "Filtre et bois tiède dans la journée, plutôt avant 17 h pour ne pas te lever la nuit."
+      }
+     ]
+    },
+    {
+     "id": "theiere",
+     "nom": "En théière",
+     "etapes": [
+      {
+       "titre": "Infuser",
+       "texte": "Mets la barbe ({barbe}) et l'écorce ({mandarine}) dans une théière, verse l'eau bouillante ({eau}) et couvre.",
+       "s": 600
+      },
+      {
+       "titre": "Servir",
+       "texte": "Filtre et bois tiède. Tu peux remettre une fois de l'eau chaude sur la même barbe."
+      }
+     ]
+    }
+   ],
+   "notes": [
+    "Plutôt en cure de quelques semaines, en mangeant moins salé."
+   ],
+   "tags": [
+    "œdèmes",
+    "Humidité",
+    "urines",
+    "sans théine"
+   ]
   }
  ]
 }

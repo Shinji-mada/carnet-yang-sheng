@@ -48,7 +48,13 @@
     "levres-ongles-violaces",
     "urines-troubles",
     "gouttes-apres-uriner",
-    "sciatique"
+    "sciatique",
+    "oedeme-jambes",
+    "oedeme-poteaux",
+    "urines-rares",
+    "visage-bouffi",
+    "palpitations",
+    "essoufflement"
    ],
    "contre": [
     "chaleur-corps",
@@ -83,7 +89,7 @@
       {
        "p": "Rn 7",
        "s": 90,
-       "pourquoi": "Tonifie le Rein."
+       "pourquoi": "Tonifie le Rein et régule l'eau (œdèmes, transpiration)."
       },
       {
        "p": "V 52",
@@ -94,6 +100,11 @@
        "p": "E 36",
        "s": 120,
        "pourquoi": "Tonifie le Qi de tout le corps."
+      },
+      {
+       "p": "V 22",
+       "s": 90,
+       "pourquoi": "Point Shu du dos du Triple Réchauffeur : ouvre les voies de l'eau."
       }
      ]
     },
@@ -111,6 +122,12 @@
        "s": 300,
        "pourquoi": "Réchauffe le Rein et le bas-ventre.",
        "ess": 1
+      },
+      {
+       "p": "RM 9",
+       "s": 120,
+       "pourquoi": "Moxa sur le « Partage des eaux » : aide le corps à évacuer l'eau, réduit les œdèmes.",
+       "ess": 1
       }
      ]
     }
@@ -127,10 +144,12 @@
     "agneau-fenouil",
     "congee-ciboule-chinoise",
     "rognons-agneau-muscade",
-    "foie-agneau-ciboule"
+    "foie-agneau-ciboule",
+    "soupe-poisson-azuki",
+    "infusion-barbe-mais"
    ],
-   "privilegier": "Noix, agneau, crevettes, poireau, cannelle, gingembre, haricots noirs, châtaignes, plats mijotés.",
-   "eviter": "Froid et cru, boissons glacées, surmenage, veiller, s'asseoir sur un sol froid.",
+   "privilegier": "Noix, agneau, crevettes, poireau, cannelle, gingembre, haricots noirs, châtaignes, plats mijotés. Contre les œdèmes : haricots azuki, carpe, courge cireuse avec sa peau, barbe de maïs, et très peu de sel.",
+   "eviter": "Froid et cru, boissons glacées, surmenage, veiller, s'asseoir sur un sol froid, sel en excès.",
    "conseils": [
     "Frotte le bas de ton dos avec les paumes chaque soir jusqu'à ce qu'il chauffe.",
     "Garde les reins et les pieds au chaud."
@@ -449,7 +468,8 @@
     "fuites-urinaires",
     "urines-claires",
     "oedeme",
-    "langue-pale"
+    "langue-pale",
+    "oedeme-jambes"
    ],
    "contre": [
     "toux-glaires-jaunes",
