@@ -829,3 +829,39 @@ details.at-m>summary>span:first-child{flex:none}
 .fig-nom{margin-top:6px}
 .at-ind{margin:2px 0 6px;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
 .at-ind li{font-size:14px;line-height:1.3;padding:5px 10px;border-radius:999px;background:var(--sunk)}
+/* Savoir : formules et pharmacopée */
+.segs{margin:14px 0 4px}
+.pharma-avert{margin:10px 0 0;padding:10px 12px;border-radius:12px;background:var(--och-bg);color:var(--ink);font-size:13.5px;line-height:1.45}
+.fm-row{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px 10px;width:100%;min-height:52px;padding:9px 8px;border:0;border-top:1px solid var(--line);background:none;color:var(--ink);text-align:left;font:inherit;cursor:pointer}
+.fm-list>.fm-row:first-child{border-top:0}
+.fm-row:active{background:var(--sunk)}
+.fm-nm{display:flex;flex-direction:column;min-width:0}
+.fm-nm b{font-size:15.5px}
+.fm-nm small{font-size:13px;color:var(--muted);line-height:1.3}
+.fm-nm .fm-for{color:var(--jade);font-weight:700}
+.fm-labs{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:4px;align-items:center}
+.fm-labs.big{margin:0 0 10px}
+.lab{font-size:11.5px;font-weight:700;padding:1px 8px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:var(--surface)}
+.lab-cal{color:#8A5A10;border-color:#E3C48C;background:#FBF3E4}.lab-pv{color:#256650;border-color:#9FD0BC;background:#E8F5EF}.lab-jz{color:#7A3A8C;border-color:#D3B5DD;background:#F6EEF9}
+#fmlist>.fm-list,#pllist>.fm-list,.fm-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:0 8px}
+.pl-cat{font-size:12px;color:var(--muted)}
+.pl-sel{display:flex;align-items:center;gap:10px;margin:12px 0 0;font-size:14px;font-weight:700}
+.pl-sel select{flex:1;min-width:0;font:inherit;font-weight:400;padding:8px 10px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+.az{display:flex;flex-wrap:wrap;gap:4px;margin:14px 0 0}
+.az button{min-width:34px;min-height:34px;border-radius:9px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-weight:700;cursor:pointer}
+.az-h{margin:22px 0 8px;font-family:var(--serif);font-size:22px;color:var(--cin);scroll-margin-top:10px}
+.fm-compo{list-style:none;margin:0;padding:0;border:1px solid var(--line);border-radius:12px}
+.fm-compo li{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 10px;border-top:1px solid var(--line)}
+.fm-compo li:first-child{border-top:0}
+.fm-pl{display:flex;flex-direction:column;align-items:flex-start;min-width:0;border:0;background:none;padding:2px 0;text-align:left;font:inherit;color:var(--ink)}
+button.fm-pl{cursor:pointer}
+button.fm-pl b{color:var(--jade);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.fm-pl small{font-size:12.5px;color:var(--muted)}
+.fm-dose{flex:none;font-weight:700;font-size:14px;white-space:nowrap}
+.fm-note{font-size:14px;color:var(--muted)}
+.at-cats1{display:inline-block;margin:0 0 4px;font-size:13.5px;font-weight:700;padding:5px 10px;border-radius:10px;background:var(--jade-bg);color:var(--jade)}
+.pl-lat{margin:0 0 8px;color:var(--muted);font-size:14px}
+.pl-props{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin:0 0 10px}
+.pl-props .mer{font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--sunk)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .lab-cal{color:#E3AA56;border-color:#5A4320;background:#2A2113}:root:not([data-theme="light"]) .lab-pv{color:#74C8A7;border-color:#2A5A47;background:#16332A}:root:not([data-theme="light"]) .lab-jz{color:#D7A6E6;border-color:#5A3966;background:#2A1C30}}
+:root[data-theme="dark"] .lab-cal{color:#E3AA56;border-color:#5A4320;background:#2A2113}:root[data-theme="dark"] .lab-pv{color:#74C8A7;border-color:#2A5A47;background:#16332A}:root[data-theme="dark"] .lab-jz{color:#D7A6E6;border-color:#5A3966;background:#2A1C30}

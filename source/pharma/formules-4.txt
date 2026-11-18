@@ -1,0 +1,540 @@
+# Drainent l'Humidité
+@ping-wei-san | Ping Wei San | 平胃散 | humidite | cal
+n Poudre qui apaise l'Estomac || Calm the Stomach Powder
+c Cang Zhu : 15 g ; Hou Po : 9 g ; Chen Pi : 9 g ; Zhi Gan Cao : 4 g ; Sheng Jiang : 3 g ; Da Zao : 2 pièces
+a Assèche l'Humidité, renforce la Rate, fait circuler le Qi, harmonise l'Estomac. || Dries Dampness, strengthens the Spleen, moves Qi, harmonizes the Stomach.
+i ventre gonflé et lourd ; pas d'appétit ; bouche pâteuse ; nausées ; selles molles ; enduit blanc, épais et gras || full, heavy belly; no appetite; sticky mouth; nausea; loose stools; thick, white, greasy coating
+t rt-froid-humidite, e-stagnation-alimentaire
+x Vide de Yin, sécheresse ; grossesse sans avis. || Yin deficiency, dryness; pregnancy without advice.
+
+@wu-ling-san | Wu Ling San | 五苓散 | humidite | cal
+n Poudre des cinq ingrédients avec Poria || Five-Ingredient Powder with Poria
+c Ze Xie : 15 g ; Fu Ling : 9 g ; Zhu Ling : 9 g ; Bai Zhu : 9 g ; Gui Zhi : 6 g
+a Fait circuler l'Eau, draine l'Humidité, renforce la Rate, réchauffe le Yang. || Promotes water metabolism, drains Dampness, strengthens the Spleen, warms Yang.
+i rétention d'eau ; œdèmes ; urines rares ; diarrhée aqueuse ; vertiges avec nausées ; soif mais vomit l'eau || water retention; edema; scanty urine; watery diarrhea; dizziness with nausea; thirst but vomits water
+t rate-rein-yang, rt-froid-humidite
+x Vide de Yin ; tout œdème doit être exploré par un médecin. || Yin deficiency; any edema must be checked by a doctor.
+
+@ling-gui-zhu-gan-tang | Ling Gui Zhu Gan Tang | 苓桂术甘汤 | humidite | cal
+n Décoction Poria, Cannelle, Atractylode et Réglisse || Poria, Cinnamon Twig, Atractylodes and Licorice Decoction
+c Fu Ling : 12 g ; Gui Zhi : 9 g ; Bai Zhu : 6 g ; Zhi Gan Cao : 6 g
+a Réchauffe le Yang de la Rate, transforme les Mucosités claires. || Warms Spleen Yang, transforms thin Phlegm.
+i vertiges en se levant ; palpitations ; oppression ; glaires claires ; clapotis de l'estomac || dizziness on standing; palpitations; chest oppression; clear phlegm; splashing sound in the stomach
+t rt-vide-yang, p-vide-yang, p-mucosites-humidite
+x Vide de Yin, Chaleur. || Yin deficiency, Heat.
+
+@wu-pi-yin | Wu Pi Yin | 五皮饮 | humidite | cal
+n Boisson des cinq écorces || Five-Peel Drink
+c Sang Bai Pi : 9 g ; Chen Pi : 9 g ; Sheng Jiang Pi : 9 g ; Da Fu Pi : 9 g ; Fu Ling Pi : 9 g
+a Draine l'Humidité, fait circuler le Qi, réduit les œdèmes. || Drains Dampness, moves Qi, reduces edema.
+i gonflement du visage et des membres ; corps lourd ; ventre gonflé ; urines rares || swelling of the face and limbs; heavy body; distended belly; scanty urine
+t rate-rein-yang, rt-froid-humidite
+x Œdèmes de Vide sévère ; tout œdème doit être vu par un médecin. || Edema from severe deficiency; any edema must be seen by a doctor.
+
+@ba-zheng-san | Ba Zheng San | 八正散 | humidite | cal
+n Poudre des huit rectificateurs || Eight-Herb Powder for Rectification
+c Che Qian Zi : 9 g ; Qu Mai : 9 g ; Bian Xu : 9 g ; Hua Shi : 15 g ; Zhi Zi : 9 g ; Zhi Gan Cao : 6 g ; Tong Cao : 6 g ; Da Huang : 6 g
+a Clarifie l'Humidité-Chaleur de la Vessie, fait uriner, calme la brûlure. || Clears Damp-Heat from the Bladder, promotes urination, eases burning.
+i brûlures en urinant ; envies fréquentes et pressantes ; urines foncées ou troubles ; bas-ventre tendu || burning urination; frequent, urgent need to urinate; dark or cloudy urine; tight lower belly
+t v-humidite-chaleur
+x Grossesse ; digestion faible ; cure courte ; fièvre ou douleur des lombes : consulter (infection rénale). || Pregnancy; weak digestion; short course; fever or flank pain: see a doctor (kidney infection).
+o Mu Tong remplacé par Tong Cao (Aristoloches interdites). || Mu Tong replaced by Tong Cao (Aristolochia banned).
+
+@tong-lin-san | Tong Lin San | 通淋散 | humidite | cal
+n Poudre qui débloque les urines douloureuses || Unblock Painful Urination Powder
+c Qu Mai : 510 mg ; Bian Xu : 510 mg ; Yu Xing Cao : 510 mg ; Pu Gong Ying : 510 mg ; Zhi Ke : 330 mg ; Huang Qin : 330 mg ; Che Qian Cao : 290 mg
+a Clarifie l'Humidité-Chaleur du bas, rafraîchit les voies urinaires. || Clears Damp-Heat from the lower body, cools the urinary tract.
+i brûlures urinaires ; envies fréquentes ; urines foncées || burning urination; frequent urge; dark urine
+t v-humidite-chaleur
+x Grossesse ; digestion froide ; fièvre ou douleur des lombes : consulter. || Pregnancy; cold digestion; fever or flank pain: see a doctor.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@san-jin-li-niao | San Jin Li Niao Tang | 三金利尿汤 | humidite | cal
+n Décoction des trois ors qui font uriner || Three Golds Diuretic Decoction
+c Jin Qian Cao : 565 mg ; Hu Zhang : 565 mg ; Qu Mai : 304 mg ; Che Qian Cao : 304 mg ; Niu Xi : 304 mg ; Huang Bai : 217 mg ; Huang Qin : 217 mg ; Bai Shao : 174 mg ; Zhi Ke : 174 mg ; Wu Yao : 174 mg
+a Clarifie la Chaleur toxique et l'Humidité du bas, aide à uriner. || Clears toxic Heat and Dampness below, eases urination.
+i inconfort urinaire avec brûlure ; urines troubles ; petits graviers (accompagnement) || urinary discomfort with burning; cloudy urine; small stones (support)
+t v-humidite-chaleur
+x Grossesse ; douleur de colique néphrétique ou fièvre : consulter. || Pregnancy; renal colic or fever: see a doctor.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@qian-lie-xian-wan | Qian Lie Xian Wan | 前列腺丸 | humidite | cal
+n Pilules de la prostate (version Calebasse) || Prostate Pills (Calebasse version)
+c Bai Shao : 750 mg ; Mu Dan Pi : 750 mg ; Huang Qi : 750 mg ; Gan Cao : 750 mg
+a Tonifie le Qi, rafraîchit et fait circuler le Sang du bas. || Tonifies Qi, cools and moves Blood below.
+i jet faible ; envies fréquentes la nuit ; gêne du bas-ventre chez l'homme || weak stream; frequent night urination; lower belly discomfort in men
+t rn-qi-non-ferme, v-humidite-chaleur
+x Rétention d'urine, sang dans les urines : consulter un urologue. || Urinary retention, blood in the urine: see a urologist.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@si-miao-san | Si Miao San | 四妙散 | humidite | cal, jz
+n Poudre des quatre merveilles || Four-Marvel Powder
+c Huang Bai : 12 g ; Cang Zhu : 12 g ; Niu Xi : 12 g ; Yi Yi Ren : 24 g
+a Clarifie l'Humidité-Chaleur du bas, soulage les articulations des jambes. || Clears Damp-Heat below, relieves the joints of the legs.
+i genoux ou chevilles gonflés et chauds ; jambes lourdes ; goutte ; eczéma suintant des jambes ; pertes jaunes || swollen, hot knees or ankles; heavy legs; gout; weeping eczema of the legs; yellow discharge
+t bi-chaleur, bi-humidite, f-humidite-bas
+x Grossesse (Niu Xi) ; Vide de Yin. || Pregnancy (Niu Xi); Yin deficiency.
+o JZ (Si Miao Tang) remplace Cang Zhu par Shan Yao. || JZ (Si Miao Tang) replaces Cang Zhu with Shan Yao.
+
+@bi-xie-shen-shi-tang | Bi Xie Shen Shi Tang | 萆薢渗湿汤 | humidite | cal
+n Décoction de Dioscorée qui draine l'Humidité || Tokoro Decoction to Leach Out Dampness
+c Bi Xie : 12 g ; Yi Yi Ren : 30 g ; Huang Bai : 9 g ; Chi Fu Ling : 12 g ; Mu Dan Pi : 9 g ; Ze Xie : 9 g ; Hua Shi : 15 g ; Tong Cao : 6 g
+a Clarifie l'Humidité-Chaleur, draine par les urines, soulage la peau. || Clears Damp-Heat, drains it through the urine, soothes the skin.
+i eczéma suintant, surtout des jambes ; démangeaisons ; plaques rouges humides ; ulcère de jambe (accompagnement) || weeping eczema, especially on the legs; itching; red, moist patches; leg ulcer (support)
+t peau-humidite-chaleur
+x Peau sèche par Vide de Sang ; grossesse. || Dry skin from Blood deficiency; pregnancy.
+
+@bi-xie-qu-shi-tang | Bi Xie Qu Shi Tang | 萆薢祛湿汤 | humidite | cal
+n Décoction qui chasse l'Humidité (version Calebasse) || Expel Dampness Decoction (Calebasse version)
+c Fu Ling : 1000 mg ; Yi Yi Ren : 500 mg ; Huang Bai : 500 mg ; Bai Shao : 500 mg ; Ze Xie : 500 mg
+a Élimine l'Humidité-Chaleur. || Clears Damp-Heat.
+i jambes lourdes ; peau qui suinte ; pertes jaunâtres ; urines foncées || heavy legs; weeping skin; yellowish discharge; dark urine
+t peau-humidite-chaleur, f-humidite-bas
+x Vide de Yin, sécheresse. || Yin deficiency, dryness.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@yin-chen-hao-tang | Yin Chen Hao Tang | 茵陈蒿汤 | humidite |
+n Décoction d'Armoise capillaire || Virgate Wormwood Decoction
+c Yin Chen : 18 g ; Zhi Zi : 12 g ; Da Huang : 6 g
+a Clarifie l'Humidité-Chaleur du Foie et de la Vésicule biliaire, fait disparaître la jaunisse. || Clears Damp-Heat from the Liver and Gallbladder, resolves jaundice.
+i jaunisse vive ; urines foncées ; goût amer ; ventre gonflé ; constipation || bright jaundice; dark urine; bitter taste; distended belly; constipation
+t f-humidite-chaleur
+x Grossesse ; toute jaunisse doit être vue par un médecin en urgence. || Pregnancy; any jaundice must be seen by a doctor urgently.
+
+@chai-hu-xiao-shi-wan | Chai Hu Xiao Shi Wan | 柴胡消食丸 | humidite | cal
+n Pilules de Buplèvre qui font digérer (version Calebasse) || Bupleurum Digestive Pills (Calebasse version)
+c Yin Chen : 730 mg ; Fu Ling : 660 mg ; Zhi Ke : 660 mg ; Jin Qian Cao : 660 mg ; Chai Hu : 290 mg
+a Clarifie l'Humidité-Chaleur du Foie et de la Vésicule biliaire, allège la digestion. || Clears Damp-Heat from the Liver and Gallbladder, lightens digestion.
+i digestion lourde après les repas gras ; goût amer ; nausées ; tension sous les côtes à droite || heavy digestion after fatty meals; bitter taste; nausea; tension under the right ribs
+t f-humidite-chaleur, vb-mucosites
+x Digestion froide et faible ; grossesse. || Cold, weak digestion; pregnancy.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@qing-dan-hua-shi-wan | Qing Dan Hua Shi Wan | 清胆化石丸 | humidite | cal
+n Pilules qui clarifient la Vésicule biliaire et dissolvent les calculs || Clear the Gallbladder and Dissolve Stones Pills
+c Yin Chen : 690 mg ; Jin Qian Cao : 640 mg ; Pu Gong Ying : 560 mg ; Ku Gua : 430 mg ; Huang Qin : 390 mg ; Chai Hu : 300 mg
+a Clarifie l'Humidité-Chaleur de la Vésicule biliaire, aide la bile à circuler. || Clears Damp-Heat from the Gallbladder, helps bile flow.
+i digestion des graisses difficile ; goût amer ; douleur sous les côtes à droite ; petits calculs biliaires (accompagnement) || trouble digesting fats; bitter taste; pain under the right ribs; small gallstones (support)
+t f-humidite-chaleur, vb-mucosites
+x Grossesse ; colique biliaire, fièvre, jaunisse : consulter en urgence. || Pregnancy; biliary colic, fever, jaundice: urgent medical care.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@san-ren-tang | San Ren Tang | 三仁汤 | humidite |
+n Décoction des trois graines || Three-Seed Decoction
+c Xing Ren : 15 g ; Bai Dou Kou : 6 g ; Yi Yi Ren : 18 g ; Hua Shi : 18 g ; Tong Cao : 6 g ; Dan Zhu Ye : 6 g ; Hou Po : 6 g ; Ban Xia : 15 g
+a Ouvre le Qi, transforme l'Humidité dans les trois Réchauffeurs, clarifie la Chaleur. || Opens Qi, transforms Dampness in all three Burners, clears Heat.
+i tête lourde ; corps lourd et courbaturé ; oppression ; pas faim ; fièvre légère l'après-midi ; enduit blanc et gras || heavy head; heavy, aching body; chest oppression; no hunger; mild afternoon fever; white greasy coating
+t rt-humidite-chaleur, gi-humidite-chaleur
+x Vide de Yin, sécheresse. || Yin deficiency, dryness.
+
+@bi-xie-fen-qing-yin | Bi Xie Fen Qing Yin | 萆薢分清饮 | humidite |
+n Boisson de Dioscorée qui sépare le clair du trouble || Tokoro Drink to Separate the Clear
+c Bi Xie : 12 g ; Yi Zhi Ren : 9 g ; Wu Yao : 9 g ; Shi Chang Pu : 9 g ; Gan Cao : 3 g
+a Réchauffe le Rein, draine l'Humidité, clarifie les urines troubles. || Warms the Kidney, drains Dampness, clears cloudy urine.
+i urines troubles, laiteuses ; envies fréquentes ; pertes blanches ; terrain froid || cloudy, milky urine; frequent urge; white discharge; cold constitution
+t v-vide-froid, rn-qi-non-ferme
+x Urines qui brûlent (Chaleur). || Burning urination (Heat).
+
+@du-huo-ji-sheng-tang | Du Huo Ji Sheng Tang | 独活寄生汤 | humidite | cal, jz
+n Décoction Angélique pubescente et Gui || Angelica Pubescens and Taxillus Decoction
+c Du Huo : 9 g ; Sang Ji Sheng : 6 g ; Du Zhong : 6 g ; Niu Xi : 6 g ; Xi Xin : 3 g ; Qin Jiao : 6 g ; Fu Ling : 6 g ; Rou Gui : 3 g ; Fang Feng : 6 g ; Chuan Xiong : 6 g ; Ren Shen : 6 g ; Dang Gui : 6 g ; Bai Shao : 6 g ; Shu Di Huang : 6 g ; Gan Cao : 6 g
+a Chasse le Vent-Humidité, tonifie le Foie et le Rein, nourrit le Qi et le Sang. || Expels Wind-Damp, tonifies the Liver and Kidney, nourishes Qi and Blood.
+i douleurs chroniques des lombes et des genoux ; raideurs au froid humide ; arthrose ; sciatique de la personne âgée ; jambes faibles || chronic lower back and knee pain; stiffness in cold damp weather; osteoarthritis; sciatica in older people; weak legs
+t bi-froid, bi-humidite, rn-vide-yang
+x Grossesse (Niu Xi) ; articulations rouges et chaudes. || Pregnancy (Niu Xi); red, hot joints.
+
+@juan-bi-tang | Juan Bi Tang | 蠲痹汤 | humidite |
+n Décoction qui dissipe les Bi || Remove Painful Obstruction Decoction
+c Qiang Huo : 6 g ; Du Huo : 6 g ; Gui Zhi : 6 g ; Qin Jiao : 9 g ; Dang Gui : 9 g ; Chuan Xiong : 6 g ; Hai Feng Teng : 9 g ; Sang Zhi : 9 g ; Ru Xiang : 3 g ; Mu Xiang : 3 g ; Gan Cao : 3 g
+a Chasse le Vent-Froid-Humidité, fait circuler le Sang, calme les douleurs articulaires. || Expels Wind-Cold-Damp, moves Blood, eases joint pain.
+i douleurs articulaires qui se déplacent ; épaules et bras douloureux ; raideurs au froid || wandering joint pain; painful shoulders and arms; stiffness in the cold
+t bi-vent, bi-froid
+x Grossesse ; articulations chaudes et rouges. || Pregnancy; hot, red joints.
+
+@yi-yi-ren-tang | Yi Yi Ren Tang | 薏苡仁汤 | humidite | cal
+n Décoction de Coix || Coix Decoction
+c Yi Yi Ren : 30 g ; Cang Zhu : 9 g ; Qiang Huo : 6 g ; Du Huo : 6 g ; Fang Feng : 6 g ; Ma Huang : 6 g ; Gui Zhi : 6 g ; Dang Gui : 9 g ; Chuan Xiong : 6 g ; Sheng Jiang : 6 g ; Gan Cao : 3 g
+a Chasse l'Humidité, le Vent et le Froid des articulations. || Expels Dampness, Wind and Cold from the joints.
+i articulations lourdes, gonflées, engourdies ; douleurs fixes pires par temps humide || heavy, swollen, numb joints; fixed pains worse in damp weather
+t bi-humidite
+x Contient du Ma Huang (éphédra) : hypertension, troubles cardiaques, insomnie ; grossesse. || Contains Ma Huang (ephedra): hypertension, heart problems, insomnia; pregnancy.
+
+@bai-hu-jia-gui-zhi-tang | Bai Hu Jia Gui Zhi Tang | 白虎加桂枝汤 | humidite |
+n Décoction du Tigre blanc avec Cannelle || White Tiger plus Cinnamon Twig Decoction
+c Shi Gao : 30 g ; Zhi Mu : 9 g ; Zhi Gan Cao : 3 g ; Geng Mi : 9 g ; Gui Zhi : 9 g
+a Clarifie la Chaleur, débloque les méridiens, soulage les articulations chaudes. || Clears Heat, unblocks the channels, relieves hot joints.
+i articulations rouges, chaudes, gonflées ; fièvre ; soif ; poussée d'arthrite ou de goutte || red, hot, swollen joints; fever; thirst; arthritis or gout flare
+t bi-chaleur
+x Bi de Froid ; à réserver à un praticien ; articulation chaude avec fièvre : consulter. || Cold Bi; for practitioners only; hot joint with fever: see a doctor.
+
+@fang-ji-huang-qi-tang | Fang Ji Huang Qi Tang | 防己黄芪汤 | humidite |
+n Décoction Stéphania et Astragale || Stephania and Astragalus Decoction
+c Han Fang Ji : 12 g ; Huang Qi : 15 g ; Bai Zhu : 9 g ; Gan Cao : 6 g ; Sheng Jiang : 3 g ; Da Zao : 2 pièces
+a Tonifie le Qi, consolide la surface, draine l'Eau, soulage les articulations. || Tonifies Qi, secures the exterior, drains Water, relieves the joints.
+i œdèmes des jambes ; transpiration facile ; corps lourd ; genoux gonflés sur terrain fatigué || leg edema; easy sweating; heavy body; swollen knees in a tired constitution
+t bi-humidite, rt-vide-qi
+x N'utiliser que Han Fang Ji (Stephania) : Guang Fang Ji (Aristoloche) est interdit. || Use only Han Fang Ji (Stephania): Guang Fang Ji (Aristolochia) is banned.
+
+@jian-bu-wan | Jian Bu Wan | 健步丸 | humidite | cal, jz
+n Pilules du marcheur infatigable || Strong Step Pills
+c Niu Xi : 510 mg ; Dang Gui Wei : 470 mg ; Bai Shao : 470 mg ; Chen Pi : 470 mg ; Cang Zhu : 470 mg ; Sheng Di Huang : 240 mg ; Huang Qin : 240 mg ; Gui Zhi : 130 mg
+a Fortifie les jambes, fait circuler le Sang, draine l'Humidité. || Strengthens the legs, moves Blood, drains Dampness.
+i jambes faibles ou lourdes ; genoux douloureux ; marche difficile chez la personne âgée || weak or heavy legs; painful knees; difficult walking in older people
+t bi-humidite, rn-jing
+x Grossesse (Niu Xi). || Pregnancy (Niu Xi).
+o Composition de Calebasse pour la dose du jour ; la version de JZ, plus tonifiante, contient 17 plantes (Shu Di, Ci Wu Jia, Ba Ji Tian, Gou Qi, Tu Si Zi…). || Calebasse composition for the daily dose; JZ's more tonifying version contains 17 herbs (Shu Di, Ci Wu Jia, Ba Ji Tian, Gou Qi, Tu Si Zi…).
+
+@mu-gua-wan | Mu Gua Wan | 木瓜丸 | humidite | cal
+n Pilules de Cognassier de Chine || Chaenomeles Pills
+c Mu Gua : 9 g ; Dang Gui : 9 g ; Chuan Xiong : 6 g ; Bai Zhi : 6 g ; Wei Ling Xian : 9 g ; Gou Ji : 9 g ; Niu Xi : 9 g ; Ji Xue Teng : 9 g ; Hai Feng Teng : 9 g ; Ren Shen : 6 g
+a Chasse le Vent-Humidité, détend les tendons, débloque les méridiens. || Expels Wind-Damp, relaxes the tendons, unblocks the channels.
+i crampes ; raideurs ; jambes engourdies ; douleurs des articulations au froid humide || cramps; stiffness; numb legs; joint pain in cold damp weather
+t bi-humidite, bi-froid
+x Grossesse ; articulations chaudes. || Pregnancy; hot joints.
+o La formule chinoise d'origine contient deux aconits (Chuan Wu, Cao Wu) toxiques ; vérifie l'étiquette du laboratoire. || The original Chinese formula contains two toxic aconites (Chuan Wu, Cao Wu); check the lab's label.
+
+@jian-zhou-tong-wan | Jian Zhou Tong Wan | 肩周痛丸 | humidite | cal
+n Pilules pour l'épaule douloureuse || Painful Shoulder Pills
+c Bai Shao : 770 mg ; Sang Shen : 390 mg ; Du Huo : 230 mg ; Gui Zhi : 230 mg ; Long Dan Cao : 230 mg ; Dang Gui : 230 mg ; Chuan Xiong : 230 mg ; Ru Xiang : 230 mg ; Bai Zhi : 230 mg ; Gan Cao : 230 mg
+a Chasse le Vent-Humidité de l'épaule, fait circuler le Sang, détend. || Expels Wind-Damp from the shoulder, moves Blood, relaxes.
+i épaule raide et douloureuse ; douleur du bras ; mouvements limités || stiff, painful shoulder; arm pain; limited movement
+t bi-vent, bi-froid
+x Grossesse. || Pregnancy.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@jing-zhui-tong-wan | Jing Zhui Tong Wan | 颈椎痛丸 | humidite | cal
+n Pilules pour la nuque douloureuse || Painful Neck Pills
+c Grande camomille : 540 mg ; Bai Shao : 450 mg ; Ge Gen : 400 mg ; Chuan Xiong : 400 mg ; Dang Gui : 400 mg ; Bai Zhi : 360 mg ; Ru Xiang : 220 mg ; Mo Yao : 220 mg
+a Détend les muscles du cou, fait circuler le Sang, calme la douleur. || Relaxes the neck muscles, moves Blood, eases pain.
+i nuque raide ; torticolis ; douleur qui descend dans l'épaule ; maux de tête de la nuque || stiff neck; wry neck; pain spreading to the shoulder; headaches from the neck
+t bi-vent, stase-sang
+x Grossesse, anticoagulants. || Pregnancy, anticoagulants.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@zhuang-gu-xiao-ci-wan | Zhuang Gu Xiao Ci Wan | 壮骨消刺丸 | humidite | cal
+n Pilules qui fortifient les os || Strengthen the Bones Pills
+c Bai Shao : 750 mg ; Du Zhong : 450 mg ; Xu Duan : 450 mg ; Shu Di Huang : 450 mg ; Tu Si Zi : 300 mg ; Dan Shen : 300 mg ; Zhi Mu : 300 mg
+a Nourrit le Foie et le Rein, fortifie les os, fait circuler le Sang. || Nourishes the Liver and Kidney, strengthens the bones, moves Blood.
+i lombes et jambes vite fatiguées ; arthrose ; épines osseuses (accompagnement) ; talons douloureux || lower back and legs that tire quickly; osteoarthritis; bone spurs (support); painful heels
+t rn-jing, bi-froid
+x Digestion faible. || Weak digestion.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+# Transforment les Mucosités
+@er-chen-tang | Er Chen Tang | 二陈汤 | mucosites | cal, jz
+n Décoction des deux anciens || Two-Aged Decoction
+c Ban Xia : 15 g ; Ju Hong : 15 g ; Fu Ling : 9 g ; Zhi Gan Cao : 5 g ; Sheng Jiang : 3 g ; Wu Mei : 1 pièce
+a Assèche l'Humidité, transforme les Mucosités, harmonise l'Estomac. || Dries Dampness, transforms Phlegm, harmonizes the Stomach.
+i toux avec glaires blanches abondantes ; nausées ; oppression ; vertiges ; corps lourd || cough with abundant white phlegm; nausea; chest oppression; dizziness; heavy body
+t p-mucosites-humidite, rt-froid-humidite
+x Toux sèche, Vide de Yin. || Dry cough, Yin deficiency.
+
+@san-zi-yang-qin-tang | San Zi Yang Qin Tang | 三子养亲汤 | mucosites | cal
+n Décoction des trois graines pour nourrir les parents || Three-Seed Decoction to Nourish One's Parents
+c Zi Su Zi : 9 g ; Bai Jie Zi : 6 g ; Lai Fu Zi : 9 g
+a Fait descendre le Qi, transforme les Mucosités, fait digérer. || Directs Qi downward, transforms Phlegm, aids digestion.
+i toux grasse avec beaucoup de glaires ; essoufflement ; oppression ; digestion lourde (souvent chez la personne âgée) || productive cough with lots of phlegm; breathlessness; chest oppression; heavy digestion (often in older people)
+t p-mucosites-humidite
+x Toux sèche, Vide de Yin ; cure courte. || Dry cough, Yin deficiency; short course.
+
+@er-chen-san-zi | Er Chen He San Zi Yang Qin Tang | 二陈合三子养亲汤 | mucosites | cal
+n Décoction des deux anciens avec les trois graines || Two-Aged Decoction with Three-Seed Decoction
+c Ban Xia : 9 g ; Chen Pi : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 3 g ; Zi Su Zi : 9 g ; Bai Jie Zi : 6 g ; Lai Fu Zi : 9 g
+a Transforme les Mucosités, fait descendre le Qi du Poumon. || Transforms Phlegm, directs Lung Qi downward.
+i bronchite chronique grasse ; glaires blanches abondantes ; essoufflement ; oppression || chronic productive bronchitis; abundant white phlegm; breathlessness; chest oppression
+t p-mucosites-humidite
+x Toux sèche, Vide de Yin. || Dry cough, Yin deficiency.
+
+@wen-dan-tang | Wen Dan Tang | 温胆汤 | mucosites | cal
+n Décoction qui réchauffe la Vésicule biliaire || Warm the Gallbladder Decoction
+c Ban Xia : 6 g ; Zhu Ru : 6 g ; Zhi Shi : 6 g ; Chen Pi : 9 g ; Fu Ling : 5 g ; Zhi Gan Cao : 3 g ; Sheng Jiang : 3 g ; Da Zao : 1 pièce
+a Transforme les Mucosités-Chaleur, harmonise la Vésicule biliaire et l'Estomac, calme le Shen. || Transforms Phlegm-Heat, harmonizes the Gallbladder and Stomach, calms the Shen.
+i insomnie avec rêves agités ; anxiété, sursauts ; palpitations ; nausées ; goût amer ; vertiges || insomnia with restless dreams; anxiety, being easily startled; palpitations; nausea; bitter taste; dizziness
+t vb-mucosites, p-mucosites-chaleur
+x Insomnie de Vide de Sang ou de Yin sans Mucosités. || Insomnia from Blood or Yin deficiency without Phlegm.
+o Calebasse : Wen Dan Wan. || Calebasse: Wen Dan Wan.
+
+@qing-qi-hua-tan-wan | Qing Qi Hua Tan Wan | 清气化痰丸 | mucosites |
+n Pilules qui clarifient le Qi et transforment les Mucosités || Clear the Qi and Transform Phlegm Pill
+c Dan Nan Xing : 9 g ; Gua Lou Ren : 6 g ; Huang Qin : 6 g ; Chen Pi : 6 g ; Xing Ren : 6 g ; Zhi Shi : 6 g ; Fu Ling : 6 g ; Ban Xia : 9 g
+a Clarifie la Chaleur, transforme les Mucosités, fait descendre le Qi du Poumon. || Clears Heat, transforms Phlegm, directs Lung Qi downward.
+i toux avec glaires jaunes et épaisses ; oppression ; essoufflement ; enduit jaune et gras || cough with thick yellow phlegm; chest oppression; breathlessness; yellow greasy coating
+t p-mucosites-chaleur
+x Toux de Froid, Vide de Yin ; grossesse. || Cold cough, Yin deficiency; pregnancy.
+
+@qing-fei-zhi-ke-wan | Qing Fei Zhi Ke Wan | 清肺止咳丸 | mucosites | cal
+n Pilules qui clarifient le Poumon et calment la toux (version Calebasse) || Clear the Lung and Stop Cough Pills (Calebasse version)
+c Bai Shao : 360 mg ; Bai Zhu : 360 mg ; Jing Jie : 320 mg ; Fang Feng : 280 mg ; Lian Qiao : 280 mg ; Jie Geng : 280 mg ; Dang Gui : 280 mg ; Zhi Zi : 160 mg ; Gan Cao : 160 mg ; Chuan Xiong : 160 mg ; Bo He : 160 mg ; Huang Qin : 160 mg
+a Chasse le Vent de la surface, clarifie la Chaleur, ménage le Sang et la Rate. || Expels Wind from the exterior, clears Heat, spares the Blood and Spleen.
+i toux avec chaleur qui monte ; gorge irritée ; rougeurs du visage ; nez sec || cough with rising heat; irritated throat; facial redness; dry nose
+t p-vent-chaleur, p-mucosites-chaleur
+x Toux de Froid ; grossesse. || Cold cough; pregnancy.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@ke-chuan-wan | Ke Chuan Wan | 咳喘丸 | mucosites | cal
+n Pilules contre la toux et l'essoufflement || Cough and Wheezing Pills
+c Jie Geng : 517 mg ; Jing Jie : 517 mg ; Zi Su Zi : 517 mg ; Ting Li Zi : 517 mg ; Fang Feng : 466 mg ; Sang Bai Pi : 466 mg
+a Chasse le Vent, fait monter puis descendre le Qi du Poumon, calme la toux. || Expels Wind, raises then lowers Lung Qi, stops cough.
+i toux et souffle court au vent et au froid ; oppression ; glaires || cough and short breath in wind and cold; chest oppression; phlegm
+t p-vent-froid, p-mucosites-humidite
+x Toux sèche de Vide de Yin. || Dry cough from Yin deficiency.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@fu-fang-jie-geng | Fu Fang Jie Geng Pian | 复方桔梗片 | mucosites | cal
+n Comprimés composés de Platycodon || Compound Platycodon Tablets
+c Jie Geng : 1313 mg ; Gan Cao : 1125 mg ; Yuan Zhi : 563 mg
+a Ouvre le Qi du Poumon, apaise la gorge, aide à cracher. || Opens Lung Qi, soothes the throat, helps bring up phlegm.
+i gorge irritée ; toux avec glaires difficiles à cracher ; voix enrouée || irritated throat; cough with phlegm hard to bring up; hoarse voice
+t p-mucosites-humidite, p-stagnation-qi
+x Hypertension, œdèmes (réglisse) ; ulcère d'estomac (Yuan Zhi). || Hypertension, edema (licorice); stomach ulcer (Yuan Zhi).
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@xiang-yin-wan | Xiang Yin Wan | 响音丸 | mucosites | cal
+n Pilules pour une voix claire || Clear Voice Pills
+c Xuan Shen : 610 mg ; Jie Geng : 610 mg ; He Zi : 610 mg ; Bo He : 410 mg ; Niu Bang Zi : 410 mg ; Gan Cao : 350 mg
+a Nourrit le Yin du Poumon, rafraîchit la gorge, éclaircit la voix. || Nourishes Lung Yin, cools the throat, clears the voice.
+i voix enrouée ou éteinte ; gorge sèche ; voix fatiguée (enseignants, chanteurs) || hoarse or lost voice; dry throat; tired voice (teachers, singers)
+t p-vide-yin, p-secheresse
+x Enrouement de Froid ; enrouement de plus de 3 semaines : consulter un ORL. || Hoarseness from Cold; hoarseness lasting over 3 weeks: see an ENT doctor.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@zhi-sou-san | Zhi Sou San | 止嗽散 | mucosites |
+n Poudre qui arrête la toux || Stop Coughing Powder
+c Jie Geng : 9 g ; Jing Jie : 9 g ; Zi Wan : 9 g ; Bai Bu : 9 g ; Bai Qian : 9 g ; Chen Pi : 6 g ; Gan Cao : 3 g
+a Arrête la toux, transforme les Mucosités, libère la surface. || Stops cough, transforms Phlegm, releases the exterior.
+i toux qui traîne après un rhume ; gorge qui gratte ; peu de glaires || cough lingering after a cold; scratchy throat; little phlegm
+t p-vent-froid, p-stagnation-qi
+x Toux de Vide de Yin avec Chaleur. || Cough from Yin deficiency with Heat.
+
+@hai-zao-yu-hu-tang | Hai Zao Yu Hu Tang | 海藻玉壶汤 | mucosites | cal
+n Décoction de Sargasse du pot de jade || Sargassum Decoction for the Jade Flask
+c Hai Zao : 9 g ; Kun Bu : 9 g ; Hai Dai : 9 g ; Zhe Bei Mu : 9 g ; Chen Pi : 6 g ; Qing Pi : 6 g ; Chuan Xiong : 6 g ; Dang Gui : 6 g ; Ban Xia : 6 g ; Lian Qiao : 6 g ; Du Huo : 6 g ; Gan Cao : 3 g
+a Transforme les Mucosités, ramollit les masses, fait circuler le Qi et le Sang. || Transforms Phlegm, softens masses, moves Qi and Blood.
+i nodules du cou ; goitre ; ganglions durs indolores ; boule dans la gorge || neck nodules; goiter; hard painless lymph nodes; lump in the throat
+t mucosites-feu-ganglions, mei-he-qi
+x Thyroïde : algues riches en iode, ne pas prendre sans bilan thyroïdien ni avis médical ; grossesse. || Thyroid: seaweeds are rich in iodine, do not take without thyroid tests and medical advice; pregnancy.
+o Contient Hai Zao et Gan Cao, une association déconseillée par les textes classiques mais traditionnelle dans cette formule. || Contains Hai Zao with Gan Cao, a pairing the classics advise against but which is traditional in this formula.
+
+# Font digérer
+@bao-he-wan | Bao He Wan | 保和丸 | digestion | cal, pv
+n Pilules qui préservent l'harmonie || Preserve Harmony Pill
+c Shan Zha : 18 g ; Shen Qu : 6 g ; Ban Xia : 9 g ; Fu Ling : 9 g ; Chen Pi : 6 g ; Lian Qiao : 6 g ; Lai Fu Zi : 6 g
+a Fait digérer, dissout la stagnation alimentaire, harmonise l'Estomac. || Reduces food stagnation, harmonizes the Stomach.
+i lourdeur après un repas trop copieux ; renvois aux odeurs d'aliments ; nausées ; diarrhée nauséabonde ; enduit épais || heaviness after an overly large meal; belching food smells; nausea; foul diarrhea; thick coating
+t e-stagnation-alimentaire
+x Pas en continu ; digestion très faible sans excès. || Not for continuous use; very weak digestion without overeating.
+
+@jia-wei-bao-he-wan | Jia Wei Bao He Wan | 加味保和丸 | digestion | cal
+n Pilules qui préservent l'harmonie, augmentées (version Calebasse) || Augmented Preserve Harmony Pills (Calebasse version)
+c Bai Zhu : 430 mg ; Fu Ling : 430 mg ; Chen Pi : 430 mg ; Zhi Ke : 430 mg ; Xiang Fu : 430 mg ; Shan Zha : 430 mg ; Mai Ya : 420 mg
+a Renforce la Rate tout en faisant digérer. || Strengthens the Spleen while aiding digestion.
+i digestion lente et lourde sur terrain fatigué ; ballonnements ; appétit irrégulier || slow, heavy digestion in a tired constitution; bloating; irregular appetite
+t e-stagnation-alimentaire, rt-vide-qi
+x Vide de Yin. || Yin deficiency.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@jian-pi-wan | Jian Pi Wan | 健脾丸 | digestion |
+n Pilules qui renforcent la Rate || Strengthen the Spleen Pill
+c Bai Zhu : 9 g ; Mu Xiang : 3 g ; Huang Lian : 3 g ; Gan Cao : 3 g ; Fu Ling : 6 g ; Ren Shen : 6 g ; Shen Qu : 6 g ; Chen Pi : 6 g ; Sha Ren : 3 g ; Mai Ya : 6 g ; Shan Zha : 6 g ; Shan Yao : 6 g ; Rou Dou Kou : 3 g
+a Renforce la Rate, fait digérer, arrête la diarrhée. || Strengthens the Spleen, reduces food stagnation, stops diarrhea.
+i appétit faible ; digestion lente ; ballonnements ; selles molles avec aliments non digérés ; fatigue || poor appetite; slow digestion; bloating; loose stools with undigested food; fatigue
+t rt-vide-qi, e-stagnation-alimentaire
+x Vide de Yin. || Yin deficiency.
+
+@xiang-sha-yang-wei-wan | Xiang Sha Yang Wei Wan | 香砂养胃丸 | digestion | cal
+n Pilules Aucklandia et Amome qui nourrissent l'Estomac || Aucklandia and Amomum Pill to Nourish the Stomach
+c Mu Xiang : 6 g ; Sha Ren : 6 g ; Bai Zhu : 9 g ; Chen Pi : 6 g ; Fu Ling : 9 g ; Ban Xia : 6 g ; Xiang Fu : 6 g ; Zhi Shi : 6 g ; Bai Dou Kou : 6 g ; Hou Po : 6 g ; Huo Xiang : 6 g ; Gan Cao : 3 g
+a Réchauffe le Centre, fait circuler le Qi, harmonise l'Estomac. || Warms the Middle, moves Qi, harmonizes the Stomach.
+i estomac lourd et froid ; pas faim ; renvois ; nausées ; ballonnements || heavy, cold stomach; no hunger; belching; nausea; bloating
+t e-vide-froid, e-vide-qi, rt-froid-humidite
+x Vide de Yin, reflux de Chaleur. || Yin deficiency, Heat-type reflux.
+
+@xiang-sha-zuo-jin-wan | Xiang Sha Zuo Jin Wan | 香砂左金丸 | digestion | cal
+n Pilules Aucklandia et Amome du Métal de gauche (version Calebasse) || Aucklandia and Amomum Left Metal Pills (Calebasse version)
+c Zhi Ke : 720 mg ; Jin Qian Cao : 310 mg ; Sha Ren : 270 mg ; Fu Ling : 270 mg ; Yin Chen : 270 mg ; Chen Pi : 180 mg ; Xiang Fu : 180 mg ; Hou Po : 180 mg ; Huo Xiang : 180 mg ; Huang Qin : 180 mg ; Bai Zhu : 170 mg ; Gan Cao : 90 mg
+a Harmonise la digestion, clarifie l'Humidité-Chaleur. || Harmonizes digestion, clears Damp-Heat.
+i digestion lourde ; ballonnements ; goût amer ; nausées après les repas gras || heavy digestion; bloating; bitter taste; nausea after fatty meals
+t rt-humidite-chaleur, f-humidite-chaleur
+x Digestion froide et faible. || Cold, weak digestion.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@xiao-cheng-qi-tang | Xiao Cheng Qi Tang | 小承气汤 | purger | jz
+n Petite décoction qui ordonne le Qi || Minor Order the Qi Decoction
+c Da Huang : 12 g ; Hou Po : 6 g ; Zhi Shi : 9 g
+a Purge doucement la Chaleur accumulée, fait circuler le Qi. || Gently purges accumulated Heat, moves Qi.
+i constipation avec ventre gonflé et tendu ; renvois ; chaleur ; enduit jaune || constipation with a distended, tight belly; belching; heat; yellow coating
+t e-feu, gi-secheresse
+x Grossesse, règles ; constipation de Vide ; cure de quelques jours seulement. || Pregnancy, menstruation; constipation from deficiency; only a few days' use.
+o JZ remplace Zhi Shi par Chen Pi. || JZ replaces Zhi Shi with Chen Pi.
+
+# Formules maison des laboratoires
+@tong-chang-wan | Tong Chang Wan | 通畅丸 | purger | cal
+n Pilules qui libèrent le transit (version Calebasse) || Free-Flow Pills (Calebasse version)
+c He Shou Wu : 1552 mg ; Tao Ren : 724 mg ; Dang Gui : 724 mg
+a Nourrit le Sang, humidifie la sécheresse, libère les selles. || Nourishes Blood, moistens dryness, frees the stools.
+i constipation sèche sur terrain de Vide de Sang ; peau sèche ; cheveux ternes || dry constipation with Blood deficiency; dry skin; dull hair
+t gi-secheresse, f-vide-sang
+x Grossesse (Tao Ren) ; maladie du foie (He Shou Wu) ; diarrhée. || Pregnancy (Tao Ren); liver disease (He Shou Wu); diarrhea.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@jiang-dan-gu-chun | Jiang Dan Gu Chun Wan | 降胆固醇丸 | sang | cal
+n Pilules pour le cholestérol (version Calebasse) || Cholesterol Pills (Calebasse version)
+c Shan Zha : 380 mg ; Ye Jiao Teng : 380 mg ; Gou Qi Zi : 380 mg ; Ling Zhi : 380 mg ; Ze Xie : 370 mg ; Hong Hua : 370 mg ; Dang Gui : 370 mg ; Chuan Xiong : 370 mg
+a Fait circuler le Sang, transforme les Mucosités, aide la digestion des graisses. || Moves Blood, transforms Phlegm, helps digest fats.
+i terrain de Mucosités et de stase ; cholestérol (accompagnement d'une hygiène de vie) || Phlegm and stasis terrain; cholesterol (alongside lifestyle changes)
+t stase-sang
+x Grossesse, anticoagulants ; ne remplace pas un traitement prescrit. || Pregnancy, anticoagulants; does not replace prescribed treatment.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@qin-yin-tang | Qin Yin Tang | 清营汤 | chaleur | cal
+n Décoction qui clarifie le Ying (version Calebasse) || Clear the Nutritive Level Decoction (Calebasse version)
+c Sheng Di Huang : 730 mg ; Xuan Shen : 430 mg ; Jin Yin Hua : 430 mg ; Mai Men Dong : 410 mg ; Dan Shen : 300 mg ; Lian Qiao : 300 mg ; Huang Lian : 230 mg ; Dan Zhu Ye : 170 mg
+a Clarifie la Chaleur du niveau nourricier, nourrit le Yin, élimine les toxines. || Clears Heat from the Nutritive level, nourishes Yin, resolves toxicity.
+i chaleur interne avec sécheresse ; agitation la nuit ; rougeurs de la peau ; bouche sèche || internal heat with dryness; restlessness at night; skin redness; dry mouth
+t peau-chaleur-sang, c-feu
+x Digestion faible, Froid. || Weak digestion, Cold.
+o Composition de Calebasse pour la dose du jour ; version douce de Qing Ying Tang (sans corne). || Calebasse composition for the daily dose; a gentle version of Qing Ying Tang (without horn).
+
+@ningxin | Ningxin | — | sang-tonif | jz
+n Ningxin (formule maison JZ) || Ningxin (JZ house formula)
+c Gou Qi Zi : 480 mg ; Hong Hua : 360 mg ; Sang Shen : 240 mg ; Kun Bu : 120 mg
+a Nourrit le Yin et le Sang du Foie et du Rein, fait circuler le Sang, disperse la Chaleur. || Nourishes Liver and Kidney Yin and Blood, moves Blood, disperses Heat.
+i inconforts de la ménopause ; sécheresse intime ; bouffées de chaleur légères || menopausal discomfort; intimate dryness; mild hot flushes
+t foie-rein-yin, rn-vide-yin
+x Grossesse (Hong Hua) ; thyroïde (algue riche en iode) ; anticoagulants. || Pregnancy (Hong Hua); thyroid (iodine-rich seaweed); anticoagulants.
+o Composition JZ pour la dose du jour (4 gélules). || JZ composition for the daily dose (4 capsules).
+
+@ningxin-guifu | Ningxin Guifu | 桂枝茯苓 | sang | jz
+n Ningxin Guifu (Gui Zhi Fu Ling, JZ) || Ningxin Guifu (Gui Zhi Fu Ling, JZ)
+c Rou Gui : 240 mg ; Fu Ling : 240 mg ; Tao Ren : 240 mg ; Bai Shao : 240 mg ; Mu Dan Pi : 240 mg
+a Active le Sang, lève les stases liées au Froid, disperse les indurations. || Invigorates Blood, clears Cold-related stasis, disperses hardenings.
+i règles douloureuses avec caillots ; kystes, fibromes (accompagnement) ; bas-ventre froid || painful periods with clots; cysts, fibroids (support); cold lower belly
+t stase-sang, froid-uterus
+x Grossesse ; règles abondantes ; anticoagulants. || Pregnancy; heavy periods; anticoagulants.
+o Version JZ de Gui Zhi Fu Ling Wan (écorce de cannelle au lieu des rameaux). || JZ's version of Gui Zhi Fu Ling Wan (cinnamon bark instead of twigs).
+
+@ningxin-plus | Ningxin Plus | — | yang | jz
+n Ningxin Plus (formule maison JZ) || Ningxin Plus (JZ house formula)
+c Dong Chong Xia Cao : 320 mg ; Ba Ji Tian : 320 mg ; Gou Qi Zi : 240 mg ; Shu Di Huang : 160 mg ; Shan Yao : 120 mg ; Rou Gui : 32 mg
+a Tonifie le Rein, fortifie le Yang, consolide le Jing. || Tonifies the Kidney, strengthens Yang, consolidates Jing.
+i fatigue profonde ; lombes froides ; baisse de libido ; frilosité || deep fatigue; cold lower back; low libido; feeling cold
+t rn-vide-yang, rn-jing
+x Chaleur, Vide de Yin avec Feu. || Heat, Yin deficiency with Fire.
+o Composition JZ pour la dose du jour, avec du zinc. || JZ composition for the daily dose, with zinc.
+
+@hxhy | HXHY | 活血化瘀 | sang | jz
+n HXHY, activer le Sang et dissoudre la stase (JZ) || HXHY, Invigorate Blood and Dissolve Stasis (JZ)
+c Dang Shen : 120 mg ; Bai Shao : 120 mg ; Dang Gui : 120 mg ; Hong Hua : 120 mg ; Tao Ren : 120 mg ; Sheng Jiang : 120 mg ; Niu Xi : 120 mg ; Fu Ling : 120 mg ; Mu Dan Pi : 80 mg ; Zhi Zi : 80 mg ; Huang Qin : 80 mg
+a Active le Sang et le Qi, harmonise le Foie et la Rate. || Moves Blood and Qi, harmonizes the Liver and Spleen.
+i douleurs fixes ; règles avec caillots ; circulation difficile || fixed pains; clotted periods; poor circulation
+t stase-sang
+x Grossesse, règles abondantes, anticoagulants. || Pregnancy, heavy periods, anticoagulants.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@qgh | QGH | 清肝火 | chaleur | jz
+n QGH, clarifier le Feu du Foie (JZ) || QGH, Clear Liver Fire (JZ)
+c Dang Gui : 264 mg ; Zhi Zi : 264 mg ; Gentiane jaune : 264 mg ; Huang Qin : 144 mg ; Huang Lian : 144 mg ; Jiang Huang : 120 mg
+a Clarifie le Feu et la Chaleur du Foie et de la Vésicule biliaire. || Clears Fire and Heat from the Liver and Gallbladder.
+i irritabilité ; maux de tête ; yeux rouges ; goût amer ; insomnie || irritability; headaches; red eyes; bitter taste; insomnia
+t f-feu, f-humidite-chaleur
+x Digestion froide et faible ; grossesse. || Cold, weak digestion; pregnancy.
+o Composition JZ pour la dose du jour (gentiane européenne au lieu de Long Dan Cao). || JZ composition for the daily dose (European gentian instead of Long Dan Cao).
+
+@sedum-plus | Sedum Plus | — | humidite | jz
+n Sedum Plus (formule maison JZ) || Sedum Plus (JZ house formula)
+c Chardon-Marie : 300 mg ; Yin Chen : 300 mg ; Gou Qi Zi : 300 mg ; Huang Qin : 200 mg ; Jue Ming Zi : 100 mg
+a Clarifie la Chaleur, draine l'Humidité, soutient le Foie. || Clears Heat, drains Dampness, supports the Liver.
+i digestion des graisses difficile ; foie surchargé ; goût amer || trouble digesting fats; overloaded liver; bitter taste
+t f-humidite-chaleur
+x Grossesse ; digestion froide. || Pregnancy; cold digestion.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@tong-mai | Tong Mai | 通脉 | sang | jz
+n Tong Mai, veinotonique (JZ) || Tong Mai, vein tonic (JZ)
+c Dang Shen : 200 mg ; Bai Shao : 200 mg ; Dang Gui : 200 mg ; Niu Xi : 200 mg ; Hong Hua : 200 mg ; Mai Men Dong : 200 mg
+a Tonifie le Qi, nourrit le Yin, fait circuler le Sang vers les jambes. || Tonifies Qi, nourishes Yin, moves Blood to the legs.
+i jambes lourdes ; varices (accompagnement) ; mauvaise circulation des membres inférieurs || heavy legs; varicose veins (support); poor circulation in the legs
+t stase-sang, qi-sang
+x Grossesse, anticoagulants. || Pregnancy, anticoagulants.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@yang-wei-cha | Yang Wei Cha | 养胃茶 | secheresse | jz
+n Yang Wei Cha, thé qui nourrit l'Estomac (JZ) || Yang Wei Cha, Stomach-Nourishing Tea (JZ)
+c Bai Shao : 327 mg ; Shan Zha : 262 mg ; Dang Gui : 219 mg ; Hong Hua : 196 mg ; Chen Pi : 131 mg ; Wu Mei : 65 mg
+a Nourrit le Yin et harmonise l'Estomac. || Nourishes Yin and harmonizes the Stomach.
+i brûlures et acidité d'estomac sur terrain sec ; faim sans appétit ; digestion inconfortable || heartburn and acidity in a dry constitution; hunger without appetite; uncomfortable digestion
+t e-vide-yin
+x Grossesse (Hong Hua). || Pregnancy (Hong Hua).
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@mcl | MCL | — | surface | jz
+n MCL, libérer la surface (JZ) || MCL, Release the Exterior (JZ)
+c Grande camomille : 300 mg ; Lian Qiao : 300 mg ; Menthe poivrée : 200 mg
+a Libère la surface, chasse le Vent, clarifie la Chaleur et les toxines. || Releases the exterior, dispels Wind, clears Heat and toxins.
+i début de rhume avec chaleur ; gorge irritée ; maux de tête || onset of a cold with heat; irritated throat; headache
+t p-vent-chaleur
+x Allergie aux Astéracées ; grossesse. || Allergy to the daisy family; pregnancy.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@zpg | ZPG | 正培固 | yang | jz
+n ZPG, renforcer le Qi correct (JZ) || ZPG, Strengthen Upright Qi (JZ)
+c Ling Zhi : 536 mg ; Shan Zhu Yu : 400 mg ; Sheng Jiang : 264 mg
+a Tiédit le Yang, nourrit le Jing, le Qi et le Sang, renforce les défenses. || Warms Yang, nourishes Jing, Qi and Blood, strengthens defenses.
+i fatigue ; frilosité ; infections à répétition || fatigue; feeling cold; recurrent infections
+t rn-vide-yang, p-vide-qi
+x Chaleur. || Heat.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@qsl | QSL | — | humidite | jz
+n QSL, renforcer la Rate et éliminer l'Humidité (JZ) || QSL, Strengthen the Spleen and Drain Dampness (JZ)
+c Fu Ling : 300 mg ; Yi Yi Ren : 300 mg ; Bai Shao : 200 mg ; Rou Gui : 200 mg ; Ze Xie : 200 mg
+a Tonifie la Rate, tiédit le Yang, draine l'Humidité. || Tonifies the Spleen, warms Yang, drains Dampness.
+i rétention d'eau ; jambes lourdes ; selles molles ; fatigue après les repas || water retention; heavy legs; loose stools; fatigue after meals
+t rt-froid-humidite, rate-rein-yang
+x Vide de Yin, Chaleur ; grossesse. || Yin deficiency, Heat; pregnancy.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@shou-sheng | Shou Sheng | 瘦身 | humidite | jz
+n Shou Sheng, équilibre du poids (JZ) || Shou Sheng, Weight Balance (JZ)
+c Chen Pi : 130 mg ; Hou Po : 130 mg ; Dang Shen : 120 mg ; Ze Xie : 120 mg ; Bai Shao : 120 mg ; Shan Zha : 120 mg ; Fu Ling : 120 mg ; He Ye : 120 mg ; Sang Shen : 80 mg ; Da Huang : 70 mg ; Jue Ming Zi : 70 mg
+a Tonifie le Qi de la Rate, assèche l'Humidité, libère le Foie, aide l'élimination. || Tonifies Spleen Qi, dries Dampness, frees the Liver, aids elimination.
+i surpoids avec Humidité ; ballonnements ; digestion lourde ; constipation || excess weight with Dampness; bloating; heavy digestion; constipation
+t rt-froid-humidite, e-stagnation-alimentaire
+x Grossesse, allaitement ; diarrhée (Da Huang) ; pas en continu. || Pregnancy, breastfeeding; diarrhea (Da Huang); not for continuous use.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@synergie-3 | Synergie 3 | — | qi-tonif | jz
+n Synergie 3 (formule maison JZ) || Synergie 3 (JZ house formula)
+c Ren Shen : 840 mg ; San Qi : 240 mg ; Dong Chong Xia Cao : 120 mg
+a Tonifie le Qi, le Rein et le Poumon, consolide le Jing, fait circuler le Sang. || Tonifies Qi, the Kidney and Lung, consolidates Jing, moves Blood.
+i grande fatigue ; convalescence ; souffle court ; baisse des défenses || great fatigue; convalescence; shortness of breath; low defenses
+t p-vide-qi, rn-recevoir-qi, qi-sang
+x Hypertension, insomnie (ginseng) ; anticoagulants (San Qi) ; grossesse. || Hypertension, insomnia (ginseng); anticoagulants (San Qi); pregnancy.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@c-tonic | C-Tonic | — | sang | jz
+n C-Tonic (formule maison JZ) || C-Tonic (JZ house formula)
+c San Qi : 480 mg ; Dang Gui : 480 mg ; Bai Shao : 240 mg
+a Fait circuler le Sang, élimine les stases, nourrit le Sang. || Moves Blood, clears stasis, nourishes Blood.
+i circulation difficile ; douleurs fixes ; oppression de poitrine (accompagnement) || poor circulation; fixed pains; chest oppression (support)
+t stase-sang
+x Anticoagulants, grossesse ; toute douleur de poitrine doit être vue en urgence. || Anticoagulants, pregnancy; any chest pain needs urgent medical care.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@yi-zhi | Yi Zhi | 益智 | calmer | jz
+n Yi Zhi, nourrir l'Esprit (JZ) || Yi Zhi, Nourish the Mind (JZ)
+c Ci Wu Jia : 600 mg ; Wu Wei Zi : 600 mg
+a Tonifie le Foie et le Rein, nourrit le Jing, calme l'Esprit, génère les liquides. || Tonifies the Liver and Kidney, nourishes Jing, calms the mind, generates fluids.
+i fatigue mentale ; concentration difficile ; sommeil peu réparateur ; examens, surmenage || mental fatigue; poor concentration; unrefreshing sleep; exams, overwork
+t coeur-rein, rn-jing
+x Hypertension non contrôlée ; fièvre. || Uncontrolled hypertension; fever.
+o Composition JZ pour la dose du jour. || JZ composition for the daily dose.
+
+@xiao-feng-tang-jz | Xiao Feng Tang | 消风汤 | chaleur | jz
+n Petite décoction qui élimine le Vent (version JZ) || Eliminate Wind Decoction (JZ version)
+c Graines de lin : 100 mg ; Dang Gui : 100 mg ; Jing Jie : 100 mg ; Sheng Di Huang : 100 mg ; Racine de bardane : 100 mg ; Fang Feng : 100 mg ; Tian Ma : 100 mg ; Shan Yao : 100 mg ; Zhi Mu : 100 mg ; Huai Hua : 100 mg ; Bo He : 50 mg ; Gan Cao : 50 mg
+a Chasse le Vent et l'Humidité, nourrit le Sang, régularise le Qi. || Dispels Wind and Dampness, nourishes Blood, regulates Qi.
+i démangeaisons ; peau irritée ; urticaire légère || itching; irritated skin; mild hives
+t peau-vent-chaleur, peau-vide-sang
+x Grossesse. || Pregnancy.
+o Composition JZ pour la dose du jour, différente de Xiao Feng San. || JZ composition for the daily dose, different from Xiao Feng San.

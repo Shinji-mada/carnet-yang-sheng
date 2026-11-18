@@ -1,0 +1,1702 @@
+{
+ "categories_formules": [
+  {
+   "id": "surface",
+   "nom": "Release the exterior"
+  },
+  {
+   "id": "chaleur",
+   "nom": "Clear Heat"
+  },
+  {
+   "id": "purger",
+   "nom": "Purge, moisten the intestines"
+  },
+  {
+   "id": "harmoniser",
+   "nom": "Harmonize"
+  },
+  {
+   "id": "rechauffer",
+   "nom": "Warm the interior"
+  },
+  {
+   "id": "qi-tonif",
+   "nom": "Tonify Qi"
+  },
+  {
+   "id": "sang-tonif",
+   "nom": "Nourish Blood, Qi and Blood"
+  },
+  {
+   "id": "yin",
+   "nom": "Nourish Yin"
+  },
+  {
+   "id": "yang",
+   "nom": "Tonify Yang"
+  },
+  {
+   "id": "astringent",
+   "nom": "Stabilize and bind"
+  },
+  {
+   "id": "calmer",
+   "nom": "Calm the Shen"
+  },
+  {
+   "id": "qi",
+   "nom": "Regulate Qi"
+  },
+  {
+   "id": "sang",
+   "nom": "Regulate Blood"
+  },
+  {
+   "id": "vent",
+   "nom": "Treat Wind"
+  },
+  {
+   "id": "secheresse",
+   "nom": "Treat dryness"
+  },
+  {
+   "id": "humidite",
+   "nom": "Expel Dampness"
+  },
+  {
+   "id": "mucosites",
+   "nom": "Transform Phlegm"
+  },
+  {
+   "id": "digestion",
+   "nom": "Reduce food stagnation"
+  }
+ ],
+ "formules": [
+  {
+   "id": "gui-zhi-tang",
+   "nom": "Cinnamon Twig Decoction",
+   "act": "Releases the muscle layer, harmonizes Ying and Wei (nutritive and defensive Qi).",
+   "ind": "cold with chills and light sweating that brings no relief; stiff neck; clear runny nose; spontaneous sweating in a tired constitution",
+   "ci": "High fever without sweating, thirst, red throat (Heat)."
+  },
+  {
+   "id": "jing-fang-bai-du-san",
+   "nom": "Schizonepeta and Saposhnikovia Powder to Overcome Pathogenic Influences",
+   "act": "Releases the exterior, dispels Wind-Cold and Dampness, eases pain.",
+   "ind": "cold or onset of flu with chills; body aches and heaviness; headache; blocked nose; cough without high fever",
+   "ci": "Wind-Heat colds (red sore throat, fever, thirst); Yin deficiency."
+  },
+  {
+   "id": "gan-mao-qing-re",
+   "nom": "Common Cold Heat-Clearing Granules",
+   "act": "Dispels Wind, releases the exterior, clears early Heat.",
+   "ind": "cold with chills and mild fever; headache; body aches; runny nose; dry throat",
+   "ci": "High fever, very inflamed throat (Yin Qiao is a better choice)."
+  },
+  {
+   "id": "gan-mao-tui-re",
+   "nom": "Common Cold Fever-Reducing Granules",
+   "act": "Clears Heat, resolves toxicity, cools the throat.",
+   "ind": "Wind-Heat cold with fever; red sore throat; swollen tonsils; thirst",
+   "ci": "Wind-Cold colds (chills dominate, clear nasal discharge); weak digestion, loose stools (very cold herbs); short courses only."
+  },
+  {
+   "id": "yin-qiao-san",
+   "nom": "Honeysuckle and Forsythia Powder",
+   "act": "Releases the exterior with cool herbs, clears Heat, resolves toxicity.",
+   "ind": "cold or flu with fever and few chills; red sore throat; thirst; cough; headache; early tonsillitis",
+   "ci": "Wind-Cold colds; take in the first days, short course.",
+   "note": "Calebasse sells it as Yin Qiao Pian and Yin Qiao Jie Du Pian."
+  },
+  {
+   "id": "sang-ju-yin",
+   "nom": "Mulberry Leaf and Chrysanthemum Drink",
+   "act": "Dispels Wind-Heat, makes Lung Qi descend, stops cough.",
+   "ind": "dry or slightly productive cough at the start of a cold; mild fever; scratchy throat; slight thirst",
+   "ci": "Cold-type cough (abundant white phlegm)."
+  },
+  {
+   "id": "yu-ping-feng-san",
+   "nom": "Jade Windscreen Powder",
+   "act": "Tonifies Qi, secures the exterior (defensive Qi), stops sweating.",
+   "ind": "recurrent colds; sweating at the slightest effort; aversion to drafts; seasonal allergies in a tired constitution",
+   "ci": "An active cold with fever (treat the cold first); night sweats from Yin deficiency."
+  },
+  {
+   "id": "chuan-xiong-cha-tiao-san",
+   "nom": "Ligusticum Powder Taken with Green Tea",
+   "act": "Dispels Wind, relieves headache.",
+   "ind": "Wind headaches (forehead, temples, vertex); headache from a cold; migraines brought on by cold or wind; blocked nose",
+   "ci": "Headaches from Qi or Blood deficiency or rising Liver Yang; pregnancy."
+  },
+  {
+   "id": "bi-yan-pian",
+   "nom": "Nose Tablets (Respiration formula)",
+   "act": "Dispels Wind, opens the nose, clears Heat.",
+   "ind": "blocked nose; rhinitis, sinusitis; thick discharge; sneezing; loss of smell",
+   "ci": "Pregnancy; Cang Er Zi is mildly toxic: no long courses.",
+   "note": "Calebasse sells it as \"Formule Respiration\"."
+  },
+  {
+   "id": "lian-hua-qing-wen",
+   "nom": "Forsythia and Honeysuckle Epidemic-Clearing Capsules",
+   "act": "Clears epidemic Heat, resolves toxicity, opens the Lung.",
+   "ind": "flu or viral infection with fever; body aches; cough; sore throat; headache",
+   "ci": "The Chinese formula contains Ma Huang (ephedra): hypertension, heart rhythm problems, glaucoma, insomnia; pregnancy; weak digestion; short course.",
+   "note": "Check the label: the European version may be ephedra-free."
+  },
+  {
+   "id": "tong-xuan-li-fei",
+   "nom": "Lung-Opening and Regulating Pills",
+   "act": "Releases the exterior, opens the Lung, stops cough.",
+   "ind": "cough with a Wind-Cold cold; clear phlegm; blocked nose; chills, body aches",
+   "ci": "Contains Ma Huang (ephedra): hypertension, heart problems, insomnia; pregnancy; dry cough from Yin deficiency."
+  },
+  {
+   "id": "wu-shi-cha",
+   "nom": "Noon Tea",
+   "act": "Releases the exterior, transforms Dampness, harmonizes the Stomach and aids digestion.",
+   "ind": "cold with digestive upset; nausea; bloating; diarrhea; heavy meal at the start of a cold",
+   "ci": "Yin deficiency, dryness; pregnancy."
+  },
+  {
+   "id": "bao-ji-wan",
+   "nom": "Protecting and Rescuing Pills (Po Chai)",
+   "act": "Dispels Wind and Dampness, harmonizes the Stomach and Intestines.",
+   "ind": "gastroenteritis; traveler's diarrhea; nausea, vomiting; bloating; motion sickness; damp summer-heat",
+   "ci": "Pregnancy; bloody diarrhea or high fever (see a doctor).",
+   "note": "Sold as \"Po Chai Pills\"."
+  },
+  {
+   "id": "huo-xiang-zheng-qi-san",
+   "nom": "Agastache Powder to Rectify the Qi",
+   "act": "Releases the exterior, transforms Dampness, harmonizes the Middle, stops vomiting and diarrhea.",
+   "ind": "summer stomach flu with chills; nausea, vomiting; diarrhea; bloated belly; heavy body; white greasy coating",
+   "ci": "Yin deficiency, Heat with thirst and a red tongue without coating."
+  },
+  {
+   "id": "huang-lian-jie-du-tang",
+   "nom": "Coptis Decoction to Resolve Toxicity",
+   "act": "Drains Fire from all three Burners, resolves toxicity.",
+   "ind": "intense Heat: agitation, insomnia; dry mouth; boils, pus-filled pimples; nosebleeds; dark urine",
+   "ci": "Very cold and bitter: never as a long course; weak digestion, Yin deficiency; pregnancy."
+  },
+  {
+   "id": "qing-wei-san",
+   "nom": "Clear the Stomach Powder",
+   "act": "Clears Stomach Fire, cools the Blood.",
+   "ind": "swollen, painful or bleeding gums; toothache spreading to the head; bad breath; dry lips; mouth ulcers; acne on the lower face",
+   "ci": "Toothache from Cold or deficiency; weak digestion."
+  },
+  {
+   "id": "yu-nu-jian",
+   "nom": "Jade Woman Decoction",
+   "act": "Clears Stomach Heat, nourishes Kidney Yin.",
+   "ind": "bleeding gums; loose teeth; thirst; dry mouth and lips; headache; excessive hunger in a dry constitution",
+   "ci": "Diarrhea, weak digestion."
+  },
+  {
+   "id": "xie-huang-san",
+   "nom": "Drain the Yellow Powder",
+   "act": "Clears smoldering Heat from the Spleen and Stomach.",
+   "ind": "dry, red or chapped lips; mouth ulcers; bad breath; thirst; frequent hunger; red tongue",
+   "ci": "Dry lips from Yin deficiency without Heat; weak digestion."
+  },
+  {
+   "id": "dao-chi-san",
+   "nom": "Guide Out the Red Powder",
+   "act": "Clears Heart Fire and drains it out through the urine, nourishes Yin.",
+   "ind": "ulcers on the mouth or tongue; agitation; insomnia; red face; dark burning urine",
+   "ci": "Weak digestion.",
+   "note": "The original formula uses Mu Tong; it is replaced by Tong Cao (Aristolochia species are banned)."
+  },
+  {
+   "id": "long-dan-xie-gan-tang",
+   "nom": "Gentian Decoction to Drain the Liver",
+   "act": "Drains Liver and Gallbladder Fire, clears Damp-Heat from the lower body.",
+   "ind": "headache, red eyes; bitter taste; anger, irritability; tinnitus; genital itching or yellow discharge; burning urination; herpes, shingles",
+   "ci": "Very cold: short course (2 to 3 weeks); weak digestion; pregnancy.",
+   "note": "Mu Tong replaced by Tong Cao (Aristolochia banned)."
+  },
+  {
+   "id": "xie-bai-san",
+   "nom": "Drain the White Powder",
+   "act": "Clears Lung Heat, stops cough and wheezing.",
+   "ind": "dry cough with skin heat in the afternoon; wheezing; acne of the forehead and nose from Lung Heat",
+   "ci": "Cold-type cough or an active cold."
+  },
+  {
+   "id": "pi-pa-qing-fei-yin",
+   "nom": "Loquat Leaf Drink to Clear the Lung",
+   "act": "Clears Lung and Stomach Heat rising to the face.",
+   "ind": "red acne of the face, nose and forehead; oily skin; redness; slight thirst",
+   "ci": "Pale, cold acne in a tired constitution; weak digestion."
+  },
+  {
+   "id": "wu-wei-xiao-du-yin",
+   "nom": "Five-Ingredient Decoction to Eliminate Toxins",
+   "act": "Clears Heat, resolves toxicity, reduces abscesses.",
+   "ind": "boils; pus-filled pimples; early abscesses; inflammatory acne",
+   "ci": "Abscesses without Heat; weak digestion; see a doctor for spreading redness or fever."
+  },
+  {
+   "id": "xiao-feng-san",
+   "nom": "Eliminate Wind Powder",
+   "act": "Dispels Wind, clears Heat and Dampness, nourishes Blood, stops itching.",
+   "ind": "eczema; hives; itching; red weeping patches; flare-ups after spicy food",
+   "ci": "Weak digestion; avoid fish, alcohol and spices during the course."
+  },
+  {
+   "id": "dang-gui-yin-zi",
+   "nom": "Tangkuei Drink",
+   "act": "Nourishes Blood, dispels Wind, stops itching.",
+   "ind": "dry itchy skin, worse at night; fine scales; chronic dry eczema; itching in older people",
+   "ci": "Red, weeping patches (Damp-Heat)."
+  },
+  {
+   "id": "shi-du-qing",
+   "nom": "Damp-Toxin Clearing Capsules",
+   "act": "Nourishes Blood, moistens dryness, clears damp toxicity from the skin.",
+   "ind": "itching of dry skin; chronic eczema; dull, irritated skin",
+   "ci": "Pregnancy; weak digestion (diarrhea).",
+   "note": "Calebasse composition for the daily dose (a simplified version of the Chinese formula)."
+  },
+  {
+   "id": "bai-hu-tang",
+   "nom": "White Tiger Decoction",
+   "act": "Clears Heat from the Stomach and Lung, generates fluids.",
+   "ind": "high fever; great thirst for cool water; profuse sweating; red face; flooding pulse",
+   "ci": "Fever without thirst or sweating; Yang deficiency; for practitioners only."
+  },
+  {
+   "id": "ge-gen-qin-lian-tang",
+   "nom": "Kudzu, Scutellaria and Coptis Decoction",
+   "act": "Clears Damp-Heat from the intestines, stops diarrhea.",
+   "ind": "hot, foul-smelling, urgent diarrhea; burning anus; mild fever; thirst",
+   "ci": "Cold or deficiency diarrhea; see a doctor if there is blood or high fever."
+  },
+  {
+   "id": "bai-tou-weng-tang",
+   "nom": "Pulsatilla Decoction",
+   "act": "Clears toxic Heat, cools the Blood, stops dysentery.",
+   "ind": "diarrhea with mucus or blood; urgency; burning anus; thirst",
+   "ci": "Cold-type diarrhea; any diarrhea with blood must be seen by a doctor."
+  },
+  {
+   "id": "xiang-lian-wan",
+   "nom": "Aucklandia and Coptis Pills",
+   "act": "Clears intestinal Damp-Heat, moves Qi, eases pain.",
+   "ind": "hot diarrhea with cramps; urgency; bloating; colitis",
+   "ci": "Cold or deficiency diarrhea.",
+   "note": "Powder proportions (4 parts Coptis to 1 part Aucklandia)."
+  },
+  {
+   "id": "ma-zi-ren-wan",
+   "nom": "Hemp Seed Pills",
+   "act": "Moistens the intestines, promotes descent, frees the stools.",
+   "ind": "constipation with dry, hard stools; frequent urination; constipation in older people or after an illness",
+   "ci": "Pregnancy; constipation from Qi deficiency or Cold; not for continuous use."
+  },
+  {
+   "id": "run-chang-wan",
+   "nom": "Moisten the Intestines Pills",
+   "act": "Nourishes Blood, moistens the intestines, frees the stools.",
+   "ind": "constipation with dry stools; dry skin and mouth; constipation after childbirth or in older people",
+   "ci": "Pregnancy (Tao Ren); diarrhea."
+  },
+  {
+   "id": "zeng-ye-tang",
+   "nom": "Increase the Fluids Decoction",
+   "act": "Nourishes Yin, generates fluids, moistens the intestines.",
+   "ind": "dry constipation; dry mouth and lips; thirst; red, dry tongue",
+   "ci": "Weak digestion, loose stools."
+  },
+  {
+   "id": "ji-chuan-jian",
+   "nom": "Benefit the River Decoction",
+   "act": "Warms the Kidney, nourishes Blood, moistens the intestines.",
+   "ind": "constipation in older or tired people; cold lower back; abundant clear urine",
+   "ci": "Constipation from Heat."
+  },
+  {
+   "id": "xiao-chai-hu-tang",
+   "nom": "Minor Bupleurum Decoction",
+   "act": "Harmonizes the Shao Yang, between exterior and interior.",
+   "ind": "alternating chills and fever; bitter taste; dry throat; nausea; fullness under the ribs; lingering cold; fatigue after an infection",
+   "ci": "Yin deficiency with Fire; hypertension (high-dose Chai Hu)."
+  },
+  {
+   "id": "si-ni-san",
+   "nom": "Frigid Extremities Powder",
+   "act": "Spreads Liver Qi, harmonizes the Liver and Spleen.",
+   "ind": "cold hands and feet with stress (blocked Qi no longer reaches the limbs); pain under the ribs; tense belly; digestive troubles tied to emotions",
+   "ci": "Cold hands from Yang deficiency; Yin deficiency."
+  },
+  {
+   "id": "xiao-yao-san",
+   "nom": "Free and Easy Wanderer Powder",
+   "act": "Spreads Liver Qi, strengthens the Spleen, nourishes Blood.",
+   "ind": "stress, irritability, mood swings; breast tenderness before periods; irregular periods; fatigue; irregular appetite; sighing",
+   "ci": "Yin deficiency with marked Heat; hypertension from rising Liver Yang."
+  },
+  {
+   "id": "jia-wei-xiao-yao-san",
+   "nom": "Augmented Free and Easy Wanderer Powder (Dan Zhi Xiao Yao San)",
+   "act": "Spreads Liver Qi, clears Heat, nourishes Blood, strengthens the Spleen.",
+   "ind": "stress turning to Heat: irritability, hot flushes; early periods; breast tenderness; acne before periods; dry mouth; insomnia",
+   "ci": "Weak digestion with loose stools; pregnancy without advice.",
+   "note": "Calebasse sells it under both names (Dan Zhi Xiao Yao San and Jia Wei Xiao Yao San)."
+  },
+  {
+   "id": "chai-hu-shu-gan-san",
+   "nom": "Bupleurum Powder to Spread the Liver",
+   "act": "Spreads Liver Qi, moves Qi, eases pain.",
+   "ind": "pain or tension under the ribs; chest oppression; sighing; bloating; breast tenderness; low mood",
+   "ci": "Yin deficiency; pregnancy without advice.",
+   "note": "Calebasse: Chai Hu Shu Gan Wan; Planeta Verd: Chai Hu Shu Gan Pian."
+  },
+  {
+   "id": "chai-hu-gui-zhi-tang",
+   "nom": "Bupleurum and Cinnamon Twig Decoction",
+   "act": "Harmonizes the Shao Yang, releases the exterior, relaxes the muscles.",
+   "ind": "lingering cold with body aches; stress-related stomach pain; nausea; mild chills",
+   "ci": "Yin deficiency with Heat."
+  },
+  {
+   "id": "chai-hu-gui-zhi-gan-jiang",
+   "nom": "Bupleurum, Cinnamon Twig and Ginger Decoction",
+   "act": "Harmonizes the Shao Yang, warms the Spleen, clears Heat above.",
+   "ind": "heat above and cold below: dry mouth, bitter taste, with loose stools; sweating of the head; fatigue; fullness under the ribs",
+   "ci": "Pregnancy without advice."
+  },
+  {
+   "id": "chai-hu-long-gu-mu-li",
+   "nom": "Bupleurum plus Dragon Bone and Oyster Shell Decoction",
+   "act": "Harmonizes the Shao Yang, calms the Shen, settles palpitations.",
+   "ind": "anxiety, fears; palpitations; insomnia; irritability; chest oppression; easily startled",
+   "ci": "Pregnancy; diarrhea (Da Huang).",
+   "note": "The original formula contains lead oxide: it is removed from all modern versions."
+  },
+  {
+   "id": "tong-xie-yao-fang",
+   "nom": "Important Formula for Painful Diarrhea",
+   "act": "Restrains the Liver, strengthens the Spleen, stops painful diarrhea.",
+   "ind": "cramps and urgent need for the toilet under stress; pain relieved after the stool; irritable bowel",
+   "ci": "Heat diarrhea (burning, foul-smelling).",
+   "note": "Also called Bai Zhu Shao Yao San (Calebasse's name)."
+  },
+  {
+   "id": "ban-xia-xie-xin-tang",
+   "nom": "Pinellia Decoction to Drain the Epigastrium",
+   "act": "Harmonizes the Stomach, directs rebellious Qi downward, dissolves fullness with warm and cool herbs.",
+   "ind": "fullness below the breastbone without pain; nausea, vomiting; rumbling bowels; diarrhea; mixed yellow and white coating",
+   "ci": "Pure food stagnation; Yin deficiency."
+  },
+  {
+   "id": "shao-yao-gan-cao-tang",
+   "nom": "Peony and Licorice Decoction",
+   "act": "Nourishes Blood and Yin, relaxes the tendons, eases painful spasms.",
+   "ind": "calf cramps; stomach or belly spasms; cramping painful periods",
+   "ci": "Edema, hypertension (licorice on long courses); Dampness."
+  },
+  {
+   "id": "li-zhong-wan",
+   "nom": "Regulate the Middle Pills",
+   "act": "Warms the Middle, strengthens the Spleen and Stomach.",
+   "ind": "cold, painful belly relieved by warmth; watery diarrhea; vomiting; no thirst; cold hands; fatigue",
+   "ci": "Heat, fever; Yin deficiency; pregnancy without advice."
+  },
+  {
+   "id": "xiao-jian-zhong-tang",
+   "nom": "Minor Construct the Middle Decoction",
+   "act": "Warms and tonifies the Middle, eases painful spasms.",
+   "ind": "cramping stomach pain relieved by warmth and pressure; fatigue; palpitations; cold hands and feet; pale complexion",
+   "ci": "Vomiting, Dampness or Heat; diabetes (malt sugar)."
+  },
+  {
+   "id": "huang-qi-jian-zhong-tang",
+   "nom": "Astragalus Decoction to Construct the Middle",
+   "act": "Tonifies Qi, warms the Middle, eases pain.",
+   "ind": "Deficiency-Cold stomach pain with great fatigue; stomach ulcer in a tired constitution; spontaneous sweating",
+   "ci": "Heat, Dampness; diabetes."
+  },
+  {
+   "id": "wu-zhu-yu-tang",
+   "nom": "Evodia Decoction",
+   "act": "Warms the Liver and Stomach, directs rebellion downward, stops vomiting.",
+   "ind": "clear vomiting; cold-type acid reflux; vertex headache with nausea; cold hands and feet",
+   "ci": "Reflux or vomiting from Heat (bitter taste, thirst)."
+  },
+  {
+   "id": "dang-gui-si-ni-tang",
+   "nom": "Tangkuei Decoction for Frigid Extremities",
+   "act": "Warms the channels, dispels Cold, nourishes Blood.",
+   "ind": "icy hands and feet; fingers turning white in the cold (Raynaud's); cold-type painful periods; limb pain in the cold",
+   "ci": "Heat; pregnancy without advice."
+  },
+  {
+   "id": "nuan-gan-jian",
+   "nom": "Warm the Liver Decoction",
+   "act": "Warms the Liver and Kidney, moves Qi, eases pain.",
+   "ind": "cold pain in the lower belly or testicles; hernia; pain worse with cold",
+   "ci": "Heat, Damp-Heat."
+  },
+  {
+   "id": "tiao-wei-dan",
+   "nom": "Regulate the Stomach Pills",
+   "act": "Warms the Middle, moves Stomach Qi.",
+   "ind": "cold, heavy stomach; slow digestion; bloating after meals; belching; pain eased by warmth",
+   "ci": "Heat-type reflux, Yin deficiency; pregnancy.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "si-jun-zi-tang",
+   "nom": "Four Gentlemen Decoction",
+   "act": "Tonifies Qi, strengthens the Spleen.",
+   "ind": "fatigue; poor appetite; loose stools; weak voice; pale complexion",
+   "ci": "Heat, Yin deficiency.",
+   "note": "Dang Shen (15 g) often replaces Ren Shen."
+  },
+  {
+   "id": "liu-jun-zi-tang",
+   "nom": "Six Gentlemen Decoction",
+   "act": "Tonifies Spleen Qi, transforms Phlegm.",
+   "ind": "fatigue with nausea; poor appetite; bloating; phlegm; loose stools",
+   "ci": "Yin deficiency, dryness."
+  },
+  {
+   "id": "xiang-sha-liu-jun-zi",
+   "nom": "Six Gentlemen Decoction with Aucklandia and Amomum",
+   "act": "Tonifies the Spleen, moves Qi, transforms Dampness, harmonizes the Stomach.",
+   "ind": "bloating and heaviness after meals; nausea; belching; poor appetite; loose stools",
+   "ci": "Yin deficiency, dryness."
+  },
+  {
+   "id": "shen-ling-bai-zhu-san",
+   "nom": "Ginseng, Poria and Atractylodes Powder",
+   "act": "Tonifies Spleen Qi, drains Dampness, stops diarrhea.",
+   "ind": "chronic loose stools; diarrhea after meals; fatigue; heavy limbs; poor appetite; white vaginal discharge",
+   "ci": "Constipation, Yin deficiency."
+  },
+  {
+   "id": "bu-zhong-yi-qi-tang",
+   "nom": "Tonify the Middle and Augment the Qi Decoction",
+   "act": "Tonifies Middle Qi, lifts sinking Yang.",
+   "ind": "great fatigue; organ prolapse; hemorrhoids; chronic diarrhea; overly long periods; low-grade fever from exhaustion; spontaneous sweating",
+   "ci": "Yin deficiency with Heat; hypertension, rising Liver Yang."
+  },
+  {
+   "id": "sheng-mai-yin",
+   "nom": "Generate the Pulse Drink",
+   "act": "Tonifies Qi, nourishes Yin, stops sweating.",
+   "ind": "fatigue with dry mouth; heavy sweating; shortness of breath; palpitations; chronic dry cough; exhaustion after heat",
+   "ci": "An active cold, strong Heat, productive cough."
+  },
+  {
+   "id": "bu-fei-tang",
+   "nom": "Tonify the Lung Decoction",
+   "act": "Tonifies Lung Qi, stops cough and breathlessness.",
+   "ind": "breathlessness on exertion; weak chronic cough; weak voice; spontaneous sweating; recurrent colds",
+   "ci": "An active cold, Heat cough with yellow phlegm."
+  },
+  {
+   "id": "shen-qi-wan",
+   "nom": "Codonopsis and Astragalus Pills",
+   "act": "Tonifies Spleen and Lung Qi.",
+   "ind": "fatigue; low drive; frequent colds; poor appetite",
+   "ci": "Heat, an active cold.",
+   "note": "Not to be confused with Jin Gui Shen Qi Wan (金匮肾气丸), a Kidney Yang formula."
+  },
+  {
+   "id": "zi-sheng-wan",
+   "nom": "Nourish Life Pills",
+   "act": "Strengthens the Spleen, drains Dampness, aids digestion.",
+   "ind": "slow digestion; bloating; loose stools; fatigue after meals; pregnancy nausea (under advice)",
+   "ci": "Yin deficiency, dryness."
+  },
+  {
+   "id": "bu-pi-yi-chang",
+   "nom": "Tonify the Spleen and Benefit the Intestines Pills",
+   "act": "Tonifies Spleen Qi, relaxes the Liver, soothes the belly.",
+   "ind": "chronic diarrhea; belly sensitive to stress; pain eased after the stool; fatigue",
+   "ci": "Heat or infectious diarrhea.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "long-mu-zhuang-gu",
+   "nom": "Strengthen the Bones Granules (Calebasse version)",
+   "act": "Tonifies Spleen and Lung Qi, preserves Yin.",
+   "ind": "fatigue; irregular appetite; easy sweating; restless sleep (often in children)",
+   "ci": "A cold with fever.",
+   "note": "Calebasse composition for the daily dose; the original Chinese formula also contains dragon bone and oyster shell."
+  },
+  {
+   "id": "si-wu-tang",
+   "nom": "Four Substances Decoction",
+   "act": "Nourishes and moves Blood, regulates menstruation.",
+   "ind": "pale complexion; dizziness; scanty or late periods; brittle nails; failing eyesight; numbness",
+   "ci": "Very weak digestion, loose stools (Shu Di is heavy); heavy bleeding."
+  },
+  {
+   "id": "tao-hong-si-wu-tang",
+   "nom": "Four Substances Decoction with Peach Kernel and Safflower",
+   "act": "Nourishes Blood and breaks up stasis.",
+   "ind": "painful periods with dark clots; late periods; fixed pain; dull complexion",
+   "ci": "Pregnancy; heavy periods; anticoagulants."
+  },
+  {
+   "id": "ba-zhen-tang",
+   "nom": "Eight Treasure Decoction",
+   "act": "Tonifies Qi and Blood.",
+   "ind": "fatigue with pale complexion; dizziness; palpitations; shortness of breath; convalescence; after childbirth",
+   "ci": "Heat, an active cold, very sluggish digestion."
+  },
+  {
+   "id": "shi-quan-da-bu-tang",
+   "nom": "All-Inclusive Great Tonifying Decoction",
+   "act": "Warms and tonifies Qi and Blood.",
+   "ind": "deep exhaustion; feeling cold; pale complexion; long convalescence; slow-healing wounds",
+   "ci": "Heat, Yin deficiency, an active cold."
+  },
+  {
+   "id": "yang-rong-wan",
+   "nom": "Ginseng Nourish the Nutritive Qi Pills (Yang Rong Wan)",
+   "act": "Tonifies Qi and Blood, nourishes the Heart, calms the Shen.",
+   "ind": "fatigue with palpitations; poor memory; insomnia; pale complexion; shortness of breath",
+   "ci": "Heat, Yin deficiency."
+  },
+  {
+   "id": "nong-suo-yang-rong",
+   "nom": "Concentrated Nourish the Nutritive Qi Pills",
+   "act": "Tonifies Qi and Blood, calms the Shen.",
+   "ind": "fatigue; light sleep; palpitations; pale complexion; poor memory",
+   "ci": "Heat, Yin deficiency.",
+   "note": "Calebasse composition for 6 g."
+  },
+  {
+   "id": "gui-pi-tang",
+   "nom": "Restore the Spleen Decoction",
+   "act": "Tonifies Heart and Spleen Qi and Blood, calms the Shen, helps the Spleen hold Blood.",
+   "ind": "insomnia with rumination; palpitations; poor memory; fatigue; poor appetite; heavy or prolonged periods; easy bruising",
+   "ci": "Heat, Yin deficiency with Fire.",
+   "note": "Planeta Verd: Gui Pi Pian."
+  },
+  {
+   "id": "dang-gui-bu-xue-tang",
+   "nom": "Tangkuei Decoction to Tonify the Blood",
+   "act": "Tonifies Qi to generate Blood.",
+   "ind": "fatigue and pallor after blood loss; anemia; facial heat from Blood deficiency; slow-healing wounds",
+   "ci": "Yin deficiency with Heat."
+  },
+  {
+   "id": "zhi-gan-cao-tang",
+   "nom": "Honey-Fried Licorice Decoction",
+   "act": "Tonifies Qi, nourishes Yin and Blood, restores the pulse.",
+   "ind": "palpitations; irregular pulse; shortness of breath; insomnia; dry constipation; thinness",
+   "ci": "Diarrhea; any heart rhythm disorder must be followed by a doctor.",
+   "note": "The ancient formula is cooked with wine: it is left out."
+  },
+  {
+   "id": "bu-gan-tang",
+   "nom": "Tonify the Liver Decoction",
+   "act": "Nourishes Liver Blood and Yin, relaxes the tendons.",
+   "ind": "blurred vision, dry eyes; cramps; numbness; brittle nails; dizziness; scanty periods",
+   "ci": "Very weak digestion.",
+   "note": "Classical composition; Planeta Verd's capsule version is close."
+  },
+  {
+   "id": "da-bu-yuan-jian",
+   "nom": "Great Tonify the Basal Decoction",
+   "act": "Tonifies Qi and Blood, nourishes the Kidney and Liver.",
+   "ind": "deep exhaustion; dizziness; weak lower back; scanty periods; infertility from deficiency",
+   "ci": "Sluggish digestion, Dampness."
+  },
+  {
+   "id": "fu-ke-zhong-zi",
+   "nom": "Gynecology Fertility Pills",
+   "act": "Nourishes Blood, warms the Uterus, tonifies the Kidney, regulates the cycle.",
+   "ind": "irregular cycles; scanty periods; wish to conceive; cold belly",
+   "ci": "Current pregnancy; heavy periods from Heat.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "tiao-jing-zhu-yun",
+   "nom": "Regulate Menstruation and Assist Conception Pills",
+   "act": "Moves Qi and Blood, frees the Liver, tonifies the Kidney, regulates the cycle.",
+   "ind": "irregular cycles; painful periods; breast tenderness; stress around trying to conceive",
+   "ci": "Current pregnancy; heavy periods.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "liu-wei-di-huang-wan",
+   "nom": "Six-Ingredient Pill with Rehmannia",
+   "act": "Nourishes Kidney and Liver Yin.",
+   "ind": "weak lower back and knees; dizziness; tinnitus; night sweats; hot palms and soles; dry mouth at night",
+   "ci": "Weak digestion, loose stools; Yang deficiency (feeling cold)."
+  },
+  {
+   "id": "zhi-bai-di-huang-wan",
+   "nom": "Anemarrhena, Phellodendron and Rehmannia Pill",
+   "act": "Nourishes Yin, drains Fire.",
+   "ind": "hot flushes; night sweats; red cheeks in the afternoon; dark burning urine; dry throat; insomnia",
+   "ci": "Weak digestion, feeling cold."
+  },
+  {
+   "id": "qi-ju-di-huang-wan",
+   "nom": "Lycium, Chrysanthemum and Rehmannia Pill",
+   "act": "Nourishes Liver and Kidney Yin, brightens the eyes.",
+   "ind": "dry eyes; blurred vision; poor night vision; dizziness; tinnitus; headaches from Liver Yang",
+   "ci": "Weak digestion, loose stools."
+  },
+  {
+   "id": "mai-wei-di-huang-wan",
+   "nom": "Ophiopogon, Schisandra and Rehmannia Pill",
+   "act": "Nourishes Lung and Kidney Yin.",
+   "ind": "chronic dry cough; breathlessness; night sweats; dry throat; hoarse voice",
+   "ci": "Productive cough, an active cold, weak digestion."
+  },
+  {
+   "id": "ming-mu-di-huang-wan",
+   "nom": "Brighten the Eyes Rehmannia Pill",
+   "act": "Nourishes the Liver and Kidney, brightens the eyes.",
+   "ind": "dry, stinging eyes; tearing in the wind; blurred vision; eye strain from screens",
+   "ci": "Red, painful infected eyes (see a doctor); weak digestion."
+  },
+  {
+   "id": "er-long-zuo-ci-wan",
+   "nom": "Pill for Deafness that is Kind to the Left",
+   "act": "Nourishes Kidney Yin, anchors Yang, improves hearing.",
+   "ind": "faint, buzzing tinnitus; hearing loss; dizziness; weak lower back",
+   "ci": "Loud tinnitus from Liver Fire; weak digestion."
+  },
+  {
+   "id": "da-bu-yin-wan",
+   "nom": "Great Tonify the Yin Pill",
+   "act": "Nourishes Yin, drains Fire.",
+   "ind": "hot flushes; night sweats; dry cough with blood; irritability; nocturnal emissions",
+   "ci": "Weak digestion, feeling cold.",
+   "note": "The ancient formula contains pig spinal cord: it is left out here; check the lab's label."
+  },
+  {
+   "id": "zuo-gui-wan",
+   "nom": "Restore the Left (Kidney) Pill",
+   "act": "Nourishes Kidney Yin, replenishes Essence (Jing) and marrow.",
+   "ind": "weak lower back and knees; dizziness; tinnitus; night sweats; dry mouth; early graying",
+   "ci": "Weak digestion, loose stools."
+  },
+  {
+   "id": "yi-guan-jian",
+   "nom": "Linking Decoction",
+   "act": "Nourishes Liver and Kidney Yin, spreads Liver Qi.",
+   "ind": "pain under the ribs with dry mouth and throat; acid reflux; dry eyes; red, dry tongue",
+   "ci": "Dampness, Phlegm."
+  },
+  {
+   "id": "tian-wang-bu-xin-dan",
+   "nom": "Emperor of Heaven's Special Pill to Tonify the Heart",
+   "act": "Nourishes Heart Yin and Blood, calms the Shen.",
+   "ind": "insomnia with waking and restlessness; palpitations; poor memory; vivid dreams; mouth ulcers; dry mouth; night sweats",
+   "ci": "Weak digestion, loose stools.",
+   "note": "The ancient formula is coated with cinnabar (mercury): it is removed from all European versions."
+  },
+  {
+   "id": "bai-he-gu-jin-wan",
+   "nom": "Lily Bulb Decoction to Preserve the Metal",
+   "act": "Nourishes Lung and Kidney Yin, stops cough, transforms Phlegm.",
+   "ind": "chronic dry cough; scanty phlegm sometimes with a little blood; dry throat; hoarse voice; hot palms",
+   "ci": "Productive cough, weak digestion; any cough with blood must be seen by a doctor."
+  },
+  {
+   "id": "sha-shen-mai-dong-tang",
+   "nom": "Glehnia and Ophiopogon Decoction",
+   "act": "Nourishes Lung and Stomach Yin, generates fluids.",
+   "ind": "dry cough; dry throat and mouth; thirst; dry lips; dry skin",
+   "ci": "Dampness, abundant Phlegm."
+  },
+  {
+   "id": "yi-wei-tang",
+   "nom": "Benefit the Stomach Decoction",
+   "act": "Nourishes Stomach Yin, generates fluids.",
+   "ind": "dry mouth and lips; thirst; hunger without appetite; mild burning in the stomach; dry constipation",
+   "ci": "Dampness, thick greasy coating."
+  },
+  {
+   "id": "mai-men-dong-tang",
+   "nom": "Ophiopogon Decoction",
+   "act": "Nourishes Lung and Stomach Yin, directs rising Qi downward.",
+   "ind": "dry cough in fits; dry throat; sticky phlegm hard to bring up; reflux; dry mouth",
+   "ci": "Cold-type cough with clear phlegm."
+  },
+  {
+   "id": "qing-zao-jiu-fei-tang",
+   "nom": "Eliminate Dryness and Rescue the Lung Decoction",
+   "act": "Clears warm dryness, moistens the Lung.",
+   "ind": "dry autumn cough; dry throat and nose; breathlessness; thirst; restlessness",
+   "ci": "Weak digestion, Dampness."
+  },
+  {
+   "id": "xiao-luo-wan",
+   "nom": "Reduce Scrofula Pill",
+   "act": "Clears Heat, transforms Phlegm, softens and disperses nodules.",
+   "ind": "lymph nodes in the neck; nodules; dry throat; dry mouth; red tongue",
+   "ci": "Weak digestion, loose stools; any persistent lymph node must be seen by a doctor."
+  },
+  {
+   "id": "zi-yin-huo-xue-tang",
+   "nom": "Nourish Yin and Invigorate Blood Decoction",
+   "act": "Nourishes Kidney and Liver Yin, tempers Heat, moves Blood.",
+   "ind": "hot flushes; night sweats; dryness; fixed pains; clotted periods in a dry constitution",
+   "ci": "Weak digestion, pregnancy.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "wu-hei-tang",
+   "nom": "Five Black Decoction",
+   "act": "Nourishes Essence and Blood, supports the Liver and Kidney.",
+   "ind": "graying or falling hair; dry skin; blurred vision; dizziness; weak lower back",
+   "ci": "Loose stools; liver disease (He Shou Wu: monitor liver function on long courses).",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "jin-gui-shen-qi-wan",
+   "nom": "Kidney Qi Pill from the Golden Cabinet",
+   "act": "Warms and tonifies Kidney Yang.",
+   "ind": "cold, aching lower back; feeling cold; frequent clear urination, at night; leg edema; low libido",
+   "ci": "Yin deficiency with Heat; pregnancy (Fu Zi); Fu Zi is toxic unless processed.",
+   "note": "Calebasse also sells it as Ba Wei Di Huang Wan. Its \"Shen Qi Wan\" (参芪丸) is a different formula, for Spleen Qi."
+  },
+  {
+   "id": "you-gui-wan",
+   "nom": "Restore the Right (Kidney) Pill",
+   "act": "Warms Kidney Yang, replenishes Essence.",
+   "ind": "feeling cold; cold lower back and knees; impotence; infertility; deep fatigue; loose stools on waking",
+   "ci": "Yin deficiency with Heat; pregnancy."
+  },
+  {
+   "id": "wu-zi-yan-zong-wan",
+   "nom": "Five-Seed Pill for Abundant Descendants",
+   "act": "Tonifies the Kidney, replenishes Essence, secures.",
+   "ind": "low male fertility; premature ejaculation; dribbling after urination; weak lower back",
+   "ci": "Damp-Heat below (burning urination)."
+  },
+  {
+   "id": "cong-rong-bu-shen",
+   "nom": "Cistanche Tablets to Tonify the Kidney",
+   "act": "Tonifies Kidney Yang and Essence, nourishes Yin, strengthens bones and tendons.",
+   "ind": "weak lower back and knees; premature ejaculation; fatigue; constipation in older people",
+   "ci": "Diarrhea, Heat.",
+   "note": "Proportions not published by Planeta Verd."
+  },
+  {
+   "id": "formule-yang-eau",
+   "nom": "Water Yang Formula (Calebasse)",
+   "act": "Nourishes Kidney Yang and Yin, connects the Kidney and Heart.",
+   "ind": "tired lower back; low libido; poor memory; light sleep; fears",
+   "ci": "Marked Heat.",
+   "note": "Calebasse house formula; composition for the daily dose."
+  },
+  {
+   "id": "zhen-wu-tang",
+   "nom": "True Warrior Decoction",
+   "act": "Warms Kidney and Spleen Yang, moves Water.",
+   "ind": "edema, mostly of the legs; scanty urine; feeling cold; dizziness; palpitations; watery diarrhea",
+   "ci": "Pregnancy; Heat; any edema must be checked by a doctor."
+  },
+  {
+   "id": "er-xian-tang",
+   "nom": "Two Immortals Decoction",
+   "act": "Tonifies Kidney Yang and Yin, drains Fire, regulates the Chong and Ren vessels.",
+   "ind": "menopause: hot flushes with cold feet; sweating; irritability; insomnia; rising blood pressure",
+   "ci": "Pure Yin deficiency with strong Heat; Xian Mao is mildly toxic: no long courses."
+  },
+  {
+   "id": "jin-suo-gu-jing-wan",
+   "nom": "Metal Lock Pill to Stabilize the Essence",
+   "act": "Tonifies the Kidney, secures the Essence.",
+   "ind": "seminal emissions; premature ejaculation; frequent urination; abundant white discharge; weak lower back",
+   "ci": "Damp-Heat below, Liver Fire."
+  },
+  {
+   "id": "suo-quan-wan",
+   "nom": "Shut the Sluice Pill",
+   "act": "Warms the Kidney, holds the urine.",
+   "ind": "frequent clear urination; getting up at night to urinate; bedwetting in children; urinary leakage",
+   "ci": "Burning urination (Heat)."
+  },
+  {
+   "id": "mu-li-san",
+   "nom": "Oyster Shell Powder",
+   "act": "Secures the exterior, stops sweating.",
+   "ind": "spontaneous daytime sweating; night sweats with fatigue; palpitations",
+   "ci": "Sweating from fever or strong Heat.",
+   "note": "Ma Huang Gen (ephedra root) does not share the stem's compounds: it holds in sweat."
+  },
+  {
+   "id": "si-shen-wan",
+   "nom": "Four-Miracle Pill",
+   "act": "Warms the Kidney and Spleen, stops diarrhea.",
+   "ind": "diarrhea at dawn (loose stools on waking); cold belly and lower back; poor appetite",
+   "ci": "Heat or infectious diarrhea."
+  },
+  {
+   "id": "wan-dai-tang",
+   "nom": "End Discharge Decoction",
+   "act": "Strengthens the Spleen, drains Dampness, stops white discharge.",
+   "ind": "abundant, thin, odorless white discharge; fatigue; loose stools",
+   "ci": "Yellow, smelly discharge (Heat): see a doctor."
+  },
+  {
+   "id": "yu-dai-wan",
+   "nom": "Heal Discharge Pills",
+   "act": "Nourishes Blood, clears Damp-Heat below.",
+   "ind": "yellowish discharge; intimate itching; irregular periods with Blood deficiency",
+   "ci": "Pregnancy; infection: see a doctor.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "suan-zao-ren-tang",
+   "nom": "Sour Jujube Decoction",
+   "act": "Nourishes Liver Blood, calms the Shen, settles restlessness.",
+   "ind": "insomnia, frequent waking; restlessness; palpitations; dizziness; dry mouth; vivid dreams",
+   "ci": "Diarrhea; drowsiness when driving at the start.",
+   "note": "Calebasse: Suan Zao Ren Wan."
+  },
+  {
+   "id": "gan-mai-da-zao-tang",
+   "nom": "Licorice, Wheat and Jujube Decoction",
+   "act": "Nourishes the Heart, calms the Shen, soothes the Liver.",
+   "ind": "sadness, easy crying; anxiety; yawning; restless sleep; emotions close to the surface",
+   "ci": "Edema, hypertension (licorice on long courses); Dampness."
+  },
+  {
+   "id": "an-shen-ding-zhi-wan",
+   "nom": "Calm the Spirit and Settle the Will Pill",
+   "act": "Calms the Shen, strengthens Heart and Gallbladder Qi.",
+   "ind": "fears, being easily startled; timidity; palpitations; insomnia with nightmares; lack of confidence",
+   "ci": "Heart Fire, Phlegm-Heat."
+  },
+  {
+   "id": "bai-zi-yang-xin-wan",
+   "nom": "Biota Seed Pill to Nourish the Heart",
+   "act": "Nourishes Heart Blood and Yin, calms the Shen.",
+   "ind": "insomnia; vivid dreams; palpitations; poor memory; night sweats",
+   "ci": "Diarrhea, Phlegm."
+  },
+  {
+   "id": "bai-zi-zi-xin-wan",
+   "nom": "Biota Seed Pill to Moisten the Heart",
+   "act": "Nourishes Heart Yin and Blood, calms the Shen.",
+   "ind": "light sleep; waking at night; evening restlessness; dry mouth",
+   "ci": "Diarrhea.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "an-shen-bu-xin-wan",
+   "nom": "Calm the Spirit and Tonify the Heart Pills",
+   "act": "Calms the Shen, nourishes Blood and Yin of the Heart, Liver and Kidney.",
+   "ind": "insomnia; palpitations; dizziness; anxiety; poor memory",
+   "ci": "Diarrhea, weak digestion.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "bu-nao-an-shen-wan",
+   "nom": "Nourish the Brain and Calm the Spirit Pills",
+   "act": "Nourishes Blood and Qi, calms the Shen.",
+   "ind": "racing thoughts in the evening; light sleep; mental fatigue; poor memory",
+   "ci": "Diarrhea.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "bu-nao-wan",
+   "nom": "Nourish the Brain Pills",
+   "act": "Nourishes the Heart and Kidney, calms the Shen, supports memory.",
+   "ind": "mental overwork; poor concentration; poor memory; unrefreshing sleep",
+   "ci": "Diarrhea, Heat.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "zao-ren-an-mian-wan",
+   "nom": "Jujube Seed Peaceful Sleep Pills",
+   "act": "Nourishes the Heart and Yin, calms the Shen.",
+   "ind": "restless mind in the evening; trouble falling asleep; light sleep",
+   "ci": "Diarrhea.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "yang-xue-an-shen-wan",
+   "nom": "Nourish Blood and Calm the Spirit Pills",
+   "act": "Nourishes Blood and Yin, calms the Shen.",
+   "ind": "insomnia; palpitations; dizziness; fatigue; pale complexion",
+   "ci": "Weak digestion."
+  },
+  {
+   "id": "chai-hu-hu-po-tang",
+   "nom": "Bupleurum and Amber Decoction (Calebasse version)",
+   "act": "Frees the Liver, clears Heat, calms the Shen.",
+   "ind": "stress; nervous tension; irritability; restless sleep",
+   "ci": "Cold, weak digestion.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "huang-lian-e-jiao-tang",
+   "nom": "Coptis and Ass-Hide Gelatin Decoction",
+   "act": "Nourishes Yin, drains Heart Fire, connects the Heart and Kidney.",
+   "ind": "insomnia with agitation, unable to fall asleep; palpitations; dry mouth; red tongue with a redder tip",
+   "ci": "Weak digestion; insomnia without Heat.",
+   "note": "Calebasse: Huang Lian E Jiao Wan. Ji Zi Huang = raw egg yolk stirred into the warm decoction."
+  },
+  {
+   "id": "ban-xia-hou-po-tang",
+   "nom": "Pinellia and Magnolia Bark Decoction",
+   "act": "Moves Qi, dissipates knots, transforms Phlegm, directs rebellion downward.",
+   "ind": "lump in the throat (plum pit); chest oppression; cough with phlegm; nausea; anxiety",
+   "ci": "Yin deficiency with dry mouth and red tongue."
+  },
+  {
+   "id": "yue-ju-wan",
+   "nom": "Escape Restraint Pill",
+   "act": "Moves Qi and releases the six stagnations (Qi, Blood, Phlegm, Fire, Dampness, food).",
+   "ind": "chest oppression; bloating; sour belching; poor digestion; low mood",
+   "ci": "Deficiency without stagnation."
+  },
+  {
+   "id": "xuan-fu-dai-zhe-tang",
+   "nom": "Inula and Hematite Decoction",
+   "act": "Directs Stomach Qi downward, transforms Phlegm, tonifies Qi.",
+   "ind": "persistent belching; hiccups; nausea, vomiting; heaviness under the breastbone",
+   "ci": "Pregnancy (Dai Zhe Shi); not a long course."
+  },
+  {
+   "id": "ju-pi-zhu-ru-tang",
+   "nom": "Tangerine Peel and Bamboo Shavings Decoction",
+   "act": "Directs Stomach Qi downward, tonifies, clears mild Heat.",
+   "ind": "hiccups; nausea; dry retching in a tired constitution; after an illness",
+   "ci": "Cold-type vomiting."
+  },
+  {
+   "id": "zuo-jin-wan",
+   "nom": "Left Metal Pill",
+   "act": "Clears Liver Fire, directs Stomach rebellion downward.",
+   "ind": "heartburn; acid reflux; bitter taste; pain under the ribs; irritability",
+   "ci": "Cold-type reflux; cold, weak digestion."
+  },
+  {
+   "id": "jia-wei-zuo-jin-wan",
+   "nom": "Augmented Left Metal Pill (Calebasse version)",
+   "act": "Frees Liver Qi, clears the Heat it produces, soothes the Stomach.",
+   "ind": "stress-related heartburn; reflux; belching; pain under the ribs",
+   "ci": "Cold digestion.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "shu-gan-he-wei-wan",
+   "nom": "Soothe the Liver and Harmonize the Stomach Pills",
+   "act": "Frees Liver Qi, harmonizes the Stomach, aids digestion.",
+   "ind": "bloating and stalled digestion from stress; belching; irregular appetite",
+   "ci": "Yin deficiency.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "shu-gan-zhi-tong-wan",
+   "nom": "Soothe the Liver and Stop Pain Pills",
+   "act": "Frees Liver Qi, relaxes, eases pain.",
+   "ind": "pain under the ribs; belly cramps; stress-related painful periods; tension",
+   "ci": "Yin deficiency, pregnancy.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "tong-qiao-xiao-yao-san",
+   "nom": "Free and Easy Wanderer Powder to Open the Orifices",
+   "act": "Frees the Liver, strengthens the Spleen, dispels Wind and clears the head.",
+   "ind": "heavy head; stress-related blocked nose; headaches; mood swings",
+   "ci": "Yin deficiency with Heat.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "su-zi-jiang-qi-tang",
+   "nom": "Perilla Fruit Decoction for Directing Qi Downward",
+   "act": "Directs Lung Qi downward, transforms Phlegm, warms the Kidney.",
+   "ind": "cough and breathlessness with abundant phlegm; chest oppression; shallow breathing",
+   "ci": "Dry cough from Yin deficiency, Heat."
+  },
+  {
+   "id": "jin-ling-zi-san",
+   "nom": "Melia Toosendan Powder",
+   "act": "Frees the Liver, clears Heat, eases pain.",
+   "ind": "pain under the ribs, in the stomach or during periods, worse with stress; bitter taste",
+   "ci": "Pregnancy; Chuan Lian Zi is mildly toxic: short course."
+  },
+  {
+   "id": "xue-fu-zhu-yu-tang",
+   "nom": "Drive Out Stasis in the Mansion of Blood Decoction",
+   "act": "Invigorates Blood, dispels stasis, moves Qi.",
+   "ind": "fixed stabbing pain in the chest or head; stubborn insomnia; palpitations; purplish lips and tongue; clotted periods",
+   "ci": "Pregnancy, heavy periods, anticoagulants; any chest pain must be seen by a doctor."
+  },
+  {
+   "id": "shao-fu-zhu-yu-tang",
+   "nom": "Drive Out Stasis from the Lower Abdomen Decoction",
+   "act": "Invigorates Blood, warms the channels, eases lower abdominal pain.",
+   "ind": "painful periods with dark clots; lower abdominal pain eased by warmth; irregular cycles; cysts, fibroids (support)",
+   "ci": "Pregnancy; heavy periods; Heat."
+  },
+  {
+   "id": "shen-tong-zhu-yu-tang",
+   "nom": "Drive Out Stasis from a Painful Body Decoction",
+   "act": "Invigorates Blood, dispels Wind-Damp, eases joint pain.",
+   "ind": "old, fixed pains of the shoulders, back or limbs; sciatica; pain worse at night",
+   "ci": "Pregnancy, anticoagulants."
+  },
+  {
+   "id": "fu-yuan-huo-xue-tang",
+   "nom": "Revive Health by Invigorating the Blood Decoction",
+   "act": "Invigorates Blood, dispels stasis after trauma, frees the Liver.",
+   "ind": "pain after a fall or blow; bruising; rib pain after an impact",
+   "ci": "Pregnancy; diarrhea (Da Huang); see a doctor after significant trauma.",
+   "note": "The ancient formula contains pangolin scales (protected species): they are left out."
+  },
+  {
+   "id": "bu-yang-huan-wu-tang",
+   "nom": "Tonify the Yang to Restore Five-Tenths Decoction",
+   "act": "Strongly tonifies Qi, invigorates Blood, unblocks the vessels.",
+   "ind": "after-effects of stroke (paralysis, drooping mouth); numbness; one-sided weakness; heavy legs",
+   "ci": "Uncontrolled hypertension, Heat; medical follow-up essential."
+  },
+  {
+   "id": "gui-zhi-fu-ling-wan",
+   "nom": "Cinnamon Twig and Poria Pill",
+   "act": "Invigorates Blood, dispels stasis, reduces lower abdominal masses.",
+   "ind": "fibroids, ovarian cysts (support); painful periods with clots; fixed lower abdominal pain",
+   "ci": "Pregnancy unless advised by a specialist; heavy periods."
+  },
+  {
+   "id": "wen-jing-tang",
+   "nom": "Warm the Menses Decoction",
+   "act": "Warms the Uterus, nourishes Blood, dispels stasis.",
+   "ind": "irregular or painful periods from Cold; cold lower belly; dry lips and warm palms in the evening; infertility from Cold",
+   "ci": "Pregnancy; Blood Heat."
+  },
+  {
+   "id": "jiao-ai-tang",
+   "nom": "Ass-Hide Gelatin and Mugwort Decoction",
+   "act": "Nourishes Blood, stops bleeding, warms the Uterus.",
+   "ind": "overly long periods with pale blood; spotting between periods; cold lower belly",
+   "ci": "Bleeding from Heat (abundant bright red blood); any unusual bleeding must be seen by a doctor."
+  },
+  {
+   "id": "huai-jiao-wan",
+   "nom": "Sophora Fruit Pill",
+   "act": "Clears intestinal Heat, cools the Blood, stops bleeding.",
+   "ind": "bleeding hemorrhoids; bright red blood in the stool; anal burning; constipation",
+   "ci": "Deficiency bleeding; any blood in the stool must be seen by a doctor."
+  },
+  {
+   "id": "dan-shen-pian",
+   "nom": "Salvia Tablets",
+   "act": "Invigorates Blood, dispels stasis, calms the Heart.",
+   "ind": "chest oppression; fixed pains; clotted periods; poor circulation",
+   "ci": "Anticoagulants (bleeding risk), pregnancy, heavy periods."
+  },
+  {
+   "id": "fu-fang-dan-shen",
+   "nom": "Compound Salvia Tablets",
+   "act": "Invigorates Blood, dispels stasis, moves Qi, eases chest pain.",
+   "ind": "chest oppression and pain; palpitations; purplish lips",
+   "ci": "Anticoagulants, pregnancy; any chest pain needs urgent medical care."
+  },
+  {
+   "id": "shu-jin-huo-xue-pian",
+   "nom": "Relax the Sinews and Invigorate the Blood Tablets",
+   "act": "Moves Blood and Qi, dispels Wind-Damp, makes the tendons supple.",
+   "ind": "stiffness; muscle or joint pain in cold damp weather; numbness",
+   "ci": "Pregnancy, anticoagulants.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "tian-ma-gou-teng-yin",
+   "nom": "Gastrodia and Uncaria Drink",
+   "act": "Calms the Liver, extinguishes Wind, clears Heat, nourishes the Liver and Kidney.",
+   "ind": "throbbing headaches; dizziness; tinnitus; rising blood pressure; insomnia; irritability; slight tremors",
+   "ci": "Pregnancy; hypertension: does not replace medical treatment.",
+   "note": "Calebasse: Tian Ma Gou Teng Wan."
+  },
+  {
+   "id": "zhen-gan-xi-feng-tang",
+   "nom": "Sedate the Liver and Extinguish Wind Decoction",
+   "act": "Anchors Liver Yang, extinguishes Wind, nourishes Yin.",
+   "ind": "severe dizziness; tinnitus; headache with a hot feeling; red face; high blood pressure",
+   "ci": "Pregnancy, weak digestion; any sign of stroke (drooping mouth, one-sided weakness, slurred speech): call emergency services."
+  },
+  {
+   "id": "ban-xia-bai-zhu-tian-ma-tang",
+   "nom": "Pinellia, Atractylodes and Gastrodia Decoction",
+   "act": "Transforms Phlegm, extinguishes Wind, strengthens the Spleen.",
+   "ind": "dizziness with nausea; heavy, tight head; chest oppression; phlegm; white greasy coating",
+   "ci": "Dizziness from Yin or Blood deficiency."
+  },
+  {
+   "id": "qing-kong-tang",
+   "nom": "Clear the Upper Pass Paste",
+   "act": "Dispels Wind, clears Heat, relieves headache.",
+   "ind": "chronic headaches of the temples or forehead with a hot feeling; migraines; red eyes",
+   "ci": "Headaches from deficiency or Cold."
+  },
+  {
+   "id": "pian-tou-tong-wan",
+   "nom": "Migraine Pills",
+   "act": "Dispels Wind, moves Blood in the head, eases pain.",
+   "ind": "migraines; one-sided headaches; headaches brought on by wind or cold",
+   "ci": "Liver Yang headaches with high blood pressure; pregnancy.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "jiang-ya-ping-pian",
+   "nom": "Calm the Pressure Tablets",
+   "act": "Clears Liver Fire, calms Yang.",
+   "ind": "rising blood pressure with headaches; red face; red eyes; irritability",
+   "ci": "Weak digestion; never replaces blood pressure medication.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "jiang-ya-wan",
+   "nom": "Lower the Pressure Pills",
+   "act": "Clears Liver Fire, nourishes Yin, anchors Yang.",
+   "ind": "high blood pressure with Heat; dizziness; headaches; insomnia",
+   "ci": "Weak digestion, pregnancy; never replaces blood pressure medication.",
+   "note": "Calebasse composition for 6 g."
+  },
+  {
+   "id": "ping-wei-san",
+   "nom": "Calm the Stomach Powder",
+   "act": "Dries Dampness, strengthens the Spleen, moves Qi, harmonizes the Stomach.",
+   "ind": "full, heavy belly; no appetite; sticky mouth; nausea; loose stools; thick, white, greasy coating",
+   "ci": "Yin deficiency, dryness; pregnancy without advice."
+  },
+  {
+   "id": "wu-ling-san",
+   "nom": "Five-Ingredient Powder with Poria",
+   "act": "Promotes water metabolism, drains Dampness, strengthens the Spleen, warms Yang.",
+   "ind": "water retention; edema; scanty urine; watery diarrhea; dizziness with nausea; thirst but vomits water",
+   "ci": "Yin deficiency; any edema must be checked by a doctor."
+  },
+  {
+   "id": "ling-gui-zhu-gan-tang",
+   "nom": "Poria, Cinnamon Twig, Atractylodes and Licorice Decoction",
+   "act": "Warms Spleen Yang, transforms thin Phlegm.",
+   "ind": "dizziness on standing; palpitations; chest oppression; clear phlegm; splashing sound in the stomach",
+   "ci": "Yin deficiency, Heat."
+  },
+  {
+   "id": "wu-pi-yin",
+   "nom": "Five-Peel Drink",
+   "act": "Drains Dampness, moves Qi, reduces edema.",
+   "ind": "swelling of the face and limbs; heavy body; distended belly; scanty urine",
+   "ci": "Edema from severe deficiency; any edema must be seen by a doctor."
+  },
+  {
+   "id": "ba-zheng-san",
+   "nom": "Eight-Herb Powder for Rectification",
+   "act": "Clears Damp-Heat from the Bladder, promotes urination, eases burning.",
+   "ind": "burning urination; frequent, urgent need to urinate; dark or cloudy urine; tight lower belly",
+   "ci": "Pregnancy; weak digestion; short course; fever or flank pain: see a doctor (kidney infection).",
+   "note": "Mu Tong replaced by Tong Cao (Aristolochia banned)."
+  },
+  {
+   "id": "tong-lin-san",
+   "nom": "Unblock Painful Urination Powder",
+   "act": "Clears Damp-Heat from the lower body, cools the urinary tract.",
+   "ind": "burning urination; frequent urge; dark urine",
+   "ci": "Pregnancy; cold digestion; fever or flank pain: see a doctor.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "san-jin-li-niao",
+   "nom": "Three Golds Diuretic Decoction",
+   "act": "Clears toxic Heat and Dampness below, eases urination.",
+   "ind": "urinary discomfort with burning; cloudy urine; small stones (support)",
+   "ci": "Pregnancy; renal colic or fever: see a doctor.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "qian-lie-xian-wan",
+   "nom": "Prostate Pills (Calebasse version)",
+   "act": "Tonifies Qi, cools and moves Blood below.",
+   "ind": "weak stream; frequent night urination; lower belly discomfort in men",
+   "ci": "Urinary retention, blood in the urine: see a urologist.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "si-miao-san",
+   "nom": "Four-Marvel Powder",
+   "act": "Clears Damp-Heat below, relieves the joints of the legs.",
+   "ind": "swollen, hot knees or ankles; heavy legs; gout; weeping eczema of the legs; yellow discharge",
+   "ci": "Pregnancy (Niu Xi); Yin deficiency.",
+   "note": "JZ (Si Miao Tang) replaces Cang Zhu with Shan Yao."
+  },
+  {
+   "id": "bi-xie-shen-shi-tang",
+   "nom": "Tokoro Decoction to Leach Out Dampness",
+   "act": "Clears Damp-Heat, drains it through the urine, soothes the skin.",
+   "ind": "weeping eczema, especially on the legs; itching; red, moist patches; leg ulcer (support)",
+   "ci": "Dry skin from Blood deficiency; pregnancy."
+  },
+  {
+   "id": "bi-xie-qu-shi-tang",
+   "nom": "Expel Dampness Decoction (Calebasse version)",
+   "act": "Clears Damp-Heat.",
+   "ind": "heavy legs; weeping skin; yellowish discharge; dark urine",
+   "ci": "Yin deficiency, dryness.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "yin-chen-hao-tang",
+   "nom": "Virgate Wormwood Decoction",
+   "act": "Clears Damp-Heat from the Liver and Gallbladder, resolves jaundice.",
+   "ind": "bright jaundice; dark urine; bitter taste; distended belly; constipation",
+   "ci": "Pregnancy; any jaundice must be seen by a doctor urgently."
+  },
+  {
+   "id": "chai-hu-xiao-shi-wan",
+   "nom": "Bupleurum Digestive Pills (Calebasse version)",
+   "act": "Clears Damp-Heat from the Liver and Gallbladder, lightens digestion.",
+   "ind": "heavy digestion after fatty meals; bitter taste; nausea; tension under the right ribs",
+   "ci": "Cold, weak digestion; pregnancy.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "qing-dan-hua-shi-wan",
+   "nom": "Clear the Gallbladder and Dissolve Stones Pills",
+   "act": "Clears Damp-Heat from the Gallbladder, helps bile flow.",
+   "ind": "trouble digesting fats; bitter taste; pain under the right ribs; small gallstones (support)",
+   "ci": "Pregnancy; biliary colic, fever, jaundice: urgent medical care.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "san-ren-tang",
+   "nom": "Three-Seed Decoction",
+   "act": "Opens Qi, transforms Dampness in all three Burners, clears Heat.",
+   "ind": "heavy head; heavy, aching body; chest oppression; no hunger; mild afternoon fever; white greasy coating",
+   "ci": "Yin deficiency, dryness."
+  },
+  {
+   "id": "bi-xie-fen-qing-yin",
+   "nom": "Tokoro Drink to Separate the Clear",
+   "act": "Warms the Kidney, drains Dampness, clears cloudy urine.",
+   "ind": "cloudy, milky urine; frequent urge; white discharge; cold constitution",
+   "ci": "Burning urination (Heat)."
+  },
+  {
+   "id": "du-huo-ji-sheng-tang",
+   "nom": "Angelica Pubescens and Taxillus Decoction",
+   "act": "Expels Wind-Damp, tonifies the Liver and Kidney, nourishes Qi and Blood.",
+   "ind": "chronic lower back and knee pain; stiffness in cold damp weather; osteoarthritis; sciatica in older people; weak legs",
+   "ci": "Pregnancy (Niu Xi); red, hot joints."
+  },
+  {
+   "id": "juan-bi-tang",
+   "nom": "Remove Painful Obstruction Decoction",
+   "act": "Expels Wind-Cold-Damp, moves Blood, eases joint pain.",
+   "ind": "wandering joint pain; painful shoulders and arms; stiffness in the cold",
+   "ci": "Pregnancy; hot, red joints."
+  },
+  {
+   "id": "yi-yi-ren-tang",
+   "nom": "Coix Decoction",
+   "act": "Expels Dampness, Wind and Cold from the joints.",
+   "ind": "heavy, swollen, numb joints; fixed pains worse in damp weather",
+   "ci": "Contains Ma Huang (ephedra): hypertension, heart problems, insomnia; pregnancy."
+  },
+  {
+   "id": "bai-hu-jia-gui-zhi-tang",
+   "nom": "White Tiger plus Cinnamon Twig Decoction",
+   "act": "Clears Heat, unblocks the channels, relieves hot joints.",
+   "ind": "red, hot, swollen joints; fever; thirst; arthritis or gout flare",
+   "ci": "Cold Bi; for practitioners only; hot joint with fever: see a doctor."
+  },
+  {
+   "id": "fang-ji-huang-qi-tang",
+   "nom": "Stephania and Astragalus Decoction",
+   "act": "Tonifies Qi, secures the exterior, drains Water, relieves the joints.",
+   "ind": "leg edema; easy sweating; heavy body; swollen knees in a tired constitution",
+   "ci": "Use only Han Fang Ji (Stephania): Guang Fang Ji (Aristolochia) is banned."
+  },
+  {
+   "id": "jian-bu-wan",
+   "nom": "Strong Step Pills",
+   "act": "Strengthens the legs, moves Blood, drains Dampness.",
+   "ind": "weak or heavy legs; painful knees; difficult walking in older people",
+   "ci": "Pregnancy (Niu Xi).",
+   "note": "Calebasse composition for the daily dose; JZ's more tonifying version contains 17 herbs (Shu Di, Ci Wu Jia, Ba Ji Tian, Gou Qi, Tu Si Zi…)."
+  },
+  {
+   "id": "mu-gua-wan",
+   "nom": "Chaenomeles Pills",
+   "act": "Expels Wind-Damp, relaxes the tendons, unblocks the channels.",
+   "ind": "cramps; stiffness; numb legs; joint pain in cold damp weather",
+   "ci": "Pregnancy; hot joints.",
+   "note": "The original Chinese formula contains two toxic aconites (Chuan Wu, Cao Wu); check the lab's label."
+  },
+  {
+   "id": "jian-zhou-tong-wan",
+   "nom": "Painful Shoulder Pills",
+   "act": "Expels Wind-Damp from the shoulder, moves Blood, relaxes.",
+   "ind": "stiff, painful shoulder; arm pain; limited movement",
+   "ci": "Pregnancy.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "jing-zhui-tong-wan",
+   "nom": "Painful Neck Pills",
+   "act": "Relaxes the neck muscles, moves Blood, eases pain.",
+   "ind": "stiff neck; wry neck; pain spreading to the shoulder; headaches from the neck",
+   "ci": "Pregnancy, anticoagulants.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "zhuang-gu-xiao-ci-wan",
+   "nom": "Strengthen the Bones Pills",
+   "act": "Nourishes the Liver and Kidney, strengthens the bones, moves Blood.",
+   "ind": "lower back and legs that tire quickly; osteoarthritis; bone spurs (support); painful heels",
+   "ci": "Weak digestion.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "er-chen-tang",
+   "nom": "Two-Aged Decoction",
+   "act": "Dries Dampness, transforms Phlegm, harmonizes the Stomach.",
+   "ind": "cough with abundant white phlegm; nausea; chest oppression; dizziness; heavy body",
+   "ci": "Dry cough, Yin deficiency."
+  },
+  {
+   "id": "san-zi-yang-qin-tang",
+   "nom": "Three-Seed Decoction to Nourish One's Parents",
+   "act": "Directs Qi downward, transforms Phlegm, aids digestion.",
+   "ind": "productive cough with lots of phlegm; breathlessness; chest oppression; heavy digestion (often in older people)",
+   "ci": "Dry cough, Yin deficiency; short course."
+  },
+  {
+   "id": "er-chen-san-zi",
+   "nom": "Two-Aged Decoction with Three-Seed Decoction",
+   "act": "Transforms Phlegm, directs Lung Qi downward.",
+   "ind": "chronic productive bronchitis; abundant white phlegm; breathlessness; chest oppression",
+   "ci": "Dry cough, Yin deficiency."
+  },
+  {
+   "id": "wen-dan-tang",
+   "nom": "Warm the Gallbladder Decoction",
+   "act": "Transforms Phlegm-Heat, harmonizes the Gallbladder and Stomach, calms the Shen.",
+   "ind": "insomnia with restless dreams; anxiety, being easily startled; palpitations; nausea; bitter taste; dizziness",
+   "ci": "Insomnia from Blood or Yin deficiency without Phlegm.",
+   "note": "Calebasse: Wen Dan Wan."
+  },
+  {
+   "id": "qing-qi-hua-tan-wan",
+   "nom": "Clear the Qi and Transform Phlegm Pill",
+   "act": "Clears Heat, transforms Phlegm, directs Lung Qi downward.",
+   "ind": "cough with thick yellow phlegm; chest oppression; breathlessness; yellow greasy coating",
+   "ci": "Cold cough, Yin deficiency; pregnancy."
+  },
+  {
+   "id": "qing-fei-zhi-ke-wan",
+   "nom": "Clear the Lung and Stop Cough Pills (Calebasse version)",
+   "act": "Expels Wind from the exterior, clears Heat, spares the Blood and Spleen.",
+   "ind": "cough with rising heat; irritated throat; facial redness; dry nose",
+   "ci": "Cold cough; pregnancy.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "ke-chuan-wan",
+   "nom": "Cough and Wheezing Pills",
+   "act": "Expels Wind, raises then lowers Lung Qi, stops cough.",
+   "ind": "cough and short breath in wind and cold; chest oppression; phlegm",
+   "ci": "Dry cough from Yin deficiency.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "fu-fang-jie-geng",
+   "nom": "Compound Platycodon Tablets",
+   "act": "Opens Lung Qi, soothes the throat, helps bring up phlegm.",
+   "ind": "irritated throat; cough with phlegm hard to bring up; hoarse voice",
+   "ci": "Hypertension, edema (licorice); stomach ulcer (Yuan Zhi).",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "xiang-yin-wan",
+   "nom": "Clear Voice Pills",
+   "act": "Nourishes Lung Yin, cools the throat, clears the voice.",
+   "ind": "hoarse or lost voice; dry throat; tired voice (teachers, singers)",
+   "ci": "Hoarseness from Cold; hoarseness lasting over 3 weeks: see an ENT doctor.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "zhi-sou-san",
+   "nom": "Stop Coughing Powder",
+   "act": "Stops cough, transforms Phlegm, releases the exterior.",
+   "ind": "cough lingering after a cold; scratchy throat; little phlegm",
+   "ci": "Cough from Yin deficiency with Heat."
+  },
+  {
+   "id": "hai-zao-yu-hu-tang",
+   "nom": "Sargassum Decoction for the Jade Flask",
+   "act": "Transforms Phlegm, softens masses, moves Qi and Blood.",
+   "ind": "neck nodules; goiter; hard painless lymph nodes; lump in the throat",
+   "ci": "Thyroid: seaweeds are rich in iodine, do not take without thyroid tests and medical advice; pregnancy.",
+   "note": "Contains Hai Zao with Gan Cao, a pairing the classics advise against but which is traditional in this formula."
+  },
+  {
+   "id": "bao-he-wan",
+   "nom": "Preserve Harmony Pill",
+   "act": "Reduces food stagnation, harmonizes the Stomach.",
+   "ind": "heaviness after an overly large meal; belching food smells; nausea; foul diarrhea; thick coating",
+   "ci": "Not for continuous use; very weak digestion without overeating."
+  },
+  {
+   "id": "jia-wei-bao-he-wan",
+   "nom": "Augmented Preserve Harmony Pills (Calebasse version)",
+   "act": "Strengthens the Spleen while aiding digestion.",
+   "ind": "slow, heavy digestion in a tired constitution; bloating; irregular appetite",
+   "ci": "Yin deficiency.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "jian-pi-wan",
+   "nom": "Strengthen the Spleen Pill",
+   "act": "Strengthens the Spleen, reduces food stagnation, stops diarrhea.",
+   "ind": "poor appetite; slow digestion; bloating; loose stools with undigested food; fatigue",
+   "ci": "Yin deficiency."
+  },
+  {
+   "id": "xiang-sha-yang-wei-wan",
+   "nom": "Aucklandia and Amomum Pill to Nourish the Stomach",
+   "act": "Warms the Middle, moves Qi, harmonizes the Stomach.",
+   "ind": "heavy, cold stomach; no hunger; belching; nausea; bloating",
+   "ci": "Yin deficiency, Heat-type reflux."
+  },
+  {
+   "id": "xiang-sha-zuo-jin-wan",
+   "nom": "Aucklandia and Amomum Left Metal Pills (Calebasse version)",
+   "act": "Harmonizes digestion, clears Damp-Heat.",
+   "ind": "heavy digestion; bloating; bitter taste; nausea after fatty meals",
+   "ci": "Cold, weak digestion.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "xiao-cheng-qi-tang",
+   "nom": "Minor Order the Qi Decoction",
+   "act": "Gently purges accumulated Heat, moves Qi.",
+   "ind": "constipation with a distended, tight belly; belching; heat; yellow coating",
+   "ci": "Pregnancy, menstruation; constipation from deficiency; only a few days' use.",
+   "note": "JZ replaces Zhi Shi with Chen Pi."
+  },
+  {
+   "id": "tong-chang-wan",
+   "nom": "Free-Flow Pills (Calebasse version)",
+   "act": "Nourishes Blood, moistens dryness, frees the stools.",
+   "ind": "dry constipation with Blood deficiency; dry skin; dull hair",
+   "ci": "Pregnancy (Tao Ren); liver disease (He Shou Wu); diarrhea.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "jiang-dan-gu-chun",
+   "nom": "Cholesterol Pills (Calebasse version)",
+   "act": "Moves Blood, transforms Phlegm, helps digest fats.",
+   "ind": "Phlegm and stasis terrain; cholesterol (alongside lifestyle changes)",
+   "ci": "Pregnancy, anticoagulants; does not replace prescribed treatment.",
+   "note": "Calebasse composition for the daily dose."
+  },
+  {
+   "id": "qin-yin-tang",
+   "nom": "Clear the Nutritive Level Decoction (Calebasse version)",
+   "act": "Clears Heat from the Nutritive level, nourishes Yin, resolves toxicity.",
+   "ind": "internal heat with dryness; restlessness at night; skin redness; dry mouth",
+   "ci": "Weak digestion, Cold.",
+   "note": "Calebasse composition for the daily dose; a gentle version of Qing Ying Tang (without horn)."
+  },
+  {
+   "id": "ningxin",
+   "nom": "Ningxin (JZ house formula)",
+   "act": "Nourishes Liver and Kidney Yin and Blood, moves Blood, disperses Heat.",
+   "ind": "menopausal discomfort; intimate dryness; mild hot flushes",
+   "ci": "Pregnancy (Hong Hua); thyroid (iodine-rich seaweed); anticoagulants.",
+   "note": "JZ composition for the daily dose (4 capsules)."
+  },
+  {
+   "id": "ningxin-guifu",
+   "nom": "Ningxin Guifu (Gui Zhi Fu Ling, JZ)",
+   "act": "Invigorates Blood, clears Cold-related stasis, disperses hardenings.",
+   "ind": "painful periods with clots; cysts, fibroids (support); cold lower belly",
+   "ci": "Pregnancy; heavy periods; anticoagulants.",
+   "note": "JZ's version of Gui Zhi Fu Ling Wan (cinnamon bark instead of twigs)."
+  },
+  {
+   "id": "ningxin-plus",
+   "nom": "Ningxin Plus (JZ house formula)",
+   "act": "Tonifies the Kidney, strengthens Yang, consolidates Jing.",
+   "ind": "deep fatigue; cold lower back; low libido; feeling cold",
+   "ci": "Heat, Yin deficiency with Fire.",
+   "note": "JZ composition for the daily dose, with zinc."
+  },
+  {
+   "id": "hxhy",
+   "nom": "HXHY, Invigorate Blood and Dissolve Stasis (JZ)",
+   "act": "Moves Blood and Qi, harmonizes the Liver and Spleen.",
+   "ind": "fixed pains; clotted periods; poor circulation",
+   "ci": "Pregnancy, heavy periods, anticoagulants.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "qgh",
+   "nom": "QGH, Clear Liver Fire (JZ)",
+   "act": "Clears Fire and Heat from the Liver and Gallbladder.",
+   "ind": "irritability; headaches; red eyes; bitter taste; insomnia",
+   "ci": "Cold, weak digestion; pregnancy.",
+   "note": "JZ composition for the daily dose (European gentian instead of Long Dan Cao)."
+  },
+  {
+   "id": "sedum-plus",
+   "nom": "Sedum Plus (JZ house formula)",
+   "act": "Clears Heat, drains Dampness, supports the Liver.",
+   "ind": "trouble digesting fats; overloaded liver; bitter taste",
+   "ci": "Pregnancy; cold digestion.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "tong-mai",
+   "nom": "Tong Mai, vein tonic (JZ)",
+   "act": "Tonifies Qi, nourishes Yin, moves Blood to the legs.",
+   "ind": "heavy legs; varicose veins (support); poor circulation in the legs",
+   "ci": "Pregnancy, anticoagulants.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "yang-wei-cha",
+   "nom": "Yang Wei Cha, Stomach-Nourishing Tea (JZ)",
+   "act": "Nourishes Yin and harmonizes the Stomach.",
+   "ind": "heartburn and acidity in a dry constitution; hunger without appetite; uncomfortable digestion",
+   "ci": "Pregnancy (Hong Hua).",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "mcl",
+   "nom": "MCL, Release the Exterior (JZ)",
+   "act": "Releases the exterior, dispels Wind, clears Heat and toxins.",
+   "ind": "onset of a cold with heat; irritated throat; headache",
+   "ci": "Allergy to the daisy family; pregnancy.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "zpg",
+   "nom": "ZPG, Strengthen Upright Qi (JZ)",
+   "act": "Warms Yang, nourishes Jing, Qi and Blood, strengthens defenses.",
+   "ind": "fatigue; feeling cold; recurrent infections",
+   "ci": "Heat.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "qsl",
+   "nom": "QSL, Strengthen the Spleen and Drain Dampness (JZ)",
+   "act": "Tonifies the Spleen, warms Yang, drains Dampness.",
+   "ind": "water retention; heavy legs; loose stools; fatigue after meals",
+   "ci": "Yin deficiency, Heat; pregnancy.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "shou-sheng",
+   "nom": "Shou Sheng, Weight Balance (JZ)",
+   "act": "Tonifies Spleen Qi, dries Dampness, frees the Liver, aids elimination.",
+   "ind": "excess weight with Dampness; bloating; heavy digestion; constipation",
+   "ci": "Pregnancy, breastfeeding; diarrhea (Da Huang); not for continuous use.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "synergie-3",
+   "nom": "Synergie 3 (JZ house formula)",
+   "act": "Tonifies Qi, the Kidney and Lung, consolidates Jing, moves Blood.",
+   "ind": "great fatigue; convalescence; shortness of breath; low defenses",
+   "ci": "Hypertension, insomnia (ginseng); anticoagulants (San Qi); pregnancy.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "c-tonic",
+   "nom": "C-Tonic (JZ house formula)",
+   "act": "Moves Blood, clears stasis, nourishes Blood.",
+   "ind": "poor circulation; fixed pains; chest oppression (support)",
+   "ci": "Anticoagulants, pregnancy; any chest pain needs urgent medical care.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "yi-zhi",
+   "nom": "Yi Zhi, Nourish the Mind (JZ)",
+   "act": "Tonifies the Liver and Kidney, nourishes Jing, calms the mind, generates fluids.",
+   "ind": "mental fatigue; poor concentration; unrefreshing sleep; exams, overwork",
+   "ci": "Uncontrolled hypertension; fever.",
+   "note": "JZ composition for the daily dose."
+  },
+  {
+   "id": "xiao-feng-tang-jz",
+   "nom": "Eliminate Wind Decoction (JZ version)",
+   "act": "Dispels Wind and Dampness, nourishes Blood, regulates Qi.",
+   "ind": "itching; irritated skin; mild hives",
+   "ci": "Pregnancy.",
+   "note": "JZ composition for the daily dose, different from Xiao Feng San."
+  }
+ ],
+ "labos": [
+  {
+   "id": "cal",
+   "nom": "Calebasse"
+  },
+  {
+   "id": "pv",
+   "nom": "Planeta Verd"
+  },
+  {
+   "id": "jz",
+   "nom": "Laboratoires JZ"
+  }
+ ],
+ "hors_pharmacopee": [
+  {
+   "id": "Gentiane jaune",
+   "nom": "Yellow gentian"
+  },
+  {
+   "id": "Chardon-Marie",
+   "nom": "Milk thistle"
+  },
+  {
+   "id": "Grande camomille",
+   "nom": "Feverfew"
+  },
+  {
+   "id": "Menthe poivrée",
+   "nom": "Peppermint"
+  },
+  {
+   "id": "Graines de lin",
+   "nom": "Flaxseed"
+  },
+  {
+   "id": "Hong Cha",
+   "nom": "Black tea"
+  },
+  {
+   "id": "Racine de bardane",
+   "nom": "Burdock root"
+  },
+  {
+   "id": "Ku Gua",
+   "nom": "Bitter melon"
+  },
+  {
+   "id": "Bing Tang",
+   "nom": "Rock sugar"
+  },
+  {
+   "id": "Ji Zi Huang",
+   "nom": "Egg yolk"
+  }
+ ]
+}

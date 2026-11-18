@@ -1,0 +1,313 @@
+# Transforment les Mucosités, calment la toux
+@Bai Bu | 百部 | Stemonae Radix | mucosites | tiede | douce, amere | P | 5–15 g
+n Stémona || Stemona root
+a Humidifie le Poumon, calme la toux, chasse les poux et les vers. || Moistens the Lung, stops cough, kills lice and worms.
+i toux ancienne ou récente ; coqueluche ; poux (externe) || old or recent cough; whooping cough; lice (external)
+x Diarrhée ; Vide de la Rate. || Diarrhea; Spleen deficiency.
+
+@Bai Jie Zi | 白芥子 | Sinapis Semen | mucosites | tiede | piquante | P | 3–9 g
+n Graine de moutarde blanche || White mustard seed
+a Réchauffe le Poumon, transforme les Mucosités froides, dissout les nodules, débloque les méridiens. || Warms the Lung, transforms Cold Phlegm, dissolves nodules, unblocks the channels.
+i toux avec glaires blanches abondantes ; oppression ; nodules froids ; douleurs articulaires avec Mucosités || cough with abundant white phlegm; chest oppression; cold nodules; joint pain with Phlegm
+x Vide de Yin avec Chaleur ; irritante pour l'estomac et la peau. || Yin deficiency with Heat; irritating to the stomach and skin.
+
+@Bai Qian | 白前 | Cynanchi stauntonii Rhizoma | mucosites | tiede | piquante, amere | P | 3–10 g
+n Cynanchum de Staunton || Cynanchum rhizome
+a Fait descendre le Qi du Poumon, transforme les Mucosités, calme la toux. || Directs Lung Qi downward, transforms Phlegm, stops cough.
+i toux avec glaires abondantes ; essoufflement || cough with abundant phlegm; breathlessness
+x Toux sèche de Vide. || Dry deficiency cough.
+
+@Ban Xia | 半夏 | Pinelliae Rhizoma praeparatum | mucosites | tiede | piquante | Rt, E, P | 3–9 g
+n Pinellia préparé || Processed pinellia
+a Assèche l'Humidité, transforme les Mucosités, fait descendre la rébellion, arrête les vomissements, dissout les nodules. || Dries Dampness, transforms Phlegm, directs rebellion downward, stops vomiting, dissolves nodules.
+i toux avec glaires ; nausées, vomissements ; oppression ; vertiges ; boule dans la gorge || cough with phlegm; nausea, vomiting; chest oppression; dizziness; lump in the throat
+x Toxique cru : uniquement préparé ; Vide de Yin, toux sèche ; grossesse (prudence). || Toxic raw: processed only; Yin deficiency, dry cough; pregnancy (caution).
+
+@Chuan Bei Mu | 川贝母 | Fritillariae cirrhosae Bulbus | mucosites | fraiche | amere, douce | P, C | 3–9 g
+n Fritillaire du Sichuan || Sichuan fritillary bulb
+a Clarifie la Chaleur, humidifie le Poumon, transforme les Mucosités, calme la toux, dissout les nodules. || Clears Heat, moistens the Lung, transforms Phlegm, stops cough, dissolves nodules.
+i toux sèche ou avec peu de glaires collantes ; toux chronique ; ganglions || dry cough or cough with scanty sticky phlegm; chronic cough; lymph nodes
+x Toux de Froid avec glaires claires ; ne pas associer aux aconits (tradition). || Cold cough with clear phlegm; not combined with aconites (traditional).
+
+@Dan Nan Xing | 胆南星 | Arisaema cum Bile | mucosites | fraiche | amere, piquante | P, F, Rt | 3–6 g
+n Arisaema préparé à la bile || Bile-processed arisaema
+a Clarifie la Chaleur, transforme les Mucosités, éteint le Vent, calme les spasmes. || Clears Heat, transforms Phlegm, extinguishes Wind, stops spasms.
+i toux avec glaires jaunes épaisses ; vertiges ; convulsions ; épilepsie (accompagnement) || cough with thick yellow phlegm; dizziness; convulsions; epilepsy (support)
+x Grossesse ; Vide de Yin, toux sèche. || Pregnancy; Yin deficiency, dry cough.
+o Traditionnellement préparé avec de la bile de bœuf ou de porc : demande l'origine au fournisseur. || Traditionally processed with ox or pig bile: ask the supplier about the source.
+
+@Gua Lou Ren | 瓜蒌仁 | Trichosanthis Semen | mucosites | froide | douce | P, E, GI | 9–15 g
+n Graine de trichosanthe || Trichosanthes seed
+a Clarifie la Chaleur, transforme les Mucosités, humidifie les intestins. || Clears Heat, transforms Phlegm, moistens the intestines.
+i toux avec glaires jaunes et collantes ; oppression de poitrine ; constipation sèche || cough with yellow sticky phlegm; chest oppression; dry constipation
+x Diarrhée, Mucosités froides ; ne pas associer aux aconits (tradition). || Diarrhea, Cold Phlegm; not combined with aconites (traditional).
+
+@Hai Zao | 海藻 | Sargassum | mucosites | froide | salee, amere | F, E, Rn | 6–12 g
+n Sargasse (algue) || Sargassum seaweed
+a Transforme les Mucosités, ramollit et disperse les nodules, fait uriner. || Transforms Phlegm, softens and disperses nodules, promotes urination.
+i goitre ; nodules du cou ; ganglions ; œdèmes || goiter; neck nodules; lymph nodes; edema
+x Très riche en iode : maladies de la thyroïde (avis médical) ; Froid de la Rate ; « incompatible » avec Gan Cao selon les textes classiques. || Very rich in iodine: thyroid disease (medical advice); Spleen Cold; "incompatible" with Gan Cao according to the classics.
+
+@Jie Geng | 桔梗 | Platycodi Radix | mucosites | neutre | amere, piquante | P | 3–10 g
+n Platycodon (campanule chinoise) || Platycodon root (balloon flower)
+a Ouvre le Qi du Poumon, transforme les Mucosités, apaise la gorge, fait sortir le pus, conduit les plantes vers le haut. || Opens Lung Qi, transforms Phlegm, soothes the throat, expels pus, guides herbs upward.
+i toux avec glaires ; mal de gorge ; voix enrouée ; oppression ; abcès du poumon || cough with phlegm; sore throat; hoarse voice; chest oppression; lung abscess
+x Toux sèche de Vide de Yin, crachats de sang ; forte dose : nausées. || Dry cough from Yin deficiency, coughing blood; high doses: nausea.
+
+@Kun Bu | 昆布 | Laminariae Thallus | mucosites | froide | salee | F, E, Rn | 6–12 g
+n Laminaire (kombu) || Kelp (kombu)
+a Ramollit les masses, transforme les Mucosités, fait uriner. || Softens masses, transforms Phlegm, promotes urination.
+i goitre ; nodules ; ganglions ; œdèmes || goiter; nodules; lymph nodes; edema
+x Très riche en iode : maladies de la thyroïde (avis médical) ; Froid de la Rate. || Very rich in iodine: thyroid disease (medical advice); Spleen Cold.
+o Hai Dai (laminaire alimentaire) est utilisé de la même façon. || Hai Dai (food kelp) is used in the same way.
+
+@Pi Pa Ye | 枇杷叶 | Eriobotryae Folium | mucosites | fraiche | amere | P, E | 6–10 g
+n Feuille de néflier du Japon || Loquat leaf
+a Clarifie le Poumon, calme la toux, fait descendre le Qi de l'Estomac. || Clears the Lung, stops cough, directs Stomach Qi downward.
+i toux de Chaleur ; toux sèche ; nausées de Chaleur ; acné du visage || Heat cough; dry cough; Heat nausea; facial acne
+x Toux de Froid ; en décoction, filtrer (poils irritants). || Cold cough; in decoction, strain well (irritating hairs).
+
+@Qian Hu | 前胡 | Peucedani Radix | mucosites | fraiche | amere, piquante | P | 6–10 g
+n Peucédan || Peucedanum root
+a Fait descendre le Qi du Poumon, transforme les Mucosités, chasse le Vent-Chaleur. || Directs Lung Qi downward, transforms Phlegm, dispels Wind-Heat.
+i toux avec glaires épaisses ; essoufflement ; rhume avec toux || cough with thick phlegm; breathlessness; cold with cough
+x Toux de Vide de Yin. || Cough from Yin deficiency.
+
+@Sang Bai Pi | 桑白皮 | Mori Cortex | mucosites | froide | douce | P | 6–15 g
+n Écorce de racine de mûrier blanc || White mulberry root bark
+a Clarifie la Chaleur du Poumon, calme la toux et l'asthme, fait uriner. || Clears Lung Heat, stops cough and wheezing, promotes urination.
+i toux de Chaleur ; essoufflement ; œdèmes du visage ; acné du nez || Heat cough; wheezing; facial edema; nose acne
+x Toux de Froid, urines abondantes. || Cold cough, abundant urination.
+
+@Ting Li Zi | 葶苈子 | Descurainiae Semen | mucosites | froide | piquante, amere | P, V | 3–9 g
+n Graine de sagesse des chirurgiens || Descurainia seed
+a Draine le Poumon, calme l'asthme, fait uriner, réduit les œdèmes. || Drains the Lung, calms wheezing, promotes urination, reduces edema.
+i essoufflement avec glaires abondantes ; œdèmes du haut du corps || breathlessness with abundant phlegm; upper-body edema
+x Vide du Poumon, Vide de la Rate ; insuffisance cardiaque : avis médical. || Lung or Spleen deficiency; heart failure: medical advice.
+
+@Xing Ren | 苦杏仁 | Armeniacae Semen amarum | mucosites | tiede | amere | P, GI | 3–10 g
+n Amande d'abricot amère || Bitter apricot kernel
+a Fait descendre le Qi du Poumon, calme la toux et l'asthme, humidifie les intestins. || Directs Lung Qi downward, stops cough and wheezing, moistens the intestines.
+i toux ; essoufflement ; constipation sèche || cough; breathlessness; dry constipation
+x Légèrement toxique (amygdaline) : ne pas dépasser la dose, prudence chez l'enfant ; diarrhée. || Mildly toxic (amygdalin): do not exceed the dose, caution in children; diarrhea.
+
+@Xuan Fu Hua | 旋覆花 | Inulae Flos | mucosites | tiede | amere, piquante, salee | P, E, Rt, GI | 3–9 g
+n Fleur d'inule || Inula flower
+a Fait descendre le Qi, transforme les Mucosités, arrête les vomissements et les renvois. || Directs Qi downward, transforms Phlegm, stops vomiting and belching.
+i renvois ; hoquet ; nausées ; toux avec glaires abondantes || belching; hiccups; nausea; cough with abundant phlegm
+x Vide de Yin avec toux sèche ; cuire en sachet (poils irritants). || Yin deficiency with dry cough; cook in a bag (irritating hairs).
+
+@Zhe Bei Mu | 浙贝母 | Fritillariae thunbergii Bulbus | mucosites | froide | amere | P, C | 6–12 g
+n Fritillaire du Zhejiang || Zhejiang fritillary bulb
+a Clarifie la Chaleur, transforme les Mucosités, dissout les nodules et les abcès. || Clears Heat, transforms Phlegm, dissolves nodules and abscesses.
+i toux de Chaleur avec glaires jaunes ; ganglions ; nodules ; abcès ; mal de gorge || Heat cough with yellow phlegm; lymph nodes; nodules; abscesses; sore throat
+x Mucosités froides, Vide de la Rate ; ne pas associer aux aconits (tradition). || Cold Phlegm, Spleen deficiency; not combined with aconites (traditional).
+
+@Zhu Ru | 竹茹 | Bambusae Caulis in taenia | mucosites | fraiche | douce | P, E, VB | 6–10 g
+n Raclure de bambou || Bamboo shavings
+a Clarifie la Chaleur, transforme les Mucosités, arrête les vomissements, apaise l'agitation. || Clears Heat, transforms Phlegm, stops vomiting, relieves restlessness.
+i nausées de Chaleur ; vomissements de grossesse ; insomnie avec agitation ; toux avec glaires jaunes || Heat nausea; pregnancy vomiting; insomnia with restlessness; cough with yellow phlegm
+x Vomissements de Froid. || Cold vomiting.
+
+@Zi Su Zi | 紫苏子 | Perillae Fructus | mucosites | tiede | piquante | P, GI | 3–10 g
+n Graine de périlla || Perilla seed
+a Fait descendre le Qi, transforme les Mucosités, calme l'asthme, humidifie les intestins. || Directs Qi downward, transforms Phlegm, calms wheezing, moistens the intestines.
+i toux et essoufflement avec glaires ; oppression ; constipation || cough and breathlessness with phlegm; chest oppression; constipation
+x Diarrhée, Vide de Qi. || Diarrhea, Qi deficiency.
+
+@Zi Wan | 紫菀 | Asteris Radix | mucosites | tiede | amere, piquante, douce | P | 5–10 g
+n Aster de Tatarie || Tatarian aster root
+a Humidifie le Poumon, fait descendre le Qi, transforme les Mucosités, calme la toux. || Moistens the Lung, directs Qi downward, transforms Phlegm, stops cough.
+i toux ancienne ou récente ; glaires difficiles à cracher ; crachats teintés de sang || old or recent cough; phlegm hard to bring up; blood-streaked sputum
+x Toux de Chaleur forte. || Strong Heat cough.
+
+# Calment le Shen
+@Bai Zi Ren | 柏子仁 | Platycladi Semen | shen | neutre | douce | C, Rn, GI | 9–15 g
+n Graine de thuya d'Orient || Oriental arborvitae seed
+a Nourrit le Cœur, calme le Shen, humidifie les intestins. || Nourishes the Heart, calms the Shen, moistens the intestines.
+i insomnie ; palpitations ; mémoire faible ; sueurs nocturnes ; constipation sèche || insomnia; palpitations; poor memory; night sweats; dry constipation
+x Diarrhée, Mucosités. || Diarrhea, Phlegm.
+
+@Ci Shi | 磁石 | Magnetitum | shen | froide | salee | F, C, Rn | 9–30 g
+n Magnétite || Magnetite
+a Calme le Shen, fait descendre le Yang, améliore l'ouïe et la vue, aide le Rein à recevoir le Qi. || Calms the Shen, anchors Yang, improves hearing and vision, helps the Kidney grasp Qi.
+i palpitations ; insomnie ; acouphènes, surdité ; vertiges ; asthme de Vide du Rein || palpitations; insomnia; tinnitus, deafness; dizziness; asthma from Kidney deficiency
+x Digestion faible (lourd) ; cure courte ; cuire 30 min avant les autres. || Weak digestion (heavy); short course; cook 30 min before the others.
+
+@He Huan Pi | 合欢皮 | Albiziae Cortex | shen | neutre | douce | C, F | 6–12 g
+n Écorce d'albizia (« écorce de la joie collective ») || Albizia bark ("collective happiness bark")
+a Calme le Shen, libère les émotions bloquées, active le Sang. || Calms the Shen, releases blocked emotions, invigorates Blood.
+i tristesse, irritabilité ; insomnie ; ruminations ; contusions || sadness, irritability; insomnia; rumination; bruises
+x Grossesse. || Pregnancy.
+
+@Ling Zhi | 灵芝 | Ganoderma | shen | neutre | douce | C, P, F, Rn | 6–12 g
+n Ganoderme luisant (reishi) || Reishi mushroom
+a Tonifie le Qi, calme le Shen, calme la toux et l'asthme. || Tonifies Qi, calms the Shen, stops cough and wheezing.
+i insomnie ; fatigue ; palpitations ; toux chronique ; défenses faibles || insomnia; fatigue; palpitations; chronic cough; low defenses
+x Anticoagulants (prudence). || Anticoagulants (caution).
+
+@Long Chi | 龙齿 | Fossilia Dentis Mastodi | shen | fraiche | douce, astringente | C, F | 9–15 g
+n Dent fossile (« dent de dragon ») || Fossil teeth ("dragon teeth")
+a Calme le Shen, apaise les peurs et les palpitations. || Calms the Shen, settles fears and palpitations.
+i peurs, sursauts ; palpitations ; insomnie avec cauchemars || fears, being easily startled; palpitations; insomnia with nightmares
+x Humidité-Chaleur ; cuire 30 min avant les autres. || Damp-Heat; cook 30 min before the others.
+
+@Long Gu | 龙骨 | Fossilia Ossis Mastodi | shen | neutre | douce, astringente | C, F, Rn | 15–30 g
+n Os fossile (« os de dragon ») || Fossil bone ("dragon bone")
+a Calme le Shen, fait descendre le Yang du Foie, retient (sueurs, pertes). || Calms the Shen, anchors Liver Yang, astringes (sweating, emissions).
+i palpitations ; insomnie ; anxiété ; vertiges ; sueurs ; pertes séminales || palpitations; insomnia; anxiety; dizziness; sweating; seminal emissions
+x Humidité-Chaleur ; cuire 30 min avant les autres. || Damp-Heat; cook 30 min before the others.
+
+@Suan Zao Ren | 酸枣仁 | Ziziphi spinosae Semen | shen | neutre | douce, acide | C, F, VB | 9–15 g
+n Graine de jujubier sauvage || Sour jujube seed
+a Nourrit le Cœur et le Foie, calme le Shen, arrête la transpiration. || Nourishes the Heart and Liver, calms the Shen, stops sweating.
+i insomnie, réveils ; palpitations ; anxiété ; sueurs nocturnes || insomnia, waking; palpitations; anxiety; night sweats
+x Diarrhée ; Chaleur de Plénitude. || Diarrhea; Excess Heat.
+
+@Ye Jiao Teng | 夜交藤 | Polygoni multiflori Caulis | shen | neutre | douce | C, F | 9–30 g
+n Tige de renouée multiflore || Fleeceflower vine
+a Nourrit le Sang, calme le Shen, débloque les méridiens. || Nourishes Blood, calms the Shen, unblocks the channels.
+i insomnie ; rêves nombreux ; engourdissements ; démangeaisons (externe) || insomnia; vivid dreams; numbness; itching (external)
+x Rare. || Rare.
+
+@Yuan Zhi | 远志 | Polygalae Radix | shen | tiede | amere, piquante | C, Rn, P | 3–9 g
+n Polygala || Polygala root
+a Calme le Shen, relie le Cœur et le Rein, transforme les Mucosités, ouvre les orifices. || Calms the Shen, connects the Heart and Kidney, transforms Phlegm, opens the orifices.
+i insomnie ; oubli ; palpitations ; anxiété ; toux avec glaires || insomnia; forgetfulness; palpitations; anxiety; cough with phlegm
+x Ulcère, gastrite (irritant) ; Chaleur. || Ulcer, gastritis (irritating); Heat.
+
+@Zhen Zhu Mu | 珍珠母 | Margaritiferae Concha | vent-interne | froide | salee | F, C | 15–30 g
+n Nacre || Mother-of-pearl
+a Fait descendre le Yang du Foie, calme le Shen, éclaircit les yeux. || Anchors Liver Yang, calms the Shen, clears the eyes.
+i insomnie avec agitation ; palpitations ; vertiges ; yeux rouges || insomnia with agitation; palpitations; dizziness; red eyes
+x Froid de la Rate ; cuire 30 min avant les autres. || Spleen Cold; cook 30 min before the others.
+
+# Apaisent le Foie, éteignent le Vent
+@Bai Ji Li | 白蒺藜 | Tribuli Fructus | vent-interne | tiede | amere, piquante | F | 6–10 g
+n Croix de Malte (tribule) || Puncture vine fruit
+a Apaise le Foie, libère le Qi du Foie, chasse le Vent, éclaircit les yeux, calme les démangeaisons. || Calms the Liver, frees Liver Qi, dispels Wind, clears the eyes, relieves itching.
+i maux de tête ; vertiges ; yeux rouges ; démangeaisons ; seins tendus || headaches; dizziness; red eyes; itching; breast tenderness
+x Grossesse ; Vide de Sang. || Pregnancy; Blood deficiency.
+
+@Dai Zhe Shi | 代赭石 | Haematitum | vent-interne | froide | amere | F, C | 9–30 g
+n Hématite || Hematite
+a Fait descendre le Yang du Foie et le Qi rebelle, arrête les saignements. || Anchors Liver Yang and rebellious Qi, stops bleeding.
+i vertiges ; tension élevée ; renvois, hoquet, vomissements ; asthme || dizziness; high blood pressure; belching, hiccups, vomiting; asthma
+x Grossesse ; cure courte (contient des traces d'arsenic) ; cuire 30 min avant les autres. || Pregnancy; short course (contains traces of arsenic); cook 30 min before the others.
+
+@Di Long | 地龙 | Pheretima | vent-interne | froide | salee | F, Rt, V | 5–10 g
+n Ver de terre séché || Dried earthworm
+a Éteint le Vent, clarifie la Chaleur, débloque les méridiens, calme l'asthme, fait uriner. || Extinguishes Wind, clears Heat, unblocks the channels, calms wheezing, promotes urination.
+i convulsions de fièvre ; séquelles d'accident vasculaire ; asthme de Chaleur ; articulations chaudes ; tension élevée || febrile convulsions; after-effects of stroke; Heat asthma; hot joints; high blood pressure
+x Vide sans Chaleur ; grossesse. || Deficiency without Heat; pregnancy.
+
+@Gou Teng | 钩藤 | Uncariae Ramulus cum Uncis | vent-interne | fraiche | douce | F, MC | 6–15 g
+n Uncaria (« liane à crochets ») || Uncaria hook
+a Éteint le Vent, clarifie la Chaleur, apaise le Yang du Foie. || Extinguishes Wind, clears Heat, calms Liver Yang.
+i maux de tête ; vertiges ; tension élevée ; tremblements ; convulsions de l'enfant || headaches; dizziness; high blood pressure; tremors; convulsions in children
+x Ajouter en fin de cuisson (moins de 20 min). || Add at the end of cooking (under 20 min).
+
+@Mu Li | 牡蛎 | Ostreae Concha | vent-interne | fraiche | salee, astringente | F, Rn | 15–30 g
+n Coquille d'huître || Oyster shell
+a Fait descendre le Yang du Foie, calme le Shen, ramollit les nodules, retient (sueurs, pertes), neutralise l'acidité. || Anchors Liver Yang, calms the Shen, softens nodules, astringes (sweating, emissions), neutralizes acid.
+i vertiges ; insomnie ; ganglions, nodules ; sueurs ; brûlures d'estomac || dizziness; insomnia; lymph nodes, nodules; sweating; heartburn
+x Froid de la Rate ; cuire 30 min avant les autres. || Spleen Cold; cook 30 min before the others.
+
+@Shi Jue Ming | 石决明 | Haliotidis Concha | vent-interne | froide | salee | F | 15–30 g
+n Coquille d'ormeau || Abalone shell
+a Fait descendre le Yang du Foie, clarifie le Foie, éclaircit les yeux. || Anchors Liver Yang, clears the Liver, clears the eyes.
+i vertiges ; maux de tête ; tension élevée ; yeux rouges ; vision floue || dizziness; headaches; high blood pressure; red eyes; blurred vision
+x Froid de la Rate ; cuire 30 min avant les autres. || Spleen Cold; cook 30 min before the others.
+
+@Tian Ma | 天麻 | Gastrodiae Rhizoma | vent-interne | neutre | douce | F | 3–10 g
+n Gastrodia || Gastrodia rhizome
+a Éteint le Vent, apaise le Yang du Foie, débloque les méridiens. || Extinguishes Wind, calms Liver Yang, unblocks the channels.
+i vertiges ; maux de tête ; tremblements ; engourdissements ; convulsions || dizziness; headaches; tremors; numbness; convulsions
+x Vide de Sang marqué (prudence). || Marked Blood deficiency (caution).
+
+# Ouvrent les orifices
+@Bing Pian | 冰片 | Borneolum | orifices | fraiche | piquante, amere | C, Rt, P | 0,15–0,3 g
+n Bornéol || Borneol
+a Ouvre les orifices, clarifie la Chaleur, calme la douleur. || Opens the orifices, clears Heat, eases pain.
+i oppression et douleur de poitrine ; mal de gorge ; aphtes (externe) || chest oppression and pain; sore throat; mouth ulcers (external)
+x Grossesse ; uniquement en très petite dose, jamais en décoction. || Pregnancy; very small doses only, never in decoction.
+
+@Shi Chang Pu | 石菖蒲 | Acori tatarinowii Rhizoma | orifices | tiede | piquante, amere | C, E | 3–9 g
+n Acore graminée || Grassleaf sweetflag rhizome
+a Ouvre les orifices, transforme les Mucosités, calme le Shen, réveille la Rate. || Opens the orifices, transforms Phlegm, calms the Shen, awakens the Spleen.
+i esprit embrumé ; oubli ; acouphènes ; insomnie ; ventre lourd ; tête lourde || foggy mind; forgetfulness; tinnitus; insomnia; heavy belly; heavy head
+x Vide de Yin avec Chaleur, transpiration abondante. || Yin deficiency with Heat, heavy sweating.
+
+# Tonifient le Qi
+@Bai Bian Dou | 白扁豆 | Lablab Semen album | tonif-qi | tiede | douce | Rt, E | 9–15 g
+n Haricot dolique blanc || White hyacinth bean
+a Renforce la Rate, transforme l'Humidité, clarifie la Chaleur d'été. || Strengthens the Spleen, transforms Dampness, clears summer Heat.
+i selles molles ; fatigue ; pertes blanches ; nausées d'été || loose stools; fatigue; white discharge; summer nausea
+x Cru : toxique (toujours cuit). || Raw: toxic (always cooked).
+
+@Bai Zhu | 白术 | Atractylodis macrocephalae Rhizoma | tonif-qi | tiede | douce, amere | Rt, E | 6–12 g
+n Atractylode blanc || White atractylodes
+a Tonifie le Qi de la Rate, assèche l'Humidité, arrête la transpiration, calme le fœtus. || Tonifies Spleen Qi, dries Dampness, stops sweating, calms the fetus.
+i fatigue ; appétit faible ; selles molles ; œdèmes ; transpiration spontanée ; nausées de grossesse || fatigue; poor appetite; loose stools; edema; spontaneous sweating; morning sickness
+x Vide de Yin avec soif. || Yin deficiency with thirst.
+
+@Ci Wu Jia | 刺五加 | Acanthopanacis senticosi Radix | tonif-qi | tiede | piquante, amere | Rt, Rn, C | 9–27 g
+n Éleuthérocoque (ginseng de Sibérie) || Eleuthero (Siberian ginseng)
+a Tonifie le Qi de la Rate et du Rein, calme le Shen, fortifie les lombes. || Tonifies Spleen and Kidney Qi, calms the Shen, strengthens the lower back.
+i fatigue ; surmenage ; insomnie ; lombes faibles ; manque d'endurance || fatigue; overwork; insomnia; weak lower back; low stamina
+x Hypertension non contrôlée ; fièvre. || Uncontrolled hypertension; fever.
+
+@Da Zao | 大枣 | Jujubae Fructus | tonif-qi | tiede | douce | Rt, E | 3–10 pièces
+n Jujube || Jujube
+a Tonifie le Qi de la Rate, nourrit le Sang, calme le Shen, harmonise les plantes. || Tonifies Spleen Qi, nourishes Blood, calms the Shen, harmonizes the herbs.
+i fatigue ; appétit faible ; anxiété ; tristesse ; teint pâle || fatigue; poor appetite; anxiety; sadness; pale complexion
+x Humidité, ballonnements, Mucosités. || Dampness, bloating, Phlegm.
+
+@Dang Shen | 党参 | Codonopsis Radix | tonif-qi | neutre | douce | Rt, P | 9–30 g
+n Codonopsis || Codonopsis root
+a Tonifie le Qi de la Rate et du Poumon, nourrit le Sang, génère les liquides. || Tonifies Spleen and Lung Qi, nourishes Blood, generates fluids.
+i fatigue ; appétit faible ; selles molles ; essoufflement ; voix faible || fatigue; poor appetite; loose stools; breathlessness; weak voice
+x Chaleur de Plénitude. || Excess Heat.
+o Remplace souvent Ren Shen, plus doux et moins cher (environ deux fois la dose). || Often replaces Ren Shen, gentler and cheaper (about twice the dose).
+
+@Gan Cao | 甘草 | Glycyrrhizae Radix | tonif-qi | neutre | douce | C, P, Rt, E | 2–10 g
+n Réglisse || Licorice root
+a Tonifie le Qi, humidifie le Poumon, calme les spasmes et la douleur, élimine les toxines, harmonise les plantes. || Tonifies Qi, moistens the Lung, eases spasms and pain, resolves toxicity, harmonizes the herbs.
+i fatigue ; palpitations ; toux ; crampes ; mal de gorge ; Zhi Gan Cao (grillée au miel) tonifie davantage || fatigue; palpitations; cough; cramps; sore throat; Zhi Gan Cao (honey-fried) tonifies more
+x Hypertension, œdèmes, potassium bas en cure longue ; Humidité ; « incompatible » avec Hai Zao, Da Ji, Gan Sui et Yuan Hua (tradition). || Hypertension, edema, low potassium on long courses; Dampness; "incompatible" with Hai Zao, Da Ji, Gan Sui and Yuan Hua (traditional).
+
+@Geng Mi | 粳米 | Oryzae Semen | tonif-qi | neutre | douce | Rt, E | 15–30 g
+n Riz rond || Short-grain rice
+a Tonifie le Qi de l'Estomac, génère les liquides, protège l'Estomac des plantes froides. || Tonifies Stomach Qi, generates fluids, protects the Stomach from cold herbs.
+i soif ; faiblesse de l'Estomac ; associé à Shi Gao pour protéger l'Estomac || thirst; Stomach weakness; paired with Shi Gao to protect the Stomach
+x Aucune. || None.
+
+@Hong Jing Tian | 红景天 | Rhodiolae crenulatae Radix | tonif-qi | fraiche | douce, amere | P, C | 3–6 g
+n Rhodiole || Rhodiola root
+a Tonifie le Qi, clarifie le Poumon, active le Sang, calme le Shen. || Tonifies Qi, clears the Lung, invigorates Blood, calms the Shen.
+i fatigue ; essoufflement en altitude ; toux ; stress || fatigue; breathlessness at altitude; cough; stress
+x Grossesse ; trouble bipolaire (stimulant). || Pregnancy; bipolar disorder (stimulating).
+
+@Huang Qi | 黄芪 | Astragali Radix | tonif-qi | tiede | douce | Rt, P | 9–30 g
+n Astragale || Astragalus root
+a Tonifie le Qi de la Rate et du Poumon, fait monter le Yang, consolide la surface, fait uriner, fait sortir le pus, régénère les tissus. || Tonifies Spleen and Lung Qi, lifts Yang, secures the exterior, promotes urination, expels pus, regenerates tissue.
+i fatigue ; rhumes à répétition ; transpiration spontanée ; prolapsus ; œdèmes ; plaies qui cicatrisent mal || fatigue; recurrent colds; spontaneous sweating; prolapse; edema; slow-healing wounds
+x Chaleur, rhume en cours, Vide de Yin avec Feu, montée du Yang du Foie. || Heat, an active cold, Yin deficiency with Fire, rising Liver Yang.
+
+@Ren Shen | 人参 | Ginseng Radix | tonif-qi | tiede | douce, amere | Rt, P, C, Rn | 3–9 g
+n Ginseng || Ginseng root
+a Tonifie fortement le Qi originel, renforce la Rate et le Poumon, génère les liquides, calme le Shen. || Strongly tonifies original Qi, strengthens the Spleen and Lung, generates fluids, calms the Shen.
+i grand épuisement ; convalescence ; essoufflement ; transpiration ; palpitations ; mémoire faible || deep exhaustion; convalescence; breathlessness; sweating; palpitations; poor memory
+x Hypertension, insomnie, Chaleur, Plénitude ; anticoagulants ; ne pas associer à Li Lu ni Wu Ling Zhi (tradition). || Hypertension, insomnia, Heat, Excess; anticoagulants; not combined with Li Lu or Wu Ling Zhi (traditional).
+
+@Shan Yao | 山药 | Dioscoreae Rhizoma | tonif-qi | neutre | douce | Rt, P, Rn | 9–30 g
+n Igname de Chine || Chinese yam
+a Tonifie le Qi et le Yin de la Rate, du Poumon et du Rein, retient l'Essence. || Tonifies Qi and Yin of the Spleen, Lung and Kidney, secures the Essence.
+i fatigue ; selles molles ; toux de Vide ; urines fréquentes ; pertes ; diabète || fatigue; loose stools; deficiency cough; frequent urination; discharge; diabetes
+x Humidité, stagnation. || Dampness, stagnation.
+
+@Yi Tang | 饴糖 | Saccharum granorum | tonif-qi | tiede | douce | Rt, E, P | 15–60 g
+n Sucre de malt || Malt sugar
+a Tonifie et réchauffe le Centre, calme la douleur, humidifie le Poumon. || Tonifies and warms the Middle, eases pain, moistens the Lung.
+i douleurs d'estomac de Vide-Froid ; toux sèche || Deficiency-Cold stomach pain; dry cough
+x Humidité, Chaleur, diabète, vomissements. || Dampness, Heat, diabetes, vomiting.

@@ -1,0 +1,470 @@
+# Réchauffent l'intérieur
+@li-zhong-wan | Li Zhong Wan | 理中丸 | rechauffer | cal
+n Pilules qui régulent le Centre || Regulate the Middle Pills
+c Ren Shen : 9 g ; Gan Jiang : 9 g ; Bai Zhu : 9 g ; Zhi Gan Cao : 9 g
+a Réchauffe le Centre, renforce la Rate et l'Estomac. || Warms the Middle, strengthens the Spleen and Stomach.
+i ventre froid et douloureux soulagé par la chaleur ; diarrhée claire ; vomissements ; pas de soif ; mains froides ; fatigue || cold, painful belly relieved by warmth; watery diarrhea; vomiting; no thirst; cold hands; fatigue
+t rt-vide-yang, e-vide-froid, gi-froid
+x Chaleur, fièvre ; Vide de Yin ; grossesse sans avis. || Heat, fever; Yin deficiency; pregnancy without advice.
+
+@xiao-jian-zhong-tang | Xiao Jian Zhong Tang | 小建中汤 | rechauffer |
+n Petite décoction qui renforce le Centre || Minor Construct the Middle Decoction
+c Yi Tang : 30 g ; Gui Zhi : 9 g ; Bai Shao : 18 g ; Zhi Gan Cao : 6 g ; Sheng Jiang : 9 g ; Da Zao : 6 pièces
+a Réchauffe et tonifie le Centre, calme les spasmes douloureux. || Warms and tonifies the Middle, eases painful spasms.
+i douleurs d'estomac crampoïdes soulagées par la chaleur et la pression ; fatigue ; palpitations ; mains et pieds froids ; teint pâle || cramping stomach pain relieved by warmth and pressure; fatigue; palpitations; cold hands and feet; pale complexion
+t e-vide-froid, rt-vide-yang
+x Vomissements, Humidité ou Chaleur ; diabète (sucre de malt). || Vomiting, Dampness or Heat; diabetes (malt sugar).
+
+@huang-qi-jian-zhong-tang | Huang Qi Jian Zhong Tang | 黄芪建中汤 | rechauffer |
+n Décoction d'Astragale qui renforce le Centre || Astragalus Decoction to Construct the Middle
+c Yi Tang : 30 g ; Huang Qi : 9 g ; Gui Zhi : 9 g ; Bai Shao : 18 g ; Zhi Gan Cao : 6 g ; Sheng Jiang : 9 g ; Da Zao : 6 pièces
+a Tonifie le Qi, réchauffe le Centre, calme la douleur. || Tonifies Qi, warms the Middle, eases pain.
+i douleurs d'estomac de Vide-Froid avec grande fatigue ; ulcère d'estomac sur terrain fatigué ; transpiration spontanée || Deficiency-Cold stomach pain with great fatigue; stomach ulcer in a tired constitution; spontaneous sweating
+t e-vide-froid, e-vide-qi
+x Chaleur, Humidité ; diabète. || Heat, Dampness; diabetes.
+
+@wu-zhu-yu-tang | Wu Zhu Yu Tang | 吴茱萸汤 | rechauffer |
+n Décoction d'Évodia || Evodia Decoction
+c Wu Zhu Yu : 9 g ; Ren Shen : 9 g ; Sheng Jiang : 18 g ; Da Zao : 4 pièces
+a Réchauffe le Foie et l'Estomac, fait descendre la rébellion, arrête les vomissements. || Warms the Liver and Stomach, directs rebellion downward, stops vomiting.
+i vomissements clairs ; reflux acide de Froid ; mal de tête au sommet avec nausées ; mains et pieds froids || clear vomiting; cold-type acid reflux; vertex headache with nausea; cold hands and feet
+t e-froid, e-vide-froid
+x Reflux ou vomissements de Chaleur (goût amer, soif). || Reflux or vomiting from Heat (bitter taste, thirst).
+
+@dang-gui-si-ni-tang | Dang Gui Si Ni Tang | 当归四逆汤 | rechauffer |
+n Décoction Angélique pour les extrémités froides || Tangkuei Decoction for Frigid Extremities
+c Dang Gui : 12 g ; Gui Zhi : 9 g ; Bai Shao : 9 g ; Xi Xin : 3 g ; Tong Cao : 6 g ; Da Zao : 8 pièces ; Zhi Gan Cao : 6 g
+a Réchauffe les méridiens, chasse le Froid, nourrit le Sang. || Warms the channels, dispels Cold, nourishes Blood.
+i mains et pieds glacés ; doigts blancs au froid (Raynaud) ; règles douloureuses de Froid ; douleurs des membres au froid || icy hands and feet; fingers turning white in the cold (Raynaud's); cold-type painful periods; limb pain in the cold
+t f-froid-meridien, froid-uterus, bi-froid
+x Chaleur ; grossesse sans avis. || Heat; pregnancy without advice.
+
+@nuan-gan-jian | Nuan Gan Jian | 暖肝煎 | rechauffer |
+n Décoction qui réchauffe le Foie || Warm the Liver Decoction
+c Dang Gui : 6 g ; Gou Qi Zi : 9 g ; Xiao Hui Xiang : 6 g ; Rou Gui : 3 g ; Wu Yao : 6 g ; Chen Xiang : 3 g ; Fu Ling : 6 g ; Sheng Jiang : 3 g
+a Réchauffe le Foie et le Rein, fait circuler le Qi, calme la douleur. || Warms the Liver and Kidney, moves Qi, eases pain.
+i douleur froide du bas-ventre ou des testicules ; hernie ; douleur aggravée par le froid || cold pain in the lower belly or testicles; hernia; pain worse with cold
+t f-froid-meridien
+x Chaleur, Humidité-Chaleur. || Heat, Damp-Heat.
+
+@tiao-wei-dan | Tiao Wei Dan | 调胃丹 | rechauffer | cal
+n Pilules qui régulent l'Estomac || Regulate the Stomach Pills
+c Zhi Shi : 450 mg ; Hou Po : 450 mg ; Xiang Fu : 340 mg ; Bai Dou Kou : 340 mg ; Gao Liang Jiang : 340 mg ; Ding Xiang : 340 mg ; Sha Ren : 260 mg ; Gan Cao : 260 mg ; Rou Gui : 220 mg
+a Réchauffe le Centre, fait circuler le Qi de l'Estomac. || Warms the Middle, moves Stomach Qi.
+i estomac froid et lourd ; digestion lente ; ballonnements après les repas ; renvois ; douleurs améliorées par la chaleur || cold, heavy stomach; slow digestion; bloating after meals; belching; pain eased by warmth
+t e-froid, e-vide-froid
+x Reflux de Chaleur, Vide de Yin ; grossesse. || Heat-type reflux, Yin deficiency; pregnancy.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+# Tonifient le Qi
+@si-jun-zi-tang | Si Jun Zi Tang | 四君子汤 | qi-tonif | cal, pv
+n Décoction des quatre gentilshommes || Four Gentlemen Decoction
+c Ren Shen : 9 g ; Bai Zhu : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 6 g
+a Tonifie le Qi, renforce la Rate. || Tonifies Qi, strengthens the Spleen.
+i fatigue ; appétit faible ; selles molles ; voix faible ; teint pâle || fatigue; poor appetite; loose stools; weak voice; pale complexion
+t rt-vide-qi, e-vide-qi, poumon-rate-qi
+x Chaleur, Vide de Yin. || Heat, Yin deficiency.
+o Dang Shen (15 g) remplace souvent Ren Shen. || Dang Shen (15 g) often replaces Ren Shen.
+
+@liu-jun-zi-tang | Liu Jun Zi Tang | 六君子汤 | qi-tonif | cal
+n Décoction des six gentilshommes || Six Gentlemen Decoction
+c Ren Shen : 9 g ; Bai Zhu : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 6 g ; Chen Pi : 9 g ; Ban Xia : 12 g
+a Tonifie le Qi de la Rate, transforme les Mucosités. || Tonifies Spleen Qi, transforms Phlegm.
+i fatigue avec nausées ; appétit faible ; ballonnements ; glaires ; selles molles || fatigue with nausea; poor appetite; bloating; phlegm; loose stools
+t rt-vide-qi, p-mucosites-humidite, e-vide-qi, poumon-rate-qi
+x Vide de Yin, sécheresse. || Yin deficiency, dryness.
+
+@xiang-sha-liu-jun-zi | Xiang Sha Liu Jun Zi Tang | 香砂六君子汤 | qi-tonif | cal
+n Décoction des six gentilshommes avec Aucklandia et Amome || Six Gentlemen Decoction with Aucklandia and Amomum
+c Ren Shen : 3 g ; Bai Zhu : 6 g ; Fu Ling : 6 g ; Zhi Gan Cao : 2 g ; Chen Pi : 3 g ; Ban Xia : 3 g ; Mu Xiang : 2 g ; Sha Ren : 3 g
+a Tonifie la Rate, fait circuler le Qi, transforme l'Humidité, harmonise l'Estomac. || Tonifies the Spleen, moves Qi, transforms Dampness, harmonizes the Stomach.
+i ballonnements et pesanteur après les repas ; nausées ; renvois ; appétit faible ; selles molles || bloating and heaviness after meals; nausea; belching; poor appetite; loose stools
+t rt-vide-qi, e-vide-qi, rt-froid-humidite
+x Vide de Yin, sécheresse. || Yin deficiency, dryness.
+
+@shen-ling-bai-zhu-san | Shen Ling Bai Zhu San | 参苓白术散 | qi-tonif | cal
+n Poudre Ginseng, Poria et Atractylode || Ginseng, Poria and Atractylodes Powder
+c Ren Shen : 9 g ; Bai Zhu : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 6 g ; Shan Yao : 9 g ; Bai Bian Dou : 9 g ; Lian Zi : 6 g ; Yi Yi Ren : 9 g ; Sha Ren : 5 g ; Jie Geng : 5 g
+a Tonifie le Qi de la Rate, draine l'Humidité, arrête la diarrhée. || Tonifies Spleen Qi, drains Dampness, stops diarrhea.
+i selles molles chroniques ; diarrhée après les repas ; fatigue ; membres lourds ; appétit faible ; pertes blanches || chronic loose stools; diarrhea after meals; fatigue; heavy limbs; poor appetite; white vaginal discharge
+t rt-vide-qi, rt-froid-humidite, poumon-rate-qi
+x Constipation, Vide de Yin. || Constipation, Yin deficiency.
+
+@bu-zhong-yi-qi-tang | Bu Zhong Yi Qi Tang | 补中益气汤 | qi-tonif | cal, pv
+n Décoction qui tonifie le Centre et augmente le Qi || Tonify the Middle and Augment the Qi Decoction
+c Huang Qi : 18 g ; Ren Shen : 9 g ; Bai Zhu : 9 g ; Zhi Gan Cao : 6 g ; Dang Gui : 6 g ; Chen Pi : 6 g ; Sheng Ma : 3 g ; Chai Hu : 3 g
+a Tonifie le Qi du Centre, fait remonter le Yang qui s'effondre. || Tonifies Middle Qi, lifts sinking Yang.
+i grande fatigue ; descente d'organes (prolapsus) ; hémorroïdes ; diarrhée chronique ; règles trop longues ; petite fièvre de fatigue ; transpiration spontanée || great fatigue; organ prolapse; hemorrhoids; chronic diarrhea; overly long periods; low-grade fever from exhaustion; spontaneous sweating
+t rt-effondrement, rt-vide-qi, rt-sang, gi-constipation-vide
+x Vide de Yin avec Chaleur ; hypertension, montée du Yang du Foie. || Yin deficiency with Heat; hypertension, rising Liver Yang.
+
+@sheng-mai-yin | Sheng Mai Yin | 生脉饮 | qi-tonif | cal
+n Boisson qui génère le pouls || Generate the Pulse Drink
+c Ren Shen : 9 g ; Mai Men Dong : 9 g ; Wu Wei Zi : 6 g
+a Tonifie le Qi, nourrit le Yin, arrête la transpiration. || Tonifies Qi, nourishes Yin, stops sweating.
+i fatigue avec bouche sèche ; transpiration abondante ; essoufflement ; palpitations ; toux sèche chronique ; épuisement après la chaleur || fatigue with dry mouth; heavy sweating; shortness of breath; palpitations; chronic dry cough; exhaustion after heat
+t qi-yin, c-vide-qi, p-vide-yin
+x Rhume en cours, Chaleur forte, toux grasse. || An active cold, strong Heat, productive cough.
+
+@bu-fei-tang | Bu Fei Tang | 补肺汤 | qi-tonif | cal, pv
+n Décoction qui tonifie le Poumon || Tonify the Lung Decoction
+c Ren Shen : 9 g ; Huang Qi : 24 g ; Shu Di Huang : 24 g ; Wu Wei Zi : 6 g ; Zi Wan : 9 g ; Sang Bai Pi : 12 g
+a Tonifie le Qi du Poumon, calme la toux et l'essoufflement. || Tonifies Lung Qi, stops cough and breathlessness.
+i essoufflement à l'effort ; toux faible chronique ; voix faible ; transpiration spontanée ; rhumes à répétition || breathlessness on exertion; weak chronic cough; weak voice; spontaneous sweating; recurrent colds
+t p-vide-qi, p-vide-yang, rn-recevoir-qi
+x Rhume en cours, toux de Chaleur avec glaires jaunes. || An active cold, Heat cough with yellow phlegm.
+
+@shen-qi-wan | Shen Qi Wan | 参芪丸 | qi-tonif | cal
+n Pilules Codonopsis et Astragale || Codonopsis and Astragalus Pills
+c Dang Shen : 1 part ; Huang Qi : 1 part
+a Tonifie le Qi de la Rate et du Poumon. || Tonifies Spleen and Lung Qi.
+i fatigue ; manque d'entrain ; rhumes fréquents ; appétit faible || fatigue; low drive; frequent colds; poor appetite
+t rt-vide-qi, p-vide-qi, poumon-rate-qi
+x Chaleur, rhume en cours. || Heat, an active cold.
+o Ne pas confondre avec Jin Gui Shen Qi Wan (金匮肾气丸), formule du Yang du Rein. || Not to be confused with Jin Gui Shen Qi Wan (金匮肾气丸), a Kidney Yang formula.
+
+@zi-sheng-wan | Zi Sheng Wan | 资生丸 | qi-tonif | cal
+n Pilules qui nourrissent la vie || Nourish Life Pills
+c Ren Shen : 9 g ; Bai Zhu : 9 g ; Fu Ling : 6 g ; Shan Yao : 6 g ; Lian Zi : 6 g ; Bai Bian Dou : 6 g ; Yi Yi Ren : 9 g ; Qian Shi : 6 g ; Chen Pi : 6 g ; Sha Ren : 3 g ; Bai Dou Kou : 3 g ; Huo Xiang : 3 g ; Jie Geng : 3 g ; Shan Zha : 6 g ; Mai Ya : 6 g ; Shen Qu : 6 g ; Huang Lian : 2 g ; Ze Xie : 3 g ; Gan Cao : 3 g
+a Renforce la Rate, draine l'Humidité, fait digérer. || Strengthens the Spleen, drains Dampness, aids digestion.
+i digestion lente ; ballonnements ; selles molles ; fatigue après les repas ; nausées de grossesse (sous avis) || slow digestion; bloating; loose stools; fatigue after meals; pregnancy nausea (under advice)
+t rt-vide-qi, e-stagnation-alimentaire
+x Vide de Yin, sécheresse. || Yin deficiency, dryness.
+
+@bu-pi-yi-chang | Bu Pi Yi Chang Wan | 补脾益肠丸 | qi-tonif | cal
+n Pilules qui tonifient la Rate et aident l'Intestin || Tonify the Spleen and Benefit the Intestines Pills
+c Huang Qi : 550 mg ; Dang Shen : 550 mg ; Bai Zhu : 550 mg ; Bai Shao : 550 mg ; Fang Feng : 370 mg ; Dang Gui : 220 mg ; Sha Ren : 220 mg
+a Tonifie le Qi de la Rate, détend le Foie, calme le ventre. || Tonifies Spleen Qi, relaxes the Liver, soothes the belly.
+i diarrhée chronique ; ventre sensible au stress ; douleurs améliorées après la selle ; fatigue || chronic diarrhea; belly sensitive to stress; pain eased after the stool; fatigue
+t foie-rate, rt-vide-qi
+x Diarrhée de Chaleur ou infectieuse. || Heat or infectious diarrhea.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@long-mu-zhuang-gu | Long Mu Zhuang Gu Ke Li | 龙牡壮骨颗粒 | qi-tonif | cal
+n Granulés qui fortifient les os (version Calebasse) || Strengthen the Bones Granules (Calebasse version)
+c Dang Shen : 527 mg ; Huang Qi : 527 mg ; Bai Zhu : 365 mg ; Shan Yao : 324 mg ; Fu Ling : 324 mg ; Da Zao : 324 mg ; Mai Men Dong : 203 mg ; Wu Wei Zi : 203 mg ; Gan Cao : 203 mg
+a Tonifie le Qi de la Rate et du Poumon, préserve le Yin. || Tonifies Spleen and Lung Qi, preserves Yin.
+i fatigue ; appétit irrégulier ; transpiration facile ; sommeil agité (souvent chez l'enfant) || fatigue; irregular appetite; easy sweating; restless sleep (often in children)
+t rt-vide-qi, qi-yin
+x Rhume avec fièvre. || A cold with fever.
+o Composition de Calebasse pour la dose du jour ; la formule chinoise d'origine contient aussi de l'os de dragon et de la coquille d'huître. || Calebasse composition for the daily dose; the original Chinese formula also contains dragon bone and oyster shell.
+
+# Nourrissent le Sang, tonifient Qi et Sang
+@si-wu-tang | Si Wu Tang | 四物汤 | sang-tonif | cal, pv
+n Décoction des quatre substances || Four Substances Decoction
+c Shu Di Huang : 12 g ; Dang Gui : 9 g ; Bai Shao : 9 g ; Chuan Xiong : 6 g
+a Nourrit et fait circuler le Sang, règle les règles. || Nourishes and moves Blood, regulates menstruation.
+i teint pâle ; vertiges ; règles peu abondantes ou en retard ; ongles cassants ; vue qui baisse ; engourdissements || pale complexion; dizziness; scanty or late periods; brittle nails; failing eyesight; numbness
+t f-vide-sang, c-vide-sang, qi-sang
+x Digestion très faible, selles molles (Shu Di est lourd) ; saignements abondants. || Very weak digestion, loose stools (Shu Di is heavy); heavy bleeding.
+
+@tao-hong-si-wu-tang | Tao Hong Si Wu Tang | 桃红四物汤 | sang | cal, pv
+n Décoction des quatre substances avec Pêcher et Carthame || Four Substances Decoction with Peach Kernel and Safflower
+c Shu Di Huang : 12 g ; Dang Gui : 9 g ; Bai Shao : 9 g ; Chuan Xiong : 6 g ; Tao Ren : 9 g ; Hong Hua : 6 g
+a Nourrit le Sang et dissout la stase. || Nourishes Blood and breaks up stasis.
+i règles douloureuses avec caillots sombres ; règles en retard ; douleur fixe ; teint terne || painful periods with dark clots; late periods; fixed pain; dull complexion
+t stase-sang, f-vide-sang
+x Grossesse ; règles abondantes ; anticoagulants. || Pregnancy; heavy periods; anticoagulants.
+
+@ba-zhen-tang | Ba Zhen Tang | 八珍汤 | sang-tonif | pv
+n Décoction des huit trésors || Eight Treasure Decoction
+c Ren Shen : 6 g ; Bai Zhu : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 5 g ; Shu Di Huang : 12 g ; Dang Gui : 9 g ; Bai Shao : 9 g ; Chuan Xiong : 6 g
+a Tonifie le Qi et le Sang. || Tonifies Qi and Blood.
+i fatigue avec teint pâle ; vertiges ; palpitations ; essoufflement ; convalescence ; après un accouchement || fatigue with pale complexion; dizziness; palpitations; shortness of breath; convalescence; after childbirth
+t qi-sang, c-vide-sang, f-vide-sang
+x Chaleur, rhume en cours, digestion très lourde. || Heat, an active cold, very sluggish digestion.
+
+@shi-quan-da-bu-tang | Shi Quan Da Bu Tang | 十全大补汤 | sang-tonif | cal, pv
+n Grande décoction des dix tonifiants || All-Inclusive Great Tonifying Decoction
+c Ren Shen : 6 g ; Bai Zhu : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 5 g ; Shu Di Huang : 12 g ; Dang Gui : 9 g ; Bai Shao : 9 g ; Chuan Xiong : 6 g ; Huang Qi : 12 g ; Rou Gui : 3 g
+a Tonifie et réchauffe le Qi et le Sang. || Warms and tonifies Qi and Blood.
+i grand épuisement ; frilosité ; teint pâle ; convalescence longue ; plaies qui cicatrisent mal || deep exhaustion; feeling cold; pale complexion; long convalescence; slow-healing wounds
+t qi-sang, rate-rein-yang
+x Chaleur, Vide de Yin, rhume en cours. || Heat, Yin deficiency, an active cold.
+
+@yang-rong-wan | Ren Shen Yang Rong Wan | 人参养荣丸 | sang-tonif | cal
+n Pilules qui nourrissent le Ying (Yang Rong Wan) || Ginseng Nourish the Nutritive Qi Pills (Yang Rong Wan)
+c Ren Shen : 6 g ; Bai Zhu : 9 g ; Fu Ling : 6 g ; Zhi Gan Cao : 3 g ; Dang Gui : 9 g ; Shu Di Huang : 9 g ; Bai Shao : 9 g ; Huang Qi : 9 g ; Rou Gui : 3 g ; Chen Pi : 6 g ; Wu Wei Zi : 6 g ; Yuan Zhi : 6 g
+a Tonifie le Qi et le Sang, nourrit le Cœur, calme le Shen. || Tonifies Qi and Blood, nourishes the Heart, calms the Shen.
+i fatigue avec palpitations ; mémoire faible ; insomnie ; teint pâle ; essoufflement || fatigue with palpitations; poor memory; insomnia; pale complexion; shortness of breath
+t qi-sang, coeur-rate, c-vide-sang
+x Chaleur, Vide de Yin. || Heat, Yin deficiency.
+
+@nong-suo-yang-rong | Nong Suo Yang Rong Wan | 浓缩养荣丸 | sang-tonif | cal
+n Pilules concentrées qui nourrissent le Ying || Concentrated Nourish the Nutritive Qi Pills
+c Dang Shen : 270 mg ; Fu Ling : 270 mg ; Huang Qi : 270 mg ; Chen Pi : 270 mg ; Bai Zhu : 270 mg ; Bai Shao : 270 mg ; Shu Di Huang : 240 mg ; Yuan Zhi : 240 mg ; Sheng Jiang : 150 mg ; Dang Gui : 150 mg ; Suan Zao Ren : 150 mg ; Gan Cao : 150 mg ; Gui Zhi : 150 mg ; Wu Wei Zi : 150 mg
+a Tonifie le Qi et le Sang, calme le Shen. || Tonifies Qi and Blood, calms the Shen.
+i fatigue ; sommeil léger ; palpitations ; teint pâle ; mémoire faible || fatigue; light sleep; palpitations; pale complexion; poor memory
+t coeur-rate, qi-sang
+x Chaleur, Vide de Yin. || Heat, Yin deficiency.
+o Composition de Calebasse pour 6 g. || Calebasse composition for 6 g.
+
+@gui-pi-tang | Gui Pi Tang | 归脾汤 | sang-tonif | cal, pv
+n Décoction qui ramène à la Rate || Restore the Spleen Decoction
+c Huang Qi : 12 g ; Ren Shen : 6 g ; Bai Zhu : 9 g ; Fu Shen : 9 g ; Long Yan Rou : 12 g ; Suan Zao Ren : 12 g ; Dang Gui : 9 g ; Yuan Zhi : 6 g ; Mu Xiang : 6 g ; Zhi Gan Cao : 3 g ; Sheng Jiang : 3 g ; Da Zao : 4 pièces
+a Tonifie le Qi et le Sang du Cœur et de la Rate, calme le Shen, fait que la Rate retienne le Sang. || Tonifies Heart and Spleen Qi and Blood, calms the Shen, helps the Spleen hold Blood.
+i insomnie avec ruminations ; palpitations ; mémoire faible ; fatigue ; appétit faible ; règles trop abondantes ou trop longues ; bleus faciles || insomnia with rumination; palpitations; poor memory; fatigue; poor appetite; heavy or prolonged periods; easy bruising
+t coeur-rate, rt-sang, c-vide-sang, qi-sang
+x Chaleur, Vide de Yin avec Feu. || Heat, Yin deficiency with Fire.
+o Planeta Verd : Gui Pi Pian. || Planeta Verd: Gui Pi Pian.
+
+@dang-gui-bu-xue-tang | Dang Gui Bu Xue Tang | 当归补血汤 | sang-tonif |
+n Décoction d'Angélique qui tonifie le Sang || Tangkuei Decoction to Tonify the Blood
+c Huang Qi : 30 g ; Dang Gui : 6 g
+a Tonifie le Qi pour produire le Sang. || Tonifies Qi to generate Blood.
+i fatigue et pâleur après une perte de sang ; anémie ; chaleur du visage par Vide de Sang ; plaies lentes à cicatriser || fatigue and pallor after blood loss; anemia; facial heat from Blood deficiency; slow-healing wounds
+t qi-sang, f-vide-sang
+x Vide de Yin avec Chaleur. || Yin deficiency with Heat.
+
+@zhi-gan-cao-tang | Zhi Gan Cao Tang | 炙甘草汤 | sang-tonif | cal
+n Décoction de Réglisse grillée || Honey-Fried Licorice Decoction
+c Zhi Gan Cao : 12 g ; Ren Shen : 6 g ; Sheng Di Huang : 30 g ; E Jiao : 6 g ; Mai Men Dong : 10 g ; Huo Ma Ren : 10 g ; Gui Zhi : 9 g ; Sheng Jiang : 9 g ; Da Zao : 10 pièces
+a Tonifie le Qi, nourrit le Yin et le Sang, rétablit le pouls. || Tonifies Qi, nourishes Yin and Blood, restores the pulse.
+i palpitations ; pouls irrégulier ; essoufflement ; insomnie ; constipation sèche ; maigreur || palpitations; irregular pulse; shortness of breath; insomnia; dry constipation; thinness
+t c-vide-qi, c-vide-yin, c-vide-sang
+x Diarrhée ; tout trouble du rythme cardiaque doit être suivi par un médecin. || Diarrhea; any heart rhythm disorder must be followed by a doctor.
+o La formule ancienne se prépare avec du vin : on s'en passe. || The ancient formula is cooked with wine: it is left out.
+
+@bu-gan-tang | Bu Gan Tang | 补肝汤 | sang-tonif | pv
+n Décoction qui tonifie le Foie || Tonify the Liver Decoction
+c Dang Gui : 9 g ; Bai Shao : 9 g ; Chuan Xiong : 6 g ; Shu Di Huang : 12 g ; Suan Zao Ren : 9 g ; Mu Gua : 6 g ; Zhi Gan Cao : 3 g
+a Nourrit le Sang et le Yin du Foie, détend les tendons. || Nourishes Liver Blood and Yin, relaxes the tendons.
+i vision floue, yeux secs ; crampes ; engourdissements ; ongles cassants ; vertiges ; règles peu abondantes || blurred vision, dry eyes; cramps; numbness; brittle nails; dizziness; scanty periods
+t f-vide-sang, f-vide-yin
+x Digestion très faible. || Very weak digestion.
+o Composition classique ; la version de Planeta Verd (gélules) est voisine. || Classical composition; Planeta Verd's capsule version is close.
+
+@da-bu-yuan-jian | Da Bu Yuan Jian | 大补元煎 | sang-tonif | pv
+n Grande décoction qui tonifie l'Originel || Great Tonify the Basal Decoction
+c Ren Shen : 6 g ; Shan Yao : 6 g ; Shu Di Huang : 9 g ; Du Zhong : 6 g ; Dang Gui : 6 g ; Shan Zhu Yu : 3 g ; Gou Qi Zi : 6 g ; Zhi Gan Cao : 3 g
+a Tonifie le Qi et le Sang, nourrit le Rein et le Foie. || Tonifies Qi and Blood, nourishes the Kidney and Liver.
+i épuisement profond ; vertiges ; lombes faibles ; règles peu abondantes ; infertilité par Vide || deep exhaustion; dizziness; weak lower back; scanty periods; infertility from deficiency
+t qi-sang, rn-jing, foie-rein-yin
+x Digestion lourde, Humidité. || Sluggish digestion, Dampness.
+
+@fu-ke-zhong-zi | Fu Ke Zhong Zi Wan | 妇科种子丸 | sang-tonif | cal
+n Pilules gynécologiques pour la fertilité || Gynecology Fertility Pills
+c Shu Di Huang : 750 mg ; Xiang Fu : 380 mg ; Du Zhong : 380 mg ; Dang Gui : 280 mg ; Ai Ye : 280 mg ; Chuan Xiong : 280 mg ; Xu Duan : 280 mg ; Huang Qin : 190 mg ; Bai Shao : 190 mg
+a Nourrit le Sang, réchauffe l'Utérus, tonifie le Rein, règle le cycle. || Nourishes Blood, warms the Uterus, tonifies the Kidney, regulates the cycle.
+i cycles irréguliers ; règles peu abondantes ; désir d'enfant ; ventre froid || irregular cycles; scanty periods; wish to conceive; cold belly
+t f-vide-sang, froid-uterus
+x Grossesse en cours ; règles abondantes de Chaleur. || Current pregnancy; heavy periods from Heat.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@tiao-jing-zhu-yun | Tiao Jing Zhu Yun Wan | 调经助孕丸 | sang | cal
+n Pilules qui règlent les règles et aident la conception || Regulate Menstruation and Assist Conception Pills
+c Yi Mu Cao : 380 mg ; Bai Zhu : 380 mg ; Ji Xue Teng : 380 mg ; Tu Si Zi : 380 mg ; Xiang Fu : 280 mg ; Zhi Ke : 280 mg ; Mai Men Dong : 280 mg ; Niu Xi : 240 mg ; Huang Qin : 240 mg ; Chai Hu : 170 mg
+a Fait circuler le Qi et le Sang, libère le Foie, tonifie le Rein, règle le cycle. || Moves Qi and Blood, frees the Liver, tonifies the Kidney, regulates the cycle.
+i cycles irréguliers ; règles douloureuses ; seins tendus ; stress du désir d'enfant || irregular cycles; painful periods; breast tenderness; stress around trying to conceive
+t f-stagnation-qi, stase-sang
+x Grossesse en cours ; règles abondantes. || Current pregnancy; heavy periods.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+# Nourrissent le Yin
+@liu-wei-di-huang-wan | Liu Wei Di Huang Wan | 六味地黄丸 | yin | cal, pv
+n Pilules de Rehmannia aux six ingrédients || Six-Ingredient Pill with Rehmannia
+c Shu Di Huang : 24 g ; Shan Zhu Yu : 12 g ; Shan Yao : 12 g ; Ze Xie : 9 g ; Mu Dan Pi : 9 g ; Fu Ling : 9 g
+a Nourrit le Yin du Rein et du Foie. || Nourishes Kidney and Liver Yin.
+i lombes et genoux faibles ; vertiges ; acouphènes ; sueurs nocturnes ; chaleur des paumes et des plantes ; bouche sèche la nuit || weak lower back and knees; dizziness; tinnitus; night sweats; hot palms and soles; dry mouth at night
+t rn-vide-yin, foie-rein-yin, f-vide-yin
+x Digestion faible, selles molles ; Vide de Yang (frilosité). || Weak digestion, loose stools; Yang deficiency (feeling cold).
+
+@zhi-bai-di-huang-wan | Zhi Bai Di Huang Wan | 知柏地黄丸 | yin | cal, pv
+n Pilules de Rehmannia avec Anémarrhène et Phellodendron || Anemarrhena, Phellodendron and Rehmannia Pill
+c Shu Di Huang : 24 g ; Shan Zhu Yu : 12 g ; Shan Yao : 12 g ; Ze Xie : 9 g ; Mu Dan Pi : 9 g ; Fu Ling : 9 g ; Zhi Mu : 6 g ; Huang Bai : 6 g
+a Nourrit le Yin, fait descendre le Feu. || Nourishes Yin, drains Fire.
+i bouffées de chaleur ; sueurs nocturnes ; joues rouges l'après-midi ; urines foncées qui brûlent ; gorge sèche ; insomnie || hot flushes; night sweats; red cheeks in the afternoon; dark burning urine; dry throat; insomnia
+t rn-vide-yin, c-vide-yin, foie-rein-yin
+x Digestion faible, frilosité. || Weak digestion, feeling cold.
+
+@qi-ju-di-huang-wan | Qi Ju Di Huang Wan | 杞菊地黄丸 | yin | cal
+n Pilules de Rehmannia avec Lyciet et Chrysanthème || Lycium, Chrysanthemum and Rehmannia Pill
+c Shu Di Huang : 24 g ; Shan Zhu Yu : 12 g ; Shan Yao : 12 g ; Ze Xie : 9 g ; Mu Dan Pi : 9 g ; Fu Ling : 9 g ; Gou Qi Zi : 9 g ; Ju Hua : 9 g
+a Nourrit le Yin du Foie et du Rein, éclaircit les yeux. || Nourishes Liver and Kidney Yin, brightens the eyes.
+i yeux secs ; vision floue ; vision nocturne faible ; vertiges ; acouphènes ; maux de tête du Yang du Foie || dry eyes; blurred vision; poor night vision; dizziness; tinnitus; headaches from Liver Yang
+t f-vide-yin, foie-rein-yin, f-yang
+x Digestion faible, selles molles. || Weak digestion, loose stools.
+
+@mai-wei-di-huang-wan | Mai Wei Di Huang Wan | 麦味地黄丸 | yin | pv
+n Pilules de Rehmannia avec Ophiopogon et Schisandra || Ophiopogon, Schisandra and Rehmannia Pill
+c Shu Di Huang : 24 g ; Shan Zhu Yu : 12 g ; Shan Yao : 12 g ; Ze Xie : 9 g ; Mu Dan Pi : 9 g ; Fu Ling : 9 g ; Mai Men Dong : 9 g ; Wu Wei Zi : 6 g
+a Nourrit le Yin du Poumon et du Rein. || Nourishes Lung and Kidney Yin.
+i toux sèche chronique ; essoufflement ; sueurs nocturnes ; gorge sèche ; voix enrouée || chronic dry cough; breathlessness; night sweats; dry throat; hoarse voice
+t p-vide-yin, rn-recevoir-qi, p-secheresse
+x Toux grasse, rhume en cours, digestion faible. || Productive cough, an active cold, weak digestion.
+
+@ming-mu-di-huang-wan | Ming Mu Di Huang Wan | 明目地黄丸 | yin | cal
+n Pilules de Rehmannia qui éclaircissent les yeux || Brighten the Eyes Rehmannia Pill
+c Shu Di Huang : 24 g ; Shan Zhu Yu : 12 g ; Shan Yao : 12 g ; Ze Xie : 9 g ; Mu Dan Pi : 9 g ; Fu Ling : 9 g ; Dang Gui : 9 g ; Bai Shao : 9 g ; Gou Qi Zi : 9 g ; Ju Hua : 9 g ; Bai Ji Li : 9 g ; Shi Jue Ming : 12 g
+a Nourrit le Foie et le Rein, éclaircit les yeux. || Nourishes the Liver and Kidney, brightens the eyes.
+i yeux secs, qui piquent ; larmoiement au vent ; vision floue ; fatigue visuelle des écrans || dry, stinging eyes; tearing in the wind; blurred vision; eye strain from screens
+t f-vide-yin, f-vide-sang
+x Yeux rouges et douloureux d'infection (consulter) ; digestion faible. || Red, painful infected eyes (see a doctor); weak digestion.
+
+@er-long-zuo-ci-wan | Er Long Zuo Ci Wan | 耳聋左慈丸 | yin | cal
+n Pilules de Rehmannia avec Magnétite pour la surdité || Pill for Deafness that is Kind to the Left
+c Shu Di Huang : 24 g ; Shan Zhu Yu : 12 g ; Shan Yao : 12 g ; Ze Xie : 9 g ; Mu Dan Pi : 9 g ; Fu Ling : 9 g ; Ci Shi : 15 g ; Chai Hu : 3 g
+a Nourrit le Yin du Rein, apaise le Yang, améliore l'ouïe. || Nourishes Kidney Yin, anchors Yang, improves hearing.
+i acouphènes faibles, comme un bourdonnement ; baisse d'audition ; vertiges ; lombes faibles || faint, buzzing tinnitus; hearing loss; dizziness; weak lower back
+t rn-vide-yin, foie-rein-yin
+x Acouphènes forts par Feu du Foie ; digestion faible. || Loud tinnitus from Liver Fire; weak digestion.
+
+@da-bu-yin-wan | Da Bu Yin Wan | 大补阴丸 | yin | cal
+n Grandes pilules qui tonifient le Yin || Great Tonify the Yin Pill
+c Shu Di Huang : 18 g ; Gui Ban : 18 g ; Huang Bai : 12 g ; Zhi Mu : 12 g
+a Nourrit le Yin, fait descendre le Feu. || Nourishes Yin, drains Fire.
+i bouffées de chaleur ; sueurs nocturnes ; toux sèche avec sang ; irritabilité ; pertes séminales nocturnes || hot flushes; night sweats; dry cough with blood; irritability; nocturnal emissions
+t rn-vide-yin, foie-rein-yin
+x Digestion faible, frilosité. || Weak digestion, feeling cold.
+o La formule ancienne contient de la moelle épinière de porc : elle est retirée ici, vérifie l'étiquette du laboratoire. || The ancient formula contains pig spinal cord: it is left out here; check the lab's label.
+
+@zuo-gui-wan | Zuo Gui Wan | 左归丸 | yin | cal
+n Pilules qui restaurent la gauche (le Rein Yin) || Restore the Left (Kidney) Pill
+c Shu Di Huang : 24 g ; Shan Yao : 12 g ; Gou Qi Zi : 12 g ; Shan Zhu Yu : 12 g ; Chuan Niu Xi : 9 g ; Tu Si Zi : 12 g ; Lu Jiao Jiao : 12 g ; Gui Ban Jiao : 12 g
+a Nourrit le Yin du Rein, comble l'Essence (Jing) et la moelle. || Nourishes Kidney Yin, replenishes Essence (Jing) and marrow.
+i lombes et genoux faibles ; vertiges ; acouphènes ; sueurs nocturnes ; bouche sèche ; cheveux qui blanchissent tôt || weak lower back and knees; dizziness; tinnitus; night sweats; dry mouth; early graying
+t rn-jing, rn-vide-yin
+x Digestion faible, selles molles. || Weak digestion, loose stools.
+
+@yi-guan-jian | Yi Guan Jian | 一贯煎 | yin |
+n Décoction qui relie tout || Linking Decoction
+c Sheng Di Huang : 18 g ; Bei Sha Shen : 9 g ; Mai Men Dong : 9 g ; Dang Gui : 9 g ; Gou Qi Zi : 12 g ; Chuan Lian Zi : 5 g
+a Nourrit le Yin du Foie et du Rein, libère le Qi du Foie. || Nourishes Liver and Kidney Yin, spreads Liver Qi.
+i douleurs sous les côtes avec bouche et gorge sèches ; reflux acide ; yeux secs ; langue rouge et sèche || pain under the ribs with dry mouth and throat; acid reflux; dry eyes; red, dry tongue
+t f-vide-yin, foie-rein-yin
+x Humidité, Mucosités. || Dampness, Phlegm.
+
+@tian-wang-bu-xin-dan | Tian Wang Bu Xin Dan | 天王补心丹 | calmer | cal
+n Pilules du Roi céleste qui tonifient le Cœur || Emperor of Heaven's Special Pill to Tonify the Heart
+c Sheng Di Huang : 12 g ; Ren Shen : 5 g ; Dan Shen : 5 g ; Xuan Shen : 5 g ; Fu Ling : 5 g ; Wu Wei Zi : 5 g ; Yuan Zhi : 5 g ; Jie Geng : 5 g ; Dang Gui : 9 g ; Tian Men Dong : 9 g ; Mai Men Dong : 9 g ; Bai Zi Ren : 9 g ; Suan Zao Ren : 9 g
+a Nourrit le Yin et le Sang du Cœur, calme le Shen. || Nourishes Heart Yin and Blood, calms the Shen.
+i insomnie avec réveils et agitation ; palpitations ; mémoire faible ; rêves nombreux ; aphtes ; bouche sèche ; sueurs nocturnes || insomnia with waking and restlessness; palpitations; poor memory; vivid dreams; mouth ulcers; dry mouth; night sweats
+t c-vide-yin, coeur-rein, c-vide-sang
+x Digestion faible, selles molles. || Weak digestion, loose stools.
+o La formule ancienne est enrobée de cinabre (mercure) : il est retiré de toutes les versions européennes. || The ancient formula is coated with cinnabar (mercury): it is removed from all European versions.
+
+@bai-he-gu-jin-wan | Bai He Gu Jin Wan | 百合固金丸 | secheresse | cal
+n Pilules de Lis qui consolident le Métal || Lily Bulb Decoction to Preserve the Metal
+c Sheng Di Huang : 9 g ; Shu Di Huang : 9 g ; Mai Men Dong : 9 g ; Bai He : 12 g ; Bai Shao : 6 g ; Dang Gui : 9 g ; Chuan Bei Mu : 6 g ; Xuan Shen : 3 g ; Jie Geng : 6 g ; Gan Cao : 3 g
+a Nourrit le Yin du Poumon et du Rein, calme la toux, transforme les Mucosités. || Nourishes Lung and Kidney Yin, stops cough, transforms Phlegm.
+i toux sèche chronique ; glaires rares parfois avec un peu de sang ; gorge sèche ; voix enrouée ; chaleur des paumes || chronic dry cough; scanty phlegm sometimes with a little blood; dry throat; hoarse voice; hot palms
+t p-vide-yin, p-secheresse
+x Toux grasse, digestion faible ; toute toux avec du sang doit être vue par un médecin. || Productive cough, weak digestion; any cough with blood must be seen by a doctor.
+
+@sha-shen-mai-dong-tang | Sha Shen Mai Dong Tang | 沙参麦冬汤 | secheresse |
+n Décoction Glehnia et Ophiopogon || Glehnia and Ophiopogon Decoction
+c Bei Sha Shen : 9 g ; Mai Men Dong : 9 g ; Yu Zhu : 6 g ; Sang Ye : 5 g ; Tian Hua Fen : 5 g ; Bai Bian Dou : 5 g ; Gan Cao : 3 g
+a Nourrit le Yin du Poumon et de l'Estomac, génère les liquides. || Nourishes Lung and Stomach Yin, generates fluids.
+i toux sèche ; gorge et bouche sèches ; soif ; lèvres sèches ; peau sèche || dry cough; dry throat and mouth; thirst; dry lips; dry skin
+t p-secheresse, e-vide-yin, p-vide-yin
+x Humidité, Mucosités abondantes. || Dampness, abundant Phlegm.
+
+@yi-wei-tang | Yi Wei Tang | 益胃汤 | secheresse |
+n Décoction qui bénéficie à l'Estomac || Benefit the Stomach Decoction
+c Bei Sha Shen : 9 g ; Mai Men Dong : 15 g ; Sheng Di Huang : 15 g ; Yu Zhu : 5 g ; Bing Tang : 3 g
+a Nourrit le Yin de l'Estomac, génère les liquides. || Nourishes Stomach Yin, generates fluids.
+i bouche et lèvres sèches ; soif ; faim sans envie de manger ; brûlure légère de l'estomac ; constipation sèche || dry mouth and lips; thirst; hunger without appetite; mild burning in the stomach; dry constipation
+t e-vide-yin
+x Humidité, enduit épais et gras. || Dampness, thick greasy coating.
+
+@mai-men-dong-tang | Mai Men Dong Tang | 麦门冬汤 | secheresse |
+n Décoction d'Ophiopogon || Ophiopogon Decoction
+c Mai Men Dong : 30 g ; Ban Xia : 6 g ; Ren Shen : 6 g ; Gan Cao : 6 g ; Geng Mi : 6 g ; Da Zao : 4 pièces
+a Nourrit le Yin du Poumon et de l'Estomac, fait descendre le Qi qui remonte. || Nourishes Lung and Stomach Yin, directs rising Qi downward.
+i toux sèche en quintes ; gorge sèche ; glaires collantes difficiles à cracher ; reflux ; bouche sèche || dry cough in fits; dry throat; sticky phlegm hard to bring up; reflux; dry mouth
+t p-vide-yin, e-vide-yin
+x Toux de Froid avec glaires claires. || Cold-type cough with clear phlegm.
+
+@qing-zao-jiu-fei-tang | Qing Zao Jiu Fei Tang | 清燥救肺汤 | secheresse |
+n Décoction qui clarifie la sécheresse et sauve le Poumon || Eliminate Dryness and Rescue the Lung Decoction
+c Sang Ye : 9 g ; Shi Gao : 8 g ; Ren Shen : 2 g ; Gan Cao : 3 g ; Hei Zhi Ma : 3 g ; E Jiao : 3 g ; Mai Men Dong : 4 g ; Xing Ren : 2 g ; Pi Pa Ye : 3 g
+a Clarifie la sécheresse chaude, humidifie le Poumon. || Clears warm dryness, moistens the Lung.
+i toux sèche d'automne ; gorge et nez secs ; essoufflement ; soif ; agitation || dry autumn cough; dry throat and nose; breathlessness; thirst; restlessness
+t p-secheresse
+x Digestion faible, Humidité. || Weak digestion, Dampness.
+
+@xiao-luo-wan | Xiao Luo Wan | 消瘰丸 | mucosites |
+n Pilules qui font fondre les ganglions || Reduce Scrofula Pill
+c Xuan Shen : 12 g ; Mu Li : 15 g ; Zhe Bei Mu : 9 g
+a Clarifie la Chaleur, transforme les Mucosités, ramollit et disperse les nodules. || Clears Heat, transforms Phlegm, softens and disperses nodules.
+i ganglions du cou ; nodules ; gorge sèche ; bouche sèche ; langue rouge || lymph nodes in the neck; nodules; dry throat; dry mouth; red tongue
+t mucosites-feu-ganglions
+x Digestion faible, selles molles ; tout ganglion qui persiste doit être vu par un médecin. || Weak digestion, loose stools; any persistent lymph node must be seen by a doctor.
+
+@zi-yin-huo-xue-tang | Zi Yin Huo Xue Tang | 滋阴活血汤 | yin | cal
+n Décoction qui nourrit le Yin et active le Sang || Nourish Yin and Invigorate Blood Decoction
+c Bai Shao : 760 mg ; Sheng Di Huang : 660 mg ; Dan Shen : 370 mg ; Zhi Mu : 330 mg ; Gou Qi Zi : 330 mg ; Shan Zhu Yu : 330 mg ; Huang Bai : 220 mg
+a Nourrit le Yin du Rein et du Foie, tempère la Chaleur, fait circuler le Sang. || Nourishes Kidney and Liver Yin, tempers Heat, moves Blood.
+i bouffées de chaleur ; sueurs nocturnes ; sécheresse ; douleurs fixes ; règles avec caillots sur terrain sec || hot flushes; night sweats; dryness; fixed pains; clotted periods in a dry constitution
+t foie-rein-yin, rn-vide-yin, stase-sang
+x Digestion faible, grossesse. || Weak digestion, pregnancy.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@wu-hei-tang | Wu Hei Tang | 五黑汤 | yin | cal
+n Décoction des cinq noirs || Five Black Decoction
+c Sang Shen : 670 mg ; Gou Qi Zi : 670 mg ; He Shou Wu : 670 mg ; Hei Zhi Ma : 670 mg ; Sheng Jiang : 320 mg
+a Nourrit l'Essence et le Sang, soutient le Foie et le Rein. || Nourishes Essence and Blood, supports the Liver and Kidney.
+i cheveux qui blanchissent ou tombent ; peau sèche ; vision floue ; vertiges ; lombes faibles || graying or falling hair; dry skin; blurred vision; dizziness; weak lower back
+t rn-jing, f-vide-sang, foie-rein-yin
+x Selles molles ; maladie du foie (He Shou Wu : surveiller le foie en cure longue). || Loose stools; liver disease (He Shou Wu: monitor liver function on long courses).
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+# Tonifient le Yang
+@jin-gui-shen-qi-wan | Jin Gui Shen Qi Wan | 金匮肾气丸 | yang | cal, pv
+n Pilules du Coffre d'or pour le Qi du Rein || Kidney Qi Pill from the Golden Cabinet
+c Shu Di Huang : 24 g ; Shan Yao : 12 g ; Shan Zhu Yu : 12 g ; Ze Xie : 9 g ; Fu Ling : 9 g ; Mu Dan Pi : 9 g ; Gui Zhi : 3 g ; Zhi Fu Zi : 3 g
+a Réchauffe et tonifie le Yang du Rein. || Warms and tonifies Kidney Yang.
+i lombes froides et douloureuses ; frilosité ; urines fréquentes et claires, la nuit ; œdèmes des jambes ; baisse de libido || cold, aching lower back; feeling cold; frequent clear urination, at night; leg edema; low libido
+t rn-vide-yang, rate-rein-yang, rn-qi-non-ferme, v-vide-froid
+x Vide de Yin avec Chaleur ; grossesse (Fu Zi) ; Fu Zi est toxique s'il n'est pas préparé. || Yin deficiency with Heat; pregnancy (Fu Zi); Fu Zi is toxic unless processed.
+o Calebasse la vend aussi sous le nom Ba Wei Di Huang Wan. Son « Shen Qi Wan » (参芪丸) est une autre formule, pour le Qi de la Rate. || Calebasse also sells it as Ba Wei Di Huang Wan. Its "Shen Qi Wan" (参芪丸) is a different formula, for Spleen Qi.
+
+@you-gui-wan | You Gui Wan | 右归丸 | yang | cal
+n Pilules qui restaurent la droite (le Rein Yang) || Restore the Right (Kidney) Pill
+c Shu Di Huang : 24 g ; Shan Yao : 12 g ; Shan Zhu Yu : 9 g ; Gou Qi Zi : 12 g ; Tu Si Zi : 12 g ; Lu Jiao Jiao : 12 g ; Du Zhong : 12 g ; Dang Gui : 9 g ; Rou Gui : 6 g ; Zhi Fu Zi : 6 g
+a Réchauffe le Yang du Rein, comble l'Essence. || Warms Kidney Yang, replenishes Essence.
+i frilosité ; lombes et genoux froids ; impuissance ; infertilité ; fatigue profonde ; selles molles au réveil || feeling cold; cold lower back and knees; impotence; infertility; deep fatigue; loose stools on waking
+t rn-vide-yang, rn-jing, rate-rein-yang
+x Vide de Yin avec Chaleur ; grossesse. || Yin deficiency with Heat; pregnancy.
+
+@wu-zi-yan-zong-wan | Wu Zi Yan Zong Wan | 五子衍宗丸 | yang | cal
+n Pilules des cinq graines pour la descendance || Five-Seed Pill for Abundant Descendants
+c Gou Qi Zi : 24 g ; Tu Si Zi : 24 g ; Fu Pen Zi : 12 g ; Wu Wei Zi : 3 g ; Che Qian Zi : 6 g
+a Tonifie le Rein, comble l'Essence, retient. || Tonifies the Kidney, replenishes Essence, secures.
+i fertilité masculine faible ; éjaculation précoce ; gouttes après la miction ; lombes faibles || low male fertility; premature ejaculation; dribbling after urination; weak lower back
+t rn-jing, rn-qi-non-ferme
+x Humidité-Chaleur du bas (urines qui brûlent). || Damp-Heat below (burning urination).
+
+@cong-rong-bu-shen | Cong Rong Bu Shen Pian | 苁蓉补肾片 | yang | pv
+n Comprimés de Cistanche qui tonifient le Rein || Cistanche Tablets to Tonify the Kidney
+c Rou Cong Rong : 1 part ; Bu Gu Zhi : 1 part ; Shan Zhu Yu : 1 part ; Dang Gui : 1 part ; Shu Di Huang : 1 part
+a Tonifie le Yang et l'Essence du Rein, nourrit le Yin, fortifie les os et les tendons. || Tonifies Kidney Yang and Essence, nourishes Yin, strengthens bones and tendons.
+i lombes et genoux faibles ; éjaculation précoce ; fatigue ; constipation de la personne âgée || weak lower back and knees; premature ejaculation; fatigue; constipation in older people
+t rn-vide-yang, rn-jing, gi-constipation-vide
+x Diarrhée, Chaleur. || Diarrhea, Heat.
+o Proportions non publiées par Planeta Verd. || Proportions not published by Planeta Verd.
+
+@formule-yang-eau | Formule Yang Eau | — | yang | cal
+n Formule Yang de l'Eau (Calebasse) || Water Yang Formula (Calebasse)
+c Tu Si Zi : 750 mg ; Gou Qi Zi : 750 mg ; Ba Ji Tian : 750 mg ; Yuan Zhi : 380 mg ; Wu Wei Zi : 370 mg
+a Nourrit le Yang et le Yin du Rein, relie le Rein et le Cœur. || Nourishes Kidney Yang and Yin, connects the Kidney and Heart.
+i fatigue des lombes ; baisse de libido ; mémoire faible ; sommeil léger ; peurs || tired lower back; low libido; poor memory; light sleep; fears
+t rn-yin-yang, rn-peur, coeur-rein
+x Chaleur marquée. || Marked Heat.
+o Formule maison de Calebasse ; composition pour la dose du jour. || Calebasse house formula; composition for the daily dose.
+
+@zhen-wu-tang | Zhen Wu Tang | 真武汤 | humidite |
+n Décoction du Guerrier véritable || True Warrior Decoction
+c Zhi Fu Zi : 9 g ; Fu Ling : 9 g ; Bai Zhu : 6 g ; Bai Shao : 9 g ; Sheng Jiang : 9 g
+a Réchauffe le Yang du Rein et de la Rate, fait circuler l'Eau. || Warms Kidney and Spleen Yang, moves Water.
+i œdèmes, surtout des jambes ; urines rares ; frilosité ; vertiges ; palpitations ; diarrhée claire || edema, mostly of the legs; scanty urine; feeling cold; dizziness; palpitations; watery diarrhea
+t rate-rein-yang, rn-vide-yang
+x Grossesse ; Chaleur ; tout œdème doit être exploré par un médecin. || Pregnancy; Heat; any edema must be checked by a doctor.
+
+@er-xian-tang | Er Xian Tang | 二仙汤 | yang |
+n Décoction des deux Immortels || Two Immortals Decoction
+c Xian Mao : 9 g ; Yin Yang Huo : 9 g ; Ba Ji Tian : 9 g ; Dang Gui : 9 g ; Huang Bai : 6 g ; Zhi Mu : 6 g
+a Tonifie le Yang et le Yin du Rein, fait descendre le Feu, règle le Chong Mai et le Ren Mai. || Tonifies Kidney Yang and Yin, drains Fire, regulates the Chong and Ren vessels.
+i ménopause : bouffées de chaleur avec pieds froids ; sueurs ; irritabilité ; insomnie ; tension qui monte || menopause: hot flushes with cold feet; sweating; irritability; insomnia; rising blood pressure
+t rn-yin-yang
+x Vide de Yin pur avec Chaleur forte ; Xian Mao est légèrement toxique : pas de cure prolongée. || Pure Yin deficiency with strong Heat; Xian Mao is mildly toxic: no long courses.

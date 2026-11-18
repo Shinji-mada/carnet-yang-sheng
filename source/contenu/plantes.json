@@ -1,0 +1,4805 @@
+{
+ "categories_plantes": [
+  {
+   "id": "surface-chaude",
+   "zh": "辛温解表",
+   "nom": "Libèrent la surface, tièdes"
+  },
+  {
+   "id": "surface-fraiche",
+   "zh": "辛凉解表",
+   "nom": "Libèrent la surface, fraîches"
+  },
+  {
+   "id": "chaleur",
+   "zh": "清热",
+   "nom": "Clarifient la Chaleur"
+  },
+  {
+   "id": "purgatives",
+   "zh": "泻下",
+   "nom": "Purgatives et laxatives"
+  },
+  {
+   "id": "vent-humidite",
+   "zh": "祛风湿",
+   "nom": "Chassent le Vent-Humidité"
+  },
+  {
+   "id": "aromatiques",
+   "zh": "化湿",
+   "nom": "Aromatiques qui transforment l'Humidité"
+  },
+  {
+   "id": "diuretiques",
+   "zh": "利水渗湿",
+   "nom": "Drainent l'Eau et l'Humidité"
+  },
+  {
+   "id": "rechauffent",
+   "zh": "温里",
+   "nom": "Réchauffent l'intérieur"
+  },
+  {
+   "id": "qi",
+   "zh": "理气",
+   "nom": "Font circuler le Qi"
+  },
+  {
+   "id": "digestives",
+   "zh": "消食",
+   "nom": "Font digérer"
+  },
+  {
+   "id": "hemostatiques",
+   "zh": "止血",
+   "nom": "Arrêtent les saignements"
+  },
+  {
+   "id": "sang",
+   "zh": "活血化瘀",
+   "nom": "Activent le Sang"
+  },
+  {
+   "id": "mucosites",
+   "zh": "化痰止咳平喘",
+   "nom": "Transforment les Mucosités, calment la toux"
+  },
+  {
+   "id": "shen",
+   "zh": "安神",
+   "nom": "Calment le Shen"
+  },
+  {
+   "id": "vent-interne",
+   "zh": "平肝息风",
+   "nom": "Apaisent le Foie, éteignent le Vent"
+  },
+  {
+   "id": "orifices",
+   "zh": "开窍",
+   "nom": "Ouvrent les orifices"
+  },
+  {
+   "id": "tonif-qi",
+   "zh": "补气",
+   "nom": "Tonifient le Qi"
+  },
+  {
+   "id": "tonif-yang",
+   "zh": "补阳",
+   "nom": "Tonifient le Yang"
+  },
+  {
+   "id": "tonif-sang",
+   "zh": "补血",
+   "nom": "Nourrissent le Sang"
+  },
+  {
+   "id": "tonif-yin",
+   "zh": "补阴",
+   "nom": "Nourrissent le Yin"
+  },
+  {
+   "id": "astringentes",
+   "zh": "收涩",
+   "nom": "Astringentes"
+  },
+  {
+   "id": "externes",
+   "zh": "外用",
+   "nom": "Usage externe, toxiques"
+  }
+ ],
+ "plantes": [
+  {
+   "id": "ai-ye",
+   "py": "Ai Ye",
+   "zh": "艾叶",
+   "lat": "Artemisiae argyi Folium",
+   "nom": "Armoise (feuille du moxa)",
+   "cat": "hemostatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "Rn"
+   ],
+   "dose": "3–9 g",
+   "act": "Réchauffe les méridiens, arrête les saignements de Froid, calme la douleur, apaise le fœtus.",
+   "ind": "règles trop longues avec bas-ventre froid ; règles douloureuses de Froid ; petits saignements de grossesse (sous avis)",
+   "ci": "Chaleur du Sang ; légèrement toxique à forte dose."
+  },
+  {
+   "id": "ba-ji-tian",
+   "py": "Ba Ji Tian",
+   "zh": "巴戟天",
+   "lat": "Morindae officinalis Radix",
+   "nom": "Morinda",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "mer": [
+    "Rn",
+    "F"
+   ],
+   "dose": "6–15 g",
+   "act": "Tonifie le Yang du Rein, fortifie les tendons et les os, chasse le Vent-Humidité.",
+   "ind": "impuissance ; infertilité ; lombes et genoux froids ; urines fréquentes ; règles irrégulières de Froid",
+   "ci": "Vide de Yin avec Feu ; urines qui brûlent."
+  },
+  {
+   "id": "bai-bian-dou",
+   "py": "Bai Bian Dou",
+   "zh": "白扁豆",
+   "lat": "Lablab Semen album",
+   "nom": "Haricot dolique blanc",
+   "cat": "tonif-qi",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Renforce la Rate, transforme l'Humidité, clarifie la Chaleur d'été.",
+   "ind": "selles molles ; fatigue ; pertes blanches ; nausées d'été",
+   "ci": "Cru : toxique (toujours cuit)."
+  },
+  {
+   "id": "bai-bu",
+   "py": "Bai Bu",
+   "zh": "百部",
+   "lat": "Stemonae Radix",
+   "nom": "Stémona",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "5–15 g",
+   "act": "Humidifie le Poumon, calme la toux, chasse les poux et les vers.",
+   "ind": "toux ancienne ou récente ; coqueluche ; poux (externe)",
+   "ci": "Diarrhée ; Vide de la Rate."
+  },
+  {
+   "id": "bai-dou-kou",
+   "py": "Bai Dou Kou",
+   "zh": "白豆蔻",
+   "lat": "Amomi Fructus rotundus",
+   "nom": "Cardamome ronde",
+   "cat": "aromatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "Rt",
+    "E"
+   ],
+   "dose": "3–6 g",
+   "act": "Transforme l'Humidité, fait circuler le Qi, réchauffe le Centre, arrête les vomissements.",
+   "ind": "ballonnements ; nausées ; pas d'appétit ; enduit blanc et gras",
+   "ci": "Vide de Yin ; ajouter en fin de cuisson."
+  },
+  {
+   "id": "bai-he",
+   "py": "Bai He",
+   "zh": "百合",
+   "lat": "Lilii Bulbus",
+   "nom": "Bulbe de lis",
+   "cat": "tonif-yin",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "C"
+   ],
+   "dose": "9–30 g",
+   "act": "Nourrit le Yin du Poumon, calme la toux, clarifie le Cœur, calme le Shen.",
+   "ind": "toux sèche ; voix enrouée ; agitation ; insomnie ; tristesse après une maladie",
+   "ci": "Toux de Froid, diarrhée."
+  },
+  {
+   "id": "bai-ji-li",
+   "py": "Bai Ji Li",
+   "zh": "白蒺藜",
+   "lat": "Tribuli Fructus",
+   "nom": "Croix de Malte (tribule)",
+   "cat": "vent-interne",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F"
+   ],
+   "dose": "6–10 g",
+   "act": "Apaise le Foie, libère le Qi du Foie, chasse le Vent, éclaircit les yeux, calme les démangeaisons.",
+   "ind": "maux de tête ; vertiges ; yeux rouges ; démangeaisons ; seins tendus",
+   "ci": "Grossesse ; Vide de Sang."
+  },
+  {
+   "id": "bai-jie-zi",
+   "py": "Bai Jie Zi",
+   "zh": "白芥子",
+   "lat": "Sinapis Semen",
+   "nom": "Graine de moutarde blanche",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Réchauffe le Poumon, transforme les Mucosités froides, dissout les nodules, débloque les méridiens.",
+   "ind": "toux avec glaires blanches abondantes ; oppression ; nodules froids ; douleurs articulaires avec Mucosités",
+   "ci": "Vide de Yin avec Chaleur ; irritante pour l'estomac et la peau."
+  },
+  {
+   "id": "bai-qian",
+   "py": "Bai Qian",
+   "zh": "白前",
+   "lat": "Cynanchi stauntonii Rhizoma",
+   "nom": "Cynanchum de Staunton",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "3–10 g",
+   "act": "Fait descendre le Qi du Poumon, transforme les Mucosités, calme la toux.",
+   "ind": "toux avec glaires abondantes ; essoufflement",
+   "ci": "Toux sèche de Vide."
+  },
+  {
+   "id": "bai-shao",
+   "py": "Bai Shao",
+   "zh": "白芍",
+   "lat": "Paeoniae Radix alba",
+   "nom": "Pivoine blanche",
+   "cat": "tonif-sang",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "acide"
+   ],
+   "mer": [
+    "F",
+    "Rt"
+   ],
+   "dose": "6–15 g",
+   "act": "Nourrit le Sang, retient le Yin, assouplit le Foie, calme les spasmes et la douleur.",
+   "ind": "règles irrégulières ou douloureuses ; crampes ; douleurs sous les côtes ; vertiges ; sueurs",
+   "ci": "Diarrhée de Froid ; ne pas associer à Li Lu (tradition)."
+  },
+  {
+   "id": "bai-tou-weng",
+   "py": "Bai Tou Weng",
+   "zh": "白头翁",
+   "lat": "Pulsatillae Radix",
+   "nom": "Pulsatille chinoise",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "GI",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur toxique, rafraîchit le Sang, arrête la dysenterie.",
+   "ind": "diarrhée avec sang et glaires ; brûlure anale ; pertes vaginales avec démangeaisons",
+   "ci": "Diarrhée de Froid ou de Vide."
+  },
+  {
+   "id": "bai-zhi",
+   "py": "Bai Zhi",
+   "zh": "白芷",
+   "lat": "Angelicae dahuricae Radix",
+   "nom": "Angélique de Dahurie",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "E",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Chasse le Vent-Froid, débouche le nez, calme la douleur (front), assèche l'Humidité, fait sortir le pus.",
+   "ind": "mal de tête du front ; sinusite, nez bouché ; mal de dents ; pertes blanches ; furoncles",
+   "ci": "Vide de Yin avec Chaleur ; photosensibilisante."
+  },
+  {
+   "id": "bai-zhu",
+   "py": "Bai Zhu",
+   "zh": "白术",
+   "lat": "Atractylodis macrocephalae Rhizoma",
+   "nom": "Atractylode blanc",
+   "cat": "tonif-qi",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "6–12 g",
+   "act": "Tonifie le Qi de la Rate, assèche l'Humidité, arrête la transpiration, calme le fœtus.",
+   "ind": "fatigue ; appétit faible ; selles molles ; œdèmes ; transpiration spontanée ; nausées de grossesse",
+   "ci": "Vide de Yin avec soif."
+  },
+  {
+   "id": "bai-zi-ren",
+   "py": "Bai Zi Ren",
+   "zh": "柏子仁",
+   "lat": "Platycladi Semen",
+   "nom": "Graine de thuya d'Orient",
+   "cat": "shen",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "Rn",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Cœur, calme le Shen, humidifie les intestins.",
+   "ind": "insomnie ; palpitations ; mémoire faible ; sueurs nocturnes ; constipation sèche",
+   "ci": "Diarrhée, Mucosités."
+  },
+  {
+   "id": "ban-lan-gen",
+   "py": "Ban Lan Gen",
+   "zh": "板蓝根",
+   "lat": "Isatidis Radix",
+   "nom": "Racine de pastel des teinturiers",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, rafraîchit le Sang, apaise la gorge.",
+   "ind": "angine ; grippe avec fièvre ; oreillons ; zona, herpès",
+   "ci": "Froid et Vide de la Rate ; cure courte."
+  },
+  {
+   "id": "ban-xia",
+   "py": "Ban Xia",
+   "zh": "半夏",
+   "lat": "Pinelliae Rhizoma praeparatum",
+   "nom": "Pinellia préparé",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Assèche l'Humidité, transforme les Mucosités, fait descendre la rébellion, arrête les vomissements, dissout les nodules.",
+   "ind": "toux avec glaires ; nausées, vomissements ; oppression ; vertiges ; boule dans la gorge",
+   "ci": "Toxique cru : uniquement préparé ; Vide de Yin, toux sèche ; grossesse (prudence)."
+  },
+  {
+   "id": "bei-sha-shen",
+   "py": "Bei Sha Shen",
+   "zh": "北沙参",
+   "lat": "Glehniae Radix",
+   "nom": "Glehnia",
+   "cat": "tonif-yin",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Yin du Poumon et de l'Estomac, clarifie la Chaleur, génère les liquides.",
+   "ind": "toux sèche ; gorge sèche ; soif ; bouche et lèvres sèches",
+   "ci": "Toux de Froid ; ne pas associer à Li Lu (tradition)."
+  },
+  {
+   "id": "bi-xie",
+   "py": "Bi Xie",
+   "zh": "萆薢",
+   "lat": "Dioscoreae hypoglaucae Rhizoma",
+   "nom": "Dioscorée hypoglauque",
+   "cat": "diuretiques",
+   "nature": "neutre",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "Rn",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Sépare le clair du trouble, draine l'Humidité, chasse le Vent-Humidité.",
+   "ind": "urines troubles ; pertes ; eczéma suintant ; douleurs articulaires humides",
+   "ci": "Vide de Yin du Rein."
+  },
+  {
+   "id": "bian-xu",
+   "py": "Bian Xu",
+   "zh": "萹蓄",
+   "lat": "Polygoni avicularis Herba",
+   "nom": "Renouée des oiseaux",
+   "cat": "diuretiques",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "V"
+   ],
+   "dose": "9–15 g",
+   "act": "Fait uriner, clarifie l'Humidité-Chaleur, calme les démangeaisons.",
+   "ind": "urines qui brûlent ; envies fréquentes ; eczéma ; démangeaisons intimes",
+   "ci": "Vide de la Rate."
+  },
+  {
+   "id": "bing-pian",
+   "py": "Bing Pian",
+   "zh": "冰片",
+   "lat": "Borneolum",
+   "nom": "Bornéol",
+   "cat": "orifices",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "Rt",
+    "P"
+   ],
+   "dose": "0,15–0,3 g",
+   "act": "Ouvre les orifices, clarifie la Chaleur, calme la douleur.",
+   "ind": "oppression et douleur de poitrine ; mal de gorge ; aphtes (externe)",
+   "ci": "Grossesse ; uniquement en très petite dose, jamais en décoction."
+  },
+  {
+   "id": "bo-he",
+   "py": "Bo He",
+   "zh": "薄荷",
+   "lat": "Menthae haplocalycis Herba",
+   "nom": "Menthe des champs",
+   "cat": "surface-fraiche",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "F"
+   ],
+   "dose": "3–6 g",
+   "act": "Chasse le Vent-Chaleur, éclaircit la tête et les yeux, apaise la gorge, libère le Qi du Foie.",
+   "ind": "rhume de Chaleur ; mal de gorge ; maux de tête ; yeux rouges ; oppression de stress",
+   "ci": "Vide de Yin avec transpiration ; allaitement (réduit le lait) ; ajouter en fin de cuisson."
+  },
+  {
+   "id": "bu-gu-zhi",
+   "py": "Bu Gu Zhi",
+   "zh": "补骨脂",
+   "lat": "Psoraleae Fructus",
+   "nom": "Psoralier",
+   "cat": "tonif-yang",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "Rn",
+    "Rt"
+   ],
+   "dose": "6–10 g",
+   "act": "Tonifie le Yang du Rein, retient l'Essence et les urines, réchauffe la Rate, arrête la diarrhée.",
+   "ind": "diarrhée à l'aube ; urines fréquentes, énurésie ; impuissance ; lombes froides ; vitiligo (externe)",
+   "ci": "Vide de Yin avec Feu, constipation ; photosensibilisant ; surveiller le foie en cure longue."
+  },
+  {
+   "id": "cang-er-zi",
+   "py": "Cang Er Zi",
+   "zh": "苍耳子",
+   "lat": "Xanthii Fructus",
+   "nom": "Lampourde",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Chasse le Vent-Humidité, débouche le nez, calme la douleur.",
+   "ind": "sinusite ; rhinite ; nez bouché ; maux de tête du front ; démangeaisons",
+   "ci": "Toxique à forte dose ou en cure longue (foie) ; grossesse ; enfants."
+  },
+  {
+   "id": "cang-zhu",
+   "py": "Cang Zhu",
+   "zh": "苍术",
+   "lat": "Atractylodis Rhizoma",
+   "nom": "Atractylode noir",
+   "cat": "aromatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "F"
+   ],
+   "dose": "3–9 g",
+   "act": "Assèche l'Humidité, renforce la Rate, chasse le Vent-Humidité, éclaircit les yeux.",
+   "ind": "ventre lourd et gonflé ; diarrhée d'Humidité ; jambes lourdes ; douleurs articulaires humides ; vision nocturne faible",
+   "ci": "Vide de Yin, transpiration abondante."
+  },
+  {
+   "id": "chai-hu",
+   "py": "Chai Hu",
+   "zh": "柴胡",
+   "lat": "Bupleuri Radix",
+   "nom": "Buplèvre",
+   "cat": "surface-fraiche",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "VB"
+   ],
+   "dose": "3–12 g",
+   "act": "Harmonise le Shao Yang, libère le Qi du Foie, fait monter le Yang.",
+   "ind": "alternance frissons-chaleur ; stress, irritabilité ; douleurs sous les côtes ; règles irrégulières ; prolapsus (petite dose)",
+   "ci": "Montée du Yang du Foie, Vide de Yin avec Feu ; à forte dose peut fatiguer le Yin."
+  },
+  {
+   "id": "chan-tui",
+   "py": "Chan Tui",
+   "zh": "蝉蜕",
+   "lat": "Cicadae Periostracum",
+   "nom": "Mue de cigale",
+   "cat": "surface-fraiche",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "F"
+   ],
+   "dose": "3–6 g",
+   "act": "Chasse le Vent-Chaleur, apaise la gorge et la voix, calme les démangeaisons, éclaircit les yeux.",
+   "ind": "voix éteinte ; mal de gorge ; urticaire, démangeaisons ; yeux rouges ; spasmes de l'enfant",
+   "ci": "Grossesse (prudence)."
+  },
+  {
+   "id": "che-qian-zi",
+   "py": "Che Qian Zi",
+   "zh": "车前子",
+   "lat": "Plantaginis Semen",
+   "nom": "Graine de plantain",
+   "cat": "diuretiques",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rn",
+    "F",
+    "P",
+    "IG"
+   ],
+   "dose": "9–15 g",
+   "act": "Fait uriner, clarifie l'Humidité-Chaleur, arrête la diarrhée, éclaircit les yeux, transforme les Mucosités.",
+   "ind": "urines qui brûlent ; diarrhée aqueuse ; yeux rouges ; toux de Chaleur",
+   "ci": "Grossesse (prudence) ; Vide du Rein sans Humidité ; cuire en sachet.",
+   "note": "Che Qian Cao (la plante entière) a les mêmes actions, plus rafraîchissantes."
+  },
+  {
+   "id": "chen-pi",
+   "py": "Chen Pi",
+   "zh": "陈皮",
+   "lat": "Citri reticulatae Pericarpium",
+   "nom": "Écorce de mandarine séchée",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Fait circuler le Qi, harmonise le Centre, assèche l'Humidité, transforme les Mucosités.",
+   "ind": "ballonnements ; nausées ; appétit faible ; toux avec glaires blanches",
+   "ci": "Vide de Yin avec toux sèche."
+  },
+  {
+   "id": "chen-xiang",
+   "py": "Chen Xiang",
+   "zh": "沉香",
+   "lat": "Aquilariae Lignum resinatum",
+   "nom": "Bois d'aigle",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "Rn"
+   ],
+   "dose": "1–3 g",
+   "act": "Fait circuler le Qi, calme la douleur, réchauffe le Centre, aide le Rein à recevoir le Qi.",
+   "ind": "douleurs froides de l'estomac et du ventre ; vomissements ; asthme de Vide du Rein",
+   "ci": "Vide de Yin avec Feu ; espèce protégée (CITES) : bois de culture uniquement."
+  },
+  {
+   "id": "chi-shao",
+   "py": "Chi Shao",
+   "zh": "赤芍",
+   "lat": "Paeoniae Radix rubra",
+   "nom": "Pivoine rouge",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F"
+   ],
+   "dose": "6–12 g",
+   "act": "Rafraîchit le Sang, active le Sang, dissout la stase, calme la douleur.",
+   "ind": "douleurs fixes ; règles douloureuses avec caillots ; yeux rouges ; éruptions rouges ; hématomes",
+   "ci": "Vide de Sang sans stase ; grossesse."
+  },
+  {
+   "id": "chuan-bei-mu",
+   "py": "Chuan Bei Mu",
+   "zh": "川贝母",
+   "lat": "Fritillariae cirrhosae Bulbus",
+   "nom": "Fritillaire du Sichuan",
+   "cat": "mucosites",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "C"
+   ],
+   "dose": "3–9 g",
+   "act": "Clarifie la Chaleur, humidifie le Poumon, transforme les Mucosités, calme la toux, dissout les nodules.",
+   "ind": "toux sèche ou avec peu de glaires collantes ; toux chronique ; ganglions",
+   "ci": "Toux de Froid avec glaires claires ; ne pas associer aux aconits (tradition)."
+  },
+  {
+   "id": "chuan-lian-zi",
+   "py": "Chuan Lian Zi",
+   "zh": "川楝子",
+   "lat": "Toosendan Fructus",
+   "nom": "Fruit de mélia",
+   "cat": "qi",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "E",
+    "IG",
+    "V"
+   ],
+   "dose": "5–10 g",
+   "act": "Fait circuler le Qi du Foie, clarifie la Chaleur, calme la douleur, chasse les vers.",
+   "ind": "douleurs sous les côtes ; douleurs d'estomac de Chaleur ; hernie ; vers",
+   "ci": "Toxique à forte dose ou en cure longue (foie) ; Froid de la Rate ; grossesse."
+  },
+  {
+   "id": "chuan-niu-xi",
+   "py": "Chuan Niu Xi",
+   "zh": "川牛膝",
+   "lat": "Cyathulae Radix",
+   "nom": "Cyathula",
+   "cat": "sang",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Active le Sang, fait descendre, soulage les articulations des jambes, fait uriner.",
+   "ind": "douleurs des genoux ; règles bloquées ; urines difficiles ; Yang du Foie qui monte",
+   "ci": "Grossesse ; règles abondantes."
+  },
+  {
+   "id": "chuan-xiong",
+   "py": "Chuan Xiong",
+   "zh": "川芎",
+   "lat": "Chuanxiong Rhizoma",
+   "nom": "Livèche du Sichuan",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "VB",
+    "MC"
+   ],
+   "dose": "3–9 g",
+   "act": "Active le Sang, fait circuler le Qi, chasse le Vent, calme les maux de tête.",
+   "ind": "maux de tête ; règles douloureuses ou irrégulières ; douleurs de poitrine ; douleurs articulaires",
+   "ci": "Vide de Yin avec Feu ; règles abondantes ; grossesse (prudence)."
+  },
+  {
+   "id": "ci-shi",
+   "py": "Ci Shi",
+   "zh": "磁石",
+   "lat": "Magnetitum",
+   "nom": "Magnétite",
+   "cat": "shen",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "mer": [
+    "F",
+    "C",
+    "Rn"
+   ],
+   "dose": "9–30 g",
+   "act": "Calme le Shen, fait descendre le Yang, améliore l'ouïe et la vue, aide le Rein à recevoir le Qi.",
+   "ind": "palpitations ; insomnie ; acouphènes, surdité ; vertiges ; asthme de Vide du Rein",
+   "ci": "Digestion faible (lourd) ; cure courte ; cuire 30 min avant les autres."
+  },
+  {
+   "id": "ci-wu-jia",
+   "py": "Ci Wu Jia",
+   "zh": "刺五加",
+   "lat": "Acanthopanacis senticosi Radix",
+   "nom": "Éleuthérocoque (ginseng de Sibérie)",
+   "cat": "tonif-qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "Rn",
+    "C"
+   ],
+   "dose": "9–27 g",
+   "act": "Tonifie le Qi de la Rate et du Rein, calme le Shen, fortifie les lombes.",
+   "ind": "fatigue ; surmenage ; insomnie ; lombes faibles ; manque d'endurance",
+   "ci": "Hypertension non contrôlée ; fièvre."
+  },
+  {
+   "id": "da-fu-pi",
+   "py": "Da Fu Pi",
+   "zh": "大腹皮",
+   "lat": "Arecae Pericarpium",
+   "nom": "Péricarpe de noix d'arec",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "GI",
+    "IG"
+   ],
+   "dose": "5–10 g",
+   "act": "Fait circuler le Qi, fait descendre, fait uriner, réduit les œdèmes.",
+   "ind": "ventre gonflé ; œdèmes ; ballonnements avec constipation",
+   "ci": "Vide de Qi."
+  },
+  {
+   "id": "da-huang",
+   "py": "Da Huang",
+   "zh": "大黄",
+   "lat": "Rhei Radix et Rhizoma",
+   "nom": "Rhubarbe de Chine",
+   "cat": "purgatives",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "GI",
+    "F",
+    "C"
+   ],
+   "dose": "3–12 g",
+   "act": "Purge l'accumulation et la Chaleur, rafraîchit le Sang, élimine les toxines, dissout la stase.",
+   "ind": "constipation de Chaleur ; saignements de Chaleur ; jaunisse ; douleurs de stase ; brûlures (externe)",
+   "ci": "Grossesse, règles, allaitement ; Vide ; cure de quelques jours seulement."
+  },
+  {
+   "id": "da-qing-ye",
+   "py": "Da Qing Ye",
+   "zh": "大青叶",
+   "lat": "Isatidis Folium",
+   "nom": "Feuille de pastel",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, rafraîchit le Sang.",
+   "ind": "fièvre ; mal de gorge ; aphtes ; éruptions rouges",
+   "ci": "Froid et Vide de la Rate."
+  },
+  {
+   "id": "da-zao",
+   "py": "Da Zao",
+   "zh": "大枣",
+   "lat": "Jujubae Fructus",
+   "nom": "Jujube",
+   "cat": "tonif-qi",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "3–10 pièces",
+   "act": "Tonifie le Qi de la Rate, nourrit le Sang, calme le Shen, harmonise les plantes.",
+   "ind": "fatigue ; appétit faible ; anxiété ; tristesse ; teint pâle",
+   "ci": "Humidité, ballonnements, Mucosités."
+  },
+  {
+   "id": "dai-zhe-shi",
+   "py": "Dai Zhe Shi",
+   "zh": "代赭石",
+   "lat": "Haematitum",
+   "nom": "Hématite",
+   "cat": "vent-interne",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "C"
+   ],
+   "dose": "9–30 g",
+   "act": "Fait descendre le Yang du Foie et le Qi rebelle, arrête les saignements.",
+   "ind": "vertiges ; tension élevée ; renvois, hoquet, vomissements ; asthme",
+   "ci": "Grossesse ; cure courte (contient des traces d'arsenic) ; cuire 30 min avant les autres."
+  },
+  {
+   "id": "dan-dou-chi",
+   "py": "Dan Dou Chi",
+   "zh": "淡豆豉",
+   "lat": "Sojae Semen praeparatum",
+   "nom": "Soja noir fermenté",
+   "cat": "surface-fraiche",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "6–12 g",
+   "act": "Libère la surface, apaise l'agitation.",
+   "ind": "début de rhume ; agitation et insomnie après une fièvre",
+   "ci": "Allaitement (réduit le lait)."
+  },
+  {
+   "id": "dan-nan-xing",
+   "py": "Dan Nan Xing",
+   "zh": "胆南星",
+   "lat": "Arisaema cum Bile",
+   "nom": "Arisaema préparé à la bile",
+   "cat": "mucosites",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "F",
+    "Rt"
+   ],
+   "dose": "3–6 g",
+   "act": "Clarifie la Chaleur, transforme les Mucosités, éteint le Vent, calme les spasmes.",
+   "ind": "toux avec glaires jaunes épaisses ; vertiges ; convulsions ; épilepsie (accompagnement)",
+   "ci": "Grossesse ; Vide de Yin, toux sèche.",
+   "note": "Traditionnellement préparé avec de la bile de bœuf ou de porc : demande l'origine au fournisseur."
+  },
+  {
+   "id": "dan-shen",
+   "py": "Dan Shen",
+   "zh": "丹参",
+   "lat": "Salviae miltiorrhizae Radix",
+   "nom": "Sauge chinoise",
+   "cat": "sang",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "F"
+   ],
+   "dose": "9–15 g",
+   "act": "Active le Sang, dissout la stase, rafraîchit le Sang, calme le Shen.",
+   "ind": "règles douloureuses avec caillots ; douleurs de poitrine ; palpitations ; insomnie avec agitation ; acné de stase",
+   "ci": "Anticoagulants (renforce l'effet) ; grossesse ; règles abondantes."
+  },
+  {
+   "id": "dan-zhu-ye",
+   "py": "Dan Zhu Ye",
+   "zh": "淡竹叶",
+   "lat": "Lophatheri Herba",
+   "nom": "Feuille de lophatherum",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "C",
+    "E",
+    "IG"
+   ],
+   "dose": "6–10 g",
+   "act": "Clarifie la Chaleur du Cœur, apaise l'agitation, fait uriner.",
+   "ind": "aphtes ; agitation ; soif ; urines foncées qui brûlent",
+   "ci": "Vide de Yin sans Chaleur ; grossesse."
+  },
+  {
+   "id": "dang-gui",
+   "py": "Dang Gui",
+   "zh": "当归",
+   "lat": "Angelicae sinensis Radix",
+   "nom": "Angélique chinoise",
+   "cat": "tonif-sang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "C",
+    "Rt"
+   ],
+   "dose": "6–12 g",
+   "act": "Nourrit et fait circuler le Sang, règle les règles, calme la douleur, humidifie les intestins.",
+   "ind": "règles peu abondantes, irrégulières ou douloureuses ; teint pâle ; vertiges ; engourdissements ; constipation sèche",
+   "ci": "Diarrhée, Humidité ; règles abondantes ; anticoagulants ; grossesse sans avis."
+  },
+  {
+   "id": "dang-shen",
+   "py": "Dang Shen",
+   "zh": "党参",
+   "lat": "Codonopsis Radix",
+   "nom": "Codonopsis",
+   "cat": "tonif-qi",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "P"
+   ],
+   "dose": "9–30 g",
+   "act": "Tonifie le Qi de la Rate et du Poumon, nourrit le Sang, génère les liquides.",
+   "ind": "fatigue ; appétit faible ; selles molles ; essoufflement ; voix faible",
+   "ci": "Chaleur de Plénitude.",
+   "note": "Remplace souvent Ren Shen, plus doux et moins cher (environ deux fois la dose)."
+  },
+  {
+   "id": "di-gu-pi",
+   "py": "Di Gu Pi",
+   "zh": "地骨皮",
+   "lat": "Lycii Cortex",
+   "nom": "Écorce de racine de lyciet",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur de Vide, rafraîchit le Sang, clarifie la Chaleur du Poumon.",
+   "ind": "sueurs nocturnes ; fièvre de l'après-midi ; toux de Chaleur ; saignements de nez",
+   "ci": "Fièvre d'origine externe, diarrhée."
+  },
+  {
+   "id": "di-long",
+   "py": "Di Long",
+   "zh": "地龙",
+   "lat": "Pheretima",
+   "nom": "Ver de terre séché",
+   "cat": "vent-interne",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "V"
+   ],
+   "dose": "5–10 g",
+   "act": "Éteint le Vent, clarifie la Chaleur, débloque les méridiens, calme l'asthme, fait uriner.",
+   "ind": "convulsions de fièvre ; séquelles d'accident vasculaire ; asthme de Chaleur ; articulations chaudes ; tension élevée",
+   "ci": "Vide sans Chaleur ; grossesse."
+  },
+  {
+   "id": "di-yu",
+   "py": "Di Yu",
+   "zh": "地榆",
+   "lat": "Sanguisorbae Radix",
+   "nom": "Pimprenelle officinale",
+   "cat": "hemostatiques",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "acide"
+   ],
+   "mer": [
+    "F",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Rafraîchit le Sang, arrête les saignements, élimine les toxines, fait cicatriser.",
+   "ind": "hémorroïdes qui saignent ; sang dans les selles ; règles abondantes de Chaleur ; brûlures (externe)",
+   "ci": "Saignements de Froid ou de Vide."
+  },
+  {
+   "id": "ding-xiang",
+   "py": "Ding Xiang",
+   "zh": "丁香",
+   "lat": "Caryophylli Flos",
+   "nom": "Clou de girofle",
+   "cat": "rechauffent",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "P",
+    "Rn"
+   ],
+   "dose": "1–3 g",
+   "act": "Réchauffe le Centre, fait descendre le Qi, arrête le hoquet, réchauffe le Rein.",
+   "ind": "hoquet ; vomissements de Froid ; ventre froid ; impuissance de Froid",
+   "ci": "Chaleur, Vide de Yin."
+  },
+  {
+   "id": "dong-chong-xia-cao",
+   "py": "Dong Chong Xia Cao",
+   "zh": "冬虫夏草",
+   "lat": "Cordyceps",
+   "nom": "Cordyceps",
+   "cat": "tonif-yang",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "Rn"
+   ],
+   "dose": "3–9 g",
+   "act": "Tonifie le Rein et le Poumon, arrête la toux et l'asthme, consolide l'Essence.",
+   "ind": "essoufflement chronique ; toux de Vide ; lombes faibles ; impuissance ; convalescence",
+   "ci": "Rhume en cours.",
+   "note": "Le cordyceps sauvage est rarissime ; les laboratoires utilisent du mycélium cultivé (Cordyceps militaris ou Cs-4)."
+  },
+  {
+   "id": "du-huo",
+   "py": "Du Huo",
+   "zh": "独活",
+   "lat": "Angelicae pubescentis Radix",
+   "nom": "Angélique pubescente",
+   "cat": "vent-humidite",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "Rn",
+    "V"
+   ],
+   "dose": "3–9 g",
+   "act": "Chasse le Vent-Humidité, calme les douleurs du bas du corps.",
+   "ind": "douleurs des lombes et des genoux ; sciatique ; raideurs au froid humide",
+   "ci": "Vide de Yin ou de Sang sans Humidité."
+  },
+  {
+   "id": "du-zhong",
+   "py": "Du Zhong",
+   "zh": "杜仲",
+   "lat": "Eucommiae Cortex",
+   "nom": "Écorce d'eucommia",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Tonifie le Foie et le Rein, fortifie les tendons et les os, calme le fœtus.",
+   "ind": "lombes douloureuses et faibles ; genoux faibles ; tension élevée de Vide ; menace de fausse couche (sous avis)",
+   "ci": "Vide de Yin avec Feu."
+  },
+  {
+   "id": "e-jiao",
+   "py": "E Jiao",
+   "zh": "阿胶",
+   "lat": "Asini Corii Colla",
+   "nom": "Gélatine de peau d'âne",
+   "cat": "tonif-sang",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "F",
+    "Rn"
+   ],
+   "dose": "3–9 g",
+   "act": "Nourrit le Sang, arrête les saignements, nourrit le Yin, humidifie le Poumon.",
+   "ind": "anémie ; vertiges ; saignements ; règles trop longues ; toux sèche ; insomnie avec agitation",
+   "ci": "Digestion faible (lourd), diarrhée ; fondre à part.",
+   "note": "Produit animal (âne)."
+  },
+  {
+   "id": "fang-feng",
+   "py": "Fang Feng",
+   "zh": "防风",
+   "lat": "Saposhnikoviae Radix",
+   "nom": "Saposhnikovia, « protège du vent »",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "V",
+    "F",
+    "Rt"
+   ],
+   "dose": "5–10 g",
+   "act": "Chasse le Vent et l'Humidité, calme les démangeaisons et les spasmes.",
+   "ind": "rhume avec courbatures ; urticaire, démangeaisons ; douleurs articulaires ; diarrhée avec spasmes",
+   "ci": "Vide de Sang avec spasmes, Vide de Yin avec Chaleur."
+  },
+  {
+   "id": "fo-shou",
+   "py": "Fo Shou",
+   "zh": "佛手",
+   "lat": "Citri sarcodactylis Fructus",
+   "nom": "Main de Bouddha (cédrat digité)",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere",
+    "acide"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "E",
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Libère le Qi du Foie, harmonise l'Estomac, transforme les Mucosités.",
+   "ind": "douleurs sous les côtes ; ballonnements de stress ; nausées ; toux avec glaires",
+   "ci": "Vide de Yin avec Chaleur."
+  },
+  {
+   "id": "fu-ling",
+   "py": "Fu Ling",
+   "zh": "茯苓",
+   "lat": "Poria",
+   "nom": "Poria (champignon)",
+   "cat": "diuretiques",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "C",
+    "Rt",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Draine l'Humidité, renforce la Rate, calme le Shen.",
+   "ind": "rétention d'eau ; selles molles ; fatigue ; palpitations ; insomnie ; glaires",
+   "ci": "Urines abondantes de Vide du Rein."
+  },
+  {
+   "id": "fu-pen-zi",
+   "py": "Fu Pen Zi",
+   "zh": "覆盆子",
+   "lat": "Rubi Fructus",
+   "nom": "Framboise de Chine",
+   "cat": "astringentes",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "acide"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Tonifie le Rein, retient l'Essence et les urines, éclaircit les yeux.",
+   "ind": "urines fréquentes ; énurésie ; pertes séminales ; impuissance ; vision floue",
+   "ci": "Vide de Yin avec Feu, urines rares et foncées."
+  },
+  {
+   "id": "fu-shen",
+   "py": "Fu Shen",
+   "zh": "茯神",
+   "lat": "Poria cum Radice Pini",
+   "nom": "Poria avec sa racine de pin",
+   "cat": "diuretiques",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "C",
+    "Rt"
+   ],
+   "dose": "9–15 g",
+   "act": "Calme le Shen plus que Fu Ling, draine l'Humidité.",
+   "ind": "insomnie ; palpitations ; anxiété ; oubli",
+   "ci": "Rare."
+  },
+  {
+   "id": "fu-xiao-mai",
+   "py": "Fu Xiao Mai",
+   "zh": "浮小麦",
+   "lat": "Tritici Fructus levis",
+   "nom": "Grain de blé léger (qui flotte)",
+   "cat": "astringentes",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "C"
+   ],
+   "dose": "15–30 g",
+   "act": "Arrête la transpiration, nourrit le Cœur, clarifie la Chaleur de Vide.",
+   "ind": "transpiration spontanée ; sueurs nocturnes ; anxiété ; agitation",
+   "ci": "Transpiration de Plénitude (fièvre) ; intolérance au gluten (prudence)."
+  },
+  {
+   "id": "fu-zi",
+   "py": "Fu Zi",
+   "zh": "附子",
+   "lat": "Aconiti Radix lateralis praeparata",
+   "nom": "Aconit préparé (Zhi Fu Zi)",
+   "cat": "rechauffent",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "Rn",
+    "Rt"
+   ],
+   "dose": "3–9 g (préparé)",
+   "act": "Restaure le Yang qui s'effondre, réchauffe le Feu du Rein, chasse le Froid, calme la douleur.",
+   "ind": "frilosité extrême ; mains et pieds glacés ; diarrhée de Froid ; œdèmes de Vide de Yang ; douleurs articulaires de Froid",
+   "ci": "Toxique : uniquement préparé, cuit au moins 30 à 60 min, à doses prudentes ; grossesse ; Chaleur, Vide de Yin ; uniquement sur prescription."
+  },
+  {
+   "id": "gan-cao",
+   "py": "Gan Cao",
+   "zh": "甘草",
+   "lat": "Glycyrrhizae Radix",
+   "nom": "Réglisse",
+   "cat": "tonif-qi",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "P",
+    "Rt",
+    "E"
+   ],
+   "dose": "2–10 g",
+   "act": "Tonifie le Qi, humidifie le Poumon, calme les spasmes et la douleur, élimine les toxines, harmonise les plantes.",
+   "ind": "fatigue ; palpitations ; toux ; crampes ; mal de gorge ; Zhi Gan Cao (grillée au miel) tonifie davantage",
+   "ci": "Hypertension, œdèmes, potassium bas en cure longue ; Humidité ; « incompatible » avec Hai Zao, Da Ji, Gan Sui et Yuan Hua (tradition)."
+  },
+  {
+   "id": "gan-jiang",
+   "py": "Gan Jiang",
+   "zh": "干姜",
+   "lat": "Zingiberis Rhizoma",
+   "nom": "Gingembre sec",
+   "cat": "rechauffent",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "C",
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Réchauffe le Centre, chasse le Froid, restaure le Yang, réchauffe le Poumon.",
+   "ind": "ventre froid et douloureux ; diarrhée de Froid ; vomissements ; toux avec glaires claires",
+   "ci": "Chaleur, Vide de Yin ; grossesse (prudence)."
+  },
+  {
+   "id": "gao-liang-jiang",
+   "py": "Gao Liang Jiang",
+   "zh": "高良姜",
+   "lat": "Alpiniae officinarum Rhizoma",
+   "nom": "Petit galanga",
+   "cat": "rechauffent",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "3–6 g",
+   "act": "Réchauffe l'Estomac, chasse le Froid, calme la douleur, arrête les vomissements.",
+   "ind": "douleurs d'estomac de Froid ; vomissements ; renvois acides de Froid",
+   "ci": "Chaleur de l'Estomac, Vide de Yin."
+  },
+  {
+   "id": "ge-gen",
+   "py": "Ge Gen",
+   "zh": "葛根",
+   "lat": "Puerariae lobatae Radix",
+   "nom": "Kudzu",
+   "cat": "surface-fraiche",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Libère les muscles, détend la nuque, génère les liquides, fait monter le Yang, arrête la diarrhée.",
+   "ind": "nuque raide ; rhume avec fièvre ; soif ; diarrhée chaude ; hypertension avec nuque raide ; envie d'alcool",
+   "ci": "Froid de l'Estomac, transpiration abondante."
+  },
+  {
+   "id": "geng-mi",
+   "py": "Geng Mi",
+   "zh": "粳米",
+   "lat": "Oryzae Semen",
+   "nom": "Riz rond",
+   "cat": "tonif-qi",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "15–30 g",
+   "act": "Tonifie le Qi de l'Estomac, génère les liquides, protège l'Estomac des plantes froides.",
+   "ind": "soif ; faiblesse de l'Estomac ; associé à Shi Gao pour protéger l'Estomac",
+   "ci": "Aucune."
+  },
+  {
+   "id": "gou-ji",
+   "py": "Gou Ji",
+   "zh": "狗脊",
+   "lat": "Cibotii Rhizoma",
+   "nom": "Rhizome de cibotium",
+   "cat": "vent-humidite",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Chasse le Vent-Humidité, tonifie le Foie et le Rein, fortifie les lombes.",
+   "ind": "lombes raides et faibles ; genoux faibles ; urines fréquentes de la personne âgée",
+   "ci": "Vide de Yin avec Chaleur, urines qui brûlent."
+  },
+  {
+   "id": "gou-qi-zi",
+   "py": "Gou Qi Zi",
+   "zh": "枸杞子",
+   "lat": "Lycii Fructus",
+   "nom": "Baie de goji (lyciet)",
+   "cat": "tonif-yin",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn",
+    "P"
+   ],
+   "dose": "6–15 g",
+   "act": "Nourrit le Foie et le Rein, comble l'Essence, éclaircit les yeux, humidifie le Poumon.",
+   "ind": "vision floue ; yeux secs ; vertiges ; lombes faibles ; fatigue ; toux sèche",
+   "ci": "Diarrhée, Humidité ; anticoagulants (prudence)."
+  },
+  {
+   "id": "gou-teng",
+   "py": "Gou Teng",
+   "zh": "钩藤",
+   "lat": "Uncariae Ramulus cum Uncis",
+   "nom": "Uncaria (« liane à crochets »)",
+   "cat": "vent-interne",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "MC"
+   ],
+   "dose": "6–15 g",
+   "act": "Éteint le Vent, clarifie la Chaleur, apaise le Yang du Foie.",
+   "ind": "maux de tête ; vertiges ; tension élevée ; tremblements ; convulsions de l'enfant",
+   "ci": "Ajouter en fin de cuisson (moins de 20 min)."
+  },
+  {
+   "id": "gu-ya",
+   "py": "Gu Ya",
+   "zh": "谷芽",
+   "lat": "Setariae Fructus germinatus",
+   "nom": "Millet germé",
+   "cat": "digestives",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Fait digérer, harmonise le Centre, réveille l'appétit.",
+   "ind": "appétit faible ; digestion lente (céréales)",
+   "ci": "Rare."
+  },
+  {
+   "id": "gua-lou-ren",
+   "py": "Gua Lou Ren",
+   "zh": "瓜蒌仁",
+   "lat": "Trichosanthis Semen",
+   "nom": "Graine de trichosanthe",
+   "cat": "mucosites",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "E",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, transforme les Mucosités, humidifie les intestins.",
+   "ind": "toux avec glaires jaunes et collantes ; oppression de poitrine ; constipation sèche",
+   "ci": "Diarrhée, Mucosités froides ; ne pas associer aux aconits (tradition)."
+  },
+  {
+   "id": "guan-zhong",
+   "py": "Guan Zhong",
+   "zh": "贯众",
+   "lat": "Dryopteridis crassirhizomatis Rhizoma",
+   "nom": "Rhizome de fougère mâle (dryoptéris)",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "E"
+   ],
+   "dose": "5–10 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, arrête les saignements, chasse les vers.",
+   "ind": "grippe, épidémies ; saignements ; vers intestinaux",
+   "ci": "Légèrement toxique ; grossesse ; Froid de la Rate."
+  },
+  {
+   "id": "gui-ban",
+   "py": "Gui Ban",
+   "zh": "龟板",
+   "lat": "Testudinis Carapax et Plastrum",
+   "nom": "Plastron de tortue",
+   "cat": "tonif-yin",
+   "nature": "fraiche",
+   "saveurs": [
+    "salee",
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn",
+    "C"
+   ],
+   "dose": "9–24 g",
+   "act": "Nourrit le Yin, fait descendre le Yang, fortifie les os, rafraîchit le Sang.",
+   "ind": "sueurs nocturnes ; bouffées de chaleur ; vertiges ; os fragiles ; règles abondantes de Chaleur",
+   "ci": "Grossesse ; Froid de la Rate ; espèces protégées : utiliser Bie Jia d'élevage ou s'en passer.",
+   "note": "Produit animal (tortue)."
+  },
+  {
+   "id": "gui-zhi",
+   "py": "Gui Zhi",
+   "zh": "桂枝",
+   "lat": "Cinnamomi Ramulus",
+   "nom": "Rameau de cannelier",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "P",
+    "V"
+   ],
+   "dose": "3–9 g",
+   "act": "Libère les muscles, réchauffe les méridiens, fait circuler le Yang, aide la transformation des liquides.",
+   "ind": "rhume avec frissons et petite sueur ; douleurs articulaires au froid ; règles douloureuses de Froid ; palpitations ; œdèmes",
+   "ci": "Chaleur, Vide de Yin, saignements ; grossesse (prudence)."
+  },
+  {
+   "id": "hai-feng-teng",
+   "py": "Hai Feng Teng",
+   "zh": "海风藤",
+   "lat": "Piperis kadsurae Caulis",
+   "nom": "Tige de poivrier kadsura",
+   "cat": "vent-humidite",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "F"
+   ],
+   "dose": "6–12 g",
+   "act": "Chasse le Vent-Humidité, débloque les méridiens, calme la douleur.",
+   "ind": "douleurs articulaires ; raideurs ; crampes ; contusions",
+   "ci": "Vide de Yin."
+  },
+  {
+   "id": "hai-zao",
+   "py": "Hai Zao",
+   "zh": "海藻",
+   "lat": "Sargassum",
+   "nom": "Sargasse (algue)",
+   "cat": "mucosites",
+   "nature": "froide",
+   "saveurs": [
+    "salee",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "E",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Transforme les Mucosités, ramollit et disperse les nodules, fait uriner.",
+   "ind": "goitre ; nodules du cou ; ganglions ; œdèmes",
+   "ci": "Très riche en iode : maladies de la thyroïde (avis médical) ; Froid de la Rate ; « incompatible » avec Gan Cao selon les textes classiques."
+  },
+  {
+   "id": "han-fang-ji",
+   "py": "Han Fang Ji",
+   "zh": "汉防己",
+   "lat": "Stephaniae tetrandrae Radix",
+   "nom": "Stéphania",
+   "cat": "vent-humidite",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "V",
+    "P"
+   ],
+   "dose": "5–10 g",
+   "act": "Chasse le Vent-Humidité, calme la douleur, fait uriner, réduit les œdèmes.",
+   "ind": "œdèmes des jambes ; articulations gonflées ; douleurs de Chaleur-Humidité",
+   "ci": "Vide de Yin ; à ne jamais confondre avec Guang Fang Ji (Aristoloche, interdite)."
+  },
+  {
+   "id": "he-huan-pi",
+   "py": "He Huan Pi",
+   "zh": "合欢皮",
+   "lat": "Albiziae Cortex",
+   "nom": "Écorce d'albizia (« écorce de la joie collective »)",
+   "cat": "shen",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "F"
+   ],
+   "dose": "6–12 g",
+   "act": "Calme le Shen, libère les émotions bloquées, active le Sang.",
+   "ind": "tristesse, irritabilité ; insomnie ; ruminations ; contusions",
+   "ci": "Grossesse."
+  },
+  {
+   "id": "he-shou-wu",
+   "py": "He Shou Wu",
+   "zh": "何首乌",
+   "lat": "Polygoni multiflori Radix praeparata",
+   "nom": "Renouée multiflore préparée",
+   "cat": "tonif-sang",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "douce",
+    "astringente"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Sang et l'Essence, tonifie le Foie et le Rein, noircit les cheveux.",
+   "ind": "cheveux qui blanchissent ou tombent ; vertiges ; lombes faibles ; vision floue ; constipation (cru)",
+   "ci": "Toxique pour le foie chez certaines personnes : surveiller le foie, pas de cure longue sans suivi ; diarrhée."
+  },
+  {
+   "id": "he-tao-ren",
+   "py": "He Tao Ren",
+   "zh": "核桃仁",
+   "lat": "Juglandis Semen",
+   "nom": "Cerneau de noix",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rn",
+    "P",
+    "GI"
+   ],
+   "dose": "9–30 g",
+   "act": "Tonifie le Rein, réchauffe le Poumon, calme l'asthme, humidifie les intestins.",
+   "ind": "lombes faibles ; essoufflement de Vide ; toux chronique ; constipation sèche",
+   "ci": "Diarrhée, Chaleur avec glaires."
+  },
+  {
+   "id": "he-ye",
+   "py": "He Ye",
+   "zh": "荷叶",
+   "lat": "Nelumbinis Folium",
+   "nom": "Feuille de lotus",
+   "cat": "chaleur",
+   "nature": "neutre",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "E"
+   ],
+   "dose": "3–10 g",
+   "act": "Clarifie la Chaleur d'été, draine l'Humidité, fait monter le Yang, arrête les saignements.",
+   "ind": "coup de chaleur ; diarrhée d'été ; surpoids avec Humidité ; saignements",
+   "ci": "Vide de Sang et de Qi marqué."
+  },
+  {
+   "id": "he-zi",
+   "py": "He Zi",
+   "zh": "诃子",
+   "lat": "Chebulae Fructus",
+   "nom": "Myrobolan chébule",
+   "cat": "astringentes",
+   "nature": "neutre",
+   "saveurs": [
+    "amere",
+    "acide",
+    "astringente"
+   ],
+   "mer": [
+    "P",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Retient l'Intestin, arrête la diarrhée, retient le Poumon, éclaircit la voix.",
+   "ind": "diarrhée chronique ; toux chronique ; voix éteinte",
+   "ci": "Diarrhée ou toux récente avec Plénitude."
+  },
+  {
+   "id": "hei-zhi-ma",
+   "py": "Hei Zhi Ma",
+   "zh": "黑芝麻",
+   "lat": "Sesami Semen nigrum",
+   "nom": "Sésame noir",
+   "cat": "tonif-yin",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Foie et le Rein, l'Essence et le Sang, humidifie les intestins.",
+   "ind": "cheveux qui blanchissent ; vertiges ; vision floue ; constipation sèche ; peau sèche",
+   "ci": "Diarrhée."
+  },
+  {
+   "id": "hong-hua",
+   "py": "Hong Hua",
+   "zh": "红花",
+   "lat": "Carthami Flos",
+   "nom": "Carthame",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "C",
+    "F"
+   ],
+   "dose": "3–9 g",
+   "act": "Active le Sang, débloque les règles, dissout la stase, calme la douleur.",
+   "ind": "règles bloquées ou douloureuses ; hématomes ; douleurs fixes",
+   "ci": "Grossesse (contre-indiquée) ; règles abondantes ; anticoagulants."
+  },
+  {
+   "id": "hong-jing-tian",
+   "py": "Hong Jing Tian",
+   "zh": "红景天",
+   "lat": "Rhodiolae crenulatae Radix",
+   "nom": "Rhodiole",
+   "cat": "tonif-qi",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "C"
+   ],
+   "dose": "3–6 g",
+   "act": "Tonifie le Qi, clarifie le Poumon, active le Sang, calme le Shen.",
+   "ind": "fatigue ; essoufflement en altitude ; toux ; stress",
+   "ci": "Grossesse ; trouble bipolaire (stimulant)."
+  },
+  {
+   "id": "hou-po",
+   "py": "Hou Po",
+   "zh": "厚朴",
+   "lat": "Magnoliae officinalis Cortex",
+   "nom": "Écorce de magnolia",
+   "cat": "aromatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "P",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Fait circuler le Qi, assèche l'Humidité, fait descendre le Qi, calme l'asthme.",
+   "ind": "ventre gonflé ; constipation avec ballonnements ; toux avec glaires ; oppression",
+   "ci": "Grossesse (prudence) ; Vide sans stagnation."
+  },
+  {
+   "id": "hu-zhang",
+   "py": "Hu Zhang",
+   "zh": "虎杖",
+   "lat": "Polygoni cuspidati Rhizoma",
+   "nom": "Renouée du Japon",
+   "cat": "diuretiques",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "VB",
+    "P"
+   ],
+   "dose": "9–15 g",
+   "act": "Draine l'Humidité-Chaleur, fait disparaître la jaunisse, active le Sang, élimine les toxines.",
+   "ind": "jaunisse ; urines troubles ; douleurs de stase ; brûlures ; toux de Chaleur",
+   "ci": "Grossesse ; diarrhée."
+  },
+  {
+   "id": "hua-shi",
+   "py": "Hua Shi",
+   "zh": "滑石",
+   "lat": "Talcum",
+   "nom": "Talc",
+   "cat": "diuretiques",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "E",
+    "V"
+   ],
+   "dose": "10–20 g",
+   "act": "Fait uriner, clarifie la Chaleur d'été, draine l'Humidité.",
+   "ind": "urines qui brûlent ; coup de chaleur ; diarrhée d'été ; eczéma (externe)",
+   "ci": "Grossesse ; Vide de Yin ; cuire en sachet."
+  },
+  {
+   "id": "huai-hua",
+   "py": "Huai Hua",
+   "zh": "槐花",
+   "lat": "Sophorae Flos",
+   "nom": "Fleur de sophora",
+   "cat": "hemostatiques",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Rafraîchit le Sang, arrête les saignements, clarifie le Feu du Foie.",
+   "ind": "hémorroïdes qui saignent ; sang dans les selles ; tension élevée ; maux de tête",
+   "ci": "Froid de la Rate."
+  },
+  {
+   "id": "huai-jiao",
+   "py": "Huai Jiao",
+   "zh": "槐角",
+   "lat": "Sophorae Fructus",
+   "nom": "Gousse de sophora",
+   "cat": "hemostatiques",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "GI"
+   ],
+   "dose": "6–9 g",
+   "act": "Clarifie la Chaleur, humidifie les intestins, arrête les saignements.",
+   "ind": "hémorroïdes ; sang dans les selles ; constipation de Chaleur",
+   "ci": "Grossesse ; Froid de la Rate."
+  },
+  {
+   "id": "huang-bai",
+   "py": "Huang Bai",
+   "zh": "黄柏",
+   "lat": "Phellodendri chinensis Cortex",
+   "nom": "Écorce de phellodendron",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "Rn",
+    "V",
+    "GI"
+   ],
+   "dose": "3–12 g",
+   "act": "Clarifie l'Humidité-Chaleur du bas, fait descendre le Feu de Vide, élimine les toxines.",
+   "ind": "urines qui brûlent ; pertes jaunes ; eczéma suintant ; sueurs nocturnes avec chaleur ; genoux chauds et gonflés",
+   "ci": "Froid et Vide de la Rate."
+  },
+  {
+   "id": "huang-jing",
+   "py": "Huang Jing",
+   "zh": "黄精",
+   "lat": "Polygonati Rhizoma",
+   "nom": "Sceau de Salomon chinois",
+   "cat": "tonif-yin",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "P",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Yin, tonifie le Qi de la Rate, humidifie le Poumon, nourrit l'Essence.",
+   "ind": "fatigue ; toux sèche ; bouche sèche ; vertiges ; lombes faibles ; diabète",
+   "ci": "Humidité, Mucosités, diarrhée."
+  },
+  {
+   "id": "huang-lian",
+   "py": "Huang Lian",
+   "zh": "黄连",
+   "lat": "Coptidis Rhizoma",
+   "nom": "Rhizome de coptis",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "E",
+    "GI"
+   ],
+   "dose": "2–9 g",
+   "act": "Clarifie la Chaleur, assèche l'Humidité, draine le Feu du Cœur et de l'Estomac, élimine les toxines.",
+   "ind": "diarrhée chaude ; brûlures d'estomac ; aphtes ; agitation, insomnie ; furoncles ; acné",
+   "ci": "Très amère et froide : Froid de la Rate, Vide de Yin ; grossesse (prudence)."
+  },
+  {
+   "id": "huang-qi",
+   "py": "Huang Qi",
+   "zh": "黄芪",
+   "lat": "Astragali Radix",
+   "nom": "Astragale",
+   "cat": "tonif-qi",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "P"
+   ],
+   "dose": "9–30 g",
+   "act": "Tonifie le Qi de la Rate et du Poumon, fait monter le Yang, consolide la surface, fait uriner, fait sortir le pus, régénère les tissus.",
+   "ind": "fatigue ; rhumes à répétition ; transpiration spontanée ; prolapsus ; œdèmes ; plaies qui cicatrisent mal",
+   "ci": "Chaleur, rhume en cours, Vide de Yin avec Feu, montée du Yang du Foie."
+  },
+  {
+   "id": "huang-qin",
+   "py": "Huang Qin",
+   "zh": "黄芩",
+   "lat": "Scutellariae Radix",
+   "nom": "Scutellaire du Baïkal",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "VB",
+    "E",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Clarifie la Chaleur, assèche l'Humidité, élimine les toxines, arrête les saignements, calme le fœtus.",
+   "ind": "toux de Chaleur ; fièvre ; diarrhée chaude ; jaunisse ; saignements ; agitation du fœtus avec Chaleur",
+   "ci": "Froid de la Rate, diarrhée de Vide."
+  },
+  {
+   "id": "huo-ma-ren",
+   "py": "Huo Ma Ren",
+   "zh": "火麻仁",
+   "lat": "Cannabis Fructus",
+   "nom": "Graine de chanvre",
+   "cat": "purgatives",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Humidifie les intestins, libère les selles, nourrit le Yin.",
+   "ind": "constipation sèche de la personne âgée ou après un accouchement",
+   "ci": "Diarrhée ; forte dose : nausées."
+  },
+  {
+   "id": "huo-xiang",
+   "py": "Huo Xiang",
+   "zh": "藿香",
+   "lat": "Pogostemonis Herba",
+   "nom": "Patchouli (agastache)",
+   "cat": "aromatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "P"
+   ],
+   "dose": "5–10 g",
+   "act": "Transforme l'Humidité, réveille la Rate, arrête les vomissements, libère la surface en été.",
+   "ind": "nausées ; vomissements ; gastro d'été ; ventre lourd ; mauvaise haleine",
+   "ci": "Vide de Yin avec Chaleur."
+  },
+  {
+   "id": "ji-xue-teng",
+   "py": "Ji Xue Teng",
+   "zh": "鸡血藤",
+   "lat": "Spatholobi Caulis",
+   "nom": "Liane « sang de poulet » (spatholobus)",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–30 g",
+   "act": "Active et nourrit le Sang, débloque les méridiens.",
+   "ind": "règles irrégulières ; engourdissements ; douleurs articulaires ; anémie légère",
+   "ci": "Règles abondantes."
+  },
+  {
+   "id": "jiang-huang",
+   "py": "Jiang Huang",
+   "zh": "姜黄",
+   "lat": "Curcumae longae Rhizoma",
+   "nom": "Curcuma",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "Rt"
+   ],
+   "dose": "3–9 g",
+   "act": "Active le Sang, fait circuler le Qi, calme la douleur (épaules, bras).",
+   "ind": "douleurs des épaules et des bras ; règles douloureuses ; douleurs sous les côtes",
+   "ci": "Grossesse ; calculs biliaires ; anticoagulants."
+  },
+  {
+   "id": "jie-geng",
+   "py": "Jie Geng",
+   "zh": "桔梗",
+   "lat": "Platycodi Radix",
+   "nom": "Platycodon (campanule chinoise)",
+   "cat": "mucosites",
+   "nature": "neutre",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "3–10 g",
+   "act": "Ouvre le Qi du Poumon, transforme les Mucosités, apaise la gorge, fait sortir le pus, conduit les plantes vers le haut.",
+   "ind": "toux avec glaires ; mal de gorge ; voix enrouée ; oppression ; abcès du poumon",
+   "ci": "Toux sèche de Vide de Yin, crachats de sang ; forte dose : nausées."
+  },
+  {
+   "id": "jin-qian-cao",
+   "py": "Jin Qian Cao",
+   "zh": "金钱草",
+   "lat": "Lysimachiae Herba",
+   "nom": "Lysimaque de Christina",
+   "cat": "diuretiques",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "mer": [
+    "F",
+    "VB",
+    "Rn",
+    "V"
+   ],
+   "dose": "15–30 g",
+   "act": "Draine l'Humidité-Chaleur, dissout les calculs, fait disparaître la jaunisse.",
+   "ind": "calculs biliaires ou urinaires (accompagnement) ; jaunisse ; urines qui brûlent",
+   "ci": "Vide de la Rate."
+  },
+  {
+   "id": "jin-yin-hua",
+   "py": "Jin Yin Hua",
+   "zh": "金银花",
+   "lat": "Lonicerae japonicae Flos",
+   "nom": "Fleur de chèvrefeuille du Japon",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "C",
+    "E"
+   ],
+   "dose": "6–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, chasse le Vent-Chaleur.",
+   "ind": "rhume de Chaleur ; angine ; furoncles, abcès ; acné ; diarrhée chaude",
+   "ci": "Froid et Vide de la Rate."
+  },
+  {
+   "id": "jing-jie",
+   "py": "Jing Jie",
+   "zh": "荆芥",
+   "lat": "Schizonepetae Herba",
+   "nom": "Schizonépéta",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "F"
+   ],
+   "dose": "5–10 g",
+   "act": "Chasse le Vent, libère la surface, fait sortir les éruptions, arrête les saignements (grillé).",
+   "ind": "rhume ; mal de gorge ; démangeaisons, urticaire ; éruptions qui sortent mal",
+   "ci": "Transpiration abondante, Vide de Yin."
+  },
+  {
+   "id": "ju-hong",
+   "py": "Ju Hong",
+   "zh": "橘红",
+   "lat": "Citri reticulatae Exocarpium rubrum",
+   "nom": "Zeste rouge de mandarine",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "Rt"
+   ],
+   "dose": "3–9 g",
+   "act": "Transforme les Mucosités, fait circuler le Qi, assèche l'Humidité.",
+   "ind": "toux avec glaires abondantes ; nausées ; oppression",
+   "ci": "Vide de Yin, toux sèche."
+  },
+  {
+   "id": "ju-hua",
+   "py": "Ju Hua",
+   "zh": "菊花",
+   "lat": "Chrysanthemi Flos",
+   "nom": "Chrysanthème",
+   "cat": "surface-fraiche",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "F"
+   ],
+   "dose": "5–10 g",
+   "act": "Chasse le Vent-Chaleur, apaise le Foie, éclaircit les yeux, élimine les toxines.",
+   "ind": "yeux rouges, secs ou fatigués ; maux de tête ; vertiges ; rhume de Chaleur ; tension élevée",
+   "ci": "Diarrhée de Froid."
+  },
+  {
+   "id": "jue-ming-zi",
+   "py": "Jue Ming Zi",
+   "zh": "决明子",
+   "lat": "Cassiae Semen",
+   "nom": "Graine de casse",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "amere",
+    "salee"
+   ],
+   "mer": [
+    "F",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie le Foie, éclaircit les yeux, humidifie les intestins.",
+   "ind": "yeux rouges ; vision floue ; tension élevée ; constipation",
+   "ci": "Diarrhée, hypotension."
+  },
+  {
+   "id": "ku-di-ding",
+   "py": "Ku Di Ding",
+   "zh": "苦地丁",
+   "lat": "Corydalis bungeanae Herba",
+   "nom": "Corydale de Bunge",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "GI"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, réduit les gonflements.",
+   "ind": "mal de gorge ; furoncles ; rhume de Chaleur",
+   "ci": "Froid de la Rate."
+  },
+  {
+   "id": "ku-shen",
+   "py": "Ku Shen",
+   "zh": "苦参",
+   "lat": "Sophorae flavescentis Radix",
+   "nom": "Sophora jaunissant",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "E",
+    "GI",
+    "V"
+   ],
+   "dose": "4–9 g",
+   "act": "Clarifie la Chaleur, assèche l'Humidité, calme les démangeaisons, fait uriner.",
+   "ind": "eczéma suintant ; démangeaisons intimes ; pertes jaunes ; diarrhée chaude ; urines qui brûlent",
+   "ci": "Froid de la Rate ; très amère, peut donner des nausées."
+  },
+  {
+   "id": "kun-bu",
+   "py": "Kun Bu",
+   "zh": "昆布",
+   "lat": "Laminariae Thallus",
+   "nom": "Laminaire (kombu)",
+   "cat": "mucosites",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "mer": [
+    "F",
+    "E",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Ramollit les masses, transforme les Mucosités, fait uriner.",
+   "ind": "goitre ; nodules ; ganglions ; œdèmes",
+   "ci": "Très riche en iode : maladies de la thyroïde (avis médical) ; Froid de la Rate.",
+   "note": "Hai Dai (laminaire alimentaire) est utilisé de la même façon."
+  },
+  {
+   "id": "lai-fu-zi",
+   "py": "Lai Fu Zi",
+   "zh": "莱菔子",
+   "lat": "Raphani Semen",
+   "nom": "Graine de radis",
+   "cat": "digestives",
+   "nature": "neutre",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "P"
+   ],
+   "dose": "6–12 g",
+   "act": "Fait digérer, fait descendre le Qi, transforme les Mucosités.",
+   "ind": "renvois ; ventre gonflé après les repas ; constipation ; toux avec glaires abondantes",
+   "ci": "Vide de Qi ; ne pas associer à Ren Shen (tradition)."
+  },
+  {
+   "id": "lian-qiao",
+   "py": "Lian Qiao",
+   "zh": "连翘",
+   "lat": "Forsythiae Fructus",
+   "nom": "Forsythia",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "C",
+    "IG"
+   ],
+   "dose": "6–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, réduit les gonflements et les nodules.",
+   "ind": "rhume de Chaleur ; angine ; furoncles ; acné ; ganglions ; nodules",
+   "ci": "Froid de la Rate, abcès pâles et froids."
+  },
+  {
+   "id": "lian-xu",
+   "py": "Lian Xu",
+   "zh": "莲须",
+   "lat": "Nelumbinis Stamen",
+   "nom": "Étamine de lotus",
+   "cat": "astringentes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "astringente"
+   ],
+   "mer": [
+    "C",
+    "Rn"
+   ],
+   "dose": "3–9 g",
+   "act": "Retient l'Essence, tonifie le Rein, arrête les saignements.",
+   "ind": "pertes séminales ; urines fréquentes ; pertes blanches",
+   "ci": "Urines rares."
+  },
+  {
+   "id": "lian-zi",
+   "py": "Lian Zi",
+   "zh": "莲子",
+   "lat": "Nelumbinis Semen",
+   "nom": "Graine de lotus",
+   "cat": "astringentes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "astringente"
+   ],
+   "mer": [
+    "Rt",
+    "Rn",
+    "C"
+   ],
+   "dose": "6–15 g",
+   "act": "Renforce la Rate, arrête la diarrhée, retient l'Essence, nourrit le Cœur, calme le Shen.",
+   "ind": "diarrhée chronique ; pertes blanches ; pertes séminales ; palpitations ; insomnie",
+   "ci": "Constipation, ballonnements."
+  },
+  {
+   "id": "ling-zhi",
+   "py": "Ling Zhi",
+   "zh": "灵芝",
+   "lat": "Ganoderma",
+   "nom": "Ganoderme luisant (reishi)",
+   "cat": "shen",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "P",
+    "F",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Tonifie le Qi, calme le Shen, calme la toux et l'asthme.",
+   "ind": "insomnie ; fatigue ; palpitations ; toux chronique ; défenses faibles",
+   "ci": "Anticoagulants (prudence)."
+  },
+  {
+   "id": "long-chi",
+   "py": "Long Chi",
+   "zh": "龙齿",
+   "lat": "Fossilia Dentis Mastodi",
+   "nom": "Dent fossile (« dent de dragon »)",
+   "cat": "shen",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "astringente"
+   ],
+   "mer": [
+    "C",
+    "F"
+   ],
+   "dose": "9–15 g",
+   "act": "Calme le Shen, apaise les peurs et les palpitations.",
+   "ind": "peurs, sursauts ; palpitations ; insomnie avec cauchemars",
+   "ci": "Humidité-Chaleur ; cuire 30 min avant les autres."
+  },
+  {
+   "id": "long-dan-cao",
+   "py": "Long Dan Cao",
+   "zh": "龙胆草",
+   "lat": "Gentianae Radix",
+   "nom": "Gentiane chinoise",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "VB"
+   ],
+   "dose": "3–6 g",
+   "act": "Draine le Feu du Foie et de la Vésicule biliaire, clarifie l'Humidité-Chaleur du bas.",
+   "ind": "yeux rouges ; maux de tête de Feu ; goût amer ; zona ; démangeaisons intimes ; pertes jaunes",
+   "ci": "Très froide : Froid de la Rate ; cure courte."
+  },
+  {
+   "id": "long-gu",
+   "py": "Long Gu",
+   "zh": "龙骨",
+   "lat": "Fossilia Ossis Mastodi",
+   "nom": "Os fossile (« os de dragon »)",
+   "cat": "shen",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "astringente"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "Rn"
+   ],
+   "dose": "15–30 g",
+   "act": "Calme le Shen, fait descendre le Yang du Foie, retient (sueurs, pertes).",
+   "ind": "palpitations ; insomnie ; anxiété ; vertiges ; sueurs ; pertes séminales",
+   "ci": "Humidité-Chaleur ; cuire 30 min avant les autres."
+  },
+  {
+   "id": "long-yan-rou",
+   "py": "Long Yan Rou",
+   "zh": "龙眼肉",
+   "lat": "Longan Arillus",
+   "nom": "Pulpe de longane",
+   "cat": "tonif-sang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "Rt"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Sang du Cœur et de la Rate, calme le Shen.",
+   "ind": "insomnie ; palpitations ; mémoire faible ; fatigue ; teint pâle",
+   "ci": "Humidité, Mucosités, Chaleur."
+  },
+  {
+   "id": "lu-gen",
+   "py": "Lu Gen",
+   "zh": "芦根",
+   "lat": "Phragmitis Rhizoma",
+   "nom": "Rhizome de roseau",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "15–30 g",
+   "act": "Clarifie la Chaleur, génère les liquides, calme les vomissements, fait sortir le pus du Poumon.",
+   "ind": "soif ; toux de Chaleur avec glaires jaunes ; nausées de Chaleur ; urines foncées",
+   "ci": "Froid de la Rate."
+  },
+  {
+   "id": "lu-jiao-jiao",
+   "py": "Lu Jiao Jiao",
+   "zh": "鹿角胶",
+   "lat": "Cornus Cervi Colla",
+   "nom": "Colle de bois de cerf",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "3–6 g",
+   "act": "Tonifie le Yang du Rein, nourrit l'Essence et le Sang, arrête les saignements de Vide.",
+   "ind": "épuisement ; frilosité ; lombes faibles ; impuissance ; règles trop longues de Vide",
+   "ci": "Vide de Yin avec Feu, Chaleur ; fondre à part.",
+   "note": "Produit animal (cerf)."
+  },
+  {
+   "id": "ma-huang",
+   "py": "Ma Huang",
+   "zh": "麻黄",
+   "lat": "Ephedrae Herba",
+   "nom": "Éphédra",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "V"
+   ],
+   "dose": "2–9 g",
+   "act": "Fait transpirer, libère la surface, ouvre le Poumon, calme l'asthme, fait uriner.",
+   "ind": "rhume de Froid sans transpiration ; asthme ; toux ; œdèmes du haut du corps",
+   "ci": "Hypertension, troubles cardiaques, glaucome, insomnie, hyperthyroïdie ; grossesse ; réglementée en France (éphédrine)."
+  },
+  {
+   "id": "ma-huang-gen",
+   "py": "Ma Huang Gen",
+   "zh": "麻黄根",
+   "lat": "Ephedrae Radix",
+   "nom": "Racine d'éphédra",
+   "cat": "astringentes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "astringente"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Arrête la transpiration.",
+   "ind": "transpiration spontanée ; sueurs nocturnes",
+   "ci": "Transpiration due à un rhume en cours.",
+   "note": "Contrairement à la tige (Ma Huang), la racine ne fait pas transpirer et ne contient presque pas d'éphédrine."
+  },
+  {
+   "id": "mai-men-dong",
+   "py": "Mai Men Dong",
+   "zh": "麦门冬",
+   "lat": "Ophiopogonis Radix",
+   "nom": "Ophiopogon",
+   "cat": "tonif-yin",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "P",
+    "E"
+   ],
+   "dose": "6–15 g",
+   "act": "Nourrit le Yin du Poumon, de l'Estomac et du Cœur, humidifie, apaise l'agitation.",
+   "ind": "toux sèche ; gorge et bouche sèches ; soif ; insomnie avec agitation ; constipation sèche",
+   "ci": "Toux de Froid, diarrhée, Humidité."
+  },
+  {
+   "id": "mai-ya",
+   "py": "Mai Ya",
+   "zh": "麦芽",
+   "lat": "Hordei Fructus germinatus",
+   "nom": "Orge germée",
+   "cat": "digestives",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "F"
+   ],
+   "dose": "9–15 g",
+   "act": "Fait digérer, renforce la Rate, libère le Foie, arrête la lactation (forte dose).",
+   "ind": "digestion lente des féculents ; seins tendus ; sevrage",
+   "ci": "Allaitement (réduit le lait)."
+  },
+  {
+   "id": "man-jing-zi",
+   "py": "Man Jing Zi",
+   "zh": "蔓荆子",
+   "lat": "Viticis Fructus",
+   "nom": "Gattilier à feuilles simples",
+   "cat": "surface-fraiche",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "V",
+    "F",
+    "E"
+   ],
+   "dose": "6–12 g",
+   "act": "Chasse le Vent-Chaleur, éclaircit la tête et les yeux.",
+   "ind": "maux de tête des tempes ; migraines ; yeux douloureux ; vertiges",
+   "ci": "Vide de Sang."
+  },
+  {
+   "id": "mo-han-lian",
+   "py": "Mo Han Lian",
+   "zh": "墨旱莲",
+   "lat": "Ecliptae Herba",
+   "nom": "Éclipta",
+   "cat": "tonif-yin",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "acide"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Yin du Foie et du Rein, rafraîchit le Sang, arrête les saignements.",
+   "ind": "cheveux qui blanchissent tôt ; vertiges ; saignements de Chaleur de Vide ; règles abondantes",
+   "ci": "Froid de la Rate, diarrhée."
+  },
+  {
+   "id": "mo-yao",
+   "py": "Mo Yao",
+   "zh": "没药",
+   "lat": "Myrrha",
+   "nom": "Myrrhe",
+   "cat": "sang",
+   "nature": "neutre",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "Rt"
+   ],
+   "dose": "3–5 g",
+   "act": "Active le Sang, calme la douleur, réduit les gonflements, fait cicatriser.",
+   "ind": "douleurs de traumatisme ; règles douloureuses ; douleurs articulaires ; plaies (externe)",
+   "ci": "Grossesse ; estomac fragile (nausées)."
+  },
+  {
+   "id": "mu-dan-pi",
+   "py": "Mu Dan Pi",
+   "zh": "牡丹皮",
+   "lat": "Moutan Cortex",
+   "nom": "Écorce de racine de pivoine arbustive",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Clarifie la Chaleur, rafraîchit et active le Sang, clarifie la Chaleur de Vide.",
+   "ind": "règles en avance avec chaleur ; saignements de Chaleur ; fièvre de l'après-midi ; acné, rougeurs ; douleurs avec stase",
+   "ci": "Grossesse ; règles abondantes ; Froid."
+  },
+  {
+   "id": "mu-gua",
+   "py": "Mu Gua",
+   "zh": "木瓜",
+   "lat": "Chaenomelis Fructus",
+   "nom": "Coing de Chine",
+   "cat": "vent-humidite",
+   "nature": "tiede",
+   "saveurs": [
+    "acide"
+   ],
+   "mer": [
+    "F",
+    "Rt"
+   ],
+   "dose": "6–12 g",
+   "act": "Détend les tendons, débloque les méridiens, transforme l'Humidité, harmonise l'Estomac.",
+   "ind": "crampes des mollets ; jambes lourdes ; douleurs articulaires ; vomissements et diarrhée avec crampes",
+   "ci": "Excès d'acidité gastrique ; urines rares et foncées."
+  },
+  {
+   "id": "mu-li",
+   "py": "Mu Li",
+   "zh": "牡蛎",
+   "lat": "Ostreae Concha",
+   "nom": "Coquille d'huître",
+   "cat": "vent-interne",
+   "nature": "fraiche",
+   "saveurs": [
+    "salee",
+    "astringente"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "15–30 g",
+   "act": "Fait descendre le Yang du Foie, calme le Shen, ramollit les nodules, retient (sueurs, pertes), neutralise l'acidité.",
+   "ind": "vertiges ; insomnie ; ganglions, nodules ; sueurs ; brûlures d'estomac",
+   "ci": "Froid de la Rate ; cuire 30 min avant les autres."
+  },
+  {
+   "id": "mu-xiang",
+   "py": "Mu Xiang",
+   "zh": "木香",
+   "lat": "Aucklandiae Radix",
+   "nom": "Aucklandia (costus)",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "GI",
+    "VB"
+   ],
+   "dose": "3–6 g",
+   "act": "Fait circuler le Qi, calme la douleur, harmonise l'Estomac et l'Intestin.",
+   "ind": "douleurs et ballonnements du ventre ; diarrhée avec ténesme ; digestion bloquée",
+   "ci": "Vide de Yin, sécheresse."
+  },
+  {
+   "id": "niu-bang-zi",
+   "py": "Niu Bang Zi",
+   "zh": "牛蒡子",
+   "lat": "Arctii Fructus",
+   "nom": "Graine de bardane",
+   "cat": "surface-fraiche",
+   "nature": "froide",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "6–12 g",
+   "act": "Chasse le Vent-Chaleur, apaise la gorge, élimine les toxines, fait sortir les éruptions.",
+   "ind": "gorge rouge et douloureuse ; amygdales gonflées ; toux ; éruptions ; furoncles",
+   "ci": "Diarrhée (laxative)."
+  },
+  {
+   "id": "niu-xi",
+   "py": "Niu Xi",
+   "zh": "牛膝",
+   "lat": "Achyranthis bidentatae Radix",
+   "nom": "Achyranthe (Huai Niu Xi)",
+   "cat": "sang",
+   "nature": "neutre",
+   "saveurs": [
+    "amere",
+    "acide"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "6–15 g",
+   "act": "Active le Sang, tonifie le Foie et le Rein, fortifie les lombes et les genoux, fait descendre.",
+   "ind": "lombes et genoux faibles ; douleurs des genoux ; règles bloquées ; maux de tête du Yang du Foie ; gencives qui saignent",
+   "ci": "Grossesse ; règles abondantes ; diarrhée."
+  },
+  {
+   "id": "pi-pa-ye",
+   "py": "Pi Pa Ye",
+   "zh": "枇杷叶",
+   "lat": "Eriobotryae Folium",
+   "nom": "Feuille de néflier du Japon",
+   "cat": "mucosites",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "6–10 g",
+   "act": "Clarifie le Poumon, calme la toux, fait descendre le Qi de l'Estomac.",
+   "ind": "toux de Chaleur ; toux sèche ; nausées de Chaleur ; acné du visage",
+   "ci": "Toux de Froid ; en décoction, filtrer (poils irritants)."
+  },
+  {
+   "id": "pu-gong-ying",
+   "py": "Pu Gong Ying",
+   "zh": "蒲公英",
+   "lat": "Taraxaci Herba",
+   "nom": "Pissenlit",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "E"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, réduit les abcès, draine l'Humidité.",
+   "ind": "abcès du sein, mastite ; furoncles ; acné ; yeux rouges ; urines qui brûlent ; jaunisse",
+   "ci": "Froid de la Rate ; diarrhée à forte dose."
+  },
+  {
+   "id": "pu-huang",
+   "py": "Pu Huang",
+   "zh": "蒲黄",
+   "lat": "Typhae Pollen",
+   "nom": "Pollen de massette",
+   "cat": "hemostatiques",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "C"
+   ],
+   "dose": "5–10 g",
+   "act": "Arrête les saignements, active le Sang, dissout la stase.",
+   "ind": "règles douloureuses avec caillots ; saignements avec stase ; douleurs fixes",
+   "ci": "Grossesse ; cuire en sachet."
+  },
+  {
+   "id": "qian-hu",
+   "py": "Qian Hu",
+   "zh": "前胡",
+   "lat": "Peucedani Radix",
+   "nom": "Peucédan",
+   "cat": "mucosites",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "6–10 g",
+   "act": "Fait descendre le Qi du Poumon, transforme les Mucosités, chasse le Vent-Chaleur.",
+   "ind": "toux avec glaires épaisses ; essoufflement ; rhume avec toux",
+   "ci": "Toux de Vide de Yin."
+  },
+  {
+   "id": "qian-shi",
+   "py": "Qian Shi",
+   "zh": "芡实",
+   "lat": "Euryales Semen",
+   "nom": "Graine d'euryale",
+   "cat": "astringentes",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "astringente"
+   ],
+   "mer": [
+    "Rt",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Tonifie la Rate et le Rein, retient l'Essence, arrête la diarrhée et les pertes.",
+   "ind": "pertes blanches ; diarrhée chronique ; pertes séminales ; urines fréquentes",
+   "ci": "Constipation, urines rares."
+  },
+  {
+   "id": "qiang-huo",
+   "py": "Qiang Huo",
+   "zh": "羌活",
+   "lat": "Notopterygii Rhizoma et Radix",
+   "nom": "Notoptérygium",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "V",
+    "Rn"
+   ],
+   "dose": "3–9 g",
+   "act": "Chasse le Vent-Froid-Humidité, calme les douleurs du haut du corps.",
+   "ind": "rhume avec maux de tête et nuque raide ; douleurs des épaules et du dos ; courbatures",
+   "ci": "Vide de Sang ou de Yin ; peut donner des nausées à forte dose."
+  },
+  {
+   "id": "qin-jiao",
+   "py": "Qin Jiao",
+   "zh": "秦艽",
+   "lat": "Gentianae macrophyllae Radix",
+   "nom": "Gentiane à grandes feuilles",
+   "cat": "vent-humidite",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "E",
+    "F",
+    "VB"
+   ],
+   "dose": "6–12 g",
+   "act": "Chasse le Vent-Humidité, détend les tendons, clarifie la Chaleur de Vide, draine l'Humidité-Chaleur.",
+   "ind": "douleurs articulaires chaudes ou froides ; raideurs ; fièvre de l'après-midi ; jaunisse",
+   "ci": "Diarrhée."
+  },
+  {
+   "id": "qin-pi",
+   "py": "Qin Pi",
+   "zh": "秦皮",
+   "lat": "Fraxini Cortex",
+   "nom": "Écorce de frêne de Chine",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "astringente"
+   ],
+   "mer": [
+    "F",
+    "VB",
+    "GI"
+   ],
+   "dose": "6–12 g",
+   "act": "Clarifie l'Humidité-Chaleur, arrête la dysenterie, éclaircit les yeux.",
+   "ind": "diarrhée chaude avec glaires ; pertes jaunes ; yeux rouges",
+   "ci": "Froid de la Rate."
+  },
+  {
+   "id": "qing-pi",
+   "py": "Qing Pi",
+   "zh": "青皮",
+   "lat": "Citri reticulatae Pericarpium viride",
+   "nom": "Écorce de mandarine verte",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "VB",
+    "E"
+   ],
+   "dose": "3–9 g",
+   "act": "Brise la stagnation du Qi du Foie, dissout les accumulations.",
+   "ind": "douleurs sous les côtes ; seins tendus et nodules ; hernie ; digestion bloquée",
+   "ci": "Vide de Qi ; cure courte."
+  },
+  {
+   "id": "qu-mai",
+   "py": "Qu Mai",
+   "zh": "瞿麦",
+   "lat": "Dianthi Herba",
+   "nom": "Œillet de Chine",
+   "cat": "diuretiques",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "IG"
+   ],
+   "dose": "9–15 g",
+   "act": "Fait uriner, clarifie l'Humidité-Chaleur, active le Sang.",
+   "ind": "urines qui brûlent ; sang dans les urines ; règles bloquées",
+   "ci": "Grossesse."
+  },
+  {
+   "id": "quan-shen",
+   "py": "Quan Shen",
+   "zh": "拳参",
+   "lat": "Bistortae Rhizoma",
+   "nom": "Bistorte",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "astringente"
+   ],
+   "mer": [
+    "P",
+    "F",
+    "GI"
+   ],
+   "dose": "5–10 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, arrête les saignements et la diarrhée.",
+   "ind": "fièvre ; mal de gorge ; diarrhée chaude ; saignements",
+   "ci": "Froid sans Chaleur."
+  },
+  {
+   "id": "ren-shen",
+   "py": "Ren Shen",
+   "zh": "人参",
+   "lat": "Ginseng Radix",
+   "nom": "Ginseng",
+   "cat": "tonif-qi",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "P",
+    "C",
+    "Rn"
+   ],
+   "dose": "3–9 g",
+   "act": "Tonifie fortement le Qi originel, renforce la Rate et le Poumon, génère les liquides, calme le Shen.",
+   "ind": "grand épuisement ; convalescence ; essoufflement ; transpiration ; palpitations ; mémoire faible",
+   "ci": "Hypertension, insomnie, Chaleur, Plénitude ; anticoagulants ; ne pas associer à Li Lu ni Wu Ling Zhi (tradition)."
+  },
+  {
+   "id": "rou-cong-rong",
+   "py": "Rou Cong Rong",
+   "zh": "肉苁蓉",
+   "lat": "Cistanches Herba",
+   "nom": "Cistanche",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "salee"
+   ],
+   "mer": [
+    "Rn",
+    "GI"
+   ],
+   "dose": "6–15 g",
+   "act": "Tonifie le Yang du Rein, nourrit l'Essence et le Sang, humidifie les intestins.",
+   "ind": "impuissance ; infertilité ; lombes froides ; constipation de la personne âgée",
+   "ci": "Diarrhée ; Vide de Yin avec Feu."
+  },
+  {
+   "id": "rou-dou-kou",
+   "py": "Rou Dou Kou",
+   "zh": "肉豆蔻",
+   "lat": "Myristicae Semen",
+   "nom": "Noix de muscade",
+   "cat": "astringentes",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Retient l'Intestin, arrête la diarrhée, réchauffe le Centre, fait circuler le Qi.",
+   "ind": "diarrhée chronique ou à l'aube ; ventre froid ; ballonnements",
+   "ci": "Diarrhée de Chaleur ; toxique à forte dose (pas plus de quelques grammes)."
+  },
+  {
+   "id": "rou-gui",
+   "py": "Rou Gui",
+   "zh": "肉桂",
+   "lat": "Cinnamomi Cortex",
+   "nom": "Écorce de cannelier de Chine",
+   "cat": "rechauffent",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "Rn",
+    "Rt",
+    "C",
+    "F"
+   ],
+   "dose": "1–5 g",
+   "act": "Réchauffe le Feu du Rein, ramène le Feu à sa source, chasse le Froid, réchauffe les méridiens.",
+   "ind": "frilosité ; lombes froides ; impuissance ; diarrhée à l'aube ; règles douloureuses de Froid",
+   "ci": "Grossesse ; Chaleur, Vide de Yin, saignements ; ajouter en fin de cuisson."
+  },
+  {
+   "id": "ru-xiang",
+   "py": "Ru Xiang",
+   "zh": "乳香",
+   "lat": "Olibanum",
+   "nom": "Oliban (encens)",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "Rt"
+   ],
+   "dose": "3–5 g",
+   "act": "Active le Sang, calme la douleur, réduit les gonflements, fait cicatriser.",
+   "ind": "douleurs articulaires ; traumatismes ; règles douloureuses ; abcès (externe)",
+   "ci": "Grossesse ; estomac fragile."
+  },
+  {
+   "id": "san-qi",
+   "py": "San Qi",
+   "zh": "三七",
+   "lat": "Notoginseng Radix",
+   "nom": "Notoginseng",
+   "cat": "hemostatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "E"
+   ],
+   "dose": "1–3 g (poudre)",
+   "act": "Arrête les saignements sans retenir de stase, dissout la stase, calme la douleur.",
+   "ind": "saignements ; hématomes ; traumatismes ; douleurs de poitrine de stase (accompagnement)",
+   "ci": "Grossesse ; anticoagulants."
+  },
+  {
+   "id": "sang-bai-pi",
+   "py": "Sang Bai Pi",
+   "zh": "桑白皮",
+   "lat": "Mori Cortex",
+   "nom": "Écorce de racine de mûrier blanc",
+   "cat": "mucosites",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "6–15 g",
+   "act": "Clarifie la Chaleur du Poumon, calme la toux et l'asthme, fait uriner.",
+   "ind": "toux de Chaleur ; essoufflement ; œdèmes du visage ; acné du nez",
+   "ci": "Toux de Froid, urines abondantes."
+  },
+  {
+   "id": "sang-ji-sheng",
+   "py": "Sang Ji Sheng",
+   "zh": "桑寄生",
+   "lat": "Taxilli Herba",
+   "nom": "Gui du mûrier",
+   "cat": "vent-humidite",
+   "nature": "neutre",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Chasse le Vent-Humidité, tonifie le Foie et le Rein, fortifie les tendons et les os, calme le fœtus.",
+   "ind": "douleurs chroniques des lombes et des genoux ; arthrose ; tension élevée ; menace de fausse couche (sous avis)",
+   "ci": "Rare."
+  },
+  {
+   "id": "sang-shen",
+   "py": "Sang Shen",
+   "zh": "桑椹",
+   "lat": "Mori Fructus",
+   "nom": "Mûre blanche",
+   "cat": "tonif-yin",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "acide"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Sang et le Yin, génère les liquides, humidifie les intestins.",
+   "ind": "vertiges ; acouphènes ; insomnie ; cheveux qui blanchissent ; soif ; constipation sèche",
+   "ci": "Froid de la Rate, diarrhée."
+  },
+  {
+   "id": "sang-ye",
+   "py": "Sang Ye",
+   "zh": "桑叶",
+   "lat": "Mori Folium",
+   "nom": "Feuille de mûrier blanc",
+   "cat": "surface-fraiche",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "F"
+   ],
+   "dose": "5–10 g",
+   "act": "Chasse le Vent-Chaleur, clarifie le Poumon, humidifie la sécheresse, éclaircit les yeux.",
+   "ind": "rhume de Chaleur ; toux sèche ; yeux rouges et secs ; sueurs nocturnes (forte dose)",
+   "ci": "Toux de Froid."
+  },
+  {
+   "id": "sang-zhi",
+   "py": "Sang Zhi",
+   "zh": "桑枝",
+   "lat": "Mori Ramulus",
+   "nom": "Rameau de mûrier",
+   "cat": "vent-humidite",
+   "nature": "neutre",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "F"
+   ],
+   "dose": "9–15 g",
+   "act": "Chasse le Vent-Humidité, débloque les articulations, surtout des bras.",
+   "ind": "douleurs des épaules et des bras ; raideurs ; engourdissements",
+   "ci": "Rare."
+  },
+  {
+   "id": "sha-ren",
+   "py": "Sha Ren",
+   "zh": "砂仁",
+   "lat": "Amomi Fructus",
+   "nom": "Amome",
+   "cat": "aromatiques",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "Rn"
+   ],
+   "dose": "3–6 g",
+   "act": "Transforme l'Humidité, fait circuler le Qi, réchauffe le Centre, arrête la diarrhée, calme le fœtus.",
+   "ind": "ballonnements ; nausées ; diarrhée de Froid ; nausées de grossesse",
+   "ci": "Vide de Yin avec Chaleur ; ajouter en fin de cuisson."
+  },
+  {
+   "id": "sha-yuan-zi",
+   "py": "Sha Yuan Zi",
+   "zh": "沙苑子",
+   "lat": "Astragali complanati Semen",
+   "nom": "Graine d'astragale aplati",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Tonifie le Rein, retient l'Essence, nourrit le Foie, éclaircit les yeux.",
+   "ind": "pertes séminales ; éjaculation précoce ; urines fréquentes ; vision floue ; vertiges",
+   "ci": "Vide de Yin avec Feu, urines rares."
+  },
+  {
+   "id": "shan-yao",
+   "py": "Shan Yao",
+   "zh": "山药",
+   "lat": "Dioscoreae Rhizoma",
+   "nom": "Igname de Chine",
+   "cat": "tonif-qi",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "P",
+    "Rn"
+   ],
+   "dose": "9–30 g",
+   "act": "Tonifie le Qi et le Yin de la Rate, du Poumon et du Rein, retient l'Essence.",
+   "ind": "fatigue ; selles molles ; toux de Vide ; urines fréquentes ; pertes ; diabète",
+   "ci": "Humidité, stagnation."
+  },
+  {
+   "id": "shan-zha",
+   "py": "Shan Zha",
+   "zh": "山楂",
+   "lat": "Crataegi Fructus",
+   "nom": "Fruit d'aubépine chinoise",
+   "cat": "digestives",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "F"
+   ],
+   "dose": "9–15 g",
+   "act": "Fait digérer (viandes, graisses), active le Sang, dissout la stase.",
+   "ind": "digestion des graisses ; ventre gonflé ; règles douloureuses avec caillots ; cholestérol",
+   "ci": "Excès d'acidité, ulcère ; Vide de la Rate sans stagnation."
+  },
+  {
+   "id": "shan-zhu-yu",
+   "py": "Shan Zhu Yu",
+   "zh": "山茱萸",
+   "lat": "Corni Fructus",
+   "nom": "Cornouille officinale",
+   "cat": "astringentes",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "astringente"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Tonifie le Foie et le Rein, retient l'Essence, arrête la transpiration et les saignements.",
+   "ind": "lombes faibles ; vertiges ; urines fréquentes ; pertes séminales ; transpiration abondante ; règles trop abondantes",
+   "ci": "Urines rares et douloureuses, Humidité-Chaleur."
+  },
+  {
+   "id": "shen-qu",
+   "py": "Shen Qu",
+   "zh": "神曲",
+   "lat": "Massa medicata fermentata",
+   "nom": "Levain médicinal fermenté",
+   "cat": "digestives",
+   "nature": "tiede",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "6–15 g",
+   "act": "Fait digérer, harmonise l'Estomac.",
+   "ind": "digestion bloquée ; ventre gonflé ; diarrhée après un excès",
+   "ci": "Grossesse (prudence) ; Vide de Yin."
+  },
+  {
+   "id": "sheng-di-huang",
+   "py": "Sheng Di Huang",
+   "zh": "生地黄",
+   "lat": "Rehmanniae Radix",
+   "nom": "Rehmannia crue",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "Rn"
+   ],
+   "dose": "9–30 g",
+   "act": "Clarifie la Chaleur, rafraîchit le Sang, nourrit le Yin, génère les liquides.",
+   "ind": "soif ; bouche sèche ; saignements de Chaleur ; fièvre de l'après-midi ; constipation sèche ; éruptions rouges",
+   "ci": "Digestion faible, selles molles, Humidité."
+  },
+  {
+   "id": "sheng-jiang",
+   "py": "Sheng Jiang",
+   "zh": "生姜",
+   "lat": "Zingiberis Rhizoma recens",
+   "nom": "Gingembre frais",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "Rt",
+    "E"
+   ],
+   "dose": "3–9 g",
+   "act": "Libère la surface, réchauffe le Centre, arrête les vomissements, réchauffe le Poumon.",
+   "ind": "début de rhume ; nausées, mal des transports ; toux avec glaires claires ; aide à digérer",
+   "ci": "Chaleur, Vide de Yin, saignements."
+  },
+  {
+   "id": "sheng-ma",
+   "py": "Sheng Ma",
+   "zh": "升麻",
+   "lat": "Cimicifugae Rhizoma",
+   "nom": "Cimicifuga",
+   "cat": "surface-fraiche",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "Rt",
+    "E",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Fait monter le Yang, fait sortir les éruptions, élimine les toxines (bouche, gencives).",
+   "ind": "prolapsus ; diarrhée chronique ; aphtes ; gencives gonflées ; mal de gorge",
+   "ci": "Montée du Yang du Foie, Vide de Yin ; ne pas dépasser la dose."
+  },
+  {
+   "id": "shi-chang-pu",
+   "py": "Shi Chang Pu",
+   "zh": "石菖蒲",
+   "lat": "Acori tatarinowii Rhizoma",
+   "nom": "Acore graminée",
+   "cat": "orifices",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "E"
+   ],
+   "dose": "3–9 g",
+   "act": "Ouvre les orifices, transforme les Mucosités, calme le Shen, réveille la Rate.",
+   "ind": "esprit embrumé ; oubli ; acouphènes ; insomnie ; ventre lourd ; tête lourde",
+   "ci": "Vide de Yin avec Chaleur, transpiration abondante."
+  },
+  {
+   "id": "shi-gao",
+   "py": "Shi Gao",
+   "zh": "石膏",
+   "lat": "Gypsum fibrosum",
+   "nom": "Gypse",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "15–60 g",
+   "act": "Clarifie fortement la Chaleur du Poumon et de l'Estomac, apaise la soif.",
+   "ind": "forte fièvre avec soif ; toux de Chaleur ; mal de dents et gencives de Feu ; maux de tête de Chaleur",
+   "ci": "Froid de l'Estomac, Vide de Yin sans Chaleur ; cuire 20 min avant les autres."
+  },
+  {
+   "id": "shi-jue-ming",
+   "py": "Shi Jue Ming",
+   "zh": "石决明",
+   "lat": "Haliotidis Concha",
+   "nom": "Coquille d'ormeau",
+   "cat": "vent-interne",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "mer": [
+    "F"
+   ],
+   "dose": "15–30 g",
+   "act": "Fait descendre le Yang du Foie, clarifie le Foie, éclaircit les yeux.",
+   "ind": "vertiges ; maux de tête ; tension élevée ; yeux rouges ; vision floue",
+   "ci": "Froid de la Rate ; cuire 30 min avant les autres."
+  },
+  {
+   "id": "shu-di-huang",
+   "py": "Shu Di Huang",
+   "zh": "熟地黄",
+   "lat": "Rehmanniae Radix praeparata",
+   "nom": "Rehmannia préparée",
+   "cat": "tonif-sang",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–30 g",
+   "act": "Nourrit le Sang et le Yin, comble l'Essence et la moelle.",
+   "ind": "anémie ; vertiges ; règles peu abondantes ; lombes faibles ; sueurs nocturnes ; cheveux qui blanchissent tôt",
+   "ci": "Digestion faible, ballonnements, selles molles (souvent associée à Sha Ren ou Chen Pi)."
+  },
+  {
+   "id": "suan-zao-ren",
+   "py": "Suan Zao Ren",
+   "zh": "酸枣仁",
+   "lat": "Ziziphi spinosae Semen",
+   "nom": "Graine de jujubier sauvage",
+   "cat": "shen",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "acide"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "VB"
+   ],
+   "dose": "9–15 g",
+   "act": "Nourrit le Cœur et le Foie, calme le Shen, arrête la transpiration.",
+   "ind": "insomnie, réveils ; palpitations ; anxiété ; sueurs nocturnes",
+   "ci": "Diarrhée ; Chaleur de Plénitude."
+  },
+  {
+   "id": "tao-ren",
+   "py": "Tao Ren",
+   "zh": "桃仁",
+   "lat": "Persicae Semen",
+   "nom": "Amande de pêche",
+   "cat": "sang",
+   "nature": "neutre",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "F",
+    "GI"
+   ],
+   "dose": "6–10 g",
+   "act": "Active le Sang, dissout la stase, humidifie les intestins.",
+   "ind": "règles bloquées ou douloureuses avec caillots ; douleurs fixes ; constipation sèche",
+   "ci": "Grossesse (contre-indiquée) ; diarrhée ; légèrement toxique à forte dose."
+  },
+  {
+   "id": "tian-hua-fen",
+   "py": "Tian Hua Fen",
+   "zh": "天花粉",
+   "lat": "Trichosanthis Radix",
+   "nom": "Racine de trichosanthe",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "10–15 g",
+   "act": "Clarifie la Chaleur, génère les liquides, réduit les abcès.",
+   "ind": "soif ; bouche sèche ; toux sèche ; diabète de type Yin ; abcès",
+   "ci": "Grossesse (contre-indiquée) ; Froid de la Rate."
+  },
+  {
+   "id": "tian-ma",
+   "py": "Tian Ma",
+   "zh": "天麻",
+   "lat": "Gastrodiae Rhizoma",
+   "nom": "Gastrodia",
+   "cat": "vent-interne",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F"
+   ],
+   "dose": "3–10 g",
+   "act": "Éteint le Vent, apaise le Yang du Foie, débloque les méridiens.",
+   "ind": "vertiges ; maux de tête ; tremblements ; engourdissements ; convulsions",
+   "ci": "Vide de Sang marqué (prudence)."
+  },
+  {
+   "id": "tian-men-dong",
+   "py": "Tian Men Dong",
+   "zh": "天门冬",
+   "lat": "Asparagi Radix",
+   "nom": "Asperge de Chine",
+   "cat": "tonif-yin",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Nourrit le Yin du Poumon et du Rein, clarifie la Chaleur, humidifie.",
+   "ind": "toux sèche avec chaleur ; gorge sèche ; soif ; sueurs nocturnes ; constipation sèche",
+   "ci": "Froid de la Rate, diarrhée, toux de Froid."
+  },
+  {
+   "id": "ting-li-zi",
+   "py": "Ting Li Zi",
+   "zh": "葶苈子",
+   "lat": "Descurainiae Semen",
+   "nom": "Graine de sagesse des chirurgiens",
+   "cat": "mucosites",
+   "nature": "froide",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "V"
+   ],
+   "dose": "3–9 g",
+   "act": "Draine le Poumon, calme l'asthme, fait uriner, réduit les œdèmes.",
+   "ind": "essoufflement avec glaires abondantes ; œdèmes du haut du corps",
+   "ci": "Vide du Poumon, Vide de la Rate ; insuffisance cardiaque : avis médical."
+  },
+  {
+   "id": "tong-cao",
+   "py": "Tong Cao",
+   "zh": "通草",
+   "lat": "Tetrapanacis Medulla",
+   "nom": "Moelle de tétrapanax",
+   "cat": "diuretiques",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "3–6 g",
+   "act": "Fait uriner, clarifie la Chaleur, fait venir le lait.",
+   "ind": "urines qui brûlent ; œdèmes ; manque de lait",
+   "ci": "Grossesse (prudence).",
+   "note": "Remplace Mu Tong dans les formules anciennes : les Aristoloches sont interdites."
+  },
+  {
+   "id": "tu-fu-ling",
+   "py": "Tu Fu Ling",
+   "zh": "土茯苓",
+   "lat": "Smilacis glabrae Rhizoma",
+   "nom": "Salsepareille de Chine",
+   "cat": "chaleur",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "F",
+    "E"
+   ],
+   "dose": "15–30 g",
+   "act": "Élimine les toxines et l'Humidité, soulage les articulations.",
+   "ind": "eczéma ; psoriasis ; acné ; pertes ; douleurs articulaires de goutte",
+   "ci": "Vide de Yin ; éviter le thé pendant la prise (tradition)."
+  },
+  {
+   "id": "tu-si-zi",
+   "py": "Tu Si Zi",
+   "zh": "菟丝子",
+   "lat": "Cuscutae Semen",
+   "nom": "Graine de cuscute",
+   "cat": "tonif-yang",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn",
+    "Rt"
+   ],
+   "dose": "9–15 g",
+   "act": "Tonifie le Yang et le Yin du Rein, retient l'Essence, nourrit le Foie, éclaircit les yeux, calme le fœtus.",
+   "ind": "impuissance ; pertes séminales ; urines fréquentes ; vision floue ; diarrhée de Vide ; menace de fausse couche (sous avis)",
+   "ci": "Vide de Yin avec Feu, constipation."
+  },
+  {
+   "id": "wei-ling-xian",
+   "py": "Wei Ling Xian",
+   "zh": "威灵仙",
+   "lat": "Clematidis Radix",
+   "nom": "Clématite chinoise",
+   "cat": "vent-humidite",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "salee"
+   ],
+   "mer": [
+    "V"
+   ],
+   "dose": "6–10 g",
+   "act": "Chasse le Vent-Humidité, débloque les méridiens, calme la douleur.",
+   "ind": "douleurs articulaires qui se déplacent ; raideurs ; engourdissements ; arête coincée dans la gorge (tradition)",
+   "ci": "Vide de Qi et de Sang."
+  },
+  {
+   "id": "wu-ling-zhi",
+   "py": "Wu Ling Zhi",
+   "zh": "五灵脂",
+   "lat": "Trogopterori Faeces",
+   "nom": "Excréments d'écureuil volant",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "salee",
+    "douce"
+   ],
+   "mer": [
+    "F"
+   ],
+   "dose": "3–9 g",
+   "act": "Active le Sang, dissout la stase, calme la douleur.",
+   "ind": "règles douloureuses avec caillots ; douleurs fixes du ventre",
+   "ci": "Grossesse ; Vide de Sang ; ne pas associer à Ren Shen (tradition) ; cuire en sachet."
+  },
+  {
+   "id": "wu-mei",
+   "py": "Wu Mei",
+   "zh": "乌梅",
+   "lat": "Mume Fructus",
+   "nom": "Prune fumée (prune japonaise)",
+   "cat": "astringentes",
+   "nature": "neutre",
+   "saveurs": [
+    "acide",
+    "astringente"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "P",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Retient le Poumon et l'Intestin, génère les liquides, calme les vers.",
+   "ind": "toux chronique ; diarrhée chronique ; soif ; diabète ; vers intestinaux",
+   "ci": "Plénitude, Chaleur, rhume en cours ; excès d'acidité."
+  },
+  {
+   "id": "wu-wei-zi",
+   "py": "Wu Wei Zi",
+   "zh": "五味子",
+   "lat": "Schisandrae chinensis Fructus",
+   "nom": "Schisandra (« fruit aux cinq saveurs »)",
+   "cat": "astringentes",
+   "nature": "tiede",
+   "saveurs": [
+    "acide",
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "C",
+    "Rn"
+   ],
+   "dose": "3–6 g",
+   "act": "Retient le Poumon et le Rein, génère les liquides, arrête la transpiration, retient l'Essence, calme le Shen.",
+   "ind": "toux chronique ; essoufflement ; sueurs ; soif ; pertes séminales ; insomnie ; palpitations",
+   "ci": "Rhume en cours, toux récente, Chaleur de Plénitude ; interactions possibles avec certains médicaments (foie)."
+  },
+  {
+   "id": "wu-yao",
+   "py": "Wu Yao",
+   "zh": "乌药",
+   "lat": "Linderae Radix",
+   "nom": "Racine de lindera",
+   "cat": "qi",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "Rt",
+    "Rn",
+    "V"
+   ],
+   "dose": "6–10 g",
+   "act": "Fait circuler le Qi, calme la douleur, réchauffe le Rein, retient les urines.",
+   "ind": "douleur froide du bas-ventre ; règles douloureuses ; urines fréquentes ; énurésie",
+   "ci": "Vide de Qi avec Chaleur."
+  },
+  {
+   "id": "wu-zhu-yu",
+   "py": "Wu Zhu Yu",
+   "zh": "吴茱萸",
+   "lat": "Euodiae Fructus",
+   "nom": "Évodia",
+   "cat": "rechauffent",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "E",
+    "Rn"
+   ],
+   "dose": "2–5 g",
+   "act": "Réchauffe le Foie et l'Estomac, chasse le Froid, calme la douleur, arrête les vomissements.",
+   "ind": "mal de tête au sommet avec vomissements ; reflux acide de Froid ; règles douloureuses de Froid ; diarrhée à l'aube",
+   "ci": "Légèrement toxique : petites doses ; Chaleur, Vide de Yin ; grossesse."
+  },
+  {
+   "id": "xi-xin",
+   "py": "Xi Xin",
+   "zh": "细辛",
+   "lat": "Asari Radix et Rhizoma",
+   "nom": "Asaret",
+   "cat": "surface-chaude",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "Rn",
+    "C"
+   ],
+   "dose": "1–3 g",
+   "act": "Chasse le Vent-Froid, débouche le nez, calme la douleur, réchauffe le Poumon.",
+   "ind": "rhume de Froid ; nez bouché ; maux de tête, mal de dents ; douleurs articulaires ; toux avec glaires claires",
+   "ci": "Toxique au-delà de 3 g en poudre ; seule la racine est utilisée en Europe (acide aristolochique dans les parties aériennes) ; Vide de Yin ; grossesse."
+  },
+  {
+   "id": "xia-ku-cao",
+   "py": "Xia Ku Cao",
+   "zh": "夏枯草",
+   "lat": "Prunellae Spica",
+   "nom": "Brunelle",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "VB"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie le Feu du Foie, éclaircit les yeux, disperse les nodules.",
+   "ind": "yeux rouges et douloureux ; maux de tête ; tension élevée ; ganglions ; goitre ; nodules du sein",
+   "ci": "Froid de la Rate."
+  },
+  {
+   "id": "xian-he-cao",
+   "py": "Xian He Cao",
+   "zh": "仙鹤草",
+   "lat": "Agrimoniae Herba",
+   "nom": "Aigremoine asiatique",
+   "cat": "hemostatiques",
+   "nature": "neutre",
+   "saveurs": [
+    "amere",
+    "astringente"
+   ],
+   "mer": [
+    "P",
+    "F",
+    "Rt"
+   ],
+   "dose": "9–15 g",
+   "act": "Arrête les saignements, arrête la diarrhée, tonifie (épuisement).",
+   "ind": "saignements divers ; diarrhée chronique ; épuisement",
+   "ci": "Rare."
+  },
+  {
+   "id": "xian-mao",
+   "py": "Xian Mao",
+   "zh": "仙茅",
+   "lat": "Curculiginis Rhizoma",
+   "nom": "Curculigo",
+   "cat": "tonif-yang",
+   "nature": "chaude",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rn",
+    "F",
+    "Rt"
+   ],
+   "dose": "3–9 g",
+   "act": "Tonifie le Yang du Rein, fortifie les tendons et les os, chasse le Froid-Humidité.",
+   "ind": "impuissance ; lombes et genoux froids ; urines fréquentes ; ménopause avec froid",
+   "ci": "Légèrement toxique : pas de cure prolongée ; Vide de Yin avec Feu."
+  },
+  {
+   "id": "xiang-fu",
+   "py": "Xiang Fu",
+   "zh": "香附",
+   "lat": "Cyperi Rhizoma",
+   "nom": "Souchet rond",
+   "cat": "qi",
+   "nature": "neutre",
+   "saveurs": [
+    "piquante",
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "TR"
+   ],
+   "dose": "6–10 g",
+   "act": "Libère le Qi du Foie, règle les règles, calme la douleur.",
+   "ind": "stress ; douleurs sous les côtes ; seins tendus ; règles irrégulières ou douloureuses ; ballonnements",
+   "ci": "Vide de Yin avec Chaleur, Vide de Qi."
+  },
+  {
+   "id": "xiao-hui-xiang",
+   "py": "Xiao Hui Xiang",
+   "zh": "小茴香",
+   "lat": "Foeniculi Fructus",
+   "nom": "Fenouil",
+   "cat": "rechauffent",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "Rn",
+    "Rt",
+    "E"
+   ],
+   "dose": "3–6 g",
+   "act": "Chasse le Froid, calme la douleur, fait circuler le Qi, harmonise l'Estomac.",
+   "ind": "douleur froide du bas-ventre ; hernie ; règles douloureuses de Froid ; ballonnements",
+   "ci": "Vide de Yin avec Chaleur."
+  },
+  {
+   "id": "xin-yi",
+   "py": "Xin Yi",
+   "zh": "辛夷",
+   "lat": "Magnoliae Flos",
+   "nom": "Bouton de magnolia",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "3–9 g",
+   "act": "Chasse le Vent-Froid, débouche le nez.",
+   "ind": "nez bouché ; rhinite, sinusite ; perte de l'odorat ; maux de tête du front",
+   "ci": "Vide de Yin avec Chaleur.",
+   "note": "En décoction, l'envelopper dans un sachet (poils irritants)."
+  },
+  {
+   "id": "xing-ren",
+   "py": "Xing Ren",
+   "zh": "苦杏仁",
+   "lat": "Armeniacae Semen amarum",
+   "nom": "Amande d'abricot amère",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "GI"
+   ],
+   "dose": "3–10 g",
+   "act": "Fait descendre le Qi du Poumon, calme la toux et l'asthme, humidifie les intestins.",
+   "ind": "toux ; essoufflement ; constipation sèche",
+   "ci": "Légèrement toxique (amygdaline) : ne pas dépasser la dose, prudence chez l'enfant ; diarrhée."
+  },
+  {
+   "id": "xu-duan",
+   "py": "Xu Duan",
+   "zh": "续断",
+   "lat": "Dipsaci Radix",
+   "nom": "Cardère japonaise",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Tonifie le Foie et le Rein, fortifie les tendons et les os, répare les fractures, calme le fœtus.",
+   "ind": "lombes douloureuses ; genoux faibles ; fractures, entorses ; saignements de grossesse (sous avis)",
+   "ci": "Vide de Yin avec Feu."
+  },
+  {
+   "id": "xuan-fu-hua",
+   "py": "Xuan Fu Hua",
+   "zh": "旋覆花",
+   "lat": "Inulae Flos",
+   "nom": "Fleur d'inule",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante",
+    "salee"
+   ],
+   "mer": [
+    "P",
+    "E",
+    "Rt",
+    "GI"
+   ],
+   "dose": "3–9 g",
+   "act": "Fait descendre le Qi, transforme les Mucosités, arrête les vomissements et les renvois.",
+   "ind": "renvois ; hoquet ; nausées ; toux avec glaires abondantes",
+   "ci": "Vide de Yin avec toux sèche ; cuire en sachet (poils irritants)."
+  },
+  {
+   "id": "xuan-shen",
+   "py": "Xuan Shen",
+   "zh": "玄参",
+   "lat": "Scrophulariae Radix",
+   "nom": "Scrofulaire de Ning-po",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "amere",
+    "salee"
+   ],
+   "mer": [
+    "P",
+    "E",
+    "Rn"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, rafraîchit le Sang, nourrit le Yin, élimine les toxines, ramollit les nodules.",
+   "ind": "gorge sèche et douloureuse ; ganglions ; constipation sèche ; éruptions ; fièvre nocturne",
+   "ci": "Digestion faible, selles molles."
+  },
+  {
+   "id": "yan-hu-suo",
+   "py": "Yan Hu Suo",
+   "zh": "延胡索",
+   "lat": "Corydalis Rhizoma",
+   "nom": "Corydale",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "Rt"
+   ],
+   "dose": "3–9 g",
+   "act": "Active le Sang, fait circuler le Qi, calme fortement la douleur.",
+   "ind": "règles douloureuses ; douleurs d'estomac ; douleurs de poitrine ; douleurs des membres",
+   "ci": "Grossesse ; somnolence possible."
+  },
+  {
+   "id": "ye-jiao-teng",
+   "py": "Ye Jiao Teng",
+   "zh": "夜交藤",
+   "lat": "Polygoni multiflori Caulis",
+   "nom": "Tige de renouée multiflore",
+   "cat": "shen",
+   "nature": "neutre",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "C",
+    "F"
+   ],
+   "dose": "9–30 g",
+   "act": "Nourrit le Sang, calme le Shen, débloque les méridiens.",
+   "ind": "insomnie ; rêves nombreux ; engourdissements ; démangeaisons (externe)",
+   "ci": "Rare."
+  },
+  {
+   "id": "ye-ju-hua",
+   "py": "Ye Ju Hua",
+   "zh": "野菊花",
+   "lat": "Chrysanthemi indici Flos",
+   "nom": "Chrysanthème sauvage",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "C"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, réduit les gonflements.",
+   "ind": "furoncles ; acné ; mal de gorge ; yeux rouges ; tension élevée",
+   "ci": "Froid de la Rate."
+  },
+  {
+   "id": "yi-mu-cao",
+   "py": "Yi Mu Cao",
+   "zh": "益母草",
+   "lat": "Leonuri Herba",
+   "nom": "Agripaume",
+   "cat": "sang",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "C",
+    "V"
+   ],
+   "dose": "9–30 g",
+   "act": "Active le Sang, règle les règles, fait uriner, réduit les œdèmes.",
+   "ind": "règles irrégulières ou douloureuses ; après l'accouchement ; œdèmes",
+   "ci": "Grossesse (contre-indiquée) ; Vide de Sang sans stase."
+  },
+  {
+   "id": "yi-tang",
+   "py": "Yi Tang",
+   "zh": "饴糖",
+   "lat": "Saccharum granorum",
+   "nom": "Sucre de malt",
+   "cat": "tonif-qi",
+   "nature": "tiede",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "P"
+   ],
+   "dose": "15–60 g",
+   "act": "Tonifie et réchauffe le Centre, calme la douleur, humidifie le Poumon.",
+   "ind": "douleurs d'estomac de Vide-Froid ; toux sèche",
+   "ci": "Humidité, Chaleur, diabète, vomissements."
+  },
+  {
+   "id": "yi-yi-ren",
+   "py": "Yi Yi Ren",
+   "zh": "薏苡仁",
+   "lat": "Coicis Semen",
+   "nom": "Larmes de Job",
+   "cat": "diuretiques",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "P"
+   ],
+   "dose": "9–30 g",
+   "act": "Draine l'Humidité, renforce la Rate, soulage les articulations, fait sortir le pus.",
+   "ind": "rétention d'eau ; selles molles ; articulations lourdes ; verrues ; acné purulente",
+   "ci": "Grossesse (prudence) ; constipation sèche."
+  },
+  {
+   "id": "yi-zhi-ren",
+   "py": "Yi Zhi Ren",
+   "zh": "益智仁",
+   "lat": "Alpiniae oxyphyllae Fructus",
+   "nom": "Cardamome à fruits pointus",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "Rt",
+    "Rn"
+   ],
+   "dose": "3–9 g",
+   "act": "Réchauffe le Rein et la Rate, retient les urines et l'Essence, arrête la salivation.",
+   "ind": "urines fréquentes ; énurésie ; pertes séminales ; salivation abondante ; diarrhée de Froid",
+   "ci": "Vide de Yin avec Feu."
+  },
+  {
+   "id": "yin-chen",
+   "py": "Yin Chen",
+   "zh": "茵陈",
+   "lat": "Artemisiae scopariae Herba",
+   "nom": "Armoise capillaire",
+   "cat": "diuretiques",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "Rt",
+    "E",
+    "F",
+    "VB"
+   ],
+   "dose": "9–30 g",
+   "act": "Draine l'Humidité-Chaleur, fait disparaître la jaunisse.",
+   "ind": "jaunisse ; urines foncées ; eczéma ; foie surchargé",
+   "ci": "Jaunisse de Vide de Sang sans Humidité."
+  },
+  {
+   "id": "yin-yang-huo",
+   "py": "Yin Yang Huo",
+   "zh": "淫羊藿",
+   "lat": "Epimedii Folium",
+   "nom": "Épimède",
+   "cat": "tonif-yang",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "F",
+    "Rn"
+   ],
+   "dose": "6–15 g",
+   "act": "Tonifie le Yang du Rein, fortifie les tendons et les os, chasse le Vent-Humidité.",
+   "ind": "impuissance ; libido faible ; lombes froides ; ménopause ; douleurs articulaires de Froid",
+   "ci": "Vide de Yin avec Feu ; troubles du rythme cardiaque (prudence)."
+  },
+  {
+   "id": "yu-xing-cao",
+   "py": "Yu Xing Cao",
+   "zh": "鱼腥草",
+   "lat": "Houttuyniae Herba",
+   "nom": "Houttuynia (herbe à l'odeur de poisson)",
+   "cat": "chaleur",
+   "nature": "fraiche",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "15–30 g",
+   "act": "Clarifie la Chaleur du Poumon, élimine les toxines, fait sortir le pus, fait uriner.",
+   "ind": "toux avec glaires jaunes ; bronchite ; abcès ; urines qui brûlent",
+   "ci": "Froid sans Chaleur ; ajouter en fin de cuisson."
+  },
+  {
+   "id": "yu-zhu",
+   "py": "Yu Zhu",
+   "zh": "玉竹",
+   "lat": "Polygonati odorati Rhizoma",
+   "nom": "Sceau de Salomon odorant",
+   "cat": "tonif-yin",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "E"
+   ],
+   "dose": "6–12 g",
+   "act": "Nourrit le Yin du Poumon et de l'Estomac, génère les liquides.",
+   "ind": "toux sèche ; gorge sèche ; soif ; faim sans appétit",
+   "ci": "Humidité, Mucosités."
+  },
+  {
+   "id": "yuan-zhi",
+   "py": "Yuan Zhi",
+   "zh": "远志",
+   "lat": "Polygalae Radix",
+   "nom": "Polygala",
+   "cat": "shen",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "C",
+    "Rn",
+    "P"
+   ],
+   "dose": "3–9 g",
+   "act": "Calme le Shen, relie le Cœur et le Rein, transforme les Mucosités, ouvre les orifices.",
+   "ind": "insomnie ; oubli ; palpitations ; anxiété ; toux avec glaires",
+   "ci": "Ulcère, gastrite (irritant) ; Chaleur."
+  },
+  {
+   "id": "ze-lan",
+   "py": "Ze Lan",
+   "zh": "泽兰",
+   "lat": "Lycopi Herba",
+   "nom": "Lycope",
+   "cat": "sang",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "F",
+    "Rt"
+   ],
+   "dose": "6–12 g",
+   "act": "Active le Sang, règle les règles, fait uriner.",
+   "ind": "règles irrégulières ; œdèmes après l'accouchement ; contusions",
+   "ci": "Grossesse ; Vide de Sang sans stase."
+  },
+  {
+   "id": "ze-xie",
+   "py": "Ze Xie",
+   "zh": "泽泻",
+   "lat": "Alismatis Rhizoma",
+   "nom": "Plantain d'eau",
+   "cat": "diuretiques",
+   "nature": "froide",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "Rn",
+    "V"
+   ],
+   "dose": "6–12 g",
+   "act": "Fait uriner, draine l'Humidité, clarifie la Chaleur du Rein.",
+   "ind": "œdèmes ; urines rares ; vertiges d'Humidité ; diarrhée aqueuse ; pertes",
+   "ci": "Vide du Rein sans Humidité, pertes séminales de Vide."
+  },
+  {
+   "id": "zhe-bei-mu",
+   "py": "Zhe Bei Mu",
+   "zh": "浙贝母",
+   "lat": "Fritillariae thunbergii Bulbus",
+   "nom": "Fritillaire du Zhejiang",
+   "cat": "mucosites",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "P",
+    "C"
+   ],
+   "dose": "6–12 g",
+   "act": "Clarifie la Chaleur, transforme les Mucosités, dissout les nodules et les abcès.",
+   "ind": "toux de Chaleur avec glaires jaunes ; ganglions ; nodules ; abcès ; mal de gorge",
+   "ci": "Mucosités froides, Vide de la Rate ; ne pas associer aux aconits (tradition)."
+  },
+  {
+   "id": "zhen-zhu-mu",
+   "py": "Zhen Zhu Mu",
+   "zh": "珍珠母",
+   "lat": "Margaritiferae Concha",
+   "nom": "Nacre",
+   "cat": "vent-interne",
+   "nature": "froide",
+   "saveurs": [
+    "salee"
+   ],
+   "mer": [
+    "F",
+    "C"
+   ],
+   "dose": "15–30 g",
+   "act": "Fait descendre le Yang du Foie, calme le Shen, éclaircit les yeux.",
+   "ind": "insomnie avec agitation ; palpitations ; vertiges ; yeux rouges",
+   "ci": "Froid de la Rate ; cuire 30 min avant les autres."
+  },
+  {
+   "id": "zhi-ke",
+   "py": "Zhi Ke",
+   "zh": "枳壳",
+   "lat": "Aurantii Fructus",
+   "nom": "Orange amère mûre",
+   "cat": "qi",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante",
+    "acide"
+   ],
+   "mer": [
+    "P",
+    "Rt",
+    "E"
+   ],
+   "dose": "3–9 g",
+   "act": "Fait circuler le Qi, élargit la poitrine, dissout la plénitude.",
+   "ind": "oppression ; ballonnements ; digestion lente ; prolapsus (avec tonifiants)",
+   "ci": "Grossesse (prudence) ; Vide sans stagnation."
+  },
+  {
+   "id": "zhi-mu",
+   "py": "Zhi Mu",
+   "zh": "知母",
+   "lat": "Anemarrhenae Rhizoma",
+   "nom": "Anémarrhène",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "E",
+    "Rn"
+   ],
+   "dose": "6–12 g",
+   "act": "Clarifie la Chaleur, nourrit le Yin, humidifie la sécheresse.",
+   "ind": "fièvre avec soif ; toux sèche ; sueurs nocturnes ; bouffées de chaleur ; diabète ; constipation sèche",
+   "ci": "Selles molles."
+  },
+  {
+   "id": "zhi-shi",
+   "py": "Zhi Shi",
+   "zh": "枳实",
+   "lat": "Aurantii Fructus immaturus",
+   "nom": "Orange amère immature",
+   "cat": "qi",
+   "nature": "fraiche",
+   "saveurs": [
+    "amere",
+    "piquante",
+    "acide"
+   ],
+   "mer": [
+    "Rt",
+    "E"
+   ],
+   "dose": "3–9 g",
+   "act": "Brise la stagnation du Qi, dissout les accumulations, transforme les Mucosités.",
+   "ind": "ventre gonflé et dur ; constipation ; digestion bloquée ; oppression avec glaires",
+   "ci": "Grossesse ; Vide de la Rate."
+  },
+  {
+   "id": "zhi-zi",
+   "py": "Zhi Zi",
+   "zh": "栀子",
+   "lat": "Gardeniae Fructus",
+   "nom": "Fruit de gardénia",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere"
+   ],
+   "mer": [
+    "C",
+    "P",
+    "TR"
+   ],
+   "dose": "6–10 g",
+   "act": "Clarifie le Feu des trois Réchauffeurs, apaise l'agitation, draine l'Humidité-Chaleur, rafraîchit le Sang.",
+   "ind": "agitation, insomnie ; jaunisse ; urines qui brûlent ; saignements de Chaleur ; entorses (en cataplasme)",
+   "ci": "Froid de la Rate, diarrhée."
+  },
+  {
+   "id": "zhu-ling",
+   "py": "Zhu Ling",
+   "zh": "猪苓",
+   "lat": "Polyporus",
+   "nom": "Polypore en ombelle",
+   "cat": "diuretiques",
+   "nature": "neutre",
+   "saveurs": [
+    "douce",
+    "insipide"
+   ],
+   "mer": [
+    "Rn",
+    "V"
+   ],
+   "dose": "6–12 g",
+   "act": "Fait uriner, draine l'Humidité.",
+   "ind": "œdèmes ; urines rares ; diarrhée aqueuse ; pertes",
+   "ci": "Sans Humidité ; cure longue (épuise le Yin).",
+   "note": "Champignon : malgré son nom chinois (« Poria du porc »), il ne contient aucun produit animal."
+  },
+  {
+   "id": "zhu-ru",
+   "py": "Zhu Ru",
+   "zh": "竹茹",
+   "lat": "Bambusae Caulis in taenia",
+   "nom": "Raclure de bambou",
+   "cat": "mucosites",
+   "nature": "fraiche",
+   "saveurs": [
+    "douce"
+   ],
+   "mer": [
+    "P",
+    "E",
+    "VB"
+   ],
+   "dose": "6–10 g",
+   "act": "Clarifie la Chaleur, transforme les Mucosités, arrête les vomissements, apaise l'agitation.",
+   "ind": "nausées de Chaleur ; vomissements de grossesse ; insomnie avec agitation ; toux avec glaires jaunes",
+   "ci": "Vomissements de Froid."
+  },
+  {
+   "id": "zi-bei-tian-kui",
+   "py": "Zi Bei Tian Kui",
+   "zh": "紫背天葵",
+   "lat": "Semiaquilegiae Radix",
+   "nom": "Semiaquilegia",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "douce",
+    "amere"
+   ],
+   "mer": [
+    "F",
+    "Rt",
+    "V"
+   ],
+   "dose": "9–15 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, réduit les gonflements.",
+   "ind": "furoncles ; abcès ; ganglions enflammés",
+   "ci": "Froid de la Rate."
+  },
+  {
+   "id": "zi-hua-di-ding",
+   "py": "Zi Hua Di Ding",
+   "zh": "紫花地丁",
+   "lat": "Violae Herba",
+   "nom": "Violette de Yedo",
+   "cat": "chaleur",
+   "nature": "froide",
+   "saveurs": [
+    "amere",
+    "piquante"
+   ],
+   "mer": [
+    "C",
+    "F"
+   ],
+   "dose": "15–30 g",
+   "act": "Clarifie la Chaleur, élimine les toxines, réduit les abcès.",
+   "ind": "furoncles ; abcès ; acné inflammatoire ; morsures",
+   "ci": "Froid sans Chaleur."
+  },
+  {
+   "id": "zi-su-ye",
+   "py": "Zi Su Ye",
+   "zh": "紫苏叶",
+   "lat": "Perillae Folium",
+   "nom": "Feuille de périlla",
+   "cat": "surface-chaude",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "Rt"
+   ],
+   "dose": "5–10 g",
+   "act": "Libère la surface, fait circuler le Qi du Centre, calme les nausées, apaise le fœtus.",
+   "ind": "rhume avec oppression ; nausées ; nausées de grossesse ; intoxication aux fruits de mer",
+   "ci": "Vide de Qi avec transpiration, Chaleur."
+  },
+  {
+   "id": "zi-su-zi",
+   "py": "Zi Su Zi",
+   "zh": "紫苏子",
+   "lat": "Perillae Fructus",
+   "nom": "Graine de périlla",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "piquante"
+   ],
+   "mer": [
+    "P",
+    "GI"
+   ],
+   "dose": "3–10 g",
+   "act": "Fait descendre le Qi, transforme les Mucosités, calme l'asthme, humidifie les intestins.",
+   "ind": "toux et essoufflement avec glaires ; oppression ; constipation",
+   "ci": "Diarrhée, Vide de Qi."
+  },
+  {
+   "id": "zi-wan",
+   "py": "Zi Wan",
+   "zh": "紫菀",
+   "lat": "Asteris Radix",
+   "nom": "Aster de Tatarie",
+   "cat": "mucosites",
+   "nature": "tiede",
+   "saveurs": [
+    "amere",
+    "piquante",
+    "douce"
+   ],
+   "mer": [
+    "P"
+   ],
+   "dose": "5–10 g",
+   "act": "Humidifie le Poumon, fait descendre le Qi, transforme les Mucosités, calme la toux.",
+   "ind": "toux ancienne ou récente ; glaires difficiles à cracher ; crachats teintés de sang",
+   "ci": "Toux de Chaleur forte."
+  }
+ ]
+}

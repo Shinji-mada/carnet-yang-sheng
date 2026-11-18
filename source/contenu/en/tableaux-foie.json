@@ -153,7 +153,8 @@
     "appetit-faible",
     "toux-glaires-blanches",
     "enduit-blanc-epais",
-    "enduit-gras"
+    "enduit-gras",
+    "ganglions"
    ],
    "contre": [
     "fievre",
@@ -236,6 +237,133 @@
     "Globus"
    ],
    "diag": "Qi blocked by your emotions has knotted with Phlegm in your throat"
+  },
+  {
+   "id": "mucosites-feu-ganglions",
+   "organe": "foie",
+   "nom": "Phlegm and Fire Knotted into Lymph Nodes",
+   "zh": "痰火凝结",
+   "py": "Tán huǒ níng jié",
+   "resume": "Heat thickens the fluids into Phlegm, which knots into small lumps under the skin: lymph nodes in the neck, armpits or groin (Luo Li).",
+   "causes": [
+    "Stress, anger or held-back emotions blocking Liver Qi",
+    "Fatty, sweet, fried or spicy food",
+    "Late nights and overwork: Yin runs low and lets Fire dry out the fluids",
+    "An infection that never fully cleared (lingering toxic Heat)"
+   ],
+   "mecanisme": "When Liver Qi is blocked, it heats up and stops moving the fluids. The Heat thickens them into Phlegm, which knots along the Liver, Gallbladder and Triple Energizer channels, on the sides of the neck and under the armpits. If Yin runs low, dryness joins in: dry lips and mouth, red pimples.",
+   "cle": [
+    "ganglions",
+    "bouche-seche"
+   ],
+   "autres": [
+    "acne",
+    "levres-seches",
+    "soif",
+    "irritabilite",
+    "gorge-serree",
+    "noyau-prune",
+    "gout-amer",
+    "constipation-seche",
+    "langue-rouge",
+    "enduit-jaune",
+    "enduit-gras",
+    "sueurs-nuit",
+    "chaleur-5-coeurs",
+    "fievre-apres-midi"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
+   "langue": "Red, yellow sticky coating; red with little coating if Yin is affected.",
+   "pouls": "Wiry and slippery, often rapid; thin and rapid if Yin is affected.",
+   "principe": {
+    "zh": "清热化痰，软坚散结",
+    "py": "Qīng rè huà tán, ruǎn jiān sàn jié",
+    "fr": "Clear Heat, transform Phlegm, soften and disperse nodules"
+   },
+   "moxa": "No moxa, and never massage directly on a lymph node.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "TR 10",
+       "s": 60,
+       "pourquoi": "Classic point for neck lymph nodes (Luo Li): disperses knotted Phlegm.",
+       "ess": 1
+      },
+      {
+       "p": "GI 14",
+       "s": 60,
+       "pourquoi": "Classic point for lymph nodes of the neck and armpit.",
+       "ess": 1
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforms Phlegm.",
+       "ess": 1
+      },
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Frees Liver Qi and calms Fire."
+      },
+      {
+       "p": "VB 41",
+       "s": 60,
+       "pourquoi": "Disperses nodules on the sides of the body (neck, armpit, breasts)."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clears Heat."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin to put out dryness."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourishes Yin and moistens the throat."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "salade-wakame-sesame",
+    "salade-bambou-algues",
+    "soupe-mungo",
+    "jus-poire-radis",
+    "salade-radis-blanc"
+   ],
+   "privilegier": "Seaweed (kombu, wakame), daikon, pear, mung beans, mushrooms, cooked greens, warm water in small sips.",
+   "eviter": "Fried food, sugar, dairy, chocolate, strong spices, alcohol, late meals.",
+   "conseils": [
+    "Never massage directly on a lymph node: work the points at a distance.",
+    "Move every day (walking, Qi Gong) to keep Liver Qi flowing.",
+    "Go to bed before 11 pm: Yin rebuilds at night."
+   ],
+   "consulter": "Show a doctor any lymph node that lasts more than 3 weeks, keeps growing, is hard and does not move, or if there is fever, night sweats or weight loss. If tests are normal, this pattern helps support the terrain.",
+   "groupes": [
+    "peau"
+   ],
+   "simple": "Heat and Phlegm knot into small lumps under the skin (lymph nodes).",
+   "reperes": [
+    "Persistent benign lymph nodes",
+    "Thyroid nodules",
+    "Cysts under the skin"
+   ],
+   "diag": "Heat and Phlegm are knotting into lymph nodes"
   },
   {
    "id": "f-vide-sang",

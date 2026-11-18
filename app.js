@@ -21,7 +21,7 @@ const UNIT=EN?{g:'g',kg:'kg',ml:'ml',cl:'cl',l:'l',tsp:'tsp',tbsp:'tbsp',pinch:'
 /* Codes des points : français (Rt 6) en interne, OMS (SP 6) en anglais */
 const WHO={P:'LU',GI:'LI',E:'ST',Rt:'SP',C:'HT',IG:'SI',V:'BL',Rn:'KI',MC:'PC',TR:'TE',VB:'GB',F:'LR',VG:'GV',RM:'CV'};
 function pn(k){if(!EN||!k)return k;if(UI[k]!=null)return UI[k];return String(k).replace(/\b(P|GI|E|Rt|C|IG|V|Rn|MC|TR|VB|F|VG|RM) (\d+)\b/g,(m,a,n)=>WHO[a]+' '+n);}
-const TABS=['symptomes','tableaux','cuisine','carnet','atlas','infos'];
+const TABS=['symptomes','tableaux','cuisine','carnet','savoir','infos'];
 const reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
 const standalone=window.matchMedia&&(matchMedia('(display-mode: standalone)').matches||window.navigator.standalone===true);
 if(standalone)document.documentElement.classList.add('standalone');
@@ -51,14 +51,14 @@ applyLook();
   const set=(sel,txt,attr)=>{const el=$(sel);if(el){if(attr)el.setAttribute(attr,txt);else el.textContent=txt;}};
   set('.intro-s','Nourishing life, day by day');set('.mini-t span','Timer running');set('#mini-open','See');
   set('.dock-t','Drop the card into a notebook');set('.toast-b','Undo');set('.sheet-cancel','Close');set('.tabs','Sections','aria-label');
-  const L={symptomes:'Symptoms',tableaux:'Patterns',cuisine:'Kitchen',carnet:'Notebook',atlas:'Atlas',infos:'Info'};
+  const L={symptomes:'Symptoms',tableaux:'Patterns',cuisine:'Kitchen',carnet:'Notebook',savoir:'Library',infos:'Info'};
   document.querySelectorAll('.tab').forEach(b=>{const l=b.querySelector('.tab-l');if(l&&L[b.dataset.tab])l.textContent=L[b.dataset.tab];});
 })();
 
 /* ---------- État ---------- */
 const view=$('#view');
 let DATA=null,FIGS={},SYMFREQ={},loadError=false,fiches=[],tableaux=[],SYM={},SYMCATS=[],ORG={},ORGS=[],AXES=[],GENRES=[],INGC={},INGCATS=[],PTS={},NATS={},SAVS={},ORGC={};
-let tab=TABS.includes(store('ys.onglet'))?store('ys.onglet'):'symptomes';
+let tab=store('ys.onglet')==='atlas'?'savoir':TABS.includes(store('ys.onglet'))?store('ys.onglet'):'symptomes';
 let route=null;
 const scrollMem={};
 /* Reprise : tant que l'appli n'a pas été fermée complètement (même session du navigateur), on revient sur la page
@@ -1548,6 +1548,7 @@ ${stepsHTML(3)}<h1 class="vh" style="margin-top:14px">${$t('Ton bilan')}</h1><p 
     const sc={};b.tabs.forEach((r,i)=>arr(r.t.recettes).forEach((id,k)=>{sc[id]=(sc[id]||0)+(i?1:1.5)+(k<3?0.5:0);}));
     const recs=Object.keys(sc).map(fiche).filter(Boolean).sort((x,y)=>sc[y.id]-sc[x.id]).slice(0,6);
     if(recs.length)h+=`<h2 class="sec">${$t('Dans ton assiette')}</h2><div class="entries">${recs.map(x=>cardF(x)).join('')}</div>`;
+    h+=bilanFormulesHTML(b.tabs.map(r=>r.t));
     const pt=b.principal.t,cons=[];b.tabs.forEach(r=>arr(r.t.conseils).slice(0,2).forEach(c=>{if(!cons.includes(c))cons.push(c);}));
     if(pt.privilegier||pt.eviter||cons.length)h+=`<h2 class="sec">${$t('Au quotidien')}</h2>${pt.privilegier||pt.eviter?`<div class="dual">${pt.privilegier?`<div class="card good"><h3>${$t('À privilégier')}</h3><p>${esc(pt.privilegier)}</p></div>`:''}${pt.eviter?`<div class="card bad"><h3>${$t('À éviter')}</h3><p>${esc(pt.eviter)}</p></div>`:''}</div>`:''}${cons.length?`<ul class="bullets">${cons.slice(0,6).map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}`;
     h+=`<button type="button" class="ghost wide" data-mode="resultats">${$t('Voir tous les tableaux possibles ({n})',{n:b.res.length})}</button>`;
@@ -1583,13 +1584,14 @@ function merHead(m){
   return `<span class="at-org" lang="zh-Hans">${esc(m.zh)}</span><span class="at-mt"><b>${esc(m.nom)}</b><small>${m.id!=='X'?esc(EN&&WHO[m.id]||m.id)+' · ':''}${plural(atlasPts(m.id).length,'point','points')}${sub?' · '+esc(sub):''}</small></span>`;
 }
 function merName(id){const m=arr(DATA.meridiens).find(x=>x.id===id);return m?m.nom:id;}
-function renderAtlas(){
+function atlasHTML(){
   const n=Object.keys(PTS).filter(k=>PTS[k].mer&&PTS[k].mer!=='X').length;
-  view.innerHTML=`<h1 class="vh">${$t('Atlas des points')}</h1>
-<p class="lede">${$t('Les {n} points des 14 méridiens, classés par organe, et les points hors méridiens de l\'appli. Touche un point : emplacement dessiné, catégories, actions, indications et précautions.',{n})}</p>
+  return `<p class="lede">${$t('Les {n} points des 14 méridiens, classés par organe, et les points hors méridiens de l\'appli. Touche un point : emplacement dessiné, catégories, actions, indications et précautions.',{n})}</p>
 <div class="tools">${searchBox('atq',atlasQ,$t('Chercher : VB 34, Zu San Li, insomnie…'),$t('Chercher un point'))}</div>
 <div class="chips at-f" role="group" aria-label="${$t('Filtrer par catégorie')}">${ATF.map(([id,l])=>`<button type="button" class="chip" data-atf="${id}" aria-pressed="${atlasF===id}">${$t(l)}</button>`).join('')}</div>
 <div id="atlist"></div>`;
+}
+function atlasWire(){
   const q=$('#atq');q.addEventListener('input',()=>{atlasQ=q.value;renderAtlasList();});
   renderAtlasList();
 }
@@ -1622,7 +1624,130 @@ ${p.fn&&p.act?`<h3 class="at-h">${$t('En mots simples')}</h3>${p.locp&&p.loc!==p
 ${used.length?`<h3 class="at-h">${$t('Dans les tableaux de l\'appli')}</h3><div class="at-used">${used.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}`,
   sh=>{const g=sh.querySelector('.fig-svg');if(g)fitFig(g);});
 }
-function openAtlas(){goTab('atlas');}
+function openAtlas(){savMode='atlas';goTab('savoir');}
+/* ---------- Savoir : formules des laboratoires et pharmacopée ----------
+   Formules : composition (doses d'une décoction pour un jour, ou composition du laboratoire pour la dose du jour), actions,
+   indications, tableaux de l'appli, labos qui la vendent. Pharmacopée : plantes de A à Z avec nature, saveurs, méridiens,
+   posologie et précautions. Les formules conseillées apparaissent aussi dans la conclusion des bilans et dans les tableaux. */
+let FML={},PLT={},PLT_IN={},TAB_FML={},HORS={},LAB={},FCATS={},PCATS={};
+let savMode=['atlas','formules','plantes'].includes(store('ys.savoir'))?store('ys.savoir'):'atlas';
+let fmlQ='',fmlLab='',fmlOpen=null,pltQ='',pltCat='';
+function initPharma(){
+  FML={};PLT={};PLT_IN={};TAB_FML={};HORS={};LAB={};FCATS={};PCATS={};
+  arr(DATA.formules).forEach(f=>{if(f&&f.id)FML[f.id]=f;});
+  arr(DATA.plantes).forEach(p=>{if(p&&p.id)PLT[p.id]=p;});
+  arr(DATA.hors_pharmacopee).forEach(h=>{HORS[h.id]=h.nom;});
+  arr(DATA.labos).forEach(l=>{LAB[l.id]=l.nom;});
+  arr(DATA.categories_formules).forEach(c=>{FCATS[c.id]=c;});
+  arr(DATA.categories_plantes).forEach(c=>{PCATS[c.id]=c;});
+  Object.values(FML).forEach(f=>{
+    arr(f.compo).forEach(c=>{if(c[2]){(PLT_IN[c[2]]=PLT_IN[c[2]]||[]).includes(f.id)||PLT_IN[c[2]].push(f.id);}});
+    arr(f.tab).forEach((t,i)=>{(TAB_FML[t]=TAB_FML[t]||[]).push([f.id,i]);});
+  });
+  if(DATA.formules_tableaux&&typeof DATA.formules_tableaux==='object'){TAB_FML={};Object.entries(DATA.formules_tableaux).forEach(([t,l])=>{TAB_FML[t]=arr(l).filter(id=>FML[id]);});}
+  else Object.keys(TAB_FML).forEach(t=>{TAB_FML[t]=TAB_FML[t].sort((a,b)=>a[1]-b[1]||(arr(FML[b[0]].labs).length?1:0)-(arr(FML[a[0]].labs).length?1:0)||FML[a[0]].py.localeCompare(FML[b[0]].py)).map(x=>x[0]);});
+}
+function doseTxt(d){d=String(d||'');return EN?d.replace(/pièces?/g,m=>m==='pièces'?'pieces':'piece').replace(/jaunes/,'yolks').replace(/(\d),(\d)/g,'$1.$2'):d;}
+function labTags(f){return arr(f.labs).map(l=>`<span class="lab lab-${esc(l)}">${esc(LAB[l]||l)}</span>`).join('');}
+function fmlHay(f){if(!f._hay)f._hay=hayOf([f.py,f.zh,f.nom,f.act,f.ind,f.note,arr(f.compo).map(c=>c[0]).join(' '),arr(f.tab).map(t=>{const x=tableau(t);return x?x.nom:'';}).join(' '),arr(f.labs).map(l=>LAB[l]).join(' ')]);return f._hay;}
+function pltHay(p){if(!p._hay)p._hay=hayOf([p.py,p.zh,p.nom,p.lat,p.act,p.ind]);return p._hay;}
+function fmlRow(f,extra){
+  return `<button type="button" class="fm-row" data-fml="${esc(f.id)}"><span class="fm-nm"><b>${esc(f.py)}</b><small>${esc(f.nom)}</small>${extra?`<small class="fm-for">${esc(extra)}</small>`:''}</span><span class="at-zh" lang="zh-Hans">${esc(f.zh||'')}</span>${arr(f.labs).length?`<span class="fm-labs">${labTags(f)}</span>`:''}</button>`;
+}
+function pltRow(p){
+  const n=NATS[p.nature];
+  return `<button type="button" class="fm-row pl-row" data-plt="${esc(p.id)}"><span class="fm-nm"><b>${esc(p.py)}</b><small>${esc(p.nom)}</small></span><span class="at-zh" lang="zh-Hans">${esc(p.zh||'')}</span><span class="fm-labs"><span class="nat n-${esc(p.nature)}">${esc(n?n.nom:p.nature)}</span><span class="pl-cat">${esc((PCATS[p.cat]||{}).nom||'')}</span></span></button>`;
+}
+const PHARMA_AVERT='Une formule se choisit avec un praticien formé, après un bilan (langue, pouls). Grossesse, allaitement, enfant, traitement en cours (anticoagulants, tension, diabète, thyroïde) : demande toujours un avis avant de prendre des plantes.';
+function renderSavoir(){
+  const seg=`<div class="seg segs" role="group" aria-label="${$t('Afficher')}">${[['atlas','Points'],['formules','Formules'],['plantes','Pharmacopée']].map(([m,l])=>`<button type="button" data-savm="${m}" aria-pressed="${savMode===m}">${$t(l)}</button>`).join('')}</div>`;
+  let h=`<h1 class="vh">${$t('Savoir')}</h1>${seg}`;
+  if(savMode==='formules'){
+    const n=Object.keys(FML).length;
+    h+=`<p class="lede">${$t('{n} formules chinoises, celles des laboratoires Calebasse, Planeta Verd et JZ et les grandes formules classiques, classées comme dans les manuels.',{n})}</p>
+<p class="pharma-avert">${$t(PHARMA_AVERT)}</p>
+<div class="tools">${searchBox('fmq',fmlQ,$t('Chercher : Gui Pi Tang, insomnie, Dang Gui…'),$t('Chercher une formule'))}</div>
+<div class="chips at-f" role="group" aria-label="${$t('Laboratoire')}">${Object.keys(LAB).map(l=>`<button type="button" class="chip" data-fmlab="${l}" aria-pressed="${fmlLab===l}">${esc(LAB[l])}</button>`).join('')}</div><div id="fmlist"></div>`;
+    view.innerHTML=h;const q=$('#fmq');q.addEventListener('input',()=>{fmlQ=q.value;renderFmlList();});renderFmlList();
+  }else if(savMode==='plantes'){
+    const n=Object.keys(PLT).length;
+    h+=`<p class="lede">${$t('{n} plantes et substances de la pharmacopée chinoise, de A à Z : nature, saveurs, méridiens, actions, posologie et précautions.',{n})}</p>
+<p class="pharma-avert">${$t(PHARMA_AVERT)}</p>
+<div class="tools">${searchBox('plq',pltQ,$t('Chercher : Huang Qi, astragale, toux…'),$t('Chercher une plante'))}</div>
+<label class="pl-sel"><span>${$t('Catégorie')}</span><select id="plcat"><option value="">${$t('Toutes les catégories')}</option>${arr(DATA.categories_plantes).map(c=>`<option value="${esc(c.id)}"${pltCat===c.id?' selected':''}>${esc(c.nom)}</option>`).join('')}</select></label><div id="pllist"></div>`;
+    view.innerHTML=h;const q=$('#plq');q.addEventListener('input',()=>{pltQ=q.value;renderPltList();});
+    $('#plcat').addEventListener('change',e=>{pltCat=e.target.value;renderPltList();});renderPltList();
+  }else{
+    view.innerHTML=h+atlasHTML();atlasWire();
+  }
+}
+function renderFmlList(){
+  const box=$('#fmlist');if(!box)return;
+  const q=fmlQ.replace(/[-‐]/g,' ').trim(),list=Object.values(FML).filter(f=>(!fmlLab||arr(f.labs).includes(fmlLab))&&(!q||matchQ(fmlHay(f),q)));
+  if(q||fmlLab){
+    box.innerHTML=list.length?`<p class="hint">${plural(list.length,'formule trouvée','formules trouvées')}</p><div class="at-list fm-list">${list.sort((a,b)=>a.py.localeCompare(b.py)).map(f=>fmlRow(f)).join('')}</div>`:`<p class="msg">${esc($t('Aucune formule ne correspond à « {q} ».',{q}))}</p>`;
+    return;
+  }
+  box.innerHTML=arr(DATA.categories_formules).map(c=>{const fs=list.filter(f=>f.cat===c.id).sort((a,b)=>a.py.localeCompare(b.py));if(!fs.length)return'';
+    return `<details class="cat at-m" data-cat="fm-${esc(c.id)}"${fmlOpen==='fm-'+c.id?' open':''}><summary><span class="at-org" lang="zh-Hans">${esc(c.zh||'')}</span><span class="at-mt"><b>${esc(c.nom)}</b><small>${plural(fs.length,'formule','formules')}</small></span></summary><div class="at-list fm-list">${fs.map(f=>fmlRow(f)).join('')}</div></details>`;}).join('');
+  accordion(box,v=>{fmlOpen=v;});
+}
+function renderPltList(){
+  const box=$('#pllist');if(!box)return;
+  const q=pltQ.replace(/[-‐]/g,' ').trim(),list=Object.values(PLT).filter(p=>(!pltCat||p.cat===pltCat)&&(!q||matchQ(pltHay(p),q))).sort((a,b)=>a.py.localeCompare(b.py));
+  if(!list.length){box.innerHTML=`<p class="msg">${esc($t('Aucune plante ne correspond à « {q} ».',{q}))}</p>`;return;}
+  let h=q||pltCat?`<p class="hint">${plural(list.length,'plante trouvée','plantes trouvées')}</p>`:'',L='';
+  const groups=[];list.forEach(p=>{const l=fold(p.py).charAt(0).toUpperCase();if(l!==L){L=l;groups.push([l,[]]);}groups[groups.length-1][1].push(p);});
+  if(!q&&!pltCat)h+=`<nav class="az" aria-label="${$t('Aller à la lettre')}">${groups.map(([l])=>`<button type="button" data-az="${l}">${l}</button>`).join('')}</nav>`;
+  h+=groups.map(([l,ps])=>`<h2 class="sec az-h" id="pl-${l}">${l}</h2><div class="at-list fm-list">${ps.map(pltRow).join('')}</div>`).join('');
+  box.innerHTML=h;
+}
+function formuleSheet(id){
+  const f=FML[id];if(!f)return;
+  const c=FCATS[f.cat],tabs=arr(f.tab).map(tableau).filter(Boolean),mg=arr(f.compo).some(x=>/mg/.test(x[1]));
+  const comp=arr(f.compo).map(([n,d,pid])=>{const p=pid&&PLT[pid];const nm=HORS[n]?HORS[n]:n;
+    return `<li>${p?`<button type="button" class="fm-pl" data-plt="${esc(pid)}"><b>${esc(nm)}</b><small>${esc(p.nom)}${p.zh?` · <span lang="zh-Hans">${esc(p.zh)}</span>`:''}</small></button>`:`<span class="fm-pl"><b>${esc(nm)}</b></span>`}<span class="fm-dose">${esc(doseTxt(d))}</span></li>`;}).join('');
+  openSheet(f.py,(f.zh?f.zh+' · ':'')+f.nom,
+`${arr(f.labs).length?`<p class="fm-labs big">${labTags(f)}</p>`:`<p class="hint">${$t('Formule classique : pas vendue telle quelle par ces laboratoires, à faire préparer en pharmacie chinoise.')}</p>`}
+${c?`<p class="at-cats1">${esc(c.nom)}${c.zh?` <span lang="zh-Hans">${esc(c.zh)}</span>`:''}</p>`:''}
+<h3 class="at-h">${$t('Composition')}</h3><ul class="fm-compo">${comp}</ul>
+<p class="fine">${$t(mg?'Composition du laboratoire pour la dose du jour.':'Doses d\'une décoction pour une journée (plantes sèches).')}</p>
+<h3 class="at-h">${$t('Actions')}</h3><p class="at-p">${esc(f.act)}</p>
+<h3 class="at-h">${$t('Indications')}</h3><ul class="at-ind">${String(f.ind).split(/\s*;\s*/).filter(Boolean).map(x=>`<li>${esc(x.charAt(0).toUpperCase()+x.slice(1))}</li>`).join('')}</ul>
+${tabs.length?`<h3 class="at-h">${$t('Pour les tableaux de l\'appli')}</h3><div class="at-used">${tabs.map(t=>`<button type="button" class="tag" data-opent="${esc(t.id)}">${esc(t.nom)}</button>`).join('')}</div>`:''}
+<h3 class="at-h">${$t('Posologie')}</h3><p class="at-p">${$t('En gélules ou comprimés de laboratoire : suis la dose indiquée sur la boîte (souvent 4 à 6 gélules par jour en 2 ou 3 prises, avant les repas). En décoction : les doses ci-dessus pour une journée. Cure de 3 à 6 semaines, puis fais le point avec un praticien.')}</p>
+${f.note?`<p class="at-p fm-note">${esc(f.note)}</p>`:''}
+${arr(f.labs).includes('jz')?`<p class="at-p fm-note">${$t('Les gélules JZ sont en gélatine : demande son origine au laboratoire si tu évites le porc ou si tu es végétarien.')}</p>`:''}
+<h3 class="at-h">${$t('Précautions et contre-indications')}</h3><p class="at-p warn">${esc(f.ci)}</p>
+<p class="fine">${$t(PHARMA_AVERT)}</p>`);
+}
+function planteSheet(id){
+  const p=PLT[id];if(!p)return;
+  const n=NATS[p.nature],c=PCATS[p.cat],fs=arr(PLT_IN[id]).map(x=>FML[x]).filter(Boolean).sort((a,b)=>a.py.localeCompare(b.py));
+  openSheet(p.py,(p.zh?p.zh+' · ':'')+p.nom,
+`<p class="pl-lat"><i>${esc(p.lat)}</i></p>
+<div class="pl-props"><span class="nat n-${esc(p.nature)}">${esc(n?n.nom:p.nature)}</span>${arr(p.saveurs).map(s=>`<span class="sav s-${esc(s)}">${esc((SAVS[s]||{}).nom||s)}</span>`).join('')}${arr(p.mer).map(m=>`<span class="mer">${esc(merName(m))}</span>`).join('')}</div>
+${c?`<p class="at-cats1">${esc(c.nom)}${c.zh?` <span lang="zh-Hans">${esc(c.zh)}</span>`:''}</p>`:''}
+<h3 class="at-h">${$t('Actions')}</h3><p class="at-p">${esc(p.act)}</p>
+<h3 class="at-h">${$t('Indications')}</h3><ul class="at-ind">${String(p.ind).split(/\s*;\s*/).filter(Boolean).map(x=>`<li>${esc(x.charAt(0).toUpperCase()+x.slice(1))}</li>`).join('')}</ul>
+<h3 class="at-h">${$t('Posologie')}</h3><p class="at-p">${esc($t('{d} par jour, en décoction (plante sèche).',{d:p.dose}))}</p>
+${p.note?`<p class="at-p fm-note">${esc(p.note)}</p>`:''}
+<h3 class="at-h">${$t('Précautions et contre-indications')}</h3><p class="at-p warn">${esc(p.ci)}</p>
+${fs.length?`<h3 class="at-h">${$t('Dans les formules')}</h3><div class="at-list fm-list">${fs.map(f=>fmlRow(f)).join('')}</div>`:''}
+<p class="fine">${$t(PHARMA_AVERT)}</p>`);
+}
+/* Formules conseillées pour une liste de tableaux (bilan) : 1 à 2 par tableau, 4 au plus, sans doublon */
+function bilanFormulesHTML(tabs){
+  const seen=new Set(),out=[];
+  tabs.forEach((t,i)=>{let k=0;arr(TAB_FML[t.id]).forEach(id=>{if(k>=(i?1:2)||out.length>=4||seen.has(id))return;seen.add(id);out.push([FML[id],t]);k++;});});
+  if(!out.length)return'';
+  return `<h2 class="sec">${$t('En pharmacopée chinoise')}</h2><p class="hint">${$t('Formules qui correspondent à tes tableaux. À valider avec un praticien avant de les prendre.')}</p><div class="at-list fm-list fm-card">${out.map(([f,t])=>fmlRow(f,$t('pour « {t} »',{t:t.nom}))).join('')}</div>`;
+}
+function tableauFormulesHTML(t){
+  const fs=arr(TAB_FML[t.id]).map(id=>FML[id]).filter(Boolean);
+  if(!fs.length)return'';
+  return `<h2 class="sec">${$t('Formules de pharmacopée')}</h2><p class="hint">${$t('La première est la plus typique du tableau. À valider avec un praticien avant de les prendre.')}</p><div class="at-list fm-list fm-card">${fs.map(f=>fmlRow(f)).join('')}</div>`;
+}
 /* ---------- Bilans enregistrés ----------
    Un bilan enregistré garde ce qui a été dit ce jour-là : symptômes, langue, tableaux, texte du praticien, plats.
    La séance de points et les conseils se recalculent à partir des tableaux. Les bilans restent sur ce téléphone,
@@ -1691,6 +1816,7 @@ function renderBilanEnr(b){
   if(e._items.length)h+=`<h2 class="sec">${$t('Ta séance de points')}</h2><p class="hint">${$t('Une séance par jour, jusqu\'à ce que les signes s\'apaisent. Refais un bilan si tes symptômes changent.')}</p><div class="fiche bilan-proto">${protoHTML(e)}</div>`;
   const recs=arr(b.recs).map(fiche).filter(Boolean);
   if(recs.length)h+=`<h2 class="sec">${$t('Dans ton assiette')}</h2><div class="entries">${recs.map(x=>cardF(x)).join('')}</div>`;
+  h+=bilanFormulesHTML(tabs.map(o=>o.t));
   const pt=tabs[0]&&tabs[0].t,cons=[];tabs.forEach(o=>arr(o.t.conseils).slice(0,2).forEach(c=>{if(!cons.includes(c))cons.push(c);}));
   if(pt&&(pt.privilegier||pt.eviter||cons.length))h+=`<h2 class="sec">${$t('Au quotidien')}</h2>${pt.privilegier||pt.eviter?`<div class="dual">${pt.privilegier?`<div class="card good"><h3>${$t('À privilégier')}</h3><p>${esc(pt.privilegier)}</p></div>`:''}${pt.eviter?`<div class="card bad"><h3>${$t('À éviter')}</h3><p>${esc(pt.eviter)}</p></div>`:''}</div>`:''}${cons.length?`<ul class="bullets">${cons.slice(0,6).map(c=>`<li>${esc(c)}</li>`).join('')}</ul>`:''}`;
   h+=`<div class="bl-acts"><button type="button" class="ghost" data-act2="brename:${esc(b.id)}">${$t('Renommer ce bilan')}</button><button type="button" class="ghost" data-bredo="${esc(b.id)}">${$t('Refaire un bilan avec ces symptômes')}</button><button type="button" class="ghost danger" data-bdel="${esc(b.id)}">${$t('Supprimer ce bilan')}</button></div>
@@ -1766,6 +1892,7 @@ ${t.resume?`<p class="ctx">${esc(t.resume)}</p>`:''}</header>`;
   }
   const recs=arr(t.recettes).map(fiche).filter(Boolean);
   if(recs.length)h+=`<h2 class="sec">${$t('Recettes adaptées')}</h2><div class="entries">${recs.map(e=>cardF(e)).join('')}</div>`;
+  h+=tableauFormulesHTML(t);
   const prots=arr(t.fiches).map(fiche).filter(Boolean);
   if(prots.length)h+=`<h2 class="sec">${$t('Protocole complet')}</h2><div class="entries">${prots.map(e=>cardF(e)).join('')}</div>`;
   if(t.privilegier||t.eviter)h+=`<h2 class="sec">${$t('Alimentation et hygiène de vie')}</h2><div class="dual">${t.privilegier?`<div class="card good"><h3>${$t('À privilégier')}</h3><p>${esc(t.privilegier)}</p></div>`:''}${t.eviter?`<div class="card bad"><h3>${$t('À éviter')}</h3><p>${esc(t.eviter)}</p></div>`:''}</div>`;
@@ -2168,7 +2295,7 @@ function render(){
   if(route&&route.kind==='b'){const b=bilanRec(route.id);if(b){renderBilanEnr(b);mini();saveUI();return;}route=null;}
   const e=route&&item(route.kind,route.id);
   if(e){e.kind==='t'?renderTableauDetail(e):renderFicheDetail(e);}
-  else{route=null;({symptomes:renderSym,tableaux:renderTableaux,cuisine:renderCuisine,carnet:renderCarnet,atlas:renderAtlas,infos:renderInfos})[tab]();}
+  else{route=null;({symptomes:renderSym,tableaux:renderTableaux,cuisine:renderCuisine,carnet:renderCarnet,savoir:renderSavoir,infos:renderInfos})[tab]();}
   mini();saveUI();
 }
 function rerenderKeep(sel){
@@ -2205,7 +2332,7 @@ function goBack(){
 }
 function parseHash(){
   const h=decodeURIComponent((location.hash||'').slice(1));
-  if(h==='a-points')return{tab:'atlas'};
+  if(h==='a-points'||h==='atlas')return{tab:'savoir'};
   const m=/^([ftb])-(.+)$/.exec(h);
   if(m)return{route:{kind:m[1],id:m[2]}};
   return{tab:TABS.includes(h)?h:null};
@@ -2476,6 +2603,8 @@ document.addEventListener('click',ev=>{
     if(d.lgex){lgExamSheet(d.lgex);return;}
     if(d.bopen){const id=d.bopen;closeSheet(false,()=>openBilan(id));return;}
     if(d.atpt){atlasSheet(d.atpt);return;}
+    if(d.fml){formuleSheet(d.fml);return;}
+    if(d.plt){planteSheet(d.plt);return;}
     if(d.figv){const i=d.figv.lastIndexOf('|'),k=d.figv.slice(0,i),w=b.closest('.figw');if(w&&PTS[k]){w.outerHTML=figBlock(k,w.dataset.court==='1',+d.figv.slice(i+1));const g=$('#sheet .fig-svg');if(g)fitFig(g);}return;}
     if(d.open){const id=d.open;closeSheet(false,()=>openItem('f',id));return;}
     if(d.ing){have.has(d.ing)?have.delete(d.ing):have.add(d.ing);saveSet('ys.cuisine',have);b.setAttribute('aria-pressed',String(have.has(d.ing)));toast(have.has(d.ing)?'Ajouté à ta cuisine':'Retiré de ta cuisine');return;}
@@ -2503,6 +2632,11 @@ document.addEventListener('click',ev=>{
   if(d.lgex){lgExamSheet(d.lgex);return;}
   if(d.lghist){lgHistSheet();return;}
   if(d.bsave){bilanEnregistrer();return;}
+  if(d.savm){savMode=d.savm;store('ys.savoir',savMode);render();window.scrollTo(0,0);return;}
+  if(d.fmlab!==undefined){fmlLab=fmlLab===d.fmlab?'':d.fmlab;document.querySelectorAll('[data-fmlab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.fmlab===fmlLab)));renderFmlList();return;}
+  if(d.fml){formuleSheet(d.fml);return;}
+  if(d.plt){planteSheet(d.plt);return;}
+  if(d.az){const el=document.getElementById('pl-'+d.az);if(el)window.scrollTo(0,el.getBoundingClientRect().top+window.scrollY-10);return;}
   if(d.atf!==undefined){atlasF=atlasF===d.atf?'':d.atf;document.querySelectorAll('[data-atf]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.atf===atlasF)));renderAtlasList();return;}
   if(d.atpt){atlasSheet(d.atpt);return;}
   if(d.bilans){bilansSheet();return;}
@@ -2579,6 +2713,7 @@ window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installEvt=
 lastSnap=J(dataOnly());
 (function initRoute(){
   const p=parseHash();
+  if(UI0&&UI0.tab==='atlas')UI0.tab='savoir';
   if(UI0&&TABS.includes(UI0.tab)){
     tab=UI0.tab;route=UI0.route&&UI0.route.kind&&UI0.route.id?{kind:String(UI0.route.kind),id:String(UI0.route.id)}:null;
     if(['choisir','langue','bilan','resultats'].includes(UI0.symMode))symMode=UI0.symMode;
@@ -2630,6 +2765,7 @@ loadData().then(d=>{
   DATA=d||{};
   if(EN&&DATA.ui&&typeof DATA.ui==='object')Object.assign(UI,DATA.ui);
   PTS=DATA.points&&typeof DATA.points==='object'?DATA.points:{};
+  initPharma();
   FIGS=DATA.figures&&typeof DATA.figures==='object'?DATA.figures:{};
   SYM={};arr(DATA.symptomes).forEach(s=>{if(s&&s.id)SYM[s.id]=s;});
   SYMCATS=arr(DATA.categories_symptomes);

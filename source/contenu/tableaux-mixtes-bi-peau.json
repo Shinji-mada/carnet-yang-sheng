@@ -166,7 +166,8 @@
     "langue-mince",
     "sans-enduit",
     "enduit-pele",
-    "marques-dents"
+    "marques-dents",
+    "levres-seches"
    ],
    "contre": [
     "langue-humide",
@@ -1611,7 +1612,8 @@
     "enduit-jaune",
     "bleus-faciles",
     "peau-squames",
-    "saignements-nez"
+    "saignements-nez",
+    "levres-seches"
    ],
    "contre": [
     "langue-pale",

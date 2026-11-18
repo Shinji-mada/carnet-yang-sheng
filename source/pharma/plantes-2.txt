@@ -1,0 +1,448 @@
+# Chassent le Vent-Humidité
+@Du Huo | 独活 | Angelicae pubescentis Radix | vent-humidite | tiede | piquante, amere | Rn, V | 3–9 g
+n Angélique pubescente || Pubescent angelica root
+a Chasse le Vent-Humidité, calme les douleurs du bas du corps. || Expels Wind-Damp, relieves lower-body pain.
+i douleurs des lombes et des genoux ; sciatique ; raideurs au froid humide || lower back and knee pain; sciatica; stiffness in cold damp weather
+x Vide de Yin ou de Sang sans Humidité. || Yin or Blood deficiency without Dampness.
+
+@Gou Ji | 狗脊 | Cibotii Rhizoma | vent-humidite | tiede | amere, douce | F, Rn | 6–12 g
+n Rhizome de cibotium || Cibotium rhizome
+a Chasse le Vent-Humidité, tonifie le Foie et le Rein, fortifie les lombes. || Expels Wind-Damp, tonifies the Liver and Kidney, strengthens the lower back.
+i lombes raides et faibles ; genoux faibles ; urines fréquentes de la personne âgée || stiff, weak lower back; weak knees; frequent urination in older people
+x Vide de Yin avec Chaleur, urines qui brûlent. || Yin deficiency with Heat, burning urination.
+
+@Hai Feng Teng | 海风藤 | Piperis kadsurae Caulis | vent-humidite | tiede | piquante, amere | F | 6–12 g
+n Tige de poivrier kadsura || Kadsura pepper stem
+a Chasse le Vent-Humidité, débloque les méridiens, calme la douleur. || Expels Wind-Damp, unblocks the channels, eases pain.
+i douleurs articulaires ; raideurs ; crampes ; contusions || joint pain; stiffness; cramps; bruises
+x Vide de Yin. || Yin deficiency.
+
+@Han Fang Ji | 汉防己 | Stephaniae tetrandrae Radix | vent-humidite | froide | amere, piquante | V, P | 5–10 g
+n Stéphania || Stephania root
+a Chasse le Vent-Humidité, calme la douleur, fait uriner, réduit les œdèmes. || Expels Wind-Damp, eases pain, promotes urination, reduces edema.
+i œdèmes des jambes ; articulations gonflées ; douleurs de Chaleur-Humidité || leg edema; swollen joints; Damp-Heat pain
+x Vide de Yin ; à ne jamais confondre avec Guang Fang Ji (Aristoloche, interdite). || Yin deficiency; never to be confused with Guang Fang Ji (Aristolochia, banned).
+
+@Mu Gua | 木瓜 | Chaenomelis Fructus | vent-humidite | tiede | acide | F, Rt | 6–12 g
+n Coing de Chine || Chinese quince
+a Détend les tendons, débloque les méridiens, transforme l'Humidité, harmonise l'Estomac. || Relaxes the tendons, unblocks the channels, transforms Dampness, harmonizes the Stomach.
+i crampes des mollets ; jambes lourdes ; douleurs articulaires ; vomissements et diarrhée avec crampes || calf cramps; heavy legs; joint pain; vomiting and diarrhea with cramps
+x Excès d'acidité gastrique ; urines rares et foncées. || Excess stomach acid; scanty dark urine.
+
+@Qin Jiao | 秦艽 | Gentianae macrophyllae Radix | vent-humidite | fraiche | piquante, amere | E, F, VB | 6–12 g
+n Gentiane à grandes feuilles || Large-leaf gentian root
+a Chasse le Vent-Humidité, détend les tendons, clarifie la Chaleur de Vide, draine l'Humidité-Chaleur. || Expels Wind-Damp, relaxes the tendons, clears deficiency Heat, drains Damp-Heat.
+i douleurs articulaires chaudes ou froides ; raideurs ; fièvre de l'après-midi ; jaunisse || hot or cold joint pain; stiffness; afternoon fever; jaundice
+x Diarrhée. || Diarrhea.
+
+@Sang Ji Sheng | 桑寄生 | Taxilli Herba | vent-humidite | neutre | amere, douce | F, Rn | 9–15 g
+n Gui du mûrier || Mulberry mistletoe
+a Chasse le Vent-Humidité, tonifie le Foie et le Rein, fortifie les tendons et les os, calme le fœtus. || Expels Wind-Damp, tonifies the Liver and Kidney, strengthens tendons and bones, calms the fetus.
+i douleurs chroniques des lombes et des genoux ; arthrose ; tension élevée ; menace de fausse couche (sous avis) || chronic lower back and knee pain; osteoarthritis; high blood pressure; threatened miscarriage (under advice)
+x Rare. || Rare.
+
+@Sang Zhi | 桑枝 | Mori Ramulus | vent-humidite | neutre | amere | F | 9–15 g
+n Rameau de mûrier || Mulberry twig
+a Chasse le Vent-Humidité, débloque les articulations, surtout des bras. || Expels Wind-Damp, frees the joints, especially of the arms.
+i douleurs des épaules et des bras ; raideurs ; engourdissements || shoulder and arm pain; stiffness; numbness
+x Rare. || Rare.
+
+@Wei Ling Xian | 威灵仙 | Clematidis Radix | vent-humidite | tiede | piquante, salee | V | 6–10 g
+n Clématite chinoise || Chinese clematis root
+a Chasse le Vent-Humidité, débloque les méridiens, calme la douleur. || Expels Wind-Damp, unblocks the channels, eases pain.
+i douleurs articulaires qui se déplacent ; raideurs ; engourdissements ; arête coincée dans la gorge (tradition) || wandering joint pain; stiffness; numbness; fish bone stuck in the throat (traditional)
+x Vide de Qi et de Sang. || Qi and Blood deficiency.
+
+# Aromatiques qui transforment l'Humidité
+@Bai Dou Kou | 白豆蔻 | Amomi Fructus rotundus | aromatiques | tiede | piquante | P, Rt, E | 3–6 g
+n Cardamome ronde || Round cardamom
+a Transforme l'Humidité, fait circuler le Qi, réchauffe le Centre, arrête les vomissements. || Transforms Dampness, moves Qi, warms the Middle, stops vomiting.
+i ballonnements ; nausées ; pas d'appétit ; enduit blanc et gras || bloating; nausea; no appetite; white greasy coating
+x Vide de Yin ; ajouter en fin de cuisson. || Yin deficiency; add at the end of cooking.
+
+@Cang Zhu | 苍术 | Atractylodis Rhizoma | aromatiques | tiede | piquante, amere | Rt, E, F | 3–9 g
+n Atractylode noir || Black atractylodes
+a Assèche l'Humidité, renforce la Rate, chasse le Vent-Humidité, éclaircit les yeux. || Dries Dampness, strengthens the Spleen, expels Wind-Damp, clears the eyes.
+i ventre lourd et gonflé ; diarrhée d'Humidité ; jambes lourdes ; douleurs articulaires humides ; vision nocturne faible || heavy, distended belly; Damp diarrhea; heavy legs; damp joint pain; poor night vision
+x Vide de Yin, transpiration abondante. || Yin deficiency, heavy sweating.
+
+@Hou Po | 厚朴 | Magnoliae officinalis Cortex | aromatiques | tiede | amere, piquante | Rt, E, P, GI | 3–9 g
+n Écorce de magnolia || Magnolia bark
+a Fait circuler le Qi, assèche l'Humidité, fait descendre le Qi, calme l'asthme. || Moves Qi, dries Dampness, directs Qi downward, calms wheezing.
+i ventre gonflé ; constipation avec ballonnements ; toux avec glaires ; oppression || distended belly; constipation with bloating; cough with phlegm; chest oppression
+x Grossesse (prudence) ; Vide sans stagnation. || Pregnancy (caution); deficiency without stagnation.
+
+@Huo Xiang | 藿香 | Pogostemonis Herba | aromatiques | tiede | piquante | Rt, E, P | 5–10 g
+n Patchouli (agastache) || Patchouli (agastache)
+a Transforme l'Humidité, réveille la Rate, arrête les vomissements, libère la surface en été. || Transforms Dampness, awakens the Spleen, stops vomiting, releases the exterior in summer.
+i nausées ; vomissements ; gastro d'été ; ventre lourd ; mauvaise haleine || nausea; vomiting; summer stomach flu; heavy belly; bad breath
+x Vide de Yin avec Chaleur. || Yin deficiency with Heat.
+
+@Sha Ren | 砂仁 | Amomi Fructus | aromatiques | tiede | piquante | Rt, E, Rn | 3–6 g
+n Amome || Amomum fruit
+a Transforme l'Humidité, fait circuler le Qi, réchauffe le Centre, arrête la diarrhée, calme le fœtus. || Transforms Dampness, moves Qi, warms the Middle, stops diarrhea, calms the fetus.
+i ballonnements ; nausées ; diarrhée de Froid ; nausées de grossesse || bloating; nausea; Cold diarrhea; morning sickness
+x Vide de Yin avec Chaleur ; ajouter en fin de cuisson. || Yin deficiency with Heat; add at the end of cooking.
+
+# Drainent l'Eau et l'Humidité
+@Bi Xie | 萆薢 | Dioscoreae hypoglaucae Rhizoma | diuretiques | neutre | amere | Rn, E | 9–15 g
+n Dioscorée hypoglauque || Hypoglaucous yam rhizome
+a Sépare le clair du trouble, draine l'Humidité, chasse le Vent-Humidité. || Separates the clear from the turbid, drains Dampness, expels Wind-Damp.
+i urines troubles ; pertes ; eczéma suintant ; douleurs articulaires humides || cloudy urine; discharge; weeping eczema; damp joint pain
+x Vide de Yin du Rein. || Kidney Yin deficiency.
+
+@Bian Xu | 萹蓄 | Polygoni avicularis Herba | diuretiques | fraiche | amere | V | 9–15 g
+n Renouée des oiseaux || Knotgrass
+a Fait uriner, clarifie l'Humidité-Chaleur, calme les démangeaisons. || Promotes urination, clears Damp-Heat, relieves itching.
+i urines qui brûlent ; envies fréquentes ; eczéma ; démangeaisons intimes || burning urination; frequent urge; eczema; intimate itching
+x Vide de la Rate. || Spleen deficiency.
+
+@Che Qian Zi | 车前子 | Plantaginis Semen | diuretiques | froide | douce | Rn, F, P, IG | 9–15 g
+n Graine de plantain || Plantain seed
+a Fait uriner, clarifie l'Humidité-Chaleur, arrête la diarrhée, éclaircit les yeux, transforme les Mucosités. || Promotes urination, clears Damp-Heat, stops diarrhea, clears the eyes, transforms Phlegm.
+i urines qui brûlent ; diarrhée aqueuse ; yeux rouges ; toux de Chaleur || burning urination; watery diarrhea; red eyes; Heat cough
+x Grossesse (prudence) ; Vide du Rein sans Humidité ; cuire en sachet. || Pregnancy (caution); Kidney deficiency without Dampness; cook in a bag.
+o Che Qian Cao (la plante entière) a les mêmes actions, plus rafraîchissantes. || Che Qian Cao (the whole plant) has the same, cooler actions.
+
+@Fu Ling | 茯苓 | Poria | diuretiques | neutre | douce, insipide | C, Rt, Rn | 9–15 g
+n Poria (champignon) || Poria mushroom
+a Draine l'Humidité, renforce la Rate, calme le Shen. || Drains Dampness, strengthens the Spleen, calms the Shen.
+i rétention d'eau ; selles molles ; fatigue ; palpitations ; insomnie ; glaires || water retention; loose stools; fatigue; palpitations; insomnia; phlegm
+x Urines abondantes de Vide du Rein. || Abundant urination from Kidney deficiency.
+
+@Fu Shen | 茯神 | Poria cum Radice Pini | diuretiques | neutre | douce, insipide | C, Rt | 9–15 g
+n Poria avec sa racine de pin || Poria with pine root
+a Calme le Shen plus que Fu Ling, draine l'Humidité. || Calms the Shen more than Fu Ling, drains Dampness.
+i insomnie ; palpitations ; anxiété ; oubli || insomnia; palpitations; anxiety; forgetfulness
+x Rare. || Rare.
+
+@Hu Zhang | 虎杖 | Polygoni cuspidati Rhizoma | diuretiques | fraiche | amere | F, VB, P | 9–15 g
+n Renouée du Japon || Japanese knotweed rhizome
+a Draine l'Humidité-Chaleur, fait disparaître la jaunisse, active le Sang, élimine les toxines. || Drains Damp-Heat, resolves jaundice, invigorates Blood, resolves toxicity.
+i jaunisse ; urines troubles ; douleurs de stase ; brûlures ; toux de Chaleur || jaundice; cloudy urine; stasis pain; burns; Heat cough
+x Grossesse ; diarrhée. || Pregnancy; diarrhea.
+
+@Hua Shi | 滑石 | Talcum | diuretiques | froide | douce, insipide | E, V | 10–20 g
+n Talc || Talc
+a Fait uriner, clarifie la Chaleur d'été, draine l'Humidité. || Promotes urination, clears summer Heat, drains Dampness.
+i urines qui brûlent ; coup de chaleur ; diarrhée d'été ; eczéma (externe) || burning urination; heatstroke; summer diarrhea; eczema (external)
+x Grossesse ; Vide de Yin ; cuire en sachet. || Pregnancy; Yin deficiency; cook in a bag.
+
+@Jin Qian Cao | 金钱草 | Lysimachiae Herba | diuretiques | fraiche | douce, salee | F, VB, Rn, V | 15–30 g
+n Lysimaque de Christina || Lysimachia
+a Draine l'Humidité-Chaleur, dissout les calculs, fait disparaître la jaunisse. || Drains Damp-Heat, dissolves stones, resolves jaundice.
+i calculs biliaires ou urinaires (accompagnement) ; jaunisse ; urines qui brûlent || gallstones or urinary stones (support); jaundice; burning urination
+x Vide de la Rate. || Spleen deficiency.
+
+@Qu Mai | 瞿麦 | Dianthi Herba | diuretiques | froide | amere | C, IG | 9–15 g
+n Œillet de Chine || Chinese pink
+a Fait uriner, clarifie l'Humidité-Chaleur, active le Sang. || Promotes urination, clears Damp-Heat, invigorates Blood.
+i urines qui brûlent ; sang dans les urines ; règles bloquées || burning urination; blood in the urine; blocked periods
+x Grossesse. || Pregnancy.
+
+@Tong Cao | 通草 | Tetrapanacis Medulla | diuretiques | fraiche | douce, insipide | P, E | 3–6 g
+n Moelle de tétrapanax || Rice-paper plant pith
+a Fait uriner, clarifie la Chaleur, fait venir le lait. || Promotes urination, clears Heat, promotes lactation.
+i urines qui brûlent ; œdèmes ; manque de lait || burning urination; edema; insufficient milk
+x Grossesse (prudence). || Pregnancy (caution).
+o Remplace Mu Tong dans les formules anciennes : les Aristoloches sont interdites. || Replaces Mu Tong in ancient formulas: Aristolochia species are banned.
+
+@Yi Yi Ren | 薏苡仁 | Coicis Semen | diuretiques | fraiche | douce, insipide | Rt, E, P | 9–30 g
+n Larmes de Job || Job's tears
+a Draine l'Humidité, renforce la Rate, soulage les articulations, fait sortir le pus. || Drains Dampness, strengthens the Spleen, relieves the joints, expels pus.
+i rétention d'eau ; selles molles ; articulations lourdes ; verrues ; acné purulente || water retention; loose stools; heavy joints; warts; pus-filled acne
+x Grossesse (prudence) ; constipation sèche. || Pregnancy (caution); dry constipation.
+
+@Yin Chen | 茵陈 | Artemisiae scopariae Herba | diuretiques | fraiche | amere | Rt, E, F, VB | 9–30 g
+n Armoise capillaire || Virgate wormwood
+a Draine l'Humidité-Chaleur, fait disparaître la jaunisse. || Drains Damp-Heat, resolves jaundice.
+i jaunisse ; urines foncées ; eczéma ; foie surchargé || jaundice; dark urine; eczema; overloaded liver
+x Jaunisse de Vide de Sang sans Humidité. || Jaundice from Blood deficiency without Dampness.
+
+@Ze Xie | 泽泻 | Alismatis Rhizoma | diuretiques | froide | douce | Rn, V | 6–12 g
+n Plantain d'eau || Water plantain rhizome
+a Fait uriner, draine l'Humidité, clarifie la Chaleur du Rein. || Promotes urination, drains Dampness, clears Kidney Heat.
+i œdèmes ; urines rares ; vertiges d'Humidité ; diarrhée aqueuse ; pertes || edema; scanty urine; Damp dizziness; watery diarrhea; discharge
+x Vide du Rein sans Humidité, pertes séminales de Vide. || Kidney deficiency without Dampness, deficiency emissions.
+
+@Zhu Ling | 猪苓 | Polyporus | diuretiques | neutre | douce, insipide | Rn, V | 6–12 g
+n Polypore en ombelle || Umbellate polypore
+a Fait uriner, draine l'Humidité. || Promotes urination, drains Dampness.
+i œdèmes ; urines rares ; diarrhée aqueuse ; pertes || edema; scanty urine; watery diarrhea; discharge
+x Sans Humidité ; cure longue (épuise le Yin). || Without Dampness; long courses (depletes Yin).
+o Champignon : malgré son nom chinois (« Poria du porc »), il ne contient aucun produit animal. || A mushroom: despite its Chinese name ("pig's Poria"), it contains no animal product.
+
+# Réchauffent l'intérieur
+@Ding Xiang | 丁香 | Caryophylli Flos | rechauffent | tiede | piquante | Rt, E, P, Rn | 1–3 g
+n Clou de girofle || Clove
+a Réchauffe le Centre, fait descendre le Qi, arrête le hoquet, réchauffe le Rein. || Warms the Middle, directs Qi downward, stops hiccups, warms the Kidney.
+i hoquet ; vomissements de Froid ; ventre froid ; impuissance de Froid || hiccups; Cold vomiting; cold belly; impotence from Cold
+x Chaleur, Vide de Yin. || Heat, Yin deficiency.
+
+@Fu Zi | 附子 | Aconiti Radix lateralis praeparata | rechauffent | chaude | piquante, douce | C, Rn, Rt | 3–9 g (préparé)
+n Aconit préparé (Zhi Fu Zi) || Processed aconite (Zhi Fu Zi)
+a Restaure le Yang qui s'effondre, réchauffe le Feu du Rein, chasse le Froid, calme la douleur. || Restores collapsing Yang, warms Kidney Fire, dispels Cold, eases pain.
+i frilosité extrême ; mains et pieds glacés ; diarrhée de Froid ; œdèmes de Vide de Yang ; douleurs articulaires de Froid || extreme cold; icy hands and feet; Cold diarrhea; edema from Yang deficiency; Cold joint pain
+x Toxique : uniquement préparé, cuit au moins 30 à 60 min, à doses prudentes ; grossesse ; Chaleur, Vide de Yin ; uniquement sur prescription. || Toxic: processed only, cooked at least 30 to 60 min, at careful doses; pregnancy; Heat, Yin deficiency; by prescription only.
+
+@Gan Jiang | 干姜 | Zingiberis Rhizoma | rechauffent | chaude | piquante | Rt, E, C, P | 3–9 g
+n Gingembre sec || Dried ginger
+a Réchauffe le Centre, chasse le Froid, restaure le Yang, réchauffe le Poumon. || Warms the Middle, dispels Cold, restores Yang, warms the Lung.
+i ventre froid et douloureux ; diarrhée de Froid ; vomissements ; toux avec glaires claires || cold, painful belly; Cold diarrhea; vomiting; cough with clear phlegm
+x Chaleur, Vide de Yin ; grossesse (prudence). || Heat, Yin deficiency; pregnancy (caution).
+
+@Gao Liang Jiang | 高良姜 | Alpiniae officinarum Rhizoma | rechauffent | chaude | piquante | Rt, E | 3–6 g
+n Petit galanga || Lesser galangal
+a Réchauffe l'Estomac, chasse le Froid, calme la douleur, arrête les vomissements. || Warms the Stomach, dispels Cold, eases pain, stops vomiting.
+i douleurs d'estomac de Froid ; vomissements ; renvois acides de Froid || Cold stomach pain; vomiting; Cold acid belching
+x Chaleur de l'Estomac, Vide de Yin. || Stomach Heat, Yin deficiency.
+
+@Rou Gui | 肉桂 | Cinnamomi Cortex | rechauffent | chaude | piquante, douce | Rn, Rt, C, F | 1–5 g
+n Écorce de cannelier de Chine || Chinese cinnamon bark
+a Réchauffe le Feu du Rein, ramène le Feu à sa source, chasse le Froid, réchauffe les méridiens. || Warms Kidney Fire, leads Fire back to its source, dispels Cold, warms the channels.
+i frilosité ; lombes froides ; impuissance ; diarrhée à l'aube ; règles douloureuses de Froid || feeling cold; cold lower back; impotence; dawn diarrhea; Cold-type painful periods
+x Grossesse ; Chaleur, Vide de Yin, saignements ; ajouter en fin de cuisson. || Pregnancy; Heat, Yin deficiency, bleeding; add at the end of cooking.
+
+@Wu Zhu Yu | 吴茱萸 | Euodiae Fructus | rechauffent | chaude | piquante, amere | F, Rt, E, Rn | 2–5 g
+n Évodia || Evodia fruit
+a Réchauffe le Foie et l'Estomac, chasse le Froid, calme la douleur, arrête les vomissements. || Warms the Liver and Stomach, dispels Cold, eases pain, stops vomiting.
+i mal de tête au sommet avec vomissements ; reflux acide de Froid ; règles douloureuses de Froid ; diarrhée à l'aube || vertex headache with vomiting; Cold acid reflux; Cold painful periods; dawn diarrhea
+x Légèrement toxique : petites doses ; Chaleur, Vide de Yin ; grossesse. || Mildly toxic: small doses; Heat, Yin deficiency; pregnancy.
+
+@Xiao Hui Xiang | 小茴香 | Foeniculi Fructus | rechauffent | tiede | piquante | F, Rn, Rt, E | 3–6 g
+n Fenouil || Fennel seed
+a Chasse le Froid, calme la douleur, fait circuler le Qi, harmonise l'Estomac. || Dispels Cold, eases pain, moves Qi, harmonizes the Stomach.
+i douleur froide du bas-ventre ; hernie ; règles douloureuses de Froid ; ballonnements || cold lower abdominal pain; hernia; Cold painful periods; bloating
+x Vide de Yin avec Chaleur. || Yin deficiency with Heat.
+
+# Font circuler le Qi
+@Chen Pi | 陈皮 | Citri reticulatae Pericarpium | qi | tiede | piquante, amere | Rt, P | 3–9 g
+n Écorce de mandarine séchée || Aged tangerine peel
+a Fait circuler le Qi, harmonise le Centre, assèche l'Humidité, transforme les Mucosités. || Moves Qi, harmonizes the Middle, dries Dampness, transforms Phlegm.
+i ballonnements ; nausées ; appétit faible ; toux avec glaires blanches || bloating; nausea; poor appetite; cough with white phlegm
+x Vide de Yin avec toux sèche. || Yin deficiency with dry cough.
+
+@Chen Xiang | 沉香 | Aquilariae Lignum resinatum | qi | tiede | piquante, amere | Rt, E, Rn | 1–3 g
+n Bois d'aigle || Agarwood
+a Fait circuler le Qi, calme la douleur, réchauffe le Centre, aide le Rein à recevoir le Qi. || Moves Qi, eases pain, warms the Middle, helps the Kidney grasp Qi.
+i douleurs froides de l'estomac et du ventre ; vomissements ; asthme de Vide du Rein || cold stomach and belly pain; vomiting; asthma from Kidney deficiency
+x Vide de Yin avec Feu ; espèce protégée (CITES) : bois de culture uniquement. || Yin deficiency with Fire; protected species (CITES): cultivated wood only.
+
+@Chuan Lian Zi | 川楝子 | Toosendan Fructus | qi | froide | amere | F, E, IG, V | 5–10 g
+n Fruit de mélia || Melia fruit
+a Fait circuler le Qi du Foie, clarifie la Chaleur, calme la douleur, chasse les vers. || Moves Liver Qi, clears Heat, eases pain, expels worms.
+i douleurs sous les côtes ; douleurs d'estomac de Chaleur ; hernie ; vers || pain under the ribs; Heat stomach pain; hernia; worms
+x Toxique à forte dose ou en cure longue (foie) ; Froid de la Rate ; grossesse. || Toxic at high doses or on long courses (liver); Spleen Cold; pregnancy.
+
+@Da Fu Pi | 大腹皮 | Arecae Pericarpium | qi | tiede | piquante | Rt, E, GI, IG | 5–10 g
+n Péricarpe de noix d'arec || Areca peel
+a Fait circuler le Qi, fait descendre, fait uriner, réduit les œdèmes. || Moves Qi, directs downward, promotes urination, reduces edema.
+i ventre gonflé ; œdèmes ; ballonnements avec constipation || distended belly; edema; bloating with constipation
+x Vide de Qi. || Qi deficiency.
+
+@Fo Shou | 佛手 | Citri sarcodactylis Fructus | qi | tiede | piquante, amere, acide | F, Rt, E, P | 3–9 g
+n Main de Bouddha (cédrat digité) || Buddha's hand citron
+a Libère le Qi du Foie, harmonise l'Estomac, transforme les Mucosités. || Frees Liver Qi, harmonizes the Stomach, transforms Phlegm.
+i douleurs sous les côtes ; ballonnements de stress ; nausées ; toux avec glaires || pain under the ribs; stress bloating; nausea; cough with phlegm
+x Vide de Yin avec Chaleur. || Yin deficiency with Heat.
+
+@Ju Hong | 橘红 | Citri reticulatae Exocarpium rubrum | qi | tiede | piquante, amere | P, Rt | 3–9 g
+n Zeste rouge de mandarine || Red tangerine peel
+a Transforme les Mucosités, fait circuler le Qi, assèche l'Humidité. || Transforms Phlegm, moves Qi, dries Dampness.
+i toux avec glaires abondantes ; nausées ; oppression || cough with abundant phlegm; nausea; chest oppression
+x Vide de Yin, toux sèche. || Yin deficiency, dry cough.
+
+@Mu Xiang | 木香 | Aucklandiae Radix | qi | tiede | piquante, amere | Rt, E, GI, VB | 3–6 g
+n Aucklandia (costus) || Aucklandia root (costus)
+a Fait circuler le Qi, calme la douleur, harmonise l'Estomac et l'Intestin. || Moves Qi, eases pain, harmonizes the Stomach and Intestines.
+i douleurs et ballonnements du ventre ; diarrhée avec ténesme ; digestion bloquée || belly pain and bloating; diarrhea with straining; stalled digestion
+x Vide de Yin, sécheresse. || Yin deficiency, dryness.
+
+@Qing Pi | 青皮 | Citri reticulatae Pericarpium viride | qi | tiede | amere, piquante | F, VB, E | 3–9 g
+n Écorce de mandarine verte || Green tangerine peel
+a Brise la stagnation du Qi du Foie, dissout les accumulations. || Breaks up Liver Qi stagnation, dissolves accumulations.
+i douleurs sous les côtes ; seins tendus et nodules ; hernie ; digestion bloquée || pain under the ribs; tender breasts and nodules; hernia; stalled digestion
+x Vide de Qi ; cure courte. || Qi deficiency; short course.
+
+@Wu Yao | 乌药 | Linderae Radix | qi | tiede | piquante | P, Rt, Rn, V | 6–10 g
+n Racine de lindera || Lindera root
+a Fait circuler le Qi, calme la douleur, réchauffe le Rein, retient les urines. || Moves Qi, eases pain, warms the Kidney, holds the urine.
+i douleur froide du bas-ventre ; règles douloureuses ; urines fréquentes ; énurésie || cold lower abdominal pain; painful periods; frequent urination; bedwetting
+x Vide de Qi avec Chaleur. || Qi deficiency with Heat.
+
+@Xiang Fu | 香附 | Cyperi Rhizoma | qi | neutre | piquante, amere, douce | F, Rt, TR | 6–10 g
+n Souchet rond || Nutgrass rhizome
+a Libère le Qi du Foie, règle les règles, calme la douleur. || Frees Liver Qi, regulates menstruation, eases pain.
+i stress ; douleurs sous les côtes ; seins tendus ; règles irrégulières ou douloureuses ; ballonnements || stress; pain under the ribs; breast tenderness; irregular or painful periods; bloating
+x Vide de Yin avec Chaleur, Vide de Qi. || Yin deficiency with Heat, Qi deficiency.
+
+@Zhi Ke | 枳壳 | Aurantii Fructus | qi | fraiche | amere, piquante, acide | P, Rt, E | 3–9 g
+n Orange amère mûre || Mature bitter orange
+a Fait circuler le Qi, élargit la poitrine, dissout la plénitude. || Moves Qi, opens the chest, relieves fullness.
+i oppression ; ballonnements ; digestion lente ; prolapsus (avec tonifiants) || chest oppression; bloating; slow digestion; prolapse (with tonics)
+x Grossesse (prudence) ; Vide sans stagnation. || Pregnancy (caution); deficiency without stagnation.
+
+@Zhi Shi | 枳实 | Aurantii Fructus immaturus | qi | fraiche | amere, piquante, acide | Rt, E | 3–9 g
+n Orange amère immature || Immature bitter orange
+a Brise la stagnation du Qi, dissout les accumulations, transforme les Mucosités. || Breaks up Qi stagnation, dissolves accumulations, transforms Phlegm.
+i ventre gonflé et dur ; constipation ; digestion bloquée ; oppression avec glaires || hard, distended belly; constipation; stalled digestion; chest oppression with phlegm
+x Grossesse ; Vide de la Rate. || Pregnancy; Spleen deficiency.
+
+# Font digérer
+@Gu Ya | 谷芽 | Setariae Fructus germinatus | digestives | neutre | douce | Rt, E | 9–15 g
+n Millet germé || Sprouted millet
+a Fait digérer, harmonise le Centre, réveille l'appétit. || Aids digestion, harmonizes the Middle, awakens appetite.
+i appétit faible ; digestion lente (céréales) || poor appetite; slow digestion (grains)
+x Rare. || Rare.
+
+@Lai Fu Zi | 莱菔子 | Raphani Semen | digestives | neutre | piquante, douce | Rt, E, P | 6–12 g
+n Graine de radis || Radish seed
+a Fait digérer, fait descendre le Qi, transforme les Mucosités. || Aids digestion, directs Qi downward, transforms Phlegm.
+i renvois ; ventre gonflé après les repas ; constipation ; toux avec glaires abondantes || belching; distended belly after meals; constipation; cough with abundant phlegm
+x Vide de Qi ; ne pas associer à Ren Shen (tradition). || Qi deficiency; not combined with Ren Shen (traditional).
+
+@Mai Ya | 麦芽 | Hordei Fructus germinatus | digestives | neutre | douce | Rt, E, F | 9–15 g
+n Orge germée || Sprouted barley
+a Fait digérer, renforce la Rate, libère le Foie, arrête la lactation (forte dose). || Aids digestion, strengthens the Spleen, frees the Liver, stops lactation (high dose).
+i digestion lente des féculents ; seins tendus ; sevrage || slow digestion of starches; breast tenderness; weaning
+x Allaitement (réduit le lait). || Breastfeeding (reduces milk).
+
+@Shan Zha | 山楂 | Crataegi Fructus | digestives | tiede | acide, douce | Rt, E, F | 9–15 g
+n Fruit d'aubépine chinoise || Chinese hawthorn fruit
+a Fait digérer (viandes, graisses), active le Sang, dissout la stase. || Aids digestion (meat, fats), invigorates Blood, dispels stasis.
+i digestion des graisses ; ventre gonflé ; règles douloureuses avec caillots ; cholestérol || digesting fats; distended belly; painful periods with clots; cholesterol
+x Excès d'acidité, ulcère ; Vide de la Rate sans stagnation. || Excess acidity, ulcer; Spleen deficiency without stagnation.
+
+@Shen Qu | 神曲 | Massa medicata fermentata | digestives | tiede | douce, piquante | Rt, E | 6–15 g
+n Levain médicinal fermenté || Medicated leaven
+a Fait digérer, harmonise l'Estomac. || Aids digestion, harmonizes the Stomach.
+i digestion bloquée ; ventre gonflé ; diarrhée après un excès || stalled digestion; distended belly; diarrhea after overeating
+x Grossesse (prudence) ; Vide de Yin. || Pregnancy (caution); Yin deficiency.
+
+# Arrêtent les saignements
+@Ai Ye | 艾叶 | Artemisiae argyi Folium | hemostatiques | tiede | piquante, amere | F, Rt, Rn | 3–9 g
+n Armoise (feuille du moxa) || Mugwort leaf (moxa)
+a Réchauffe les méridiens, arrête les saignements de Froid, calme la douleur, apaise le fœtus. || Warms the channels, stops Cold bleeding, eases pain, calms the fetus.
+i règles trop longues avec bas-ventre froid ; règles douloureuses de Froid ; petits saignements de grossesse (sous avis) || overly long periods with a cold lower belly; Cold painful periods; spotting in pregnancy (under advice)
+x Chaleur du Sang ; légèrement toxique à forte dose. || Blood Heat; mildly toxic at high doses.
+
+@Di Yu | 地榆 | Sanguisorbae Radix | hemostatiques | froide | amere, acide | F, GI | 9–15 g
+n Pimprenelle officinale || Garden burnet root
+a Rafraîchit le Sang, arrête les saignements, élimine les toxines, fait cicatriser. || Cools the Blood, stops bleeding, resolves toxicity, promotes healing.
+i hémorroïdes qui saignent ; sang dans les selles ; règles abondantes de Chaleur ; brûlures (externe) || bleeding hemorrhoids; blood in the stool; heavy periods from Heat; burns (external)
+x Saignements de Froid ou de Vide. || Bleeding from Cold or deficiency.
+
+@Huai Hua | 槐花 | Sophorae Flos | hemostatiques | fraiche | amere | F, GI | 9–15 g
+n Fleur de sophora || Sophora flower
+a Rafraîchit le Sang, arrête les saignements, clarifie le Feu du Foie. || Cools the Blood, stops bleeding, clears Liver Fire.
+i hémorroïdes qui saignent ; sang dans les selles ; tension élevée ; maux de tête || bleeding hemorrhoids; blood in the stool; high blood pressure; headaches
+x Froid de la Rate. || Spleen Cold.
+
+@Huai Jiao | 槐角 | Sophorae Fructus | hemostatiques | froide | amere | F, GI | 6–9 g
+n Gousse de sophora || Sophora pod
+a Clarifie la Chaleur, humidifie les intestins, arrête les saignements. || Clears Heat, moistens the intestines, stops bleeding.
+i hémorroïdes ; sang dans les selles ; constipation de Chaleur || hemorrhoids; blood in the stool; Heat constipation
+x Grossesse ; Froid de la Rate. || Pregnancy; Spleen Cold.
+
+@Pu Huang | 蒲黄 | Typhae Pollen | hemostatiques | neutre | douce | F, C | 5–10 g
+n Pollen de massette || Cattail pollen
+a Arrête les saignements, active le Sang, dissout la stase. || Stops bleeding, invigorates Blood, dispels stasis.
+i règles douloureuses avec caillots ; saignements avec stase ; douleurs fixes || painful periods with clots; bleeding with stasis; fixed pains
+x Grossesse ; cuire en sachet. || Pregnancy; cook in a bag.
+
+@San Qi | 三七 | Notoginseng Radix | hemostatiques | tiede | douce, amere | F, E | 1–3 g (poudre)
+n Notoginseng || Notoginseng root
+a Arrête les saignements sans retenir de stase, dissout la stase, calme la douleur. || Stops bleeding without leaving stasis, dispels stasis, eases pain.
+i saignements ; hématomes ; traumatismes ; douleurs de poitrine de stase (accompagnement) || bleeding; bruises; trauma; chest pain from stasis (support)
+x Grossesse ; anticoagulants. || Pregnancy; anticoagulants.
+
+@Xian He Cao | 仙鹤草 | Agrimoniae Herba | hemostatiques | neutre | amere, astringente | P, F, Rt | 9–15 g
+n Aigremoine asiatique || Hairy agrimony
+a Arrête les saignements, arrête la diarrhée, tonifie (épuisement). || Stops bleeding, stops diarrhea, tonifies (exhaustion).
+i saignements divers ; diarrhée chronique ; épuisement || various bleeding; chronic diarrhea; exhaustion
+x Rare. || Rare.
+
+# Activent le Sang
+@Chuan Niu Xi | 川牛膝 | Cyathulae Radix | sang | neutre | douce, amere | F, Rn | 6–12 g
+n Cyathula || Cyathula root
+a Active le Sang, fait descendre, soulage les articulations des jambes, fait uriner. || Invigorates Blood, directs downward, relieves the leg joints, promotes urination.
+i douleurs des genoux ; règles bloquées ; urines difficiles ; Yang du Foie qui monte || knee pain; blocked periods; difficult urination; rising Liver Yang
+x Grossesse ; règles abondantes. || Pregnancy; heavy periods.
+
+@Chuan Xiong | 川芎 | Chuanxiong Rhizoma | sang | tiede | piquante | F, VB, MC | 3–9 g
+n Livèche du Sichuan || Sichuan lovage rhizome
+a Active le Sang, fait circuler le Qi, chasse le Vent, calme les maux de tête. || Invigorates Blood, moves Qi, dispels Wind, relieves headache.
+i maux de tête ; règles douloureuses ou irrégulières ; douleurs de poitrine ; douleurs articulaires || headaches; painful or irregular periods; chest pain; joint pain
+x Vide de Yin avec Feu ; règles abondantes ; grossesse (prudence). || Yin deficiency with Fire; heavy periods; pregnancy (caution).
+
+@Dan Shen | 丹参 | Salviae miltiorrhizae Radix | sang | fraiche | amere | C, F | 9–15 g
+n Sauge chinoise || Red sage root
+a Active le Sang, dissout la stase, rafraîchit le Sang, calme le Shen. || Invigorates Blood, dispels stasis, cools the Blood, calms the Shen.
+i règles douloureuses avec caillots ; douleurs de poitrine ; palpitations ; insomnie avec agitation ; acné de stase || painful periods with clots; chest pain; palpitations; insomnia with agitation; stasis acne
+x Anticoagulants (renforce l'effet) ; grossesse ; règles abondantes. || Anticoagulants (enhances their effect); pregnancy; heavy periods.
+
+@Hong Hua | 红花 | Carthami Flos | sang | tiede | piquante | C, F | 3–9 g
+n Carthame || Safflower
+a Active le Sang, débloque les règles, dissout la stase, calme la douleur. || Invigorates Blood, unblocks menstruation, dispels stasis, eases pain.
+i règles bloquées ou douloureuses ; hématomes ; douleurs fixes || blocked or painful periods; bruises; fixed pains
+x Grossesse (contre-indiquée) ; règles abondantes ; anticoagulants. || Pregnancy (contraindicated); heavy periods; anticoagulants.
+
+@Ji Xue Teng | 鸡血藤 | Spatholobi Caulis | sang | tiede | amere, douce | F, Rn | 9–30 g
+n Liane « sang de poulet » (spatholobus) || Spatholobus stem
+a Active et nourrit le Sang, débloque les méridiens. || Invigorates and nourishes Blood, unblocks the channels.
+i règles irrégulières ; engourdissements ; douleurs articulaires ; anémie légère || irregular periods; numbness; joint pain; mild anemia
+x Règles abondantes. || Heavy periods.
+
+@Jiang Huang | 姜黄 | Curcumae longae Rhizoma | sang | tiede | piquante, amere | F, Rt | 3–9 g
+n Curcuma || Turmeric
+a Active le Sang, fait circuler le Qi, calme la douleur (épaules, bras). || Invigorates Blood, moves Qi, eases pain (shoulders, arms).
+i douleurs des épaules et des bras ; règles douloureuses ; douleurs sous les côtes || shoulder and arm pain; painful periods; pain under the ribs
+x Grossesse ; calculs biliaires ; anticoagulants. || Pregnancy; gallstones; anticoagulants.
+
+@Mo Yao | 没药 | Myrrha | sang | neutre | amere, piquante | C, F, Rt | 3–5 g
+n Myrrhe || Myrrh
+a Active le Sang, calme la douleur, réduit les gonflements, fait cicatriser. || Invigorates Blood, eases pain, reduces swelling, promotes healing.
+i douleurs de traumatisme ; règles douloureuses ; douleurs articulaires ; plaies (externe) || traumatic pain; painful periods; joint pain; wounds (external)
+x Grossesse ; estomac fragile (nausées). || Pregnancy; sensitive stomach (nausea).
+
+@Niu Xi | 牛膝 | Achyranthis bidentatae Radix | sang | neutre | amere, acide | F, Rn | 6–15 g
+n Achyranthe (Huai Niu Xi) || Achyranthes root (Huai Niu Xi)
+a Active le Sang, tonifie le Foie et le Rein, fortifie les lombes et les genoux, fait descendre. || Invigorates Blood, tonifies the Liver and Kidney, strengthens the lower back and knees, directs downward.
+i lombes et genoux faibles ; douleurs des genoux ; règles bloquées ; maux de tête du Yang du Foie ; gencives qui saignent || weak lower back and knees; knee pain; blocked periods; Liver Yang headaches; bleeding gums
+x Grossesse ; règles abondantes ; diarrhée. || Pregnancy; heavy periods; diarrhea.
+
+@Ru Xiang | 乳香 | Olibanum | sang | tiede | piquante, amere | C, F, Rt | 3–5 g
+n Oliban (encens) || Frankincense
+a Active le Sang, calme la douleur, réduit les gonflements, fait cicatriser. || Invigorates Blood, eases pain, reduces swelling, promotes healing.
+i douleurs articulaires ; traumatismes ; règles douloureuses ; abcès (externe) || joint pain; trauma; painful periods; abscesses (external)
+x Grossesse ; estomac fragile. || Pregnancy; sensitive stomach.
+
+@Tao Ren | 桃仁 | Persicae Semen | sang | neutre | amere, douce | C, F, GI | 6–10 g
+n Amande de pêche || Peach kernel
+a Active le Sang, dissout la stase, humidifie les intestins. || Invigorates Blood, dispels stasis, moistens the intestines.
+i règles bloquées ou douloureuses avec caillots ; douleurs fixes ; constipation sèche || blocked or painful periods with clots; fixed pains; dry constipation
+x Grossesse (contre-indiquée) ; diarrhée ; légèrement toxique à forte dose. || Pregnancy (contraindicated); diarrhea; mildly toxic at high doses.
+
+@Wu Ling Zhi | 五灵脂 | Trogopterori Faeces | sang | tiede | amere, salee, douce | F | 3–9 g
+n Excréments d'écureuil volant || Flying squirrel droppings
+a Active le Sang, dissout la stase, calme la douleur. || Invigorates Blood, dispels stasis, eases pain.
+i règles douloureuses avec caillots ; douleurs fixes du ventre || painful periods with clots; fixed belly pain
+x Grossesse ; Vide de Sang ; ne pas associer à Ren Shen (tradition) ; cuire en sachet. || Pregnancy; Blood deficiency; not combined with Ren Shen (traditional); cook in a bag.
+
+@Yan Hu Suo | 延胡索 | Corydalis Rhizoma | sang | tiede | piquante, amere | F, Rt | 3–9 g
+n Corydale || Corydalis rhizome
+a Active le Sang, fait circuler le Qi, calme fortement la douleur. || Invigorates Blood, moves Qi, strongly eases pain.
+i règles douloureuses ; douleurs d'estomac ; douleurs de poitrine ; douleurs des membres || painful periods; stomach pain; chest pain; limb pain
+x Grossesse ; somnolence possible. || Pregnancy; may cause drowsiness.
+
+@Yi Mu Cao | 益母草 | Leonuri Herba | sang | fraiche | amere, piquante | F, C, V | 9–30 g
+n Agripaume || Motherwort
+a Active le Sang, règle les règles, fait uriner, réduit les œdèmes. || Invigorates Blood, regulates menstruation, promotes urination, reduces edema.
+i règles irrégulières ou douloureuses ; après l'accouchement ; œdèmes || irregular or painful periods; after childbirth; edema
+x Grossesse (contre-indiquée) ; Vide de Sang sans stase. || Pregnancy (contraindicated); Blood deficiency without stasis.
+
+@Ze Lan | 泽兰 | Lycopi Herba | sang | tiede | amere, piquante | F, Rt | 6–12 g
+n Lycope || Bugleweed
+a Active le Sang, règle les règles, fait uriner. || Invigorates Blood, regulates menstruation, promotes urination.
+i règles irrégulières ; œdèmes après l'accouchement ; contusions || irregular periods; postpartum edema; contusions
+x Grossesse ; Vide de Sang sans stase. || Pregnancy; Blood deficiency without stasis.

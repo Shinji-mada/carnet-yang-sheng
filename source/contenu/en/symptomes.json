@@ -188,6 +188,13 @@
    "alerte": "Lips turning blue suddenly, with breathlessness or chest pain: call emergency services (15 or 112 in France)."
   },
   {
+   "id": "ganglions",
+   "cat": "general",
+   "nom": "Swollen lymph nodes (neck, armpits, groin)",
+   "alerte": "Show a doctor any lymph node that lasts more than 3 weeks, keeps growing, is hard and does not move, or comes with fever, night sweats or weight loss.",
+   "syn": "lymph node swollen gland lump in the neck nodule cyst small lump under the skin"
+  },
+  {
    "id": "cephalee-front",
    "cat": "tete",
    "nom": "Headache in the forehead",
@@ -389,6 +396,12 @@
    "cat": "tete",
    "nom": "Sore or bleeding gums",
    "syn": "teeth gingivitis gums bleeding gums"
+  },
+  {
+   "id": "levres-seches",
+   "cat": "tete",
+   "nom": "Dry, chapped lips",
+   "syn": "chapped cracked peeling dry lips cheilitis corners of the mouth"
   },
   {
    "id": "gout-amer",

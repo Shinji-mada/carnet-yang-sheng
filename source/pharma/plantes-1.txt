@@ -1,0 +1,346 @@
+# Libèrent la surface, tièdes
+@Bai Zhi | 白芷 | Angelicae dahuricae Radix | surface-chaude | tiede | piquante | P, E, GI | 3–9 g
+n Angélique de Dahurie || Dahurian angelica root
+a Chasse le Vent-Froid, débouche le nez, calme la douleur (front), assèche l'Humidité, fait sortir le pus. || Dispels Wind-Cold, opens the nose, relieves pain (forehead), dries Dampness, expels pus.
+i mal de tête du front ; sinusite, nez bouché ; mal de dents ; pertes blanches ; furoncles || frontal headache; sinusitis, blocked nose; toothache; white discharge; boils
+x Vide de Yin avec Chaleur ; photosensibilisante. || Yin deficiency with Heat; photosensitizing.
+
+@Cang Er Zi | 苍耳子 | Xanthii Fructus | surface-chaude | tiede | piquante, amere | P | 3–9 g
+n Lampourde || Cocklebur fruit
+a Chasse le Vent-Humidité, débouche le nez, calme la douleur. || Dispels Wind-Damp, opens the nose, relieves pain.
+i sinusite ; rhinite ; nez bouché ; maux de tête du front ; démangeaisons || sinusitis; rhinitis; blocked nose; frontal headache; itching
+x Toxique à forte dose ou en cure longue (foie) ; grossesse ; enfants. || Toxic at high doses or on long courses (liver); pregnancy; children.
+
+@Fang Feng | 防风 | Saposhnikoviae Radix | surface-chaude | tiede | piquante, douce | V, F, Rt | 5–10 g
+n Saposhnikovia, « protège du vent » || Saposhnikovia root ("guards against wind")
+a Chasse le Vent et l'Humidité, calme les démangeaisons et les spasmes. || Expels Wind and Dampness, relieves itching and spasms.
+i rhume avec courbatures ; urticaire, démangeaisons ; douleurs articulaires ; diarrhée avec spasmes || cold with body aches; hives, itching; joint pain; diarrhea with spasms
+x Vide de Sang avec spasmes, Vide de Yin avec Chaleur. || Blood deficiency with spasms, Yin deficiency with Heat.
+
+@Gui Zhi | 桂枝 | Cinnamomi Ramulus | surface-chaude | tiede | piquante, douce | C, P, V | 3–9 g
+n Rameau de cannelier || Cinnamon twig
+a Libère les muscles, réchauffe les méridiens, fait circuler le Yang, aide la transformation des liquides. || Releases the muscle layer, warms the channels, moves Yang, assists fluid metabolism.
+i rhume avec frissons et petite sueur ; douleurs articulaires au froid ; règles douloureuses de Froid ; palpitations ; œdèmes || cold with chills and light sweating; joint pain in the cold; Cold-type painful periods; palpitations; edema
+x Chaleur, Vide de Yin, saignements ; grossesse (prudence). || Heat, Yin deficiency, bleeding; pregnancy (caution).
+
+@Jing Jie | 荆芥 | Schizonepetae Herba | surface-chaude | tiede | piquante | P, F | 5–10 g
+n Schizonépéta || Schizonepeta
+a Chasse le Vent, libère la surface, fait sortir les éruptions, arrête les saignements (grillé). || Dispels Wind, releases the exterior, vents rashes, stops bleeding (charred).
+i rhume ; mal de gorge ; démangeaisons, urticaire ; éruptions qui sortent mal || colds; sore throat; itching, hives; rashes that fail to come out
+x Transpiration abondante, Vide de Yin. || Heavy sweating, Yin deficiency.
+
+@Ma Huang | 麻黄 | Ephedrae Herba | surface-chaude | tiede | piquante, amere | P, V | 2–9 g
+n Éphédra || Ephedra
+a Fait transpirer, libère la surface, ouvre le Poumon, calme l'asthme, fait uriner. || Induces sweating, releases the exterior, opens the Lung, calms wheezing, promotes urination.
+i rhume de Froid sans transpiration ; asthme ; toux ; œdèmes du haut du corps || Wind-Cold without sweating; asthma; cough; upper-body edema
+x Hypertension, troubles cardiaques, glaucome, insomnie, hyperthyroïdie ; grossesse ; réglementée en France (éphédrine). || Hypertension, heart disorders, glaucoma, insomnia, hyperthyroidism; pregnancy; regulated in France (ephedrine).
+
+@Qiang Huo | 羌活 | Notopterygii Rhizoma et Radix | surface-chaude | tiede | piquante, amere | V, Rn | 3–9 g
+n Notoptérygium || Notopterygium root
+a Chasse le Vent-Froid-Humidité, calme les douleurs du haut du corps. || Expels Wind-Cold-Damp, relieves upper-body pain.
+i rhume avec maux de tête et nuque raide ; douleurs des épaules et du dos ; courbatures || cold with headache and stiff neck; shoulder and back pain; body aches
+x Vide de Sang ou de Yin ; peut donner des nausées à forte dose. || Blood or Yin deficiency; may cause nausea at high doses.
+
+@Sheng Jiang | 生姜 | Zingiberis Rhizoma recens | surface-chaude | tiede | piquante | P, Rt, E | 3–9 g
+n Gingembre frais || Fresh ginger
+a Libère la surface, réchauffe le Centre, arrête les vomissements, réchauffe le Poumon. || Releases the exterior, warms the Middle, stops vomiting, warms the Lung.
+i début de rhume ; nausées, mal des transports ; toux avec glaires claires ; aide à digérer || onset of a cold; nausea, motion sickness; cough with clear phlegm; aids digestion
+x Chaleur, Vide de Yin, saignements. || Heat, Yin deficiency, bleeding.
+
+@Xi Xin | 细辛 | Asari Radix et Rhizoma | surface-chaude | chaude | piquante | P, Rn, C | 1–3 g
+n Asaret || Asarum
+a Chasse le Vent-Froid, débouche le nez, calme la douleur, réchauffe le Poumon. || Dispels Wind-Cold, opens the nose, relieves pain, warms the Lung.
+i rhume de Froid ; nez bouché ; maux de tête, mal de dents ; douleurs articulaires ; toux avec glaires claires || Wind-Cold colds; blocked nose; headache, toothache; joint pain; cough with clear phlegm
+x Toxique au-delà de 3 g en poudre ; seule la racine est utilisée en Europe (acide aristolochique dans les parties aériennes) ; Vide de Yin ; grossesse. || Toxic above 3 g in powder; only the root is used in Europe (aristolochic acid in aerial parts); Yin deficiency; pregnancy.
+
+@Xin Yi | 辛夷 | Magnoliae Flos | surface-chaude | tiede | piquante | P, E | 3–9 g
+n Bouton de magnolia || Magnolia flower bud
+a Chasse le Vent-Froid, débouche le nez. || Dispels Wind-Cold, opens the nose.
+i nez bouché ; rhinite, sinusite ; perte de l'odorat ; maux de tête du front || blocked nose; rhinitis, sinusitis; loss of smell; frontal headache
+x Vide de Yin avec Chaleur. || Yin deficiency with Heat.
+o En décoction, l'envelopper dans un sachet (poils irritants). || In decoction, wrap in a bag (irritating hairs).
+
+@Zi Su Ye | 紫苏叶 | Perillae Folium | surface-chaude | tiede | piquante | P, Rt | 5–10 g
+n Feuille de périlla || Perilla leaf
+a Libère la surface, fait circuler le Qi du Centre, calme les nausées, apaise le fœtus. || Releases the exterior, moves Middle Qi, calms nausea, calms the fetus.
+i rhume avec oppression ; nausées ; nausées de grossesse ; intoxication aux fruits de mer || cold with chest oppression; nausea; morning sickness; seafood poisoning
+x Vide de Qi avec transpiration, Chaleur. || Qi deficiency with sweating, Heat.
+
+# Libèrent la surface, fraîches
+@Bo He | 薄荷 | Menthae haplocalycis Herba | surface-fraiche | fraiche | piquante | P, F | 3–6 g
+n Menthe des champs || Field mint
+a Chasse le Vent-Chaleur, éclaircit la tête et les yeux, apaise la gorge, libère le Qi du Foie. || Dispels Wind-Heat, clears the head and eyes, soothes the throat, frees Liver Qi.
+i rhume de Chaleur ; mal de gorge ; maux de tête ; yeux rouges ; oppression de stress || Wind-Heat colds; sore throat; headache; red eyes; stress-related oppression
+x Vide de Yin avec transpiration ; allaitement (réduit le lait) ; ajouter en fin de cuisson. || Yin deficiency with sweating; breastfeeding (reduces milk); add at the end of cooking.
+
+@Chai Hu | 柴胡 | Bupleuri Radix | surface-fraiche | fraiche | amere, piquante | F, VB | 3–12 g
+n Buplèvre || Bupleurum root
+a Harmonise le Shao Yang, libère le Qi du Foie, fait monter le Yang. || Harmonizes the Shao Yang, frees Liver Qi, lifts Yang.
+i alternance frissons-chaleur ; stress, irritabilité ; douleurs sous les côtes ; règles irrégulières ; prolapsus (petite dose) || alternating chills and fever; stress, irritability; pain under the ribs; irregular periods; prolapse (small dose)
+x Montée du Yang du Foie, Vide de Yin avec Feu ; à forte dose peut fatiguer le Yin. || Rising Liver Yang, Yin deficiency with Fire; high doses can deplete Yin.
+
+@Chan Tui | 蝉蜕 | Cicadae Periostracum | surface-fraiche | froide | douce | P, F | 3–6 g
+n Mue de cigale || Cicada molting
+a Chasse le Vent-Chaleur, apaise la gorge et la voix, calme les démangeaisons, éclaircit les yeux. || Dispels Wind-Heat, soothes the throat and voice, relieves itching, clears the eyes.
+i voix éteinte ; mal de gorge ; urticaire, démangeaisons ; yeux rouges ; spasmes de l'enfant || lost voice; sore throat; hives, itching; red eyes; spasms in children
+x Grossesse (prudence). || Pregnancy (caution).
+
+@Dan Dou Chi | 淡豆豉 | Sojae Semen praeparatum | surface-fraiche | fraiche | piquante, douce | P, E | 6–12 g
+n Soja noir fermenté || Fermented black soybean
+a Libère la surface, apaise l'agitation. || Releases the exterior, relieves restlessness.
+i début de rhume ; agitation et insomnie après une fièvre || onset of a cold; restlessness and insomnia after a fever
+x Allaitement (réduit le lait). || Breastfeeding (reduces milk).
+
+@Ge Gen | 葛根 | Puerariae lobatae Radix | surface-fraiche | fraiche | douce, piquante | Rt, E | 9–15 g
+n Kudzu || Kudzu root
+a Libère les muscles, détend la nuque, génère les liquides, fait monter le Yang, arrête la diarrhée. || Releases the muscles, relaxes the neck, generates fluids, lifts Yang, stops diarrhea.
+i nuque raide ; rhume avec fièvre ; soif ; diarrhée chaude ; hypertension avec nuque raide ; envie d'alcool || stiff neck; cold with fever; thirst; hot diarrhea; hypertension with stiff neck; alcohol cravings
+x Froid de l'Estomac, transpiration abondante. || Stomach Cold, heavy sweating.
+
+@Ju Hua | 菊花 | Chrysanthemi Flos | surface-fraiche | fraiche | douce, amere | P, F | 5–10 g
+n Chrysanthème || Chrysanthemum flower
+a Chasse le Vent-Chaleur, apaise le Foie, éclaircit les yeux, élimine les toxines. || Dispels Wind-Heat, calms the Liver, clears the eyes, resolves toxicity.
+i yeux rouges, secs ou fatigués ; maux de tête ; vertiges ; rhume de Chaleur ; tension élevée || red, dry or tired eyes; headache; dizziness; Wind-Heat colds; high blood pressure
+x Diarrhée de Froid. || Cold-type diarrhea.
+
+@Man Jing Zi | 蔓荆子 | Viticis Fructus | surface-fraiche | fraiche | piquante, amere | V, F, E | 6–12 g
+n Gattilier à feuilles simples || Vitex fruit
+a Chasse le Vent-Chaleur, éclaircit la tête et les yeux. || Dispels Wind-Heat, clears the head and eyes.
+i maux de tête des tempes ; migraines ; yeux douloureux ; vertiges || temporal headaches; migraines; painful eyes; dizziness
+x Vide de Sang. || Blood deficiency.
+
+@Niu Bang Zi | 牛蒡子 | Arctii Fructus | surface-fraiche | froide | piquante, amere | P, E | 6–12 g
+n Graine de bardane || Burdock seed
+a Chasse le Vent-Chaleur, apaise la gorge, élimine les toxines, fait sortir les éruptions. || Dispels Wind-Heat, soothes the throat, resolves toxicity, vents rashes.
+i gorge rouge et douloureuse ; amygdales gonflées ; toux ; éruptions ; furoncles || red, painful throat; swollen tonsils; cough; rashes; boils
+x Diarrhée (laxative). || Diarrhea (laxative).
+
+@Sang Ye | 桑叶 | Mori Folium | surface-fraiche | froide | douce, amere | P, F | 5–10 g
+n Feuille de mûrier blanc || White mulberry leaf
+a Chasse le Vent-Chaleur, clarifie le Poumon, humidifie la sécheresse, éclaircit les yeux. || Dispels Wind-Heat, clears the Lung, moistens dryness, clears the eyes.
+i rhume de Chaleur ; toux sèche ; yeux rouges et secs ; sueurs nocturnes (forte dose) || Wind-Heat colds; dry cough; red, dry eyes; night sweats (high dose)
+x Toux de Froid. || Cold-type cough.
+
+@Sheng Ma | 升麻 | Cimicifugae Rhizoma | surface-fraiche | fraiche | piquante, douce | P, Rt, E, GI | 3–9 g
+n Cimicifuga || Cimicifuga rhizome
+a Fait monter le Yang, fait sortir les éruptions, élimine les toxines (bouche, gencives). || Lifts Yang, vents rashes, resolves toxicity (mouth, gums).
+i prolapsus ; diarrhée chronique ; aphtes ; gencives gonflées ; mal de gorge || prolapse; chronic diarrhea; mouth ulcers; swollen gums; sore throat
+x Montée du Yang du Foie, Vide de Yin ; ne pas dépasser la dose. || Rising Liver Yang, Yin deficiency; do not exceed the dose.
+
+# Clarifient la Chaleur
+@Bai Tou Weng | 白头翁 | Pulsatillae Radix | chaleur | froide | amere | GI, E | 9–15 g
+n Pulsatille chinoise || Chinese pulsatilla root
+a Clarifie la Chaleur toxique, rafraîchit le Sang, arrête la dysenterie. || Clears toxic Heat, cools the Blood, stops dysentery.
+i diarrhée avec sang et glaires ; brûlure anale ; pertes vaginales avec démangeaisons || diarrhea with blood and mucus; burning anus; itchy vaginal discharge
+x Diarrhée de Froid ou de Vide. || Cold or deficiency diarrhea.
+
+@Ban Lan Gen | 板蓝根 | Isatidis Radix | chaleur | froide | amere | C, E | 9–15 g
+n Racine de pastel des teinturiers || Isatis root
+a Clarifie la Chaleur, élimine les toxines, rafraîchit le Sang, apaise la gorge. || Clears Heat, resolves toxicity, cools the Blood, soothes the throat.
+i angine ; grippe avec fièvre ; oreillons ; zona, herpès || tonsillitis; flu with fever; mumps; shingles, herpes
+x Froid et Vide de la Rate ; cure courte. || Spleen Cold and deficiency; short course.
+
+@Da Qing Ye | 大青叶 | Isatidis Folium | chaleur | froide | amere | C, E | 9–15 g
+n Feuille de pastel || Isatis leaf
+a Clarifie la Chaleur, élimine les toxines, rafraîchit le Sang. || Clears Heat, resolves toxicity, cools the Blood.
+i fièvre ; mal de gorge ; aphtes ; éruptions rouges || fever; sore throat; mouth ulcers; red rashes
+x Froid et Vide de la Rate. || Spleen Cold and deficiency.
+
+@Dan Zhu Ye | 淡竹叶 | Lophatheri Herba | chaleur | froide | douce, insipide | C, E, IG | 6–10 g
+n Feuille de lophatherum || Lophatherum leaf
+a Clarifie la Chaleur du Cœur, apaise l'agitation, fait uriner. || Clears Heart Heat, relieves restlessness, promotes urination.
+i aphtes ; agitation ; soif ; urines foncées qui brûlent || mouth ulcers; restlessness; thirst; dark burning urine
+x Vide de Yin sans Chaleur ; grossesse. || Yin deficiency without Heat; pregnancy.
+
+@Di Gu Pi | 地骨皮 | Lycii Cortex | chaleur | froide | douce | P, F, Rn | 9–15 g
+n Écorce de racine de lyciet || Lycium root bark
+a Clarifie la Chaleur de Vide, rafraîchit le Sang, clarifie la Chaleur du Poumon. || Clears deficiency Heat, cools the Blood, clears Lung Heat.
+i sueurs nocturnes ; fièvre de l'après-midi ; toux de Chaleur ; saignements de nez || night sweats; afternoon fever; Heat cough; nosebleeds
+x Fièvre d'origine externe, diarrhée. || Fever from external causes, diarrhea.
+
+@Guan Zhong | 贯众 | Dryopteridis crassirhizomatis Rhizoma | chaleur | fraiche | amere | F, E | 5–10 g
+n Rhizome de fougère mâle (dryoptéris) || Dryopteris rhizome
+a Clarifie la Chaleur, élimine les toxines, arrête les saignements, chasse les vers. || Clears Heat, resolves toxicity, stops bleeding, expels worms.
+i grippe, épidémies ; saignements ; vers intestinaux || flu, epidemics; bleeding; intestinal worms
+x Légèrement toxique ; grossesse ; Froid de la Rate. || Mildly toxic; pregnancy; Spleen Cold.
+
+@He Ye | 荷叶 | Nelumbinis Folium | chaleur | neutre | amere | F, Rt, E | 3–10 g
+n Feuille de lotus || Lotus leaf
+a Clarifie la Chaleur d'été, draine l'Humidité, fait monter le Yang, arrête les saignements. || Clears summer Heat, drains Dampness, lifts Yang, stops bleeding.
+i coup de chaleur ; diarrhée d'été ; surpoids avec Humidité ; saignements || heatstroke; summer diarrhea; excess weight with Dampness; bleeding
+x Vide de Sang et de Qi marqué. || Marked Blood and Qi deficiency.
+
+@Huang Bai | 黄柏 | Phellodendri chinensis Cortex | chaleur | froide | amere | Rn, V, GI | 3–12 g
+n Écorce de phellodendron || Phellodendron bark
+a Clarifie l'Humidité-Chaleur du bas, fait descendre le Feu de Vide, élimine les toxines. || Clears Damp-Heat below, drains deficiency Fire, resolves toxicity.
+i urines qui brûlent ; pertes jaunes ; eczéma suintant ; sueurs nocturnes avec chaleur ; genoux chauds et gonflés || burning urination; yellow discharge; weeping eczema; night sweats with heat; hot, swollen knees
+x Froid et Vide de la Rate. || Spleen Cold and deficiency.
+
+@Huang Lian | 黄连 | Coptidis Rhizoma | chaleur | froide | amere | C, F, E, GI | 2–9 g
+n Rhizome de coptis || Coptis rhizome
+a Clarifie la Chaleur, assèche l'Humidité, draine le Feu du Cœur et de l'Estomac, élimine les toxines. || Clears Heat, dries Dampness, drains Heart and Stomach Fire, resolves toxicity.
+i diarrhée chaude ; brûlures d'estomac ; aphtes ; agitation, insomnie ; furoncles ; acné || hot diarrhea; heartburn; mouth ulcers; agitation, insomnia; boils; acne
+x Très amère et froide : Froid de la Rate, Vide de Yin ; grossesse (prudence). || Very bitter and cold: Spleen Cold, Yin deficiency; pregnancy (caution).
+
+@Huang Qin | 黄芩 | Scutellariae Radix | chaleur | froide | amere | P, VB, E, GI | 3–9 g
+n Scutellaire du Baïkal || Baikal skullcap root
+a Clarifie la Chaleur, assèche l'Humidité, élimine les toxines, arrête les saignements, calme le fœtus. || Clears Heat, dries Dampness, resolves toxicity, stops bleeding, calms the fetus.
+i toux de Chaleur ; fièvre ; diarrhée chaude ; jaunisse ; saignements ; agitation du fœtus avec Chaleur || Heat cough; fever; hot diarrhea; jaundice; bleeding; restless fetus with Heat
+x Froid de la Rate, diarrhée de Vide. || Spleen Cold, deficiency diarrhea.
+
+@Jin Yin Hua | 金银花 | Lonicerae japonicae Flos | chaleur | froide | douce | P, C, E | 6–15 g
+n Fleur de chèvrefeuille du Japon || Japanese honeysuckle flower
+a Clarifie la Chaleur, élimine les toxines, chasse le Vent-Chaleur. || Clears Heat, resolves toxicity, dispels Wind-Heat.
+i rhume de Chaleur ; angine ; furoncles, abcès ; acné ; diarrhée chaude || Wind-Heat colds; tonsillitis; boils, abscesses; acne; hot diarrhea
+x Froid et Vide de la Rate. || Spleen Cold and deficiency.
+
+@Ku Di Ding | 苦地丁 | Corydalis bungeanae Herba | chaleur | froide | amere | C, F, GI | 9–15 g
+n Corydale de Bunge || Bunge corydalis
+a Clarifie la Chaleur, élimine les toxines, réduit les gonflements. || Clears Heat, resolves toxicity, reduces swelling.
+i mal de gorge ; furoncles ; rhume de Chaleur || sore throat; boils; Wind-Heat colds
+x Froid de la Rate. || Spleen Cold.
+
+@Ku Shen | 苦参 | Sophorae flavescentis Radix | chaleur | froide | amere | C, F, E, GI, V | 4–9 g
+n Sophora jaunissant || Sophora root
+a Clarifie la Chaleur, assèche l'Humidité, calme les démangeaisons, fait uriner. || Clears Heat, dries Dampness, relieves itching, promotes urination.
+i eczéma suintant ; démangeaisons intimes ; pertes jaunes ; diarrhée chaude ; urines qui brûlent || weeping eczema; intimate itching; yellow discharge; hot diarrhea; burning urination
+x Froid de la Rate ; très amère, peut donner des nausées. || Spleen Cold; very bitter, may cause nausea.
+
+@Lian Qiao | 连翘 | Forsythiae Fructus | chaleur | fraiche | amere | P, C, IG | 6–15 g
+n Forsythia || Forsythia fruit
+a Clarifie la Chaleur, élimine les toxines, réduit les gonflements et les nodules. || Clears Heat, resolves toxicity, reduces swelling and nodules.
+i rhume de Chaleur ; angine ; furoncles ; acné ; ganglions ; nodules || Wind-Heat colds; tonsillitis; boils; acne; lymph nodes; nodules
+x Froid de la Rate, abcès pâles et froids. || Spleen Cold, pale cold abscesses.
+
+@Long Dan Cao | 龙胆草 | Gentianae Radix | chaleur | froide | amere | F, VB | 3–6 g
+n Gentiane chinoise || Chinese gentian root
+a Draine le Feu du Foie et de la Vésicule biliaire, clarifie l'Humidité-Chaleur du bas. || Drains Liver and Gallbladder Fire, clears Damp-Heat below.
+i yeux rouges ; maux de tête de Feu ; goût amer ; zona ; démangeaisons intimes ; pertes jaunes || red eyes; Fire headaches; bitter taste; shingles; intimate itching; yellow discharge
+x Très froide : Froid de la Rate ; cure courte. || Very cold: Spleen Cold; short course.
+
+@Lu Gen | 芦根 | Phragmitis Rhizoma | chaleur | froide | douce | P, E | 15–30 g
+n Rhizome de roseau || Reed rhizome
+a Clarifie la Chaleur, génère les liquides, calme les vomissements, fait sortir le pus du Poumon. || Clears Heat, generates fluids, stops vomiting, expels pus from the Lung.
+i soif ; toux de Chaleur avec glaires jaunes ; nausées de Chaleur ; urines foncées || thirst; Heat cough with yellow phlegm; Heat nausea; dark urine
+x Froid de la Rate. || Spleen Cold.
+
+@Mu Dan Pi | 牡丹皮 | Moutan Cortex | chaleur | fraiche | amere, piquante | C, F, Rn | 6–12 g
+n Écorce de racine de pivoine arbustive || Tree peony root bark
+a Clarifie la Chaleur, rafraîchit et active le Sang, clarifie la Chaleur de Vide. || Clears Heat, cools and invigorates Blood, clears deficiency Heat.
+i règles en avance avec chaleur ; saignements de Chaleur ; fièvre de l'après-midi ; acné, rougeurs ; douleurs avec stase || early periods with heat; Heat bleeding; afternoon fever; acne, redness; pain with stasis
+x Grossesse ; règles abondantes ; Froid. || Pregnancy; heavy periods; Cold.
+
+@Chi Shao | 赤芍 | Paeoniae Radix rubra | chaleur | fraiche | amere | F | 6–12 g
+n Pivoine rouge || Red peony root
+a Rafraîchit le Sang, active le Sang, dissout la stase, calme la douleur. || Cools the Blood, invigorates Blood, dispels stasis, eases pain.
+i douleurs fixes ; règles douloureuses avec caillots ; yeux rouges ; éruptions rouges ; hématomes || fixed pains; painful periods with clots; red eyes; red rashes; bruises
+x Vide de Sang sans stase ; grossesse. || Blood deficiency without stasis; pregnancy.
+
+@Pu Gong Ying | 蒲公英 | Taraxaci Herba | chaleur | froide | amere, douce | F, E | 9–15 g
+n Pissenlit || Dandelion
+a Clarifie la Chaleur, élimine les toxines, réduit les abcès, draine l'Humidité. || Clears Heat, resolves toxicity, reduces abscesses, drains Dampness.
+i abcès du sein, mastite ; furoncles ; acné ; yeux rouges ; urines qui brûlent ; jaunisse || breast abscess, mastitis; boils; acne; red eyes; burning urination; jaundice
+x Froid de la Rate ; diarrhée à forte dose. || Spleen Cold; diarrhea at high doses.
+
+@Qin Pi | 秦皮 | Fraxini Cortex | chaleur | froide | amere, astringente | F, VB, GI | 6–12 g
+n Écorce de frêne de Chine || Chinese ash bark
+a Clarifie l'Humidité-Chaleur, arrête la dysenterie, éclaircit les yeux. || Clears Damp-Heat, stops dysentery, clears the eyes.
+i diarrhée chaude avec glaires ; pertes jaunes ; yeux rouges || hot diarrhea with mucus; yellow discharge; red eyes
+x Froid de la Rate. || Spleen Cold.
+
+@Quan Shen | 拳参 | Bistortae Rhizoma | chaleur | fraiche | amere, astringente | P, F, GI | 5–10 g
+n Bistorte || Bistort rhizome
+a Clarifie la Chaleur, élimine les toxines, arrête les saignements et la diarrhée. || Clears Heat, resolves toxicity, stops bleeding and diarrhea.
+i fièvre ; mal de gorge ; diarrhée chaude ; saignements || fever; sore throat; hot diarrhea; bleeding
+x Froid sans Chaleur. || Cold without Heat.
+
+@Sheng Di Huang | 生地黄 | Rehmanniae Radix | chaleur | froide | douce, amere | C, F, Rn | 9–30 g
+n Rehmannia crue || Raw rehmannia root
+a Clarifie la Chaleur, rafraîchit le Sang, nourrit le Yin, génère les liquides. || Clears Heat, cools the Blood, nourishes Yin, generates fluids.
+i soif ; bouche sèche ; saignements de Chaleur ; fièvre de l'après-midi ; constipation sèche ; éruptions rouges || thirst; dry mouth; Heat bleeding; afternoon fever; dry constipation; red rashes
+x Digestion faible, selles molles, Humidité. || Weak digestion, loose stools, Dampness.
+
+@Shi Gao | 石膏 | Gypsum fibrosum | chaleur | froide | douce, piquante | P, E | 15–60 g
+n Gypse || Gypsum
+a Clarifie fortement la Chaleur du Poumon et de l'Estomac, apaise la soif. || Strongly clears Lung and Stomach Heat, relieves thirst.
+i forte fièvre avec soif ; toux de Chaleur ; mal de dents et gencives de Feu ; maux de tête de Chaleur || high fever with thirst; Heat cough; toothache and gum pain from Fire; Heat headaches
+x Froid de l'Estomac, Vide de Yin sans Chaleur ; cuire 20 min avant les autres. || Stomach Cold, Yin deficiency without Heat; cook 20 min before the other herbs.
+
+@Tian Hua Fen | 天花粉 | Trichosanthis Radix | chaleur | froide | douce, amere | P, E | 10–15 g
+n Racine de trichosanthe || Trichosanthes root
+a Clarifie la Chaleur, génère les liquides, réduit les abcès. || Clears Heat, generates fluids, reduces abscesses.
+i soif ; bouche sèche ; toux sèche ; diabète de type Yin ; abcès || thirst; dry mouth; dry cough; Yin-type diabetes; abscesses
+x Grossesse (contre-indiquée) ; Froid de la Rate. || Pregnancy (contraindicated); Spleen Cold.
+
+@Tu Fu Ling | 土茯苓 | Smilacis glabrae Rhizoma | chaleur | neutre | douce, insipide | F, E | 15–30 g
+n Salsepareille de Chine || Smilax rhizome
+a Élimine les toxines et l'Humidité, soulage les articulations. || Resolves toxicity and Dampness, relieves the joints.
+i eczéma ; psoriasis ; acné ; pertes ; douleurs articulaires de goutte || eczema; psoriasis; acne; discharge; gouty joint pain
+x Vide de Yin ; éviter le thé pendant la prise (tradition). || Yin deficiency; avoid tea while taking it (traditional advice).
+
+@Xia Ku Cao | 夏枯草 | Prunellae Spica | chaleur | froide | amere, piquante | F, VB | 9–15 g
+n Brunelle || Self-heal spike
+a Clarifie le Feu du Foie, éclaircit les yeux, disperse les nodules. || Clears Liver Fire, clears the eyes, disperses nodules.
+i yeux rouges et douloureux ; maux de tête ; tension élevée ; ganglions ; goitre ; nodules du sein || red, painful eyes; headaches; high blood pressure; lymph nodes; goiter; breast nodules
+x Froid de la Rate. || Spleen Cold.
+
+@Xuan Shen | 玄参 | Scrophulariae Radix | chaleur | froide | douce, amere, salee | P, E, Rn | 9–15 g
+n Scrofulaire de Ning-po || Ningpo figwort root
+a Clarifie la Chaleur, rafraîchit le Sang, nourrit le Yin, élimine les toxines, ramollit les nodules. || Clears Heat, cools the Blood, nourishes Yin, resolves toxicity, softens nodules.
+i gorge sèche et douloureuse ; ganglions ; constipation sèche ; éruptions ; fièvre nocturne || dry, sore throat; lymph nodes; dry constipation; rashes; night fever
+x Digestion faible, selles molles. || Weak digestion, loose stools.
+
+@Ye Ju Hua | 野菊花 | Chrysanthemi indici Flos | chaleur | fraiche | amere, piquante | F, C | 9–15 g
+n Chrysanthème sauvage || Wild chrysanthemum
+a Clarifie la Chaleur, élimine les toxines, réduit les gonflements. || Clears Heat, resolves toxicity, reduces swelling.
+i furoncles ; acné ; mal de gorge ; yeux rouges ; tension élevée || boils; acne; sore throat; red eyes; high blood pressure
+x Froid de la Rate. || Spleen Cold.
+
+@Yu Xing Cao | 鱼腥草 | Houttuyniae Herba | chaleur | fraiche | piquante | P | 15–30 g
+n Houttuynia (herbe à l'odeur de poisson) || Houttuynia
+a Clarifie la Chaleur du Poumon, élimine les toxines, fait sortir le pus, fait uriner. || Clears Lung Heat, resolves toxicity, expels pus, promotes urination.
+i toux avec glaires jaunes ; bronchite ; abcès ; urines qui brûlent || cough with yellow phlegm; bronchitis; abscesses; burning urination
+x Froid sans Chaleur ; ajouter en fin de cuisson. || Cold without Heat; add at the end of cooking.
+
+@Zhi Mu | 知母 | Anemarrhenae Rhizoma | chaleur | froide | amere, douce | P, E, Rn | 6–12 g
+n Anémarrhène || Anemarrhena rhizome
+a Clarifie la Chaleur, nourrit le Yin, humidifie la sécheresse. || Clears Heat, nourishes Yin, moistens dryness.
+i fièvre avec soif ; toux sèche ; sueurs nocturnes ; bouffées de chaleur ; diabète ; constipation sèche || fever with thirst; dry cough; night sweats; hot flushes; diabetes; dry constipation
+x Selles molles. || Loose stools.
+
+@Zhi Zi | 栀子 | Gardeniae Fructus | chaleur | froide | amere | C, P, TR | 6–10 g
+n Fruit de gardénia || Gardenia fruit
+a Clarifie le Feu des trois Réchauffeurs, apaise l'agitation, draine l'Humidité-Chaleur, rafraîchit le Sang. || Drains Fire from the three Burners, relieves restlessness, drains Damp-Heat, cools the Blood.
+i agitation, insomnie ; jaunisse ; urines qui brûlent ; saignements de Chaleur ; entorses (en cataplasme) || restlessness, insomnia; jaundice; burning urination; Heat bleeding; sprains (as a poultice)
+x Froid de la Rate, diarrhée. || Spleen Cold, diarrhea.
+
+@Zi Bei Tian Kui | 紫背天葵 | Semiaquilegiae Radix | chaleur | froide | douce, amere | F, Rt, V | 9–15 g
+n Semiaquilegia || Semiaquilegia root
+a Clarifie la Chaleur, élimine les toxines, réduit les gonflements. || Clears Heat, resolves toxicity, reduces swelling.
+i furoncles ; abcès ; ganglions enflammés || boils; abscesses; inflamed lymph nodes
+x Froid de la Rate. || Spleen Cold.
+
+@Zi Hua Di Ding | 紫花地丁 | Violae Herba | chaleur | froide | amere, piquante | C, F | 15–30 g
+n Violette de Yedo || Yedo violet
+a Clarifie la Chaleur, élimine les toxines, réduit les abcès. || Clears Heat, resolves toxicity, reduces abscesses.
+i furoncles ; abcès ; acné inflammatoire ; morsures || boils; abscesses; inflammatory acne; bites
+x Froid sans Chaleur. || Cold without Heat.
+
+@Jue Ming Zi | 决明子 | Cassiae Semen | chaleur | fraiche | douce, amere, salee | F, GI | 9–15 g
+n Graine de casse || Cassia seed
+a Clarifie le Foie, éclaircit les yeux, humidifie les intestins. || Clears the Liver, clears the eyes, moistens the intestines.
+i yeux rouges ; vision floue ; tension élevée ; constipation || red eyes; blurred vision; high blood pressure; constipation
+x Diarrhée, hypotension. || Diarrhea, low blood pressure.
+
+# Purgatives
+@Da Huang | 大黄 | Rhei Radix et Rhizoma | purgatives | froide | amere | Rt, E, GI, F, C | 3–12 g
+n Rhubarbe de Chine || Chinese rhubarb
+a Purge l'accumulation et la Chaleur, rafraîchit le Sang, élimine les toxines, dissout la stase. || Purges accumulation and Heat, cools the Blood, resolves toxicity, dispels stasis.
+i constipation de Chaleur ; saignements de Chaleur ; jaunisse ; douleurs de stase ; brûlures (externe) || Heat constipation; Heat bleeding; jaundice; stasis pain; burns (external)
+x Grossesse, règles, allaitement ; Vide ; cure de quelques jours seulement. || Pregnancy, menstruation, breastfeeding; deficiency; only a few days' use.
+
+@Huo Ma Ren | 火麻仁 | Cannabis Fructus | purgatives | neutre | douce | Rt, E, GI | 9–15 g
+n Graine de chanvre || Hemp seed
+a Humidifie les intestins, libère les selles, nourrit le Yin. || Moistens the intestines, frees the stools, nourishes Yin.
+i constipation sèche de la personne âgée ou après un accouchement || dry constipation in older people or after childbirth
+x Diarrhée ; forte dose : nausées. || Diarrhea; high doses: nausea.

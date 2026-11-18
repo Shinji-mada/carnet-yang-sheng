@@ -153,7 +153,8 @@
     "appetit-faible",
     "toux-glaires-blanches",
     "enduit-blanc-epais",
-    "enduit-gras"
+    "enduit-gras",
+    "ganglions"
    ],
    "contre": [
     "fievre",
@@ -236,6 +237,133 @@
     "Globus"
    ],
    "diag": "le Qi bloqué par tes émotions s'est noué avec des Mucosités dans ta gorge"
+  },
+  {
+   "id": "mucosites-feu-ganglions",
+   "organe": "foie",
+   "nom": "Mucosités et Feu noués en ganglions",
+   "zh": "痰火凝结",
+   "py": "Tán huǒ níng jié",
+   "resume": "La Chaleur épaissit les liquides en Mucosités, qui se nouent en petites boules sous la peau : ganglions du cou, des aisselles ou de l'aine (Luo Li).",
+   "causes": [
+    "Stress, colère ou émotions retenues qui bloquent le Qi du Foie",
+    "Alimentation grasse, sucrée, frite ou épicée",
+    "Veilles, surmenage : le Yin s'épuise et laisse le Feu dessécher les liquides",
+    "Infection mal éteinte (Chaleur toxique qui persiste)"
+   ],
+   "mecanisme": "Quand le Qi du Foie se bloque, il chauffe et ne fait plus circuler les liquides. La Chaleur les épaissit en Mucosités, qui se nouent le long des méridiens du Foie, de la Vésicule biliaire et du Triple Réchauffeur, sur les côtés du cou et sous les aisselles. Si le Yin s'épuise, la sécheresse s'ajoute : lèvres et bouche sèches, boutons rouges.",
+   "cle": [
+    "ganglions",
+    "bouche-seche"
+   ],
+   "autres": [
+    "acne",
+    "levres-seches",
+    "soif",
+    "irritabilite",
+    "gorge-serree",
+    "noyau-prune",
+    "gout-amer",
+    "constipation-seche",
+    "langue-rouge",
+    "enduit-jaune",
+    "enduit-gras",
+    "sueurs-nuit",
+    "chaleur-5-coeurs",
+    "fievre-apres-midi"
+   ],
+   "contre": [
+    "langue-pale",
+    "frilosite"
+   ],
+   "langue": "Rouge, enduit jaune et collant ; rouge avec peu d'enduit si le Yin est touché.",
+   "pouls": "Tendu et glissant, souvent rapide ; fin et rapide si le Yin est touché.",
+   "principe": {
+    "zh": "清热化痰，软坚散结",
+    "py": "Qīng rè huà tán, ruǎn jiān sàn jié",
+    "fr": "Clarifier la Chaleur, transformer les Mucosités, ramollir et disperser les nodules"
+   },
+   "moxa": "Pas de moxa, et jamais de massage directement sur un ganglion.",
+   "phases": [
+    {
+     "m": "d",
+     "items": [
+      {
+       "p": "TR 10",
+       "s": 60,
+       "pourquoi": "Point classique des ganglions du cou (Luo Li) : disperse les Mucosités nouées.",
+       "ess": 1
+      },
+      {
+       "p": "GI 14",
+       "s": 60,
+       "pourquoi": "Point classique des ganglions du cou et de l'aisselle.",
+       "ess": 1
+      },
+      {
+       "p": "E 40",
+       "s": 60,
+       "pourquoi": "Transforme les Mucosités.",
+       "ess": 1
+      },
+      {
+       "p": "F 3",
+       "s": 60,
+       "pourquoi": "Libère le Qi du Foie et apaise le Feu."
+      },
+      {
+       "p": "VB 41",
+       "s": 60,
+       "pourquoi": "Disperse les nodules sur les côtés du corps (cou, aisselle, seins)."
+      },
+      {
+       "p": "GI 11",
+       "s": 60,
+       "pourquoi": "Clarifie la Chaleur."
+      }
+     ]
+    },
+    {
+     "m": "t",
+     "items": [
+      {
+       "p": "Rt 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin pour éteindre la sécheresse."
+      },
+      {
+       "p": "Rn 6",
+       "s": 90,
+       "pourquoi": "Nourrit le Yin et humidifie la gorge."
+      }
+     ]
+    }
+   ],
+   "recettes": [
+    "salade-wakame-sesame",
+    "salade-bambou-algues",
+    "soupe-mungo",
+    "jus-poire-radis",
+    "salade-radis-blanc"
+   ],
+   "privilegier": "Algues (kombu, wakame), radis blanc, poire, haricots mungo, champignons, légumes verts cuits, eau tiède en petites gorgées.",
+   "eviter": "Friture, sucre, laitages, chocolat, épices fortes, alcool, repas tardifs.",
+   "conseils": [
+    "Ne masse jamais directement un ganglion : on travaille les points à distance.",
+    "Bouge chaque jour (marche, Qi Gong) pour faire circuler le Qi du Foie.",
+    "Couche-toi avant 23 h : le Yin se refait la nuit."
+   ],
+   "consulter": "Montre à un médecin tout ganglion qui dure plus de 3 semaines, qui grossit, qui est dur et ne bouge pas, ou s'il y a de la fièvre, des sueurs la nuit ou une perte de poids. Si les examens sont normaux, ce tableau aide à accompagner le terrain.",
+   "groupes": [
+    "peau"
+   ],
+   "simple": "La Chaleur et les Mucosités se nouent en petites boules sous la peau (ganglions).",
+   "reperes": [
+    "Ganglions bénins persistants",
+    "Nodules de la thyroïde",
+    "Kystes sous la peau"
+   ],
+   "diag": "de la Chaleur et des Mucosités se nouent en ganglions"
   },
   {
    "id": "f-vide-sang",

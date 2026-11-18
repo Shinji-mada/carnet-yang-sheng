@@ -1,5 +1,5 @@
 {
- "version": "1.0.0-beta",
+ "version": "1.1.0-beta",
  "categories_symptomes": [
   {
    "id": "general",
@@ -71,6 +71,7 @@
      "liste": [
       "aphtes",
       "gencives",
+      "levres-seches",
       "dents-dechaussees",
       "gout-amer",
       "gout-sucre",

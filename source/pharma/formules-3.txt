@@ -1,0 +1,408 @@
+# Retiennent (astringents)
+@jin-suo-gu-jing-wan | Jin Suo Gu Jing Wan | 金锁固精丸 | astringent | cal
+n Pilules du verrou d'or qui retiennent l'Essence || Metal Lock Pill to Stabilize the Essence
+c Sha Yuan Zi : 12 g ; Qian Shi : 12 g ; Lian Xu : 12 g ; Long Gu : 9 g ; Mu Li : 9 g ; Lian Zi : 12 g
+a Tonifie le Rein, retient l'Essence. || Tonifies the Kidney, secures the Essence.
+i pertes séminales ; éjaculation précoce ; urines fréquentes ; pertes blanches abondantes ; lombes faibles || seminal emissions; premature ejaculation; frequent urination; abundant white discharge; weak lower back
+t rn-qi-non-ferme, rn-jing
+x Humidité-Chaleur du bas, Feu du Foie. || Damp-Heat below, Liver Fire.
+
+@suo-quan-wan | Suo Quan Wan | 缩泉丸 | astringent |
+n Pilules qui resserrent la source || Shut the Sluice Pill
+c Wu Yao : 9 g ; Yi Zhi Ren : 9 g ; Shan Yao : 9 g
+a Réchauffe le Rein, retient les urines. || Warms the Kidney, holds the urine.
+i urines fréquentes et claires ; lever la nuit pour uriner ; énurésie de l'enfant ; fuites urinaires || frequent clear urination; getting up at night to urinate; bedwetting in children; urinary leakage
+t rn-qi-non-ferme, v-vide-froid
+x Urines qui brûlent (Chaleur). || Burning urination (Heat).
+
+@mu-li-san | Mu Li San | 牡蛎散 | astringent |
+n Poudre de coquille d'huître || Oyster Shell Powder
+c Duan Mu Li : 30 g ; Huang Qi : 30 g ; Ma Huang Gen : 9 g ; Fu Xiao Mai : 30 g
+a Consolide la surface, arrête la transpiration. || Secures the exterior, stops sweating.
+i transpiration spontanée de jour ; sueurs nocturnes avec fatigue ; palpitations || spontaneous daytime sweating; night sweats with fatigue; palpitations
+t p-vide-qi, qi-yin
+x Transpiration de fièvre ou de Chaleur forte. || Sweating from fever or strong Heat.
+o Ma Huang Gen (racine d'éphédra) ne contient pas les mêmes substances que la tige : elle retient la sueur. || Ma Huang Gen (ephedra root) does not share the stem's compounds: it holds in sweat.
+
+@si-shen-wan | Si Shen Wan | 四神丸 | astringent |
+n Pilules des quatre miracles || Four-Miracle Pill
+c Bu Gu Zhi : 12 g ; Rou Dou Kou : 6 g ; Wu Wei Zi : 6 g ; Wu Zhu Yu : 3 g ; Sheng Jiang : 6 g ; Da Zao : 4 pièces
+a Réchauffe le Rein et la Rate, arrête la diarrhée. || Warms the Kidney and Spleen, stops diarrhea.
+i diarrhée à l'aube (selles molles au réveil) ; ventre et lombes froids ; appétit faible || diarrhea at dawn (loose stools on waking); cold belly and lower back; poor appetite
+t rate-rein-yang, rn-vide-yang
+x Diarrhée de Chaleur ou infectieuse. || Heat or infectious diarrhea.
+
+@wan-dai-tang | Wan Dai Tang | 完带汤 | astringent |
+n Décoction qui met fin aux pertes || End Discharge Decoction
+c Bai Zhu : 30 g ; Shan Yao : 30 g ; Ren Shen : 6 g ; Bai Shao : 15 g ; Che Qian Zi : 9 g ; Cang Zhu : 9 g ; Chen Pi : 2 g ; Jing Jie Sui : 2 g ; Chai Hu : 2 g ; Gan Cao : 3 g
+a Renforce la Rate, draine l'Humidité, arrête les pertes blanches. || Strengthens the Spleen, drains Dampness, stops white discharge.
+i pertes blanches abondantes, fluides, sans odeur ; fatigue ; selles molles || abundant, thin, odorless white discharge; fatigue; loose stools
+t rt-froid-humidite, rt-vide-qi
+x Pertes jaunes et odorantes (Chaleur) : consulter. || Yellow, smelly discharge (Heat): see a doctor.
+
+@yu-dai-wan | Yu Dai Wan | 愈带丸 | astringent | cal
+n Pilules qui guérissent les pertes || Heal Discharge Pills
+c Bai Shao : 910 mg ; Shu Di Huang : 740 mg ; Dang Gui : 510 mg ; Huang Bai : 340 mg ; Gao Liang Jiang : 340 mg ; Chuan Xiong : 170 mg
+a Nourrit le Sang, clarifie l'Humidité-Chaleur du bas. || Nourishes Blood, clears Damp-Heat below.
+i pertes jaunâtres ; démangeaisons intimes ; règles irrégulières sur terrain de Vide de Sang || yellowish discharge; intimate itching; irregular periods with Blood deficiency
+t f-humidite-bas, f-vide-sang
+x Grossesse ; infection : consulter. || Pregnancy; infection: see a doctor.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+# Calment le Shen
+@suan-zao-ren-tang | Suan Zao Ren Tang | 酸枣仁汤 | calmer | cal
+n Décoction de graines de jujubier sauvage || Sour Jujube Decoction
+c Suan Zao Ren : 15 g ; Zhi Mu : 6 g ; Chuan Xiong : 6 g ; Fu Ling : 6 g ; Gan Cao : 3 g
+a Nourrit le Sang du Foie, calme le Shen, apaise l'agitation. || Nourishes Liver Blood, calms the Shen, settles restlessness.
+i insomnie, réveils fréquents ; agitation ; palpitations ; vertiges ; bouche sèche ; rêves nombreux || insomnia, frequent waking; restlessness; palpitations; dizziness; dry mouth; vivid dreams
+t f-vide-sang, c-vide-sang, c-vide-yin
+x Diarrhée ; somnolence au volant en début de cure. || Diarrhea; drowsiness when driving at the start.
+o Calebasse : Suan Zao Ren Wan. || Calebasse: Suan Zao Ren Wan.
+
+@gan-mai-da-zao-tang | Gan Mai Da Zao Tang | 甘麦大枣汤 | calmer | cal
+n Décoction Réglisse, Blé et Jujube || Licorice, Wheat and Jujube Decoction
+c Gan Cao : 9 g ; Fu Xiao Mai : 30 g ; Da Zao : 10 pièces
+a Nourrit le Cœur, calme le Shen, apaise le Foie. || Nourishes the Heart, calms the Shen, soothes the Liver.
+i tristesse, pleurs faciles ; anxiété ; bâillements ; sommeil agité ; émotions à fleur de peau || sadness, easy crying; anxiety; yawning; restless sleep; emotions close to the surface
+t c-vide-sang, coeur-rate, rn-peur
+x Œdèmes, hypertension (réglisse en cure longue) ; Humidité. || Edema, hypertension (licorice on long courses); Dampness.
+
+@an-shen-ding-zhi-wan | An Shen Ding Zhi Wan | 安神定志丸 | calmer | cal
+n Pilules qui calment le Shen et fixent la volonté || Calm the Spirit and Settle the Will Pill
+c Ren Shen : 9 g ; Fu Ling : 9 g ; Fu Shen : 9 g ; Yuan Zhi : 6 g ; Shi Chang Pu : 6 g ; Long Chi : 15 g
+a Calme le Shen, renforce le Qi du Cœur et de la Vésicule biliaire. || Calms the Shen, strengthens Heart and Gallbladder Qi.
+i peurs, sursauts ; timidité ; palpitations ; insomnie avec cauchemars ; manque d'assurance || fears, being easily startled; timidity; palpitations; insomnia with nightmares; lack of confidence
+t vb-vide, rn-peur, c-vide-qi
+x Feu du Cœur, Mucosités-Chaleur. || Heart Fire, Phlegm-Heat.
+
+@bai-zi-yang-xin-wan | Bai Zi Yang Xin Wan | 柏子养心丸 | calmer | cal
+n Pilules de Thuya qui nourrissent le Cœur || Biota Seed Pill to Nourish the Heart
+c Bai Zi Ren : 12 g ; Gou Qi Zi : 9 g ; Mai Men Dong : 6 g ; Dang Gui : 6 g ; Shi Chang Pu : 6 g ; Fu Shen : 6 g ; Xuan Shen : 6 g ; Shu Di Huang : 9 g ; Gan Cao : 3 g
+a Nourrit le Sang et le Yin du Cœur, calme le Shen. || Nourishes Heart Blood and Yin, calms the Shen.
+i insomnie ; rêves nombreux ; palpitations ; mémoire faible ; sueurs nocturnes || insomnia; vivid dreams; palpitations; poor memory; night sweats
+t c-vide-sang, c-vide-yin
+x Diarrhée, Mucosités. || Diarrhea, Phlegm.
+
+@bai-zi-zi-xin-wan | Bai Zi Zi Xin Wan | 柏子滋心丸 | calmer | cal
+n Pilules de Thuya qui humectent le Cœur || Biota Seed Pill to Moisten the Heart
+c Xuan Shen : 375 mg ; Sheng Di Huang : 375 mg ; Gou Qi Zi : 375 mg ; Dang Gui : 375 mg ; Shi Chang Pu : 563 mg ; Fu Ling : 563 mg ; Gan Cao : 225 mg ; Mai Men Dong : 150 mg
+a Nourrit le Yin et le Sang du Cœur, calme le Shen. || Nourishes Heart Yin and Blood, calms the Shen.
+i sommeil léger ; réveils nocturnes ; agitation le soir ; bouche sèche || light sleep; waking at night; evening restlessness; dry mouth
+t c-vide-yin, c-vide-sang
+x Diarrhée. || Diarrhea.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@an-shen-bu-xin-wan | An Shen Bu Xin Wan | 安神补心丸 | calmer | cal
+n Pilules qui calment le Shen et tonifient le Cœur || Calm the Spirit and Tonify the Heart Pills
+c Zhen Zhu Mu : 632 mg ; Dan Shen : 632 mg ; Wu Wei Zi : 474 mg ; Shi Chang Pu : 474 mg ; He Huan Pi : 158 mg ; Tu Si Zi : 158 mg ; Mo Han Lian : 158 mg ; Ye Jiao Teng : 158 mg ; Sheng Di Huang : 158 mg
+a Calme le Shen, nourrit le Sang et le Yin du Cœur, du Foie et du Rein. || Calms the Shen, nourishes Blood and Yin of the Heart, Liver and Kidney.
+i insomnie ; palpitations ; vertiges ; anxiété ; mémoire faible || insomnia; palpitations; dizziness; anxiety; poor memory
+t c-vide-yin, coeur-rein, foie-rein-yin
+x Diarrhée, digestion faible. || Diarrhea, weak digestion.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@bu-nao-an-shen-wan | Bu Nao An Shen Wan | 补脑安神丸 | calmer | cal
+n Pilules qui nourrissent le cerveau et calment le Shen || Nourish the Brain and Calm the Spirit Pills
+c Yuan Zhi : 450 mg ; Shi Chang Pu : 450 mg ; Wu Wei Zi : 320 mg ; Suan Zao Ren : 320 mg ; Ye Jiao Teng : 320 mg ; Dan Shen : 320 mg ; Zhi Mu : 320 mg ; Huang Jing : 320 mg ; Dang Gui : 190 mg
+a Nourrit le Sang et le Qi, calme le Shen. || Nourishes Blood and Qi, calms the Shen.
+i pensées qui tournent le soir ; sommeil léger ; fatigue mentale ; mémoire faible || racing thoughts in the evening; light sleep; mental fatigue; poor memory
+t coeur-rate, c-vide-sang
+x Diarrhée. || Diarrhea.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@bu-nao-wan | Bu Nao Wan | 补脑丸 | calmer | cal
+n Pilules qui nourrissent le cerveau || Nourish the Brain Pills
+c Wu Wei Zi : 833 mg ; Suan Zao Ren : 667 mg ; Dang Gui : 417 mg ; He Tao Ren : 333 mg ; Gou Qi Zi : 333 mg ; Yuan Zhi : 208 mg ; Shi Chang Pu : 208 mg
+a Nourrit le Cœur et le Rein, calme le Shen, soutient la mémoire. || Nourishes the Heart and Kidney, calms the Shen, supports memory.
+i surmenage intellectuel ; concentration difficile ; mémoire faible ; sommeil peu réparateur || mental overwork; poor concentration; poor memory; unrefreshing sleep
+t coeur-rein, rn-jing
+x Diarrhée, Chaleur. || Diarrhea, Heat.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@zao-ren-an-mian-wan | Zao Ren An Mian Wan | 枣仁安眠丸 | calmer | cal
+n Pilules de Jujubier pour un sommeil paisible || Jujube Seed Peaceful Sleep Pills
+c Ye Jiao Teng : 560 mg ; Suan Zao Ren : 560 mg ; Gou Teng : 440 mg ; Yuan Zhi : 440 mg ; Wu Wei Zi : 333 mg ; Zhi Mu : 333 mg ; Dan Shen : 333 mg
+a Nourrit le Cœur et le Yin, calme le Shen. || Nourishes the Heart and Yin, calms the Shen.
+i esprit agité le soir ; endormissement difficile ; sommeil léger || restless mind in the evening; trouble falling asleep; light sleep
+t c-vide-yin, f-vide-sang
+x Diarrhée. || Diarrhea.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@yang-xue-an-shen-wan | Yang Xue An Shen Wan | 养血安神丸 | calmer | cal
+n Pilules qui nourrissent le Sang et calment le Shen || Nourish Blood and Calm the Spirit Pills
+c Ye Jiao Teng : 9 g ; Ji Xue Teng : 9 g ; Shu Di Huang : 9 g ; Sheng Di Huang : 9 g ; He Huan Pi : 6 g ; Mo Han Lian : 9 g ; Xian He Cao : 9 g
+a Nourrit le Sang et le Yin, calme le Shen. || Nourishes Blood and Yin, calms the Shen.
+i insomnie ; palpitations ; vertiges ; fatigue ; teint pâle || insomnia; palpitations; dizziness; fatigue; pale complexion
+t c-vide-sang, f-vide-sang
+x Digestion faible. || Weak digestion.
+
+@chai-hu-hu-po-tang | Chai Hu Hu Po Tang | 柴胡琥珀汤 | calmer | cal
+n Décoction Buplèvre et Ambre (version Calebasse) || Bupleurum and Amber Decoction (Calebasse version)
+c Ye Jiao Teng : 480 mg ; Zhi Ke : 480 mg ; Bai Shao : 470 mg ; Yuan Zhi : 330 mg ; Shi Chang Pu : 330 mg ; Chai Hu : 180 mg ; Huang Qin : 180 mg ; Huang Lian : 70 mg
+a Libère le Foie, clarifie la Chaleur, calme le Shen. || Frees the Liver, clears Heat, calms the Shen.
+i stress ; tension nerveuse ; irritabilité ; sommeil agité || stress; nervous tension; irritability; restless sleep
+t f-stagnation-qi, c-feu
+x Digestion froide et faible. || Cold, weak digestion.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@huang-lian-e-jiao-tang | Huang Lian E Jiao Tang | 黄连阿胶汤 | calmer | cal
+n Décoction Coptis et gélatine d'âne || Coptis and Ass-Hide Gelatin Decoction
+c Huang Lian : 12 g ; Huang Qin : 6 g ; Bai Shao : 6 g ; E Jiao : 9 g ; Ji Zi Huang : 2 jaunes
+a Nourrit le Yin, fait descendre le Feu du Cœur, relie le Cœur et le Rein. || Nourishes Yin, drains Heart Fire, connects the Heart and Kidney.
+i insomnie avec agitation, impossible de s'endormir ; palpitations ; bouche sèche ; langue rouge pointe plus rouge || insomnia with agitation, unable to fall asleep; palpitations; dry mouth; red tongue with a redder tip
+t coeur-rein, c-vide-yin, c-feu
+x Digestion faible ; insomnie sans Chaleur. || Weak digestion; insomnia without Heat.
+o Calebasse : Huang Lian E Jiao Wan. Ji Zi Huang = jaune d'œuf cru ajouté à la décoction tiède. || Calebasse: Huang Lian E Jiao Wan. Ji Zi Huang = raw egg yolk stirred into the warm decoction.
+
+# Font circuler le Qi
+@ban-xia-hou-po-tang | Ban Xia Hou Po Tang | 半夏厚朴汤 | qi |
+n Décoction Pinellia et Magnolia || Pinellia and Magnolia Bark Decoction
+c Ban Xia : 12 g ; Hou Po : 9 g ; Fu Ling : 12 g ; Sheng Jiang : 9 g ; Zi Su Ye : 6 g
+a Fait circuler le Qi, dénoue, transforme les Mucosités, fait descendre la rébellion. || Moves Qi, dissipates knots, transforms Phlegm, directs rebellion downward.
+i boule dans la gorge (noyau de prune) ; oppression ; toux avec glaires ; nausées ; anxiété || lump in the throat (plum pit); chest oppression; cough with phlegm; nausea; anxiety
+t mei-he-qi, p-stagnation-qi
+x Vide de Yin avec bouche sèche et langue rouge. || Yin deficiency with dry mouth and red tongue.
+
+@yue-ju-wan | Yue Ju Wan | 越鞠丸 | qi |
+n Pilules qui dénouent les stagnations || Escape Restraint Pill
+c Cang Zhu : 6 g ; Xiang Fu : 6 g ; Chuan Xiong : 6 g ; Shen Qu : 6 g ; Zhi Zi : 6 g
+a Fait circuler le Qi et dénoue les six stagnations (Qi, Sang, Mucosités, Feu, Humidité, aliments). || Moves Qi and releases the six stagnations (Qi, Blood, Phlegm, Fire, Dampness, food).
+i oppression ; ballonnements ; renvois acides ; digestion difficile ; humeur sombre || chest oppression; bloating; sour belching; poor digestion; low mood
+t f-stagnation-qi, e-stagnation-alimentaire
+x Vide sans stagnation. || Deficiency without stagnation.
+
+@xuan-fu-dai-zhe-tang | Xuan Fu Dai Zhe Tang | 旋覆代赭汤 | qi |
+n Décoction Inule et Hématite || Inula and Hematite Decoction
+c Xuan Fu Hua : 9 g ; Dai Zhe Shi : 9 g ; Ren Shen : 6 g ; Sheng Jiang : 9 g ; Ban Xia : 9 g ; Zhi Gan Cao : 6 g ; Da Zao : 4 pièces
+a Fait descendre le Qi de l'Estomac, transforme les Mucosités, tonifie le Qi. || Directs Stomach Qi downward, transforms Phlegm, tonifies Qi.
+i renvois incessants ; hoquet ; nausées, vomissements ; pesanteur sous le sternum || persistent belching; hiccups; nausea, vomiting; heaviness under the breastbone
+t e-rebellion
+x Grossesse (Dai Zhe Shi) ; pas en cure longue. || Pregnancy (Dai Zhe Shi); not a long course.
+
+@ju-pi-zhu-ru-tang | Ju Pi Zhu Ru Tang | 橘皮竹茹汤 | qi |
+n Décoction Écorce de mandarine et Bambou || Tangerine Peel and Bamboo Shavings Decoction
+c Ju Pi : 12 g ; Zhu Ru : 12 g ; Ren Shen : 3 g ; Sheng Jiang : 9 g ; Gan Cao : 6 g ; Da Zao : 5 pièces
+a Fait descendre le Qi de l'Estomac, tonifie, clarifie une Chaleur légère. || Directs Stomach Qi downward, tonifies, clears mild Heat.
+i hoquet ; nausées ; vomissements secs sur terrain fatigué ; après une maladie || hiccups; nausea; dry retching in a tired constitution; after an illness
+t e-rebellion, e-vide-yin
+x Vomissements de Froid. || Cold-type vomiting.
+
+@zuo-jin-wan | Zuo Jin Wan | 左金丸 | qi |
+n Pilules du Métal de gauche || Left Metal Pill
+c Huang Lian : 18 g ; Wu Zhu Yu : 3 g
+a Clarifie le Feu du Foie, fait descendre la rébellion de l'Estomac. || Clears Liver Fire, directs Stomach rebellion downward.
+i brûlures d'estomac ; reflux acide ; goût amer ; douleurs sous les côtes ; irritabilité || heartburn; acid reflux; bitter taste; pain under the ribs; irritability
+t foie-estomac, e-feu
+x Reflux de Froid ; digestion froide et faible. || Cold-type reflux; cold, weak digestion.
+
+@jia-wei-zuo-jin-wan | Jia Wei Zuo Jin Wan | 加味左金丸 | qi | cal
+n Pilules du Métal de gauche augmentées (version Calebasse) || Augmented Left Metal Pill (Calebasse version)
+c Bai Shao : 570 mg ; Zhi Ke : 570 mg ; Chen Pi : 300 mg ; Qing Pi : 300 mg ; Huang Qin : 230 mg ; Chai Hu : 230 mg ; Xiang Fu : 230 mg ; Dang Gui : 230 mg ; Gan Cao : 230 mg ; Huang Lian : 110 mg
+a Libère le Qi du Foie, clarifie la Chaleur qu'il produit, apaise l'Estomac. || Frees Liver Qi, clears the Heat it produces, soothes the Stomach.
+i brûlures d'estomac liées au stress ; reflux ; renvois ; douleurs sous les côtes || stress-related heartburn; reflux; belching; pain under the ribs
+t foie-estomac, f-stagnation-qi
+x Digestion froide. || Cold digestion.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@shu-gan-he-wei-wan | Shu Gan He Wei Wan | 舒肝和胃丸 | qi | cal
+n Pilules qui libèrent le Foie et harmonisent l'Estomac || Soothe the Liver and Harmonize the Stomach Pills
+c Fo Shou : 840 mg ; Chen Pi : 420 mg ; Bai Zhu : 340 mg ; Xiang Fu : 270 mg ; Wu Yao : 260 mg ; Bai Shao : 260 mg ; Lai Fu Zi : 260 mg ; Huo Xiang : 190 mg ; Chai Hu : 80 mg ; Zhi Gan Cao : 80 mg
+a Libère le Qi du Foie, harmonise l'Estomac, fait digérer. || Frees Liver Qi, harmonizes the Stomach, aids digestion.
+i ballonnements et digestion bloquée par le stress ; renvois ; appétit irrégulier || bloating and stalled digestion from stress; belching; irregular appetite
+t foie-estomac, foie-rate
+x Vide de Yin. || Yin deficiency.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@shu-gan-zhi-tong-wan | Shu Gan Zhi Tong Wan | 舒肝止痛丸 | qi | cal
+n Pilules qui libèrent le Foie et calment la douleur || Soothe the Liver and Stop Pain Pills
+c Bai Shao : 1000 mg ; Bai Zhu : 420 mg ; Chai Hu : 330 mg ; Dang Gui : 330 mg ; Xiang Fu : 330 mg ; Lai Fu Zi : 250 mg ; Huang Qin : 170 mg ; Chuan Xiong : 170 mg
+a Libère le Qi du Foie, détend, calme la douleur. || Frees Liver Qi, relaxes, eases pain.
+i douleurs sous les côtes ; crampes du ventre ; règles douloureuses liées au stress ; tensions || pain under the ribs; belly cramps; stress-related painful periods; tension
+t f-stagnation-qi, foie-rate
+x Vide de Yin, grossesse. || Yin deficiency, pregnancy.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@tong-qiao-xiao-yao-san | Tong Qiao Xiao Yao San | 通窍逍遥散 | qi | cal
+n Poudre de la libre promenade qui ouvre les orifices || Free and Easy Wanderer Powder to Open the Orifices
+c Chai Hu : 308 mg ; Dang Gui : 308 mg ; Fu Ling : 308 mg ; Bai Shao : 308 mg ; Bai Zhu : 308 mg ; Zhi Gan Cao : 205 mg ; Sheng Jiang : 205 mg ; Ci Ji Li : 205 mg ; Man Jing Zi : 205 mg ; Xin Yi : 205 mg ; Wu Wei Zi : 205 mg ; Long Dan Cao : 123 mg ; Bo He : 103 mg
+a Libère le Foie, renforce la Rate, chasse le Vent et dégage la tête. || Frees the Liver, strengthens the Spleen, dispels Wind and clears the head.
+i tête lourde ; nez bouché lié au stress ; maux de tête ; humeur changeante || heavy head; stress-related blocked nose; headaches; mood swings
+t f-stagnation-qi, f-yang
+x Vide de Yin avec Chaleur. || Yin deficiency with Heat.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@su-zi-jiang-qi-tang | Su Zi Jiang Qi Tang | 苏子降气汤 | qi |
+n Décoction de graines de Périlla qui font descendre le Qi || Perilla Fruit Decoction for Directing Qi Downward
+c Zi Su Zi : 9 g ; Ban Xia : 9 g ; Dang Gui : 6 g ; Qian Hu : 6 g ; Hou Po : 6 g ; Rou Gui : 3 g ; Zhi Gan Cao : 6 g ; Sheng Jiang : 3 g
+a Fait descendre le Qi du Poumon, transforme les Mucosités, réchauffe le Rein. || Directs Lung Qi downward, transforms Phlegm, warms the Kidney.
+i toux et essoufflement avec glaires abondantes ; oppression ; souffle court en bas || cough and breathlessness with abundant phlegm; chest oppression; shallow breathing
+t rn-recevoir-qi, p-mucosites-humidite
+x Toux sèche de Vide de Yin, Chaleur. || Dry cough from Yin deficiency, Heat.
+
+@jin-ling-zi-san | Jin Ling Zi San | 金铃子散 | qi |
+n Poudre de Mélia || Melia Toosendan Powder
+c Chuan Lian Zi : 9 g ; Yan Hu Suo : 9 g
+a Libère le Foie, clarifie la Chaleur, calme la douleur. || Frees the Liver, clears Heat, eases pain.
+i douleurs sous les côtes, de l'estomac ou des règles aggravées par le stress ; goût amer || pain under the ribs, in the stomach or during periods, worse with stress; bitter taste
+t f-stagnation-qi, foie-estomac
+x Grossesse ; Chuan Lian Zi est légèrement toxique : cure courte. || Pregnancy; Chuan Lian Zi is mildly toxic: short course.
+
+# Activent le Sang, arrêtent les saignements
+@xue-fu-zhu-yu-tang | Xue Fu Zhu Yu Tang | 血府逐瘀汤 | sang | cal
+n Décoction qui chasse la stase de la demeure du Sang || Drive Out Stasis in the Mansion of Blood Decoction
+c Tao Ren : 12 g ; Hong Hua : 9 g ; Dang Gui : 9 g ; Sheng Di Huang : 9 g ; Chuan Xiong : 5 g ; Chi Shao : 6 g ; Niu Xi : 9 g ; Jie Geng : 5 g ; Chai Hu : 3 g ; Zhi Ke : 6 g ; Gan Cao : 6 g
+a Active le Sang, dissout la stase, fait circuler le Qi. || Invigorates Blood, dispels stasis, moves Qi.
+i douleur fixe en coup de poignard dans la poitrine ou la tête ; insomnie tenace ; palpitations ; lèvres et langue violacées ; règles avec caillots || fixed stabbing pain in the chest or head; stubborn insomnia; palpitations; purplish lips and tongue; clotted periods
+t stase-sang
+x Grossesse, règles abondantes, anticoagulants ; toute douleur de poitrine doit être vue par un médecin. || Pregnancy, heavy periods, anticoagulants; any chest pain must be seen by a doctor.
+
+@shao-fu-zhu-yu-tang | Shao Fu Zhu Yu Tang | 少腹逐瘀汤 | sang | cal, pv
+n Décoction qui chasse la stase du bas-ventre || Drive Out Stasis from the Lower Abdomen Decoction
+c Xiao Hui Xiang : 2 g ; Gan Jiang : 3 g ; Yan Hu Suo : 3 g ; Mo Yao : 6 g ; Dang Gui : 9 g ; Chuan Xiong : 6 g ; Rou Gui : 3 g ; Chi Shao : 6 g ; Pu Huang : 9 g ; Wu Ling Zhi : 6 g
+a Active le Sang, réchauffe les méridiens, calme la douleur du bas-ventre. || Invigorates Blood, warms the channels, eases lower abdominal pain.
+i règles douloureuses avec caillots sombres ; douleur du bas-ventre améliorée par la chaleur ; cycles irréguliers ; kystes, fibromes (accompagnement) || painful periods with dark clots; lower abdominal pain eased by warmth; irregular cycles; cysts, fibroids (support)
+t froid-uterus, stase-sang
+x Grossesse ; règles abondantes ; Chaleur. || Pregnancy; heavy periods; Heat.
+
+@shen-tong-zhu-yu-tang | Shen Tong Zhu Yu Tang | 身痛逐瘀汤 | sang | cal
+n Décoction qui chasse la stase des douleurs du corps || Drive Out Stasis from a Painful Body Decoction
+c Qin Jiao : 3 g ; Chuan Xiong : 6 g ; Tao Ren : 9 g ; Hong Hua : 9 g ; Qiang Huo : 3 g ; Mo Yao : 6 g ; Dang Gui : 9 g ; Wu Ling Zhi : 6 g ; Xiang Fu : 3 g ; Niu Xi : 9 g ; Di Long : 6 g ; Gan Cao : 6 g
+a Active le Sang, chasse le Vent-Humidité, calme les douleurs articulaires. || Invigorates Blood, dispels Wind-Damp, eases joint pain.
+i douleurs anciennes et fixes des épaules, du dos ou des membres ; sciatique ; douleurs pires la nuit || old, fixed pains of the shoulders, back or limbs; sciatica; pain worse at night
+t stase-sang, bi-froid, bi-humidite
+x Grossesse, anticoagulants. || Pregnancy, anticoagulants.
+
+@fu-yuan-huo-xue-tang | Fu Yuan Huo Xue Tang | 复元活血汤 | sang | cal
+n Décoction qui rétablit l'Originel et active le Sang || Revive Health by Invigorating the Blood Decoction
+c Chai Hu : 15 g ; Tian Hua Fen : 9 g ; Dang Gui : 9 g ; Hong Hua : 6 g ; Tao Ren : 15 g ; Da Huang : 9 g ; Gan Cao : 6 g
+a Active le Sang, dissout la stase après un traumatisme, libère le Foie. || Invigorates Blood, dispels stasis after trauma, frees the Liver.
+i douleurs après une chute ou un coup ; hématomes ; douleur des côtes après un choc || pain after a fall or blow; bruising; rib pain after an impact
+t stase-sang
+x Grossesse ; diarrhée (Da Huang) ; consulter en cas de traumatisme important. || Pregnancy; diarrhea (Da Huang); see a doctor after significant trauma.
+o La formule ancienne contient des écailles de pangolin (espèce protégée) : elles sont retirées. || The ancient formula contains pangolin scales (protected species): they are left out.
+
+@bu-yang-huan-wu-tang | Bu Yang Huan Wu Tang | 补阳还五汤 | sang | cal
+n Décoction qui tonifie le Yang pour rétablir les cinq dixièmes || Tonify the Yang to Restore Five-Tenths Decoction
+c Huang Qi : 60 g ; Dang Gui Wei : 6 g ; Chi Shao : 5 g ; Di Long : 3 g ; Chuan Xiong : 3 g ; Hong Hua : 3 g ; Tao Ren : 3 g
+a Tonifie fortement le Qi, active le Sang, débloque les vaisseaux. || Strongly tonifies Qi, invigorates Blood, unblocks the vessels.
+i séquelles d'accident vasculaire (paralysie, bouche déviée) ; engourdissements ; faiblesse d'un côté ; jambes lourdes || after-effects of stroke (paralysis, drooping mouth); numbness; one-sided weakness; heavy legs
+t stase-sang, qi-sang
+x Hypertension non contrôlée, Chaleur ; suivi médical indispensable. || Uncontrolled hypertension, Heat; medical follow-up essential.
+
+@gui-zhi-fu-ling-wan | Gui Zhi Fu Ling Wan | 桂枝茯苓丸 | sang | cal
+n Pilules Cannelle et Poria || Cinnamon Twig and Poria Pill
+c Gui Zhi : 9 g ; Fu Ling : 9 g ; Mu Dan Pi : 9 g ; Tao Ren : 9 g ; Chi Shao : 9 g
+a Active le Sang, dissout la stase, réduit les masses du bas-ventre. || Invigorates Blood, dispels stasis, reduces lower abdominal masses.
+i fibromes, kystes ovariens (accompagnement) ; règles douloureuses avec caillots ; douleur fixe du bas-ventre || fibroids, ovarian cysts (support); painful periods with clots; fixed lower abdominal pain
+t stase-sang, froid-uterus
+x Grossesse sauf avis spécialisé ; règles abondantes. || Pregnancy unless advised by a specialist; heavy periods.
+
+@wen-jing-tang | Wen Jing Tang | 温经汤 | sang |
+n Décoction qui réchauffe les méridiens || Warm the Menses Decoction
+c Wu Zhu Yu : 9 g ; Dang Gui : 6 g ; Bai Shao : 6 g ; Chuan Xiong : 6 g ; Ren Shen : 6 g ; Gui Zhi : 6 g ; E Jiao : 6 g ; Mu Dan Pi : 6 g ; Sheng Jiang : 6 g ; Ban Xia : 6 g ; Mai Men Dong : 9 g ; Gan Cao : 6 g
+a Réchauffe l'Utérus, nourrit le Sang, dissout la stase. || Warms the Uterus, nourishes Blood, dispels stasis.
+i règles irrégulières ou douloureuses de Froid ; bas-ventre froid ; lèvres sèches et paumes chaudes le soir ; infertilité par Froid || irregular or painful periods from Cold; cold lower belly; dry lips and warm palms in the evening; infertility from Cold
+t froid-uterus, f-vide-sang
+x Grossesse ; Chaleur du Sang. || Pregnancy; Blood Heat.
+
+@jiao-ai-tang | Jiao Ai Tang | 胶艾汤 | sang |
+n Décoction Gélatine et Armoise || Ass-Hide Gelatin and Mugwort Decoction
+c E Jiao : 6 g ; Ai Ye : 9 g ; Dang Gui : 9 g ; Chuan Xiong : 6 g ; Bai Shao : 12 g ; Shu Di Huang : 15 g ; Gan Cao : 6 g
+a Nourrit le Sang, arrête les saignements, réchauffe l'Utérus. || Nourishes Blood, stops bleeding, warms the Uterus.
+i règles trop longues, sang pâle ; petits saignements entre les règles ; bas-ventre froid || overly long periods with pale blood; spotting between periods; cold lower belly
+t rt-sang, froid-uterus
+x Saignements de Chaleur (sang rouge vif abondant) ; tout saignement inhabituel doit être vu par un médecin. || Bleeding from Heat (abundant bright red blood); any unusual bleeding must be seen by a doctor.
+
+@huai-jiao-wan | Huai Jiao Wan | 槐角丸 | sang | cal
+n Pilules de gousse de Sophora || Sophora Fruit Pill
+c Huai Jiao : 15 g ; Di Yu : 9 g ; Dang Gui : 9 g ; Fang Feng : 9 g ; Huang Qin : 9 g ; Zhi Ke : 9 g
+a Clarifie la Chaleur de l'Intestin, rafraîchit le Sang, arrête les saignements. || Clears intestinal Heat, cools the Blood, stops bleeding.
+i hémorroïdes qui saignent ; sang rouge vif dans les selles ; brûlure anale ; constipation || bleeding hemorrhoids; bright red blood in the stool; anal burning; constipation
+t gi-humidite-chaleur, gi-secheresse
+x Saignements de Vide ; tout sang dans les selles doit être vu par un médecin. || Deficiency bleeding; any blood in the stool must be seen by a doctor.
+
+@dan-shen-pian | Dan Shen Pian | 丹参片 | sang | cal, pv
+n Comprimés de Sauge chinoise || Salvia Tablets
+c Dan Shen : 3 g
+a Active le Sang, dissout la stase, calme le Cœur. || Invigorates Blood, dispels stasis, calms the Heart.
+i oppression de poitrine ; douleurs fixes ; règles avec caillots ; circulation difficile || chest oppression; fixed pains; clotted periods; poor circulation
+t stase-sang
+x Anticoagulants (risque de saignement), grossesse, règles abondantes. || Anticoagulants (bleeding risk), pregnancy, heavy periods.
+
+@fu-fang-dan-shen | Fu Fang Dan Shen Pian | 复方丹参片 | sang | cal
+n Comprimés composés de Sauge chinoise || Compound Salvia Tablets
+c Dan Shen : 9 g ; San Qi : 3 g ; Bing Pian : 0,2 g
+a Active le Sang, dissout la stase, fait circuler le Qi, calme la douleur de poitrine. || Invigorates Blood, dispels stasis, moves Qi, eases chest pain.
+i oppression et douleur de poitrine ; palpitations ; lèvres violacées || chest oppression and pain; palpitations; purplish lips
+t stase-sang
+x Anticoagulants, grossesse ; toute douleur de poitrine doit être vue en urgence. || Anticoagulants, pregnancy; any chest pain needs urgent medical care.
+
+@shu-jin-huo-xue-pian | Shu Jin Huo Xue Pian | 舒筋活血片 | sang | cal
+n Comprimés qui détendent les tendons et activent le Sang || Relax the Sinews and Invigorate the Blood Tablets
+c Ji Xue Teng : 882 mg ; Hong Hua : 529 mg ; Sang Ji Sheng : 529 mg ; Ze Lan : 529 mg ; Xiang Fu : 529 mg
+a Active le Sang et le Qi, chasse le Vent-Humidité, assouplit les tendons. || Moves Blood and Qi, dispels Wind-Damp, makes the tendons supple.
+i raideurs ; douleurs musculaires ou articulaires au froid humide ; engourdissements || stiffness; muscle or joint pain in cold damp weather; numbness
+t bi-humidite, stase-sang
+x Grossesse, anticoagulants. || Pregnancy, anticoagulants.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+# Chassent ou apaisent le Vent
+@tian-ma-gou-teng-yin | Tian Ma Gou Teng Yin | 天麻钩藤饮 | vent | cal
+n Boisson Gastrodia et Uncaria || Gastrodia and Uncaria Drink
+c Tian Ma : 9 g ; Gou Teng : 12 g ; Shi Jue Ming : 18 g ; Zhi Zi : 9 g ; Huang Qin : 9 g ; Chuan Niu Xi : 12 g ; Du Zhong : 9 g ; Yi Mu Cao : 9 g ; Sang Ji Sheng : 9 g ; Ye Jiao Teng : 9 g ; Fu Shen : 9 g
+a Apaise le Foie, éteint le Vent, clarifie la Chaleur, nourrit le Foie et le Rein. || Calms the Liver, extinguishes Wind, clears Heat, nourishes the Liver and Kidney.
+i maux de tête pulsatiles ; vertiges ; acouphènes ; tension qui monte ; insomnie ; irritabilité ; tremblements légers || throbbing headaches; dizziness; tinnitus; rising blood pressure; insomnia; irritability; slight tremors
+t f-yang, foie-rein-yin
+x Grossesse ; hypertension : ne remplace pas le traitement médical. || Pregnancy; hypertension: does not replace medical treatment.
+o Calebasse : Tian Ma Gou Teng Wan. || Calebasse: Tian Ma Gou Teng Wan.
+
+@zhen-gan-xi-feng-tang | Zhen Gan Xi Feng Tang | 镇肝熄风汤 | vent |
+n Décoction qui stabilise le Foie et éteint le Vent || Sedate the Liver and Extinguish Wind Decoction
+c Huai Niu Xi : 30 g ; Dai Zhe Shi : 30 g ; Long Gu : 15 g ; Mu Li : 15 g ; Gui Ban : 15 g ; Bai Shao : 15 g ; Xuan Shen : 15 g ; Tian Men Dong : 15 g ; Chuan Lian Zi : 6 g ; Mai Ya : 6 g ; Yin Chen : 6 g ; Gan Cao : 5 g
+a Fait descendre le Yang du Foie, éteint le Vent, nourrit le Yin. || Anchors Liver Yang, extinguishes Wind, nourishes Yin.
+i vertiges forts ; acouphènes ; maux de tête avec sensation de chaleur ; visage rouge ; tension élevée || severe dizziness; tinnitus; headache with a hot feeling; red face; high blood pressure
+t f-yang
+x Grossesse, digestion faible ; tout signe d'accident vasculaire (bouche déviée, faiblesse d'un côté, parole difficile) : appeler le 15. || Pregnancy, weak digestion; any sign of stroke (drooping mouth, one-sided weakness, slurred speech): call emergency services.
+
+@ban-xia-bai-zhu-tian-ma-tang | Ban Xia Bai Zhu Tian Ma Tang | 半夏白术天麻汤 | vent |
+n Décoction Pinellia, Atractylode et Gastrodia || Pinellia, Atractylodes and Gastrodia Decoction
+c Ban Xia : 9 g ; Tian Ma : 6 g ; Fu Ling : 6 g ; Ju Hong : 6 g ; Bai Zhu : 15 g ; Gan Cao : 4 g ; Sheng Jiang : 3 g ; Da Zao : 2 pièces
+a Transforme les Mucosités, éteint le Vent, renforce la Rate. || Transforms Phlegm, extinguishes Wind, strengthens the Spleen.
+i vertiges avec nausées ; tête lourde comme serrée ; oppression ; glaires ; enduit blanc et gras || dizziness with nausea; heavy, tight head; chest oppression; phlegm; white greasy coating
+t p-mucosites-humidite, rt-froid-humidite
+x Vertiges de Vide de Yin ou de Sang. || Dizziness from Yin or Blood deficiency.
+
+@qing-kong-tang | Qing Kong Tang | 清空膏 | vent | cal
+n Pâte qui dégage le haut || Clear the Upper Pass Paste
+c Huang Qin : 9 g ; Huang Lian : 6 g ; Qiang Huo : 6 g ; Fang Feng : 6 g ; Chai Hu : 6 g ; Chuan Xiong : 6 g ; Zhi Gan Cao : 6 g
+a Chasse le Vent, clarifie la Chaleur, calme les maux de tête. || Dispels Wind, clears Heat, relieves headache.
+i maux de tête chroniques des tempes ou du front avec sensation de chaleur ; migraines ; yeux rouges || chronic headaches of the temples or forehead with a hot feeling; migraines; red eyes
+t f-feu, f-yang
+x Maux de tête de Vide ou de Froid. || Headaches from deficiency or Cold.
+
+@pian-tou-tong-wan | Pian Tou Tong Wan | 偏头痛丸 | vent | cal
+n Pilules contre la migraine || Migraine Pills
+c Man Jing Zi : 560 mg ; Dang Gui : 560 mg ; Fang Feng : 530 mg ; Du Huo : 380 mg ; Bo He : 380 mg ; Bai Zhi : 380 mg ; Chuan Xiong : 230 mg
+a Chasse le Vent, fait circuler le Sang dans la tête, calme la douleur. || Dispels Wind, moves Blood in the head, eases pain.
+i migraines ; maux de tête d'un côté ; maux de tête au vent ou au froid || migraines; one-sided headaches; headaches brought on by wind or cold
+t bi-vent, p-vent-froid
+x Maux de tête de Yang du Foie avec tension élevée ; grossesse. || Liver Yang headaches with high blood pressure; pregnancy.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@jiang-ya-ping-pian | Jiang Ya Ping Pian | 降压平片 | vent | cal
+n Comprimés qui apaisent la tension || Calm the Pressure Tablets
+c Xia Ku Cao : 940 mg ; Huang Qin : 940 mg ; Ju Hua : 560 mg ; Huai Hua : 560 mg
+a Clarifie le Feu du Foie, apaise le Yang. || Clears Liver Fire, calms Yang.
+i tension qui monte avec maux de tête ; visage rouge ; yeux rouges ; irritabilité || rising blood pressure with headaches; red face; red eyes; irritability
+t f-yang, f-feu
+x Digestion faible ; ne remplace jamais un traitement contre l'hypertension. || Weak digestion; never replaces blood pressure medication.
+o Composition de Calebasse pour la dose du jour. || Calebasse composition for the daily dose.
+
+@jiang-ya-wan | Jiang Ya Wan | 降压丸 | vent | cal
+n Pilules qui font baisser la tension || Lower the Pressure Pills
+c Dan Shen : 330 mg ; Mu Dan Pi : 300 mg ; Huang Qin : 300 mg ; Zhi Zi : 300 mg ; Zhi Mu : 300 mg ; Long Dan Cao : 300 mg ; Shu Di Huang : 300 mg ; Niu Xi : 300 mg ; Xia Ku Cao : 300 mg ; Huai Hua : 300 mg
+a Clarifie le Feu du Foie, nourrit le Yin, fait descendre le Yang. || Clears Liver Fire, nourishes Yin, anchors Yang.
+i tension élevée avec chaleur ; vertiges ; maux de tête ; insomnie || high blood pressure with Heat; dizziness; headaches; insomnia
+t f-yang, foie-rein-yin
+x Digestion faible, grossesse ; ne remplace jamais un traitement contre l'hypertension. || Weak digestion, pregnancy; never replaces blood pressure medication.
+o Composition de Calebasse pour 6 g. || Calebasse composition for 6 g.

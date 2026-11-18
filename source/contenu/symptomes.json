@@ -188,6 +188,13 @@
    "alerte": "Des lèvres qui bleuissent d'un coup, avec essoufflement ou douleur dans la poitrine : appelle le 15."
   },
   {
+   "id": "ganglions",
+   "cat": "general",
+   "nom": "Ganglions gonflés (cou, aisselles, aine)",
+   "alerte": "Montre à un médecin tout ganglion qui dure plus de 3 semaines, qui grossit, qui est dur et ne bouge pas, ou qui s'accompagne de fièvre, de sueurs la nuit ou d'une perte de poids.",
+   "syn": "ganglion ganglions adénopathie boule dans le cou grosseur nodule kyste petite boule sous la peau glande gonflée"
+  },
+  {
    "id": "cephalee-front",
    "cat": "tete",
    "nom": "Mal de tête au front",
@@ -389,6 +396,12 @@
    "cat": "tete",
    "nom": "Gencives douloureuses ou qui saignent",
    "syn": "dents gingivite"
+  },
+  {
+   "id": "levres-seches",
+   "cat": "tete",
+   "nom": "Lèvres sèches, gercées",
+   "syn": "lèvres gercées craquelées qui pèlent sèches fendillées chéilite coin des lèvres"
   },
   {
    "id": "gout-amer",

@@ -827,7 +827,8 @@
     "enduit-pele",
     "centre-rouge",
     "langue-mince",
-    "sans-enduit"
+    "sans-enduit",
+    "levres-seches"
    ],
    "contre": [
     "enduit-blanc-epais",
@@ -952,7 +953,8 @@
     "langue-seche",
     "centre-rouge",
     "points-rouges",
-    "selles-noires"
+    "selles-noires",
+    "levres-seches"
    ],
    "contre": [
     "frilosite",

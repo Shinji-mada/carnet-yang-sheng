@@ -1,0 +1,375 @@
+# Libèrent la surface
+@gui-zhi-tang | Gui Zhi Tang | 桂枝汤 | surface | cal
+n Décoction de Cannelle || Cinnamon Twig Decoction
+c Gui Zhi : 9 g ; Bai Shao : 9 g ; Sheng Jiang : 9 g ; Da Zao : 4 pièces ; Zhi Gan Cao : 6 g
+a Libère les muscles, harmonise le Ying et le Wei (Nourricier et Défensif). || Releases the muscle layer, harmonizes Ying and Wei (nutritive and defensive Qi).
+i rhume avec frissons et petite transpiration qui ne soulage pas ; nuque raide ; nez qui coule clair ; sueurs spontanées d'un terrain fatigué || cold with chills and light sweating that brings no relief; stiff neck; clear runny nose; spontaneous sweating in a tired constitution
+t p-vent-froid
+x Fièvre forte sans transpiration, soif, gorge rouge (Chaleur). || High fever without sweating, thirst, red throat (Heat).
+
+@jing-fang-bai-du-san | Jing Fang Bai Du San | 荆防败毒散 | surface | cal
+n Poudre Jing Jie et Fang Feng contre les toxines || Schizonepeta and Saposhnikovia Powder to Overcome Pathogenic Influences
+c Jing Jie : 5 g ; Fang Feng : 5 g ; Qiang Huo : 5 g ; Du Huo : 5 g ; Chai Hu : 5 g ; Qian Hu : 5 g ; Chuan Xiong : 5 g ; Zhi Ke : 5 g ; Fu Ling : 5 g ; Jie Geng : 5 g ; Gan Cao : 3 g
+a Libère la surface, chasse le Vent-Froid et l'Humidité, calme les douleurs. || Releases the exterior, dispels Wind-Cold and Dampness, eases pain.
+i rhume ou début de grippe avec frissons ; courbatures, corps lourd ; mal de tête ; nez bouché ; toux sans fièvre forte || cold or onset of flu with chills; body aches and heaviness; headache; blocked nose; cough without high fever
+t p-vent-froid, bi-vent
+x Rhume de Chaleur (gorge rouge et douloureuse, fièvre, soif) ; Vide de Yin. || Wind-Heat colds (red sore throat, fever, thirst); Yin deficiency.
+
+@gan-mao-qing-re | Gan Mao Qing Re Chong Ji | 感冒清热颗粒 | surface | cal
+n Granulés qui clarifient la Chaleur du rhume || Common Cold Heat-Clearing Granules
+c Jing Jie Sui : 9 g ; Bo He : 3 g ; Fang Feng : 6 g ; Chai Hu : 6 g ; Zi Su Ye : 6 g ; Ge Gen : 9 g ; Jie Geng : 6 g ; Xing Ren : 6 g ; Bai Zhi : 6 g ; Ku Di Ding : 9 g ; Lu Gen : 9 g
+a Chasse le Vent, libère la surface, clarifie la Chaleur naissante. || Dispels Wind, releases the exterior, clears early Heat.
+i rhume avec frissons et petite fièvre ; mal de tête ; courbatures ; nez qui coule ; gorge sèche || cold with chills and mild fever; headache; body aches; runny nose; dry throat
+t p-vent-froid, p-vent-chaleur
+x Fièvre forte, gorge très enflammée (préférer Yin Qiao). || High fever, very inflamed throat (Yin Qiao is a better choice).
+
+@gan-mao-tui-re | Gan Mao Tui Re Chong Ji | 感冒退热颗粒 | surface | cal
+n Granulés qui font baisser la fièvre du rhume || Common Cold Fever-Reducing Granules
+c Da Qing Ye : 15 g ; Ban Lan Gen : 15 g ; Lian Qiao : 9 g ; Quan Shen : 9 g
+a Clarifie la Chaleur, élimine les toxines, rafraîchit la gorge. || Clears Heat, resolves toxicity, cools the throat.
+i rhume de Chaleur avec fièvre ; gorge rouge et douloureuse ; amygdales gonflées ; soif || Wind-Heat cold with fever; red sore throat; swollen tonsils; thirst
+t p-vent-chaleur
+x Rhume de Froid (frissons dominants, nez clair) ; digestion faible, selles molles (plantes très froides) ; cure courte. || Wind-Cold colds (chills dominate, clear nasal discharge); weak digestion, loose stools (very cold herbs); short courses only.
+
+@yin-qiao-san | Yin Qiao San | 银翘散 | surface | cal
+n Poudre Lonicera et Forsythia || Honeysuckle and Forsythia Powder
+c Jin Yin Hua : 15 g ; Lian Qiao : 15 g ; Jie Geng : 6 g ; Niu Bang Zi : 9 g ; Bo He : 6 g ; Dan Dou Chi : 5 g ; Jing Jie Sui : 5 g ; Dan Zhu Ye : 4 g ; Lu Gen : 15 g ; Gan Cao : 5 g
+a Libère la surface par le frais, clarifie la Chaleur, élimine les toxines. || Releases the exterior with cool herbs, clears Heat, resolves toxicity.
+i rhume ou grippe avec fièvre et peu de frissons ; gorge rouge et douloureuse ; soif ; toux ; mal de tête ; début d'angine || cold or flu with fever and few chills; red sore throat; thirst; cough; headache; early tonsillitis
+t p-vent-chaleur, peau-vent-chaleur
+x Rhume de Froid ; à prendre dès les premiers jours, cure courte. || Wind-Cold colds; take in the first days, short course.
+o Calebasse la propose sous les noms Yin Qiao Pian et Yin Qiao Jie Du Pian. || Calebasse sells it as Yin Qiao Pian and Yin Qiao Jie Du Pian.
+
+@sang-ju-yin | Sang Ju Yin | 桑菊饮 | surface |
+n Boisson Mûrier et Chrysanthème || Mulberry Leaf and Chrysanthemum Drink
+c Sang Ye : 8 g ; Ju Hua : 3 g ; Xing Ren : 6 g ; Lian Qiao : 5 g ; Bo He : 3 g ; Jie Geng : 6 g ; Lu Gen : 6 g ; Gan Cao : 3 g
+a Chasse le Vent-Chaleur, fait descendre le Qi du Poumon, calme la toux. || Dispels Wind-Heat, makes Lung Qi descend, stops cough.
+i toux sèche ou peu grasse au début d'un rhume ; petite fièvre ; gorge qui gratte ; légère soif || dry or slightly productive cough at the start of a cold; mild fever; scratchy throat; slight thirst
+t p-vent-chaleur
+x Toux de Froid (glaires blanches abondantes). || Cold-type cough (abundant white phlegm).
+
+@yu-ping-feng-san | Yu Ping Feng San | 玉屏风散 | surface | cal, pv
+n Poudre du paravent de jade || Jade Windscreen Powder
+c Huang Qi : 15 g ; Bai Zhu : 12 g ; Fang Feng : 6 g
+a Tonifie le Qi, consolide la surface (Qi défensif), arrête la transpiration. || Tonifies Qi, secures the exterior (defensive Qi), stops sweating.
+i rhumes à répétition ; transpiration au moindre effort ; peur des courants d'air ; allergies saisonnières sur terrain fatigué || recurrent colds; sweating at the slightest effort; aversion to drafts; seasonal allergies in a tired constitution
+t p-vide-qi, poumon-rate-qi
+x Rhume en cours avec fièvre (on traite d'abord le rhume) ; sueurs nocturnes de Vide de Yin. || An active cold with fever (treat the cold first); night sweats from Yin deficiency.
+
+@chuan-xiong-cha-tiao-san | Chuan Xiong Cha Tiao San | 川芎茶调散 | surface | pv
+n Poudre Livèche du Sichuan à prendre avec du thé vert || Ligusticum Powder Taken with Green Tea
+c Chuan Xiong : 12 g ; Jing Jie : 12 g ; Bai Zhi : 6 g ; Qiang Huo : 6 g ; Fang Feng : 5 g ; Xi Xin : 3 g ; Bo He : 12 g ; Gan Cao : 6 g
+a Chasse le Vent, calme les maux de tête. || Dispels Wind, relieves headache.
+i maux de tête dus au Vent (front, tempes, sommet) ; mal de tête du rhume ; migraine qui revient au froid ou au vent ; nez bouché || Wind headaches (forehead, temples, vertex); headache from a cold; migraines brought on by cold or wind; blocked nose
+t p-vent-froid, bi-vent
+x Maux de tête par Vide de Qi ou de Sang, ou par montée du Yang du Foie ; grossesse. || Headaches from Qi or Blood deficiency or rising Liver Yang; pregnancy.
+
+@bi-yan-pian | Bi Yan Pian | 鼻炎片 | surface | cal, pv
+n Comprimés pour le nez (Formule Respiration) || Nose Tablets (Respiration formula)
+c Cang Er Zi : 9 g ; Xin Yi : 9 g ; Fang Feng : 6 g ; Lian Qiao : 9 g ; Ye Ju Hua : 9 g ; Wu Wei Zi : 3 g ; Jie Geng : 6 g ; Bai Zhi : 6 g ; Zhi Mu : 6 g ; Jing Jie : 6 g ; Huang Bai : 6 g ; Gan Cao : 3 g
+a Chasse le Vent, débouche le nez, clarifie la Chaleur. || Dispels Wind, opens the nose, clears Heat.
+i nez bouché ; rhinite, sinusite ; écoulement épais ; éternuements ; perte de l'odorat || blocked nose; rhinitis, sinusitis; thick discharge; sneezing; loss of smell
+t p-vent-chaleur, p-vent-froid
+x Grossesse ; Cang Er Zi est légèrement toxique : pas de cure prolongée. || Pregnancy; Cang Er Zi is mildly toxic: no long courses.
+o Calebasse la vend sous le nom « Formule Respiration ». || Calebasse sells it as "Formule Respiration".
+
+@lian-hua-qing-wen | Lian Hua Qing Wen | 连花清瘟胶囊 | surface | cal
+n Gélules Forsythia et Lonicera contre les épidémies || Forsythia and Honeysuckle Epidemic-Clearing Capsules
+c Lian Qiao : 9 g ; Jin Yin Hua : 9 g ; Ma Huang : 3 g ; Xing Ren : 6 g ; Shi Gao : 15 g ; Ban Lan Gen : 9 g ; Guan Zhong : 6 g ; Yu Xing Cao : 9 g ; Huo Xiang : 6 g ; Da Huang : 3 g ; Hong Jing Tian : 6 g ; Bo He : 3 g ; Gan Cao : 3 g
+a Clarifie la Chaleur épidémique, élimine les toxines, libère le Poumon. || Clears epidemic Heat, resolves toxicity, opens the Lung.
+i grippe ou infection virale avec fièvre ; courbatures ; toux ; gorge douloureuse ; mal de tête || flu or viral infection with fever; body aches; cough; sore throat; headache
+t p-vent-chaleur
+x Contient du Ma Huang (éphédra) dans la formule chinoise : hypertension, troubles du rythme cardiaque, glaucome, insomnie ; grossesse ; digestion faible ; cure courte. || The Chinese formula contains Ma Huang (ephedra): hypertension, heart rhythm problems, glaucoma, insomnia; pregnancy; weak digestion; short course.
+o Vérifie l'étiquette : la version européenne peut être sans éphédra. || Check the label: the European version may be ephedra-free.
+
+@tong-xuan-li-fei | Tong Xuan Li Fei Wan | 通宣理肺丸 | surface | cal
+n Pilules qui ouvrent et régulent le Poumon || Lung-Opening and Regulating Pills
+c Zi Su Ye : 9 g ; Qian Hu : 6 g ; Jie Geng : 6 g ; Xing Ren : 6 g ; Ma Huang : 3 g ; Chen Pi : 6 g ; Ban Xia : 6 g ; Fu Ling : 6 g ; Zhi Ke : 6 g ; Huang Qin : 6 g ; Gan Cao : 3 g
+a Libère la surface, ouvre le Poumon, calme la toux. || Releases the exterior, opens the Lung, stops cough.
+i toux d'un rhume de Froid ; glaires claires ; nez bouché ; frissons, courbatures || cough with a Wind-Cold cold; clear phlegm; blocked nose; chills, body aches
+t p-vent-froid, p-mucosites-humidite
+x Contient du Ma Huang (éphédra) : hypertension, troubles cardiaques, insomnie ; grossesse ; toux sèche de Vide de Yin. || Contains Ma Huang (ephedra): hypertension, heart problems, insomnia; pregnancy; dry cough from Yin deficiency.
+
+@wu-shi-cha | Wu Shi Cha | 午时茶 | surface | cal
+n Thé de midi || Noon Tea
+c Cang Zhu : 6 g ; Chai Hu : 6 g ; Qiang Huo : 6 g ; Fang Feng : 6 g ; Bai Zhi : 6 g ; Chuan Xiong : 6 g ; Huo Xiang : 6 g ; Qian Hu : 6 g ; Lian Qiao : 6 g ; Chen Pi : 6 g ; Shan Zha : 6 g ; Zhi Shi : 6 g ; Mai Ya : 6 g ; Shen Qu : 6 g ; Jie Geng : 6 g ; Zi Su Ye : 6 g ; Hou Po : 6 g ; Hong Cha : 6 g ; Gan Cao : 3 g
+a Libère la surface, transforme l'Humidité, harmonise l'Estomac et fait digérer. || Releases the exterior, transforms Dampness, harmonizes the Stomach and aids digestion.
+i rhume avec troubles digestifs ; nausées ; ballonnements ; diarrhée ; repas trop lourd au début d'un rhume || cold with digestive upset; nausea; bloating; diarrhea; heavy meal at the start of a cold
+t p-vent-froid, e-stagnation-alimentaire
+x Vide de Yin, sécheresse ; grossesse. || Yin deficiency, dryness; pregnancy.
+
+@bao-ji-wan | Bao Ji Wan | 保济丸 | surface | cal
+n Pilules qui protègent et secourent (Po Chai) || Protecting and Rescuing Pills (Po Chai)
+c Gou Teng : 6 g ; Ju Hua : 6 g ; Bai Ji Li : 6 g ; Hou Po : 6 g ; Mu Xiang : 6 g ; Cang Zhu : 6 g ; Tian Hua Fen : 6 g ; Huo Xiang : 6 g ; Ge Gen : 6 g ; Ju Hong : 6 g ; Bai Zhi : 6 g ; Yi Yi Ren : 9 g ; Gu Ya : 6 g ; Bo He : 3 g ; Fu Ling : 9 g ; Shen Qu : 6 g
+a Chasse le Vent et l'Humidité, harmonise l'Estomac et l'Intestin. || Dispels Wind and Dampness, harmonizes the Stomach and Intestines.
+i gastro-entérite ; diarrhée du voyageur ; nausées, vomissements ; ballonnements ; mal des transports ; coup de chaleur humide || gastroenteritis; traveler's diarrhea; nausea, vomiting; bloating; motion sickness; damp summer-heat
+t rt-froid-humidite, e-stagnation-alimentaire, gi-humidite-chaleur
+x Grossesse ; diarrhée avec sang ou fièvre forte (consulter). || Pregnancy; bloody diarrhea or high fever (see a doctor).
+o Vendu sous le nom « Po Chai Pills ». || Sold as "Po Chai Pills".
+
+@huo-xiang-zheng-qi-san | Huo Xiang Zheng Qi San | 藿香正气散 | surface |
+n Poudre Agastache pour rétablir le Qi || Agastache Powder to Rectify the Qi
+c Huo Xiang : 9 g ; Zi Su Ye : 6 g ; Bai Zhi : 6 g ; Da Fu Pi : 6 g ; Fu Ling : 9 g ; Bai Zhu : 9 g ; Ban Xia : 9 g ; Chen Pi : 6 g ; Hou Po : 6 g ; Jie Geng : 6 g ; Zhi Gan Cao : 3 g
+a Libère la surface, transforme l'Humidité, harmonise le Centre, arrête les vomissements et la diarrhée. || Releases the exterior, transforms Dampness, harmonizes the Middle, stops vomiting and diarrhea.
+i gastro d'été avec frissons ; nausées, vomissements ; diarrhée ; ventre ballonné ; corps lourd ; enduit blanc et gras || summer stomach flu with chills; nausea, vomiting; diarrhea; bloated belly; heavy body; white greasy coating
+t rt-froid-humidite, gi-froid
+x Vide de Yin, Chaleur avec soif et langue rouge sans enduit. || Yin deficiency, Heat with thirst and a red tongue without coating.
+
+# Clarifient la Chaleur
+@huang-lian-jie-du-tang | Huang Lian Jie Du Tang | 黄连解毒汤 | chaleur |
+n Décoction de Coptis pour éliminer les toxines || Coptis Decoction to Resolve Toxicity
+c Huang Lian : 9 g ; Huang Qin : 6 g ; Huang Bai : 6 g ; Zhi Zi : 9 g
+a Clarifie le Feu dans les trois Réchauffeurs, élimine les toxines. || Drains Fire from all three Burners, resolves toxicity.
+i Chaleur forte : agitation, insomnie ; bouche sèche ; furoncles, boutons purulents ; saignements de nez ; urines foncées || intense Heat: agitation, insomnia; dry mouth; boils, pus-filled pimples; nosebleeds; dark urine
+t c-feu, peau-chaleur-sang, f-feu
+x Très froide et amère : jamais en cure longue ; digestion faible, Vide de Yin ; grossesse. || Very cold and bitter: never as a long course; weak digestion, Yin deficiency; pregnancy.
+
+@qing-wei-san | Qing Wei San | 清胃散 | chaleur |
+n Poudre qui clarifie l'Estomac || Clear the Stomach Powder
+c Huang Lian : 6 g ; Sheng Di Huang : 12 g ; Mu Dan Pi : 9 g ; Dang Gui : 6 g ; Sheng Ma : 6 g
+a Clarifie le Feu de l'Estomac, rafraîchit le Sang. || Clears Stomach Fire, cools the Blood.
+i gencives gonflées, douloureuses ou qui saignent ; mal de dents qui irradie à la tête ; mauvaise haleine ; lèvres sèches ; aphtes ; acné du bas du visage || swollen, painful or bleeding gums; toothache spreading to the head; bad breath; dry lips; mouth ulcers; acne on the lower face
+t e-feu, peau-chaleur-sang
+x Mal de dents de Froid ou de Vide ; digestion faible. || Toothache from Cold or deficiency; weak digestion.
+
+@yu-nu-jian | Yu Nü Jian | 玉女煎 | chaleur |
+n Décoction de la Femme de jade || Jade Woman Decoction
+c Shi Gao : 15 g ; Shu Di Huang : 15 g ; Zhi Mu : 5 g ; Mai Men Dong : 6 g ; Niu Xi : 5 g
+a Clarifie la Chaleur de l'Estomac, nourrit le Yin du Rein. || Clears Stomach Heat, nourishes Kidney Yin.
+i gencives qui saignent ; dents qui se déchaussent ; soif ; bouche et lèvres sèches ; maux de tête ; faim excessive avec terrain sec || bleeding gums; loose teeth; thirst; dry mouth and lips; headache; excessive hunger in a dry constitution
+t e-vide-yin, e-feu
+x Diarrhée, digestion faible. || Diarrhea, weak digestion.
+
+@xie-huang-san | Xie Huang San | 泻黄散 | chaleur |
+n Poudre qui draine le Jaune (la Rate) || Drain the Yellow Powder
+c Huo Xiang : 9 g ; Zhi Zi : 6 g ; Shi Gao : 15 g ; Fang Feng : 9 g ; Gan Cao : 6 g
+a Clarifie la Chaleur latente de la Rate et de l'Estomac. || Clears smoldering Heat from the Spleen and Stomach.
+i lèvres sèches, rouges ou gercées ; aphtes ; mauvaise haleine ; soif ; faim fréquente ; langue rouge || dry, red or chapped lips; mouth ulcers; bad breath; thirst; frequent hunger; red tongue
+t e-feu, rt-humidite-chaleur
+x Lèvres sèches par Vide de Yin sans Chaleur ; digestion faible. || Dry lips from Yin deficiency without Heat; weak digestion.
+
+@dao-chi-san | Dao Chi San | 导赤散 | chaleur |
+n Poudre qui fait descendre le Rouge || Guide Out the Red Powder
+c Sheng Di Huang : 9 g ; Tong Cao : 6 g ; Dan Zhu Ye : 6 g ; Gan Cao : 6 g
+a Clarifie le Feu du Cœur et le fait sortir par les urines, nourrit le Yin. || Clears Heart Fire and drains it out through the urine, nourishes Yin.
+i aphtes, plaies sur la langue ; agitation ; insomnie ; visage rouge ; urines foncées qui brûlent || ulcers on the mouth or tongue; agitation; insomnia; red face; dark burning urine
+t c-feu, v-humidite-chaleur
+x Digestion faible. || Weak digestion.
+o La formule ancienne contient Mu Tong ; on la remplace par Tong Cao (les Aristoloches sont interdites). || The original formula uses Mu Tong; it is replaced by Tong Cao (Aristolochia species are banned).
+
+@long-dan-xie-gan-tang | Long Dan Xie Gan Tang | 龙胆泻肝汤 | chaleur | cal
+n Décoction de Gentiane qui draine le Foie || Gentian Decoction to Drain the Liver
+c Long Dan Cao : 6 g ; Huang Qin : 9 g ; Zhi Zi : 9 g ; Ze Xie : 12 g ; Tong Cao : 6 g ; Che Qian Zi : 9 g ; Dang Gui : 3 g ; Sheng Di Huang : 9 g ; Chai Hu : 6 g ; Gan Cao : 6 g
+a Draine le Feu du Foie et de la Vésicule biliaire, élimine l'Humidité-Chaleur du bas. || Drains Liver and Gallbladder Fire, clears Damp-Heat from the lower body.
+i maux de tête, yeux rouges ; goût amer ; colère, irritabilité ; acouphènes ; démangeaisons ou pertes jaunes des organes génitaux ; urines qui brûlent ; herpès, zona || headache, red eyes; bitter taste; anger, irritability; tinnitus; genital itching or yellow discharge; burning urination; herpes, shingles
+t f-feu, f-humidite-chaleur, f-humidite-bas
+x Très froide : cure courte (2 à 3 semaines) ; digestion faible ; grossesse. || Very cold: short course (2 to 3 weeks); weak digestion; pregnancy.
+o Mu Tong remplacé par Tong Cao (Aristoloches interdites). || Mu Tong replaced by Tong Cao (Aristolochia banned).
+
+@xie-bai-san | Xie Bai San | 泻白散 | chaleur |
+n Poudre qui draine le Blanc (le Poumon) || Drain the White Powder
+c Sang Bai Pi : 15 g ; Di Gu Pi : 15 g ; Zhi Gan Cao : 3 g ; Geng Mi : 15 g
+a Clarifie la Chaleur du Poumon, calme la toux et l'essoufflement. || Clears Lung Heat, stops cough and wheezing.
+i toux sèche avec chaleur de la peau l'après-midi ; essoufflement ; acné du front et du nez par Chaleur du Poumon || dry cough with skin heat in the afternoon; wheezing; acne of the forehead and nose from Lung Heat
+t p-mucosites-chaleur, p-vide-yin
+x Toux de Froid ou rhume en cours. || Cold-type cough or an active cold.
+
+@pi-pa-qing-fei-yin | Pi Pa Qing Fei Yin | 枇杷清肺饮 | chaleur | cal
+n Boisson à la feuille de néflier qui clarifie le Poumon || Loquat Leaf Drink to Clear the Lung
+c Pi Pa Ye : 9 g ; Sang Bai Pi : 9 g ; Huang Lian : 6 g ; Huang Bai : 6 g ; Ren Shen : 3 g ; Gan Cao : 3 g
+a Clarifie la Chaleur du Poumon et de l'Estomac qui monte au visage. || Clears Lung and Stomach Heat rising to the face.
+i acné rouge du visage, du nez et du front ; peau grasse ; rougeurs ; petite soif || red acne of the face, nose and forehead; oily skin; redness; slight thirst
+t peau-chaleur-sang, e-feu
+x Acné pâle et froide d'un terrain fatigué ; digestion faible. || Pale, cold acne in a tired constitution; weak digestion.
+
+@wu-wei-xiao-du-yin | Wu Wei Xiao Du Yin | 五味消毒饮 | chaleur |
+n Boisson des cinq ingrédients qui éliminent les toxines || Five-Ingredient Decoction to Eliminate Toxins
+c Jin Yin Hua : 15 g ; Ye Ju Hua : 6 g ; Pu Gong Ying : 6 g ; Zi Hua Di Ding : 6 g ; Zi Bei Tian Kui : 6 g
+a Clarifie la Chaleur, élimine les toxines, fait résorber les abcès. || Clears Heat, resolves toxicity, reduces abscesses.
+i furoncles ; boutons avec du pus ; abcès débutants ; acné inflammatoire || boils; pus-filled pimples; early abscesses; inflammatory acne
+t peau-chaleur-sang
+x Abcès sans Chaleur ; digestion faible ; consulter pour toute rougeur qui s'étend ou fièvre. || Abscesses without Heat; weak digestion; see a doctor for spreading redness or fever.
+
+@xiao-feng-san | Xiao Feng San | 消风散 | chaleur |
+n Poudre qui dissipe le Vent || Eliminate Wind Powder
+c Dang Gui : 6 g ; Sheng Di Huang : 6 g ; Fang Feng : 6 g ; Chan Tui : 6 g ; Zhi Mu : 6 g ; Ku Shen : 6 g ; Hei Zhi Ma : 6 g ; Jing Jie : 6 g ; Cang Zhu : 6 g ; Niu Bang Zi : 6 g ; Shi Gao : 6 g ; Tong Cao : 3 g ; Gan Cao : 3 g
+a Chasse le Vent, clarifie la Chaleur et l'Humidité, nourrit le Sang, calme les démangeaisons. || Dispels Wind, clears Heat and Dampness, nourishes Blood, stops itching.
+i eczéma ; urticaire ; démangeaisons ; plaques rouges qui suintent ; poussées après aliments épicés || eczema; hives; itching; red weeping patches; flare-ups after spicy food
+t peau-vent-chaleur, peau-humidite-chaleur
+x Digestion faible ; éviter poisson, alcool, épices pendant la cure. || Weak digestion; avoid fish, alcohol and spices during the course.
+
+@dang-gui-yin-zi | Dang Gui Yin Zi | 当归饮子 | sang |
+n Boisson à l'Angélique chinoise || Tangkuei Drink
+c Dang Gui : 9 g ; Bai Shao : 9 g ; Chuan Xiong : 9 g ; Sheng Di Huang : 9 g ; Bai Ji Li : 9 g ; Fang Feng : 9 g ; Jing Jie : 9 g ; He Shou Wu : 6 g ; Huang Qi : 6 g ; Gan Cao : 3 g
+a Nourrit le Sang, chasse le Vent, calme les démangeaisons. || Nourishes Blood, dispels Wind, stops itching.
+i peau sèche qui démange, surtout la nuit ; squames fines ; eczéma chronique sec ; démangeaisons de la personne âgée || dry itchy skin, worse at night; fine scales; chronic dry eczema; itching in older people
+t peau-vide-sang
+x Plaques rouges et suintantes (Chaleur-Humidité). || Red, weeping patches (Damp-Heat).
+
+@shi-du-qing | Shi Du Qing Jiao Nang | 湿毒清胶囊 | chaleur | cal
+n Gélules qui éliminent l'Humidité toxique || Damp-Toxin Clearing Capsules
+c Shu Di Huang : 620 mg ; Dang Gui : 620 mg ; Dan Shen : 620 mg ; Tu Fu Ling : 520 mg ; Huang Qin : 310 mg ; Gan Cao : 310 mg
+a Nourrit le Sang, humidifie la sécheresse, élimine l'Humidité toxique de la peau. || Nourishes Blood, moistens dryness, clears damp toxicity from the skin.
+i démangeaisons de la peau sèche ; eczéma chronique ; peau terne et irritée || itching of dry skin; chronic eczema; dull, irritated skin
+t peau-vide-sang, peau-humidite-chaleur
+x Grossesse ; digestion faible (diarrhée). || Pregnancy; weak digestion (diarrhea).
+o Composition de Calebasse pour la dose du jour (version simplifiée de la formule chinoise). || Calebasse composition for the daily dose (a simplified version of the Chinese formula).
+
+@bai-hu-tang | Bai Hu Tang | 白虎汤 | chaleur |
+n Décoction du Tigre blanc || White Tiger Decoction
+c Shi Gao : 30 g ; Zhi Mu : 9 g ; Zhi Gan Cao : 3 g ; Geng Mi : 9 g
+a Clarifie la Chaleur de l'Estomac et du Poumon, génère les liquides. || Clears Heat from the Stomach and Lung, generates fluids.
+i forte chaleur ; grande soif d'eau fraîche ; transpiration abondante ; visage rouge ; pouls large || high fever; great thirst for cool water; profuse sweating; red face; flooding pulse
+t e-feu
+x Fièvre sans soif ni transpiration ; Vide de Yang ; à réserver à un praticien. || Fever without thirst or sweating; Yang deficiency; for practitioners only.
+
+@ge-gen-qin-lian-tang | Ge Gen Qin Lian Tang | 葛根芩连汤 | chaleur |
+n Décoction Kudzu, Scutellaire et Coptis || Kudzu, Scutellaria and Coptis Decoction
+c Ge Gen : 15 g ; Huang Qin : 9 g ; Huang Lian : 9 g ; Zhi Gan Cao : 6 g
+a Clarifie l'Humidité-Chaleur des intestins, arrête la diarrhée. || Clears Damp-Heat from the intestines, stops diarrhea.
+i diarrhée chaude, malodorante, urgente ; brûlure de l'anus ; fièvre légère ; soif || hot, foul-smelling, urgent diarrhea; burning anus; mild fever; thirst
+t gi-humidite-chaleur
+x Diarrhée de Froid ou de Vide ; consulter si sang ou fièvre forte. || Cold or deficiency diarrhea; see a doctor if there is blood or high fever.
+
+@bai-tou-weng-tang | Bai Tou Weng Tang | 白头翁汤 | chaleur |
+n Décoction de Pulsatille || Pulsatilla Decoction
+c Bai Tou Weng : 15 g ; Huang Bai : 12 g ; Huang Lian : 6 g ; Qin Pi : 12 g
+a Clarifie la Chaleur toxique, rafraîchit le Sang, arrête la dysenterie. || Clears toxic Heat, cools the Blood, stops dysentery.
+i diarrhée avec glaires ou sang ; envies pressantes ; brûlure de l'anus ; soif || diarrhea with mucus or blood; urgency; burning anus; thirst
+t gi-humidite-chaleur
+x Diarrhée de Froid ; toute diarrhée avec sang doit être vue par un médecin. || Cold-type diarrhea; any diarrhea with blood must be seen by a doctor.
+
+@xiang-lian-wan | Xiang Lian Wan | 香连丸 | chaleur | cal
+n Pilules Aucklandia et Coptis || Aucklandia and Coptis Pills
+c Huang Lian : 20 g ; Mu Xiang : 5 g
+a Clarifie l'Humidité-Chaleur des intestins, fait circuler le Qi, calme les douleurs. || Clears intestinal Damp-Heat, moves Qi, eases pain.
+i diarrhée chaude avec crampes ; envies pressantes ; ballonnements ; colite || hot diarrhea with cramps; urgency; bloating; colitis
+t gi-humidite-chaleur
+x Diarrhée de Froid ou de Vide. || Cold or deficiency diarrhea.
+o Proportions de la poudre (4 parts de Coptis pour 1 d'Aucklandia). || Powder proportions (4 parts Coptis to 1 part Aucklandia).
+
+# Purgent et humidifient les intestins
+@ma-zi-ren-wan | Ma Zi Ren Wan | 麻子仁丸 | purger | pv
+n Pilules aux graines de chanvre || Hemp Seed Pills
+c Huo Ma Ren : 20 g ; Bai Shao : 9 g ; Zhi Shi : 9 g ; Da Huang : 9 g ; Hou Po : 9 g ; Xing Ren : 9 g
+a Humidifie les intestins, fait descendre, libère les selles. || Moistens the intestines, promotes descent, frees the stools.
+i constipation avec selles sèches et dures ; urines fréquentes ; constipation des personnes âgées ou après une maladie || constipation with dry, hard stools; frequent urination; constipation in older people or after an illness
+t gi-secheresse
+x Grossesse ; constipation de Vide de Qi ou de Froid ; pas en continu. || Pregnancy; constipation from Qi deficiency or Cold; not for continuous use.
+
+@run-chang-wan | Run Chang Wan | 润肠丸 | purger | cal
+n Pilules qui humidifient les intestins || Moisten the Intestines Pills
+c Dang Gui : 9 g ; Sheng Di Huang : 12 g ; Huo Ma Ren : 12 g ; Tao Ren : 9 g ; Zhi Ke : 6 g
+a Nourrit le Sang, humidifie les intestins, libère les selles. || Nourishes Blood, moistens the intestines, frees the stools.
+i constipation avec selles sèches ; peau et bouche sèches ; constipation après un accouchement ou chez la personne âgée || constipation with dry stools; dry skin and mouth; constipation after childbirth or in older people
+t gi-secheresse, f-vide-sang
+x Grossesse (Tao Ren) ; diarrhée. || Pregnancy (Tao Ren); diarrhea.
+
+@zeng-ye-tang | Zeng Ye Tang | 增液汤 | purger |
+n Décoction qui augmente les liquides || Increase the Fluids Decoction
+c Xuan Shen : 30 g ; Mai Men Dong : 24 g ; Sheng Di Huang : 24 g
+a Nourrit le Yin, génère les liquides, humidifie les intestins. || Nourishes Yin, generates fluids, moistens the intestines.
+i constipation sèche ; bouche et lèvres sèches ; soif ; langue rouge et sèche || dry constipation; dry mouth and lips; thirst; red, dry tongue
+t gi-secheresse, e-vide-yin
+x Digestion faible, selles molles. || Weak digestion, loose stools.
+
+@ji-chuan-jian | Ji Chuan Jian | 济川煎 | purger |
+n Décoction qui aide à traverser la rivière || Benefit the River Decoction
+c Dang Gui : 12 g ; Niu Xi : 6 g ; Rou Cong Rong : 9 g ; Ze Xie : 5 g ; Sheng Ma : 3 g ; Zhi Ke : 3 g
+a Réchauffe le Rein, nourrit le Sang, humidifie les intestins. || Warms the Kidney, nourishes Blood, moistens the intestines.
+i constipation de la personne âgée ou fatiguée ; froid des lombes ; urines claires et abondantes || constipation in older or tired people; cold lower back; abundant clear urine
+t gi-constipation-vide, rn-vide-yang
+x Constipation de Chaleur. || Constipation from Heat.
+
+# Harmonisent
+@xiao-chai-hu-tang | Xiao Chai Hu Tang | 小柴胡汤 | harmoniser |
+n Petite décoction de Buplèvre || Minor Bupleurum Decoction
+c Chai Hu : 12 g ; Huang Qin : 9 g ; Ren Shen : 6 g ; Ban Xia : 9 g ; Zhi Gan Cao : 5 g ; Sheng Jiang : 9 g ; Da Zao : 4 pièces
+a Harmonise le Shao Yang, entre l'extérieur et l'intérieur. || Harmonizes the Shao Yang, between exterior and interior.
+i alternance de frissons et de chaleur ; goût amer ; gorge sèche ; nausées ; oppression sous les côtes ; rhume qui traîne ; fatigue après une infection || alternating chills and fever; bitter taste; dry throat; nausea; fullness under the ribs; lingering cold; fatigue after an infection
+t vb-mucosites, foie-estomac, f-stagnation-qi
+x Vide de Yin avec Feu ; hypertension (Chai Hu en grande dose). || Yin deficiency with Fire; hypertension (high-dose Chai Hu).
+
+@si-ni-san | Si Ni San | 四逆散 | harmoniser | cal
+n Poudre des quatre membres froids || Frigid Extremities Powder
+c Chai Hu : 6 g ; Bai Shao : 9 g ; Zhi Shi : 6 g ; Zhi Gan Cao : 6 g
+a Libère le Qi du Foie, harmonise le Foie et la Rate. || Spreads Liver Qi, harmonizes the Liver and Spleen.
+i mains et pieds froids avec stress (le Qi bloqué ne va plus aux extrémités) ; douleurs sous les côtes ; ventre tendu ; troubles digestifs liés aux émotions || cold hands and feet with stress (blocked Qi no longer reaches the limbs); pain under the ribs; tense belly; digestive troubles tied to emotions
+t f-stagnation-qi, foie-rate
+x Mains froides par Vide de Yang ; Vide de Yin. || Cold hands from Yang deficiency; Yin deficiency.
+
+@xiao-yao-san | Xiao Yao San | 逍遥散 | harmoniser | cal, pv
+n Poudre de la libre promenade || Free and Easy Wanderer Powder
+c Chai Hu : 9 g ; Dang Gui : 9 g ; Bai Shao : 9 g ; Bai Zhu : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 5 g ; Sheng Jiang : 3 g ; Bo He : 3 g
+a Libère le Qi du Foie, renforce la Rate, nourrit le Sang. || Spreads Liver Qi, strengthens the Spleen, nourishes Blood.
+i stress, irritabilité, humeur changeante ; seins tendus avant les règles ; règles irrégulières ; fatigue ; appétit irrégulier ; soupirs || stress, irritability, mood swings; breast tenderness before periods; irregular periods; fatigue; irregular appetite; sighing
+t f-stagnation-qi, foie-rate, f-vide-sang
+x Vide de Yin avec Chaleur marquée ; hypertension par montée du Yang du Foie. || Yin deficiency with marked Heat; hypertension from rising Liver Yang.
+
+@jia-wei-xiao-yao-san | Jia Wei Xiao Yao San | 加味逍遥散 | harmoniser | cal, pv
+n Poudre de la libre promenade augmentée (Dan Zhi Xiao Yao San) || Augmented Free and Easy Wanderer Powder (Dan Zhi Xiao Yao San)
+c Chai Hu : 9 g ; Dang Gui : 9 g ; Bai Shao : 9 g ; Bai Zhu : 9 g ; Fu Ling : 9 g ; Zhi Gan Cao : 5 g ; Mu Dan Pi : 6 g ; Zhi Zi : 6 g ; Sheng Jiang : 3 g ; Bo He : 3 g
+a Libère le Qi du Foie, clarifie la Chaleur, nourrit le Sang, renforce la Rate. || Spreads Liver Qi, clears Heat, nourishes Blood, strengthens the Spleen.
+i stress qui chauffe : irritabilité, bouffées de chaleur ; règles en avance ; seins tendus ; acné avant les règles ; bouche sèche ; insomnie || stress turning to Heat: irritability, hot flushes; early periods; breast tenderness; acne before periods; dry mouth; insomnia
+t f-stagnation-qi, femme-chaleur-sang, f-feu, peau-chaleur-sang
+x Digestion faible avec selles molles ; grossesse sans avis. || Weak digestion with loose stools; pregnancy without advice.
+o Calebasse la propose sous les deux noms (Dan Zhi Xiao Yao San et Jia Wei Xiao Yao San). || Calebasse sells it under both names (Dan Zhi Xiao Yao San and Jia Wei Xiao Yao San).
+
+@chai-hu-shu-gan-san | Chai Hu Shu Gan San | 柴胡疏肝散 | qi | cal, pv
+n Poudre de Buplèvre qui libère le Foie || Bupleurum Powder to Spread the Liver
+c Chai Hu : 6 g ; Chen Pi : 6 g ; Chuan Xiong : 5 g ; Xiang Fu : 5 g ; Zhi Ke : 5 g ; Bai Shao : 5 g ; Zhi Gan Cao : 2 g
+a Libère le Qi du Foie, fait circuler le Qi, calme la douleur. || Spreads Liver Qi, moves Qi, eases pain.
+i douleurs ou tension sous les côtes ; oppression ; soupirs ; ballonnements ; seins tendus ; humeur sombre || pain or tension under the ribs; chest oppression; sighing; bloating; breast tenderness; low mood
+t f-stagnation-qi, foie-estomac, p-stagnation-qi
+x Vide de Yin ; grossesse sans avis. || Yin deficiency; pregnancy without advice.
+o Calebasse : Chai Hu Shu Gan Wan ; Planeta Verd : Chai Hu Shu Gan Pian. || Calebasse: Chai Hu Shu Gan Wan; Planeta Verd: Chai Hu Shu Gan Pian.
+
+@chai-hu-gui-zhi-tang | Chai Hu Gui Zhi Tang | 柴胡桂枝汤 | harmoniser | cal
+n Décoction Buplèvre et Cannelle || Bupleurum and Cinnamon Twig Decoction
+c Chai Hu : 12 g ; Gui Zhi : 5 g ; Huang Qin : 5 g ; Ren Shen : 5 g ; Ban Xia : 6 g ; Bai Shao : 5 g ; Zhi Gan Cao : 3 g ; Sheng Jiang : 5 g ; Da Zao : 4 pièces
+a Harmonise le Shao Yang, libère la surface, détend les muscles. || Harmonizes the Shao Yang, releases the exterior, relaxes the muscles.
+i rhume qui traîne avec courbatures ; douleurs d'estomac liées au stress ; nausées ; frissons légers || lingering cold with body aches; stress-related stomach pain; nausea; mild chills
+t foie-estomac, p-vent-froid
+x Vide de Yin avec Chaleur. || Yin deficiency with Heat.
+
+@chai-hu-gui-zhi-gan-jiang | Chai Hu Gui Zhi Gan Jiang Tang | 柴胡桂枝干姜汤 | harmoniser | cal
+n Décoction Buplèvre, Cannelle et Gingembre sec || Bupleurum, Cinnamon Twig and Ginger Decoction
+c Chai Hu : 12 g ; Gui Zhi : 9 g ; Gan Jiang : 6 g ; Tian Hua Fen : 12 g ; Huang Qin : 9 g ; Mu Li : 6 g ; Zhi Gan Cao : 6 g
+a Harmonise le Shao Yang, réchauffe la Rate, clarifie la Chaleur du haut. || Harmonizes the Shao Yang, warms the Spleen, clears Heat above.
+i chaleur en haut et froid en bas : bouche sèche, goût amer, et selles molles ; transpiration de la tête ; fatigue ; oppression sous les côtes || heat above and cold below: dry mouth, bitter taste, with loose stools; sweating of the head; fatigue; fullness under the ribs
+t foie-rate
+x Grossesse sans avis. || Pregnancy without advice.
+
+@chai-hu-long-gu-mu-li | Chai Hu Long Gu Mu Li Tang | 柴胡加龙骨牡蛎汤 | calmer | cal
+n Décoction Buplèvre, Os de dragon et Huître || Bupleurum plus Dragon Bone and Oyster Shell Decoction
+c Chai Hu : 12 g ; Long Gu : 5 g ; Mu Li : 5 g ; Huang Qin : 5 g ; Ren Shen : 5 g ; Gui Zhi : 5 g ; Fu Ling : 5 g ; Ban Xia : 6 g ; Da Huang : 6 g ; Sheng Jiang : 5 g ; Da Zao : 6 pièces
+a Harmonise le Shao Yang, calme le Shen, apaise les palpitations. || Harmonizes the Shao Yang, calms the Shen, settles palpitations.
+i anxiété, peurs ; palpitations ; insomnie ; irritabilité ; oppression de la poitrine ; sursauts || anxiety, fears; palpitations; insomnia; irritability; chest oppression; easily startled
+t rn-peur, f-stagnation-qi, c-feu
+x Grossesse ; diarrhée (Da Huang). || Pregnancy; diarrhea (Da Huang).
+o La formule ancienne contient du minium (plomb) : il est retiré de toutes les versions modernes. || The original formula contains lead oxide: it is removed from all modern versions.
+
+@tong-xie-yao-fang | Tong Xie Yao Fang | 痛泻要方 | harmoniser | cal
+n Formule essentielle pour les diarrhées douloureuses || Important Formula for Painful Diarrhea
+c Bai Zhu : 9 g ; Bai Shao : 6 g ; Chen Pi : 5 g ; Fang Feng : 3 g
+a Retient le Foie, renforce la Rate, arrête la diarrhée douloureuse. || Restrains the Liver, strengthens the Spleen, stops painful diarrhea.
+i colique et besoin urgent d'aller à la selle sous le stress ; douleur qui cesse après la selle ; côlon irritable || cramps and urgent need for the toilet under stress; pain relieved after the stool; irritable bowel
+t foie-rate
+x Diarrhée de Chaleur (brûlante, malodorante). || Heat diarrhea (burning, foul-smelling).
+o Aussi appelée Bai Zhu Shao Yao San (nom chez Calebasse). || Also called Bai Zhu Shao Yao San (Calebasse's name).
+
+@ban-xia-xie-xin-tang | Ban Xia Xie Xin Tang | 半夏泻心汤 | harmoniser |
+n Décoction de Pinellia qui draine l'épigastre || Pinellia Decoction to Drain the Epigastrium
+c Ban Xia : 12 g ; Huang Qin : 9 g ; Gan Jiang : 9 g ; Ren Shen : 9 g ; Huang Lian : 3 g ; Zhi Gan Cao : 9 g ; Da Zao : 4 pièces
+a Harmonise l'Estomac, fait descendre la rébellion, dissout la plénitude par le chaud et le froid. || Harmonizes the Stomach, directs rebellious Qi downward, dissolves fullness with warm and cool herbs.
+i lourdeur sous le sternum sans douleur ; nausées, vomissements ; borborygmes ; diarrhée ; enduit jaune et blanc mêlés || fullness below the breastbone without pain; nausea, vomiting; rumbling bowels; diarrhea; mixed yellow and white coating
+t e-rebellion, rt-humidite-chaleur
+x Stagnation alimentaire pure ; Vide de Yin. || Pure food stagnation; Yin deficiency.
+
+@shao-yao-gan-cao-tang | Shao Yao Gan Cao Tang | 芍药甘草汤 | harmoniser | cal
+n Décoction Pivoine et Réglisse || Peony and Licorice Decoction
+c Bai Shao : 12 g ; Zhi Gan Cao : 12 g
+a Nourrit le Sang et le Yin, détend les tendons, calme les spasmes douloureux. || Nourishes Blood and Yin, relaxes the tendons, eases painful spasms.
+i crampes des mollets ; spasmes de l'estomac ou du ventre ; règles douloureuses en crampes || calf cramps; stomach or belly spasms; cramping painful periods
+t f-vide-sang, foie-rate
+x Œdèmes, hypertension (réglisse en cure longue) ; Humidité. || Edema, hypertension (licorice on long courses); Dampness.

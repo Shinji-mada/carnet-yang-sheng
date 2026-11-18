@@ -1,0 +1,1882 @@
+{
+ "categories_plantes": [
+  {
+   "id": "surface-chaude",
+   "nom": "Warm, exterior-releasing"
+  },
+  {
+   "id": "surface-fraiche",
+   "nom": "Cool, exterior-releasing"
+  },
+  {
+   "id": "chaleur",
+   "nom": "Clear Heat"
+  },
+  {
+   "id": "purgatives",
+   "nom": "Downward-draining"
+  },
+  {
+   "id": "vent-humidite",
+   "nom": "Expel Wind-Damp"
+  },
+  {
+   "id": "aromatiques",
+   "nom": "Aromatic, transform Dampness"
+  },
+  {
+   "id": "diuretiques",
+   "nom": "Drain Water and Dampness"
+  },
+  {
+   "id": "rechauffent",
+   "nom": "Warm the interior"
+  },
+  {
+   "id": "qi",
+   "nom": "Regulate Qi"
+  },
+  {
+   "id": "digestives",
+   "nom": "Reduce food stagnation"
+  },
+  {
+   "id": "hemostatiques",
+   "nom": "Stop bleeding"
+  },
+  {
+   "id": "sang",
+   "nom": "Invigorate Blood"
+  },
+  {
+   "id": "mucosites",
+   "nom": "Transform Phlegm, stop cough"
+  },
+  {
+   "id": "shen",
+   "nom": "Calm the Shen"
+  },
+  {
+   "id": "vent-interne",
+   "nom": "Calm the Liver, extinguish Wind"
+  },
+  {
+   "id": "orifices",
+   "nom": "Open the orifices"
+  },
+  {
+   "id": "tonif-qi",
+   "nom": "Tonify Qi"
+  },
+  {
+   "id": "tonif-yang",
+   "nom": "Tonify Yang"
+  },
+  {
+   "id": "tonif-sang",
+   "nom": "Nourish Blood"
+  },
+  {
+   "id": "tonif-yin",
+   "nom": "Nourish Yin"
+  },
+  {
+   "id": "astringentes",
+   "nom": "Astringent"
+  },
+  {
+   "id": "externes",
+   "nom": "External use, toxic"
+  }
+ ],
+ "plantes": [
+  {
+   "id": "bai-zhi",
+   "nom": "Dahurian angelica root",
+   "act": "Dispels Wind-Cold, opens the nose, relieves pain (forehead), dries Dampness, expels pus.",
+   "ind": "frontal headache; sinusitis, blocked nose; toothache; white discharge; boils",
+   "ci": "Yin deficiency with Heat; photosensitizing.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "cang-er-zi",
+   "nom": "Cocklebur fruit",
+   "act": "Dispels Wind-Damp, opens the nose, relieves pain.",
+   "ind": "sinusitis; rhinitis; blocked nose; frontal headache; itching",
+   "ci": "Toxic at high doses or on long courses (liver); pregnancy; children.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "fang-feng",
+   "nom": "Saposhnikovia root (\"guards against wind\")",
+   "act": "Expels Wind and Dampness, relieves itching and spasms.",
+   "ind": "cold with body aches; hives, itching; joint pain; diarrhea with spasms",
+   "ci": "Blood deficiency with spasms, Yin deficiency with Heat.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "gui-zhi",
+   "nom": "Cinnamon twig",
+   "act": "Releases the muscle layer, warms the channels, moves Yang, assists fluid metabolism.",
+   "ind": "cold with chills and light sweating; joint pain in the cold; Cold-type painful periods; palpitations; edema",
+   "ci": "Heat, Yin deficiency, bleeding; pregnancy (caution).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "jing-jie",
+   "nom": "Schizonepeta",
+   "act": "Dispels Wind, releases the exterior, vents rashes, stops bleeding (charred).",
+   "ind": "colds; sore throat; itching, hives; rashes that fail to come out",
+   "ci": "Heavy sweating, Yin deficiency.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "ma-huang",
+   "nom": "Ephedra",
+   "act": "Induces sweating, releases the exterior, opens the Lung, calms wheezing, promotes urination.",
+   "ind": "Wind-Cold without sweating; asthma; cough; upper-body edema",
+   "ci": "Hypertension, heart disorders, glaucoma, insomnia, hyperthyroidism; pregnancy; regulated in France (ephedrine).",
+   "dose": "2–9 g"
+  },
+  {
+   "id": "qiang-huo",
+   "nom": "Notopterygium root",
+   "act": "Expels Wind-Cold-Damp, relieves upper-body pain.",
+   "ind": "cold with headache and stiff neck; shoulder and back pain; body aches",
+   "ci": "Blood or Yin deficiency; may cause nausea at high doses.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "sheng-jiang",
+   "nom": "Fresh ginger",
+   "act": "Releases the exterior, warms the Middle, stops vomiting, warms the Lung.",
+   "ind": "onset of a cold; nausea, motion sickness; cough with clear phlegm; aids digestion",
+   "ci": "Heat, Yin deficiency, bleeding.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "xi-xin",
+   "nom": "Asarum",
+   "act": "Dispels Wind-Cold, opens the nose, relieves pain, warms the Lung.",
+   "ind": "Wind-Cold colds; blocked nose; headache, toothache; joint pain; cough with clear phlegm",
+   "ci": "Toxic above 3 g in powder; only the root is used in Europe (aristolochic acid in aerial parts); Yin deficiency; pregnancy.",
+   "dose": "1–3 g"
+  },
+  {
+   "id": "xin-yi",
+   "nom": "Magnolia flower bud",
+   "act": "Dispels Wind-Cold, opens the nose.",
+   "ind": "blocked nose; rhinitis, sinusitis; loss of smell; frontal headache",
+   "ci": "Yin deficiency with Heat.",
+   "dose": "3–9 g",
+   "note": "In decoction, wrap in a bag (irritating hairs)."
+  },
+  {
+   "id": "zi-su-ye",
+   "nom": "Perilla leaf",
+   "act": "Releases the exterior, moves Middle Qi, calms nausea, calms the fetus.",
+   "ind": "cold with chest oppression; nausea; morning sickness; seafood poisoning",
+   "ci": "Qi deficiency with sweating, Heat.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "bo-he",
+   "nom": "Field mint",
+   "act": "Dispels Wind-Heat, clears the head and eyes, soothes the throat, frees Liver Qi.",
+   "ind": "Wind-Heat colds; sore throat; headache; red eyes; stress-related oppression",
+   "ci": "Yin deficiency with sweating; breastfeeding (reduces milk); add at the end of cooking.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "chai-hu",
+   "nom": "Bupleurum root",
+   "act": "Harmonizes the Shao Yang, frees Liver Qi, lifts Yang.",
+   "ind": "alternating chills and fever; stress, irritability; pain under the ribs; irregular periods; prolapse (small dose)",
+   "ci": "Rising Liver Yang, Yin deficiency with Fire; high doses can deplete Yin.",
+   "dose": "3–12 g"
+  },
+  {
+   "id": "chan-tui",
+   "nom": "Cicada molting",
+   "act": "Dispels Wind-Heat, soothes the throat and voice, relieves itching, clears the eyes.",
+   "ind": "lost voice; sore throat; hives, itching; red eyes; spasms in children",
+   "ci": "Pregnancy (caution).",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "dan-dou-chi",
+   "nom": "Fermented black soybean",
+   "act": "Releases the exterior, relieves restlessness.",
+   "ind": "onset of a cold; restlessness and insomnia after a fever",
+   "ci": "Breastfeeding (reduces milk).",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "ge-gen",
+   "nom": "Kudzu root",
+   "act": "Releases the muscles, relaxes the neck, generates fluids, lifts Yang, stops diarrhea.",
+   "ind": "stiff neck; cold with fever; thirst; hot diarrhea; hypertension with stiff neck; alcohol cravings",
+   "ci": "Stomach Cold, heavy sweating.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "ju-hua",
+   "nom": "Chrysanthemum flower",
+   "act": "Dispels Wind-Heat, calms the Liver, clears the eyes, resolves toxicity.",
+   "ind": "red, dry or tired eyes; headache; dizziness; Wind-Heat colds; high blood pressure",
+   "ci": "Cold-type diarrhea.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "man-jing-zi",
+   "nom": "Vitex fruit",
+   "act": "Dispels Wind-Heat, clears the head and eyes.",
+   "ind": "temporal headaches; migraines; painful eyes; dizziness",
+   "ci": "Blood deficiency.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "niu-bang-zi",
+   "nom": "Burdock seed",
+   "act": "Dispels Wind-Heat, soothes the throat, resolves toxicity, vents rashes.",
+   "ind": "red, painful throat; swollen tonsils; cough; rashes; boils",
+   "ci": "Diarrhea (laxative).",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "sang-ye",
+   "nom": "White mulberry leaf",
+   "act": "Dispels Wind-Heat, clears the Lung, moistens dryness, clears the eyes.",
+   "ind": "Wind-Heat colds; dry cough; red, dry eyes; night sweats (high dose)",
+   "ci": "Cold-type cough.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "sheng-ma",
+   "nom": "Cimicifuga rhizome",
+   "act": "Lifts Yang, vents rashes, resolves toxicity (mouth, gums).",
+   "ind": "prolapse; chronic diarrhea; mouth ulcers; swollen gums; sore throat",
+   "ci": "Rising Liver Yang, Yin deficiency; do not exceed the dose.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "bai-tou-weng",
+   "nom": "Chinese pulsatilla root",
+   "act": "Clears toxic Heat, cools the Blood, stops dysentery.",
+   "ind": "diarrhea with blood and mucus; burning anus; itchy vaginal discharge",
+   "ci": "Cold or deficiency diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "ban-lan-gen",
+   "nom": "Isatis root",
+   "act": "Clears Heat, resolves toxicity, cools the Blood, soothes the throat.",
+   "ind": "tonsillitis; flu with fever; mumps; shingles, herpes",
+   "ci": "Spleen Cold and deficiency; short course.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "da-qing-ye",
+   "nom": "Isatis leaf",
+   "act": "Clears Heat, resolves toxicity, cools the Blood.",
+   "ind": "fever; sore throat; mouth ulcers; red rashes",
+   "ci": "Spleen Cold and deficiency.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "dan-zhu-ye",
+   "nom": "Lophatherum leaf",
+   "act": "Clears Heart Heat, relieves restlessness, promotes urination.",
+   "ind": "mouth ulcers; restlessness; thirst; dark burning urine",
+   "ci": "Yin deficiency without Heat; pregnancy.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "di-gu-pi",
+   "nom": "Lycium root bark",
+   "act": "Clears deficiency Heat, cools the Blood, clears Lung Heat.",
+   "ind": "night sweats; afternoon fever; Heat cough; nosebleeds",
+   "ci": "Fever from external causes, diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "guan-zhong",
+   "nom": "Dryopteris rhizome",
+   "act": "Clears Heat, resolves toxicity, stops bleeding, expels worms.",
+   "ind": "flu, epidemics; bleeding; intestinal worms",
+   "ci": "Mildly toxic; pregnancy; Spleen Cold.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "he-ye",
+   "nom": "Lotus leaf",
+   "act": "Clears summer Heat, drains Dampness, lifts Yang, stops bleeding.",
+   "ind": "heatstroke; summer diarrhea; excess weight with Dampness; bleeding",
+   "ci": "Marked Blood and Qi deficiency.",
+   "dose": "3–10 g"
+  },
+  {
+   "id": "huang-bai",
+   "nom": "Phellodendron bark",
+   "act": "Clears Damp-Heat below, drains deficiency Fire, resolves toxicity.",
+   "ind": "burning urination; yellow discharge; weeping eczema; night sweats with heat; hot, swollen knees",
+   "ci": "Spleen Cold and deficiency.",
+   "dose": "3–12 g"
+  },
+  {
+   "id": "huang-lian",
+   "nom": "Coptis rhizome",
+   "act": "Clears Heat, dries Dampness, drains Heart and Stomach Fire, resolves toxicity.",
+   "ind": "hot diarrhea; heartburn; mouth ulcers; agitation, insomnia; boils; acne",
+   "ci": "Very bitter and cold: Spleen Cold, Yin deficiency; pregnancy (caution).",
+   "dose": "2–9 g"
+  },
+  {
+   "id": "huang-qin",
+   "nom": "Baikal skullcap root",
+   "act": "Clears Heat, dries Dampness, resolves toxicity, stops bleeding, calms the fetus.",
+   "ind": "Heat cough; fever; hot diarrhea; jaundice; bleeding; restless fetus with Heat",
+   "ci": "Spleen Cold, deficiency diarrhea.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "jin-yin-hua",
+   "nom": "Japanese honeysuckle flower",
+   "act": "Clears Heat, resolves toxicity, dispels Wind-Heat.",
+   "ind": "Wind-Heat colds; tonsillitis; boils, abscesses; acne; hot diarrhea",
+   "ci": "Spleen Cold and deficiency.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "ku-di-ding",
+   "nom": "Bunge corydalis",
+   "act": "Clears Heat, resolves toxicity, reduces swelling.",
+   "ind": "sore throat; boils; Wind-Heat colds",
+   "ci": "Spleen Cold.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "ku-shen",
+   "nom": "Sophora root",
+   "act": "Clears Heat, dries Dampness, relieves itching, promotes urination.",
+   "ind": "weeping eczema; intimate itching; yellow discharge; hot diarrhea; burning urination",
+   "ci": "Spleen Cold; very bitter, may cause nausea.",
+   "dose": "4–9 g"
+  },
+  {
+   "id": "lian-qiao",
+   "nom": "Forsythia fruit",
+   "act": "Clears Heat, resolves toxicity, reduces swelling and nodules.",
+   "ind": "Wind-Heat colds; tonsillitis; boils; acne; lymph nodes; nodules",
+   "ci": "Spleen Cold, pale cold abscesses.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "long-dan-cao",
+   "nom": "Chinese gentian root",
+   "act": "Drains Liver and Gallbladder Fire, clears Damp-Heat below.",
+   "ind": "red eyes; Fire headaches; bitter taste; shingles; intimate itching; yellow discharge",
+   "ci": "Very cold: Spleen Cold; short course.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "lu-gen",
+   "nom": "Reed rhizome",
+   "act": "Clears Heat, generates fluids, stops vomiting, expels pus from the Lung.",
+   "ind": "thirst; Heat cough with yellow phlegm; Heat nausea; dark urine",
+   "ci": "Spleen Cold.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "mu-dan-pi",
+   "nom": "Tree peony root bark",
+   "act": "Clears Heat, cools and invigorates Blood, clears deficiency Heat.",
+   "ind": "early periods with heat; Heat bleeding; afternoon fever; acne, redness; pain with stasis",
+   "ci": "Pregnancy; heavy periods; Cold.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "chi-shao",
+   "nom": "Red peony root",
+   "act": "Cools the Blood, invigorates Blood, dispels stasis, eases pain.",
+   "ind": "fixed pains; painful periods with clots; red eyes; red rashes; bruises",
+   "ci": "Blood deficiency without stasis; pregnancy.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "pu-gong-ying",
+   "nom": "Dandelion",
+   "act": "Clears Heat, resolves toxicity, reduces abscesses, drains Dampness.",
+   "ind": "breast abscess, mastitis; boils; acne; red eyes; burning urination; jaundice",
+   "ci": "Spleen Cold; diarrhea at high doses.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "qin-pi",
+   "nom": "Chinese ash bark",
+   "act": "Clears Damp-Heat, stops dysentery, clears the eyes.",
+   "ind": "hot diarrhea with mucus; yellow discharge; red eyes",
+   "ci": "Spleen Cold.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "quan-shen",
+   "nom": "Bistort rhizome",
+   "act": "Clears Heat, resolves toxicity, stops bleeding and diarrhea.",
+   "ind": "fever; sore throat; hot diarrhea; bleeding",
+   "ci": "Cold without Heat.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "sheng-di-huang",
+   "nom": "Raw rehmannia root",
+   "act": "Clears Heat, cools the Blood, nourishes Yin, generates fluids.",
+   "ind": "thirst; dry mouth; Heat bleeding; afternoon fever; dry constipation; red rashes",
+   "ci": "Weak digestion, loose stools, Dampness.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "shi-gao",
+   "nom": "Gypsum",
+   "act": "Strongly clears Lung and Stomach Heat, relieves thirst.",
+   "ind": "high fever with thirst; Heat cough; toothache and gum pain from Fire; Heat headaches",
+   "ci": "Stomach Cold, Yin deficiency without Heat; cook 20 min before the other herbs.",
+   "dose": "15–60 g"
+  },
+  {
+   "id": "tian-hua-fen",
+   "nom": "Trichosanthes root",
+   "act": "Clears Heat, generates fluids, reduces abscesses.",
+   "ind": "thirst; dry mouth; dry cough; Yin-type diabetes; abscesses",
+   "ci": "Pregnancy (contraindicated); Spleen Cold.",
+   "dose": "10–15 g"
+  },
+  {
+   "id": "tu-fu-ling",
+   "nom": "Smilax rhizome",
+   "act": "Resolves toxicity and Dampness, relieves the joints.",
+   "ind": "eczema; psoriasis; acne; discharge; gouty joint pain",
+   "ci": "Yin deficiency; avoid tea while taking it (traditional advice).",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "xia-ku-cao",
+   "nom": "Self-heal spike",
+   "act": "Clears Liver Fire, clears the eyes, disperses nodules.",
+   "ind": "red, painful eyes; headaches; high blood pressure; lymph nodes; goiter; breast nodules",
+   "ci": "Spleen Cold.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "xuan-shen",
+   "nom": "Ningpo figwort root",
+   "act": "Clears Heat, cools the Blood, nourishes Yin, resolves toxicity, softens nodules.",
+   "ind": "dry, sore throat; lymph nodes; dry constipation; rashes; night fever",
+   "ci": "Weak digestion, loose stools.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "ye-ju-hua",
+   "nom": "Wild chrysanthemum",
+   "act": "Clears Heat, resolves toxicity, reduces swelling.",
+   "ind": "boils; acne; sore throat; red eyes; high blood pressure",
+   "ci": "Spleen Cold.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "yu-xing-cao",
+   "nom": "Houttuynia",
+   "act": "Clears Lung Heat, resolves toxicity, expels pus, promotes urination.",
+   "ind": "cough with yellow phlegm; bronchitis; abscesses; burning urination",
+   "ci": "Cold without Heat; add at the end of cooking.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "zhi-mu",
+   "nom": "Anemarrhena rhizome",
+   "act": "Clears Heat, nourishes Yin, moistens dryness.",
+   "ind": "fever with thirst; dry cough; night sweats; hot flushes; diabetes; dry constipation",
+   "ci": "Loose stools.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "zhi-zi",
+   "nom": "Gardenia fruit",
+   "act": "Drains Fire from the three Burners, relieves restlessness, drains Damp-Heat, cools the Blood.",
+   "ind": "restlessness, insomnia; jaundice; burning urination; Heat bleeding; sprains (as a poultice)",
+   "ci": "Spleen Cold, diarrhea.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "zi-bei-tian-kui",
+   "nom": "Semiaquilegia root",
+   "act": "Clears Heat, resolves toxicity, reduces swelling.",
+   "ind": "boils; abscesses; inflamed lymph nodes",
+   "ci": "Spleen Cold.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "zi-hua-di-ding",
+   "nom": "Yedo violet",
+   "act": "Clears Heat, resolves toxicity, reduces abscesses.",
+   "ind": "boils; abscesses; inflammatory acne; bites",
+   "ci": "Cold without Heat.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "jue-ming-zi",
+   "nom": "Cassia seed",
+   "act": "Clears the Liver, clears the eyes, moistens the intestines.",
+   "ind": "red eyes; blurred vision; high blood pressure; constipation",
+   "ci": "Diarrhea, low blood pressure.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "da-huang",
+   "nom": "Chinese rhubarb",
+   "act": "Purges accumulation and Heat, cools the Blood, resolves toxicity, dispels stasis.",
+   "ind": "Heat constipation; Heat bleeding; jaundice; stasis pain; burns (external)",
+   "ci": "Pregnancy, menstruation, breastfeeding; deficiency; only a few days' use.",
+   "dose": "3–12 g"
+  },
+  {
+   "id": "huo-ma-ren",
+   "nom": "Hemp seed",
+   "act": "Moistens the intestines, frees the stools, nourishes Yin.",
+   "ind": "dry constipation in older people or after childbirth",
+   "ci": "Diarrhea; high doses: nausea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "du-huo",
+   "nom": "Pubescent angelica root",
+   "act": "Expels Wind-Damp, relieves lower-body pain.",
+   "ind": "lower back and knee pain; sciatica; stiffness in cold damp weather",
+   "ci": "Yin or Blood deficiency without Dampness.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "gou-ji",
+   "nom": "Cibotium rhizome",
+   "act": "Expels Wind-Damp, tonifies the Liver and Kidney, strengthens the lower back.",
+   "ind": "stiff, weak lower back; weak knees; frequent urination in older people",
+   "ci": "Yin deficiency with Heat, burning urination.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "hai-feng-teng",
+   "nom": "Kadsura pepper stem",
+   "act": "Expels Wind-Damp, unblocks the channels, eases pain.",
+   "ind": "joint pain; stiffness; cramps; bruises",
+   "ci": "Yin deficiency.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "han-fang-ji",
+   "nom": "Stephania root",
+   "act": "Expels Wind-Damp, eases pain, promotes urination, reduces edema.",
+   "ind": "leg edema; swollen joints; Damp-Heat pain",
+   "ci": "Yin deficiency; never to be confused with Guang Fang Ji (Aristolochia, banned).",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "mu-gua",
+   "nom": "Chinese quince",
+   "act": "Relaxes the tendons, unblocks the channels, transforms Dampness, harmonizes the Stomach.",
+   "ind": "calf cramps; heavy legs; joint pain; vomiting and diarrhea with cramps",
+   "ci": "Excess stomach acid; scanty dark urine.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "qin-jiao",
+   "nom": "Large-leaf gentian root",
+   "act": "Expels Wind-Damp, relaxes the tendons, clears deficiency Heat, drains Damp-Heat.",
+   "ind": "hot or cold joint pain; stiffness; afternoon fever; jaundice",
+   "ci": "Diarrhea.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "sang-ji-sheng",
+   "nom": "Mulberry mistletoe",
+   "act": "Expels Wind-Damp, tonifies the Liver and Kidney, strengthens tendons and bones, calms the fetus.",
+   "ind": "chronic lower back and knee pain; osteoarthritis; high blood pressure; threatened miscarriage (under advice)",
+   "ci": "Rare.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "sang-zhi",
+   "nom": "Mulberry twig",
+   "act": "Expels Wind-Damp, frees the joints, especially of the arms.",
+   "ind": "shoulder and arm pain; stiffness; numbness",
+   "ci": "Rare.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "wei-ling-xian",
+   "nom": "Chinese clematis root",
+   "act": "Expels Wind-Damp, unblocks the channels, eases pain.",
+   "ind": "wandering joint pain; stiffness; numbness; fish bone stuck in the throat (traditional)",
+   "ci": "Qi and Blood deficiency.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "bai-dou-kou",
+   "nom": "Round cardamom",
+   "act": "Transforms Dampness, moves Qi, warms the Middle, stops vomiting.",
+   "ind": "bloating; nausea; no appetite; white greasy coating",
+   "ci": "Yin deficiency; add at the end of cooking.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "cang-zhu",
+   "nom": "Black atractylodes",
+   "act": "Dries Dampness, strengthens the Spleen, expels Wind-Damp, clears the eyes.",
+   "ind": "heavy, distended belly; Damp diarrhea; heavy legs; damp joint pain; poor night vision",
+   "ci": "Yin deficiency, heavy sweating.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "hou-po",
+   "nom": "Magnolia bark",
+   "act": "Moves Qi, dries Dampness, directs Qi downward, calms wheezing.",
+   "ind": "distended belly; constipation with bloating; cough with phlegm; chest oppression",
+   "ci": "Pregnancy (caution); deficiency without stagnation.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "huo-xiang",
+   "nom": "Patchouli (agastache)",
+   "act": "Transforms Dampness, awakens the Spleen, stops vomiting, releases the exterior in summer.",
+   "ind": "nausea; vomiting; summer stomach flu; heavy belly; bad breath",
+   "ci": "Yin deficiency with Heat.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "sha-ren",
+   "nom": "Amomum fruit",
+   "act": "Transforms Dampness, moves Qi, warms the Middle, stops diarrhea, calms the fetus.",
+   "ind": "bloating; nausea; Cold diarrhea; morning sickness",
+   "ci": "Yin deficiency with Heat; add at the end of cooking.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "bi-xie",
+   "nom": "Hypoglaucous yam rhizome",
+   "act": "Separates the clear from the turbid, drains Dampness, expels Wind-Damp.",
+   "ind": "cloudy urine; discharge; weeping eczema; damp joint pain",
+   "ci": "Kidney Yin deficiency.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "bian-xu",
+   "nom": "Knotgrass",
+   "act": "Promotes urination, clears Damp-Heat, relieves itching.",
+   "ind": "burning urination; frequent urge; eczema; intimate itching",
+   "ci": "Spleen deficiency.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "che-qian-zi",
+   "nom": "Plantain seed",
+   "act": "Promotes urination, clears Damp-Heat, stops diarrhea, clears the eyes, transforms Phlegm.",
+   "ind": "burning urination; watery diarrhea; red eyes; Heat cough",
+   "ci": "Pregnancy (caution); Kidney deficiency without Dampness; cook in a bag.",
+   "dose": "9–15 g",
+   "note": "Che Qian Cao (the whole plant) has the same, cooler actions."
+  },
+  {
+   "id": "fu-ling",
+   "nom": "Poria mushroom",
+   "act": "Drains Dampness, strengthens the Spleen, calms the Shen.",
+   "ind": "water retention; loose stools; fatigue; palpitations; insomnia; phlegm",
+   "ci": "Abundant urination from Kidney deficiency.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "fu-shen",
+   "nom": "Poria with pine root",
+   "act": "Calms the Shen more than Fu Ling, drains Dampness.",
+   "ind": "insomnia; palpitations; anxiety; forgetfulness",
+   "ci": "Rare.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "hu-zhang",
+   "nom": "Japanese knotweed rhizome",
+   "act": "Drains Damp-Heat, resolves jaundice, invigorates Blood, resolves toxicity.",
+   "ind": "jaundice; cloudy urine; stasis pain; burns; Heat cough",
+   "ci": "Pregnancy; diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "hua-shi",
+   "nom": "Talc",
+   "act": "Promotes urination, clears summer Heat, drains Dampness.",
+   "ind": "burning urination; heatstroke; summer diarrhea; eczema (external)",
+   "ci": "Pregnancy; Yin deficiency; cook in a bag.",
+   "dose": "10–20 g"
+  },
+  {
+   "id": "jin-qian-cao",
+   "nom": "Lysimachia",
+   "act": "Drains Damp-Heat, dissolves stones, resolves jaundice.",
+   "ind": "gallstones or urinary stones (support); jaundice; burning urination",
+   "ci": "Spleen deficiency.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "qu-mai",
+   "nom": "Chinese pink",
+   "act": "Promotes urination, clears Damp-Heat, invigorates Blood.",
+   "ind": "burning urination; blood in the urine; blocked periods",
+   "ci": "Pregnancy.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "tong-cao",
+   "nom": "Rice-paper plant pith",
+   "act": "Promotes urination, clears Heat, promotes lactation.",
+   "ind": "burning urination; edema; insufficient milk",
+   "ci": "Pregnancy (caution).",
+   "dose": "3–6 g",
+   "note": "Replaces Mu Tong in ancient formulas: Aristolochia species are banned."
+  },
+  {
+   "id": "yi-yi-ren",
+   "nom": "Job's tears",
+   "act": "Drains Dampness, strengthens the Spleen, relieves the joints, expels pus.",
+   "ind": "water retention; loose stools; heavy joints; warts; pus-filled acne",
+   "ci": "Pregnancy (caution); dry constipation.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "yin-chen",
+   "nom": "Virgate wormwood",
+   "act": "Drains Damp-Heat, resolves jaundice.",
+   "ind": "jaundice; dark urine; eczema; overloaded liver",
+   "ci": "Jaundice from Blood deficiency without Dampness.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "ze-xie",
+   "nom": "Water plantain rhizome",
+   "act": "Promotes urination, drains Dampness, clears Kidney Heat.",
+   "ind": "edema; scanty urine; Damp dizziness; watery diarrhea; discharge",
+   "ci": "Kidney deficiency without Dampness, deficiency emissions.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "zhu-ling",
+   "nom": "Umbellate polypore",
+   "act": "Promotes urination, drains Dampness.",
+   "ind": "edema; scanty urine; watery diarrhea; discharge",
+   "ci": "Without Dampness; long courses (depletes Yin).",
+   "dose": "6–12 g",
+   "note": "A mushroom: despite its Chinese name (\"pig's Poria\"), it contains no animal product."
+  },
+  {
+   "id": "ding-xiang",
+   "nom": "Clove",
+   "act": "Warms the Middle, directs Qi downward, stops hiccups, warms the Kidney.",
+   "ind": "hiccups; Cold vomiting; cold belly; impotence from Cold",
+   "ci": "Heat, Yin deficiency.",
+   "dose": "1–3 g"
+  },
+  {
+   "id": "fu-zi",
+   "nom": "Processed aconite (Zhi Fu Zi)",
+   "act": "Restores collapsing Yang, warms Kidney Fire, dispels Cold, eases pain.",
+   "ind": "extreme cold; icy hands and feet; Cold diarrhea; edema from Yang deficiency; Cold joint pain",
+   "ci": "Toxic: processed only, cooked at least 30 to 60 min, at careful doses; pregnancy; Heat, Yin deficiency; by prescription only.",
+   "dose": "3–9 g (processed)"
+  },
+  {
+   "id": "gan-jiang",
+   "nom": "Dried ginger",
+   "act": "Warms the Middle, dispels Cold, restores Yang, warms the Lung.",
+   "ind": "cold, painful belly; Cold diarrhea; vomiting; cough with clear phlegm",
+   "ci": "Heat, Yin deficiency; pregnancy (caution).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "gao-liang-jiang",
+   "nom": "Lesser galangal",
+   "act": "Warms the Stomach, dispels Cold, eases pain, stops vomiting.",
+   "ind": "Cold stomach pain; vomiting; Cold acid belching",
+   "ci": "Stomach Heat, Yin deficiency.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "rou-gui",
+   "nom": "Chinese cinnamon bark",
+   "act": "Warms Kidney Fire, leads Fire back to its source, dispels Cold, warms the channels.",
+   "ind": "feeling cold; cold lower back; impotence; dawn diarrhea; Cold-type painful periods",
+   "ci": "Pregnancy; Heat, Yin deficiency, bleeding; add at the end of cooking.",
+   "dose": "1–5 g"
+  },
+  {
+   "id": "wu-zhu-yu",
+   "nom": "Evodia fruit",
+   "act": "Warms the Liver and Stomach, dispels Cold, eases pain, stops vomiting.",
+   "ind": "vertex headache with vomiting; Cold acid reflux; Cold painful periods; dawn diarrhea",
+   "ci": "Mildly toxic: small doses; Heat, Yin deficiency; pregnancy.",
+   "dose": "2–5 g"
+  },
+  {
+   "id": "xiao-hui-xiang",
+   "nom": "Fennel seed",
+   "act": "Dispels Cold, eases pain, moves Qi, harmonizes the Stomach.",
+   "ind": "cold lower abdominal pain; hernia; Cold painful periods; bloating",
+   "ci": "Yin deficiency with Heat.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "chen-pi",
+   "nom": "Aged tangerine peel",
+   "act": "Moves Qi, harmonizes the Middle, dries Dampness, transforms Phlegm.",
+   "ind": "bloating; nausea; poor appetite; cough with white phlegm",
+   "ci": "Yin deficiency with dry cough.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "chen-xiang",
+   "nom": "Agarwood",
+   "act": "Moves Qi, eases pain, warms the Middle, helps the Kidney grasp Qi.",
+   "ind": "cold stomach and belly pain; vomiting; asthma from Kidney deficiency",
+   "ci": "Yin deficiency with Fire; protected species (CITES): cultivated wood only.",
+   "dose": "1–3 g"
+  },
+  {
+   "id": "chuan-lian-zi",
+   "nom": "Melia fruit",
+   "act": "Moves Liver Qi, clears Heat, eases pain, expels worms.",
+   "ind": "pain under the ribs; Heat stomach pain; hernia; worms",
+   "ci": "Toxic at high doses or on long courses (liver); Spleen Cold; pregnancy.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "da-fu-pi",
+   "nom": "Areca peel",
+   "act": "Moves Qi, directs downward, promotes urination, reduces edema.",
+   "ind": "distended belly; edema; bloating with constipation",
+   "ci": "Qi deficiency.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "fo-shou",
+   "nom": "Buddha's hand citron",
+   "act": "Frees Liver Qi, harmonizes the Stomach, transforms Phlegm.",
+   "ind": "pain under the ribs; stress bloating; nausea; cough with phlegm",
+   "ci": "Yin deficiency with Heat.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "ju-hong",
+   "nom": "Red tangerine peel",
+   "act": "Transforms Phlegm, moves Qi, dries Dampness.",
+   "ind": "cough with abundant phlegm; nausea; chest oppression",
+   "ci": "Yin deficiency, dry cough.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "mu-xiang",
+   "nom": "Aucklandia root (costus)",
+   "act": "Moves Qi, eases pain, harmonizes the Stomach and Intestines.",
+   "ind": "belly pain and bloating; diarrhea with straining; stalled digestion",
+   "ci": "Yin deficiency, dryness.",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "qing-pi",
+   "nom": "Green tangerine peel",
+   "act": "Breaks up Liver Qi stagnation, dissolves accumulations.",
+   "ind": "pain under the ribs; tender breasts and nodules; hernia; stalled digestion",
+   "ci": "Qi deficiency; short course.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "wu-yao",
+   "nom": "Lindera root",
+   "act": "Moves Qi, eases pain, warms the Kidney, holds the urine.",
+   "ind": "cold lower abdominal pain; painful periods; frequent urination; bedwetting",
+   "ci": "Qi deficiency with Heat.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "xiang-fu",
+   "nom": "Nutgrass rhizome",
+   "act": "Frees Liver Qi, regulates menstruation, eases pain.",
+   "ind": "stress; pain under the ribs; breast tenderness; irregular or painful periods; bloating",
+   "ci": "Yin deficiency with Heat, Qi deficiency.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "zhi-ke",
+   "nom": "Mature bitter orange",
+   "act": "Moves Qi, opens the chest, relieves fullness.",
+   "ind": "chest oppression; bloating; slow digestion; prolapse (with tonics)",
+   "ci": "Pregnancy (caution); deficiency without stagnation.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "zhi-shi",
+   "nom": "Immature bitter orange",
+   "act": "Breaks up Qi stagnation, dissolves accumulations, transforms Phlegm.",
+   "ind": "hard, distended belly; constipation; stalled digestion; chest oppression with phlegm",
+   "ci": "Pregnancy; Spleen deficiency.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "gu-ya",
+   "nom": "Sprouted millet",
+   "act": "Aids digestion, harmonizes the Middle, awakens appetite.",
+   "ind": "poor appetite; slow digestion (grains)",
+   "ci": "Rare.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "lai-fu-zi",
+   "nom": "Radish seed",
+   "act": "Aids digestion, directs Qi downward, transforms Phlegm.",
+   "ind": "belching; distended belly after meals; constipation; cough with abundant phlegm",
+   "ci": "Qi deficiency; not combined with Ren Shen (traditional).",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "mai-ya",
+   "nom": "Sprouted barley",
+   "act": "Aids digestion, strengthens the Spleen, frees the Liver, stops lactation (high dose).",
+   "ind": "slow digestion of starches; breast tenderness; weaning",
+   "ci": "Breastfeeding (reduces milk).",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "shan-zha",
+   "nom": "Chinese hawthorn fruit",
+   "act": "Aids digestion (meat, fats), invigorates Blood, dispels stasis.",
+   "ind": "digesting fats; distended belly; painful periods with clots; cholesterol",
+   "ci": "Excess acidity, ulcer; Spleen deficiency without stagnation.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "shen-qu",
+   "nom": "Medicated leaven",
+   "act": "Aids digestion, harmonizes the Stomach.",
+   "ind": "stalled digestion; distended belly; diarrhea after overeating",
+   "ci": "Pregnancy (caution); Yin deficiency.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "ai-ye",
+   "nom": "Mugwort leaf (moxa)",
+   "act": "Warms the channels, stops Cold bleeding, eases pain, calms the fetus.",
+   "ind": "overly long periods with a cold lower belly; Cold painful periods; spotting in pregnancy (under advice)",
+   "ci": "Blood Heat; mildly toxic at high doses.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "di-yu",
+   "nom": "Garden burnet root",
+   "act": "Cools the Blood, stops bleeding, resolves toxicity, promotes healing.",
+   "ind": "bleeding hemorrhoids; blood in the stool; heavy periods from Heat; burns (external)",
+   "ci": "Bleeding from Cold or deficiency.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "huai-hua",
+   "nom": "Sophora flower",
+   "act": "Cools the Blood, stops bleeding, clears Liver Fire.",
+   "ind": "bleeding hemorrhoids; blood in the stool; high blood pressure; headaches",
+   "ci": "Spleen Cold.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "huai-jiao",
+   "nom": "Sophora pod",
+   "act": "Clears Heat, moistens the intestines, stops bleeding.",
+   "ind": "hemorrhoids; blood in the stool; Heat constipation",
+   "ci": "Pregnancy; Spleen Cold.",
+   "dose": "6–9 g"
+  },
+  {
+   "id": "pu-huang",
+   "nom": "Cattail pollen",
+   "act": "Stops bleeding, invigorates Blood, dispels stasis.",
+   "ind": "painful periods with clots; bleeding with stasis; fixed pains",
+   "ci": "Pregnancy; cook in a bag.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "san-qi",
+   "nom": "Notoginseng root",
+   "act": "Stops bleeding without leaving stasis, dispels stasis, eases pain.",
+   "ind": "bleeding; bruises; trauma; chest pain from stasis (support)",
+   "ci": "Pregnancy; anticoagulants.",
+   "dose": "1–3 g (powder)"
+  },
+  {
+   "id": "xian-he-cao",
+   "nom": "Hairy agrimony",
+   "act": "Stops bleeding, stops diarrhea, tonifies (exhaustion).",
+   "ind": "various bleeding; chronic diarrhea; exhaustion",
+   "ci": "Rare.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "chuan-niu-xi",
+   "nom": "Cyathula root",
+   "act": "Invigorates Blood, directs downward, relieves the leg joints, promotes urination.",
+   "ind": "knee pain; blocked periods; difficult urination; rising Liver Yang",
+   "ci": "Pregnancy; heavy periods.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "chuan-xiong",
+   "nom": "Sichuan lovage rhizome",
+   "act": "Invigorates Blood, moves Qi, dispels Wind, relieves headache.",
+   "ind": "headaches; painful or irregular periods; chest pain; joint pain",
+   "ci": "Yin deficiency with Fire; heavy periods; pregnancy (caution).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "dan-shen",
+   "nom": "Red sage root",
+   "act": "Invigorates Blood, dispels stasis, cools the Blood, calms the Shen.",
+   "ind": "painful periods with clots; chest pain; palpitations; insomnia with agitation; stasis acne",
+   "ci": "Anticoagulants (enhances their effect); pregnancy; heavy periods.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "hong-hua",
+   "nom": "Safflower",
+   "act": "Invigorates Blood, unblocks menstruation, dispels stasis, eases pain.",
+   "ind": "blocked or painful periods; bruises; fixed pains",
+   "ci": "Pregnancy (contraindicated); heavy periods; anticoagulants.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "ji-xue-teng",
+   "nom": "Spatholobus stem",
+   "act": "Invigorates and nourishes Blood, unblocks the channels.",
+   "ind": "irregular periods; numbness; joint pain; mild anemia",
+   "ci": "Heavy periods.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "jiang-huang",
+   "nom": "Turmeric",
+   "act": "Invigorates Blood, moves Qi, eases pain (shoulders, arms).",
+   "ind": "shoulder and arm pain; painful periods; pain under the ribs",
+   "ci": "Pregnancy; gallstones; anticoagulants.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "mo-yao",
+   "nom": "Myrrh",
+   "act": "Invigorates Blood, eases pain, reduces swelling, promotes healing.",
+   "ind": "traumatic pain; painful periods; joint pain; wounds (external)",
+   "ci": "Pregnancy; sensitive stomach (nausea).",
+   "dose": "3–5 g"
+  },
+  {
+   "id": "niu-xi",
+   "nom": "Achyranthes root (Huai Niu Xi)",
+   "act": "Invigorates Blood, tonifies the Liver and Kidney, strengthens the lower back and knees, directs downward.",
+   "ind": "weak lower back and knees; knee pain; blocked periods; Liver Yang headaches; bleeding gums",
+   "ci": "Pregnancy; heavy periods; diarrhea.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "ru-xiang",
+   "nom": "Frankincense",
+   "act": "Invigorates Blood, eases pain, reduces swelling, promotes healing.",
+   "ind": "joint pain; trauma; painful periods; abscesses (external)",
+   "ci": "Pregnancy; sensitive stomach.",
+   "dose": "3–5 g"
+  },
+  {
+   "id": "tao-ren",
+   "nom": "Peach kernel",
+   "act": "Invigorates Blood, dispels stasis, moistens the intestines.",
+   "ind": "blocked or painful periods with clots; fixed pains; dry constipation",
+   "ci": "Pregnancy (contraindicated); diarrhea; mildly toxic at high doses.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "wu-ling-zhi",
+   "nom": "Flying squirrel droppings",
+   "act": "Invigorates Blood, dispels stasis, eases pain.",
+   "ind": "painful periods with clots; fixed belly pain",
+   "ci": "Pregnancy; Blood deficiency; not combined with Ren Shen (traditional); cook in a bag.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "yan-hu-suo",
+   "nom": "Corydalis rhizome",
+   "act": "Invigorates Blood, moves Qi, strongly eases pain.",
+   "ind": "painful periods; stomach pain; chest pain; limb pain",
+   "ci": "Pregnancy; may cause drowsiness.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "yi-mu-cao",
+   "nom": "Motherwort",
+   "act": "Invigorates Blood, regulates menstruation, promotes urination, reduces edema.",
+   "ind": "irregular or painful periods; after childbirth; edema",
+   "ci": "Pregnancy (contraindicated); Blood deficiency without stasis.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "ze-lan",
+   "nom": "Bugleweed",
+   "act": "Invigorates Blood, regulates menstruation, promotes urination.",
+   "ind": "irregular periods; postpartum edema; contusions",
+   "ci": "Pregnancy; Blood deficiency without stasis.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "bai-bu",
+   "nom": "Stemona root",
+   "act": "Moistens the Lung, stops cough, kills lice and worms.",
+   "ind": "old or recent cough; whooping cough; lice (external)",
+   "ci": "Diarrhea; Spleen deficiency.",
+   "dose": "5–15 g"
+  },
+  {
+   "id": "bai-jie-zi",
+   "nom": "White mustard seed",
+   "act": "Warms the Lung, transforms Cold Phlegm, dissolves nodules, unblocks the channels.",
+   "ind": "cough with abundant white phlegm; chest oppression; cold nodules; joint pain with Phlegm",
+   "ci": "Yin deficiency with Heat; irritating to the stomach and skin.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "bai-qian",
+   "nom": "Cynanchum rhizome",
+   "act": "Directs Lung Qi downward, transforms Phlegm, stops cough.",
+   "ind": "cough with abundant phlegm; breathlessness",
+   "ci": "Dry deficiency cough.",
+   "dose": "3–10 g"
+  },
+  {
+   "id": "ban-xia",
+   "nom": "Processed pinellia",
+   "act": "Dries Dampness, transforms Phlegm, directs rebellion downward, stops vomiting, dissolves nodules.",
+   "ind": "cough with phlegm; nausea, vomiting; chest oppression; dizziness; lump in the throat",
+   "ci": "Toxic raw: processed only; Yin deficiency, dry cough; pregnancy (caution).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "chuan-bei-mu",
+   "nom": "Sichuan fritillary bulb",
+   "act": "Clears Heat, moistens the Lung, transforms Phlegm, stops cough, dissolves nodules.",
+   "ind": "dry cough or cough with scanty sticky phlegm; chronic cough; lymph nodes",
+   "ci": "Cold cough with clear phlegm; not combined with aconites (traditional).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "dan-nan-xing",
+   "nom": "Bile-processed arisaema",
+   "act": "Clears Heat, transforms Phlegm, extinguishes Wind, stops spasms.",
+   "ind": "cough with thick yellow phlegm; dizziness; convulsions; epilepsy (support)",
+   "ci": "Pregnancy; Yin deficiency, dry cough.",
+   "dose": "3–6 g",
+   "note": "Traditionally processed with ox or pig bile: ask the supplier about the source."
+  },
+  {
+   "id": "gua-lou-ren",
+   "nom": "Trichosanthes seed",
+   "act": "Clears Heat, transforms Phlegm, moistens the intestines.",
+   "ind": "cough with yellow sticky phlegm; chest oppression; dry constipation",
+   "ci": "Diarrhea, Cold Phlegm; not combined with aconites (traditional).",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "hai-zao",
+   "nom": "Sargassum seaweed",
+   "act": "Transforms Phlegm, softens and disperses nodules, promotes urination.",
+   "ind": "goiter; neck nodules; lymph nodes; edema",
+   "ci": "Very rich in iodine: thyroid disease (medical advice); Spleen Cold; \"incompatible\" with Gan Cao according to the classics.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "jie-geng",
+   "nom": "Platycodon root (balloon flower)",
+   "act": "Opens Lung Qi, transforms Phlegm, soothes the throat, expels pus, guides herbs upward.",
+   "ind": "cough with phlegm; sore throat; hoarse voice; chest oppression; lung abscess",
+   "ci": "Dry cough from Yin deficiency, coughing blood; high doses: nausea.",
+   "dose": "3–10 g"
+  },
+  {
+   "id": "kun-bu",
+   "nom": "Kelp (kombu)",
+   "act": "Softens masses, transforms Phlegm, promotes urination.",
+   "ind": "goiter; nodules; lymph nodes; edema",
+   "ci": "Very rich in iodine: thyroid disease (medical advice); Spleen Cold.",
+   "dose": "6–12 g",
+   "note": "Hai Dai (food kelp) is used in the same way."
+  },
+  {
+   "id": "pi-pa-ye",
+   "nom": "Loquat leaf",
+   "act": "Clears the Lung, stops cough, directs Stomach Qi downward.",
+   "ind": "Heat cough; dry cough; Heat nausea; facial acne",
+   "ci": "Cold cough; in decoction, strain well (irritating hairs).",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "qian-hu",
+   "nom": "Peucedanum root",
+   "act": "Directs Lung Qi downward, transforms Phlegm, dispels Wind-Heat.",
+   "ind": "cough with thick phlegm; breathlessness; cold with cough",
+   "ci": "Cough from Yin deficiency.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "sang-bai-pi",
+   "nom": "White mulberry root bark",
+   "act": "Clears Lung Heat, stops cough and wheezing, promotes urination.",
+   "ind": "Heat cough; wheezing; facial edema; nose acne",
+   "ci": "Cold cough, abundant urination.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "ting-li-zi",
+   "nom": "Descurainia seed",
+   "act": "Drains the Lung, calms wheezing, promotes urination, reduces edema.",
+   "ind": "breathlessness with abundant phlegm; upper-body edema",
+   "ci": "Lung or Spleen deficiency; heart failure: medical advice.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "xing-ren",
+   "nom": "Bitter apricot kernel",
+   "act": "Directs Lung Qi downward, stops cough and wheezing, moistens the intestines.",
+   "ind": "cough; breathlessness; dry constipation",
+   "ci": "Mildly toxic (amygdalin): do not exceed the dose, caution in children; diarrhea.",
+   "dose": "3–10 g"
+  },
+  {
+   "id": "xuan-fu-hua",
+   "nom": "Inula flower",
+   "act": "Directs Qi downward, transforms Phlegm, stops vomiting and belching.",
+   "ind": "belching; hiccups; nausea; cough with abundant phlegm",
+   "ci": "Yin deficiency with dry cough; cook in a bag (irritating hairs).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "zhe-bei-mu",
+   "nom": "Zhejiang fritillary bulb",
+   "act": "Clears Heat, transforms Phlegm, dissolves nodules and abscesses.",
+   "ind": "Heat cough with yellow phlegm; lymph nodes; nodules; abscesses; sore throat",
+   "ci": "Cold Phlegm, Spleen deficiency; not combined with aconites (traditional).",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "zhu-ru",
+   "nom": "Bamboo shavings",
+   "act": "Clears Heat, transforms Phlegm, stops vomiting, relieves restlessness.",
+   "ind": "Heat nausea; pregnancy vomiting; insomnia with restlessness; cough with yellow phlegm",
+   "ci": "Cold vomiting.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "zi-su-zi",
+   "nom": "Perilla seed",
+   "act": "Directs Qi downward, transforms Phlegm, calms wheezing, moistens the intestines.",
+   "ind": "cough and breathlessness with phlegm; chest oppression; constipation",
+   "ci": "Diarrhea, Qi deficiency.",
+   "dose": "3–10 g"
+  },
+  {
+   "id": "zi-wan",
+   "nom": "Tatarian aster root",
+   "act": "Moistens the Lung, directs Qi downward, transforms Phlegm, stops cough.",
+   "ind": "old or recent cough; phlegm hard to bring up; blood-streaked sputum",
+   "ci": "Strong Heat cough.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "bai-zi-ren",
+   "nom": "Oriental arborvitae seed",
+   "act": "Nourishes the Heart, calms the Shen, moistens the intestines.",
+   "ind": "insomnia; palpitations; poor memory; night sweats; dry constipation",
+   "ci": "Diarrhea, Phlegm.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "ci-shi",
+   "nom": "Magnetite",
+   "act": "Calms the Shen, anchors Yang, improves hearing and vision, helps the Kidney grasp Qi.",
+   "ind": "palpitations; insomnia; tinnitus, deafness; dizziness; asthma from Kidney deficiency",
+   "ci": "Weak digestion (heavy); short course; cook 30 min before the others.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "he-huan-pi",
+   "nom": "Albizia bark (\"collective happiness bark\")",
+   "act": "Calms the Shen, releases blocked emotions, invigorates Blood.",
+   "ind": "sadness, irritability; insomnia; rumination; bruises",
+   "ci": "Pregnancy.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "ling-zhi",
+   "nom": "Reishi mushroom",
+   "act": "Tonifies Qi, calms the Shen, stops cough and wheezing.",
+   "ind": "insomnia; fatigue; palpitations; chronic cough; low defenses",
+   "ci": "Anticoagulants (caution).",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "long-chi",
+   "nom": "Fossil teeth (\"dragon teeth\")",
+   "act": "Calms the Shen, settles fears and palpitations.",
+   "ind": "fears, being easily startled; palpitations; insomnia with nightmares",
+   "ci": "Damp-Heat; cook 30 min before the others.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "long-gu",
+   "nom": "Fossil bone (\"dragon bone\")",
+   "act": "Calms the Shen, anchors Liver Yang, astringes (sweating, emissions).",
+   "ind": "palpitations; insomnia; anxiety; dizziness; sweating; seminal emissions",
+   "ci": "Damp-Heat; cook 30 min before the others.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "suan-zao-ren",
+   "nom": "Sour jujube seed",
+   "act": "Nourishes the Heart and Liver, calms the Shen, stops sweating.",
+   "ind": "insomnia, waking; palpitations; anxiety; night sweats",
+   "ci": "Diarrhea; Excess Heat.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "ye-jiao-teng",
+   "nom": "Fleeceflower vine",
+   "act": "Nourishes Blood, calms the Shen, unblocks the channels.",
+   "ind": "insomnia; vivid dreams; numbness; itching (external)",
+   "ci": "Rare.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "yuan-zhi",
+   "nom": "Polygala root",
+   "act": "Calms the Shen, connects the Heart and Kidney, transforms Phlegm, opens the orifices.",
+   "ind": "insomnia; forgetfulness; palpitations; anxiety; cough with phlegm",
+   "ci": "Ulcer, gastritis (irritating); Heat.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "zhen-zhu-mu",
+   "nom": "Mother-of-pearl",
+   "act": "Anchors Liver Yang, calms the Shen, clears the eyes.",
+   "ind": "insomnia with agitation; palpitations; dizziness; red eyes",
+   "ci": "Spleen Cold; cook 30 min before the others.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "bai-ji-li",
+   "nom": "Puncture vine fruit",
+   "act": "Calms the Liver, frees Liver Qi, dispels Wind, clears the eyes, relieves itching.",
+   "ind": "headaches; dizziness; red eyes; itching; breast tenderness",
+   "ci": "Pregnancy; Blood deficiency.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "dai-zhe-shi",
+   "nom": "Hematite",
+   "act": "Anchors Liver Yang and rebellious Qi, stops bleeding.",
+   "ind": "dizziness; high blood pressure; belching, hiccups, vomiting; asthma",
+   "ci": "Pregnancy; short course (contains traces of arsenic); cook 30 min before the others.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "di-long",
+   "nom": "Dried earthworm",
+   "act": "Extinguishes Wind, clears Heat, unblocks the channels, calms wheezing, promotes urination.",
+   "ind": "febrile convulsions; after-effects of stroke; Heat asthma; hot joints; high blood pressure",
+   "ci": "Deficiency without Heat; pregnancy.",
+   "dose": "5–10 g"
+  },
+  {
+   "id": "gou-teng",
+   "nom": "Uncaria hook",
+   "act": "Extinguishes Wind, clears Heat, calms Liver Yang.",
+   "ind": "headaches; dizziness; high blood pressure; tremors; convulsions in children",
+   "ci": "Add at the end of cooking (under 20 min).",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "mu-li",
+   "nom": "Oyster shell",
+   "act": "Anchors Liver Yang, calms the Shen, softens nodules, astringes (sweating, emissions), neutralizes acid.",
+   "ind": "dizziness; insomnia; lymph nodes, nodules; sweating; heartburn",
+   "ci": "Spleen Cold; cook 30 min before the others.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "shi-jue-ming",
+   "nom": "Abalone shell",
+   "act": "Anchors Liver Yang, clears the Liver, clears the eyes.",
+   "ind": "dizziness; headaches; high blood pressure; red eyes; blurred vision",
+   "ci": "Spleen Cold; cook 30 min before the others.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "tian-ma",
+   "nom": "Gastrodia rhizome",
+   "act": "Extinguishes Wind, calms Liver Yang, unblocks the channels.",
+   "ind": "dizziness; headaches; tremors; numbness; convulsions",
+   "ci": "Marked Blood deficiency (caution).",
+   "dose": "3–10 g"
+  },
+  {
+   "id": "bing-pian",
+   "nom": "Borneol",
+   "act": "Opens the orifices, clears Heat, eases pain.",
+   "ind": "chest oppression and pain; sore throat; mouth ulcers (external)",
+   "ci": "Pregnancy; very small doses only, never in decoction.",
+   "dose": "0.15–0.3 g"
+  },
+  {
+   "id": "shi-chang-pu",
+   "nom": "Grassleaf sweetflag rhizome",
+   "act": "Opens the orifices, transforms Phlegm, calms the Shen, awakens the Spleen.",
+   "ind": "foggy mind; forgetfulness; tinnitus; insomnia; heavy belly; heavy head",
+   "ci": "Yin deficiency with Heat, heavy sweating.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "bai-bian-dou",
+   "nom": "White hyacinth bean",
+   "act": "Strengthens the Spleen, transforms Dampness, clears summer Heat.",
+   "ind": "loose stools; fatigue; white discharge; summer nausea",
+   "ci": "Raw: toxic (always cooked).",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "bai-zhu",
+   "nom": "White atractylodes",
+   "act": "Tonifies Spleen Qi, dries Dampness, stops sweating, calms the fetus.",
+   "ind": "fatigue; poor appetite; loose stools; edema; spontaneous sweating; morning sickness",
+   "ci": "Yin deficiency with thirst.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "ci-wu-jia",
+   "nom": "Eleuthero (Siberian ginseng)",
+   "act": "Tonifies Spleen and Kidney Qi, calms the Shen, strengthens the lower back.",
+   "ind": "fatigue; overwork; insomnia; weak lower back; low stamina",
+   "ci": "Uncontrolled hypertension; fever.",
+   "dose": "9–27 g"
+  },
+  {
+   "id": "da-zao",
+   "nom": "Jujube",
+   "act": "Tonifies Spleen Qi, nourishes Blood, calms the Shen, harmonizes the herbs.",
+   "ind": "fatigue; poor appetite; anxiety; sadness; pale complexion",
+   "ci": "Dampness, bloating, Phlegm.",
+   "dose": "3–10 pieces"
+  },
+  {
+   "id": "dang-shen",
+   "nom": "Codonopsis root",
+   "act": "Tonifies Spleen and Lung Qi, nourishes Blood, generates fluids.",
+   "ind": "fatigue; poor appetite; loose stools; breathlessness; weak voice",
+   "ci": "Excess Heat.",
+   "dose": "9–30 g",
+   "note": "Often replaces Ren Shen, gentler and cheaper (about twice the dose)."
+  },
+  {
+   "id": "gan-cao",
+   "nom": "Licorice root",
+   "act": "Tonifies Qi, moistens the Lung, eases spasms and pain, resolves toxicity, harmonizes the herbs.",
+   "ind": "fatigue; palpitations; cough; cramps; sore throat; Zhi Gan Cao (honey-fried) tonifies more",
+   "ci": "Hypertension, edema, low potassium on long courses; Dampness; \"incompatible\" with Hai Zao, Da Ji, Gan Sui and Yuan Hua (traditional).",
+   "dose": "2–10 g"
+  },
+  {
+   "id": "geng-mi",
+   "nom": "Short-grain rice",
+   "act": "Tonifies Stomach Qi, generates fluids, protects the Stomach from cold herbs.",
+   "ind": "thirst; Stomach weakness; paired with Shi Gao to protect the Stomach",
+   "ci": "None.",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "hong-jing-tian",
+   "nom": "Rhodiola root",
+   "act": "Tonifies Qi, clears the Lung, invigorates Blood, calms the Shen.",
+   "ind": "fatigue; breathlessness at altitude; cough; stress",
+   "ci": "Pregnancy; bipolar disorder (stimulating).",
+   "dose": "3–6 g"
+  },
+  {
+   "id": "huang-qi",
+   "nom": "Astragalus root",
+   "act": "Tonifies Spleen and Lung Qi, lifts Yang, secures the exterior, promotes urination, expels pus, regenerates tissue.",
+   "ind": "fatigue; recurrent colds; spontaneous sweating; prolapse; edema; slow-healing wounds",
+   "ci": "Heat, an active cold, Yin deficiency with Fire, rising Liver Yang.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "ren-shen",
+   "nom": "Ginseng root",
+   "act": "Strongly tonifies original Qi, strengthens the Spleen and Lung, generates fluids, calms the Shen.",
+   "ind": "deep exhaustion; convalescence; breathlessness; sweating; palpitations; poor memory",
+   "ci": "Hypertension, insomnia, Heat, Excess; anticoagulants; not combined with Li Lu or Wu Ling Zhi (traditional).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "shan-yao",
+   "nom": "Chinese yam",
+   "act": "Tonifies Qi and Yin of the Spleen, Lung and Kidney, secures the Essence.",
+   "ind": "fatigue; loose stools; deficiency cough; frequent urination; discharge; diabetes",
+   "ci": "Dampness, stagnation.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "yi-tang",
+   "nom": "Malt sugar",
+   "act": "Tonifies and warms the Middle, eases pain, moistens the Lung.",
+   "ind": "Deficiency-Cold stomach pain; dry cough",
+   "ci": "Dampness, Heat, diabetes, vomiting.",
+   "dose": "15–60 g"
+  },
+  {
+   "id": "ba-ji-tian",
+   "nom": "Morinda root",
+   "act": "Tonifies Kidney Yang, strengthens tendons and bones, expels Wind-Damp.",
+   "ind": "impotence; infertility; cold lower back and knees; frequent urination; irregular periods from Cold",
+   "ci": "Yin deficiency with Fire; burning urination.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "bu-gu-zhi",
+   "nom": "Psoralea fruit",
+   "act": "Tonifies Kidney Yang, secures Essence and urine, warms the Spleen, stops diarrhea.",
+   "ind": "dawn diarrhea; frequent urination, bedwetting; impotence; cold lower back; vitiligo (external)",
+   "ci": "Yin deficiency with Fire, constipation; photosensitizing; monitor the liver on long courses.",
+   "dose": "6–10 g"
+  },
+  {
+   "id": "dong-chong-xia-cao",
+   "nom": "Cordyceps",
+   "act": "Tonifies the Kidney and Lung, stops cough and wheezing, consolidates Essence.",
+   "ind": "chronic breathlessness; deficiency cough; weak lower back; impotence; convalescence",
+   "ci": "An active cold.",
+   "dose": "3–9 g",
+   "note": "Wild cordyceps is very rare; labs use cultivated mycelium (Cordyceps militaris or Cs-4)."
+  },
+  {
+   "id": "du-zhong",
+   "nom": "Eucommia bark",
+   "act": "Tonifies the Liver and Kidney, strengthens tendons and bones, calms the fetus.",
+   "ind": "sore, weak lower back; weak knees; deficiency-type high blood pressure; threatened miscarriage (under advice)",
+   "ci": "Yin deficiency with Fire.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "he-tao-ren",
+   "nom": "Walnut kernel",
+   "act": "Tonifies the Kidney, warms the Lung, calms wheezing, moistens the intestines.",
+   "ind": "weak lower back; deficiency breathlessness; chronic cough; dry constipation",
+   "ci": "Diarrhea, Heat with phlegm.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "lu-jiao-jiao",
+   "nom": "Deer antler glue",
+   "act": "Tonifies Kidney Yang, nourishes Essence and Blood, stops deficiency bleeding.",
+   "ind": "exhaustion; feeling cold; weak lower back; impotence; prolonged periods from deficiency",
+   "ci": "Yin deficiency with Fire, Heat; melt separately.",
+   "dose": "3–6 g",
+   "note": "Animal product (deer)."
+  },
+  {
+   "id": "rou-cong-rong",
+   "nom": "Cistanche",
+   "act": "Tonifies Kidney Yang, nourishes Essence and Blood, moistens the intestines.",
+   "ind": "impotence; infertility; cold lower back; constipation in older people",
+   "ci": "Diarrhea; Yin deficiency with Fire.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "sha-yuan-zi",
+   "nom": "Flattened milkvetch seed",
+   "act": "Tonifies the Kidney, secures Essence, nourishes the Liver, clears the eyes.",
+   "ind": "seminal emissions; premature ejaculation; frequent urination; blurred vision; dizziness",
+   "ci": "Yin deficiency with Fire, scanty urine.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "tu-si-zi",
+   "nom": "Dodder seed",
+   "act": "Tonifies Kidney Yang and Yin, secures Essence, nourishes the Liver, clears the eyes, calms the fetus.",
+   "ind": "impotence; seminal emissions; frequent urination; blurred vision; deficiency diarrhea; threatened miscarriage (under advice)",
+   "ci": "Yin deficiency with Fire, constipation.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "xian-mao",
+   "nom": "Curculigo rhizome",
+   "act": "Tonifies Kidney Yang, strengthens tendons and bones, expels Cold-Damp.",
+   "ind": "impotence; cold lower back and knees; frequent urination; menopause with cold",
+   "ci": "Mildly toxic: no long courses; Yin deficiency with Fire.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "xu-duan",
+   "nom": "Teasel root",
+   "act": "Tonifies the Liver and Kidney, strengthens tendons and bones, mends fractures, calms the fetus.",
+   "ind": "sore lower back; weak knees; fractures, sprains; bleeding in pregnancy (under advice)",
+   "ci": "Yin deficiency with Fire.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "yi-zhi-ren",
+   "nom": "Sharp-leaf galangal fruit",
+   "act": "Warms the Kidney and Spleen, holds urine and Essence, stops drooling.",
+   "ind": "frequent urination; bedwetting; seminal emissions; excess salivation; Cold diarrhea",
+   "ci": "Yin deficiency with Fire.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "yin-yang-huo",
+   "nom": "Epimedium (horny goat weed)",
+   "act": "Tonifies Kidney Yang, strengthens tendons and bones, expels Wind-Damp.",
+   "ind": "impotence; low libido; cold lower back; menopause; Cold joint pain",
+   "ci": "Yin deficiency with Fire; heart rhythm disorders (caution).",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "bai-shao",
+   "nom": "White peony root",
+   "act": "Nourishes Blood, preserves Yin, softens the Liver, eases spasms and pain.",
+   "ind": "irregular or painful periods; cramps; pain under the ribs; dizziness; sweating",
+   "ci": "Cold diarrhea; not combined with Li Lu (traditional).",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "dang-gui",
+   "nom": "Chinese angelica root",
+   "act": "Nourishes and moves Blood, regulates menstruation, eases pain, moistens the intestines.",
+   "ind": "scanty, irregular or painful periods; pale complexion; dizziness; numbness; dry constipation",
+   "ci": "Diarrhea, Dampness; heavy periods; anticoagulants; pregnancy without advice.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "e-jiao",
+   "nom": "Donkey-hide gelatin",
+   "act": "Nourishes Blood, stops bleeding, nourishes Yin, moistens the Lung.",
+   "ind": "anemia; dizziness; bleeding; overly long periods; dry cough; insomnia with restlessness",
+   "ci": "Weak digestion (heavy), diarrhea; melt separately.",
+   "dose": "3–9 g",
+   "note": "Animal product (donkey)."
+  },
+  {
+   "id": "he-shou-wu",
+   "nom": "Processed fleeceflower root",
+   "act": "Nourishes Blood and Essence, tonifies the Liver and Kidney, darkens the hair.",
+   "ind": "graying or falling hair; dizziness; weak lower back; blurred vision; constipation (raw form)",
+   "ci": "Liver-toxic in some people: monitor the liver, no long courses without follow-up; diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "long-yan-rou",
+   "nom": "Longan fruit",
+   "act": "Nourishes Heart and Spleen Blood, calms the Shen.",
+   "ind": "insomnia; palpitations; poor memory; fatigue; pale complexion",
+   "ci": "Dampness, Phlegm, Heat.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "shu-di-huang",
+   "nom": "Prepared rehmannia root",
+   "act": "Nourishes Blood and Yin, replenishes Essence and marrow.",
+   "ind": "anemia; dizziness; scanty periods; weak lower back; night sweats; early graying",
+   "ci": "Weak digestion, bloating, loose stools (often paired with Sha Ren or Chen Pi).",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "bai-he",
+   "nom": "Lily bulb",
+   "act": "Nourishes Lung Yin, stops cough, clears the Heart, calms the Shen.",
+   "ind": "dry cough; hoarse voice; restlessness; insomnia; sadness after an illness",
+   "ci": "Cold cough, diarrhea.",
+   "dose": "9–30 g"
+  },
+  {
+   "id": "bei-sha-shen",
+   "nom": "Glehnia root",
+   "act": "Nourishes Lung and Stomach Yin, clears Heat, generates fluids.",
+   "ind": "dry cough; dry throat; thirst; dry mouth and lips",
+   "ci": "Cold cough; not combined with Li Lu (traditional).",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "gou-qi-zi",
+   "nom": "Goji berry",
+   "act": "Nourishes the Liver and Kidney, replenishes Essence, clears the eyes, moistens the Lung.",
+   "ind": "blurred vision; dry eyes; dizziness; weak lower back; fatigue; dry cough",
+   "ci": "Diarrhea, Dampness; anticoagulants (caution).",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "gui-ban",
+   "nom": "Tortoise plastron",
+   "act": "Nourishes Yin, anchors Yang, strengthens the bones, cools the Blood.",
+   "ind": "night sweats; hot flushes; dizziness; fragile bones; heavy periods from Heat",
+   "ci": "Pregnancy; Spleen Cold; protected species: use farmed alternatives or leave it out.",
+   "dose": "9–24 g",
+   "note": "Animal product (turtle)."
+  },
+  {
+   "id": "hei-zhi-ma",
+   "nom": "Black sesame seed",
+   "act": "Nourishes the Liver and Kidney, Essence and Blood, moistens the intestines.",
+   "ind": "graying hair; dizziness; blurred vision; dry constipation; dry skin",
+   "ci": "Diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "huang-jing",
+   "nom": "Siberian Solomon's seal rhizome",
+   "act": "Nourishes Yin, tonifies Spleen Qi, moistens the Lung, nourishes Essence.",
+   "ind": "fatigue; dry cough; dry mouth; dizziness; weak lower back; diabetes",
+   "ci": "Dampness, Phlegm, diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "mai-men-dong",
+   "nom": "Ophiopogon tuber",
+   "act": "Nourishes Lung, Stomach and Heart Yin, moistens, relieves restlessness.",
+   "ind": "dry cough; dry throat and mouth; thirst; insomnia with restlessness; dry constipation",
+   "ci": "Cold cough, diarrhea, Dampness.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "mo-han-lian",
+   "nom": "Eclipta",
+   "act": "Nourishes Liver and Kidney Yin, cools the Blood, stops bleeding.",
+   "ind": "early graying; dizziness; deficiency-Heat bleeding; heavy periods",
+   "ci": "Spleen Cold, diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "sang-shen",
+   "nom": "White mulberry fruit",
+   "act": "Nourishes Blood and Yin, generates fluids, moistens the intestines.",
+   "ind": "dizziness; tinnitus; insomnia; graying hair; thirst; dry constipation",
+   "ci": "Spleen Cold, diarrhea.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "tian-men-dong",
+   "nom": "Chinese asparagus tuber",
+   "act": "Nourishes Lung and Kidney Yin, clears Heat, moistens.",
+   "ind": "dry cough with heat; dry throat; thirst; night sweats; dry constipation",
+   "ci": "Spleen Cold, diarrhea, Cold cough.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "yu-zhu",
+   "nom": "Fragrant Solomon's seal rhizome",
+   "act": "Nourishes Lung and Stomach Yin, generates fluids.",
+   "ind": "dry cough; dry throat; thirst; hunger without appetite",
+   "ci": "Dampness, Phlegm.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "fu-pen-zi",
+   "nom": "Chinese raspberry",
+   "act": "Tonifies the Kidney, secures Essence and urine, clears the eyes.",
+   "ind": "frequent urination; bedwetting; seminal emissions; impotence; blurred vision",
+   "ci": "Yin deficiency with Fire, scanty dark urine.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "fu-xiao-mai",
+   "nom": "Light wheat grain (floating)",
+   "act": "Stops sweating, nourishes the Heart, clears deficiency Heat.",
+   "ind": "spontaneous sweating; night sweats; anxiety; restlessness",
+   "ci": "Excess-type sweating (fever); gluten intolerance (caution).",
+   "dose": "15–30 g"
+  },
+  {
+   "id": "he-zi",
+   "nom": "Chebule fruit",
+   "act": "Binds the intestines, stops diarrhea, astringes the Lung, clears the voice.",
+   "ind": "chronic diarrhea; chronic cough; lost voice",
+   "ci": "Recent diarrhea or cough with Excess.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "lian-xu",
+   "nom": "Lotus stamen",
+   "act": "Secures Essence, tonifies the Kidney, stops bleeding.",
+   "ind": "seminal emissions; frequent urination; white discharge",
+   "ci": "Scanty urine.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "lian-zi",
+   "nom": "Lotus seed",
+   "act": "Strengthens the Spleen, stops diarrhea, secures Essence, nourishes the Heart, calms the Shen.",
+   "ind": "chronic diarrhea; white discharge; seminal emissions; palpitations; insomnia",
+   "ci": "Constipation, bloating.",
+   "dose": "6–15 g"
+  },
+  {
+   "id": "ma-huang-gen",
+   "nom": "Ephedra root",
+   "act": "Stops sweating.",
+   "ind": "spontaneous sweating; night sweats",
+   "ci": "Sweating from an active cold.",
+   "dose": "3–9 g",
+   "note": "Unlike the stem (Ma Huang), the root does not induce sweating and contains almost no ephedrine."
+  },
+  {
+   "id": "qian-shi",
+   "nom": "Euryale seed",
+   "act": "Tonifies the Spleen and Kidney, secures Essence, stops diarrhea and discharge.",
+   "ind": "white discharge; chronic diarrhea; seminal emissions; frequent urination",
+   "ci": "Constipation, scanty urine.",
+   "dose": "9–15 g"
+  },
+  {
+   "id": "rou-dou-kou",
+   "nom": "Nutmeg",
+   "act": "Binds the intestines, stops diarrhea, warms the Middle, moves Qi.",
+   "ind": "chronic or dawn diarrhea; cold belly; bloating",
+   "ci": "Heat diarrhea; toxic at high doses (no more than a few grams).",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "shan-zhu-yu",
+   "nom": "Asiatic dogwood fruit",
+   "act": "Tonifies the Liver and Kidney, secures Essence, stops sweating and bleeding.",
+   "ind": "weak lower back; dizziness; frequent urination; seminal emissions; heavy sweating; heavy periods",
+   "ci": "Scanty painful urination, Damp-Heat.",
+   "dose": "6–12 g"
+  },
+  {
+   "id": "wu-mei",
+   "nom": "Smoked mume plum",
+   "act": "Astringes the Lung and intestines, generates fluids, calms worms.",
+   "ind": "chronic cough; chronic diarrhea; thirst; diabetes; intestinal worms",
+   "ci": "Excess, Heat, an active cold; excess acidity.",
+   "dose": "3–9 g"
+  },
+  {
+   "id": "wu-wei-zi",
+   "nom": "Schisandra (\"five-flavor fruit\")",
+   "act": "Astringes the Lung and Kidney, generates fluids, stops sweating, secures Essence, calms the Shen.",
+   "ind": "chronic cough; breathlessness; sweating; thirst; seminal emissions; insomnia; palpitations",
+   "ci": "An active cold, recent cough, Excess Heat; possible interactions with some drugs (liver).",
+   "dose": "3–6 g"
+  }
+ ]
+}
